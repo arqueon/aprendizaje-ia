@@ -1,7 +1,11 @@
-baseURL: 'https://example.org/'
-title: 'IA y aprendizaje'
+baseURL: 'https://arqueon.github.io/aprendizaje-ia/'
+title: 'Aprendizaje digital e IA'
 enableRobotsTXT: true
 enableGitInfo: true
+languageCode: 'es-mx'
+defaultContentLanguage: 'es-mx'
+
+
 
 module:
   imports:
@@ -9,18 +13,26 @@ module:
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+    - identifier: laboratorio
+      name: Laboratorio
+      pageRef: /laboratorio
       weight: 1
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
+    - identifier: observatorio
+      name: Observatorio IA
+      pageRef: /observatorio
       weight: 2
-    - identifier: about
-      name: About
-      pageRef: /about
+    - identifier: recursos
+      name: Recursos para la docencia
+      pageRef: /recursos
       weight: 3
+    - identifier: cultura
+      name: Cultura Digital
+      pageRef: /cultura
+      weight: 4
+    - identifier: acuerdos
+      name: Marcos de referencia
+      pageRef: /marcos-referencia
+      weight: 5
     - identifier: search
       name: Search
       weight: 10
@@ -38,12 +50,24 @@ menu:
       weight: 2
 
 params:
+  navbar:
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      width: 100
+      height: 40
   editURL: 
     enable: false
   footer:
     enable: true
-    content: "© 2024 My Hextra Site"
+    content: |
+      <img src="/images/logo-dark.svg" alt="UDG+ Logo" style="height: 30px; margin-right: 10px; vertical-align: middle;" />
+      © 2026 UDG+ Aprendizaje Digital
 
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
