@@ -31,7 +31,7 @@ menu:
       weight: 4
     - identifier: acuerdos
       name: Marcos de referencia
-      pageRef: /marcos-referencia
+      pageRef: /acuerdos
       weight: 5
     - identifier: search
       name: Search

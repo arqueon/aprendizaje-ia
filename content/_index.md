@@ -18,15 +18,15 @@
   {{< card link="/observatorio" title="Observatorio IA" icon="eye" >}}
   {{< card link="/recursos" title="Recursos Docentes" icon="book-open" >}}
   {{< card link="/cultura" title="Cultura Digital" icon="user-group" >}}
-  {{< card link="/marcos-referencia" title="Marcos de referencia" icon="scale" >}}
+  {{< card link="/acuerdos" title="Marcos de referencia" icon="scale" >}}
 {{< /cards >}}
 
 <!-- Logo Section (Moved Bottom & Resized) -->
 <div class="mx-auto w-full max-w-screen-xl px-6 lg:px-8 py-12 text-center">
   <!-- Light Mode Logo: Blue -->
-  <img src="/images/logo.svg" alt="UDG+ Logo" class="mx-auto mb-8 hero-logo-light" style="height: 6.25rem !important;" />
+  <img src="images/logo.svg" alt="UDG+ Logo" class="mx-auto mb-8 hero-logo-light" style="height: 6.25rem !important;" />
   <!-- Dark Mode Logo: White -->
-  <img src="/images/logo-dark.svg" alt="UDG+ Logo" class="mx-auto mb-8 hero-logo-dark" style="height: 6.25rem !important;" />
+  <img src="images/logo-dark.svg" alt="UDG+ Logo" class="mx-auto mb-8 hero-logo-dark" style="height: 6.25rem !important;" />
 </div>
 
 <!-- Sección de Estadísticas o Gráficas (Ejemplo con Mermaid) -->
