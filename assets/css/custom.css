@@ -1,99 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-:root {
-    --primary-hue: 204 !important;
-    /* Approx for #002d4b */
-    --primary-saturation: 100% !important;
-    --primary-lightness: 15% !important;
-}
-
-html {
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif !important;
-}
-
-/* Navbar Customization using UDG Blue */
-.hx-navbar {
-    background-color: #002d4b !important;
-    color: white !important;
-}
-
-.hx-navbar-brand {
-    color: white !important;
-}
-
-.hx-navbar a {
-    color: white !important;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
-/* Active links in navbar */
-.hx-navbar a.active,
-.hx-navbar a:hover {
-    color: #ffa500 !important;
-    /* UDG Orange */
-}
-
-/* Buttons */
-.bg-primary-600 {
-    background-color: #002d4b !important;
-}
-
-.bg-primary-600:hover {
-    background-color: #00223a !important;
-}
-
-/* Hero Section specific overrides to match UDG vibe */
-/* Removed hardcoded h1 color to allow Tailwind classes in HTML to control light/dark mode */
-
-/* Make H1 and Headings Bold Montserrat */
+/* Typography Overrides */
+html,
+body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.hx-navbar {
     font-family: 'Montserrat', sans-serif !important;
-    font-weight: 700 !important;
 }
 
-/* Card customizations - more rectangular */
+/* Navbar Customization - Typography Only */
+.hx-navbar a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Component Overrides - Shape Only */
 .hextra-card {
     border-radius: 2px !important;
-    /* Square-ish */
     border: 1px solid #e5e7eb;
 }
 
-/* Footer styling */
-footer {
-    background-color: #002d4b !important;
-    color: white !important;
-}
-
-/* Dark Mode Overrides - Blue instead of Black */
-html.dark body {
-    background-color: #001524 !important;
-    /* Deep/Dark Blue background */
-    color: white !important;
-}
-
-html.dark .hx-navbar {
-    background-color: #001524 !important;
-    /* Match body or keep distinct */
-}
-
-html.dark .hextra-card {
-    background-color: #002d4b !important;
-    /* Lighter blue for cards */
-    border-color: #1e3a8a !important;
-}
-
-/* Explicit Hero Logo Toggling */
+/* Utilities */
 .hero-logo-light {
     display: block;
 }
@@ -102,64 +34,10 @@ html.dark .hextra-card {
     display: none;
 }
 
-/* Dark Mode Logo States */
 html.dark .hero-logo-light {
     display: none;
 }
 
 html.dark .hero-logo-dark {
     display: block;
-}
-
-/* Fix Scroll to Top Button contrast in Dark Mode */
-/* Fix Scroll to Top Button contrast */
-#backToTop {
-    background-color: transparent !important;
-    color: #002d4b !important;
-    border: 1px solid #002d4b;
-}
-
-html.dark #backToTop {
-    background-color: #002d4b !important;
-    /* UDG Blue background */
-    color: white !important;
-    border: 1px solid #1e3a8a;
-}
-
-/* Force transparency on ALL potential TOC/Sidebar containers to remove black box */
-.hextra-toc-footer,
-.hextra-scrollbar,
-aside,
-footer,
-.hextra-toc,
-nav.hextra-toc,
-div.hextra-toc,
-div.hextra-scrollbar {
-    background-color: transparent !important;
-}
-
-html.dark .hextra-toc-footer {
-    background-color: transparent !important;
-}
-
-/* Fix Search Results Background Transparency */
-.heading-results,
-.search-results-list,
-.search-results,
-.hextra-search-results,
-div[id^="headlessui-options"] {
-    background-color: white !important;
-    color: black !important;
-    border: 1px solid #e5e7eb;
-    z-index: 50;
-}
-
-html.dark .heading-results,
-html.dark .search-results-list,
-html.dark .search-results,
-html.dark .hextra-search-results,
-html.dark div[id^="headlessui-options"] {
-    background-color: #002d4b !important;
-    color: white !important;
-    border: 1px solid #1e3a8a;
 }
