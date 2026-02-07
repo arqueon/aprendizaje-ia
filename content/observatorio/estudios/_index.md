@@ -10,4 +10,4 @@ Resultados de encuestas y monitoreo del ecosistema. Una radiografía de cómo la
 
 Este estudio cuenta con la participación de la **Universidad de Guadalajara**, aportando una muestra significativa de **6,578** universitarios.
 
-{{< card link="/observatorio/estudios/encuesta-dec-2026" title="Leer Informe Completo y Gráficas" icon="book-open" >}}
+{{< card link="/aprendizaje-ia/observatorio/estudios/encuesta-dec-2026" title="Leer Informe Completo y Gráficas" icon="book-open" >}}

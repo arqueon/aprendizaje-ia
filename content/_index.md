@@ -14,11 +14,11 @@
 
 <!-- Tarjetas (Cards) con Iconos -->
 {{< cards >}}
-  {{< card link="/laboratorio" title="Laboratorio de Innovación" icon="beaker" >}}
-  {{< card link="/observatorio" title="Observatorio IA" icon="eye" >}}
-  {{< card link="/recursos" title="Recursos Docentes" icon="book-open" >}}
-  {{< card link="/cultura" title="Cultura Digital" icon="user-group" >}}
-  {{< card link="/acuerdos" title="Marcos de referencia" icon="scale" >}}
+  {{< card link="/aprendizaje-ia/laboratorio" title="Laboratorio de Innovación" icon="beaker" >}}
+  {{< card link="/aprendizaje-ia/observatorio" title="Observatorio IA" icon="eye" >}}
+  {{< card link="/aprendizaje-ia/recursos" title="Recursos Docentes" icon="book-open" >}}
+  {{< card link="/aprendizaje-ia/cultura" title="Cultura Digital" icon="user-group" >}}
+  {{< card link="/aprendizaje-ia/marcos-referencia" title="Marcos de referencia" icon="scale" >}}
 {{< /cards >}}
 
 <!-- Logo Section (Moved Bottom & Resized) -->
