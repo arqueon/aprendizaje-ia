@@ -1,43 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-
-/* Typography Overrides */
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.hx-navbar {
-    font-family: 'Montserrat', sans-serif !important;
+html.dark,
+html.dark body {
+  background-color: #0a192f !important;
+  color: #fff;
 }
 
-/* Navbar Customization - Typography Only */
-.hx-navbar a {
-    text-transform: uppercase;
-    font-weight: 600;
+/* Override the dark background utility class used by Hextra */
+html.dark .hx\:dark\:bg-dark {
+  background-color: #0a192f !important;
 }
 
-/* Component Overrides - Shape Only */
-.hextra-card {
-    border-radius: 2px !important;
-    border: 1px solid #e5e7eb;
+/* Override footer if needed */
+html.dark .hextra-footer {
+  background-color: #0a192f !important;
 }
 
-/* Utilities */
-.hero-logo-light {
-    display: block;
-}
-
+/* Logo toggling */
 .hero-logo-dark {
-    display: none;
-}
-
-html.dark .hero-logo-light {
-    display: none;
+  display: none;
 }
 
 html.dark .hero-logo-dark {
-    display: block;
+  display: block;
+}
+
+html.dark .hero-logo-light {
+  display: none;
+}
+
+/* Dark Mode Cards */
+html.dark .hextra-card {
+  background-color: #112240 !important;
+  /* Lighter navy for contrast */
+  border-color: #233554 !important;
+  /* Subtle border */
+}
+
+html.dark .hextra-card:hover {
+  background-color: #233554 !important;
+  /* Even lighter on hover */
+  transform: translateY(-2px);
+  /* Subtle lift effect */
+  transition: all 0.2s ease-in-out;
 }

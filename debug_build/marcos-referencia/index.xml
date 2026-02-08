@@ -1,0 +1,45 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aprendizaje digital e IA – Marcos de referencia</title>
+    <link>https://arqueon.github.io/aprendizaje-ia/marcos-referencia/</link>
+    <description>Recent content in Marcos de referencia on Aprendizaje digital e IA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    
+	  <atom:link href="https://arqueon.github.io/aprendizaje-ia/marcos-referencia/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title></title>
+      <link>https://arqueon.github.io/aprendizaje-ia/marcos-referencia/metacognicion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arqueon.github.io/aprendizaje-ia/marcos-referencia/metacognicion/</guid>
+      <description>
+        
+        
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Disposiciones de uso ético de la IA para la docencia y la investigación</title>
+      <link>https://arqueon.github.io/aprendizaje-ia/marcos-referencia/uso-etico/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arqueon.github.io/aprendizaje-ia/marcos-referencia/uso-etico/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Priorizar el criterio humano en la producción científica y la práctica educativa.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

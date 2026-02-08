@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aprendizaje digital e IA – Recursos y herramientas</title>
+    <link>https://arqueon.github.io/aprendizaje-ia/recursos/</link>
+    <description>Recent content in Recursos y herramientas on Aprendizaje digital e IA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-mx</language>
+    
+	  <atom:link href="https://arqueon.github.io/aprendizaje-ia/recursos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Explorador de herramientas externas</title>
+      <link>https://arqueon.github.io/aprendizaje-ia/recursos/externas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arqueon.github.io/aprendizaje-ia/recursos/externas/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Curaduría de aplicaciones de terceros que, aunque conllevan más responsabilidad individual, ofrecen funcionalidades específicas que la institución tarda en ofrecer.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Herramientas institucionales</title>
+      <link>https://arqueon.github.io/aprendizaje-ia/recursos/institucionales/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://arqueon.github.io/aprendizaje-ia/recursos/institucionales/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Software y plataformas recomendados por la universidad, caracterizados por su robustez y soporte oficial.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
