@@ -22,10 +22,10 @@ Este estudio cuenta con la participación de la **Universidad de Guadalajara**, 
 A continuación puedes consultar el documento completo directamente en el navegador.
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 125%; margin-top: 2rem; margin-bottom: 2rem;">
-    <iframe src="/aprendizaje-ia/files/encuesta_ia_latam_2026.pdf" 
+    <iframe src="/files/encuesta_ia_latam_2026.pdf" 
             style="position: absolute; width: 100%; height: 100%; border: none;" 
             allowfullscreen>
     </iframe>
 </div>
 
-Si tienes problemas para visualizarlo, puedes [descargar el PDF aquí](/aprendizaje-ia/files/encuesta_ia_latam_2026.pdf).
+Si tienes problemas para visualizarlo, puedes [descargar el PDF aquí](/files/encuesta_ia_latam_2026.pdf).
