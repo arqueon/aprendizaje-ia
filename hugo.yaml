@@ -9,7 +9,8 @@ defaultContentLanguage: 'es-mx'
 
 module:
   imports:
-    - path: github.com/imfing/hextra
+    - path: github.com/google/docsy
+
 
 menu:
   main:
@@ -33,37 +34,50 @@ menu:
       name: Marcos de referencia
       pageRef: /marcos-referencia
       weight: 5
-    - identifier: search
-      name: Search
-      weight: 10
-      params: 
-        type: search
-  sidebar:
-    - identifier: more
-      name: More
-      weight: 1
-      params:
-        type: separator
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 2
 
 params:
-  navbar:
-    displayLogo: true
-    logo:
-      path: images/logo.svg
-      dark: images/logo-dark.svg
-      width: 100
-      height: 40
-  editURL: 
-    enable: false
-  footer:
+  copyright: "© 2026 UDG+ Aprendizaje Digital"
+  privacy_policy: https://policies.google.com/privacy # Optional
+  
+  # Repository configuration (URLs for editing content)
+  github_repo: https://github.com/arqueon/aprendizaje-ia
+  github_subdir: "" # Subdirectory in the repo, if any
+  time_format_default: "2006.01.02"
+  time_format_blog: "2006.01.02"
+  
+  # Link sidebar to main menu
+  section_menu_id: main
+
+  # User Interface configuration
+  ui:
+    breadcrumb_disable: false
+    footer_about_enable: true
+    navbar_logo: true
+    sidebar_menu_compact: true
+    sidebar_search_disable: false
+
+  # Enable Mermaid diagrams
+  mermaid:
     enable: true
-    content: |
-      <img src="/images/logo-dark.svg" alt="UDG+ Logo" style="height: 30px; margin-right: 10px; vertical-align: middle;" />
-      © 2026 UDG+ Aprendizaje Digital
+    theme: default
+
+  # Enable offline search (Lunr/FlexSearch)
+  offlineSearch: true
+
+  # Links
+  links:
+    user:
+      - name: Twitter
+        url: https://twitter.com/
+        icon: fab fa-twitter
+      - name: GitHub
+        url: https://github.com/
+        icon: fab fa-github
+    developer:
+      - name: GitHub
+        url: https://github.com/
+        icon: fab fa-github
+
 
 markup:
   goldmark:

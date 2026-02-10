@@ -1,15 +1,15 @@
 ---
 ---
 
-<div class="hextra-hero mx-auto w-full max-w-screen-xl px-6 lg:px-8 pt-16 pb-24 text-center my-4 rounded-sm shadow-md bg-white text-gray-900 dark:bg-[#002d4b] dark:text-white">
-  
-  <h1 class="text-4xl font-bold tracking-tight sm:text-6xl mb-6 font-montserrat uppercase text-[#002d4b] dark:text-[#93c5fd]">
-    Aprendizaje Digital e IA
-  </h1>
-  <p class="text-lg leading-8 max-w-2xl mx-auto mb-10 font-montserrat text-gray-600 dark:text-gray-200">
-    Espacio de convergencia de la pedagogía y la tecnología para abordar la complejidad de la docencia actual.
-  </p>
-
+<div class="row text-center py-5 my-4 bg-white rounded shadow-sm text-dark">
+  <div class="col-lg-8 mx-auto">
+      <h1 class="display-4 fw-bold mb-4 text-primary">
+        Aprendizaje Digital e IA
+      </h1>
+      <p class="lead mb-5 text-secondary">
+        Espacio de convergencia de la pedagogía y la tecnología para abordar la complejidad de la docencia actual.
+      </p>
+  </div>
 </div>
 
 <!-- Tarjetas (Cards) con Iconos -->
