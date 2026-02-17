@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://arqueon.github.io/aprendizaje-ia/'
 languageCode = 'en-us'
 title = 'Aprendizaje Digital e IA'
 theme = 'github.com/nunocoracao/blowfish/v2'
