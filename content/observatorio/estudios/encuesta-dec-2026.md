@@ -8,7 +8,7 @@ description: Informe completo sobre la adopción de IA en universidades de Latin
 
 Este estudio cuenta con la participación de la **Universidad de Guadalajara**. Se realiza a partir de una muestra de 22,941 de estudiantes y 7,319 profesores, en 29 instituciones de educación superior en Latinoamérica. La UdeG representa el 24.5% de la muestra total con **6,578 universitarios**.
 
-### Distribución de Participantes (UdeG)
+### Distribución de Participantes (UdeG) 
 
 *   **Estudiantes**: 5,617 (85.4%)
     *   *Predominio de nivel medio superior y licenciatura temprana.*
