@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="60%" stop-color="#0c4a6e"/>
+      <stop offset="100%" stop-color="#164e63"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="40%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="75%" cy="60%" r="35%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#glow1)"/>
+  <rect width="1200" height="600" fill="url(#glow2)"/>
+
+  <!-- Grid lines -->
+  <g stroke="#38bdf8" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="800" y1="0" x2="800" y2="600"/>
+    <line x1="1000" y1="0" x2="1000" y2="600"/>
+  </g>
+
+  <!-- Network connections -->
+  <g stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1" fill="none">
+    <line x1="150" y1="180" x2="320" y2="120"/>
+    <line x1="320" y1="120" x2="520" y2="200"/>
+    <line x1="520" y1="200" x2="680" y2="150"/>
+    <line x1="680" y1="150" x2="850" y2="250"/>
+    <line x1="850" y1="250" x2="1050" y2="180"/>
+    <line x1="150" y1="180" x2="280" y2="320"/>
+    <line x1="280" y1="320" x2="520" y2="200"/>
+    <line x1="280" y1="320" x2="450" y2="420"/>
+    <line x1="450" y1="420" x2="650" y2="380"/>
+    <line x1="650" y1="380" x2="850" y2="250"/>
+    <line x1="650" y1="380" x2="800" y2="470"/>
+    <line x1="800" y1="470" x2="1050" y2="180"/>
+    <line x1="800" y1="470" x2="1000" y2="500"/>
+    <line x1="520" y1="200" x2="450" y2="420"/>
+    <line x1="320" y1="120" x2="280" y2="320"/>
+    <line x1="680" y1="150" x2="650" y2="380"/>
+    <line x1="1050" y1="180" x2="1000" y2="500"/>
+    <line x1="100" y1="420" x2="280" y2="320"/>
+    <line x1="100" y1="420" x2="150" y2="180"/>
+    <line x1="100" y1="420" x2="450" y2="420"/>
+  </g>
+
+  <!-- Hub nodes (larger) -->
+  <g fill="#0ea5e9" fill-opacity="0.9">
+    <circle cx="520" cy="200" r="10"/>
+    <circle cx="650" cy="380" r="8"/>
+    <circle cx="280" cy="320" r="7"/>
+    <circle cx="850" cy="250" r="8"/>
+  </g>
+
+  <!-- Secondary nodes -->
+  <g fill="#38bdf8" fill-opacity="0.7">
+    <circle cx="150" cy="180" r="5"/>
+    <circle cx="320" cy="120" r="5"/>
+    <circle cx="680" cy="150" r="5"/>
+    <circle cx="450" cy="420" r="5"/>
+    <circle cx="800" cy="470" r="5"/>
+    <circle cx="1050" cy="180" r="5"/>
+    <circle cx="1000" cy="500" r="4"/>
+    <circle cx="100" cy="420" r="4"/>
+  </g>
+
+  <!-- Node labels (subtle) -->
+  <g fill="#7dd3fc" font-family="monospace" font-size="10" fill-opacity="0.5">
+    <text x="530" y="196">IA</text>
+    <text x="660" y="376">Evaluación</text>
+    <text x="290" y="316">Docencia</text>
+    <text x="860" y="246">Innovación</text>
+  </g>
+
+  <!-- Floating dots (ambient) -->
+  <g fill="#bae6fd" fill-opacity="0.3">
+    <circle cx="70" cy="80" r="2"/>
+    <circle cx="390" cy="50" r="2"/>
+    <circle cx="750" cy="80" r="2"/>
+    <circle cx="1100" cy="350" r="2"/>
+    <circle cx="950" cy="550" r="2"/>
+    <circle cx="200" cy="550" r="2"/>
+    <circle cx="600" cy="520" r="3"/>
+    <circle cx="1150" cy="80" r="2"/>
+    <circle cx="50" cy="280" r="2"/>
+  </g>
+
+  <!-- Bottom gradient overlay for text readability -->
+  <defs>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#overlay)"/>
+</svg>

@@ -3,6 +3,9 @@ title: "Marcos de Referencia"
 description: "Fundamentos teóricos y éticos para el uso de IA en educación: metacognición, uso responsable y disposiciones para el aprendizaje."
 summary: "Referentes conceptuales que orientan el diseño pedagógico con IA: desde la metacognición hasta las disposiciones éticas para el aprendizaje en entornos digitales."
 weight: 5
+showHero: true
+heroStyle: "big"
+featureimage: "images/hero-marcos.svg"
 showBreadcrumbs: true
 showSummary: true
 ---
