@@ -5,11 +5,11 @@ showMermaid: true
 ---
 
 {{< cards >}}
-  {{< card link="/laboratorio" title="Laboratorio de Innovación" icon="flask" description="Diseño de experiencias de aprendizaje e integración de IA en el aula." >}}
-  {{< card link="/observatorio" title="Observatorio IA" icon="eye" description="Seguimiento de tendencias, encuestas y documentación de buenas prácticas." >}}
-  {{< card link="/recursos" title="Recursos Docentes" icon="book-open" description="Herramientas institucionales y externas para la práctica pedagógica." >}}
-  {{< card link="/cultura" title="Cultura Digital" icon="users" description="Alfabetización, ética, directrices y formación docente en entornos digitales." >}}
-  {{< card link="/marcos-referencia" title="Marcos de Referencia" icon="balance-scale" description="Metacognición, uso ético y disposiciones para el aprendizaje con IA." >}}
+  {{< card link="laboratorio/" title="Laboratorio de Innovación" icon="flask" description="Diseño de experiencias de aprendizaje e integración de IA en el aula." >}}
+  {{< card link="observatorio/" title="Observatorio IA" icon="eye" description="Seguimiento de tendencias, encuestas y documentación de buenas prácticas." >}}
+  {{< card link="recursos/" title="Recursos Docentes" icon="book-open" description="Herramientas institucionales y externas para la práctica pedagógica." >}}
+  {{< card link="cultura/" title="Cultura Digital" icon="users" description="Alfabetización, ética, directrices y formación docente en entornos digitales." >}}
+  {{< card link="marcos-referencia/" title="Marcos de Referencia" icon="balance-scale" description="Metacognición, uso ético y disposiciones para el aprendizaje con IA." >}}
 {{< /cards >}}
 
 ## Ecosistema de Aprendizaje
