@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <radialGradient id="radar" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="500" fill="url(#bg)"/>
+
+  <!-- Radar circles centered -->
+  <g transform="translate(600,250)" fill="none" stroke="#818cf8" stroke-opacity="0.2" stroke-width="1">
+    <circle r="50"/>
+    <circle r="100"/>
+    <circle r="160"/>
+    <circle r="220"/>
+    <circle r="290"/>
+    <circle r="370"/>
+  </g>
+
+  <!-- Radar glow -->
+  <g transform="translate(600,250)">
+    <circle r="160" fill="url(#radar)"/>
+  </g>
+
+  <!-- Radar crosshairs -->
+  <g stroke="#818cf8" stroke-opacity="0.15" stroke-width="1">
+    <line x1="600" y1="0" x2="600" y2="500"/>
+    <line x1="0" y1="250" x2="1200" y2="250"/>
+    <line x1="230" y1="0" x2="970" y2="500"/>
+    <line x1="970" y1="0" x2="230" y2="500"/>
+  </g>
+
+  <!-- Radar sweep (static representation) -->
+  <g transform="translate(600,250)">
+    <line x1="0" y1="0" x2="260" y2="-80" stroke="#a5b4fc" stroke-opacity="0.4" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="200" y2="-160" stroke="#818cf8" stroke-opacity="0.15" stroke-width="1"/>
+    <line x1="0" y1="0" x2="300" y2="20" stroke="#818cf8" stroke-opacity="0.1" stroke-width="1"/>
+  </g>
+
+  <!-- Data points (blips) -->
+  <g fill="#a5b4fc">
+    <circle cx="760" cy="180" r="5" fill-opacity="0.9"/>
+    <circle cx="420" cy="170" r="4" fill-opacity="0.7"/>
+    <circle cx="820" cy="320" r="4" fill-opacity="0.6"/>
+    <circle cx="380" cy="350" r="3" fill-opacity="0.5"/>
+    <circle cx="680" cy="120" r="3" fill-opacity="0.7"/>
+    <circle cx="950" cy="250" r="4" fill-opacity="0.5"/>
+    <circle cx="260" cy="260" r="3" fill-opacity="0.45"/>
+    <circle cx="700" cy="380" r="3" fill-opacity="0.5"/>
+    <circle cx="500" cy="130" r="3" fill-opacity="0.6"/>
+    <circle cx="1020" cy="180" r="3" fill-opacity="0.4"/>
+    <circle cx="150" cy="320" r="3" fill-opacity="0.4"/>
+  </g>
+
+  <!-- Blip rings (active detection) -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1">
+    <circle cx="760" cy="180" r="12" stroke-opacity="0.3"/>
+    <circle cx="760" cy="180" r="20" stroke-opacity="0.15"/>
+    <circle cx="820" cy="320" r="10" stroke-opacity="0.25"/>
+  </g>
+
+  <!-- Center dot -->
+  <circle cx="600" cy="250" r="6" fill="#c7d2fe" fill-opacity="0.9"/>
+  <circle cx="600" cy="250" r="12" fill="none" stroke="#818cf8" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <!-- Axes labels (subtle) -->
+  <g fill="#6366f1" font-family="monospace" font-size="9" fill-opacity="0.4">
+    <text x="605" y="30">N</text>
+    <text x="605" y="482">S</text>
+    <text x="1165" y="253">E</text>
+    <text x="22" y="253">O</text>
+  </g>
+
+  <!-- Floating data snippets -->
+  <g fill="#a5b4fc" font-family="monospace" font-size="9" fill-opacity="0.3">
+    <text x="780" y="170">●  tendencia</text>
+    <text x="440" y="160">●  práctica</text>
+    <text x="840" y="315">●  evidencia</text>
+    <text x="960" y="243">●  dato</text>
+  </g>
+
+  <!-- Corner decorations -->
+  <g fill="none" stroke="#6366f1" stroke-opacity="0.2" stroke-width="1">
+    <polyline points="30,30 30,70 70,70"/>
+    <polyline points="1170,30 1170,70 1130,70"/>
+    <polyline points="30,470 30,430 70,430"/>
+    <polyline points="1170,470 1170,430 1130,430"/>
+  </g>
+</svg>

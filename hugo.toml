@@ -36,6 +36,8 @@ mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-re
   showScrollToTop = true
 
 [params.list]
+  showHero = true
+  heroStyle = "big"
   showCards = true
   showSummary = true
   groupByYear = false
