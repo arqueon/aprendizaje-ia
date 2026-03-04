@@ -70,6 +70,11 @@ identifier = "marcos-referencia"
 name = "Marcos de Referencia"
 url = "/marcos-referencia/"
 weight = 50
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 60
 
 [markup]
 [markup.goldmark]

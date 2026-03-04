@@ -5,11 +5,29 @@ draft: true
 description: ""
 summary: ""
 tags: []
-categories: []
-showToc: true
+categories: ["practica-pedagogica"]
+
+# Layout
+showHero: true
+heroStyle: "big"
+showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
 showSummary: true
+showTaxonomies: true
+showRelatedContent: true
+showAuthor: false
+
+# Imagen de portada
+featureimage: ""
+featureimagecaption: ""
+
+# Metadatos de la práctica
+nivelEducativo: ""        # ej. "Licenciatura", "Posgrado"
+asignatura: ""
+modalidad: ""             # "Presencial", "En línea", "Híbrida"
+herramientasIA: []        # ej. ["ChatGPT", "Perplexity", "NotebookLM"]
+tipoEvaluacion: ""        # ej. "Rúbrica", "Portfolio", "Coevaluación"
 ---
 
 ## Contexto
@@ -23,6 +41,10 @@ _¿Qué aprenderán los estudiantes? ¿Qué competencias se desarrollan?_
 ## Cómo se integra la IA
 
 _Herramientas utilizadas, rol de la IA en el proceso (asistente, evaluador, generador, etc.)._
+
+## Descripción de la actividad
+
+_Paso a paso de cómo se desarrolla la práctica en el aula._
 
 ## Forma de evaluación
 
