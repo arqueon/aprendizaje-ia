@@ -1,23 +1,48 @@
 baseURL = '/'
-languageCode = 'en-us'
+languageCode = 'es'
 title = 'Aprendizaje Digital e IA'
 theme = 'github.com/nunocoracao/blowfish/v2'
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params]
-colorScheme = "blowfish"
+colorScheme = "ocean"
 defaultTheme = "light"
 enableSearch = true
 showMermaid = true
+mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-referencia"]
+
+[params.homepage]
+  layout = "background"
+  homepageImage = "images/hero-bg.svg"
+  showRecent = false
 
 [params.article]
-showMermaid = true
+  showMermaid = true
+  showDate = true
+  showAuthor = false
+  showReadingTime = true
+  showWordCount = false
+  showTags = true
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 3
+  showScrollToTop = true
+
+[params.list]
+  showCards = true
+  showSummary = true
+  groupByYear = false
 
 [params.sidebar]
-showSidebar = true
-groupDepth = 2
+  showSidebar = true
+  groupDepth = 2
 
 [menu]
 [[menu.main]]
