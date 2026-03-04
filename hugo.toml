@@ -15,6 +15,7 @@ colorScheme = "ocean"
 defaultTheme = "light"
 enableSearch = true
 showMermaid = true
+logo = "images/udg-logo.svg"
 mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-referencia"]
 
 [params.homepage]
@@ -45,6 +46,17 @@ mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-re
 [params.sidebar]
   showSidebar = true
   groupDepth = 2
+
+[params.author]
+  name = "Aprendizaje Digital e IA"
+  headline = "UDGplus"
+  links = [
+    { facebook = "https://www.facebook.com/udgplus/" },
+    { twitter = "https://x.com/UDGPlus" },
+    { instagram = "https://www.instagram.com/udgplus_oficial/" },
+    { youtube = "https://www.youtube.com/@UDGPlus_oficial" },
+    { tiktok = "https://www.tiktok.com/@udgplus" },
+  ]
 
 [menu]
 [[menu.main]]
