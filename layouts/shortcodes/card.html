@@ -3,6 +3,12 @@
 {{ $icon := .Get "icon" }}
 {{ $description := .Get "description" }}
 
+{{/* Resolve relative links against the current page, absolute/external links as-is */}}
+{{ $url := $link }}
+{{ if not (or (hasPrefix $link "http") (hasPrefix $link "/")) }}
+  {{ $url = printf "%s%s" .Page.RelPermalink $link }}
+{{ end }}
+
 <div class="relative group">
     <div class="h-full bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 dark:hover:bg-neutral-700 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 p-6 flex flex-col items-center text-center">
         {{ if $icon }}
@@ -11,7 +17,7 @@
         </div>
         {{ end }}
         <h5 class="text-lg font-extrabold mb-2">
-            <a href="{{ $link | absURL }}" class="after:absolute after:inset-0 after:content-[''] text-inherit no-underline hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
+            <a href="{{ $url }}" class="after:absolute after:inset-0 after:content-[''] text-inherit no-underline hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
                 {{ $title }}
             </a>
         </h5>
