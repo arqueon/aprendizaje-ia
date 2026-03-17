@@ -14,39 +14,38 @@
 <div class="relative group">
   <div class="h-full bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 dark:hover:bg-neutral-700 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col">
 
-    {{/* Optional header image — inline styles to avoid compiled Tailwind gaps */}}
+    {{/* Optional header image */}}
     {{ if $img }}
     {{ $imgSrc := $img }}
     {{ if not (hasPrefix $img "http") }}
       {{ $imgSrc = $img | relURL }}
     {{ end }}
-    <div style="width:100%;height:9rem;overflow:hidden;flex-shrink:0;">
+    <div style="width:100%;height:6rem;overflow:hidden;flex-shrink:0;">
       <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
            style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s;">
     </div>
     {{ end }}
 
-    <div class="p-6 flex flex-col items-center text-center flex-1">
+    <div class="p-4 flex flex-col items-center text-center flex-1">
 
       {{/* Icon inside a colored circle badge */}}
       {{ if $icon }}
-      <div class="mb-4 flex items-center justify-center rounded-full w-14 h-14
-          {{ if not $color }}bg-primary-100 dark:bg-primary-900/30{{ end }}"
-          {{ if $color }}style="background-color: {{ $color }}22;"{{ end }}>
-        <i class="fas fa-{{ $icon }} fa-xl
-            {{ if not $color }}text-primary-600 dark:text-primary-400{{ end }}"
-            {{ if $color }}style="color: {{ $color }};"{{ end }}></i>
+      <div class="flex items-center justify-center rounded-full"
+           style="width:2.5rem;height:2.5rem;flex-shrink:0;margin-bottom:.6rem;
+           {{ if $color }}background-color:{{ $color }}22;{{ else }}background-color:var(--tw-color-primary-100,#e0f2fe);{{ end }}">
+        <i class="fas fa-{{ $icon }}"
+           style="font-size:1rem;{{ if $color }}color:{{ $color }};{{ else }}color:var(--tw-color-primary-600,#0284c7);{{ end }}"></i>
       </div>
       {{ end }}
 
-      <h5 class="text-lg font-extrabold mb-2">
+      <h5 class="text-base font-bold mb-1">
         <a href="{{ $url }}"
            class="after:absolute after:inset-0 after:content-[''] text-inherit no-underline hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {{ $title }}
         </a>
       </h5>
       {{ if $description }}
-      <p class="text-sm text-neutral-600 dark:text-neutral-400 mt-1 leading-relaxed">{{ $description }}</p>
+      <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-snug">{{ $description }}</p>
       {{ end }}
 
     </div>
