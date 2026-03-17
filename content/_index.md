@@ -9,11 +9,11 @@ Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="ia-educacion/" title="IA en Educación" icon="brain" color="#6366f1" description="Guías prácticas, integración curricular, ética y tendencias sobre IA en la docencia universitaria." >}}
-  {{< card link="laboratorio/" title="Laboratorio de Innovación" icon="flask" color="#0ea5e9" description="Diseño y documentación de prácticas pedagógicas innovadoras con aprendizaje activo e IA." >}}
-  {{< card link="observatorio/" title="Observatorio" icon="eye" color="#f59e0b" description="Seguimiento de tendencias, encuestas, estudios y documentación de buenas prácticas." >}}
-  {{< card link="recursos/" title="Recursos" icon="book-open" color="#ec4899" description="Artículos, videos y enlaces curados sobre aprendizaje digital e IA en educación." >}}
-  {{< card link="formacion-docente/" title="Formación Docente" icon="graduation-cap" color="#10b981" description="Alfabetización digital, formación continua y redes de práctica para docentes." >}}
+  {{< card link="ia-educacion/" title="IA en Educación" icon="brain" color="#6366f1" img="/images/cards/card-ia-educacion.svg" description="Guías prácticas, integración curricular, ética y tendencias sobre IA en la docencia universitaria." >}}
+  {{< card link="laboratorio/" title="Laboratorio de Innovación" icon="flask" color="#0ea5e9" img="/images/cards/card-laboratorio.svg" description="Diseño y documentación de prácticas pedagógicas innovadoras con aprendizaje activo e IA." >}}
+  {{< card link="observatorio/" title="Observatorio" icon="eye" color="#f59e0b" img="/images/cards/card-observatorio.svg" description="Seguimiento de tendencias, encuestas, estudios y documentación de buenas prácticas." >}}
+  {{< card link="recursos/" title="Recursos" icon="book-open" color="#ec4899" img="/images/cards/card-recursos.svg" description="Artículos, videos y enlaces curados sobre aprendizaje digital e IA en educación." >}}
+  {{< card link="formacion-docente/" title="Formación Docente" icon="graduation-cap" color="#10b981" img="/images/cards/card-formacion.svg" description="Alfabetización digital, formación continua y redes de práctica para docentes." >}}
 {{< /cards >}}
 
 ## Ecosistema de Aprendizaje

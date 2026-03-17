@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a14"/>
+      <stop offset="100%" stop-color="#500724"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="35%" cy="52%" r="44%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <rect width="600" height="300" fill="url(#glow)"/>
+
+  <!-- Grid -->
+  <g stroke="#f472b6" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="75" x2="600" y2="75"/><line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="225" x2="600" y2="225"/><line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/><line x1="450" y1="0" x2="450" y2="300"/>
+  </g>
+
+  <!-- Stacked books / documents -->
+  <!-- Book 3 (back) -->
+  <g fill="#be185d" fill-opacity="0.20" stroke="#f472b6" stroke-opacity="0.35" stroke-width="1.2">
+    <rect x="135" y="85" width="115" height="155" rx="3"/>
+    <line x1="148" y1="85" x2="148" y2="240"/>
+  </g>
+  <!-- Book 2 (middle) -->
+  <g fill="#db2777" fill-opacity="0.22" stroke="#f472b6" stroke-opacity="0.45" stroke-width="1.2">
+    <rect x="148" y="95" width="112" height="148" rx="3"/>
+    <line x1="162" y1="95" x2="162" y2="243"/>
+  </g>
+  <!-- Book 1 (front) -->
+  <g fill="#ec4899" fill-opacity="0.25" stroke="#f9a8d4" stroke-opacity="0.55" stroke-width="1.4">
+    <rect x="162" y="105" width="108" height="140" rx="3"/>
+    <line x1="178" y1="105" x2="178" y2="245"/>
+    <!-- Page lines -->
+    <line x1="188" y1="125" x2="258" y2="125" stroke-opacity="0.35"/>
+    <line x1="188" y1="140" x2="255" y2="140" stroke-opacity="0.30"/>
+    <line x1="188" y1="155" x2="250" y2="155" stroke-opacity="0.30"/>
+    <line x1="188" y1="170" x2="258" y2="170" stroke-opacity="0.25"/>
+    <line x1="188" y1="185" x2="248" y2="185" stroke-opacity="0.25"/>
+    <line x1="188" y1="200" x2="255" y2="200" stroke-opacity="0.20"/>
+    <line x1="188" y1="215" x2="250" y2="215" stroke-opacity="0.20"/>
+  </g>
+
+  <!-- Video play button -->
+  <circle cx="360" cy="130" r="35" fill="#ec4899" fill-opacity="0.14" stroke="#f472b6" stroke-opacity="0.40" stroke-width="1.5"/>
+  <polygon points="350,113 350,147 383,130" fill="#f9a8d4" fill-opacity="0.55"/>
+
+  <!-- Link/chain icon area -->
+  <g fill="none" stroke="#f9a8d4" stroke-opacity="0.50" stroke-width="2" stroke-linecap="round">
+    <path d="M 340 210 Q 360 195, 380 210" />
+    <path d="M 370 200 Q 390 185, 410 200" />
+    <!-- Chain links -->
+    <rect x="335" y="202" width="20" height="12" rx="6"/>
+    <rect x="352" y="196" width="20" height="12" rx="6"/>
+    <rect x="369" y="190" width="20" height="12" rx="6"/>
+    <rect x="386" y="196" width="20" height="12" rx="6"/>
+    <rect x="403" y="202" width="20" height="12" rx="6"/>
+  </g>
+
+  <!-- Floating dots -->
+  <g fill="#f9a8d4" fill-opacity="0.35">
+    <circle cx="440" cy="90" r="3"/><circle cx="480" cy="110" r="2"/>
+    <circle cx="510" cy="80" r="2"/><circle cx="460" cy="160" r="3"/>
+    <circle cx="500" cy="180" r="2"/><circle cx="530" cy="150" r="2"/>
+  </g>
+
+  <text x="30" y="270" font-family="system-ui, sans-serif" font-size="11" fill="#fbcfe8" fill-opacity="0.60" font-weight="500">RECURSOS Y HERRAMIENTAS</text>
+  <defs><linearGradient id="ov" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a0a14" stop-opacity="0"/><stop offset="100%" stop-color="#1a0a14" stop-opacity="0.45"/></linearGradient></defs>
+  <rect width="600" height="300" fill="url(#ov)"/>
+</svg>

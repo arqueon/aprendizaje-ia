@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="40%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <rect width="600" height="300" fill="url(#glow)"/>
+
+  <!-- Grid -->
+  <g stroke="#818cf8" stroke-opacity="0.07" stroke-width="1">
+    <line x1="0" y1="75" x2="600" y2="75"/><line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="225" x2="600" y2="225"/><line x1="150" y1="0" x2="150" y2="300"/>
+    <line x1="300" y1="0" x2="300" y2="300"/><line x1="450" y1="0" x2="450" y2="300"/>
+  </g>
+
+  <!-- Brain outline — two lobes as bezier curves -->
+  <g fill="none" stroke="#a5b4fc" stroke-opacity="0.18" stroke-width="1.5">
+    <!-- Left lobe -->
+    <path d="M 200 150 C 160 100, 120 90, 130 140 C 120 180, 155 200, 200 180 Z"/>
+    <!-- Right lobe -->
+    <path d="M 200 150 C 240 100, 280 90, 270 140 C 280 180, 245 200, 200 180 Z"/>
+    <!-- Center divider -->
+    <line x1="200" y1="115" x2="200" y2="185"/>
+    <!-- Wrinkle lines left -->
+    <path d="M 145 135 C 160 130, 170 140, 185 135"/>
+    <path d="M 140 155 C 158 150, 168 162, 183 158"/>
+    <path d="M 148 172 C 163 168, 172 176, 186 172"/>
+    <!-- Wrinkle lines right -->
+    <path d="M 255 135 C 240 130, 230 140, 215 135"/>
+    <path d="M 260 155 C 242 150, 232 162, 217 158"/>
+    <path d="M 252 172 C 237 168, 228 176, 214 172"/>
+  </g>
+
+  <!-- Neural connections emanating right -->
+  <g stroke="#818cf8" stroke-opacity="0.30" stroke-width="1" fill="none">
+    <line x1="270" y1="130" x2="360" y2="90"/>
+    <line x1="270" y1="150" x2="370" y2="150"/>
+    <line x1="270" y1="170" x2="360" y2="210"/>
+    <line x1="360" y1="90" x2="450" y2="70"/>
+    <line x1="370" y1="150" x2="460" y2="130"/>
+    <line x1="370" y1="150" x2="460" y2="180"/>
+    <line x1="360" y1="210" x2="450" y2="230"/>
+    <line x1="450" y1="70" x2="530" y2="85"/>
+    <line x1="460" y1="130" x2="540" y2="120"/>
+    <line x1="460" y1="180" x2="540" y2="190"/>
+    <line x1="450" y1="230" x2="530" y2="215"/>
+  </g>
+
+  <!-- Neural nodes -->
+  <g fill="#6366f1">
+    <circle cx="370" cy="150" r="7"/>
+    <circle cx="460" cy="130" r="5"/>
+    <circle cx="460" cy="180" r="5"/>
+  </g>
+  <g fill="#a5b4fc" fill-opacity="0.80">
+    <circle cx="360" cy="90" r="4"/>
+    <circle cx="360" cy="210" r="4"/>
+    <circle cx="450" cy="70" r="3"/>
+    <circle cx="450" cy="230" r="3"/>
+    <circle cx="530" cy="85" r="3"/>
+    <circle cx="540" cy="120" r="3"/>
+    <circle cx="540" cy="190" r="3"/>
+    <circle cx="530" cy="215" r="3"/>
+  </g>
+
+  <!-- Glow pulse on brain -->
+  <circle cx="200" cy="150" r="55" fill="none" stroke="#6366f1" stroke-opacity="0.15" stroke-width="12"/>
+
+  <!-- Label -->
+  <text x="30" y="270" font-family="system-ui, sans-serif" font-size="11" fill="#c7d2fe" fill-opacity="0.60" font-weight="500">IA EN EDUCACIÓN</text>
+
+  <!-- Bottom gradient -->
+  <defs><linearGradient id="ov" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e1b4b" stop-opacity="0"/><stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.45"/></linearGradient></defs>
+  <rect width="600" height="300" fill="url(#ov)"/>
+</svg>
