@@ -14,11 +14,15 @@
 <div class="relative group">
   <div class="h-full bg-neutral-100 dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 dark:hover:bg-neutral-700 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden flex flex-col">
 
-    {{/* Optional header image */}}
+    {{/* Optional header image — inline styles to avoid compiled Tailwind gaps */}}
     {{ if $img }}
-    <div class="w-full h-36 overflow-hidden">
-      <img src="{{ $img | absURL }}" alt="{{ $title }}"
-           class="nozoom w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+    {{ $imgSrc := $img }}
+    {{ if not (hasPrefix $img "http") }}
+      {{ $imgSrc = $img | relURL }}
+    {{ end }}
+    <div style="width:100%;height:9rem;overflow:hidden;flex-shrink:0;">
+      <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
+           style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .3s;">
     </div>
     {{ end }}
 
