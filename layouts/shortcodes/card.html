@@ -11,46 +11,44 @@
   {{ $url = printf "%s%s" .Page.RelPermalink $link }}
 {{ end }}
 
-{{/* Icon circle styles */}}
+{{/* Icon colors */}}
 {{ $iconBg := "#e0f2fe" }}{{ $iconColor := "#0284c7" }}
 {{ if $color }}{{ $iconBg = printf "%s22" $color }}{{ $iconColor = $color }}{{ end }}
 
 <div class="relative group">
-  <div class="h-full border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-visible flex flex-col"
-       style="background-color:rgb(245 245 245);dark:background-color:rgb(38 38 38);">
+  <div class="card-bg h-full border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col"
+       style="overflow:visible;">
 
-    {{/* ── Image + overlaid icon ── */}}
+    {{/* ── Image ── */}}
     {{ if $img }}
       {{ $imgSrc := $img }}
       {{ if not (hasPrefix $img "http") }}{{ $imgSrc = $img | relURL }}{{ end }}
-      <div style="position:relative;width:100%;height:6rem;overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;">
+      <div style="width:100%;height:6rem;overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;">
         <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
              style="width:100%;height:100%;object-fit:cover;display:block;margin:0;transition:transform .3s;">
       </div>
+
+      {{/* Icon badge: top = image_height - icon_height/2 = 6rem - 1.375rem = 4.625rem → 50/50 split */}}
       {{ if $icon }}
-      {{/* Icon badge floating on the image/content boundary */}}
-      <div style="position:absolute;top:4.25rem;left:50%;transform:translateX(-50%);
+      <div class="card-icon-ring group-hover:scale-110 transition-transform duration-200"
+           style="position:absolute;top:4.625rem;left:50%;transform:translateX(-50%);
                   width:2.75rem;height:2.75rem;border-radius:50%;
                   background-color:{{ $iconBg }};
-                  box-shadow:0 0 0 3px rgb(245 245 245), 0 2px 8px rgba(0,0,0,.20);
-                  display:flex;align-items:center;justify-content:center;z-index:10;
-                  transition:transform .2s;"
-           class="group-hover:scale-110">
+                  display:flex;align-items:center;justify-content:center;z-index:10;">
         <i class="fas fa-{{ $icon }}" style="font-size:.95rem;color:{{ $iconColor }};"></i>
       </div>
       {{ end }}
     {{ end }}
 
-    {{/* ── Content area ── */}}
+    {{/* ── Content ── */}}
     <div class="flex flex-col items-center text-center flex-1"
-         style="padding:{{ if and $img $icon }}2rem{{ else }}1rem{{ end }} 1rem 1rem 1rem;">
+         style="padding:{{ if and $img $icon }}2.1rem{{ else if $img }}1rem{{ else }}.875rem{{ end }} 1rem .875rem 1rem;">
 
-      {{/* Icon without image — show in content area */}}
+      {{/* Icon without image */}}
       {{ if and $icon (not $img) }}
-      <div style="width:2.5rem;height:2.5rem;border-radius:50%;flex-shrink:0;
-                  margin-bottom:.6rem;display:flex;align-items:center;justify-content:center;
-                  background-color:{{ $iconBg }};"
-           class="group-hover:scale-110 transition-transform duration-200">
+      <div class="group-hover:scale-110 transition-transform duration-200"
+           style="width:2.5rem;height:2.5rem;border-radius:50%;flex-shrink:0;margin-bottom:.5rem;
+                  display:flex;align-items:center;justify-content:center;background-color:{{ $iconBg }};">
         <i class="fas fa-{{ $icon }}" style="font-size:.95rem;color:{{ $iconColor }};"></i>
       </div>
       {{ end }}
