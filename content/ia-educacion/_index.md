@@ -11,4 +11,17 @@ showSummary: true
 areas: ["ia"]
 ---
 
-La inteligencia artificial está transformando la educación de manera acelerada. Esta sección reúne **guías prácticas, marcos de referencia éticos, estrategias de integración curricular y tendencias** para que docentes y coordinadores de la Universidad de Guadalajara puedan navegar este cambio con criterio pedagógico.
+{{< lead >}}
+La inteligencia artificial está transformando la educación de manera acelerada. Esta sección reúne lo esencial para que docentes y coordinadores puedan responder con criterio pedagógico.
+{{< /lead >}}
+
+{{< typeit tag=h2 lifeLike=true >}}
+¿Cómo integramos la IA en el aula con intención?
+{{< /typeit >}}
+
+{{< cards >}}
+  {{< card link="guias/" title="Guías prácticas" icon="map" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
+  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
+  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
+  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
+{{< /cards >}}

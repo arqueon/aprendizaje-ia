@@ -22,7 +22,11 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
 [params.homepage]
   layout = "background"
   homepageImage = "images/hero-bg.svg"
-  showRecent = false
+  showRecent = true
+  showRecentItems = 6
+  cardView = true
+  showMoreLink = true
+  showMoreLinkDest = "/blog/"
 
 [params.article]
   showMermaid = true

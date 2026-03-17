@@ -28,6 +28,18 @@ herramientasIA: ["ChatGPT", "Claude"]
 tipoEvaluacion: "Rúbrica analítica + autoevaluación"
 ---
 
+{{< lead >}}
+¿Puede la IA ayudar a un estudiante a pensar con más rigor? En esta práctica, la IA no responde preguntas — las hace. Actúa como el adversario filosófico que todo argumento necesita.
+{{< /lead >}}
+
+{{< keywordList >}}
+  {{< keyword icon="brain" >}} ChatGPT {{< /keyword >}}
+  {{< keyword icon="brain" >}} Claude {{< /keyword >}}
+  {{< keyword icon="graduation-cap" >}} Licenciatura {{< /keyword >}}
+  {{< keyword icon="users" >}} Presencial {{< /keyword >}}
+  {{< keyword icon="list-check" >}} Rúbrica analítica {{< /keyword >}}
+{{< /keywordList >}}
+
 ## Contexto
 
 Grupo de 32 estudiantes de tercer semestre de Filosofía, modalidad presencial. La asignatura trabaja argumentación y ética del discurso. El reto habitual: los estudiantes llegan al debate sin haber anticipado objeciones a su propia postura.
@@ -46,12 +58,27 @@ El estudiante usa ChatGPT o Claude en modo "abogado del diablo": le presenta su 
 
 La IA no toma postura propia: su rol es presionar, cuestionar y ofrecer objeciones. El estudiante decide cómo responde.
 
-## Descripción de la actividad
+## Secuencia de la actividad
 
-1. **Semana 1 — Preparación individual:** cada estudiante elige una tesis y la desarrolla en 300 palabras.
-2. **Semana 2 — Diálogo con IA:** sesión de 45 minutos donde la IA refuta la tesis. El estudiante documenta el intercambio y anota cómo modificó o fortaleció su argumento.
-3. **Semana 3 — Debate presencial:** en equipos de 4, se debate con la tesis refinada. El docente evalúa la calidad argumentativa.
-4. **Cierre:** autoevaluación escrita sobre qué aportó la IA al proceso.
+{{< timeline >}}
+
+{{< timelineItem icon="pencil" header="Semana 1 — Preparación individual" subheader="Trabajo autónomo" >}}
+Cada estudiante elige una tesis filosófica y la desarrolla en un texto de 300 palabras. Debe incluir al menos dos fuentes de respaldo.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="brain" header="Semana 2 — Diálogo con IA" subheader="Sesión de 45 minutos" >}}
+El estudiante le presenta su argumento a la IA y le pide que lo refute desde distintas perspectivas. Documenta el intercambio completo y anota cómo modificó o fortaleció su argumento como resultado del diálogo.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="users" header="Semana 3 — Debate presencial" subheader="En equipos de 4" >}}
+Cada estudiante defiende su tesis refinada en un debate grupal. El docente evalúa la calidad argumentativa con la rúbrica analítica. La interacción con la IA es evidencia pública, no privada.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="list-check" header="Cierre — Autoevaluación reflexiva" subheader="Entrega escrita" >}}
+El estudiante reflexiona por escrito sobre qué aportó y qué limitó el diálogo con la IA en la construcción de su argumento.
+{{< /timelineItem >}}
+
+{{< /timeline >}}
 
 ## Forma de evaluación
 
@@ -64,7 +91,9 @@ Se usa una **rúbrica analítica** con cuatro criterios:
 | Calidad del diálogo con IA (evidencia) | 20% |
 | Autoevaluación reflexiva | 20% |
 
-La transparencia es obligatoria: el estudiante debe mostrar el intercambio con la IA. No hay penalización por haberla usado; la hay por ocultarlo.
+{{< alert icon="shield-halved" cardColor="#fef9c3" iconColor="#854d0e" textColor="#713f12" >}}
+**Transparencia obligatoria.** El estudiante debe mostrar el intercambio con la IA. No hay penalización por haberla usado; la hay por ocultarlo. Este encuadre transforma la transparencia en una competencia evaluable.
+{{< /alert >}}
 
 ## Resultados y reflexión
 

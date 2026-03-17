@@ -6,6 +6,7 @@ weight: 2
 showBreadcrumbs: true
 showSummary: true
 showCards: true
+cardView: true
 groupByYear: false
 ---
 
