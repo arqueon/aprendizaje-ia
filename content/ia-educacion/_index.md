@@ -20,8 +20,8 @@ La inteligencia artificial está transformando la educación de manera acelerada
 {{< /typeit >}}
 
 {{< cards >}}
-  {{< card link="guias/" title="Guías prácticas" icon="map" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
-  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
-  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
-  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
+  {{< card link="guias/" title="Guías prácticas" icon="map" color="#6366f1" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
+  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#8b5cf6" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
+  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#a855f7" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
+  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#7c3aed" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
 {{< /cards >}}

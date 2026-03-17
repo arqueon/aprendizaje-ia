@@ -16,7 +16,7 @@ La formación docente para el entorno digital no es un evento puntual sino un pr
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="alfabetizacion/" title="Alfabetización digital" icon="lightbulb" description="Fundamentos para entender la IA, el ecosistema digital y sus implicaciones pedagógicas." >}}
-  {{< card link="formacion-continua/" title="Formación continua" icon="graduation-cap" description="Cursos, talleres, diplomados y rutas de aprendizaje para docentes universitarios." >}}
-  {{< card link="redes/" title="Redes y comunidades" icon="users" description="Comunidades de práctica, redes docentes y espacios de intercambio y colaboración." >}}
+  {{< card link="alfabetizacion/" title="Alfabetización digital" icon="lightbulb" color="#10b981" description="Fundamentos para entender la IA, el ecosistema digital y sus implicaciones pedagógicas." >}}
+  {{< card link="formacion-continua/" title="Formación continua" icon="graduation-cap" color="#059669" description="Cursos, talleres, diplomados y rutas de aprendizaje para docentes universitarios." >}}
+  {{< card link="redes/" title="Redes y comunidades" icon="users" color="#047857" description="Comunidades de práctica, redes docentes y espacios de intercambio y colaboración." >}}
 {{< /cards >}}

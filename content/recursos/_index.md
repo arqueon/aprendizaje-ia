@@ -15,7 +15,7 @@ Un catálogo curado de materiales con criterio pedagógico: desde artículos aca
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="articulos/" title="Artículos y documentos" icon="file-lines" description="Fichas bibliográficas con abstract, contexto y relevancia para la práctica con IA." >}}
-  {{< card link="videos/" title="Videos" icon="film" description="Conferencias, charlas y tutoriales seleccionados sobre pedagogía digital e IA." >}}
-  {{< card link="links/" title="Links relevantes" icon="link" description="Herramientas, guías y repositorios externos seleccionados con criterio pedagógico." >}}
+  {{< card link="articulos/" title="Artículos y documentos" icon="file-lines" color="#ec4899" description="Fichas bibliográficas con abstract, contexto y relevancia para la práctica con IA." >}}
+  {{< card link="videos/" title="Videos" icon="film" color="#db2777" description="Conferencias, charlas y tutoriales seleccionados sobre pedagogía digital e IA." >}}
+  {{< card link="links/" title="Links relevantes" icon="link" color="#be185d" description="Herramientas, guías y repositorios externos seleccionados con criterio pedagógico." >}}
 {{< /cards >}}
