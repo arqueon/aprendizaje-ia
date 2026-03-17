@@ -6,6 +6,7 @@ description: ""
 summary: ""
 tags: []
 categories: ["opinion"]
+areas: []         # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
 
 # Layout
 showHero: true

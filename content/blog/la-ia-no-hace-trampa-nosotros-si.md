@@ -6,6 +6,7 @@ description: "Cuando un estudiante usa IA para hacer una tarea que no fue diseñ
 summary: "La discusión sobre el 'fraude académico' con IA nos distrae de la pregunta que realmente importa: ¿para qué sirve la tarea que estamos pidiendo?"
 tags: ["evaluación", "integridad académica", "IA generativa", "diseño didáctico"]
 categories: ["opinion"]
+areas: ["ia", "evaluacion"]
 
 showHero: true
 heroStyle: "background"

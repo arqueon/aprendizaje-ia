@@ -6,6 +6,7 @@ description: "Kit de herramientas de la UNESCO para integrar IA en educación co
 summary: "Guía práctica de la UNESCO con marcos, ejemplos y recursos para docentes e instituciones que quieren integrar IA de forma responsable."
 tags: ["UNESCO", "marcos de referencia", "ética", "equidad", "guía"]
 categories: ["link"]
+areas: ["ia"]
 
 layout: "simple"
 externalUrl: "https://www.unesco.org/en/digital-education/artificial-intelligence"

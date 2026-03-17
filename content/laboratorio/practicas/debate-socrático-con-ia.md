@@ -6,6 +6,7 @@ description: "Los estudiantes preparan y sostienen un debate filosófico usando 
 summary: "Una práctica de argumentación en la que la IA actúa como «abogado del diablo» para que los estudiantes refinen sus ideas antes del debate presencial."
 tags: ["argumentación", "debate", "pensamiento crítico", "ChatGPT"]
 categories: ["practica-pedagogica"]
+areas: ["ia", "pedagogia"]
 
 showHero: true
 heroStyle: "big"

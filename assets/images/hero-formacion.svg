@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="35%" cy="45%" r="42%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="72%" cy="55%" r="36%">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#6ee7b7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect width="1200" height="600" fill="url(#glow1)"/>
+  <rect width="1200" height="600" fill="url(#glow2)"/>
+
+  <!-- Grid -->
+  <g stroke="#34d399" stroke-opacity="0.05" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="800" y1="0" x2="800" y2="600"/>
+    <line x1="1000" y1="0" x2="1000" y2="600"/>
+  </g>
+
+  <!-- Person network (community / teacher network motif) -->
+  <g stroke="#34d399" stroke-opacity="0.28" stroke-width="1.2" fill="none">
+    <line x1="200" y1="300" x2="420" y2="180"/>
+    <line x1="200" y1="300" x2="420" y2="420"/>
+    <line x1="420" y1="180" x2="650" y2="250"/>
+    <line x1="420" y1="420" x2="650" y2="350"/>
+    <line x1="650" y1="250" x2="650" y2="350"/>
+    <line x1="650" y1="250" x2="880" y2="180"/>
+    <line x1="650" y1="350" x2="880" y2="420"/>
+    <line x1="880" y1="180" x2="1050" y2="280"/>
+    <line x1="880" y1="420" x2="1050" y2="280"/>
+    <line x1="420" y1="180" x2="650" y2="350"/>
+    <line x1="420" y1="420" x2="650" y2="250"/>
+    <line x1="880" y1="180" x2="880" y2="420"/>
+  </g>
+
+  <!-- Central hub -->
+  <circle cx="650" cy="300" r="20" fill="none" stroke="#34d399" stroke-opacity="0.18" stroke-width="7"/>
+  <circle cx="650" cy="300" r="11" fill="#10b981"/>
+
+  <!-- Person nodes -->
+  <g fill="#34d399" fill-opacity="0.90">
+    <circle cx="200" cy="300" r="9"/>
+    <circle cx="420" cy="180" r="8"/>
+    <circle cx="420" cy="420" r="8"/>
+    <circle cx="650" cy="250" r="7"/>
+    <circle cx="650" cy="350" r="7"/>
+    <circle cx="880" cy="180" r="8"/>
+    <circle cx="880" cy="420" r="8"/>
+    <circle cx="1050" cy="280" r="9"/>
+  </g>
+
+  <!-- Labels -->
+  <g fill="#6ee7b7" font-family="monospace" font-size="10" fill-opacity="0.55">
+    <text x="662" y="296">Red</text>
+    <text x="432" y="176">Docente</text>
+    <text x="432" y="418">Formación</text>
+    <text x="892" y="176">Práctica</text>
+  </g>
+
+  <!-- Ambient dots -->
+  <g fill="#a7f3d0" fill-opacity="0.22">
+    <circle cx="80" cy="100" r="2"/>
+    <circle cx="380" cy="55" r="2"/>
+    <circle cx="760" cy="75" r="2"/>
+    <circle cx="1120" cy="400" r="2"/>
+    <circle cx="950" cy="540" r="2"/>
+    <circle cx="220" cy="545" r="2"/>
+    <circle cx="580" cy="535" r="3"/>
+    <circle cx="1150" cy="110" r="2"/>
+  </g>
+
+  <!-- Overlay -->
+  <defs>
+    <linearGradient id="overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#overlay)"/>
+</svg>

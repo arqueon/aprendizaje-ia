@@ -6,6 +6,7 @@ description: "Sal Khan, fundador de Khan Academy, explica cómo la IA puede actu
 summary: "Una charla TED que replantea el rol del docente en la era de la IA: no como transmisor de contenido, sino como guía del aprendizaje profundo."
 tags: ["TED", "tutor IA", "Khan Academy", "rol docente", "personalización"]
 categories: ["video"]
+areas: ["ia"]
 
 showHero: false
 showTableOfContents: false

@@ -6,6 +6,7 @@ description: ""
 summary: ""
 tags: []
 categories: ["practica-pedagogica"]
+areas: ["ia"]     # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
 
 # Layout
 showHero: true

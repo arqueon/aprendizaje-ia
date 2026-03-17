@@ -6,6 +6,7 @@ description: "Propuesta de un marco para rediseñar la evaluación universitaria
 summary: "Un artículo seminal que propone cinco principios para evaluar en la era de la IA, desplazando el foco del producto al proceso y al juicio del estudiante."
 tags: ["evaluación auténtica", "diseño de evaluación", "IA generativa", "educación superior"]
 categories: ["articulo"]
+areas: ["ia", "evaluacion"]
 
 layout: "simple"
 showDate: true

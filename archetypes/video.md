@@ -6,6 +6,7 @@ description: ""
 summary: ""
 tags: []
 categories: ["video"]
+areas: []         # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
 
 # Layout — el video es el protagonista, sin hero imagen
 showHero: false

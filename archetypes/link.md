@@ -6,6 +6,7 @@ description: ""
 summary: ""
 tags: []
 categories: ["link"]
+areas: []         # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
 
 # Layout — simple y directo, el link ES el contenido
 layout: "simple"

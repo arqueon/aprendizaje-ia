@@ -1,0 +1,14 @@
+---
+title: "Formación Docente"
+description: "Alfabetización digital, formación continua y redes de colaboración para docentes en la era del aprendizaje digital y la inteligencia artificial."
+summary: "Recursos y espacios para desarrollar competencias digitales docentes: desde la alfabetización básica hasta la participación en redes de práctica."
+weight: 4
+showHero: true
+heroStyle: "big"
+featureimage: "images/hero-formacion.svg"
+showBreadcrumbs: true
+showSummary: true
+areas: ["digital", "formacion"]
+---
+
+La formación docente para el entorno digital no es un evento puntual sino un proceso continuo. Aquí encontrarás **recursos de alfabetización digital, propuestas de formación continua y conexiones con redes** que apoyan el desarrollo profesional de docentes frente a los retos del aprendizaje mediado por tecnología e IA.

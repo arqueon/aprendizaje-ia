@@ -6,6 +6,7 @@ description: ""
 summary: ""
 tags: []
 categories: ["articulo"]
+areas: []         # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
 
 # Layout — ficha limpia, sin distracciones
 layout: "simple"

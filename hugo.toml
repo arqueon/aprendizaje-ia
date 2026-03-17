@@ -9,6 +9,7 @@ home = ["HTML", "RSS", "JSON"]
 [taxonomies]
   tag = "tags"
   category = "categories"
+  area = "areas"
 
 [params]
 colorScheme = "ocean"
@@ -16,7 +17,7 @@ defaultTheme = "light"
 enableSearch = true
 showMermaid = true
 logo = "images/udg-logo.svg"
-mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-referencia"]
+mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
 
 [params.homepage]
   layout = "background"
@@ -60,6 +61,11 @@ mainSections = ["laboratorio", "observatorio", "recursos", "cultura", "marcos-re
 
 [menu]
 [[menu.main]]
+identifier = "ia-educacion"
+name = "IA en Educación"
+url = "/ia-educacion/"
+weight = 5
+[[menu.main]]
 identifier = "laboratorio"
 name = "Laboratorio"
 url = "/laboratorio/"
@@ -75,20 +81,15 @@ name = "Recursos"
 url = "/recursos/"
 weight = 30
 [[menu.main]]
-identifier = "cultura"
-name = "Cultura"
-url = "/cultura/"
+identifier = "formacion-docente"
+name = "Formación Docente"
+url = "/formacion-docente/"
 weight = 40
-[[menu.main]]
-identifier = "marcos-referencia"
-name = "Marcos de Referencia"
-url = "/marcos-referencia/"
-weight = 50
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
 url = "/blog/"
-weight = 60
+weight = 50
 
 [markup]
 [markup.goldmark]
