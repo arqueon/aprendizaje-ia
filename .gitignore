@@ -3,6 +3,9 @@
 /resources
 .hugo_build.lock
 
+# Hugo module vendor (regenerado automáticamente)
+/_vendor
+
 # OS
 .DS_Store
 Thumbs.db
