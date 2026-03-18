@@ -17,6 +17,8 @@ showBreadcrumbs: true
 showSummary: true
 ---
 
+{{< taxo-list >}}
+
 {{< lead >}}
 En esta guía exploramos...
 {{< /lead >}}

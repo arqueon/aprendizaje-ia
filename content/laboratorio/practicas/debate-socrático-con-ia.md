@@ -4,7 +4,7 @@ date: 2026-03-01
 draft: false
 description: "Los estudiantes preparan y sostienen un debate filosófico usando IA como interlocutor para anticipar contra-argumentos y fortalecer su postura."
 summary: "Una práctica de argumentación en la que la IA actúa como «abogado del diablo» para que los estudiantes refinen sus ideas antes del debate presencial."
-tags: ["argumentación", "debate", "pensamiento crítico", "ChatGPT"]
+tags: ["argumentación", "debate", "pensamiento crítico", "ChatGPT", "Claude", "Licenciatura", "Presencial", "Rúbrica analítica"]
 categories: ["practica-pedagogica"]
 areas: ["ia", "pedagogia"]
 
@@ -21,24 +21,14 @@ showAuthor: false
 featureimage: ""
 featureimagecaption: "Estudiantes en debate filosófico con apoyo de IA"
 
-nivelEducativo: "Licenciatura"
 asignatura: "Filosofía / Ética"
-modalidad: "Presencial"
-herramientasIA: ["ChatGPT", "Claude"]
-tipoEvaluacion: "Rúbrica analítica + autoevaluación"
 ---
 
 {{< lead >}}
 ¿Puede la IA ayudar a un estudiante a pensar con más rigor? En esta práctica, la IA no responde preguntas — las hace. Actúa como el adversario filosófico que todo argumento necesita.
 {{< /lead >}}
 
-{{< keywordList >}}
-  {{< keyword icon="brain" >}} ChatGPT {{< /keyword >}}
-  {{< keyword icon="brain" >}} Claude {{< /keyword >}}
-  {{< keyword icon="graduation-cap" >}} Licenciatura {{< /keyword >}}
-  {{< keyword icon="users" >}} Presencial {{< /keyword >}}
-  {{< keyword icon="list-check" >}} Rúbrica analítica {{< /keyword >}}
-{{< /keywordList >}}
+{{< taxo-list >}}
 
 ## Contexto
 

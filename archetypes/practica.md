@@ -2,13 +2,12 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
-description: ""
-summary: ""
-tags: []
+description: "Descripción de la práctica..."
+summary: "Resumen de la experiencia pedagógica."
+tags: ["herramienta", "nivel", "modalidad", "competencia"]
 categories: ["practica-pedagogica"]
-areas: ["ia"]     # Áreas temáticas: "ia", "evaluacion", "pedagogia", "digital", "formacion"
+areas: ["ia", "pedagogia"]
 
-# Layout
 showHero: true
 heroStyle: "big"
 showTableOfContents: true
@@ -19,40 +18,39 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 
-# Imagen de portada
-featureimage: ""
-featureimagecaption: ""
-
-# Metadatos de la práctica
-nivelEducativo: ""        # ej. "Licenciatura", "Posgrado"
 asignatura: ""
-modalidad: ""             # "Presencial", "En línea", "Híbrida"
-herramientasIA: []        # ej. ["ChatGPT", "Perplexity", "NotebookLM"]
-tipoEvaluacion: ""        # ej. "Rúbrica", "Portfolio", "Coevaluación"
 ---
+
+{{< lead >}}
+Frase inspiradora o resumen del reto pedagógico...
+{{< /lead >}}
+
+{{< taxo-list >}}
 
 ## Contexto
 
-_Descripción del contexto educativo: asignatura, nivel, número de estudiantes, modalidad._
+_Describir el grupo, asignatura y el reto previo._
 
 ## Objetivo pedagógico
 
-_¿Qué aprenderán los estudiantes? ¿Qué competencias se desarrollan?_
+_¿Qué se busca que el estudiante aprenda o desarrolle?_
 
 ## Cómo se integra la IA
 
-_Herramientas utilizadas, rol de la IA en el proceso (asistente, evaluador, generador, etc.)._
+_Descripción del rol de la IA en la actividad._
 
-## Descripción de la actividad
+## Secuencia de la actividad
 
-_Paso a paso de cómo se desarrolla la práctica en el aula._
+{{< timeline >}}
+{{< timelineItem icon="pencil" header="Fase 1" subheader="Preparación" >}} ... {{< /timelineItem >}}
+{{< timelineItem icon="brain" header="Fase 2" subheader="Ejecución" >}} ... {{< /timelineItem >}}
+{{< timelineItem icon="list-check" header="Fase 3" subheader="Evaluación" >}} ... {{< /timelineItem >}}
+{{< /timeline >}}
 
 ## Forma de evaluación
 
-_Instrumentos, criterios y proceso de evaluación. ¿Cómo se evalúa el uso ético de la IA?_
+_Rúbrica o criterios utilizados._
 
 ## Resultados y reflexión
 
-_Evidencias de aprendizaje, logros observados, áreas de mejora._
-
-## Referencias
+_¿Qué funcionó y qué se puede mejorar?_

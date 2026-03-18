@@ -1,0 +1,19 @@
+<div class="flex flex-wrap gap-2 my-4 not-prose">
+  {{ range .Page.Params.areas }}
+    <a href="{{ "/areas/" | relLangURL }}{{ . | urlize }}" class="px-3 py-1 text-xs font-bold uppercase tracking-wider rounded-full bg-primary-100 text-primary-800 dark:bg-primary-900/30 dark:text-primary-300 no-underline hover:bg-primary-200 transition-colors">
+      <i class="fa-solid fa-layer-group mr-1 opacity-70"></i> {{ . }}
+    </a>
+  {{ end }}
+
+  {{ range .Page.Params.categories }}
+    <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="px-3 py-1 text-xs font-bold uppercase tracking-wider rounded-full bg-secondary-100 text-secondary-800 dark:bg-secondary-900/30 dark:text-secondary-300 no-underline hover:bg-secondary-200 transition-colors">
+      <i class="fa-solid fa-folder-open mr-1 opacity-70"></i> {{ . }}
+    </a>
+  {{ end }}
+
+  {{ range .Page.Params.tags }}
+    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="px-3 py-1 text-xs font-medium rounded-md border border-primary-200 text-primary-700 dark:border-primary-800 dark:text-primary-400 no-underline hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors">
+      #{{ . }}
+    </a>
+  {{ end }}
+</div>

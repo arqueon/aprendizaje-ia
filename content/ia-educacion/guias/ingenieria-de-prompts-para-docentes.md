@@ -17,6 +17,8 @@ showBreadcrumbs: true
 showSummary: true
 ---
 
+{{< taxo-list >}}
+
 {{< lead >}}
 La calidad de la respuesta de una IA no depende solo de la herramienta, sino de la claridad y estructura de tu instrucción. En esta guía, aprenderás a hablarle a la IA con intención pedagógica.
 {{< /lead >}}

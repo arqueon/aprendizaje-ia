@@ -4,7 +4,7 @@ date: 2026-03-15
 draft: false
 description: "Los estudiantes analizan respuestas de diferentes modelos de IA para identificar sesgos culturales, de género o geográficos."
 summary: "Una actividad de alfabetización algorítmica donde los estudiantes evalúan la neutralidad de la IA y proponen formas de mitigar sesgos en su uso académico."
-tags: ["pensamiento crítico", "ética", "sesgos", "alfabetización digital"]
+tags: ["pensamiento crítico", "ética", "sesgos", "alfabetización digital", "ChatGPT", "Gemini", "Claude", "Licenciatura", "Híbrida"]
 categories: ["practica-pedagogica"]
 areas: ["ia", "pedagogia"]
 
@@ -18,23 +18,14 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 
-nivelEducativo: "Licenciatura"
 asignatura: "Sociología / Comunicación / Ética"
-modalidad: "Híbrida"
-herramientasIA: ["ChatGPT", "Gemini", "Claude"]
-tipoEvaluacion: "Ensayo comparativo + infografía"
 ---
 
 {{< lead >}}
 La IA no es neutral; refleja los sesgos de sus datos de entrenamiento. En esta práctica, los estudiantes se convierten en auditores críticos de los algoritmos que usan a diario.
 {{< /lead >}}
 
-{{< keywordList >}}
-  {{< keyword icon="brain" >}} Multi-modelo {{< /keyword >}}
-  {{< keyword icon="shield-halved" >}} Ética {{< /keyword >}}
-  {{< keyword icon="graduation-cap" >}} Licenciatura {{< /keyword >}}
-  {{< keyword icon="layer-group" >}} Híbrida {{< /keyword >}}
-{{< /keywordList >}}
+{{< taxo-list >}}
 
 ## Contexto
 
