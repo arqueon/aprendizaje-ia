@@ -7,7 +7,6 @@ summary: "¿Estamos construyendo muros para evitar el uso de la IA… o regando 
 tags: ["evaluación", "integridad académica", "IA generativa", "políticas", "tendencias"]
 categories: ["tendencia"]
 areas: ["ia", "evaluacion", "pedagogia"]
-
 showHero: true
 heroStyle: "background"
 layoutBackgroundBlur: true
@@ -15,11 +14,6 @@ showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
 showSummary: true
-
-attribution:
-  name: "Digital Education Council"
-  url: "https://www.digitaleducationcouncil.com/post/watering-the-plants-not-just-building-fences-rethinking-assessment-in-the-ai-era"
-  license: "Resumen con fines educativos · Fuente original: DEC Executive Briefing #018"
 ---
 
 {{< lead >}}
