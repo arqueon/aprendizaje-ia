@@ -1,0 +1,61 @@
+<div class="not-prose my-8 p-6 bg-neutral-100 dark:bg-neutral-800 rounded-lg border border-neutral-200 dark:border-neutral-700 shadow-sm">
+  <div class="flex flex-col md:flex-row gap-6">
+    <div class="flex-grow">
+      <h3 class="mt-0 mb-4 text-xl font-bold text-neutral-800 dark:text-neutral-100 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+        <i class="fa-solid fa-circle-info mr-2 opacity-70"></i>Información del Recurso
+      </h3>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+        <div>
+          <span class="block font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider text-xs">Autor(es)</span>
+          <span class="text-neutral-800 dark:text-neutral-200">{{ .Page.Params.articuloAutores | default "No especificado" }}</span>
+        </div>
+        
+        <div>
+          <span class="block font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider text-xs">Año</span>
+          <span class="text-neutral-800 dark:text-neutral-200">{{ .Page.Params.articuloAnio | default "No especificado" }}</span>
+        </div>
+        
+        <div class="md:col-span-2">
+          <span class="block font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider text-xs">Fuente / Publicación</span>
+          <span class="text-neutral-800 dark:text-neutral-200 italic">{{ .Page.Params.articuloFuente | default "No especificada" }}</span>
+        </div>
+
+        {{ if .Page.Params.articuloDOI }}
+        <div>
+          <span class="block font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider text-xs">DOI</span>
+          <span class="text-neutral-800 dark:text-neutral-200">
+            <a href="https://doi.org/{{ .Page.Params.articuloDOI }}" target="_blank" class="hover:underline text-primary-600 dark:text-primary-400">{{ .Page.Params.articuloDOI }}</a>
+          </span>
+        </div>
+        {{ end }}
+
+        <div>
+          <span class="block font-semibold text-neutral-500 dark:text-neutral-400 uppercase tracking-wider text-xs">Tipo de Acceso</span>
+          <span class="inline-flex items-center mt-1 px-2.5 py-0.5 rounded-full text-xs font-medium {{ if .Page.Params.articuloAccesoAbierto }}bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300{{ else }}bg-amber-100 text-amber-800 dark:bg-amber-900/30 dark:text-amber-300{{ end }}">
+            {{ if .Page.Params.articuloAccesoAbierto }}
+              <i class="fa-solid fa-lock-open mr-1.5 text-[10px]"></i> Acceso Abierto
+            {{ else }}
+              <i class="fa-solid fa-lock mr-1.5 text-[10px]"></i> Acceso Restringido
+            {{ end }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    {{ if .Page.Params.articuloUrl }}
+    <div class="flex flex-col justify-center items-center md:border-l border-neutral-200 dark:border-neutral-700 md:pl-6 min-w-[150px]">
+      <a href="{{ .Page.Params.articuloUrl }}" target="_blank" class="w-full flex items-center justify-center px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded font-bold transition-colors no-underline text-center">
+        <i class="fa-solid fa-external-link mr-2"></i> Leer Recurso
+      </a>
+      <p class="mt-2 text-[10px] text-center text-neutral-500 dark:text-neutral-400 leading-tight">
+        {{ if .Page.Params.articuloAccesoAbierto }}
+          Documento disponible libremente
+        {{ else }}
+          Puede requerir cuenta institucional o suscripción
+        {{ end }}
+      </p>
+    </div>
+    {{ end }}
+  </div>
+</div>

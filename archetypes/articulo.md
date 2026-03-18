@@ -29,17 +29,7 @@ idioma: "es"              # "es", "en", etc.
 tipoDocumento: ""         # "Artículo", "Capítulo", "Informe", "Tesis", "Conferencia"
 ---
 
-{{< button href="URL_ARTICULO" target="_blank" >}}
-Leer documento completo
-{{< /button >}}
-
-| | |
-|---|---|
-| **Autor(es)** | ... |
-| **Año** | ... |
-| **Fuente** | ... |
-| **DOI/URL** | ... |
-| **Acceso** | Abierto / Restringido |
+{{< recurso-info >}}
 
 ## Abstract
 

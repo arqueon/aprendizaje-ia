@@ -68,6 +68,8 @@ content/
 
 | Shortcode | Dónde |
 |---|---|
+| `recurso-info` (custom) | Artículos en recursos (automatiza metadata) |
+| `chart` | Observatorio (visualización de datos interactiva) |
 | `cards` / `card` (custom FA) | Homepage y secciones principales |
 | `lead` | Intro de todas las secciones |
 | `typeit` | ia-educacion/_index.md |
@@ -79,13 +81,13 @@ content/
 
 ## Shortcodes disponibles (no usados aún)
 
-`chart` (ideal Observatorio), `tabs` (contenido por audiencia), `gallery` (evidencias Laboratorio), `carousel`, `figure`, `badge`, `list`, `article`, `video`, `github`
+`tabs` (contenido por audiencia), `gallery` (evidencias Laboratorio), `carousel`, `figure`, `badge`, `list`, `article`, `video`, `github`
 
 ## Estado del contenido
 
-**Desarrollado:** debate socrático con IA, encuesta DEC 2026, artículo Bearman et al., link UNESCO, video Sal Khan, post blog "La IA No Hace Trampa".
+**Desarrollado:** debate socrático con IA, análisis crítico de sesgos (Laboratorio), guía de ingeniería de prompts (IA), encuesta DEC 2026 (Observatorio), artículo Bearman et al., link UNESCO, video Sal Khan, post blog "La IA No Hace Trampa".
 
-**Stubs pendientes:** ia-educacion/guias, ia-educacion/integracion-curricular, ia-educacion/tendencias, laboratorio/experiencias, laboratorio/integracion-ia, observatorio/guias, observatorio/documentacion, recursos/externas, recursos/institucionales, formacion-docente/\* (todas).
+**Stubs pendientes:** ia-educacion/integracion-curricular, ia-educacion/tendencias, laboratorio/experiencias, laboratorio/integracion-ia, observatorio/guias, observatorio/documentacion, recursos/externas, recursos/institucionales, formacion-docente/* (todas).
 
 ## Convenciones — NO romper sin consultar
 

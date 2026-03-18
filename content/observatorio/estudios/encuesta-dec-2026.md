@@ -10,10 +10,66 @@ Este estudio cuenta con la participación de la **Universidad de Guadalajara**. 
 
 ### Distribución de Participantes (UdeG) 
 
+{{< chart >}}
+type: 'doughnut',
+data: {
+  labels: ['Estudiantes', 'Docentes'],
+  datasets: [{
+    label: 'Participantes UdeG',
+    data: [5617, 961],
+    backgroundColor: ['#6366f1', '#10b981'],
+    hoverOffset: 4
+  }]
+},
+options: {
+  plugins: {
+    title: {
+      display: true,
+      text: 'Participantes por Perfil (UdeG)'
+    }
+  }
+}
+{{< /chart >}}
+
 *   **Estudiantes**: 5,617 (85.4%)
     *   *Predominio de nivel medio superior y licenciatura temprana.*
 *   **Docentes**: 961 (14.6%)
     *   *Equilibrio entre tiempo completo y parcial.*
+
+### Representación de la UdeG en la Muestra Latinoamericana
+
+{{< chart >}}
+type: 'bar',
+data: {
+  labels: ['Muestra Total', 'UdeG'],
+  datasets: [{
+    label: 'Estudiantes',
+    data: [22941, 5617],
+    backgroundColor: '#6366f1'
+  }, {
+    label: 'Profesores',
+    data: [7319, 961],
+    backgroundColor: '#10b981'
+  }]
+},
+options: {
+  indexAxis: 'y',
+  scales: {
+    x: {
+      stacked: true,
+    },
+    y: {
+      stacked: true
+    }
+  },
+  plugins: {
+    title: {
+      display: true,
+      text: 'Comparativa UdeG vs Total LATAM'
+    }
+  }
+}
+{{< /chart >}}
 
 ---
 

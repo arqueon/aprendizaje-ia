@@ -2,9 +2,13 @@
 title: "Guías prácticas de IA"
 description: "Guías de uso, tutoriales y recursos paso a paso para integrar herramientas de IA en la docencia universitaria."
 weight: 1
-showHero: false
+showHero: true
+heroStyle: "big"
+featureimage: "images/hero-ia.svg"
 showBreadcrumbs: true
 showSummary: true
+showCards: true
+cardView: true
 areas: ["ia"]
 ---
 

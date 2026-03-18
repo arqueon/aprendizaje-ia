@@ -27,17 +27,7 @@ idioma: "en"
 tipoDocumento: "Artículo"
 ---
 
-{{< button href="https://doi.org/10.1080/07294360.2023.2247829" target="_blank" >}}
-Leer artículo completo
-{{< /button >}}
-
-| | |
-|---|---|
-| **Autor(es)** | Bearman, M., Nieminen, J. H., & Ajjawi, R. |
-| **Año** | 2023 |
-| **Fuente** | Higher Education Research & Development |
-| **DOI** | 10.1080/07294360.2023.2247829 |
-| **Acceso** | Restringido (disponible vía biblioteca institucional) |
+{{< recurso-info >}}
 
 ## Abstract
 
