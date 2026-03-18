@@ -12,8 +12,17 @@
 {{ end }}
 
 {{/* Icon colors */}}
-{{ $iconBg := "#e0f2fe" }}{{ $iconColor := "#0284c7" }}
-{{ if $color }}{{ $iconBg = printf "%s22" $color }}{{ $iconColor = $color }}{{ end }}
+{{ $iconBg := "var(--primary-100)" }}{{ $iconColor := "var(--primary-600)" }}
+{{ if $color }}
+  {{ $iconBg = printf "%s22" $color }}
+  {{ $iconColor = $color }}
+{{ else }}
+  {{/* Default theme-aware colors if no specific color is provided */}}
+  <style>
+    .card-icon-default { background-color: #e0f2fe; color: #0284c7; }
+    .dark .card-icon-default { background-color: rgba(2, 132, 199, 0.2); color: #7dd3fc; }
+  </style>
+{{ end }}
 
 <div class="relative group">
   <div class="card-bg h-full border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col"
@@ -30,12 +39,12 @@
 
       {{/* Icon badge: top = image_height - icon_height/2 = 6rem - 1.375rem = 4.625rem → 50/50 split */}}
       {{ if $icon }}
-      <div class="card-icon-ring group-hover:scale-110 transition-transform duration-200"
+      <div class="card-icon-ring {{ if not $color }}card-icon-default{{ end }} group-hover:scale-110 transition-transform duration-200"
            style="position:absolute;top:4.625rem;left:50%;transform:translateX(-50%);
                   width:2.75rem;height:2.75rem;border-radius:50%;
-                  background-color:{{ $iconBg }};
+                  {{ if $color }}background-color:{{ $iconBg }};color:{{ $iconColor }};{{ end }}
                   display:flex;align-items:center;justify-content:center;z-index:10;">
-        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;color:{{ $iconColor }};"></i>
+        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;"></i>
       </div>
       {{ end }}
     {{ end }}
@@ -46,10 +55,11 @@
 
       {{/* Icon without image */}}
       {{ if and $icon (not $img) }}
-      <div class="group-hover:scale-110 transition-transform duration-200"
+      <div class="group-hover:scale-110 {{ if not $color }}card-icon-default{{ end }} transition-transform duration-200"
            style="width:2.5rem;height:2.5rem;border-radius:50%;flex-shrink:0;margin-bottom:.5rem;
-                  display:flex;align-items:center;justify-content:center;background-color:{{ $iconBg }};">
-        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;color:{{ $iconColor }};"></i>
+                  display:flex;align-items:center;justify-content:center;
+                  {{ if $color }}background-color:{{ $iconBg }};color:{{ $iconColor }};{{ end }}">
+        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;"></i>
       </div>
       {{ end }}
 
