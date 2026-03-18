@@ -28,8 +28,6 @@ asignatura: "Filosofía / Ética"
 ¿Puede la IA ayudar a un estudiante a pensar con más rigor? En esta práctica, la IA no responde preguntas — las hace. Actúa como el adversario filosófico que todo argumento necesita.
 {{< /lead >}}
 
-{{< taxo-list >}}
-
 ## Contexto
 
 Grupo de 32 estudiantes de tercer semestre de Filosofía, modalidad presencial. La asignatura trabaja argumentación y ética del discurso. El reto habitual: los estudiantes llegan al debate sin haber anticipado objeciones a su propia postura.

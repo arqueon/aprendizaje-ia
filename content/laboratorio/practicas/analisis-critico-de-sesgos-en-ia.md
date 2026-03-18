@@ -25,8 +25,6 @@ asignatura: "Sociología / Comunicación / Ética"
 La IA no es neutral; refleja los sesgos de sus datos de entrenamiento. En esta práctica, los estudiantes se convierten en auditores críticos de los algoritmos que usan a diario.
 {{< /lead >}}
 
-{{< taxo-list >}}
-
 ## Contexto
 
 Estudiantes de Ciencias Sociales o Humanidades. El objetivo es romper la idea de la IA como una "fuente de verdad absoluta" y entenderla como un espejo (a veces deformado) de la cultura que la produjo.

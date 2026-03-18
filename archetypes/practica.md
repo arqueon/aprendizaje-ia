@@ -25,8 +25,6 @@ asignatura: ""
 Frase inspiradora o resumen del reto pedagógico...
 {{< /lead >}}
 
-{{< taxo-list >}}
-
 ## Contexto
 
 _Describir el grupo, asignatura y el reto previo._
