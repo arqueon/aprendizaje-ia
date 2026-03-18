@@ -7,7 +7,6 @@ summary: "La discusión sobre el 'fraude académico' con IA nos distrae de la pr
 tags: ["evaluación", "integridad académica", "IA generativa", "diseño didáctico"]
 categories: ["opinion"]
 areas: ["ia", "evaluacion"]
-
 showHero: true
 heroStyle: "background"
 layoutBackgroundBlur: true
@@ -19,8 +18,6 @@ showTaxonomies: true
 showRelatedContent: true
 showBreadcrumbs: true
 showSummary: true
-
-featureimage: ""
 ---
 
 Hay una escena que se repite en departamentos académicos de todo el mundo: un docente descubre que un estudiante entregó un texto generado por IA. La reacción inmediata es hablar de deshonestidad, de trampa, de erosión de valores.

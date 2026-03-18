@@ -7,7 +7,6 @@ summary: "Aprende a estructurar tus peticiones a la IA usando el marco R-O-C-E p
 tags: ["prompts", "diseño didáctico", "IA generativa", "ingeniería de prompts"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
-
 showHero: true
 heroStyle: "background"
 layoutBackgroundBlur: true

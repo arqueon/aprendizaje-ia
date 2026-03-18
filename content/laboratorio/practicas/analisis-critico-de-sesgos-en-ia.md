@@ -17,7 +17,6 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-
 asignatura: "Sociología / Comunicación / Ética"
 ---
 

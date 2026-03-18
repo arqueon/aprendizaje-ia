@@ -17,10 +17,8 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-
 featureimage: ""
 featureimagecaption: "Estudiantes en debate filosófico con apoyo de IA"
-
 asignatura: "Filosofía / Ética"
 ---
 
