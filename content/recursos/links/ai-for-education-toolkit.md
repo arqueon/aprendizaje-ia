@@ -23,7 +23,7 @@ idioma: "en"
 tipoRecurso: "Guía institucional"
 ---
 
-{{< alert icon="link" cardColor="#e0f2fe" >}}
+{{< alert icon="link" type="info" >}}
 Recurso externo — se abre en una nueva pestaña.
 {{< /alert >}}
 

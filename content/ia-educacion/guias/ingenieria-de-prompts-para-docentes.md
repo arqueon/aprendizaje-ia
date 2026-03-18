@@ -58,11 +58,11 @@ Obliga a la IA a razonar antes de dar la respuesta final.
 
 ## Consejos Pedagógicos
 
-{{< alert icon="lightbulb" >}}
+{{< alert icon="lightbulb" type="info" >}}
 **Itera, no te conformes:** Si la primera respuesta no es perfecta, no la descartes. Pídele: "Me gusta el punto 2, pero profundiza más en la parte práctica" o "Usa un lenguaje menos técnico".
 {{< /alert >}}
 
-{{< alert icon="triangle-exclamation" cardColor="#fee2e2" iconColor="#dc2626" textColor="#991b1b" >}}
+{{< alert icon="triangle-exclamation" type="danger" >}}
 **Verifica siempre:** La IA puede alucinar datos o bibliografía inexistente. Tu rol como experto en la materia es validar cada pieza de contenido generado.
 {{< /alert >}}
 

@@ -79,9 +79,10 @@ Se usa una **rúbrica analítica** con cuatro criterios:
 | Calidad del diálogo con IA (evidencia) | 20% |
 | Autoevaluación reflexiva | 20% |
 
-{{< alert icon="shield-halved" cardColor="#fef9c3" iconColor="#854d0e" textColor="#713f12" >}}
-**Transparencia obligatoria.** El estudiante debe mostrar el intercambio con la IA. No hay penalización por haberla usado; la hay por ocultarlo. Este encuadre transforma la transparencia en una competencia evaluable.
+{{< alert icon="shield-halved" type="warning" >}}
+**Transparencia obligatoria.** El estudiante debe mostrar el intercambio con la IA. No hay penalización por haberla usado pero se ha de transparentar su uso. Este encuadre transforma la transparencia en una competencia evaluable.
 {{< /alert >}}
+
 
 ## Resultados y reflexión
 
