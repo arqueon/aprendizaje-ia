@@ -4,7 +4,7 @@ date: 2026-03-01
 draft: false
 description: "Los estudiantes preparan y sostienen un debate filosófico usando IA como interlocutor para anticipar contra-argumentos y fortalecer su postura."
 summary: "Una práctica de argumentación en la que la IA actúa como «abogado del diablo» para que los estudiantes refinen sus ideas antes del debate presencial."
-tags: ["argumentación", "debate", "pensamiento crítico", "ChatGPT", "Claude", "Licenciatura", "Presencial", "Rúbrica analítica"]
+tags: ["argumentación", "debate", "pensamiento crítico", "Gemini", "Claude", "Licenciatura", "Presencial", "Rúbrica analítica"]
 categories: ["practica-pedagogica"]
 areas: ["ia", "pedagogia"]
 
@@ -42,7 +42,7 @@ Desarrollar la capacidad de argumentar con solidez al exponer ideas a contra-arg
 
 ## Cómo se integra la IA
 
-El estudiante usa ChatGPT o Claude en modo "abogado del diablo": le presenta su argumento y pide que la IA lo refute desde distintas perspectivas filosóficas. La interacción queda documentada y se entrega como evidencia.
+El estudiante usa Gemini o Claude en modo "abogado del diablo": le presenta su argumento y pide que la IA lo refute desde distintas perspectivas filosóficas. La interacción queda documentada y se entrega como evidencia.
 
 La IA no toma postura propia: su rol es presionar, cuestionar y ofrecer objeciones. El estudiante decide cómo responde.
 
