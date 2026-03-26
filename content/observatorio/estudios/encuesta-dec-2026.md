@@ -1,14 +1,14 @@
 ---
 title: Encuesta DEC 2026 - IA en Educación Superior
 date: 2026-02-06
-description: Informe completo sobre la adopción de IA en universidades de Latinoamérica y UdeG.
+description: Informe sobre la adopción de IA en universidades de Latinoamérica y UdeG.
 ---
 
 ## Resultados Destacados
 
 Este estudio cuenta con la participación de la **Universidad de Guadalajara**. Se realiza a partir de una muestra de 22,941 de estudiantes y 7,319 profesores, en 29 instituciones de educación superior en Latinoamérica. La UdeG representa el 24.5% de la muestra total con **6,578 universitarios**.
 
-### Distribución de Participantes (UdeG) 
+### Distribución de Participantes (UdeG)
 
 {{< chart >}}
 type: 'doughnut',
@@ -31,10 +31,10 @@ options: {
 }
 {{< /chart >}}
 
-*   **Estudiantes**: 5,617 (85.4%)
-    *   *Predominio de nivel medio superior y licenciatura temprana.*
-*   **Docentes**: 961 (14.6%)
-    *   *Equilibrio entre tiempo completo y parcial.*
+* **Estudiantes**: 5,617 (85.4%)
+  * *Predominio de nivel medio superior y licenciatura temprana.*
+* **Docentes**: 961 (14.6%)
+  * *Equilibrio entre tiempo completo y parcial.*
 
 ### Representación de la UdeG en la Muestra Latinoamericana
 
