@@ -55,29 +55,29 @@ content/
 
 ## SVGs hero por sección
 
-| Archivo | Sección | Color |
-|---|---|---|
-| `hero-bg.svg` | Homepage | Azul oceánico |
-| `hero-ia.svg` | IA en Educación | Índigo/violeta (red neuronal) |
-| `hero-formacion.svg` | Formación Docente | Verde esmeralda (red de personas) |
-| `hero-laboratorio.svg` | Laboratorio | Azul |
-| `hero-observatorio.svg` | Observatorio | Azul |
-| `hero-recursos.svg` | Recursos | Azul |
+| Archivo                 | Sección           | Color                             |
+| ----------------------- | ----------------- | --------------------------------- |
+| `hero-bg.svg`           | Homepage          | Azul oceánico                     |
+| `hero-ia.svg`           | IA en Educación   | Índigo/violeta (red neuronal)     |
+| `hero-formacion.svg`    | Formación Docente | Verde esmeralda (red de personas) |
+| `hero-laboratorio.svg`  | Laboratorio       | Azul                              |
+| `hero-observatorio.svg` | Observatorio      | Azul                              |
+| `hero-recursos.svg`     | Recursos          | Azul                              |
 
 ## Shortcodes Blowfish en uso
 
-| Shortcode | Dónde |
-|---|---|
-| `recurso-info` (custom) | Artículos en recursos (automatiza metadata) |
-| `chart` | Observatorio (visualización de datos interactiva) |
-| `cards` / `card` (custom FA) | Homepage y secciones principales |
-| `lead` | Intro de todas las secciones |
-| `typeit` | ia-educacion/_index.md |
-| `timeline` + `timelineItem` | Prácticas del laboratorio |
-| `keywordList` + `keyword` | Herramientas en prácticas |
-| `alert` | Notas pedagógicas importantes |
-| `mermaid` | Diagramas (homepage) |
-| `youtubeLite` | Videos |
+| Shortcode                    | Dónde                                             |
+| ---------------------------- | ------------------------------------------------- |
+| `recurso-info` (custom)      | Artículos en recursos (automatiza metadata)       |
+| `chart`                      | Observatorio (visualización de datos interactiva) |
+| `cards` / `card` (custom FA) | Homepage y secciones principales                  |
+| `lead`                       | Intro de todas las secciones                      |
+| `typeit`                     | ia-educacion/_index.md                            |
+| `timeline` + `timelineItem`  | Prácticas del laboratorio                         |
+| `keywordList` + `keyword`    | Herramientas en prácticas                         |
+| `alert`                      | Notas pedagógicas importantes                     |
+| `mermaid`                    | Diagramas (homepage)                              |
+| `youtubeLite`                | Videos                                            |
 
 ## Shortcodes disponibles (no usados aún)
 
