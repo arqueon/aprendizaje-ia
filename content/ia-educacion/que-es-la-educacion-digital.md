@@ -1,5 +1,5 @@
 ---
-title: "¿Qué es la educación digital en la Educación Superior?"
+title: "¿Qué es la educación digital?"
 date: 2026-04-03
 description: "Exploración conceptual y taxonomía de las modalidades de educación digital para el nivel superior, desde entornos totalmente en línea hasta modelos inmersivos."
 categories: ["Conceptos Fundamentales", "Modalidades Educativas"]
@@ -11,7 +11,7 @@ draft: false
 
 Cuando hablamos de **educación digital** en la educación superior contemporánea, no nos referimos simplemente a la transferencia del aula tradicional a una pantalla mediante plataformas de videoconferencia. Nos referimos a un **ecosistema de prácticas pedagógicas** mediadas por tecnología, donde la relación del estudiante con el conocimiento, con sus pares y con los docentes se rediseña para potenciar el análisis crítico, la autonomía y el aprendizaje activo.
 
-La educación digital trasciende el uso procedimental de herramientas; implica el diseño de experiencias, espacios y secuencias didácticas donde la tecnología es una condición constitutiva y no un mero accesorio. En este paradigma, el aprendizaje opera en una lógica de red: los nodos se interconectan creando agenciamientos donde el estudiante no solo apropia contenidos, sino que los cuestiona y produce.
+La educación digital trasciende el uso de herramientas; implica el diseño de experiencias, espacios y secuencias didácticas donde la tecnología es una condición constitutiva y no un mero accesorio. En este paradigma, el aprendizaje opera en una lógica de red: los nodos se interconectan creando agenciamientos donde el estudiante no solo apropia contenidos, sino que los cuestiona y produce.
 
 <div class="my-6 p-4 bg-blue-50/50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-lg shadow-sm">
   <h4 class="text-blue-700 dark:text-blue-300 m-0 text-lg flex items-center">
@@ -21,7 +21,7 @@ La educación digital trasciende el uso procedimental de herramientas; implica e
   <p class="mt-2 mb-0">La educación digital desplaza el foco del "entregable final" hacia las decisiones epistémicas y los procesos. Evaluamos cómo el estudiante llega a una respuesta, las fuentes que filtra y las interacciones que establece.</p>
 </div>
 
-![Concepto de Educación Digital](/assets/images/educacion-digital-concepto.jpg "Estudiantes universitarios interactuando en ecosistemas mixtos de aprendizaje") <!-- Placeholder para ilustrar -->
+![Concepto de Educación Digital](/images/educacion-digital-concepto.png "Estudiantes universitarios interactuando en ecosistemas mixtos de aprendizaje")
 
 ---
 
@@ -61,33 +61,33 @@ Modalidades en constante evolución impulsadas por interacciones tridimensionale
     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
     Alerta Docente
   </h4>
-  <p class="mt-2 mb-0">Independientemente de la estrategia adoptada, evitar la simple "distribución espectral". Un modelo autogestivo donde el docente asume que la IA se encargará ciegamente del alumno, traiciona el verdadero propósito del encuadre digital.</p>
+  <p class="mt-2 mb-0">Independientemente de la estrategia adoptada, es crucial evitar el efecto de <strong>"docente fantasma"</strong> o la ausencia pedagógica. Un modelo donde el profesor solo sube el contenido a la plataforma y asume que la tecnología o la IA se encargarán de guiar y evaluar ciegamente al alumno, traiciona el verdadero propósito del encuadre digital: la retroalimentación continua y el agenciamiento crítico.</p>
 </div>
 
 ---
 
-### Diagrama General de la Taxonomía
+### Taxonomía de Formas de Educación Digital
 
 A continuación, visualizamos este encuadre interconectado:
 
-```mermaid
+{{< mermaid >}}
 mindmap
-  root((Educación<br/>Digital Superior))
+  root((**Educación <br/>Digital**))
     100% En Línea
       Síncrona
       Asíncrona Autogestiva
       Asíncrona Mediada
       Combinada
-    Mixta (presencial + en línea)
+    Mixta: presencial + en línea
       Aula Invertida
-      Aprendizaje híbrido (Blended learning)
+      Aprendizaje híbrido<br/>o *Blended*
       Aprendizaje rizomático
     Formatos Modulares
       Microcredenciales
       Cursos Cortos
     Inmersivos
-      Aumentada y Virtual (XR)
+      Aumentada y Virtual 
       Metaversos 
-```
+{{< /mermaid >}}
 
-**Reflexión Final:** Elegir en nuestro diseño instruccional una modalidad sobre otra no es una mera cuestión presupuestal o logística. Responde a qué **competencias formativas** e interactividad epistémica queremos construir con nuestra clase.
+**Reflexión Final:** Elegir en nuestro diseño instruccional una modalidad sobre otra no es una mera cuestión presupuestal o logística. Responde a qué **competencias formativas** y con qué **interactividad** queremos construir con nuestra clase.
