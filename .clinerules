@@ -1,0 +1,17 @@
+# Instrucciones de Estilo y Redacción
+
+1. **Citas y Bibliografía (APA 7)**:
+   - Para toda cita incrustada en el texto (in-text citation) utiliza el formato oficial APA 7. No utilices notas al final (endnotes).
+   - En la sección final, incluye la lista bajo el título "Referencias", utilizando estrictamente el formato bibliográfico APA 7.
+   - Privilegia siempre fuentes en inglés (las más reconocidas internacionalmente) y utiliza fuentes en español solo si son estrictamente las más relevantes o locales.
+   - Verifica sistemáticamente que si existe una cita en el texto, tenga su referencia al final y viceversa.
+
+2. **Tono y Lenguaje (Minimalista y Objetivo)**:
+   - Elimina la redundancia y no utilices palabras "cliché" de la jerga de IA (como "crucial", "multifacético", "imperativo", "maravilloso", "contundentemente").
+   - Evita en su totalidad hacer adjetivaciones innecesarias en general. Mantén un tono sumamente analítico, clínico, preciso y sobrio.
+
+3. **Capitalización (Sentence case / Tipo oración)**:
+   - Al redactar títulos de artículos, encabezados de nivel (H1, H2, H3), viñetas, tablas, esquemas (como Mermaid) o listas: **utiliza siempre la capitalización tipo oración (sentence case)**.
+   - Esto significa que **solamente** la primera palabra y los nombres propios inician con letra mayúscula. 
+   - Está prohibido utilizar "Title Case" (Iniciando Cada Palabra Con Mayúscula).
+   - Respeta de forma estricta las convenciones gramaticales estándar de la lengua española respecto al uso de mayúsculas.
