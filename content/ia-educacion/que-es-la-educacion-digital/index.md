@@ -13,7 +13,22 @@ La **educación digital** se define como un *ecosistema pedagógico sistemático
 
 Diferente de los paradigmas fundamentados en la simple transmisión unidireccional de información (como la transferencia del aula tradicional a una pantalla mediante plataformas de videoconferencia), esta aproximación exige **diseños instruccionales deliberados**. Promueve la presencia cognitiva, social y docente, configurando entornos sociotécnicos orientados a la construcción de conocimiento de orden superior.
 
-Su alcance ontológico opera sobre un continuo ortogonal que abarca desde la presencialidad tecnológicamente enriquecida hasta la virtualidad asíncrona total. En la educación superior, demanda una alineación precisa entre herramientas, objetivos cognitivos y metodologías didácticas, operando la tecnología simultáneamente como canal de distribución, andamiaje intelectual y espacio relacional colaborativo.
+Para que esta aproximación sea efectiva —desde entornos presenciales hasta clases 100% virtuales— todo se reduce a una alineación estricta entre tres piezas, donde la tecnología tiene un rol activo:
+
+{{< mermaid >}}
+flowchart LR
+    A[Objetivos de<br/>Aprendizaje] --- D((Educación<br/>Digital))
+    B[Metodologías<br/>de Enseñanza] --- D
+    C[Herramientas<br/>Digitales] --- D
+    
+    D -.No es.-> E[Canal pasivo de información]
+    D ==> F[Soporte activo e intelectual]
+    D ==> G[Espacio de colaboración]
+    
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px,color:#000;
+    classDef core fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#000;
+    class D core;
+{{< /mermaid >}}
 
 <div class="my-6 p-4 bg-blue-50/50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-lg shadow-sm">
   <h4 class="text-blue-700 dark:text-blue-300 m-0 text-lg flex items-center">
@@ -23,7 +38,7 @@ Su alcance ontológico opera sobre un continuo ortogonal que abarca desde la pre
   <p class="mt-2 mb-0">La educación digital desplaza el foco del "entregable final" hacia las decisiones epistémicas y los procesos. Evaluamos cómo el estudiante llega a una respuesta, exigiendo un diseño donde la tecnología es una condición constitutiva para potenciar el análisis crítico y la autonomía.</p>
 </div>
 
-![Concepto de Educación Digital](/images/educacion-digital-concepto.png "Estudiantes universitarios interactuando en ecosistemas mixtos de aprendizaje")
+![Concepto de Educación Digital](img/educacion-digital-concepto.png "Estudiantes universitarios interactuando en ecosistemas mixtos de aprendizaje")
 
 ---
 
@@ -64,14 +79,14 @@ Se caracteriza por una desvinculación total del campus físico. El 100% de la c
     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
     Alerta Docente
   </h4>
-  <p class="mt-2 mb-0">La adopción de modelos totalmente asíncronos o híbridos no debe decantar en el efecto de <strong>"docente fantasma"</strong>. Un sistema donde el profesor solo funge como proveedor de entregables y asume que la tecnología guiará al alumno ciegamente, traiciona el propósito del encuadre digital, donde la mediación, la retroalimentación cualitativa y el soporte sociotécnico son vitales.</p>
+  <p class="mt-2 mb-0">La adopción de modelos totalmente asíncronos o híbridos no debe caer en el efecto de <strong>"docente fantasma"</strong>. Un sistema donde el profesor solo funge como proveedor de entregables y asume que la tecnología guiará al alumno sin su apoyo, no cumple el propósito de la educación digital, donde la mediación, la retroalimentación cualitativa y el soporte socioemocional son vitales.</p>
 </div>
 
 ---
 
 ### Cuadro Comparativo de Modalidades
 
-*<small>Nota: Si nos visitas desde móvil, desliza la tabla horizontalmente para ver todas las dimensiones.</small>*
+*<small>Nota: Si nos visitas desde móvil o no se ve completa la tabla, deslízala  horizontalmente para ver todas las columnas.</small>*
 
 <div class="overflow-x-auto w-full pb-4">
 

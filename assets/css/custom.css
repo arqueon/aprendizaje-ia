@@ -1,4 +1,27 @@
-/* Ensancha el contenedor principal (canvas) de los artículos para lectura */
-.prose {
-    max-width: 90ch !important;
+/* 
+  ELIMINA EL COLOR AZUL DEL HEADER:
+  El tema aplica el color primario al contenedor ".single_hero_background" interno del header.
+  Aquí forzamos a que sea cien por ciento incoloro (transparente), reteniendo solo el blur.
+*/
+.single_hero_background, .bg-primary-200\/80, .dark\:bg-primary-800\/30 {
+    background-color: transparent !important;
+    background-image: none !important; /* Por si usa gradientes */
+}
+
+/* Adicional: forzar transparencia en el menú principal */
+header.z-10, header.fixed, .backdrop-blur {
+    background-color: transparent !important;
+}
+header {
+    border-bottom: 1px solid rgba(125, 125, 125, 0.15) !important;
+}
+
+/* 
+  ENSANCHA EL CANVAS TEXTUAL:
+  Anteriormente le dimos "85ch", pero un contenedor padre del tema lo comprime
+  para hacerle lugar al Índice (TOC). Al poner "none", le permitimos al texto 
+  expandirse orgánicamente por todo el espacio libre que le preste el monitor.
+*/
+.prose, .max-w-prose {
+    max-width: none !important;
 }
