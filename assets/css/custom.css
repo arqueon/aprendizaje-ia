@@ -1,0 +1,4 @@
+/* Ensancha el contenedor principal (canvas) de los artículos para lectura */
+.prose {
+    max-width: 90ch !important;
+}

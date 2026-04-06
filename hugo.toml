@@ -19,6 +19,9 @@ showMermaid = true
 logo = "images/udg-logo.svg"
 mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
 
+[params.header]
+  layout = "fixed-fill-blur"
+
 [params.homepage]
   layout = "background"
   homepageImage = "images/hero-bg.svg"
