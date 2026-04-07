@@ -15,3 +15,9 @@
    - Esto significa que **solamente** la primera palabra y los nombres propios inician con letra mayúscula. 
    - Está prohibido utilizar "Title Case" (Iniciando Cada Palabra Con Mayúscula).
    - Respeta de forma estricta las convenciones gramaticales estándar de la lengua española respecto al uso de mayúsculas.
+
+4. **Estructura de Hugo (Page Bundles y Gestión de Imágenes)**:
+   - Para las publicaciones o páginas de contenido regular, utiliza siempre la estructura de **Leaf Bundles**: crea una carpeta con el nombre o slug del artículo y dentro un archivo llamado `index.md`. No utilices archivos `.md` sueltos.
+   - Para las secciones, listados o páginas de índice de una rama, utiliza **Branch Bundles** (una carpeta con un archivo `_index.md`).
+   - Las **imágenes y recursos multimedia** (gráficos, diagramas, etc.) asociados a un artículo deben almacenarse **estrictamente dentro de la misma carpeta** del Page Bundle (es decir, al mismo nivel que el archivo `index.md`), y nunca en directorios globales como `static/` a menos que sean recursos transversales de todo el sitio.
+   - Al referenciar o insertar las imágenes dentro del contenido, utiliza **rutas relativas** directas (ej. `![Descripción](imagen.webp)` o usando un shortcode tipo `<figure>`) ya que Hugo procesará los recursos del Bundle automáticamente.
