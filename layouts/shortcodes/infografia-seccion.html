@@ -1,0 +1,23 @@
+{{/*
+  Shortcode: infografia-seccion
+  Parámetros:
+    numero: número de la sección (opcional)
+    titulo: título de la sección
+    icono: nombre del ícono Font Awesome (sin prefijo fa-)
+    color: color de fondo del ícono (hex)
+*/}}
+{{ $numero := .Get "numero" | default "" }}
+{{ $titulo := .Get "titulo" }}
+{{ $icono := .Get "icono" | default "circle" }}
+{{ $color := .Get "color" | default "#0ea5e9" }}
+
+<div class="infografia-seccion">
+  <div class="infografia-icono" style="background-color: {{ $color }};">
+    <i class="fas fa-{{ $icono }}"></i>
+    {{ if $numero }}<span class="numero">{{ $numero }}</span>{{ end }}
+  </div>
+  <div class="infografia-seccion-content">
+    <h3>{{ $titulo }}</h3>
+    {{ .Inner | markdownify }}
+  </div>
+</div>

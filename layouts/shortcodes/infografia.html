@@ -1,0 +1,220 @@
+{{/*
+  Shortcode: infografia
+  Uso:
+    {{< infografia
+        titulo="Título principal"
+        subtitulo="Subtítulo descriptivo"
+        fuente="Texto de fuente/crédito"
+    >}}
+      {{< infografia-seccion
+          numero="1"
+          titulo="Título de sección"
+          icono="brain"
+          color="#2563eb"
+      >}}
+        Contenido markdown de la sección...
+      {{< /infografia-seccion >}}
+    {{< /infografia >}}
+*/}}
+
+{{ $titulo := .Get "titulo" }}
+{{ $subtitulo := .Get "subtitulo" | default "" }}
+{{ $fuente := .Get "fuente" | default "" }}
+
+<div class="infografia-container">
+  <style>
+    .infografia-container {
+      --info-radius: 1rem;
+      font-family: inherit;
+      max-width: 56rem;
+      margin: 2rem auto;
+    }
+
+    .infografia-header {
+      background: linear-gradient(135deg, #0c4a6e 0%, #1e3a5f 50%, #1e40af 100%);
+      color: #fff;
+      padding: 2.5rem 2rem 2rem;
+      border-radius: var(--info-radius) var(--info-radius) 0 0;
+      text-align: center;
+    }
+    .infografia-header h2 {
+      color: #fff !important;
+      font-size: 1.65rem;
+      font-weight: 800;
+      margin: 0 0 .5rem;
+      line-height: 1.25;
+      border: none !important;
+    }
+    .infografia-header p {
+      color: #cbd5e1;
+      font-size: .95rem;
+      margin: 0;
+      max-width: 38rem;
+      margin-inline: auto;
+      line-height: 1.5;
+    }
+
+    .infografia-intro {
+      background: #f0f9ff;
+      border-left: 4px solid #0ea5e9;
+      padding: 1.5rem 1.75rem;
+      margin: 0;
+      font-size: .92rem;
+      line-height: 1.65;
+      color: #1e293b;
+    }
+    .dark .infografia-intro {
+      background: #0c1929;
+      border-left-color: #0ea5e9;
+      color: #cbd5e1;
+    }
+
+    .infografia-body {
+      background: #fff;
+      padding: 0;
+    }
+    .dark .infografia-body {
+      background: #1a1a2e;
+    }
+
+    .infografia-seccion {
+      display: grid;
+      grid-template-columns: 3.5rem 1fr;
+      gap: 0 1.25rem;
+      padding: 1.75rem 2rem;
+      border-bottom: 1px solid #e2e8f0;
+      align-items: start;
+    }
+    .dark .infografia-seccion {
+      border-bottom-color: #334155;
+    }
+    .infografia-seccion:last-child {
+      border-bottom: none;
+    }
+
+    .infografia-icono {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: #fff;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .infografia-icono .numero {
+      position: absolute;
+      top: -4px;
+      right: -4px;
+      width: 1.25rem;
+      height: 1.25rem;
+      border-radius: 50%;
+      background: #0f172a;
+      color: #fff;
+      font-size: .65rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #fff;
+    }
+    .dark .infografia-icono .numero {
+      background: #e2e8f0;
+      color: #0f172a;
+      border-color: #1a1a2e;
+    }
+
+    .infografia-seccion-content h3 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0 0 .5rem;
+      line-height: 1.3;
+      color: #0f172a;
+      border: none !important;
+    }
+    .dark .infografia-seccion-content h3 {
+      color: #e2e8f0;
+    }
+
+    .infografia-seccion-content ul {
+      margin: 0;
+      padding: 0 0 0 1.15rem;
+      list-style: none;
+    }
+    .infografia-seccion-content ul li {
+      position: relative;
+      padding-left: .25rem;
+      margin-bottom: .45rem;
+      font-size: .88rem;
+      line-height: 1.55;
+      color: #334155;
+    }
+    .dark .infografia-seccion-content ul li {
+      color: #94a3b8;
+    }
+    .infografia-seccion-content ul li::before {
+      content: "";
+      position: absolute;
+      left: -.95rem;
+      top: .55rem;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: currentColor;
+      opacity: .4;
+    }
+
+    .infografia-seccion-content p {
+      font-size: .88rem;
+      line-height: 1.55;
+      color: #334155;
+      margin: 0 0 .5rem;
+    }
+    .dark .infografia-seccion-content p {
+      color: #94a3b8;
+    }
+
+    .infografia-footer {
+      background: #f8fafc;
+      border-top: 2px solid #e2e8f0;
+      border-radius: 0 0 var(--info-radius) var(--info-radius);
+      padding: 1.25rem 2rem;
+      font-size: .75rem;
+      color: #64748b;
+      line-height: 1.6;
+    }
+    .dark .infografia-footer {
+      background: #0f172a;
+      border-top-color: #334155;
+      color: #64748b;
+    }
+
+    @media (max-width: 640px) {
+      .infografia-header { padding: 1.75rem 1.25rem 1.5rem; }
+      .infografia-header h2 { font-size: 1.3rem; }
+      .infografia-seccion {
+        grid-template-columns: 2.75rem 1fr;
+        padding: 1.25rem 1.25rem;
+        gap: 0 1rem;
+      }
+      .infografia-icono { width: 2.75rem; height: 2.75rem; font-size: 1rem; }
+    }
+  </style>
+
+  <div class="infografia-header">
+    <h2>{{ $titulo }}</h2>
+    {{ if $subtitulo }}<p>{{ $subtitulo }}</p>{{ end }}
+  </div>
+
+  <div class="infografia-body">
+    {{ .Inner }}
+  </div>
+
+  {{ if $fuente }}
+  <div class="infografia-footer">
+    {{ $fuente | markdownify }}
+  </div>
+  {{ end }}
+</div>

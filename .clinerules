@@ -21,3 +21,7 @@
    - Para las secciones, listados o páginas de índice de una rama, utiliza **Branch Bundles** (una carpeta con un archivo `_index.md`).
    - Las **imágenes y recursos multimedia** (gráficos, diagramas, etc.) asociados a un artículo deben almacenarse **estrictamente dentro de la misma carpeta** del Page Bundle (es decir, al mismo nivel que el archivo `index.md`), y nunca en directorios globales como `static/` a menos que sean recursos transversales de todo el sitio.
    - Al referenciar o insertar las imágenes dentro del contenido, utiliza **rutas relativas** directas (ej. `![Descripción](imagen.webp)` o usando un shortcode tipo `<figure>`) ya que Hugo procesará los recursos del Bundle automáticamente.
+
+5. **Interconexión y SEO Interno (Backlinks)**:
+   - Al crear o modificar nuevo contenido, es **necesario** incluir hipervínculos o "backlinks" hacia otras páginas relevantes del sitio (por ejemplo, entre el Observatorio, Laboratorio y Formación Docente), sin que ello se vea forzado o descontextualizado, más que ligas a páginas a temáticas, términos o etiquetas en general, debe ser fluido con el texto no verse insertado forzosamente.
+   - Esto fomenta una red estructurada de conocimiento y facilita la navegación transversal de los docentes en la plataforma.
