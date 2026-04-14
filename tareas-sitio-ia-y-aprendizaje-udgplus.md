@@ -287,15 +287,15 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 ## IV. Resumen cuantitativo
 
 | Categoría         | 🔴 Urgentes | 🟡 Normales | ✅ Hechas | Total   |
-| ----------------- | ----------- | ----------- | -------- | ------- |
-| IA en Educación   | 14          | 15          | 1        | 30      |
-| Laboratorio       | 6           | 7           | 2        | 15      |
-| Observatorio      | 5           | 6           | 1        | 12      |
-| Recursos          | 5           | 9           | 3        | 17      |
-| Formación Docente | 4           | 5           | 0        | 9       |
-| Blog              | 0           | 6           | 1        | 7       |
-| Infraestructura   | 2           | 8           | 0        | 10      |
-| **Total**         | **36**      | **56**      | **8**    | **100** |
+| ----------------- | ----------- | ----------- | --------- | ------- |
+| IA en Educación   | 10          | 13          | 1         | 24      |
+| Laboratorio       | 5           | 7           | 2         | 14      |
+| Observatorio      | 5           | 6           | 1         | 12      |
+| Recursos          | 5           | 11          | 3         | 19      |
+| Formación Docente | 4           | 5           | 0         | 9       |
+| Blog              | 0           | 6           | 1         | 7       |
+| Infraestructura   | 2           | 8           | 0         | 10      |
+| **Total**         | **31**      | **56**      | **8**     | **95**  |
 
 ---
 

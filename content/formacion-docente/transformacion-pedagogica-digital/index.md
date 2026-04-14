@@ -33,7 +33,7 @@ La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en
 
 3. **Aulas globales.** Internet entrelaza lo global y lo local; el aula se convierte en un espacio genuinamente global donde convergen perspectivas, recursos y colaboraciones internacionales.
 
-La pandemia no fue una "revolución tecnológica" sino una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch* (Universidad de Guadalajara, 2022).
+La pandemia no fue una "revolución tecnológica" pero si hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch* (Universidad de Guadalajara, 2022).
 
 ### Opiniones en la Red Universitaria
 
@@ -59,32 +59,38 @@ No existe un esquema único para la transformación pedagógica y digital. Cada 
 {{< infografia titulo="Elementos Comunes de la Estrategia" subtitulo="Pilares de la transformación pedagógica" >}}
   {{< infografia-seccion titulo="Aprendizaje híbrido" icono="laptop-house" color="#3b82f6" >}}
   Combinaciones flexibles de aprendizaje presencial y en línea.
-  * [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-hibrido" >}})
+
+- [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-hibrido" >}})
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Aprendizaje invertido" icono="retweet" color="#10b981" >}}
   Las lecciones se revisan fuera del aula; en clase se profundiza colaborativamente.
-  * [Ver más sobre este elemento]({{< ref "laboratorio/practicas/aula-invertida" >}})
+
+- [Ver más sobre este elemento]({{< ref "laboratorio/practicas/aula-invertida" >}})
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Aprendizaje activo" icono="users" color="#f59e0b" >}}
   Los estudiantes se vuelven partícipes de su propio aprendizaje.
-  * [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-activo" >}})
+
+- [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-activo" >}})
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Evaluación y retroalimentación" icono="comments" color="#ef4444" >}}
   Comentarios, sugerencias y evaluación sistemática de y hacia el profesor y entre los estudiantes.
-  * [Ver más sobre este elemento]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}})
+
+- [Ver más sobre este elemento]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}})
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Syllabus y objetivos" icono="clipboard-list" color="#8b5cf6" >}}
   Programación detallada de actividades con objetivos explícitos.
-  * [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})
+
+- [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Portafolio de docencia" icono="folder-open" color="#0ea5e9" >}}
   Definición de la filosofía y objetivos de docencia de cada profesor.
-  * [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})
+
+- [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
