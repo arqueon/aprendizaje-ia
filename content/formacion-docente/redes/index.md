@@ -2,7 +2,7 @@
 title: "Redes y comunidades"
 description: "Comunidades de práctica, redes docentes y espacios de intercambio para el aprendizaje colaborativo sobre tecnología educativa e IA."
 weight: 3
-showHero: false
+showHero: true
 showBreadcrumbs: true
 showSummary: true
 areas: ["formacion", "digital"]

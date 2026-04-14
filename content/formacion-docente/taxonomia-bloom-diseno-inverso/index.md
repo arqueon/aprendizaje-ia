@@ -8,7 +8,7 @@ tags: ["taxonomia-bloom", "diseno-inverso", "backward-design", "objetivos-aprend
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "evaluacion"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

@@ -8,7 +8,7 @@ tags: ["syllabus", "portafolio", "planeacion-didactica", "perfil-docente", "dise
 categories: ["metodologia-pedagogica"]
 areas: ["formacion", "pedagogia"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

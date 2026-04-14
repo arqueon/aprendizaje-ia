@@ -2,7 +2,7 @@
 title: "Alfabetización digital"
 description: "Qué es la IA, tipos de herramientas, cómo entender el ecosistema digital y las implicaciones de un uso adecuado."
 weight: 1
-showHero: false
+showHero: true
 showBreadcrumbs: true
 showSummary: true
 areas: ["digital", "ia"]

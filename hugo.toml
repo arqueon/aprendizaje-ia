@@ -35,6 +35,8 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   showMermaid = true
   showDate = true
   showAuthor = false
+  showHero = true
+  heroStyle = "background"
   showReadingTime = true
   showWordCount = false
   showTaxonomies = true
@@ -48,6 +50,8 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   showHero = true
   heroStyle = "big"
   showCards = true
+  cardView = true
+  cardViewScreenWidth = false
   showSummary = true
   groupByYear = false
 

@@ -8,7 +8,7 @@ tags: ["blended-learning", "aprendizaje-hibrido", "modalidades", "educacion-en-l
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "digital"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

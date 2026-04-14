@@ -2,7 +2,7 @@
 title: "Formación continua"
 description: "Cursos, talleres, rutas de aprendizaje y programas de actualización docente para el aprendizaje digital y la integración de IA."
 weight: 2
-showHero: false
+showHero: true
 showBreadcrumbs: true
 showSummary: true
 areas: ["formacion", "digital"]

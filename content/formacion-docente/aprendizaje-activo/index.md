@@ -8,7 +8,7 @@ tags: ["aprendizaje-activo", "active-learning", "tecnicas-didacticas", "pensamie
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "formacion"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

@@ -25,3 +25,16 @@
 5. **Interconexión y SEO Interno (Backlinks)**:
    - Al crear o modificar nuevo contenido, es **necesario** incluir hipervínculos o "backlinks" hacia otras páginas relevantes del sitio (por ejemplo, entre el Observatorio, Laboratorio y Formación Docente), sin que ello se vea forzado o descontextualizado, más que ligas a páginas a temáticas, términos o etiquetas en general, debe ser fluido con el texto no verse insertado forzosamente.
    - Esto fomenta una red estructurada de conocimiento y facilita la navegación transversal de los docentes en la plataforma.
+
+6. **Imagen destacada obligatoria (Thumbnails y Hero)**:
+   - Todo artículo nuevo **debe incluir** un archivo de imagen cuyo nombre comience con `feature` (por ejemplo, `featured.webp`, `featured.png` o `featured.jpg`) ubicado **en la raíz del Page Bundle**, al mismo nivel que el `index.md`.
+   - Esta imagen es detectada automáticamente por Blowfish y se utiliza en 4 contextos: thumbnail en cards del homepage, thumbnail en listados de sección, hero image del artículo, y Open Graph para redes sociales.
+   - La imagen debe ser temáticamente representativa del contenido del artículo. Se recomienda un estilo de ilustración moderna y minimalista, con gradientes suaves, colores vibrantes y sin texto embebido. Dimensión recomendada: ~1200×630px.
+   - El formato preferido es `.webp` por rendimiento, seguido de `.png` para ilustraciones generadas.
+   - En el front matter del artículo, incluir `showHero: true` para que la imagen aparezca como hero dentro del artículo. El `heroStyle` se hereda de la configuración global (`"background"`) salvo que se necesite uno diferente.
+   - **Estructura mínima de un artículo nuevo:**
+     ```
+     content/seccion/mi-articulo/
+     ├── index.md        ← con showHero: true en front matter
+     └── featured.webp   ← imagen para cards y hero
+     ```

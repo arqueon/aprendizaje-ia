@@ -97,3 +97,14 @@ content/
 4. **Deploy automático** al pushear a `main` — confirmar antes de cambios estructurales grandes
 5. **Taxonomía `areas`** en todo contenido nuevo: ia, evaluacion, pedagogia, digital, formacion
 6. **SVG hero índigo** para IA, **verde** para Formación, **azul** para el resto
+7. **Imagen `featured.*` obligatoria** en todo artículo nuevo:
+   - Colocar un archivo `featured.webp` (o `.png`) en la raíz del Page Bundle, junto al `index.md`
+   - Blowfish la detecta automáticamente para: cards del homepage, listados de sección, hero del artículo y Open Graph
+   - Estilo recomendado: ilustración moderna, minimalista, gradientes suaves, sin texto embebido, ~1200×630px
+   - Incluir `showHero: true` en el front matter (el `heroStyle: "background"` se hereda de `hugo.toml`)
+   - Estructura mínima:
+     ```
+     content/seccion/mi-articulo/
+     ├── index.md        ← showHero: true
+     └── featured.webp   ← thumbnail + hero + OG image
+     ```

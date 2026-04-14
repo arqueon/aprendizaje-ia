@@ -8,7 +8,7 @@ tags: ["samr", "icap", "tecnologia-educativa", "integracion-tecnologica", "engag
 categories: ["metodologia-pedagogica"]
 areas: ["digital", "pedagogia"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

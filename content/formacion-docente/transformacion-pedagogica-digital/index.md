@@ -8,7 +8,7 @@ tags: ["transformacion-pedagogica", "educacion-superior", "aprendizaje-hibrido",
 categories: ["marco-institucional"]
 areas: ["pedagogia", "digital", "formacion"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

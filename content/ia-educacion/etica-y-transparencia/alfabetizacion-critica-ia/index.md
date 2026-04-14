@@ -8,7 +8,7 @@ tags: ["alfabetizacion-ia", "pensamiento-critico", "cognitive-offloading", "etic
 categories: ["marco-conceptual"]
 areas: ["ia", "pedagogia"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

@@ -8,7 +8,7 @@ tags: ["inteligencia-artificial", "aprendizaje-hibrido", "personalizacion", "tut
 categories: ["ia-en-educacion"]
 areas: ["ia", "pedagogia", "digital"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

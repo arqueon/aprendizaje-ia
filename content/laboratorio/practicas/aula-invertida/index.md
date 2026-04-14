@@ -8,7 +8,7 @@ tags: ["flipped-classroom", "aula-invertida", "aprendizaje-activo", "aprendizaje
 categories: ["practica-pedagogica"]
 areas: ["pedagogia", "formacion"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true

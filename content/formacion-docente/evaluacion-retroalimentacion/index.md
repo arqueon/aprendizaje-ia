@@ -8,7 +8,7 @@ tags: ["evaluacion", "retroalimentacion", "evaluacion-formativa", "evaluacion-su
 categories: ["metodologia-pedagogica"]
 areas: ["evaluacion", "pedagogia"]
 
-showHero: false
+showHero: true
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
