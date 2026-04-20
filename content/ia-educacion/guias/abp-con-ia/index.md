@@ -87,9 +87,13 @@ La IA funciona como *adversario epistémico*: el estudiante le presenta su hipó
 
 **Ciclo recomendado:**
 
-```text
-Borrador → Retroalimentación IA → Revisión propia → Retroalimentación de pares → Versión final
-```
+{{< mermaid >}}
+graph LR
+    A["Borrador"] --> B["Retroalimentación IA"]
+    B --> C["Revisión propia"]
+    C --> D["Retroalimentación de pares"]
+    D --> E["Versión final"]
+{{< /mermaid >}}
 
 En cada ciclo, el estudiante registra los cambios realizados y la justificación. Este registro se convierte en evidencia del proceso de aprendizaje, no solo del producto.
 
