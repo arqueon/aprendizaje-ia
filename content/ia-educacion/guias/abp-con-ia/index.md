@@ -1,10 +1,10 @@
 ---
-title: "Aprendizaje basado en proyectos con IA"
-date: 2026-04-14
+title: "Aprendizaje Basado en Proyectos (ABP) con IA"
+date: 2026-04-20
 draft: false
-description: "Guía para integrar herramientas de IA en cada fase del aprendizaje basado en proyectos: desde la definición del problema hasta la presentación de resultados."
-summary: "Cómo diseñar proyectos donde la IA participa como interlocutor, no como oráculo, en la definición del problema, la investigación, la iteración y la presentación."
-tags: ["ABP", "aprendizaje basado en proyectos", "IA generativa", "diseño didáctico", "trabajo colaborativo"]
+description: "Guía metodológica para integrar la Inteligencia Artificial Generativa en cada una de las fases del Aprendizaje Basado en Proyectos."
+summary: "Descubre cómo transformar el ABP tradicional utilizando la IA como un co-productor activo. Esta guía explora el diseño de escenarios complejos, la investigación asistida, la iteración socrática y la evaluación del proceso cognitivo."
+tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento", "trabajo colaborativo"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
@@ -20,7 +20,7 @@ showSummary: true
 El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, documentando decisiones y manteniendo el control epistémico del proceso.
 {{< /lead >}}
 
-## Qué cambia cuando la IA entra al ABP
+## 1. Qué cambia cuando la IA entra al ABP
 
 En el ABP tradicional, el estudiante define un problema, investiga, formula hipótesis, itera y presenta resultados. La IA no sustituye ninguna de estas fases: las transforma. El par estudiante-IA constituye lo que Deleuze y Guattari (1987) denominan un *agenciamiento*: una máquina productiva que genera algo que ninguno de los dos produciría solo.
 
@@ -33,9 +33,13 @@ La diferencia operativa es que la IA permite:
 
 Lo que la IA **no** puede hacer es decidir qué importa, qué se descarta y por qué. Eso sigue siendo responsabilidad del estudiante.
 
-## Marco: la IA en las cinco fases del ABP
+---
 
-### Fase 1 — Definición del problema
+## 2. Las 4 Fases del ABP Asistido por IA
+
+La integración efectiva de la IA modifica sustancialmente el ciclo de vida del ABP. A continuación, detallamos cómo estructurar cada etapa.
+
+### Fase 1: Definición del problema y escenario
 
 El docente puede usar IA para generar escenarios complejos adaptados al contexto disciplinar. El estudiante recibe el escenario y lo reformula con apoyo de la IA.
 
@@ -45,22 +49,35 @@ El docente puede usar IA para generar escenarios complejos adaptados al contexto
 
 El estudiante no usa el escenario tal cual: lo evalúa, lo modifica y decide qué variables conservar.
 
-### Fase 2 — Investigación y búsqueda de evidencia
+{{< alert icon="lightbulb" type="info" >}}
+**Idea para el Aula:** Pide a tus estudiantes que soliciten a la IA (ej. Gemini o Claude) que actúe como un "cliente conflictivo" o un "stakeholder afectado" por el problema que intentan resolver. La entrevista con este agente de IA les ayudará a definir mejor su objetivo.
+{{< /alert >}}
+
+### Fase 2: Investigación y búsqueda de evidencia
 
 La IA asiste en la búsqueda y síntesis de literatura, pero el estudiante opera como curador crítico.
 
 **Protocolo recomendado:**
 
-1. El estudiante formula la pregunta de investigación *antes* de consultar la IA
-2. Usa al menos dos modelos distintos (por ejemplo, Claude y DeepSeek) para contrastar las síntesis generadas
-3. Verifica toda referencia bibliográfica en bases de datos (las IA generan referencias inexistentes con frecuencia)
-4. Documenta qué información aceptó, cuál rechazó y por qué
+1. El estudiante formula la pregunta de investigación *antes* de consultar la IA.
+2. Usa al menos dos modelos distintos (por ejemplo, Claude y DeepSeek) para contrastar las síntesis generadas.
+3. Verifica toda referencia bibliográfica en bases de datos.
+4. Documenta qué información aceptó, cuál rechazó y por qué.
+
+{{< mermaid >}}
+graph TD
+    A["Estudiante formula pregunta"] --> B["IA Generativa sintetiza"]
+    B --> C{"¿La fuente es verificable?"}
+    C -- "Sí" --> D["Integrar al marco teórico"]
+    C -- "No" --> E["Pedir a la IA citas exactas / Buscar en bases de datos"]
+    E --> F["Refinar pregunta y volver a iterar"]
+{{< /mermaid >}}
 
 {{< alert icon="triangle-exclamation" type="danger" >}}
 **Verificación obligatoria.** Las IA generan referencias bibliográficas que parecen reales pero no existen. El estudiante debe verificar cada fuente en Google Scholar, Scopus o bases de datos disciplinares antes de incluirla.
 {{< /alert >}}
 
-### Fase 3 — Formulación de hipótesis
+### Fase 3: Formulación de hipótesis e iteración (Tutor Socrático)
 
 La IA funciona como *adversario epistémico*: el estudiante le presenta su hipótesis y la IA la refuta, la cuestiona o la lleva a sus consecuencias lógicas.
 
@@ -68,25 +85,36 @@ La IA funciona como *adversario epistémico*: el estudiante le presenta su hipó
 
 > *Prompt:* Soy estudiante de ingeniería ambiental. Mi hipótesis es que la reforestación con especies nativas reduce la erosión del suelo en un 60% en zonas semiáridas de Jalisco en un periodo de 5 años. Cuestiona esta hipótesis desde tres perspectivas: ecológica, económica y de implementación. Señala los supuestos no explícitos.
 
-### Fase 4 — Iteración y desarrollo del producto
-
-El ciclo de retroalimentación se acelera. El estudiante produce una versión, la somete a evaluación formativa con IA y con pares, revisa y vuelve a iterar.
-
 **Ciclo recomendado:**
 
-```
+```text
 Borrador → Retroalimentación IA → Revisión propia → Retroalimentación de pares → Versión final
 ```
 
 En cada ciclo, el estudiante registra los cambios realizados y la justificación. Este registro se convierte en evidencia del proceso de aprendizaje, no solo del producto.
 
-### Fase 5 — Presentación y comunicación
+### Fase 4: Presentación y comunicación
 
 La IA puede asistir en la co-creación de artefactos comunicativos (presentaciones, infografías, reportes), pero el estudiante debe poder explicar y defender cada decisión ante el grupo y el docente.
 
 **Criterio clave:** si el estudiante no puede explicar por qué incluyó algo en su producto, ese elemento no debería estar ahí.
 
-## Diseño del proyecto: lista de verificación para el docente
+---
+
+## 3. Evaluando Procesos, no Resultados
+
+El mayor riesgo del ABP actual es evaluar solo el "entregable", el cual pudo haber sido generado 100% por una IA en el último minuto. Para evitar esto, la evaluación debe ser formativa y trazable.
+
+{{< alert icon="triangle-exclamation" type="danger" >}}
+**Punto Clave:** Lo que evaluamos no es "la respuesta correcta", sino las **decisiones epistémicas del estudiante**. ¿Qué le preguntó a la IA? ¿Por qué modificó su prompt? ¿Cómo validó el resultado?
+{{< /alert >}}
+
+**Herramientas de Evaluación Sugeridas:**
+1. **Diarios de Reflexión (Logs):** Anexos obligatorios donde el estudiante pega su historial de chat con la IA y comenta sus decisiones.
+2. **Defensas Orales Rápidas:** Preguntas aleatorias sobre por qué el algoritmo sugirió X y por qué el estudiante lo modificó a Y.
+3. **Rúbricas Iterativas:** Evaluar borradores progresivos, no solo la entrega en la semana final.
+
+## 4. Diseño del proyecto: lista de verificación para el docente
 
 | Elemento | Pregunta orientadora |
 |----------|---------------------|
@@ -97,15 +125,18 @@ La IA puede asistir en la co-creación de artefactos comunicativos (presentacion
 | Transparencia | ¿Se requiere que el estudiante explicite cómo usó la IA? |
 | Iteración | ¿Hay al menos dos ciclos de retroalimentación antes de la entrega final? |
 
-## Consejos pedagógicos
+---
 
-{{< alert icon="lightbulb" type="info" >}}
-**El log de prompts es evidencia.** Pídele al estudiante que entregue el historial de conversaciones con la IA como parte de su portafolio. Este registro muestra las decisiones tomadas y descartadas, que es donde ocurre el aprendizaje real.
-{{< /alert >}}
+## 5. Ejemplo Práctico: Diseñando el Escenario (Prompt Docente)
 
-{{< alert icon="lightbulb" type="info" >}}
-**Usa múltiples modelos.** Hacer que los estudiantes comparen respuestas de Gemini, Claude y DeepSeek al mismo prompt desarrolla una competencia que ningún modelo individual puede enseñar: el [discernimiento algorítmico](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/).
-{{< /alert >}}
+Como docente, también puedes usar la IA para preparar tu ABP utilizando la técnica de "Diseño Inverso". Aquí tienes un prompt estructurado (usando el marco R-O-C-E) que puedes probar en modelos como **Gemini 3.1 Pro** o **Claude 3.5 Sonnet**:
+
+> **(Rol)** Actúa como un experto en pedagogía activa y diseño instruccional universitario.  
+> **(Objetivo)** Diseña el escenario inicial para un Aprendizaje Basado en Proyectos (ABP) sobre sostenibilidad urbana.  
+> **(Contexto)** Mis estudiantes son de 3er semestre de Arquitectura y Urbanismo. El proyecto durará 4 semanas y deben usar IA para iterar sus planos.  
+> **(Estructura)** Entrégame: 1. Un "Wicked Problem" (problema complejo sin solución obvia) como disparador. 2. Tres restricciones clave del proyecto. 3. Una tabla con el cronograma de 4 semanas, indicando en qué momento los estudiantes deben usar IA y para qué tarea específica.
+
+---
 
 ## Relación con otras secciones del sitio
 

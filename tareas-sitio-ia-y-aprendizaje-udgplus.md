@@ -77,7 +77,7 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 | Estado | Prior. | Tarea                                                                         | Principios | Ruta Hugo                                                   |
 | ------ | ------ | ----------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------- |
 | ✅      | —      | Guía: Ingeniería de prompts para docentes                                     | P5, P7, P8 | `ia-educacion/guias/ingenieria-de-prompts-para-docentes.md` |
-| [ ]    | 🔴     | Guía: Aprendizaje Basado en Proyectos con IA — uso de IA en cada fase         | P4, P3, P2 | `ia-educacion/guias/abp-con-ia.md`                          |
+| ✅      | —      | Guía: Aprendizaje Basado en Proyectos con IA — uso de IA en cada fase         | P4, P3, P2 | `ia-educacion/guias/abp-con-ia.md`                          |
 | [ ]    | 🔴     | Guía: Aprendizaje activo con IA — diseño y ejecución de actividades           | P5, P1, P8 | `ia-educacion/guias/aprendizaje-activo-con-ia.md`           |
 | [ ]    | 🔴     | Guía: Lineamientos para uso ético de IA en educación superior                 | P7, P3     | `ia-educacion/guias/lineamientos-eticos-ia.md`              |
 | [ ]    | 🔴     | Guía: Integración curricular de IA — cómo insertar IA en programas existentes | P8, P4     | `ia-educacion/guias/integracion-curricular-ia.md`           |

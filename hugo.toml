@@ -17,7 +17,7 @@ defaultTheme = "light"
 enableSearch = true
 showMermaid = true
 logo = "images/udg-logo.svg"
-mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
+mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente", "glosario"]
 
 [params.header]
   layout = "fixed-fill-blur"
@@ -101,6 +101,11 @@ identifier = "blog"
 name = "Blog"
 url = "/blog/"
 weight = 50
+[[menu.main]]
+identifier = "glosario"
+name = "Glosario"
+url = "/glosario/"
+weight = 60
 
 [markup]
 [markup.goldmark]

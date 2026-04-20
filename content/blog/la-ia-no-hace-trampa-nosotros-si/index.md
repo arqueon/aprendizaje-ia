@@ -1,5 +1,5 @@
 ---
-title: "La IA No Hace Trampa — Nosotros Sí"
+title: "La IA no hace trampa — nosotros sí"
 date: 2026-03-01
 draft: false
 description: "Cuando un estudiante usa IA para hacer una tarea que no fue diseñada para pensarse, el problema no es la IA: es la tarea."

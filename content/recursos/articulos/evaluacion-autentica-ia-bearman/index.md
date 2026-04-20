@@ -1,5 +1,5 @@
 ---
-title: "Redesigning Assessment for an AI-Enabled World — Bearman et al."
+title: "Redesigning assessment for an AI-enabled world — Bearman et al."
 date: 2026-03-01
 draft: false
 description: "Propuesta de un marco para rediseñar la evaluación universitaria considerando las capacidades actuales de la IA generativa."
@@ -7,6 +7,7 @@ summary: "Un artículo seminal que propone cinco principios para evaluar en la e
 tags: ["evaluación auténtica", "diseño de evaluación", "IA generativa", "educación superior"]
 categories: ["articulo"]
 areas: ["ia", "evaluacion"]
+showHero: true
 
 layout: "simple"
 showDate: true

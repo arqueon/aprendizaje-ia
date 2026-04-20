@@ -22,9 +22,11 @@
    - Las **imágenes y recursos multimedia** (gráficos, diagramas, etc.) asociados a un artículo deben almacenarse **estrictamente dentro de la misma carpeta** del Page Bundle (es decir, al mismo nivel que el archivo `index.md`), y nunca en directorios globales como `static/` a menos que sean recursos transversales de todo el sitio.
    - Al referenciar o insertar las imágenes dentro del contenido, utiliza **rutas relativas** directas (ej. `![Descripción](imagen.webp)` o usando un shortcode tipo `<figure>`) ya que Hugo procesará los recursos del Bundle automáticamente.
 
-5. **Interconexión y SEO Interno (Backlinks)**:
-   - Al crear o modificar nuevo contenido, es **necesario** incluir hipervínculos o "backlinks" hacia otras páginas relevantes del sitio (por ejemplo, entre el Observatorio, Laboratorio y Formación Docente), sin que ello se vea forzado o descontextualizado, más que ligas a páginas a temáticas, términos o etiquetas en general, debe ser fluido con el texto no verse insertado forzosamente.
-   - Esto fomenta una red estructurada de conocimiento y facilita la navegación transversal de los docentes en la plataforma.
+5. **Interconexión y SEO Interno (Backlinks Temáticos e Implícitos)**:
+   - Al crear o modificar nuevo contenido, es **necesario** incluir hipervínculos o "backlinks" hacia otras páginas relevantes del sitio (por ejemplo, hacia `/observatorio/`, `/laboratorio/` o `/formacion-docente/`).
+   - **Regla estricta:** La integración de estos enlaces debe ser temática y fluida con el contexto general del texto. **Nunca menciones explícita y directamente el nombre de las secciones del sitio web** (ej. evita frases directas como "en el Observatorio de IA" o "visita la sección de Formación Docente").
+   - En su lugar, enlaza conceptos clave o descripciones implícitas que correspondan a esas áreas (ej. enlaza las frases "el análisis crítico de estas tecnologías" o "entornos de aprendizaje continuo" a sus respectivas secciones).
+   - Esto fomenta una red estructurada de conocimiento sin romper la inmersión del texto ni revelar la arquitectura interna del sitio al lector de forma artificial.
 
 6. **Imagen destacada obligatoria (Thumbnails y Hero)**:
    - Todo artículo nuevo **debe incluir** un archivo de imagen cuyo nombre comience con `feature` (por ejemplo, `featured.webp`, `featured.png` o `featured.jpg`) ubicado **en la raíz del Page Bundle**, al mismo nivel que el `index.md`.
