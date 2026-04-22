@@ -1,6 +1,6 @@
 # Tareas — Sitio IA y Aprendizaje Digital (UDGplus)
 
-> Generado: 2026-04-03 · Fuente: Anytype + auditoría del sitio Hugo
+> Generado: 2026-04-03 · Última actualización: 2026-04-22 · Fuente: Anytype + auditoría del sitio Hugo
 > Enfoque: **estrategias docentes y de evaluación mediadas digitalmente**
 > Excluido: estrategias orales de evaluación, evaluación sumativa tradicional
 > Prioridad: 🔴 urgente · 🟡 normal · ✅ ya publicado
@@ -76,45 +76,48 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 
 | Estado | Prior. | Tarea                                                                         | Principios | Ruta Hugo                                                   |
 | ------ | ------ | ----------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------- |
-| ✅      | —      | Guía: Ingeniería de prompts para docentes                                     | P5, P7, P8 | `ia-educacion/guias/ingenieria-de-prompts-para-docentes.md` |
-| ✅      | —      | Guía: Aprendizaje Basado en Proyectos con IA — uso de IA en cada fase         | P4, P3, P2 | `ia-educacion/guias/abp-con-ia.md`                          |
-| [ ]    | 🔴     | Guía: Aprendizaje activo con IA — diseño y ejecución de actividades           | P5, P1, P8 | `ia-educacion/guias/aprendizaje-activo-con-ia.md`           |
-| [ ]    | 🔴     | Guía: Lineamientos para uso ético de IA en educación superior                 | P7, P3     | `ia-educacion/guias/lineamientos-eticos-ia.md`              |
-| [ ]    | 🔴     | Guía: Integración curricular de IA — cómo insertar IA en programas existentes | P8, P4     | `ia-educacion/guias/integracion-curricular-ia.md`           |
-| [ ]    | 🟡     | Guía: Aprendizaje Rizomático con IA — exploración no lineal asistida          | P6, P3     | `ia-educacion/guias/aprendizaje-rizomatico-ia.md`           |
-| [ ]    | 🟡     | Guía: Evaluación formativa con IA — ciclos de retroalimentación iterativa     | P1, P2, P5 | `ia-educacion/guias/evaluacion-formativa-ia.md`             |
-| [ ]    | 🟡     | Guía: El agenciamiento humano-IA — marco conceptual para docentes             | P3, P6, P7 | `ia-educacion/guias/agenciamiento-humano-ia.md`             |
+| ✅      | —      | Guía: Ingeniería de prompts para docentes                                     | P5, P7, P8 | `ia-educacion/guias/ingenieria-de-prompts-para-docentes/`   |
+| ✅      | —      | Guía: Aprendizaje Basado en Proyectos con IA — uso de IA en cada fase         | P4, P3, P2 | `ia-educacion/guias/abp-con-ia/`                            |
+| ✅      | —      | Guía: Aprendizaje activo con IA — diseño y ejecución de actividades           | P5, P1, P8 | `ia-educacion/guias/aprendizaje-activo-con-ia/`             |
+| [ ]    | 🔴     | Guía: Lineamientos para uso ético de IA en educación superior                 | P7, P3     | `ia-educacion/guias/lineamientos-eticos-ia/`                |
+| [ ]    | 🔴     | Guía: Integración curricular de IA — cómo insertar IA en programas existentes | P8, P4     | `ia-educacion/guias/integracion-curricular-ia/`             |
+| [ ]    | 🟡     | Guía: Aprendizaje Rizomático con IA — exploración no lineal asistida          | P6, P3     | `ia-educacion/guias/aprendizaje-rizomatico-ia/`             |
+| ✅      | —      | Guía: Evaluación formativa con IA — ciclos de retroalimentación iterativa     | P1, P2, P5 | `ia-educacion/guias/evaluacion-formativa-ia/`               |
+| ✅      | —      | Guía: El agenciamiento humano-IA — marco conceptual para docentes             | P3, P6, P7 | `ia-educacion/guias/agenciamiento-humano-ia/`               |
+| ✅      | —      | Artículo troncal: Qué es la educación digital                                 | P3, P7     | `ia-educacion/que-es-la-educacion-digital/`                 |
 
-#### Integración Curricular (stub pendiente)
+#### Integración Curricular
 
-| Estado | Prior. | Tarea                                                     | Notas                            |
-| ------ | ------ | --------------------------------------------------------- | -------------------------------- |
-| [ ]    | 🔴     | Completar `ia-educacion/integracion-curricular/_index.md` | Desarrollar contenido de sección |
-| [ ]    | 🟡     | Integración: Flujos de trabajo docente con IA             | Diagramas de proceso con Mermaid |
-| [ ]    | 🟡     | Integración: IA en plataformas UdG (Moodle, Classroom)    | Contexto institucional           |
-| [ ]    | 🟡     | Recurso: Syllabus con IA — ejemplos internacionales       | Curación de casos                |
+| Estado | Prior. | Tarea                                                     | Notas                                   |
+| ------ | ------ | --------------------------------------------------------- | --------------------------------------- |
+| ✅      | —      | Artículo: IA y aprendizaje híbrido                        | `integracion-curricular/ia-aprendizaje-hibrido/` |
+| [ ]    | 🔴     | Completar `ia-educacion/integracion-curricular/_index.md` | Revisar si el branch bundle ya tiene texto propio o sigue siendo stub |
+| [ ]    | 🟡     | Integración: Flujos de trabajo docente con IA             | Diagramas de proceso con Mermaid        |
+| [ ]    | 🟡     | Integración: IA en plataformas UdG (Moodle, Classroom)    | Contexto institucional                  |
+| [ ]    | 🟡     | Recurso: Syllabus con IA — ejemplos internacionales       | Curación de casos                       |
 
 #### Ética y Transparencia
 
 | Estado | Prior. | Tarea                                                      | Principios |
 | ------ | ------ | ---------------------------------------------------------- | ---------- |
-| [ ]    | 🔴     | Marco ético para el uso de IA en educación superior        | P7, P3     |
-| [ ]    | 🔴     | Plagio y autenticidad académica en la era de la IA         | P7, P2     |
-| [ ]    | 🔴     | Sesgos algorítmicos y equidad educativa                    | P7         |
+| ✅      | —      | Alfabetización crítica en IA                               | P7, P3     |
+| ✅      | —      | Marco ético para el uso de IA en educación superior        | P7, P3     |
+| ✅      | —      | Plagio y autenticidad académica en la era de la IA         | P7, P2     |
+| ✅      | —      | Sesgos algorítmicos y equidad educativa                    | P7         |
 | [ ]    | 🟡     | Transparencia algorítmica en el aula — prácticas concretas | P7, P5     |
 | [ ]    | 🟡     | Política: Lineamientos UNESCO para IA en educación         | P7         |
 | [ ]    | 🟡     | Política: Marco regulatorio universidades MX               | P7         |
 
 #### Tendencias
 
-| Estado | Prior. | Tarea                                                      | Notas                            |
-| ------ | ------ | ---------------------------------------------------------- | -------------------------------- |
-| [ ]    | 🔴     | Completar `ia-educacion/tendencias/_index.md`              | Ya tiene 1 artículo (evaluación) |
-| [ ]    | 🔴     | Tendencia: Evaluación formativa automatizada con IA        | P1, P2                           |
-| [ ]    | 🟡     | Tendencia: IA generativa y personalización del aprendizaje | P6                               |
-| [ ]    | 🟡     | Tendencia: IA en tutorías y mentoría estudiantil           | P5                               |
-| [ ]    | 🟡     | Tendencia: Políticas institucionales en universidades      | Contexto                         |
-| [ ]    | 🟡     | Investigación: Impacto de IA en procesos de aprendizaje    | P2                               |
+| Estado | Prior. | Tarea                                                      | Notas                                           |
+| ------ | ------ | ---------------------------------------------------------- | ----------------------------------------------- |
+| ✅      | —      | Tendencia: Evaluación en la era IA                         | `tendencias/evaluacion-en-la-era-ia/` — cubre P1 y P2 |
+| [ ]    | 🔴     | Completar `ia-educacion/tendencias/_index.md`              | Revisar si branch bundle ya es pleno            |
+| [ ]    | 🟡     | Tendencia: IA generativa y personalización del aprendizaje | P6                                              |
+| [ ]    | 🟡     | Tendencia: IA en tutorías y mentoría estudiantil           | P5                                              |
+| [ ]    | 🟡     | Tendencia: Políticas institucionales en universidades      | Contexto                                        |
+| [ ]    | 🟡     | Investigación: Impacto de IA en procesos de aprendizaje    | P2                                              |
 
 ---
 
@@ -124,14 +127,15 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 
 | Estado | Prior. | Tarea                                                                    | Principios | Ruta Hugo                                                   |
 | ------ | ------ | ------------------------------------------------------------------------ | ---------- | ----------------------------------------------------------- |
-| ✅      | —      | Debate socrático con IA como interlocutor                                | P3, P5     | `laboratorio/practicas/debate-socratico-con-ia.md`          |
-| ✅      | —      | Análisis crítico de sesgos en IA                                         | P7, P3     | `laboratorio/practicas/analisis-critico-de-sesgos-en-ia.md` |
-| [ ]    | 🔴     | Práctica: Evaluación formativa asistida por IA — portafolios iterativos  | P1, P2     | `laboratorio/practicas/evaluacion-formativa-asistida-ia.md` |
-| [ ]    | 🔴     | Práctica: ABP con IA — proyecto colaborativo completo documentado        | P4, P3     | `laboratorio/practicas/abp-con-ia.md`                       |
-| [ ]    | 🔴     | Práctica: Aprendizaje activo — actividades diseñadas y ejecutadas con IA | P5, P8     | `laboratorio/practicas/aprendizaje-activo-ia.md`            |
-| [ ]    | 🟡     | Práctica: Aprendizaje rizomático — exploración no lineal documentada     | P6, P3     | `laboratorio/practicas/aprendizaje-rizomatico-ia.md`        |
-| [ ]    | 🟡     | Práctica: Diseño inverso con IA — de competencias a actividades          | P8, P5     | `laboratorio/practicas/diseno-inverso-con-ia.md`            |
-| [ ]    | 🟡     | Práctica: Co-producción humano-IA — el agenciamiento como método         | P3, P6     | `laboratorio/practicas/co-produccion-humano-ia.md`          |
+| ✅      | —      | Debate socrático con IA como interlocutor                                | P3, P5     | `laboratorio/practicas/debate-socratico-con-ia/`            |
+| ✅      | —      | Análisis crítico de sesgos en IA                                         | P7, P3     | `laboratorio/practicas/analisis-critico-de-sesgos-en-ia/`   |
+| ✅      | —      | Práctica: Evaluación formativa asistida por IA — portafolios iterativos  | P1, P2     | `laboratorio/practicas/evaluacion-formativa-asistida-ia/`   |
+| ✅      | —      | Práctica: ABP con IA — proyecto colaborativo completo documentado        | P4, P3     | `laboratorio/practicas/abp-con-ia/`                         |
+| ✅      | —      | Práctica: Aprendizaje activo — actividades diseñadas y ejecutadas con IA | P5, P8     | `laboratorio/practicas/aprendizaje-activo-ia/`              |
+| ✅      | —      | Práctica: Aula invertida con IA                                          | P5, P1     | `laboratorio/practicas/aula-invertida/`                     |
+| [ ]    | 🟡     | Práctica: Aprendizaje rizomático — exploración no lineal documentada     | P6, P3     | `laboratorio/practicas/aprendizaje-rizomatico-ia/`          |
+| [ ]    | 🟡     | Práctica: Diseño inverso con IA — de competencias a actividades          | P8, P5     | `laboratorio/practicas/diseno-inverso-con-ia/`              |
+| [ ]    | 🟡     | Práctica: Co-producción humano-IA — el agenciamiento como método         | P3, P6     | `laboratorio/practicas/co-produccion-humano-ia/`            |
 
 #### Experiencias (stub pendiente)
 
@@ -158,6 +162,7 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 | Estado | Prior. | Tarea                                                  |
 | ------ | ------ | ------------------------------------------------------ |
 | ✅      | —      | Encuesta DEC 2026 (6,578 participantes UdeG)           |
+| ✅      | —      | Estudio: Creatividad humana e IA                       |
 | [ ]    | 🔴     | Estudio: Uso de IA por estudiantes universitarios UdeG |
 | [ ]    | 🔴     | Estudio: Percepción docente sobre IA en UdeG           |
 | [ ]    | 🔴     | Reporte semestral de IA educativa                      |
@@ -211,17 +216,17 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 | [ ]    | 🟡     | Comunidades de práctica docente con IA                         |
 | [ ]    | 🟡     | Syllabus con IA — ejemplos internacionales                     |
 
-#### Institucionales y Herramientas (stubs pendientes)
+#### Institucionales y Herramientas
 
-| Estado | Prior. | Tarea                                             |
-| ------ | ------ | ------------------------------------------------- |
-| [ ]    | 🔴     | Completar `recursos/institucionales/_index.md`    |
-| [ ]    | 🔴     | Política de IA UdeG — documento institucional     |
-| [ ]    | 🔴     | Repositorio: Prompts para docentes (banco curado) |
-| [ ]    | 🔴     | Catálogo: Herramientas IA para educación          |
-| [ ]    | 🟡     | Completar `recursos/externas/_index.md`           |
-| [ ]    | 🟡     | Comparativa: LLMs para uso educativo              |
-| [ ]    | 🟡     | Plataformas digitales SEMS                        |
+| Estado | Prior. | Tarea                                             | Ruta Hugo                                   |
+| ------ | ------ | ------------------------------------------------- | ------------------------------------------- |
+| ✅      | —      | Hub `recursos/institucionales/` (página puente)   | `recursos/institucionales/index.md`         |
+| ✅      | —      | Política de IA UdeG — documento institucional     | `recursos/politica-ia-udeg/`                |
+| ✅      | —      | Repositorio: Prompts para docentes (banco curado) | `recursos/repositorio-prompts-docentes/`    |
+| ✅      | —      | Catálogo: Herramientas IA para educación          | `recursos/catalogo-herramientas-ia/`        |
+| [ ]    | 🟡     | Completar `recursos/externas/_index.md`           |                                             |
+| [ ]    | 🟡     | Comparativa: LLMs para uso educativo              | (cubierto parcialmente por el catálogo)     |
+| [ ]    | 🟡     | Plataformas digitales SEMS                        |                                             |
 
 ---
 
@@ -231,7 +236,7 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 
 | Estado | Prior. | Tarea                                                          | Principios |
 | ------ | ------ | -------------------------------------------------------------- | ---------- |
-| [ ]    | 🔴     | Completar `formacion-docente/alfabetizacion/_index.md`         | —          |
+| ✅      | —      | Alfabetización digital (artículo base)                         | —          |
 | [ ]    | 🔴     | Pensamiento crítico ante la IA generativa                      | P7, P3     |
 | [ ]    | 🔴     | Competencias digitales con IA para estudiantes                 | P5, P7     |
 | [ ]    | 🟡     | Alfabetización en agenciamiento: aprender a co-producir con IA | P3, P6     |
@@ -240,7 +245,7 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 
 | Estado | Prior. | Tarea                                                      |
 | ------ | ------ | ---------------------------------------------------------- |
-| [ ]    | 🔴     | Completar `formacion-docente/formacion-continua/_index.md` |
+| ✅      | —      | Formación continua (artículo base)                         |
 | [ ]    | 🟡     | Comunidades de práctica docente con IA                     |
 | [ ]    | 🟡     | Taller: Diseño de actividades con IA (backward design)     |
 
@@ -248,8 +253,20 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 
 | Estado | Prior. | Tarea                                         |
 | ------ | ------ | --------------------------------------------- |
-| [ ]    | 🟡     | Completar `formacion-docente/redes/_index.md` |
+| ✅      | —      | Redes y comunidades (artículo base)           |
 | [ ]    | 🟡     | Redes de docentes innovadores con IA          |
+
+#### Otros artículos de Formación Docente publicados 2026-04
+
+| Estado | Tarea                                          | Ruta                                                |
+| ------ | ---------------------------------------------- | --------------------------------------------------- |
+| ✅      | Aprendizaje activo (formación docente)         | `formacion-docente/aprendizaje-activo/`             |
+| ✅      | Aprendizaje híbrido                            | `formacion-docente/aprendizaje-hibrido/`            |
+| ✅      | Evaluación y retroalimentación                 | `formacion-docente/evaluacion-retroalimentacion/`   |
+| ✅      | Modelos SAMR e ICAP                            | `formacion-docente/modelos-samr-icap/`              |
+| ✅      | Syllabus y portafolio                          | `formacion-docente/syllabus-portafolio/`            |
+| ✅      | Taxonomía de Bloom y diseño inverso            | `formacion-docente/taxonomia-bloom-diseno-inverso/` |
+| ✅      | Transformación pedagógica digital              | `formacion-docente/transformacion-pedagogica-digital/` |
 
 ---
 
@@ -279,40 +296,46 @@ El docente parte de las **competencias y procesos** que quiere desarrollar y usa
 | [ ]    | 🟡     | Completar stub `observatorio/documentacion/_index.md`          |
 | [ ]    | 🟡     | Completar secciones `formacion-docente/*` (3 subsecciones)     |
 | [ ]    | 🟡     | Completar stub `recursos/externas/_index.md`                   |
-| [ ]    | 🟡     | Completar stub `recursos/institucionales/_index.md`            |
+| ✅      | —      | `recursos/institucionales/` reconvertido a hub/landing page    |
 | [ ]    | 🟡     | Completar `about.md` — página institucional                    |
 
 ---
 
 ## IV. Resumen cuantitativo
 
+Corte: **2026-04-22** (iteración 2, tras cerrar Ética y Transparencia + Recursos institucionales). Los conteos 🔴/🟡 son tareas del backlog original aún abiertas; ✅ incluye piezas publicadas del backlog original y artículos nuevos añadidos en abril.
+
 | Categoría         | 🔴 Urgentes | 🟡 Normales | ✅ Hechas | Total   |
 | ----------------- | ----------- | ----------- | --------- | ------- |
-| IA en Educación   | 10          | 13          | 1         | 24      |
-| Laboratorio       | 5           | 7           | 2         | 14      |
-| Observatorio      | 5           | 6           | 1         | 12      |
-| Recursos          | 5           | 11          | 3         | 19      |
-| Formación Docente | 4           | 5           | 0         | 9       |
+| IA en Educación   | 5           | 11          | 10        | 26      |
+| Laboratorio       | 2           | 5           | 6         | 13      |
+| Observatorio      | 5           | 6           | 2         | 13      |
+| Recursos          | 1           | 11          | 7         | 19      |
+| Formación Docente | 2           | 4           | 10        | 16      |
 | Blog              | 0           | 6           | 1         | 7       |
-| Infraestructura   | 2           | 8           | 0         | 10      |
-| **Total**         | **31**      | **56**      | **8**     | **95**  |
+| Infraestructura   | 2           | 4           | 4         | 10      |
+| **Total**         | **17**      | **47**      | **40**    | **104** |
+
+Δ respecto al corte del 2026-04-03: **+32 ✅**, **−14 🔴**, **−9 🟡**, **+9 rows totales** (artículos nuevos añadidos al backlog).
+Δ respecto a la iteración 1 del 2026-04-22 (mañana): **+8 ✅**, **−7 🔴**, **−1 🟡** — cierre del bloque Ética y Transparencia y del bloque Recursos institucionales UdeG.
 
 ---
 
 ## V. Siguiente paso sugerido
 
-Priorizar las **guías de IA en Educación** que conectan directamente con los principios del encuadre:
+Tras cerrar las cuatro guías troncales del encuadre (ABP, Aprendizaje activo, Evaluación formativa, Agenciamiento) durante abril, el siguiente frente de trabajo acordado es **cerrar Ética y Transparencia** con tres guías 🔴:
 
-1. **ABP con IA** (P4) — porque tiene contraparte en Laboratorio como práctica documentada
-2. **Aprendizaje activo con IA** (P5) — porque es la tarea más transversal
-3. **Evaluación formativa con IA** (P1) — porque es la diferencia conceptual central del sitio
-4. **Agenciamiento persona-IA** (P3) — porque es el marco teórico diferenciador
+1. **Marco ético para el uso de IA en educación superior** (P7, P3) — fija la posición institucional.
+2. **Plagio y autenticidad académica en la era de la IA** (P7, P2) — conecta con Bearman et al. y con la guía de evaluación formativa.
+3. **Sesgos algorítmicos y equidad educativa** (P7) — práctica espejo en el Laboratorio ya publicada.
 
-Cada guía debería tener su **práctica espejo** en el Laboratorio documentando una implementación concreta.
+Después: Recursos institucionales UdeG (política, repositorio de prompts, catálogo) y completar los stubs de `_index.md` pendientes.
 
 ---
 
 ## VI. Criterios de Estilo, Diseño y Consistencia (Sitio Hugo)
+
+> Complementa, no sustituye, las reglas de `.clinerules` (APA 7, sentence case, Leaf Bundles, featured.webp, tono minimalista sin clichés de jerga IA) y de `CLAUDE.md`. En caso de conflicto, `.clinerules` manda.
 
 Para asegurar una apariencia profesional, coherente y funcional en el sitio, se deben seguir estos lineamientos corporativos y educativos:
 

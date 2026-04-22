@@ -35,7 +35,7 @@ Lo que la IA **no** puede hacer es decidir si el estudiante aprendió. Eso requi
 
 ## Arquitectura de un ciclo formativo con IA
 
-```mermaid
+{{< mermaid >}}
 flowchart LR
     A[Estudiante produce borrador] --> B[IA ofrece retroalimentación]
     B --> C[Estudiante revisa y decide]
@@ -47,7 +47,7 @@ flowchart LR
     G --> H{¿Cumple criterios mínimos?}
     H -->|No| B
     H -->|Sí| I[Docente revisa el proceso completo]
-```
+{{< /mermaid >}}
 
 El elemento crítico no es la retroalimentación de la IA sino la **decisión documentada del estudiante**: qué aceptó, qué rechazó y por qué. Ahí está la evidencia de aprendizaje.
 

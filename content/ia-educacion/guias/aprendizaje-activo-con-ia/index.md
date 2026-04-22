@@ -90,7 +90,7 @@ Adaptación del clásico *think-pair-share* donde se añade un paso de validaci�
 
 ## Diseño de actividades: protocolo para el docente
 
-```mermaid
+{{< mermaid >}}
 flowchart TD
     A[Definir competencia objetivo] --> B[Generar actividad con IA]
     B --> C{Revisar y adaptar}
@@ -100,7 +100,7 @@ flowchart TD
     E --> F[Crear instrucciones explícitas de uso de IA]
     F --> G[Implementar en el aula]
     G --> H[Recoger evidencia del proceso]
-```
+{{< /mermaid >}}
 
 ## Qué no es aprendizaje activo con IA
 

@@ -19,3 +19,13 @@ Un catálogo curado de materiales con criterio pedagógico: desde artículos aca
   {{< card link="videos/" title="Videos" icon="film" color="#db2777" description="Conferencias, charlas y tutoriales seleccionados sobre pedagogía digital e IA." >}}
   {{< card link="links/" title="Links relevantes" icon="link" color="#be185d" description="Herramientas, guías y repositorios externos seleccionados con criterio pedagógico." >}}
 {{< /cards >}}
+
+## Recursos institucionales
+
+Tres documentos operativos para programas, departamentos y coordinaciones académicas.
+
+{{< cards >}}
+  {{< card link="politica-ia-udeg/" title="Política de IA para la UdeG" icon="scale-balanced" color="#0891b2" description="Siete ejes mínimos para una política universitaria revisable y el ciclo de actualización propuesto." >}}
+  {{< card link="repositorio-prompts-docentes/" title="Repositorio de prompts" icon="layer-group" color="#0369a1" description="Banco curado de prompts por fase pedagógica, con plantillas listas para adaptar." >}}
+  {{< card link="catalogo-herramientas-ia/" title="Catálogo de herramientas IA" icon="toolbox" color="#1e40af" description="Matriz comparativa de modelos y herramientas con criterios de privacidad, acceso y costo." >}}
+{{< /cards >}}
