@@ -4,7 +4,7 @@ date: 2026-04-20
 draft: false
 description: "Guía metodológica para integrar la Inteligencia Artificial Generativa en cada una de las fases del Aprendizaje Basado en Proyectos."
 summary: "Descubre cómo transformar el ABP tradicional utilizando la IA como un co-productor activo. Esta guía explora el diseño de escenarios complejos, la investigación asistida, la iteración socrática y la evaluación del proceso cognitivo."
-tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento", "trabajo colaborativo"]
+tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento (ensamblaje)", "trabajo colaborativo"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
@@ -22,7 +22,7 @@ El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la 
 
 ## 1. Qué cambia cuando la IA entra al ABP
 
-En el ABP tradicional, el estudiante define un problema, investiga, formula hipótesis, itera y presenta resultados. La IA no sustituye ninguna de estas fases: las transforma. El par estudiante-IA constituye lo que Deleuze y Guattari (1987) denominan un *agenciamiento*: una máquina productiva que genera algo que ninguno de los dos produciría solo.
+En el ABP tradicional, el estudiante define un problema, investiga, formula hipótesis, itera y presenta resultados. La IA no sustituye ninguna de estas fases: las transforma. El par estudiante-IA constituye lo que Deleuze y Guattari (1987) denominan un *agenciamiento (ensamblaje)*: una máquina productiva que genera algo que ninguno de los dos produciría solo.
 
 La diferencia operativa es que la IA permite:
 
@@ -144,7 +144,7 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 
 ## Relación con otras secciones del sitio
 
-- Para el marco teórico del agenciamiento persona-IA, consulta la [guía de agenciamiento humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
+- Para el marco teórico del agenciamiento (ensamblaje) persona-IA, consulta la [guía de agenciamiento (ensamblaje) humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
 - Para una implementación concreta de ABP con IA documentada paso a paso, consulta la [práctica de ABP con IA](/laboratorio/practicas/abp-con-ia/) en el Laboratorio
 - Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) son especialmente relevantes para la fase de iteración
 

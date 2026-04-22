@@ -1,10 +1,10 @@
 ---
-title: "El agenciamiento humano-IA — marco conceptual para docentes"
+title: "El agenciamiento (ensamblaje) humano-IA — marco conceptual para docentes"
 date: 2026-04-14
 draft: false
-description: "Marco conceptual basado en Deleuze y Guattari para entender la relación persona-IA como un agenciamiento productivo, no como uso de herramienta."
-summary: "Ni la persona usa la IA como herramienta pasiva, ni la IA reemplaza a la persona. El par persona-IA constituye un agenciamiento: una relación productiva que genera algo nuevo."
-tags: ["agenciamiento", "Deleuze", "Guattari", "rizoma", "co-producción", "marco conceptual"]
+description: "Marco conceptual basado en Deleuze y Guattari para entender la relación persona-IA como un agenciamiento (ensamblaje) productivo, no como uso de herramienta."
+summary: "Ni la persona usa la IA como herramienta pasiva, ni la IA reemplaza a la persona. El par persona-IA constituye un agenciamiento (ensamblaje): una relación productiva que genera algo nuevo."
+tags: ["agenciamiento (ensamblaje)", "Deleuze", "Guattari", "rizoma", "co-producción", "marco conceptual"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
@@ -17,7 +17,7 @@ showSummary: true
 ---
 
 {{< lead >}}
-La metáfora dominante para hablar de IA en educación es la de la "herramienta": el docente o el estudiante *usa* la IA como quien usa un martillo. Esta guía propone un marco distinto, derivado de Deleuze y Guattari: el de *agenciamiento*, donde persona e IA forman una unidad productiva que genera algo que ninguno de los dos produciría solo.
+La metáfora dominante para hablar de IA en educación es la de la "herramienta": el docente o el estudiante *usa* la IA como quien usa un martillo. Esta guía propone un marco distinto, derivado de Deleuze y Guattari: el de *agenciamiento (ensamblaje)*, donde persona e IA forman una unidad productiva que genera algo que ninguno de los dos produciría solo.
 {{< /lead >}}
 
 ## Por qué la metáfora de la herramienta es insuficiente
@@ -32,11 +32,11 @@ Las tres son falsas en la práctica. Quien interactúa con una IA generativa exp
 
 Esto no significa que la IA "piense". Significa que la relación entre persona e IA es más compleja que la de quien usa un instrumento pasivo.
 
-## El concepto de agenciamiento
+## El concepto de agenciamiento (ensamblaje)
 
-En *Mil mesetas*, Deleuze y Guattari (1987) definen el agenciamiento (*agencement*) como un ensamblaje de elementos heterogéneos —humanos, máquinas, signos, instituciones— que, al combinarse, producen efectos que no se reducen a la suma de sus partes.
+En *Mil mesetas*, Deleuze y Guattari (1987) definen el agenciamiento (ensamblaje) (*agencement*) como un ensamblaje de elementos heterogéneos —humanos, máquinas, signos, instituciones— que, al combinarse, producen efectos que no se reducen a la suma de sus partes.
 
-Un agenciamiento tiene dos caras:
+Un agenciamiento (ensamblaje) tiene dos caras:
 
 | Cara | Función | En el par persona-IA |
 |------|---------|---------------------|
@@ -49,7 +49,7 @@ El par persona-IA no es una relación de uso. Es un **acoplamiento productivo**:
 
 ### 1. Dejar de preguntar "¿quién lo hizo?"
 
-La pregunta "¿lo hizo el estudiante o lo hizo la IA?" carece de sentido en un agenciamiento. La pregunta productiva es: **¿qué decisiones tomó el estudiante en el proceso de co-producción?**
+La pregunta "¿lo hizo el estudiante o lo hizo la IA?" carece de sentido en un agenciamiento (ensamblaje). La pregunta productiva es: **¿qué decisiones tomó el estudiante en el proceso de co-producción?**
 
 Esto tiene consecuencias directas para la evaluación:
 
@@ -61,7 +61,7 @@ Esto tiene consecuencias directas para la evaluación:
 
 ### 2. Diseñar para el acoplamiento, no para el control
 
-El diseño pedagógico convencional busca controlar variables: instrucciones cerradas, rúbricas exhaustivas, plazos fijos. El agenciamiento requiere diseñar **condiciones de posibilidad**: espacios donde el acoplamiento persona-IA pueda ocurrir de formas no predeterminadas.
+El diseño pedagógico convencional busca controlar variables: instrucciones cerradas, rúbricas exhaustivas, plazos fijos. El agenciamiento (ensamblaje) requiere diseñar **condiciones de posibilidad**: espacios donde el acoplamiento persona-IA pueda ocurrir de formas no predeterminadas.
 
 **Ejemplo de diseño abierto:**
 
@@ -81,11 +81,11 @@ El docente puede pedir que el estudiante identifique y comente sus desplazamient
 
 ### 4. La transparencia como competencia, no como vigilancia
 
-En el marco del agenciamiento, la [transparencia](/ia-educacion/etica-y-transparencia/) no es un mecanismo de control ("demuestra que no hiciste trampa"). Es una **competencia académica**: la capacidad de explicitar cómo se produjo el conocimiento, con qué herramientas, qué decisiones se tomaron y qué sesgos se identificaron (Lodge & Loble, 2026).
+En el marco del agenciamiento (ensamblaje), la [transparencia](/ia-educacion/etica-y-transparencia/) no es un mecanismo de control ("demuestra que no hiciste trampa"). Es una **competencia académica**: la capacidad de explicitar cómo se produjo el conocimiento, con qué herramientas, qué decisiones se tomaron y qué sesgos se identificaron (Lodge & Loble, 2026).
 
 ## El rizoma como complemento
 
-El concepto de agenciamiento se vincula con otro de Deleuze: el **rizoma**. Frente al modelo arbóreo del conocimiento (raíz → tronco → ramas → hojas), el rizoma crece en cualquier dirección, sin centro ni jerarquía.
+El concepto de agenciamiento (ensamblaje) se vincula con otro de Deleuze: el **rizoma**. Frente al modelo arbóreo del conocimiento (raíz → tronco → ramas → hojas), el rizoma crece en cualquier dirección, sin centro ni jerarquía.
 
 La IA potencia el rizoma educativo porque permite al estudiante:
 
@@ -99,13 +99,13 @@ El docente no prescribe un camino: diseña **condiciones de exploración**. Para
 ## Objeciones frecuentes
 
 **"Esto suena a que el estudiante puede hacer lo que quiera."**
-No. El agenciamiento opera dentro de un marco: hay competencias a desarrollar, hay criterios de evaluación, hay un docente que supervisa. Lo que cambia es que el *camino* hacia esas competencias no está predeterminado.
+No. El agenciamiento (ensamblaje) opera dentro de un marco: hay competencias a desarrollar, hay criterios de evaluación, hay un docente que supervisa. Lo que cambia es que el *camino* hacia esas competencias no está predeterminado.
 
 **"¿Cómo evalúo algo que no puedo predecir?"**
 Evaluando el proceso: las decisiones del estudiante, la calidad de sus preguntas a la IA, la documentación de su recorrido, la reflexión sobre sus desplazamientos. La [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece instrumentos concretos para esto.
 
 **"¿No estamos romantizando la IA?"**
-El agenciamiento no asume que la IA es inteligente. Asume que la interacción entre persona e IA produce efectos cognitivos que vale la pena estudiar y diseñar pedagógicamente. La [alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) sigue siendo imprescindible.
+El agenciamiento (ensamblaje) no asume que la IA es inteligente. Asume que la interacción entre persona e IA produce efectos cognitivos que vale la pena estudiar y diseñar pedagógicamente. La [alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) sigue siendo imprescindible.
 
 ## Consejos pedagógicos
 
@@ -120,7 +120,7 @@ El agenciamiento no asume que la IA es inteligente. Asume que la interacción en
 ## Relación con otras secciones del sitio
 
 - La [práctica de co-producción humano-IA](/laboratorio/practicas/co-produccion-humano-ia/) (en desarrollo) documentará una implementación concreta de este marco
-- La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) aplica el agenciamiento en contexto de proyectos
+- La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) aplica el agenciamiento (ensamblaje) en contexto de proyectos
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) ofrecen el contrapeso necesario para evitar una adopción acrítica
 
 ## Recursos adicionales

@@ -127,7 +127,7 @@ Después de implementar esta práctica durante un semestre:
 ## Relación con otras secciones
 
 - La [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) presenta el marco teórico y otros instrumentos formativos
-- El concepto de [agenciamiento humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) explica por qué documentar las decisiones —no solo el producto— es central para entender la relación persona-IA
+- El concepto de [agenciamiento (ensamblaje) humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) explica por qué documentar las decisiones —no solo el producto— es central para entender la relación persona-IA
 - La [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) fundamenta la competencia de evaluar críticamente lo que la IA propone
 
 ## Referencias
