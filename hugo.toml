@@ -29,7 +29,7 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   showRecentItems = 6
   cardView = true
   showMoreLink = true
-  showMoreLinkDest = "/blog/"
+  showMoreLinkDest = "/ia-educacion/"
 
 [params.article]
   showMermaid = true
@@ -96,11 +96,7 @@ identifier = "formacion-docente"
 name = "Formación Docente"
 url = "/formacion-docente/"
 weight = 40
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-url = "/blog/"
-weight = 50
+
 [[menu.main]]
 identifier = "glosario"
 name = "Glosario"
