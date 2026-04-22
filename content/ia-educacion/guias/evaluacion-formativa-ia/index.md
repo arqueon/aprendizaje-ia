@@ -134,7 +134,7 @@ El estudiante mantiene un diario donde registra sus interacciones con la IA y re
 
 - La [práctica de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) documenta una implementación concreta de estos principios
 - La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) usa la evaluación formativa en su fase de iteración
-- El artículo de [Bearman et al. sobre evaluación auténtica](/recursos/articulos/) profundiza en los fundamentos teóricos
+- El artículo de [Bearman et al. sobre evaluación auténtica](/recursos/articulos/evaluacion-autentica-ia-bearman/) profundiza en los fundamentos teóricos
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) son relevantes para formar estudiantes que evalúen críticamente la retroalimentación de la IA
 
 ## Recursos adicionales
