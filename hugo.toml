@@ -29,7 +29,7 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   showRecentItems = 6
   cardView = true
   showMoreLink = true
-  showMoreLinkDest = "/ia-educacion/"
+  showMoreLinkDest = "ia-educacion/"
 
 [params.article]
   showMermaid = true
