@@ -36,7 +36,7 @@ Lo que la IA **no** puede hacer es decidir si el estudiante aprendió. Eso requi
 ## Arquitectura de un ciclo formativo con IA
 
 {{< mermaid >}}
-flowchart LR
+flowchart TD
     A[Estudiante produce borrador] --> B[IA ofrece retroalimentación]
     B --> C[Estudiante revisa y decide]
     C --> D{¿Aceptó o rechazó la sugerencia?}
@@ -101,7 +101,15 @@ El estudiante mantiene un diario donde registra sus interacciones con la IA y re
 - ¿Qué acepté y qué rechacé de la sugerencia?
 - ¿Qué aprendí sobre mi propio proceso de pensamiento?
 
-## Qué evalúa el docente
+## Qué entrega el estudiante y qué evalúa el docente
+
+A diferencia del modelo tradicional donde solo se entrega un archivo final, en un ciclo formativo con IA el estudiante suele entregar un **paquete de evidencias** que consta de tres partes:
+
+1. **El producto final:** La última versión de su trabajo.
+2. **El registro de iteraciones:** Un anexo o documento que muestra las versiones previas o la retroalimentación recibida por la IA.
+3. **La reflexión de toma de decisiones (Lo más importante):** Una justificación explícita de por qué aceptó o rechazó las sugerencias de la máquina durante el proceso de mejora.
+
+Al momento de revisar este entregable, los criterios del docente deben cambiar de enfoque:
 
 | Lo que importa | Lo que no importa |
 |---|---|
@@ -127,7 +135,7 @@ El estudiante mantiene un diario donde registra sus interacciones con la IA y re
 {{< /alert >}}
 
 {{< alert icon="lightbulb" type="info" >}}
-**Haz visible el rechazo.** Los momentos donde el estudiante decide que la IA está equivocada son los de mayor valor formativo. Diseña instrumentos que capturen y valoren esas decisiones.
+**Haz visible el rechazo.** Los momentos donde el estudiante decide que la IA está equivocada son los de mayor valor formativo. Asegúrate de incluir formatos o espacios en la entrega de la tarea (como una tabla de decisiones o una reflexión anexa) donde sea obligatorio para el alumno justificar por qué rechazó un consejo de la máquina.
 {{< /alert >}}
 
 ## Relación con otras secciones del sitio

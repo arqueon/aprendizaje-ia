@@ -19,12 +19,12 @@ showAuthor: false
 ---
 
 {{< lead >}}
-Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta pieza ofrece los tres flujos en diagramas Mermaid, con los puntos de decisión humana visibles, para que cada docente los adapte a su contexto sin perder los criterios comunes.
+Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de decisión humana visibles, para que cada docente los adapte a su contexto sin perder los criterios comunes.
 {{< /lead >}}
 
 ## Por qué diagramar los flujos
 
-Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta pieza llena ese vacío con tres diagramas que cualquier docente puede usar como referencia, modificar para su asignatura y compartir con colegas para sostener criterios comunes.
+Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta contribución presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cualquier docente pueda usarlos como referencia, modificar para su asignatura y compartir con colegas para sostener criterios comunes.
 
 Tres reglas que cruzan los tres flujos:
 
@@ -38,7 +38,7 @@ Un docente prepara una sesión sobre un tema específico. Tradicionalmente, este
 
 {{< mermaid >}}
 flowchart TD
-    A["<b>A</b> · Docente: definir aprendizaje esperado"] --> B["<b>B</b> · Docente: identificar nivel de Bloom"]
+    A["<b>A</b> · Docente: definir aprendizaje esperado"] --> B["<b>B</b> · Docente: identificar <a href='/recursos/glosario/taxonomia-de-bloom/'>nivel de Bloom</a>"]
     B --> C["<b>C</b> · IA: proponer 3 estructuras de sesión"]
     C --> D{"<b>D</b> · Docente: ¿alguna se ajusta al grupo?"}
     D -- Sí --> E["<b>E</b> · Docente: seleccionar y ajustar"]
@@ -97,7 +97,7 @@ flowchart TD
     C -- Sí --> E["<b>E</b> · Docente: borrador inicial de la consigna"]
     D --> E
     E --> F["<b>F</b> · IA: proponer 2 variantes equivalentes"]
-    F --> G{"<b>G</b> · Docente: ¿las variantes mantienen el mismo nivel de Bloom?"}
+    F --> G{"<b>G</b> · Docente: ¿las variantes mantienen el mismo <a href='/recursos/glosario/taxonomia-de-bloom/'>nivel de Bloom</a>?"}
     G -- No --> H["<b>H</b> · Docente: reformular consigna o prompts"]
     H --> F
     G -- Sí --> I["<b>I</b> · Docente: redactar rúbrica con criterios de proceso"]
@@ -126,6 +126,6 @@ La [guía de integración curricular de IA](/ia-educacion/guias/integracion-curr
 
 ## Referencias
 
-UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
 
 Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). ASCD.
