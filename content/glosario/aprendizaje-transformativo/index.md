@@ -3,7 +3,8 @@ title: "Aprendizaje transformativo"
 date: 2026-04-19
 draft: false
 tags: ["cognición", "aprendizaje", "evaluación"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia"]
 showHero: true
 summary: "Aprendizaje profundo caracterizado por la revaluación estructural de presunciones y marcos teóricos."
 ---

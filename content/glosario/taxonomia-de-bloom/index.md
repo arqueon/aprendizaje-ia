@@ -3,7 +3,8 @@ title: "Taxonomía de Bloom"
 date: 2026-04-19
 draft: false
 tags: ["taxonomía", "cognición", "niveles-cognitivos"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia", "evaluacion"]
 showHero: true
 summary: "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación."
 ---

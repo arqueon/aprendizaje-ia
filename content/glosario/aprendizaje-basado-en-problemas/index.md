@@ -3,7 +3,8 @@ title: "Aprendizaje basado en problemas"
 date: 2026-04-19
 draft: false
 tags: ["aprendizaje", "evaluación auténtica"]
-categories: ["Metodología"]
+categories: ["metodologia"]
+areas: ["pedagogia"]
 showHero: true
 summary: "Metodología centrada en el estudiante estructurada en torno a la resolución de problemas abiertos."
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Formación Docente"
+title: "Formación docente"
 description: "Alfabetización digital, formación continua y redes de colaboración para docentes en la era del aprendizaje digital y la inteligencia artificial."
 summary: "Recursos y espacios para desarrollar competencias digitales docentes: desde la alfabetización básica hasta la participación en redes de práctica."
 weight: 5

@@ -1,5 +1,5 @@
 ---
-title: "Laboratorio de Innovación Docente"
+title: "Laboratorio de innovación docente"
 description: "Espacio experimental para el diseño y documentación de prácticas pedagógicas innovadoras con inteligencia artificial."
 summary: "Experimenta, diseña y documenta estrategias de enseñanza que integran IA para transformar el aprendizaje."
 weight: 2

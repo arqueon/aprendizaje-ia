@@ -1,5 +1,5 @@
 ---
-title: "IA en Educación"
+title: "IA en educación"
 description: "Guías, estrategias, marcos éticos y tendencias para integrar la inteligencia artificial en la práctica docente y el aprendizaje universitario."
 summary: "Sección prioritaria UDGplus: recursos prácticos, marcos éticos y tendencias para integrar la IA en la docencia y el aprendizaje."
 weight: 1

@@ -3,7 +3,8 @@ title: "IA generativa"
 date: 2026-04-19
 draft: false
 tags: ["IA generativa", "tecnología"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia"]
 showHero: true
 summary: "Sistemas algorítmicos capaces de generar contenido original a partir de patrones."
 ---

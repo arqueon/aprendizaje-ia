@@ -3,7 +3,8 @@ title: "Aprendizaje digital"
 date: 2026-04-19
 draft: false
 tags: ["educación digital", "tecnología"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
 ---

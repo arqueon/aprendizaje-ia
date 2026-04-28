@@ -3,7 +3,8 @@ title: "Modelo SAMR"
 date: 2026-04-20
 draft: false
 tags: ["samr", "tecnología-educativa", "integración-tecnológica"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Marco teórico de cuatro niveles (Sustitución, Aumento, Modificación, Redefinición) para evaluar la integración de la tecnología en la educación."
 ---

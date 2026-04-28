@@ -3,7 +3,8 @@ title: "Pensamiento crítico"
 date: 2026-04-19
 draft: false
 tags: ["pensamiento crítico", "cognición"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia"]
 showHero: true
 summary: "Capacidad cognitiva de evaluación objetiva y síntesis de la información."
 ---

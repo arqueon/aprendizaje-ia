@@ -3,7 +3,8 @@ title: "Aula invertida"
 date: 2026-04-20
 draft: false
 tags: ["aula-invertida", "aprendizaje-activo", "metodología"]
-categories: ["Metodología"]
+categories: ["metodologia"]
+areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Modelo pedagógico que invierte la enseñanza tradicional transfiriendo la instrucción fuera del aula para dedicar el tiempo presencial a actividades prácticas."
 ---

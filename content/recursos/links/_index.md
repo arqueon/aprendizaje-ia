@@ -1,5 +1,5 @@
 ---
-title: "Links Relevantes"
+title: "Links relevantes"
 description: "Recursos externos seleccionados: herramientas, guías, repositorios y sitios de referencia para docentes que integran IA."
 summary: "Selección curada de recursos en la web sobre pedagogía con IA, evaluación auténtica y tecnología educativa."
 weight: 1

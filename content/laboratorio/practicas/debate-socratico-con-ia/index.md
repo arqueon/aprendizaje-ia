@@ -1,5 +1,5 @@
 ---
-title: "Debate Socrático con IA como Interlocutor"
+title: "Debate socrático con IA como interlocutor"
 date: 2026-03-01
 draft: false
 description: "Los estudiantes preparan y sostienen un debate filosófico usando IA como interlocutor para anticipar contra-argumentos y fortalecer su postura."

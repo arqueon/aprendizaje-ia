@@ -3,7 +3,8 @@ title: "Aprendizaje híbrido"
 date: 2026-04-19
 draft: false
 tags: ["aprendizaje híbrido", "modalidades"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Modelo educativo que amalgama intencionalmente la instrucción presencial con mediaciones digitales."
 ---

@@ -3,7 +3,7 @@ title: "Creatividad humana e inteligencia artificial: Más allá del antropocent
 date: 2026-04-12
 draft: false
 tags: ["creatividad", "autoría", "ética", "arte generativo"]
-categories: ["Estudios"]
+categories: ["estudio"]
 areas: ["ia", "evaluacion"]
 summary: "Un análisis de cómo la IA generativa reconfigura los modelos tradicionales de creatividad, autoría y propiedad en el ecosistema digital."
 ---

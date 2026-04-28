@@ -3,7 +3,8 @@ title: "Ingeniería de prompts"
 date: 2026-04-19
 draft: false
 tags: ["prompts", "ingeniería de prompts"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia"]
 showHero: true
 summary: "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje."
 ---

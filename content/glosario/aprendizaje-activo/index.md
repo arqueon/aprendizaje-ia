@@ -3,7 +3,8 @@ title: "Aprendizaje activo"
 date: 2026-04-19
 draft: false
 tags: ["aprendizaje-activo", "aprendizaje", "cognición"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia"]
 showHero: true
 summary: "Enfoque donde el estudiante participa directamente en la construcción de conocimiento."
 ---

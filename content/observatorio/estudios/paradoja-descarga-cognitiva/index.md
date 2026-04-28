@@ -3,7 +3,7 @@ title: "La paradoja de la descarga cognitiva en el aprendizaje"
 date: 2026-04-19
 draft: false
 tags: ["cognición", "aprendizaje", "carga cognitiva", "evaluación"]
-categories: ["Estudios"]
+categories: ["estudio"]
 areas: ["ia"]
 showHero: true
 summary: "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo."

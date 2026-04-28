@@ -1,5 +1,5 @@
 ---
-title: "Análisis Crítico de Sesgos en la IA"
+title: "Análisis crítico de sesgos en la IA"
 date: 2026-03-15
 draft: false
 description: "Los estudiantes analizan respuestas de diferentes modelos de IA para identificar sesgos culturales, de género o geográficos."

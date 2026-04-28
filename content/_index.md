@@ -1,5 +1,5 @@
 ---
-title: "Aprendizaje Digital e IA"
+title: "Aprendizaje digital e IA"
 description: "Espacio de convergencia entre pedagogía y tecnología para abordar la complejidad de la docencia en la era de la inteligencia artificial."
 showMermaid: true
 ---
@@ -9,14 +9,14 @@ Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="ia-educacion/" title="IA en Educación" icon="brain" color="#6366f1" img="images/cards/card-ia-educacion.svg" description="Guías prácticas, integración curricular, ética y tendencias sobre IA en la docencia universitaria." >}}
-  {{< card link="laboratorio/" title="Laboratorio de Innovación" icon="flask" color="#0ea5e9" img="images/cards/card-laboratorio.svg" description="Diseño y documentación de prácticas pedagógicas innovadoras con aprendizaje activo e IA." >}}
+  {{< card link="ia-educacion/" title="IA en educación" icon="brain" color="#6366f1" img="images/cards/card-ia-educacion.svg" description="Guías prácticas, integración curricular, ética y tendencias sobre IA en la docencia universitaria." >}}
+  {{< card link="laboratorio/" title="Laboratorio de innovación" icon="flask" color="#0ea5e9" img="images/cards/card-laboratorio.svg" description="Diseño y documentación de prácticas pedagógicas innovadoras con aprendizaje activo e IA." >}}
   {{< card link="observatorio/" title="Observatorio" icon="eye" color="#f59e0b" img="images/cards/card-observatorio.svg" description="Seguimiento de tendencias, encuestas, estudios y documentación de buenas prácticas." >}}
   {{< card link="recursos/" title="Recursos" icon="book-open" color="#ec4899" img="images/cards/card-recursos.svg" description="Artículos, videos y enlaces curados sobre aprendizaje digital e IA en educación." >}}
-  {{< card link="formacion-docente/" title="Formación Docente" icon="graduation-cap" color="#10b981" img="images/cards/card-formacion.svg" description="Alfabetización digital, formación continua y redes de práctica para docentes." >}}
+  {{< card link="formacion-docente/" title="Formación docente" icon="graduation-cap" color="#10b981" img="images/cards/card-formacion.svg" description="Alfabetización digital, formación continua y redes de práctica para docentes." >}}
 {{< /cards >}}
 
-## Ecosistema de Aprendizaje
+## Ecosistema de aprendizaje
 
 {{< mermaid >}}
 graph TD

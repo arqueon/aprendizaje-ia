@@ -1,5 +1,5 @@
 ---
-title: "Observatorio de IA y Pedagogía Digital"
+title: "Observatorio de IA y pedagogía digital"
 description: "Seguimiento sistemático de tendencias, estudios y buenas prácticas en el uso de IA para la educación."
 summary: "Datos, estudios y documentación sobre el impacto de la inteligencia artificial en la práctica docente universitaria."
 weight: 3

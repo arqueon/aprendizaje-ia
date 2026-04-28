@@ -121,11 +121,11 @@ flowchart TD
 **El aprendizaje activo con IA no elimina al docente.** Lo libera de la producción de contenido para que se concentre en facilitar la discusión, observar procesos y dar retroalimentación personalizada.
 {{< /alert >}}
 
-## Relación con otras secciones del sitio
+## Lecturas relacionadas
 
-- La [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) complementa esta guía con instrumentos de retroalimentación iterativa
-- Para una implementación práctica documentada, consulta la [práctica de aprendizaje activo con IA](/laboratorio/practicas/aprendizaje-activo-ia/) en el Laboratorio
-- La [guía de ingeniería de prompts](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) ofrece el marco técnico para formular instrucciones a la IA
+- La [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) complementa esta guía con instrumentos de retroalimentación iterativa.
+- Un [caso documentado en el aula](/laboratorio/practicas/aprendizaje-activo-ia/) muestra cómo se ejecutan estas actividades con un grupo real.
+- La [guía de ingeniería de prompts](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) ofrece el marco técnico para formular instrucciones a la IA.
 
 ## Recursos adicionales
 

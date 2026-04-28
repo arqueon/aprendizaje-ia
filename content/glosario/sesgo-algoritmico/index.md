@@ -3,7 +3,8 @@ title: "Sesgo algorítmico"
 date: 2026-04-20
 draft: false
 tags: ["sesgos", "ética", "pensamiento crítico"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia", "etica"]
 showHero: true
 summary: "Errores sistemáticos en sistemas informáticos que generan resultados injustos, originados en los datos de entrenamiento o el diseño del modelo."
 ---

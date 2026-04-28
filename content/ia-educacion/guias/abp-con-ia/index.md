@@ -1,8 +1,8 @@
 ---
-title: "Aprendizaje Basado en Proyectos (ABP) con IA"
+title: "Aprendizaje basado en proyectos (ABP) con IA"
 date: 2026-04-20
 draft: false
-description: "Guía metodológica para integrar la Inteligencia Artificial Generativa en cada una de las fases del Aprendizaje Basado en Proyectos."
+description: "Guía metodológica para integrar la inteligencia artificial generativa en cada una de las fases del aprendizaje basado en proyectos."
 summary: "Descubre cómo transformar el ABP tradicional utilizando la IA como un co-productor activo. Esta guía explora el diseño de escenarios complejos, la investigación asistida, la iteración socrática y la evaluación del proceso cognitivo."
 tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento (ensamblaje)", "trabajo colaborativo"]
 categories: ["guia"]
@@ -35,7 +35,7 @@ Lo que la IA **no** puede hacer es decidir qué importa, qué se descarta y por 
 
 ---
 
-## 2. Las 4 Fases del ABP Asistido por IA
+## 2. Las 4 fases del ABP asistido por IA
 
 La integración efectiva de la IA modifica sustancialmente el ciclo de vida del ABP. A continuación, detallamos cómo estructurar cada etapa.
 
@@ -105,7 +105,7 @@ La IA puede asistir en la co-creación de artefactos comunicativos (presentacion
 
 ---
 
-## 3. Evaluando Procesos, no Resultados
+## 3. Evaluando procesos, no resultados
 
 El mayor riesgo del ABP actual es evaluar solo el "entregable", el cual pudo haber sido generado 100% por una IA en el último minuto. Para evitar esto, la evaluación debe ser formativa y trazable.
 
@@ -131,7 +131,7 @@ El mayor riesgo del ABP actual es evaluar solo el "entregable", el cual pudo hab
 
 ---
 
-## 5. Ejemplo Práctico: Diseñando el Escenario (Prompt Docente)
+## 5. Ejemplo práctico: diseñando el escenario (prompt docente)
 
 Como docente, también puedes usar la IA para preparar tu ABP utilizando la técnica de "Diseño Inverso". Aquí tienes un prompt estructurado (usando el marco R-O-C-E) que puedes probar en modelos como **Gemini 3.1 Pro** o **Claude 3.5 Sonnet**:
 
@@ -142,11 +142,11 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 
 ---
 
-## Relación con otras secciones del sitio
+## Lecturas relacionadas
 
-- Para el marco teórico del agenciamiento (ensamblaje) persona-IA, consulta la [guía de agenciamiento (ensamblaje) humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
-- Para una implementación concreta de ABP con IA documentada paso a paso, consulta la [práctica de ABP con IA](/laboratorio/practicas/abp-con-ia/) en el Laboratorio
-- Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) son especialmente relevantes para la fase de iteración
+- Para el marco teórico del agenciamiento (ensamblaje) persona-IA, ver la [guía de agenciamiento (ensamblaje) humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
+- Para una [implementación concreta documentada paso a paso](/laboratorio/practicas/abp-con-ia/) — caso real de un proyecto colaborativo en aula.
+- Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) aplican directamente a la fase de iteración.
 
 ## Recursos adicionales
 

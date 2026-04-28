@@ -1,5 +1,5 @@
 ---
-title: "Ingeniería de Prompts para Docentes"
+title: "Ingeniería de prompts para docentes"
 date: 2026-03-17
 draft: false
 description: "Guía práctica para diseñar instrucciones efectivas que conviertan a la IA en un aliado pedagógico."
@@ -20,11 +20,11 @@ showSummary: true
 La calidad de la respuesta de una IA no depende solo de la herramienta, sino de la claridad y estructura de tu instrucción. En esta guía, aprenderás a hablarle a la IA con intención pedagógica.
 {{< /lead >}}
 
-## ¿Qué es un Prompt?
+## ¿Qué es un prompt?
 
 Un *prompt* es simplemente la instrucción o conjunto de palabras que le das a una IA para que realice una tarea. La "ingeniería" de prompts no es más que el arte de ser específico, estructurado y dar contexto.
 
-## El Marco R-O-C-E para Docentes
+## El marco R-O-C-E para docentes
 
 Para obtener los mejores resultados en planificación y diseño de materiales, utiliza esta estructura de cuatro elementos:
 
@@ -35,7 +35,7 @@ Para obtener los mejores resultados en planificación y diseño de materiales, u
 
 ---
 
-### Ejemplo de un Prompt Pobre vs. Uno Estructurado
+### Ejemplo de un prompt pobre vs. uno estructurado
 
 **❌ Prompt Pobre:**
 > "Hazme una actividad sobre el ciclo del agua."
@@ -45,7 +45,7 @@ Para obtener los mejores resultados en planificación y diseño de materiales, u
 
 ---
 
-## Técnicas Avanzadas
+## Técnicas avanzadas
 
 ### 1. Few-Shot Prompting (Dar ejemplos)
 La IA aprende mejor si le das un ejemplo de lo que buscas.
@@ -55,7 +55,7 @@ La IA aprende mejor si le das un ejemplo de lo que buscas.
 Obliga a la IA a razonar antes de dar la respuesta final. 
 *Añade al final:* "Antes de darme la respuesta, analiza paso a paso los requisitos pedagógicos."
 
-## Consejos Pedagógicos
+## Consejos pedagógicos
 
 {{< alert icon="lightbulb" type="info" >}}
 **Itera, no te conformes:** Si la primera respuesta no es perfecta, no la descartes. Pídele: "Me gusta el punto 2, pero profundiza más en la parte práctica" o "Usa un lenguaje menos técnico".

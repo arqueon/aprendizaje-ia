@@ -1,5 +1,5 @@
 ---
-title: "Prácticas Pedagógicas"
+title: "Prácticas pedagógicas"
 description: "Colección de prácticas docentes innovadoras que integran inteligencia artificial en el diseño de experiencias de aprendizaje y evaluación."
 summary: "Explora prácticas documentadas por docentes que han integrado IA en sus aulas: actividades, instrumentos de evaluación y reflexiones sobre sus resultados."
 weight: 1

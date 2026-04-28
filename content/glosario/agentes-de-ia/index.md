@@ -3,7 +3,8 @@ title: "Agentes de IA"
 date: 2026-04-19
 draft: false
 tags: ["tecnología", "tendencias"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia"]
 showHero: true
 summary: "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos."
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Sal Khan: La IA en el Aula Podría Ser el Mayor Cambio Educativo de la Historia"
+title: "Sal Khan: la IA en el aula podría ser el mayor cambio educativo de la historia"
 date: 2026-03-01
 draft: false
 description: "Sal Khan, fundador de Khan Academy, explica cómo la IA puede actuar como tutor personal para cada estudiante y liberar al docente para lo que importa."

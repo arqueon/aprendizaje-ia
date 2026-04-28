@@ -3,7 +3,8 @@ title: "Evaluación auténtica"
 date: 2026-04-19
 draft: false
 tags: ["evaluación auténtica", "diseño de evaluación", "educación superior"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia", "evaluacion"]
 showHero: true
 summary: "Marcos de evaluación diseñados para medir competencias reales, centrados en el proceso y el juicio crítico del estudiante."
 ---

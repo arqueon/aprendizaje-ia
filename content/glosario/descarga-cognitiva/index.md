@@ -3,7 +3,8 @@ title: "Descarga cognitiva"
 date: 2026-04-19
 draft: false
 tags: ["cognición", "aprendizaje", "carga cognitiva"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["pedagogia"]
 showHero: true
 summary: "Transferencia de carga mental y tareas operativas a sistemas automatizados."
 ---

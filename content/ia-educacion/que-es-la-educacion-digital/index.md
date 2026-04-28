@@ -2,7 +2,7 @@
 title: "¿Qué es la educación digital?"
 date: 2026-04-03
 description: "Exploración conceptual, diferenciación terminológica y taxonomía de la educación digital para el nivel superior."
-categories: ["Conceptos fundamentales", "Modalidades educativas"]
+categories: ["concepto", "modalidad-educativa"]
 tags: ["Educación digital", "Taxonomía", "Aprendizaje híbrido", "Blended learning", "E-learning", "Diseño instruccional"]
 toc: true
 weight: 10

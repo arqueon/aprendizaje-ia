@@ -3,7 +3,8 @@ title: "Alfabetización en IA"
 date: 2026-04-19
 draft: false
 tags: ["alfabetización en IA", "alfabetización digital"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia", "digital", "formacion"]
 showHero: true
 summary: "Competencia técnica y ética para comprender, evaluar e interactuar con sistemas algorítmicos."
 ---

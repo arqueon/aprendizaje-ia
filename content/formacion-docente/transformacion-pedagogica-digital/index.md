@@ -35,7 +35,7 @@ La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en
 
 La pandemia no fue una "revolución tecnológica" pero si hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch* (Universidad de Guadalajara, 2022).
 
-### Opiniones en la Red Universitaria
+### Opiniones en la red universitaria
 
 Una encuesta realizada en los centros universitarios y el Sistema de Educación Media Superior muestra que la mayoría de los docentes considera que sus programas educativos podrían cursarse combinando las ventajas de la modalidad presencial y en línea mediante el aprendizaje híbrido.
 

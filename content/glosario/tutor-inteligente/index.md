@@ -3,7 +3,8 @@ title: "Tutor inteligente"
 date: 2026-04-20
 draft: false
 tags: ["tutor IA", "personalización", "IA generativa"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia"]
 showHero: true
 summary: "Sistema de software que utiliza inteligencia artificial para simular el comportamiento de un tutor humano y proveer instrucción personalizada."
 ---

@@ -3,7 +3,8 @@ title: "Diseño inverso"
 date: 2026-04-20
 draft: false
 tags: ["diseño-inverso", "diseño curricular", "planificación"]
-categories: ["Metodología"]
+categories: ["metodologia"]
+areas: ["pedagogia", "evaluacion"]
 showHero: true
 summary: "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción."
 ---

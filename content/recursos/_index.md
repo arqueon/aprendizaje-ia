@@ -1,5 +1,5 @@
 ---
-title: "Recursos y Herramientas"
+title: "Recursos y herramientas"
 description: "Catálogo de herramientas institucionales y externas para enriquecer la práctica pedagógica con IA."
 summary: "Herramientas digitales seleccionadas y evaluadas para docentes que integran IA en sus procesos de enseñanza y evaluación."
 weight: 4

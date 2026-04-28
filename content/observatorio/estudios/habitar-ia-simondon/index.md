@@ -3,7 +3,7 @@ title: "Habitar la IA: técnica, cultura y aprendizaje con Simondon"
 date: 2026-04-22
 draft: false
 tags: ["filosofía de la técnica", "cultura digital", "mundoambiente", "pensamiento crítico", "Simondon"]
-categories: ["Estudios"]
+categories: ["estudio"]
 areas: ["ia", "pedagogia", "digital"]
 showHero: true
 summary: "Una relectura de Gilbert Simondon y del concepto de mundoambiente de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?»."

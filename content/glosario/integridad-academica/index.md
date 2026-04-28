@@ -3,7 +3,8 @@ title: "Integridad académica"
 date: 2026-04-19
 draft: false
 tags: ["integridad académica", "ética"]
-categories: ["Concepto"]
+categories: ["concepto"]
+areas: ["ia", "etica"]
 showHero: true
 summary: "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas."
 ---
