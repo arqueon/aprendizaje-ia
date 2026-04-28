@@ -1,7 +1,7 @@
 ---
 title: "Recursos y herramientas"
-description: "Catálogo de herramientas institucionales y externas para enriquecer la práctica pedagógica con IA."
-summary: "Herramientas digitales seleccionadas y evaluadas para docentes que integran IA en sus procesos de enseñanza y evaluación."
+description: "Catálogo de herramientas y recursos de apoyo para enriquecer la práctica docente con IA."
+summary: "Herramientas y recursos seleccionados para docentes que integran IA en sus procesos de enseñanza y evaluación."
 weight: 4
 showHero: true
 heroStyle: "big"
@@ -15,9 +15,10 @@ Un catálogo curado de materiales con criterio pedagógico: desde artículos aca
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="articulos/" title="Artículos y documentos" icon="file-lines" color="#ec4899" description="Fichas bibliográficas con abstract, contexto y relevancia para la práctica con IA." >}}
-  {{< card link="videos/" title="Videos" icon="film" color="#db2777" description="Conferencias, charlas y tutoriales seleccionados sobre pedagogía digital e IA." >}}
+  {{< card link="articulos/" title="Artículos y documentos" icon="file-lines" color="#ec4899" description="Fichas bibliográficas con resumen, contexto y relevancia para la práctica con IA." >}}
+  {{< card link="videos/" title="Videos" icon="film" color="#db2777" description="Charlas, conferencias y tutoriales seleccionados sobre pedagogía digital e IA." >}}
   {{< card link="links/" title="Links relevantes" icon="link" color="#be185d" description="Herramientas, guías y repositorios externos seleccionados con criterio pedagógico." >}}
+  {{< card link="glosario/" title="Glosario de términos" icon="book" color="#8b5cf6" description="Definiciones operativas y conceptos clave sobre inteligencia artificial y educación." >}}
 {{< /cards >}}
 
 ## Recursos institucionales
