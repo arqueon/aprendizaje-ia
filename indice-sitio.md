@@ -28,7 +28,7 @@ Sección prioritaria del sitio.
 - [ ] Aprendizaje activo con IA — diseño y ejecución de actividades — `ia-educacion/guias/aprendizaje-activo-con-ia/`
 - [ ] Aprendizaje basado en proyectos (ABP) con IA — `ia-educacion/guias/abp-con-ia/`
 - [ ] Aprendizaje rizomático con IA — `ia-educacion/guias/aprendizaje-rizomatico-ia/`
-- [ ] Evaluación formativa con IA — ciclos de retroalimentación iterativa — `ia-educacion/guias/evaluacion-formativa-ia/`
+- [x] Evaluación formativa con IA — ciclos de retroalimentación iterativa — `ia-educacion/guias/evaluacion-formativa-ia/`
 - [ ] Ingeniería de prompts para docentes — `ia-educacion/guias/ingenieria-de-prompts-para-docentes/`
 - [ ] Integración curricular de IA en programas existentes — `ia-educacion/guias/integracion-curricular-ia/`
 - [ ] Lineamientos éticos para el uso de IA en educación superior — `ia-educacion/guias/lineamientos-eticos-ia/`
