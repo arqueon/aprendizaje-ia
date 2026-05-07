@@ -84,22 +84,10 @@ Si una de las respuestas es "no", conviene devolverla al autor con observaciones
 
 Después de revisar prácticas en varios repositorios institucionales, los patrones que más erosionan la utilidad documental se repiten:
 
-- **Confundir entusiasmo con resultado** — describir lo que sintió el docente en lugar de lo que aprendieron los estudiantes.
+- **Confundir entusiasmo con resultado** — describir lo que experimentó el docente en lugar de lo que aprendieron los estudiantes.
 - **Promover una herramienta** — la práctica termina siendo un caso de uso de un modelo específico, no una intervención pedagógica replicable con otros modelos.
-- **Maquillar fracasos** — silenciar los ajustes que se tuvieron que hacer, lo que vuelve la práctica imposible de replicar con honestidad.
 - **No declarar versión del modelo** — un prompt que funcionaba con Gemini 2.5 puede no funcionar con Gemini 4 ni con otro modelo. La versión es parte de las condiciones de aplicabilidad.
-- **Saltarse la rúbrica** — describir actividades sin explicar cómo se evaluaron es la omisión más común y la que más limita la utilidad para otros docentes.
-
-## Validación entre pares antes de publicar
-
-La documentación gana fiabilidad cuando pasa por una revisión rápida entre colegas antes de publicarse. Un protocolo mínimo:
-
-1. **Lectura ciega** — un par lee la documentación sin conocer al autor y responde las siete preguntas de la sección anterior.
-2. **Comentarios sobre claridad y honestidad** — el revisor señala secciones donde el contexto falta o donde percibe sobreoptimismo.
-3. **Iteración del autor** — el docente integra los comentarios y reenvía. La revisión no es una calificación; es una mejora.
-4. **Aprobación final** — un segundo revisor confirma que las observaciones se atendieron.
-
-Cuatro semanas máximo desde envío hasta publicación. Si tarda más, el docente pierde interés y la práctica se pierde.
+- **Saltarse la rúbrica** — describir una actividad increíble en el aula sin incluir cómo se calificó. Cuando otro docente intenta replicarla, sabe *qué* hacer, pero no sabe *cómo evaluar* si hubo aprendizaje real. Especialmente al integrar IA —donde a menudo se debe evaluar el proceso de pensamiento y no solo el producto final—, omitir los criterios de evaluación le quita a la documentación la mitad de su valor práctico para otros docentes.
 
 ## Lecturas relacionadas
 
@@ -111,4 +99,4 @@ Hattie, J. (2009). *Visible learning: A synthesis of over 800 meta-analyses rela
 
 Lave, J., & Wenger, E. (1991). *Situated learning: Legitimate peripheral participation*. Cambridge University Press.
 
-UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>

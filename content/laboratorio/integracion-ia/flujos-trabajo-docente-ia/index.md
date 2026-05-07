@@ -19,12 +19,12 @@ showAuthor: false
 ---
 
 {{< lead >}}
-Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta pieza ofrece los tres flujos en diagramas Mermaid, con los puntos de decisión humana visibles, para que cada docente los adapte a su contexto sin perder los criterios comunes.
+Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de decisión humana visibles, para que cada docente los adapte a su contexto sin perder los criterios comunes.
 {{< /lead >}}
 
 ## Por qué diagramar los flujos
 
-Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta pieza llena ese vacío con tres diagramas que cualquier docente puede usar como referencia, modificar para su asignatura y compartir con colegas para sostener criterios comunes.
+Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta contribución presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cualquier docente pueda usarlos como referencia, modificar para su asignatura y compartir con colegas para sostener criterios comunes.
 
 Tres reglas que cruzan los tres flujos:
 
@@ -38,19 +38,19 @@ Un docente prepara una sesión sobre un tema específico. Tradicionalmente, este
 
 {{< mermaid >}}
 flowchart TD
-    A[Docente: definir aprendizaje esperado] --> B[Docente: identificar nivel de Bloom]
-    B --> C[IA: proponer 3 estructuras de sesión]
-    C --> D{Docente: ¿alguna se ajusta al grupo?}
-    D -- Sí --> E[Docente: seleccionar y ajustar]
-    D -- No --> F[Docente: reformular prompt]
+    A["<b>A</b> · Docente: definir aprendizaje esperado"] --> B["<b>B</b> · Docente: identificar <a href='/recursos/glosario/taxonomia-de-bloom/'>nivel de Bloom</a>"]
+    B --> C["<b>C</b> · IA: proponer 3 estructuras de sesión"]
+    C --> D{"<b>D</b> · Docente: ¿alguna se ajusta al grupo?"}
+    D -- Sí --> E["<b>E</b> · Docente: seleccionar y ajustar"]
+    D -- No --> F["<b>F</b> · Docente: reformular prompt"]
     F --> C
-    E --> G[IA: proponer ejemplos disciplinares]
-    G --> H{Docente: ¿son pertinentes?}
-    H -- Sí --> I[Docente: integrar con materiales propios]
-    H -- No --> J[Docente: descartar y proveer ejemplos propios]
+    E --> G["<b>G</b> · IA: proponer ejemplos disciplinares"]
+    G --> H{"<b>H</b> · Docente: ¿son pertinentes?"}
+    H -- Sí --> I["<b>I</b> · Docente: integrar con materiales propios"]
+    H -- No --> J["<b>J</b> · Docente: descartar y proveer ejemplos propios"]
     J --> I
-    I --> K[Docente: definir momentos de actividad estudiantil]
-    K --> L[Plan de sesión final]
+    I --> K["<b>K</b> · Docente: definir momentos de actividad estudiantil"]
+    K --> L["<b>L</b> · Plan de sesión final"]
 {{< /mermaid >}}
 
 **Tres notas operativas sobre este flujo:**
@@ -65,17 +65,17 @@ El docente recibe un borrador o entrega intermedia y produce comentarios formati
 
 {{< mermaid >}}
 flowchart TD
-    A[Estudiante: entrega borrador] --> B[Docente: lectura inicial sin IA]
-    B --> C[Docente: identificar 1-2 problemas estructurales]
-    C --> D[IA: revisar coherencia y claridad línea por línea]
-    D --> E{Docente: ¿identifica problemas adicionales relevantes?}
-    E -- Sí --> F[Docente: integrar a comentarios]
-    E -- No --> G[Docente: descartar señalamientos no relevantes]
-    F --> H[Docente: redactar comentarios formativos finales]
+    A["<b>A</b> · Estudiante: entrega borrador"] --> B["<b>B</b> · Docente: lectura inicial sin IA"]
+    B --> C["<b>C</b> · Docente: identificar 1-2 problemas estructurales"]
+    C --> D["<b>D</b> · IA: revisar coherencia y claridad línea por línea"]
+    D --> E{"<b>E</b> · Docente: ¿identifica problemas adicionales relevantes?"}
+    E -- Sí --> F["<b>F</b> · Docente: integrar a comentarios"]
+    E -- No --> G["<b>G</b> · Docente: descartar señalamientos no relevantes"]
+    F --> H["<b>H</b> · Docente: redactar comentarios formativos finales"]
     G --> H
-    H --> I[Docente: revisar tono y especificidad]
-    I --> J[Comentarios entregados al estudiante]
-    J --> K[Estudiante: producir versión revisada]
+    H --> I["<b>I</b> · Docente: revisar tono y especificidad"]
+    I --> J["<b>J</b> · Comentarios entregados al estudiante"]
+    J --> K["<b>K</b> · Estudiante: producir versión revisada"]
     K --> A
 {{< /mermaid >}}
 
@@ -91,19 +91,19 @@ El docente prepara una evaluación de medio término o final. Aquí la IA tiene 
 
 {{< mermaid >}}
 flowchart TD
-    A[Docente: revisar aprendizajes esperados de la unidad] --> B[Docente: definir evidencia esperada]
-    B --> C{Docente: ¿la evidencia se sostiene si el estudiante usa IA?}
-    C -- No --> D[Docente: rediseñar evidencia con contexto local o defensa]
-    C -- Sí --> E[Docente: borrador inicial de la consigna]
+    A["<b>A</b> · Docente: revisar aprendizajes esperados de la unidad"] --> B["<b>B</b> · Docente: definir evidencia esperada"]
+    B --> C{"<b>C</b> · Docente: ¿la evidencia se sostiene si el estudiante usa IA?"}
+    C -- No --> D["<b>D</b> · Docente: rediseñar evidencia con contexto local o defensa"]
+    C -- Sí --> E["<b>E</b> · Docente: borrador inicial de la consigna"]
     D --> E
-    E --> F[IA: proponer 2 variantes equivalentes]
-    F --> G{Docente: ¿las variantes mantienen el mismo nivel de Bloom?}
-    G -- No --> H[Docente: reformular consigna o prompts]
+    E --> F["<b>F</b> · IA: proponer 2 variantes equivalentes"]
+    F --> G{"<b>G</b> · Docente: ¿las variantes mantienen el mismo <a href='/recursos/glosario/taxonomia-de-bloom/'>nivel de Bloom</a>?"}
+    G -- No --> H["<b>H</b> · Docente: reformular consigna o prompts"]
     H --> F
-    G -- Sí --> I[Docente: redactar rúbrica con criterios de proceso]
-    I --> J[IA: revisar rúbrica para detectar ambigüedades]
-    J --> K[Docente: ajustar rúbrica final]
-    K --> L[Evaluación lista para aplicar]
+    G -- Sí --> I["<b>I</b> · Docente: redactar rúbrica con criterios de proceso"]
+    I --> J["<b>J</b> · IA: revisar rúbrica para detectar ambigüedades"]
+    J --> K["<b>K</b> · Docente: ajustar rúbrica final"]
+    K --> L["<b>L</b> · Evaluación lista para aplicar"]
 {{< /mermaid >}}
 
 **Tres notas operativas sobre este flujo:**
@@ -126,6 +126,6 @@ La [guía de integración curricular de IA](/ia-educacion/guias/integracion-curr
 
 ## Referencias
 
-UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
 
 Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). ASCD.
