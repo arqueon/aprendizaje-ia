@@ -104,6 +104,18 @@ name = "Acerca de"
 url = "/about/"
 weight = 70
 
+[[menu.footer]]
+identifier = "licencia"
+name = "Licencia (CC BY-SA 4.0)"
+url = "/licencia/"
+weight = 10
+
+[[menu.footer]]
+identifier = "about-footer"
+name = "Acerca de"
+url = "/about/"
+weight = 20
+
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
