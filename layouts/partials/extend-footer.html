@@ -1,13 +1,13 @@
 <div class="site-license mt-6 mb-4 flex flex-col items-center text-center text-sm text-neutral-600 dark:text-neutral-400">
-  <a href="/licencia/" aria-label="Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional"
+  <a href="{{ "licencia/" | relURL }}" aria-label="Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional"
      class="flex items-center gap-1 mb-2 text-neutral-700 hover:text-primary-600 dark:text-neutral-300 dark:hover:text-primary-400">
-    <img src="/images/cc/cc.svg" alt="" width="28" height="28" class="inline-block" />
-    <img src="/images/cc/by.svg" alt="" width="28" height="28" class="inline-block" />
-    <img src="/images/cc/sa.svg" alt="" width="28" height="28" class="inline-block" />
+    <img src="{{ "images/cc/cc.svg" | relURL }}" alt="" width="28" height="28" class="inline-block" />
+    <img src="{{ "images/cc/by.svg" | relURL }}" alt="" width="28" height="28" class="inline-block" />
+    <img src="{{ "images/cc/sa.svg" | relURL }}" alt="" width="28" height="28" class="inline-block" />
   </a>
   <p class="max-w-2xl px-4 leading-relaxed">
     El contenido original de este sitio está bajo
-    <a href="/licencia/" class="font-medium underline decoration-dotted hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="{{ "licencia/" | relURL }}" class="font-medium underline decoration-dotted hover:text-primary-600 dark:hover:text-primary-400">
       Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC&nbsp;BY-SA&nbsp;4.0)
     </a>.
     Puedes copiar, redistribuir, remezclar y transformar libremente —incluso con fines comerciales—
@@ -15,6 +15,6 @@
   </p>
   <p class="mt-1 text-xs">
     Logos institucionales y materiales de terceros conservan los derechos de sus autores.
-    <a href="/licencia/" class="underline decoration-dotted hover:text-primary-600 dark:hover:text-primary-400">Ver términos completos</a>.
+    <a href="{{ "licencia/" | relURL }}" class="underline decoration-dotted hover:text-primary-600 dark:hover:text-primary-400">Ver términos completos</a>.
   </p>
 </div>

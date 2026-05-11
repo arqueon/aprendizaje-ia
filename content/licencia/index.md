@@ -24,9 +24,9 @@ aprendizaje digital y la IA en educación superior.
 
 <p style="text-align:center; margin: 1.5rem 0;">
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="license" target="_blank" aria-label="CC BY-SA 4.0">
-    <img src="/images/cc/cc.svg" alt="Creative Commons" width="48" height="48" style="display:inline-block; margin:0 4px;" />
-    <img src="/images/cc/by.svg" alt="Atribución" width="48" height="48" style="display:inline-block; margin:0 4px;" />
-    <img src="/images/cc/sa.svg" alt="CompartirIgual" width="48" height="48" style="display:inline-block; margin:0 4px;" />
+    <img src="../images/cc/cc.svg" alt="Creative Commons" width="48" height="48" style="display:inline-block; margin:0 4px;" />
+    <img src="../images/cc/by.svg" alt="Atribución" width="48" height="48" style="display:inline-block; margin:0 4px;" />
+    <img src="../images/cc/sa.svg" alt="CompartirIgual" width="48" height="48" style="display:inline-block; margin:0 4px;" />
   </a>
 </p>
 
