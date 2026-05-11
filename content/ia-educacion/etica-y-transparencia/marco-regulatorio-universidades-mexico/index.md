@@ -22,6 +22,10 @@ showAuthor: false
 México no tiene aún una ley federal específica sobre IA en educación superior, pero sí cuenta con un marco institucional emergente articulado por ANUIES y un conjunto de documentos de referencia que las universidades públicas y privadas están utilizando como base para sus políticas internas. Esta guía sintetiza ese marco y señala lo que aún falta.
 {{< /lead >}}
 
+{{< alert "circle-info" >}}
+**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje-IA es una red rizomática de reflexión docente; cualquier decisión normativa institucional pasa por sus cauces oficiales.
+{{< /alert >}}
+
 ## Estructura institucional vigente
 
 El marco regulatorio mexicano sobre IA en educación superior se construye en tres niveles institucionales que conviene diferenciar:
@@ -74,15 +78,15 @@ Estos vacíos no son neutros: dejan a cada universidad la responsabilidad de con
 
 ## Cómo se traduce esto al contexto UdeG
 
-La [política institucional de IA UdeG](/recursos/politica-ia-udeg/) se construye en este vacío y a partir de los documentos ANUIES. Tres orientaciones operativas:
+Las [sugerencias para una política de IA en la UdeG](/recursos/politica-ia-udeg/) se construyen en este vacío y a partir de los documentos ANUIES. Tres orientaciones posibles:
 
-- **Mantener trazabilidad con ANUIES.** Cada decisión institucional debería poder rastrearse a las nueve estrategias del informe nacional, aunque sea para diferenciarse explícitamente.
+- **Mantener trazabilidad con ANUIES.** Cada decisión institucional gana en solidez si puede rastrearse a las nueve estrategias del informe nacional, aunque sea para diferenciarse explícitamente.
 - **Documentar el ejercicio para alimentar el Observatorio.** Las prácticas que la UdeG documente con criterio aportan al panorama nacional y le dan voz en la discusión pendiente sobre regulación.
 - **Sostener una mesa de diálogo con otras universidades públicas.** El marco federal tarda; la articulación interinstitucional es un acelerador disponible.
 
 ## Lecturas relacionadas
 
-El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) se sostiene en este marco regulatorio; los [lineamientos UNESCO](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrecen el contraste internacional; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) traducen ambos a decisiones de aula.
+El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) dialoga con este panorama regulatorio; los [lineamientos UNESCO](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrecen el contraste internacional; las [sugerencias éticas](/ia-educacion/guias/lineamientos-eticos-ia/) llevan ambos a decisiones de aula.
 
 ## Referencias
 

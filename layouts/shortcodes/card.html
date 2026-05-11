@@ -4,6 +4,14 @@
 {{ $description := .Get "description" }}
 {{ $img := .Get "img" }}
 {{ $color := .Get "color" | default "" }}
+{{ $tall := eq (.Get "tall" | default "false") "true" }}
+
+{{/* Geometry: short cards crop the image (cover, 6rem); tall cards show it whole (contain, 20rem).
+     Icon badge sits on the seam between image and content area, so its top depends on
+     image height: top = imageHeight − half the 2.75rem badge (1.375rem). */}}
+{{ $imgHeight := cond $tall "20rem" "6rem" }}
+{{ $imgFit := cond $tall "contain" "cover" }}
+{{ $iconTop := cond $tall "18.625rem" "4.625rem" }}
 
 {{/* Resolve relative links against the current page, absolute/external links as-is */}}
 {{ $url := $link }}
@@ -31,16 +39,24 @@
     {{/* ── Image ── */}}
     {{ if $img }}
       {{ $imgSrc := $img }}
-      {{ if not (hasPrefix $img "http") }}{{ $imgSrc = $img | relURL }}{{ end }}
-      <div style="width:100%;height:6rem;overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;">
+      {{/* Resolve relative paths against the current page (so Page Bundle resources work),
+           absolute paths via relURL, external URLs as-is */}}
+      {{ if hasPrefix $img "http" }}
+        {{/* keep as-is */}}
+      {{ else if hasPrefix $img "/" }}
+        {{ $imgSrc = $img | relURL }}
+      {{ else }}
+        {{ $imgSrc = printf "%s%s" .Page.RelPermalink $img }}
+      {{ end }}
+      <div style="width:100%;height:{{ $imgHeight }};overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;{{ if $tall }}background-color:#f8fafc;{{ end }}">
         <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
-             style="width:100%;height:100%;object-fit:cover;display:block;margin:0;transition:transform .3s;">
+             style="width:100%;height:100%;object-fit:{{ $imgFit }};display:block;margin:0;transition:transform .3s;">
       </div>
 
-      {{/* Icon badge: top = image_height - icon_height/2 = 6rem - 1.375rem = 4.625rem → 50/50 split */}}
+      {{/* Icon badge sits on the seam between image and content area */}}
       {{ if $icon }}
       <div class="card-icon-ring {{ if not $color }}card-icon-default{{ end }} group-hover:scale-110 transition-transform duration-200"
-           style="position:absolute;top:4.625rem;left:50%;transform:translateX(-50%);
+           style="position:absolute;top:{{ $iconTop }};left:50%;transform:translateX(-50%);
                   width:2.75rem;height:2.75rem;border-radius:50%;
                   {{ if $color }}background-color:{{ $iconBg }};color:{{ $iconColor }};{{ end }}
                   display:flex;align-items:center;justify-content:center;z-index:10;">

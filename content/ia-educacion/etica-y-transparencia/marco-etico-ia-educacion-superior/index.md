@@ -1,9 +1,9 @@
 ---
-title: "Marco ético para el uso de IA en educación superior"
+title: "Cuatro criterios éticos para el uso de IA en educación superior"
 date: 2026-04-22
 draft: false
-description: "Cuatro ejes operativos — autonomía del aprendiz, transparencia, justicia epistémica y responsabilidad compartida — para ordenar decisiones docentes sobre IA generativa en la universidad."
-summary: "Un marco de cuatro ejes que traduce los principios internacionales sobre IA en educación a decisiones operativas para la docencia universitaria."
+description: "Cuatro ejes operativos — autonomía del aprendiz, transparencia, justicia epistémica y responsabilidad compartida — leídos como criterios para acompañar decisiones docentes sobre IA generativa en la universidad."
+summary: "Cuatro ejes que llevan los criterios internacionales sobre IA en educación a sugerencias operativas para la docencia universitaria."
 tags: ["etica-ia", "marco-etico", "politica-educativa", "docencia-universitaria", "gobernanza"]
 categories: ["guia"]
 areas: ["ia", "pedagogia", "formacion"]
@@ -21,20 +21,24 @@ weight: 2
 ---
 
 {{< lead >}}
-Los principios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este marco propone cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad compartida — para orientar acuerdos de aula, diseños de syllabus y políticas de programa sin inmovilizar la práctica.
+Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad compartida — como sugerencias para acompañar acuerdos de aula, diseños de syllabus y políticas de programa sin inmovilizar la práctica.
 {{< /lead >}}
 
-## Por qué un marco, no un reglamento
+{{< alert "circle-info" >}}
+**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera como una red rizomática de reflexión: cada lectora y lector retoma lo que le sirve y descarta lo demás.
+{{< /alert >}}
 
-La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente demuestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estudiantiles se adelantan y el listado se vuelve obsoleto antes de publicarse (Williamson & Eynon, 2020). Un marco ético, en cambio, define los criterios con los que cada docente toma decisiones en su contexto, y soporta el ritmo del cambio tecnológico sin reescribirse cada semestre.
+## Por qué criterios, no un reglamento
 
-La UNESCO (2023) formuló la primera guía internacional sobre IA generativa en educación con esta lógica: no prescribir herramientas, sino fijar principios que cada institución adapta a sus condiciones. El Russell Group (2023) en el Reino Unido avanzó en la misma dirección con cinco principios comunes para sus universidades. La Comisión Europea (2022) hizo lo propio con lineamientos éticos para docentes. El patrón es claro: los cuerpos internacionales producen marcos, no reglamentos.
+La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estudiantiles se adelantan y el listado se vuelve obsoleto antes de publicarse (Williamson & Eynon, 2020). Un conjunto de criterios éticos, en cambio, ofrece referencias con las que cada docente toma decisiones en su contexto, y soporta el ritmo del cambio tecnológico sin reescribirse cada semestre.
 
-Este marco parte del mismo supuesto y añade una capa que los referentes internacionales tratan con menos detalle: la **decisión docente concreta**. Un principio como "transparencia" no se opera solo; requiere acuerdos de aula, rúbricas y contratos didácticos que lo conviertan en práctica.
+La UNESCO (2023) formuló la primera guía internacional sobre IA generativa en educación con esta lógica: no prescribir herramientas, sino ofrecer criterios que cada institución adapta a sus condiciones. El Russell Group (2023) en el Reino Unido avanzó en la misma dirección con cinco principios comunes para sus universidades. La Comisión Europea (2022) hizo lo propio con orientaciones éticas para docentes. El patrón es claro: los cuerpos internacionales producen criterios, no reglamentos.
+
+Este texto parte del mismo supuesto y añade una capa que los referentes internacionales tratan con menos detalle: la **decisión docente concreta**. Un criterio como "transparencia" no opera solo; requiere acuerdos de aula, rúbricas y contratos didácticos que lo conviertan en práctica.
 
 ## Cuatro ejes operativos
 
-Los ejes no son independientes entre sí: se tensionan. Una exigencia máxima de transparencia puede erosionar la autonomía del aprendiz si lo obliga a reportar cada consulta. Una insistencia estricta en justicia epistémica puede entrar en conflicto con responsabilidades individuales. El marco no resuelve esas tensiones de antemano; las hace visibles para que el docente decida en cada caso.
+Los ejes no son independientes entre sí: se tensionan. Una exigencia máxima de transparencia puede erosionar la autonomía del aprendiz si lo obliga a reportar cada consulta. Una insistencia estricta en justicia epistémica puede entrar en conflicto con responsabilidades individuales. Este conjunto de criterios no resuelve esas tensiones de antemano; las hace visibles para que cada docente decida en su caso.
 
 {{< mermaid >}}
 flowchart TB
@@ -50,7 +54,7 @@ flowchart TB
 
 ### Eje 1. Autonomía del aprendiz
 
-La IA no debe reducir la capacidad del estudiante de pensar, decidir y producir por sí mismo. Lodge y Loble (2026) documentan el fenómeno de la **descarga cognitiva** (*cognitive offloading*): cuando el estudiante delega habitualmente el esfuerzo mental al modelo, pierde la práctica de las operaciones que dan lugar al aprendizaje. La autonomía, entonces, no es una aspiración retórica; es un bien que la docencia protege activamente.
+Conviene que el uso de IA no reduzca la capacidad del estudiante de pensar, decidir y producir por sí mismo. Lodge y Loble (2026) documentan el fenómeno de la **descarga cognitiva** (*cognitive offloading*): cuando el estudiante delega habitualmente el esfuerzo mental al modelo, pierde la práctica de las operaciones que dan lugar al aprendizaje. La autonomía, entonces, no es una aspiración retórica; es un bien que la docencia puede proteger activamente.
 
 Operativamente, este eje se traduce en decisiones como:
 
@@ -62,7 +66,7 @@ Este eje enlaza con la discusión sobre [alfabetización crítica en IA]({{< ref
 
 ### Eje 2. Transparencia y rendición de cuentas
 
-El uso de IA debe ser documentable. No por vigilancia punitiva, sino porque el proceso de decidir cuándo, para qué y cómo usar un modelo es, en sí mismo, un objeto de aprendizaje (Bearman et al., 2024). La transparencia funciona en dos direcciones: del estudiante hacia el docente y del docente hacia el estudiante. El docente también declara cuándo usa IA en materiales de clase, retroalimentación o rúbricas.
+Una práctica robusta es que el uso de IA sea documentable. No por vigilancia punitiva, sino porque el proceso de decidir cuándo, para qué y cómo usar un modelo es, en sí mismo, un objeto de aprendizaje (Bearman et al., 2024). La transparencia funciona en dos direcciones: del estudiante hacia el docente y del docente hacia el estudiante. Conviene que el docente también declare cuándo usa IA en materiales de clase, retroalimentación o rúbricas.
 
 La transparencia se operacionaliza con instrumentos concretos:
 
@@ -74,7 +78,7 @@ La rendición de cuentas no se reduce a declarar el uso. Incluye responder por l
 
 ### Eje 3. Justicia epistémica e inclusión
 
-Los modelos generativos no son neutros. Heredan sesgos de sus datos de entrenamiento y los reproducen en las respuestas: subrepresentan voces del sur global, privilegian el inglés académico, simplifican cuerpos teóricos complejos y, con frecuencia, tratan la norma anglosajona como universal (Bender et al., 2021). Un marco ético para la educación superior en México debe anticipar estos sesgos, no por activismo, sino por compromiso con la calidad de la formación.
+Los modelos generativos no son neutros. Heredan sesgos de sus datos de entrenamiento y los reproducen en las respuestas: subrepresentan voces del sur global, privilegian el inglés académico, simplifican cuerpos teóricos complejos y, con frecuencia, tratan la norma anglosajona como universal (Bender et al., 2021). Cualquier conjunto de criterios éticos para la educación superior en México gana solidez al anticipar estos sesgos, no por activismo, sino por compromiso con la calidad de la formación.
 
 Adicionalmente, el acceso a los modelos de mejor desempeño suele requerir suscripción o tarjeta de crédito internacional. Un diseño pedagógico que da por hecho ese acceso produce una desigualdad de partida: los estudiantes con recursos iteran sus borradores con Claude Opus o Gemini 2.5 Pro; los demás con la versión gratuita de turno. El Banco Mundial (2024) señaló esta brecha como uno de los riesgos principales de la integración apresurada de IA en universidades públicas latinoamericanas.
 
@@ -86,9 +90,9 @@ Decisiones operativas:
 
 ### Eje 4. Responsabilidad compartida
 
-Ni el estudiante es el único responsable del mal uso, ni la institución lo es del buen uso. La responsabilidad se distribuye: el proveedor del modelo, la institución que lo adopta, el docente que lo integra al diseño del curso y el estudiante que lo usa en su trabajo. El marco vuelve visible esa distribución para evitar que la culpa migre siempre al eslabón más débil.
+Ni el estudiante es el único responsable del mal uso, ni la institución lo es del buen uso. La responsabilidad se distribuye: el proveedor del modelo, la institución que lo adopta, el docente que lo integra al diseño del curso y el estudiante que lo usa en su trabajo. Estos criterios buscan hacer visible esa distribución para evitar que la culpa migre siempre al eslabón más débil.
 
-La OECD (2023) propuso una taxonomía útil: la institución responde por gobernanza, formación docente y acuerdos marco; el docente responde por diseño instruccional y criterios de evaluación; el estudiante responde por autenticidad del trabajo y documentación del proceso. Ninguno puede transferir su parte a otro.
+La OECD (2023) propuso una taxonomía útil: la institución responde por gobernanza, formación docente y acuerdos marco; el docente responde por diseño instruccional y criterios de evaluación; el estudiante responde por autenticidad del trabajo y documentación del proceso. Idealmente ninguno transfiere su parte a otro.
 
 ## De principios a decisiones docentes
 
@@ -139,7 +143,7 @@ Para priorizar en el diseño de política institucional, una matriz cruzada entr
 
 ## Implementación institucional
 
-El marco no se queda en la página si no se integra en tres instrumentos.
+Estos criterios no se quedan en la página si no se llevan a tres instrumentos.
 
 Primero, el **syllabus**. Cada asignatura declara sus acuerdos sobre IA: qué se permite, qué se espera que se declare, qué se excluye y cómo se evaluará el proceso. La [guía sobre evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}) ofrece plantillas para hacerlo.
 
@@ -149,7 +153,7 @@ Tercero, los **espacios colegiados**. Los dilemas no se resuelven individualment
 
 ## Cierre
 
-La pregunta relevante no es si la IA generativa es compatible con la educación superior. Está instalada, y seguirá estándolo. La pregunta es con qué criterios la universidad acompaña su uso. Los cuatro ejes propuestos — autonomía, transparencia, justicia epistémica y responsabilidad compartida — no son un listado exhaustivo: son el mínimo común sobre el que construir acuerdos situados, revisables y operativos. Lo demás es decisión docente en contexto.
+La pregunta relevante no es si la IA generativa es compatible con la educación superior. Está instalada, y seguirá estándolo. La pregunta es con qué criterios la universidad acompaña su uso. Los cuatro ejes que aquí se sugieren — autonomía, transparencia, justicia epistémica y responsabilidad compartida — no son un listado exhaustivo ni una norma: son un mínimo común sobre el que pueden construirse acuerdos situados, revisables y operativos. Lo demás es decisión docente en contexto.
 
 ## Referencias
 

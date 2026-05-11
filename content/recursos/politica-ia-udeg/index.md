@@ -1,9 +1,9 @@
 ---
-title: "Principios para una política de IA en la Universidad de Guadalajara"
+title: "Sugerencias y criterios para pensar una política de IA en la UdeG"
 date: 2026-04-22
 draft: false
-description: "Siete ejes mínimos para una política institucional de IA en la UdeG, concebida como marco revisable y no como reglamento estático, con un ciclo de actualización y un modelo de gobernanza distribuida."
-summary: "Siete principios operativos, un modelo de gobernanza y un ciclo de revisión para orientar una política de IA universitaria que no envejezca al publicarse."
+description: "Siete ejes posibles para conversar sobre una política institucional de IA en la UdeG, leídos como sugerencias revisables y no como reglamento, con un ciclo de actualización y un modelo de gobernanza distribuida."
+summary: "Siete sugerencias operativas, un modelo de gobernanza y un ciclo de revisión que ofrecen criterios para orientar la conversación sobre IA universitaria sin que envejezca al publicarse."
 tags: ["politica-ia", "udeg", "gobernanza", "regulacion-educativa", "marco-institucional"]
 categories: ["recurso-institucional"]
 areas: ["ia", "formacion", "pedagogia"]
@@ -21,64 +21,68 @@ weight: 1
 ---
 
 {{< lead >}}
-Las universidades mexicanas enfrentan la urgencia de fijar políticas sobre IA generativa, pero los reglamentos detallados envejecen en semanas. Este documento propone siete principios operativos — en lugar de un reglamento exhaustivo — junto con un modelo de gobernanza distribuida y un ciclo formal de revisión.
+Las universidades mexicanas enfrentan la urgencia de pensar políticas sobre IA generativa, pero los reglamentos detallados envejecen en semanas. Este texto comparte siete sugerencias operativas — en lugar de un reglamento exhaustivo — junto con un modelo posible de gobernanza distribuida y un ciclo formal de revisión.
 {{< /lead >}}
 
-## De qué tipo de política hablamos
+{{< alert "circle-info" >}}
+**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para alimentar conversaciones colegiadas, no normativa institucional. Aprendizaje-IA funciona como una red rizomática para reflexionar entre docentes; cualquier política institucional formal debe construirse en los espacios oficiales correspondientes. Tómese este texto como insumo abierto, revisable y no vinculante.
+{{< /alert >}}
 
-Una política institucional sobre IA puede tomar dos formas. La primera es un reglamento cerrado que enumera usos permitidos, prohibidos y sanciones asociadas. La segunda es un marco de principios revisables que orienta decisiones colegiadas en cada ámbito de la universidad. La evidencia internacional acumulada en los últimos tres años favorece la segunda (UNESCO, 2023; Russell Group, 2023; OECD, 2023).
+## De qué tipo de conversación hablamos
 
-El motivo es operativo, no ideológico. Los reglamentos cerrados asumen una tecnología estable, y la IA generativa no lo es: los modelos se actualizan cada pocos meses, los precios cambian, los proveedores modifican términos de servicio y aparecen competidores que desplazan el mercado. Un reglamento que enumera "herramientas permitidas" necesita reescribirse cada semestre. Un marco de principios soporta la volatilidad porque define los criterios con que cada unidad académica toma decisiones en su contexto.
+Una política institucional sobre IA suele tomar dos formas. La primera es un reglamento cerrado que enumera usos permitidos, prohibidos y sanciones asociadas. La segunda es un conjunto de criterios revisables que orienta decisiones colegiadas en cada ámbito de la universidad. La evidencia internacional acumulada en los últimos tres años inclina la balanza hacia la segunda (UNESCO, 2023; Russell Group, 2023; OECD, 2023).
 
-El [marco ético para el uso de IA en educación superior]({{< ref "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior" >}}) desarrolla esta lógica en profundidad. Esta guía la traduce a ejes concretos para una institución específica: la Universidad de Guadalajara, la segunda universidad pública más grande de México con más de 330 mil estudiantes distribuidos en catorce centros universitarios y el Sistema de Educación Media Superior.
+El motivo es operativo, no ideológico. Los reglamentos cerrados asumen una tecnología estable, y la IA generativa no lo es: los modelos se actualizan cada pocos meses, los precios cambian, los proveedores modifican términos de servicio y aparecen competidores que desplazan el mercado. Un reglamento que enumera "herramientas permitidas" necesita reescribirse cada semestre. Un conjunto de criterios soporta mejor la volatilidad porque ofrece referencias con que cada unidad académica toma decisiones en su contexto.
 
-## Siete principios mínimos
+El [marco ético para el uso de IA en educación superior]({{< ref "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior" >}}) explora esta lógica en profundidad. Este texto la lleva a ejes concretos pensando en una institución específica: la Universidad de Guadalajara, la segunda universidad pública más grande de México con más de 330 mil estudiantes distribuidos en catorce centros universitarios y el Sistema de Educación Media Superior.
 
-Los principios no son independientes. Se cruzan, se tensionan y se priorizan distinto según el ámbito. Su función es fijar un lenguaje común para que las discusiones colegiadas no empiecen cada vez desde cero.
+## Siete sugerencias mínimas
+
+Las sugerencias no son independientes. Se cruzan, se tensionan y se priorizan distinto según el ámbito. Su función es ofrecer un lenguaje común para que las discusiones colegiadas no empiecen cada vez desde cero.
 
 ### 1. Transparencia por defecto
 
-Todo uso de IA en trabajo académico — estudiantil o docente — se declara. La declaración incluye modelo, versión y extensión del uso. La ausencia de declaración, no el uso mismo, es el problema a tratar (Eaton, 2023).
+Una sugerencia robusta es que todo uso de IA en trabajo académico — estudiantil o docente — se declare. La declaración puede incluir modelo, versión y extensión del uso. Desde esta lectura, la ausencia de declaración, no el uso mismo, suele ser el problema a tratar (Eaton, 2023).
 
-Este principio implica que el docente también declara cuándo usa IA en materiales, retroalimentación o rúbricas. La transparencia es bidireccional; si solo se exige a los estudiantes, el principio pierde fuerza moral.
+Este criterio implica que el docente también declare cuándo usa IA en materiales, retroalimentación o rúbricas. La transparencia funciona mejor cuando es bidireccional; si solo se le pide a los estudiantes, el criterio pierde fuerza moral.
 
 ### 2. Formación previa a regulación
 
-No se puede exigir uso responsable de lo que no se ha enseñado a usar. Cualquier política institucional debe estar acompañada de un programa de formación docente con contenidos mínimos: competencias de prompting, criterios de evaluación crítica de respuestas, detección de sesgos y diseño de actividades con IA. La sección de [formación docente]({{< ref "/formacion-docente" >}}) del sitio ofrece la base.
+Conviene no exigir uso responsable de lo que no se ha enseñado a usar. Una política institucional gana coherencia cuando viene acompañada de un programa de formación docente con contenidos mínimos: competencias de prompting, criterios de evaluación crítica de respuestas, detección de sesgos y diseño de actividades con IA. La sección de [formación docente]({{< ref "/formacion-docente" >}}) del sitio ofrece una base posible.
 
-Publicar una política sin plan de formación es trasladar a los docentes el costo de descifrarla.
+Publicar una política sin plan de formación tiende a trasladar a los docentes el costo de descifrarla.
 
 ### 3. Evaluación del proceso, no solo del producto
 
-La política institucional respalda diseños de evaluación que valoran el proceso de aprendizaje documentado: bitácoras de prompts, versiones sucesivas, reflexiones metacognitivas (Bearman et al., 2024). Los procedimientos de integridad académica reconocen estas evidencias como legítimas y, cuando es posible, privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
+Una política institucional puede respaldar diseños de evaluación que valoran el proceso de aprendizaje documentado: bitácoras de prompts, versiones sucesivas, reflexiones metacognitivas (Bearman et al., 2024). Los procedimientos de integridad académica suelen ganar legitimidad cuando reconocen estas evidencias y, cuando es posible, privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
 
 ### 4. Equidad de acceso
 
-La universidad provee acceso institucional a los modelos que las actividades formativas requieren, o diseña esas actividades para funcionar con herramientas gratuitas de desempeño comparable. No es admisible que una asignatura obligue a una suscripción de pago que no todos los estudiantes pueden costear (World Bank, 2024).
+Una sugerencia útil es que la universidad provea acceso institucional a los modelos que las actividades formativas requieren, o que diseñe esas actividades para funcionar con herramientas gratuitas de desempeño comparable. Resulta problemático que una asignatura obligue a una suscripción de pago que no todos los estudiantes pueden costear (World Bank, 2024).
 
-Este principio exige inversión institucional. Sin ella, la política produce desigualdades en lugar de corregirlas.
+Este criterio supone inversión institucional. Sin ella, una política puede producir desigualdades en lugar de corregirlas.
 
 ### 5. Privacidad y protección de datos
 
-Los datos estudiantiles — ensayos, exámenes, identificadores — no se suben a servicios de IA generativa sin base legal clara y consentimiento informado. Las herramientas adoptadas institucionalmente deben cumplir la normativa aplicable sobre protección de datos personales en México y ofrecer términos de servicio auditables.
+Conviene que los datos estudiantiles — ensayos, exámenes, identificadores — no se suban a servicios de IA generativa sin base legal clara y consentimiento informado. Las herramientas adoptadas institucionalmente ganan en solidez cuando cumplen la normativa aplicable sobre protección de datos personales en México y ofrecen términos de servicio auditables.
 
-Este principio limita qué modelos pueden usarse para qué operaciones. Calificar ensayos en un servicio de consumo sin garantías contractuales es incompatible con el principio, por conveniente que sea.
+Este criterio orienta qué modelos pueden usarse para qué operaciones. Calificar ensayos en un servicio de consumo sin garantías contractuales entra en tensión con el criterio, por conveniente que sea.
 
 ### 6. Responsabilidad distribuida
 
-La responsabilidad por un uso inadecuado de IA se distribuye entre el estudiante (por la autenticidad de su trabajo), el docente (por el diseño instruccional), el programa (por la formación previa y los criterios de integridad) y la institución (por la gobernanza general). Ningún nivel puede trasladar su parte a otro (OECD, 2023).
+La responsabilidad por un uso inadecuado de IA puede distribuirse entre el estudiante (por la autenticidad de su trabajo), el docente (por el diseño instruccional), el programa (por la formación previa y los criterios de integridad) y la institución (por la gobernanza general). Idealmente, ningún nivel traslada su parte a otro (OECD, 2023).
 
-Este principio importa especialmente en procedimientos disciplinarios: un estudiante que no fue formado en criterios de integridad no responde por la misma magnitud que uno que fue formado y eligió ignorar los acuerdos.
+Este criterio importa especialmente en procedimientos disciplinarios: un estudiante que no fue formado en criterios de integridad no responde con la misma magnitud que uno que fue formado y eligió ignorar los acuerdos.
 
 ### 7. Revisión periódica
 
-La política se revisa formalmente cada doce meses con un procedimiento definido. La revisión no es una actualización administrativa menor; es un ejercicio colegiado que integra nueva evidencia, casos ocurridos, cambios tecnológicos relevantes y ajustes a los instrumentos operativos.
+Una sugerencia clave es que la política se revise formalmente cada doce meses con un procedimiento definido. La revisión es más útil cuando se entiende como un ejercicio colegiado que integra nueva evidencia, casos ocurridos, cambios tecnológicos relevantes y ajustes a los instrumentos operativos, antes que como una actualización administrativa menor.
 
-Sin ciclo de revisión, los principios se vuelven letra muerta cuando la realidad se mueve.
+Sin ciclo de revisión, los criterios tienden a volverse letra muerta cuando la realidad se mueve.
 
 ## Gobernanza: quién decide qué
 
-Los siete principios requieren un modelo de gobernanza explícito para operar. El modelo propuesto distribuye decisiones en tres niveles.
+Las siete sugerencias funcionan mejor con un modelo de gobernanza explícito. El modelo que se ofrece a continuación distribuye decisiones en tres niveles, como una posibilidad entre otras.
 
 {{< mermaid >}}
 flowchart TB
@@ -90,33 +94,33 @@ flowchart TB
 
 ### Nivel institucional
 
-Responde por los principios generales, el ciclo de revisión, el licenciamiento de herramientas y los lineamientos sobre privacidad de datos. Aquí se definen también los procedimientos marco para procedimientos de integridad académica cuando involucran IA.
+Puede ocuparse de los criterios generales, el ciclo de revisión, el licenciamiento de herramientas y las orientaciones sobre privacidad de datos. Es también un buen lugar para definir los procedimientos marco para integridad académica cuando involucran IA.
 
 ### Nivel de programa o centro universitario
 
-Traduce los principios generales a criterios disciplinares. Un programa de medicina tiene exigencias distintas a un programa de letras; el nivel de programa hace esa traducción. También coordina el plan de formación docente específico de su ámbito.
+Traduce los criterios generales a la realidad disciplinar. Un programa de medicina tiene exigencias distintas a un programa de letras; el nivel de programa hace esa traducción. También coordina el plan de formación docente específico de su ámbito.
 
 ### Nivel de asignatura
 
-Operacionaliza en el syllabus: qué usos de IA se permiten, qué se exige declarar, qué se excluye, cómo se evaluará el proceso. El docente es el decisor, dentro de los criterios del programa. La [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}) ofrece plantillas para el syllabus.
+Aterriza en el syllabus: qué usos de IA se permiten, qué se sugiere declarar, qué se excluye, cómo se evaluará el proceso. El docente es el decisor, dentro de los criterios del programa. La [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}) ofrece plantillas para el syllabus.
 
 Este modelo distribuye la carga decisional según la granularidad de la decisión. Las decisiones que afectan a toda la universidad se toman arriba; las que dependen del contexto disciplinar, en el medio; las que dependen del diseño del curso, abajo.
 
-## Del principio a la norma operativa
+## De la sugerencia a la práctica operativa
 
-Un principio se convierte en norma operativa cuando se responde a cuatro preguntas en cada instrumento institucional (syllabus, procedimiento de integridad, plan de formación):
+Una sugerencia se vuelve útil en lo cotidiano cuando se responde a cuatro preguntas en cada instrumento institucional (syllabus, procedimiento de integridad, plan de formación):
 
-| Principio | Pregunta operativa |
+| Sugerencia | Pregunta operativa |
 | --- | --- |
 | Transparencia | ¿Qué se declara y cómo se documenta? |
-| Formación previa | ¿Qué se enseña antes de exigir? |
+| Formación previa | ¿Qué se enseña antes de pedir? |
 | Proceso sobre producto | ¿Qué evidencia del proceso se pide y cómo se pondera? |
 | Equidad | ¿Qué se provee institucionalmente y qué se adapta? |
 | Privacidad | ¿Qué datos pueden subirse y a qué servicios? |
 | Responsabilidad | ¿Qué responde cada nivel en caso de conflicto? |
 | Revisión | ¿Cuándo y con qué evidencia se actualiza? |
 
-La política institucional incluye esta tabla como anexo metodológico. Cada unidad académica que la adopta debe poder responder las siete preguntas para su contexto.
+Esta tabla puede acompañar a cualquier conversación institucional como guía metodológica. Cada unidad académica que la retome puede responder las siete preguntas desde su contexto.
 
 ## Ciclo de revisión
 
@@ -130,17 +134,19 @@ Tercero, los **cambios tecnológicos** relevantes del año: nuevos modelos, nuev
 
 Cuarto, los **ajustes al plan de formación** docente. Si la política exige competencias que el plan no desarrolla, hay que corregir uno u otro.
 
-El producto de la revisión es un documento con versión (`Política de IA UdeG v1.1`, `v1.2`, etc.) que registra qué cambió, por qué y cuándo. La trazabilidad del cambio institucional es parte de la política misma.
+El producto de cada revisión podría ser un documento con versión (`Sugerencias UdeG v1.1`, `v1.2`, etc.) que registre qué cambió, por qué y cuándo. La trazabilidad del cambio es parte del valor del ejercicio.
 
-## Lo que esta política no es
+## Lo que este texto no es
 
-Tres aclaraciones útiles para evitar expectativas equívocas.
+Cuatro aclaraciones útiles para evitar expectativas equívocas.
 
-No es un **listado de herramientas autorizadas**. La política fija criterios; el catálogo concreto se mantiene en el [catálogo de herramientas IA]({{< ref "/recursos/catalogo-herramientas-ia" >}}) y se actualiza con mayor frecuencia que la política.
+No es un **documento oficial de la Universidad de Guadalajara**. Es un insumo abierto, publicado en una red de reflexión docente, pensado para alimentar discusiones colegiadas. Cualquier política institucional formal pasa por sus propios cauces.
 
-No es una **declaración de oposición ni de entusiasmo** respecto a la IA en educación. Es un marco que permite adoptarla con criterio, rechazar usos específicos cuando hay razones pedagógicas o éticas, y revisar las decisiones cuando cambia el contexto.
+No es un **listado de herramientas autorizadas**. Ofrece criterios de conversación; el catálogo concreto se mantiene en el [catálogo de herramientas IA]({{< ref "/recursos/catalogo-herramientas-ia" >}}) y se actualiza con mayor frecuencia que cualquier marco.
 
-No es un **documento terminado**. La versión 1.0 es, por definición, provisional. El ciclo de revisión es parte constitutiva de la política, no un añadido administrativo.
+No es una **declaración de oposición ni de entusiasmo** respecto a la IA en educación. Es un conjunto de criterios que permite adoptarla con discernimiento, rechazar usos específicos cuando hay razones pedagógicas o éticas, y revisar las decisiones cuando cambia el contexto.
+
+No es un **documento terminado**. Lo que se comparte aquí es, por definición, provisional. El ciclo de revisión es parte constitutiva del ejercicio, no un añadido.
 
 ## Referencias
 

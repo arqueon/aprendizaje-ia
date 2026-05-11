@@ -2,8 +2,8 @@
 title: "Recursos institucionales para IA en educación"
 date: 2026-04-22
 draft: false
-description: "Introducción a los tres recursos institucionales del sitio: principios para una política de IA en la UdeG, repositorio curado de prompts para docentes y catálogo de herramientas IA evaluadas pedagógicamente."
-summary: "Tres recursos operativos para docentes y cuerpos colegiados: principios de política, banco de prompts y catálogo de herramientas."
+description: "Introducción a los tres recursos institucionales del sitio: sugerencias para una política de IA en la UdeG, repositorio curado de prompts para docentes y catálogo de herramientas IA evaluadas pedagógicamente."
+summary: "Tres recursos operativos para docentes y cuerpos colegiados: sugerencias de política, banco de prompts y catálogo de herramientas."
 tags: ["recursos-institucionales", "politica-ia", "prompts", "herramientas"]
 categories: ["recursos"]
 areas: ["ia", "formacion"]
@@ -16,12 +16,12 @@ Esta página reúne los tres recursos institucionales del sitio. No son recomend
 
 ## Qué encontrarás
 
-- [Principios para una política de IA en la Universidad de Guadalajara]({{< ref "/recursos/politica-ia-udeg" >}}). Siete ejes mínimos para una política institucional revisable, con referencias a UNESCO, OECD y Russell Group, y con un ciclo de actualización propuesto.
+- [Sugerencias y criterios para pensar una política de IA en la UdeG]({{< ref "/recursos/politica-ia-udeg" >}}). Siete ejes mínimos como insumo para una política institucional revisable, con referencias a UNESCO, OECD y Russell Group, y con un ciclo de actualización propuesto. No es un documento oficial.
 - [Repositorio de prompts para docentes]({{< ref "/recursos/repositorio-prompts-docentes" >}}). Banco curado de plantillas por fase pedagógica: diseño de actividad, evaluación formativa, retroalimentación y rúbricas, con ejemplos funcionales en Claude, Gemini y DeepSeek.
 - [Catálogo de herramientas IA para educación]({{< ref "/recursos/catalogo-herramientas-ia" >}}). Matriz comparativa de modelos generativos y herramientas educativas, con criterios de privacidad, acceso, capacidad, costo y soporte institucional.
 
 ## Cómo usar estos recursos
 
-Los tres documentos se leen mejor en cadena: la política fija el marco, el repositorio de prompts traduce el marco a práctica docente concreta y el catálogo de herramientas orienta la elección tecnológica compatible con ambos. Un departamento que adopta los tres tiene una base operativa sin necesidad de empezar de cero.
+Los tres documentos se leen mejor en cadena: las sugerencias de política ofrecen el marco, el repositorio de prompts lo traduce a práctica docente concreta y el catálogo de herramientas orienta la elección tecnológica compatible con ambos. Un departamento que retoma los tres tiene una base operativa sin necesidad de empezar de cero.
 
-Para docentes que trabajan en solitario, el [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) suele ser el punto de entrada más útil. Para coordinadores de programa, [la política]({{< ref "/recursos/politica-ia-udeg" >}}) ofrece un andamio para las discusiones colegiadas. Para responsables de cómputo académico, [el catálogo]({{< ref "/recursos/catalogo-herramientas-ia" >}}) provee los criterios técnicos para decidir licenciamientos.
+Para docentes que trabajan en solitario, el [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) suele ser el punto de entrada más útil. Para coordinadores de programa, las [sugerencias de política]({{< ref "/recursos/politica-ia-udeg" >}}) ofrecen un andamio para las discusiones colegiadas. Para responsables de cómputo académico, [el catálogo]({{< ref "/recursos/catalogo-herramientas-ia" >}}) provee los criterios técnicos para decidir licenciamientos.
