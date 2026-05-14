@@ -43,12 +43,12 @@ Para obtener resultados de alta calidad, consistentes y aplicables en el diseño
 > "Hazme una actividad sobre el ciclo del agua."
 
 **✅ Prompt Estructurado (6 componentes):**
-> **[Rol]** Actúa como un experto en diseño instruccional para educación superior.
-> **[Contexto]** Asignatura: Ciencias Ambientales, 1er semestre de licenciatura. Grupo de 40 estudiantes.
-> **[Insumos]** Objetivo de aprendizaje: "Analizar las fases del ciclo del agua y su impacto en microclimas locales".
-> **[Encargo]** Diseña una actividad de aprendizaje activo de 50 minutos. Desarrolla la consigna, el producto esperado y los criterios de evaluación.
-> **[Restricciones]** Evita actividades basadas únicamente en exposición magistral. No incluyas cuestionarios de opción múltiple.
-> **[Formato de salida]** Entrégame la propuesta en formato Markdown, separando cada sección, y usa una tabla para los criterios de evaluación.
+> <span style="color: #10b981;">**[Rol]**</span> Actúa como un experto en diseño instruccional para educación superior.
+> <span style="color: #10b981;">**[Contexto]**</span> Asignatura: Ciencias Ambientales, 1er semestre de licenciatura. Grupo de 40 estudiantes.
+> <span style="color: #10b981;">**[Insumos]**</span> Objetivo de aprendizaje: "Analizar las fases del ciclo del agua y su impacto en microclimas locales".
+> <span style="color: #10b981;">**[Encargo]**</span> Diseña una actividad de aprendizaje activo de 50 minutos. Desarrolla la consigna, el producto esperado y los criterios de evaluación.
+> <span style="color: #10b981;">**[Restricciones]**</span> Evita actividades basadas únicamente en exposición magistral. No incluyas cuestionarios de opción múltiple.
+> <span style="color: #10b981;">**[Formato de salida]**</span> Entrégame la propuesta en formato Markdown, separando cada sección, y usa una tabla para los criterios de evaluación.
 
 ---
 
