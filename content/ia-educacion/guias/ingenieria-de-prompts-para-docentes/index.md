@@ -3,7 +3,7 @@ title: "Ingeniería de prompts para docentes"
 date: 2026-03-17
 draft: false
 description: "Guía práctica para diseñar instrucciones efectivas que conviertan a la IA en un aliado pedagógico."
-summary: "Aprende a estructurar tus peticiones a la IA usando el marco R-O-C-E para obtener resultados de alta calidad en el diseño de tus clases."
+summary: "Aprende a estructurar tus peticiones a la IA integrando los seis componentes clave para obtener resultados de alta calidad en el diseño de tus clases."
 tags: ["prompts", "diseño didáctico", "IA generativa", "ingeniería de prompts"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
@@ -24,14 +24,16 @@ La calidad de la respuesta de una IA no depende solo de la herramienta, sino de 
 
 Un *prompt* es simplemente la instrucción o conjunto de palabras que le das a una IA para que realice una tarea. La "ingeniería" de prompts no es más que el arte de ser específico, estructurado y dar contexto.
 
-## El marco R-O-C-E para docentes
+## Los seis componentes de un prompt efectivo
 
-Para obtener los mejores resultados en planificación y diseño de materiales, utiliza esta estructura de cuatro elementos:
+Para obtener resultados de alta calidad, consistentes y aplicables en el diseño de clases, la estructura básica (como decirle a la IA "actúa como X y haz Y") no es suficiente. Un prompt profesional, como los que se encuentran en nuestro [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}), se construye con seis componentes esenciales:
 
-1.  **Rol (R):** ¿Quién debe ser la IA? (ej. experto en pedagogía, tutor socrático, estudiante de licenciatura).
-2.  **Objetivo (O):** ¿Qué quieres que haga exactamente? (ej. diseñar una rúbrica, resumir un texto, generar 5 ejercicios).
-3.  **Contexto (C):** ¿Para quién es? ¿En qué nivel? (ej. estudiantes de 1er semestre de Medicina, nivel básico).
-4.  **Estructura / Formato (E):** ¿Cómo quieres que te entregue la respuesta? (ej. en una tabla, en 3 párrafos, en formato Markdown).
+1. **Rol:** La identidad o perspectiva que debe asumir la IA (ej. "Actúa como diseñador instruccional", "Asume el rol de tutor socrático").
+2. **Contexto:** Las condiciones específicas del entorno educativo (asignatura, nivel, semestre, tamaño del grupo). Esto evita respuestas genéricas.
+3. **Insumos:** La materia prima sobre la que trabajará la IA. Puede ser un objetivo de aprendizaje, el temario, los criterios de una rúbrica o un texto escrito por un estudiante.
+4. **Encargo:** La instrucción precisa y detallada de lo que debe hacer paso a paso (ej. "Propón tres variantes de actividad", "Identifica dos oportunidades de mejora").
+5. **Restricciones:** Los límites explícitos sobre lo que la IA *no* debe hacer. Fundamental para evitar sesgos, alucinaciones o usurpación del rol docente (ej. "No califiques ni asignes nota", "No propongas actividades que se resuelvan con un solo prompt").
+6. **Formato de salida:** Cómo debe presentarse la respuesta para ser útil inmediatamente (ej. "Tabla con cuatro columnas", "Texto corrido en primera persona", "Lista de viñetas").
 
 ---
 
@@ -40,8 +42,13 @@ Para obtener los mejores resultados en planificación y diseño de materiales, u
 **❌ Prompt Pobre:**
 > "Hazme una actividad sobre el ciclo del agua."
 
-**✅ Prompt R-O-C-E:**
-> **(Rol)** Actúa como un experto en diseño instruccional para educación media superior. **(Objetivo)** Diseña una actividad de aprendizaje activo de 50 minutos sobre el ciclo del agua. **(Contexto)** La actividad debe ser para estudiantes que no tienen conocimientos previos y se realizará en un aula con conexión a internet. **(Estructura)** Entrégame la propuesta con: Objetivo, Secuencia paso a paso y un pequeño instrumento de evaluación en tabla.
+**✅ Prompt Estructurado (6 componentes):**
+> **[Rol]** Actúa como un experto en diseño instruccional para educación superior.
+> **[Contexto]** Asignatura: Ciencias Ambientales, 1er semestre de licenciatura. Grupo de 40 estudiantes.
+> **[Insumos]** Objetivo de aprendizaje: "Analizar las fases del ciclo del agua y su impacto en microclimas locales".
+> **[Encargo]** Diseña una actividad de aprendizaje activo de 50 minutos. Desarrolla la consigna, el producto esperado y los criterios de evaluación.
+> **[Restricciones]** Evita actividades basadas únicamente en exposición magistral. No incluyas cuestionarios de opción múltiple.
+> **[Formato de salida]** Entrégame la propuesta en formato Markdown, separando cada sección, y usa una tabla para los criterios de evaluación.
 
 ---
 
