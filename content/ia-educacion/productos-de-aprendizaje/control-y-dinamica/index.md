@@ -63,21 +63,21 @@ dinámicas del sistema).
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="Fase 1 — Especificaciones" subheader="Encuadre" >}}
+{{< timelineItem icon="bullseye" header="Fase 1 — Especificaciones" subheader="Encuadre" md="true" >}}
 Definición de metas de desempeño con la IAG como referencia de lo
 razonable.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-line" header="Fase 2 — Lectura dinámica" subheader="Análisis" >}}
+{{< timelineItem icon="chart-line" header="Fase 2 — Lectura dinámica" subheader="Análisis" md="true" >}}
 Identificación de polos, ceros y retardos dominantes; lectura física
 del sistema.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="sliders" header="Fase 3 — Sintonizado" subheader="Sin IAG en la decisión" >}}
+{{< timelineItem icon="sliders" header="Fase 3 — Sintonizado" subheader="Sin IAG en la decisión" md="true" >}}
 Sintonizado del controlador por el estudiante con método elegido.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 4 — Robustez" subheader="Pruebas explícitas" >}}
+{{< timelineItem icon="shield-halved" header="Fase 4 — Robustez" subheader="Pruebas explícitas" md="true" >}}
 Aplicación de pruebas de perturbación, incertidumbre y ruido antes
 de aceptar el resultado.
 {{< /timelineItem >}}

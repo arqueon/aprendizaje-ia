@@ -62,20 +62,20 @@ resistencias previsibles).
 
 {{< timeline >}}
 
-{{< timelineItem icon="industry" header="Fase 1 — Diagnóstico" subheader="Datos del proceso" >}}
+{{< timelineItem icon="industry" header="Fase 1 — Diagnóstico" subheader="Datos del proceso" md="true" >}}
 Levantamiento de indicadores y selección de herramienta apropiada.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 2 — Lectura del proceso" subheader="Análisis" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 2 — Lectura del proceso" subheader="Análisis" md="true" >}}
 Identificación con IAG de cuellos de botella y desperdicios sobre los
 datos del estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="people-group" header="Fase 3 — Anticipación de resistencias" subheader="Realismo" >}}
+{{< timelineItem icon="people-group" header="Fase 3 — Anticipación de resistencias" subheader="Realismo" md="true" >}}
 Identificación de obstáculos organizacionales y técnicos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-line" header="Fase 4 — Plan y métricas" subheader="Seguimiento" >}}
+{{< timelineItem icon="chart-line" header="Fase 4 — Plan y métricas" subheader="Seguimiento" md="true" >}}
 Construcción del plan con métricas de seguimiento explícitas.
 {{< /timelineItem >}}
 

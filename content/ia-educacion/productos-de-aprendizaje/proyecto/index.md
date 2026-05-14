@@ -64,24 +64,24 @@ nivel dominante **6 — Crear** (la elaboración de una propuesta nueva).
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="Fase 1 — Encuadre y alcance" subheader="Definición del problema" >}}
+{{< timelineItem icon="bullseye" header="Fase 1 — Encuadre y alcance" subheader="Definición del problema" md="true" >}}
 El estudiante delimita el problema, los entregables y las restricciones
 (tiempo, recursos, audiencia). La IAG ayuda a no olvidar componentes
 típicos del tipo de proyecto.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 2 — Alternativas" subheader="Divergencia" >}}
+{{< timelineItem icon="diagram-project" header="Fase 2 — Alternativas" subheader="Divergencia" md="true" >}}
 Generación de ≥3 alternativas distintas. La IAG amplía el rango con enfoques
 no considerados; el estudiante descarta y adapta con criterio.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 3 — Decisión con criterios" subheader="Convergencia" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 3 — Decisión con criterios" subheader="Convergencia" md="true" >}}
 Definición de criterios pertinentes y aplicación a las alternativas.
 Selección justificada. La IAG **no decide**: presenta ventajas y desventajas
 para que el estudiante decida.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="check-double" header="Fase 4 — Validación de viabilidad" subheader="Cierre del diseño" >}}
+{{< timelineItem icon="check-double" header="Fase 4 — Validación de viabilidad" subheader="Cierre del diseño" md="true" >}}
 Confrontación de la propuesta con criterios externos (técnicos,
 económicos, sociales, legales). Identificación de riesgos de
 implementación y ajustes finales.

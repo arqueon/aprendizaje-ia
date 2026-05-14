@@ -63,20 +63,20 @@ análisis).
 
 {{< timeline >}}
 
-{{< timelineItem icon="bolt" header="Fase 1 — Comportamiento esperado" subheader="Antes del cálculo" >}}
+{{< timelineItem icon="bolt" header="Fase 1 — Comportamiento esperado" subheader="Antes del cálculo" md="true" >}}
 Razonamiento físico del circuito antes de resolverlo.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="calculator" header="Fase 2 — Cálculo y simulación" subheader="Verificación" >}}
+{{< timelineItem icon="calculator" header="Fase 2 — Cálculo y simulación" subheader="Verificación" md="true" >}}
 Aplicación del método y simulación en software estándar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 3 — Discrepancias" subheader="Reconciliación" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 3 — Discrepancias" subheader="Reconciliación" md="true" >}}
 Identificación con IAG de fuentes típicas de discrepancia y ajuste
 del modelo o del análisis.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="triangle-exclamation" header="Fase 4 — Casos límite" subheader="Robustez" >}}
+{{< timelineItem icon="triangle-exclamation" header="Fase 4 — Casos límite" subheader="Robustez" md="true" >}}
 Anticipación de condiciones extremas y verificación del
 comportamiento del diseño.
 {{< /timelineItem >}}

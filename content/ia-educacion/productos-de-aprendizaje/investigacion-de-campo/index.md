@@ -62,26 +62,26 @@ nivel dominante **4 — Analizar** (la justificación metodológica del diseño)
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="Fase 1 — Objetivo y panorama" subheader="Antes del campo" >}}
+{{< timelineItem icon="bullseye" header="Fase 1 — Objetivo y panorama" subheader="Antes del campo" md="true" >}}
 Definición del objetivo de la investigación y mapeo del panorama de
 métodos disponibles. La IAG ayuda a no omitir métodos posibles; el
 estudiante mantiene el foco en el objetivo.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 2 — Selección metodológica" subheader="Justificación" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 2 — Selección metodológica" subheader="Justificación" md="true" >}}
 Elección del método con argumento explícito: por qué este y no aquel
 para este objetivo. La IAG presiona la justificación; el estudiante
 responde.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="clipboard-list" header="Fase 3 — Diseño instrumental" subheader="Sin IAG en campo" >}}
+{{< timelineItem icon="clipboard-list" header="Fase 3 — Diseño instrumental" subheader="Sin IAG en campo" md="true" >}}
 Elaboración de guías de entrevista, cuestionarios u hojas de observación.
 **El trabajo de campo se realiza sin IAG**: no se entrevista con un
 asistente, no se observa a través de un chat. La IAG vuelve a entrar
 después.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 4 — Análisis y crítica" subheader="Reflexión sobre límites" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 4 — Análisis y crítica" subheader="Reflexión sobre límites" md="true" >}}
 Interpretación de los datos recolectados. La IAG ayuda a contrastar
 interpretaciones; el estudiante identifica explícitamente las
 limitaciones del diseño.

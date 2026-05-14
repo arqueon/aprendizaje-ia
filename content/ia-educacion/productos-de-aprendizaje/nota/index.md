@@ -64,21 +64,21 @@ adornos ni interpretaciones).
 
 {{< timeline >}}
 
-{{< timelineItem icon="list-check" header="Fase 1 — Inventario de datos" subheader="Antes de redactar" >}}
+{{< timelineItem icon="list-check" header="Fase 1 — Inventario de datos" subheader="Antes de redactar" md="true" >}}
 El estudiante lista los datos verificables disponibles y consulta a la
 IAG para no omitir un campo estándar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pen" header="Fase 2 — Redacción autoral" subheader="Sin IAG" >}}
+{{< timelineItem icon="pen" header="Fase 2 — Redacción autoral" subheader="Sin IAG" md="true" >}}
 Redacción de la nota completa. La IAG no participa en esta fase.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión de claridad" subheader="Crítica de la propia nota" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión de claridad" subheader="Crítica de la propia nota" md="true" >}}
 Pregunta a la IAG por omisiones, ambigüedades y residuos de
 interpretación que se hayan colado. Reescribe lo señalado.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="bullhorn" header="Fase 4 — Ajustes de audiencia" subheader="Adaptación" >}}
+{{< timelineItem icon="bullhorn" header="Fase 4 — Ajustes de audiencia" subheader="Adaptación" md="true" >}}
 Si la nota tiene varios canales (boletín, red social, comunicado),
 identifica qué cambia en cada versión y reformula tono/longitud.
 {{< /timelineItem >}}

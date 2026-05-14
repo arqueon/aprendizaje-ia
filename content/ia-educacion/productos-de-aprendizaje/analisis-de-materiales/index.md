@@ -61,22 +61,22 @@ los resultados).
 
 {{< timeline >}}
 
-{{< timelineItem icon="vial" header="Fase 1 — Técnica y parámetros" subheader="Antes del ensayo" >}}
+{{< timelineItem icon="vial" header="Fase 1 — Técnica y parámetros" subheader="Antes del ensayo" md="true" >}}
 Selección de la técnica y verificación con IAG de parámetros
 operativos críticos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="flask" header="Fase 2 — Adquisición" subheader="Sin IAG" >}}
+{{< timelineItem icon="flask" header="Fase 2 — Adquisición" subheader="Sin IAG" md="true" >}}
 Ejecución del análisis en laboratorio con protocolos y registro
 fiel. La IAG no participa en la adquisición.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-area" header="Fase 3 — Lectura de resultados" subheader="Patrones e hipótesis" >}}
+{{< timelineItem icon="chart-area" header="Fase 3 — Lectura de resultados" subheader="Patrones e hipótesis" md="true" >}}
 La IAG sugiere hipótesis sobre patrones; el estudiante las verifica
 con sus datos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="book" header="Fase 4 — Contraste con teoría" subheader="Discusión" >}}
+{{< timelineItem icon="book" header="Fase 4 — Contraste con teoría" subheader="Discusión" md="true" >}}
 Confrontación de la interpretación con el marco teórico y
 discusión de tensiones si las hay.
 {{< /timelineItem >}}

@@ -63,24 +63,24 @@ nivel dominante **6 — Crear** (la construcción iterada de algo nuevo).
 
 {{< timeline >}}
 
-{{< timelineItem icon="lightbulb" header="Fase 1 — Divergencia" subheader="Abrir el espacio" >}}
+{{< timelineItem icon="lightbulb" header="Fase 1 — Divergencia" subheader="Abrir el espacio" md="true" >}}
 Generación de ≥3 alternativas distintas para el problema. La IAG amplía
 con enfoques no contemplados (tecnológicos, materiales, sociales). El
 estudiante filtra con criterio técnico.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 2 — Comparación" subheader="Ventajas y desventajas" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 2 — Comparación" subheader="Ventajas y desventajas" md="true" >}}
 Tabla comparativa con criterios pertinentes. Selección justificada de la
 alternativa a prototipar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="screwdriver-wrench" header="Fase 3 — Construcción" subheader="Sin IAG en el taller" >}}
+{{< timelineItem icon="screwdriver-wrench" header="Fase 3 — Construcción" subheader="Sin IAG en el taller" md="true" >}}
 Construcción/modelado del primer prototipo. La IAG puede asistir en
 cálculos o consultas técnicas puntuales, pero la fabricación, el
 boceto o el modelado son trabajo directo del estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="rotate" header="Fase 4 — Iteración" subheader="Mejora justificada" >}}
+{{< timelineItem icon="rotate" header="Fase 4 — Iteración" subheader="Mejora justificada" md="true" >}}
 Pruebas, identificación de debilidades y propuesta de mejoras. Cada
 mejora se justifica por escrito y se traduce en una nueva versión del
 prototipo.

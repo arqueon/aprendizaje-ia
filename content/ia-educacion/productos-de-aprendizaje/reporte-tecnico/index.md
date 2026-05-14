@@ -64,23 +64,23 @@ según convenciones).
 
 {{< timeline >}}
 
-{{< timelineItem icon="list-ol" header="Fase 1 — Estructura" subheader="Antes de redactar" >}}
+{{< timelineItem icon="list-ol" header="Fase 1 — Estructura" subheader="Antes de redactar" md="true" >}}
 Esquema de secciones según el tipo de reporte (laboratorio, proyecto,
 diagnóstico, mantenimiento). La IAG confirma que no falten secciones
 estándar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pen" header="Fase 2 — Redacción por sección" subheader="Voz técnica propia" >}}
+{{< timelineItem icon="pen" header="Fase 2 — Redacción por sección" subheader="Voz técnica propia" md="true" >}}
 Escritura sección a sección con datos, procedimientos y resultados
 propios. La IAG no escribe el cuerpo: el estudiante redacta.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Claridad" subheader="Detectar zonas oscuras" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 3 — Claridad" subheader="Detectar zonas oscuras" md="true" >}}
 La IAG identifica partes confusas, ambiguas o demasiado coloquiales. El
 estudiante reescribe lo señalado.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="ruler" header="Fase 4 — Rigor técnico" subheader="Evaluación final" >}}
+{{< timelineItem icon="ruler" header="Fase 4 — Rigor técnico" subheader="Evaluación final" md="true" >}}
 La IAG actúa como revisor técnico: precisión del vocabulario, uso de
 unidades, congruencia entre datos y conclusiones. El estudiante decide
 qué incorporar.

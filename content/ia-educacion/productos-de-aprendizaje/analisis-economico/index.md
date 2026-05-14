@@ -63,21 +63,21 @@ decisión justificada).
 
 {{< timeline >}}
 
-{{< timelineItem icon="calculator" header="Fase 1 — Métricas y datos" subheader="Encuadre" >}}
+{{< timelineItem icon="calculator" header="Fase 1 — Métricas y datos" subheader="Encuadre" md="true" >}}
 Selección de métricas según el tipo de decisión y reunión de datos de
 entrada verificables.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="table-cells" header="Fase 2 — Escenario base" subheader="Cálculo propio" >}}
+{{< timelineItem icon="table-cells" header="Fase 2 — Escenario base" subheader="Cálculo propio" md="true" >}}
 Cálculo del escenario base por el estudiante (planilla, software).
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-line" header="Fase 3 — Sensibilidad" subheader="Robustez" >}}
+{{< timelineItem icon="chart-line" header="Fase 3 — Sensibilidad" subheader="Robustez" md="true" >}}
 Identificación con IAG de variables críticas y construcción de
 escenarios optimista/pesimista por el estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 4 — Supuestos y decisión" subheader="Honestidad" >}}
+{{< timelineItem icon="shield-halved" header="Fase 4 — Supuestos y decisión" subheader="Honestidad" md="true" >}}
 Listado explícito de supuestos y prueba con IAG: qué cambio en cada
 supuesto invertiría la decisión.
 {{< /timelineItem >}}

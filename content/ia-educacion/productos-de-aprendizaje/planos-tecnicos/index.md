@@ -61,21 +61,21 @@ vistas y la coherencia del conjunto).
 
 {{< timeline >}}
 
-{{< timelineItem icon="ruler-combined" header="Fase 1 — Vistas y cortes" subheader="Encuadre normativo" >}}
+{{< timelineItem icon="ruler-combined" header="Fase 1 — Vistas y cortes" subheader="Encuadre normativo" md="true" >}}
 Definición de vistas necesarias según la norma aplicable. La IAG
 confirma omisiones; el estudiante decide.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pencil-ruler" header="Fase 2 — Trazado" subheader="Sin IAG" >}}
+{{< timelineItem icon="pencil-ruler" header="Fase 2 — Trazado" subheader="Sin IAG" md="true" >}}
 Trazado del plano (manual o CAD) por el estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión cruzada" subheader="Consistencia" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión cruzada" subheader="Consistencia" md="true" >}}
 La IAG verifica consistencia entre vistas, dimensiones y simbología
 sobre la descripción que aporta el estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="check-double" header="Fase 4 — Validación para fabricante" subheader="Claridad final" >}}
+{{< timelineItem icon="check-double" header="Fase 4 — Validación para fabricante" subheader="Claridad final" md="true" >}}
 Revisión final desde la mirada de un fabricante externo. Ajustes de
 notación.
 {{< /timelineItem >}}

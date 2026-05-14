@@ -67,23 +67,23 @@ campo).
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="Fase 1 — Problema y estructura" subheader="Encuadre" >}}
+{{< timelineItem icon="bullseye" header="Fase 1 — Problema y estructura" subheader="Encuadre" md="true" >}}
 Delimitación del problema investigable y elección de la estructura
 estándar de la disciplina. La IAG confirma convenciones formales.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="layer-group" header="Fase 2 — Estado del arte" subheader="Mapeo del campo" >}}
+{{< timelineItem icon="layer-group" header="Fase 2 — Estado del arte" subheader="Mapeo del campo" md="true" >}}
 Lectura crítica de la literatura por parte del estudiante. La IAG
 identifica tendencias, vacíos y tensiones **sobre la lista que el
 estudiante ya leyó**, no sugiere literatura nueva sin verificar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pen-fancy" header="Fase 3 — Argumento y método" subheader="Construcción autoral" >}}
+{{< timelineItem icon="pen-fancy" header="Fase 3 — Argumento y método" subheader="Construcción autoral" md="true" >}}
 Redacción del cuerpo. La IAG no escribe; el estudiante construye el
 argumento o describe el método y sus resultados.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 4 — Discusión y prueba" subheader="Confrontación disciplinar" >}}
+{{< timelineItem icon="shield-halved" header="Fase 4 — Discusión y prueba" subheader="Confrontación disciplinar" md="true" >}}
 Refinamiento de la discusión. La IAG actúa como par disciplinar
 crítico planteando objeciones; el estudiante responde por escrito.
 {{< /timelineItem >}}

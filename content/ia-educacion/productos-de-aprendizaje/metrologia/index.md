@@ -60,21 +60,21 @@ Nivel dominante **4 — Analizar** (la lectura de patrones de error).
 
 {{< timeline >}}
 
-{{< timelineItem icon="ruler" header="Fase 1 — Encuadre metrológico" subheader="Antes de medir" >}}
+{{< timelineItem icon="ruler" header="Fase 1 — Encuadre metrológico" subheader="Antes de medir" md="true" >}}
 Definición de magnitud, método, instrumento y trazabilidad esperada.
 La IAG mapea fuentes típicas de incertidumbre.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-unbalanced" header="Fase 2 — Medición" subheader="Sin IAG" >}}
+{{< timelineItem icon="scale-unbalanced" header="Fase 2 — Medición" subheader="Sin IAG" md="true" >}}
 Adquisición de datos según protocolo; la IAG no participa.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-line" header="Fase 3 — Análisis de residuos" subheader="Patrones de error" >}}
+{{< timelineItem icon="chart-line" header="Fase 3 — Análisis de residuos" subheader="Patrones de error" md="true" >}}
 Lectura de patrones y propuesta de causas con verificación
 manual de los cálculos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="file-circle-check" header="Fase 4 — Reporte" subheader="Coherencia" >}}
+{{< timelineItem icon="file-circle-check" header="Fase 4 — Reporte" subheader="Coherencia" md="true" >}}
 Reporte final del valor con su incertidumbre, trazabilidad y
 resolución; verificación cruzada de coherencia.
 {{< /timelineItem >}}

@@ -65,24 +65,24 @@ aparece cuando el estudiante diseña una solución completa.
 
 {{< timeline >}}
 
-{{< timelineItem icon="book-open" header="Fase 1 — Lectura" subheader="Comprender antes de tocar" >}}
+{{< timelineItem icon="book-open" header="Fase 1 — Lectura" subheader="Comprender antes de tocar" md="true" >}}
 Ante un código ajeno o un fragmento generado por IAG, el estudiante
 **explica con sus palabras** qué hace antes de modificarlo. La IAG verifica
 la explicación; el estudiante corrige su interpretación.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="bug" header="Fase 2 — Depuración" subheader="Trazas y diagnóstico" >}}
+{{< timelineItem icon="bug" header="Fase 2 — Depuración" subheader="Trazas y diagnóstico" md="true" >}}
 Frente a un error, el estudiante traza el flujo y formula una hipótesis
 antes de consultar IAG. La IAG confirma o desvía la hipótesis explicando
 **por qué** ocurre el error.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="vial" header="Fase 3 — Casos límite" subheader="Romper el código" >}}
+{{< timelineItem icon="vial" header="Fase 3 — Casos límite" subheader="Romper el código" md="true" >}}
 El estudiante diseña pruebas con entradas extremas; la IAG sugiere
 adicionales. Las pruebas se documentan junto con sus resultados.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="rotate" header="Fase 4 — Mejora justificada" subheader="Refactor con criterio" >}}
+{{< timelineItem icon="rotate" header="Fase 4 — Mejora justificada" subheader="Refactor con criterio" md="true" >}}
 Identificación de mejoras (eficiencia, legibilidad, modularidad). Cada
 cambio se justifica por escrito; los cambios sin justificación no se
 aceptan.

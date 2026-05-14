@@ -64,22 +64,22 @@ contexto de aplicación).
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="Fase 1 — Problema y modalidad" subheader="Encuadre" >}}
+{{< timelineItem icon="bullseye" header="Fase 1 — Problema y modalidad" subheader="Encuadre" md="true" >}}
 Caracterización del problema aplicado y elección de modalidad
 investigativa.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="layer-group" header="Fase 2 — Estado del arte" subheader="Brechas" >}}
+{{< timelineItem icon="layer-group" header="Fase 2 — Estado del arte" subheader="Brechas" md="true" >}}
 Revisión propia de literatura y mapeo con IAG de brechas (sin
 generar referencias).
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 3 — Supuestos del contexto" subheader="Realismo" >}}
+{{< timelineItem icon="shield-halved" header="Fase 3 — Supuestos del contexto" subheader="Realismo" md="true" >}}
 Identificación explícita de supuestos contextuales y diseño de su
 verificación empírica.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="route" header="Fase 4 — Plan de validación" subheader="Transferencia" >}}
+{{< timelineItem icon="route" header="Fase 4 — Plan de validación" subheader="Transferencia" md="true" >}}
 Plan de validación con anticipación de riesgos de transferencia.
 {{< /timelineItem >}}
 

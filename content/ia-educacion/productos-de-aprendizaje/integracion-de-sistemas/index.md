@@ -61,21 +61,21 @@ Nivel dominante **6 — Crear** (el plan de integración propio).
 
 {{< timeline >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 1 — Mapa de interfaces" subheader="Identificación" >}}
+{{< timelineItem icon="diagram-project" header="Fase 1 — Mapa de interfaces" subheader="Identificación" md="true" >}}
 Mapeo de subsistemas e interfaces críticas con tipos de fallo
 asociados.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="file-pen" header="Fase 2 — Especificación de interfaces" subheader="Sin ambigüedad" >}}
+{{< timelineItem icon="file-pen" header="Fase 2 — Especificación de interfaces" subheader="Sin ambigüedad" md="true" >}}
 Redacción detallada de cada interfaz: protocolos, formatos, tiempos,
 unidades, responsabilidades.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Detección de ambigüedades" subheader="Revisión cruzada" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 3 — Detección de ambigüedades" subheader="Revisión cruzada" md="true" >}}
 La IAG señala ambigüedades; el estudiante decide qué precisar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="vial" header="Fase 4 — Plan de pruebas intermedias" subheader="Integración por etapas" >}}
+{{< timelineItem icon="vial" header="Fase 4 — Plan de pruebas intermedias" subheader="Integración por etapas" md="true" >}}
 Definición de pruebas y momentos antes del encendido final.
 {{< /timelineItem >}}
 

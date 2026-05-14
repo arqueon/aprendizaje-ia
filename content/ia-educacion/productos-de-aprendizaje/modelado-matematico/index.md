@@ -64,24 +64,24 @@ interacciones).
 
 {{< timeline >}}
 
-{{< timelineItem icon="binoculars" header="Fase 1 — Fenómeno y variables" subheader="Observación primero" >}}
+{{< timelineItem icon="binoculars" header="Fase 1 — Fenómeno y variables" subheader="Observación primero" md="true" >}}
 Caracterización del fenómeno y propuesta inicial de variables relevantes
 por parte del estudiante. La IAG verifica que no se omitan variables
 estándar de la disciplina.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 2 — Relaciones y formulación" subheader="Construcción del modelo" >}}
+{{< timelineItem icon="diagram-project" header="Fase 2 — Relaciones y formulación" subheader="Construcción del modelo" md="true" >}}
 Planteamiento de ecuaciones o relaciones. La IAG ayuda con álgebra,
 notación y formas canónicas; el estudiante valida que la formulación
 representa el fenómeno.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="chart-line" header="Fase 3 — Análisis de sensibilidad" subheader="Probar el modelo" >}}
+{{< timelineItem icon="chart-line" header="Fase 3 — Análisis de sensibilidad" subheader="Probar el modelo" md="true" >}}
 Variación sistemática de parámetros y observación de resultados.
 Identificación de variables dominantes y de comportamientos extremos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microscope" header="Fase 4 — Crítica y reformulación" subheader="Honestidad sobre límites" >}}
+{{< timelineItem icon="microscope" header="Fase 4 — Crítica y reformulación" subheader="Honestidad sobre límites" md="true" >}}
 Identificación de los supuestos que limitan el modelo y propuesta de
 mejoras. La IAG actúa como crítica metodológica.
 {{< /timelineItem >}}

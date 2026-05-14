@@ -62,21 +62,21 @@ propia).
 
 {{< timeline >}}
 
-{{< timelineItem icon="layer-group" header="Fase 1 — Requerimientos y arquitecturas" subheader="Mapeo" >}}
+{{< timelineItem icon="layer-group" header="Fase 1 — Requerimientos y arquitecturas" subheader="Mapeo" md="true" >}}
 Levantamiento de requerimientos y revisión de arquitecturas de
 referencia.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 2 — Trade-offs" subheader="Decisión" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 2 — Trade-offs" subheader="Decisión" md="true" >}}
 Comparación de alternativas con criterios explícitos y selección
 justificada.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 3 — Diseño detallado" subheader="Construcción autoral" >}}
+{{< timelineItem icon="diagram-project" header="Fase 3 — Diseño detallado" subheader="Construcción autoral" md="true" >}}
 Diseño de subsistemas e interfaces por el estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="bug-slash" header="Fase 4 — Revisión por omisiones" subheader="Anticipación de fallos" >}}
+{{< timelineItem icon="bug-slash" header="Fase 4 — Revisión por omisiones" subheader="Anticipación de fallos" md="true" >}}
 La IAG actúa como par revisor para identificar subsistemas o
 interfaces no consideradas que serían críticas en operación.
 {{< /timelineItem >}}

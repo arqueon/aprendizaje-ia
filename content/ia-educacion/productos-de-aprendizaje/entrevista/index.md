@@ -66,23 +66,23 @@ preguntas abiertas).
 
 {{< timeline >}}
 
-{{< timelineItem icon="user-tie" header="Fase 1 — Contexto y propósito" subheader="Antes de la entrevista" >}}
+{{< timelineItem icon="user-tie" header="Fase 1 — Contexto y propósito" subheader="Antes de la entrevista" md="true" >}}
 Investigación sobre la persona y su contexto. Definición clara del
 objetivo. La IAG aporta contexto general; el estudiante completa con
 fuentes específicas.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="list-check" header="Fase 2 — Diseño de preguntas" subheader="Cuestionario abierto" >}}
+{{< timelineItem icon="list-check" header="Fase 2 — Diseño de preguntas" subheader="Cuestionario abierto" md="true" >}}
 Redacción de preguntas y revisión crítica con IAG: ¿son cerradas?,
 ¿inducen respuesta?, ¿abren conversación? Reformulación.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microphone-lines" header="Fase 3 — Encuentro" subheader="Sin IAG" >}}
+{{< timelineItem icon="microphone-lines" header="Fase 3 — Encuentro" subheader="Sin IAG" md="true" >}}
 Conducción de la entrevista. Consentimiento explícito y grabación o
 registro fiel. **La IAG no participa en este encuentro**.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 4 — Análisis de la transcripción" subheader="Temas y evasivas" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 4 — Análisis de la transcripción" subheader="Temas y evasivas" md="true" >}}
 Transcripción y lectura asistida por IAG para identificar temas
 emergentes y respuestas evasivas. El estudiante construye el reporte
 final.

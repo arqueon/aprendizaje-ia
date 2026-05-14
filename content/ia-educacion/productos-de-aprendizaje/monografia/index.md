@@ -67,25 +67,25 @@ subtemas). Los prompts vienen de la guía UDG y se anclan a niveles Bloom.
 
 {{< timeline >}}
 
-{{< timelineItem icon="compass" header="Fase 1 — Delimitación" subheader="Sin IAG inicialmente" >}}
+{{< timelineItem icon="compass" header="Fase 1 — Delimitación" subheader="Sin IAG inicialmente" md="true" >}}
 El estudiante propone una primera delimitación del tema y un esbozo de
 subtemas. Recién entonces consulta a la IAG para ampliar/discutir la
 estructura. Evita el patrón "le pido a la IAG que me dé un índice".
 {{< /timelineItem >}}
 
-{{< timelineItem icon="book-open" header="Fase 2 — Búsqueda de fuentes" subheader="Verificación obligatoria" >}}
+{{< timelineItem icon="book-open" header="Fase 2 — Búsqueda de fuentes" subheader="Verificación obligatoria" md="true" >}}
 La IAG sugiere autores, líneas de investigación y tipos de fuente. El
 estudiante **busca y verifica** cada referencia en bases reales; las
 sugerencias no se citan, se confirman.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 3 — Mapeo de relaciones" subheader="Núcleo cognitivo" >}}
+{{< timelineItem icon="diagram-project" header="Fase 3 — Mapeo de relaciones" subheader="Núcleo cognitivo" md="true" >}}
 Para los subtemas seleccionados, el estudiante elabora un esquema explícito
 de relaciones (jerarquía, dependencia, contraste). La IAG actúa como
 revisor del esquema.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pen" header="Fase 4 — Redacción y revisión" subheader="Cierre autoral" >}}
+{{< timelineItem icon="pen" header="Fase 4 — Redacción y revisión" subheader="Cierre autoral" md="true" >}}
 Escritura sección por sección, citando fuentes verificadas. Al final, el
 estudiante pregunta a la IAG por **debilidades de su propio análisis**; usa
 las observaciones para reforzar o reescribir, sin entregar el trabajo a la

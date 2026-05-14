@@ -50,7 +50,7 @@ La IA tiene un rol diferente en cada sesión:
 
 {{< timeline >}}
 
-{{< timelineItem icon="book-open" header="Sesión 1 — Estudio de caso asistido" subheader="90 minutos — presencial" >}}
+{{< timelineItem icon="book-open" header="Sesión 1 — Estudio de caso asistido" subheader="90 minutos — presencial" md="true" >}}
 **Preparación (docente, 20 min antes):** el docente genera un caso con DeepSeek adaptado al contexto local. Revisa y ajusta antes de la clase.
 
 **Ejecución en aula:**
@@ -62,7 +62,7 @@ La IA tiene un rol diferente en cada sesión:
 6. **(10 min)** Reflexión: ¿qué preguntaron a la IA? ¿Qué obtuvieron? ¿Les sirvió?
 {{< /timelineItem >}}
 
-{{< timelineItem icon="users-rays" header="Sesión 2 — Simulación de roles" subheader="90 minutos — presencial" >}}
+{{< timelineItem icon="users-rays" header="Sesión 2 — Simulación de roles" subheader="90 minutos — presencial" md="true" >}}
 **Preparación (docente, 15 min antes):** el docente genera un escenario de negociación con Gemini. Define los roles y las restricciones de cada personaje.
 
 **Ejecución en aula:**
@@ -73,7 +73,7 @@ La IA tiene un rol diferente en cada sesión:
 5. **(20 min)** Debrief grupal: comparar la negociación con IA vs. la negociación con humanos
 {{< /timelineItem >}}
 
-{{< timelineItem icon="comments" header="Sesión 3 — Think-pair-share con validación IA" subheader="90 minutos — presencial" >}}
+{{< timelineItem icon="comments" header="Sesión 3 — Think-pair-share con validación IA" subheader="90 minutos — presencial" md="true" >}}
 **Preparación (docente, 10 min antes):** el docente genera una secuencia de 6 preguntas de complejidad progresiva con Claude, siguiendo la [taxonomía de Bloom](/formacion-docente/taxonomia-bloom-diseno-inverso/).
 
 **Ejecución en aula:**

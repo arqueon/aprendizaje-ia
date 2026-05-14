@@ -65,24 +65,24 @@ voz reconocible).
 
 {{< timeline >}}
 
-{{< timelineItem icon="binoculars" header="Fase 1 — Observación directa" subheader="Sin IAG" >}}
+{{< timelineItem icon="binoculars" header="Fase 1 — Observación directa" subheader="Sin IAG" md="true" >}}
 El estudiante observa o documenta el hecho. Toma notas en bruto. La
 IAG no participa: la observación primera no se delega.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="map" header="Fase 2 — Convenciones y selección" subheader="Mapeo del género" >}}
+{{< timelineItem icon="map" header="Fase 2 — Convenciones y selección" subheader="Mapeo del género" md="true" >}}
 Consulta a la IAG por convenciones del género para su tipo de crónica
 (testimonial, urbana, cultural, deportiva). Selecciona qué elementos
 de su observación tienen mayor potencia.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="pen-fancy" header="Fase 3 — Borrador autoral" subheader="Voz propia" >}}
+{{< timelineItem icon="pen-fancy" header="Fase 3 — Borrador autoral" subheader="Voz propia" md="true" >}}
 Escritura del primer borrador completo. La IAG no escribe el cuerpo;
 si se consulta, es sólo para preguntas puntuales de vocabulario o
 referencias, registradas en bitácora.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 4 — Contraste de voz y ajustes" subheader="Refinamiento sin homogeneización" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 4 — Contraste de voz y ajustes" subheader="Refinamiento sin homogeneización" md="true" >}}
 Contraste con dos estilos cronistas para reconocer fortalezas propias.
 Sugerencias puntuales para fortalecer imagen, ritmo o silencio. El
 estudiante decide qué incorpora y qué no.

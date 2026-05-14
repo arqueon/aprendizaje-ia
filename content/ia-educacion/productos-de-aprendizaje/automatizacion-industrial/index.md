@@ -64,22 +64,22 @@ pruebas).
 
 {{< timeline >}}
 
-{{< timelineItem icon="industry" header="Fase 1 — Proceso y arquitectura" subheader="Encuadre" >}}
+{{< timelineItem icon="industry" header="Fase 1 — Proceso y arquitectura" subheader="Encuadre" md="true" >}}
 Caracterización del proceso a automatizar y elección de arquitectura
 de control.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="circle-nodes" header="Fase 2 — Instrumentación y lógica" subheader="Diseño" >}}
+{{< timelineItem icon="circle-nodes" header="Fase 2 — Instrumentación y lógica" subheader="Diseño" md="true" >}}
 Selección de sensores, actuadores y desarrollo de la lógica de
 control por el estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 3 — Seguridad operacional" subheader="Revisión de riesgos" >}}
+{{< timelineItem icon="shield-halved" header="Fase 3 — Seguridad operacional" subheader="Revisión de riesgos" md="true" >}}
 Identificación con IAG de riesgos no considerados (process safety y
 ciberseguridad OT).
 {{< /timelineItem >}}
 
-{{< timelineItem icon="vial" header="Fase 4 — Pruebas FAT/SAT" subheader="Aceptación" >}}
+{{< timelineItem icon="vial" header="Fase 4 — Pruebas FAT/SAT" subheader="Aceptación" md="true" >}}
 Estructuración de pruebas indispensables antes de la puesta en
 marcha.
 {{< /timelineItem >}}

@@ -63,23 +63,23 @@ jerárquicas y cruzadas).
 
 {{< timeline >}}
 
-{{< timelineItem icon="seedling" header="Fase 1 — Inventario" subheader="Conceptos clave" >}}
+{{< timelineItem icon="seedling" header="Fase 1 — Inventario" subheader="Conceptos clave" md="true" >}}
 El estudiante hace un primer inventario de conceptos. Consulta a la IAG
 para no olvidar conceptos clave de la disciplina, pero filtra con criterio.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="diagram-project" header="Fase 2 — Borrador del mapa" subheader="Sin IAG" >}}
+{{< timelineItem icon="diagram-project" header="Fase 2 — Borrador del mapa" subheader="Sin IAG" md="true" >}}
 Construcción del mapa con sus propias manos: jerarquía, nodos, conectores
 con verbos explícitos ("causa", "incluye", "se opone a"). La IAG aún no
 participa.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="link" header="Fase 3 — Validación de relaciones" subheader="Consulta IAG" >}}
+{{< timelineItem icon="link" header="Fase 3 — Validación de relaciones" subheader="Consulta IAG" md="true" >}}
 Una vez listo el borrador, el estudiante pide a la IAG validar relaciones
 jerárquicas y proponer relaciones cruzadas que pudo haber omitido.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 4 — Autocrítica" subheader="Mapa final" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 4 — Autocrítica" subheader="Mapa final" md="true" >}}
 El estudiante pregunta a la IAG por inconsistencias y relaciones débiles
 del **propio** mapa, decide qué corregir y entrega versión final con
 bitácora de decisiones.

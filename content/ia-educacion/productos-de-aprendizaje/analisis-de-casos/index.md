@@ -73,27 +73,27 @@ de referencia y a su prompt literal.
 
 {{< timeline >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 1 — Definición del problema central" subheader="Diagnóstico" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 1 — Definición del problema central" subheader="Diagnóstico" md="true" >}}
 El estudiante sintetiza la información del caso, identifica la tensión principal y la formula en **una oración concisa**. La IAG pregunta para refinar; nunca afirma la definición.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="lightbulb" header="Fase 2 — Generación de alternativas" subheader="Divergencia" >}}
+{{< timelineItem icon="lightbulb" header="Fase 2 — Generación de alternativas" subheader="Divergencia" md="true" >}}
 Lluvia de ideas y selección de **≥3 alternativas viables y distintas entre sí**. La IAG amplía el rango con enfoques que el estudiante no había considerado; el filtrado y la adaptación son responsabilidad del estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="list-check" header="Fase 3 — Criterios de evaluación" subheader="Marco de juicio" >}}
+{{< timelineItem icon="list-check" header="Fase 3 — Criterios de evaluación" subheader="Marco de juicio" md="true" >}}
 Definición de **≥3 criterios pertinentes, medibles y no redundantes**. La IAG ayuda a especificar; el estudiante mantiene los criterios alineados con los valores y limitaciones del caso.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="scale-balanced" header="Fase 4 — Toma de decisión fundamentada" subheader="Convergencia" >}}
+{{< timelineItem icon="scale-balanced" header="Fase 4 — Toma de decisión fundamentada" subheader="Convergencia" md="true" >}}
 Construcción de matriz alternativas × criterios, análisis comparativo y **justificación escrita** de la alternativa elegida. La IAG apoya en estructurar el párrafo de justificación; el contenido analítico es del estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 5 — Reflexión crítica" subheader="Abogado del diablo" >}}
+{{< timelineItem icon="shield-halved" header="Fase 5 — Reflexión crítica" subheader="Abogado del diablo" md="true" >}}
 Identificación de **ventajas/desventajas no evidentes**, factores externos y resistencias de los actores involucrados. La IAG actúa como crítica experta para sacar puntos ciegos.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="map-pin" header="Fase 6 — Contexto local" subheader="Aterrizaje" >}}
+{{< timelineItem icon="map-pin" header="Fase 6 — Contexto local" subheader="Aterrizaje" md="true" >}}
 Conexión de la problemática global con datos, noticias o ejemplos del **entorno local** del estudiante e implicaciones para su vida o futuro profesional. La IAG aporta puntos de partida; la reflexión es personal.
 {{< /timelineItem >}}
 

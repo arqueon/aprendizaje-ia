@@ -71,19 +71,19 @@ y a un prompt literal probado en la guía de referencia.
 
 {{< timeline >}}
 
-{{< timelineItem icon="pencil" header="Fase 1 — Planificación e investigación profunda" subheader="Lectura, mapeo y síntesis" >}}
+{{< timelineItem icon="pencil" header="Fase 1 — Planificación e investigación profunda" subheader="Lectura, mapeo y síntesis" md="true" >}}
 Cinco sub-pasos: análisis de la consigna, búsqueda de ≥3 fuentes peer-reviewed, mapa mental por cada artículo, mapa conceptual integrador y formulación de tesis con esquema. La IAG actúa como **tutor socrático** —explora ángulos y pone a prueba interpretaciones, pero no entrega el argumento.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="keyboard" header="Fase 2 — Redacción del borrador" subheader="Voz autoral con apoyo de IAG" >}}
+{{< timelineItem icon="keyboard" header="Fase 2 — Redacción del borrador" subheader="Voz autoral con apoyo de IAG" md="true" >}}
 Introducción con tesis explícita, párrafos de desarrollo con idea principal + evidencia, conclusión que reafirma sin repetir, bibliografía en formato requerido (APA, Chicago, etc.). La IAG sólo se consulta para **transiciones y fluidez**; nunca para escribir contenido.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión y edición" subheader="Asistente de edición avanzado" >}}
+{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión y edición" subheader="Asistente de edición avanzado" md="true" >}}
 Revisión en tres pasadas: contenido (¿la argumentación responde a la consigna?), estructura (¿el orden es lógico, las transiciones fluidas?) y forma (gramática, puntuación, citas). La IAG sugiere mejoras de estilo **explicando el porqué**; el estudiante decide qué incorpora.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microphone" header="Fase 4 — Exposición oral" subheader="Comunicar el proceso, no sólo el resultado" >}}
+{{< timelineItem icon="microphone" header="Fase 4 — Exposición oral" subheader="Comunicar el proceso, no sólo el resultado" md="true" >}}
 Presentación que incluye: tesis, proceso de investigación (mostrando los mapas), argumento, conclusiones y reflexión. La IAG ayuda a anticipar **preguntas desafiantes del público**; el estudiante prepara respuestas que demuestren profundidad.
 {{< /timelineItem >}}
 

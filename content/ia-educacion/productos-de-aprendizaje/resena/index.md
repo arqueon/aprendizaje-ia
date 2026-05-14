@@ -64,23 +64,23 @@ fundamentado).
 
 {{< timeline >}}
 
-{{< timelineItem icon="book-open" header="Fase 1 — Lectura/visionado directo" subheader="Sin IAG" >}}
+{{< timelineItem icon="book-open" header="Fase 1 — Lectura/visionado directo" subheader="Sin IAG" md="true" >}}
 El estudiante experimenta la obra de primera mano y toma notas. La IAG
 no media en la experiencia ni en las primeras anotaciones.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="list-tree" header="Fase 2 — Descomposición de elementos" subheader="Análisis" >}}
+{{< timelineItem icon="list-tree" header="Fase 2 — Descomposición de elementos" subheader="Análisis" md="true" >}}
 Identificación de elementos centrales de la obra (estructura, recursos,
 intenciones, contexto) y formulación de una tesis valorativa propia.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="comments" header="Fase 3 — Lecturas alternativas" subheader="Apertura interpretativa" >}}
+{{< timelineItem icon="comments" header="Fase 3 — Lecturas alternativas" subheader="Apertura interpretativa" md="true" >}}
 Consulta a la IAG para conocer interpretaciones plausibles distintas a
 la propia. El estudiante decide qué incorporar como contraste y qué
 descartar.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="shield-halved" header="Fase 4 — Prueba del juicio" subheader="Refinamiento" >}}
+{{< timelineItem icon="shield-halved" header="Fase 4 — Prueba del juicio" subheader="Refinamiento" md="true" >}}
 La IAG plantea objeciones serias al juicio propio. El estudiante
 responde por escrito en el texto, no esquiva. La reseña final incorpora
 o resiste cada objeción argumentadamente.

@@ -63,22 +63,22 @@ nivel dominante **6 — Crear** (la composición del discurso oral propio).
 
 {{< timeline >}}
 
-{{< timelineItem icon="list-ol" header="Fase 1 — Arquitectura" subheader="Estructura de la exposición" >}}
+{{< timelineItem icon="list-ol" header="Fase 1 — Arquitectura" subheader="Estructura de la exposición" md="true" >}}
 El estudiante propone una estructura inicial (introducción, desarrollo,
 cierre) y la confronta con la IAG para validar la lógica.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="lightbulb" header="Fase 2 — Ejemplos y analogías" subheader="Hacer accesible" >}}
+{{< timelineItem icon="lightbulb" header="Fase 2 — Ejemplos y analogías" subheader="Hacer accesible" md="true" >}}
 Incorporación de ejemplos concretos. La IAG ayuda a buscar analogías que
 acerquen el contenido a la audiencia; el estudiante valida pertinencia.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="layer-group" header="Fase 3 — Jerarquía" subheader="Decisión de tiempos" >}}
+{{< timelineItem icon="layer-group" header="Fase 3 — Jerarquía" subheader="Decisión de tiempos" md="true" >}}
 Asignación de tiempos a cada bloque, decisión de qué reservar para
 preguntas y qué omitir. Edición del guion.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="comments" header="Fase 4 — Autocrítica y anticipación" subheader="Ensayo con preguntas" >}}
+{{< timelineItem icon="comments" header="Fase 4 — Autocrítica y anticipación" subheader="Ensayo con preguntas" md="true" >}}
 La IAG actúa como público crítico: identifica debilidades y formula
 preguntas desafiantes. El estudiante prepara respuestas y refina cierres.
 {{< /timelineItem >}}
