@@ -38,8 +38,6 @@ marco al pie de la letra.
 
 ## Productos
 
-Las tarjetas debajo enumeran los productos. El front-matter de cada uno
-incluye campos `bloom_dominante`, `bloom_rango`, `competencias_cluster`,
-`area_disciplinar` y `riesgo_sustitucion_autoria` para filtrado y curaduría.
-Las páginas publicadas (`draft: false`) tienen contenido completo; el resto
-son esqueletos pendientes de poblar.
+A continuación encontrarás nuestro catálogo de productos de aprendizaje. Cada tarjeta detalla las características principales de la actividad, indicando qué nivel de la taxonomía de Bloom moviliza, a qué grupo de competencias pertenece y en qué áreas disciplinares se aplica mejor.
+
+También hemos incluido un indicador clave: el nivel de riesgo de que la IA sustituya por completo el esfuerzo del estudiante. Esta información te ayudará a seleccionar y curar las actividades para tus clases. Seguimos trabajando en la construcción de este catálogo; las fichas completas ya están disponibles para su consulta, y poco a poco iremos publicando el resto de las guías.
