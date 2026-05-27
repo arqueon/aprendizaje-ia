@@ -22,7 +22,7 @@ El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la 
 
 ## 1. Qué cambia cuando la IA entra al ABP
 
-En el ABP tradicional, el estudiante define un problema, investiga, formula hipótesis, itera y presenta resultados. La IA no sustituye ninguna de estas fases: las transforma. El par estudiante-IA constituye lo que Deleuze y Guattari (1987) denominan un *agenciamiento (ensamblaje)*: una máquina productiva que genera algo que ninguno de los dos produciría solo.
+En el ABP tradicional, el estudiante define un problema, investiga, formula hipótesis, itera y presenta resultados. La IA no sustituye ninguna de estas fases: las transforma. El par estudiante-IA constituye lo que Deleuze y Guattari (1987) denominan un *agenciamiento (ensamblaje)* —lo que en este sitio llamamos **co-creación**—: una máquina productiva que genera algo que ninguno de los dos produciría solo.
 
 La diferencia operativa es que la IA permite:
 
@@ -144,7 +144,7 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 
 ## Lecturas relacionadas
 
-- Para el marco teórico del agenciamiento (ensamblaje) persona-IA, ver la [guía de agenciamiento (ensamblaje) humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
+- Para el marco teórico de la co-creación persona-IA, ver la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
 - Para una [implementación concreta documentada paso a paso](/laboratorio/practicas/abp-con-ia/) — caso real de un proyecto colaborativo en aula.
 - Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) aplican directamente a la fase de iteración.
 

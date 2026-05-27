@@ -85,7 +85,7 @@ Reconocer estas condiciones evita aplicar la lógica donde produce más confusi�
 
 ## Lecturas relacionadas
 
-El [post sobre el rizoma digital](/blog/rizoma-digital-aprender-sin-mapa/) ofrece la versión ensayística del marco; la [guía sobre agenciamiento humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) sostiene la lectura deleuziana; la [guía sobre aprendizaje activo con IA](/ia-educacion/guias/aprendizaje-activo-con-ia/) cubre alternativas más estructuradas.
+El [post sobre el rizoma digital](/blog/rizoma-digital-aprender-sin-mapa/) ofrece la versión ensayística del marco; la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) sostiene la lectura deleuziana; la [guía sobre aprendizaje activo con IA](/ia-educacion/guias/aprendizaje-activo-con-ia/) cubre alternativas más estructuradas.
 
 ## Referencias
 

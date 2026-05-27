@@ -55,7 +55,7 @@ Para promover el uso crítico y aprovechar la ventaja cognitiva de la IA sin inc
 
 Para mitigar este efecto, los diseños instruccionales deben forzar a que el individuo estructure el esquema conceptual primario antes de interactuar con el sistema algorítmico. Adicionalmente, la identificación de sesgos y la verificación de afirmaciones deben integrarse como requisitos dentro del flujo de trabajo. Esta estructura garantiza que la reducción de carga operativa se traduzca efectivamente en un nivel superior de reflexión, evitando que el tiempo ahorrado se diluya en la mera gestión superficial de la herramienta.
 
-La descarga cognitiva, en conclusión, no reemplaza el procesamiento mental; proporciona el espacio para profundizar en él, condicionado a un diseño que exija la reinversión de la capacidad liberada en tareas de evaluación crítica.
+La descarga cognitiva, en conclusión, no reemplaza el procesamiento mental; proporciona el espacio para profundizar en él, condicionado a un diseño que exija la reinversión de la capacidad liberada en tareas de evaluación crítica. Cuando ese diseño se logra, la descarga se convierte en su reverso: una [ganancia cognitiva](/glosario/ganancia-cognitiva/) en la que la interacción con la IA activa el razonamiento en lugar de sustituirlo.
 
 
 ## Referencias

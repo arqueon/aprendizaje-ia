@@ -65,7 +65,7 @@ La universidad que adopta esta lógica no se vuelve menos rigurosa; se vuelve m�
 
 ## Lecturas relacionadas
 
-La pieza sobre [agenciamiento humano-IA](/blog/agenciamiento-humano-ia/) sostiene una lectura emparentada; la [guía sobre el agenciamiento](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el marco operativo; el [post sobre aprender CON vs SOBRE IA](/blog/aprender-con-ia-vs-aprender-sobre-ia/) plantea otra distinción que cruza el rizoma.
+La pieza sobre [la co-creación humano-IA](/blog/agenciamiento-humano-ia/) sostiene una lectura emparentada; la [guía sobre la co-creación](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el marco operativo; el [post sobre aprender CON vs SOBRE IA](/blog/aprender-con-ia-vs-aprender-sobre-ia/) plantea otra distinción que cruza el rizoma.
 
 ## Referencias
 

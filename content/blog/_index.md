@@ -14,7 +14,7 @@ areas: ["ia", "pedagogia", "digital"]
 ---
 
 {{< lead >}}
-Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, el agenciamiento humano-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referencias verificables.
+Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación humano-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referencias verificables.
 {{< /lead >}}
 
 ## Qué encontrarás aquí

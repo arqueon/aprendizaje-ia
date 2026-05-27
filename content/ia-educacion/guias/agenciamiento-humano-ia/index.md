@@ -71,7 +71,7 @@ El diseño pedagógico convencional busca controlar variables: instrucciones cer
 
 ### 3. Valorar los desplazamientos
 
-Un desplazamiento ocurre cuando la IA dice algo que obliga al estudiante a repensar su posición. Estos momentos son pedagógicamente valiosos porque evidencian **actividad cognitiva genuina**.
+Un desplazamiento ocurre cuando la IA dice algo que obliga al estudiante a repensar su posición. Estos momentos son pedagógicamente valiosos porque evidencian **actividad cognitiva genuina**: son la **ganancia cognitiva** —el reverso de la descarga cognitiva—, cuando la interacción bien orientada introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a revisar, precisar o abandonar los propios supuestos, y la IA deja de ser un atajo de razonamiento para volverse un interlocutor que activa el pensamiento en lugar de sustituirlo (Nasr et al., 2025). Que esto ocurra no depende del modelo, sino de sostener un ciclo iterativo —preguntar, leer críticamente, descartar y reformular— bajo el propio juicio, y no de delegar la tarea (Ji et al., 2025).
 
 El docente puede pedir que el estudiante identifique y comente sus desplazamientos:
 
@@ -133,5 +133,7 @@ El agenciamiento (ensamblaje) no asume que la IA es inteligente. Asume que la in
 - Cormier, D. (2008). Rhizomatic education: Community as curriculum. *Innovate: Journal of Online Education*, *4*(5), 2. https://nsuworks.nova.edu/innovate/vol4/iss5/2
 - Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trad.). University of Minnesota Press.
 - Hayles, N. K. (2017). *Unthought: The power of the cognitive nonconscious*. University of Chicago Press.
+- Ji, Y., Zhan, Z., Li, T., Zou, X., & Lyu, S. (2025). Human–machine cocreation: The effects of ChatGPT on students' learning performance, AI awareness, critical thinking, and cognitive load in a STEM course toward entrepreneurship. *IEEE Transactions on Learning Technologies*, *18*, 402–415. https://doi.org/10.1109/TLT.2025.3554584
 - Lodge, J. M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
+- Nasr, N. R., Tu, C.-H., Werner, J., Bauer, T., Yen, C.-J., & Sujo-Montes, L. (2025). Exploring the impact of generative AI ChatGPT on critical thinking in higher education: Passive AI-directed use or human–AI supported collaboration? *Education Sciences*, *15*(9), Artículo 1198. https://doi.org/10.3390/educsci15091198
 - Nail, T. (2017). What is an assemblage? *SubStance*, *46*(1), 21–37. https://doi.org/10.3368/ss.46.1.21

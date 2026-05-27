@@ -59,7 +59,7 @@ Esa redefinición no es romántica ni triunfalista. Es lo que el oficio exige ho
 
 ## Lecturas relacionadas
 
-El [agenciamiento humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; el [pensamiento crítico ante la IA generativa](/formacion-docente/pensamiento-critico-ia-generativa/) opera la dimensión cognitiva; las [competencias digitales con IA para estudiantes](/formacion-docente/competencias-digitales-ia-estudiantes/) cubren el lado del aprendiz.
+La [co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; el [pensamiento crítico ante la IA generativa](/formacion-docente/pensamiento-critico-ia-generativa/) opera la dimensión cognitiva; las [competencias digitales con IA para estudiantes](/formacion-docente/competencias-digitales-ia-estudiantes/) cubren el lado del aprendiz.
 
 ## Referencias
 

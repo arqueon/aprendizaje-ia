@@ -29,3 +29,5 @@ flowchart TD
 {{< /mermaid >}}
 
 La disrupción de la IA generativa afecta fundamentalmente a este modelo: los sistemas algorítmicos actuales son extremadamente eficientes resolviendo los tres niveles inferiores (Recordar, Comprender, Aplicar). En consecuencia, los diseños didácticos modernos están obligados a desplazar su evaluación hacia el vértice de la pirámide (Analizar, Evaluar, Crear), donde el juicio humano, el pensamiento crítico y la [evaluación auténtica](/glosario/evaluacion-autentica/) siguen siendo irremplazables.
+
+En el cruce con la IA, las tres literacidades formativas se alinean con esta jerarquía: la **operativa** con los niveles inferiores (recordar, comprender, aplicar), la **crítica** con analizar y evaluar, y la **[alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/)** con la cúspide —**crear**—, donde el conocimiento nuevo emerge del acoplamiento persona-IA y el estudiante conserva la dirección epistémica.
