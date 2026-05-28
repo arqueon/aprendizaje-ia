@@ -56,6 +56,8 @@ Para ganar la atención de los estudiantes e involucrarlos activamente se requie
 
 No existe un esquema único para la transformación pedagógica y digital. Cada centro universitario, departamento o programa de estudios debe diseñar la estrategia que mejor se adapte a sus necesidades. Sin embargo, existen elementos comunes que orientan el proceso (Universidad de Guadalajara, 2022):
 
+![Diagrama de los elementos comunes de la estrategia de transformación pedagógica](img/elementos-comunes.png "Elementos comunes de la transformación pedagógica y digital")
+
 {{< infografia titulo="Elementos Comunes de la Estrategia" subtitulo="Pilares de la transformación pedagógica" >}}
   {{< infografia-seccion titulo="Aprendizaje híbrido" icono="laptop-house" color="#3b82f6" >}}
   Combinaciones flexibles de aprendizaje presencial y en línea.
