@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; transition: fill 0.3s; }
+      .card-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 12; transition: fill 0.3s, stroke 0.3s; }
+      
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      
+      .step-pill-1 { fill: #dbeafe; rx: 12; } .step-txt-1 { fill: #2563eb; font-weight: bold; font-family: sans-serif; font-size: 12px; }
+      .step-pill-2 { fill: #ccfbf1; rx: 12; } .step-txt-2 { fill: #0d9488; font-weight: bold; font-family: sans-serif; font-size: 12px; }
+      .step-pill-3 { fill: #f3e8ff; rx: 12; } .step-txt-3 { fill: #9333ea; font-weight: bold; font-family: sans-serif; font-size: 12px; }
+      
+      .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1e293b; }
+      .card-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #475569; }
+
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0f172a; }
+        .card-bg { fill: #1e293b; stroke: #334155; }
+        
+        .title { fill: #f1f5f9; }
+        .subtitle { fill: #94a3b8; }
+        
+        .step-pill-1 { fill: #1e3a8a; } .step-txt-1 { fill: #60a5fa; }
+        .step-pill-2 { fill: #134e4a; } .step-txt-2 { fill: #2dd4bf; }
+        .step-pill-3 { fill: #581c87; } .step-txt-3 { fill: #c084fc; }
+        
+        .card-title { fill: #f1f5f9; }
+        .card-desc { fill: #cbd5e1; }
+      }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.05" />
+    </filter>
+  </defs>
+
+  <rect class="bg" width="900" height="350" rx="16" />
+  
+  <text x="450" y="55" class="title" text-anchor="middle">Etapas del Diseño Inverso (Backward Design)</text>
+  <text x="450" y="75" class="subtitle" text-anchor="middle">Planificación de atrás hacia adelante para asegurar coherencia formativa</text>
+
+  <!-- Flow Arrows (Background) -->
+  <path d="M 290 200 L 340 200" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6" fill="none" />
+  <polygon points="345,200 335,195 335,205" fill="#cbd5e1" />
+  
+  <path d="M 570 200 L 620 200" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6" fill="none" />
+  <polygon points="625,200 615,195 615,205" fill="#cbd5e1" />
+
+  <!-- Step 1 -->
+  <g transform="translate(40, 110)">
+    <rect class="card-bg" width="250" height="180" filter="url(#shadow)" />
+    <rect class="step-pill-1" x="20" y="20" width="60" height="24" />
+    <text x="50" y="36" class="step-txt-1" text-anchor="middle">Paso 1</text>
+    
+    <text x="20" y="75" class="card-title">Identificar</text>
+    <text x="20" y="95" class="card-title">Resultados Deseados</text>
+    
+    <text x="20" y="125" class="card-desc">Definir los objetivos de</text>
+    <text x="20" y="145" class="card-desc">aprendizaje: qué deben saber</text>
+    <text x="20" y="165" class="card-desc">y saber hacer los estudiantes.</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(320, 110)">
+    <rect class="card-bg" width="250" height="180" filter="url(#shadow)" />
+    <rect class="step-pill-2" x="20" y="20" width="60" height="24" />
+    <text x="50" y="36" class="step-txt-2" text-anchor="middle">Paso 2</text>
+    
+    <text x="20" y="75" class="card-title">Determinar Evidencia</text>
+    <text x="20" y="95" class="card-title">Aceptable</text>
+    
+    <text x="20" y="125" class="card-desc">Establecer formas de evaluación</text>
+    <text x="20" y="145" class="card-desc">y rúbricas antes de planear</text>
+    <text x="20" y="165" class="card-desc">las actividades y clases.</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(600, 110)">
+    <rect class="card-bg" width="250" height="180" filter="url(#shadow)" />
+    <rect class="step-pill-3" x="20" y="20" width="60" height="24" />
+    <text x="50" y="36" class="step-txt-3" text-anchor="middle">Paso 3</text>
+    
+    <text x="20" y="75" class="card-title">Planear Experiencias</text>
+    <text x="20" y="95" class="card-title">de Aprendizaje</text>
+    
+    <text x="20" y="125" class="card-desc">Diseñar lecturas, secuencias</text>
+    <text x="20" y="145" class="card-desc">y actividades prácticas que</text>
+    <text x="20" y="165" class="card-desc">faciliten el logro del objetivo.</text>
+  </g>
+
+  <text x="850" y="330" class="subtitle" text-anchor="end" font-size="11px">Adaptado de: Wiggins &amp; McTighe (2005)</text>
+</svg>

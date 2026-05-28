@@ -74,7 +74,7 @@ El aprendizaje híbrido se desarrolla a lo largo de etapas que transitan de lo s
 
 La interacción cara a cara puede darse tanto en línea (sincrónica) como en el aula física. Lo relevante es propiciar mayor tiempo de trabajo autónomo en línea (asincrónico) —revisando materiales, completando ejercicios, viendo videos— para que el tiempo presencial se aproveche en el trabajo creativo y la construcción colectiva de aprendizajes.
 
-![Características y desarrollo del aprendizaje híbrido](img/desarrollo-hibrido.webp "Desarrollo del aprendizaje híbrido por etapas — Universidad de Guadalajara, 2022")
+
 
 ## El continuo del aprendizaje híbrido
 
@@ -85,7 +85,7 @@ Ya no existe una distinción tajante entre las modalidades en línea y presencia
 
 Un mismo curso puede combinar actividades asincrónicas (foros, tareas, videos) con clases en tiempo real desarrolladas en línea (Meet, Webex, Zoom) o de manera presencial. La pedagogía en todas las combinaciones posibles debe ser compatible y centrarse en el éxito del estudiante.
 
-![Continuo del aprendizaje híbrido: temporalidad y espacialidad](img/continuo-hibrido.webp "Continuo del aprendizaje híbrido — Universidad de Guadalajara, 2022")
+![Continuo del aprendizaje híbrido: temporalidad y espacialidad](img/continuo-hibrido.svg "Continuo del aprendizaje híbrido — Universidad de Guadalajara, 2022")
 
 ## Relación con otros enfoques
 

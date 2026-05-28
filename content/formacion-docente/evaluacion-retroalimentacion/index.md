@@ -73,7 +73,7 @@ Las técnicas de evaluación en el aula (*Classroom Assessment Techniques*, CAT)
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
-![Técnicas de evaluación y retroalimentación (CAT)](img/cat-tecnicas.webp "Técnicas de evaluación en el aula y recursos universitarios — Universidad de Guadalajara, 2022")
+
 
 ## Retroalimentación
 

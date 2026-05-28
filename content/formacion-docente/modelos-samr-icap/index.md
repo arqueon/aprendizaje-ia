@@ -58,7 +58,7 @@ Los niveles del modelo SAMR se relacionan con la [taxonomía de Bloom]({{< ref "
 - **Sustitución y aumento** → niveles de *recordar*, *entender* y *aplicar*.
 - **Modificación y redefinición** → niveles de *analizar*, *evaluar* y *crear*.
 
-![Modelo SAMR y su correspondencia con la taxonomía de Bloom](img/samr-bloom.webp "Modelo SAMR y su correspondencia con la taxonomía de Bloom — Universidad de Guadalajara, 2022")
+![Modelo SAMR y su correspondencia con la taxonomía de Bloom](img/samr-bloom.svg "Modelo SAMR y su correspondencia con la taxonomía de Bloom — Universidad de Guadalajara, 2022")
 
 Este modelo no puede considerarse como una receta. Es útil solo en relación con el diseño de actividades orientadas a promover el aprendizaje activo, colaborativo e interactivo. Las actividades interactivas desarrollan "habilidades profesionales" además de abordar el tema de un curso (Universidad de Guadalajara, 2022).
 
@@ -92,7 +92,7 @@ El modelo ICAP (Chi & Wylie, 2014) permite vincular cuatro niveles de involucram
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
-![Modelo ICAP: del aprendizaje pasivo a la interactividad](img/icap-tabla.webp "Modelo ICAP: procesos cognitivos, cambios en el conocimiento y ejemplos — Universidad de Guadalajara, 2022")
+![Modelo ICAP: del aprendizaje pasivo a la interactividad](img/icap-tabla.svg "Modelo ICAP: procesos cognitivos, cambios en el conocimiento y ejemplos — Universidad de Guadalajara, 2022")
 
 ### Del aprendizaje pasivo a la interactividad
 

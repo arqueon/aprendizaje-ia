@@ -90,7 +90,7 @@ Estas técnicas pueden implementarse con o sin tecnología. Herramientas como Me
 
 ## Desarrollo de habilidades
 
-![El dilema de las habilidades: perspectivas de la universidad, la industria y el gobierno](img/dilema-habilidades.webp "¿Qué habilidades deben enseñar las universidades? — adaptado de Academy of the Social Sciences in Australia, 2021")
+![El dilema de las habilidades: perspectivas de la universidad, la industria y el gobierno](img/dilema-habilidades.svg "¿Qué habilidades deben enseñar las universidades? — adaptado de Academy of the Social Sciences in Australia, 2021")
 
 ### Relación con el desarrollo de habilidades
 

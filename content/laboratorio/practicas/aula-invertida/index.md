@@ -33,6 +33,8 @@ La interacción entre los estudiantes es fundamental para construir colectivamen
 
 El ciclo de aprendizaje del estudiante en el aula invertida sigue cuatro fases:
 
+![Ciclo del aula invertida desde la perspectiva del estudiante](img/ciclo-estudiante.png "Perspectiva de los estudiantes — Universidad de Guadalajara, 2022")
+
 | Fase | Momento | Actividad |
 |------|---------|-----------|
 | **1. Adquirir información** | Antes de clase (en línea) | Lee materiales, ve videos, hace simulaciones |
@@ -42,11 +44,13 @@ El ciclo de aprendizaje del estudiante en el aula invertida sigue cuatro fases:
 
 Las fases 1 y 2 (*prepara* y *prueba*) ocurren en el entorno de **aprendizaje en línea**. Las fases 3 y 4 (*participa* y *comprueba*) ocurren en el espacio de **aprendizaje interactivo cara a cara**.
 
-![Ciclo del aula invertida desde la perspectiva del estudiante](img/ciclo-estudiante.webp "Características del aula invertida — perspectiva de los estudiantes — Universidad de Guadalajara, 2022")
+
 
 ## Perspectiva del profesor
 
 El profesor también tiene un ciclo de cuatro fases correspondiente:
+
+![Ciclo del aula invertida desde la perspectiva del profesor](img/ciclo-profesor.png "Perspectiva de los profesores — Universidad de Guadalajara, 2022")
 
 | Fase | Actividad |
 |------|-----------|
@@ -57,7 +61,7 @@ El profesor también tiene un ciclo de cuatro fases correspondiente:
 
 En el aula invertida los profesores se convierten en curadores de contenidos con el objetivo de promover una mayor interacción y trabajo colaborativo entre los estudiantes, de tal modo que apliquen y realicen creaciones colectivas con el conocimiento y lo apliquen a la resolución de problemas (Universidad de Guadalajara, 2022; Talbert, 2017).
 
-![Ciclo del aula invertida desde la perspectiva del profesor](img/ciclo-profesor.webp "Características del aula invertida — perspectiva de los profesores — Universidad de Guadalajara, 2022")
+
 
 ## Diseño de ejercicios interactivos
 

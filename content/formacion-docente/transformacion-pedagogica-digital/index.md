@@ -39,7 +39,7 @@ La pandemia no fue una "revolución tecnológica" pero si hizo evidente la neces
 
 Una encuesta realizada en los centros universitarios y el Sistema de Educación Media Superior muestra que la mayoría de los docentes considera que sus programas educativos podrían cursarse combinando las ventajas de la modalidad presencial y en línea mediante el aprendizaje híbrido.
 
-![Opiniones sobre las modalidades presencial, en línea y el aprendizaje híbrido en la Red Universitaria](img/encuesta-red-universitaria.webp "Encuesta sobre modalidades en la Red Universitaria — Universidad de Guadalajara, 2022")
+![Opiniones sobre las modalidades presencial, en línea y el aprendizaje híbrido en la Red Universitaria](img/encuesta-red-universitaria.svg "Encuesta sobre modalidades en la Red Universitaria — Universidad de Guadalajara, 2022")
 
 ## ¿Por qué una transformación pedagógica y digital?
 
@@ -96,7 +96,7 @@ No existe un esquema único para la transformación pedagógica y digital. Cada 
 
 Estas orientaciones no son prescriptivas y pueden ser adaptadas a las necesidades de cada contexto dentro de la Red Universitaria.
 
-![Elementos comunes de la estrategia de transformación pedagógica y digital del aprendizaje](img/elementos-comunes.webp "Elementos comunes de la estrategia — Universidad de Guadalajara, 2022")
+
 
 ## Marcos de integración tecnológica
 

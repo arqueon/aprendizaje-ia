@@ -81,7 +81,7 @@ En el aula invertida:
 
 Esta reconfiguración permite que los niveles cognitivos superiores se trabajen con el apoyo del profesor y la colaboración entre pares.
 
-![Aprendizaje invertido y activo en la taxonomía de Bloom](img/bloom-invertida.webp "Comparación del modelo tradicional con el aprendizaje invertido y activo en la taxonomía de Bloom — Universidad de Guadalajara, 2022")
+![Aprendizaje invertido y activo en la taxonomía de Bloom](img/bloom-invertida.svg "Comparación del modelo tradicional con el aprendizaje invertido y activo en la taxonomía de Bloom — Universidad de Guadalajara, 2022")
 
 ## El diseño inverso de aprendizajes
 
@@ -99,7 +99,7 @@ Establecer cómo se medirán los aprendizajes adquiridos. Los métodos de [evalu
 
 Diseñar las actividades de aprendizaje activo que llevarán a los estudiantes a alcanzar los resultados deseados y demostrarlos en las evaluaciones planificadas.
 
-![Diseño inverso de objetivos de aprendizaje](img/diseno-inverso.webp "Las tres etapas del diseño inverso (backward design) — Universidad de Guadalajara, 2022")
+![Diseño inverso de objetivos de aprendizaje](img/diseno-inverso.svg "Las tres etapas del diseño inverso (backward design) — Universidad de Guadalajara, 2022")
 
 ## Aplicación al syllabus
 

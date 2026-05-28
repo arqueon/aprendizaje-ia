@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; transition: fill 0.3s; }
+      .card-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 12; transition: fill 0.3s, stroke 0.3s; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1e293b; }
+      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      
+      .c1-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #059669; }
+      .c2-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #d97706; }
+      .c3-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #2563eb; }
+      
+      .li-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .res-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #334155; letter-spacing: 1px; }
+      
+      .box-1 { fill: #ecfdf5; stroke: #a7f3d0; stroke-width: 1; rx: 8; }
+      .box-2 { fill: #fffbeb; stroke: #fde68a; stroke-width: 1; rx: 8; }
+      .box-3 { fill: #eff6ff; stroke: #bfdbfe; stroke-width: 1; rx: 8; }
+      
+      .box-text-1 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #065f46; text-anchor: middle; }
+      .box-text-2 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #92400e; text-anchor: middle; }
+      .box-text-3 { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #1e40af; text-anchor: middle; }
+
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0f172a; }
+        .card-bg { fill: #1e293b; stroke: #334155; }
+        .title { fill: #f1f5f9; }
+        .subtitle { fill: #94a3b8; }
+        .li-text { fill: #cbd5e1; }
+        .res-title { fill: #cbd5e1; }
+        
+        .c1-title { fill: #34d399; }
+        .c2-title { fill: #fbbf24; }
+        .c3-title { fill: #60a5fa; }
+        
+        .box-1 { fill: #064e3b; stroke: #065f46; }
+        .box-2 { fill: #78350f; stroke: #92400e; }
+        .box-3 { fill: #1e3a8a; stroke: #1e40af; }
+        
+        .box-text-1 { fill: #6ee7b7; }
+        .box-text-2 { fill: #fcd34d; }
+        .box-text-3 { fill: #93c5fd; }
+      }
+    </style>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.05" />
+    </filter>
+  </defs>
+
+  <rect class="bg" width="900" height="600" rx="16" />
+
+  <text x="450" y="45" class="title" text-anchor="middle">El Dilema de las Habilidades</text>
+  <text x="450" y="65" class="subtitle" text-anchor="middle">Perspectivas de la universidad, el gobierno y la industria</text>
+
+  <!-- 3 Columns -->
+  <!-- Col 1 -->
+  <g transform="translate(40, 100)">
+    <rect class="card-bg" width="260" height="200" filter="url(#shadow)" />
+    <text x="20" y="35" class="c1-title">Universidad</text>
+    <circle cx="20" cy="70" r="4" fill="#059669" />
+    <text x="35" y="75" class="li-text">Proveer habilidades que</text>
+    <text x="35" y="95" class="li-text">servirán en el futuro.</text>
+    <circle cx="20" cy="130" r="4" fill="#059669" />
+    <text x="35" y="135" class="li-text">Ofrecer oportunidades</text>
+    <text x="35" y="155" class="li-text">inmediatas y conexiones</text>
+    <text x="35" y="175" class="li-text">de carrera.</text>
+  </g>
+
+  <!-- Col 2 -->
+  <g transform="translate(320, 100)">
+    <rect class="card-bg" width="260" height="200" filter="url(#shadow)" />
+    <text x="20" y="35" class="c2-title">Gobierno</text>
+    <circle cx="20" cy="70" r="4" fill="#d97706" />
+    <text x="35" y="75" class="li-text">Necesidad de planear a</text>
+    <text x="35" y="95" class="li-text">futuro y apoyar la</text>
+    <text x="35" y="115" class="li-text">innovación.</text>
+    <circle cx="20" cy="150" r="4" fill="#d97706" />
+    <text x="35" y="155" class="li-text">Apoyar los requerimientos</text>
+    <text x="35" y="175" class="li-text">actuales de recursos humanos.</text>
+  </g>
+
+  <!-- Col 3 -->
+  <g transform="translate(600, 100)">
+    <rect class="card-bg" width="260" height="200" filter="url(#shadow)" />
+    <text x="20" y="35" class="c3-title">Industria</text>
+    <circle cx="20" cy="70" r="4" fill="#2563eb" />
+    <text x="35" y="75" class="li-text">Satisfechos con egresados</text>
+    <text x="35" y="95" class="li-text">que tengan adaptabilidad</text>
+    <text x="35" y="115" class="li-text">y análisis.</text>
+    <circle cx="20" cy="150" r="4" fill="#2563eb" />
+    <text x="35" y="155" class="li-text">Solicitan habilidades</text>
+    <text x="35" y="175" class="li-text">específicas para inicio rápido.</text>
+  </g>
+
+  <!-- Connection Lines (Arrows pointing down) -->
+  <line x1="450" y1="310" x2="450" y2="350" stroke="#cbd5e1" stroke-width="2" />
+  <polygon points="450,360 445,350 455,350" fill="#cbd5e1" />
+  
+  <!-- Divider -->
+  <line x1="40" y1="380" x2="860" y2="380" stroke="#e2e8f0" stroke-width="2" />
+  
+  <text x="450" y="415" class="res-title" text-anchor="middle">HABILIDADES CLAVE RESULTANTES</text>
+
+  <!-- Result Boxes -->
+  <g transform="translate(40, 440)">
+    <rect class="box-1" width="260" height="80" filter="url(#shadow)" />
+    <text x="130" y="35" class="box-text-1">Para trabajos e industrias</text>
+    <text x="130" y="55" class="box-text-1">que aún no existen</text>
+  </g>
+  
+  <g transform="translate(320, 440)">
+    <rect class="box-3" width="260" height="80" filter="url(#shadow)" />
+    <text x="130" y="35" class="box-text-3">Transferibles entre</text>
+    <text x="130" y="55" class="box-text-3">trabajos y carreras</text>
+  </g>
+  
+  <g transform="translate(600, 440)">
+    <rect class="box-2" width="260" height="80" filter="url(#shadow)" />
+    <text x="130" y="35" class="box-text-2">Para trabajos específicos</text>
+    <text x="130" y="55" class="box-text-2">ya demandados hoy</text>
+  </g>
+
+</svg>

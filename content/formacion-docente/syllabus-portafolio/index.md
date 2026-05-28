@@ -95,7 +95,7 @@ Cada semana del curso debe especificar:
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
-![Elementos del syllabus y planeación detallada por semanas](img/syllabus-elementos.webp "Estructura del syllabus detallado y planeación semanal — Universidad de Guadalajara, 2022")
+
 
 El syllabus es la base para determinar la creación de los elementos interactivos de aprendizaje activo del curso: a partir de él se desprende qué materiales y videos son necesarios para la plataforma de aprendizaje, qué ejercicios de evaluación formativa integrar y qué espacios de interacción diseñar para el trabajo presencial en el aula (Universidad de Guadalajara, 2022).
 
@@ -131,7 +131,7 @@ El portafolio docente es una herramienta para que cada profesora y profesor pued
 
 Uno de los componentes centrales del portafolio es la filosofía de enseñanza. Esta implica la reflexión sobre la forma en que cada profesor concibe su actividad docente, incluyendo los enfoques de aprendizaje específicos que promueve, la forma en que fomenta la participación de los estudiantes y sus propias fortalezas y áreas de desarrollo futuro como académico.
 
-![El perfil de un profesor moderno](img/profesor-moderno.webp "El perfil de un profesor moderno — adaptado de Reid Wilson, @wayfaringpath")
+![El perfil de un profesor moderno](img/profesor-moderno.svg "El perfil de un profesor moderno — adaptado de Reid Wilson, @wayfaringpath")
 
 ## El perfil del profesor moderno
 
