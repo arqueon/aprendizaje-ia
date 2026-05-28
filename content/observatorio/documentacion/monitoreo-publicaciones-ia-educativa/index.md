@@ -90,7 +90,7 @@ Esta rutina —aproximadamente 6 horas por persona al mes— sostiene un monitor
 Tres formas concretas de capitalizar el monitoreo:
 
 - **Incorporar al sitio.** Las publicaciones relevantes que el equipo decide priorizar se agregan como [fichas bibliográficas](/recursos/articulos/). El esfuerzo de leer se preserva como recurso compartido.
-- **Alimentar guías y prácticas.** Los hallazgos relevantes se integran al ciclo de actualización de las guías existentes. La [auditoría del sitio](/auditoria-sitio-2026-04-26.md) sostiene un mecanismo de revisión semestral.
+- **Alimentar guías y prácticas.** Los hallazgos relevantes se integran al ciclo de actualización de las guías existentes. La auditoría del sitio sostiene un mecanismo de revisión semestral.
 - **Comunicar al claustro.** Una nota breve mensual con dos o tres hallazgos digeridos llega más a docentes ocupados que un boletín extenso.
 
 ## Lecturas relacionadas

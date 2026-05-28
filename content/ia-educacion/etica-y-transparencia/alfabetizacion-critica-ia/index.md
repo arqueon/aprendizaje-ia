@@ -26,7 +26,7 @@ La alfabetización crítica en inteligencia artificial es la capacidad de usar e
 {{< infografia
     titulo="Principios de la alfabetización crítica en inteligencia artificial"
     subtitulo="Pilares para desarrollar una relación reflexiva y competente con la tecnología, basados en los marcos educativos recientes."
-    fuente="**Referencias:** Gerlich (2025), *AI tools in society*; Lodge & Loble (2026), *Artificial intelligence, cognitive offloading and implications for education*; Lopez-Lopez et al. (2026), *Boosting metacognition in entangled human-AI interaction*; SchoolAI (2025), *Teaching AI literacy in the classroom*."
+    fuente="**Referencias:** Gerlich (2025), *AI tools in society*; Lodge & Loble (2026), *Artificial intelligence, cognitive offloading and implications for education*; Lopez-Lopez et al. (2026), *Boosting metacognition in entangled human-AI interaction*; SchoolAI (2025), *Teaching AI literacy in the classroom*; Vallès-Peris & Pareto (2025), *Artificial intelligence as a mode of ordering*."
 >}}
 
 {{< infografia-intro >}}
@@ -42,6 +42,7 @@ La alfabetización crítica en inteligencia artificial es la capacidad de usar e
 {{< infografia-seccion numero="2" titulo="Conciencia del sistema socio-técnico y ético" icono="scale-balanced" color="#7c3aed" >}}
 - Desmitificar la tecnología al entenderla como un **modelo predictivo entrenado con datos**, no como un oráculo infalible.
 - Cuestionar quién se beneficia de la herramienta y cómo esta perpetúa sesgos raciales, de género o culturales.
+- Entender la IA como un **modo de ordenamiento** que estructura decisiones y distribuye agencia antes de que el usuario la toque: la opacidad es parte del diseño, no un accidente (Vallès-Peris & Pareto, 2025).
 - Comprender los riesgos asociados con la privacidad de datos, los derechos de autor y el impacto social (SchoolAI, 2025).
 {{< /infografia-seccion >}}
 
@@ -71,3 +72,4 @@ La alfabetización crítica en inteligencia artificial es la capacidad de usar e
 - Lodge, J.M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
 - Lopez-Lopez, E., Abels, C.M., Lorenz-Spreen, P., Lewandowsky, S., & Herzog, S.M. (2026). Boosting metacognition in entangled human-AI interaction to navigate cognitive-behavioral drift. *arXiv*. https://doi.org/10.48550/arXiv.2602.01959
 - SchoolAI. (2025). Teaching AI literacy in the classroom: Strategies for educators. https://schoolai.com/blog/ai-literacy-english-class
+- Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802

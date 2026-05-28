@@ -19,7 +19,7 @@ showAuthor: false
 ---
 
 {{< lead >}}
-La alfabetización digital tradicional enseña a usar herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa que las dos anteriores no cubren: aprender a sostener una **co-creación** productiva con la IA, donde lo que se produce no pertenece ni al humano solo ni al modelo solo, sino al acoplamiento. En su raíz teórica esta relación es lo que Deleuze y Guattari llamaron un *agenciamiento* (ensamblaje); aquí la nombramos **co-creación** por su mayor claridad.
+La alfabetización digital tradicional enseña a usar herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa que las dos anteriores no cubren: aprender a sostener una **co-creación** productiva con la IA, donde lo que se produce no pertenece ni al humano solo ni al modelo solo, sino al acoplamiento (Meshi, 2024). En su raíz teórica esta relación es lo que Deleuze y Guattari llamaron un *agenciamiento* (ensamblaje); aquí la nombramos **co-creación** por su mayor claridad.
 {{< /lead >}}
 
 ## Por qué hacen falta tres alfabetizaciones, no dos
@@ -67,7 +67,7 @@ El primer movimiento es notar que la co-creación existe. Sonará obvio, pero la
 
 ### Nivel 2 — Sostener la co-creación
 
-Detectar no es lo mismo que sostener. En el segundo nivel el docente aprende a mantener el control epistémico durante la interacción, no solo a reconocerlo en retrospectiva. Esto incluye reformular prompts cuando una salida no es satisfactoria, descartar respuestas verosímiles que no cumplen el criterio del docente, y resistir la tentación de aceptar una salida adecuada cuando la propia exigencia pedía más.
+Detectar no es lo mismo que sostener. En el segundo nivel el docente aprende a mantener el control epistémico durante la interacción, no solo a reconocerlo en retrospectiva. Yang y Ma (2025) ofrecen una clasificación de las relaciones epistémicas en la interacción humano-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea: si el humano actúa como autor, evaluador o curador del resultado. Esto incluye reformular prompts cuando una salida no es satisfactoria, descartar respuestas verosímiles que no cumplen el criterio del docente, y resistir la tentación de aceptar una salida adecuada cuando la propia exigencia pedía más.
 
 **Indicadores observables:**
 
@@ -101,7 +101,7 @@ Tres condiciones institucionales sostienen este aprendizaje y conviene nombrarla
 
 ## Conexión con los marcos UNESCO
 
-El marco de competencias de IA para docentes de UNESCO (2024) identifica cinco áreas. Tres de ellas —**mentalidad humanista**, **pedagogía de la IA** y **IA para el desarrollo profesional propio**— exigen, para alcanzar el nivel *Crear*, una competencia de co-creación que el marco no nombra explícitamente pero supone. Nombrar y desarrollar de forma deliberada la literacidad de co-creación potencia ese marco: aporta el lenguaje y el método formativo para la competencia que hoy queda implícita en su nivel más alto.
+El marco de competencias de IA para docentes de UNESCO (2024) identifica cinco áreas. Tres de ellas —**mentalidad humanista**, **pedagogía de la IA** y **IA para el desarrollo profesional propio**— exigen, para alcanzar el nivel *Crear*, una competencia de co-creación que el marco no nombra explícitamente pero supone. Nombrar y desarrollar de forma deliberada la literacidad de co-creación potencia ese marco: aporta el lenguaje y el método formativo para la competencia que hoy queda implícita en su nivel más alto. Rousell y Sinclair (2025) señalan que los sistemas de IA no son herramientas al servicio de futuros ya decididos, sino componentes activos en la producción de esos futuros: la literacidad de co-creación es, también, la competencia de participar en ese proceso.
 
 ## Lecturas relacionadas
 
@@ -111,6 +111,12 @@ La [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-hum
 
 Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trans.). University of Minnesota Press. (Trabajo original publicado en 1980).
 
+Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
+
+Rousell, D., & Sinclair, M. P. (2025). Desiring-futures in education policy: Assemblage theory, artificial intelligence, and UNESCO's futures of education. *Educational Review*, *77*(6), 1754–1777. https://doi.org/10.1080/00131911.2024.2362176
+
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 
 Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
+
+Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.

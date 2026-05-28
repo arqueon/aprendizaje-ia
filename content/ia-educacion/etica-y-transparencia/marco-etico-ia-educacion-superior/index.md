@@ -166,4 +166,4 @@ La pregunta relevante no es si la IA generativa es compatible con la educación 
 - Russell Group. (2023). *Russell Group principles on the use of generative AI tools in education*. https://russellgroup.ac.uk/media/6137/rg_ai_principles-final.pdf
 - UNESCO. (2023). *Guidance for generative AI in education and research*. United Nations Educational, Scientific and Cultural Organization. https://doi.org/10.54675/EWZM9535
 - Williamson, B., & Eynon, R. (2020). Historical threads, missing links, and future directions in AI in education. *Learning, Media and Technology*, 45(3), 223–235. https://doi.org/10.1080/17439884.2020.1798995
-- World Bank. (2024). *Unlocking the potential of generative AI in education: Opportunities, risks, and policy priorities*. World Bank Group. https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062024145080589
+- World Bank. (2024). *Unlocking the potential of generative AI in education: Opportunities, risks, and policy priorities*. World Bank Group. https://documents1.worldbank.org/curated/en/099734306182493324/pdf/IDU152823b13109c514ebd19c241a289470b6902.pdf

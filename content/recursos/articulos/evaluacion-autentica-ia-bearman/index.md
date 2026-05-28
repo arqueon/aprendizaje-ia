@@ -22,7 +22,7 @@ articuloAutores: "Bearman, M., Nieminen, J. H., & Ajjawi, R."
 articuloAnio: "2023"
 articuloFuente: "Higher Education Research & Development"
 articuloDOI: "10.1080/07294360.2023.2247829"
-articuloUrl: "https://doi.org/10.1080/07294360.2023.2247829"
+articuloUrl: "https://www.tandfonline.com/doi/full/10.1080/07294360.2023.2247829"
 articuloAccesoAbierto: false
 idioma: "en"
 tipoDocumento: "Artículo"

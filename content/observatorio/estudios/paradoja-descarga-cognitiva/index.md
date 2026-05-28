@@ -11,7 +11,7 @@ summary: "Un análisis empírico sobre cómo la delegación estratégica de tare
 
 La integración de la inteligencia artificial (IA) en entornos educativos ha generado preocupación respecto al fenómeno de la "descarga cognitiva". Este término refiere a la transferencia de trabajo mental hacia sistemas automatizados. Investigaciones iniciales apuntaron a que el uso frecuente de herramientas de IA correlacionaba con una reducción en la capacidad de pensamiento crítico, afectando principalmente a usuarios jóvenes (Gerlich, 2025). Estudios neurométricos confirmaron una menor participación neuronal en individuos que delegaban tareas de redacción a sistemas de IA, observando una posterior incapacidad para recordar la información producida (Kosmyna et al., 2025). 
 
-Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. La diferencia entre un efecto positivo o negativo depende enteramente de la asignación de la capacidad mental liberada (Loble & Lodge, 2026).
+Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. La diferencia entre un efecto positivo o negativo depende enteramente de la asignación de la capacidad mental liberada.
 
 ## La orientación de asociación y el aprendizaje transformativo
 
@@ -62,15 +62,11 @@ La descarga cognitiva, en conclusión, no reemplaza el procesamiento mental; pro
 
 Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. En J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about knowing* (pp. 185-205). MIT Press.
 
-Favero, M., et al. (2025). The cost of offloading: Implications for cognitive engagement in digital learning environments. *Educational Psychology Review*, *37*(4), 112-130.
-
 Gerlich, M. (2025). The impact of artificial intelligence reliance on critical thinking capabilities in digital-native cohorts. *Journal of Applied Cognitive Science*, *12*(1), 45-61.
 
 Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, *331*(6018), 772-775.
 
 Kosmyna, N., et al. (2025). Neural correlates of cognitive debt in generative AI writing assistance: An EEG study. *Neuroscience of Education*, *8*(2), 210-225.
-
-Loble, K., & Lodge, J. (2026). Reconceptualising cognitive offloading in the age of generative AI. *Higher Education Research & Development*, *45*(3), 301-315.
 
 Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*, *4*(6), 592-604.
 

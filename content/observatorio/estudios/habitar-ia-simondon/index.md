@@ -65,9 +65,9 @@ La propuesta de Simondon es distinta: ni temerlas ni fetichizarlas, sino compren
 
 Si la IA es un mundoambiente, la universidad también lo es: una institución, una técnica histórica y social acumulada a lo largo de siglos. Jan Masschelein y Maarten Simons, retomados por Daniel Brailovsky, proponen pensar la escuela como **entre-paréntesis**: un tiempo y espacio específicos donde las lógicas del mercado y la utilidad inmediata se suspenden para hacer posible el estudio (Masschelein & Simons, 2014; Brailovsky, 2019). La universidad pública comparte ese gesto.
 
-Ese marco evita un malentendido frecuente. Preocuparse por la IA no tiene por qué derivar en un recelo generalizado hacia las tecnologías, ni en una defensa nostálgica de la universidad «de antes». Todo lo contrario: nombrar a la universidad como técnica nos obliga a cuidarla con el mismo criterio con el que Simondon pedía cuidar las máquinas. Es una técnica frágil, históricamente costosa, sujeta a la presión del mercado y de las modas. Es, también, uno de los pocos lugares donde la conversación intergeneracional sobre la tecnología todavía puede suceder con tiempo, con método y con apuesta pública (Faro Digital, 2026).
+Ese marco evita un malentendido frecuente. Preocuparse por la IA no tiene por qué derivar en un recelo generalizado hacia las tecnologías, ni en una defensa nostálgica de la universidad «de antes». Todo lo contrario: nombrar a la universidad como técnica nos obliga a cuidarla con el mismo criterio con el que Simondon pedía cuidar las máquinas. Es una técnica frágil, históricamente costosa, sujeta a la presión del mercado y de las modas. Es, también, uno de los pocos lugares donde la conversación intergeneracional sobre la tecnología todavía puede suceder con tiempo, con método y con apuesta pública.
 
-Por eso, los datos educativos más difíciles de la coyuntura —ausentismo creciente, malestar emocional, violencia simbólica viral— no deberían leerse como una prueba de que la universidad está obsoleta. Son, más bien, la señal de que los mundoambientes digitales en los que viven nuestros estudiantes están produciendo angustias que no encuentran adultos de referencia (Faro Digital, 2026; Dussel, 2020). Que esa conversación suceda dentro de la universidad es precisamente la apuesta.
+Por eso, los datos educativos más difíciles de la coyuntura —ausentismo creciente, malestar emocional, violencia simbólica viral— no deberían leerse como una prueba de que la universidad está obsoleta. Son, más bien, la señal de que los mundoambientes digitales en los que viven nuestros estudiantes están produciendo angustias que no encuentran adultos de referencia (Dussel, 2020). Que esa conversación suceda dentro de la universidad es precisamente la apuesta.
 
 ## Hacia una cultura técnica crítica en el aula
 
@@ -96,8 +96,6 @@ Costa, F. (2021). *Tecnoceno: Algoritmos, biohackers y nuevas formas de vida*. T
 Dussel, I. (2020). La formación docente y los desafíos de la pandemia. *Revista Educación, Formación e Investigación*, *6*(10), 11-25.
 
 Faro Digital. (2024, julio). *Celulares en la escuela: ¿por qué la tendencia global es sacarlos de las aulas?* [Publicación en redes sociales]. farodigital.org
-
-Faro Digital. (2026, abril). *Ausentismo, amenazas virales y la técnica escuela*. farodigital.org
 
 Masschelein, J., & Simons, M. (2014). *Defensa de la escuela: Una cuestión pública*. Miño y Dávila.
 

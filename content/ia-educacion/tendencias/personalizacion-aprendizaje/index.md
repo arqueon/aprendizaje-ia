@@ -72,7 +72,7 @@ Para una universidad pública mexicana, tres orientaciones operativas frente a e
 
 ## Lecturas relacionadas
 
-La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) cubre el lado evaluativo de la personalización; el ensayo del blog sobre [aprender CON vs SOBRE IA](/blog/aprender-con-ia-vs-aprender-sobre-ia/) sostiene la distinción que hace falta para discutir esta tendencia con precisión; la entrada de glosario sobre [tutor inteligente](/glosario/tutor-inteligente/) sintetiza el concepto técnico.
+La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) cubre el lado evaluativo de la personalización; el ensayo del blog sobre [aprender CON vs SOBRE IA](/blog/aprender-con-ia-vs-aprender-sobre-ia/) sostiene la distinción que hace falta para discutir esta tendencia con precisión; la entrada de glosario sobre [tutor inteligente](/recursos/glosario/tutor-inteligente/) sintetiza el concepto técnico.
 
 ## Referencias
 
@@ -82,4 +82,4 @@ Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & W
 
 Wang, J., Liu, Y., & Chen, X. (2025). The chain mediating role of critical thinking and AI self-efficacy in GenAI usage competence and engineering students' creativity. *Scientific Reports*, 15. https://doi.org/10.1038/s41598-025-21132-0
 
-Zheng, B., Liu, J., & Yang, Y. (2025). The impact of artificial intelligence on personalized learning in higher education: A systematic review. *International Journal of Educational Research Open*, 4(2). https://doi.org/10.3390/educsci4020017
+Zheng, B., Liu, J., & Yang, Y. (2025). The impact of artificial intelligence on personalized learning in higher education: A systematic review. *International Journal of Educational Research Open*, 4(2). https://www.researchgate.net/publication/390208255_The_Impact_of_Artificial_Intelligence_on_Personalized_Learning_in_Higher_Education_A_Systematic_Review

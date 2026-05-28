@@ -75,7 +75,7 @@ Las universidades públicas mexicanas, con relaciones tutor-estudiante a menudo 
 
 ## Lecturas relacionadas
 
-La tendencia sobre [IA generativa y personalización del aprendizaje](/ia-educacion/tendencias/personalizacion-aprendizaje/) cruza con esta; el ensayo del blog sobre [el rol del docente en la era de la IA](/blog/rol-docente-era-ia/) sostiene la distinción funcional; la entrada de glosario sobre [tutor inteligente](/glosario/tutor-inteligente/) sintetiza el concepto técnico.
+La tendencia sobre [IA generativa y personalización del aprendizaje](/ia-educacion/tendencias/personalizacion-aprendizaje/) cruza con esta; el ensayo del blog sobre [el rol del docente en la era de la IA](/blog/rol-docente-era-ia/) sostiene la distinción funcional; la entrada de glosario sobre [tutor inteligente](/recursos/glosario/tutor-inteligente/) sintetiza el concepto técnico.
 
 ## Referencias
 

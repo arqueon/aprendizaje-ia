@@ -1,8 +1,8 @@
 ---
 title: "Alfabetización digital"
 date: 2026-03-17
-description: "Qué es la IA, tipos de herramientas, cómo entender el ecosistema digital y las implicaciones de un uso adecuado."
-summary: "Punto de partida de la formación docente para el entorno digital: conceptos básicos, tipos de herramientas y consecuencias pedagógicas de su uso."
+description: "El marco de tres niveles — operativa, crítica y co-creación — para entender qué significa estar alfabetizado en un entorno donde la IA forma parte del trabajo intelectual cotidiano."
+summary: "Tres niveles de literacidad para la formación docente en el entorno digital: operativa, crítica y co-creación, su progresión y sus implicaciones pedagógicas."
 weight: 1
 showHero: true
 showBreadcrumbs: true
@@ -10,30 +10,81 @@ showSummary: true
 showTableOfContents: true
 showReadingTime: true
 areas: ["digital", "ia"]
+tags: ["alfabetizacion", "literacidad", "co-creación", "pensamiento-critico"]
+categories: ["marco-conceptual"]
 ---
 
 {{< lead >}}
-La alfabetización digital es el punto de partida de cualquier integración significativa de tecnología en la práctica docente. No se trata de saber usar una herramienta concreta, sino de entender el ecosistema en el que esa herramienta funciona y las consecuencias de incorporarla al aula.
+Estar alfabetizado digitalmente ya no es saber usar herramientas. Exige comprender el ecosistema en el que operan y aprender a co-crear con la IA sin ceder la dirección epistémica del proceso. Este marco organiza esa competencia en tres niveles acumulativos: operativa, crítica y co-creación.
 {{< /lead >}}
 
-## Tres niveles que conviene distinguir
+## Por qué hacen falta tres niveles
 
-Cuando se habla de "alfabetización digital" en educación superior se mezclan tres capas que vale la pena separar:
+La llegada de la IA generativa hizo insuficiente la alfabetización entendida como manejo de plataformas. Un docente puede formular prompts con soltura y aun así no estar equipado para evaluar qué hace el sistema con los datos de sus estudiantes, ni para sostener una interacción donde su juicio conduzca el proceso en lugar de seguirlo.
 
-- **Alfabetización operativa** — saber usar dispositivos, plataformas y formatos. Es la capa más visible y la que históricamente concentró las capacitaciones docentes. Hoy ya no basta.
-- **Alfabetización informacional** — buscar, evaluar, seleccionar y citar fuentes en entornos saturados de información. Esta capa es la que más se tensiona con la llegada de IA generativa, porque los modelos producen texto verosímil sin garantía de exactitud.
-- **Alfabetización crítica del ecosistema** — entender quién diseña, financia y opera las plataformas que usamos, qué hacen con nuestros datos y a quién benefician sus decisiones algorítmicas. Esta capa es la menos atendida en programas de formación docente y la más decisiva para una práctica responsable.
+La razón de fondo es que la IA no es un artefacto neutro. Es, en términos de Vallès-Peris y Pareto (2025), un **modo de ordenamiento**: estructura decisiones, produce jerarquías y distribuye la agencia de maneras que no se ven en la interfaz. La literacidad crítica hace visible ese ordenamiento. La literacidad de co-creación enseña a interactuar con él sin ser absorbido.
 
-Los tres niveles se sostienen entre sí. Sin la primera, nada se puede hacer. Sin la tercera, lo que se hace puede ser técnicamente correcto y pedagógicamente desorientado.
+{{< mermaid >}}
+flowchart TB
+    A["**Nivel 1 — Operativa**\nUsar herramientas, formular instrucciones,\nintegrar la IA al flujo de trabajo"]
+    B["**Nivel 2 — Crítica**\nEvaluar sesgos, entender la IA\ncomo modo de ordenamiento,\ncuestionar quién diseña y con qué datos"]
+    C["**Nivel 3 — Co-creación**\nSostener el acoplamiento humano-IA,\nmantener la dirección epistémica,\nparticipar en el diseño de futuros"]
 
-## Qué cambia con la IA generativa
+    A --> B --> C
 
-La irrupción de modelos de lenguaje desplazó el centro de la alfabetización digital docente. Ya no alcanza con saber buscar en bases de datos académicas; ahora hay que poder distinguir entre una respuesta generada y una fuente verificable, evaluar el sesgo de un modelo, formular instrucciones que produzcan resultados útiles y documentar cómo se usó la IA en una entrega académica. Esto se aprende practicando con [ingeniería de prompts](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) y discutiendo casos reales de uso, no leyendo manuales.
+    style A fill:#3b82f6,stroke:#2563eb,color:#ffffff
+    style B fill:#6366f1,stroke:#4f46e5,color:#ffffff
+    style C fill:#7c3aed,stroke:#6d28d9,color:#ffffff
+{{< /mermaid >}}
 
-## Implicaciones pedagógicas
+Los tres niveles no son etapas excluyentes: cada uno supone el anterior y el aprendizaje en un nivel siempre retroalimenta a los otros. Lo que la progresión señala es dónde se concentra la competencia todavía ausente.
 
-Una alfabetización digital sólida no convierte a un docente en experto en tecnología, sino en alguien capaz de tomar decisiones informadas sobre cuándo, cómo y para qué incorporar herramientas digitales a su asignatura. Esa misma capacidad es la que después le permite formar estudiantes que no sean usuarios pasivos de las plataformas que les ofrecen, sino lectores críticos del entorno técnico en el que aprenden.
+## Nivel 1 — Operativa
 
-## Lecturas relacionadas
+El primer nivel cubre la capacidad de usar herramientas de IA con soltura: formular instrucciones útiles, comparar salidas de distintos modelos, integrar el asistente al flujo de trabajo docente, documentar qué se usó y cómo.
 
-Para profundizar en el plano normativo y crítico, ver [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) y la entrada de glosario sobre [alfabetización en IA](/glosario/alfabetizacion-ia/). Para el lado operativo, las [guías prácticas](/ia-educacion/guias/) ofrecen el método de diseño de actividades.
+Es la capa más visible y la que históricamente concentró las capacitaciones. Por sí sola es insuficiente: un docente operativamente fluido puede producir materiales de calidad técnica alta mientras reproduce sesgos que no detecta, delega decisiones pedagógicas que le corresponden o acepta salidas del modelo sin la evaluación crítica que el contexto académico exige.
+
+Las [guías prácticas de IA](/ia-educacion/guias/) y el [repositorio de prompts](/recursos/repositorio-prompts-docentes/) cubren el desarrollo de esta capa.
+
+## Nivel 2 — Crítica
+
+El segundo nivel exige entender el sistema que produce las salidas, no solo usarlas. La IA generativa es un modelo entrenado sobre datos que heredan las distribuciones, sesgos y ausencias de los textos con los que fue construido (Bender et al., 2021). Ese modelo opera, además, dentro de incentivos económicos y políticos que no son visibles en la interfaz pero que ordenan qué se produce y quién se beneficia (Vallès-Peris & Pareto, 2025).
+
+La literacidad crítica desarrolla tres capacidades:
+
+- **Detección de sesgos**: identificar qué voces, lenguas y perspectivas subrepresenta o distorsiona el modelo.
+- **Conciencia del ecosistema**: entender quién diseña, financia y opera los sistemas de IA, y qué relaciones de poder implica.
+- **Verificación sistemática**: cruzar las salidas con fuentes independientes antes de usarlas o enseñarlas.
+
+La [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) desarrolla estos principios operativos. Los [sesgos algorítmicos y equidad educativa](/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/) los lleva al contexto del aula mexicana.
+
+## Nivel 3 — Co-creación
+
+El tercer nivel es el que las dos alfabetizaciones anteriores no cubren: aprender a sostener una interacción con la IA donde lo que se produce emerge del acoplamiento humano-modelo, sin que el humano pierda la dirección del proceso.
+
+Meshi (2024) describe este acoplamiento como un **ensamblaje cognitivo** (*cognitive assemblage*): el resultado no pertenece ni al humano solo ni al modelo solo, sino a la relación estructurada entre los dos. Yang y Ma (2025) ofrecen una taxonomía de las relaciones epistémicas en la interacción humano-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea — si el humano actúa como autor, evaluador, curador o par. Rousell y Sinclair (2025) conectan esta dimensión con una pregunta más amplia: qué futuros educativos estamos co-creando con los sistemas que adoptamos.
+
+La competencia de co-creación implica:
+
+- Reformular instrucciones hasta que el resultado cumpla el criterio propio, no el estándar del modelo.
+- Descartar salidas plausibles que no sirven al propósito docente.
+- Documentar el proceso de co-creación como evidencia del trabajo intelectual.
+- Saber cuándo **no** usar la IA: cuando el esfuerzo sin asistencia es lo que produce el aprendizaje.
+
+La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
+
+## Lo que los tres niveles comparten
+
+Ningún nivel se desarrolla solo leyendo. Los tres exigen práctica guiada, retroalimentación y tiempo protegido. Un docente con años de uso operativo puede no haber desarrollado el nivel crítico, y alguien con capacidad crítica sólida puede no haber entrenado la co-creación.
+
+La [entrada de glosario sobre alfabetización en IA](/recursos/glosario/alfabetizacion-ia/) sintetiza el marco conceptual. Para profundizar en la formación del profesorado, la [sección de formación docente](/formacion-docente/) ofrece guías y talleres organizados por competencia.
+
+## Referencias
+
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
+- Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
+- Rousell, D., & Sinclair, M. P. (2025). Desiring-futures in education policy: Assemblage theory, artificial intelligence, and UNESCO's futures of education. *Educational Review*, *77*(6), 1754–1777. https://doi.org/10.1080/00131911.2024.2362176
+- UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
+- Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802
+- Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.
