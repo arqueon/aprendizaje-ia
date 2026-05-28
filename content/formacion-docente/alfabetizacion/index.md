@@ -25,10 +25,10 @@ La llegada de la IA generativa hizo insuficiente la alfabetización entendida co
 La razón de fondo es que la IA no es un artefacto neutro. Es, en términos de Vallès-Peris y Pareto (2025), un **modo de ordenamiento**: estructura decisiones, produce jerarquías y distribuye la agencia de maneras que no se ven en la interfaz. La literacidad crítica hace visible ese ordenamiento. La literacidad de co-creación enseña a interactuar con él sin ser absorbido.
 
 {{< mermaid >}}
-flowchart TB
-    A["**Nivel 1 — Operativa**\nUsar herramientas, formular instrucciones,\nintegrar la IA al flujo de trabajo"]
-    B["**Nivel 2 — Crítica**\nEvaluar sesgos, entender la IA\ncomo modo de ordenamiento,\ncuestionar quién diseña y con qué datos"]
-    C["**Nivel 3 — Co-creación**\nSostener el acoplamiento humano-IA,\nmantener la dirección epistémica,\nparticipar en el diseño de futuros"]
+flowchart LR
+    A["**Nivel 1**<br/>Operativa"]
+    B["**Nivel 2**<br/>Crítica"]
+    C["**Nivel 3**<br/>Co-creación"]
 
     A --> B --> C
 
@@ -36,6 +36,12 @@ flowchart TB
     style B fill:#6366f1,stroke:#4f46e5,color:#ffffff
     style C fill:#7c3aed,stroke:#6d28d9,color:#ffffff
 {{< /mermaid >}}
+
+| Nivel | Enfoque | Competencias clave |
+|---|---|---|
+| **1 — Operativa** | Usar la IA con soltura | Formular instrucciones, comparar salidas, documentar el uso e integrar la IA al flujo de trabajo |
+| **2 — Crítica** | Entender el sistema que produce las salidas | Detectar sesgos, cuestionar quién diseña y con qué datos, comprender la IA como modo de ordenamiento |
+| **3 — Co-creación** | Sostener el acoplamiento sin perder la dirección | Mantener la dirección epistémica, descartar salidas que no sirven, saber cuándo no usar la IA |
 
 Los tres niveles no son etapas excluyentes: cada uno supone el anterior y el aprendizaje en un nivel siempre retroalimenta a los otros. Lo que la progresión señala es dónde se concentra la competencia todavía ausente.
 
