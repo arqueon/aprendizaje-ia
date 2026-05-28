@@ -98,7 +98,7 @@ Tampoco hay que confundir el hallazgo con una autorización general: el efecto p
 
 ## Cómo se conecta con la conversación que ya tenemos
 
-Este artículo ofrece base empírica para la postura que hemos venido sosteniendo en publicaciones como ["La IA no hace trampa, nosotros sí"]({{< ref "/ia-educacion/la-ia-no-hace-trampa-nosotros-si" >}}) y para los próximos pasos del [Observatorio]({{< ref "/observatorio" >}}), particularmente para refinar los instrumentos de la **encuesta DEC 2026** con preguntas que distingan uso instrumental de uso en partnership. Sus implicaciones también apuntan hacia el rediseño de la oferta de [formación docente]({{< ref "/formacion-docente" >}}): tenemos que pasar de talleres de "cómo usar ChatGPT" a talleres sobre "cómo diseñar actividades de alianza con IA" y "cómo evaluar el partnership".
+Este artículo ofrece base empírica para la postura que hemos venido sosteniendo en publicaciones del sitio y para los próximos pasos del [Observatorio]({{< ref "/observatorio" >}}), particularmente para refinar los instrumentos de la **encuesta DEC 2026** con preguntas que distingan uso instrumental de uso en partnership. Sus implicaciones también apuntan hacia el rediseño de la oferta de [formación docente]({{< ref "/formacion-docente" >}}): tenemos que pasar de talleres de "cómo usar ChatGPT" a talleres sobre "cómo diseñar actividades de alianza con IA" y "cómo evaluar el partnership".
 
 ## Cita recomendada
 
