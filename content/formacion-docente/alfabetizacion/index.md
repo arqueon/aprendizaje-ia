@@ -45,13 +45,21 @@ flowchart LR
 
 Los tres niveles no son etapas excluyentes: cada uno supone el anterior y el aprendizaje en un nivel siempre retroalimenta a los otros. Lo que la progresión señala es dónde se concentra la competencia todavía ausente.
 
+Cada nivel tiene su propia infografía con los cinco principios clave que lo definen:
+
+- **[Principios de la alfabetización operativa](/formacion-docente/alfabetizacion-operativa/)** — formular, comparar, verificar, documentar e integrar.
+- **[Principios de la alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/)** — discernimiento, conciencia sociotécnica, agencia, uso selectivo y adaptabilidad contextual.
+- **[Principios de la alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — reconocer el acoplamiento, conservar la dirección epistémica, sostener el ciclo iterativo, documentar el proceso y cultivar la ganancia cognitiva.
+
+Para una **vista panorámica** del marco completo —diagrama, principios, alineación con Bloom y programa formativo—, ver el [mapa visual de las tres literacidades](/formacion-docente/mapa-literacidades-ia/).
+
 ## Nivel 1 — Operativa
 
 El primer nivel cubre la capacidad de usar herramientas de IA con soltura: formular instrucciones útiles, comparar salidas de distintos modelos, integrar el asistente al flujo de trabajo docente, documentar qué se usó y cómo.
 
 Es la capa más visible y la que históricamente concentró las capacitaciones. Por sí sola es insuficiente: un docente operativamente fluido puede producir materiales de calidad técnica alta mientras reproduce sesgos que no detecta, delega decisiones pedagógicas que le corresponden o acepta salidas del modelo sin la evaluación crítica que el contexto académico exige.
 
-Las [guías prácticas de IA](/ia-educacion/guias/) y el [repositorio de prompts](/recursos/repositorio-prompts-docentes/) cubren el desarrollo de esta capa.
+Los [cinco principios operativos](/formacion-docente/alfabetizacion-operativa/) sintetizan esta capa; las [guías prácticas de IA](/ia-educacion/guias/) y el [repositorio de prompts](/recursos/repositorio-prompts-docentes/) la desarrollan en detalle.
 
 ## Nivel 2 — Crítica
 
@@ -78,7 +86,7 @@ La competencia de co-creación implica:
 - Documentar el proceso de co-creación como evidencia del trabajo intelectual.
 - Saber cuándo **no** usar la IA: cuando el esfuerzo sin asistencia es lo que produce el aprendizaje.
 
-La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
+Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
 
 ## Lo que los tres niveles comparten
 

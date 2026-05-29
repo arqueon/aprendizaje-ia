@@ -20,7 +20,7 @@ weight: 1
 ---
 
 {{< lead >}}
-La alfabetización crítica en inteligencia artificial es la capacidad de usar estas herramientas con juicio, evaluando sus resultados y manteniendo el control humano del proceso. Su desarrollo previene la deriva metacognitiva y la descarga cognitiva (*cognitive offloading*), fenómenos donde el estudiante delega el esfuerzo mental a la tecnología y pierde habilidades de pensamiento independiente (Gerlich, 2025; Lodge & Loble, 2026).
+La alfabetización crítica en inteligencia artificial es el juicio para usar estas herramientas. Implica evaluar lo que devuelven y conservar la dirección humana del proceso. Sin ese juicio, el estudiante delega el trabajo mental a la máquina y deja de pensar por sí mismo. La investigación reciente nombra a estos fenómenos deriva metacognitiva y descarga cognitiva (*cognitive offloading*) (Gerlich, 2025; Lodge & Loble, 2026).
 {{< /lead >}}
 
 {{< infografia
@@ -30,7 +30,7 @@ La alfabetización crítica en inteligencia artificial es la capacidad de usar e
 >}}
 
 {{< infografia-intro >}}
-La alfabetización crítica en inteligencia artificial es la capacidad de usar estas herramientas con juicio, evaluando sus resultados y manteniendo el control humano del proceso. Su desarrollo previene la **deriva metacognitiva** y la **descarga cognitiva** (*cognitive offloading*), fenómenos donde el estudiante delega el esfuerzo mental a la tecnología y pierde habilidades de pensamiento independiente (Gerlich, 2025; Lodge & Loble, 2026).
+La alfabetización crítica en inteligencia artificial es el juicio para usar estas herramientas. Implica evaluar lo que devuelven y conservar la dirección humana del proceso. Sin ese juicio, el estudiante delega el trabajo mental a la máquina y deja de pensar por sí mismo. La investigación reciente nombra a estos fenómenos **deriva metacognitiva** y **descarga cognitiva** (*cognitive offloading*) (Gerlich, 2025; Lodge & Loble, 2026).
 {{< /infografia-intro >}}
 
 {{< infografia-seccion numero="1" titulo="Evaluación crítica y discernimiento sobre la maestría técnica" icono="magnifying-glass" color="#0369a1" >}}
@@ -49,22 +49,31 @@ La alfabetización crítica en inteligencia artificial es la capacidad de usar e
 {{< infografia-seccion numero="3" titulo="Cultivo de hábitos mentales y agencia humana" icono="brain" color="#0891b2" >}}
 - Basar el uso en la **curiosidad, el escepticismo y la reflexión constante**, más que en habilidades procedimentales fijas.
 - Evitar delegar el esfuerzo cognitivo a la máquina para prevenir la pereza metacognitiva y la atrofia de capacidades (Gerlich, 2025).
-- Usar la herramienta como un **espejo cognitivo** que rete el pensamiento, manteniendo la creatividad humana en el centro (Lopez-Lopez et al., 2026).
+- Usar la herramienta como un **espejo cognitivo** que rete el pensamiento del estudiante sin reemplazarlo (Lopez-Lopez et al., 2026).
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="4" titulo="Uso selectivo, restricción informada y no utilización" icono="hand" color="#b45309" >}}
 - Rechazar la presión de adopción al comprender que la competencia **no requiere usar la tecnología de forma entusiasta para todo**.
-- Validar la **negativa informada**; saber decir "no" o "todavía no" es un resultado avanzado de la alfabetización (Lodge & Loble, 2026).
-- Preservar la voz académica y la autonomía personal para equilibrar el uso de la herramienta con el bienestar y las conexiones humanas.
+- Validar la **negativa informada**. Decir "no" o "todavía no" a la herramienta es un resultado avanzado de la alfabetización (Lodge & Loble, 2026).
+- Preservar la voz académica y la autonomía personal, sin que la herramienta sustituya el tiempo de estudio sin pantalla ni la conversación con compañeros y colegas.
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="5" titulo="Adaptabilidad contextual y alineación con literacidades previas" icono="puzzle-piece" color="#059669" >}}
 - Adaptar la alfabetización a las necesidades de cada área: enfocarse en el sesgo diagnóstico en salud o la autenticidad en literatura.
 - Evitar enseñar el uso de la herramienta de forma aislada.
-- Evolucionar las competencias al **integrar la tecnología con la alfabetización mediática, informacional y digital** existente.
+- **Integrar la alfabetización en IA con las alfabetizaciones mediática, informacional y digital** existentes, en lugar de tratarla como una competencia aparte.
 {{< /infografia-seccion >}}
 
 {{< /infografia >}}
+
+## Las otras dos literacidades
+
+La alfabetización crítica es el segundo nivel del marco de tres literacidades. Las otras dos:
+
+- **[Principios de la alfabetización operativa](/formacion-docente/alfabetizacion-operativa/)** — primer nivel: usar la IA con soltura.
+- **[Principios de la alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — tercer nivel: sostener el acoplamiento humano-IA sin perder la dirección epistémica.
+
+La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa.
 
 ## Referencias
 

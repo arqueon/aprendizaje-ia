@@ -19,89 +19,106 @@ showAuthor: false
 ---
 
 {{< lead >}}
-La alfabetización digital tradicional enseña a usar herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa que las dos anteriores no cubren: aprender a sostener una **co-creación** productiva con la IA, donde lo que se produce no pertenece ni al humano solo ni al modelo solo, sino al acoplamiento (Meshi, 2024). En su raíz teórica esta relación es lo que Deleuze y Guattari llamaron un *agenciamiento* (ensamblaje); aquí la nombramos **co-creación** por su mayor claridad.
+La alfabetización digital tradicional enseña a usar las herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa no cubierta por las dos anteriores: aprender a mantener una **co-creación** productiva con la IA, donde lo producido no pertenece ni sólo al humano ni sólo al modelo, sino al acoplamiento (Meshi, 2024). En su raíz teórica, esta relación está conformada por lo que Deleuze y Guattari designan un *agenciamiento* (ensamblaje); en este caso la denominamos **co-creación** por su mayor claridad.
 {{< /lead >}}
 
-## Por qué hacen falta tres alfabetizaciones, no dos
+## Por qué son necesarias las tres alfabetizaciones y no sólo dos
 
-La distinción habitual entre alfabetización operativa y alfabetización crítica funciona para muchos artefactos digitales: aprendo a usar Word y aprendo qué intereses sostienen al producto. Para la IA generativa esa dupla deja un vacío.
+La habitual disociación entre la alfabetización operativa y la alfabetización crítica resulta adecuada para muchos artefactos digitales: aprendo a hacer funcionar Word y aprendo qué intereses son los que sostienen al producto. Para el caso de la IA generativa esa dupla de alfabetizaciones nos dejaría un vacío.
 
-La operativa enseña a formular prompts, a comparar modelos, a estructurar pedidos. La crítica enseña a leer sesgos, a entender el modelo de negocio, a anticipar consecuencias sociales. Ninguna de las dos enseña lo que ocurre **durante** la interacción: cómo sostener un diálogo con la IA donde el humano mantiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— es la que la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) describe en términos teóricos y que aquí se traduce en marco formativo.
+La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acontece a lo largo de la interacción: cómo mantener un diálogo con la IA donde el humano sostiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— es la que la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) describe en términos teóricos y que aquí se traduce en marco formativo.
 
-El siguiente esquema resume las tres literacidades —qué desarrolla cada una y cómo se construye—:
+A continuación se presenta un esquema que resume las tres literacidades, detallando lo que cada una desarrolla y cómo se construye:
 
-| Literacidad | Qué desarrolla | Cómo se construye | Nivel de Bloom |
-|---|---|---|---|
-| **Operativa** | Usar la IA con soltura: formular instrucciones e integrarla al flujo de trabajo | Práctica guiada y progresiva | Recordar · Comprender · Aplicar |
-| **Crítica** | Entender los sistemas, sus sesgos y efectos; discernir y verificar lo que devuelven | Lectura lateral, análisis del sesgo algorítmico, conciencia sociotécnica y ética | Analizar · Evaluar |
-| **Co-creación** | Sostener el acoplamiento conservando la dirección epistémica, y decidir cuándo *no* usar la IA | Ciclo iterativo supervisado (formular, evaluar, descartar, reformular) y documentación del proceso | **Crear** (cúspide) |
+| Literacidad     | Qué se desarrolla                                                                                                          | Cómo se construye                                                                                                 | Nivel de Bloom                  |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| **Operativa**   | Dominio en el uso de la IA: formulación de instrucciones y su integración en el trabajo diario                             | A través de una práctica guiada y progresiva                                                                      | Recordar · Comprender · Aplicar |
+| **Crítica**     | Comprensión de los sistemas, incluyendo sus sesgos y efectos; capacidad de discernimiento y verificación de resultados     | Mediante lectura lateral, análisis del sesgo algorítmico, y desarrollo de conciencia sociotécnica y ética         | Analizar · Evaluar              |
+| **Co-creación** | Mantener el acoplamiento mientras se preserva la dirección epistémica, y decidir cuándo no emplear la IA                  | A través de un ciclo iterativo supervisado (formular, evaluar, descartar, reformular) y documentación del proceso | **Crear** (cúspide)             |
 
-No son etapas excluyentes sino una progresión acumulativa: cada literacidad supone la anterior y culmina en la co-creación. Esta progresión se alinea con la [taxonomía de Bloom](/recursos/glosario/taxonomia-de-bloom/): la literacidad operativa cubre los niveles que la IA resuelve con eficacia (recordar, comprender, aplicar), la crítica corresponde a analizar y evaluar, y la co-creación ocupa la **cúspide —crear—**, donde el conocimiento nuevo emerge del acoplamiento y el juicio humano resulta irremplazable.
+Estas literacidades no son etapas independientes sino una progresión acumulativa: cada una se basa en la anterior y culmina en la co-creación. Dicha progresión sigue la [taxonomía de Bloom](/recursos/glosario/taxonomia-de-bloom/): la literacidad operativa abarca los niveles resueltos por la IA (recordar, entender, aplicar), la crítica corresponde a analizar y evaluar, y la co-creación ocupa la **cúspide —crear—**, donde brota el nuevo conocimiento que el acoplamiento produce y el juicio humano se vuelve insustituible.
 
-```
- operativa  ──▶  crítica  ──▶  co-creación
-  (usar)        (entender)     (sostener)
-    │              │               │
-   M1            M1·M2          M3·M4·M6
-    └──────────────┴── transversal: M5 + evaluación del proceso
-```
+{{< mermaid >}}
+flowchart LR
+    A["**Operativa**<br/>usar · M1"]
+    B["**Crítica**<br/>entender · M1·M2"]
+    C["**Co-creación**<br/>sostener · M3·M4·M6"]
+    T["M5 + evaluación<br/>del proceso<br/>(transversal)"]
 
-Esta progresión se concreta en un **programa de alfabetización en IA** dirigido al profesorado y al estudiantado, organizado en seis módulos (60 horas): evaluación crítica y discernimiento (M1), conciencia sociotécnica y ética (M2), agencia y co-creación (M3), uso selectivo y derecho a la no-utilización (M4), adaptabilidad disciplinar (M5) y un proyecto integrador de coproducción documentada (M6). Sus contenidos se apoyan en los [cinco principios de la alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) y desplazan la evidencia de aprendizaje hacia la [evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) —bitácora de decisiones, portafolio iterativo y auditoría de salidas—, sobre la que se detallan los tres niveles que siguen.
+    A --> B --> C
+    T -.- A & B & C
+    
+    style A fill:#3b82f6,stroke:#2563eb,color:#ffffff
+    style B fill:#6366f1,stroke:#4f46e5,color:#ffffff
+    style C fill:#7c3aed,stroke:#6d28d9,color:#ffffff
+    style T fill:#f0fdf4,stroke:#16a34a,color:#166534
+
+{{< /mermaid >}}
+
+Esta progresión es un **programa de alfabetización en IA** dirigido al profesorado y al estudiantado, dividido en seis módulos (60h): evaluación crítica y discernimiento (M1), conciencia sociotécnica y ética (M2), agencia y co-creación (M3), uso selectivo y derecho a la no-utilización (M4), adaptabilidad disciplinar (M5) y un proyecto integrador de coproducción documentada (M6). Sus contenidos están fundamentados en los principios de las tres literacidades —[operativa](/formacion-docente/alfabetizacion-operativa/), [crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) y [co-creación](/formacion-docente/alfabetizacion-co-creacion/)— y desplazan la evidencia de aprendizaje hacia la [evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) —bitácora de decisiones, portafolio iterativo y auditoría de salidas—, donde se detallan los tres niveles que siguen.
 
 ## Tres niveles de progresión
 
-Esta alfabetización no se aprende leyendo. Requiere práctica supervisada, retroalimentación y reflexión sostenida. La progresión sugerida tiene tres niveles, con duración aproximada de un semestre cada uno para alguien que ya domina la alfabetización operativa.
+Esta alfabetización no se obtiene leyendo. Requiere práctica guiada, retroalimentación y reflexión sostenida en el proceso. La progresión sugerida tiene tres niveles, con duración aproximada de un semestre cada uno para quien ya domine la alfabetización operativa.
 
 ### Nivel 1 — Detectar la co-creación
 
-El primer movimiento es notar que la co-creación existe. Sonará obvio, pero la mayor parte de los docentes y estudiantes que usan IA hablan en términos instrumentales —"yo le pedí", "ella respondió"— como si el resultado fuera atribuible a uno de los dos. Detectar la co-creación implica reconocer que el resultado fue producto del acoplamiento: ni del humano solo, ni del modelo solo.
+El primer movimiento consiste en notar que la co-creación existe. Sonará trivial, pero la mayoría de los docentes y estudiantes que usan IA hablan en términos instrumentales —"yo le pedí", "ella respondió"— como si el resultado se adjudicara a alguna de las partes. Detectar la co-creación implica reconocer que el resultado fue producto del acoplamiento: ni del humano solamente, ni del modelo solamente.
 
 **Indicadores observables:**
 
-- El docente describe sus interacciones en términos de proceso, no de transacción.
-- Reconoce momentos donde la IA propuso algo que él no habría producido.
+- El docente narra la interacción en términos de proceso, no de transacción.
+- Sabe distinguir momentos en los cuales la IA propuso algo que él no habría llegado a producir, dado su conocimiento de la materia.
 - Identifica decisiones suyas que orientaron las salidas hacia un lugar específico.
 - Distingue entre lo que aceptó porque lo evaluó y lo que aceptó por comodidad.
 
-**Cómo se entrena:** ejercicios de transcripción reflexiva. El docente conserva el diálogo completo con la IA y, al cierre, escribe un comentario sobre qué aportó cada parte y qué decisiones tomó. Tres a cinco ejercicios por semana durante seis semanas suelen consolidar la disposición.
+La manera de formarse es a partir de ejercicios de transcripción reflexiva. El docente conserva el diálogo completo con la IA y, al cierre de la sesión, escribe un comentario sobre qué aportó cada parte y qué decisiones tomó. De tres a cinco ejercicios por semana durante seis semanas suelen consolidar la disposición.
 
-### Nivel 2 — Sostener la co-creación
+### Nivel 2 — Mantener la co-creación
 
-Detectar no es lo mismo que sostener. En el segundo nivel el docente aprende a mantener el control epistémico durante la interacción, no solo a reconocerlo en retrospectiva. Yang y Ma (2025) ofrecen una clasificación de las relaciones epistémicas en la interacción humano-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea: si el humano actúa como autor, evaluador o curador del resultado. Esto incluye reformular prompts cuando una salida no es satisfactoria, descartar respuestas verosímiles que no cumplen el criterio del docente, y resistir la tentación de aceptar una salida adecuada cuando la propia exigencia pedía más.
+Detectar no es igual a mantener. El segundo nivel plantea que el docente aprenda a sostener el control epistémico durante la interacción, no solo reconocerlo a posteriori. Yang y Ma (2025) proponen una clasificación de las relaciones epistémicas en la interacción humano-IA que permite nombrar qué tipo de vínculo mantiene el humano al realizar cada tarea: si actúa como autor, evaluador o curador del resultado. Hablamos de reformular prompts cuando una salida es insatisfactoria, de descartar respuestas plausibles que no cumplen el criterio del docente, o de no aceptar una salida adecuada cuando la propia exigencia pedía más.
 
 **Indicadores observables:**
 
-- Reformula prompts varias veces sin frustración, hasta lograr el resultado que busca.
-- Descarta respuestas plausibles cuando no cumplen un criterio interno definido antes de la consulta.
-- Detecta cuándo la IA está respondiendo con un patrón fácil y exige especificidad.
-- Mantiene los criterios del docente como referencia estable, no como sugerencia negociable.
+- Reformula prompts varias veces y sin frustración, hasta lograr el resultado que busca.
+- Descarta respuestas plausibles cuando no responden a un criterio interno definido antes de la consulta.
+- Detecta cuándo la IA sigue un patrón simple en la respuesta y exige que el resultado aporte especificidad.
+- Mantiene los criterios del docente como marco de referencia estable, no como sugerencia negociable.
 
-**Cómo se entrena:** consignas con criterios estrictos y revisión entre pares. El docente diseña una tarea que solo él puede saber si está bien resuelta (porque conoce el contexto de su asignatura) y la trabaja con IA hasta producir un resultado que defienda. Otro docente revisa el proceso completo y comenta dónde percibió que se delegó juicio. Tres iteraciones a lo largo de un semestre.
+**Cómo se entrena:** consignas con criterios estrictos y revisión entre pares. El docente elabora una tarea que solo él puede saber si está bien resuelta (porque conoce el contexto de su asignatura) y la trabaja con IA hasta producir un resultado que pueda defender. Otro docente revisa el proceso completo y comenta dónde percibió que se delegó juicio. Tres iteraciones a lo largo de un semestre.
 
 ### Nivel 3 — Diseñar la co-creación para otros
 
-El tercer nivel es la competencia avanzada. El docente no solo sostiene su propia co-creación; diseña actividades donde sus estudiantes sostendrán procesos de co-creación productivos. Esto exige anticipar las dificultades específicas que el estudiante tendrá, las trampas en las que es probable que caiga, los puntos donde la práctica con IA producirá aprendizaje real.
+El tercer nivel es la competencia avanzada. El docente no sostiene solo su co-creación; diseña actividades donde sus estudiantes sostendrán procesos de co-creación productiva, lo que implica anticipar las dificultades específicas del estudiante, las trampas en las que caerá, los puntos donde la práctica con IA generará aprendizaje real.
 
 **Indicadores observables:**
 
-- Diseña consignas que obligan al estudiante a sostener decisiones, no a recibir respuestas.
-- Anticipa dónde el estudiante se sentirá tentado a delegar juicio y construye fricciones intencionales en esos puntos.
-- Diferencia entre tareas que la IA debe asistir, tareas donde el estudiante debe trabajar sin IA y tareas donde el contraste entre ambas es lo que se evalúa.
+- Diseña consignas que exigen al estudiante sostener decisiones, no obtener respuestas.
+- Anticipa dónde el estudiante sentirá la tentación de delegar juicio y construye fricciones deliberadas en esos puntos.
+- Diferencia entre tareas que la IA debe asistir, tareas donde el estudiante trabaja sin IA y tareas donde el contraste entre ambas es lo que se evalúa.
 - Articula la rúbrica de evaluación con la calidad de la co-creación, no con el producto final.
 
-**Cómo se entrena:** diseño y ejecución de una asignatura completa con énfasis en procesos de co-creación productivos, con bitácora de docente, retroalimentación entre pares y revisión de los productos estudiantiles al cierre. Esta es la práctica donde la alfabetización en co-creación se consolida y donde se vuelve enseñable a otros docentes.
+**Cómo se entrena:** diseño y realización de una asignatura completa centrada en procesos de co-creación, con bitácora del docente, retroalimentación entre pares y revisión de los productos al cierre. Aquí la alfabetización en co-creación se consolida y se vuelve enseñable a otros docentes.
 
 ## Lo que esta alfabetización requiere de la institución
 
-Tres condiciones institucionales sostienen este aprendizaje y conviene nombrarlas para no descansar la responsabilidad solo en el docente individual:
+El docente individual no puede abarcar este aprendizaje solo. Hay tres condiciones institucionales que lo determinan, y conviene nombrarlas para que no queden como buenas intenciones.
 
-- **Tiempo protegido.** El segundo y tercer niveles no se desarrollan en sesiones puntuales; exigen carga horaria docente con permiso para iterar, fallar y rehacer. Sin tiempo protegido, lo que se aprende es uso instrumental con vocabulario de co-creación.
-- **Comunidades de revisión entre pares.** El segundo nivel exige que otro docente revise el proceso. La [pieza sobre redes y comunidades](/formacion-docente/redes/) cubre el marco; los espacios prácticos hay que construirlos institucionalmente.
-- **Reconocimiento académico.** Si la institución no reconoce la alfabetización en co-creación como competencia profesional valiosa, los docentes la desarrollarán por interés personal, no por trayectoria laboral. Eso reduce el alcance.
+El segundo y tercer niveles exigen tiempo real en la carga horaria — tiempo con autorización explícita para iterar, errar y rehacer. Sin eso, lo que se aprende es uso instrumental con vocabulario de co-creación: la forma sin el fondo.
 
-## Conexión con los marcos UNESCO
+La revisión entre pares no es una recomendación: es parte del método. El segundo nivel requiere que otro docente revise el proceso completo. La [pieza sobre redes y comunidades](/formacion-docente/redes/) cubre el marco; los espacios concretos hay que construirlos institucionalmente.
 
-El marco de competencias de IA para docentes de UNESCO (2024) identifica cinco áreas. Tres de ellas —**mentalidad humanista**, **pedagogía de la IA** y **IA para el desarrollo profesional propio**— exigen, para alcanzar el nivel *Crear*, una competencia de co-creación que el marco no nombra explícitamente pero supone. Nombrar y desarrollar de forma deliberada la literacidad de co-creación potencia ese marco: aporta el lenguaje y el método formativo para la competencia que hoy queda implícita en su nivel más alto. Rousell y Sinclair (2025) señalan que los sistemas de IA no son herramientas al servicio de futuros ya decididos, sino componentes activos en la producción de esos futuros: la literacidad de co-creación es, también, la competencia de participar en ese proceso.
+Y sin reconocimiento académico explícito, la alfabetización en co-creación queda en el territorio del interés personal. Los docentes que la desarrollen lo harán en contra del sistema, no gracias a él.
+
+## Conexiones con los marcos UNESCO
+
+El marco de competencias de IA para docentes de UNESCO (2024) enumera cinco áreas —**mentalidad centrada en lo humano**, **ética de la IA**, **fundamentos y aplicaciones de la IA**, **pedagogía de la IA** e **IA para el aprendizaje profesional**— y tres niveles progresivos de dominio en cada una: *Adquirir*, *Profundizar* y *Crear*. El nivel *Crear* es donde la literacidad de co-creación se vuelve indispensable, aunque el marco no la nombra con ese término. En tres de las cinco áreas, alcanzar *Crear* exige en la práctica sostener un acoplamiento productivo con la IA:
+
+- En **mentalidad centrada en lo humano**, *Crear* implica diseñar configuraciones de uso de IA que preserven la agencia humana —exactamente la decisión que define la co-creación: cuándo el sistema participa, cuándo no y bajo qué criterio.
+- En **pedagogía de la IA**, *Crear* significa diseñar actividades de aprendizaje con IA para otros; un docente no puede diseñar lo que él mismo no sabe sostener (es el Nivel 3 de la progresión propuesta arriba).
+- En **IA para el aprendizaje profesional**, *Crear* describe el uso de la IA como interlocutor del propio desarrollo intelectual del docente —el caso paradigmático de co-creación aplicado a la práctica profesional.
+
+Las otras dos áreas —**ética de la IA** y **fundamentos y aplicaciones**— en su nivel *Crear* movilizan competencias distintas (liderazgo ético-normativo, diseño técnico) que no dependen del mismo acoplamiento epistémico. Nombrar y desarrollar intencionadamente la literacidad de co-creación ayuda a ese marco: aporta el soporte léxico y el método formativo para la competencia que hoy queda implícita en su nivel máximo. Rousell y Sinclair (2025) señalan, además, que los sistemas de IA no son herramientas al servicio de futuros previamente decididos, sino componentes activos en la creación de esos futuros: la literacidad de co-creación es, también, la competencia de participar en ese proceso.
 
 ## Lecturas relacionadas
 
