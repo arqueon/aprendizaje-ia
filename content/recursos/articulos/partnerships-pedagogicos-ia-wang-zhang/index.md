@@ -78,7 +78,7 @@ El análisis fsQCA identifica varias configuraciones distintas de variables que 
 **Implicación pedagógica.** No basta con permitir el uso de IA; lo que activa el aprendizaje profundo es la **intensidad y el encuadre relacional** de la interacción. Tareas livianas con IA producen aprendizaje livianos. Tareas exigentes diseñadas como colaboración producen transformación.
 {{< /alert >}}
 
-## Lo que esto cambia para el diseño de actividades en la UDG
+## Lo que esto cambia para el diseño de actividades en la UdeG
 
 El estudio ofrece una agenda concreta para el rediseño didáctico que conecta directamente con varias líneas que ya estamos trabajando en el sitio:
 

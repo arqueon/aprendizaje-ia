@@ -150,5 +150,5 @@ residencias profesionales, prácticas industriales.
 
 ## Fuente
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UDG), integrando Bloom
+Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
 y la rúbrica IAG unificada del sitio.

@@ -48,7 +48,7 @@ trabajo. La IAG es cartógrafa del territorio; el estudiante decide la ruta.
 
 Este producto moviliza los niveles **2 a 5** de la taxonomía de Bloom, con
 nivel dominante **4 — Analizar** (la articulación de relaciones entre los
-subtemas). Los prompts vienen de la guía UDG y se anclan a niveles Bloom.
+subtemas). Los prompts vienen de la guía UdeG y se anclan a niveles Bloom.
 
 | Nivel Bloom | Movimiento del trabajo | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -158,5 +158,5 @@ trabajo de investigación documental de mediana extensión.
 
 ## Fuente
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UDG), integrando Bloom
+Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
 y la rúbrica IAG unificada del sitio.

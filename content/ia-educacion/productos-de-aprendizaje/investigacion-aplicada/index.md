@@ -145,5 +145,5 @@ tesis aplicadas.
 
 ## Fuente
 
-Marco UDG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
+Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
 nivelados a Bloom específicamente para este producto.

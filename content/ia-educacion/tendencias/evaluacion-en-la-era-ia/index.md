@@ -105,7 +105,7 @@ Puedes acceder al briefing y otros recursos en el sitio del **[Digital Education
 
 ---
 
-## Implicaciones para la UDG
+## Implicaciones para la UdeG
 
 Para docentes de la Universidad de Guadalajara, esta perspectiva plantea preguntas concretas:
 
