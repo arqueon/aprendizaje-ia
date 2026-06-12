@@ -52,7 +52,7 @@ Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa
 
 {{< card title="Alfabetización para la co-creación" icon="handshake" color="#7c3aed"
     link="/formacion-docente/alfabetizacion-co-creacion/"
-    description="Sostener el acoplamiento humano-IA conservando la dirección epistémica del proceso." >}}
+    description="Sostener el acoplamiento persona-IA conservando la dirección epistémica del proceso." >}}
 
 {{< /cards >}}
 
@@ -129,7 +129,7 @@ flowchart LR
 
 - [Marco conceptual completo de las tres literacidades](/formacion-docente/alfabetizacion/) — desarrollo textual extenso de los tres niveles.
 - [Guía formativa de la co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) — progresión en tres sub-niveles (detectar, sostener, diseñar para otros) con indicadores observables.
-- [Marco conceptual de la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) — sustento teórico (Deleuze-Guattari, Meshi, ensamblaje cognitivo).
+- [Marco conceptual de la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) — sustento teórico (Deleuze-Guattari, Meshi, ensamblaje cognitivo).
 - [Evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) — cómo desplazar la evaluación al proceso de co-creación.
 {{< /alert >}}
 

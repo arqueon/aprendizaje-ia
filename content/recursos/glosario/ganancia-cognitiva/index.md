@@ -14,9 +14,9 @@ La **ganancia cognitiva** es el reverso de la [descarga cognitiva](/glosario/des
 
 Es en esos **desplazamientos** —y no en la obtención rápida de un resultado— donde se produce conocimiento genuino, y donde la IA deja de ser un atajo de razonamiento para volverse un interlocutor que **activa** el pensamiento en lugar de sustituirlo (Nasr et al., 2025).
 
-La ganancia cognitiva no es automática: depende de que la persona conserve la dirección del proceso y sostenga un **ciclo iterativo** —formular preguntas, leer críticamente lo que el sistema devuelve, descartar y reformular—, cuya calidad descansa en el juicio de quien lo conduce y no en el modelo (Ji et al., 2025). Por eso es inseparable de la [co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) y se hace visible al documentar el proceso, no solo el producto.
+La ganancia cognitiva no es automática: depende de que la persona conserve la dirección del proceso y sostenga un **ciclo iterativo** —formular preguntas, leer críticamente lo que el sistema devuelve, descartar y reformular—, cuya calidad descansa en el juicio de quien lo conduce y no en el modelo (Ji et al., 2025). Por eso es inseparable de la [co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) y se hace visible al documentar el proceso, no solo el producto.
 
-**Relacionado con:** [Descarga cognitiva](/glosario/descarga-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
+**Relacionado con:** [Descarga cognitiva](/glosario/descarga-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
 
 ## Referencias
 

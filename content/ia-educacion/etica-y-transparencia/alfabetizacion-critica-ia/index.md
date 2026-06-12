@@ -71,7 +71,7 @@ La alfabetización crítica en inteligencia artificial es el juicio para usar es
 La alfabetización crítica es el segundo nivel del marco de tres literacidades. Las otras dos:
 
 - **[Principios de la alfabetización operativa](/formacion-docente/alfabetizacion-operativa/)** — primer nivel: usar la IA con soltura.
-- **[Principios de la alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — tercer nivel: sostener el acoplamiento humano-IA sin perder la dirección epistémica.
+- **[Principios de la alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — tercer nivel: sostener el acoplamiento persona-IA sin perder la dirección epistémica.
 
 La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa.
 

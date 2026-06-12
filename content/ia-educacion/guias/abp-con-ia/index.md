@@ -144,7 +144,7 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 
 ## Lecturas relacionadas
 
-- Para el marco teórico de la co-creación persona-IA, ver la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
+- Para el marco teórico de la co-creación persona-IA, ver la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
 - Para una [implementación concreta documentada paso a paso](/laboratorio/practicas/abp-con-ia/) — caso real de un proyecto colaborativo en aula.
 - Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) aplican directamente a la fase de iteración.
 

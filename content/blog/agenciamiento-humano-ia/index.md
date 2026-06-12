@@ -1,5 +1,5 @@
 ---
-title: "El agenciamiento humano-IA: ni herramienta ni reemplazo"
+title: "El agenciamiento persona-IA: ni herramienta ni reemplazo"
 date: 2026-04-26
 draft: false
 description: "Las dos metáforas dominantes —la IA como herramienta neutra y la IA como amenaza que reemplaza al humano— ocultan lo que de hecho está ocurriendo."
@@ -33,7 +33,7 @@ Lo mismo ocurre con un estudiante que escribe con asistencia de IA. El texto fin
 
 La metáfora opuesta —"la IA reemplazará a los docentes / a los estudiantes / a los humanos"— comparte el mismo error de fondo, en versión inversa. Trata al humano y a la IA como entidades sustituibles: una hace lo que la otra hace, mejor o peor.
 
-La realidad observable contradice esta lectura. Un docente que usa IA en su práctica no produce lo mismo que produciría sin IA, pero tampoco lo mismo que un sistema sin él produciría. El "reemplazo" no ocurre porque la pareja humano-IA hace cosas que ninguno de los dos puede hacer solo. La pregunta de quién reemplaza a quién pierde sentido cuando lo que hay es una producción conjunta.
+La realidad observable contradice esta lectura. Un docente que usa IA en su práctica no produce lo mismo que produciría sin IA, pero tampoco lo mismo que un sistema sin él produciría. El "reemplazo" no ocurre porque la pareja persona-IA hace cosas que ninguno de los dos puede hacer solo. La pregunta de quién reemplaza a quién pierde sentido cuando lo que hay es una producción conjunta.
 
 ## El agenciamiento como tercera lectura
 
@@ -47,17 +47,17 @@ Pensar así tiene consecuencias prácticas que la metáfora instrumental no perm
 
 **El estudiante no "usa" IA: aprende a constituir agenciamientos.** Cuando esto se reconoce, las prácticas pedagógicas cambian. Lo que se enseña no es a operar herramientas, sino a sostener acoplamientos productivos: saber qué aporta cada parte, dónde están las tensiones, cómo se mantiene el control sobre el resultado. Es competencia profesional emergente, no opcional.
 
-**La autoría se redistribuye, pero no se disuelve.** Un texto producido en agenciamiento humano-IA no carece de autor; tiene una autoría compleja que conviene explicitar en lugar de ocultar. La transparencia sobre el uso de IA, que en la metáfora instrumental aparece como honestidad ética, en la lectura del agenciamiento aparece como precisión descriptiva. Decir cómo se hizo el texto no es solo una norma; es una representación correcta de lo que el texto es.
+**La autoría se redistribuye, pero no se disuelve.** Un texto producido en agenciamiento persona-IA no carece de autor; tiene una autoría compleja que conviene explicitar en lugar de ocultar. La transparencia sobre el uso de IA, que en la metáfora instrumental aparece como honestidad ética, en la lectura del agenciamiento aparece como precisión descriptiva. Decir cómo se hizo el texto no es solo una norma; es una representación correcta de lo que el texto es.
 
 **La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto pierde lo central. La rúbrica útil mide la calidad del agenciamiento: cómo se distribuyó el trabajo, cómo se sostuvo el control epistémico, qué se aceptó y qué se descartó del modelo, qué decisiones se tomaron en la zona donde el humano y la IA produjeron tensión.
 
 ## Una posición sobre la docencia
 
-Educar en la era de la IA no es enseñar a usar herramientas ni preparar a los estudiantes para "no ser reemplazados". Es enseñar a constituir agenciamientos productivos: parejas humano-IA donde el humano mantiene la dirección epistémica y el modelo amplifica capacidades específicas. Esa enseñanza requiere un docente que practique lo mismo que pide. Y requiere una institución que reconozca que el cambio es estructural, no decorativo.
+Educar en la era de la IA no es enseñar a usar herramientas ni preparar a los estudiantes para "no ser reemplazados". Es enseñar a constituir agenciamientos productivos: parejas persona-IA donde el humano mantiene la dirección epistémica y el modelo amplifica capacidades específicas. Esa enseñanza requiere un docente que practique lo mismo que pide. Y requiere una institución que reconozca que el cambio es estructural, no decorativo.
 
 ## Lecturas relacionadas
 
-La [guía sobre el agenciamiento humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; la [práctica de ABP con IA](/laboratorio/practicas/abp-con-ia/) muestra el agenciamiento operativo en aula; el [post sobre el rol del docente](/blog/rol-docente-era-ia/) sostiene una redefinición operativa del oficio.
+La [guía sobre el agenciamiento persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; la [práctica de ABP con IA](/laboratorio/practicas/abp-con-ia/) muestra el agenciamiento operativo en aula; el [post sobre el rol del docente](/blog/rol-docente-era-ia/) sostiene una redefinición operativa del oficio.
 
 ## Referencias
 

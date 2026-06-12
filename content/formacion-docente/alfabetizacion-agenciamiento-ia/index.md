@@ -3,7 +3,7 @@ title: "Alfabetización en co-creación: aprender a co-producir con IA"
 date: 2026-04-26
 draft: false
 description: "Una capa específica de alfabetización digital que las anteriores no cubren: aprender a sostener un acoplamiento productivo con sistemas de IA, sin colapsar en uso instrumental ni en delegación pasiva."
-summary: "La co-creación humano-IA no se aprende por exposición. Esta pieza propone un marco formativo de tres niveles para que un docente desarrolle la competencia de co-producir conocimiento con un sistema algorítmico."
+summary: "La co-creación persona-IA no se aprende por exposición. Esta pieza propone un marco formativo de tres niveles para que un docente desarrolle la competencia de co-producir conocimiento con un sistema algorítmico."
 tags: ["co-creación", "alfabetización", "co-producción", "competencia digital", "Deleuze"]
 categories: ["guia"]
 areas: ["digital", "ia", "formacion"]
@@ -26,7 +26,7 @@ La alfabetización digital tradicional enseña a usar las herramientas. La alfab
 
 La habitual disociación entre la alfabetización operativa y la alfabetización crítica resulta adecuada para muchos artefactos digitales: aprendo a hacer funcionar Word y aprendo qué intereses son los que sostienen al producto. Para el caso de la IA generativa esa dupla de alfabetizaciones nos dejaría un vacío.
 
-La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acontece a lo largo de la interacción: cómo mantener un diálogo con la IA donde el humano sostiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— es la que la [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) describe en términos teóricos y que aquí se traduce en marco formativo.
+La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acontece a lo largo de la interacción: cómo mantener un diálogo con la IA donde el humano sostiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— es la que la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) describe en términos teóricos y que aquí se traduce en marco formativo.
 
 A continuación se presenta un esquema que resume las tres literacidades, detallando lo que cada una desarrolla y cómo se construye:
 
@@ -76,7 +76,7 @@ La manera de formarse es a partir de ejercicios de transcripción reflexiva. El 
 
 ### Nivel 2 — Mantener la co-creación
 
-Detectar no es igual a mantener. El segundo nivel plantea que el docente aprenda a sostener el control epistémico durante la interacción, no solo reconocerlo a posteriori. Yang y Ma (2025) proponen una clasificación de las relaciones epistémicas en la interacción humano-IA que permite nombrar qué tipo de vínculo mantiene el humano al realizar cada tarea: si actúa como autor, evaluador o curador del resultado. Hablamos de reformular prompts cuando una salida es insatisfactoria, de descartar respuestas plausibles que no cumplen el criterio del docente, o de no aceptar una salida adecuada cuando la propia exigencia pedía más.
+Detectar no es igual a mantener. El segundo nivel plantea que el docente aprenda a sostener el control epistémico durante la interacción, no solo reconocerlo a posteriori. Yang y Ma (2025) proponen una clasificación de las relaciones epistémicas en la interacción persona-IA que permite nombrar qué tipo de vínculo mantiene el humano al realizar cada tarea: si actúa como autor, evaluador o curador del resultado. Hablamos de reformular prompts cuando una salida es insatisfactoria, de descartar respuestas plausibles que no cumplen el criterio del docente, o de no aceptar una salida adecuada cuando la propia exigencia pedía más.
 
 **Indicadores observables:**
 
@@ -122,7 +122,7 @@ Las otras dos áreas —**ética de la IA** y **fundamentos y aplicaciones**— 
 
 ## Lecturas relacionadas
 
-La [guía sobre la co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el marco conceptual; el ensayo del blog sobre [la co-creación humano-IA](/blog/agenciamiento-humano-ia/) sostiene la posición filosófica; la [alfabetización digital](/formacion-docente/alfabetizacion/) cubre el nivel previo del que parte esta competencia; la [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) cubre la dimensión epistémica complementaria.
+La [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el marco conceptual; el ensayo del blog sobre [la co-creación persona-IA](/blog/agenciamiento-humano-ia/) sostiene la posición filosófica; la [alfabetización digital](/formacion-docente/alfabetizacion/) cubre el nivel previo del que parte esta competencia; la [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) cubre la dimensión epistémica complementaria.
 
 ## Referencias
 

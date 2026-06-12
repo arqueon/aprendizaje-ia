@@ -77,7 +77,7 @@ La [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabeti
 
 El tercer nivel es el que las dos alfabetizaciones anteriores no cubren: aprender a sostener una interacción con la IA donde lo que se produce emerge del acoplamiento humano-modelo, sin que el humano pierda la dirección del proceso.
 
-Meshi (2024) describe este acoplamiento como un **ensamblaje cognitivo** (*cognitive assemblage*): el resultado no pertenece ni al humano solo ni al modelo solo, sino a la relación estructurada entre los dos. Yang y Ma (2025) ofrecen una taxonomía de las relaciones epistémicas en la interacción humano-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea — si el humano actúa como autor, evaluador, curador o par. Rousell y Sinclair (2025) conectan esta dimensión con una pregunta más amplia: qué futuros educativos estamos co-creando con los sistemas que adoptamos.
+Meshi (2024) describe este acoplamiento como un **ensamblaje cognitivo** (*cognitive assemblage*): el resultado no pertenece ni al humano solo ni al modelo solo, sino a la relación estructurada entre los dos. Yang y Ma (2025) ofrecen una taxonomía de las relaciones epistémicas en la interacción persona-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea — si el humano actúa como autor, evaluador, curador o par. Rousell y Sinclair (2025) conectan esta dimensión con una pregunta más amplia: qué futuros educativos estamos co-creando con los sistemas que adoptamos.
 
 La competencia de co-creación implica:
 
@@ -86,7 +86,7 @@ La competencia de co-creación implica:
 - Documentar el proceso de co-creación como evidencia del trabajo intelectual.
 - Saber cuándo **no** usar la IA: cuando el esfuerzo sin asistencia es lo que produce el aprendizaje.
 
-Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación humano-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
+Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
 
 ## Lo que los tres niveles comparten
 

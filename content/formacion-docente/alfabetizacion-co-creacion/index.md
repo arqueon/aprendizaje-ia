@@ -3,7 +3,7 @@ title: "Principios de la alfabetización para la co-creación con inteligencia a
 date: 2026-05-28
 draft: false
 description: "Cinco principios para sostener una co-creación productiva con IA: reconocer el acoplamiento, conservar la dirección epistémica, sostener el ciclo iterativo, documentar el proceso y cultivar la ganancia cognitiva."
-summary: "Pilares del tercer nivel del marco de literacidades en IA: la competencia de sostener el acoplamiento humano-IA sin perder la dirección del proceso."
+summary: "Pilares del tercer nivel del marco de literacidades en IA: la competencia de sostener el acoplamiento persona-IA sin perder la dirección del proceso."
 tags: ["alfabetizacion-ia", "co-creación", "agenciamiento", "ensamblaje", "literacidad", "dirección-epistémica"]
 categories: ["marco-conceptual"]
 areas: ["ia", "pedagogia", "formacion"]
@@ -20,17 +20,17 @@ weight: 1
 ---
 
 {{< lead >}}
-La alfabetización para la co-creación es el tercer nivel del marco de tres literacidades en IA. Cubre lo que las dos anteriores no tocan: cómo sostener un acoplamiento humano-IA productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024).
+La alfabetización para la co-creación es el tercer nivel del marco de tres literacidades en IA. Cubre lo que las dos anteriores no tocan: cómo sostener un acoplamiento persona-IA productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024).
 {{< /lead >}}
 
 {{< infografia
     titulo="Principios de la alfabetización para la co-creación con IA"
-    subtitulo="Cinco competencias para sostener el acoplamiento humano-IA sin perder la dirección epistémica del proceso."
+    subtitulo="Cinco competencias para sostener el acoplamiento persona-IA sin perder la dirección epistémica del proceso."
     fuente="**Referencias:** Meshi (2024), *GPT-ME: A human-AI cognitive assemblage*; Yang & Ma (2025), *Classifying epistemic relationships in human-AI interaction*; Lodge & Loble (2026), *Artificial intelligence, cognitive offloading and implications for education*; Wang & Zhang (2026), *Pedagogical partnerships with generative AI*."
 >}}
 
 {{< infografia-intro >}}
-La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo que las literacidades operativa y crítica no tocan: cómo sostener un acoplamiento **humano-IA** productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024). Es la competencia más difícil de formar y la que decide si la IA amplifica el pensamiento o lo sustituye.
+La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo que las literacidades operativa y crítica no tocan: cómo sostener un acoplamiento **persona-IA** productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024). Es la competencia más difícil de formar y la que decide si la IA amplifica el pensamiento o lo sustituye.
 {{< /infografia-intro >}}
 
 {{< infografia-seccion numero="1" titulo="Reconocer el acoplamiento" icono="handshake" color="#6d28d9" >}}

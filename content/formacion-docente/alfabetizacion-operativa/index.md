@@ -70,7 +70,7 @@ La alfabetización operativa es el primer nivel del marco de tres literacidades.
 La alfabetización operativa es el primer nivel del marco de tres literacidades que organiza la formación docente en IA. Es condición necesaria pero no suficiente: usar la herramienta con soltura no garantiza entenderla ni co-crear con ella. Las otras dos:
 
 - **[Alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/)** — entender los sistemas, sus sesgos y efectos; discernir y verificar lo que devuelven.
-- **[Alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — sostener el acoplamiento humano-IA conservando la dirección epistémica del proceso.
+- **[Alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — sostener el acoplamiento persona-IA conservando la dirección epistémica del proceso.
 
 La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa y por qué los tres niveles son acumulativos.
 

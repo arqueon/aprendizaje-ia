@@ -1,5 +1,5 @@
 ---
-title: "El agenciamiento (ensamblaje) humano-IA — marco conceptual para docentes"
+title: "El agenciamiento (ensamblaje) persona-IA — marco conceptual para docentes"
 date: 2026-04-14
 draft: false
 description: "Marco conceptual basado en Deleuze y Guattari para entender la relación persona-IA como un agenciamiento (ensamblaje) productivo, no como uso de herramienta."
@@ -119,7 +119,7 @@ El agenciamiento (ensamblaje) no asume que la IA es inteligente. Asume que la in
 
 ## Relación con otras secciones del sitio
 
-- La [práctica de co-producción humano-IA](/laboratorio/practicas/co-produccion-humano-ia/) (en desarrollo) documentará una implementación concreta de este marco
+- La [práctica de co-producción persona-IA](/laboratorio/practicas/co-produccion-humano-ia/) (en desarrollo) documentará una implementación concreta de este marco
 - La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) aplica el agenciamiento (ensamblaje) en contexto de proyectos
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) ofrecen el contrapeso necesario para evitar una adopción acrítica
 
