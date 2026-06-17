@@ -123,7 +123,7 @@ Sección prioritaria del sitio.
 
 - [ ] Artículos y documentos (hub) — `recursos/articulos/_index.md`
 - [ ] Rhizomatic education: community as curriculum — Cormier — `recursos/articulos/cormier-rhizomatic-education/`
-- [ ] Redesigning assessment for an AI-enabled world — Bearman et al. — `recursos/articulos/evaluacion-autentica-ia-bearman/`
+- [ ] The Next Era of Assessment: Global Review — DEC & Pearson (2025) — `recursos/articulos/next-era-assessment-dec/`
 - [ ] Generative AI as an enabler of student feedback engagement — `recursos/articulos/genai-feedback-engagement-2025/`
 - [ ] On the limits of artificial intelligence (AI) in education — Selwyn — `recursos/articulos/selwyn-limites-ia-educacion/`
 

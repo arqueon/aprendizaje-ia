@@ -142,7 +142,7 @@ Al momento de revisar este entregable, los criterios del docente deben cambiar d
 
 - La [práctica de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) documenta una implementación concreta de estos principios
 - La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) usa la evaluación formativa en su fase de iteración
-- El artículo de [Bearman et al. sobre evaluación auténtica](/recursos/articulos/evaluacion-autentica-ia-bearman/) profundiza en los fundamentos teóricos
+- El [reporte global del DEC sobre la nueva era de la evaluación](/recursos/articulos/next-era-assessment-dec/) ofrece un catálogo de 14 metodologías directas.
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) son relevantes para formar estudiantes que evalúen críticamente la retroalimentación de la IA
 
 ## Recursos adicionales

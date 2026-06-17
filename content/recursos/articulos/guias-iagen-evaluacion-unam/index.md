@@ -152,7 +152,7 @@ Para citar cada guía en formato APA:
 
 ## Lecturas relacionadas en este sitio
 
-La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece el marco internacional con el que estas guías UNAM dialogan. El artículo de [Bearman et al. sobre rediseño de la evaluación](/recursos/articulos/evaluacion-autentica-ia-bearman/) es referencia natural para entender la lógica del rediseño evaluativo. Y la pieza sobre la [evaluación en la era de la IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) ubica el debate en el contexto universitario regional.
+La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece el marco internacional con el que estas guías UNAM dialogan. El reporte del DEC sobre [la nueva era de la evaluación](/recursos/articulos/next-era-assessment-dec/) ofrece las 14 metodologías necesarias para entender la lógica del rediseño evaluativo actual. Y la pieza sobre la [evaluación en la era de la IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) ubica el debate en el contexto universitario regional.
 
 ## Visualización de las guías
 
