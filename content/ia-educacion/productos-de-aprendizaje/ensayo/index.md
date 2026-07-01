@@ -88,7 +88,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 {{< timeline >}}
 
-{{< timelineItem icon="bullseye" header="1. Interpretar la consigna" subheader="Preparar · antes · trabajo asíncrono" md="true" >}}
+{{< timelineItem icon="bullseye" header="1. Interpretar la consigna" subheader="Preparar · asíncrono" md="true" >}}
 **Propósito.** Entender qué pide la consigna y acotar un problema propio.
 
 **Estudiante:** subraya el verbo de la consigna, delimita el problema y escribe una primera pregunta de trabajo.
@@ -100,7 +100,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** nota de enfoque con una elección y al menos un descarte justificado.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="book-open" header="2. Investigar y verificar" subheader="Preparar · antes · trabajo asíncrono" md="true" >}}
+{{< timelineItem icon="book-open" header="2. Investigar y verificar" subheader="Preparar · asíncrono" md="true" >}}
 **Propósito.** Reunir evidencia fiable y distinguir afirmación de fuente.
 
 **Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con evidencia verificable.
@@ -112,7 +112,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** matriz breve de afirmaciones, fuentes y comprobación.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="route" header="3. Formular tesis y esquema" subheader="Preparar · durante · taller síncrono sugerido" md="true" >}}
+{{< timelineItem icon="route" header="3. Formular tesis y esquema" subheader="Preparar · taller síncrono" md="true" >}}
 **Propósito.** Tomar una postura debatible y poder sostenerla.
 
 **Estudiante:** escribe una tesis provisional, la contrasta con las fuentes y conserva su evolución.
@@ -124,7 +124,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** tesis v1, v2 y final, con justificación de la elección.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="file-pen" header="4. Escribir el primer borrador" subheader="Escribir · después · trabajo asíncrono" md="true" >}}
+{{< timelineItem icon="file-pen" header="4. Escribir el primer borrador" subheader="Escribir · asíncrono" md="true" >}}
 **Propósito.** Construir el argumento con voz propia antes de cualquier ayuda.
 
 **Estudiante:** redacta un borrador completo con su voz, argumentos, evidencia y contraargumentos.
@@ -136,7 +136,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** borrador v1 fechado y conservado antes de la retroalimentación algorítmica.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="comments" header="5. Interrogar el borrador" subheader="Interrogar · durante · sesión guiada o asíncrona" md="true" >}}
+{{< timelineItem icon="comments" header="5. Interrogar el borrador" subheader="Interrogar · síncrono o asíncrono" md="true" >}}
 **Propósito.** Exponer el borrador a la crítica para hallar sus puntos débiles.
 
 **Estudiante:** solicita un esquema inverso, objeciones fuertes y una lectura provisional con la rúbrica del docente.
@@ -148,7 +148,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** interacciones significativas seleccionadas, objeciones y respuestas del estudiante.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="code-compare" header="6. Revisar y decidir" subheader="Cerrar · después · trabajo asíncrono" md="true" >}}
+{{< timelineItem icon="code-compare" header="6. Revisar y decidir" subheader="Cerrar · asíncrono" md="true" >}}
 **Propósito.** Juzgar cada sugerencia y decidir con fundamento.
 
 **Estudiante:** acepta, adapta o rechaza cada sugerencia relevante y explica por qué. Después produce la versión final.
@@ -160,7 +160,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 **Evidencia:** tabla de decisiones y comparación entre v1 y versión final.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="person-chalkboard" header="7. Entregar, declarar y defender" subheader="Cerrar · punto de control final" md="true" >}}
+{{< timelineItem icon="person-chalkboard" header="7. Entregar, declarar y defender" subheader="Cerrar · síncrono breve o memo" md="true" >}}
 **Propósito.** Dar cuenta del proceso y responder por la autoría.
 
 **Estudiante:** entrega el ensayo y el portafolio mínimo, declara cómo usó IA y explica una decisión importante en una defensa breve o reflexión.
