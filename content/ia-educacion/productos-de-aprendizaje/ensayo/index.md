@@ -8,7 +8,7 @@ tags: ["producto-aprendizaje", "bloom-5", "rubrica-iag", "cognitivas", "comunica
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
 
-# Dimensiones del marco unificado (ver plan-productos-de-aprendizaje-iag.md)
+# Dimensiones del marco unificado
 bloom_dominante: 5
 bloom_rango: "2-6"
 competencias_cluster: ["Cognitivas", "Comunicación"]
@@ -183,7 +183,6 @@ fuentes científicas.
 - Práctica relacionada en el Laboratorio: [Debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}) — la IAG como "abogado del diablo" para fortalecer argumentos.
 - Guía pedagógica: [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
 - Glosario: _Pensamiento crítico, Ingeniería de prompts, Integridad académica_ (por enlazar).
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente de esta guía
 
