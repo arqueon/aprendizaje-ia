@@ -173,5 +173,5 @@ disciplinares o casos global-local.
 ## Fuente de esta guía
 
 Adaptado de la **Guía Interactiva de Análisis de Casos (Global-Local)**
-elaborada con Gemini (6 fases), integrando el marco Bloom y la rúbrica IAG
-unificada del sitio.
+elaborada con apoyo de IA generativa (6 fases), integrando el marco Bloom y la
+rúbrica IAG unificada del sitio.
