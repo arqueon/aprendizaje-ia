@@ -89,6 +89,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< timeline >}}
 
 {{< timelineItem icon="bullseye" header="1. Interpretar la consigna" subheader="Preparar · antes · trabajo asíncrono" md="true" >}}
+**Propósito.** Entender qué pide la consigna y acotar un problema propio.
+
 **Estudiante:** subraya el verbo de la consigna, delimita el problema y escribe una primera pregunta de trabajo.
 
 **IA:** formula preguntas aclaratorias y compara posibles enfoques; no elige el tema ni responde la consigna.
@@ -99,6 +101,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="book-open" header="2. Investigar y verificar" subheader="Preparar · antes · trabajo asíncrono" md="true" >}}
+**Propósito.** Reunir evidencia fiable y distinguir afirmación de fuente.
+
 **Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con evidencia verificable.
 
 **IA:** sugiere conceptos, autores o tipos de fuente que conviene buscar; una referencia propuesta por el modelo nunca cuenta como verificada.
@@ -109,6 +113,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="route" header="3. Formular tesis y esquema" subheader="Preparar · durante · taller síncrono sugerido" md="true" >}}
+**Propósito.** Tomar una postura debatible y poder sostenerla.
+
 **Estudiante:** escribe una tesis provisional, la contrasta con las fuentes y conserva su evolución.
 
 **IA:** tensiona una tesis ya escrita: identifica supuestos, ambigüedades y objeciones previsibles. No origina la postura del ensayo.
@@ -119,6 +125,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="file-pen" header="4. Escribir el primer borrador" subheader="Escribir · después · trabajo asíncrono" md="true" >}}
+**Propósito.** Construir el argumento con voz propia antes de cualquier ayuda.
+
 **Estudiante:** redacta un borrador completo con su voz, argumentos, evidencia y contraargumentos.
 
 **IA:** permanece fuera de la redacción sustantiva. Puede aclarar una duda de formato, pero no producir párrafos para pegar.
@@ -129,6 +137,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="comments" header="5. Interrogar el borrador" subheader="Interrogar · durante · sesión guiada o asíncrona" md="true" >}}
+**Propósito.** Exponer el borrador a la crítica para hallar sus puntos débiles.
+
 **Estudiante:** solicita un esquema inverso, objeciones fuertes y una lectura provisional con la rúbrica del docente.
 
 **IA:** diagnostica la estructura y actúa como adversaria argumentativa. Señala problemas; no reescribe el ensayo.
@@ -139,6 +149,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code-compare" header="6. Revisar y decidir" subheader="Cerrar · después · trabajo asíncrono" md="true" >}}
+**Propósito.** Juzgar cada sugerencia y decidir con fundamento.
+
 **Estudiante:** acepta, adapta o rechaza cada sugerencia relevante y explica por qué. Después produce la versión final.
 
 **IA:** propone cambios localizados y explica su razón; no sustituye la decisión del autor.
@@ -149,6 +161,8 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< /timelineItem >}}
 
 {{< timelineItem icon="person-chalkboard" header="7. Entregar, declarar y defender" subheader="Cerrar · punto de control final" md="true" >}}
+**Propósito.** Dar cuenta del proceso y responder por la autoría.
+
 **Estudiante:** entrega el ensayo y el portafolio mínimo, declara cómo usó IA y explica una decisión importante en una defensa breve o reflexión.
 
 **IA:** puede ayudar a anticipar preguntas, pero el estudiante responde con sus fuentes y su razonamiento.
