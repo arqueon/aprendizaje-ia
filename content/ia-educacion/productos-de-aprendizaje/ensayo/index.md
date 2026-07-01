@@ -96,6 +96,23 @@ Presentación que incluye: tesis, proceso de investigación (mostrando los mapas
 
 {{< /timeline >}}
 
+## Secuencia ampliada por etapas
+
+La línea de tiempo resume las fases; esta tabla las despliega en las **diez etapas** concretas del recorrido. En cada una cambia el **rol de la IAG** y la **literacidad** que se pone en juego —operativa (encuadrar y pedir), crítica (verificar y cuestionar) o de autoría (decidir y documentar)—, y cada una lleva su salvaguarda. Ese cambio de rol es lo que impide que la herramienta se vuelva redactora fantasma. Las etapas marcadas con ⁺ amplían la guía base.
+
+| # | Etapa | Rol de la IAG | Literacidad | Salvaguarda clave |
+|---|---|---|---|---|
+| 1 | Encuadre y divergencia de enfoques ⁺ | Cartógrafa (abre opciones) | Operativa | Decisión justificada por escrito |
+| 2 | Investigación y triangulación ⁺ | Guía de búsqueda | Crítica | Fuentes verificables; triangular cada afirmación |
+| 3 | Mapas conceptuales | Tutora socrática | Operativa | Mapas hechos antes de consultar la IAG |
+| 4 | Tesis en tres versiones | Interlocutora | Operativa | Evolución v1 → v2 → v3 visible |
+| 5 | Borrador de voz propia | Solo estilo y fluidez | Autoría | Borrador pre-IAG conservado |
+| 6 | Esquema inverso ⁺ | Diagnóstica | Crítica | Diagnostica, no reescribe |
+| 7 | Red team / abogado del diablo ⁺ | Adversaria | Crítica | Réplicas escritas a cada objeción |
+| 8 | Autoevaluación con rúbrica ⁺ | Evaluadora (rebatible) | Crítica | Impugnar al menos una calificación |
+| 9 | Revisión de estilo y voz | Editora | Autoría | Chequeo de homogeneización con el borrador pre-IAG |
+| 10 | Cierre: verificación y declaración | Público / verificadora | Autoría + ética | Declaración de uso + bitácora de procedencia |
+
 ## Evidencias de proceso requeridas
 
 Por el alto riesgo de sustitución de autoría en textos largos individuales,
