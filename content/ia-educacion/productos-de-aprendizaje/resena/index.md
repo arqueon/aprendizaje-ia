@@ -145,7 +145,6 @@ con análisis crítico de obras culturales o académicas.
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentación más extensa con tesis debatible.
 - Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — relato en lugar de juicio.
 - Producto cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — descripción sin juicio.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

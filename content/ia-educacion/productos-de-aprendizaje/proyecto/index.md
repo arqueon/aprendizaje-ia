@@ -148,7 +148,6 @@ diseño, administración, servicio social, prácticas profesionales.
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — comparte la lógica de alternativas/criterios sin construir solución.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — etapa posterior del mismo flujo.
 - Práctica del Laboratorio: [ABP con IA]({{< ref "/laboratorio/practicas/abp-con-ia" >}}).
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

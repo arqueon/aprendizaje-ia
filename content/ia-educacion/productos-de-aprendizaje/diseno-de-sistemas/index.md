@@ -137,7 +137,6 @@ estructural.
 - Producto cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — etapa posterior.
 - Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre que precede al diseño.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del diseño.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

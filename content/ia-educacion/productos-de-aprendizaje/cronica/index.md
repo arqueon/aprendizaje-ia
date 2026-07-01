@@ -147,7 +147,6 @@ creativa, testimonial o de no ficción narrativa.
 - Producto cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — contraparte informativa, sin interpretación.
 - Producto cercano: [Reseña con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/resena" >}}) — emite juicio en lugar de narrar.
 - Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método que puede alimentar la crónica.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

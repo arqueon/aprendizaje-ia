@@ -146,7 +146,6 @@ residencias profesionales, prácticas industriales.
 - Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — el reporte como cierre de una investigación empírica.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa del reporte.
 - Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — tipo específico de reporte experimental.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

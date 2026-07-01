@@ -143,7 +143,6 @@ naturales, ingenierías, ciencias sociales, marcos conceptuales de tesis.
 
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — usa el mapa conceptual como herramienta intermedia.
 - Producto cercano: [Monografía con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/monografia" >}}) — usa esquema de relaciones análogo.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

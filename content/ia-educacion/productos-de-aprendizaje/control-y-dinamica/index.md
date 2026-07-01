@@ -136,7 +136,6 @@ asignatura con sistemas dinámicos realimentados.
 - Producto cercano: [Circuitos eléctricos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/circuitos-electricos" >}}) — análisis previo en régimen estático.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base de la función de transferencia.
 - Producto cercano: [Automatización industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial" >}}) — aplicación industrial.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

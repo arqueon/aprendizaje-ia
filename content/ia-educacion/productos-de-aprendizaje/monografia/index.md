@@ -8,7 +8,7 @@ tags: ["producto-aprendizaje", "bloom-4", "rubrica-iag", "investigación", "cogn
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
 
-# Dimensiones del marco unificado (ver plan-productos-de-aprendizaje-iag.md)
+# Dimensiones del marco unificado
 bloom_dominante: 4
 bloom_rango: "2-5"
 competencias_cluster: ["Investigación", "Cognitivas", "Comunicación"]
@@ -154,7 +154,6 @@ trabajo de investigación documental de mediana extensión.
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentativo en vez de expositivo, mismo riesgo alto.
 - Producto cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — escala investigativa mayor.
 - Guía pedagógica: [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

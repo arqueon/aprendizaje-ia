@@ -132,7 +132,6 @@ medición, metrología dimensional o eléctrica.
 
 - Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — uso de mediciones para caracterización.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del resultado.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

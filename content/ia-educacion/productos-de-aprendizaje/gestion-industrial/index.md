@@ -135,7 +135,6 @@ gestión de calidad, gestión de proyectos industriales.
 - Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — formato proyectado para la implementación.
 - Producto cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — justificación cuantitativa de la mejora.
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — formato analítico cercano.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

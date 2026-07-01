@@ -8,7 +8,7 @@ tags: ["producto-aprendizaje", "bloom-5", "rubrica-iag", "cognitivas", "profesio
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
 
-# Dimensiones del marco unificado (ver plan-productos-de-aprendizaje-iag.md)
+# Dimensiones del marco unificado
 bloom_dominante: 5
 bloom_rango: "2-6"
 competencias_cluster: ["Cognitivas", "Profesionales", "Investigación"]
@@ -169,7 +169,6 @@ disciplinares o casos global-local.
 - Producto cercano en esta sección: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — comparte la lógica de alternativas y criterios, pero construye una solución; aquí sólo se justifica una decisión.
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — comparte la rúbrica de proceso y la lógica argumentativa.
 - Guía pedagógica: [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente de esta guía
 

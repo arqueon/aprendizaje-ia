@@ -153,7 +153,6 @@ memoria con arbitraje.
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — escala argumentativa menor con literatura más acotada.
 - Producto cercano: [Monografía con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/monografia" >}}) — etapa formativa previa.
 - Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — insumo empírico de muchos artículos.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

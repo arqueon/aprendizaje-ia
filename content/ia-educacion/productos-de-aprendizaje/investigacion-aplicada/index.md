@@ -141,7 +141,6 @@ tesis aplicadas.
 - Producto cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — formato de publicación con misma vigilancia sobre citas.
 - Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — versión empírica social.
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — encuadre analítico cercano.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

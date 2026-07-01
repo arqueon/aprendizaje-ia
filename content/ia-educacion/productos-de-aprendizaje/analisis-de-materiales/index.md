@@ -137,7 +137,6 @@ materiales, ciencia de materiales.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del análisis.
 - Producto cercano: [Metrología con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/metrologia" >}}) — manejo de incertidumbre análogo.
 - Producto cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — marco mayor.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

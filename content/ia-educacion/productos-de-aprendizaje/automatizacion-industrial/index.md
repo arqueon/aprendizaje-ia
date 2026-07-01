@@ -138,7 +138,6 @@ proyectos integradores con instrumentación de procesos.
 - Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — encuadre arquitectónico previo.
 - Producto cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — base teórica de la lógica de control.
 - Producto cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — integración con TI.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

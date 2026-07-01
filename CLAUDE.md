@@ -108,3 +108,4 @@ content/
      ├── index.md        ← showHero: true
      └── featured.webp   ← thumbnail + hero + OG image
      ```
+8. **Sin referencias internas en páginas públicas** — el repositorio es público. No incluir en el contenido menciones ni enlaces a archivos de planificación internos (p. ej. `plan-*.md`), rutas locales (`~/`, `/home/…`), servidores propios ni documentos privados. El marco o la fuente se integran en el propio texto o se enlazan a un recurso público; nunca como "ver `archivo-interno.md`". Aplica también a comentarios del front matter (se ven en GitHub).

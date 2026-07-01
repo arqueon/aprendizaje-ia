@@ -152,7 +152,6 @@ requieran recolección directa de datos.
 - Producto cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — versión orientada a problemas técnicos.
 - Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método específico que puede formar parte del diseño.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — etapa de comunicación del informe.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

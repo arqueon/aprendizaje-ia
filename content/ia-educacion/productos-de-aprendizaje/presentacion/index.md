@@ -139,7 +139,6 @@ seminarios, defensas, ponencias, exámenes orales.
 
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — comparte la fase de exposición oral.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — versión escrita con jerarquización análoga.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

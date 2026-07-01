@@ -140,7 +140,6 @@ Periodismo, comunicación organizacional, divulgación científica, derecho
 
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — versión más larga y especializada.
 - Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — contraparte interpretativa de la nota.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

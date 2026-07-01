@@ -147,7 +147,6 @@ Ciencias sociales, periodismo, trabajo social, educación, salud
 
 - Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — la entrevista como técnica dentro de un diseño.
 - Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — la entrevista como insumo narrativo.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

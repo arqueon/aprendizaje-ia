@@ -134,7 +134,6 @@ circuitos.
 - Producto cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — extiende el análisis a sistemas dinámicos.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base formal del análisis.
 - Producto cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación digital.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

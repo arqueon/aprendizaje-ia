@@ -148,7 +148,6 @@ cuantitativo, investigación de operaciones, economía aplicada.
 - Producto cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación del modelo en código.
 - Producto cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — modelado aplicado a decisiones.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — modelo como soporte de diseño.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 

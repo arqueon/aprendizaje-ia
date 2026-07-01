@@ -141,7 +141,6 @@ proyectos, finanzas aplicadas.
 - Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — el análisis económico como soporte de viabilidad.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa con análisis de sensibilidad análogo.
 - Producto cercano: [Gestión industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/gestion-industrial" >}}) — decisiones operativas.
-- Marco general: ver `plan-productos-de-aprendizaje-iag.md`.
 
 ## Fuente
 
