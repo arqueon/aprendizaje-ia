@@ -59,6 +59,9 @@ y a un prompt literal probado en la guía de referencia.
 | 4–5 — Analizar/Evaluar | Mapa conceptual integrador | Conecta los 3 textos por convergencias y contradicciones | _"Estoy conectando 3 autores. [Autor A] argumenta [resumen]. [Autor B] propone [resumen]. [Autor C] concluye [resumen]. Sugiere 2 puntos donde sus ideas convergen y 2 puntos donde entran en conflicto."_ |
 | 5 — Evaluar **(dominante)** | Formulación de tesis y esquema | Refina su tesis hasta hacerla debatible y específica | _"Mi tesis provisional es: '[tu tesis]'. Sugiéreme 3 formas de reformularla para que sea más contundente y específica. Luego, propón un esquema de 3 párrafos de desarrollo para apoyar esta tesis."_ |
 | 6 — Crear | Redacción del borrador | Compone párrafos y transiciones manteniendo su voz | _"He escrito este párrafo: '[tu párrafo]'. ¿Puedes sugerirme 3 maneras de mejorar la transición hacia el siguiente párrafo, que trata sobre [tema del siguiente párrafo]?"_ |
+| 4–5 — Analizar/Evaluar | Esquema inverso del borrador | Detecta vacíos de estructura y argumento | _"Te pego mi borrador. No lo reescribas. Reconstruye su esquema en una línea por párrafo, indicando la función de cada uno (contexto, tesis, evidencia, contraargumento, cierre). Señala qué párrafos no aportan a la tesis y dónde falta un puente lógico."_ |
+| 5–6 — Evaluar/Crear | Red team de la tesis | Responde a las objeciones más fuertes | _"Actúa como un revisor crítico y escéptico de mi tesis: '[tu tesis]'. Dame las 3 objeciones más fuertes que un especialista haría y un punto ciego que probablemente no estoy viendo. No las suavices."_ |
+| 5 — Evaluar | Autoevaluación con rúbrica | Impugna la valoración de la IAG con argumento | _"Evalúa mi borrador con esta rúbrica [pego criterios y niveles]. Asigna un nivel por criterio y justifícalo con una cita textual de mi ensayo. Sé estricto: luego impugnaré al menos una calificación."_ |
 | 5–6 | Revisión y edición | Pule contenido, estructura y estilo académico | _"Revisa el siguiente texto. No solo corrijas los errores, sino también sugiere mejoras de estilo para que suene más académico. Explica el porqué de tus 3 sugerencias más importantes."_ |
 | 6 — Crear | Exposición oral | Estructura una presentación y anticipa preguntas | _"Estoy preparando una presentación de 10 minutos sobre mi ensayo. Mi tesis es '[tu tesis]'. Ayúdame a estructurar la presentación y luego genera 5 preguntas desafiantes que podrían hacerme."_ |
 
@@ -72,18 +75,22 @@ y a un prompt literal probado en la guía de referencia.
 {{< timeline >}}
 
 {{< timelineItem icon="pencil" header="Fase 1 — Planificación e investigación profunda" subheader="Lectura, mapeo y síntesis" md="true" >}}
-Cinco sub-pasos: análisis de la consigna, búsqueda de ≥3 fuentes peer-reviewed, mapa mental por cada artículo, mapa conceptual integrador y formulación de tesis con esquema. La IAG actúa como **tutor socrático** —explora ángulos y pone a prueba interpretaciones, pero no entrega el argumento.
+Cinco sub-pasos: análisis de la consigna, búsqueda de ≥3 fuentes peer-reviewed, mapa mental por cada artículo, mapa conceptual integrador y formulación de tesis con esquema. Antes de comprometerse con un ángulo, el estudiante pide a la IAG **tres encuadres posibles del tema**, elige uno y justifica por escrito por qué descarta los otros. En la búsqueda, **triangula cada afirmación clave en al menos dos fuentes** y verifica que existan. La IAG actúa como **tutor socrático** —explora ángulos y pone a prueba interpretaciones, pero no entrega el argumento.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="keyboard" header="Fase 2 — Redacción del borrador" subheader="Voz autoral con apoyo de IAG" md="true" >}}
 Introducción con tesis explícita, párrafos de desarrollo con idea principal + evidencia, conclusión que reafirma sin repetir, bibliografía en formato requerido (APA, Chicago, etc.). La IAG sólo se consulta para **transiciones y fluidez**; nunca para escribir contenido.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="magnifying-glass" header="Fase 3 — Revisión y edición" subheader="Asistente de edición avanzado" md="true" >}}
+{{< timelineItem icon="gavel" header="Fase 3 — Interrogar el borrador" subheader="Esquema inverso · red team · autoevaluación" md="true" >}}
+Tres maniobras que exigen un nivel cognitivo alto sobre el borrador ya escrito. **Esquema inverso:** la IAG reconstruye el esquema del borrador —una línea por párrafo— para revelar su estructura real; el estudiante corrige saltos lógicos y párrafos sin función. **Red team:** la IAG presenta las tres objeciones más fuertes a la tesis; el estudiante responde por escrito, refutando con evidencia o concediendo y ajustando. **Autoevaluación con rúbrica:** la IAG puntúa el borrador y el estudiante **impugna al menos una calificación** con argumento. En las tres, la IAG diagnostica o cuestiona; nunca reescribe.
+{{< /timelineItem >}}
+
+{{< timelineItem icon="magnifying-glass" header="Fase 4 — Revisión y edición" subheader="Asistente de edición avanzado" md="true" >}}
 Revisión en tres pasadas: contenido (¿la argumentación responde a la consigna?), estructura (¿el orden es lógico, las transiciones fluidas?) y forma (gramática, puntuación, citas). La IAG sugiere mejoras de estilo **explicando el porqué**; el estudiante decide qué incorpora.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="microphone" header="Fase 4 — Exposición oral" subheader="Comunicar el proceso, no sólo el resultado" md="true" >}}
+{{< timelineItem icon="microphone" header="Fase 5 — Exposición oral" subheader="Comunicar el proceso, no sólo el resultado" md="true" >}}
 Presentación que incluye: tesis, proceso de investigación (mostrando los mapas), argumento, conclusiones y reflexión. La IAG ayuda a anticipar **preguntas desafiantes del público**; el estudiante prepara respuestas que demuestren profundidad.
 {{< /timelineItem >}}
 
@@ -102,6 +109,10 @@ todas las evidencias son **obligatorias**:
 | Mapas mentales por fuente (3) | obligatoria | Uno por cada texto peer-reviewed, antes del intercambio con IAG |
 | Mapa conceptual integrador | obligatoria | Síntesis de las 3 fuentes con relaciones de convergencia/conflicto |
 | Borradores previos y posteriores al intercambio | obligatoria | Tesis v1 → v2 → v3; párrafos antes/después de la consulta IAG |
+| Tabla de triangulación de fuentes | obligatoria | Cada afirmación clave contrastada en ≥2 fuentes verificables |
+| Esquema inverso y correcciones | obligatoria | El esquema reconstruido por la IAG y los ajustes de estructura aplicados |
+| Objeciones del red team y réplicas | obligatoria | Las 3 objeciones a la tesis y la respuesta escrita a cada una |
+| Autoevaluación con rúbrica e impugnación | obligatoria | La valoración de la IAG y la calificación impugnada con argumento |
 | Bitácora metacognitiva | obligatoria | 1–2 páginas: qué aprendió del proceso, qué cambió por la IAG, qué decidió contra ella |
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito de cada uso |
 
@@ -162,3 +173,8 @@ fuentes científicas.
 Adaptado de la **Guía Interactiva para Ensayos Académicos** elaborada con
 Gemini (4 fases × 5 sub-pasos), integrando el marco Bloom y la rúbrica IAG
 unificada del sitio.
+
+Ampliada en el microcurso _«Creación de actividades de aprendizaje activo para
+entornos híbridos con IA»_ (UDGPlus) con cuatro maniobras que elevan el nivel
+cognitivo sobre el borrador: **divergencia de encuadres**, **esquema inverso**,
+**red team** y **autoevaluación con rúbrica e impugnación**.
