@@ -98,20 +98,37 @@ Presentación que incluye: tesis, proceso de investigación (mostrando los mapas
 
 ## Secuencia ampliada por etapas
 
-La línea de tiempo resume las fases; esta tabla las despliega en las **diez etapas** concretas del recorrido. En cada una cambia el **rol de la IAG** y la **literacidad** que se pone en juego —operativa (encuadrar y pedir), crítica (verificar y cuestionar) o de autoría (decidir y documentar)—, y cada una lleva su salvaguarda. Ese cambio de rol es lo que impide que la herramienta se vuelva redactora fantasma. Las etapas marcadas con ⁺ amplían la guía base.
+La línea de tiempo resume las fases; aquí está el **recorrido completo en diez etapas**, agrupadas en **cuatro momentos**. Cada etapa se lee en el mismo orden: **qué hace la IAG**, **qué hace el estudiante** y **qué salvaguarda** protege el proceso. Entre paréntesis, la **literacidad** que se activa —operativa (encuadrar y pedir), crítica (verificar y cuestionar) o de autoría (decidir y documentar)—. Las etapas marcadas con ⁺ amplían la guía base.
 
-| # | Etapa | Rol de la IAG | Literacidad | Salvaguarda clave |
-|---|---|---|---|---|
-| 1 | Encuadre y divergencia de enfoques ⁺ | Cartógrafa (abre opciones) | Operativa | Decisión justificada por escrito |
-| 2 | Investigación y triangulación ⁺ | Guía de búsqueda | Crítica | Fuentes verificables; triangular cada afirmación |
-| 3 | Mapas conceptuales | Tutora socrática | Operativa | Mapas hechos antes de consultar la IAG |
-| 4 | Tesis en tres versiones | Interlocutora | Operativa | Evolución v1 → v2 → v3 visible |
-| 5 | Borrador de voz propia | Solo estilo y fluidez | Autoría | Borrador pre-IAG conservado |
-| 6 | Esquema inverso ⁺ | Diagnóstica | Crítica | Diagnostica, no reescribe |
-| 7 | Red team / abogado del diablo ⁺ | Adversaria | Crítica | Réplicas escritas a cada objeción |
-| 8 | Autoevaluación con rúbrica ⁺ | Evaluadora (rebatible) | Crítica | Impugnar al menos una calificación |
-| 9 | Revisión de estilo y voz | Editora | Autoría | Chequeo de homogeneización con el borrador pre-IAG |
-| 10 | Cierre: verificación y declaración | Público / verificadora | Autoría + ética | Declaración de uso + bitácora de procedencia |
+### Momento 1 · Preparar — antes de escribir (asíncrono)
+
+| Etapa | 🤖 La IAG | ✍️ El estudiante | 🛡️ Salvaguarda |
+|---|---|---|---|
+| **1. Encuadre y divergencia** ⁺ _(operativa)_ | Propone tres encuadres posibles del tema | Elige uno y justifica por escrito por qué descarta los otros | La decisión se registra antes de escribir |
+| **2. Investigación y triangulación** ⁺ _(crítica)_ | Sugiere autores y teorías a buscar | Localiza ≥3 fuentes revisadas, verifica que existan y contrasta cada dato en dos fuentes | Ninguna fuente sin referencia verificable |
+| **3. Mapas conceptuales** _(operativa)_ | Tutora socrática: solo pregunta | Hace un mapa por fuente y uno integrador antes de dialogar con la IAG | Los mapas son previos y obligatorios |
+| **4. Tesis en tres versiones** _(operativa)_ | Sugiere tres reformulaciones más contundentes | Conserva v1 → v2 → v3 y elige la suya | Se ve la evolución de la tesis |
+
+### Momento 2 · Escribir — con tu voz
+
+| Etapa | 🤖 La IAG | ✍️ El estudiante | 🛡️ Salvaguarda |
+|---|---|---|---|
+| **5. Borrador de voz propia** _(autoría)_ | Solo transiciones y fluidez; nunca contenido | Escribe el borrador completo | Conserva el borrador previo a la IAG |
+
+### Momento 3 · Interrogar el borrador ⁺
+
+| Etapa | 🤖 La IAG | ✍️ El estudiante | 🛡️ Salvaguarda |
+|---|---|---|---|
+| **6. Esquema inverso** ⁺ _(crítica)_ | Reconstruye el esquema, una línea por párrafo | Corrige saltos lógicos y párrafos sin función | Diagnostica, no reescribe |
+| **7. Red team** ⁺ _(crítica)_ | Presenta las tres objeciones más fuertes a la tesis | Responde por escrito a cada una | Queda registro de las réplicas |
+| **8. Autoevaluación con rúbrica** ⁺ _(crítica)_ | Puntúa el borrador con la rúbrica de proceso | Impugna al menos una calificación con argumento | No se acepta el veredicto sin discutirlo |
+
+### Momento 4 · Cerrar — verificar y declarar
+
+| Etapa | 🤖 La IAG | ✍️ El estudiante | 🛡️ Salvaguarda |
+|---|---|---|---|
+| **9. Revisión de estilo y voz** _(autoría)_ | Sugiere mejoras de estilo explicando el porqué | Decide qué incorpora y compara con el borrador previo | Chequeo de homogeneización |
+| **10. Cierre: verificación y declaración** _(autoría + ética)_ | Verifica y anticipa preguntas del público | Verifica datos, declara el uso de IA y documenta la procedencia | Declarar no penaliza; no declarar invalida |
 
 ## Evidencias de proceso requeridas
 
@@ -187,8 +204,8 @@ fuentes científicas.
 ## Fuente de esta guía
 
 Adaptado de la **Guía Interactiva para Ensayos Académicos** elaborada con
-Gemini (4 fases × 5 sub-pasos), integrando el marco Bloom y la rúbrica IAG
-unificada del sitio.
+apoyo de IA generativa (4 fases × 5 sub-pasos), integrando el marco Bloom y la
+rúbrica IAG unificada del sitio.
 
 Ampliada en el microcurso _«Creación de actividades de aprendizaje activo para
 entornos híbridos con IA»_ (UDGPlus) con cuatro maniobras que elevan el nivel
