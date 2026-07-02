@@ -59,12 +59,22 @@ Evaluar el proceso **no significa dejar de evaluar el ensayo final**. Significa 
 
 {{< mermaid >}}
 flowchart LR
-    A[1. Interpretar] --> B[2. Investigar]
-    B --> C[3. Formular tesis]
-    C --> D[4. Escribir V1]
-    D --> E[5. Interrogar]
-    E --> F[6. Revisar]
-    F --> G[7. Entregar y defender]
+    subgraph M1[PREPARAR]
+      A[1. Interpretar] --> B[2. Investigar]
+      B --> C[3. Formular tesis]
+    end
+    subgraph M2[ESCRIBIR]
+      D[4. Escribir V1]
+    end
+    subgraph M3[INTERROGAR]
+      E[5. Interrogar]
+    end
+    subgraph M4[CERRAR]
+      F[6. Revisar] --> G[7. Entregar y defender]
+    end
+    C --> D
+    D --> E
+    E --> F
 
     classDef preparar fill:#eef2ff,stroke:#4f46e5,color:#312e81
     classDef escribir fill:#ecfdf5,stroke:#0d9488,color:#134e4a
@@ -174,6 +184,26 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 {{< /timeline >}}
 
+## Un ejemplo de principio a fin
+
+Así se ve el recorrido en un caso concreto. **Sofía**, estudiante de Relaciones Internacionales, recibe la consigna: *«Evalúe la coherencia de la política exterior de México ante una crisis reciente»*.
+
+**Etapas 1–2 · Delimita e investiga.** Las preguntas de la IA le muestran que «toda la política exterior del sexenio» es inabarcable, y acota: la ruptura de relaciones con Ecuador tras el asalto a la embajada de México en Quito (abril de 2024). Localiza el comunicado oficial de la SRE, dos análisis académicos y la Convención de Caracas de 1954, y registra cada afirmación central en su matriz de fuentes.
+
+**Etapa 3 · Su tesis evoluciona.**
+
+- **v1:** «La política exterior de México es coherente con sus principios.» — *vaga: nadie podría estar en desacuerdo.*
+- **v2:** «La respuesta de México al asalto de su embajada fue coherente con la doctrina Estrada.» — *más específica, pero «coherente» sigue siendo ambiguo.*
+- **Final:** «Al romper relaciones con Ecuador, México subordinó su tradición de no intervención a la defensa del derecho de asilo: sus principios operan como jerarquía, no como lista.» — *debatible, específica y sustentable.*
+
+**Etapa 4 · Escribe sin IA.** Redacta un borrador de unas 1 200 palabras y lo guarda fechado. Ese archivo es la evidencia de su punto de partida y de su voz.
+
+**Etapa 5 · Interroga el borrador.** El esquema inverso revela que dos párrafos repiten la misma idea. El red team le devuelve una objeción fuerte: *«La ruptura puede leerse como reacción coyuntural del gobierno en turno, no como decisión doctrinal; tu tesis asume una continuidad que no demuestras.»* Sofía responde con el texto del comunicado —que funda la ruptura en el derecho de asilo, no en el agravio político— y añade un párrafo de contraargumento al ensayo.
+
+**Etapas 6–7 · Decide, entrega y declara.** Su tabla de decisiones registra, entre otras: fusionar los párrafos repetidos (aceptada), añadir un dato a la conclusión (adaptada: el dato entra, el cierre argumentativo se queda) y sustituir «jerarquía de principios» por «pragmatismo» (rechazada: borra la distinción que sostiene su tesis). Su declaración final:
+
+> Utilicé IA generativa en las etapas 1, 3, 5 y 6 para delimitar el tema, tensionar mi tesis, obtener un esquema inverso y objeciones, y recibir sugerencias de estilo. Verifiqué todas las fuentes fuera del sistema. La tesis, la evidencia y la redacción son mías; mi tabla de decisiones documenta qué acepté, adapté y rechacé.
+
 ## Ruta del estudiante {#ruta-estudiante}
 
 Antes de empezar, confirma estas reglas con tu docente:
@@ -185,15 +215,25 @@ Antes de empezar, confirma estas reglas con tu docente:
 
 Tu portafolio no necesita contener cada clic ni una conversación interminable. Debe permitir reconstruir las decisiones que cambiaron tu trabajo.
 
-| Evidencia mínima | Qué demuestra |
-|---|---|
-| Nota de enfoque y tesis v1 → final | Cómo delimitaste y modificaste tu postura |
-| Matriz de fuentes verificadas | Cómo sostuviste las afirmaciones centrales |
-| Borrador v1 | Tu punto de partida antes de la retroalimentación de IA |
-| Interacciones significativas | Qué diagnóstico u objeción influyó en el proceso |
-| Tabla aceptar · adaptar · rechazar | Tu juicio frente a las sugerencias |
-| Ensayo final | Calidad del argumento, evidencia, estructura y voz |
-| Declaración y reflexión | Transparencia y comprensión del proceso |
+| Evidencia mínima | Etapa | Qué demuestra |
+|---|:---:|---|
+| Nota de enfoque y tesis v1 → final | 1 · 3 | Cómo delimitaste y modificaste tu postura |
+| Matriz de fuentes verificadas | 2 | Cómo sostuviste las afirmaciones centrales |
+| Borrador v1 | 4 | Tu punto de partida antes de la retroalimentación de IA |
+| Interacciones significativas | 5 | Qué diagnóstico u objeción influyó en el proceso |
+| Tabla aceptar · adaptar · rechazar | 6 | Tu juicio frente a las sugerencias |
+| Ensayo final | 6 | Calidad del argumento, evidencia, estructura y voz |
+| Declaración y reflexión | 7 | Transparencia y comprensión del proceso |
+
+### La tabla de decisiones, en la práctica
+
+No necesita más que una fila por sugerencia relevante:
+
+| Sugerencia de la IA | Decisión | Por qué |
+|---|---|---|
+| «Los párrafos 2 y 4 repiten la misma idea» (esquema inverso) | ✅ Aceptada | La repetición era real; los fusioné |
+| «La conclusión necesita datos cuantitativos» | 🔁 Adaptada | Añadí un dato, pero conservé el cierre argumentativo |
+| «Sustituir "jerarquía de principios" por "pragmatismo"» | ❌ Rechazada | Borra la distinción que sostiene mi tesis |
 
 {{< alert icon="shield-halved" type="warning" >}}
 **Transparencia por defecto.** Declarar un uso permitido de IA no penaliza. Ocultarlo impide verificar la autoría del proceso y puede invalidar la entrega según las reglas comunicadas por el docente.
@@ -219,6 +259,17 @@ Tu portafolio no necesita contener cada clic ni una conversación interminable. 
 | Después | Redactar, decidir revisiones y preparar el portafolio | Asíncrona |
 | Cierre | Defender una decisión y recibir retroalimentación | Síncrona breve o memo reflexivo |
 
+### Cronograma sugerido (adaptable)
+
+Cuatro semanas como referencia; en cursos intensivos puede comprimirse a dos, y en semestrales cada ciclo de interrogación-revisión puede repetirse.
+
+| Semana | Etapas | Qué ocurre | Punto de control |
+|:---:|:---:|---|---|
+| 1 | 1–2 | Interpretar la consigna, investigar y verificar fuentes (asíncrono) | ✔ **Control 1:** nota de enfoque + matriz de fuentes (por muestreo) |
+| 2 | 3–4 | Clínica de tesis (síncrono) y primer borrador (asíncrono) | ✔ **Control 2:** tesis registrada y borrador v1 fechado |
+| 3 | 5–6 | Sesión guiada de interrogación con IA; revisión y decisiones | Revisión entre pares, sin calificación |
+| 4 | 7 | Portafolio, declaración y defensa breve | ✔ **Control 3:** entrega final + defensa o memo |
+
 {{< alert icon="scale-balanced" type="info" >}}
 **La IA retroalimenta; el docente evalúa.** Una valoración producida por un modelo es una hipótesis que el estudiante puede impugnar, no una calificación automática.
 {{< /alert >}}
@@ -240,54 +291,70 @@ Esta distribución es un punto de partida adaptable, no una política institucio
 
 No se califica la cantidad de prompts ni la longitud de la conversación. Una interacción breve que provoca una decisión bien fundamentada vale más que veinte consultas aceptadas sin crítica.
 
+### Cómo se ve cada nivel (criterios de proceso)
+
+| Criterio | N1 · Inicial | N2 · En desarrollo | N3 · Competente | N4 · Avanzado |
+|---|---|---|---|---|
+| Evolución del enfoque y la tesis | La tesis no cambia o proviene de la IA | Cambia sin justificación | Evoluciona con justificación propia | La evolución responde a fuentes y objeciones documentadas |
+| Búsqueda y verificación de fuentes | Fuentes sin verificar o inexistentes | Verificadas pero desconectadas del argumento | Cada afirmación central tiene fuente comprobada | Triangula fuentes y evalúa su calidad |
+| Calidad de las decisiones de revisión | Acepta todo sin cuestionar | Acepta o rechaza sin explicar | Justifica cada decisión relevante | Detecta sugerencias equivocadas y decide con criterio disciplinar |
+| Reflexión, transparencia y uso crítico | No declara, o la reflexión es genérica | Declaración incompleta | Declaración específica y reflexión honesta | Nombra decisiones tomadas en contra de la IA y lo aprendido |
+
 ## Prompts listos para usar
 
-Todos parten de trabajo previo del estudiante y contienen una restricción explícita contra la sustitución de autoría.
+Todos parten de trabajo previo del estudiante y contienen una restricción explícita contra la sustitución de autoría. Cada uno indica la **etapa** en la que se usa. ¿Notas que no hay prompt para la **etapa 4**? Es deliberado: el primer borrador se escribe sin IA, porque es la evidencia del punto de partida y de la voz propia.
 
 <details>
-<summary><strong>1. Delimitar sin recibir la respuesta</strong></summary>
+<summary><strong>Etapa 1 · Delimitar sin recibir la respuesta</strong></summary>
 
 > Actúa como tutor socrático. La consigna es: «[consigna]». Mi interpretación inicial es: «[interpretación propia]». No respondas la consigna ni redactes una tesis. Hazme cinco preguntas que me ayuden a precisar alcance, conceptos y tensiones. Al final, señala qué decisión todavía debo tomar yo.
 
 </details>
 
 <details>
-<summary><strong>2. Preparar una búsqueda verificable</strong></summary>
+<summary><strong>Etapa 2 · Preparar una búsqueda verificable</strong></summary>
 
 > Mi tema provisional es «[tema]» y estas son las afirmaciones que creo necesitar demostrar: [lista]. No inventes referencias. Para cada afirmación, indícame qué tipo de fuente académica debería buscar, qué palabras clave usar y qué señal me permitiría evaluar su pertinencia. Yo localizaré y verificaré las fuentes.
 
 </details>
 
 <details>
-<summary><strong>3. Tensionar una tesis propia</strong></summary>
+<summary><strong>Etapa 3 · Tensionar una tesis propia</strong></summary>
 
 > Esta es mi tesis provisional: «[tesis]». No escribas otra por mí. Identifica un término ambiguo, un supuesto no demostrado y dos objeciones fuertes. Después hazme preguntas para que yo produzca una segunda versión más específica y defendible.
 
 </details>
 
 <details>
-<summary><strong>4. Reconstruir el esquema real</strong></summary>
+<summary><strong>Etapa 5 · Reconstruir el esquema real</strong></summary>
 
 > Te comparto mi borrador. No lo reescribas. Resume la función de cada párrafo en una línea: contexto, tesis, razón, evidencia, objeción, respuesta o cierre. Señala repeticiones, saltos lógicos y párrafos que no contribuyen a la tesis. Cita fragmentos concretos para justificar el diagnóstico.
 
 </details>
 
 <details>
-<summary><strong>5. Hacer un red team argumentativo</strong></summary>
+<summary><strong>Etapa 5 · Hacer un red team argumentativo</strong></summary>
 
 > Actúa como especialista escéptico. Mi tesis es «[tesis]» y mis fuentes principales sostienen [síntesis]. Formula las tres objeciones más fuertes que podrían debilitar mi argumento. No redactes respuestas. Indica qué tipo de evidencia necesitaría yo para responder a cada objeción.
 
 </details>
 
 <details>
-<summary><strong>6. Usar una rúbrica sin delegar la calificación</strong></summary>
+<summary><strong>Etapa 5 · Usar una rúbrica sin delegar la calificación</strong></summary>
 
 > Aplica únicamente esta rúbrica a mi borrador: [rúbrica]. Para cada criterio, propone un nivel provisional, justifícalo con una cita exacta del texto y formula una pregunta de revisión. No asignes una nota final ni reescribas el contenido. Yo contrastaré e impugnaré tu valoración.
 
 </details>
 
 <details>
-<summary><strong>7. Preparar la declaración de uso</strong></summary>
+<summary><strong>Etapa 6 · Pedir cambios localizados y justificados</strong></summary>
+
+> Te comparto dos párrafos de mi versión revisada: «[párrafos]». Propón como máximo tres cambios localizados de claridad o estilo. Explica qué mejora cada uno y qué matiz podría perderse si lo aplico. No reescribas el texto completo ni cambies el argumento: yo decidiré cuáles acepto, adapto o rechazo.
+
+</details>
+
+<details>
+<summary><strong>Etapa 7 · Preparar la declaración de uso</strong></summary>
 
 > Organiza esta lista de interacciones [lista] por propósito: delimitación, búsqueda, diagnóstico, objeciones o edición. No inventes usos ni decisiones. Devuélveme una plantilla factual para que yo complete qué acepté, adapté o rechacé y redacte mi declaración final.
 
@@ -302,9 +369,55 @@ Todos parten de trabajo previo del estudiante y contienen una restricción expl�
   {{< card link="/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/" title="Pérdida de voz" icon="fingerprint" color="#0d9488" description="La comparación entre versiones permite detectar una edición que uniforma el estilo." >}}
 {{< /cards >}}
 
+## Preguntas frecuentes del docente
+
+<details>
+<summary><strong>¿Cuánto trabajo extra implica con un grupo grande?</strong></summary>
+
+Menos del que parece: solo hay dos o tres puntos de control, el portafolio es mínimo por diseño y puede revisarse por muestreo, y la interrogación del borrador se apoya en pares. El tiempo se desplaza: menos horas persiguiendo plagio al final, más retroalimentación mientras el trabajo aún puede mejorar.
+
+</details>
+
+<details>
+<summary><strong>¿Y si un estudiante no quiere o no puede usar IA?</strong></summary>
+
+La ruta equivalente produce las mismas evidencias: las preguntas de delimitación y las objeciones las aportan pares, tutores o el propio docente, y el esquema inverso puede hacerse a mano. Nada del proceso depende de una herramienta concreta, y el acceso a una de pago nunca determina la calificación.
+
+</details>
+
+<details>
+<summary><strong>¿Cómo sé que el borrador v1 es realmente del estudiante?</strong></summary>
+
+No se persigue con vigilancia; se hace probable por diseño: el v1 se entrega fechado antes de la fase de IA, la defensa final exige explicar decisiones propias, y la comparación entre v1 y versión final revela una voz consistente o un salto inexplicable.
+
+</details>
+
+<details>
+<summary><strong>¿Esto sustituye al detector de plagio o de IA?</strong></summary>
+
+Lo vuelve casi innecesario. Los detectores de texto generado son poco fiables y castigan de manera desproporcionada a hablantes no nativos (ver [plagio y autenticidad en la era de la IA]({{< ref "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia" >}})). Este diseño genera evidencia positiva de autoría —versiones, decisiones, defensa— en lugar de sospecha estadística.
+
+</details>
+
+<details>
+<summary><strong>¿Qué hago si aun así detecto delegación?</strong></summary>
+
+La conversación parte del portafolio: sin versiones tempranas ni decisiones documentadas, la entrega no se evalúa —regla anunciada desde el día uno—. La respuesta es pedagógica antes que punitiva: rehacer el tramo faltante del proceso, no solo sancionar el producto.
+
+</details>
+
 ## Modelo de declaración
 
 > Utilicé un sistema de IA generativa en las etapas de [etapas] con los propósitos de [propósitos]. Verifiqué las fuentes y los datos fuera del sistema. Conservé, adapté o rechacé sus sugerencias según se documenta en mi tabla de decisiones. La tesis, la selección de evidencia, la redacción sustantiva y las conclusiones son responsabilidad propia.
+
+## Glosario breve
+
+- **Esquema inverso** — reconstruir el índice real de un texto ya escrito, una línea por párrafo, para ver su estructura efectiva y no la que se planeó.
+- **Red team** — pedir deliberadamente las objeciones más fuertes contra la propia tesis, para reforzarla o corregirla antes de la entrega.
+- **Clínica de tesis** — sesión breve, con pares o docente, donde una tesis se examina con tres preguntas: ¿es debatible?, ¿es específica?, ¿puede sustentarse con las fuentes disponibles?
+- **Matriz de fuentes** — tabla que conecta cada afirmación central del ensayo con la fuente verificada que la sostiene.
+- **Memo reflexivo** — texto breve donde el estudiante explica una decisión importante de su proceso y qué aprendió al tomarla.
+- **Dirección epistémica** — quién decide qué cuenta como válido y hacia dónde avanza el trabajo. En esta actividad, siempre la persona.
 
 ## Para profundizar
 
