@@ -99,87 +99,87 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< timeline >}}
 
 {{< timelineItem icon="bullseye" header="1. Interpretar la consigna" subheader="Preparar · asíncrono" md="true" >}}
-**Propósito.** Entender qué pide la consigna y acotar un problema propio.
+🎯 **Propósito.** Entender qué pide la consigna y acotar un problema propio.
 
-**Estudiante:** subraya el verbo de la consigna, delimita el problema y escribe una primera pregunta de trabajo.
+🎓 **Estudiante:** subraya el verbo de la consigna, delimita el problema y escribe una primera pregunta de trabajo.
 
-**IA:** formula preguntas aclaratorias y compara posibles enfoques; no elige el tema ni responde la consigna.
+🤖 **IA:** formula preguntas aclaratorias y compara posibles enfoques; no elige el tema ni responde la consigna.
 
-**Docente:** entrega criterios y aclara qué usos de IA están permitidos.
+👩‍🏫 **Docente:** entrega criterios y aclara qué usos de IA están permitidos.
 
-**Evidencia:** nota de enfoque con una elección y al menos un descarte justificado.
+📎 **Evidencia:** nota de enfoque con una elección y al menos un descarte justificado.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="book-open" header="2. Investigar y verificar" subheader="Preparar · asíncrono" md="true" >}}
-**Propósito.** Reunir evidencia fiable y distinguir afirmación de fuente.
+🎯 **Propósito.** Reunir evidencia fiable y distinguir afirmación de fuente.
 
-**Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con evidencia verificable.
+🎓 **Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con evidencia verificable.
 
-**IA:** sugiere conceptos, autores o tipos de fuente que conviene buscar; una referencia propuesta por el modelo nunca cuenta como verificada.
+🤖 **IA:** sugiere conceptos, autores o tipos de fuente que conviene buscar; una referencia propuesta por el modelo nunca cuenta como verificada.
 
-**Docente:** revisa una muestra de fuentes o la tabla de evidencia antes del borrador.
+👩‍🏫 **Docente:** revisa una muestra de fuentes o la tabla de evidencia antes del borrador.
 
-**Evidencia:** matriz breve de afirmaciones, fuentes y comprobación.
+📎 **Evidencia:** matriz breve de afirmaciones, fuentes y comprobación.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="route" header="3. Formular tesis y esquema" subheader="Preparar · taller síncrono" md="true" >}}
-**Propósito.** Tomar una postura debatible y poder sostenerla.
+🎯 **Propósito.** Tomar una postura debatible y poder sostenerla.
 
-**Estudiante:** escribe una tesis provisional, la contrasta con las fuentes y conserva su evolución.
+🎓 **Estudiante:** escribe una tesis provisional, la contrasta con las fuentes y conserva su evolución.
 
-**IA:** tensiona una tesis ya escrita: identifica supuestos, ambigüedades y objeciones previsibles. No origina la postura del ensayo.
+🤖 **IA:** tensiona una tesis ya escrita: identifica supuestos, ambigüedades y objeciones previsibles. No origina la postura del ensayo.
 
-**Docente y pares:** realizan una clínica breve de tesis y comprueban que sea debatible, específica y sustentable.
+👩‍🏫 **Docente y pares:** realizan una clínica breve de tesis y comprueban que sea debatible, específica y sustentable.
 
-**Evidencia:** tesis v1, v2 y final, con justificación de la elección.
+📎 **Evidencia:** tesis v1, v2 y final, con justificación de la elección.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="file-pen" header="4. Escribir el primer borrador" subheader="Escribir · asíncrono" md="true" >}}
-**Propósito.** Construir el argumento con voz propia antes de cualquier ayuda.
+🎯 **Propósito.** Construir el argumento con voz propia antes de cualquier ayuda.
 
-**Estudiante:** redacta un borrador completo con su voz, argumentos, evidencia y contraargumentos.
+🎓 **Estudiante:** redacta un borrador completo con su voz, argumentos, evidencia y contraargumentos.
 
-**IA:** permanece fuera de la redacción sustantiva. Puede aclarar una duda de formato, pero no producir párrafos para pegar.
+🤖 **IA:** permanece fuera de la redacción sustantiva. Puede aclarar una duda de formato, pero no producir párrafos para pegar.
 
-**Docente:** no corrige todavía cada frase; comprueba que exista un punto de partida auténtico.
+👩‍🏫 **Docente:** no corrige todavía cada frase; comprueba que exista un punto de partida auténtico.
 
-**Evidencia:** borrador v1 fechado y conservado antes de la retroalimentación algorítmica.
+📎 **Evidencia:** borrador v1 fechado y conservado antes de la retroalimentación algorítmica.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="comments" header="5. Interrogar el borrador" subheader="Interrogar · síncrono o asíncrono" md="true" >}}
-**Propósito.** Exponer el borrador a la crítica para hallar sus puntos débiles.
+🎯 **Propósito.** Exponer el borrador a la crítica para hallar sus puntos débiles.
 
-**Estudiante:** solicita un esquema inverso, objeciones fuertes y una lectura provisional con la rúbrica del docente.
+🎓 **Estudiante:** solicita un esquema inverso, objeciones fuertes y una lectura provisional con la rúbrica del docente.
 
-**IA:** diagnostica la estructura y actúa como adversaria argumentativa. Señala problemas; no reescribe el ensayo.
+🤖 **IA:** diagnostica la estructura y actúa como adversaria argumentativa. Señala problemas; no reescribe el ensayo.
 
-**Docente:** modela cómo distinguir una observación útil de una sugerencia genérica o equivocada.
+👩‍🏫 **Docente:** modela cómo distinguir una observación útil de una sugerencia genérica o equivocada.
 
-**Evidencia:** interacciones significativas seleccionadas, objeciones y respuestas del estudiante.
+📎 **Evidencia:** interacciones significativas seleccionadas, objeciones y respuestas del estudiante.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code-compare" header="6. Revisar y decidir" subheader="Cerrar · asíncrono" md="true" >}}
-**Propósito.** Juzgar cada sugerencia y decidir con fundamento.
+🎯 **Propósito.** Juzgar cada sugerencia y decidir con fundamento.
 
-**Estudiante:** acepta, adapta o rechaza cada sugerencia relevante y explica por qué. Después produce la versión final.
+🎓 **Estudiante:** acepta, adapta o rechaza cada sugerencia relevante y explica por qué. Después produce la versión final.
 
-**IA:** propone cambios localizados y explica su razón; no sustituye la decisión del autor.
+🤖 **IA:** propone cambios localizados y explica su razón; no sustituye la decisión del autor.
 
-**Docente:** observa la calidad del juicio, no la obediencia a la herramienta ni la cantidad de consultas.
+👩‍🏫 **Docente:** observa la calidad del juicio, no la obediencia a la herramienta ni la cantidad de consultas.
 
-**Evidencia:** tabla de decisiones y comparación entre v1 y versión final.
+📎 **Evidencia:** tabla de decisiones y comparación entre v1 y versión final.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="person-chalkboard" header="7. Entregar, declarar y defender" subheader="Cerrar · síncrono breve o memo" md="true" >}}
-**Propósito.** Dar cuenta del proceso y responder por la autoría.
+🎯 **Propósito.** Dar cuenta del proceso y responder por la autoría.
 
-**Estudiante:** entrega el ensayo y el portafolio mínimo, declara cómo usó IA y explica una decisión importante en una defensa breve o reflexión.
+🎓 **Estudiante:** entrega el ensayo y el portafolio mínimo, declara cómo usó IA y explica una decisión importante en una defensa breve o reflexión.
 
-**IA:** puede ayudar a anticipar preguntas, pero el estudiante responde con sus fuentes y su razonamiento.
+🤖 **IA:** puede ayudar a anticipar preguntas, pero el estudiante responde con sus fuentes y su razonamiento.
 
-**Docente:** evalúa por separado el proceso y el producto final.
+👩‍🏫 **Docente:** evalúa por separado el proceso y el producto final.
 
-**Evidencia:** ensayo, portafolio, declaración de uso y defensa o memo reflexivo.
+📎 **Evidencia:** ensayo, portafolio, declaración de uso y defensa o memo reflexivo.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -206,12 +206,13 @@ Así se ve el recorrido en un caso concreto. **Sofía**, estudiante de Relacione
 
 ## Ruta del estudiante {#ruta-estudiante}
 
-Antes de empezar, confirma estas reglas con tu docente:
-
+{{< alert icon="list-check" type="info" >}}
+**Antes de empezar, confirma estas reglas con tu docente:**
 - Qué herramienta puedes usar y si existe una alternativa equivalente sin IA.
 - Qué información no debes introducir en un servicio externo.
 - En qué etapas se permite IA y en cuáles debes trabajar sin ella.
 - Qué evidencias forman parte de la entrega y cómo se califican.
+{{< /alert >}}
 
 Tu portafolio no necesita contener cada clic ni una conversación interminable. Debe permitir reconstruir las decisiones que cambiaron tu trabajo.
 
@@ -428,6 +429,11 @@ La conversación parte del portafolio: sin versiones tempranas ni decisiones doc
 
 ## Referencias
 
-- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
+- Bearman, M., Fawns, T., & Dawson, P. (2025). Authentic assessment: from panacea to criticality. *Assessment & Evaluation in Higher Education*, *50*(3), 396–408. <https://doi.org/10.1080/02602938.2024.2404634>
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, *5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
+- Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: linking cognitive engagement to active learning outcomes. *Educational Psychologist*, *49*(4), 219–243. <https://doi.org/10.1080/00461520.2014.965823>
+- Eaton, S. E. (2023). Postplagiarism: transdisciplinary ethics and integrity in the age of artificial intelligence. *International Journal for Educational Integrity*, *19*(1), 23. <https://doi.org/10.1007/s40979-023-00144-1>
+- Freeman, S., et al. (2014). Active learning increases student performance in science, engineering, and mathematics. *PNAS*, *111*(23), 8410–8415. <https://doi.org/10.1073/pnas.1319030111>
+- Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, *77*(1), 81–112. <https://doi.org/10.3102/003465430298487>
 - Nicol, D. J., & Macfarlane-Dick, D. (2006). Formative assessment and self-regulated learning. *Studies in Higher Education*, *31*(2), 199–218. <https://doi.org/10.1080/03075070600572090>
-- UNESCO. (2023). *Guidance for generative AI in education and research*. <https://doi.org/10.54675/EWZM9535>
+- UNESCO — Holmes, W., & Miao, F. (2023). *Guidance for generative AI in education and research*. <https://unesdoc.unesco.org/ark:/48223/pf0000386693>
