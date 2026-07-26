@@ -85,9 +85,9 @@ content/
 
 ## Estado del contenido
 
-**Desarrollado:** debate socrático con IA, análisis crítico de sesgos (Laboratorio), guía de ingeniería de prompts (IA), encuesta DEC 2026 (Observatorio), artículo Bearman et al., link UNESCO, video Sal Khan, post blog "La IA No Hace Trampa".
-
-**Stubs pendientes:** ia-educacion/integracion-curricular, ia-educacion/tendencias, laboratorio/experiencias, laboratorio/integracion-ia, observatorio/guias, observatorio/documentacion, recursos/externas, recursos/institucionales, formacion-docente/* (todas).
+El estado (qué está desarrollado y qué es stub) se lleva **fuera del repo**, en la bitácora
+del proyecto — este archivo solo guarda reglas estables. Verificar el contenido real en
+`content/` antes de asumir qué existe.
 
 ## Convenciones — NO romper sin consultar
 
