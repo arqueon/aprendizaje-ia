@@ -12,8 +12,8 @@ tags:
 
 ## Resultado
 
-La dirección **C · Almagre interactivo**, aprobada en UDGIA-001, ya funciona como
-identidad única del sitio Hugo en una rama local.
+La dirección **C · Almagre interactivo**, aprobada en UDGIA-001, funciona como
+identidad única del sitio Hugo y está publicada desde `main`.
 
 - no existe selector de apariencia;
 - el sistema operativo no cambia la paleta;
@@ -22,11 +22,12 @@ identidad única del sitio Hugo en una rama local.
 - la página, los siete SVG adaptativos y los Mermaid intervenidos usan el vocabulario C;
 - la implementación funciona tanto en la raíz de un dominio como bajo
   `/aprendizaje-ia/`, la forma esperada de GitHub Pages;
-- no se modificaron `main`, el despliegue ni Moodle.
+- `main` y `origin/main` contienen el mismo cierre;
+- no se modificó Moodle.
 
-Vista previa local:
+Sitio publicado:
 
-<http://127.0.0.1:1315/>
+<https://arqueon.github.io/aprendizaje-ia/>
 
 ## Sistema aplicado
 
@@ -134,11 +135,13 @@ inventariados para una migración visual explícita; la dirección canónica par
 ya es C. Tampoco incorpora todavía el runtime H5P: cada iframe necesitará recibir estos
 mismos roles desde una fuente de tokens compartida.
 
-La implementación quedó registrada en el commit local `025d926` de
-`codex/UDGIA-002-identidad-c-unica`. No se hizo push, merge, despliegue ni cambio en
-Moodle.
+La implementación quedó registrada en `025d926` y el cierre documental inicial en
+`0f8e2a1`. Después de la revisión visual y autorización de Rubén, `main` avanzó por
+fast-forward, se publicó en `origin/main` y GitHub Actions `30231728519` completó build
+y despliegue con `success`. El sitio y una ruta representativa respondieron HTTP 200 con
+la hoja C, las fuentes autoalojadas y los recursos bajo `/aprendizaje-ia/`.
 
-Antes de cualquier integración quedan dos pasos:
-
-1. revisión de Rubén en la vista previa;
-2. autorización separada para integrar o desplegar.
+Moodle quedó fuera de esta integración. Para el trabajo futuro del ecosistema, el único
+entorno Moodle es `moodle-dev.arqueonautis.org`; `arqueonautis.org/moodle` pertenece al
+entorno de producción destinado a Problemas Globales/PG2026B, queda fuera de este
+ecosistema y no es destino de pruebas o despliegue.
