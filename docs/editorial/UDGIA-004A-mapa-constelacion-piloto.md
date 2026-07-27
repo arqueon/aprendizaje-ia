@@ -4,7 +4,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004A**
 
-**Estado:** inventario y diseño previo a producción
+**Estado:** aprobado; UDGIA-004B en producción desde 2026-07-27
 
 **Fecha de corte:** 2026-07-27
 
@@ -46,7 +46,7 @@ producto.
 | Orientaciones | Fuente de conceptos, principios, criterios institucionales y procedencia. | Tutorial paso a paso o catálogo exhaustivo de herramientas. |
 | Hugo | Red pública de conceptos, guías, prácticas, casos y rutas por audiencia. | Copia abreviada de las Orientaciones o curso lineal obligatorio. |
 | Moodle | Secuencia guiada, práctica, feedback, evaluación, finalización y seguimiento. | Repositorio de textos duplicados sin interacción. |
-| `alfabetizacion_en_ia` | Semillero del curso amplio para estudiantes y docentes; laboratorio de traducción visual. | Curso terminado o fuente institucional. |
+| `alfabetizacion_en_ia` | Esbozo derivado y semillero del curso amplio; laboratorio de traducción visual. | Curso terminado, fuente institucional o autoridad sobre el contenido. |
 | Logseq | Registro de decisiones, cortes, estado externo y relaciones entre versiones. | Fuente pública o almacén de secretos. |
 
 ## 4. Inventario del núcleo existente
@@ -106,11 +106,17 @@ crítica:
 4. uso selectivo y no utilización;
 5. adaptación contextual.
 
-**Aporte:** ofrece la capa D y activos visuales iniciales.
+**Aporte:** ofrece un primer esbozo de la capa D y activos visuales iniciales.
 
 **Brecha:** no expresa todavía las tres literacidades, las rutas por audiencia, una
 secuencia didáctica, resultados de aprendizaje, actividades, evaluación ni finalización.
 Por eso se mantiene como semillero hasta convertirlo en blueprint Markdown.
+
+**Jerarquía aprobada:** el semillero no manda sobre el contenido del ecosistema. Debe
+seguir las definiciones y principios que se consoliden en las Orientaciones, la
+arquitectura pública y los nodos canónicos de Hugo, y los elementos didácticos relevantes
+que ya hayan sido verificados en el Moodle de referencia. Moodle aporta precedentes
+importantes, pero todavía incompletos; tampoco se copia como si fuera el curso amplio.
 
 ### 4.4 Moodle de referencia
 
@@ -244,7 +250,6 @@ Ningún agente auxiliar debe editar el checkout principal, el grafo o Moodle.
 
 ### Pendiente
 
-- VoBo del contrato editorial, vocabulario y mapa.
 - Decidir el repositorio canónico de fuentes y paquetes H5P.
 - Añadir reglas estables equivalentes a los tres repositorios antes de distribuir escritura.
 - Resolver las siete referencias faltantes de Orientaciones antes de otra publicación.
@@ -267,5 +272,6 @@ UDGIA-004A queda lista para revisión cuando:
 6. el WIP del documento rector permanece intacto y recuperable;
 7. Moodle no ha cambiado.
 
-Con VoBo, la siguiente subfase será **UDGIA-004B · portada de la constelación, metadatos
+El VoBo se recibió el 2026-07-27 con una aclaración: `alfabetizacion_en_ia` es apenas un
+esbozo derivado. La subfase activa es **UDGIA-004B · portada de la constelación, metadatos
 piloto y primer conjunto pedagógico H5P**, seguida de revisión cruzada antes de integrar.

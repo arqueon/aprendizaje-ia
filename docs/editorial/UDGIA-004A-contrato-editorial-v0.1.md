@@ -2,7 +2,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004A**
 
-**Estado:** propuesta operativa para la constelación piloto
+**Estado:** aprobado para la constelación piloto; VoBo de Rubén el 2026-07-27
 
 **Fecha de corte:** 2026-07-27
 
@@ -19,7 +19,9 @@ criterios de evidencia compartidos. Cada medio mantiene una función diferente:
 - las **Orientaciones** fijan principios, conceptos y criterios institucionales;
 - **Hugo** publica conceptos, guías, prácticas, casos y rutas reutilizables;
 - **Moodle** secuencia, permite practicar, retroalimenta, evalúa y registra finalización;
-- **`alfabetizacion_en_ia`** funciona como semillero del curso amplio y laboratorio visual;
+- **`alfabetizacion_en_ia`** funciona como esbozo derivado, semillero del curso amplio y
+  laboratorio visual; sus contenidos obedecen a lo que consoliden las Orientaciones,
+  Hugo y el Moodle de referencia;
 - **Logseq** registra decisiones, cortes y relaciones entre versiones, pero no sustituye
   ninguna fuente publicable.
 
@@ -76,8 +78,10 @@ debe renumerarlos, fusionarlos o presentarlos como una lista única.
 2. La formulación de **Hugo** prevalece para una guía, práctica o caso público.
 3. La implementación de **Moodle** prevalece para secuencia, interacción, feedback,
    finalización y evaluación del curso.
-4. El semillero de **alfabetización** propone estructura y lenguaje visual; no se considera
-   todavía curso ni marco rector.
+4. El semillero de **alfabetización** no prescribe contenidos. Es un esbozo derivado: su
+   estructura, secuencia y lenguaje visual deben actualizarse según lo que consoliden las
+   Orientaciones, los nodos públicos de Hugo y los elementos didácticos verificados del
+   Moodle de referencia. No se considera todavía curso, fuente canónica ni marco rector.
 5. Una lección de implementación solo modifica las Orientaciones después de documentarse,
    verificar su procedencia y pasar por revisión.
 
