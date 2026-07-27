@@ -1,4 +1,5 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
+# Adaptador de publicación vigente. El artefacto Hugo no depende de GitHub Pages:
+# docs/deployment/servidor-web-udgplus.md define el contrato portable.
 name: Deploy Hugo site to Pages
 
 on:
@@ -79,6 +80,8 @@ jobs:
 
   # Deployment job
   deploy:
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -88,3 +91,33 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # Post-deploy smoke test. The same probe is used for any future UDGPlus host.
+  verify-deployment:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install Node.js dependencies
+        run: npm ci --ignore-scripts
+      - name: Install Chromium for deployment probe
+        run: npx playwright-core install --with-deps chromium
+      - name: Verify deployed site and H5P runtime
+        env:
+          DEPLOYMENT_URL: ${{ needs.deploy.outputs.page_url }}
+        run: |
+          for attempt in 1 2 3 4 5; do
+            if npm run qa:h5p:deployment; then
+              exit 0
+            fi
+            if [[ "$attempt" -lt 5 ]]; then
+              sleep 10
+            fi
+          done
+          exit 1

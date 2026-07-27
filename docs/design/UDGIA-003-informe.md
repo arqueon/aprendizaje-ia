@@ -107,6 +107,26 @@ Las dos capturas del gate son:
 - [`h5p-375.jpg`](evidence/udgia-003/h5p-375.jpg);
 - [`h5p-1280.jpg`](evidence/udgia-003/h5p-1280.jpg).
 
+## Portabilidad de publicación
+
+GitHub Pages es el destino vigente, no un requisito del runtime. El build produce un
+artefacto estático que puede alojarse en un servidor oficial UDGPlus en raíz o subruta,
+si página, player, fuentes y contenidos H5P permanecen bajo el mismo origen.
+
+El contrato de MIME, HTTPS, rutas, query strings, iframe/CSP, caché, Range, despliegue
+atómico y rollback está en
+[`servidor-web-udgplus.md`](../deployment/servidor-web-udgplus.md). La sonda
+`tools/h5p/probe-deployment.mjs` permite comprobar cualquier URL después de publicar; el
+workflow actual la ejecuta también contra GitHub Pages. El dominio, la subruta y la
+plataforma institucional definitivos quedan como parámetros de infraestructura, no
+valores codificados en Hugo o H5P.
+
+La sonda pasó sobre un artefacto Hugo 0.155.2 servido en
+`http://127.0.0.1:8765/aprendizaje-ia/`: rutas, MIME, query, 404, carga diferida, dos
+montajes, teclado, altura, impresión, storage y ausencia de red externa/escrituras. También
+detectó correctamente las cuatro carencias deliberadas del servidor temporal de Python:
+sin Range, caché inmutable ni cabeceras `nosniff`/`Referrer-Policy`.
+
 ## QA
 
 | Prueba | Resultado |
@@ -128,6 +148,7 @@ Las dos capturas del gate son:
 | Seguridad ZIP | hash erróneo, traversal, ruta absoluta y symlink rechazados |
 | Gobierno de catálogo | id, fuente, licencia de contenido/biblioteca, adaptador y procedencia inválidos rechazados |
 | Base URL | PASS en raíz y `/aprendizaje-ia/` |
+| Hosting portable | PASS en subruta estática; sonda distingue bloqueos de recomendaciones |
 | Hugo 0.155.2 | 902 páginas, PASS en raíz y subruta |
 | Hugo 0.164.0 | 902 páginas, PASS en raíz y subruta |
 | Moodle | `moodle_changed: false` |

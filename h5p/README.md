@@ -55,3 +55,16 @@ fallback sin JavaScript/ante error/en impresión, reinicio, ausencia de persiste
 escrituras, CSP real y accesibilidad con axe. La omisión de CSP se usa únicamente en un
 contexto separado para inyectar axe; no interviene en los recorridos funcionales ni de
 seguridad.
+
+## Despliegue
+
+El runtime no depende de GitHub Pages. Debe publicarse junto con el artefacto Hugo, bajo
+el mismo origen y la `baseURL` real. MIME, query strings, políticas de iframe, caché y
+soporte de medios forman parte del contrato del servidor.
+
+La guía completa está en `docs/deployment/servidor-web-udgplus.md`. Todo destino se
+comprueba después de publicar con:
+
+```bash
+npm run qa:h5p:deployment -- https://dominio/ruta/
+```
