@@ -134,8 +134,11 @@ inventariados para una migración visual explícita; la dirección canónica par
 ya es C. Tampoco incorpora todavía el runtime H5P: cada iframe necesitará recibir estos
 mismos roles desde una fuente de tokens compartida.
 
-Antes de cualquier integración:
+La implementación quedó registrada en el commit local `025d926` de
+`codex/UDGIA-002-identidad-c-unica`. No se hizo push, merge, despliegue ni cambio en
+Moodle.
 
-1. commit local en `codex/UDGIA-002-identidad-c-unica`;
-2. revisión de Rubén en la vista previa;
-3. autorización separada para integrar o desplegar.
+Antes de cualquier integración quedan dos pasos:
+
+1. revisión de Rubén en la vista previa;
+2. autorización separada para integrar o desplegar.
