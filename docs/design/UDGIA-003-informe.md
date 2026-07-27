@@ -18,7 +18,8 @@ C y sin depender de Moodle. UDGIA-003 incorpora la infraestructura y una única 
 técnica; no adelanta los seis objetos pedagógicos previstos para UDGIA-004.
 
 La implementación queda en una rama y un worktree aislados. No se integró en `main`, no
-se publicó y no se modificó Moodle.
+se publicó y no se modificó Moodle. El estado técnico revisado corresponde a los commits
+`46313f1` (implementación) y `92e1b53` (cierre de observaciones).
 
 ```mermaid
 flowchart LR
@@ -136,6 +137,26 @@ La evidencia estructurada está en
 [`qa-runtime-hugo-0.155.2.json`](evidence/udgia-003/qa-runtime-hugo-0.155.2.json)
 para la versión fijada en CI. La automatización está en `tools/h5p/qa-runtime.mjs`.
 
+## Revisión independiente
+
+El revisor principal, distinto del escritor, emitió primero `REQUEST CHANGES` sobre
+`46313f1`. Pidió demostrar el fallback ante error, ausencia de persistencia, compatibilidad
+dual de Hugo, gobierno del catálogo, altura bidireccional, ejecución bajo CSP real y una
+puerta CI sin fallos enmascarados. Tras revisar el commit exacto `92e1b53`, emitió
+**ACCEPT** y dio por cerrados los ocho hallazgos.
+
+Una segunda revisión de seguridad también emitió **ACCEPT** para la fixture original y el
+catálogo cerrado. Ambos revisores trabajaron en solo lectura y confirmaron que `main` y
+`origin/main` permanecen en `b0a2d85`, sin merge, push, despliegue ni cambios Moodle.
+
+Las deudas no bloqueantes quedan explícitas para la siguiente puerta:
+
+- resolver fuentes mediante `realpath`/`lstat` antes de aceptar paquetes externos;
+- instrumentar llamadas a Storage y sembrar la clave `requestQueue` usada por H5P Core;
+- mover el runtime a otro origen antes de admitir JavaScript de terceros no auditado;
+- añadir BOM, registro de parches, revisión y cierre recursivo para bibliotecas complejas;
+- repetir la matriz funcional y de privacidad para cada tipo pedagógico de UDGIA-004.
+
 ## Fuentes técnicas
 
 - [H5P Standalone 3.8.2](https://github.com/tunapanda/h5p-standalone/releases/tag/v3.8.2)
@@ -147,12 +168,8 @@ para la versión fijada en CI. La automatización está en `tools/h5p/qa-runtime
 
 ## Siguiente gate
 
-La primera revisión independiente pidió reforzar el fallback de error, la ausencia de
-persistencia, la altura bidireccional, la CSP y el gobierno del catálogo. Esos puntos ya
-están cubiertos por pruebas automatizadas; el commit corregido debe recibir un segundo
-dictamen antes de integrar.
-
-Después, con VoBo explícito de Rubén, UDGIA-004 podrá incorporar el primer conjunto pedagógico
-por catálogo, con una adaptación visual por tipo H5P, fallback equivalente, procedencia,
-licencia y QA propios. `moodle-dev.arqueonautis.org` seguirá siendo el entorno Moodle de
-referencia; `arqueonautis.org/moodle` permanece fuera de este proyecto.
+UDGIA-003 está listo para que Rubén decida si autoriza su integración y publicación.
+Después, UDGIA-004 podrá incorporar el primer conjunto pedagógico por catálogo, con una
+adaptación visual por tipo H5P, fallback equivalente, procedencia, licencia y QA propios.
+`moodle-dev.arqueonautis.org` seguirá siendo el entorno Moodle de referencia;
+`arqueonautis.org/moodle` permanece fuera de este proyecto.
