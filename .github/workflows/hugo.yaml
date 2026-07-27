@@ -44,13 +44,25 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci --ignore-scripts || true"
+        run: npm ci --ignore-scripts
       - name: Verify generated H5P runtime
         run: npm run h5p:verify
+      - name: Install Chromium for H5P QA
+        run: npx playwright-core install --with-deps chromium
+      - name: Run H5P functional, accessibility and security QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-h5p-qa
+          CAPTURE_SCREENSHOTS: "false"
+        run: npm run qa:h5p
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

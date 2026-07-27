@@ -42,7 +42,7 @@ arbitraria. Cada montaje exige una alternativa textual equivalente y permite dos
 - `manual`: no descarga el reproductor hasta que la persona activa el botón;
 - `visible`: lo carga por proximidad mediante `IntersectionObserver`.
 
-El script del host se emite una vez por página. Cada actividad vive en su propio iframe
+El script del host se emite una vez por página. Cada actividad se encapsula en su propio iframe
 con título, `sandbox`, altura dinámica y mensajes validados por origen, ventana e
 identificador de instancia. Dos montajes pueden operar y reiniciarse de forma
 independiente; los activos comunes reutilizan la caché.
@@ -61,22 +61,24 @@ El pipeline:
 1. comprueba el hash del `.h5p`;
 2. rechaza rutas absolutas, `..`, entradas cifradas, duplicadas o desnormalizadas,
    enlaces simbólicos y paquetes que excedan los límites;
-3. verifica la biblioteca principal, sus dependencias, archivos declarados y licencia;
-4. genera un manifiesto con tamaño y SHA-256 de cada archivo;
-5. compara byte por byte el runtime regenerado con el versionado.
+3. confina la fuente a `h5p/packages/`, valida la procedencia y compara las licencias
+   declaradas en catálogo, contenido y biblioteca principal;
+4. verifica las dependencias y archivos declarados;
+5. genera un manifiesto con tamaño y SHA-256 de cada archivo;
+6. compara byte por byte el runtime regenerado con el versionado.
 
-GitHub Actions ejecutará `npm ci --ignore-scripts` y `npm run h5p:verify` antes del
-build de Hugo. El reproductor consume el `dist` precompilado, de modo que no necesita
-scripts de instalación de dependencias. La fixture original separa licencia de contenido
-**CC BY-SA 4.0**, biblioteca **MIT**, créditos del SVG y licencia **MIT** del
-reproductor.
+GitHub Actions ejecutará `npm ci --ignore-scripts`, la verificación reproducible y la QA
+funcional completa con Chromium antes del build de Hugo. El reproductor consume el `dist`
+precompilado, de modo que no necesita scripts de instalación de dependencias. La fixture
+original separa licencia de contenido **CC BY-SA 4.0**, biblioteca **MIT**, créditos del
+SVG y licencia **MIT** del reproductor.
 
 ## Seguridad y límite explícito de confianza
 
 Un paquete H5P contiene código JavaScript, no solo contenido. El iframe exterior usa
 `allow-scripts allow-same-origin` porque el reproductor necesita cargar JSON, CSS,
-bibliotecas y medios desde el mismo sitio. Esa combinación no convierte un paquete no
-confiable en seguro: el control decisivo es aceptar únicamente paquetes revisados,
+bibliotecas y medios desde el mismo sitio. Esa combinación no aísla código hostil ni
+convierte un paquete no confiable en seguro: el control decisivo es aceptar únicamente paquetes revisados,
 registrados y bloqueados por hash.
 
 Por ello esta versión:
@@ -85,7 +87,9 @@ Por ello esta versión:
 - no ejecuta contenido obtenido por URL;
 - no conecta con cuentas, cookies, xAPI, LRS, intentos, calificaciones o almacenamiento
   persistente;
-- usa CSP autocontenida y no solicita recursos externos;
+- usa una CSP autocontenida que bloquea conexiones y recursos externos; el arranque
+  precompilado de H5P exige por ahora `script-src 'unsafe-inline'` dentro del documento
+  encapsulado;
 - deja como deuda de arquitectura un origen separado si en el futuro se acepta contenido
   arbitrario o de terceros no auditados.
 
@@ -107,28 +111,30 @@ Las dos capturas del gate son:
 | Prueba | Resultado |
 |---|---|
 | Runtime reproducible | PASS, 43 archivos inventariados más manifiesto |
-| Tamaño lógico | 1,323,224 bytes |
-| Comparación con gate UDGIA-001 | 1.33 MB frente a 2.87 MB; 46.4 % |
+| Tamaño lógico | 1,323,696 bytes (1.26 MiB) |
 | Fixture | una actividad no curricular, `noindex` y ausente de listados |
 | Carga diferida | solo `host.js` y `host.css` antes de activar |
 | Dos montajes | independientes; reiniciar uno no altera el otro |
 | Caché | una llegada de red para `player/main.bundle.js` |
-| Altura dinámica | 445 px a 375 px; 481 px a 1280 px |
+| Altura dinámica | móvil 473→585→445 px; escritorio 481→598→481 px; sin scroll interior |
 | Breakpoints | 320, 375, 768 y 1280 px sin overflow |
 | Teclado | activación y feedback con Enter |
 | Movimiento reducido | transición anulada |
-| Fallback | disponible sin JS, ante error y en impresión |
+| Fallback | disponible sin JS, ante error deliberado, tras reintento y en impresión |
 | Axe | cero violaciones serias o críticas en documento y contenido H5P |
-| Privacidad | cero solicitudes externas, cookies o rutas de seguimiento |
+| Privacidad | cero solicitudes externas, escrituras, cookies o cambios en storage; estado no restaurado |
+| CSP | script y `fetch` externos bloqueados; cero respuestas externas |
 | Seguridad ZIP | hash erróneo, traversal, ruta absoluta y symlink rechazados |
+| Gobierno de catálogo | id, fuente, licencia de contenido/biblioteca, adaptador y procedencia inválidos rechazados |
 | Base URL | PASS en raíz y `/aprendizaje-ia/` |
 | Hugo 0.155.2 | 902 páginas, PASS en raíz y subruta |
 | Hugo 0.164.0 | 902 páginas, PASS en raíz y subruta |
 | Moodle | `moodle_changed: false` |
 
 La evidencia estructurada está en
-[`qa-runtime.json`](evidence/udgia-003/qa-runtime.json) y la automatización en
-`tools/h5p/qa-runtime.mjs`.
+[`qa-runtime.json`](evidence/udgia-003/qa-runtime.json) para Hugo 0.164.0 y en
+[`qa-runtime-hugo-0.155.2.json`](evidence/udgia-003/qa-runtime-hugo-0.155.2.json)
+para la versión fijada en CI. La automatización está en `tools/h5p/qa-runtime.mjs`.
 
 ## Fuentes técnicas
 
@@ -141,8 +147,12 @@ La evidencia estructurada está en
 
 ## Siguiente gate
 
-Antes de integrar o publicar hace falta revisión independiente sobre esta rama y VoBo
-explícito de Rubén. Después, UDGIA-004 podrá incorporar el primer conjunto pedagógico
+La primera revisión independiente pidió reforzar el fallback de error, la ausencia de
+persistencia, la altura bidireccional, la CSP y el gobierno del catálogo. Esos puntos ya
+están cubiertos por pruebas automatizadas; el commit corregido debe recibir un segundo
+dictamen antes de integrar.
+
+Después, con VoBo explícito de Rubén, UDGIA-004 podrá incorporar el primer conjunto pedagógico
 por catálogo, con una adaptación visual por tipo H5P, fallback equivalente, procedencia,
 licencia y QA propios. `moodle-dev.arqueonautis.org` seguirá siendo el entorno Moodle de
 referencia; `arqueonautis.org/moodle` permanece fuera de este proyecto.

@@ -27,7 +27,7 @@ H5P.UDGRuntimeProbe = (function (EventDispatcher) {
 
     const title = document.createElement("h2");
     title.className = "udg-runtime-probe__title";
-    title.textContent = this.params.title || "Runtime H5P";
+    title.textContent = this.params.title || "Runtime H5P encapsulado";
 
     const prompt = document.createElement("p");
     prompt.className = "udg-runtime-probe__prompt";

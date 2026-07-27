@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
   <title id="title">Capas del runtime H5P</title>
-  <desc id="desc">La página Hugo activa un iframe aislado que carga un paquete registrado y verificado.</desc>
+  <desc id="desc">La página Hugo activa un iframe encapsulado que carga un paquete registrado y verificado.</desc>
   <rect width="960" height="420" rx="30" fill="#f5f3ee"/>
   <path d="M120 210h720" stroke="#c9c5bb" stroke-width="8" stroke-linecap="round"/>
   <g font-family="Inter, sans-serif" text-anchor="middle">

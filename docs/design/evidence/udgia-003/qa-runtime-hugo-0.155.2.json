@@ -5,24 +5,18 @@
   "builds": [
     {
       "mode": "root",
-      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
+      "version": "hugo v0.155.2-d8c0dfccf72ab43db2b2bca1483a61c8660021d9+extended linux/amd64 BuildDate=2026-02-02T10:04:51Z VendorInfo=gohugoio",
       "pages": 902,
       "warnings": [
-        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
-        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
-        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
-        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information."
       ]
     },
     {
       "mode": "subpath",
-      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
+      "version": "hugo v0.155.2-d8c0dfccf72ab43db2b2bca1483a61c8660021d9+extended linux/amd64 BuildDate=2026-02-02T10:04:51Z VendorInfo=gohugoio",
       "pages": 902,
       "warnings": [
-        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
-        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
-        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
-        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information."
       ]
     }
   ],
@@ -170,11 +164,7 @@
         "colorScheme": "light",
         "iframeTransition": "0s"
       },
-      "screenshot": {
-        "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
-        "bytes": 174055,
-        "sha256": "34006d925321ead7dfd7f23c9358a9f5131f070cfb056a0c8f1941af6efe3c41"
-      }
+      "screenshot": null
     },
     {
       "label": "subpath-1280",
@@ -261,11 +251,7 @@
         "colorScheme": "light",
         "iframeTransition": "0s"
       },
-      "screenshot": {
-        "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
-        "bytes": 208798,
-        "sha256": "f62523112870f626bf612877d070d6b52c4b30e855810d95170a3bd2638a5229"
-      }
+      "screenshot": null
     }
   ],
   "layouts": [

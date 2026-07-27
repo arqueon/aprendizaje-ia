@@ -20,8 +20,13 @@ import { fileURLToPath } from "node:url";
 import yauzl from "yauzl";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const catalogPath = path.join(repoRoot, "data/h5p/catalog.json");
+const cliValue = (flag) => {
+  const index = process.argv.indexOf(flag);
+  return index === -1 ? "" : process.argv[index + 1] || "";
+};
+const catalogPath = path.resolve(cliValue("--catalog") || path.join(repoRoot, "data/h5p/catalog.json"));
 const runtimeSource = path.join(repoRoot, "h5p/runtime");
+const packagesRoot = path.join(repoRoot, "h5p/packages");
 const target = path.join(repoRoot, "static/h5p/udgia/v1");
 const checkOnly = process.argv.includes("--check");
 const maxEntryBytes = 64 * 1024 * 1024;
@@ -57,6 +62,54 @@ function validateZipPath(name) {
   if (path.posix.normalize(withoutSlash) !== withoutSlash) {
     throw new Error(`Ruta ZIP no normalizada: ${name}`);
   }
+}
+
+function isWithin(parent, candidate) {
+  const relative = path.relative(parent, candidate);
+  return relative !== "" && !relative.startsWith("..") && !path.isAbsolute(relative);
+}
+
+function normalizedLicense(value) {
+  return String(value || "")
+    .trim()
+    .replace(/\s+/g, " ");
+}
+
+function validateCatalogEntry(entryID, entry) {
+  if (!/^[a-z0-9][a-z0-9-]{0,79}$/.test(entryID)) {
+    throw new Error(`Identificador de catálogo no permitido: ${entryID}`);
+  }
+  if (!entry || typeof entry !== "object") {
+    throw new Error(`Entrada de catálogo inválida: ${entryID}`);
+  }
+
+  const packagePath = path.resolve(repoRoot, String(entry.source || ""));
+  if (
+    !isWithin(packagesRoot, packagePath) ||
+    path.extname(packagePath).toLowerCase() !== ".h5p"
+  ) {
+    throw new Error(`Fuente H5P fuera de h5p/packages: ${entryID}`);
+  }
+
+  if (
+    entry.adapter !== null &&
+    entry.adapter !== undefined &&
+    !/^[a-z0-9][a-z0-9-]{0,79}\.css$/.test(entry.adapter)
+  ) {
+    throw new Error(`Adaptador no permitido en ${entryID}: ${entry.adapter}`);
+  }
+  if (!normalizedLicense(entry.contentLicense) || !normalizedLicense(entry.libraryLicense)) {
+    throw new Error(`Licencias incompletas en el catálogo: ${entryID}`);
+  }
+  if (
+    !entry.provenance ||
+    !normalizedLicense(entry.provenance.kind) ||
+    !normalizedLicense(entry.provenance.author) ||
+    !normalizedLicense(entry.provenance.source)
+  ) {
+    throw new Error(`Procedencia incompleta en el catálogo: ${entryID}`);
+  }
+  return packagePath;
 }
 
 async function extractZip(buffer, destination) {
@@ -156,6 +209,15 @@ async function validateLibrary(directory, expected) {
   ) {
     throw new Error(`Biblioteca principal no coincide con el catálogo: ${expectedDirectory}`);
   }
+  if (
+    expected &&
+    normalizedLicense(definition.license) !== normalizedLicense(expected.libraryLicense)
+  ) {
+    throw new Error(
+      `Licencia de biblioteca no coincide en ${expectedDirectory}: ` +
+        `${definition.license} / ${expected.libraryLicense}`
+    );
+  }
 
   for (const asset of [...(definition.preloadedJs || []), ...(definition.preloadedCss || [])]) {
     const assetPath = asset.path;
@@ -171,6 +233,9 @@ async function copyPackage(entryID, entry, packageRoot, output) {
   const h5pPath = path.join(packageRoot, "h5p.json");
   const contentPath = path.join(packageRoot, "content");
   const h5p = JSON.parse(await readFile(h5pPath, "utf8"));
+  const packageLicense = normalizedLicense(
+    [h5p.license, h5p.licenseVersion].filter(Boolean).join(" ")
+  );
 
   if (
     h5p.mainLibrary !== entry.mainLibrary ||
@@ -182,6 +247,12 @@ async function copyPackage(entryID, entry, packageRoot, output) {
     )
   ) {
     throw new Error(`h5p.json de ${entryID} no coincide con el catálogo`);
+  }
+  if (packageLicense !== normalizedLicense(entry.contentLicense)) {
+    throw new Error(
+      `Licencia de contenido no coincide en ${entryID}: ` +
+        `${packageLicense} / ${entry.contentLicense}`
+    );
   }
   if (!(await exists(path.join(contentPath, "content.json")))) {
     throw new Error(`Falta content/content.json en ${entryID}`);
@@ -321,13 +392,22 @@ async function build(output) {
   };
 
   for (const [entryID, entry] of Object.entries(catalog.contents)) {
-    const packagePath = path.join(repoRoot, entry.source);
+    const packagePath = validateCatalogEntry(entryID, entry);
     const packageBuffer = await readFile(packagePath);
     const packageHash = sha256(packageBuffer);
     if (packageHash !== entry.sourceSha256) {
       throw new Error(
         `Hash inesperado para ${entryID}: ${packageHash}; catálogo: ${entry.sourceSha256}`
       );
+    }
+
+    if (entry.adapter) {
+      const adapterSource = path.join(runtimeSource, "adapters", entry.adapter);
+      if (!(await exists(adapterSource))) {
+        throw new Error(`Adaptador declarado ausente en ${entryID}: ${entry.adapter}`);
+      }
+      await mkdir(path.join(output, "adapters"), { recursive: true });
+      await cp(adapterSource, path.join(output, "adapters", entry.adapter));
     }
 
     const packageRoot = await mkdtemp(path.join(tmpdir(), `udgia-h5p-${entryID}-`));

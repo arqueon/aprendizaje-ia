@@ -1,6 +1,6 @@
 {
   "kicker": "UDGIA-003 · fixture no curricular",
-  "title": "El runtime está aislado y responde",
+  "title": "El runtime está encapsulado y responde",
   "prompt": "Activa la comprobación para verificar feedback, altura dinámica y reinicio efímero.",
   "image": {
     "path": "images/runtime-probe.svg",

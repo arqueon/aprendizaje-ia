@@ -11,14 +11,20 @@
   "contents": {
     "runtime-probe": {
       "title": "Comprobación técnica del runtime H5P",
-      "description": "Fixture no curricular para verificar carga, aislamiento, tema C, altura y fallback.",
+      "description": "Fixture no curricular para verificar carga, encapsulación, tema C, altura y fallback.",
       "source": "h5p/packages/udg-runtime-probe-1.0.0.h5p",
-      "sourceSha256": "e0cf3740d0fb1a53673692545417fb6dd9fc94476d194e6843d4b7e8c2205aa5",
+      "sourceSha256": "fab6b8a574d16286fef7ab4cedd7498dc7a6d3d332b2874c10d256feb7eb4da4",
       "mainLibrary": "H5P.UDGRuntimeProbe",
       "majorVersion": 1,
       "minorVersion": 0,
       "contentLicense": "CC BY-SA 4.0",
       "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "UDGPlus",
+        "source": "h5p/fixtures/udg-runtime-probe",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
       "adapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false,

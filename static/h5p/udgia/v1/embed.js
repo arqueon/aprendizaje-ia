@@ -20,11 +20,16 @@
       try {
         const nestedDocument = frame.contentDocument;
         if (!nestedDocument?.documentElement || !nestedDocument.body) continue;
+        const contentRoot = nestedDocument.querySelector(".h5p-content");
+        const measurableChildren = [
+          ...(contentRoot?.children?.length ? contentRoot.children : nestedDocument.body.children)
+        ];
+        const top = contentRoot?.getBoundingClientRect().top || 0;
         const nestedHeight = Math.max(
-          nestedDocument.documentElement.scrollHeight,
-          nestedDocument.body.scrollHeight
+          ...measurableChildren.map((element) => element.getBoundingClientRect().bottom - top),
+          1
         );
-        if (nestedHeight > 280 && Math.abs(frame.getBoundingClientRect().height - nestedHeight) > 1) {
+        if (nestedHeight > 0 && Math.abs(frame.getBoundingClientRect().height - nestedHeight) > 1) {
           frame.style.height = `${Math.ceil(nestedHeight)}px`;
         }
       } catch {
@@ -36,9 +41,9 @@
   const sendHeight = () => {
     fitNestedFrames();
     const height = Math.max(
-      document.documentElement.scrollHeight,
-      document.body.scrollHeight,
-      container.scrollHeight
+      container.getBoundingClientRect().height,
+      container.scrollHeight,
+      1
     );
     send("udg-h5p-height", { height });
   };

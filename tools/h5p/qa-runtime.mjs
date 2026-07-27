@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { createReadStream, createWriteStream } from "node:fs";
+import { createReadStream, createWriteStream, existsSync } from "node:fs";
 import {
   access,
   mkdir,
@@ -21,11 +21,15 @@ import { ZipFile } from "yazl";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const hugoBinary = process.env.HUGO_BIN || "hugo";
-const chromiumBinary = process.env.CHROMIUM_PATH || "/usr/bin/chromium";
+const chromiumBinary =
+  process.env.CHROMIUM_PATH || (existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : "");
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-003");
-const reportPath = path.join(evidenceDirectory, "qa-runtime.json");
+const reportPath = process.env.REPORT_PATH
+  ? path.resolve(process.env.REPORT_PATH)
+  : path.join(evidenceDirectory, "qa-runtime.json");
+const captureScreenshots = process.env.CAPTURE_SCREENSHOTS !== "false";
 const fixturePath = "laboratorio/h5p-runtime/";
 const runtimePrefix = "/h5p/udgia/v1/";
 const failures = [];
@@ -237,10 +241,77 @@ async function securityProbes(temporaryDirectory) {
     );
     results.push({ name, rejected: true });
   }
+
+  const catalogCases = [
+    [
+      "invalid-id",
+      (candidate) => {
+        candidate.contents["../runtime-probe"] = candidate.contents["runtime-probe"];
+        delete candidate.contents["runtime-probe"];
+      },
+      /Identificador de catálogo no permitido/
+    ],
+    [
+      "source-escape",
+      (candidate) => {
+        candidate.contents["runtime-probe"].source = "../../outside.h5p";
+      },
+      /Fuente H5P fuera/
+    ],
+    [
+      "content-license",
+      (candidate) => {
+        candidate.contents["runtime-probe"].contentLicense = "CC0 1.0";
+      },
+      /Licencia de contenido no coincide/
+    ],
+    [
+      "library-license",
+      (candidate) => {
+        candidate.contents["runtime-probe"].libraryLicense = "GPL-3.0";
+      },
+      /Licencia de biblioteca no coincide/
+    ],
+    [
+      "adapter-path",
+      (candidate) => {
+        candidate.contents["runtime-probe"].adapter = "../unsafe.css";
+      },
+      /Adaptador no permitido/
+    ],
+    [
+      "provenance",
+      (candidate) => {
+        candidate.contents["runtime-probe"].provenance = null;
+      },
+      /Procedencia incompleta/
+    ]
+  ];
+  const catalogGuards = [];
+  for (const [name, mutate, expectedError] of catalogCases) {
+    const candidate = structuredClone(catalog);
+    mutate(candidate);
+    const candidatePath = path.join(temporaryDirectory, `catalog-${name}.json`);
+    await writeFile(candidatePath, `${JSON.stringify(candidate, null, 2)}\n`, "utf8");
+    const probe = command(process.execPath, [
+      "tools/h5p/build-runtime.mjs",
+      "--check",
+      "--catalog",
+      candidatePath
+    ]);
+    const output = `${probe.stdout}\n${probe.stderr}`;
+    assert(probe.status !== 0, `El build aceptó el catálogo inválido ${name}`);
+    assert(
+      expectedError.test(output),
+      `El build rechazó el catálogo ${name} por una causa inesperada: ${output.trim()}`
+    );
+    catalogGuards.push({ name, rejected: true });
+  }
   return {
     validHash: expectedHash,
     badHashRejected: true,
-    malicious: results
+    malicious: results,
+    catalogGuards
   };
 }
 
@@ -252,6 +323,31 @@ async function frameWithSelector(page, selector) {
     await page.waitForTimeout(100);
   }
   throw new Error(`No apareció ${selector} dentro de ningún iframe`);
+}
+
+async function storageSnapshot(page) {
+  return page.evaluate(async () => {
+    const sortedEntries = (storage) =>
+      Object.keys(storage)
+        .sort()
+        .map((key) => [key, storage.getItem(key)]);
+    const databases =
+      typeof indexedDB.databases === "function"
+        ? (await indexedDB.databases()).map((database) => database.name || "").sort()
+        : [];
+    const cacheNames = "caches" in window ? (await caches.keys()).sort() : [];
+    const serviceWorkers =
+      "serviceWorker" in navigator
+        ? (await navigator.serviceWorker.getRegistrations()).map((registration) => registration.scope).sort()
+        : [];
+    return {
+      localStorage: sortedEntries(localStorage),
+      sessionStorage: sortedEntries(sessionStorage),
+      indexedDB: databases,
+      cacheStorage: cacheNames,
+      serviceWorkers
+    };
+  });
 }
 
 async function axeAudit(frame, label) {
@@ -279,15 +375,18 @@ async function functionalCase(browser, server, label, viewport) {
   const context = await browser.newContext({
     viewport,
     reducedMotion: "reduce",
-    colorScheme: "dark",
-    bypassCSP: true
+    colorScheme: "dark"
   });
   const externalRequests = [];
+  const writeRequests = [];
   const consoleErrors = [];
   context.on("request", (request) => {
     const url = new URL(request.url());
     if (url.origin !== new URL(server.baseURL).origin && !["data:", "blob:"].includes(url.protocol)) {
       externalRequests.push(request.url());
+    }
+    if (!["GET", "HEAD"].includes(request.method())) {
+      writeRequests.push({ method: request.method(), url: request.url() });
     }
   });
 
@@ -301,6 +400,11 @@ async function functionalCase(browser, server, label, viewport) {
   });
   assert(response?.status() === 200, `${label}: la fixture no respondió HTTP 200`);
   await page.waitForTimeout(700);
+  await page.evaluate(() => {
+    localStorage.setItem("udgia-h5p-qa-local", "preservar");
+    sessionStorage.setItem("udgia-h5p-qa-session", "preservar");
+  });
+  const storageBefore = await storageSnapshot(page);
 
   assert(
     (await page.locator('meta[name="robots"]').getAttribute("content")) === "noindex, nofollow",
@@ -366,7 +470,10 @@ async function functionalCase(browser, server, label, viewport) {
   }
   const firstHeight = Number.parseFloat(await firstIframe.evaluate((element) => element.style.height));
   assert(firstHeight > 280 && firstHeight <= 6000, `${label}: altura dinámica inválida ${firstHeight}`);
-  assert(!(await first.locator(".udg-h5p__fallback").getAttribute("open")), `${label}: fallback no se cerró al quedar lista la interacción`);
+  assert(
+    !(await first.locator(".udg-h5p__fallback").evaluate((element) => element.open)),
+    `${label}: fallback no se cerró al quedar lista la interacción`
+  );
 
   const contentFrame = await frameWithSelector(page, ".udg-runtime-probe");
   await contentFrame.locator(".udg-runtime-probe__button").focus();
@@ -376,6 +483,57 @@ async function functionalCase(browser, server, label, viewport) {
     `${label}: no apareció la retroalimentación`
   );
   const feedbackText = await contentFrame.locator(".udg-runtime-probe__feedback").textContent();
+  await page.waitForFunction(
+    (previousHeight) =>
+      Number.parseFloat(document.querySelector(".udg-h5p__iframe")?.style.height || "0") >
+      previousHeight + 8,
+    firstHeight,
+    { timeout: 10000 }
+  );
+  const expandedHeight = Number.parseFloat(
+    await firstIframe.evaluate((element) => element.style.height)
+  );
+  await contentFrame.locator(".udg-runtime-probe__button").click();
+  await contentFrame.locator(".udg-runtime-probe__feedback").waitFor({ state: "hidden" });
+  await page.waitForFunction(
+    (previousHeight) =>
+      Number.parseFloat(document.querySelector(".udg-h5p__iframe")?.style.height || "0") <
+      previousHeight - 8,
+    expandedHeight,
+    { timeout: 10000 }
+  );
+  const collapsedHeight = Number.parseFloat(
+    await firstIframe.evaluate((element) => element.style.height)
+  );
+  await contentFrame.locator(".udg-runtime-probe__button").click();
+  await contentFrame.locator(".udg-runtime-probe__feedback").waitFor({ state: "visible" });
+  await page.waitForFunction(
+    (previousHeight) =>
+      Number.parseFloat(document.querySelector(".udg-h5p__iframe")?.style.height || "0") >
+      previousHeight + 8,
+    collapsedHeight,
+    { timeout: 10000 }
+  );
+  await page.waitForTimeout(400);
+  const stableHeightA = Number.parseFloat(
+    await firstIframe.evaluate((element) => element.style.height)
+  );
+  await page.waitForTimeout(400);
+  const stableHeightB = Number.parseFloat(
+    await firstIframe.evaluate((element) => element.style.height)
+  );
+  assert(
+    Math.abs(stableHeightA - stableHeightB) <= 2,
+    `${label}: altura inestable ${stableHeightA}/${stableHeightB}`
+  );
+  const innerGeometry = await contentFrame.evaluate(() => ({
+    clientHeight: document.documentElement.clientHeight,
+    scrollHeight: document.documentElement.scrollHeight
+  }));
+  assert(
+    innerGeometry.scrollHeight <= innerGeometry.clientHeight + 2,
+    `${label}: scrollbar interior ${JSON.stringify(innerGeometry)}`
+  );
 
   const second = page.locator("[data-udg-h5p]").nth(1);
   await second.scrollIntoViewIfNeeded();
@@ -420,9 +578,8 @@ async function functionalCase(browser, server, label, viewport) {
     `${label}: reduced-motion no anuló la transición (${layout.iframeTransition})`
   );
 
-  await axeAudit(page.mainFrame(), `${label}/documento`);
-  await axeAudit(contentFrame, `${label}/contenido-h5p`);
   assert(externalRequests.length === 0, `${label}: solicitudes externas ${externalRequests.join(", ")}`);
+  assert(writeRequests.length === 0, `${label}: solicitudes de escritura ${JSON.stringify(writeRequests)}`);
   assert(
     !server.requests
       .slice(requestStart)
@@ -433,7 +590,7 @@ async function functionalCase(browser, server, label, viewport) {
   assert(consoleErrors.length === 0, `${label}: errores de consola ${consoleErrors.join(" | ")}`);
 
   let screenshot = null;
-  if ([375, 1280].includes(viewport.width)) {
+  if (captureScreenshots && [375, 1280].includes(viewport.width)) {
     const screenshotPath = path.join(evidenceDirectory, `h5p-${viewport.width}.jpg`);
     await page.screenshot({
       path: screenshotPath,
@@ -449,18 +606,67 @@ async function functionalCase(browser, server, label, viewport) {
     };
   }
 
+  const storageAfterInteraction = await storageSnapshot(page);
+  assert(
+    JSON.stringify(storageAfterInteraction) === JSON.stringify(storageBefore),
+    `${label}: H5P alteró almacenamiento ${JSON.stringify({
+      before: storageBefore,
+      after: storageAfterInteraction
+    })}`
+  );
+  await page.reload({ waitUntil: "load" });
+  const storageAfterReload = await storageSnapshot(page);
+  assert(
+    JSON.stringify(storageAfterReload) === JSON.stringify(storageBefore),
+    `${label}: la recarga alteró almacenamiento ${JSON.stringify({
+      before: storageBefore,
+      after: storageAfterReload
+    })}`
+  );
+  const reloadedFirst = page.locator("[data-udg-h5p]").first();
+  await reloadedFirst.locator('[data-h5p-action="load"]').click();
+  await page.waitForFunction(
+    () => document.querySelector("[data-udg-h5p]")?.dataset.state === "ready",
+    null,
+    { timeout: 15000 }
+  );
+  const reloadedContentFrame = await frameWithSelector(page, ".udg-runtime-probe");
+  assert(
+    await reloadedContentFrame.locator(".udg-runtime-probe__feedback").isHidden(),
+    `${label}: la retroalimentación reapareció tras recargar`
+  );
+  assert(
+    (await reloadedContentFrame.locator(".udg-runtime-probe__button").getAttribute("aria-expanded")) ===
+      "false",
+    `${label}: el estado interactivo persistió tras recargar`
+  );
+  assert(externalRequests.length === 0, `${label}: solicitudes externas tras recarga`);
+  assert(writeRequests.length === 0, `${label}: solicitudes de escritura tras recarga`);
+  assert((await context.cookies()).length === 0, `${label}: cookies tras recarga`);
+  assert(consoleErrors.length === 0, `${label}: errores de consola tras recarga ${consoleErrors.join(" | ")}`);
+
   await context.close();
   return {
     label,
-    baseURL: server.baseURL,
+    basePath: new URL(server.baseURL).pathname,
     viewport,
     initialRuntimeRequests: initialRequests.filter((item) => item.includes("/h5p/")),
     firstHeight,
     feedbackText: feedbackText?.trim(),
+    expandedHeight,
+    collapsedHeight,
+    stableHeight: stableHeightB,
+    innerGeometry,
     playerNetworkHits: server.counts.get(playerPath) || 0,
     externalRequests,
+    writeRequests,
     consoleErrors,
-    axeSeriousOrCritical: 0,
+    storage: {
+      before: storageBefore,
+      afterInteraction: storageAfterInteraction,
+      afterReload: storageAfterReload,
+      interactiveStateRestored: false
+    },
     layout,
     screenshot
   };
@@ -490,6 +696,169 @@ async function layoutCase(browser, server, viewport) {
   assert(result.iframeWidth <= result.width, `${viewport.width}px: iframe desbordado`);
   await context.close();
   return { viewport, ...result };
+}
+
+async function errorFallbackCase(browser, server) {
+  const context = await browser.newContext({ viewport: { width: 768, height: 900 } });
+  const page = await context.newPage();
+  const indexPattern = "**/h5p/udgia/v1/content-index.json";
+  await page.route(indexPattern, (route) =>
+    route.fulfill({
+      status: 503,
+      contentType: "application/json",
+      body: JSON.stringify({ error: "sonda deliberada" })
+    })
+  );
+  await page.goto(new URL(fixturePath, server.baseURL).href, { waitUntil: "load" });
+  const first = page.locator("[data-udg-h5p]").first();
+  await first.locator('[data-h5p-action="load"]').click();
+  await page.waitForFunction(
+    () => document.querySelector("[data-udg-h5p]")?.dataset.state === "error",
+    null,
+    { timeout: 15000 }
+  );
+  const failed = {
+    state: await first.getAttribute("data-state"),
+    iframeCount: await first.locator("iframe").count(),
+    fallbackOpen: await first.locator(".udg-h5p__fallback").evaluate((element) => element.open),
+    fallbackText: (await first.locator(".udg-h5p__fallback-body").textContent())?.trim(),
+    retryText: (await first.locator('[data-h5p-action="load"]').textContent())?.trim()
+  };
+  assert(failed.iframeCount === 0, "El iframe fallido no se retiró");
+  assert(failed.fallbackOpen && failed.fallbackText.length > 80, "El fallback de error no quedó utilizable");
+  assert(failed.retryText === "Reintentar actividad", "No apareció el control de reintento");
+
+  await page.unroute(indexPattern);
+  await first.locator('[data-h5p-action="load"]').click();
+  await page.waitForFunction(
+    () => document.querySelector("[data-udg-h5p]")?.dataset.state === "ready",
+    null,
+    { timeout: 15000 }
+  );
+  const recovered = {
+    state: await first.getAttribute("data-state"),
+    fallbackOpen: await first.locator(".udg-h5p__fallback").evaluate((element) => element.open),
+    iframeCount: await first.locator("iframe").count()
+  };
+  assert(
+    recovered.state === "ready" && !recovered.fallbackOpen && recovered.iframeCount === 1,
+    `El reintento no recuperó la actividad: ${JSON.stringify(recovered)}`
+  );
+  await context.close();
+  return { failed, recovered };
+}
+
+async function cspCase(browser, server) {
+  const context = await browser.newContext();
+  const externalAttempts = [];
+  const externalResponses = [];
+  const externalFailures = [];
+  const isExternal = (rawURL) => {
+    const url = new URL(rawURL);
+    return url.origin !== new URL(server.baseURL).origin && !["data:", "blob:"].includes(url.protocol);
+  };
+  context.on("request", (request) => {
+    if (isExternal(request.url())) externalAttempts.push(request.url());
+  });
+  context.on("response", (response) => {
+    if (isExternal(response.url())) externalResponses.push(response.url());
+  });
+  context.on("requestfailed", (request) => {
+    if (isExternal(request.url())) {
+      externalFailures.push({
+        url: request.url(),
+        error: request.failure()?.errorText || "desconocido"
+      });
+    }
+  });
+  const page = await context.newPage();
+  const embedURL = new URL("h5p/udgia/v1/embed.html", server.baseURL);
+  embedURL.searchParams.set("content", "runtime-probe");
+  embedURL.searchParams.set("instance", "csp-probe");
+  await page.goto(embedURL.href, { waitUntil: "load" });
+  await frameWithSelector(page, ".udg-runtime-probe");
+  await page.evaluate(() => {
+    window.__udgCspViolations = [];
+    document.addEventListener("securitypolicyviolation", (event) => {
+      window.__udgCspViolations.push({
+        blockedURI: event.blockedURI,
+        effectiveDirective: event.effectiveDirective
+      });
+    });
+  });
+
+  const externalScriptBlocked = await page.evaluate(
+    () =>
+      new Promise((resolve) => {
+        const script = document.createElement("script");
+        const timeout = window.setTimeout(() => resolve(true), 1000);
+        script.src = "https://example.invalid/udgia-csp-probe.js";
+        script.addEventListener("load", () => {
+          window.clearTimeout(timeout);
+          resolve(false);
+        });
+        script.addEventListener("error", () => {
+          window.clearTimeout(timeout);
+          resolve(true);
+        });
+        document.head.append(script);
+      })
+  );
+  const connectBlocked = await page.evaluate(async () => {
+    try {
+      await fetch("https://example.invalid/udgia-csp-probe");
+      return false;
+    } catch {
+      return true;
+    }
+  });
+  await page.waitForTimeout(250);
+  const violations = await page.evaluate(() => window.__udgCspViolations);
+  assert(externalScriptBlocked, "La CSP permitió un script externo");
+  assert(connectBlocked, "La CSP permitió una conexión externa");
+  assert(
+    violations.some((violation) => violation.effectiveDirective.startsWith("script-src")),
+    `La CSP no registró la violación de script: ${JSON.stringify(violations)}`
+  );
+  assert(
+    violations.some((violation) => violation.effectiveDirective === "connect-src"),
+    `La CSP no registró la violación de conexión: ${JSON.stringify(violations)}`
+  );
+  assert(externalResponses.length === 0, `La sonda CSP recibió respuesta externa: ${externalResponses.join(", ")}`);
+  await context.close();
+  return {
+    externalScriptBlocked,
+    connectBlocked,
+    violations,
+    externalAttempts,
+    externalFailures,
+    externalResponses
+  };
+}
+
+async function axeCase(browser, server) {
+  const context = await browser.newContext({
+    viewport: { width: 375, height: 844 },
+    reducedMotion: "reduce",
+    bypassCSP: true
+  });
+  const page = await context.newPage();
+  await page.goto(new URL(fixturePath, server.baseURL).href, { waitUntil: "load" });
+  const first = page.locator("[data-udg-h5p]").first();
+  await first.locator('[data-h5p-action="load"]').click();
+  await page.waitForFunction(
+    () => document.querySelector("[data-udg-h5p]")?.dataset.state === "ready",
+    null,
+    { timeout: 15000 }
+  );
+  const contentFrame = await frameWithSelector(page, ".udg-runtime-probe");
+  const documentViolations = await axeAudit(page.mainFrame(), "axe/documento");
+  const contentViolations = await axeAudit(contentFrame, "axe/contenido-h5p");
+  await context.close();
+  return {
+    bypassScope: "Sólo inyección de axe; los recorridos funcional y CSP usan política real",
+    seriousOrCritical: documentViolations.length + contentViolations.length
+  };
 }
 
 async function noJavaScriptCase(browser, server) {
@@ -531,6 +900,7 @@ async function nonH5PCase(browser, server) {
 }
 
 await mkdir(evidenceDirectory, { recursive: true });
+await mkdir(path.dirname(reportPath), { recursive: true });
 const temporaryDirectory = await mkdtemp(path.join(tmpdir(), "udgia-h5p-qa-"));
 const rootOutput = path.join(temporaryDirectory, "root");
 const subpathOutput = path.join(temporaryDirectory, "subpath");
@@ -550,11 +920,12 @@ try {
   assert(runtimeVerification.status === 0, `h5p:verify falló: ${runtimeVerification.stderr}`);
   const security = await securityProbes(temporaryDirectory);
 
-  browser = await chromium.launch({
-    executablePath: chromiumBinary,
+  const browserOptions = {
     headless: true,
     args: ["--no-sandbox", "--disable-gpu"]
-  });
+  };
+  if (chromiumBinary) browserOptions.executablePath = chromiumBinary;
+  browser = await chromium.launch(browserOptions);
 
   const cases = [
     await functionalCase(browser, rootServer, "root-375", { width: 375, height: 844 }),
@@ -564,6 +935,9 @@ try {
     await layoutCase(browser, rootServer, { width: 320, height: 780 }),
     await layoutCase(browser, subpathServer, { width: 768, height: 1024 })
   ];
+  const errorFallback = await errorFallbackCase(browser, subpathServer);
+  const csp = await cspCase(browser, subpathServer);
+  const axe = await axeCase(browser, rootServer);
   const noJavaScript = await noJavaScriptCase(browser, subpathServer);
   const nonH5P = await nonH5PCase(browser, subpathServer);
   const manifest = JSON.parse(
@@ -584,6 +958,9 @@ try {
     security,
     cases,
     layouts,
+    errorFallback,
+    csp,
+    axe,
     noJavaScript,
     nonH5P,
     assertions: {
@@ -593,11 +970,12 @@ try {
       dynamicHeight: true,
       keyboardAndFocus: true,
       fallbackNoJsErrorAndPrint: true,
+      cspEnforced: true,
       rootAndSubpath: true,
       reducedMotion: true,
       noDarkVariant: true,
       noTelemetryGradesOrPersistence: true,
-      axeSeriousOrCritical: 0
+      axeSeriousOrCritical: axe.seriousOrCritical
     }
   };
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");

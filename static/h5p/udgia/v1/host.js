@@ -51,6 +51,10 @@
     frame.loading = "eager";
     frame.referrerPolicy = "strict-origin-when-cross-origin";
     frame.setAttribute("sandbox", "allow-scripts allow-same-origin");
+    if (component.fullScreen) {
+      frame.allow = "fullscreen";
+      frame.allowFullscreen = true;
+    }
     frame.src = component.embedURL;
     component.frame = frame;
     component.frameHost.append(frame);
@@ -79,6 +83,7 @@
       title: root.dataset.title,
       embedURL: root.dataset.embedUrl,
       loadMode: root.dataset.load,
+      fullScreen: root.dataset.fullscreen === "true",
       loadButton: root.querySelector('[data-h5p-action="load"]'),
       resetButton: root.querySelector('[data-h5p-action="reset"]'),
       status: root.querySelector("[data-h5p-status]"),

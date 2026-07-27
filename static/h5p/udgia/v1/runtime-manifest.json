@@ -18,17 +18,17 @@
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 1323224,
+  "totalBytes": 1323696,
   "files": [
     {
       "path": "content/runtime-probe/content/content.json",
-      "bytes": 711,
-      "sha256": "2ed17ea544ff09ad144de1b219be40a8bc82b9b07a339ad98fc1baee460f00d1"
+      "bytes": 715,
+      "sha256": "869e6c605ad8eb512525e1a8e7d786bdef7f7da17b353ad3e8d8fd2e8bbb009b"
     },
     {
       "path": "content/runtime-probe/content/images/runtime-probe.svg",
-      "bytes": 1811,
-      "sha256": "5c25f2a8485fef6399f9a149c191be1ae9a49fa776d4bb8ef53183297edc23d9"
+      "bytes": 1815,
+      "sha256": "a477cd42b96e48353a2e88f0456eab79eaa123c5f984e1f87ca71ec4e11123d2"
     },
     {
       "path": "content/runtime-probe/h5p.json",
@@ -52,13 +52,13 @@
     },
     {
       "path": "embed.html",
-      "bytes": 987,
-      "sha256": "285115dea44bcc89cbacef97d4c1dedd4ded68524b9f8094619c445920924d41"
+      "bytes": 1003,
+      "sha256": "2be503e26c3cf237a02a2212718215535ca932cd5522b33e46822efd9b6178f7"
     },
     {
       "path": "embed.js",
-      "bytes": 4410,
-      "sha256": "4d093460f7e8f5b5746aaec168ce49231cf3d0dbf3889a8462eea2739cb00f7d"
+      "bytes": 4684,
+      "sha256": "d83c0140b1c29617739c5d134e519ae8edbfd63a1344eb28f287b9bcfe2d17e0"
     },
     {
       "path": "host.css",
@@ -67,8 +67,8 @@
     },
     {
       "path": "host.js",
-      "bytes": 5164,
-      "sha256": "9ea9d560a0a51c82fe101db691083665724515ea3484ee62d7b7386ed44c0d56"
+      "bytes": 5326,
+      "sha256": "b9dc9da21597f0c6daf971bba31cd3b0aa4a4c667b75c744fa84a27d0df76836"
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/library.json",
@@ -87,8 +87,8 @@
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/runtime-probe.js",
-      "bytes": 2719,
-      "sha256": "934b11cee9842bb104b5f9e898d44438e66cc69e40345ee13e735d81a2eaa257"
+      "bytes": 2731,
+      "sha256": "b19ed9dd9731f071b7ba0d275cf9ad6be3c439279315973e4556502a735634e7"
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/semantics.json",
