@@ -41,7 +41,7 @@
     ]
   },
   "security": {
-    "validHash": "fab6b8a574d16286fef7ab4cedd7498dc7a6d3d332b2874c10d256feb7eb4da4",
+    "validHash": "a53f444162b8e4985a153ffa1c6bd3cbc71e67af16650b774e41168f0ab4a82f",
     "badHashRejected": true,
     "malicious": [
       {
@@ -96,7 +96,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 473,
+      "firstHeight": 445,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,

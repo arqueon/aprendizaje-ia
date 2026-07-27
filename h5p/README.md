@@ -19,6 +19,10 @@ fuente a `h5p/packages/`, comprueba procedencia y licencias cruzadas, y limita l
 adaptadores futuros a hojas CSS gobernadas. El resultado generado y versionado vive en
 `static/h5p/udgia/v1/`.
 
+La fixture se empaqueta de forma reproducible: orden binario de rutas, permisos y fecha
+fijos, timestamp DOS y entradas sin compresión. Así su SHA-256 no depende de la zona
+horaria, ICU o la versión de zlib del equipo que ejecute Node.js.
+
 La única actividad incluida en UDGIA-003 es `runtime-probe`: una fixture técnica,
 no curricular y `noindex`. Los objetos pedagógicos pertenecen a UDGIA-004.
 

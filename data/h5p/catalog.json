@@ -13,7 +13,7 @@
       "title": "Comprobación técnica del runtime H5P",
       "description": "Fixture no curricular para verificar carga, encapsulación, tema C, altura y fallback.",
       "source": "h5p/packages/udg-runtime-probe-1.0.0.h5p",
-      "sourceSha256": "fab6b8a574d16286fef7ab4cedd7498dc7a6d3d332b2874c10d256feb7eb4da4",
+      "sourceSha256": "a53f444162b8e4985a153ffa1c6bd3cbc71e67af16650b774e41168f0ab4a82f",
       "mainLibrary": "H5P.UDGRuntimeProbe",
       "majorVersion": 1,
       "minorVersion": 0,

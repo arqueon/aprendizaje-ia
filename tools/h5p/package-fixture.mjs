@@ -18,13 +18,18 @@ const fixtureRoot = path.join(repoRoot, "h5p/fixtures/udg-runtime-probe");
 const packagePath = path.join(repoRoot, "h5p/packages/udg-runtime-probe-1.0.0.h5p");
 const catalogPath = path.join(repoRoot, "data/h5p/catalog.json");
 const updateLock = process.argv.includes("--update-lock");
-const fixedTime = new Date("1980-01-01T00:00:00.000Z");
+const fixedTime = new Date(1980, 0, 1, 0, 0, 0, 0);
+const fixedFileMode = 0o100644;
+
+function compareNames(left, right) {
+  return Buffer.compare(Buffer.from(left, "utf8"), Buffer.from(right, "utf8"));
+}
 
 async function walk(directory, base = directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
 
-  for (const entry of entries.sort((a, b) => a.name.localeCompare(b.name))) {
+  for (const entry of entries.sort((a, b) => compareNames(a.name, b.name))) {
     const absolute = path.join(directory, entry.name);
     const relative = path.relative(base, absolute).split(path.sep).join("/");
     const stats = await lstat(absolute);
@@ -34,7 +39,7 @@ async function walk(directory, base = directory) {
     if (stats.isDirectory()) {
       files.push(...(await walk(absolute, base)));
     } else if (stats.isFile()) {
-      files.push({ absolute, relative, mode: stats.mode & 0o777 });
+      files.push({ absolute, relative });
     } else {
       throw new Error(`Tipo de archivo no admitido: ${relative}`);
     }
@@ -60,8 +65,9 @@ async function writeZip(files, destination) {
   for (const file of files) {
     zip.addFile(file.absolute, file.relative, {
       mtime: fixedTime,
-      mode: file.mode,
-      compress: true
+      mode: fixedFileMode,
+      compress: false,
+      forceDosTimestamp: true
     });
   }
   zip.end();
