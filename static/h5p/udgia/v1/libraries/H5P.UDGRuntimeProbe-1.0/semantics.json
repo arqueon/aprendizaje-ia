@@ -1,0 +1,37 @@
+[
+  {
+    "name": "kicker",
+    "type": "text",
+    "label": "Kicker"
+  },
+  {
+    "name": "title",
+    "type": "text",
+    "label": "Title"
+  },
+  {
+    "name": "prompt",
+    "type": "text",
+    "label": "Prompt"
+  },
+  {
+    "name": "image",
+    "type": "image",
+    "label": "Image"
+  },
+  {
+    "name": "imageAlt",
+    "type": "text",
+    "label": "Image alternative"
+  },
+  {
+    "name": "revealLabel",
+    "type": "text",
+    "label": "Button label"
+  },
+  {
+    "name": "feedback",
+    "type": "text",
+    "label": "Feedback"
+  }
+]

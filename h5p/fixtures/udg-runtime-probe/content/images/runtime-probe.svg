@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Capas del runtime H5P</title>
+  <desc id="desc">La página Hugo activa un iframe aislado que carga un paquete registrado y verificado.</desc>
+  <rect width="960" height="420" rx="30" fill="#f5f3ee"/>
+  <path d="M120 210h720" stroke="#c9c5bb" stroke-width="8" stroke-linecap="round"/>
+  <g font-family="Inter, sans-serif" text-anchor="middle">
+    <g transform="translate(180 210)">
+      <circle r="104" fill="#18223c"/>
+      <path d="M-42-22h84v66h-84z" fill="#fff" rx="8"/>
+      <path d="M-26-2h52M-26 14h38M-26 30h46" stroke="#b12028" stroke-width="8" stroke-linecap="round"/>
+      <text y="142" fill="#18223c" font-size="29" font-weight="750">Página Hugo</text>
+    </g>
+    <g transform="translate(480 210)">
+      <circle r="104" fill="#b12028"/>
+      <rect x="-55" y="-43" width="110" height="86" rx="10" fill="#fff"/>
+      <path d="M-55-17h110" stroke="#7f1820" stroke-width="8"/>
+      <circle cx="-35" cy="-30" r="5" fill="#536326"/>
+      <circle cx="-18" cy="-30" r="5" fill="#914411"/>
+      <text y="142" fill="#18223c" font-size="29" font-weight="750">Iframe H5P</text>
+    </g>
+    <g transform="translate(780 210)">
+      <circle r="104" fill="#536326"/>
+      <path d="M0-58l54 30v60L0 62l-54-30v-60z" fill="#fff"/>
+      <path d="M0-58v60m54-30L0 2l-54-30" fill="none" stroke="#3f4b1d" stroke-width="7"/>
+      <text y="142" fill="#18223c" font-size="29" font-weight="750">Paquete verificado</text>
+    </g>
+  </g>
+  <path d="M290 210h72m236 0h72" stroke="#914411" stroke-width="12" stroke-linecap="round"/>
+  <path d="M350 192l22 18-22 18m308-36l22 18-22 18" fill="none" stroke="#914411" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

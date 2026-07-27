@@ -1,0 +1,3 @@
+# El reproductor se copia byte por byte del paquete npm fijado; no normalizar el vendor.
+static/h5p/udgia/v1/player/** -whitespace
+static/h5p/udgia/v1/licenses/** -whitespace

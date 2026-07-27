@@ -1,0 +1,18 @@
+{
+  "kicker": "UDGIA-003 · fixture no curricular",
+  "title": "El runtime está aislado y responde",
+  "prompt": "Activa la comprobación para verificar feedback, altura dinámica y reinicio efímero.",
+  "image": {
+    "path": "images/runtime-probe.svg",
+    "mime": "image/svg+xml",
+    "copyright": {
+      "license": "CC BY-SA",
+      "version": "4.0",
+      "author": "UDGPlus",
+      "title": "Capas del runtime H5P"
+    }
+  },
+  "imageAlt": "Tres capas conectadas: página Hugo, iframe H5P y paquete gobernado por catálogo.",
+  "revealLabel": "Ejecutar comprobación",
+  "feedback": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión."
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": "1",
+  "contents": {
+    "runtime-probe": {
+      "path": "runtime-probe",
+      "title": "Comprobación técnica del runtime H5P",
+      "mainLibrary": "H5P.UDGRuntimeProbe",
+      "adapter": null,
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    }
+  }
+}

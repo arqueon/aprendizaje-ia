@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": "1",
+  "player": {
+    "name": "h5p-standalone",
+    "version": "3.8.2",
+    "license": "MIT",
+    "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
+    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+  },
+  "contents": {
+    "runtime-probe": {
+      "title": "Comprobación técnica del runtime H5P",
+      "description": "Fixture no curricular para verificar carga, aislamiento, tema C, altura y fallback.",
+      "source": "h5p/packages/udg-runtime-probe-1.0.0.h5p",
+      "sourceSha256": "e0cf3740d0fb1a53673692545417fb6dd9fc94476d194e6843d4b7e8c2205aa5",
+      "mainLibrary": "H5P.UDGRuntimeProbe",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "adapter": null,
+      "fullScreen": false,
+      "reportingIsEnabled": false,
+      "fixture": true
+    }
+  }
+}

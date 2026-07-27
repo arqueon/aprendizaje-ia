@@ -1,0 +1,8 @@
+Comprobación técnica del runtime H5P
+Copyright (c) 2026 UDGPlus
+
+Este contenido se distribuye bajo Creative Commons Atribución-CompartirIgual 4.0
+Internacional (CC BY-SA 4.0).
+
+Texto de la licencia:
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.es

@@ -1,0 +1,72 @@
+{{- $id := .Get "id" | default "" -}}
+{{- $entry := dict -}}
+{{- if ge hugo.Version "0.156.0" -}}
+  {{- $entry = index hugo.Data.h5p.catalog.contents $id -}}
+{{- else -}}
+  {{- $entry = index site.Data.h5p.catalog.contents $id -}}
+{{- end -}}
+{{- if not $entry -}}
+  {{- errorf "Shortcode h5p: id no registrado %q en %s" $id .Position -}}
+{{- end -}}
+{{- if not (strings.TrimSpace .Inner) -}}
+  {{- errorf "Shortcode h5p: %q requiere una alternativa accesible en %s" $id .Position -}}
+{{- end -}}
+{{- $load := .Get "load" | default "visible" -}}
+{{- if not (in (slice "manual" "visible") $load) -}}
+  {{- errorf "Shortcode h5p: load debe ser manual o visible; se recibió %q en %s" $load .Position -}}
+{{- end -}}
+{{- $title := .Get "title" | default $entry.title -}}
+{{- $description := .Get "description" | default $entry.description -}}
+{{- $instance := printf "%s-%d" $id .Ordinal -}}
+{{- $titleID := printf "h5p-title-%s" $instance -}}
+{{- $embedURL := printf "%s?content=%s&instance=%s" ("h5p/udgia/v1/embed.html" | relURL) $id $instance -}}
+{{- if not (.Page.Scratch.Get "udg-h5p-host-loaded") -}}
+  {{- .Page.Scratch.Set "udg-h5p-host-loaded" true -}}
+  <script defer src="{{ "h5p/udgia/v1/host.js" | relURL }}"></script>
+{{- end -}}
+<section
+  class="udg-h5p"
+  data-udg-h5p
+  data-instance="{{ $instance }}"
+  data-title="{{ $title }}"
+  data-embed-url="{{ $embedURL }}"
+  data-load="{{ $load }}"
+  data-state="idle"
+  aria-labelledby="{{ $titleID }}">
+  <header class="udg-h5p__header">
+    <p class="udg-h5p__eyebrow">Actividad interactiva · H5P</p>
+    <h2 id="{{ $titleID }}" class="udg-h5p__title">{{ $title }}</h2>
+    <p class="udg-h5p__description">{{ $description }}</p>
+  </header>
+  <div class="udg-h5p__controls">
+    <button class="udg-h5p__button" type="button" data-h5p-action="load">
+      Abrir actividad interactiva
+    </button>
+    <button
+      class="udg-h5p__button udg-h5p__button--secondary"
+      type="button"
+      data-h5p-action="reset"
+      hidden>
+      Reiniciar actividad
+    </button>
+    <span class="udg-h5p__status" role="status" aria-live="polite" data-h5p-status>
+      {{- if eq $load "visible" -}}
+        Se cargará al acercarse a esta sección.
+      {{- else -}}
+        Se cargará solo cuando la abras.
+      {{- end -}}
+    </span>
+  </div>
+  <div class="udg-h5p__frame" data-h5p-frame></div>
+  <noscript>
+    <p class="udg-h5p__noscript">
+      La interacción requiere JavaScript; la versión equivalente permanece disponible.
+    </p>
+  </noscript>
+  <details class="udg-h5p__fallback" open>
+    <summary>Versión accesible y equivalente</summary>
+    <div class="udg-h5p__fallback-body">
+      {{- .Inner | .Page.RenderString -}}
+    </div>
+  </details>
+</section>

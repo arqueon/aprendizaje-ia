@@ -1,0 +1,24 @@
+{
+  "title": "Comprobación técnica del runtime H5P",
+  "language": "es-MX",
+  "mainLibrary": "H5P.UDGRuntimeProbe",
+  "embedTypes": [
+    "div"
+  ],
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "UDGPlus",
+      "role": "Author"
+    }
+  ],
+  "source": "https://github.com/arqueon/aprendizaje-ia",
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.UDGRuntimeProbe",
+      "majorVersion": 1,
+      "minorVersion": 0
+    }
+  ]
+}

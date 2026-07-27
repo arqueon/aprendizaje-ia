@@ -1,0 +1,21 @@
+{
+  "title": "UDGPlus Runtime Probe",
+  "description": "Technical fixture for the UDGPlus standalone H5P runtime.",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "machineName": "H5P.UDGRuntimeProbe",
+  "author": "UDGPlus",
+  "license": "MIT",
+  "preloadedJs": [
+    {
+      "path": "runtime-probe.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "runtime-probe.css"
+    }
+  ]
+}

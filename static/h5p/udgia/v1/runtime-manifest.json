@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": "1",
+  "player": {
+    "name": "h5p-standalone",
+    "version": "3.8.2",
+    "license": "MIT",
+    "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
+    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+  },
+  "contents": {
+    "runtime-probe": {
+      "path": "runtime-probe",
+      "title": "Comprobación técnica del runtime H5P",
+      "mainLibrary": "H5P.UDGRuntimeProbe",
+      "adapter": null,
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    }
+  },
+  "totalBytes": 1323224,
+  "files": [
+    {
+      "path": "content/runtime-probe/content/content.json",
+      "bytes": 711,
+      "sha256": "2ed17ea544ff09ad144de1b219be40a8bc82b9b07a339ad98fc1baee460f00d1"
+    },
+    {
+      "path": "content/runtime-probe/content/images/runtime-probe.svg",
+      "bytes": 1811,
+      "sha256": "5c25f2a8485fef6399f9a149c191be1ae9a49fa776d4bb8ef53183297edc23d9"
+    },
+    {
+      "path": "content/runtime-probe/h5p.json",
+      "bytes": 480,
+      "sha256": "4852bb11094eb5b1d34fb87cd75678a1b17e32469a329ef65fab3558eda10bc7"
+    },
+    {
+      "path": "content/runtime-probe/LICENSE-content.txt",
+      "bytes": 262,
+      "sha256": "8b1c237dd00e1d4f0c52bc7972063989bff87ddff77e320ad4d920e8652744fe"
+    },
+    {
+      "path": "content-index.json",
+      "bytes": 316,
+      "sha256": "e84d0a02c7c62219176c80e6dacfc3bc4d4cbf57c345c7f8720aa07e55635213"
+    },
+    {
+      "path": "embed.css",
+      "bytes": 676,
+      "sha256": "0762c7892b9d05eb64fedbe9a7972b9199296e80a4da19cfd38814e80b75dbeb"
+    },
+    {
+      "path": "embed.html",
+      "bytes": 987,
+      "sha256": "285115dea44bcc89cbacef97d4c1dedd4ded68524b9f8094619c445920924d41"
+    },
+    {
+      "path": "embed.js",
+      "bytes": 4410,
+      "sha256": "4d093460f7e8f5b5746aaec168ce49231cf3d0dbf3889a8462eea2739cb00f7d"
+    },
+    {
+      "path": "host.css",
+      "bytes": 3243,
+      "sha256": "14b473b3cce91d5e61bf16ec5ccdbd3dbe4001eab06fde3fd5c8015c532d1224"
+    },
+    {
+      "path": "host.js",
+      "bytes": 5164,
+      "sha256": "9ea9d560a0a51c82fe101db691083665724515ea3484ee62d7b7386ed44c0d56"
+    },
+    {
+      "path": "libraries/H5P.UDGRuntimeProbe-1.0/library.json",
+      "bytes": 420,
+      "sha256": "7c06f005e7f91d64dfe4ee020c5555e38fe2f95febef46a126f5169529785ca2"
+    },
+    {
+      "path": "libraries/H5P.UDGRuntimeProbe-1.0/LICENSE",
+      "bytes": 1064,
+      "sha256": "c5226aae76a2c5127c13970933b6e5840727c22a2fc0ff6bba2712baaff82700"
+    },
+    {
+      "path": "libraries/H5P.UDGRuntimeProbe-1.0/runtime-probe.css",
+      "bytes": 2085,
+      "sha256": "93d84bba173abc7213a465b705711b3cb876f2e923e80647e0ff68a580d5b870"
+    },
+    {
+      "path": "libraries/H5P.UDGRuntimeProbe-1.0/runtime-probe.js",
+      "bytes": 2719,
+      "sha256": "934b11cee9842bb104b5f9e898d44438e66cc69e40345ee13e735d81a2eaa257"
+    },
+    {
+      "path": "libraries/H5P.UDGRuntimeProbe-1.0/semantics.json",
+      "bytes": 539,
+      "sha256": "f6ae4384600d31a6d518b17426fca35b46f50c7f98458b5054d57f1f9b091cfe"
+    },
+    {
+      "path": "licenses/h5p-standalone-MIT.txt",
+      "bytes": 1077,
+      "sha256": "c296703063e7e262a0e9039c02c6b1c260e002dc0746f9e562fa2fb3a44c11f4"
+    },
+    {
+      "path": "player/fonts/h5p-core-30.woff2",
+      "bytes": 15080,
+      "sha256": "fc0fc677374df9e2db0932dd7fcc144544cbbae6ceb59f5e4efbe57852c017cd"
+    },
+    {
+      "path": "player/fonts/h5p-hub-publish.woff",
+      "bytes": 2624,
+      "sha256": "ca8a59f21146b22795e13c3be14431ded6bb653046c0eaf496fcdf49576893cc"
+    },
+    {
+      "path": "player/fonts/h5p-hub-publish.woff2",
+      "bytes": 1384,
+      "sha256": "c3f3e969c906dd2fbe7de0f9486af321213f1429363e15b5e94a2bc729a563df"
+    },
+    {
+      "path": "player/fonts/h5p-theme.woff2",
+      "bytes": 10244,
+      "sha256": "9591c8c4c6e8a3a90f54affb3fc1970cf5e96b82c09cbe5d087a035e95d42ffc"
+    },
+    {
+      "path": "player/fonts/inter/Inter-ExtraBold.woff2",
+      "bytes": 114856,
+      "sha256": "6f75025856f8db1b2186e9cb89be9de9894932c8b7b20f4df5e65916ff714e34"
+    },
+    {
+      "path": "player/fonts/inter/Inter-ExtraBoldItalic.woff2",
+      "bytes": 121516,
+      "sha256": "53bb20ba292e2ac28a0777bf0f56f31b98be432a3cc04359e2eb608c758349c7"
+    },
+    {
+      "path": "player/fonts/inter/inter-v18-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-600.woff2",
+      "bytes": 112048,
+      "sha256": "46aee58cf273df3edbb19e44db66de5a87106fe641f57e08573e62688757a003"
+    },
+    {
+      "path": "player/fonts/inter/inter-v18-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-600italic.woff2",
+      "bytes": 118096,
+      "sha256": "eba31e1daf2d622f67958635e53162048f1356c15655c503b98d6ecdb6afd553"
+    },
+    {
+      "path": "player/fonts/inter/inter-v18-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-italic.woff2",
+      "bytes": 114132,
+      "sha256": "09d554ab27e1b02ce25d6f5faf71e2e07e77c28beb4019dbcfcd43ec7558d3df"
+    },
+    {
+      "path": "player/fonts/inter/inter-v18-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_vietnamese-regular.woff2",
+      "bytes": 108656,
+      "sha256": "21ab4e91a62b1c86daf7bda3818f8cf0721f91cd664a9d135923c1ed6b694e90"
+    },
+    {
+      "path": "player/fonts/inter/LICENSE.txt",
+      "bytes": 4380,
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+    },
+    {
+      "path": "player/fonts/open-sans/OFL.txt",
+      "bytes": 4216,
+      "sha256": "01cd5ffb3a528c219a86e49a814c6c53bd8a69b9a3c305dd237074ba1c811af7"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-600.woff2",
+      "bytes": 56200,
+      "sha256": "32028782d9f727a340735d527ab309e35a1329627bd0f4513e7ed4e451a88359"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-600italic.woff2",
+      "bytes": 59372,
+      "sha256": "94e8ca0e6eee74ff87df4271ff3a804414f0b44d5377f4eccd48d68f17cef36c"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-700.woff2",
+      "bytes": 54424,
+      "sha256": "73eaa9830823855f156cd4e0b27e7096f7e623ba026bb5366640fb0540cdd081"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-700italic.woff2",
+      "bytes": 56748,
+      "sha256": "ab6514c3f0ca678239df01466c3aa34e38f006e3cda016a408cfff09cc71c507"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-italic.woff2",
+      "bytes": 59328,
+      "sha256": "e4dc9aa04d9819fc4345ac9544831278f3ffd8ff4af8401199a8c8d7412cc353"
+    },
+    {
+      "path": "player/fonts/open-sans/open-sans-v40-cyrillic_cyrillic-ext_greek_greek-ext_hebrew_latin_latin-ext_math_symbols_vietnamese-regular.woff2",
+      "bytes": 56272,
+      "sha256": "616b98706b02b2744e0f51dfbe070c56bfc6e73e0963b0200e9908f856a6e3de"
+    },
+    {
+      "path": "player/frame.bundle.js",
+      "bytes": 143904,
+      "sha256": "e6deb39e2d0114869080bacdf4092dcb30cf2ce20f8bde3c3ba8af035fa86e0b"
+    },
+    {
+      "path": "player/h5p.d.ts",
+      "bytes": 8044,
+      "sha256": "87592fb33d6f06359b89d299edb5e5f0e41ac706458278e09c68f072cd514fc5"
+    },
+    {
+      "path": "player/images/h5p.svg",
+      "bytes": 1261,
+      "sha256": "dafbb2661ab0d3c57e6337a030afaab359ea7bc01e3a0f61afb2658c84049ef0"
+    },
+    {
+      "path": "player/images/throbber.gif",
+      "bytes": 1638,
+      "sha256": "e7c6655c9a42e87273aad9eb790113db737ce5f11a1c076c2278584f52a473bd"
+    },
+    {
+      "path": "player/main.bundle.js",
+      "bytes": 22842,
+      "sha256": "74a3fa8b6acdee907edf2030c26161a510a6d5d75bbd2aadb49f22c964ed50d4"
+    },
+    {
+      "path": "player/main.bundle.js.LICENSE.txt",
+      "bytes": 163,
+      "sha256": "8c9946dfc859a2bfb26cc541125631cd96e7110fa20a702eb19275c9d1658805"
+    },
+    {
+      "path": "player/styles/h5p-fonts.css",
+      "bytes": 3374,
+      "sha256": "6a468bc08aded45effe4cc9d5de16cb422e604a7a272757c107d9b87dba5f50d"
+    },
+    {
+      "path": "player/styles/h5p.css",
+      "bytes": 43283,
+      "sha256": "bd1ce5c19c81392768b0a3da2382c298c5935743d90391a4f591b949bf90f9dc"
+    },
+    {
+      "path": "themes/udg-c.css",
+      "bytes": 3175,
+      "sha256": "746f87c44a0a7b601e4b5b9210c54a0b0c222bf9d61f56bc7ad38e5bec037469"
+    }
+  ]
+}

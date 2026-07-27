@@ -1,0 +1,619 @@
+import { createHash } from "node:crypto";
+import { createReadStream, createWriteStream } from "node:fs";
+import {
+  access,
+  mkdir,
+  mkdtemp,
+  readFile,
+  rm,
+  stat,
+  writeFile
+} from "node:fs/promises";
+import http from "node:http";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { pipeline } from "node:stream/promises";
+import { spawnSync } from "node:child_process";
+import { fileURLToPath } from "node:url";
+import axe from "axe-core";
+import { chromium } from "playwright-core";
+import { ZipFile } from "yazl";
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
+const hugoBinary = process.env.HUGO_BIN || "hugo";
+const chromiumBinary = process.env.CHROMIUM_PATH || "/usr/bin/chromium";
+const evidenceDirectory = process.env.EVIDENCE_DIR
+  ? path.resolve(process.env.EVIDENCE_DIR)
+  : path.join(repoRoot, "docs/design/evidence/udgia-003");
+const reportPath = path.join(evidenceDirectory, "qa-runtime.json");
+const fixturePath = "laboratorio/h5p-runtime/";
+const runtimePrefix = "/h5p/udgia/v1/";
+const failures = [];
+
+const assert = (condition, message) => {
+  if (!condition) {
+    failures.push(message);
+    throw new Error(message);
+  }
+};
+
+const sha256 = (buffer) => createHash("sha256").update(buffer).digest("hex");
+
+function command(commandName, args, options = {}) {
+  const result = spawnSync(commandName, args, {
+    cwd: repoRoot,
+    encoding: "utf8",
+    maxBuffer: 32 * 1024 * 1024,
+    ...options
+  });
+  return {
+    status: result.status,
+    stdout: result.stdout || "",
+    stderr: result.stderr || ""
+  };
+}
+
+function runHugo(destination, baseURL) {
+  const result = command(hugoBinary, [
+    "--minify",
+    "--destination",
+    destination,
+    "--baseURL",
+    baseURL
+  ]);
+  if (result.status !== 0) {
+    throw new Error(`Hugo falló para ${baseURL}\n${result.stdout}\n${result.stderr}`);
+  }
+  return {
+    version: command(hugoBinary, ["version"]).stdout.trim(),
+    pages: Number(result.stdout.match(/Pages\s+│\s+(\d+)/)?.[1] || 0),
+    warnings: result.stderr
+      .split("\n")
+      .filter((line) => line.startsWith("WARN"))
+  };
+}
+
+function mimeType(file) {
+  const extension = path.extname(file).toLowerCase();
+  return (
+    {
+      ".css": "text/css; charset=utf-8",
+      ".gif": "image/gif",
+      ".html": "text/html; charset=utf-8",
+      ".ico": "image/x-icon",
+      ".js": "text/javascript; charset=utf-8",
+      ".json": "application/json; charset=utf-8",
+      ".png": "image/png",
+      ".svg": "image/svg+xml",
+      ".webmanifest": "application/manifest+json",
+      ".woff": "font/woff",
+      ".woff2": "font/woff2"
+    }[extension] || "application/octet-stream"
+  );
+}
+
+async function startServer(root, basePath) {
+  const requests = [];
+  const counts = new Map();
+  const normalizedBase = basePath === "/" ? "/" : `/${basePath.replace(/^\/|\/$/g, "")}/`;
+  const server = http.createServer(async (request, response) => {
+    try {
+      const requestURL = new URL(request.url, "http://127.0.0.1");
+      let pathname = decodeURIComponent(requestURL.pathname);
+      requests.push(pathname);
+      counts.set(pathname, (counts.get(pathname) || 0) + 1);
+
+      if (!pathname.startsWith(normalizedBase)) {
+        response.writeHead(404).end("Not found");
+        return;
+      }
+      pathname = pathname.slice(normalizedBase.length);
+      const normalized = path.posix.normalize(`/${pathname}`).replace(/^\/+/, "");
+      if (normalized.startsWith("..")) {
+        response.writeHead(400).end("Bad path");
+        return;
+      }
+
+      let file = path.join(root, normalized);
+      if ((await stat(file).catch(() => null))?.isDirectory()) file = path.join(file, "index.html");
+      const relative = path.relative(root, file);
+      if (relative.startsWith("..") || path.isAbsolute(relative)) {
+        response.writeHead(400).end("Bad path");
+        return;
+      }
+      const fileStat = await stat(file);
+      response.setHeader("content-type", mimeType(file));
+      response.setHeader("content-length", fileStat.size);
+      if (requestURL.pathname.includes("/h5p/udgia/v1/")) {
+        response.setHeader("cache-control", "public, max-age=31536000, immutable");
+      }
+      response.writeHead(200);
+      await pipeline(createReadStream(file), response);
+    } catch {
+      response.writeHead(404).end("Not found");
+    }
+  });
+
+  await new Promise((resolve, reject) => {
+    server.once("error", reject);
+    server.listen({ port: 0, host: "127.0.0.1" }, () => {
+      server.off("error", reject);
+      resolve();
+    });
+  });
+  const address = server.address();
+  return {
+    baseURL: `http://127.0.0.1:${address.port}${normalizedBase}`,
+    requests,
+    counts,
+    close: () => new Promise((resolve) => server.close(resolve))
+  };
+}
+
+async function addZip(destination, entryName, options = {}) {
+  const zip = new ZipFile();
+  const completed = new Promise((resolve, reject) => {
+    const output = createWriteStream(destination);
+    output.on("close", resolve);
+    output.on("error", reject);
+    zip.outputStream.on("error", reject);
+    zip.outputStream.pipe(output);
+  });
+  zip.addBuffer(Buffer.from("probe"), entryName, {
+    mtime: new Date("1980-01-01T00:00:00.000Z"),
+    mode: options.mode || 0o100644
+  });
+  zip.end();
+  await completed;
+}
+
+async function replaceZipEntry(source, destination, originalName, replacementName) {
+  assert(
+    Buffer.byteLength(originalName) === Buffer.byteLength(replacementName),
+    "La sonda ZIP requiere nombres de igual longitud"
+  );
+  const buffer = await readFile(source);
+  const original = Buffer.from(originalName);
+  const replacement = Buffer.from(replacementName);
+  let offset = 0;
+  let replacements = 0;
+  while ((offset = buffer.indexOf(original, offset)) !== -1) {
+    replacement.copy(buffer, offset);
+    offset += replacement.length;
+    replacements += 1;
+  }
+  assert(replacements >= 2, `No se localizaron ambas cabeceras ZIP de ${originalName}`);
+  await writeFile(destination, buffer);
+}
+
+async function securityProbes(temporaryDirectory) {
+  const validPackage = path.join(repoRoot, "h5p/packages/udg-runtime-probe-1.0.0.h5p");
+  const catalog = JSON.parse(await readFile(path.join(repoRoot, "data/h5p/catalog.json"), "utf8"));
+  const expectedHash = catalog.contents["runtime-probe"].sourceSha256;
+  const valid = command(process.execPath, [
+    "tools/h5p/build-runtime.mjs",
+    "--audit-package",
+    validPackage,
+    "--expected-sha256",
+    expectedHash
+  ]);
+  assert(valid.status === 0, `La sonda de paquete válido falló: ${valid.stderr}`);
+
+  const wrongHash = command(process.execPath, [
+    "tools/h5p/build-runtime.mjs",
+    "--audit-package",
+    validPackage,
+    "--expected-sha256",
+    "0".repeat(64)
+  ]);
+  assert(wrongHash.status !== 0, "La auditoría aceptó un hash incorrecto");
+
+  const seed = path.join(temporaryDirectory, "seed.zip");
+  const traversal = path.join(temporaryDirectory, "traversal.zip");
+  const absolute = path.join(temporaryDirectory, "absolute.zip");
+  const symlink = path.join(temporaryDirectory, "symlink.zip");
+  await addZip(seed, "aa/escape.txt");
+  await replaceZipEntry(seed, traversal, "aa/escape.txt", "../escape.txt");
+  await replaceZipEntry(seed, absolute, "aa/escape.txt", "/x/escape.txt");
+  await addZip(symlink, "unsafe-link", { mode: 0o120777 });
+
+  const malicious = [
+    ["traversal", traversal, /Ruta ZIP ambigua|Escape de directorio|invalid relative path/i],
+    ["absolute", absolute, /Ruta ZIP no permitida|absolute path/i],
+    ["symlink", symlink, /Enlace simbólico ZIP no permitido/]
+  ];
+  const results = [];
+  for (const [name, packagePath, expectedError] of malicious) {
+    const probe = command(process.execPath, [
+      "tools/h5p/build-runtime.mjs",
+      "--audit-package",
+      packagePath
+    ]);
+    const output = `${probe.stdout}\n${probe.stderr}`;
+    assert(probe.status !== 0, `La auditoría aceptó el ZIP malicioso ${name}`);
+    assert(
+      expectedError.test(output),
+      `La auditoría rechazó ${name} por una causa inesperada: ${output.trim()}`
+    );
+    results.push({ name, rejected: true });
+  }
+  return {
+    validHash: expectedHash,
+    badHashRejected: true,
+    malicious: results
+  };
+}
+
+async function frameWithSelector(page, selector) {
+  for (let attempt = 0; attempt < 80; attempt += 1) {
+    for (const frame of page.frames()) {
+      if (await frame.locator(selector).count()) return frame;
+    }
+    await page.waitForTimeout(100);
+  }
+  throw new Error(`No apareció ${selector} dentro de ningún iframe`);
+}
+
+async function axeAudit(frame, label) {
+  await frame.addScriptTag({ content: axe.source });
+  const result = await frame.evaluate(async () => {
+    const audit = await window.axe.run(document, {
+      resultTypes: ["violations"],
+      rules: {
+        region: { enabled: false }
+      }
+    });
+    return audit.violations
+      .filter((violation) => ["serious", "critical"].includes(violation.impact))
+      .map((violation) => ({
+        id: violation.id,
+        impact: violation.impact,
+        nodes: violation.nodes.length
+      }));
+  });
+  assert(result.length === 0, `${label}: axe detectó ${JSON.stringify(result)}`);
+  return result;
+}
+
+async function functionalCase(browser, server, label, viewport) {
+  const context = await browser.newContext({
+    viewport,
+    reducedMotion: "reduce",
+    colorScheme: "dark",
+    bypassCSP: true
+  });
+  const externalRequests = [];
+  const consoleErrors = [];
+  context.on("request", (request) => {
+    const url = new URL(request.url());
+    if (url.origin !== new URL(server.baseURL).origin && !["data:", "blob:"].includes(url.protocol)) {
+      externalRequests.push(request.url());
+    }
+  });
+
+  const page = await context.newPage();
+  page.on("console", (message) => {
+    if (message.type() === "error") consoleErrors.push(message.text());
+  });
+  const requestStart = server.requests.length;
+  const response = await page.goto(new URL(fixturePath, server.baseURL).href, {
+    waitUntil: "load"
+  });
+  assert(response?.status() === 200, `${label}: la fixture no respondió HTTP 200`);
+  await page.waitForTimeout(700);
+
+  assert(
+    (await page.locator('meta[name="robots"]').getAttribute("content")) === "noindex, nofollow",
+    `${label}: la fixture perdió noindex`
+  );
+  assert((await page.locator("[data-udg-h5p]").count()) === 2, `${label}: se esperaban dos montajes`);
+  assert((await page.locator(`script[src*="${runtimePrefix}host.js"]`).count()) === 1, `${label}: host.js se emitió más de una vez`);
+  assert((await page.locator(".udg-h5p__iframe").count()) === 0, `${label}: un iframe se cargó antes de activarse`);
+
+  const initialRequests = server.requests.slice(requestStart);
+  const heavyPattern = /\/(?:player\/|libraries\/|content\/|embed\.html|content-index\.json)/;
+  assert(
+    initialRequests.every((pathname) => !heavyPattern.test(pathname)),
+    `${label}: se descargaron bytes del player antes de activar: ${initialRequests.filter((item) => heavyPattern.test(item))}`
+  );
+
+  const first = page.locator("[data-udg-h5p]").nth(0);
+  await first.locator('[data-h5p-action="load"]').focus();
+  await page.keyboard.press("Enter");
+  await first.evaluate((element) =>
+    new Promise((resolve, reject) => {
+      const timeout = window.setTimeout(() => reject(new Error("timeout")), 15000);
+      const finish = () => {
+        if (element.dataset.state === "ready") {
+          window.clearTimeout(timeout);
+          resolve();
+        }
+      };
+      new MutationObserver(finish).observe(element, {
+        attributes: true,
+        attributeFilter: ["data-state"]
+      });
+      finish();
+    })
+  );
+
+  const firstIframe = first.locator("iframe");
+  assert((await firstIframe.getAttribute("title"))?.includes("carga manual"), `${label}: falta título de iframe`);
+  assert(
+    (await firstIframe.getAttribute("sandbox")) === "allow-scripts allow-same-origin",
+    `${label}: política sandbox inesperada`
+  );
+  try {
+    await page.waitForFunction(
+      () => Number.parseFloat(document.querySelector(".udg-h5p__iframe")?.style.height || "0") > 280,
+      null,
+      { timeout: 10000 }
+    );
+  } catch {
+    const diagnostic = await page.evaluate(() => {
+      const frame = document.querySelector(".udg-h5p__iframe");
+      return {
+        styleHeight: frame?.style.height,
+        clientHeight: frame?.clientHeight,
+        scrollHeight: document.documentElement.scrollHeight,
+        state: document.querySelector("[data-udg-h5p]")?.dataset.state,
+        status: document.querySelector("[data-h5p-status]")?.textContent
+      };
+    });
+    throw new Error(
+      `${label}: la altura no superó el mínimo ${JSON.stringify({ diagnostic, consoleErrors })}`
+    );
+  }
+  const firstHeight = Number.parseFloat(await firstIframe.evaluate((element) => element.style.height));
+  assert(firstHeight > 280 && firstHeight <= 6000, `${label}: altura dinámica inválida ${firstHeight}`);
+  assert(!(await first.locator(".udg-h5p__fallback").getAttribute("open")), `${label}: fallback no se cerró al quedar lista la interacción`);
+
+  const contentFrame = await frameWithSelector(page, ".udg-runtime-probe");
+  await contentFrame.locator(".udg-runtime-probe__button").focus();
+  await contentFrame.press(".udg-runtime-probe__button", "Enter");
+  assert(
+    await contentFrame.locator(".udg-runtime-probe__feedback").isVisible(),
+    `${label}: no apareció la retroalimentación`
+  );
+  const feedbackText = await contentFrame.locator(".udg-runtime-probe__feedback").textContent();
+
+  const second = page.locator("[data-udg-h5p]").nth(1);
+  await second.scrollIntoViewIfNeeded();
+  await page.waitForFunction(
+    () => document.querySelectorAll('[data-udg-h5p][data-state="ready"]').length === 2,
+    null,
+    { timeout: 15000 }
+  );
+  assert((await page.locator(".udg-h5p__iframe").count()) === 2, `${label}: los dos montajes no son independientes`);
+
+  const runtimeBasePath = new URL(server.baseURL).pathname.replace(/\/$/, "");
+  const playerPath = `${runtimeBasePath}${runtimePrefix}player/main.bundle.js`.replace(/\/{2,}/g, "/");
+  assert(
+    (server.counts.get(playerPath) || 0) <= 1,
+    `${label}: el player común no reutilizó la caché (${server.counts.get(playerPath)})`
+  );
+  await second.locator('[data-h5p-action="reset"]').click();
+  assert((await first.getAttribute("data-state")) === "ready", `${label}: reiniciar el segundo montaje afectó al primero`);
+  assert(
+    await contentFrame.locator(".udg-runtime-probe__feedback").isVisible(),
+    `${label}: el estado efímero del primer montaje se perdió al reiniciar el segundo`
+  );
+
+  await page.emulateMedia({ media: "print" });
+  assert(
+    await first.locator(".udg-h5p__fallback").isVisible(),
+    `${label}: el fallback no permanece en impresión`
+  );
+  await page.emulateMedia({ media: "screen", reducedMotion: "reduce" });
+
+  const layout = await page.evaluate(() => ({
+    width: document.documentElement.clientWidth,
+    scrollWidth: document.documentElement.scrollWidth,
+    dark: document.documentElement.classList.contains("dark"),
+    colorScheme: getComputedStyle(document.documentElement).colorScheme,
+    iframeTransition: getComputedStyle(document.querySelector(".udg-h5p__iframe")).transitionDuration
+  }));
+  assert(layout.scrollWidth <= layout.width, `${label}: overflow horizontal ${layout.scrollWidth}/${layout.width}`);
+  assert(!layout.dark && layout.colorScheme.includes("light"), `${label}: la identidad dejó de ser únicamente clara`);
+  assert(
+    ["0s", "0.001ms"].includes(layout.iframeTransition),
+    `${label}: reduced-motion no anuló la transición (${layout.iframeTransition})`
+  );
+
+  await axeAudit(page.mainFrame(), `${label}/documento`);
+  await axeAudit(contentFrame, `${label}/contenido-h5p`);
+  assert(externalRequests.length === 0, `${label}: solicitudes externas ${externalRequests.join(", ")}`);
+  assert(
+    !server.requests
+      .slice(requestStart)
+      .some((pathname) => /xapi|lrs|ajax|user-state|attempt|grade/i.test(pathname)),
+    `${label}: apareció una ruta de seguimiento o calificación`
+  );
+  assert((await context.cookies()).length === 0, `${label}: la interacción creó cookies`);
+  assert(consoleErrors.length === 0, `${label}: errores de consola ${consoleErrors.join(" | ")}`);
+
+  let screenshot = null;
+  if ([375, 1280].includes(viewport.width)) {
+    const screenshotPath = path.join(evidenceDirectory, `h5p-${viewport.width}.jpg`);
+    await page.screenshot({
+      path: screenshotPath,
+      fullPage: true,
+      type: "jpeg",
+      quality: 82
+    });
+    const screenshotBuffer = await readFile(screenshotPath);
+    screenshot = {
+      path: path.relative(repoRoot, screenshotPath),
+      bytes: screenshotBuffer.byteLength,
+      sha256: sha256(screenshotBuffer)
+    };
+  }
+
+  await context.close();
+  return {
+    label,
+    baseURL: server.baseURL,
+    viewport,
+    initialRuntimeRequests: initialRequests.filter((item) => item.includes("/h5p/")),
+    firstHeight,
+    feedbackText: feedbackText?.trim(),
+    playerNetworkHits: server.counts.get(playerPath) || 0,
+    externalRequests,
+    consoleErrors,
+    axeSeriousOrCritical: 0,
+    layout,
+    screenshot
+  };
+}
+
+async function layoutCase(browser, server, viewport) {
+  const context = await browser.newContext({
+    viewport,
+    reducedMotion: "reduce",
+    colorScheme: "light"
+  });
+  const page = await context.newPage();
+  await page.goto(new URL(fixturePath, server.baseURL).href, { waitUntil: "load" });
+  const first = page.locator("[data-udg-h5p]").first();
+  await first.locator('[data-h5p-action="load"]').click();
+  await page.waitForFunction(
+    () => document.querySelector('[data-udg-h5p]')?.dataset.state === "ready",
+    null,
+    { timeout: 15000 }
+  );
+  const result = await page.evaluate(() => ({
+    width: document.documentElement.clientWidth,
+    scrollWidth: document.documentElement.scrollWidth,
+    iframeWidth: document.querySelector(".udg-h5p__iframe")?.getBoundingClientRect().width || 0
+  }));
+  assert(result.scrollWidth <= result.width, `${viewport.width}px: overflow horizontal`);
+  assert(result.iframeWidth <= result.width, `${viewport.width}px: iframe desbordado`);
+  await context.close();
+  return { viewport, ...result };
+}
+
+async function noJavaScriptCase(browser, server) {
+  const context = await browser.newContext({ javaScriptEnabled: false });
+  const page = await context.newPage();
+  await page.goto(new URL(fixturePath, server.baseURL).href, { waitUntil: "load" });
+  const result = {
+    iframes: await page.locator(".udg-h5p__iframe").count(),
+    fallbackVisible: await page.locator(".udg-h5p__fallback").first().isVisible(),
+    fallbackText: (await page.locator(".udg-h5p__fallback-body").first().textContent())?.trim()
+  };
+  assert(result.iframes === 0, "Sin JavaScript se creó un iframe");
+  assert(result.fallbackVisible && result.fallbackText.length > 80, "Sin JavaScript falta la alternativa");
+  await context.close();
+  return result;
+}
+
+async function nonH5PCase(browser, server) {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  const start = server.requests.length;
+  const response = await page.goto(new URL("about/", server.baseURL).href, { waitUntil: "load" });
+  assert(response?.status() === 200, "La página de control sin H5P no respondió HTTP 200");
+  const requests = server.requests.slice(start).filter((pathname) => pathname.includes("/h5p/"));
+  assert(requests.length === 0, `Una página sin H5P solicitó runtime: ${requests.join(", ")}`);
+  const listingResponse = await page.goto(new URL("laboratorio/", server.baseURL).href, {
+    waitUntil: "load"
+  });
+  assert(listingResponse?.status() === 200, "El listado de Laboratorio no respondió HTTP 200");
+  const fixtureLinks = await page.locator('a[href*="/laboratorio/h5p-runtime/"]').count();
+  assert(fixtureLinks === 0, "La fixture técnica apareció en el listado curricular");
+  await context.close();
+  return {
+    controlPath: "about/",
+    runtimeRequests: requests,
+    listingPath: "laboratorio/",
+    fixtureLinks
+  };
+}
+
+await mkdir(evidenceDirectory, { recursive: true });
+const temporaryDirectory = await mkdtemp(path.join(tmpdir(), "udgia-h5p-qa-"));
+const rootOutput = path.join(temporaryDirectory, "root");
+const subpathOutput = path.join(temporaryDirectory, "subpath");
+await mkdir(rootOutput, { recursive: true });
+await mkdir(subpathOutput, { recursive: true });
+
+const rootServer = await startServer(rootOutput, "/");
+const subpathServer = await startServer(subpathOutput, "/aprendizaje-ia/");
+let browser;
+
+try {
+  const builds = [
+    { mode: "root", ...runHugo(rootOutput, rootServer.baseURL) },
+    { mode: "subpath", ...runHugo(subpathOutput, subpathServer.baseURL) }
+  ];
+  const runtimeVerification = command("npm", ["run", "h5p:verify"]);
+  assert(runtimeVerification.status === 0, `h5p:verify falló: ${runtimeVerification.stderr}`);
+  const security = await securityProbes(temporaryDirectory);
+
+  browser = await chromium.launch({
+    executablePath: chromiumBinary,
+    headless: true,
+    args: ["--no-sandbox", "--disable-gpu"]
+  });
+
+  const cases = [
+    await functionalCase(browser, rootServer, "root-375", { width: 375, height: 844 }),
+    await functionalCase(browser, subpathServer, "subpath-1280", { width: 1280, height: 900 })
+  ];
+  const layouts = [
+    await layoutCase(browser, rootServer, { width: 320, height: 780 }),
+    await layoutCase(browser, subpathServer, { width: 768, height: 1024 })
+  ];
+  const noJavaScript = await noJavaScriptCase(browser, subpathServer);
+  const nonH5P = await nonH5PCase(browser, subpathServer);
+  const manifest = JSON.parse(
+    await readFile(path.join(repoRoot, "static/h5p/udgia/v1/runtime-manifest.json"), "utf8")
+  );
+
+  const report = {
+    status: "PASS",
+    scope: "UDGIA-003 runtime H5P; fixture no curricular",
+    moodleChanged: false,
+    builds,
+    runtime: {
+      player: manifest.player,
+      totalBytes: manifest.totalBytes,
+      files: manifest.files.length,
+      contents: Object.keys(manifest.contents)
+    },
+    security,
+    cases,
+    layouts,
+    noJavaScript,
+    nonH5P,
+    assertions: {
+      lazyLoad: true,
+      twoIndependentMounts: true,
+      commonAssetsCached: true,
+      dynamicHeight: true,
+      keyboardAndFocus: true,
+      fallbackNoJsErrorAndPrint: true,
+      rootAndSubpath: true,
+      reducedMotion: true,
+      noDarkVariant: true,
+      noTelemetryGradesOrPersistence: true,
+      axeSeriousOrCritical: 0
+    }
+  };
+  await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  process.stdout.write(`PASS ${path.relative(repoRoot, reportPath)}\n`);
+} catch (error) {
+  const report = {
+    status: "FAIL",
+    moodleChanged: false,
+    error: error.stack || String(error),
+    failures
+  };
+  await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  throw error;
+} finally {
+  await browser?.close();
+  await rootServer.close();
+  await subpathServer.close();
+  await rm(temporaryDirectory, { recursive: true, force: true });
+}

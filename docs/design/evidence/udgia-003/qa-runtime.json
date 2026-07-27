@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "scope": "UDGIA-003 runtime H5P; fixture no curricular",
+  "moodleChanged": false,
+  "builds": [
+    {
+      "mode": "root",
+      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
+      "pages": 902,
+      "warnings": [
+        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+      ]
+    },
+    {
+      "mode": "subpath",
+      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
+      "pages": 902,
+      "warnings": [
+        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+      ]
+    }
+  ],
+  "runtime": {
+    "player": {
+      "name": "h5p-standalone",
+      "version": "3.8.2",
+      "license": "MIT",
+      "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
+      "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+    },
+    "totalBytes": 1323224,
+    "files": 43,
+    "contents": [
+      "runtime-probe"
+    ]
+  },
+  "security": {
+    "validHash": "e0cf3740d0fb1a53673692545417fb6dd9fc94476d194e6843d4b7e8c2205aa5",
+    "badHashRejected": true,
+    "malicious": [
+      {
+        "name": "traversal",
+        "rejected": true
+      },
+      {
+        "name": "absolute",
+        "rejected": true
+      },
+      {
+        "name": "symlink",
+        "rejected": true
+      }
+    ]
+  },
+  "cases": [
+    {
+      "label": "root-375",
+      "baseURL": "http://127.0.0.1:45861/",
+      "viewport": {
+        "width": 375,
+        "height": 844
+      },
+      "initialRuntimeRequests": [
+        "/h5p/udgia/v1/host.js",
+        "/h5p/udgia/v1/host.css"
+      ],
+      "firstHeight": 445,
+      "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
+      "playerNetworkHits": 1,
+      "externalRequests": [],
+      "consoleErrors": [],
+      "axeSeriousOrCritical": 0,
+      "layout": {
+        "width": 375,
+        "scrollWidth": 375,
+        "dark": false,
+        "colorScheme": "light",
+        "iframeTransition": "0s"
+      },
+      "screenshot": {
+        "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
+        "bytes": 172686,
+        "sha256": "e382fd8dc0f1adc25457f3a9d774cd1b5516f7b3573688ab1998da9207f444df"
+      }
+    },
+    {
+      "label": "subpath-1280",
+      "baseURL": "http://127.0.0.1:40065/aprendizaje-ia/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "initialRuntimeRequests": [
+        "/aprendizaje-ia/h5p/udgia/v1/host.js",
+        "/aprendizaje-ia/h5p/udgia/v1/host.css"
+      ],
+      "firstHeight": 481,
+      "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
+      "playerNetworkHits": 1,
+      "externalRequests": [],
+      "consoleErrors": [],
+      "axeSeriousOrCritical": 0,
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "dark": false,
+        "colorScheme": "light",
+        "iframeTransition": "0s"
+      },
+      "screenshot": {
+        "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
+        "bytes": 212803,
+        "sha256": "e10e463403c04ff68a82ce79b76fce7cad64fdbd5b4b961d94eac657f43ac930"
+      }
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": {
+        "width": 320,
+        "height": 780
+      },
+      "width": 320,
+      "scrollWidth": 320,
+      "iframeWidth": 270
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "width": 768,
+      "scrollWidth": 768,
+      "iframeWidth": 654
+    }
+  ],
+  "noJavaScript": {
+    "iframes": 0,
+    "fallbackVisible": true,
+    "fallbackText": "Qué representa la alternativa#El runtime separa tres responsabilidades:Hugo presenta el propósito, los controles y esta alternativa accesible.El iframe H5P ejecuta la interacción sin insertar el JavaScript del paquete en la\npágina principal.El catálogo solo permite paquetes con identificador, hash, licencia y dependencias\nconocidos.La comprobación interactiva únicamente revela un mensaje local. No guarda respuestas, no\nenvía resultados y no asigna calificaciones."
+  },
+  "nonH5P": {
+    "controlPath": "about/",
+    "runtimeRequests": [],
+    "listingPath": "laboratorio/",
+    "fixtureLinks": 0
+  },
+  "assertions": {
+    "lazyLoad": true,
+    "twoIndependentMounts": true,
+    "commonAssetsCached": true,
+    "dynamicHeight": true,
+    "keyboardAndFocus": true,
+    "fallbackNoJsErrorAndPrint": true,
+    "rootAndSubpath": true,
+    "reducedMotion": true,
+    "noDarkVariant": true,
+    "noTelemetryGradesOrPersistence": true,
+    "axeSeriousOrCritical": 0
+  }
+}

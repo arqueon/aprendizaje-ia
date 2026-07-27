@@ -1,0 +1,19 @@
+{
+  "name": "aprendizaje-ia",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Sitio Hugo del ecosistema IA UDGPlus",
+  "scripts": {
+    "h5p:package-fixture": "node tools/h5p/package-fixture.mjs",
+    "h5p:build": "node tools/h5p/package-fixture.mjs && node tools/h5p/build-runtime.mjs",
+    "h5p:verify": "node tools/h5p/package-fixture.mjs && node tools/h5p/build-runtime.mjs --check",
+    "qa:h5p": "node tools/h5p/qa-runtime.mjs"
+  },
+  "devDependencies": {
+    "axe-core": "4.12.1",
+    "h5p-standalone": "3.8.2",
+    "playwright-core": "1.62.0",
+    "yauzl": "3.4.0",
+    "yazl": "3.3.1"
+  }
+}
