@@ -4,8 +4,8 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004B**
 
-**Estado:** construido y verificado en rama; pendiente de revisión editorial y VoBo para
-integrar
+**Estado:** revisión editorial y visual aprobada por Rubén; pendiente de autorización para
+integrar y publicar
 
 **Fecha:** 2026-07-27
 
@@ -157,13 +157,9 @@ La evidencia estructurada y las siete capturas están en:
 
 ## 9. Próxima puerta
 
-La siguiente decisión ya no es técnica. Primero debe revisarse la nueva entrada:
+Rubén aprobó la revisión editorial y visual el 2026-07-27. La siguiente puerta es integrar
+la rama y publicar Hugo, con verificación del despliegue. Esa aprobación no autoriza por sí
+sola el merge, el push ni una transferencia a Moodle.
 
-1. comprobar si la explicación general tiene el nivel y el tono correctos;
-2. validar las dos rutas iniciales;
-3. revisar si el orden de profundización resulta comprensible;
-4. aprobar o pedir otra ronda antes de integrar.
-
-Después del VoBo se podrá elegir entre publicar Hugo o abrir una subfase específica para la
-ruta institucional de coordinación y gobierno. Ninguna transferencia a Moodle se presume
-aprobada.
+Después de publicar podrá abrirse una subfase específica para la ruta institucional de
+coordinación y gobierno.

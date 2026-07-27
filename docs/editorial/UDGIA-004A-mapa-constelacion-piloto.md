@@ -295,3 +295,6 @@ presentación pública:
 
 La entrega revisada y su QA están registradas en
 `UDGIA-004B-entrega-constelacion-piloto.md`.
+
+Rubén dio VoBo editorial y visual a esta revisión el 2026-07-27. Quedan separadas la
+autorización de integración/publicación y cualquier transferencia posterior a Moodle.
