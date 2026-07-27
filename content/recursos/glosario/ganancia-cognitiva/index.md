@@ -8,15 +8,40 @@ areas: ["pedagogia"]
 aliases: ["/glosario/ganancia-cognitiva/"]
 showHero: true
 summary: "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo."
+ecosistema:
+  id: outcome.ganancia-cognitiva
+  titulo: "Ganancia cognitiva"
+  audiencias: [estudiante, docente, coordinacion]
+  intenciones: [comprender, decidir, evaluar]
+  tipo: concepto
+  capas: [R.conceptual, L3, P.direccion-epistemica]
+  resultado: "Distingue aprendizaje transferible de simple aceleración o acabado del producto."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://doi.org/10.1109/TLT.2025.3554584"
+    - "https://doi.org/10.3390/educsci15091198"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: contrasta
+      destino: risk.descarga-cognitiva
+    - tipo: requiere
+      destino: pattern.direccion-epistemica
+    - tipo: fundamenta
+      destino: assessment.basada-en-procesos
+  reutilizacion: [orientaciones, hugo, moodle, curso-amplio]
+  accesibilidad: "La definición, los contrastes y las relaciones se expresan completamente en texto."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
-La **ganancia cognitiva** es el reverso de la [descarga cognitiva](/glosario/descarga-cognitiva/): el efecto que produce la interacción con la IA generativa cuando está **bien orientada**. En lugar de transferir el esfuerzo intelectual al sistema, la interacción introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a la persona a revisar, precisar o abandonar sus supuestos previos.
+La **ganancia cognitiva** es el reverso de la [descarga cognitiva](/recursos/glosario/descarga-cognitiva/): el efecto que produce la interacción con la IA generativa cuando está **bien orientada**. En lugar de transferir el esfuerzo intelectual al sistema, la interacción introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a la persona a revisar, precisar o abandonar sus supuestos previos.
 
 Es en esos **desplazamientos** —y no en la obtención rápida de un resultado— donde se produce conocimiento genuino, y donde la IA deja de ser un atajo de razonamiento para volverse un interlocutor que **activa** el pensamiento en lugar de sustituirlo (Nasr et al., 2025).
 
 La ganancia cognitiva no es automática: depende de que la persona conserve la dirección del proceso y sostenga un **ciclo iterativo** —formular preguntas, leer críticamente lo que el sistema devuelve, descartar y reformular—, cuya calidad descansa en el juicio de quien lo conduce y no en el modelo (Ji et al., 2025). Por eso es inseparable de la [co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) y se hace visible al documentar el proceso, no solo el producto.
 
-**Relacionado con:** [Descarga cognitiva](/glosario/descarga-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
+**Relacionado con:** [Descarga cognitiva](/recursos/glosario/descarga-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
 
 ## Referencias
 

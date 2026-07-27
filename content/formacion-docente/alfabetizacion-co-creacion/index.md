@@ -17,6 +17,31 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 weight: 1
+ecosistema:
+  id: pattern.direccion-epistemica
+  titulo: "Dirección epistémica"
+  audiencias: [estudiante, docente]
+  intenciones: [comprender, practicar]
+  tipo: principio
+  capas: [L3, D.cocreacion, P.direccion-epistemica, P.trazabilidad]
+  resultado: "Reconoce cinco decisiones que mantienen la dirección humana durante la co-creación."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://doi.org/10.1145/3664214"
+    - "https://doi.org/10.1186/s41239-026-00585-x"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: aplica
+      destino: literacy.cocreacion
+    - tipo: fundamenta
+      destino: assessment.basada-en-procesos
+    - tipo: contrasta
+      destino: risk.descarga-cognitiva
+  reutilizacion: [hugo, moodle, curso-amplio]
+  accesibilidad: "Los cinco principios aparecen como texto jerarquizado además de la composición visual."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}

@@ -4,7 +4,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004A**
 
-**Estado:** aprobado; UDGIA-004B en producción desde 2026-07-27
+**Estado:** aprobado; UDGIA-004B construido y en QA de revisión desde 2026-07-27
 
 **Fecha de corte:** 2026-07-27
 
@@ -206,9 +206,10 @@ trazables.
 | guía pública | `continua` | práctica Moodle con feedback |
 | evidencia de implementación | `fundamenta` | revisión periódica, solo tras verificación |
 
-## 8. Seis pruebas H5P previstas para UDGIA-004B
+## 8. Seis pruebas H5P producidas en UDGIA-004B
 
-UDGIA-004A define su propósito; no construye ni publica paquetes.
+UDGIA-004A definió su propósito. UDGIA-004B produjo los seis paquetes en la rama de
+revisión; todavía no se han integrado ni publicado en `main`.
 
 | ID propuesto | Tipo | Decisión o práctica | Fallback equivalente |
 |---|---|---|---|
@@ -250,7 +251,6 @@ Ningún agente auxiliar debe editar el checkout principal, el grafo o Moodle.
 
 ### Pendiente
 
-- Decidir el repositorio canónico de fuentes y paquetes H5P.
 - Añadir reglas estables equivalentes a los tres repositorios antes de distribuir escritura.
 - Resolver las siete referencias faltantes de Orientaciones antes de otra publicación.
 - Revisar el WIP de Orientaciones por commits temáticos; el checkpoint no equivale a
@@ -274,4 +274,6 @@ UDGIA-004A queda lista para revisión cuando:
 
 El VoBo se recibió el 2026-07-27 con una aclaración: `alfabetizacion_en_ia` es apenas un
 esbozo derivado. La subfase activa es **UDGIA-004B · portada de la constelación, metadatos
-piloto y primer conjunto pedagógico H5P**, seguida de revisión cruzada antes de integrar.
+piloto y primer conjunto pedagógico H5P**. El repositorio canónico de fuentes y paquetes
+H5P quedó fijado en `aprendizaje-ia`; la entrega se describe en
+`UDGIA-004B-entrega-constelacion-piloto.md` y requiere revisión antes de integrar.

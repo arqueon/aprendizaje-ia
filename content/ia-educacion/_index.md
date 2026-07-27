@@ -20,8 +20,9 @@ La inteligencia artificial está transformando la educación de manera acelerada
 {{< /typeit >}}
 
 {{< cards >}}
-  {{< card link="guias/" title="Guías prácticas" icon="map" color="#6366f1" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
-  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#8b5cf6" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
-  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#a855f7" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
-  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#7c3aed" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
+  {{< card link="constelaciones/cocreacion-evaluacion/" title="Co-crear y evaluar el proceso" icon="route" color="#007c83" description="Tres rutas y seis actividades para conservar la dirección epistémica y valorar evidencias del aprendizaje." >}}
+  {{< card link="guias/" title="Guías prácticas" icon="map" color="#123b4a" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
+  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#9a4e3f" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
+  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#687653" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
+  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#f7a11a" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
 {{< /cards >}}

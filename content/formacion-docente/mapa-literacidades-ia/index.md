@@ -2,7 +2,7 @@
 title: "Las tres literacidades en IA — mapa visual"
 date: 2026-05-28
 draft: false
-description: "Vista panorámica del marco de tres literacidades en IA: operativa, crítica y co-creación. Diagrama, cinco principios por nivel, alineación con Bloom y enlaces a cada infografía."
+description: "Vista panorámica del marco de tres literacidades en IA: operativa, crítica y co-creación. Diagrama, cinco principios por nivel, relación orientativa con Bloom y enlaces a cada infografía."
 summary: "Mapa visual del marco de alfabetización en IA en tres niveles acumulativos. Un solo lugar para entender el marco completo y navegar a sus piezas."
 tags: ["alfabetizacion-ia", "literacidad", "marco-conceptual", "mapa-visual", "tres-literacidades"]
 categories: ["marco-conceptual"]
@@ -15,6 +15,31 @@ showTableOfContents: true
 showReadingTime: true
 showAuthor: false
 weight: 0
+ecosistema:
+  id: capacity.alfabetizacion-ia
+  titulo: "Alfabetización en IA"
+  audiencias: [estudiante, docente, coordinacion]
+  intenciones: [comprender, diseñar, gobernar]
+  tipo: guia
+  capas: [R.formacion, L1, L2, L3]
+  resultado: "Distingue las tres literacidades y decide cuál necesita desarrollar una experiencia formativa."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
+    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-agenciamiento-ia/"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: continua
+      destino: literacy.cocreacion
+    - tipo: requiere
+      destino: literacy.operativa
+    - tipo: requiere
+      destino: literacy.critica
+  reutilizacion: [hugo, moodle, curso-amplio]
+  accesibilidad: "Los diagramas se acompañan con explicación y tabla que conservan la progresión y sus matices."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
@@ -31,9 +56,9 @@ flowchart LR
 
     A ==> B ==> C
 
-    style A fill:#3b82f6,stroke:#1d4ed8,color:#ffffff,stroke-width:3px
-    style B fill:#6366f1,stroke:#4338ca,color:#ffffff,stroke-width:3px
-    style C fill:#7c3aed,stroke:#5b21b6,color:#ffffff,stroke-width:3px
+    style A fill:#007c83,stroke:#123b4a,color:#ffffff,stroke-width:3px
+    style B fill:#123b4a,stroke:#102e3a,color:#ffffff,stroke-width:3px
+    style C fill:#f7a11a,stroke:#123b4a,color:#123b4a,stroke-width:3px
 {{< /mermaid >}}
 
 Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa por sí sola produce uso fluido sin criterio; la crítica sin operativa es teoría sin práctica; la co-creación sin las dos anteriores deriva en delegación pasiva.
@@ -66,7 +91,7 @@ Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa
 | 4. Documentación del uso | 4. Uso selectivo y no-utilización | 4. Documentar el proceso |
 | 5. Integración deliberada al flujo de trabajo | 5. Adaptabilidad contextual | 5. Cultivar la ganancia cognitiva |
 
-## Alineación con la taxonomía de Bloom
+## Relación orientativa con la taxonomía de Bloom
 
 {{< mermaid >}}
 flowchart TB
@@ -79,15 +104,20 @@ flowchart TB
 
     RE --> CO --> AP --> AN --> EV --> C
 
-    style RE fill:#dbeafe,stroke:#3b82f6,color:#1e3a8a
-    style CO fill:#bfdbfe,stroke:#3b82f6,color:#1e3a8a
-    style AP fill:#93c5fd,stroke:#3b82f6,color:#1e3a8a
-    style AN fill:#a5b4fc,stroke:#6366f1,color:#312e81
-    style EV fill:#818cf8,stroke:#6366f1,color:#ffffff
-    style C fill:#7c3aed,stroke:#5b21b6,color:#ffffff,stroke-width:3px
+    style RE fill:#d9eeec,stroke:#007c83,color:#123b4a
+    style CO fill:#b9d8d5,stroke:#007c83,color:#123b4a
+    style AP fill:#8cb5b7,stroke:#007c83,color:#123b4a
+    style AN fill:#d7e0e2,stroke:#123b4a,color:#123b4a
+    style EV fill:#123b4a,stroke:#102e3a,color:#ffffff
+    style C fill:#f7a11a,stroke:#123b4a,color:#123b4a,stroke-width:3px
 {{< /mermaid >}}
 
-La operativa cubre los niveles que la IA resuelve con eficacia (recordar, comprender, aplicar); la crítica corresponde a analizar y evaluar; la co-creación ocupa la cúspide —**crear**— donde el conocimiento nuevo emerge del acoplamiento y el juicio humano resulta irremplazable.
+Esta relación sirve para diseñar una progresión, no para establecer equivalencias rígidas.
+La literacidad operativa suele movilizar **recordar, comprender y aplicar**; la crítica
+hace especialmente visibles **analizar y evaluar**; y la co-creación exige integrar el
+juicio para **crear**. Según la tarea, sin embargo, las tres literacidades pueden activar
+varios niveles de Bloom a la vez. Lo decisivo es la demanda cognitiva que permanece en la
+persona y la evidencia que permite observarla.
 
 ## El programa formativo (60 horas)
 

@@ -14,6 +14,31 @@ showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
 showSummary: true
+ecosistema:
+  id: assessment.basada-en-procesos
+  titulo: "Evaluación basada en procesos"
+  audiencias: [docente, coordinacion]
+  intenciones: [diseñar, evaluar, gobernar]
+  tipo: guia
+  capas: [R.evaluacion, D.evaluacion, P.trazabilidad, P.retroalimentacion]
+  resultado: "Diseña un ciclo que valora producto, decisiones y revisión con criterios diferenciados."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://doi.org/10.1080/0969595980050102"
+    - "https://doi.org/10.3102/003465430298487"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: aplica
+      destino: evidence.trazabilidad
+    - tipo: continua
+      destino: practice.portafolio-proceso
+    - tipo: requiere
+      destino: pattern.direccion-epistemica
+  reutilizacion: [orientaciones, hugo, moodle, curso-amplio]
+  accesibilidad: "El ciclo visual se explica paso a paso y los instrumentos se ofrecen como tablas y listas."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
@@ -21,6 +46,13 @@ La evaluación formativa no califica: retroalimenta. La IA permite escalar esta 
 {{< /lead >}}
 
 ## La premisa: evaluar procesos, no productos
+
+{{< alert icon="scale-balanced" type="info" >}}
+**Dos decisiones distintas:** la evaluación formativa describe la función de la
+retroalimentación —ayudar a mejorar mientras se aprende—; la evaluación basada en procesos
+describe **qué evidencias** se valoran —versiones, verificaciones y decisiones, además del
+producto final—. Pueden combinarse, pero no son sinónimos.
+{{< /alert >}}
 
 La diferencia entre evaluación sumativa y formativa no es de grado sino de función. La evaluación sumativa clasifica ("aprobado / reprobado"); la formativa retroalimenta ("aquí hay una debilidad en tu argumento, revisa esta sección"). Son herramientas distintas para propósitos distintos (Black & Wiliam, 1998).
 

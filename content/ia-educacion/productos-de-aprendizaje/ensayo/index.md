@@ -25,6 +25,31 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
+ecosistema:
+  id: practice.declaracion-uso-ia
+  titulo: "Declaración de uso de IA"
+  audiencias: [estudiante, docente]
+  intenciones: [practicar, diseñar, evaluar]
+  tipo: caso
+  capas: [D.ensayo, P.direccion-epistemica, P.trazabilidad, P.transparencia]
+  resultado: "Diseña o recorre un ensayo por etapas y declara de forma proporcional el uso de IA."
+  estado_evidencia: prototipo-escenario
+  fuentes:
+    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/agenciamiento-humano-ia/"
+    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/evaluacion-formativa-ia/"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: ejemplifica
+      destino: practice.portafolio-proceso
+    - tipo: aplica
+      destino: pattern.direccion-epistemica
+    - tipo: aplica
+      destino: evidence.trazabilidad
+  reutilizacion: [hugo, moodle, curso-amplio]
+  accesibilidad: "Las siete etapas tienen una explicación lineal, evidencias y rutas textuales por audiencia."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}

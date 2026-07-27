@@ -16,11 +16,42 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 asignatura: "Comunicación / Derecho / Ciencias sociales — adaptable"
+ecosistema:
+  id: practice.portafolio-proceso
+  titulo: "Portafolio de proceso"
+  audiencias: [estudiante, docente]
+  intenciones: [practicar, diseñar, evaluar]
+  tipo: practica
+  capas: [D.evaluacion, P.trazabilidad, P.retroalimentacion]
+  resultado: "Construye y evalúa un portafolio mínimo con versiones, decisiones, producto y reflexión."
+  estado_evidencia: prototipo-escenario
+  fuentes:
+    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/evaluacion-formativa-ia/"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: ejemplifica
+      destino: assessment.basada-en-procesos
+    - tipo: aplica
+      destino: evidence.trazabilidad
+    - tipo: continua
+      destino: practice.declaracion-uso-ia
+  reutilizacion: [hugo, moodle, curso-amplio]
+  accesibilidad: "La secuencia, los entregables y la tabla de decisiones se presentan como texto y tablas."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
 ¿Qué pasa si evaluamos las decisiones del estudiante en lugar del texto que entrega? Esta práctica implementa un sistema de portafolios iterativos donde la IA ofrece retroalimentación formativa en cada versión. El centro de la evaluación no es la calidad del producto final sino la evidencia del proceso: qué aceptó, qué rechazó y por qué.
 {{< /lead >}}
+
+{{< alert icon="flask" type="warning" >}}
+**Estado de evidencia:** esta práctica es un **prototipo de escenario** adaptable, no el
+reporte de una implementación ya observada. El grupo, la asignatura y los resultados
+esperados sirven para probar el diseño; una aplicación futura deberá documentar contexto,
+alcance, resultados y limitaciones antes de presentarse como práctica implementada.
+{{< /alert >}}
 
 ## Contexto
 

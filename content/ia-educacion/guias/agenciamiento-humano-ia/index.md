@@ -14,6 +14,31 @@ showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
 showSummary: true
+ecosistema:
+  id: concept.cocreacion-persona-ia
+  titulo: "Co-creación persona-IA"
+  audiencias: [estudiante, docente, coordinacion]
+  intenciones: [comprender, decidir, diseñar]
+  tipo: concepto
+  capas: [R.conceptual, L3, D.cocreacion, P.direccion-epistemica]
+  resultado: "Explica la co-creación como relación productiva y anticipa sus consecuencias para el diseño docente."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://doi.org/10.1109/TLT.2025.3554584"
+    - "https://doi.org/10.3390/educsci15091198"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: requiere
+      destino: pattern.direccion-epistemica
+    - tipo: amplia
+      destino: concept.agencia-humana
+    - tipo: continua
+      destino: outcome.ganancia-cognitiva
+  reutilizacion: [orientaciones, hugo, moodle, curso-amplio]
+  accesibilidad: "Los argumentos y consecuencias docentes permanecen disponibles como texto estructurado."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}

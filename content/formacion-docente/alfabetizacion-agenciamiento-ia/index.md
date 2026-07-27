@@ -16,6 +16,33 @@ showSummary: true
 showTableOfContents: true
 showReadingTime: true
 showAuthor: false
+ecosistema:
+  id: literacy.cocreacion
+  titulo: "Literacidad de co-creación"
+  audiencias: [estudiante, docente]
+  intenciones: [comprender, practicar, diseñar]
+  tipo: guia
+  capas: [L3, D.cocreacion, P.direccion-epistemica, P.trazabilidad]
+  resultado: "Distingue co-creación dirigida de delegación pasiva y diseña una progresión para practicarla."
+  estado_evidencia: evidencia-citada
+  fuentes:
+    - "https://doi.org/10.1145/3664214"
+    - "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
+  revisado: 2026-07-27
+  relaciones:
+    - tipo: requiere
+      destino: literacy.operativa
+    - tipo: requiere
+      destino: literacy.critica
+    - tipo: aplica
+      destino: pattern.direccion-epistemica
+    - tipo: continua
+      destino: assessment.basada-en-procesos
+  reutilizacion: [hugo, moodle, curso-amplio]
+  accesibilidad: "La progresión se presenta como texto, tabla e indicadores observables además del diagrama."
+  responsable:
+    rol: "Coordinación editorial IA-docencia"
+    proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
@@ -30,13 +57,19 @@ La operativa enseña a formular prompts, a comparar modelos, a enderezar las sol
 
 A continuación se presenta un esquema que resume las tres literacidades, detallando lo que cada una desarrolla y cómo se construye:
 
-| Literacidad     | Qué se desarrolla                                                                                                          | Cómo se construye                                                                                                 | Nivel de Bloom                  |
+| Literacidad     | Qué se desarrolla                                                                                                          | Cómo se construye                                                                                                 | Demanda de Bloom frecuente, no exclusiva |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------- |
 | **Operativa**   | Dominio en el uso de la IA: formulación de instrucciones y su integración en el trabajo diario                             | A través de una práctica guiada y progresiva                                                                      | Recordar · Comprender · Aplicar |
 | **Crítica**     | Comprensión de los sistemas, incluyendo sus sesgos y efectos; capacidad de discernimiento y verificación de resultados     | Mediante lectura lateral, análisis del sesgo algorítmico, y desarrollo de conciencia sociotécnica y ética         | Analizar · Evaluar              |
 | **Co-creación** | Mantener el acoplamiento mientras se preserva la dirección epistémica, y decidir cuándo no emplear la IA                  | A través de un ciclo iterativo supervisado (formular, evaluar, descartar, reformular) y documentación del proceso | **Crear** (cúspide)             |
 
-Estas literacidades no son etapas independientes sino una progresión acumulativa: cada una se basa en la anterior y culmina en la co-creación. Dicha progresión sigue la [taxonomía de Bloom](/recursos/glosario/taxonomia-de-bloom/): la literacidad operativa abarca los niveles resueltos por la IA (recordar, entender, aplicar), la crítica corresponde a analizar y evaluar, y la co-creación ocupa la **cúspide —crear—**, donde brota el nuevo conocimiento que el acoplamiento produce y el juicio humano se vuelve insustituible.
+Estas literacidades no son etapas independientes sino una progresión acumulativa: cada una
+se apoya en las anteriores. La [taxonomía de
+Bloom](/recursos/glosario/taxonomia-de-bloom/) ofrece una heurística de diseño, no una
+equivalencia fija: la literacidad operativa suele enfatizar recordar, comprender y aplicar;
+la crítica, analizar y evaluar; y la co-creación integra esas demandas para crear. Una tarea
+concreta puede movilizar varios niveles a la vez. Lo importante es precisar qué esfuerzo
+cognitivo conserva la persona.
 
 {{< mermaid >}}
 flowchart LR
@@ -48,10 +81,10 @@ flowchart LR
     A --> B --> C
     T -.- A & B & C
     
-    style A fill:#3b82f6,stroke:#2563eb,color:#ffffff
-    style B fill:#6366f1,stroke:#4f46e5,color:#ffffff
-    style C fill:#7c3aed,stroke:#6d28d9,color:#ffffff
-    style T fill:#f0fdf4,stroke:#16a34a,color:#166534
+    style A fill:#007c83,stroke:#123b4a,color:#ffffff
+    style B fill:#123b4a,stroke:#102e3a,color:#ffffff
+    style C fill:#f7a11a,stroke:#123b4a,color:#123b4a
+    style T fill:#f6f1e8,stroke:#007c83,color:#123b4a
 
 {{< /mermaid >}}
 
