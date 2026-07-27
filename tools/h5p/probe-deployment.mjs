@@ -212,8 +212,13 @@ function browserOptions() {
   return options;
 }
 
-function configureNetworkGuard(context, baseURL, blockedRequests) {
-  return context.route("**/*", async (route) => {
+async function configureNetworkGuard(
+  context,
+  baseURL,
+  blockedRequests,
+  blockedWebSockets
+) {
+  await context.route("**/*", async (route) => {
     const requestURL = new URL(route.request().url());
     if (
       ["http:", "https:"].includes(requestURL.protocol) &&
@@ -225,6 +230,21 @@ function configureNetworkGuard(context, baseURL, blockedRequests) {
     }
     await route.continue();
   });
+  await context.routeWebSocket(
+    (url) => ["ws:", "wss:"].includes(url.protocol),
+    async (webSocketRoute) => {
+      const socketURL = new URL(webSocketRoute.url());
+      if (!withinBase(socketURL, baseURL)) {
+        blockedWebSockets.push(webSocketRoute.url());
+        await webSocketRoute.close({
+          code: 1008,
+          reason: "UDGIA deployment probe: outside publication base"
+        });
+        return;
+      }
+      webSocketRoute.connectToServer();
+    }
+  );
 }
 
 async function frameWithSelector(page, selector) {
@@ -403,11 +423,12 @@ async function rangeProbe(baseURL) {
 
 async function cspProbe(baseURL) {
   const browser = await chromium.launch(browserOptions());
-  const context = await browser.newContext();
+  const context = await browser.newContext({ serviceWorkers: "block" });
   const blockedByGuard = [];
+  const blockedWebSockets = [];
   const externalResponses = [];
   const policyViolations = [];
-  await configureNetworkGuard(context, baseURL, blockedByGuard);
+  await configureNetworkGuard(context, baseURL, blockedByGuard, blockedWebSockets);
   context.on("response", (response) => {
     const responseURL = new URL(response.url());
     if (["http:", "https:"].includes(responseURL.protocol) && !withinBase(responseURL, baseURL)) {
@@ -476,6 +497,10 @@ async function cspProbe(baseURL) {
       blockedByGuard.length === 0,
       "CSP: la guarda de red tuvo que impedir una salida; la política desplegada no bastó"
     );
+    assert(
+      blockedWebSockets.length === 0,
+      "CSP: la guarda de WebSockets tuvo que impedir una salida"
+    );
 
     return {
       embedURL: embedURL.href,
@@ -483,7 +508,9 @@ async function cspProbe(baseURL) {
       fetchBlocked: true,
       policyViolations,
       externalResponses,
-      blockedByGuard
+      blockedByGuard,
+      blockedWebSockets,
+      serviceWorkersBlocked: true
     };
   } finally {
     await context.close();
@@ -496,15 +523,17 @@ async function functionalProbe(baseURL) {
   const context = await browser.newContext({
     viewport: { width: 375, height: 844 },
     reducedMotion: "reduce",
-    colorScheme: "dark"
+    colorScheme: "dark",
+    serviceWorkers: "block"
   });
   const blockedByGuard = [];
+  const blockedWebSockets = [];
   const externalRequests = [];
   const outsideBaseRequests = [];
   const writeRequests = [];
   const consoleErrors = [];
   const runtimeRequests = [];
-  await configureNetworkGuard(context, baseURL, blockedByGuard);
+  await configureNetworkGuard(context, baseURL, blockedByGuard, blockedWebSockets);
 
   context.on("request", (request) => {
     const requestURL = new URL(request.url());
@@ -619,6 +648,10 @@ async function functionalProbe(baseURL) {
       blockedByGuard.length === 0,
       `Solicitudes bloqueadas por la guarda de red: ${blockedByGuard.join(", ")}`
     );
+    assert(
+      blockedWebSockets.length === 0,
+      `WebSockets bloqueados por la guarda de red: ${blockedWebSockets.join(", ")}`
+    );
     assert(consoleErrors.length === 0, `Errores de consola: ${consoleErrors.join(" | ")}`);
 
     await page.emulateMedia({ media: "print" });
@@ -640,6 +673,8 @@ async function functionalProbe(baseURL) {
       externalRequests,
       outsideBaseRequests,
       blockedByGuard,
+      blockedWebSockets,
+      serviceWorkersBlocked: true,
       writeRequests,
       consoleErrors,
       cookies: cookies.map(({ name, domain, path: cookiePath, secure, sameSite }) => ({
@@ -656,12 +691,28 @@ async function functionalProbe(baseURL) {
   }
 }
 
-function immutableCacheIsStrong(cacheControl) {
+function cacheMaxAge(cacheControl) {
   const maxAge = /(?:^|,)\s*max-age=(\d+)\b/i.exec(cacheControl);
+  return maxAge ? Number.parseInt(maxAge[1], 10) : null;
+}
+
+function immutableCacheIsStrong(cacheControl) {
+  const maxAge = cacheMaxAge(cacheControl);
   return Boolean(
-    maxAge &&
-      Number.parseInt(maxAge[1], 10) >= 31536000 &&
+    maxAge !== null &&
+      maxAge >= 31536000 &&
+      !/(?:^|,)\s*(?:no-cache|no-store|private)(?:\s*,|$)/i.test(cacheControl) &&
       /(?:^|,)\s*immutable(?:\s*,|$)/i.test(cacheControl)
+  );
+}
+
+function mutableCacheIsUnsafe(cacheControl) {
+  const maxAge = cacheMaxAge(cacheControl);
+  const requiresRevalidation =
+    /(?:^|,)\s*(?:no-cache|no-store)(?:\s*,|$)/i.test(cacheControl);
+  return (
+    /(?:^|,)\s*immutable(?:\s*,|$)/i.test(cacheControl) ||
+    (!requiresRevalidation && maxAge !== null && maxAge >= 31536000)
   );
 }
 
@@ -854,11 +905,11 @@ try {
   }
   const wronglyImmutable = report.resources.filter(
     (resource) =>
-      resource.cachePolicy === "mutable" && /(?:^|,)\s*immutable(?:\s*,|$)/i.test(resource.cacheControl)
+      resource.cachePolicy === "mutable" && mutableCacheIsUnsafe(resource.cacheControl)
   );
   assert(
     wronglyImmutable.length === 0,
-    `Recursos mutables marcados immutable: ${wronglyImmutable
+    `Recursos mutables con caché anual o immutable: ${wronglyImmutable
       .map((resource) => resource.path || "/")
       .join(", ")}`
   );

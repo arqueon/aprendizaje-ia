@@ -149,7 +149,7 @@ ni cabeceras `nosniff`/`Referrer-Policy`.
 | Movimiento reducido | transición anulada |
 | Fallback | disponible sin JS, ante error deliberado, tras reintento y en impresión |
 | Axe | cero violaciones serias o críticas en documento y contenido H5P |
-| Privacidad | cero solicitudes externas, escrituras, cookies o cambios en storage; estado no restaurado |
+| Privacidad | cero solicitudes externas/WebSockets, escrituras, cookies o cambios en storage; Service Workers bloqueados y estado no restaurado |
 | CSP | script y `fetch` externos bloqueados; cero respuestas externas |
 | Seguridad ZIP | hash erróneo, traversal, ruta absoluta y symlink rechazados |
 | Gobierno de catálogo | id, fuente, licencia de contenido/biblioteca, adaptador y procedencia inválidos rechazados |
@@ -177,6 +177,15 @@ puerta CI sin fallos enmascarados. Tras revisar el commit exacto `92e1b53`, emit
 Una segunda revisión de seguridad también emitió **ACCEPT** para la fixture original y el
 catálogo cerrado. Ambos revisores trabajaron en solo lectura y confirmaron que `main` y
 `origin/main` permanecen en `b0a2d85`, sin merge, push, despliegue ni cambios Moodle.
+
+La ampliación para hosting UDGPlus recibió primero `REQUEST CHANGES`: faltaban control
+previo de cada redirección, timeout, comparación del artefacto remoto, prueba CSP negativa,
+semántica estricta de caché/Range, evidencia post-deploy y rollback concreto. El commit
+`b4eb38b` cerró el conjunto y recibió **ACCEPT** del revisor principal y de la segunda
+revisión de seguridad. Tras ese dictamen se reforzó además la guarda con bloqueo de Service
+Workers/WebSockets y se rechazaron combinaciones de caché contradictorias. La prueba Range
+de un archivo audiovisual real corresponde a la puerta que incorpore el primer H5P con
+audio o video; hasta entonces la ausencia de `206` bloquea esa familia, no el runtime base.
 
 Las deudas no bloqueantes quedan explícitas para la siguiente puerta:
 

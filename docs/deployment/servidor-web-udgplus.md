@@ -161,11 +161,13 @@ La sonda `tools/h5p/probe-deployment.mjs`:
 3. compara el manifiesto y cada archivo H5P publicado, byte por byte y SHA-256, con el
    checkout desde el que se ejecuta;
 4. comprueba raíz, subruta, enlaces/solicitudes internas, 404 directos, query strings,
-   MIME, caché mutable/inmutable y respuestas Range;
+   MIME, caché mutable/inmutable —incluidas directivas contradictorias y caché anual
+   accidental sobre contenido mutable— y respuestas Range;
 5. abre la fixture no curricular con Chromium y CSP real, y confirma que la propia CSP
    bloquea script y `fetch` externos sin depender de una salida real a Internet;
 6. verifica carga diferida, teclado, dos montajes, altura, impresión y fallback;
-7. rechaza solicitudes externas, métodos de escritura, errores de consola y cambios de
+7. rechaza solicitudes externas —incluidos WebSockets—, bloquea Service Workers en el
+   navegador de prueba y rechaza métodos de escritura, errores de consola o cambios de
    almacenamiento;
 8. informa como advertencias la falta de caché larga en activos versionados, `nosniff`,
    cookies de infraestructura, `Referrer-Policy` y soporte Range antes de incorporar medios.
