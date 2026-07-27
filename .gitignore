@@ -22,3 +22,6 @@ Thumbs.db
 
 # Backup files
 *.bak
+
+# Vistas locales generadas para SmallDocs (imágenes embebidas)
+/.sdocs/

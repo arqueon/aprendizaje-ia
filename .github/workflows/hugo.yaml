@@ -96,6 +96,9 @@ jobs:
   verify-deployment:
     runs-on: ubuntu-latest
     needs: deploy
+    timeout-minutes: 20
+    permissions:
+      contents: read
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -112,12 +115,22 @@ jobs:
         env:
           DEPLOYMENT_URL: ${{ needs.deploy.outputs.page_url }}
         run: |
+          mkdir -p deployment-evidence
           for attempt in 1 2 3 4 5; do
-            if npm run qa:h5p:deployment; then
+            report="deployment-evidence/attempt-${attempt}.json"
+            if timeout 120s env DEPLOYMENT_REPORT="$report" npm run qa:h5p:deployment; then
+              cp "$report" deployment-evidence/final.json
               exit 0
             fi
             if [[ "$attempt" -lt 5 ]]; then
-              sleep 10
+              sleep "$((attempt * 10))"
             fi
           done
           exit 1
+      - name: Upload deployment evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: udgia-h5p-deployment-${{ github.sha }}
+          path: deployment-evidence/
+          if-no-files-found: error

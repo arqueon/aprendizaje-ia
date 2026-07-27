@@ -75,7 +75,8 @@ o estilos con tipos incorrectos, especialmente si se activa `nosniff`
   `Referrer-Policy: strict-origin-when-cross-origin` en todo el sitio.
 
 La caché larga es segura para player/bibliotecas/shell porque el runtime usa un directorio
-versionado. Un cambio incompatible en esos elementos debe publicar `v2/`, no reemplazar
+versionado. **Cualquier cambio de bytes**, compatible o incompatible, en un recurso marcado
+`immutable` exige una URL nueva —en este esquema, publicar `v2/`—; nunca se reemplazan
 silenciosamente sus bytes en `v1/`.
 
 ## Configuración orientativa
@@ -155,13 +156,19 @@ npm run qa:h5p:deployment -- https://sitio-oficial.udg.mx/ruta/
 La sonda `tools/h5p/probe-deployment.mjs`:
 
 1. exige HTTPS en destinos no locales;
-2. comprueba raíz, subruta, enlaces/solicitudes internas, 404 reales, redirecciones,
-   query strings y MIME;
-3. abre la fixture no curricular con Chromium y CSP real;
-4. verifica carga diferida, teclado, dos montajes, altura, impresión y fallback;
-5. rechaza solicitudes externas, métodos de escritura, errores de consola y cambios de
+2. sigue redirecciones manualmente, con límite y timeout, y rechaza cada salto fuera del
+   origen o de la subruta antes de hacer la siguiente solicitud;
+3. compara el manifiesto y cada archivo H5P publicado, byte por byte y SHA-256, con el
+   checkout desde el que se ejecuta;
+4. comprueba raíz, subruta, enlaces/solicitudes internas, 404 directos, query strings,
+   MIME, caché mutable/inmutable y respuestas Range;
+5. abre la fixture no curricular con Chromium y CSP real, y confirma que la propia CSP
+   bloquea script y `fetch` externos sin depender de una salida real a Internet;
+6. verifica carga diferida, teclado, dos montajes, altura, impresión y fallback;
+7. rechaza solicitudes externas, métodos de escritura, errores de consola y cambios de
    almacenamiento;
-6. informa como advertencias caché, `nosniff`, cookies de infraestructura y soporte Range.
+8. informa como advertencias la falta de caché larga en activos versionados, `nosniff`,
+   cookies de infraestructura, `Referrer-Policy` y soporte Range antes de incorporar medios.
 
 Para una prueba local se permite exclusivamente:
 
@@ -169,19 +176,76 @@ Para una prueba local se permite exclusivamente:
 npm run qa:h5p:deployment -- http://127.0.0.1:8080/ruta/ --allow-http
 ```
 
+Con `--report ruta/informe.json` —o `DEPLOYMENT_REPORT`— la evidencia queda en JSON.
+Los errores de uso salen con código `2`; los fallos de aceptación, con código `1`.
+
+## Publicación atómica y rollback
+
+El destino institucional debe conservar **al menos la versión activa y las dos versiones
+anteriores que hayan pasado la sonda**, durante un mínimo de 30 días. La retención mayor
+que establezcan UDGPlus o su política de respaldo prevalece.
+
+### Nginx o Apache sobre sistema de archivos
+
+1. Construir cada entrega en un directorio nuevo e inmutable, por ejemplo
+   `/srv/aprendizaje-ia/releases/<commit>/`; nunca copiar encima de la versión activa.
+2. Verificar el artefacto, permisos y hashes antes de exponerlo. La raíz del virtual host
+   apunta a un enlace `current` o a un mecanismo equivalente del servidor.
+3. Cambiar `current` mediante un reemplazo atómico de enlace dentro del mismo sistema de
+   archivos. Registrar qué release era la anterior.
+4. Ejecutar inmediatamente la sonda remota contra la URL pública y observar respuestas
+   4xx/5xx y errores del navegador.
+5. Si la sonda da `FAIL`, aparece un 5xx sostenido, los activos H5P dan 404/MIME erróneo,
+   se bloquea el iframe/CSP o se supera el umbral institucional de errores, volver
+   atómicamente `current` a la release anterior **sin reconstruirla**.
+6. Repetir la sonda después del rollback y conservar ambos informes. Un rollback no está
+   cerrado hasta recuperar `PASS`.
+
+Ejemplo de cambio atómico, después de validar que `RELEASE_ID` corresponde a un commit
+aprobado y que la release contiene `index.html`:
+
+```bash
+test -f "/srv/aprendizaje-ia/releases/${RELEASE_ID}/index.html"
+ln -s "releases/${RELEASE_ID}" "/srv/aprendizaje-ia/current.next"
+mv -Tf "/srv/aprendizaje-ia/current.next" "/srv/aprendizaje-ia/current"
+```
+
+El rollback repite esas tres operaciones con el identificador exacto de la release anterior
+registrada; `mv` debe ocurrir en el mismo sistema de archivos para conservar la atomicidad.
+Si el panel institucional ofrece una primitiva de release equivalente, se usa esa primitiva
+y se documenta el identificador reversible.
+
+### Almacenamiento de objetos o CDN
+
+1. Subir el artefacto completo a un prefijo nuevo, por ejemplo
+   `releases/<commit>/`, sin mutar el prefijo de la entrega activa.
+2. Validar ese prefijo en staging y después cambiar de forma atómica el alias, origen o
+   regla de enrutamiento que representa la versión activa.
+3. Ante los mismos criterios de fallo, restaurar el puntero al prefijo anterior y purgar
+   únicamente HTML/índices mutables si la plataforma lo requiere; no purgar ni sobrescribir
+   activos inmutables compartidos.
+4. Repetir la sonda pública, guardar la evidencia y confirmar `PASS`.
+
+La tecnología definitiva —symlink, releases del panel institucional, alias de bucket o
+versión del CDN— se acordará con infraestructura UDGPlus. Debe demostrar estas propiedades,
+no necesariamente usar los nombres de los ejemplos.
+
 ## Migración al espacio oficial
 
 Antes de cambiar DNS o retirar GitHub Pages:
 
-1. acordar dominio, subruta, servidor/CDN, responsable y mecanismo de rollback;
+1. acordar dominio, subruta, servidor/CDN, responsable, publicación atómica, retención y
+   mecanismo probado de rollback;
 2. confirmar límites de tamaño, tipos MIME, CSP/WAF, cookies y soporte Range;
 3. construir con la `baseURL` definitiva y conservar el artefacto firmado o su SHA-256;
 4. publicar primero en staging bajo la misma topología;
 5. ejecutar QA local y la sonda remota;
 6. revisar visualmente portada, una página densa, SVG, fuentes y cada familia H5P;
-7. hacer el cambio de tráfico con copia anterior recuperable;
-8. repetir la sonda desde fuera de la red universitaria;
-9. registrar versión, fecha, responsable, URL, commit y evidencia en el ledger y Logseq.
+7. hacer el cambio de tráfico conservando activa la referencia exacta a la entrega anterior;
+8. aplicar los criterios de rollback durante la ventana de observación acordada;
+9. repetir la sonda desde fuera de la red universitaria, también después de cualquier rollback;
+10. registrar versión, fecha, responsable, URL, commit, release anterior y evidencia en el
+    ledger y Logseq.
 
 El repositorio no debe guardar contraseñas, llaves SSH, tokens del CDN ni rutas privadas
 del servidor. Esos datos pertenecen al gestor institucional de secretos.
