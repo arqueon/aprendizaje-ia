@@ -4,7 +4,7 @@
   "dialogs": [
     {
       "text": "<p style=\"text-align:center\"><strong>¿Co-crear con IA equivale a delegar?</strong></p>",
-      "answer": "<p><strong>Co-creación:</strong> distribución explícita del trabajo entre persona y sistema. La persona conserva propósito, criterios, verificación y decisión final.</p>",
+      "answer": "<p><strong>Co-creación</strong> significa distribuir tareas sin distribuir por igual la responsabilidad. La IA puede proponer alternativas, detectar una inconsistencia o comentar un borrador; la persona define el propósito, comprueba los aportes y decide qué entra al trabajo.</p><p>Si el sistema produce el texto y la persona solo lo entrega, hubo delegación. Si la respuesta obliga a contrastar, revisar y justificar una elección, puede haber co-creación.</p>",
       "tips": {"tip": "<p>Piensa quién define qué cuenta como una respuesta adecuada.</p>"},
       "image": {
         "path": "images/conceptos-cocreacion.png",
@@ -17,7 +17,7 @@
     },
     {
       "text": "<p style=\"text-align:center\"><strong>¿Qué conserva la persona cuando usa IA?</strong></p>",
-      "answer": "<p><strong>Dirección epistémica:</strong> capacidad de formular, contrastar y decidir qué afirmaciones o aportes son pertinentes y por qué.</p>",
+      "answer": "<p><strong>Dirección epistémica</strong> es la capacidad de orientar qué se intenta conocer y qué cuenta como una respuesta adecuada. Se observa cuando la persona formula la pregunta, reconoce lo que no sabe, contrasta afirmaciones y decide con qué razones sostendrá una conclusión.</p><p>No equivale a controlar cada operación de la herramienta. Significa conservar el rumbo intelectual del proceso.</p>",
       "tips": {"tip": "<p>No se trata solo de controlar la herramienta, sino de orientar el conocimiento producido.</p>"},
       "image": {
         "path": "images/conceptos-cocreacion.png",
@@ -30,7 +30,7 @@
     },
     {
       "text": "<p style=\"text-align:center\"><strong>¿Qué hace visible el proceso sin entregar todo el chat?</strong></p>",
-      "answer": "<p><strong>Trazabilidad:</strong> conjunto proporcional de evidencias —borradores, fuentes y decisiones— que permite reconstruir cómo cambió el trabajo.</p>",
+      "answer": "<p><strong>Trazabilidad</strong> es conservar evidencias suficientes para reconstruir cómo cambió el trabajo. Un primer esquema, una tabla de fuentes y dos decisiones de revisión suelen decir más sobre el aprendizaje que una conversación completa con la herramienta.</p><p>La evidencia debe ser proporcional a la tarea: permite comprender el proceso sin convertirlo en vigilancia.</p>",
       "tips": {"tip": "<p>Busca evidencias con valor pedagógico, no vigilancia exhaustiva.</p>"},
       "image": {
         "path": "images/conceptos-cocreacion.png",
@@ -43,7 +43,7 @@
     },
     {
       "text": "<p style=\"text-align:center\"><strong>¿Qué distingue aprendizaje de simple aceleración?</strong></p>",
-      "answer": "<p><strong>Ganancia cognitiva:</strong> comprensión, criterio o estrategia que la persona puede explicar y transferir a una situación nueva.</p>",
+      "answer": "<p><strong>Ganancia cognitiva</strong> es aquello que la persona ahora comprende o sabe hacer y puede usar fuera de la conversación con la IA. Puede ser una distinción conceptual, un criterio para verificar fuentes o una estrategia de revisión.</p><p>La rapidez no demuestra aprendizaje. Una señal más fuerte es que la persona pueda explicar su decisión y transferir el criterio a un caso nuevo.</p>",
       "tips": {"tip": "<p>Pregúntate qué puede hacer ahora la persona que antes no podía hacer.</p>"},
       "image": {
         "path": "images/conceptos-cocreacion.png",
@@ -61,7 +61,7 @@
   "retry": "Intentar de nuevo",
   "progressText": "Tarjeta @card de @total",
   "behaviour": {
-    "scaleTextNotCard": true,
+    "scaleTextNotCard": false,
     "enableRetry": true,
     "disableBackwardsNavigation": false,
     "randomCards": false,

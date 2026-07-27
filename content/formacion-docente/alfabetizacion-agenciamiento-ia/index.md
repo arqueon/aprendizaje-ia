@@ -133,6 +133,25 @@ El tercer nivel es la competencia avanzada. El docente no sostiene solo su co-cr
 
 **Cómo se entrena:** diseño y realización de una asignatura completa centrada en procesos de co-creación, con bitácora del docente, retroalimentación entre pares y revisión de los productos al cierre. Aquí la alfabetización en co-creación se consolida y se vuelve enseñable a otros docentes.
 
+## Recorre el ciclo completo
+
+Esta síntesis cobra sentido después de distinguir los tres niveles. Úsala para reconocer
+dónde comienza y termina cada decisión, no como sustituto de la práctica supervisada.
+
+{{< h5p id="cocreacion-evaluacion-recorrido" load="manual" title="Recorrido: co-crear y evaluar con IA" >}}
+### El recorrido en cuatro movimientos
+
+1. **Empieza con una posición propia:** conserva un esquema, una hipótesis o criterios
+   iniciales.
+2. **Interroga y verifica:** solicita objeciones y contrasta datos y fuentes.
+3. **Transforma y justifica:** compara versiones y explica las razones de cambio.
+4. **Evalúa proceso, producto y transferencia:** el estudiante explica qué aprendió y el
+   docente combina la calidad del resultado con evidencias del recorrido.
+
+Al cerrar, distingue una evidencia de decisión intelectual de un registro que solo demuestra
+que se utilizó una herramienta.
+{{< /h5p >}}
+
 ## Lo que esta alfabetización requiere de la institución
 
 El docente individual no puede abarcar este aprendizaje solo. Hay tres condiciones institucionales que lo determinan, y conviene nombrarlas para que no queden como buenas intenciones.

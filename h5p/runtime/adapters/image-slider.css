@@ -1,14 +1,50 @@
 .h5p-image-slider,
-.h5p-image-slider .h5p-image-slider-content {
-  background: var(--udgia-paper, #f6f1e8);
+.h5p-image-slider .h5p-image-slider-content,
+.h5p-image-slide {
+  background: var(--h-bg);
+}
+
+.h5p-image-slider .h5p-image-slide-image-holder,
+.h5p-image-slider .h5p-image-slide-image-holder .h5p-image {
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0 !important;
+}
+
+.h5p-image-slider .h5p-image-slide-image-holder img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .h5p-image-slider .h5p-image-slider-button {
   color: #fff;
-  background: var(--udgia-ink, #123b4a);
+  background: transparent;
 }
 
-.h5p-image-slider .h5p-image-slider-button:focus-visible {
-  outline: 3px solid var(--udgia-ochre, #f7a11a);
-  outline-offset: 2px;
+.h5p-image-slider .h5p-image-slider-button-background {
+  opacity: .8;
+}
+
+.h5p-image-slider .h5p-image-slider-left-button .h5p-image-slider-button-background {
+  background: linear-gradient(90deg, rgb(24 34 60 / 68%), transparent);
+}
+
+.h5p-image-slider .h5p-image-slider-right-button .h5p-image-slider-button-background {
+  background: linear-gradient(270deg, rgb(24 34 60 / 68%), transparent);
+}
+
+.h5p-image-slider .h5p-image-slider-button-text {
+  text-shadow: 0 2px 8px rgb(0 0 0 / 65%);
+}
+
+.h5p-image-slider .h5p-image-slider-progress {
+  background: var(--h-bg);
+}
+
+.h5p-image-slider .h5p-image-slider-button:focus-visible,
+.h5p-image-slider .h5p-image-slider-progress-button:focus-visible {
+  outline: 3px solid var(--h-focus);
+  outline-offset: 3px;
 }

@@ -121,8 +121,7 @@
       }
     }
   ],
-  "aspectRatioMode": "fixed",
-  "aspectRatio": "16:9",
+  "aspectRatioMode": "auto",
   "a11y": {
     "nextSlide": "Imagen siguiente",
     "prevSlide": "Imagen anterior",

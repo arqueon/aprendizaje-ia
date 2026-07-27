@@ -106,7 +106,7 @@
         "contentType": "Image"
       }
     },
-    "disableImageZooming": false
+    "disableImageZooming": true
   },
   "confirmCheck": {
     "header": "¿Comprobar respuestas?",

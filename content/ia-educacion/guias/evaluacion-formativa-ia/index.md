@@ -150,6 +150,27 @@ Al momento de revisar este entregable, los criterios del docente deben cambiar d
 | La reflexión sobre el proceso | El producto final aislado |
 | La capacidad de rechazar sugerencias con fundamento | La obediencia a la IA |
 
+## Decide qué evidencia permite valorar aprendizaje
+
+La pregunta siguiente aplica la distinción que acabas de revisar. No busca acumular rastros:
+busca un conjunto pequeño que permita comparar el punto de partida, la verificación y las
+decisiones de revisión.
+
+{{< h5p id="evaluacion-proceso-decision" load="manual" title="Qué evidencia muestra aprendizaje" >}}
+### Revisa las opciones con la explicación visible
+
+Una estudiante presenta un ensayo sólido después de usar IA. Estas evidencias sí ayudan a
+valorar el aprendizaje:
+
+- una tesis o un esquema previo, porque muestra el punto de partida;
+- una tabla breve de fuentes propuestas, verificadas y descartadas, porque muestra criterio;
+- dos o tres decisiones de revisión explicadas, porque permiten observar juicio y
+  transformación.
+
+El número de prompts no mide la calidad del proceso. Un porcentaje producido por un
+detector tampoco reconstruye qué aprendió la estudiante.
+{{< /h5p >}}
+
 ## Errores frecuentes
 
 1. **Usar la IA como calificadora final.** La IA retroalimenta; el docente califica. Mezclar ambas funciones compromete la confianza del estudiante en el proceso.

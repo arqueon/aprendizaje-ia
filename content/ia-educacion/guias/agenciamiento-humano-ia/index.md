@@ -108,6 +108,26 @@ El docente puede pedir que el estudiante identifique y comente sus desplazamient
 
 En el marco del agenciamiento (ensamblaje), la [transparencia](/ia-educacion/etica-y-transparencia/) no es un mecanismo de control ("demuestra que no hiciste trampa"). Es una **competencia académica**: la capacidad de explicitar cómo se produjo el conocimiento, con qué herramientas, qué decisiones se tomaron y qué sesgos se identificaron (Lodge & Loble, 2026).
 
+## Relaciona los conceptos
+
+Las tarjetas siguientes funcionan como repaso después de leer las secciones anteriores.
+Cada concepto responde una pregunta distinta: cómo se distribuye el trabajo, quién conserva
+el criterio, qué hace visible el recorrido y qué aprendizaje permanece en la persona.
+
+{{< h5p id="cocreacion-conceptos-cards" load="manual" title="Conceptos para co-crear con dirección" >}}
+### Cuatro relaciones para revisar
+
+| Concepto | Pregunta que ayuda a responder |
+|---|---|
+| Co-creación | ¿Cómo se distribuyó el trabajo entre la persona y el sistema? |
+| Dirección epistémica | ¿Quién decidió qué cuenta como una respuesta pertinente y fundada? |
+| Trazabilidad | ¿Qué evidencias permiten reconstruir las decisiones importantes? |
+| Ganancia cognitiva | ¿Qué puede explicar o transferir ahora la persona que antes no podía? |
+
+Escribe un ejemplo en el que estén presentes las cuatro relaciones. Después cambia una
+decisión para mostrar cómo el mismo uso de IA podría convertirse en delegación pasiva.
+{{< /h5p >}}
+
 ## El rizoma como complemento
 
 El concepto de agenciamiento (ensamblaje) se vincula con otro de Deleuze: el **rizoma**. Frente al modelo arbóreo del conocimiento (raíz → tronco → ramas → hojas), el rizoma crece en cualquier dirección, sin centro ni jerarquía.

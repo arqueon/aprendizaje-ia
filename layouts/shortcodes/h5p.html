@@ -67,7 +67,7 @@
   <details class="udg-h5p__fallback" open>
     <summary>Versión accesible y equivalente</summary>
     <div class="udg-h5p__fallback-body">
-      {{- .Inner | .Page.RenderString -}}
+      {{- .Inner | .Page.RenderString | replaceRE "<table>" "<table tabindex=\"0\">" | safeHTML -}}
     </div>
   </details>
 </section>

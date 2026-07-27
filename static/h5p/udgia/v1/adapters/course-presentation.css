@@ -1,15 +1,32 @@
 .h5p-course-presentation {
-  color: var(--udgia-ink, #123b4a);
-  background: var(--udgia-paper, #f6f1e8);
+  color: var(--h-ink);
+  background: var(--h-bg);
+}
+
+.h5p-course-presentation .h5p-element .h5p-image > img {
+  object-fit: cover;
+}
+
+.h5p-course-presentation .h5p-advanced-text h2 {
+  color: var(--h-ink);
+  font-family: var(--h-font-display);
+  font-weight: 760;
+  line-height: 1.15;
+}
+
+.h5p-course-presentation .h5p-advanced-text p {
+  color: var(--h-ink);
+  font-family: var(--h-font-body);
+  line-height: 1.45;
 }
 
 .h5p-course-presentation .h5p-footer {
   color: #fff;
-  background: var(--udgia-ink, #123b4a);
+  background: var(--h-ink);
 }
 
 .h5p-course-presentation button:focus-visible,
 .h5p-course-presentation [tabindex]:focus-visible {
-  outline: 3px solid var(--udgia-ochre, #f7a11a);
-  outline-offset: 2px;
+  outline: 3px solid var(--h-focus);
+  outline-offset: 3px;
 }

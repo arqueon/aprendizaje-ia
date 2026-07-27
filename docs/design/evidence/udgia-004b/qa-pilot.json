@@ -1,7 +1,33 @@
 {
-  "schemaVersion": 1,
-  "generated": "2026-07-27T17:24:48.635Z",
-  "page": "ia-educacion/constelaciones/cocreacion-evaluacion/",
+  "schemaVersion": 2,
+  "generated": "2026-07-27T18:31:03.235Z",
+  "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
+  "activityPages": [
+    {
+      "id": "cocreacion-versiones-slider",
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/"
+    },
+    {
+      "id": "direccion-epistemica-hotspots",
+      "path": "formacion-docente/alfabetizacion-co-creacion/"
+    },
+    {
+      "id": "cocreacion-conceptos-cards",
+      "path": "ia-educacion/guias/agenciamiento-humano-ia/"
+    },
+    {
+      "id": "evaluacion-proceso-decision",
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/"
+    },
+    {
+      "id": "cocreacion-evaluacion-recorrido",
+      "path": "formacion-docente/alfabetizacion-agenciamiento-ia/"
+    },
+    {
+      "id": "objetivos-bloom-udgplus",
+      "path": "formacion-docente/taxonomia-bloom-diseno-inverso/"
+    }
+  ],
   "expectedIDs": [
     "cocreacion-versiones-slider",
     "direccion-epistemica-hotspots",
@@ -19,37 +45,103 @@
     ]
   },
   "mobile": {
-    "width": 375,
-    "scrollWidth": 375,
-    "h5pCount": 6,
-    "fallbackLengths": [
-      559,
-      501,
-      586,
-      608,
-      511,
-      719
-    ],
-    "dark": false,
-    "colorScheme": "light"
+    "intro": {
+      "width": 375,
+      "scrollWidth": 375,
+      "h5pCount": 0,
+      "studentRoute": true,
+      "teacherRoute": true,
+      "dark": false,
+      "colorScheme": "light"
+    },
+    "activities": [
+      {
+        "id": "cocreacion-versiones-slider",
+        "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 810
+      },
+      {
+        "id": "direccion-epistemica-hotspots",
+        "path": "formacion-docente/alfabetizacion-co-creacion/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 495
+      },
+      {
+        "id": "cocreacion-conceptos-cards",
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 563
+      },
+      {
+        "id": "evaluacion-proceso-decision",
+        "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 551
+      },
+      {
+        "id": "cocreacion-evaluacion-recorrido",
+        "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 545
+      },
+      {
+        "id": "objetivos-bloom-udgplus",
+        "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 602
+      }
+    ]
   },
   "desktop": {
     "activities": [
       {
         "id": "cocreacion-versiones-slider",
-        "height": 417,
+        "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+        "height": 323,
         "inner": {
           "width": 503,
           "scrollWidth": 503,
-          "height": 417,
-          "scrollHeight": 417,
+          "height": 323,
+          "scrollHeight": 323,
           "imageCount": 6,
           "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 503,
+          "visibleImages": [
+            {
+              "width": 503,
+              "height": 282.9375,
+              "ratio": 1.7777777777777777
+            },
+            {
+              "width": 503,
+              "height": 282.9375,
+              "ratio": 1.7777777777777777
+            },
+            {
+              "width": 503,
+              "height": 282.9375,
+              "ratio": 1.7777777777777777
+            }
+          ],
+          "checks": {
+            "imageFillsPlayer": true,
+            "landscapeRatio": true
+          }
         },
         "violations": []
       },
       {
         "id": "direccion-epistemica-hotspots",
+        "path": "formacion-docente/alfabetizacion-co-creacion/",
         "height": 282,
         "inner": {
           "width": 503,
@@ -59,36 +151,88 @@
           "imageCount": 1,
           "errorText": []
         },
+        "visual": {
+          "viewportWidth": 503,
+          "visibleImages": [
+            {
+              "width": 503,
+              "height": 282,
+              "ratio": 1.7836879432624113
+            }
+          ],
+          "checks": {
+            "hotspotCount": 5,
+            "hotspotsDoNotOverlap": true
+          }
+        },
         "violations": []
       },
       {
         "id": "cocreacion-conceptos-cards",
-        "height": 628,
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "height": 734,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 628,
-          "scrollHeight": 628,
+          "width": 478,
+          "scrollWidth": 478,
+          "height": 734,
+          "scrollHeight": 734,
           "imageCount": 2,
           "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 478,
+          "visibleImages": [
+            {
+              "width": 426.65625,
+              "height": 240,
+              "ratio": 1.777734375
+            },
+            {
+              "width": 426.65625,
+              "height": 240,
+              "ratio": 1.777734375
+            }
+          ],
+          "checks": {
+            "progressShowsFour": true,
+            "explanatoryTextPresent": true,
+            "sceneKeepsLandscapeRatio": true
+          }
         },
         "violations": []
       },
       {
         "id": "evaluacion-proceso-decision",
-        "height": 549,
+        "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "height": 854,
         "inner": {
           "width": 503,
           "scrollWidth": 503,
-          "height": 549,
-          "scrollHeight": 549,
+          "height": 854,
+          "scrollHeight": 854,
           "imageCount": 1,
           "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 503,
+          "visibleImages": [
+            {
+              "width": 503,
+              "height": 282.9375,
+              "ratio": 1.7777777777777777
+            }
+          ],
+          "checks": {
+            "answerCount": 5,
+            "answersStyled": true,
+            "imageReadable": true
+          }
         },
         "violations": []
       },
       {
         "id": "cocreacion-evaluacion-recorrido",
+        "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
         "height": 283,
         "inner": {
           "width": 503,
@@ -98,27 +242,42 @@
           "imageCount": 2,
           "errorText": []
         },
+        "visual": {
+          "viewportWidth": 503,
+          "visibleImages": [
+            {
+              "width": 231.375,
+              "height": 129.859375,
+              "ratio": 1.7817350499338227
+            }
+          ],
+          "checks": {
+            "sceneKeepsLandscapeRatio": true
+          }
+        },
         "violations": []
       },
       {
         "id": "objetivos-bloom-udgplus",
-        "height": 3594,
+        "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
+        "height": 3592,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 3594,
-          "scrollHeight": 3594,
+          "width": 493,
+          "scrollWidth": 493,
+          "height": 3592,
+          "scrollHeight": 3592,
           "imageCount": 1,
           "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 493,
+          "visibleImages": [],
+          "checks": {}
         },
         "violations": []
       }
     ],
     "preview": "Al finalizar, el estudiante categorizar dos fuentes con criterios explícitos a partir de un caso justificando tres diferencias.",
-    "pageGeometry": {
-      "width": 1280,
-      "scrollWidth": 1280
-    },
     "externalRequests": [],
     "writeRequests": [],
     "consoleErrors": []

@@ -1,12 +1,15 @@
 ---
-title: "Co-crear con dirección: aprender y evaluar el proceso"
+title: "Empezar con IA para aprender y enseñar"
+slug: "empezar-con-ia"
+aliases:
+  - "/ia-educacion/constelaciones/cocreacion-evaluacion/"
 date: 2026-07-27
 draft: false
-description: "Constelación de rutas y actividades para co-crear con IA, conservar la dirección epistémica y valorar el aprendizaje mediante evidencias del proceso."
-summary: "Tres entradas —estudiante, docente y coordinación— conectan co-creación, dirección epistémica, trazabilidad y evaluación basada en procesos."
-tags: ["co-creación", "dirección epistémica", "evaluación de procesos", "h5p", "trazabilidad"]
+description: "Una introducción al uso de la IA en educación: qué está cambiando, qué puede aportar y cómo comenzar como estudiante o docente."
+summary: "Dos entradas —estudiante y docente— para comprender el cambio, decidir cuándo usar IA y avanzar sin perder de vista el aprendizaje."
+tags: ["introducción a la IA", "aprendizaje", "docencia", "alfabetización en IA"]
 categories: ["ruta-de-aprendizaje"]
-areas: ["ia", "evaluacion", "pedagogia", "formacion"]
+areas: ["ia", "pedagogia", "formacion"]
 showHero: true
 showBreadcrumbs: true
 showSummary: true
@@ -14,236 +17,182 @@ showTableOfContents: true
 showReadingTime: true
 showAuthor: false
 ecosistema:
-  id: route.cocreacion-evaluacion
-  titulo: "Co-creación y evaluación basada en procesos"
-  audiencias: [estudiante, docente, coordinacion]
-  intenciones: [comprender, decidir, diseñar, practicar, evaluar, gobernar]
+  id: route.inicio-ia-educacion
+  titulo: "Empezar con IA para aprender y enseñar"
+  audiencias: [estudiante, docente]
+  intenciones: [comprender, decidir, practicar, diseñar]
   tipo: guia
-  capas: [R.orientacion, L3, D.cocreacion-evaluacion, P.direccion-epistemica, P.trazabilidad]
-  resultado: "Elige una ruta, practica decisiones de co-creación y define evidencias proporcionales del aprendizaje."
+  capas: [R.orientacion, L1, L2, L3]
+  resultado: "Reconoce qué cambia con la IA, elige una ruta inicial y decide qué parte del aprendizaje debe permanecer bajo responsabilidad humana."
   estado_evidencia: prototipo-escenario
   fuentes:
-    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-agenciamiento-ia/"
-    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/evaluacion-formativa-ia/"
-    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/productos-de-aprendizaje/ensayo/"
+    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion/"
+    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-operativa/"
+    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/"
   revisado: 2026-07-27
   relaciones:
-    - tipo: requiere
-      destino: pattern.direccion-epistemica
-    - tipo: aplica
-      destino: assessment.basada-en-procesos
     - tipo: continua
-      destino: practice.portafolio-proceso
-    - tipo: contrasta
-      destino: risk.descarga-cognitiva
+      destino: capacity.alfabetizacion-ia
+    - tipo: continua
+      destino: literacy.cocreacion
+    - tipo: prepara
+      destino: assessment.basada-en-procesos
   reutilizacion: [hugo, moodle, curso-amplio]
-  accesibilidad: "Cada H5P incluye una alternativa abierta que conserva la misma comprensión, práctica o decisión."
+  accesibilidad: "El diagrama tiene una explicación textual equivalente y la ruta no depende de actividades interactivas."
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
-Usar IA no garantiza co-creación ni aprendizaje. La diferencia aparece cuando la persona
-formula, verifica, decide, transforma y puede explicar qué cambió. Esta ruta conecta esas
-decisiones con una evaluación que observa el proceso **y** el producto.
+La IA ya aparece al buscar información, escribir, traducir, programar, producir imágenes o
+preparar una clase. Su llegada a la educación cambia algo más profundo que las herramientas:
+cambia qué parte del trabajo hace una persona, qué puede pedir a un sistema y qué necesita
+comprender y decidir por sí misma.
 {{< /lead >}}
 
 {{< alert icon="flask" type="info" >}}
-Esta constelación es un **prototipo pedagógico**: organiza conceptos y actividades para
-probarlos con tres audiencias. No presenta resultados de una implementación real ni
-sustituye la secuencia, el acompañamiento o el seguimiento que corresponderían a un curso.
+Esta es una **entrada introductoria**. No necesitas conocer todavía conceptos como
+co-creación, dirección epistémica o trazabilidad. Aparecerán después, cuando tengas una
+experiencia concreta desde la cual entenderlos.
 {{< /alert >}}
+
+## Qué está cambiando
+
+Una respuesta bien redactada, una imagen convincente o un programa que funciona pueden
+producirse en pocos minutos. Eso abre posibilidades reales: ensayar explicaciones, comparar
+alternativas, recibir comentarios sobre un borrador o explorar una pregunta desde varios
+ángulos.
+
+También vuelve menos evidente qué aprendió una persona. El producto final ya no basta para
+reconstruir el recorrido. Por eso importa saber dónde hubo comprensión, qué se verificó y
+qué decisiones no fueron delegadas al sistema.
+
+La meta inicial no es dominar una marca ni memorizar fórmulas para escribir prompts. Es
+aprender a reconocer cuándo la IA ayuda, cuándo estorba y qué responsabilidad conserva
+quien estudia o enseña.
+
+## Qué puede aportar y qué no garantiza
+
+| La IA puede ayudarte a… | Todavía necesitas… |
+|---|---|
+| ensayar una explicación o pedir otro ejemplo; | comprobar si la explicación es correcta y pertinente; |
+| proponer preguntas, objeciones o alternativas; | decidir cuáles sirven para tu propósito; |
+| comentar un borrador y localizar puntos débiles; | juzgar qué cambios mejoran realmente el trabajo; |
+| ordenar información o comparar versiones; | verificar fuentes, cuidar datos y explicar tus decisiones. |
+
+Un sistema genera respuestas a partir de patrones. No conoce tu asignatura como tu profesor,
+no sabe por sí mismo qué comprendiste y puede presentar información falsa con mucha
+seguridad. Usarlo bien exige mantener esas limitaciones a la vista.
+
+## Una forma sencilla de empezar
+
+1. **Define el propósito.** Nombra qué quieres aprender, enseñar o producir antes de abrir
+   una herramienta.
+2. **Haz un primer intento.** Escribe una pregunta, esquema, solución o criterio propio.
+3. **Pide una ayuda concreta.** Solicita un ejemplo, una objeción, una comparación o
+   retroalimentación localizada.
+4. **Comprueba la respuesta.** Contrasta datos y fuentes; busca omisiones y supuestos.
+5. **Decide y explica.** Conserva, corrige o rechaza lo que recibiste. Al cerrar, identifica
+   qué entendiste mejor.
+
+Esta secuencia es deliberadamente básica. Primero conviene vivir el proceso; después podremos
+poner nombre a relaciones más complejas.
 
 ## Elige tu entrada
 
 {{< cards >}}
-  {{< card link="#estudio" title="Estudio" icon="user-graduate" color="#007c83" description="Comprende la co-creación, practica decisiones y reúne evidencias mínimas de tu proceso." >}}
-  {{< card link="#enseno-y-diseno" title="Enseño y diseño" icon="chalkboard-user" color="#123b4a" description="Define el esfuerzo humano, los puntos de control y criterios separados para proceso y producto." >}}
-  {{< card link="#coordino-y-gobierno" title="Coordino y gobierno" icon="building-columns" color="#f7a11a" description="Acuerda condiciones, apoyos, responsabilidades y un ciclo de revisión del piloto." >}}
+  {{< card link="#si-eres-estudiante" title="Soy estudiante" icon="user-graduate" color="#b12028" description="Quiero usar IA para estudiar, investigar o mejorar un trabajo sin entregar mi aprendizaje a la herramienta." >}}
+  {{< card link="#si-eres-docente" title="Soy docente" icon="chalkboard-user" color="#18223c" description="Quiero decidir cuándo integrar IA y cómo conservar el propósito formativo de una actividad." >}}
 {{< /cards >}}
 
-## Un núcleo, tres recorridos
+## Dos rutas, una misma pregunta
 
 {{< mermaid >}}
-flowchart LR
-    C["Co-creación<br/>persona-IA"] --> D["Dirección<br/>epistémica"]
-    D --> G["Ganancia<br/>cognitiva"]
-    D --> E["Evaluación basada<br/>en procesos"]
-    E --> T["Trazabilidad<br/>proporcional"]
-    T --> R["Reflexión y<br/>responsabilidad"]
-    C --> X["Delegación<br/>pasiva"]
-    X --> O["Descarga<br/>cognitiva"]
-    E --> P["Calidad del<br/>producto"]
+flowchart TD
+    A["Propósito de aprendizaje"] --> E["Si estudias:<br/>parte de un intento propio"]
+    A --> D["Si enseñas:<br/>define el esfuerzo que debe practicar el grupo"]
+    E --> I["Pregunta, compara<br/>y verifica"]
+    D --> T["Decide cuándo la IA<br/>ayuda o estorba"]
+    I --> R["Revisa y explica<br/>tus decisiones"]
+    T --> R
+    R --> P["Evidencia de aprendizaje"]
 
-    style C fill:#007c83,stroke:#123b4a,color:#ffffff
-    style D fill:#f7a11a,stroke:#123b4a,color:#123b4a
-    style G fill:#d9eeec,stroke:#007c83,color:#123b4a
-    style E fill:#123b4a,stroke:#102e3a,color:#ffffff
-    style T fill:#f6f1e8,stroke:#007c83,color:#123b4a
-    style R fill:#d9eeec,stroke:#007c83,color:#123b4a
-    style X fill:#ead7ce,stroke:#9a4e3f,color:#123b4a
-    style O fill:#9a4e3f,stroke:#6f332b,color:#ffffff
-    style P fill:#f6f1e8,stroke:#123b4a,color:#123b4a
+    style A fill:#b12028,stroke:#7f1820,color:#ffffff
+    style E fill:#f7e5e2,stroke:#b12028,color:#18223c
+    style D fill:#ece9e1,stroke:#18223c,color:#18223c
+    style I fill:#dcebea,stroke:#2f7f83,color:#18223c
+    style T fill:#eee7d5,stroke:#687653,color:#18223c
+    style R fill:#d99518,stroke:#8a5e0b,color:#18223c
+    style P fill:#18223c,stroke:#10172a,color:#ffffff
 {{< /mermaid >}}
 
-En texto, la relación central es:
+En texto: ambas rutas comienzan con un propósito de aprendizaje. El estudiante parte de un
+intento propio; el docente identifica el esfuerzo que su grupo necesita practicar. Después
+se decide cómo participa la IA, se verifican sus aportes y se conserva alguna evidencia de
+las decisiones tomadas.
 
-1. La **co-creación** necesita dirección epistémica; sin ella puede convertirse en
-   delegación pasiva.
-2. La **dirección epistémica** se observa en preguntas, verificaciones y decisiones de
-   aceptar, transformar o descartar.
-3. Esas decisiones dejan una **trazabilidad proporcional**: no el chat completo, sino las
-   evidencias de mayor valor.
-4. La evaluación basada en procesos lee esas evidencias junto con la **calidad del producto**.
-5. El criterio de éxito es la **ganancia cognitiva**: qué comprensión o estrategia puede
-   explicar y transferir la persona.
+## Si eres estudiante
 
-## Estudio
+La IA puede funcionar como interlocutora, fuente de ejemplos o lectora de un borrador. No
+necesita escribir el trabajo por ti para ser útil.
 
-Tu salida observable es poder defender qué decidiste, verificaste, transformaste o
-rechazaste.
+Empieza con una tarea pequeña:
 
-1. Formula una pregunta, propósito o tesis antes de usar IA.
-2. Usa el sistema para recibir objeciones, alternativas o conexiones.
-3. Verifica afirmaciones y fuentes; decide qué sirve al propósito.
-4. Compara versiones y conserva dos o tres decisiones relevantes.
-5. Entrega producto, evidencias mínimas, declaración y reflexión.
+1. escribe en dos o tres frases lo que ya entiendes;
+2. pide a la IA una objeción o un ejemplo que ponga a prueba esa idea;
+3. comprueba una afirmación importante en una fuente externa;
+4. reescribe con tus palabras y anota qué cambió;
+5. intenta explicar el resultado sin volver a consultar la conversación.
 
-## Enseño y diseño
+Cuando esta práctica te resulte familiar, continúa en este orden:
 
-Tu salida observable es una actividad donde la función de la IA, el rastro esperado y los
-criterios de evaluación sean explícitos.
+1. [Alfabetización operativa](/formacion-docente/alfabetizacion-operativa/): formular,
+   comparar, verificar y documentar.
+2. [Alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/):
+   reconocer límites, sesgos y efectos.
+3. [Alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/):
+   sostener procesos más largos sin perder la dirección.
 
-1. Define el resultado de aprendizaje y el esfuerzo que debe permanecer humano.
-2. Decide si la IA amenaza, no afecta o habilita ese resultado.
-3. Diseña una secuencia antes–durante–después con puntos de control.
-4. Especifica evidencias mínimas y una alternativa equivalente sin IA.
-5. Evalúa proceso y producto con criterios separados.
-6. Revisa privacidad, equidad, procedencia y carga documental.
+## Si eres docente
 
-## Coordino y gobierno
+La primera decisión no es qué herramienta usar. Es qué necesita practicar el estudiante y
+qué evidencia permitiría reconocer ese aprendizaje.
 
-Tu salida observable es poder aprobar, condicionar o detener un piloto mediante criterios
-trazables.
+Antes de integrar IA en una actividad:
 
-1. Acuerda vocabulario, principios y responsabilidades comunes.
-2. Distingue las decisiones institucionales, de programa y de asignatura.
-3. Garantiza formación, apoyos, privacidad, equidad y alternativa sin IA.
-4. Recoge evidencia de implementación sin convertir anécdotas en política.
-5. Fija fecha, responsables y criterios para revisar o cerrar el piloto.
+1. formula el resultado de aprendizaje con un desempeño observable;
+2. identifica el esfuerzo que el estudiante debe atravesar personalmente;
+3. decide si la IA amenaza ese esfuerzo, no lo afecta o puede enriquecerlo;
+4. explica con claridad qué usos están permitidos y cuáles no;
+5. ofrece una alternativa equivalente cuando el acceso, la privacidad o la preferencia del
+   estudiante lo requieran;
+6. revisa por separado el proceso y el producto final.
 
-## Practica el núcleo
+Para avanzar gradualmente:
 
-Las seis actividades pueden abrirse de forma independiente. Cada una mantiene debajo una
-versión accesible y equivalente; por ello el recorrido sigue siendo útil sin JavaScript o
-sin cargar el H5P.
+1. [Tres literacidades para la formación](/formacion-docente/alfabetizacion/) ofrece el mapa
+   general.
+2. [Taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/)
+   ayuda a fijar objetivos antes de elegir tecnología.
+3. [Evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) muestra cómo
+   trabajar con borradores, retroalimentación y decisiones.
 
-{{< h5p id="cocreacion-versiones-slider" load="manual" title="Tres versiones de una co-creación" >}}
-### Compara las tres versiones
+## Cuándo aparece la co-creación
 
-| Momento | Qué conserva la persona | Evidencia útil |
-|---|---|---|
-| Borrador propio | Propósito, tesis, criterios y preguntas iniciales. | Esquema o primera versión. |
-| Interrogación con IA | Verifica objeciones, conexiones y fuentes propuestas. | Tabla breve: verificada, descartada o pendiente. |
-| Revisión justificada | Acepta, transforma o rechaza aportes desde sus criterios. | Dos o tres cambios explicados y producto final. |
+Después de varios intentos notarás que la relación con la IA no siempre consiste en pedir y
+recibir. A veces una objeción cambia tu pregunta; una fuente invalida una respuesta; una
+comparación obliga a reescribir. La persona sigue decidiendo, pero el resultado surge de una
+interacción.
 
-**Pregunta de comparación:** ¿qué cambio no se explicaría solo por copiar una respuesta del
-sistema? Señala la decisión humana y el criterio que la sostuvo.
-{{< /h5p >}}
+Llamamos **co-creación** a ese proceso cuando conserva propósito, verificación y decisión
+humana. Es un nivel posterior de la ruta, no el punto de partida. La
+[guía sobre co-creación y agenciamiento](/ia-educacion/guias/agenciamiento-humano-ia/)
+desarrolla el concepto con más detalle.
 
-{{< h5p id="direccion-epistemica-hotspots" load="manual" title="Cinco decisiones de dirección epistémica" >}}
-### Recorre el mapa en forma de lista
+## Cuida la información
 
-1. **Preguntar:** formula propósito, alcance y dudas iniciales.
-2. **Verificar:** contrasta datos, referencias y supuestos con fuentes pertinentes.
-3. **Aceptar o descartar:** decide qué aportes sirven y conserva una razón breve.
-4. **Transformar:** corrige, combina o reescribe desde criterios propios.
-5. **Documentar:** reúne borrador, fuentes y decisiones; no exige el chat completo.
-
-**Resultado equivalente:** elige una decisión que ya realizas bien y una que necesitas
-hacer visible en tu próximo trabajo.
-{{< /h5p >}}
-
-{{< h5p id="cocreacion-conceptos-cards" load="manual" title="Conceptos para co-crear con dirección" >}}
-### Cuatro relaciones que conviene recordar
-
-| Pregunta | Respuesta razonada |
-|---|---|
-| ¿Co-crear equivale a delegar? | No. Distribuye trabajo, pero la persona conserva propósito, criterios, verificación y decisión final. |
-| ¿Qué conserva la persona? | La dirección epistémica: formular, contrastar y decidir qué cuenta y por qué. |
-| ¿Qué hace visible el proceso? | Una trazabilidad proporcional de borradores, fuentes y decisiones. |
-| ¿Qué distingue aprendizaje de aceleración? | La ganancia cognitiva: algo que la persona puede explicar y transferir. |
-
-**Práctica:** escribe un ejemplo y un contraejemplo de co-creación en tu disciplina.
-{{< /h5p >}}
-
-{{< h5p id="evaluacion-proceso-decision" load="manual" title="Qué evidencia muestra aprendizaje" >}}
-### Decide con la explicación visible
-
-Una estudiante presenta un ensayo sólido después de usar IA. ¿Qué evidencias permiten
-valorar aprendizaje sin exigir el chat completo?
-
-- **Sí:** tesis o esquema previo; permite comparar el punto de partida.
-- **Sí:** tabla de fuentes propuestas, verificadas y descartadas; muestra criterio.
-- **Sí:** dos o tres decisiones de revisión explicadas; muestra juicio y transformación.
-- **No:** número total de prompts; cantidad no equivale a calidad.
-- **No:** porcentaje de un detector; no reconstruye el proceso de aprendizaje.
-
-El conjunto mínimo combina punto de partida, verificación y decisiones justificadas.
-{{< /h5p >}}
-
-{{< h5p id="cocreacion-evaluacion-recorrido" load="manual" title="Recorrido: co-crear y evaluar con IA" >}}
-### Guía lineal equivalente
-
-1. **Empieza con una posición propia:** conserva esquema, hipótesis o criterios iniciales.
-2. **Interroga y verifica:** busca objeciones y contrasta datos y fuentes.
-3. **Transforma y justifica:** compara versiones y explica razones de cambio.
-4. **Evalúa proceso, producto y transferencia:** la persona explica; el docente combina
-   criterios; la coordinación acuerda mínimos sin vigilancia exhaustiva.
-
-Al cerrar, responde: ¿qué evidencia permite ver una decisión intelectual y cuál solo
-registra uso de una herramienta?
-{{< /h5p >}}
-
-{{< h5p id="objetivos-bloom-udgplus" load="manual" title="Constructor de objetivos de aprendizaje UDGPlus" >}}
-### Plantilla equivalente para formular el objetivo
-
-Completa en este orden:
-
-| Componente | Pregunta | Tu formulación |
-|---|---|---|
-| Audiencia | ¿Quién aprende? | Al finalizar, el estudiante… |
-| Verbo y contenido | ¿Qué hará y sobre qué? | … |
-| Condición | ¿Con qué recursos o contexto? | … |
-| Criterio | ¿Con qué calidad o estándar? | … |
-| Evidencia | ¿Qué producto o actuación permitirá observarlo? | … |
-
-Después decide:
-
-1. ¿Qué esfuerzo necesita atravesar la persona antes de recibir asistencia?
-2. ¿En qué fase la IA amenaza, no afecta o habilita el objetivo?
-3. ¿Qué evidencia permite evaluar el aprendizaje sin confundirlo con el acabado?
-
-**Ejemplo:** «Al finalizar, el estudiante **contrastará** dos fuentes académicas a partir de
-un caso, justificando al menos tres diferencias mediante un informe comparativo».
-{{< /h5p >}}
-
-## Continúa según tu intención
-
-| Si necesitas… | Continúa con… | Relación |
-|---|---|---|
-| Entender la progresión completa | [Mapa de las tres literacidades](/formacion-docente/mapa-literacidades-ia/) | `amplia` |
-| Formarte en co-creación | [Alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) | `continua` |
-| Profundizar el fundamento | [Co-creación y agenciamiento](/ia-educacion/guias/agenciamiento-humano-ia/) | `fundamenta` |
-| Diseñar evaluación | [Evaluación formativa y basada en procesos](/ia-educacion/guias/evaluacion-formativa-ia/) | `aplica` |
-| Adaptar una práctica | [Portafolio de proceso](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) | `ejemplifica` |
-| Revisar un caso completo | [Ensayo como proceso](/ia-educacion/productos-de-aprendizaje/ensayo/) | `ejemplifica` |
-| Precisar el resultado | [Ganancia cognitiva](/recursos/glosario/ganancia-cognitiva/) | `continua` |
-
-## Límites y cuidado de datos
-
-Estas actividades no solicitan cuenta, no califican, no envían respuestas a Moodle ni a un
-LRS y no conservan conversaciones con sistemas de IA. Su propósito es ofrecer práctica y
-feedback local. Una implementación en curso deberá definir por separado seguimiento,
-privacidad, alternativa sin IA, criterios de finalización y resguardo de evidencias.
+Antes de pegar contenido en una herramienta, retira datos personales, información
+confidencial y trabajos de terceros que no tengas permiso de compartir. Comprueba también
+las reglas de tu asignatura y las condiciones del servicio. Poder usar una herramienta no
+significa que cualquier dato deba entrar en ella.

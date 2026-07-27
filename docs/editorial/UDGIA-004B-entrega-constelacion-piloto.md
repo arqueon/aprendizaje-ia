@@ -1,6 +1,6 @@
-# Entrega de la constelación piloto
+# Entrega revisada de la constelación piloto
 
-**Co-creación + dirección epistémica + evaluación basada en procesos**
+**Introducción a la IA en educación → co-creación → evaluación basada en procesos**
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004B**
 
@@ -9,10 +9,28 @@ integrar
 
 **Fecha:** 2026-07-27
 
-## 1. Resultado
+## 1. Decisión de la revisión
 
-La fase materializa el contrato aprobado en una pieza pública navegable y seis actividades
-H5P. Mantiene la jerarquía acordada:
+La primera versión entraba directamente a co-creación, dirección epistémica y trazabilidad.
+La revisión mostró que esos conceptos requieren una experiencia previa y explicaciones
+distribuidas en varias páginas.
+
+La entrega revisada adopta esta secuencia:
+
+1. una portada introductoria explica qué cambia con la IA, qué puede aportar y qué no
+   garantiza;
+2. la persona elige una entrada como estudiante o como docente;
+3. la co-creación aparece más adelante, después de una práctica inicial;
+4. cada H5P se ubica dentro del nodo que desarrolla su contenido y nunca sustituye la
+   explicación;
+5. coordinación y gobierno se reservan para una sección institucional posterior.
+
+La portada ya no intenta funcionar como índice, marco conceptual y colección de actividades
+al mismo tiempo.
+
+## 2. Jerarquía entre los tres proyectos
+
+Se mantiene la decisión aprobada:
 
 1. las Orientaciones consolidan conceptos y principios;
 2. Hugo publica la red de conceptos, rutas y prácticas;
@@ -20,147 +38,132 @@ H5P. Mantiene la jerarquía acordada:
    completa del curso futuro;
 4. `alfabetizacion_en_ia` permanece como esbozo derivado y no manda sobre el contenido.
 
-No se modificó Moodle ni el checkout de trabajo de Orientaciones.
+No se modificó Moodle, Orientaciones ni el Semillero.
 
-## 2. Superficie pública
+## 3. Nueva puerta de entrada
 
-La nueva portada vive en:
+La fuente permanece en:
 
 `content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md`
 
-Incluye:
+La URL pública de la revisión es:
 
-- entradas explícitas para estudiante, docente y coordinación;
-- mapa visual y alternativa textual;
-- recorridos con salidas observables;
-- seis H5P de carga manual;
-- alternativa accesible abierta para cada interacción;
-- enlaces tipados hacia los nodos que fundamentan, aplican o ejemplifican la ruta;
-- límites de seguimiento y cuidado de datos.
+`/ia-educacion/constelaciones/empezar-con-ia/`
 
-La portada se enlaza desde `IA en educación`. Su imagen destacada original sigue la
-identidad C.
+La URL anterior se conserva como alias. La nueva página:
 
-## 3. Metadatos piloto y correcciones editoriales
+- utiliza lenguaje introductorio y evita exigir vocabulario especializado;
+- presenta beneficios y límites sin convertir la IA en una solución automática;
+- propone una práctica básica de cinco pasos;
+- abre solo dos rutas: estudiante y docente;
+- mantiene un diagrama con explicación textual equivalente;
+- no contiene H5P;
+- introduce la co-creación como nivel posterior;
+- incorpora una nueva imagen destacada de la serie editorial Almagre.
 
-Ocho bundles recibieron la ficha `ecosistema` con identificador, audiencias, intenciones,
-tipo, capas, resultado, estado de evidencia, fuentes, revisión, relaciones, reutilización,
-accesibilidad y responsable:
+## 4. Distribución progresiva de los H5P
 
-| Nodo | ID principal |
-|---|---|
-| Mapa de las tres literacidades | `capacity.alfabetizacion-ia` |
-| Alfabetización en co-creación | `literacy.cocreacion` |
-| Principios para la co-creación | `pattern.direccion-epistemica` |
-| Co-creación/agenciamiento | `concept.cocreacion-persona-ia` |
-| Evaluación formativa | `assessment.basada-en-procesos` |
-| Portafolio iterativo | `practice.portafolio-proceso` |
-| Ensayo como proceso | `practice.declaracion-uso-ia` |
-| Ganancia cognitiva | `outcome.ganancia-cognitiva` |
+| Actividad | Página anfitriona | Conocimiento previo |
+|---|---|---|
+| Del borrador a una revisión justificada | Ensayo con IA | Siete etapas del ensayo |
+| Cinco decisiones de dirección epistémica | Principios de co-creación | Cinco principios explicados |
+| Conceptos para co-crear con dirección | Agenciamiento persona-IA | Co-creación, dirección, trazabilidad y ganancia |
+| Evidencias para valorar aprendizaje | Evaluación formativa con IA | Tabla de evidencias del proceso |
+| Recorrido: co-crear y evaluar con IA | Alfabetización en co-creación | Progresión detectar–sostener–diseñar |
+| Constructor de objetivos Bloom | Bloom y diseño inverso | Resultado, evidencia y actividad |
 
-Además:
+Cada actividad mantiene una versión textual abierta y equivalente. Los H5P se cargan solo
+cuando la persona los abre.
 
-- Bloom se presenta como heurística de diseño, no equivalencia rígida entre literacidad y
-  nivel;
-- la evaluación formativa se distingue de la evaluación basada en procesos;
-- el portafolio se declara `prototipo-escenario`, no práctica implementada;
-- se corrigieron enlaces heredados de ganancia/descarga cognitiva;
-- las tarjetas modificadas de `IA en educación` usan la paleta C.
+## 5. Revisión visual
 
-## 4. H5P producidos
+Se sustituyeron los esquemas provisionales por una serie editorial de siete imágenes:
 
-`aprendizaje-ia` queda como repositorio canónico de:
+- tres escenas de un mismo ensayo;
+- una escena de revisión de evidencias;
+- una escena para relacionar conceptos;
+- un escritorio con cinco estaciones para los puntos interactivos;
+- una imagen destacada para la portada introductoria.
 
-- fuentes editables de las actividades;
-- plantillas oficiales fijadas por hash;
-- paquetes `.h5p` reproducibles;
-- catálogo, hashes, procedencia y licencias;
-- adaptadores visuales;
-- runtime estático publicado;
-- QA automatizado.
+Las ilustraciones se generaron con `imagegen`, se normalizaron a 16:9, se redujeron a una
+paleta indexada y se documentaron en
+`h5p/activities/assets/editorial/README.md`.
 
-| ID | Tipo | Paquete | Tamaño |
-|---|---|---:|---:|
-| `cocreacion-versiones-slider` | Image Slider | `28d0e26…77ee` | 350 kB |
-| `direccion-epistemica-hotspots` | Image Hotspots | `284702b…57fe` | 1.16 MB |
-| `cocreacion-conceptos-cards` | Dialog Cards | `8da6c8a…8591` | 1.61 MB |
-| `evaluacion-proceso-decision` | Multi Choice | `35aa1c6…05f0` | 1.84 MB |
-| `cocreacion-evaluacion-recorrido` | Course Presentation | `e0f0f06…dee7` | 2.41 MB |
-| `objetivos-bloom-udgplus` | Bloom Objective Builder | `b8e4988…c2ea` | 46 kB |
+Correcciones por actividad:
 
-Los hashes completos viven en `data/h5p/catalog.json`. Los paquetes se construyen con
-`node tools/h5p/package-pilot.mjs`; el comando rechaza symlinks, escapes de ruta, plantillas
-con hash distinto y licencias no verificadas.
+- **Image Slider:** ocupa todo el reproductor, conserva 16:9 y ya no muestra franjas
+  negras o laterales opacos.
+- **Image Hotspots:** los cinco controles se colocan sobre áreas preparadas para ellos; no
+  tapan etiquetas.
+- **Dialog Cards:** incorpora una escena editorial, texto legible y explicaciones de dos
+  párrafos por concepto.
+- **Multi Choice:** la imagen ocupa el ancho útil y las opciones tienen tarjetas, bordes,
+  estados y foco propios de Almagre.
+- **Course Presentation:** las imágenes conservan su proporción natural y la ruta se limita
+  a estudiante y docente.
 
-Las plantillas oficiales se reducen al cierre real de dependencias de cada actividad. Las
-bibliotecas que en el paquete oficial omiten `license` se completan desde
-`h5p/templates/library-licenses.json`, cuya procedencia apunta a los repositorios oficiales.
+Los SVG esquemáticos sin uso fueron retirados.
 
-## 5. Constructor Bloom
+## 6. Paquetes reproducibles
 
-La biblioteca local se convirtió en fuente canónica del repositorio y avanzó a patch
-`1.0.3`:
+| ID | Tipo | SHA-256 | Tamaño |
+|---|---|---|---:|
+| `cocreacion-versiones-slider` | Image Slider | `1af7d16e…c0305` | 1.48 MB |
+| `direccion-epistemica-hotspots` | Image Hotspots | `b04b46a9…a9639` | 1.38 MB |
+| `cocreacion-conceptos-cards` | Dialog Cards | `764d5386…d8d6f` | 2.01 MB |
+| `evaluacion-proceso-decision` | Multi Choice | `559111cb…c318c` | 2.20 MB |
+| `cocreacion-evaluacion-recorrido` | Course Presentation | `d6c76a23…647f4` | 3.90 MB |
+| `objetivos-bloom-udgplus` | Bloom Objective Builder | `b8e49886…c2ea` | 46 kB |
 
-- contenido CC BY-SA 4.0 y biblioteca MIT;
-- interfaz en español con `es` y `es-MX`;
-- textos principales configurables mediante `l10n`;
-- imagen SVG interior con título y descripción;
-- paleta C y contrastes corregidos;
-- funcionamiento de selección, vista previa y lista guardada comprobado en navegador.
+Los hashes completos viven en `data/h5p/catalog.json`. El empaquetador rechaza symlinks,
+escapes de ruta, plantillas con hash distinto y licencias no verificadas.
 
-## 6. Accesibilidad y runtime
+## 7. Accesibilidad y QA
 
-El runtime ahora:
-
-- asigna título al iframe interno que genera `h5p-standalone`;
-- corrige la semántica de las pestañas de Course Presentation, evitando controles
-  interactivos anidados;
-- conserva foco visible y adaptador específico por tipo;
-- traduce los controles de pantalla completa al español;
-- mantiene aislamiento, carga diferida y fallbacks imprimibles.
-
-Cada H5P contiene imagen interior, pero la alternativa no depende de verla ni de operar la
-interacción.
-
-## 7. QA ejecutado
+La prueba `tools/h5p/qa-pilot.mjs` ahora conoce la arquitectura distribuida. Verifica la
+portada y cada página anfitriona por separado.
 
 | Comprobación | Resultado |
 |---|---|
-| Hugo `--minify` | 907 páginas; sin error de construcción |
-| `npm run h5p:verify` | runtime reproducible |
-| `npm run qa:h5p` | regresión técnica y sondas de seguridad aprobadas |
-| `npm run qa:h5p:pilot` | seis actividades cargan y no desbordan |
-| Axe en portada y seis iframes | cero violaciones serias o críticas |
+| Portada móvil a 375 px | sin desbordamiento; dos rutas; cero H5P |
+| Seis páginas anfitrionas | un H5P esperado y fallback suficiente |
+| Axe en portada, páginas y reproductores | cero violaciones serias o críticas |
 | Red durante las actividades | cero solicitudes externas y cero escrituras |
-| Cookies | ninguna |
-| Vista móvil 375 px | sin desbordamiento; seis fallbacks equivalentes |
-| Bloom | objetivo construido y guardado en estado local de la actividad |
-| `git diff --check` | sin errores |
+| Cookies y errores de consola | ninguno |
+| Slider | imagen a ancho completo y proporción de paisaje |
+| Hotspots | cinco controles sin solapamiento |
+| Dialog Cards | cuatro tarjetas, explicación legible y escena 16:9 |
+| Multi Choice | cinco opciones estilizadas e imagen legible |
+| Course Presentation | escena sin distorsión |
+| Bloom | objetivo construido y guardado en estado local |
 
-La evidencia estructurada queda en
-`docs/design/evidence/udgia-004b/qa-pilot.json`.
+Además se añadió un render hook de tablas con foco de teclado para que una tabla desplazable
+en móvil no quede fuera del recorrido accesible.
 
-Hugo conserva advertencias de deprecación ya existentes sobre `languageCode`,
-`.Site.LanguageCode` y `.Site.Data`, además del rango de compatibilidad declarado por el
-módulo Blowfish. Ninguna bloquea esta entrega; no se amplió el alcance para resolverlas.
+La evidencia estructurada y las siete capturas están en:
 
-## 8. Límites de la entrega
+`docs/design/evidence/udgia-004b/`
+
+## 8. Límites
 
 - La rama no se ha integrado ni publicado.
 - Moodle permanece en solo lectura.
+- Las Orientaciones y el Semillero permanecen intactos.
 - Los paquetes no envían xAPI, calificaciones ni estado a un LRS.
-- El prototipo no demuestra resultados de aprendizaje ni implementación.
-- Las siete referencias faltantes del WIP de Orientaciones siguen siendo deuda previa a
-  una publicación de ese documento.
-- `cmid 71` y la diferencia histórica 15/16 H5P siguen fuera de alcance.
+- El prototipo no demuestra resultados de aprendizaje ni una implementación institucional.
+- Coordinación y gobierno necesitan una ruta propia; no se resolvieron ocultándolos dentro
+  de la portada introductoria.
+- Las deudas previas de Orientaciones y del inventario Moodle siguen fuera de alcance.
 
-## 9. Siguiente puerta
+## 9. Próxima puerta
 
-Tras revisión y VoBo:
+La siguiente decisión ya no es técnica. Primero debe revisarse la nueva entrada:
 
-1. integrar esta rama en `main` y publicar Hugo;
-2. ejecutar la sonda de despliegue contra GitHub Pages;
-3. abrir la fase siguiente como transferencia controlada a Moodle, con respaldo,
-   importación, QA, rollback y registro, o como revisión temática de Orientaciones, según
-   la prioridad aprobada;
-4. no promover el Semillero a autoridad curricular durante esa transferencia.
+1. comprobar si la explicación general tiene el nivel y el tono correctos;
+2. validar las dos rutas iniciales;
+3. revisar si el orden de profundización resulta comprensible;
+4. aprobar o pedir otra ronda antes de integrar.
+
+Después del VoBo se podrá elegir entre publicar Hugo o abrir una subfase específica para la
+ruta institucional de coordinación y gobierno. Ninguna transferencia a Moodle se presume
+aprobada.

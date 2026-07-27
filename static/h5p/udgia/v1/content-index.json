@@ -12,7 +12,7 @@
     },
     "cocreacion-versiones-slider": {
       "path": "cocreacion-versiones-slider",
-      "title": "Tres versiones de una co-creación",
+      "title": "Del borrador a una revisión justificada",
       "mainLibrary": "H5P.ImageSlider",
       "adapter": "image-slider.css",
       "fullScreen": false,

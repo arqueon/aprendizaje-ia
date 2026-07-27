@@ -17,15 +17,34 @@ import axe from "axe-core";
 import { chromium } from "playwright-core";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
-const pagePath = "ia-educacion/constelaciones/cocreacion-evaluacion/";
-const expectedIDs = [
-  "cocreacion-versiones-slider",
-  "direccion-epistemica-hotspots",
-  "cocreacion-conceptos-cards",
-  "evaluacion-proceso-decision",
-  "cocreacion-evaluacion-recorrido",
-  "objetivos-bloom-udgplus"
+const introPagePath = "ia-educacion/constelaciones/empezar-con-ia/";
+const activityPages = [
+  {
+    id: "cocreacion-versiones-slider",
+    path: "ia-educacion/productos-de-aprendizaje/ensayo/"
+  },
+  {
+    id: "direccion-epistemica-hotspots",
+    path: "formacion-docente/alfabetizacion-co-creacion/"
+  },
+  {
+    id: "cocreacion-conceptos-cards",
+    path: "ia-educacion/guias/agenciamiento-humano-ia/"
+  },
+  {
+    id: "evaluacion-proceso-decision",
+    path: "ia-educacion/guias/evaluacion-formativa-ia/"
+  },
+  {
+    id: "cocreacion-evaluacion-recorrido",
+    path: "formacion-docente/alfabetizacion-agenciamiento-ia/"
+  },
+  {
+    id: "objetivos-bloom-udgplus",
+    path: "formacion-docente/taxonomia-bloom-diseno-inverso/"
+  }
 ];
+const expectedIDs = activityPages.map(({ id }) => id);
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-004b");
@@ -64,9 +83,13 @@ async function startServer(root) {
         .replace(/^\/+/, "");
       if (normalized.startsWith("..")) throw new Error("Ruta insegura");
       let file = path.join(root, normalized);
-      if ((await stat(file).catch(() => null))?.isDirectory()) file = path.join(file, "index.html");
+      if ((await stat(file).catch(() => null))?.isDirectory()) {
+        file = path.join(file, "index.html");
+      }
       const relative = path.relative(root, file);
-      if (relative.startsWith("..") || path.isAbsolute(relative)) throw new Error("Ruta insegura");
+      if (relative.startsWith("..") || path.isAbsolute(relative)) {
+        throw new Error("Ruta insegura");
+      }
       const fileStat = await stat(file);
       response.setHeader("content-type", mimeType(file));
       response.setHeader("content-length", fileStat.size);
@@ -131,6 +154,37 @@ async function locatorFrame(iframe, label) {
   return frame;
 }
 
+function sectionFor(page, id) {
+  return page.locator(
+    `[data-udg-h5p][data-embed-url*="content=${id}"]`
+  );
+}
+
+async function loadActivity(page, id) {
+  const section = sectionFor(page, id);
+  assert((await section.count()) === 1, `${id}: no se encontró una sección única`);
+  assert((await section.locator(".udg-h5p__iframe").count()) === 0, `${id}: carga anticipada`);
+  await section.locator('[data-h5p-action="load"]').focus();
+  await page.keyboard.press("Enter");
+  await page.waitForFunction(
+    (activityID) => {
+      const activity = [...document.querySelectorAll("[data-udg-h5p]")].find(
+        (element) => element.dataset.embedUrl?.includes(`content=${activityID}`)
+      );
+      return activity?.dataset.state === "ready";
+    },
+    id,
+    { timeout: 30000 }
+  );
+  const iframe = section.locator("iframe");
+  const contentFrame = await locatorFrame(iframe, id);
+  await contentFrame.locator("#h5p-container[aria-busy='false']").waitFor({ timeout: 30000 });
+  await contentFrame.locator(".h5p-iframe").waitFor({ timeout: 30000 });
+  const playerFrame = await locatorFrame(contentFrame.locator(".h5p-iframe"), `${id} player`);
+  await contentFrame.waitForTimeout(700);
+  return { section, iframe, playerFrame };
+}
+
 async function mobileCase(browser, baseURL) {
   const context = await browser.newContext({
     viewport: { width: 375, height: 900 },
@@ -138,23 +192,148 @@ async function mobileCase(browser, baseURL) {
     colorScheme: "dark"
   });
   const page = await context.newPage();
-  await page.goto(new URL(pagePath, baseURL).href, { waitUntil: "load" });
-  const result = await page.evaluate(() => ({
+  const introResponse = await page.goto(new URL(introPagePath, baseURL).href, {
+    waitUntil: "load"
+  });
+  assert(introResponse?.status() === 200, "Móvil: la introducción no respondió HTTP 200");
+  const intro = await page.evaluate(() => ({
     width: document.documentElement.clientWidth,
     scrollWidth: document.documentElement.scrollWidth,
     h5pCount: document.querySelectorAll("[data-udg-h5p]").length,
-    fallbackLengths: [...document.querySelectorAll(".udg-h5p__fallback-body")].map(
-      (element) => element.textContent.trim().length
-    ),
+    studentRoute: Boolean(document.querySelector('a[href="#si-eres-estudiante"]')),
+    teacherRoute: Boolean(document.querySelector('a[href="#si-eres-docente"]')),
     dark: document.documentElement.classList.contains("dark"),
     colorScheme: getComputedStyle(document.documentElement).colorScheme
   }));
-  assert(result.h5pCount === expectedIDs.length, "Móvil: inventario H5P incompleto");
-  assert(result.scrollWidth <= result.width, `Móvil: overflow ${result.scrollWidth}/${result.width}`);
-  assert(result.fallbackLengths.every((length) => length > 180), "Móvil: fallback insuficiente");
-  assert(!result.dark && result.colorScheme.includes("light"), "Móvil: identidad no exclusivamente clara");
-  await axeViolations(page, "Página móvil");
+  assert(intro.h5pCount === 0, "Móvil: la introducción no debe contener H5P");
+  assert(intro.studentRoute && intro.teacherRoute, "Móvil: faltan las dos entradas");
+  assert(intro.scrollWidth <= intro.width, "Móvil: overflow en la introducción");
+  assert(!intro.dark && intro.colorScheme.includes("light"), "Móvil: identidad no clara");
+  await axeViolations(page, "Introducción móvil");
+  await page.screenshot({
+    path: path.join(evidenceDirectory, "introduccion-movil.png"),
+    fullPage: true
+  });
+
+  const activities = [];
+  for (const activity of activityPages) {
+    const response = await page.goto(new URL(activity.path, baseURL).href, {
+      waitUntil: "load"
+    });
+    assert(response?.status() === 200, `${activity.id}: página móvil HTTP`);
+    const result = await page.evaluate((id) => {
+      const section = [...document.querySelectorAll("[data-udg-h5p]")].find(
+        (element) => element.dataset.embedUrl?.includes(`content=${id}`)
+      );
+      return {
+        width: document.documentElement.clientWidth,
+        scrollWidth: document.documentElement.scrollWidth,
+        fallbackLength:
+          section?.querySelector(".udg-h5p__fallback-body")?.textContent.trim().length || 0
+      };
+    }, activity.id);
+    assert(result.scrollWidth <= result.width, `${activity.id}: overflow móvil`);
+    assert(result.fallbackLength > 180, `${activity.id}: fallback insuficiente`);
+    await axeViolations(page, `${activity.id} móvil`);
+    activities.push({ ...activity, ...result });
+  }
   await context.close();
+  return { intro, activities };
+}
+
+async function visualAudit(playerFrame, id) {
+  const result = await playerFrame.evaluate((activityID) => {
+    const root = document.documentElement;
+    const visibleImages = [...document.querySelectorAll("img")].map((image) => {
+      const box = image.getBoundingClientRect();
+      return {
+        width: box.width,
+        height: box.height,
+        ratio: box.height ? box.width / box.height : 0
+      };
+    }).filter(({ width, height }) => width > 20 && height > 20);
+    const audit = {
+      viewportWidth: root.clientWidth,
+      visibleImages,
+      checks: {}
+    };
+    if (activityID === "cocreacion-versiones-slider") {
+      const widest = visibleImages.reduce(
+        (best, current) => (current.width > best.width ? current : best),
+        { width: 0, height: 0, ratio: 0 }
+      );
+      audit.checks = {
+        imageFillsPlayer: widest.width >= root.clientWidth * 0.8,
+        landscapeRatio: widest.ratio >= 1.65 && widest.ratio <= 1.9
+      };
+    }
+    if (activityID === "direccion-epistemica-hotspots") {
+      const hotspots = [...document.querySelectorAll(".h5p-image-hotspot")].map((element) => {
+        const box = element.getBoundingClientRect();
+        return { left: box.left, top: box.top, right: box.right, bottom: box.bottom };
+      });
+      const overlaps = hotspots.some((left, index) =>
+        hotspots.slice(index + 1).some(
+          (right) =>
+            left.left < right.right &&
+            left.right > right.left &&
+            left.top < right.bottom &&
+            left.bottom > right.top
+        )
+      );
+      audit.checks = { hotspotCount: hotspots.length, hotspotsDoNotOverlap: !overlaps };
+    }
+    if (activityID === "cocreacion-conceptos-cards") {
+      const paragraphLengths = [...document.querySelectorAll("p")]
+        .filter((element) => {
+          const box = element.getBoundingClientRect();
+          return box.width > 0 && box.height > 0;
+        })
+        .map((element) => element.textContent.trim().length);
+      const scene = visibleImages.reduce(
+        (best, current) => (current.width > best.width ? current : best),
+        { width: 0, height: 0, ratio: 0 }
+      );
+      audit.checks = {
+        progressShowsFour: /\b(?:de|\/)\s*4\b/.test(document.body.innerText),
+        explanatoryTextPresent: Math.max(0, ...paragraphLengths) > 180,
+        sceneKeepsLandscapeRatio: scene.ratio >= 1.65 && scene.ratio <= 1.9
+      };
+    }
+    if (activityID === "evaluacion-proceso-decision") {
+      const alternatives = [...document.querySelectorAll(".h5p-alternative-container")];
+      const image = visibleImages.reduce(
+        (best, current) => (current.width > best.width ? current : best),
+        { width: 0, height: 0, ratio: 0 }
+      );
+      audit.checks = {
+        answerCount: alternatives.length,
+        answersStyled: alternatives.every((element) => {
+          const style = getComputedStyle(element);
+          return style.backgroundColor !== "rgb(221, 221, 221)" &&
+            Number.parseFloat(style.borderRadius) >= 8;
+        }),
+        imageReadable: image.width >= root.clientWidth * 0.72
+      };
+    }
+    if (activityID === "cocreacion-evaluacion-recorrido") {
+      const landscape = visibleImages.find(
+        ({ ratio, width }) => ratio >= 1.65 && ratio <= 1.9 && width > root.clientWidth * 0.35
+      );
+      audit.checks = { sceneKeepsLandscapeRatio: Boolean(landscape) };
+    }
+    return audit;
+  }, id);
+  for (const [check, value] of Object.entries(result.checks)) {
+    if (typeof value === "number") {
+      assert(value > 0, `${id}: ${check} no produjo un conteo válido`);
+    } else {
+      assert(
+        value,
+        `${id}: falló la revisión visual ${check} ${JSON.stringify(result)}`
+      );
+    }
+  }
   return result;
 }
 
@@ -183,35 +362,25 @@ async function desktopCase(browser, baseURL) {
   page.on("console", (message) => {
     if (message.type() === "error") consoleErrors.push(message.text());
   });
-  const response = await page.goto(new URL(pagePath, baseURL).href, { waitUntil: "load" });
-  assert(response?.status() === 200, "La portada no respondió HTTP 200");
-  assert((await page.locator("[data-udg-h5p]").count()) === expectedIDs.length, "Faltan H5P");
-  assert((await page.locator(".udg-h5p__iframe").count()) === 0, "Hubo carga anticipada");
-  await axeViolations(page, "Página de constelación");
+  const introResponse = await page.goto(new URL(introPagePath, baseURL).href, {
+    waitUntil: "load"
+  });
+  assert(introResponse?.status() === 200, "La introducción no respondió HTTP 200");
+  assert((await page.locator("[data-udg-h5p]").count()) === 0, "La introducción contiene H5P");
+  await axeViolations(page, "Introducción");
 
   const activities = [];
-  for (let index = 0; index < expectedIDs.length; index += 1) {
-    const expectedID = expectedIDs[index];
-    const section = page.locator("[data-udg-h5p]").nth(index);
-    const embedURL = await section.getAttribute("data-embed-url");
-    assert(embedURL?.includes(`content=${expectedID}`), `Orden o ID inesperado: ${expectedID}`);
-    await section.locator('[data-h5p-action="load"]').focus();
-    await page.keyboard.press("Enter");
-    await page.waitForFunction(
-      (ordinal) =>
-        document.querySelectorAll("[data-udg-h5p]")[ordinal]?.dataset.state === "ready",
-      index,
-      { timeout: 30000 }
-    );
-    const iframe = section.locator("iframe");
-    const contentFrame = await locatorFrame(iframe, expectedID);
-    await contentFrame.locator("#h5p-container[aria-busy='false']").waitFor({ timeout: 30000 });
-    await contentFrame.locator(".h5p-iframe").waitFor({ timeout: 30000 });
-    const playerFrame = await locatorFrame(
-      contentFrame.locator(".h5p-iframe"),
-      `${expectedID} player`
-    );
-    await contentFrame.waitForTimeout(500);
+  for (const activity of activityPages) {
+    const response = await page.goto(new URL(activity.path, baseURL).href, {
+      waitUntil: "load"
+    });
+    assert(response?.status() === 200, `${activity.id}: página HTTP`);
+    await axeViolations(page, `${activity.id}: página`);
+    const { section, iframe, playerFrame } = await loadActivity(page, activity.id);
+    if (activity.id === "cocreacion-conceptos-cards") {
+      await playerFrame.locator(".h5p-dialogcards-turn:visible").first().click();
+      await playerFrame.waitForTimeout(350);
+    }
     const height = Number.parseFloat(await iframe.evaluate((element) => element.style.height));
     const inner = await playerFrame.evaluate(() => {
       const imageCount = [...document.querySelectorAll("*")].filter((element) => {
@@ -232,24 +401,25 @@ async function desktopCase(browser, baseURL) {
           .filter(Boolean)
       };
     });
-    assert(height > 180 && height <= 6000, `${expectedID}: altura inválida ${height}`);
-    assert(inner.scrollWidth <= inner.width + 2, `${expectedID}: overflow horizontal`);
-    assert(inner.errorText.length === 0, `${expectedID}: ${inner.errorText.join(" | ")}`);
-    assert(inner.imageCount > 0, `${expectedID}: no contiene imagen interior ${JSON.stringify(inner)}`);
+    assert(height > 180 && height <= 6000, `${activity.id}: altura inválida ${height}`);
+    assert(inner.scrollWidth <= inner.width + 2, `${activity.id}: overflow horizontal`);
+    assert(inner.errorText.length === 0, `${activity.id}: ${inner.errorText.join(" | ")}`);
+    assert(inner.imageCount > 0, `${activity.id}: falta una imagen interior`);
     assert(
       !(await section.locator(".udg-h5p__fallback").evaluate((element) => element.open)),
-      `${expectedID}: fallback no se cerró`
+      `${activity.id}: el fallback no se cerró`
     );
-    const violations = await axeViolations(playerFrame, expectedID);
-    activities.push({ id: expectedID, height, inner, violations });
+    const visual = await visualAudit(playerFrame, activity.id);
+    const violations = await axeViolations(playerFrame, activity.id);
+    await section.screenshot({
+      path: path.join(evidenceDirectory, `${activity.id}.png`)
+    });
+    activities.push({ ...activity, height, inner, visual, violations });
   }
 
-  const bloom = page.locator("[data-udg-h5p]").nth(expectedIDs.indexOf("objetivos-bloom-udgplus"));
-  const bloomEmbedFrame = await locatorFrame(bloom.locator("iframe"), "Bloom embed");
-  const bloomFrame = await locatorFrame(
-    bloomEmbedFrame.locator(".h5p-iframe"),
-    "Bloom player"
-  );
+  const bloomActivity = activityPages.find(({ id }) => id === "objetivos-bloom-udgplus");
+  await page.goto(new URL(bloomActivity.path, baseURL).href, { waitUntil: "load" });
+  const { playerFrame: bloomFrame } = await loadActivity(page, bloomActivity.id);
   await bloomFrame.locator(".bob-level").nth(3).click();
   await bloomFrame.locator(".bob-verb").first().click();
   await bloomFrame.locator('[data-field="content"]').fill("dos fuentes con criterios explícitos");
@@ -259,13 +429,8 @@ async function desktopCase(browser, baseURL) {
   assert(preview.includes("dos fuentes"), "Bloom: la vista previa no respondió");
   assert(await bloomFrame.locator(".bob-save").isEnabled(), "Bloom: no habilitó el guardado");
   await bloomFrame.locator(".bob-save").click();
-  assert((await bloomFrame.locator(".bob-saved-item").count()) === 1, "Bloom: no guardó el objetivo");
+  assert((await bloomFrame.locator(".bob-saved-item").count()) === 1, "Bloom: no guardó");
 
-  const pageGeometry = await page.evaluate(() => ({
-    width: document.documentElement.clientWidth,
-    scrollWidth: document.documentElement.scrollWidth
-  }));
-  assert(pageGeometry.scrollWidth <= pageGeometry.width, "Escritorio: overflow horizontal");
   assert(externalRequests.length === 0, `Solicitudes externas: ${externalRequests.join(", ")}`);
   assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);
   assert(consoleErrors.length === 0, `Errores de consola: ${consoleErrors.join(" | ")}`);
@@ -274,7 +439,6 @@ async function desktopCase(browser, baseURL) {
   return {
     activities,
     preview,
-    pageGeometry,
     externalRequests,
     writeRequests,
     consoleErrors
@@ -284,6 +448,7 @@ async function desktopCase(browser, baseURL) {
 const temporaryRoot = await mkdtemp(path.join(tmpdir(), "udgia004b-qa-"));
 const publicRoot = path.join(temporaryRoot, "public");
 await mkdir(publicRoot);
+await mkdir(evidenceDirectory, { recursive: true });
 const server = await startServer(publicRoot);
 let browser;
 try {
@@ -295,15 +460,15 @@ try {
     args: ["--no-sandbox", "--disable-dev-shm-usage"]
   });
   const report = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generated: new Date().toISOString(),
-    page: pagePath,
+    introPage: introPagePath,
+    activityPages,
     expectedIDs,
     hugo,
     mobile: await mobileCase(browser, server.baseURL),
     desktop: await desktopCase(browser, server.baseURL)
   };
-  await mkdir(evidenceDirectory, { recursive: true });
   await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
   process.stdout.write(`PASS ${path.relative(repoRoot, reportPath)}\n`);
 } finally {

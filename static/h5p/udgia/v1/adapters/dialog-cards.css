@@ -1,18 +1,40 @@
 .h5p-dialogcards {
-  color: var(--udgia-ink, #123b4a);
-  background: var(--udgia-paper, #f6f1e8);
+  color: var(--h-ink);
+  background: var(--h-bg);
 }
 
 .h5p-dialogcards .h5p-dialogcards-card-content {
-  border-color: var(--udgia-teal, #007c83);
+  border: 1px solid var(--h-line);
   border-radius: 1rem;
+  box-shadow: 0 10px 28px rgb(24 34 60 / 12%);
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-text {
+  color: var(--h-ink);
+  font-family: var(--h-font-body);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-text p {
+  margin: 0 0 .75rem;
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-text p:last-child {
+  margin-bottom: 0;
 }
 
 .h5p-dialogcards .h5p-dialogcards-progress {
-  color: var(--udgia-ink, #123b4a);
+  color: var(--h-ink);
+}
+
+.h5p-dialogcards .h5p-joubelui-button {
+  color: #fff;
+  background: var(--h-primary);
+  border-color: var(--h-primary);
 }
 
 .h5p-dialogcards button:focus-visible {
-  outline: 3px solid var(--udgia-ochre, #f7a11a);
-  outline-offset: 2px;
+  outline: 3px solid var(--h-focus);
+  outline-offset: 3px;
 }

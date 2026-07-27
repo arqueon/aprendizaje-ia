@@ -90,6 +90,25 @@ La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo q
 
 {{< /infografia >}}
 
+## Reconoce cinco decisiones en el proceso
+
+Los principios anteriores pueden observarse en acciones concretas. Recorre la imagen cuando
+ya distingas el propósito de cada decisión; los puntos interactivos aportan ejemplos y
+evidencias, no sustituyen la explicación.
+
+{{< h5p id="direccion-epistemica-hotspots" load="manual" title="Cinco decisiones de dirección epistémica" >}}
+### Los cinco puntos en forma de lista
+
+1. **Preguntar:** formula un propósito, una tesis o una duda antes de pedir ayuda.
+2. **Verificar:** contrasta datos, referencias y supuestos con fuentes pertinentes.
+3. **Aceptar o descartar:** decide qué aportes sirven y conserva una razón breve.
+4. **Transformar:** corrige, combina o reescribe desde criterios propios.
+5. **Documentar:** reúne borradores, fuentes y decisiones de alto valor.
+
+Elige una decisión que ya realizas con soltura y otra que necesitas hacer visible en tu
+próximo trabajo.
+{{< /h5p >}}
+
 ## Cómo se relaciona con las otras dos literacidades
 
 La alfabetización para la co-creación es el tercer nivel del marco; supone los anteriores y los integra. No se aprende por exposición ni con talleres puntuales: exige práctica supervisada, retroalimentación y reflexión sostenida. Las otras dos:

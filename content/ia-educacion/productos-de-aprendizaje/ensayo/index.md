@@ -209,6 +209,35 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 {{< /timeline >}}
 
+## Observa cómo cambia un mismo trabajo
+
+Ya conoces las siete etapas. Ahora sigue a una estudiante en tres momentos de un mismo
+ensayo. No busques tres productos terminados: compara qué hace ella, qué documentos tiene
+sobre la mesa y qué nueva decisión aparece en cada escena.
+
+Antes de abrir la actividad, identifica la secuencia:
+
+1. **Primero hay una postura propia.** La estudiante escribe una tesis provisional y marca
+   lo que todavía no sabe.
+2. **Después llega el contraste.** Usa la IA para obtener preguntas u objeciones, pero
+   comprueba las afirmaciones en fuentes externas.
+3. **Al final hay una decisión explicable.** Reescribe el texto, conserva las fuentes
+   verificadas y registra por qué aceptó, modificó o descartó una sugerencia.
+
+{{< h5p id="cocreacion-versiones-slider" load="manual" title="Del borrador a una revisión justificada" description="Tres escenas de un mismo ensayo: observa cómo cambian el trabajo de la estudiante, las fuentes y las decisiones." >}}
+### La secuencia en texto
+
+| Momento | Qué ocurre | Qué permite comprender |
+|---|---|---|
+| Borrador propio | La estudiante formula una tesis inicial, reconoce dudas y reúne fuentes por verificar. | Cuál era su punto de partida antes de recibir asistencia. |
+| Interrogación y verificación | Usa la IA para buscar objeciones o conexiones y contrasta cada aporte con fuentes pertinentes. | Qué aceptó como hipótesis, qué comprobó y qué descartó. |
+| Revisión justificada | Reescribe el ensayo y registra dos o tres decisiones que cambiaron el argumento. | Cómo evolucionó su razonamiento y por qué la versión final es mejor. |
+
+Al avanzar por las imágenes, fíjate en la continuidad: la estudiante y su borrador siguen
+presentes. Lo que cambia es la relación entre su primera idea, las preguntas recibidas, las
+fuentes consultadas y la versión que finalmente decide sostener.
+{{< /h5p >}}
+
 ## Un ejemplo de principio a fin
 
 Así se ve el recorrido en un caso concreto. **Sofía**, estudiante de Relaciones Internacionales, recibe la consigna: *«Evalúe la coherencia de la política exterior de México ante una crisis reciente»*.

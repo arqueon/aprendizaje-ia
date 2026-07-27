@@ -277,3 +277,21 @@ esbozo derivado. La subfase activa es **UDGIA-004B · portada de la constelació
 piloto y primer conjunto pedagógico H5P**. El repositorio canónico de fuentes y paquetes
 H5P quedó fijado en `aprendizaje-ia`; la entrega se describe en
 `UDGIA-004B-entrega-constelacion-piloto.md` y requiere revisión antes de integrar.
+
+## 12. Adenda de revisión UDGIA-004B
+
+La revisión editorial del 2026-07-27 no modifica el contrato de tres audiencias, pero sí su
+presentación pública:
+
+- la primera entrada atiende solo a estudiante y docente;
+- coordinación y gobierno se conservan en el contrato y tendrán una ruta institucional
+  separada;
+- la portada deja de comenzar con co-creación y abre con una introducción general al uso de
+  IA en educación;
+- los seis H5P ya no forman una colección en la portada: se distribuyen en los nodos que
+  desarrollan cada concepto;
+- las actividades aparecen después de la explicación anfitriona y funcionan como práctica
+  o repaso.
+
+La entrega revisada y su QA están registradas en
+`UDGIA-004B-entrega-constelacion-piloto.md`.

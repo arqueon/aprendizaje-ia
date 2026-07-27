@@ -12,7 +12,9 @@ areas: ["ia"]
 ---
 
 {{< lead >}}
-La inteligencia artificial está transformando la educación de manera acelerada. Esta sección reúne lo esencial para que docentes y coordinadores puedan responder con criterio pedagógico.
+La inteligencia artificial está cambiando cómo estudiamos, enseñamos y evaluamos. Esta
+sección comienza con una introducción para estudiantes y docentes y, desde ahí, permite
+avanzar hacia guías, prácticas y marcos más especializados.
 {{< /lead >}}
 
 {{< typeit tag=h2 lifeLike=true >}}
@@ -20,7 +22,7 @@ La inteligencia artificial está transformando la educación de manera acelerada
 {{< /typeit >}}
 
 {{< cards >}}
-  {{< card link="constelaciones/cocreacion-evaluacion/" title="Co-crear y evaluar el proceso" icon="route" color="#007c83" description="Tres rutas y seis actividades para conservar la dirección epistémica y valorar evidencias del aprendizaje." >}}
+  {{< card link="constelaciones/empezar-con-ia/" title="Empezar con IA" icon="route" color="#b12028" description="Una introducción con dos rutas: aprender como estudiante o integrar IA como docente." >}}
   {{< card link="guias/" title="Guías prácticas" icon="map" color="#123b4a" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
   {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#9a4e3f" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
   {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#687653" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}

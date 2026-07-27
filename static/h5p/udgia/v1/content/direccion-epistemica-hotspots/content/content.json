@@ -2,55 +2,55 @@
   "color": "#f7a11a",
   "hotspots": [
     {
-      "position": {"x": 13, "y": 52, "legacyPositioning": false},
+      "position": {"x": 14, "y": 45, "legacyPositioning": false},
       "alwaysFullscreen": false,
       "header": "Preguntar",
       "content": [{
-        "params": {"text": "<p>Formula una pregunta o tesis propia antes de pedir ayuda. Evidencia mínima: propósito, alcance y dudas iniciales.</p>"},
+        "params": {"text": "<p><strong>Empieza antes de consultar.</strong> Formula una pregunta o tesis provisional con tus propias palabras. No tiene que ser perfecta: sirve para reconocer tu punto de partida.</p><p><strong>Evidencia útil:</strong> propósito, alcance y una duda inicial.</p>"},
         "library": "H5P.Text 1.1",
         "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Preguntar"},
         "subContentId": "6694fc38-7f30-40ec-82aa-7b5f8fb7e201"
       }]
     },
     {
-      "position": {"x": 31, "y": 37, "legacyPositioning": false},
+      "position": {"x": 29, "y": 46, "legacyPositioning": false},
       "alwaysFullscreen": false,
       "header": "Verificar",
       "content": [{
-        "params": {"text": "<p>Contrasta datos, referencias y supuestos con fuentes pertinentes. La fluidez de una respuesta no prueba su validez.</p>"},
+        "params": {"text": "<p><strong>Comprueba fuera del sistema.</strong> Contrasta datos, referencias y supuestos con fuentes pertinentes. La fluidez de una respuesta no prueba su validez.</p><p><strong>Evidencia útil:</strong> una lista breve de fuentes propuestas, verificadas y descartadas.</p>"},
         "library": "H5P.Text 1.1",
         "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Verificar"},
         "subContentId": "4eaa4dd8-2639-439b-9c91-a4c030fe3202"
       }]
     },
     {
-      "position": {"x": 50, "y": 55, "legacyPositioning": false},
+      "position": {"x": 49, "y": 44, "legacyPositioning": false},
       "alwaysFullscreen": false,
       "header": "Aceptar o descartar",
       "content": [{
-        "params": {"text": "<p>Decide qué aportes sirven al propósito y cuáles deben rechazarse. Conserva una razón breve para cada decisión relevante.</p>"},
+        "params": {"text": "<p><strong>Juzga cada aporte.</strong> Decide qué sugerencias responden a tu propósito y cuáles introducen errores, desvíos o afirmaciones que no puedes sostener.</p><p><strong>Evidencia útil:</strong> aceptar, adaptar o rechazar, acompañado de una razón breve.</p>"},
         "library": "H5P.Text 1.1",
         "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Aceptar o descartar"},
         "subContentId": "9e0307b1-acce-459b-9090-171575d03303"
       }]
     },
     {
-      "position": {"x": 69, "y": 37, "legacyPositioning": false},
+      "position": {"x": 68, "y": 46, "legacyPositioning": false},
       "alwaysFullscreen": false,
       "header": "Transformar",
       "content": [{
-        "params": {"text": "<p>Integra, corrige o reescribe el aporte desde tus criterios. Co-crear no es copiar: implica reconfigurar el resultado.</p>"},
+        "params": {"text": "<p><strong>Haz tuyo el cambio.</strong> Integra, corrige o reescribe desde tus criterios y tu voz. Co-crear no consiste en pegar una respuesta, sino en transformar el trabajo a partir del contraste.</p><p><strong>Evidencia útil:</strong> una comparación entre el borrador y la versión revisada.</p>"},
         "library": "H5P.Text 1.1",
         "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Transformar"},
         "subContentId": "92d09a9d-9f56-4ed5-82af-5129803da004"
       }]
     },
     {
-      "position": {"x": 88, "y": 50, "legacyPositioning": false},
+      "position": {"x": 88, "y": 54, "legacyPositioning": false},
       "alwaysFullscreen": false,
       "header": "Documentar",
       "content": [{
-        "params": {"text": "<p>Deja trazas proporcionales: borradores, fuentes verificadas y decisiones de revisión. No hace falta entregar la conversación completa.</p>"},
+        "params": {"text": "<p><strong>Deja una huella legible.</strong> Conserva borradores, fuentes verificadas y algunas decisiones de revisión. Esas piezas permiten explicar el proceso sin entregar toda la conversación.</p><p><strong>Evidencia útil:</strong> un portafolio breve acompañado de una declaración de uso.</p>"},
         "library": "H5P.Text 1.1",
         "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Documentar"},
         "subContentId": "938e208b-44e4-439d-8d2b-d3f6c38fa505"

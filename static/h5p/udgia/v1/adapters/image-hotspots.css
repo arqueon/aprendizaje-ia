@@ -1,15 +1,28 @@
 .h5p-image-hotspots {
-  color: var(--udgia-ink, #123b4a);
-  background: var(--udgia-paper, #f6f1e8);
+  color: var(--h-ink);
+  background: var(--h-bg);
 }
 
 .h5p-image-hotspots .h5p-image-hotspot {
-  color: var(--udgia-ink, #123b4a);
-  background: var(--udgia-ochre, #f7a11a);
-  box-shadow: 0 0 0 4px rgba(255, 255, 255, .9);
+  color: #fff;
+  background: var(--h-primary);
+  border: 3px solid #fff;
+  box-shadow:
+    0 0 0 2px var(--h-primary-strong),
+    0 5px 14px rgb(24 34 60 / 25%);
+}
+
+.h5p-image-hotspots .h5p-image-hotspot:hover {
+  background: var(--h-primary-strong);
+  transform: scale(1.08);
 }
 
 .h5p-image-hotspots .h5p-image-hotspot:focus-visible {
-  outline: 4px solid var(--udgia-teal, #007c83);
-  outline-offset: 3px;
+  outline: 4px solid var(--h-focus);
+  outline-offset: 4px;
+}
+
+.h5p-image-hotspots .h5p-image-hotspot-popup {
+  color: var(--h-ink);
+  background: var(--h-surface);
 }

@@ -101,6 +101,27 @@ Diseñar las actividades de aprendizaje activo que llevarán a los estudiantes a
 
 ![Diseño inverso de objetivos de aprendizaje](img/diseno-inverso.svg "Las tres etapas del diseño inverso (backward design) — Universidad de Guadalajara, 2022")
 
+## Construye un objetivo antes de elegir la IA
+
+El constructor aplica las tres etapas anteriores a un solo objetivo. Primero formula el
+desempeño y su evidencia; después decide en qué momento la IA amenaza, no afecta o puede
+ampliar ese aprendizaje.
+
+{{< h5p id="objetivos-bloom-udgplus" load="manual" title="Constructor de objetivos de aprendizaje UDGPlus" >}}
+### Plantilla equivalente
+
+| Componente | Pregunta | Inicio de la formulación |
+|---|---|---|
+| Audiencia | ¿Quién aprende? | Al finalizar, el estudiante… |
+| Desempeño | ¿Qué hará y sobre qué contenido? | contrastará, diseñará, argumentará… |
+| Condición | ¿Con qué recursos o en qué contexto? | a partir de un caso, con dos fuentes… |
+| Criterio | ¿Con qué calidad o estándar? | justificando diferencias, sin errores críticos… |
+| Evidencia | ¿Qué actuación o producto permitirá observarlo? | informe, defensa, prototipo, demostración… |
+
+Con el objetivo completo, responde: ¿qué esfuerzo necesita atravesar la persona antes de
+recibir asistencia y qué evidencia permitiría comprobarlo?
+{{< /h5p >}}
+
 ## Aplicación al syllabus
 
 El [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) construido mediante objetivos de aprendizaje diseñados de manera inversa tiene como fin crear experiencias de aprendizaje que permitan a los estudiantes lograr aprendizajes de manera autónoma, creativa y en contacto con problemas del mundo real (Universidad de Guadalajara, 2022).

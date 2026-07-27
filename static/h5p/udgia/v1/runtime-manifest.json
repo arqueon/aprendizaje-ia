@@ -19,7 +19,7 @@
     },
     "cocreacion-versiones-slider": {
       "path": "cocreacion-versiones-slider",
-      "title": "Tres versiones de una co-creación",
+      "title": "Del borrador a una revisión justificada",
       "mainLibrary": "H5P.ImageSlider",
       "adapter": "image-slider.css",
       "fullScreen": false,
@@ -66,7 +66,7 @@
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 5471192,
+  "totalBytes": 9071388,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -75,38 +75,38 @@
     },
     {
       "path": "adapters/course-presentation.css",
-      "bytes": 381,
-      "sha256": "e368d8ce4ea2e381500701465bbc1b0559d5a78ba90ae4acdbd2a3f6ced329ed"
+      "bytes": 691,
+      "sha256": "ca4e3114cf14c064b7ef041be17c4755101fee7b6b2f2595d65a1fe1e60cca05"
     },
     {
       "path": "adapters/dialog-cards.css",
-      "bytes": 419,
-      "sha256": "1f2fc1513cb266d6b0af0446040f2be1b86f7e4450b2783d126b77a79055bbdc"
+      "bytes": 827,
+      "sha256": "e9515c8f789d8466bb57ec55039cfc5792f493293317b81a7dae1412da1d698b"
     },
     {
       "path": "adapters/image-hotspots.css",
-      "bytes": 405,
-      "sha256": "098a67db4986754b59d87f6e7ca8a8ead60470dbbeb9671f740f5ada27d8ce72"
+      "bytes": 618,
+      "sha256": "ed2503605c5a27619ef7703fcbfe9e24f1855afa834a4efef39b8282f3a079ed"
     },
     {
       "path": "adapters/image-slider.css",
-      "bytes": 349,
-      "sha256": "aefd00e30c42792b4de14499da3eaa3ab84acc1b5687f945576be9537e7ecef6"
+      "bytes": 1280,
+      "sha256": "853df7f60071a2e26ba0cf75ef8e597d0591e38aa41cf0f0f942ca42377c4b14"
     },
     {
       "path": "adapters/multi-choice.css",
-      "bytes": 443,
-      "sha256": "be1cbabea1fa8bd01283254ee93167b58da581c18fe7015f51878df15144bb3c"
+      "bytes": 2955,
+      "sha256": "1da3e17de3aca98ec1358e7c15fc66aba783d39dd8b725a298502fc5381e8e83"
     },
     {
       "path": "content/cocreacion-conceptos-cards/content/content.json",
-      "bytes": 4720,
-      "sha256": "280b1b66d650b1887ad0dd43c55a919c34803199fa039788fa35f00e6422622f"
+      "bytes": 5764,
+      "sha256": "40db1e40be5f0834bcfd56d4e3f5e50fb8a5c881dc5f1c0df9ad8f2f8ffb7e4c"
     },
     {
       "path": "content/cocreacion-conceptos-cards/content/images/conceptos-cocreacion.png",
-      "bytes": 61553,
-      "sha256": "9986ff79bd2f4e5dea865a1c29d4811f57500ef90ca5ecd74509fd618ab579b4"
+      "bytes": 450754,
+      "sha256": "69d6cf33107db9b279b15778ce03f43f47a976df02f9fea3956db132f1d227f1"
     },
     {
       "path": "content/cocreacion-conceptos-cards/h5p.json",
@@ -120,28 +120,28 @@
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/content.json",
-      "bytes": 11281,
-      "sha256": "283cfe17e77178a262b49821561cd7c02390a1cc3b42fec4a9d1d626978dc6f6"
+      "bytes": 11223,
+      "sha256": "eb9badbbc54dbe63f8421cf3cbc703bb22c968f18ab5b0b02cbee54601d21341"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/images/borrador-propio.png",
-      "bytes": 34761,
-      "sha256": "cde7a6a21f5a07b3dd1aa15d094f568beccf80ee1ad793eded619c3dc7662198"
+      "bytes": 432611,
+      "sha256": "18ae48d2c973b67e27d7b5de1a6da779cc56847ff94fa14f6e88ce03b770e83b"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/images/evidencias-proceso.png",
-      "bytes": 40553,
-      "sha256": "190076cfaef3c8c3070f1d73366f05f967fa9175003ea8cc94e92f98b196932e"
+      "bytes": 402343,
+      "sha256": "10f3879b711000aefa43e03f3fa61099e9ec55fbcedc085bf5fac99804cbffbc"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/images/interrogacion-ia.png",
-      "bytes": 63268,
-      "sha256": "55a56deb31ea9263ed703cd3eb3a0595f2352fbad1d6be32a1da822f368c95a2"
+      "bytes": 404550,
+      "sha256": "584b9a42345ed3ba53dd76bc7f052cd9a8314b525b543a07303323009ac90d9c"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/images/revision-justificada.png",
-      "bytes": 47716,
-      "sha256": "12b408534f1cf97b7ca3b88526b5a4c223bf7b65161683de027d4f208769f755"
+      "bytes": 437127,
+      "sha256": "d2e3fea2f63a701391cc5429728e8cb5276597dafe8c112b65f77dd00cd248ee"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/h5p.json",
@@ -155,43 +155,43 @@
     },
     {
       "path": "content/cocreacion-versiones-slider/content/content.json",
-      "bytes": 4136,
-      "sha256": "66d869ff124a2be4371242d7e4c47ce573efb09647c316d297118eed97d067d7"
+      "bytes": 4110,
+      "sha256": "64697d9737c6bfd4dac4fc2be24c954337d0d5ee36b1afd21cc798995bdf3a3b"
     },
     {
       "path": "content/cocreacion-versiones-slider/content/images/borrador-propio.png",
-      "bytes": 34761,
-      "sha256": "cde7a6a21f5a07b3dd1aa15d094f568beccf80ee1ad793eded619c3dc7662198"
+      "bytes": 432611,
+      "sha256": "18ae48d2c973b67e27d7b5de1a6da779cc56847ff94fa14f6e88ce03b770e83b"
     },
     {
       "path": "content/cocreacion-versiones-slider/content/images/interrogacion-ia.png",
-      "bytes": 63268,
-      "sha256": "55a56deb31ea9263ed703cd3eb3a0595f2352fbad1d6be32a1da822f368c95a2"
+      "bytes": 404550,
+      "sha256": "584b9a42345ed3ba53dd76bc7f052cd9a8314b525b543a07303323009ac90d9c"
     },
     {
       "path": "content/cocreacion-versiones-slider/content/images/revision-justificada.png",
-      "bytes": 47716,
-      "sha256": "12b408534f1cf97b7ca3b88526b5a4c223bf7b65161683de027d4f208769f755"
+      "bytes": 437127,
+      "sha256": "d2e3fea2f63a701391cc5429728e8cb5276597dafe8c112b65f77dd00cd248ee"
     },
     {
       "path": "content/cocreacion-versiones-slider/h5p.json",
-      "bytes": 564,
-      "sha256": "9109be9f74ced43b04c72a2b99b435d5e4bc22a960245840ad13d9a432c1f567"
+      "bytes": 570,
+      "sha256": "31ee9ab87ed1d1e89d68037da18b2fb5e074c31b8177eeefa252fce208d309f4"
     },
     {
       "path": "content/cocreacion-versiones-slider/LICENSE-content.txt",
-      "bytes": 181,
-      "sha256": "6a455394bbdb7c90ec778284ba425be810c0d46af52457b72ca3fa4d0c3b8a4d"
+      "bytes": 187,
+      "sha256": "010af75aeb5424d9b10f59658694ca36c59a2dff6a2ef8034826be34b41b4917"
     },
     {
       "path": "content/direccion-epistemica-hotspots/content/content.json",
-      "bytes": 3252,
-      "sha256": "400f6a2a847d9fd6d9d27fef43fe9ac5797d89c6d9b01596bb5aa2f20d409e6d"
+      "bytes": 4024,
+      "sha256": "5f0c2b3a1d6c0fe25b3e407627d7d31f0879c440a47d7a7be2926219fd69b53c"
     },
     {
       "path": "content/direccion-epistemica-hotspots/content/images/mapa-direccion-epistemica.png",
-      "bytes": 73203,
-      "sha256": "7b46a4bd28958e8af50a9bc7e0bc5f612ebce9e43876a1c87872291226cde046"
+      "bytes": 297409,
+      "sha256": "7b8dc3054cdfed9b8ae23abc0daafb0bfc21026bf6dbe3e7cdc75ca62fff3aad"
     },
     {
       "path": "content/direccion-epistemica-hotspots/h5p.json",
@@ -205,13 +205,13 @@
     },
     {
       "path": "content/evaluacion-proceso-decision/content/content.json",
-      "bytes": 5000,
-      "sha256": "1951752f9a6fb420212c8c5dd80ba4af2ed6973e4ad2da1425094881ec8c0d9f"
+      "bytes": 4999,
+      "sha256": "0b4d1f52d3fbf9bd407f7d1042e53272a0a93e2726c3d0d0e8426e401382b934"
     },
     {
       "path": "content/evaluacion-proceso-decision/content/images/evidencias-proceso.png",
-      "bytes": 40553,
-      "sha256": "190076cfaef3c8c3070f1d73366f05f967fa9175003ea8cc94e92f98b196932e"
+      "bytes": 402343,
+      "sha256": "10f3879b711000aefa43e03f3fa61099e9ec55fbcedc085bf5fac99804cbffbc"
     },
     {
       "path": "content/evaluacion-proceso-decision/h5p.json",
@@ -260,8 +260,8 @@
     },
     {
       "path": "content-index.json",
-      "bytes": 2060,
-      "sha256": "0f377fd03be1610fd3d5aa78889fd6bc52a7a644225540f355edc52813f902ec"
+      "bytes": 2066,
+      "sha256": "930fa5eb6b5f470f9fdce0c6c57740b75412470b7b9bb7abebf74b4c9b2a88b8"
     },
     {
       "path": "embed.css",
