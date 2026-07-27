@@ -4,7 +4,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004A**
 
-**Estado:** aprobado; UDGIA-004B construido y en QA de revisión desde 2026-07-27
+**Estado:** aprobado; UDGIA-004B integrado, publicado y verificado el 2026-07-27
 
 **Fecha de corte:** 2026-07-27
 
@@ -276,7 +276,7 @@ El VoBo se recibió el 2026-07-27 con una aclaración: `alfabetizacion_en_ia` es
 esbozo derivado. La subfase activa es **UDGIA-004B · portada de la constelación, metadatos
 piloto y primer conjunto pedagógico H5P**. El repositorio canónico de fuentes y paquetes
 H5P quedó fijado en `aprendizaje-ia`; la entrega se describe en
-`UDGIA-004B-entrega-constelacion-piloto.md` y requiere revisión antes de integrar.
+`UDGIA-004B-entrega-constelacion-piloto.md`.
 
 ## 12. Adenda de revisión UDGIA-004B
 
@@ -296,5 +296,9 @@ presentación pública:
 La entrega revisada y su QA están registradas en
 `UDGIA-004B-entrega-constelacion-piloto.md`.
 
-Rubén dio VoBo editorial y visual a esta revisión el 2026-07-27. Quedan separadas la
-autorización de integración/publicación y cualquier transferencia posterior a Moodle.
+Rubén dio VoBo editorial y visual a esta revisión y después autorizó su
+integración/publicación el 2026-07-27. `main` avanzó por fast-forward de `f27ccfc` a
+`bf7cc7f`; GitHub Actions `30313739155` y la sonda pública concluyeron con `success`/`PASS`.
+La URL introductoria, su alias y las seis páginas anfitrionas respondieron HTTP `200`.
+Cualquier transferencia posterior a Moodle permanece separada y requiere autorización
+propia.

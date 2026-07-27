@@ -4,8 +4,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004B**
 
-**Estado:** revisión editorial y visual aprobada por Rubén; pendiente de autorización para
-integrar y publicar
+**Estado:** integrado, publicado y verificado
 
 **Fecha:** 2026-07-27
 
@@ -146,7 +145,8 @@ La evidencia estructurada y las siete capturas están en:
 
 ## 8. Límites
 
-- La rama no se ha integrado ni publicado.
+- El piloto publicado cubre una ruta introductoria y seis actividades; no equivale a una
+  reescritura completa del sitio.
 - Moodle permanece en solo lectura.
 - Las Orientaciones y el Semillero permanecen intactos.
 - Los paquetes no envían xAPI, calificaciones ni estado a un LRS.
@@ -155,11 +155,26 @@ La evidencia estructurada y las siete capturas están en:
   de la portada introductoria.
 - Las deudas previas de Orientaciones y del inventario Moodle siguen fuera de alcance.
 
-## 9. Próxima puerta
+## 9. Cierre de publicación
 
-Rubén aprobó la revisión editorial y visual el 2026-07-27. La siguiente puerta es integrar
-la rama y publicar Hugo, con verificación del despliegue. Esa aprobación no autoriza por sí
-sola el merge, el push ni una transferencia a Moodle.
+Rubén aprobó la revisión editorial y visual y después autorizó su integración y publicación
+el 2026-07-27. `main` avanzó por fast-forward desde `f27ccfc` hasta `bf7cc7f` y se publicó en:
 
-Después de publicar podrá abrirse una subfase específica para la ruta institucional de
-coordinación y gobierno.
+`https://arqueon.github.io/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/`
+
+GitHub Actions `30313739155` concluyó con `success` en sus tres trabajos: construcción,
+despliegue y verificación posterior al despliegue. La sonda pública independiente volvió a
+dar `PASS`: comprobó 671 archivos y 9,071,388 bytes por integridad, respuesta parcial
+`206`, dos montajes independientes, teclado, impresión y CSP negativa, sin solicitudes
+externas, escrituras, cookies ni errores de consola. La portada, el alias anterior y las seis
+páginas anfitrionas respondieron HTTP `200`.
+
+GitHub Pages conserva tres advertencias de infraestructura no bloqueantes ya conocidas:
+caché de activos versionados menor a un año, ausencia de `X-Content-Type-Options` y ausencia
+de `Referrer-Policy`. El contrato del futuro servidor institucional ya exige corregirlas.
+
+## 10. Próxima puerta
+
+La siguiente subfase debe diseñar la ruta institucional de coordinación y gobierno como
+sección propia. Cualquier transferencia a Moodle, cambio en Orientaciones o desarrollo del
+Semillero requiere una tarea y autorización separadas.
