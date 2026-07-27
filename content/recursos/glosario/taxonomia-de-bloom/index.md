@@ -12,7 +12,7 @@ summary: "Marco jerárquico de habilidades cognitivas, desde la memorización ha
 La **Taxonomía de Bloom** es un marco de clasificación de los objetivos educativos estructurado jerárquicamente según la complejidad cognitiva requerida. Originalmente propuesta en 1956 y revisada en 2001, categoriza el pensamiento en seis niveles secuenciales.
 
 {{< mermaid >}}
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#3b82f6', 'edgeLabelBackground':'#1e293b', 'tertiaryColor': '#1e293b'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f7e5e2', 'primaryTextColor': '#18223c', 'primaryBorderColor': '#b12028', 'lineColor': '#536326', 'edgeLabelBackground':'#f5f3ee', 'tertiaryColor': '#eceddc', 'tertiaryTextColor': '#18223c'}}}%%
 flowchart TD
     C[Crear] --> E[Evaluar]
     E --> A[Analizar]
@@ -20,12 +20,12 @@ flowchart TD
     Ap --> Co[Comprender]
     Co --> R[Recordar]
     
-    style R fill:#1e293b,stroke:#3b82f6,color:#94a3b8
-    style Co fill:#1e293b,stroke:#3b82f6,color:#94a3b8
-    style Ap fill:#1e293b,stroke:#3b82f6,color:#94a3b8
-    style A fill:#3b82f6,stroke:#2563eb,color:#ffffff,stroke-width:2px
-    style E fill:#2563eb,stroke:#1d4ed8,color:#ffffff,stroke-width:2px
-    style C fill:#1d4ed8,stroke:#1e40af,color:#ffffff,stroke-width:2px
+    style R fill:#ece9e1,stroke:#525d70,color:#18223c
+    style Co fill:#ece9e1,stroke:#525d70,color:#18223c
+    style Ap fill:#eceddc,stroke:#536326,color:#18223c
+    style A fill:#f4e6d8,stroke:#914411,color:#18223c,stroke-width:2px
+    style E fill:#f7e5e2,stroke:#b12028,color:#18223c,stroke-width:2px
+    style C fill:#8b2635,stroke:#6f1e2a,color:#ffffff,stroke-width:2px
 {{< /mermaid >}}
 
 La disrupción de la IA generativa afecta fundamentalmente a este modelo: los sistemas algorítmicos actuales son extremadamente eficientes resolviendo los tres niveles inferiores (Recordar, Comprender, Aplicar). En consecuencia, los diseños didácticos modernos están obligados a desplazar su evaluación hacia el vértice de la pirámide (Analizar, Evaluar, Crear), donde el juicio humano, el pensamiento crítico y la [evaluación auténtica](/glosario/evaluacion-autentica/) siguen siendo irremplazables.

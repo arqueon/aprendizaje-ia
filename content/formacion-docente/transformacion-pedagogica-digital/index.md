@@ -120,13 +120,13 @@ El éxito de esta transformación depende de toda la comunidad universitaria y, 
 ## Explora los temas del modelo
 
 {{< cards >}}
-  {{< card link="/formacion-docente/aprendizaje-hibrido/" title="Aprendizaje Híbrido" img="/formacion-docente/aprendizaje-hibrido/featured.png" icon="laptop-house" color="#3b82f6" description="El continuo entre la presencialidad y la educación en línea." >}}
-  {{< card link="/laboratorio/practicas/aula-invertida/" title="Aula Invertida" img="/laboratorio/practicas/aula-invertida/featured.png" icon="retweet" color="#10b981" description="Invertir la clase para enfocarse en la aplicación práctica." >}}
-  {{< card link="/formacion-docente/aprendizaje-activo/" title="Aprendizaje Activo" img="/formacion-docente/aprendizaje-activo/featured.png" icon="users" color="#f59e0b" description="Involucrar a los estudiantes en la construcción de su aprendizaje." >}}
-  {{< card link="/formacion-docente/evaluacion-retroalimentacion/" title="Evaluación y Retroalimentación" img="/formacion-docente/evaluacion-retroalimentacion/featured.png" icon="comments" color="#ef4444" description="Métricas, instrumentos y técnicas formativas." >}}
-  {{< card link="/formacion-docente/syllabus-portafolio/" title="Syllabus y Portafolio" img="/formacion-docente/syllabus-portafolio/featured.png" icon="clipboard-list" color="#8b5cf6" description="La planificación didáctica y la filosofía docente." >}}
-  {{< card link="/formacion-docente/modelos-samr-icap/" title="Modelos SAMR e ICAP" img="/formacion-docente/modelos-samr-icap/featured.png" icon="layer-group" color="#0ea5e9" description="Marcos para la integración tecnológica y cognitiva." >}}
-  {{< card link="/formacion-docente/taxonomia-bloom-diseno-inverso/" title="Bloom y Diseño Inverso" img="/formacion-docente/taxonomia-bloom-diseno-inverso/featured.png" icon="sitemap" color="#f43f5e" description="Alineación de objetivos, evaluación y actividades." >}}
+  {{< card link="/formacion-docente/aprendizaje-hibrido/" title="Aprendizaje Híbrido" img="/formacion-docente/aprendizaje-hibrido/featured.png" icon="laptop-house" color="#b12028" description="El continuo entre la presencialidad y la educación en línea." >}}
+  {{< card link="/laboratorio/practicas/aula-invertida/" title="Aula Invertida" img="/laboratorio/practicas/aula-invertida/featured.png" icon="retweet" color="#536326" description="Invertir la clase para enfocarse en la aplicación práctica." >}}
+  {{< card link="/formacion-docente/aprendizaje-activo/" title="Aprendizaje Activo" img="/formacion-docente/aprendizaje-activo/featured.png" icon="users" color="#914411" description="Involucrar a los estudiantes en la construcción de su aprendizaje." >}}
+  {{< card link="/formacion-docente/evaluacion-retroalimentacion/" title="Evaluación y Retroalimentación" img="/formacion-docente/evaluacion-retroalimentacion/featured.png" icon="comments" color="#8b2635" description="Métricas, instrumentos y técnicas formativas." >}}
+  {{< card link="/formacion-docente/syllabus-portafolio/" title="Syllabus y Portafolio" img="/formacion-docente/syllabus-portafolio/featured.png" icon="clipboard-list" color="#34405a" description="La planificación didáctica y la filosofía docente." >}}
+  {{< card link="/formacion-docente/modelos-samr-icap/" title="Modelos SAMR e ICAP" img="/formacion-docente/modelos-samr-icap/featured.png" icon="layer-group" color="#7f1820" description="Marcos para la integración tecnológica y cognitiva." >}}
+  {{< card link="/formacion-docente/taxonomia-bloom-diseno-inverso/" title="Bloom y Diseño Inverso" img="/formacion-docente/taxonomia-bloom-diseno-inverso/featured.png" icon="sitemap" color="#6f1e2a" description="Alineación de objetivos, evaluación y actividades." >}}
 {{< /cards >}}
 
 ## Referencias

@@ -1,36 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="100%" height="100%">
   <defs>
     <style>
-      .bg { fill: #f8fafc; transition: fill 0.3s; }
-      .card-bg { fill: #ffffff; stroke: #e2e8f0; stroke-width: 1; rx: 12; transition: fill 0.3s, stroke 0.3s; }
+      .bg { fill: #f5f3ee; }
+      .card-bg { fill: #ffffff; stroke: #c9c5bb; stroke-width: 1; rx: 12; }
       
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1e293b; }
-      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 24px; font-weight: bold; fill: #18223c; }
+      .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       
-      .step-pill-1 { fill: #dbeafe; rx: 12; } .step-txt-1 { fill: #2563eb; font-weight: bold; font-family: sans-serif; font-size: 12px; }
-      .step-pill-2 { fill: #ccfbf1; rx: 12; } .step-txt-2 { fill: #0d9488; font-weight: bold; font-family: sans-serif; font-size: 12px; }
-      .step-pill-3 { fill: #f3e8ff; rx: 12; } .step-txt-3 { fill: #9333ea; font-weight: bold; font-family: sans-serif; font-size: 12px; }
+      .step-pill-1 { fill: #f7e5e2; rx: 12; } .step-txt-1 { fill: #7f1820; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
+      .step-pill-2 { fill: #eceddc; rx: 12; } .step-txt-2 { fill: #3f4b1d; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
+      .step-pill-3 { fill: #f4e6d8; rx: 12; } .step-txt-3 { fill: #78380f; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
       
-      .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1e293b; }
-      .card-desc { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .card-title { font-family: "Piazzolla", Georgia, serif; font-size: 16px; font-weight: bold; fill: #18223c; }
+      .card-desc { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
 
-      @media (prefers-color-scheme: dark) {
-        .bg { fill: #0f172a; }
-        .card-bg { fill: #1e293b; stroke: #334155; }
-        
-        .title { fill: #f1f5f9; }
-        .subtitle { fill: #94a3b8; }
-        
-        .step-pill-1 { fill: #1e3a8a; } .step-txt-1 { fill: #60a5fa; }
-        .step-pill-2 { fill: #134e4a; } .step-txt-2 { fill: #2dd4bf; }
-        .step-pill-3 { fill: #581c87; } .step-txt-3 { fill: #c084fc; }
-        
-        .card-title { fill: #f1f5f9; }
-        .card-desc { fill: #cbd5e1; }
-      }
     </style>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.05" />
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#18223c" flood-opacity="0.08" />
     </filter>
   </defs>
 
@@ -40,11 +26,11 @@
   <text x="450" y="75" class="subtitle" text-anchor="middle">Planificación de atrás hacia adelante para asegurar coherencia formativa</text>
 
   <!-- Flow Arrows (Background) -->
-  <path d="M 290 200 L 340 200" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6" fill="none" />
-  <polygon points="345,200 335,195 335,205" fill="#cbd5e1" />
+  <path d="M 290 200 L 340 200" stroke="#c9c5bb" stroke-width="3" stroke-dasharray="6" fill="none" />
+  <polygon points="345,200 335,195 335,205" fill="#c9c5bb" />
   
-  <path d="M 570 200 L 620 200" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6" fill="none" />
-  <polygon points="625,200 615,195 615,205" fill="#cbd5e1" />
+  <path d="M 570 200 L 620 200" stroke="#c9c5bb" stroke-width="3" stroke-dasharray="6" fill="none" />
+  <polygon points="625,200 615,195 615,205" fill="#c9c5bb" />
 
   <!-- Step 1 -->
   <g transform="translate(40, 110)">

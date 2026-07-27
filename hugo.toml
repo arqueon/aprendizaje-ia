@@ -12,8 +12,10 @@ home = ["HTML", "RSS", "JSON"]
   area = "areas"
 
 [params]
-colorScheme = "ocean"
-defaultTheme = "light"
+colorScheme = "udgplus-c"
+# Valor técnico para controles nativos; el sitio no ofrece apariencias alternativas.
+defaultAppearance = "light"
+autoSwitchAppearance = false
 enableSearch = true
 showMermaid = true
 logo = "images/udg-logo.svg"
@@ -58,6 +60,9 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
 [params.sidebar]
   showSidebar = true
   groupDepth = 2
+
+[params.footer]
+  showAppearanceSwitcher = false
 
 [params.author]
   name = "Aprendizaje Digital e IA"

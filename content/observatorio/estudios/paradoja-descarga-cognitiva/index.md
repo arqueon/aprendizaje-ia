@@ -22,7 +22,7 @@ A diferencia del postulado clásico que vincula el esfuerzo manual directo con e
 ## La curva en U de la descarga cognitiva
 
 {{< mermaid >}}
-%%{init: { "themeVariables": { "xyChart": {"plotColorPalette": "#3b82f6"} } } }%%
+%%{init: { "themeVariables": { "xyChart": {"plotColorPalette": "#b12028"} } } }%%
 xychart-beta
     title "Impacto de la descarga cognitiva en el aprendizaje"
     x-axis "Nivel de delegación a la IA" ["Zona 1: Ninguna", "Zona 2: Dispersa", "Zona 3: Estratégica"]

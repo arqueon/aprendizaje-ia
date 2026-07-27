@@ -1,0 +1,16 @@
+<meta name="color-scheme" content="light">
+<script>
+  /*
+   * C · Almagre interactivo es la única identidad.
+   * Blowfish ya ejecutó su inicialización en <head>; este hook elimina una preferencia
+   * heredada antes de que se pinte <body>. No borra ningún otro estado local.
+   */
+  document.documentElement.classList.remove("dark");
+  document.documentElement.setAttribute("data-default-appearance", "light");
+  document.documentElement.setAttribute("data-auto-appearance", "false");
+  try {
+    localStorage.removeItem("appearance");
+  } catch (_error) {
+    /* El sitio no depende del almacenamiento local. */
+  }
+</script>

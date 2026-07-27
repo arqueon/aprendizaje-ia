@@ -13,9 +13,11 @@
 {{ $imgFit := cond $tall "contain" "cover" }}
 {{ $iconTop := cond $tall "18.625rem" "4.625rem" }}
 
-{{/* Resolve relative links against the current page, absolute/external links as-is */}}
+{{/* Resolve bundle-relative links against the current page and site-root links against baseURL. */}}
 {{ $url := $link }}
-{{ if not (or (hasPrefix $link "http") (hasPrefix $link "/")) }}
+{{ if hasPrefix $link "/" }}
+  {{ $url = strings.TrimPrefix "/" $link | relURL }}
+{{ else if not (hasPrefix $link "http") }}
   {{ $url = printf "%s%s" .Page.RelPermalink $link }}
 {{ end }}
 
@@ -27,8 +29,7 @@
 {{ else }}
   {{/* Default theme-aware colors if no specific color is provided */}}
   <style>
-    .card-icon-default { background-color: #e0f2fe; color: #0284c7; }
-    .dark .card-icon-default { background-color: rgba(2, 132, 199, 0.2); color: #7dd3fc; }
+    .card-icon-default { background-color: #f7e5e2; color: #7f1820; }
   </style>
 {{ end }}
 
@@ -40,15 +41,15 @@
     {{ if $img }}
       {{ $imgSrc := $img }}
       {{/* Resolve relative paths against the current page (so Page Bundle resources work),
-           absolute paths via relURL, external URLs as-is */}}
+           site-root paths against baseURL, and external URLs as-is. */}}
       {{ if hasPrefix $img "http" }}
         {{/* keep as-is */}}
       {{ else if hasPrefix $img "/" }}
-        {{ $imgSrc = $img | relURL }}
+        {{ $imgSrc = strings.TrimPrefix "/" $img | relURL }}
       {{ else }}
         {{ $imgSrc = printf "%s%s" .Page.RelPermalink $img }}
       {{ end }}
-      <div style="width:100%;height:{{ $imgHeight }};overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;{{ if $tall }}background-color:#f8fafc;{{ end }}">
+      <div style="width:100%;height:{{ $imgHeight }};overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;{{ if $tall }}background-color:#f5f3ee;{{ end }}">
         <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
              style="width:100%;height:100%;object-fit:{{ $imgFit }};display:block;margin:0;transition:transform .3s;">
       </div>

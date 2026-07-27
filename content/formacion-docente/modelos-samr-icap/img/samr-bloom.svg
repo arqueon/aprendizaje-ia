@@ -1,43 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 450" width="100%" height="100%">
   <defs>
     <style>
-      .bg { fill: #f8fafc; transition: fill 0.3s; }
-      .header-bg { fill: #f1f5f9; }
+      .bg { fill: #f5f3ee; }
+      .header-bg { fill: #ece9e1; }
       .row-bg-1 { fill: #ffffff; }
-      .row-bg-2 { fill: #f8fafc; }
-      .border { stroke: #e2e8f0; stroke-width: 1; }
+      .row-bg-2 { fill: #f5f3ee; }
+      .border { stroke: #c9c5bb; stroke-width: 1; }
       
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1e293b; }
-      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #64748b; }
-      .th-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #334155; }
-      .td-bold { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #1e293b; }
-      .td-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 22px; font-weight: bold; fill: #18223c; }
+      .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
+      .th-text { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #18223c; }
+      .td-bold { font-family: "Piazzolla", Georgia, serif; font-size: 16px; font-weight: bold; fill: #18223c; }
+      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
       
-      .cat-mejor { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; fill: #059669; font-weight: bold; }
-      .cat-trans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; fill: #2563eb; font-weight: bold; }
+      .cat-mejor { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; fill: #536326; font-weight: bold; }
+      .cat-trans { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; fill: #b12028; font-weight: bold; }
       
-      .pill-bg-mejor { fill: #ecfdf5; rx: 12; } .pill-txt-mejor { fill: #047857; font-size: 12px; font-weight: bold; font-family: sans-serif; }
-      .pill-bg-trans { fill: #eff6ff; rx: 12; } .pill-txt-trans { fill: #1d4ed8; font-size: 12px; font-weight: bold; font-family: sans-serif; }
+      .pill-bg-mejor { fill: #eceddc; rx: 12; } .pill-txt-mejor { fill: #3f4b1d; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
+      .pill-bg-trans { fill: #f7e5e2; rx: 12; } .pill-txt-trans { fill: #7f1820; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
 
-      @media (prefers-color-scheme: dark) {
-        .bg { fill: #0f172a; }
-        .header-bg { fill: #1e293b; }
-        .row-bg-1 { fill: #0f172a; }
-        .row-bg-2 { fill: #1e293b; }
-        .border { stroke: #334155; }
-        
-        .title { fill: #f1f5f9; }
-        .subtitle { fill: #94a3b8; }
-        .th-text { fill: #cbd5e1; }
-        .td-bold { fill: #f1f5f9; }
-        .td-text { fill: #94a3b8; }
-        
-        .cat-mejor { fill: #34d399; }
-        .cat-trans { fill: #60a5fa; }
-        
-        .pill-bg-mejor { fill: #064e3b; } .pill-txt-mejor { fill: #6ee7b7; }
-        .pill-bg-trans { fill: #1e3a8a; } .pill-txt-trans { fill: #93c5fd; }
-      }
     </style>
   </defs>
 

@@ -1,40 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="100%" height="100%">
   <defs>
     <style>
-      .bg { fill: #f8fafc; transition: fill 0.3s; }
-      .header-bg { fill: #f1f5f9; }
+      .bg { fill: #f5f3ee; }
+      .header-bg { fill: #ece9e1; }
       .row-bg-1 { fill: #ffffff; }
-      .row-bg-2 { fill: #f8fafc; }
-      .border { stroke: #e2e8f0; stroke-width: 1; }
+      .row-bg-2 { fill: #f5f3ee; }
+      .border { stroke: #c9c5bb; stroke-width: 1; }
       
-      .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 22px; font-weight: bold; fill: #1e293b; }
-      .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #64748b; }
+      .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 22px; font-weight: bold; fill: #18223c; }
+      .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       
-      .th-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #334155; }
-      .td-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; fill: #475569; }
+      .th-text { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #18223c; }
+      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
       
-      .cat-i { fill: #db2777; font-weight: bold; font-family: sans-serif; font-size: 15px; }
-      .cat-c { fill: #7c3aed; font-weight: bold; font-family: sans-serif; font-size: 15px; }
-      .cat-a { fill: #2563eb; font-weight: bold; font-family: sans-serif; font-size: 15px; }
-      .cat-p { fill: #475569; font-weight: bold; font-family: sans-serif; font-size: 15px; }
+      .cat-i { fill: #b12028; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
+      .cat-c { fill: #536326; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
+      .cat-a { fill: #914411; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
+      .cat-p { fill: #525d70; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
 
-      @media (prefers-color-scheme: dark) {
-        .bg { fill: #0f172a; }
-        .header-bg { fill: #1e293b; }
-        .row-bg-1 { fill: #0f172a; }
-        .row-bg-2 { fill: #1e293b; }
-        .border { stroke: #334155; }
-        
-        .title { fill: #f1f5f9; }
-        .subtitle { fill: #94a3b8; }
-        .th-text { fill: #cbd5e1; }
-        .td-text { fill: #94a3b8; }
-        
-        .cat-i { fill: #f472b6; }
-        .cat-c { fill: #a78bfa; }
-        .cat-a { fill: #60a5fa; }
-        .cat-p { fill: #94a3b8; }
-      }
     </style>
   </defs>
 

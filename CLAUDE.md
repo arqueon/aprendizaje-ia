@@ -38,7 +38,8 @@ content/
 
 ## Configuración clave (hugo.toml)
 
-- `colorScheme = "ocean"`, `defaultTheme = "light"`
+- Identidad única C: `colorScheme = "udgplus-c"`, `defaultAppearance = "light"` como
+  valor técnico, `autoSwitchAppearance = false` y selector de apariencia desactivado
 - Taxonomías: `tags`, `categories`, `areas` (ia, evaluacion, pedagogia, digital, formacion)
 - `mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]`
 - Homepage: `showRecent = true`, `showRecentItems = 6`, `cardView = true`
@@ -50,12 +51,18 @@ content/
 ## Layouts personalizados
 
 - `layouts/partials/home/background.html` — homepage hero con recent articles
-- `layouts/partials/hooks/head-end.html` — inyecta Font Awesome 6.4.0 CDN
+- `layouts/partials/extend-head.html` — fija la identidad C y elimina preferencias de
+  apariencia heredadas antes de pintar la página
+- `layouts/partials/hooks/head-end.html` — parcial legado que Blowfish 2.97 no consume;
+  no usarlo como punto de extensión
 - `layouts/shortcodes/card.html` + `cards.html` — usa **Font Awesome** (`fa-{icon}`), NO iconos nativos Blowfish
 
-## SVGs hero por sección
+## SVGs hero por sección — inventario legado
 
-| Archivo                 | Sección           | Color                             |
+Estas ilustraciones anteceden a la identidad C y deben migrarse mediante revisión visual,
+no con sustituciones cromáticas automáticas.
+
+| Archivo                 | Sección           | Estado cromático heredado         |
 | ----------------------- | ----------------- | --------------------------------- |
 | `hero-bg.svg`           | Homepage          | Azul oceánico                     |
 | `hero-ia.svg`           | IA en Educación   | Índigo/violeta (red neuronal)     |
@@ -96,7 +103,9 @@ del proyecto — este archivo solo guarda reglas estables. Verificar el contenid
 3. **`_vendor/` nunca se commitea** — está en .gitignore; el tema se descarga vía Go modules en CI
 4. **Deploy automático** al pushear a `main` — confirmar antes de cambios estructurales grandes
 5. **Taxonomía `areas`** en todo contenido nuevo: ia, evaluacion, pedagogia, digital, formacion
-6. **SVG hero índigo** para IA, **verde** para Formación, **azul** para el resto
+6. **Identidad C única en gráficos nuevos o modificados** — usar papel, tinta marina,
+   almagre, olivo y ocre; no añadir bifurcaciones `prefers-color-scheme`. Los SVG hero
+   heredados se migrarán de forma explícita y semántica.
 7. **Imagen `featured.*` obligatoria** en todo artículo nuevo:
    - Colocar un archivo `featured.webp` (o `.png`) en la raíz del Page Bundle, junto al `index.md`
    - Blowfish la detecta automáticamente para: cards del homepage, listados de sección, hero del artículo y Open Graph

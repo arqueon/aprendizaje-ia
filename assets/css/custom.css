@@ -1,27 +1,180 @@
-/* 
-  ELIMINA EL COLOR AZUL DEL HEADER:
-  El tema aplica el color primario al contenedor ".single_hero_background" interno del header.
-  Aquí forzamos a que sea cien por ciento incoloro (transparente), reteniendo solo el blur.
-*/
-.single_hero_background, .bg-primary-200\/80, .dark\:bg-primary-800\/30 {
-    background-color: transparent !important;
-    background-image: none !important; /* Por si usa gradientes */
+@font-face {
+  font-family: "Piazzolla";
+  src: url("../fonts/piazzolla-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
 }
 
-/* Adicional: forzar transparencia en el menú principal */
-header.z-10, header.fixed, .backdrop-blur {
-    background-color: transparent !important;
+@font-face {
+  font-family: "Piazzolla";
+  src: url("../fonts/piazzolla-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
 }
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/inter-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo Narrow";
+  src: url("../fonts/archivo-narrow-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo Narrow";
+  src: url("../fonts/archivo-narrow-italic-variable.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: only light;
+  --udg-c-paper: #f5f3ee;
+  --udg-c-surface: #ffffff;
+  --udg-c-surface-alt: #ece9e1;
+  --udg-c-ink: #18223c;
+  --udg-c-muted: #525d70;
+  --udg-c-line: #c9c5bb;
+  --udg-c-primary: #b12028;
+  --udg-c-primary-tint: #f7e5e2;
+  --udg-c-good: #536326;
+  --udg-c-good-tint: #eceddc;
+  --udg-c-warning: #914411;
+  --udg-c-warning-tint: #f4e6d8;
+  --udg-c-risk: #8b2635;
+  --udg-c-risk-tint: #f8e7ea;
+  --udg-c-font-display: "Piazzolla", Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --udg-c-font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --udg-c-font-label: "Archivo Narrow", "Arial Narrow", "Roboto Condensed", sans-serif;
+}
+
+html,
+html.dark {
+  color-scheme: only light;
+  background: var(--udg-c-paper);
+}
+
+body {
+  color: var(--udg-c-ink);
+  background:
+    linear-gradient(90deg, rgb(177 32 40 / 5%) 0 5px, transparent 5px),
+    var(--udg-c-paper);
+  font-family: var(--udg-c-font-body);
+  text-rendering: optimizeLegibility;
+}
+
+:where(h1, h2, h3, .prose h1, .prose h2, .prose h3) {
+  color: var(--udg-c-ink);
+  font-family: var(--udg-c-font-display);
+  letter-spacing: -0.018em;
+}
+
+:where(nav, .text-xs, .text-sm, figcaption) {
+  font-family: var(--udg-c-font-label);
+  letter-spacing: 0.015em;
+}
+
+::selection {
+  color: var(--udg-c-ink);
+  background: var(--udg-c-primary-tint);
+}
+
+:focus-visible {
+  outline: 3px solid var(--udg-c-primary) !important;
+  outline-offset: 3px !important;
+}
+
+header.z-10,
+header.fixed,
+.backdrop-blur {
+  background-color: rgb(245 243 238 / 94%) !important;
+}
+
 header {
-    border-bottom: 1px solid rgba(125, 125, 125, 0.15) !important;
+  border-bottom: 1px solid var(--udg-c-line) !important;
 }
 
-/* 
-  ENSANCHA EL CANVAS TEXTUAL:
-  Anteriormente le dimos "85ch", pero un contenedor padre del tema lo comprime
-  para hacerle lugar al Índice (TOC). Al poner "none", le permitimos al texto 
-  expandirse orgánicamente por todo el espacio libre que le preste el monitor.
-*/
-.prose, .max-w-prose {
-    max-width: none !important;
+.single_hero_background {
+  background-color: rgb(245 243 238 / 82%) !important;
+}
+
+.card-bg {
+  background-color: var(--udg-c-surface);
+  border-color: var(--udg-c-line);
+}
+
+.card-icon-ring {
+  box-shadow:
+    0 0 0 3px var(--udg-c-surface),
+    0 7px 18px rgb(24 34 60 / 16%);
+}
+
+.logo {
+  color: var(--udg-c-primary);
+}
+
+.prose,
+.max-w-prose {
+  max-width: 76ch !important;
+}
+
+.prose :where(a):not(:where([class~="not-prose"] *)) {
+  color: #991c25;
+  text-decoration-color: rgb(177 32 40 / 45%);
+  text-underline-offset: 0.16em;
+}
+
+.prose :where(blockquote):not(:where([class~="not-prose"] *)) {
+  color: var(--udg-c-ink);
+  background: var(--udg-c-primary-tint);
+  border-inline-start-color: var(--udg-c-primary);
+  padding-block: 0.6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (forced-colors: active) {
+  :focus-visible {
+    outline-color: Highlight !important;
+  }
+
+  .card-bg,
+  header {
+    border-color: CanvasText !important;
+  }
+}
+
+@media print {
+  body {
+    color: #000;
+    background: #fff;
+  }
 }
