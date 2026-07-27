@@ -72,14 +72,14 @@ checkpoint separada antes de esta fase. UDGIA-004A no modifica su contenido.
 
 | Nodo actual | Papel | Diagnóstico |
 |---|---|---|
-| [Mapa de las tres literacidades](../../content/formacion-docente/mapa-literacidades-ia/index.md) | Puerta formativa a L1/L2/L3. | Buen nodo panorámico; la equivalencia rígida con Bloom debe matizarse. |
-| [Alfabetización en co-creación](../../content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md) | Progresión detectar–sostener–diseñar. | Candidato a nodo formativo canónico de L3. |
-| [Principios para la co-creación](../../content/formacion-docente/alfabetizacion-co-creacion/index.md) | Cinco competencias visuales. | Se solapa con el nodo anterior; debe conservarse como infografía/aplicación, no como segunda definición canónica. |
-| [Agenciamiento persona-IA](../../content/ia-educacion/guias/agenciamiento-humano-ia/index.md) | Marco conceptual y consecuencias docentes. | Mantener URL; presentar «co-creación» como término público y «agenciamiento» como fundamento. |
-| [Evaluación formativa con IA](../../content/ia-educacion/guias/evaluacion-formativa-ia/index.md) | Instrumentos y arquitectura de ciclos. | Debe distinguir evaluación formativa con IA de evaluación basada en procesos. |
-| [Portafolios iterativos](../../content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md) | Práctica documentada/prototipo de proceso. | Verificar qué afirmaciones describen aplicación real y cuáles son escenario. |
-| [Ensayo como proceso](../../content/ia-educacion/productos-de-aprendizaje/ensayo/index.md) | Caso completo con rutas de estudiante y docente. | Mejor precedente operativo; reutilizar estructura sin convertirla en plantilla universal. |
-| [Ganancia cognitiva](../../content/recursos/glosario/ganancia-cognitiva/index.md) | Definición breve y conexiones. | Corregir enlaces heredados `/glosario/…` al aplicar el piloto. |
+| [Mapa de las tres literacidades](https://arqueon.github.io/aprendizaje-ia/formacion-docente/mapa-literacidades-ia/) | Puerta formativa a L1/L2/L3. | Buen nodo panorámico; la equivalencia rígida con Bloom debe matizarse. |
+| [Alfabetización en co-creación](https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-agenciamiento-ia/) | Progresión detectar–sostener–diseñar. | Candidato a nodo formativo canónico de L3. |
+| [Principios para la co-creación](https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-co-creacion/) | Cinco competencias visuales. | Se solapa con el nodo anterior; debe conservarse como infografía/aplicación, no como segunda definición canónica. |
+| [Agenciamiento persona-IA](https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/agenciamiento-humano-ia/) | Marco conceptual y consecuencias docentes. | Mantener URL; presentar «co-creación» como término público y «agenciamiento» como fundamento. |
+| [Evaluación formativa con IA](https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/evaluacion-formativa-ia/) | Instrumentos y arquitectura de ciclos. | Debe distinguir evaluación formativa con IA de evaluación basada en procesos. |
+| [Portafolios iterativos](https://arqueon.github.io/aprendizaje-ia/laboratorio/practicas/evaluacion-formativa-asistida-ia/) | Práctica documentada/prototipo de proceso. | Verificar qué afirmaciones describen aplicación real y cuáles son escenario. |
+| [Ensayo como proceso](https://arqueon.github.io/aprendizaje-ia/ia-educacion/productos-de-aprendizaje/ensayo/) | Caso completo con rutas de estudiante y docente. | Mejor precedente operativo; reutilizar estructura sin convertirla en plantilla universal. |
+| [Ganancia cognitiva](https://arqueon.github.io/aprendizaje-ia/recursos/glosario/ganancia-cognitiva/) | Definición breve y conexiones. | Corregir enlaces heredados `/glosario/…` al aplicar el piloto. |
 
 #### Duplicidades que el piloto debe resolver
 
