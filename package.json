@@ -5,9 +5,11 @@
   "description": "Sitio Hugo del ecosistema IA UDGPlus",
   "scripts": {
     "h5p:package-fixture": "node tools/h5p/package-fixture.mjs",
-    "h5p:build": "node tools/h5p/package-fixture.mjs && node tools/h5p/build-runtime.mjs",
-    "h5p:verify": "node tools/h5p/package-fixture.mjs && node tools/h5p/build-runtime.mjs --check",
+    "h5p:package-pilot": "node tools/h5p/package-pilot.mjs",
+    "h5p:build": "node tools/h5p/package-fixture.mjs && node tools/h5p/package-pilot.mjs && node tools/h5p/build-runtime.mjs",
+    "h5p:verify": "node tools/h5p/package-fixture.mjs && node tools/h5p/package-pilot.mjs && node tools/h5p/build-runtime.mjs --check",
     "qa:h5p": "node tools/h5p/qa-runtime.mjs",
+    "qa:h5p:pilot": "node tools/h5p/qa-pilot.mjs",
     "qa:h5p:deployment": "node tools/h5p/probe-deployment.mjs"
   },
   "devDependencies": {

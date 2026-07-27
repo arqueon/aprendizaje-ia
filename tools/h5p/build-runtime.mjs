@@ -242,8 +242,8 @@ async function copyPackage(entryID, entry, packageRoot, output) {
     !h5p.preloadedDependencies?.some(
       (dependency) =>
         dependency.machineName === entry.mainLibrary &&
-        dependency.majorVersion === entry.majorVersion &&
-        dependency.minorVersion === entry.minorVersion
+        Number(dependency.majorVersion) === Number(entry.majorVersion) &&
+        Number(dependency.minorVersion) === Number(entry.minorVersion)
     )
   ) {
     throw new Error(`h5p.json de ${entryID} no coincide con el catálogo`);
@@ -277,7 +277,9 @@ async function copyPackage(entryID, entry, packageRoot, output) {
     ])
   );
 
-  for (const [directoryName, dependency] of dependencies) {
+  const pending = [...dependencies.entries()];
+  for (let index = 0; index < pending.length; index += 1) {
+    const [directoryName, dependency] = pending[index];
     const librarySource = path.join(packageRoot, directoryName);
     if (!(await exists(librarySource))) {
       throw new Error(`Dependencia ausente en ${entryID}: ${directoryName}`);
@@ -298,6 +300,16 @@ async function copyPackage(entryID, entry, packageRoot, output) {
     }
     if (!definition.license) {
       throw new Error(`Biblioteca sin licencia declarada: ${directoryName}`);
+    }
+    for (const nested of [
+      ...(definition.preloadedDependencies || []),
+      ...(definition.dynamicDependencies || [])
+    ]) {
+      const nestedName = `${nested.machineName}-${nested.majorVersion}.${nested.minorVersion}`;
+      if (!dependencies.has(nestedName)) {
+        dependencies.set(nestedName, nested);
+        pending.push([nestedName, nested]);
+      }
     }
   }
 }

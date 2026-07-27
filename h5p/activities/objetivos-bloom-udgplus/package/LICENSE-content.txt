@@ -1,0 +1,6 @@
+Constructor de objetivos de aprendizaje UDGPlus
+Copyright (c) 2026 UDGPlus
+Licencia del contenido curricular y de la ilustracion original: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+La biblioteca H5P.BloomObjectiveBuilder se distribuye bajo licencia MIT.

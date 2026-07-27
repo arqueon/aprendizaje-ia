@@ -1,0 +1,97 @@
+{
+  "title": "<p>Conceptos para co-crear con dirección</p>",
+  "description": "<p>Lee la pregunta y voltea cada tarjeta. Busca la relación entre los cuatro conceptos, no una definición aislada.</p>",
+  "dialogs": [
+    {
+      "text": "<p style=\"text-align:center\"><strong>¿Co-crear con IA equivale a delegar?</strong></p>",
+      "answer": "<p><strong>Co-creación:</strong> distribución explícita del trabajo entre persona y sistema. La persona conserva propósito, criterios, verificación y decisión final.</p>",
+      "tips": {"tip": "<p>Piensa quién define qué cuenta como una respuesta adecuada.</p>"},
+      "image": {
+        "path": "images/conceptos-cocreacion.png",
+        "mime": "image/png",
+        "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Cuatro conceptos para co-crear"},
+        "width": 1200,
+        "height": 675
+      },
+      "imageAltText": "Cuatro conceptos conectados alrededor del aprendizaje con IA."
+    },
+    {
+      "text": "<p style=\"text-align:center\"><strong>¿Qué conserva la persona cuando usa IA?</strong></p>",
+      "answer": "<p><strong>Dirección epistémica:</strong> capacidad de formular, contrastar y decidir qué afirmaciones o aportes son pertinentes y por qué.</p>",
+      "tips": {"tip": "<p>No se trata solo de controlar la herramienta, sino de orientar el conocimiento producido.</p>"},
+      "image": {
+        "path": "images/conceptos-cocreacion.png",
+        "mime": "image/png",
+        "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Cuatro conceptos para co-crear"},
+        "width": 1200,
+        "height": 675
+      },
+      "imageAltText": "Cuatro conceptos conectados alrededor del aprendizaje con IA."
+    },
+    {
+      "text": "<p style=\"text-align:center\"><strong>¿Qué hace visible el proceso sin entregar todo el chat?</strong></p>",
+      "answer": "<p><strong>Trazabilidad:</strong> conjunto proporcional de evidencias —borradores, fuentes y decisiones— que permite reconstruir cómo cambió el trabajo.</p>",
+      "tips": {"tip": "<p>Busca evidencias con valor pedagógico, no vigilancia exhaustiva.</p>"},
+      "image": {
+        "path": "images/conceptos-cocreacion.png",
+        "mime": "image/png",
+        "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Cuatro conceptos para co-crear"},
+        "width": 1200,
+        "height": 675
+      },
+      "imageAltText": "Cuatro conceptos conectados alrededor del aprendizaje con IA."
+    },
+    {
+      "text": "<p style=\"text-align:center\"><strong>¿Qué distingue aprendizaje de simple aceleración?</strong></p>",
+      "answer": "<p><strong>Ganancia cognitiva:</strong> comprensión, criterio o estrategia que la persona puede explicar y transferir a una situación nueva.</p>",
+      "tips": {"tip": "<p>Pregúntate qué puede hacer ahora la persona que antes no podía hacer.</p>"},
+      "image": {
+        "path": "images/conceptos-cocreacion.png",
+        "mime": "image/png",
+        "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Cuatro conceptos para co-crear"},
+        "width": 1200,
+        "height": 675
+      },
+      "imageAltText": "Cuatro conceptos conectados alrededor del aprendizaje con IA."
+    }
+  ],
+  "next": "Siguiente",
+  "answer": "Voltear",
+  "prev": "Anterior",
+  "retry": "Intentar de nuevo",
+  "progressText": "Tarjeta @card de @total",
+  "behaviour": {
+    "scaleTextNotCard": true,
+    "enableRetry": true,
+    "disableBackwardsNavigation": false,
+    "randomCards": false,
+    "maxProficiency": 1,
+    "quickProgression": false
+  },
+  "cardFrontLabel": "Frente de la tarjeta",
+  "cardBackLabel": "Reverso de la tarjeta",
+  "tipButtonLabel": "Mostrar pista",
+  "audioNotSupported": "El navegador no admite este audio",
+  "mode": "normal",
+  "correctAnswer": "Lo comprendí",
+  "incorrectAnswer": "Necesito repasarlo",
+  "round": "Ronda @round",
+  "cardsLeft": "Tarjetas pendientes: @number",
+  "nextRound": "Continuar a la ronda @round",
+  "startOver": "Volver a empezar",
+  "showSummary": "Ver resumen",
+  "summary": "Resumen",
+  "summaryCardsRight": "Tarjetas comprendidas:",
+  "summaryCardsWrong": "Tarjetas por repasar:",
+  "summaryCardsNotShown": "Tarjetas no mostradas:",
+  "summaryOverallScore": "Resultado global",
+  "summaryCardsCompleted": "Tarjetas completadas:",
+  "summaryCompletedRounds": "Rondas completadas:",
+  "summaryAllDone": "Completaste las @cards tarjetas.",
+  "confirmStartingOver": {
+    "header": "¿Volver a empezar?",
+    "body": "Se perderá el avance de esta sesión.",
+    "cancelLabel": "Cancelar",
+    "confirmLabel": "Volver a empezar"
+  }
+}

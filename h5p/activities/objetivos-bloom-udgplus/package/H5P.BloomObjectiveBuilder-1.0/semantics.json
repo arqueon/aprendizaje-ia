@@ -1,0 +1,56 @@
+[
+  {
+    "name": "title",
+    "type": "text",
+    "label": "Título",
+    "default": "Constructor de objetivos de aprendizaje",
+    "optional": true
+  },
+  {
+    "name": "intro",
+    "type": "text",
+    "label": "Introducción",
+    "widget": "textarea",
+    "default": "Decide la complejidad cognitiva, elige una acción observable y completa las condiciones que harán evaluable el aprendizaje.",
+    "optional": true
+  },
+  {
+    "name": "defaultAudience",
+    "type": "text",
+    "label": "Audiencia predeterminada",
+    "default": "Al finalizar, el estudiante",
+    "optional": true
+  },
+  {
+    "name": "locale",
+    "type": "text",
+    "label": "Código de idioma",
+    "default": "es-MX",
+    "optional": true
+  },
+  {
+    "name": "l10n",
+    "type": "group",
+    "label": "Textos de interfaz",
+    "optional": true,
+    "fields": [
+      {"name": "kicker", "type": "text", "label": "Antetítulo", "default": "Diseño inverso · Taxonomía de Bloom revisada"},
+      {"name": "formulaLabel", "type": "text", "label": "Etiqueta de fórmula", "default": "Fórmula del objetivo"},
+      {"name": "who", "type": "text", "label": "Quién", "default": "Quién"},
+      {"name": "what", "type": "text", "label": "Qué hará", "default": "Qué hará"},
+      {"name": "how", "type": "text", "label": "Cómo", "default": "Cómo"},
+      {"name": "quality", "type": "text", "label": "Qué tan bien", "default": "Qué tan bien"},
+      {"name": "stepsLabel", "type": "text", "label": "Etiqueta de pasos", "default": "Pasos del constructor"},
+      {"name": "stepLevel", "type": "text", "label": "Nivel", "default": "Nivel"},
+      {"name": "stepVerb", "type": "text", "label": "Verbo", "default": "Verbo"},
+      {"name": "stepComponents", "type": "text", "label": "Componentes", "default": "Componentes"},
+      {"name": "stepReview", "type": "text", "label": "Revisión", "default": "Revisión"},
+      {"name": "copy", "type": "text", "label": "Copiar", "default": "Copiar objetivo"},
+      {"name": "save", "type": "text", "label": "Guardar", "default": "Guardar en mi lista"},
+      {"name": "copied", "type": "text", "label": "Confirmación de copia", "default": "Objetivo copiado al portapapeles."},
+      {"name": "saved", "type": "text", "label": "Confirmación de guardado", "default": "Objetivo guardado en tu lista."},
+      {"name": "emptyPreview", "type": "text", "label": "Vista previa vacía", "default": "Tu objetivo aparecerá aquí…"},
+      {"name": "emptySaved", "type": "text", "label": "Lista vacía", "default": "Todavía no has guardado objetivos."}
+    ]
+  }
+]

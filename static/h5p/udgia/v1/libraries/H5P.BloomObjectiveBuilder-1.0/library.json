@@ -1,0 +1,13 @@
+{
+  "title": "Constructor de objetivos de aprendizaje UDGPlus",
+  "description": "Constructor accesible de objetivos con la taxonomía revisada de Bloom.",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 3,
+  "runnable": 1,
+  "author": "UDGPlus",
+  "license": "MIT",
+  "machineName": "H5P.BloomObjectiveBuilder",
+  "preloadedJs": [{"path": "bloom-objective-builder.js"}],
+  "preloadedCss": [{"path": "bloom-objective-builder.css"}]
+}

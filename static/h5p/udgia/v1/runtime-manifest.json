@@ -16,10 +16,228 @@
       "adapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
+    },
+    "cocreacion-versiones-slider": {
+      "path": "cocreacion-versiones-slider",
+      "title": "Tres versiones de una co-creación",
+      "mainLibrary": "H5P.ImageSlider",
+      "adapter": "image-slider.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "direccion-epistemica-hotspots": {
+      "path": "direccion-epistemica-hotspots",
+      "title": "Cinco decisiones de dirección epistémica",
+      "mainLibrary": "H5P.ImageHotspots",
+      "adapter": "image-hotspots.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false
+    },
+    "cocreacion-conceptos-cards": {
+      "path": "cocreacion-conceptos-cards",
+      "title": "Conceptos para co-crear con dirección",
+      "mainLibrary": "H5P.Dialogcards",
+      "adapter": "dialog-cards.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true
+    },
+    "evaluacion-proceso-decision": {
+      "path": "evaluacion-proceso-decision",
+      "title": "Qué evidencia muestra aprendizaje",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true
+    },
+    "cocreacion-evaluacion-recorrido": {
+      "path": "cocreacion-evaluacion-recorrido",
+      "title": "Recorrido: co-crear y evaluar con IA",
+      "mainLibrary": "H5P.CoursePresentation",
+      "adapter": "course-presentation.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false
+    },
+    "objetivos-bloom-udgplus": {
+      "path": "objetivos-bloom-udgplus",
+      "title": "Constructor de objetivos de aprendizaje UDGPlus",
+      "mainLibrary": "H5P.BloomObjectiveBuilder",
+      "adapter": "bloom-objective-builder.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
     }
   },
-  "totalBytes": 1323696,
+  "totalBytes": 5471192,
   "files": [
+    {
+      "path": "adapters/bloom-objective-builder.css",
+      "bytes": 262,
+      "sha256": "bc7c5e80c3f1df9256a94f41f14a2fd835aa420bd219aeab6a3d11c559e21349"
+    },
+    {
+      "path": "adapters/course-presentation.css",
+      "bytes": 381,
+      "sha256": "e368d8ce4ea2e381500701465bbc1b0559d5a78ba90ae4acdbd2a3f6ced329ed"
+    },
+    {
+      "path": "adapters/dialog-cards.css",
+      "bytes": 419,
+      "sha256": "1f2fc1513cb266d6b0af0446040f2be1b86f7e4450b2783d126b77a79055bbdc"
+    },
+    {
+      "path": "adapters/image-hotspots.css",
+      "bytes": 405,
+      "sha256": "098a67db4986754b59d87f6e7ca8a8ead60470dbbeb9671f740f5ada27d8ce72"
+    },
+    {
+      "path": "adapters/image-slider.css",
+      "bytes": 349,
+      "sha256": "aefd00e30c42792b4de14499da3eaa3ab84acc1b5687f945576be9537e7ecef6"
+    },
+    {
+      "path": "adapters/multi-choice.css",
+      "bytes": 443,
+      "sha256": "be1cbabea1fa8bd01283254ee93167b58da581c18fe7015f51878df15144bb3c"
+    },
+    {
+      "path": "content/cocreacion-conceptos-cards/content/content.json",
+      "bytes": 4720,
+      "sha256": "280b1b66d650b1887ad0dd43c55a919c34803199fa039788fa35f00e6422622f"
+    },
+    {
+      "path": "content/cocreacion-conceptos-cards/content/images/conceptos-cocreacion.png",
+      "bytes": 61553,
+      "sha256": "9986ff79bd2f4e5dea865a1c29d4811f57500ef90ca5ecd74509fd618ab579b4"
+    },
+    {
+      "path": "content/cocreacion-conceptos-cards/h5p.json",
+      "bytes": 385,
+      "sha256": "6cd9b968e921a37e82a584ca16f53993b25ac1c0c02bc57eb07173335cafe3bf"
+    },
+    {
+      "path": "content/cocreacion-conceptos-cards/LICENSE-content.txt",
+      "bytes": 181,
+      "sha256": "d9fad56c5237480a081a5c91ff6424bb9b8e173703d7beab66107c72be68d546"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/content/content.json",
+      "bytes": 11281,
+      "sha256": "283cfe17e77178a262b49821561cd7c02390a1cc3b42fec4a9d1d626978dc6f6"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/content/images/borrador-propio.png",
+      "bytes": 34761,
+      "sha256": "cde7a6a21f5a07b3dd1aa15d094f568beccf80ee1ad793eded619c3dc7662198"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/content/images/evidencias-proceso.png",
+      "bytes": 40553,
+      "sha256": "190076cfaef3c8c3070f1d73366f05f967fa9175003ea8cc94e92f98b196932e"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/content/images/interrogacion-ia.png",
+      "bytes": 63268,
+      "sha256": "55a56deb31ea9263ed703cd3eb3a0595f2352fbad1d6be32a1da822f368c95a2"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/content/images/revision-justificada.png",
+      "bytes": 47716,
+      "sha256": "12b408534f1cf97b7ca3b88526b5a4c223bf7b65161683de027d4f208769f755"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/h5p.json",
+      "bytes": 557,
+      "sha256": "4dba8df160fce878f96875cdaf5544f3184a0fce42d1d9237a188014c43dbcf4"
+    },
+    {
+      "path": "content/cocreacion-evaluacion-recorrido/LICENSE-content.txt",
+      "bytes": 183,
+      "sha256": "2a0af56f6588529ee885e4a93f3b59a08b9ccf7fc8bb8ba2b588cc440295c21c"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/content/content.json",
+      "bytes": 4136,
+      "sha256": "66d869ff124a2be4371242d7e4c47ce573efb09647c316d297118eed97d067d7"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/content/images/borrador-propio.png",
+      "bytes": 34761,
+      "sha256": "cde7a6a21f5a07b3dd1aa15d094f568beccf80ee1ad793eded619c3dc7662198"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/content/images/interrogacion-ia.png",
+      "bytes": 63268,
+      "sha256": "55a56deb31ea9263ed703cd3eb3a0595f2352fbad1d6be32a1da822f368c95a2"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/content/images/revision-justificada.png",
+      "bytes": 47716,
+      "sha256": "12b408534f1cf97b7ca3b88526b5a4c223bf7b65161683de027d4f208769f755"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/h5p.json",
+      "bytes": 564,
+      "sha256": "9109be9f74ced43b04c72a2b99b435d5e4bc22a960245840ad13d9a432c1f567"
+    },
+    {
+      "path": "content/cocreacion-versiones-slider/LICENSE-content.txt",
+      "bytes": 181,
+      "sha256": "6a455394bbdb7c90ec778284ba425be810c0d46af52457b72ca3fa4d0c3b8a4d"
+    },
+    {
+      "path": "content/direccion-epistemica-hotspots/content/content.json",
+      "bytes": 3252,
+      "sha256": "400f6a2a847d9fd6d9d27fef43fe9ac5797d89c6d9b01596bb5aa2f20d409e6d"
+    },
+    {
+      "path": "content/direccion-epistemica-hotspots/content/images/mapa-direccion-epistemica.png",
+      "bytes": 73203,
+      "sha256": "7b46a4bd28958e8af50a9bc7e0bc5f612ebce9e43876a1c87872291226cde046"
+    },
+    {
+      "path": "content/direccion-epistemica-hotspots/h5p.json",
+      "bytes": 469,
+      "sha256": "03b439f1c9a3a1ebab3f60e1b2993f9a8a50c1db2945304561e49c4aee5d3974"
+    },
+    {
+      "path": "content/direccion-epistemica-hotspots/LICENSE-content.txt",
+      "bytes": 185,
+      "sha256": "d63180b24445400ed3be1c1536b5276d313612bb09a6e2ffc9eb3f7c1d8c70bb"
+    },
+    {
+      "path": "content/evaluacion-proceso-decision/content/content.json",
+      "bytes": 5000,
+      "sha256": "1951752f9a6fb420212c8c5dd80ba4af2ed6973e4ad2da1425094881ec8c0d9f"
+    },
+    {
+      "path": "content/evaluacion-proceso-decision/content/images/evidencias-proceso.png",
+      "bytes": 40553,
+      "sha256": "190076cfaef3c8c3070f1d73366f05f967fa9175003ea8cc94e92f98b196932e"
+    },
+    {
+      "path": "content/evaluacion-proceso-decision/h5p.json",
+      "bytes": 461,
+      "sha256": "edc79ababdeefbecaa8eed961d24d1440d4a76b18a242e9da09338805d5411f4"
+    },
+    {
+      "path": "content/evaluacion-proceso-decision/LICENSE-content.txt",
+      "bytes": 176,
+      "sha256": "b55da123fa20ee7b22aca31248bb734a83c8642c331646f0385868d083935125"
+    },
+    {
+      "path": "content/objetivos-bloom-udgplus/content/content.json",
+      "bytes": 945,
+      "sha256": "8a7bdf9e237c25b1bde8b6b12c53a610126f2c99e4320d4531ac7fe24bb793b8"
+    },
+    {
+      "path": "content/objetivos-bloom-udgplus/h5p.json",
+      "bytes": 414,
+      "sha256": "8f587ccbfb97bf6851a8daf0e4e8289257b533514a4348c9a7b62baa2d0074f4"
+    },
+    {
+      "path": "content/objetivos-bloom-udgplus/LICENSE-content.txt",
+      "bytes": 274,
+      "sha256": "e4b76d9c174ba5059d666ced897a2ea0a27a543193c7d2b3fc7b1f0b5e826fed"
+    },
     {
       "path": "content/runtime-probe/content/content.json",
       "bytes": 715,
@@ -42,8 +260,8 @@
     },
     {
       "path": "content-index.json",
-      "bytes": 316,
-      "sha256": "e84d0a02c7c62219176c80e6dacfc3bc4d4cbf57c345c7f8720aa07e55635213"
+      "bytes": 2060,
+      "sha256": "0f377fd03be1610fd3d5aa78889fd6bc52a7a644225540f355edc52813f902ec"
     },
     {
       "path": "embed.css",
@@ -57,8 +275,8 @@
     },
     {
       "path": "embed.js",
-      "bytes": 4684,
-      "sha256": "d83c0140b1c29617739c5d134e519ae8edbfd63a1344eb28f287b9bcfe2d17e0"
+      "bytes": 6128,
+      "sha256": "381fb6243e3b2d27170d8570504a6c7a7f4c3bc2de77dfa6cd8f912f6dcea7e8"
     },
     {
       "path": "host.css",
@@ -69,6 +287,2976 @@
       "path": "host.js",
       "bytes": 5326,
       "sha256": "b9dc9da21597f0c6daf971bba31cd3b0aa4a4c667b75c744fa84a27d0df76836"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/fontawesome-webfont.eot",
+      "bytes": 70807,
+      "sha256": "e219ece8f4d3e4ac455ef31cd3a7c7b5057ea68a109937fc26b03c6e99ee9322"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/fontawesome-webfont.svg",
+      "bytes": 365616,
+      "sha256": "d67041fe5d50eef9ef671643968f7ce6b130eaaaaa2ce4d496b18d0a33aeb87b"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/fontawesome-webfont.ttf",
+      "bytes": 142072,
+      "sha256": "7b5a4320fba0d4c8f79327645b4b9cc875a2ec617a557e849b813918eb733499"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/fontawesome-webfont.woff",
+      "bytes": 83588,
+      "sha256": "c812ddc9e475d3e65d68a6b3b589ce598a2a5babb7afc55477d59215c4a38a40"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/fontawesome-webfont.woff2",
+      "bytes": 66624,
+      "sha256": "ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/FontAwesome.otf",
+      "bytes": 109688,
+      "sha256": "7ed24c05432403117372891543f0cb6a7922100919e7ae077c1f3faf67658dc2"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/h5p-font-awesome.min.css",
+      "bytes": 27420,
+      "sha256": "84d901f1e5b944875a354aef551291151c68d3b859081f29ee4f218912673a65"
+    },
+    {
+      "path": "libraries/FontAwesome-4.5/library.json",
+      "bytes": 290,
+      "sha256": "c0d082f1c1eada59667b94f7e7da76680571827672d710f4db37a19b161fceb4"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/af.json",
+      "bytes": 59,
+      "sha256": "863f2a3ef06c530c035891c9038ffcb784c35f1cbab5817b3b6f55bf1d13a20d"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ar.json",
+      "bytes": 60,
+      "sha256": "2e751059f34bf397b54399a6442ddef9e304303bcbf4762f068bc3585e4dc205"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/bg.json",
+      "bytes": 70,
+      "sha256": "51bd03a002c1de2fedffc347a1ea57781591535066fc9c1a6769c3d59f6e8ad7"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ca.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/cs.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/da.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/de.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/el.json",
+      "bytes": 67,
+      "sha256": "e035f793a1ee46719a605c21346481b83cc74f7f6fc9c0aa1db75d6682018277"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/es-mx.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/es.json",
+      "bytes": 58,
+      "sha256": "586f89cec4e8d2007955b3345ac4c558fcfda546153a6f493d482976bada33d3"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/et.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/eu.json",
+      "bytes": 61,
+      "sha256": "7c0774f30b2bbe41ce1f29920839ac7874ad6f5ec0de26698f7cb4b8c9915eb1"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/fa.json",
+      "bytes": 61,
+      "sha256": "6983b01acccabd893d4112a9af75ec1b73fb53c33cf310aeb06181f3756a0ae6"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/fi.json",
+      "bytes": 58,
+      "sha256": "f02f2d1a64fcc7c90d947849a2440fda2093a4ec86a95ca96dca2b1f79b5f5f1"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/fr.json",
+      "bytes": 57,
+      "sha256": "7f6e534692e6026f8a351da6cc8eb8c9a55300cb5bb834859e1d81105ad5ccb1"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/gl.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/he.json",
+      "bytes": 63,
+      "sha256": "7902653763274cc6171f402475487aa40aed85dc44415e205a8c44bfac4ffaba"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/hu.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/it.json",
+      "bytes": 57,
+      "sha256": "e35922e75fe4b0d7b15c455ee465f765d15cb0c1ea22b8f5194f4e9a9d3d8fce"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ja.json",
+      "bytes": 64,
+      "sha256": "2dc43a879dceec4d679e4c26d1edae339a90650cfd0f85d39bd38a44a1911904"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ka.json",
+      "bytes": 73,
+      "sha256": "f30e8885107b0b8271388897162a74b2e8aa1dc6ca30d3bc46b286127859d497"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/km.json",
+      "bytes": 73,
+      "sha256": "364a8c1aba4e80e3e745636026f731267b0a3a77cf377effd729db668f0c98c6"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ko.json",
+      "bytes": 62,
+      "sha256": "92b28e8b8ea42048ddc683469719cf744bb1e61da2b4f04a55ca66fb8d5bdb50"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/lt.json",
+      "bytes": 62,
+      "sha256": "931f1c443b37264e79725f676723a54cd534c73f3647c5185f86df3eea1a1686"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/lv.json",
+      "bytes": 61,
+      "sha256": "ff23ba8274b67e580f2f8983309b63abc4a78eb452e651af02c437e53ec32770"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/mn.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/nb.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/nl.json",
+      "bytes": 60,
+      "sha256": "81429a2c134651d1e98456aaee3c921df2cce71dc6371300df3028d79953f75f"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/nn.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/pl.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/pt-br.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/pt.json",
+      "bytes": 57,
+      "sha256": "2b209935bac0dcf8047d804ca551917cb59f18f65cbe0e6430b2cff0d74f3e9a"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ro.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/ru.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sl.json",
+      "bytes": 63,
+      "sha256": "c97ce440a685d69f09471612911916f595f7042c5d9fee40bb578828d35c349b"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sma.json",
+      "bytes": 59,
+      "sha256": "aad55dd5d892694e779909ee331a953d77c941836aca43c66205580b222d8597"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sme.json",
+      "bytes": 59,
+      "sha256": "aad55dd5d892694e779909ee331a953d77c941836aca43c66205580b222d8597"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/smj.json",
+      "bytes": 59,
+      "sha256": "aad55dd5d892694e779909ee331a953d77c941836aca43c66205580b222d8597"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sr.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sv.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/sw.json",
+      "bytes": 64,
+      "sha256": "429216fa2312144ad83dc9521ac720938ddb3bb02ae2777e36a302db6a7ff6b3"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/te.json",
+      "bytes": 79,
+      "sha256": "b820086757dd2a1df66a0e7a3e5b3cf076170a0be81486e29579a722be31b180"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/th.json",
+      "bytes": 76,
+      "sha256": "8b7c801804c4fd0177a02956ab1af6de367bbc7c1aae62b5f14ce6038ca98881"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/tr.json",
+      "bytes": 60,
+      "sha256": "ac7af2d61119ee3f4fa8f7d3392fd8dcfe2accf23b946b0f74f63fe425afebfd"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/uk.json",
+      "bytes": 63,
+      "sha256": "769db7f5c32548a0c71a271fb9d0ce7523a3f71ffe9889232185127c14b95da9"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/language/vi.json",
+      "bytes": 60,
+      "sha256": "602b9faad86584e63c157a4441f7f24d376df7030b5b320872448ddfd8e35c04"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/library.json",
+      "bytes": 466,
+      "sha256": "be465453c40da8f48dc60d8346d4fdc975409fc9b4a66f2d546c5955357f63e5"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/semantics.json",
+      "bytes": 388,
+      "sha256": "c72bc1032396e18f67ff7b3a7b86310bf229af73007560d85db8a7852cc80e76"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/text.css",
+      "bytes": 445,
+      "sha256": "823b31b9000b23ac06b0570533685d3b8b3587e5ca01d517026a822f7a289866"
+    },
+    {
+      "path": "libraries/H5P.AdvancedText-1.1/text.js",
+      "bytes": 892,
+      "sha256": "28fa5c0a84c907a423f648cbf968ae7045e7787ed1f4a41fb7d3f39b7f040cb7"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/icon.svg",
+      "bytes": 4628,
+      "sha256": "a56c02b2136c7069e36c18041032090947470bd754afcfcc8c04168cd8b8fc3e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/af.json",
+      "bytes": 1142,
+      "sha256": "47d7c4781491fffa71550aef5316b61dd294a8305ff129ae4d0aad3a0b8d34c7"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ar.json",
+      "bytes": 1425,
+      "sha256": "3ac09d64dc5dee574c025de647265f761f8e0b4e8b78d737d0760c4f7f4e1546"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/bg.json",
+      "bytes": 1922,
+      "sha256": "3b56c34b716339835851596b12b7cc57b8c869e91212cc98e8cef52c8d5027b2"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/bs.json",
+      "bytes": 1079,
+      "sha256": "e5de069fb2e37bb7634f51c7b7a8e3720f87287f70827daf1292424a3b97eb3e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ca.json",
+      "bytes": 1322,
+      "sha256": "c145c87b817cc1d44c404876ebb6749db77d3d282ef501997015b45e4010d66a"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/cs.json",
+      "bytes": 1195,
+      "sha256": "73535a9385563e29fd33eead250d4ad8d82d0c02a3ae2d4ddc39525b73e2ef91"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/da.json",
+      "bytes": 1155,
+      "sha256": "3198a434a825d85856a56db7352485513d7038fa91574eb47dcac3ea82ac45aa"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/de.json",
+      "bytes": 1276,
+      "sha256": "6d1946a7ab8fd20f722edd5952eaf894956efefc9f1da68709f2a01d04743717"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/el.json",
+      "bytes": 2089,
+      "sha256": "8d3ee510aea5c320619531dc29158526abbb0b480f770bead1c2a632cacede8e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/es-mx.json",
+      "bytes": 1223,
+      "sha256": "ae3bfdb5df5b6f6a7223d642bfe28342f5e9d3c07b7192713d5e181d1f0f80a8"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/es.json",
+      "bytes": 1214,
+      "sha256": "8301e0d36cf9065eb6b880f32132b619b2c270628e0986ff4d7405e3fc24c15a"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/et.json",
+      "bytes": 1114,
+      "sha256": "d2e084c193f186d25d9a0faf13afdb68e23ac3611d031bc8d5f072c4080811b6"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/eu.json",
+      "bytes": 1174,
+      "sha256": "9633650cd9d08e98adad962f3a0f2bb95d2fd4d98b54e3b2b82e59a3b0675b86"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/fa.json",
+      "bytes": 1479,
+      "sha256": "45d9bbe8d7ad73aab5faf6ca3d4da3f752cb17e3c6aeaf0278a88d7f3f1f3047"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/fi.json",
+      "bytes": 1091,
+      "sha256": "6f4acf3445f3a50db63858ed682d756acc768f4fa12ebedc02899ddd53baf5ed"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/fr.json",
+      "bytes": 1186,
+      "sha256": "6fd6a3b58e53276cbc2a9058cb288c4fc4d3a4e295261492b01fc001d99a01d3"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/gl.json",
+      "bytes": 1180,
+      "sha256": "6ed5148f466064386784d1e85de074e6d30a5fb6cc0c382c4bd78429d89c58c9"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/he.json",
+      "bytes": 1254,
+      "sha256": "49b567e43e427e9a4df8d6b8b29176b56008594f11188927665d4e9d461e3645"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/hu.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/it.json",
+      "bytes": 1175,
+      "sha256": "cb3246a89b63cb11d8a87361e7590e799b5a388adadcab37fb518146ee03d3e4"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ja.json",
+      "bytes": 1335,
+      "sha256": "6ffa5e993dc042d91cc5661f583549936fe44e412a8ddb7ea1e8664c8134d803"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ka.json",
+      "bytes": 2154,
+      "sha256": "21a7c314f5af69a2c1cefeb7c151b9e013d0b088b7e99f3b6f4f7b336a9c24e4"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/km.json",
+      "bytes": 1874,
+      "sha256": "1c4880802ff0859aa57fd1ac5d8a612159e625dc738f99c33581c8632d3c28cf"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ko.json",
+      "bytes": 1314,
+      "sha256": "ac68473277bcaed01fabf713206f203f420bef459136cdfcbf302126a23c1280"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/lt.json",
+      "bytes": 1162,
+      "sha256": "b0f23b228f31854f402321594fdb00d739b8440aaed65e553bbdcc73401848aa"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/lv.json",
+      "bytes": 1194,
+      "sha256": "43137cb65546129bcde4f4d0582f7dc3bac420d956e496494d032d6312b474e7"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/mn.json",
+      "bytes": 1494,
+      "sha256": "53c72c0a74b13d81d079a0397e4ceb6c0ef8498f2696b1e39aa8941457804470"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/nb.json",
+      "bytes": 1152,
+      "sha256": "99fa2ff07ae9f1e279ed4a5050427ef1155e2a3ab8e5af2780036901a2d847ac"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/nl.json",
+      "bytes": 1170,
+      "sha256": "0bc34c97eb939e7abfedb3e323738ad8c559b07fa09a5e4838157a44a0db2ae4"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/nn.json",
+      "bytes": 1138,
+      "sha256": "ebc609a466d0c5bea8e0543a5a0d0151c98c33fbd499fab1100765ec2024ed19"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/pl.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/pt-br.json",
+      "bytes": 1202,
+      "sha256": "1f110a7820be3b843ae8e33ff36c5ce3afc6e0d71fd6333aadb41ea38bbf4398"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/pt.json",
+      "bytes": 1131,
+      "sha256": "4667934361e74e9d3defc6a84ea12526559eb76ebef0c37fd2a3ac4ccace7eca"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ro.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/ru.json",
+      "bytes": 1806,
+      "sha256": "b3d1ea0786a0c1b19eb221374255077980512de969158e2bf1682c1b1947dd0a"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sl.json",
+      "bytes": 1163,
+      "sha256": "50abb1bb71f3f9f19844ad47780ceaf085229def257dcf3099f6b8c57d45a8d9"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sma.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sme.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/smj.json",
+      "bytes": 1062,
+      "sha256": "c83c9b78d12ed05880bfce07f0945b864a76efe5f895ed77c9744761584f253e"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sr.json",
+      "bytes": 1668,
+      "sha256": "cc8f5b86fa421efe268f95af0e8ce71afcd9b9982416bf2e1bb0e96dc1fb285b"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sv.json",
+      "bytes": 1124,
+      "sha256": "04c6f3003b1520bf4e752c3462df30c84ee18c44632435c368c1f59fba85947d"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/sw.json",
+      "bytes": 1086,
+      "sha256": "88190aca6958c41a94bdaf4ade93455cc27bd8e8c6325ab6062af01e4da286d5"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/th.json",
+      "bytes": 1614,
+      "sha256": "6e34b217bd432ff73fb76a5d89f198f10b8415ca282e65c08e6ed5a8bbcbf7f5"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/tr.json",
+      "bytes": 1219,
+      "sha256": "bbeee9671f4a62eafc299f2381c4bb8ae5aaaac2353ea97fd4a2b4408f01d360"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/uk.json",
+      "bytes": 1606,
+      "sha256": "1db5f62f803daf61767e7f747d011c8b1324e21733fd0b49e96c3055c39e5d47"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/vi.json",
+      "bytes": 1318,
+      "sha256": "7b525d25e388e7817378abc95b22fcf8098b93e9fa96e851926e557bba71ed3a"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/zh-hans.json",
+      "bytes": 1059,
+      "sha256": "dcd39f6b2105126371b567089908793879d11927ad5b536702664ff31b7f4c41"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/zh-hant.json",
+      "bytes": 1059,
+      "sha256": "46adfd6a22ccbaa88ffb498f99e0abd02d907e58574e7fff3443d968fb6c87bb"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/language/zh.json",
+      "bytes": 1059,
+      "sha256": "46adfd6a22ccbaa88ffb498f99e0abd02d907e58574e7fff3443d968fb6c87bb"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/library.json",
+      "bytes": 775,
+      "sha256": "122fd8d160c2aeb591d6c14ec8c05efa24843ceee30fd398d0414f44645f50ae"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/README.md",
+      "bytes": 1227,
+      "sha256": "f5a18ca6c530fe5731f5c70fb7cc8345365eae5851518a904b460eede0c1193a"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/scripts/audio.js",
+      "bytes": 10813,
+      "sha256": "2ecf37cdac29df59b9870c3e2693a0e4854d60e7040bb276c554e5a46a31a05d"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/semantics.json",
+      "bytes": 2347,
+      "sha256": "19160db6dfeec5c6425ff7c6de011eeb7e68dcd1a2cebc9289057814487af4ce"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/styles/audio.css",
+      "bytes": 3560,
+      "sha256": "d87b6f70146a4234b6257387e5043dbad9faa69b1a2359850477c03bb4b671c2"
+    },
+    {
+      "path": "libraries/H5P.Audio-1.5/upgrades.js",
+      "bytes": 1773,
+      "sha256": "b075fc5406829c401b98a38e0d7c7c5f0b2889598d111c5d8e39c3c5e80183cb"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/bloom-objective-builder.css",
+      "bytes": 9891,
+      "sha256": "abdaa1e17b0f73a86584ec58c68a54a3172b0e6659b32d01ba88b844e792e5d8"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/bloom-objective-builder.js",
+      "bytes": 17775,
+      "sha256": "01d6ba3fec17d47b7857e590093d289e95dff3511b4aaaa026093e8202a44608"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/language/es-mx.json",
+      "bytes": 830,
+      "sha256": "f78c66326765000447d08cb0d19154453743f717fa8cf47c3a16dbb94befc987"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/language/es.json",
+      "bytes": 830,
+      "sha256": "f78c66326765000447d08cb0d19154453743f717fa8cf47c3a16dbb94befc987"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/library.json",
+      "bytes": 446,
+      "sha256": "101ac0784c55f92918c8fd6ebaa39595f1dc96e44642ec41e77c22f13dbaeeb6"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/LICENSE",
+      "bytes": 1064,
+      "sha256": "c5226aae76a2c5127c13970933b6e5840727c22a2fc0ff6bba2712baaff82700"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/README.md",
+      "bytes": 9085,
+      "sha256": "348257860d6df79391d0af2d548ccb8cb05b746a8c1ce0ae992f8269a2da826a"
+    },
+    {
+      "path": "libraries/H5P.BloomObjectiveBuilder-1.0/semantics.json",
+      "bytes": 2587,
+      "sha256": "5a2661e74e0b45d5998a02ac0cbc1ef907d5ea56b1cd0e7152f1183de03c08a0"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/02d95842a0c03186d030.eot",
+      "bytes": 8168,
+      "sha256": "b66798065d4317958d94b0462434be305b224261929c52ae912b71bf65d8f903"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/0650862d5d3b3cf00361.eot",
+      "bytes": 7620,
+      "sha256": "19829db80cbac931d402eeb5eb482bb42be30f10c631d0cd33af4e7e82f0ce1d"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/41245d17721f912e3aad.ttf",
+      "bytes": 7472,
+      "sha256": "a3321f4a0e0c53dce9f65574b81ff485d3b35d4647a5f8b78b31813227fc45b4"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/500391a5880cb0fbf3b6.ttf",
+      "bytes": 41028,
+      "sha256": "df341854c6d4b88c1c8473cc04af438956da40fbd85b64698cdd43665ac9aa0d"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/515d9d92daf54ec52fcf.svg",
+      "bytes": 26884,
+      "sha256": "7c1924be10af9d24595d6a47cd0b22387d25073e4b127aa9c9e1441348a8d97f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/54554adb1b5ae70e99c0.woff",
+      "bytes": 7548,
+      "sha256": "22e80643153cf25225f26fd24bfa277ffc3e4f93570bc1695c17c7c98e936a61"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/61a1a8420fdf703c7ba1.woff",
+      "bytes": 8096,
+      "sha256": "b9b2248f5044f77a8e4aa4590d076b31d52bf601ae126f27ef51b47ff243e21f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/6382a85b843d1e96f72c.ttf",
+      "bytes": 8020,
+      "sha256": "79c7b188738ccee405dcc62f2a87179077efe462877cfabc144a3187f301bfc5"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/6c165c549b0dc4025352.svg",
+      "bytes": 1419,
+      "sha256": "f879d5701357bf45b3937bbaa0936eadbc6f697db30507ce875284862aa7e09c"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/8f9e23fa0b1424e71ae6.svg",
+      "bytes": 29617,
+      "sha256": "3e7dec286da7941106c273ceb6f4eec809ac9c2ce9519afee9cc666d27b559b5"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/d90853a4f553e6c2b974.ttf",
+      "bytes": 42480,
+      "sha256": "2a68a4d9b6ab0c60aae58e47ce87b184f74ade60d6a8497cfe8559482b88bfa3"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/h5p-course-presentation.css",
+      "bytes": 38180,
+      "sha256": "c7dad7413e69cbe5ead6a3f742ceb6019128b71ead47063cb98602af9099d132"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/dist/h5p-course-presentation.js",
+      "bytes": 71554,
+      "sha256": "b805029b1561e656d15622a0860ed772eb9532aab579ac476791108ad9747d72"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/icon.svg",
+      "bytes": 3385,
+      "sha256": "b453e88a7edd9d3ce005fb3e96ae704841bda2b28397e7e968663049b61cde60"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/af.json",
+      "bytes": 13298,
+      "sha256": "3b1ea78794551cc31858f4cf61a0ca497d032b3a0cda45c2b6276798f80d49f8"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ar.json",
+      "bytes": 14943,
+      "sha256": "e629ed1f4230512aa1e40956f52be4cabef2c9d951574c71fe5982ae78a05982"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/bg.json",
+      "bytes": 18283,
+      "sha256": "43669b8b4f97794efa34dc8a3106d385b61b564923d0ee8757c1252684338f4a"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/bs.json",
+      "bytes": 13237,
+      "sha256": "fb39ab5bf343b356bc73de37e9dc26da6347088369eb183b92f6e5b08e898d6d"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ca.json",
+      "bytes": 14335,
+      "sha256": "6862c7a35a764d5cc51dc4f27f1de987f7fae3d6ac94e3b5fb38159bc746b90c"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/cs.json",
+      "bytes": 13731,
+      "sha256": "637d8dfefbb80d5471e64cdf58d1f78e084b6f3747e4a4972a86ee3ee8a243c4"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/da.json",
+      "bytes": 13108,
+      "sha256": "2fdf1d3ce615356a8435b81892b5e4a6845ea88d9d3f21b3e88c015e812e3804"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/de.json",
+      "bytes": 14403,
+      "sha256": "87aba16b619456c18e8c1101cbeb9a5a948dd73b926a89206037ac3ff4d324ee"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/el.json",
+      "bytes": 19940,
+      "sha256": "dcddaa55835d6364d99c72a7b78c9919f4112d2024babd9a68b37e944ca81749"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/es-mx.json",
+      "bytes": 14550,
+      "sha256": "c56b2804252cfb1198f0334bc4bc1dc14e33c81a721ebade164b1a4955950391"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/es.json",
+      "bytes": 14657,
+      "sha256": "ba853f1208696b9e4f4a32d365dc644939cd07daea39a677b1bb9eb3aa081ab0"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/et.json",
+      "bytes": 13328,
+      "sha256": "6e5feb957aad7f5857b861d920fb2d829f1dbe585466c13ea16f28bf514672c9"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/eu.json",
+      "bytes": 13997,
+      "sha256": "bea7c7baee4ab1800571fffac304d6e4b60b5e9abd1e3fe7780f6118e1c02553"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/fa.json",
+      "bytes": 16725,
+      "sha256": "574835dbc598ffc2e4800d898aa34766e6020f4ea1f0354218dff51affd56137"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/fi.json",
+      "bytes": 14084,
+      "sha256": "2a7827e4bd8027942495ac31a7a46ec6352ea8cf2cdfa29d62776a40fdaeae0f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/fr.json",
+      "bytes": 14704,
+      "sha256": "7ff60532121b0a6dc8add6454cd056d3ac377dc88c1e4523edcec1760d5a78d7"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/gl.json",
+      "bytes": 14325,
+      "sha256": "b8c1b9f2b819f40cdc519d8dee26cf4ec690e734c3830a597f08f317f3126c99"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/he.json",
+      "bytes": 15388,
+      "sha256": "b3ec1ad6dd021d0f447078cbaf67398067413f4ccbd3b9ca2abd9065c86ac6f1"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/id.json",
+      "bytes": 13524,
+      "sha256": "aa4f5ed684b8508d135db3b9c23c07f0986104bd5d7644805f7e74fcdb3debfa"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/it.json",
+      "bytes": 14056,
+      "sha256": "90555a8909f676b273dfd463c8ef362595865a8f6041950549d26431f371c86f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ja.json",
+      "bytes": 14011,
+      "sha256": "38519645df8d487ca716e179ba1a1e7f43ea218c8a5cb8da6680c30def3e96f8"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ka.json",
+      "bytes": 22241,
+      "sha256": "1e434068af6601598e387efee7e1247d16f28df29d83cf4c0c01ba4129353d67"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/km.json",
+      "bytes": 21830,
+      "sha256": "dd43482c18343882d1451fc2711447da38b04acd31957a127e4c6d79af8fa0c0"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ko.json",
+      "bytes": 13862,
+      "sha256": "c93b221658f94e8ca2f8fc4d98916493ad020a494868a835b6439e346e215673"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/lt.json",
+      "bytes": 13985,
+      "sha256": "e4383db34398bf5af06d4be36ee15d8f73b9e0f8fd20ae6cbed3fa275f59ab0e"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/lv.json",
+      "bytes": 13949,
+      "sha256": "309ad600b1c2964c073d67eebad20fe1075c6a1f4f8bb6c6fb814bfaa33c5f8a"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/mn.json",
+      "bytes": 18231,
+      "sha256": "e59f9e24003b771fec48f48f204a165989920dacf8a88814fa35b85dff98ce5c"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/nb.json",
+      "bytes": 13224,
+      "sha256": "4a43564e3e7479008f41b2a7ea08785255c623debd30822d8d86be172f60d8bd"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/nl.json",
+      "bytes": 13752,
+      "sha256": "39b03cda6a172310834838b501af7cb04c8e6a710de731e7403068313a81dfdd"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/nn.json",
+      "bytes": 13260,
+      "sha256": "a52d852725a4cacc4183dcfc6720eb4e448530f7af9a3bead248da4c4dec1078"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/pl.json",
+      "bytes": 14089,
+      "sha256": "65d6d9664ad57bd22efd64b7e10a1d8c74b673fda5ef8324caecdd3be605a34a"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/pt-br.json",
+      "bytes": 14162,
+      "sha256": "703e4843943218912bc8eb81daf97e995c45b11a092804673747b50eeb05176c"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/pt.json",
+      "bytes": 14189,
+      "sha256": "d6e6db48d17aa5db82058b5423070f4507bdc6eedec217804859b932e1a0babe"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/ru.json",
+      "bytes": 18451,
+      "sha256": "a14b4b7d73401fb32a5b5e264394f9353565795360d2c54d90e24e58b1f6e185"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sl.json",
+      "bytes": 13491,
+      "sha256": "cfe6e9ceca5c3b3f94320df9be48a680ada9ef01fdc0f1d1d206c724fc68b19f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sma.json",
+      "bytes": 12873,
+      "sha256": "859922f07e2bf35b9811d9b0bb4cfa28f71e0883b63f7642901338a19aa912e5"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sme.json",
+      "bytes": 12873,
+      "sha256": "859922f07e2bf35b9811d9b0bb4cfa28f71e0883b63f7642901338a19aa912e5"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/smj.json",
+      "bytes": 12873,
+      "sha256": "859922f07e2bf35b9811d9b0bb4cfa28f71e0883b63f7642901338a19aa912e5"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sr.json",
+      "bytes": 16649,
+      "sha256": "813d96aea1f5ba6bf82574b723c08675658653d62d3ac82dd192c481281781e6"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sv.json",
+      "bytes": 13556,
+      "sha256": "1f93d9d43f4362843b31c358effb4bbe149d5d69ff6837e2c154feb99d1ed62c"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/sw.json",
+      "bytes": 13589,
+      "sha256": "310dd68cdbfcbbaf01aa2e2c960002d284b5bb13967253cee153111999bde014"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/tr.json",
+      "bytes": 13825,
+      "sha256": "9261b271009402dbd7996fbf3c56ed5bc5970dff1f342f839e8709ca82b6fa5b"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/uk.json",
+      "bytes": 18507,
+      "sha256": "8bcbf862622ee622bb0ef6299fa04c2840438058b71ed80e950b0aef6de18da2"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/zh-cn.json",
+      "bytes": 12285,
+      "sha256": "5ecee1405e8eeb3257bd11f1f66e6416c881ac3772bc695912156791edce18f3"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/zh-hans.json",
+      "bytes": 12126,
+      "sha256": "90607239fac48cfcd95bae80af9c80a903038b486f5dc240a55c556b4367b7bc"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/zh-tw.json",
+      "bytes": 12287,
+      "sha256": "0fdf1bb331783a50155cb11841b2f8f3dfe4584208469912278ca9120ddfbf2f"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/language/zh.json",
+      "bytes": 12292,
+      "sha256": "2c42a9ac9ef00c668324d0647b8d8ad9e4a958829dc7b79b4af028a7889f4542"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/library.json",
+      "bytes": 1213,
+      "sha256": "69275382298774346ea07da3996f806977c63fa348da49c123b4b2a7a005b761"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/LICENCE.md",
+      "bytes": 1067,
+      "sha256": "e2265ea63b702c31bc22995213ad298292de2aadc088aefc982b6155a68ad733"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/presave.js",
+      "bytes": 1781,
+      "sha256": "ec442fe6bc29fb503f096c878b4d9bda347f2bf3cbda6507e492477cc7a0e064"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/semantics.json",
+      "bytes": 28129,
+      "sha256": "490e18f758e57bfd1bbd01527b586c5f6a51e63ef1a91ff00357f41996dfb92e"
+    },
+    {
+      "path": "libraries/H5P.CoursePresentation-1.26/upgrades.js",
+      "bytes": 12017,
+      "sha256": "ad16f687676b19e55b06e9616f7582e0aec5e5555ab94b0c92207e33e76904d5"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/dist/2aecfafb6066a6b8c73d.svg",
+      "bytes": 1243,
+      "sha256": "ba85ae7f6889cd681df704a147d92b437187cc9e08dd0628a71786260cf4e38f"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/dist/h5p-dialogcards.css",
+      "bytes": 12828,
+      "sha256": "d904aed37263cb8171db95bcf8308070d021e7f2d49617bf9541f96ee22c6e0b"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/dist/h5p-dialogcards.js",
+      "bytes": 34007,
+      "sha256": "64879e98cbc03b8bfd445dd16f3f91683d1ab1c3f96d213679c21ce666e96ba4"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/icon.svg",
+      "bytes": 2536,
+      "sha256": "7981c79f0c9e7135c4c130f9d54395e1ea7788e5e9ed48a37a7a961621cf8fbc"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/af.json",
+      "bytes": 6291,
+      "sha256": "436d6bdefe7db83e4881a72767526307e28079cad368c8470fa6896fd12557b1"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ar.json",
+      "bytes": 6133,
+      "sha256": "28e7eda2761263f58cd9d0b5cb4060e9f34910b3589a806b4e1069972d9a94aa"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/bg.json",
+      "bytes": 9439,
+      "sha256": "7285152c108cb319c6860ae81aa090a05d3d982fbd3e94eb599f56ad74eebca3"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/bs.json",
+      "bytes": 5984,
+      "sha256": "374f1b742ad41c353145065d538643bf6dac31bdc14f61440e34f918be51821c"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ca.json",
+      "bytes": 6670,
+      "sha256": "70d2758002832f98d27e85c2b1f7d01d2bae8e37204c253e1a4651f1320c31f9"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/cs.json",
+      "bytes": 6286,
+      "sha256": "0313cf626d4f4915508ad61b118beae52c8552b860fd9289e5581cb65e1092d2"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/da.json",
+      "bytes": 6064,
+      "sha256": "e5c384e18d49c56ba99dc540ce0cc0caef9741e832e61e8385e094576066a66f"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/de.json",
+      "bytes": 6710,
+      "sha256": "ee703696d1b42bc37e8503def4a1a7ff5f7a525b5073b6f18deffe01a900c29e"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/el.json",
+      "bytes": 9238,
+      "sha256": "b2fda099a1f58194ddaa55028d62a2c92728f673cb3e93f5f28d06618827e1b9"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/es-mx.json",
+      "bytes": 6574,
+      "sha256": "23eb8f80a962dfae40e9254050ca5483a13bc12965e0b2f030fb43d78e5ca0f0"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/es.json",
+      "bytes": 6533,
+      "sha256": "dbdb5b2e85ce56ecdce03c6fa6f8df793c8f988ece501a43704b8bee57502c24"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/et.json",
+      "bytes": 5857,
+      "sha256": "3ef64be44d005537496b0472ee7744440160d6995cd1c8e046bb41dcb387a00f"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/eu.json",
+      "bytes": 6435,
+      "sha256": "8dddfa97b9dccee271eaac398d14a2607b8795699325618bc752ba5b520a752d"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/fa.json",
+      "bytes": 7797,
+      "sha256": "61c41f93c84157951394e025a4a351a3f0da08d595331651c78bc5568811eece"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/fi.json",
+      "bytes": 6220,
+      "sha256": "56bc77fb6209c78761509bc545b74b5f22d196d2ad8e6ea7466a44f83e568c56"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/fr.json",
+      "bytes": 6530,
+      "sha256": "24d3b705ec2d3302c33b1f4c4d43e1ee1641d3407097f97e4bdf93eeed9cec8e"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/gl.json",
+      "bytes": 6344,
+      "sha256": "bc0659744926dff23a9015cc66c8b9764bbc8acab855ced03989b4cef7abf6fe"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/he.json",
+      "bytes": 7224,
+      "sha256": "56b0b3473930db2ec4c804b9b8232caa873a4c6aa9737bd42fa1e9dabf7db3d3"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/hr.json",
+      "bytes": 6245,
+      "sha256": "b9a3f885b93c443b5c36dcb6c2ba6dad32d7b8bbb96be3720d779eb7eeb2ea06"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/it.json",
+      "bytes": 6523,
+      "sha256": "4796d607188e260649c18d5499af358a327503b1b5adfc78516ca0b4bcd18797"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ja.json",
+      "bytes": 5985,
+      "sha256": "759d9b2a188e2f35d11147c4b2937d58f7cd20af3900a97d470a7cf677d82692"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ka.json",
+      "bytes": 11139,
+      "sha256": "5963fa25bf93fbfe2c063b95a7737c4a6b9b351b68b703d727a9ca97210ad0a7"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/km.json",
+      "bytes": 6840,
+      "sha256": "ca069208c98be3f38883d78ae3871f7cf905bfdcfc6ac78f2cd43deef340ea8c"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ko.json",
+      "bytes": 6466,
+      "sha256": "d9de62944c9c8918462187d2f05f58cc1d9512d717da4ed47da3cd590cda6707"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/lt.json",
+      "bytes": 6456,
+      "sha256": "5adcb2abe70854cd26b26fad1d10b7a6d9b666547db220880bd76e2633e73c3b"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/lv.json",
+      "bytes": 6400,
+      "sha256": "5b3a35427869652e22abf400e9029ca826ba55cc28318eea7d4eb9a160b6dc36"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/mn.json",
+      "bytes": 8530,
+      "sha256": "7563735779ccfeb6943a357916f4287eb027dbc13b70ff67f55ba260f197a4bb"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/nb.json",
+      "bytes": 6151,
+      "sha256": "92394b4107d291e86c666162e5c44676e37464ba57ae77f03efd6d9b98b1d3d6"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/nl.json",
+      "bytes": 6404,
+      "sha256": "0e2b642fd511deaf1a3198485e109169330794903afdc773145ef49d5bf7b8ba"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/nn.json",
+      "bytes": 6214,
+      "sha256": "57966aa48587c45337f57a47be4b4580254ade6df20717498f10242be028e79c"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/pt-br.json",
+      "bytes": 6524,
+      "sha256": "a067965e621a5ad2de09140bbdf6397e686b2975f26f05cf2374385c696a5951"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/pt.json",
+      "bytes": 6404,
+      "sha256": "6597d445d482861e77952d892c161d152969a81637937aea3279635624e09940"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/ru.json",
+      "bytes": 8713,
+      "sha256": "5fa2f847f63b252657d8cd28c7fae05d64a88c02214acc779940fb3e482011ce"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/sl.json",
+      "bytes": 6282,
+      "sha256": "81e08f52400fca669fb39e3293e54e3f851133abee928a702e7d8b9a5b8b6bf3"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/sma.json",
+      "bytes": 5985,
+      "sha256": "759d9b2a188e2f35d11147c4b2937d58f7cd20af3900a97d470a7cf677d82692"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/sme.json",
+      "bytes": 5985,
+      "sha256": "759d9b2a188e2f35d11147c4b2937d58f7cd20af3900a97d470a7cf677d82692"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/smj.json",
+      "bytes": 5985,
+      "sha256": "759d9b2a188e2f35d11147c4b2937d58f7cd20af3900a97d470a7cf677d82692"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/sv.json",
+      "bytes": 6241,
+      "sha256": "db6d6c2fee18c6691fa253ffef03f24e0baa6fce8394bf7d852682573fd33bca"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/sw.json",
+      "bytes": 6312,
+      "sha256": "cad161710ff12dda50efc4370593acb1810873a4385862d0ff2701ffc44032ae"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/tr.json",
+      "bytes": 6160,
+      "sha256": "7652c79bea87f9cec54f999f47d55d66586d4151df7141a1f39a46c4e6c93f0e"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/uk.json",
+      "bytes": 8636,
+      "sha256": "7aff84bec9c352759de3b3f1782339b4dee41c6c1ef02592b5073f71c93ce950"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/vi.json",
+      "bytes": 6876,
+      "sha256": "71e91809e8938aafb17376ca6bc7b5cb15a7adf1c28235c0443ce2e0c7b9e9b9"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/language/zh.json",
+      "bytes": 5840,
+      "sha256": "d416c0640d9b1f81a0f3d3ffcf565d0a448ffccc8e36431b1339e03c83cff39a"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/library.json",
+      "bytes": 1102,
+      "sha256": "a071e2c7b53d826a5cda2b0fba36a4a9c5adf33bc57d4162c2ccdfa1276809f7"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/semantics.json",
+      "bytes": 12127,
+      "sha256": "fbfa7f329e05d17a6d2fe85620de1913e7052b498fa1c30b8b2cd6fe1202630e"
+    },
+    {
+      "path": "libraries/H5P.Dialogcards-1.9/upgrades.js",
+      "bytes": 2568,
+      "sha256": "6ca329d9d60fb99a9e998dda905b1792a6e0a4fe1f7cafe7a92a250e1d0faedd"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/fonts/h5p.eot",
+      "bytes": 16800,
+      "sha256": "5a6829fb5b3cd88218fa35fda3b95870e252d50ac69590b43e90024f343097a3"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/fonts/h5p.svg",
+      "bytes": 63288,
+      "sha256": "b07c53877ab7f9d4559c5337b31ad65334298c02165182628c80e17b38641fab"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/fonts/h5p.ttf",
+      "bytes": 16652,
+      "sha256": "6379c5539fd5604ef5bb96a3df6f77b8adab6d4ae567fc30bce6cb67c421b984"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/fonts/h5p.woff",
+      "bytes": 16728,
+      "sha256": "cc16da4a68c416f4ba29493c484c20632ca47570be505ca163dfff2f0a8ef19d"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/library.json",
+      "bytes": 266,
+      "sha256": "29072a0725720560591751b233f794db918112307e3d687711f426f6f239c566"
+    },
+    {
+      "path": "libraries/H5P.FontIcons-1.0/styles/h5p-font-icons.css",
+      "bytes": 360,
+      "sha256": "7a8f0aee6e4a1748917d8cd60e995f8e2fdfc546fd1a5507aaa63a22e32b2dce"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/image.css",
+      "bytes": 260,
+      "sha256": "8f32b6266820b86c357e7600fe9aa3e5f86a2ed069f7f391f153959f1980aa5c"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/image.js",
+      "bytes": 2614,
+      "sha256": "67bca51af7389898a64c7ad8ecb88648f055baa582031f71e296838d52dd775a"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/af.json",
+      "bytes": 907,
+      "sha256": "e49747eb5969ac72c7e253d8a0e6c181d920e83409874e34d1753e5a4e35cac7"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ar.json",
+      "bytes": 1102,
+      "sha256": "af8e9437a3f55af6b0f89cd24438649b42693409cef1074d6517586755e22eca"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/bg.json",
+      "bytes": 1254,
+      "sha256": "81d8da9f4dd22349ecaf39a92eba1a35ccb9bca1635fba8dd26fffe62f98a427"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/bs.json",
+      "bytes": 869,
+      "sha256": "fc107790d920306ebc95f1e7914f19e91950d56ca2cd53b5972e46d98bea9905"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ca.json",
+      "bytes": 972,
+      "sha256": "4f15c3f44812800c92985cbafb83b8cdfb9b9593144f082db439c47446652247"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/cs.json",
+      "bytes": 1013,
+      "sha256": "4e15cd8f8b5be3c24d9e02979c747f0fb3a7819d54163965e058b9aedab45271"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/cy.json",
+      "bytes": 974,
+      "sha256": "3622f040733fc86bf7cc90f78f09885c3e92e510c6f996215563096a8ad892d5"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/da.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/de.json",
+      "bytes": 925,
+      "sha256": "3ff68e37333f291fcdd58cf74d76ad9774b45783b6076e49f8b618745f211a62"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/el.json",
+      "bytes": 1473,
+      "sha256": "ababc33367d7f1a6a4349da5ce072c5f77e6bbc9fbb7f0d19de65e90d9deab4f"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/es-mx.json",
+      "bytes": 1003,
+      "sha256": "fdec9ec62c9e6bd7ef7c20bad5f252dcbbb39bc1a27b958b17dc08d1be32ec98"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/es.json",
+      "bytes": 989,
+      "sha256": "c557b1d87c0f772b65d4dfb746ad23542a5d889636447f734887dd3699523d8e"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/et.json",
+      "bytes": 893,
+      "sha256": "bbfc08ff8f0c4f8ff63f1ebdae33abae8b8e9fe06ba745bddb16ce7bf02cac93"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/eu.json",
+      "bytes": 949,
+      "sha256": "ae546d7f3cdff6db3d25407de5285df1fda0d0d96688d49356c4c1d219da1fee"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/fa.json",
+      "bytes": 1107,
+      "sha256": "453909acc7d92fbd795e081e5e313336c95e5e979c54e4bc5860b4ad32f21632"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/fi.json",
+      "bytes": 873,
+      "sha256": "c174143cca29d3e4942fe74e18f161057bce325edd719d4a8e70b54e204a1de1"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/fr.json",
+      "bytes": 830,
+      "sha256": "0c620979b15cc94df04fb4e1a309184cc15623e4dba74e46f3e35aae5335a782"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/gl.json",
+      "bytes": 959,
+      "sha256": "82ab63b5560d0417add1cd61850bccae5ce80f75bb3b041cb191b68aa46054f0"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/he.json",
+      "bytes": 1107,
+      "sha256": "ba69059cbdf31532a19fa02ccc996851c1bfc2f9a40731f5fc8e0ee0fa75b2cd"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/hu.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/it.json",
+      "bytes": 949,
+      "sha256": "72cfd651aa7823a70057540d48cf65a6dfbc368f5ba79004f5b574b6dd859ca8"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ja.json",
+      "bytes": 1052,
+      "sha256": "3b9123988a9f51802a4bd333daee106f705f9e54e32b45ca1092a3c9e5ac4be6"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ka.json",
+      "bytes": 2086,
+      "sha256": "e4f7ce2a45c05b718ad88d73d1382dba7294112c9c5e39937aae9df45ee141c9"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/km.json",
+      "bytes": 1448,
+      "sha256": "e709713547871fbaa31e76ff381dcbfd0044ff2743520b760159565231a85325"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ko.json",
+      "bytes": 1032,
+      "sha256": "2a156a94346043ae25770efcd2a963c857a1bc58763880e764d60c113f85b7fb"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/lt.json",
+      "bytes": 976,
+      "sha256": "45fd9e5679d99edccd4a77aee374b4924293d2fb08282f8b91250e7d5ec9d164"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/lv.json",
+      "bytes": 956,
+      "sha256": "832b49180df59b88e0010e250f2f247b101bd7205eefa8664b5f0b3e796e6191"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/mn.json",
+      "bytes": 1203,
+      "sha256": "ff6630d5ce4b07ac2c549309b1eb0c4fe82a2ee938e77dc72aa6595403d216cc"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/nb.json",
+      "bytes": 879,
+      "sha256": "a45938dcf3d8446d574ed92367f77117871dfe3cf660cbf3870a5944c5e98e39"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/nl.json",
+      "bytes": 944,
+      "sha256": "8902b815bbea74fc03da812c3b90d6cdeee8ab8220c396592eba68b6ff8d57b7"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/nn.json",
+      "bytes": 918,
+      "sha256": "8927bf96109a5dcd9cd5dfbf71533f07b17f7e4c6b23b071597e3f5c061488a7"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/pl.json",
+      "bytes": 907,
+      "sha256": "20a9bfc5283a7f9ca766c169595bb1eef08d74ed27f45afd81dea594f8f9c6c0"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/pt-br.json",
+      "bytes": 944,
+      "sha256": "3993c75647fc563b8eff8a36dd5b33cd0f5176bdff4433ecb52c55264893d908"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/pt.json",
+      "bytes": 968,
+      "sha256": "a249975ff79d6dcbc1ae2c3d291e1463936a6a2c11beffeed66c0792a2ed4684"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ro.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/ru.json",
+      "bytes": 1245,
+      "sha256": "f3188e98318bc5c80ccb04332bb1fde0276d7198cffaa9fc2cad17658eb93943"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sl.json",
+      "bytes": 917,
+      "sha256": "91fde76142c5e93b315311aa35493f326139a2e1bca05cb5e616781d28e94be2"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sma.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sme.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/smj.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sr.json",
+      "bytes": 900,
+      "sha256": "2cf7a9494aada83ed3ed71213cf5fd329f207864b522821f43370880ab58d646"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sv.json",
+      "bytes": 942,
+      "sha256": "2974e58022f8dcbc6e96b57ef70f3bbc8f20a21036e7803cb5bfb5388954e824"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/sw.json",
+      "bytes": 924,
+      "sha256": "4e5fa947daf55e1c9c19eaece19edef7c77745d738b0120dbe23f7dcd46112e6"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/th.json",
+      "bytes": 1837,
+      "sha256": "49b96c7f3ed3018a5e436682d7ecd6beb42b666968801c226972f14954e24e3b"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/tr.json",
+      "bytes": 959,
+      "sha256": "077d60232d8e5db1872d72e842db5a66f9b79d22d130baf32f73d85222900b80"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/uk.json",
+      "bytes": 1424,
+      "sha256": "1f3ae7009e686d437f71a9dec7c0dfe3f491ef6554e46ed38043faf55ae5f7f1"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/vi.json",
+      "bytes": 900,
+      "sha256": "77253c96a0f8a9d1dc64ed6c6f536cdfe6baeb89381c3b353088c7ef58a949d1"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/zh-hans.json",
+      "bytes": 860,
+      "sha256": "1937177932539b73236f6e61036bd3895e80b182590e907361ba4899e3f5ef38"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/language/zh-hant.json",
+      "bytes": 859,
+      "sha256": "ab28dff5dfffed97e558b50decffb0bc563088149dc60b3ad3b55ed91512460f"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/library.json",
+      "bytes": 665,
+      "sha256": "5f3f9942d3f0a3014f56a82265f0e52afc73cd97b3548ec4a25d9e6b27be8e6f"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/placeholder.svg",
+      "bytes": 1284,
+      "sha256": "76180b6286f30a4629d916cc77e4fc2be35e69b63f85d6aa16101d02ad174269"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/README.md",
+      "bytes": 1214,
+      "sha256": "92e7419fcab7559d6df59cae4be3fac603ac843134bae30740119aef297f94ea"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/semantics.json",
+      "bytes": 1609,
+      "sha256": "0f085b7395a18cda566f7c6d31644cdee50a2c7b4092666216eb21893b0e878f"
+    },
+    {
+      "path": "libraries/H5P.Image-1.1/upgrades.js",
+      "bytes": 1770,
+      "sha256": "5a2673a40fc4485a6b65f2dace77489a463b1ade0fdb1f581e08ab652cf99864"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/close.svg",
+      "bytes": 418,
+      "sha256": "c33797b135c35fdadf2ded0a4aa340247c781a48dad7282f8be0e6241d51d250"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/icon.svg",
+      "bytes": 2834,
+      "sha256": "ffcdde032b0f03e88cccd774f867b5c36b494278cf41d356e3bbe5f0e3aa0e9a"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/af.json",
+      "bytes": 2659,
+      "sha256": "969fb0fd96bf7d4a67b91969a502f6a8c3852734097bc146a4d1b950b0259e3f"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ar.json",
+      "bytes": 2888,
+      "sha256": "a7ba67ea98b552048bc54653b02c4fbbc2c79bdfa106f5e83452c22c0d0d133c"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/bg.json",
+      "bytes": 3640,
+      "sha256": "d3c71c7a13d094c614315a6d40eabbac179715e65dddb2cc5b70c63ae8378532"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/bs.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ca.json",
+      "bytes": 2818,
+      "sha256": "1869caa57b17b6919897e488b4f9a02a58429b6f3be6534b9c54a694858d194c"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/cs.json",
+      "bytes": 2778,
+      "sha256": "dda1749118f02bbf3a4542646d87765d8b9c7fc13c496187b311e4b576c69048"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/da.json",
+      "bytes": 2553,
+      "sha256": "66324489838121c7a49ad8d5be7513f55b775f5748b8a6fe7d68da09a5f94ce4"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/de.json",
+      "bytes": 2869,
+      "sha256": "f0eba4a0429509cd6de989c84b1720934826fd4bd035b7f1952142862041c9b9"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/el.json",
+      "bytes": 3794,
+      "sha256": "d091465d0811b0188450fb085a54ccb12f7d48a961416566ae751cf28b32bb42"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/es-mx.json",
+      "bytes": 2794,
+      "sha256": "3931747eaac2f733f6fd546d19e7665a8e762bcead8321e3c725558d46c8f5c5"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/es.json",
+      "bytes": 2775,
+      "sha256": "917cb73b287bcd8ca5e1b784f81b4bbd28f57e312e81b6a9a36385afc686cbe7"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/et.json",
+      "bytes": 2577,
+      "sha256": "56d45e705e1a28fd738fc16cc6cc71a47bf0b6edddfed330c77cf0d3b0bcbcd8"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/eu.json",
+      "bytes": 2708,
+      "sha256": "408203e3ac912e6a256b7d90665a96171f248c852286bd5aeda05ebf2e5a6fca"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/fa.json",
+      "bytes": 3417,
+      "sha256": "b2d7113f4911194dfd54eb47e3b3881b70683a0560b30b60b5aa7372bb3bd291"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/fi.json",
+      "bytes": 2742,
+      "sha256": "f3251db0665e3c05ece9d07121a46a6279f8a0d6d29a2fcbad673d98f589aff3"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/fr.json",
+      "bytes": 2811,
+      "sha256": "497f4da86b2d8f027af748f4c161056888330ebd32f064e4e2f6346e760c7096"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/gl.json",
+      "bytes": 2725,
+      "sha256": "4defe26ef21dedef0ed6a35034f762e4d3f3e9cf26f1c213a87f56d78860ff26"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/he.json",
+      "bytes": 3153,
+      "sha256": "fca621e3b9836fdf485c5624a5592856cf0d4631335b62e7f012be62ea794b7b"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/hu.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/it.json",
+      "bytes": 2704,
+      "sha256": "87e7333224f89ca6f959e163f26d05770504c7b414ec177893f198bcff564521"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ja.json",
+      "bytes": 2558,
+      "sha256": "1994b14bac57dab4d820807bd8d54637be7bbef4dd8416f9ad34bb86928f3757"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ka.json",
+      "bytes": 4476,
+      "sha256": "9b64bfccf5d680c14066b9e45d64c005f167dd4c6dbf353aa14fec364f3b2e25"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/km.json",
+      "bytes": 2573,
+      "sha256": "27077906e08361e242551fccad970076fc48759e012d14cf4d44c9b9f5e7a462"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ko.json",
+      "bytes": 2771,
+      "sha256": "baa106be132ce0a5cf8fc81b7c65171004e9cf4e56daaa3e4e483ed154b0b8b3"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/lt.json",
+      "bytes": 2911,
+      "sha256": "65561e5378ba180964a40b8af7da82f0f3223f5710581a6b1be3eda1d92684e8"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/lv.json",
+      "bytes": 2731,
+      "sha256": "f5fdab0d045558d7c712bf92ff3864f35f4f79206f8114e7cbc59c6e070325d0"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/mn.json",
+      "bytes": 3613,
+      "sha256": "f0555db4916af29746629b9a76a600f6fff3f9f6b30a60d7bbfb8f10094c0349"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/nb.json",
+      "bytes": 2551,
+      "sha256": "9132ca65c682b935fcad71cb770854e4e3b37b79c128c38aef3007884487f238"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/nl.json",
+      "bytes": 2752,
+      "sha256": "4d8672653222175967142e58361e481c4377b4d089d3da9e875d5874659ea315"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/nn.json",
+      "bytes": 2554,
+      "sha256": "521242c1d075ee56f0064417414754516deeb33a058eb4c0af5e6d858a61851d"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/pl.json",
+      "bytes": 2659,
+      "sha256": "f3770ccabd509a5433c7c901d6c5d016a5da0d35fbb1b327d811e1cfd10c8c79"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/pt-br.json",
+      "bytes": 2835,
+      "sha256": "2aad0048ee97c031811655d8e8873c8d0f5667b39e1940511b15c225071d616d"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/pt.json",
+      "bytes": 2630,
+      "sha256": "eca4d5b33e0019537e4950f205f38e332890417bd5ff17ad219607ff897e8678"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ro.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/ru.json",
+      "bytes": 3621,
+      "sha256": "9eec7b78e97821de4885c99f43e06a800adc6e5d8df49f03a7c864c7ff1c47c1"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sl.json",
+      "bytes": 2651,
+      "sha256": "9027ab7027fd8187cdef5853d5711091c871975abe8d77576ba1fab55258d2ec"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sma.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sme.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/smj.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sr.json",
+      "bytes": 3339,
+      "sha256": "fe2c16cf0fcde8e41b587ad785d6effc16c91d7e34c3b876ae54653226ba6eb3"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sv.json",
+      "bytes": 2675,
+      "sha256": "a1deca99d85560549a57c6da335e8ecc2331976418a581a9dda8d3b791be2f87"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/sw.json",
+      "bytes": 2887,
+      "sha256": "75ac42295271f596aec11636bded0b95b773a0bc38d175d21bb32a37947a875a"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/tr.json",
+      "bytes": 2744,
+      "sha256": "20011267a02ac57aad7cdb9acc9be497b8bb4956262aaa65714f93e0d160f16d"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/uk.json",
+      "bytes": 3574,
+      "sha256": "d3cb741896bd2a34a22bf3da906e0aa7f01b8de163fba49414d8adfef69429ef"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/vi.json",
+      "bytes": 2555,
+      "sha256": "fd2869fbc67f1d5437ae56249b89a745a83a535b30f1689c0e60360a1a74ac85"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/zh-hans.json",
+      "bytes": 2435,
+      "sha256": "7ed8cc9e2050351aae3e85c291ed9bdff854229e824bf7f384a154d50e7d115e"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/zh-hant.json",
+      "bytes": 2437,
+      "sha256": "2b8476c4bd0d270063796a92738ffef92195cc43a9401f47a65961f7fb7ffc7d"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/language/zh-tw.json",
+      "bytes": 2550,
+      "sha256": "8068c5afd8e87e2ad9df4589713e0d23d3ccea23d9506df20d44d46abd64263d"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/library.json",
+      "bytes": 1243,
+      "sha256": "7c0f6a93e07bab167905a95d5fc92b53717b878c3c42a6c608cef5c25a4fa670"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/README.md",
+      "bytes": 1260,
+      "sha256": "f24127fa45a253e285ed96843b3b81ceb6df8085b6c4708d57734995ad7ca839"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/scripts/hotspot.js",
+      "bytes": 11107,
+      "sha256": "45217c2c426ee55c6dff4184a97a1c6b4d7624ad438b2b27296346abad0543fb"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/scripts/image-hotspots.js",
+      "bytes": 8955,
+      "sha256": "70056c141127c618a0c679f537902d5316752d4f2640a5e6fe9e4edde12da945"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/scripts/popup.js",
+      "bytes": 5643,
+      "sha256": "0c95dfbf0ca475f253fdcfc6b872f85ed6140676aeefb03d4a3481e52183773b"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/semantics.json",
+      "bytes": 5125,
+      "sha256": "cda67565581954ea9a3ca704c9be3f02f4258b9bfa4e2d9c3d2fa5de5a7dda65"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/styles/image-hotspots.css",
+      "bytes": 8102,
+      "sha256": "a599263cc76b311227225ea60a0c82b75686177a1610e5be5abc8463d7ff0266"
+    },
+    {
+      "path": "libraries/H5P.ImageHotspots-1.10/upgrades.js",
+      "bytes": 2560,
+      "sha256": "67e5c3ac705edb24fec7dfd6ab7a04dd4b250e5aa24a02cf2f7a90d360e152e9"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/image-slide.css",
+      "bytes": 152,
+      "sha256": "33932ae32fe5e2c3be184481128bbbc6973036eb9bd7b32b2c9a7ba6703106f5"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/image-slide.js",
+      "bytes": 3613,
+      "sha256": "7e4a024e33b96253b00dfd97768eb783e693883601df40b1178d33a6d9ac17f9"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/ar.json",
+      "bytes": 63,
+      "sha256": "cc171c47e347f465062e81277e76e691617e38ccd3a7746bd0baad47d3b464e7"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/bg.json",
+      "bytes": 84,
+      "sha256": "60cc32d08a9a13ce7bb9ee0e6e03eb898b7542f0f81d59969abffb954f12b956"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/cs.json",
+      "bytes": 63,
+      "sha256": "140bd572b5fd98bf536df00cece77f491242eb9d59e0b4e8c77eb1492dc1b364"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/de.json",
+      "bytes": 59,
+      "sha256": "649d6784d73d3beb31adf764e73d3bdfa5c7ea768711dfe89588d32988c87b06"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/el.json",
+      "bytes": 67,
+      "sha256": "71e7d13621b5f2fdc972a3da7d27c370446db51e10ee69ee283d32e146d7595c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/es-mx.json",
+      "bytes": 61,
+      "sha256": "38e67ab3d87c038e6411e8e01a0ce0190730cb6d2538177748e8895ccf3c8422"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/es.json",
+      "bytes": 61,
+      "sha256": "38e67ab3d87c038e6411e8e01a0ce0190730cb6d2538177748e8895ccf3c8422"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/eu.json",
+      "bytes": 61,
+      "sha256": "ae18f71e8fa625ad5283d2142f2df8c13b199657a142524c38af88c7bbbe3135"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/fa.json",
+      "bytes": 65,
+      "sha256": "6993b94d8b02b6b3a5f3ce6954c9dc7e0bd91eb6335c3c9264256bc0827fa95b"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/fr.json",
+      "bytes": 60,
+      "sha256": "8a8f15cc46e58cf7f93fd0d1bc4f09755b7534cecba9b24a250a1bbdb341d798"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/gl.json",
+      "bytes": 60,
+      "sha256": "7493773258afeda1d9dd2a4b7bd5323b8ec63892af33314101f040e2c899a4c7"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/it.json",
+      "bytes": 63,
+      "sha256": "f074b8d589e19434ef616b58672e42f52334ddf7463848529b29ed5801ed516b"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/ka.json",
+      "bytes": 91,
+      "sha256": "23c9312b5c7d01da33f3196406c3fc72c71067fa92e2873fb68242e5f66d66d1"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/lt.json",
+      "bytes": 68,
+      "sha256": "206833dd8259d6f35e1ec1760bf451a51c742b7b549ed469dfc30bc192e0a4de"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/lv.json",
+      "bytes": 62,
+      "sha256": "fb49673c2f891fae9934d97b4f0058bb5d474ab0260c441eb9abb6f4d785b4a1"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/mn.json",
+      "bytes": 63,
+      "sha256": "ee597fa316e3c644cb667f4503792f1052edc4512b30ce6fd60fc5330fb6031d"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/nb.json",
+      "bytes": 60,
+      "sha256": "dac7064a867116224d35cc9bb233dd61324d5f76e261d47fd1732e5c8379b6c3"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/nl.json",
+      "bytes": 65,
+      "sha256": "409d412f12c847ea9ef9af66eecd2bb515fdaed8bfd414889cad85f2473482f9"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/nn.json",
+      "bytes": 60,
+      "sha256": "8a8f15cc46e58cf7f93fd0d1bc4f09755b7534cecba9b24a250a1bbdb341d798"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/pt-br.json",
+      "bytes": 61,
+      "sha256": "178002ee79c088c188e3368f656105516409c7413c9598ec38a5f810ef528ef1"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/pt.json",
+      "bytes": 61,
+      "sha256": "178002ee79c088c188e3368f656105516409c7413c9598ec38a5f810ef528ef1"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/ru.json",
+      "bytes": 76,
+      "sha256": "52a44695b4aca38d1b5de67239910fad373c9221be15e99e975eec66f8f06c98"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/sma.json",
+      "bytes": 59,
+      "sha256": "ea61221890a9cbc2da6100c51b9918bcceb283f80a2d1e3a394bb2d2c09dac3e"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/sme.json",
+      "bytes": 59,
+      "sha256": "ea61221890a9cbc2da6100c51b9918bcceb283f80a2d1e3a394bb2d2c09dac3e"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/smj.json",
+      "bytes": 59,
+      "sha256": "ea61221890a9cbc2da6100c51b9918bcceb283f80a2d1e3a394bb2d2c09dac3e"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/sv.json",
+      "bytes": 59,
+      "sha256": "649d6784d73d3beb31adf764e73d3bdfa5c7ea768711dfe89588d32988c87b06"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/sw.json",
+      "bytes": 60,
+      "sha256": "5268348616d84fadb90d0e05bfe49959899f82f964da2c7512a827ebde095440"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/language/uk.json",
+      "bytes": 74,
+      "sha256": "671fa9f5acbac947b56a3774daff36439e843027028daf99c7376028b1baab99"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/library.json",
+      "bytes": 453,
+      "sha256": "f4f8ae492aa2ee3a1b89043acacf756c8c0dc4ae5a788b672d0082dccc0757d9"
+    },
+    {
+      "path": "libraries/H5P.ImageSlide-1.1/semantics.json",
+      "bytes": 122,
+      "sha256": "a9a1e1aca149b6cc9e776cd1e4f106b7def7c352aa0c6c3632cbe32578575599"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/fonts/slider.eot",
+      "bytes": 1372,
+      "sha256": "961d985181f4a798ec2e28995a2f594de3d9267977de5b9191168618963fa4ce"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/fonts/slider.svg",
+      "bytes": 1569,
+      "sha256": "21971f236af4e4065892cd1528b4d018977987c0210e7b299e410f30ee96228d"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/fonts/slider.ttf",
+      "bytes": 1212,
+      "sha256": "f2e2637d75c9c1d68aaed2714868771e597f37d3108b59b7483af7b7524405c0"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/fonts/slider.woff",
+      "bytes": 1288,
+      "sha256": "f4e27fb7cca1fc4bf473d43ad57d9084cfa38908fc16198378a48e3db6e2ed5d"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/icon.svg",
+      "bytes": 3357,
+      "sha256": "2475faa40a20ac075f07c7b14e435ba5f7e9c5725e306984d294e190b9c9d311"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/image-slider.css",
+      "bytes": 4575,
+      "sha256": "0fc913a158475c114e1efde4eb2916dc642bcce5c99a1f0433941eefc843502a"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/image-slider.js",
+      "bytes": 18916,
+      "sha256": "d268a61d8a68fe8a765a1a5c5bbcf5ec7c4fdc2f3f24dcca3d78b96d7c9cb29c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/arrow-left.svg",
+      "bytes": 1383,
+      "sha256": "4105bbf076fe62293e99382212cccf96174f25bd7e770992584d92ab7e5f4efb"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/arrow-right.svg",
+      "bytes": 1382,
+      "sha256": "95edc074b1c937f8c1c9edbf097c5c15ef2b9c24895886e7c23891f682798008"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/circle-active.svg",
+      "bytes": 623,
+      "sha256": "70b001cd9504a1aafcc3ea71f9b687d15a0765e970342383e27f0019f71da486"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/circle-inactive.svg",
+      "bytes": 450,
+      "sha256": "2eb536413e88a3024f7f1ece6f68c8637c74937da0eeead1af09178b3aa49b21"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/full-screen-enter.svg",
+      "bytes": 1252,
+      "sha256": "3ef31e0b7412c818a2224614e4bee948b321659a42e9ca3daa12953c39a678b1"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/images/full-screen-exit.svg",
+      "bytes": 1258,
+      "sha256": "f5b642d151032d4402ed7c91066560b1e40b82b3b0438a7632299ed7b1530c09"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/af.json",
+      "bytes": 1787,
+      "sha256": "b1171a24dd19b80dc37312aa7e7e92663a3803e885035c4ab821e76879a7c3ee"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/ar.json",
+      "bytes": 1992,
+      "sha256": "8bc8d4694bf14c626c04f2b83c8424b9a405ccece4e92d76b05caceb30e33ef6"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/bg.json",
+      "bytes": 2822,
+      "sha256": "c6cc86bbf4339970107f93ba870b29dbcd173fbefa50740f51ffad4ca86201bb"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/ca.json",
+      "bytes": 1901,
+      "sha256": "9e1c989d49b0286181b716af3147b62f8b5496dcf7696a72566727e7cfc59602"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/cs.json",
+      "bytes": 1751,
+      "sha256": "8404ec216e8dc9712d0167bc563e57a6e0164cfcffea0a2cdf74ed80044353ba"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/de.json",
+      "bytes": 1871,
+      "sha256": "49648c76221ab5ca281a09fa562b5f43628c8ee5740d22ce2b90936c1d739629"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/el.json",
+      "bytes": 2593,
+      "sha256": "dcd2298f2759585fc8cd98a274f01aebfe0ab78c2fbe86f66a1a4e39e6b2d65c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/es-mx.json",
+      "bytes": 1899,
+      "sha256": "04e8093ada8d6c7751caa4f22022d9eb95b88519f69c35b629789e1564984e73"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/es.json",
+      "bytes": 1858,
+      "sha256": "10bb2771b38358bae79a792e2107184f833ae49e911d4e7c8fb9c3485c18f483"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/et.json",
+      "bytes": 1616,
+      "sha256": "a9673b7348d9d6dbb0e9f9e4fd987d3fab6b088a9f6760110c8b371c2f9b0a0c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/eu.json",
+      "bytes": 1855,
+      "sha256": "fb7c61ea7bbdb9df4f941e2e10e923cf463620bc2b34412a655ba66645b1e90e"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/fi.json",
+      "bytes": 1857,
+      "sha256": "640b63f9a82a8a63a3d320f08ea79a93441082cdf70d1148d972503a2d95dba2"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/fr.json",
+      "bytes": 2435,
+      "sha256": "071cf77512bcbba68733882f6d6b224478159f01bb060b704c712c1ca747e32d"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/gl.json",
+      "bytes": 1849,
+      "sha256": "13c832cac0773f51ef6a8a7085ae0c82de1d64870abdfe0aef0c45a360dd9a74"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/it.json",
+      "bytes": 1797,
+      "sha256": "4e58e006398557b95e3940bb4bb34ec1200350c45a45650581c4c23e7ba62f97"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/ka.json",
+      "bytes": 3159,
+      "sha256": "99a61b6857fca89d797e39837e32b998a3cc60605aa7d43d51945a02a0941fc2"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/ko.json",
+      "bytes": 1921,
+      "sha256": "82adcc9d6b8bf2c8e6c976944baab9d116ccb37cb9bb419d6200ac5ba2aa8774"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/lt.json",
+      "bytes": 1760,
+      "sha256": "d8e77fdb73495f6816c5d60fd57b43973e4acda24ea948cf2bcb611c26720729"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/lv.json",
+      "bytes": 1756,
+      "sha256": "26f29a5cc59d025d071c9b0acaa1500c1c01e32ce510b66d5d4db6d522f0d954"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/mn.json",
+      "bytes": 2372,
+      "sha256": "7c058fcbda2240d3af3c10be185521b66a938e062e9147bd375325f5feac9f46"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/nb.json",
+      "bytes": 1670,
+      "sha256": "e911108a7ca03af1d7e9fc4f07eced470d1828876cd3d28de7753e5d08e075f5"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/nl.json",
+      "bytes": 1847,
+      "sha256": "c31beb025b4fc4045e6b9436a3670616994927b3c33dc754c5b73775a71e441e"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/nn.json",
+      "bytes": 1670,
+      "sha256": "9bb55769583b31a59e994fc35ae8f8a9efb3032e730a28d9b28aa8f257c6a969"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/pl.json",
+      "bytes": 1769,
+      "sha256": "7e4c7d15c292acb42b9321bf526e343039703dfa99d55ff69050a00c5f14edd3"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/pt-br.json",
+      "bytes": 1821,
+      "sha256": "d22bd2bc0eb7925087bd5558712bf190a777a2cf7c90f1fe0427f1a48c77f036"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/pt.json",
+      "bytes": 1762,
+      "sha256": "300d07c84a93e0aa21d585713245a43ac4592c16497c977fe732fa6b12d92980"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/ru.json",
+      "bytes": 2493,
+      "sha256": "09515462db1dad9be939efd4a78fff180e455377453202b98d09ea697ee2205f"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/sl.json",
+      "bytes": 1662,
+      "sha256": "b60af3c3f1cee5d29722fc2931622119640573671a65694d8d350277fdf80b2c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/sma.json",
+      "bytes": 1669,
+      "sha256": "6afd5fde3d2487027b223eadd7e0413ab27a2d9c55cdf03fbfd8a4726e602199"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/sme.json",
+      "bytes": 1669,
+      "sha256": "6afd5fde3d2487027b223eadd7e0413ab27a2d9c55cdf03fbfd8a4726e602199"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/smj.json",
+      "bytes": 1669,
+      "sha256": "6afd5fde3d2487027b223eadd7e0413ab27a2d9c55cdf03fbfd8a4726e602199"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/sv.json",
+      "bytes": 1771,
+      "sha256": "ea058c8b0a4d55ac20730b54dfecb64a548384c349eea09b0dd8e5c0071a8d34"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/sw.json",
+      "bytes": 1761,
+      "sha256": "a9b74b59d8b70e4d47db73bfb58edc3a31e3111790e59934d6fabe74de825e1c"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/language/uk.json",
+      "bytes": 2514,
+      "sha256": "cc4acccea41221f8ea9dce2e9c174b9c22d8221c46d84d29a19d5f72fcf1582a"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/library.json",
+      "bytes": 549,
+      "sha256": "a93785f56f7c553559d7451386ecaee97d2efb3fd12e568ea2e20fe5d3daaf26"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/README.md",
+      "bytes": 1142,
+      "sha256": "5c70cd0e838e8be76560140968c2eca59953eaeb76c23938d281ea0ad3481c51"
+    },
+    {
+      "path": "libraries/H5P.ImageSlider-1.1/semantics.json",
+      "bytes": 2639,
+      "sha256": "7fadcc67ec6d417c06f2c1f7ddf9ff94cb0bdc8c163313845ba410481fc18b71"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-help-dialog.css",
+      "bytes": 1169,
+      "sha256": "fea50b1d822700775505ae51d65f77f0d686f53cb71e8b4598f0452bfc7c5115"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-icon.css",
+      "bytes": 3601,
+      "sha256": "c421b2737adcd23f9647d6d3518e174b966e183d5bc1d680b1f2caa9c938b2b3"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-message-dialog.css",
+      "bytes": 478,
+      "sha256": "0b55b7dd9113e2ff9a3c8904ecb38eea51560ed5793aa8670252efe307c60145"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-progress-circle.css",
+      "bytes": 1465,
+      "sha256": "8c6be8f5d3f66be93389e9e8790cd648b9c629f5a1601d978ec14eb842e65b6f"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-progressbar.css",
+      "bytes": 835,
+      "sha256": "f85f5396ddbd4ec4979b2abf5b267adc9f11e9ba9792e8dcbf92814733d0f965"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-score-bar.css",
+      "bytes": 3539,
+      "sha256": "24d5a80657e9b2d33471c533fafbb6ee8e75df5cca59361e5fe15f9a823b70a8"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-simple-rounded-button.css",
+      "bytes": 633,
+      "sha256": "1241dffc219b77796878d720780bfa2b89f6b8a1ef8f7e3deec4d5b1e1b7c67d"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-slider.css",
+      "bytes": 639,
+      "sha256": "bce59ea54164591abcaf4f87645ec0cc6f032c7ae228c7d6a62a2032afc50f8b"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-speech-bubble.css",
+      "bytes": 1127,
+      "sha256": "4745bcbbc1e53ffb20296289d90dbafcc2dfe71766ae3cc12f92043e7577e090"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-tip.css",
+      "bytes": 1074,
+      "sha256": "fc028b49e2946200a7be564b65b66ccdd9083de2bc815c497618ba1e9653b470"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/css/joubel-ui.css",
+      "bytes": 1841,
+      "sha256": "0cc95eeb7d69ac5ae2e2ec71c7174e37414740539d894b7e5bfebfbc57ca98a2"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/fonts/joubel.eot",
+      "bytes": 4752,
+      "sha256": "022d64c62558178d05bbcd685ccdae3c2bfdbe4466b9f788d8caa65ab1228284"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/fonts/joubel.svg",
+      "bytes": 14092,
+      "sha256": "32ece9653903157a70d30c09770fdb058088b032b058153adbc2ca776a7cde9a"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/fonts/joubel.ttf",
+      "bytes": 4592,
+      "sha256": "e3349364cbff58a8e935f216166741cc3abec692a0b5e2e8e470616e99083208"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/fonts/joubel.woff",
+      "bytes": 4668,
+      "sha256": "62e50736b7b237b53bf90679fb334d635375d51b3156d1d866cab224606d99b4"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-help-dialog.js",
+      "bytes": 2483,
+      "sha256": "ea9dd8bccf16ecfb6b57b2ee7412286beab840ddd8d5275a534dbf1827a0d083"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-message-dialog.js",
+      "bytes": 968,
+      "sha256": "73a0dcd581922e61b50b35a1c6b615807a591187fa544034f58b8aca307aa38e"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-progress-circle.js",
+      "bytes": 4622,
+      "sha256": "7c086ebd956d55849408e10d96d9b1e91f92834519002c0740e30335ff5f6256"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-progressbar.js",
+      "bytes": 2804,
+      "sha256": "640413c8a4b1f292f0addaf78901d90691d7fb51543c4d584048f86be15c33e2"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-score-bar.js",
+      "bytes": 8520,
+      "sha256": "b7e4e2123e3b02f486818db45681d82629ffb62be99745b34fba3c1c998c7e02"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-simple-rounded-button.js",
+      "bytes": 689,
+      "sha256": "584f25ac43b1eef00067abb86ab527af5caf3086d93f416f681cb9e758e1f3c6"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-slider.js",
+      "bytes": 2237,
+      "sha256": "7fce9d0eb87045441fe910a5ec095d8b2a9921fed43b4e6762420521ea5279aa"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-speech-bubble.js",
+      "bytes": 10766,
+      "sha256": "d7ba59b8fb612b06ab68e0c85d992072a642574fae87fd35b7450f03812ab44b"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-throbber.js",
+      "bytes": 312,
+      "sha256": "0a695526645264b07b06630a876ee5cbaebf99bb9b98529935d5a907c0dee57f"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-tip.js",
+      "bytes": 3658,
+      "sha256": "086d4524b2368256524768fd4516f1fc6c7ce1c99db36e9cd0efa0af9b34846f"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/js/joubel-ui.js",
+      "bytes": 6015,
+      "sha256": "1a3a818124af9bb5d35237615e0a69053d74cb74b601d8973a709dd71975011e"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/library.json",
+      "bytes": 1884,
+      "sha256": "3146ee6ce648cffe91ac9894395c76168b9834a8536aa2c8f2c8a5cc5587c595"
+    },
+    {
+      "path": "libraries/H5P.JoubelUI-1.3/README.md",
+      "bytes": 1664,
+      "sha256": "545ec00c66170600d197bc3898406d36cfce84d8ed4d7c1b4aa6765b117523c6"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/css/multichoice.css",
+      "bytes": 9392,
+      "sha256": "f1b7d48bcf340610d2b3afafc15434d8a28736f09e1a057cb471b25b75e3f7ed"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/fonts/icomoon.eot",
+      "bytes": 1520,
+      "sha256": "20ddb172d95cc8b66fe5695902dacf5749e69ccae38c649d392a1c84ec3948f9"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/fonts/icomoon.svg",
+      "bytes": 1562,
+      "sha256": "250edc0ef540c5804142cb8e004324b9dcd29b2c5afd57c26eba9894abd0b13b"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/fonts/icomoon.ttf",
+      "bytes": 1372,
+      "sha256": "9b524a3c0ba06f48747877671cb88e78727c8cd79db1348512bde15def56ffbe"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/fonts/icomoon.woff",
+      "bytes": 1448,
+      "sha256": "0936b30df33d051a79bcb7a585fffdcd3b8814c46ff0766cc4a754c2a3a4ba6b"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/icon.svg",
+      "bytes": 3328,
+      "sha256": "44c853669126379fc98157ac7b69f2c8fab6de7a9fda4ca938b89a379ceb5190"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/js/multichoice.js",
+      "bytes": 32597,
+      "sha256": "1c51079e60c64ef76e333792ce5b1a8aee85458c64fc5377fa8e84538b2b9650"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/af.json",
+      "bytes": 8193,
+      "sha256": "38931287554ab61554e256c67d6354699b6eb63c05cb3750b56f75fbcd92d012"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ar.json",
+      "bytes": 9657,
+      "sha256": "29c305dd63513a736e261adcaa148406ac68b361764e499355365308bd8a50d3"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/bg.json",
+      "bytes": 10897,
+      "sha256": "12aa24774a5a8a2fa78cb603e0c897edbcc0711481134ea433a4a4625f3ac0bb"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/bs.json",
+      "bytes": 7919,
+      "sha256": "5eb1fa4bd03f6a9e4f4eb12f1e43344fb32282a2b3e77c1922098013af9153de"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ca.json",
+      "bytes": 8882,
+      "sha256": "ff092af976cb082893458f7c4e00cc07519dc5513bd5be59aa14abbe9ad72796"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/cs.json",
+      "bytes": 8401,
+      "sha256": "d2db9b33a07f41559c8cebbec454702e0822829d219b6eef6d74c8f3519a6342"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/da.json",
+      "bytes": 7718,
+      "sha256": "de53adde23f085d24bdad1bce221fe8cef2563e50e807a8ce4848943ca147962"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/de.json",
+      "bytes": 8619,
+      "sha256": "7e56ede809db1d6b80cefbbd1dde8a23f9dd4be60375de12142c7b29e77cc184"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/el.json",
+      "bytes": 11349,
+      "sha256": "941ab5f7a33f13558acbdfac981e4f00db7103c5535586c8f8d76d37534ac207"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/es-mx.json",
+      "bytes": 8810,
+      "sha256": "5fade92cd3fe701124e892769a5911af7fda73a470309978c47c476fc6a4241a"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/es.json",
+      "bytes": 8837,
+      "sha256": "3860de7fff35d154c99d9da4e805f2b8dde6029f19cebde6af41971bffeaf20b"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/et.json",
+      "bytes": 7849,
+      "sha256": "e14820e43624eaf27a23efa02130016433f8b4087e257ada0e3877736596d3fd"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/eu.json",
+      "bytes": 8394,
+      "sha256": "4a9be8bd204ad1d13f069eab55cf8cd601c2e045c9ea62d4989f57e62e2bc648"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/fa.json",
+      "bytes": 10181,
+      "sha256": "9ed030d2d5155a617ec7bff5b00f42ce938bdfcc51e482d85e6add1116b4502c"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/fi.json",
+      "bytes": 7746,
+      "sha256": "8923fcd80ccc7be4ad3288a2c911783ff7fae5d608f220c9dd9caf0807d6e257"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/fr.json",
+      "bytes": 8540,
+      "sha256": "d20bd438af5f1f6ddb483e1073204918527a6e3bfa818bbd418e74f36457eade"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ga.json",
+      "bytes": 7925,
+      "sha256": "97ac0edbc1c63bc4889a15de66c16b7d85ccf938853d461dfaa9e728e5146535"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/gl.json",
+      "bytes": 8494,
+      "sha256": "956316eaea888274deb3f113e8929f1defd1e65716844c2650e7e6ca46ac6812"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/he.json",
+      "bytes": 9315,
+      "sha256": "3615e63e9b6eedc4124b881a6fab54c6a58a205a37e64f728f598024ea78bbaf"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/hi.json",
+      "bytes": 12667,
+      "sha256": "e1394094be2755265928d419b4302f11fb09e300fb103723662fc8db74c316e7"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/hu.json",
+      "bytes": 8438,
+      "sha256": "9424c1b230da091d1a6ddbd54b19a8391e09a54c4b0a5d5def8608ad1cd52ee6"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/it.json",
+      "bytes": 8365,
+      "sha256": "e7731b59cef254cb7317379c22a28a905e8930965e3c39c3692031837607a78c"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ja.json",
+      "bytes": 8971,
+      "sha256": "49564be0f74e52dc0815caa567ef43b878283324fecab68694d4ac3ce7c065c9"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ka.json",
+      "bytes": 14567,
+      "sha256": "db84b0c1f0618618b5ee64a75c1f465d0bca8883e06c427e02d274183ed2409c"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/km.json",
+      "bytes": 8397,
+      "sha256": "a98196ac656dd78b5552885ead4a3a05398ef97610f7541852ba82ab026e3c7c"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ko.json",
+      "bytes": 8328,
+      "sha256": "e602dc70888015afbd31acf48a75392e6c40276056c27c521760fc3990eb3a42"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/lt.json",
+      "bytes": 8613,
+      "sha256": "9d4a8300480b830c718f6d071263775d051bc788e9d52e83f3cf22701ccfee43"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/lv.json",
+      "bytes": 8777,
+      "sha256": "de02ccb64c7ad757dbb62a16fa10264eb671af6915c9abed808a129a193179a1"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/mk.json",
+      "bytes": 11556,
+      "sha256": "07273de865ea945a79ae83f9ff32c8c411bc5053f84bfef4cc6eb06741931307"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/mn.json",
+      "bytes": 11464,
+      "sha256": "b0e061c295b734445f8d1f8ec060afe90b0acd420b8527846e831d22b0d3b1ac"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/nb.json",
+      "bytes": 7950,
+      "sha256": "52316cf30ad12111122f0c88df9681100ce909bbb4ae391a68e8fdb698416cec"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/nl.json",
+      "bytes": 8204,
+      "sha256": "2ebc2cd105e8851ca65efead46834784e7e531918a5bb54101c99702364d4ab7"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/nn.json",
+      "bytes": 7896,
+      "sha256": "b92b46c1d5c11a794b25b51cf5f5c7f73362ddabdafa640728dae86442988ef5"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/pl.json",
+      "bytes": 8887,
+      "sha256": "3aefb8779ea23bd60ed6f86b114e59fdb3707db13e7a97376897e7c815a5dd8f"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/pt-br.json",
+      "bytes": 8512,
+      "sha256": "b493629c6245941ce4cbb1a571a263adbea96ba547071fb7bce0cac53848d281"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/pt.json",
+      "bytes": 8535,
+      "sha256": "ebdabfd1be40c2d0b02831d880321a676ec7020c36f4cd71d3d2a8fd049536dc"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/ru.json",
+      "bytes": 10542,
+      "sha256": "7b1bd4861c669b8c01b51dc5a770834ba172198a1fe8aa8da4bb4d8fae87b0c1"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sl.json",
+      "bytes": 8187,
+      "sha256": "092f622b68f6ce323ec5a941c09c6cfc61d24d196dee5c5436a8b7053dafaac1"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sma.json",
+      "bytes": 7790,
+      "sha256": "bf04787d34f1a37e4ea57183809db626d18b3b54ea39ab0eecc4cea8aac9a095"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sme.json",
+      "bytes": 7790,
+      "sha256": "bf04787d34f1a37e4ea57183809db626d18b3b54ea39ab0eecc4cea8aac9a095"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/smj.json",
+      "bytes": 7790,
+      "sha256": "bf04787d34f1a37e4ea57183809db626d18b3b54ea39ab0eecc4cea8aac9a095"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sr.json",
+      "bytes": 10681,
+      "sha256": "05d9f94e40ed9e529b9c536312439830a46c7a866913d856e6096f37fdd0040d"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sv.json",
+      "bytes": 8084,
+      "sha256": "da2fdd1d84ce35edf6bb8f4f9a37fe6a304606e5bb149179695948575e47ae53"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/sw.json",
+      "bytes": 8287,
+      "sha256": "55250dd09af24d350c2203456cdf38cfa39ef8955e3bbaf57c03f26d909177e8"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/te.json",
+      "bytes": 15637,
+      "sha256": "d968777ab12edbf85656531393692bcc229e9c530abc5fc53ee25e786171a732"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/th.json",
+      "bytes": 11343,
+      "sha256": "95cf6d1a6a270726fa90327cc91bc7a22775248951f3b85f1bb3fcd852ec890b"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/tr.json",
+      "bytes": 8259,
+      "sha256": "8ea1b24142a4e0e375cdd899a28f59b58cff87dbb68ba9a8d54189401a1a093b"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/uk.json",
+      "bytes": 11648,
+      "sha256": "f103ae627c559092c7a25a5557cc98460b23be52476c87b9ea6ecfcdfeef6d90"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/vi.json",
+      "bytes": 7790,
+      "sha256": "bf04787d34f1a37e4ea57183809db626d18b3b54ea39ab0eecc4cea8aac9a095"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/zh-hans.json",
+      "bytes": 7608,
+      "sha256": "dbf248b7e86baa63dd53af792e978a17dbad9c92fdc82ec67359d4baf9d581af"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/zh-hant.json",
+      "bytes": 7586,
+      "sha256": "03323f36ff5d182c8588f2bd062ff3d156aa2c66b88aae8c32f7dfb4fc17d1d0"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/language/zh-tw.json",
+      "bytes": 7417,
+      "sha256": "3c442deacfecee03fc4cffec1ccfbc9b05795c53e8a6d14b788003d8aaf11bc9"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/library.json",
+      "bytes": 1036,
+      "sha256": "48df26b3b6a0baaf04858e72a806d6d3929710b77c84f20b9ad0d3a61d93e2bd"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/presave.js",
+      "bytes": 1314,
+      "sha256": "59e8276792278f7cf806caa238555f99a743e6cae872c96b5ff296fe8ebe4b41"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/README.md",
+      "bytes": 1315,
+      "sha256": "cef88d0d3cd785f1512f6b1491281e99bc15f4a54f24c3fed7ef0db8f801ca73"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/semantics.json",
+      "bytes": 15528,
+      "sha256": "054d47862ac48ab31027715e622324d9d78e43346612ced5667bf857ee10e28d"
+    },
+    {
+      "path": "libraries/H5P.MultiChoice-1.16/upgrades.js",
+      "bytes": 10720,
+      "sha256": "ebf05d73507f728af4f1efc5b398dee802c6da68ef041c99845f2c876e8f965b"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/images/minus-one.svg",
+      "bytes": 1217,
+      "sha256": "961429eafa48e254160396a9de390a82f4fc62d746d563d33b7a80f68fc4e441"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/images/plus-one.svg",
+      "bytes": 1352,
+      "sha256": "9a9c7c131585eff1d72a43596e9c17ca288419a7c2ff380788d52bb4891cb290"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/library.json",
+      "bytes": 774,
+      "sha256": "4df7bad45e9e0b28e89ae770e5e46c88d5c4d7cb32cc6424c9008c11baeea946"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/README.md",
+      "bytes": 3728,
+      "sha256": "69325cb7dd2dc5070ef2b0500db861c185c9cdd11bce6f33f5bf8200fb437333"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/scripts/explainer.js",
+      "bytes": 1956,
+      "sha256": "f05281fb3e9162ac4e80c0df7f8657c862778deaa62fffa77da20eee89282059"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/scripts/question.js",
+      "bytes": 54802,
+      "sha256": "9035ac686acb67a0386c1def1840957e87c566c8bb5ded8f8a3b8e706e062231"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/scripts/score-points.js",
+      "bytes": 1887,
+      "sha256": "76423ec85f548c02ede8fdc7c58f48fbddd462f95c57ca07311b8890913d44e1"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/styles/explainer.css",
+      "bytes": 1434,
+      "sha256": "0b05b3487a24a2ddaf95eaec85c195d1a46611d83e90e531d1ae76881ef9d719"
+    },
+    {
+      "path": "libraries/H5P.Question-1.5/styles/question.css",
+      "bytes": 7815,
+      "sha256": "104a5c1697214c806e5c496a2fb2ff1b3a1981ee4962c9b0633d5d118fcc83b9"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/af.json",
+      "bytes": 59,
+      "sha256": "863f2a3ef06c530c035891c9038ffcb784c35f1cbab5817b3b6f55bf1d13a20d"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ar.json",
+      "bytes": 60,
+      "sha256": "2e751059f34bf397b54399a6442ddef9e304303bcbf4762f068bc3585e4dc205"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/bg.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/bs.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ca.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/cs.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/cy.json",
+      "bytes": 61,
+      "sha256": "bcb187c81e0bca91b6efd61fe3551413dae9110e3bd2eb13d96ac2c718f6cf0f"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/da.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/de.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/el.json",
+      "bytes": 67,
+      "sha256": "e035f793a1ee46719a605c21346481b83cc74f7f6fc9c0aa1db75d6682018277"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/es-mx.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/es.json",
+      "bytes": 57,
+      "sha256": "2b209935bac0dcf8047d804ca551917cb59f18f65cbe0e6430b2cff0d74f3e9a"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/et.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/eu.json",
+      "bytes": 61,
+      "sha256": "7c0774f30b2bbe41ce1f29920839ac7874ad6f5ec0de26698f7cb4b8c9915eb1"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/fa.json",
+      "bytes": 61,
+      "sha256": "6983b01acccabd893d4112a9af75ec1b73fb53c33cf310aeb06181f3756a0ae6"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/fi.json",
+      "bytes": 59,
+      "sha256": "72ecb4ff903644f2ab8735a3a4362a0bc28a62a8d9aeac11b42dad291f4bf62f"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/fr.json",
+      "bytes": 57,
+      "sha256": "7f6e534692e6026f8a351da6cc8eb8c9a55300cb5bb834859e1d81105ad5ccb1"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/gl.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/he.json",
+      "bytes": 63,
+      "sha256": "7902653763274cc6171f402475487aa40aed85dc44415e205a8c44bfac4ffaba"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/hu.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/it.json",
+      "bytes": 57,
+      "sha256": "e35922e75fe4b0d7b15c455ee465f765d15cb0c1ea22b8f5194f4e9a9d3d8fce"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ja.json",
+      "bytes": 64,
+      "sha256": "2dc43a879dceec4d679e4c26d1edae339a90650cfd0f85d39bd38a44a1911904"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ka.json",
+      "bytes": 73,
+      "sha256": "f30e8885107b0b8271388897162a74b2e8aa1dc6ca30d3bc46b286127859d497"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/km.json",
+      "bytes": 73,
+      "sha256": "364a8c1aba4e80e3e745636026f731267b0a3a77cf377effd729db668f0c98c6"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ko.json",
+      "bytes": 62,
+      "sha256": "92b28e8b8ea42048ddc683469719cf744bb1e61da2b4f04a55ca66fb8d5bdb50"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/lt.json",
+      "bytes": 62,
+      "sha256": "931f1c443b37264e79725f676723a54cd534c73f3647c5185f86df3eea1a1686"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/lv.json",
+      "bytes": 61,
+      "sha256": "ff23ba8274b67e580f2f8983309b63abc4a78eb452e651af02c437e53ec32770"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/mn.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/nb.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/nl.json",
+      "bytes": 60,
+      "sha256": "81429a2c134651d1e98456aaee3c921df2cce71dc6371300df3028d79953f75f"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/nn.json",
+      "bytes": 57,
+      "sha256": "b6d3f9ab07173084bdf0053a6b5e470969abccb2a3ba9583614af7abb7250a87"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/pl.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/pt-br.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/pt.json",
+      "bytes": 60,
+      "sha256": "cf2b18d9511e8cdc3cb1c30264b80d0aac9d6b946f6e91f79d68f42987b5e703"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ro.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/ru.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sl.json",
+      "bytes": 63,
+      "sha256": "c97ce440a685d69f09471612911916f595f7042c5d9fee40bb578828d35c349b"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sma.json",
+      "bytes": 58,
+      "sha256": "445ea3bd930e18ca8f84dab753bc657365da3f2f264e0f2964a70e21f83b4c10"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sme.json",
+      "bytes": 58,
+      "sha256": "445ea3bd930e18ca8f84dab753bc657365da3f2f264e0f2964a70e21f83b4c10"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/smj.json",
+      "bytes": 58,
+      "sha256": "445ea3bd930e18ca8f84dab753bc657365da3f2f264e0f2964a70e21f83b4c10"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sr.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sv.json",
+      "bytes": 56,
+      "sha256": "e7e7384ee77655b73513c1de8c6d86765633cc8640a866a21dca16df9aa27917"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/sw.json",
+      "bytes": 64,
+      "sha256": "429216fa2312144ad83dc9521ac720938ddb3bb02ae2777e36a302db6a7ff6b3"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/tr.json",
+      "bytes": 60,
+      "sha256": "ac7af2d61119ee3f4fa8f7d3392fd8dcfe2accf23b946b0f74f63fe425afebfd"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/uk.json",
+      "bytes": 65,
+      "sha256": "74660efd4e1df32573ef8289e78d2dd8b282a4aa5f0324be0f6a9e229b2b59aa"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/vi.json",
+      "bytes": 60,
+      "sha256": "602b9faad86584e63c157a4441f7f24d376df7030b5b320872448ddfd8e35c04"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/language/zh.json",
+      "bytes": 61,
+      "sha256": "af65a5a2541e16ff72f01d1aaccf17c975dd24be6d16847f5928b37df8cce1e0"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/library.json",
+      "bytes": 480,
+      "sha256": "df9e5f055b30a142b74eba0e7d9af4f03891ed28381ffd03272c9091796f4de6"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/scripts/text.js",
+      "bytes": 417,
+      "sha256": "29ae964bde3ec640620c90d15f2356f4722b4b3ae02f10754f989180ff2a713e"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/semantics.json",
+      "bytes": 301,
+      "sha256": "3770222a1f07eb3f1fb1047a8e51c408351078a25a679c6081cabd91492c3873"
+    },
+    {
+      "path": "libraries/H5P.Text-1.1/styles/text.css",
+      "bytes": 268,
+      "sha256": "de9820de372783bc9719ed306c5f22f0aeb85c9299427857a64933c54ce63b02"
+    },
+    {
+      "path": "libraries/H5P.Transition-1.0/library.json",
+      "bytes": 322,
+      "sha256": "fa996e5e737d77a32234159136209e335e673eb7ac16fd010ed2f59480bd448e"
+    },
+    {
+      "path": "libraries/H5P.Transition-1.0/transition.js",
+      "bytes": 4591,
+      "sha256": "e4896b8b2ee7d64c078ebd3f5d6ce1e238493eb4fcc6c6758eb7332866ad0e26"
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/library.json",

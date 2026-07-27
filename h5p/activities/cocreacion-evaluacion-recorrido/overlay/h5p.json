@@ -1,0 +1,15 @@
+{
+  "title": "Recorrido: co-crear y evaluar con IA",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [{"name": "UDGPlus", "role": "Author"}],
+  "mainLibrary": "H5P.CoursePresentation",
+  "embedTypes": ["div"],
+  "preloadedDependencies": [
+    {"machineName": "H5P.AdvancedText", "majorVersion": "1", "minorVersion": "1"},
+    {"machineName": "H5P.Image", "majorVersion": "1", "minorVersion": "1"},
+    {"machineName": "H5P.CoursePresentation", "majorVersion": "1", "minorVersion": "26"}
+  ]
+}

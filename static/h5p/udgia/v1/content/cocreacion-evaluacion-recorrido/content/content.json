@@ -1,0 +1,220 @@
+{
+  "presentation": {
+    "slides": [
+      {
+        "slideBackgroundSelector": {"fillSlideBackground": "#f6f1e8"},
+        "elements": [
+          {
+            "x": 4, "y": 6, "width": 44, "height": 82,
+            "action": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "contentName": "Imagen",
+                "file": {
+                  "path": "images/borrador-propio.png",
+                  "mime": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Borrador propio"}
+                },
+                "alt": "Borrador propio con tesis, fuentes pendientes y preguntas.",
+                "decorative": false
+              },
+              "metadata": {"contentType": "Image", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Borrador propio"},
+              "subContentId": "155bfc7d-f2bb-4217-af98-4291ef46a101"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          },
+          {
+            "x": 51, "y": 10, "width": 45, "height": 72,
+            "action": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {"text": "<h2>1. Empieza con una posición propia</h2><p>Formula propósito, pregunta o tesis antes de consultar un sistema. Así la IA entra en un proceso que ya tiene dirección.</p><p><strong>Evidencia:</strong> esquema, hipótesis o criterios iniciales.</p>"},
+              "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Posición propia"},
+              "subContentId": "4b522b51-192f-4859-88c9-d5934663a102"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          }
+        ]
+      },
+      {
+        "slideBackgroundSelector": {"fillSlideBackground": "#edf6f5"},
+        "elements": [
+          {
+            "x": 4, "y": 6, "width": 44, "height": 82,
+            "action": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "contentName": "Imagen",
+                "file": {
+                  "path": "images/interrogacion-ia.png",
+                  "mime": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Interrogación con IA"}
+                },
+                "alt": "La IA propone y la persona contrasta, verifica y responde.",
+                "decorative": false
+              },
+              "metadata": {"contentType": "Image", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Interrogación con IA"},
+              "subContentId": "2c6d6368-8ee1-48b5-9af4-6dbb6416a201"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          },
+          {
+            "x": 51, "y": 10, "width": 45, "height": 72,
+            "action": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {"text": "<h2>2. Interroga y verifica</h2><p>Pide objeciones, alternativas o conexiones. Después contrasta datos y fuentes: una respuesta plausible todavía puede ser incorrecta o irrelevante.</p><p><strong>Evidencia:</strong> fuentes verificadas y aportes descartados.</p>"},
+              "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Interrogar y verificar"},
+              "subContentId": "a2701c8f-6379-44b1-a77e-2bb4e130a202"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          }
+        ]
+      },
+      {
+        "slideBackgroundSelector": {"fillSlideBackground": "#f6f1e8"},
+        "elements": [
+          {
+            "x": 4, "y": 6, "width": 44, "height": 82,
+            "action": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "contentName": "Imagen",
+                "file": {
+                  "path": "images/revision-justificada.png",
+                  "mime": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Revisión justificada"}
+                },
+                "alt": "Documento revisado con fuentes verificadas y decisiones justificadas.",
+                "decorative": false
+              },
+              "metadata": {"contentType": "Image", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Revisión justificada"},
+              "subContentId": "9b038177-0db1-49ec-aebc-6f38478aa301"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          },
+          {
+            "x": 51, "y": 10, "width": 45, "height": 72,
+            "action": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {"text": "<h2>3. Transforma y justifica</h2><p>Acepta, corrige, combina o descarta aportes desde tus criterios. Explica unas pocas decisiones de alto valor.</p><p><strong>Evidencia:</strong> comparación de versiones y razones del cambio.</p>"},
+              "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Transformar y justificar"},
+              "subContentId": "b7603bc2-c66b-47b5-84f1-31183ce9a302"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          }
+        ]
+      },
+      {
+        "slideBackgroundSelector": {"fillSlideBackground": "#edf6f5"},
+        "elements": [
+          {
+            "x": 4, "y": 6, "width": 44, "height": 82,
+            "action": {
+              "library": "H5P.Image 1.1",
+              "params": {
+                "contentName": "Imagen",
+                "file": {
+                  "path": "images/evidencias-proceso.png",
+                  "mime": "image/png",
+                  "width": 1200,
+                  "height": 675,
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Evidencias del proceso"}
+                },
+                "alt": "Portafolio con tres evidencias del proceso de aprendizaje.",
+                "decorative": false
+              },
+              "metadata": {"contentType": "Image", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Evidencias del proceso"},
+              "subContentId": "c2b8ce76-918e-4178-8528-dd77091aa401"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          },
+          {
+            "x": 51, "y": 10, "width": 45, "height": 72,
+            "action": {
+              "library": "H5P.AdvancedText 1.1",
+              "params": {"text": "<h2>4. Evalúa proceso, producto y transferencia</h2><p><strong>Estudiante:</strong> explica qué cambió y qué aprendió.<br><strong>Docente:</strong> combina calidad del producto con evidencias del proceso.<br><strong>Coordinación:</strong> acuerda mínimos comunes sin imponer vigilancia exhaustiva.</p>"},
+              "metadata": {"contentType": "Text", "license": "CC BY-SA", "licenseVersion": "4.0", "title": "Evaluar el proceso"},
+              "subContentId": "ebd3161a-bb20-4bef-b010-05a456416402"
+            },
+            "alwaysDisplayComments": false, "backgroundOpacity": 0, "displayAsButton": false, "buttonSize": "big", "goToSlideType": "specified", "invisible": false
+          }
+        ]
+      }
+    ],
+    "keywordListEnabled": false,
+    "globalBackgroundSelector": {},
+    "keywordListAlwaysShow": false,
+    "keywordListAutoHide": false,
+    "keywordListOpacity": 90,
+    "ct": ""
+  },
+  "override": {
+    "activeSurface": false,
+    "hideSummarySlide": true,
+    "enablePrintButton": false,
+    "social": {
+      "showFacebookShare": false,
+      "facebookShare": {"url": "@currentpageurl", "quote": ""},
+      "showTwitterShare": false,
+      "twitterShare": {"statement": "", "url": "@currentpageurl", "hashtags": ""},
+      "showGoogleShare": false,
+      "googleShareUrl": "@currentpageurl"
+    },
+    "summarySlideSolutionButton": false,
+    "summarySlideRetryButton": false
+  },
+  "l10n": {
+    "slide": "Diapositiva",
+    "score": "Puntuación",
+    "yourScore": "Tu puntuación",
+    "maxScore": "Puntuación máxima",
+    "total": "Total",
+    "totalScore": "Puntuación total",
+    "showSolutions": "Mostrar soluciones",
+    "retry": "Intentar de nuevo",
+    "exportAnswers": "Exportar texto",
+    "hideKeywords": "Ocultar palabras clave",
+    "showKeywords": "Mostrar palabras clave",
+    "fullscreen": "Pantalla completa",
+    "exitFullscreen": "Salir de pantalla completa",
+    "prevSlide": "Diapositiva anterior",
+    "nextSlide": "Diapositiva siguiente",
+    "currentSlide": "Diapositiva actual",
+    "lastSlide": "Última diapositiva",
+    "solutionModeTitle": "Salir del modo de solución",
+    "solutionModeText": "Modo de solución",
+    "summaryMultipleTaskText": "Varias tareas",
+    "scoreMessage": "Lograste:",
+    "shareFacebook": "Compartir en Facebook",
+    "shareTwitter": "Compartir en X",
+    "shareGoogle": "Compartir",
+    "summary": "Resumen",
+    "solutionsButtonTitle": "Mostrar comentarios",
+    "printTitle": "Imprimir",
+    "printIngress": "Elige qué deseas imprimir.",
+    "printAllSlides": "Imprimir todas las diapositivas",
+    "printCurrentSlide": "Imprimir la diapositiva actual",
+    "noTitle": "Sin título",
+    "accessibilitySlideNavigationExplanation": "Usa las flechas izquierda y derecha para cambiar de diapositiva cuando el lienzo tenga el foco.",
+    "accessibilityCanvasLabel": "Lienzo de presentación. Usa las flechas izquierda y derecha para cambiar de diapositiva.",
+    "containsNotCompleted": "@slideName contiene una interacción sin completar",
+    "containsCompleted": "@slideName contiene una interacción completada",
+    "slideCount": "Diapositiva @index de @total",
+    "containsOnlyCorrect": "@slideName solo tiene respuestas correctas",
+    "containsIncorrectAnswers": "@slideName contiene respuestas incorrectas",
+    "shareResult": "Compartir resultado",
+    "accessibilityTotalScore": "Obtuviste @score de @maxScore puntos",
+    "accessibilityEnteredFullscreen": "Entraste a pantalla completa",
+    "accessibilityExitedFullscreen": "Saliste de pantalla completa",
+    "confirmDialogHeader": "Enviar respuestas",
+    "confirmDialogText": "¿Deseas enviar tus resultados?",
+    "confirmDialogConfirmText": "Enviar y ver resultados",
+    "accessibilityProgressBarLabel": "Elegir diapositiva",
+    "slideshowNavigationLabel": "Navegación de la presentación"
+  }
+}

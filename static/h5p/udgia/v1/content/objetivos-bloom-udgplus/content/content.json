@@ -1,0 +1,25 @@
+{
+  "title": "Constructor de objetivos de aprendizaje",
+  "intro": "Formula un objetivo observable, alinea una evidencia y conserva la dirección pedagógica al decidir si la IA participa y de qué manera.",
+  "defaultAudience": "Al finalizar, el estudiante",
+  "locale": "es-MX",
+  "l10n": {
+    "kicker": "Diseño inverso · Taxonomía de Bloom revisada",
+    "formulaLabel": "Fórmula del objetivo",
+    "who": "Quién",
+    "what": "Qué hará",
+    "how": "Cómo",
+    "quality": "Qué tan bien",
+    "stepsLabel": "Pasos del constructor",
+    "stepLevel": "Nivel",
+    "stepVerb": "Verbo",
+    "stepComponents": "Componentes",
+    "stepReview": "Revisión",
+    "copy": "Copiar objetivo",
+    "save": "Guardar en mi lista",
+    "copied": "Objetivo copiado al portapapeles.",
+    "saved": "Objetivo guardado en tu lista.",
+    "emptyPreview": "Tu objetivo aparecerá aquí…",
+    "emptySaved": "Todavía no has guardado objetivos."
+  }
+}

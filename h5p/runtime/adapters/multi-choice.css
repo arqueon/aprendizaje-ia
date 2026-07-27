@@ -1,0 +1,19 @@
+.h5p-multichoice {
+  color: var(--udgia-ink, #123b4a);
+  background: var(--udgia-paper, #f6f1e8);
+}
+
+.h5p-multichoice .h5p-answer[aria-checked="true"] {
+  border-color: var(--udgia-teal, #007c83);
+}
+
+.h5p-question-check-answer,
+.h5p-question-retry {
+  border-radius: .65rem;
+}
+
+.h5p-multichoice button:focus-visible,
+.h5p-multichoice [role="checkbox"]:focus-visible {
+  outline: 3px solid var(--udgia-ochre, #f7a11a);
+  outline-offset: 2px;
+}

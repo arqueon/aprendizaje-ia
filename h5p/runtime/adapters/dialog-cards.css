@@ -1,0 +1,18 @@
+.h5p-dialogcards {
+  color: var(--udgia-ink, #123b4a);
+  background: var(--udgia-paper, #f6f1e8);
+}
+
+.h5p-dialogcards .h5p-dialogcards-card-content {
+  border-color: var(--udgia-teal, #007c83);
+  border-radius: 1rem;
+}
+
+.h5p-dialogcards .h5p-dialogcards-progress {
+  color: var(--udgia-ink, #123b4a);
+}
+
+.h5p-dialogcards button:focus-visible {
+  outline: 3px solid var(--udgia-ochre, #f7a11a);
+  outline-offset: 2px;
+}

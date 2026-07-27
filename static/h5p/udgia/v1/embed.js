@@ -9,10 +9,38 @@
   let observer;
   let polling;
   let scheduledHeightFrame;
+  let nestedFrameTitle = "Actividad H5P";
 
   const validSlug = (value) => /^[a-z0-9][a-z0-9-]{0,79}$/.test(value);
   const send = (type, detail = {}) => {
     window.parent.postMessage({ type, instance, ...detail }, window.location.origin);
+  };
+
+  const improveNestedAccessibility = (nestedDocument) => {
+    for (const control of nestedDocument.querySelectorAll(".h5p-enable-fullscreen")) {
+      const current =
+        `${control.getAttribute("aria-label") || ""} ${control.title || ""}`.toLowerCase();
+      const label = /exit|disable|salir/.test(current)
+        ? "Salir de pantalla completa"
+        : "Pantalla completa";
+      control.setAttribute("aria-label", label);
+      control.title = label;
+    }
+    for (const tab of nestedDocument.querySelectorAll(".h5p-progressbar-part[role='tab']")) {
+      const link = tab.querySelector(":scope > a");
+      if (!link) continue;
+      for (const attribute of ["aria-label", "aria-controls", "aria-selected"]) {
+        const value = tab.getAttribute(attribute);
+        if (value) link.setAttribute(attribute, value);
+        tab.removeAttribute(attribute);
+      }
+      link.setAttribute("role", "tab");
+      const readableTitle = link.querySelector(".h5p-progressbar-part-title");
+      if (readableTitle && !readableTitle.textContent.trim()) {
+        readableTitle.textContent = link.getAttribute("aria-label") || "Diapositiva";
+      }
+      tab.removeAttribute("role");
+    }
   };
 
   const fitNestedFrames = () => {
@@ -20,6 +48,9 @@
       try {
         const nestedDocument = frame.contentDocument;
         if (!nestedDocument?.documentElement || !nestedDocument.body) continue;
+        frame.title = nestedFrameTitle;
+        nestedDocument.title = nestedFrameTitle;
+        improveNestedAccessibility(nestedDocument);
         const contentRoot = nestedDocument.querySelector(".h5p-content");
         const measurableChildren = [
           ...(contentRoot?.children?.length ? contentRoot.children : nestedDocument.body.children)
@@ -99,6 +130,7 @@
     const index = await response.json();
     const entry = index.contents?.[contentID];
     if (!entry) throw new Error("Contenido H5P no registrado");
+    nestedFrameTitle = `${entry.title} · actividad H5P`;
 
     const local = (path) => new URL(path, window.location.href).href;
     const customCss = [local("./themes/udg-c.css")];

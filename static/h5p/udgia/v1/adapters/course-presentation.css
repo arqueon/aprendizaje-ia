@@ -1,0 +1,15 @@
+.h5p-course-presentation {
+  color: var(--udgia-ink, #123b4a);
+  background: var(--udgia-paper, #f6f1e8);
+}
+
+.h5p-course-presentation .h5p-footer {
+  color: #fff;
+  background: var(--udgia-ink, #123b4a);
+}
+
+.h5p-course-presentation button:focus-visible,
+.h5p-course-presentation [tabindex]:focus-visible {
+  outline: 3px solid var(--udgia-ochre, #f7a11a);
+  outline-offset: 2px;
+}

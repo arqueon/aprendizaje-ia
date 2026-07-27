@@ -1,0 +1,12 @@
+.h5p-bloom-objective-builder {
+  min-width: 0;
+}
+
+.h5p-bloom-objective-builder .bob-shell {
+  padding-inline: clamp(.6rem, 2vw, 1.4rem);
+}
+
+.h5p-bloom-objective-builder a:focus-visible {
+  outline: 3px solid var(--udgia-ochre, #f7a11a);
+  outline-offset: 2px;
+}

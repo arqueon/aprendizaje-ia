@@ -29,6 +29,132 @@
       "fullScreen": false,
       "reportingIsEnabled": false,
       "fixture": true
+    },
+    "cocreacion-versiones-slider": {
+      "title": "Tres versiones de una co-creación",
+      "description": "Secuencia visual del borrador propio a la revisión justificada.",
+      "source": "h5p/packages/cocreacion-versiones-slider-1.0.0.h5p",
+      "sourceSha256": "28d0e26d4a4a6494e615c3c74a5bb3708441f7d58e5cf37f94ff76f3c4aa77ee",
+      "mainLibrary": "H5P.ImageSlider",
+      "majorVersion": 1,
+      "minorVersion": 1,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/cocreacion-versiones-slider/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.ImageSlider"
+      },
+      "adapter": "image-slider.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false,
+      "fixture": false
+    },
+    "direccion-epistemica-hotspots": {
+      "title": "Cinco decisiones de dirección epistémica",
+      "description": "Mapa interactivo para reconocer decisiones y evidencias del proceso.",
+      "source": "h5p/packages/direccion-epistemica-hotspots-1.0.0.h5p",
+      "sourceSha256": "284702b30060832d2256201ef9bea449923b34a5b92b71e41ba78799d43b57fe",
+      "mainLibrary": "H5P.ImageHotspots",
+      "majorVersion": 1,
+      "minorVersion": 10,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/direccion-epistemica-hotspots/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.ImageHotspots"
+      },
+      "adapter": "image-hotspots.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false,
+      "fixture": false
+    },
+    "cocreacion-conceptos-cards": {
+      "title": "Conceptos para co-crear con dirección",
+      "description": "Tarjetas de relación entre co-creación, dirección epistémica, trazabilidad y ganancia cognitiva.",
+      "source": "h5p/packages/cocreacion-conceptos-cards-1.0.0.h5p",
+      "sourceSha256": "8da6c8a6d457a50671272271e6fd39d8cb994157b15875ec9163ae9f54928591",
+      "mainLibrary": "H5P.Dialogcards",
+      "majorVersion": 1,
+      "minorVersion": 9,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/cocreacion-conceptos-cards/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.Dialogcards"
+      },
+      "adapter": "dialog-cards.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true,
+      "fixture": false
+    },
+    "evaluacion-proceso-decision": {
+      "title": "Qué evidencia muestra aprendizaje",
+      "description": "Decisión múltiple sobre evidencias formativas de un proceso asistido por IA.",
+      "source": "h5p/packages/evaluacion-proceso-decision-1.0.0.h5p",
+      "sourceSha256": "35aa1c63bebf8f2869d8cf63f6a6c13788ab3c1f3be1d809e83f229ddfb705f0",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/evaluacion-proceso-decision/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.MultiChoice"
+      },
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true,
+      "fixture": false
+    },
+    "cocreacion-evaluacion-recorrido": {
+      "title": "Recorrido: co-crear y evaluar con IA",
+      "description": "Microrecorrido para estudiante, docente y coordinación.",
+      "source": "h5p/packages/cocreacion-evaluacion-recorrido-1.0.0.h5p",
+      "sourceSha256": "e0f0f067642760110196c36d83c4deb13ce5013b458da97b3baeb3db096cdee7",
+      "mainLibrary": "H5P.CoursePresentation",
+      "majorVersion": 1,
+      "minorVersion": 26,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/cocreacion-evaluacion-recorrido/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.CoursePresentation"
+      },
+      "adapter": "course-presentation.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false,
+      "fixture": false
+    },
+    "objetivos-bloom-udgplus": {
+      "title": "Constructor de objetivos de aprendizaje UDGPlus",
+      "description": "Constructor accesible de objetivos, evidencias y criterios con Bloom revisada.",
+      "source": "h5p/packages/objetivos-bloom-udgplus-1.0.0.h5p",
+      "sourceSha256": "b8e49886da064264a511507838d14ae45f8a76cf8412b7772a8fab775e82c2ea",
+      "mainLibrary": "H5P.BloomObjectiveBuilder",
+      "majorVersion": 1,
+      "minorVersion": 0,
+      "contentLicense": "CC BY-SA 4.0",
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-local-library",
+        "author": "UDGPlus",
+        "source": "h5p/activities/objetivos-bloom-udgplus/package",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "bloom-objective-builder.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false,
+      "fixture": false
     }
   }
 }

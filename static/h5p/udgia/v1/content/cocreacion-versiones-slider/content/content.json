@@ -1,0 +1,133 @@
+{
+  "imageSlides": [
+    {
+      "params": {
+        "image": {
+          "params": {
+            "contentName": "Imagen",
+            "file": {
+              "path": "images/borrador-propio.png",
+              "mime": "image/png",
+              "width": 1200,
+              "height": 675,
+              "copyright": {
+                "license": "CC BY-SA",
+                "version": "4.0",
+                "author": "UDGPlus",
+                "title": "Borrador propio"
+              }
+            },
+            "alt": "Borrador inicial con tesis propia, fuentes por verificar y preguntas abiertas.",
+            "decorative": false
+          },
+          "library": "H5P.Image 1.1",
+          "subContentId": "5c3eaf45-5e03-48f7-8f02-736017502401",
+          "metadata": {
+            "title": "Borrador propio",
+            "authors": [{"name": "UDGPlus", "role": "Author"}],
+            "license": "CC BY-SA",
+            "licenseVersion": "4.0",
+            "contentType": "Image"
+          }
+        }
+      },
+      "library": "H5P.ImageSlide 1.1",
+      "subContentId": "64e1cd2f-cd73-47fc-bde4-61a893895111",
+      "metadata": {
+        "contentType": "Image Slide",
+        "license": "CC BY-SA",
+        "licenseVersion": "4.0",
+        "title": "1. Borrador propio"
+      }
+    },
+    {
+      "params": {
+        "image": {
+          "params": {
+            "contentName": "Imagen",
+            "file": {
+              "path": "images/interrogacion-ia.png",
+              "mime": "image/png",
+              "width": 1200,
+              "height": 675,
+              "copyright": {
+                "license": "CC BY-SA",
+                "version": "4.0",
+                "author": "UDGPlus",
+                "title": "Interrogación con IA"
+              }
+            },
+            "alt": "La IA propone objeciones y conexiones; la persona contrasta y verifica.",
+            "decorative": false
+          },
+          "library": "H5P.Image 1.1",
+          "subContentId": "73c9c629-2c22-4494-aedc-a0a702d2b803",
+          "metadata": {
+            "title": "Interrogación con IA",
+            "authors": [{"name": "UDGPlus", "role": "Author"}],
+            "license": "CC BY-SA",
+            "licenseVersion": "4.0",
+            "contentType": "Image"
+          }
+        }
+      },
+      "library": "H5P.ImageSlide 1.1",
+      "subContentId": "5d019266-f65b-40f8-9457-3310363bd912",
+      "metadata": {
+        "contentType": "Image Slide",
+        "license": "CC BY-SA",
+        "licenseVersion": "4.0",
+        "title": "2. Interrogación con IA"
+      }
+    },
+    {
+      "params": {
+        "image": {
+          "params": {
+            "contentName": "Imagen",
+            "file": {
+              "path": "images/revision-justificada.png",
+              "mime": "image/png",
+              "width": 1200,
+              "height": 675,
+              "copyright": {
+                "license": "CC BY-SA",
+                "version": "4.0",
+                "author": "UDGPlus",
+                "title": "Revisión justificada"
+              }
+            },
+            "alt": "Versión revisada con decisiones justificadas y fuentes verificadas.",
+            "decorative": false
+          },
+          "library": "H5P.Image 1.1",
+          "subContentId": "c5d751ad-78a9-4b38-837f-a6b48318ce04",
+          "metadata": {
+            "title": "Revisión justificada",
+            "authors": [{"name": "UDGPlus", "role": "Author"}],
+            "license": "CC BY-SA",
+            "licenseVersion": "4.0",
+            "contentType": "Image"
+          }
+        }
+      },
+      "library": "H5P.ImageSlide 1.1",
+      "subContentId": "9c5ec965-ff93-48a8-8134-80d28928a313",
+      "metadata": {
+        "contentType": "Image Slide",
+        "license": "CC BY-SA",
+        "licenseVersion": "4.0",
+        "title": "3. Revisión justificada"
+      }
+    }
+  ],
+  "aspectRatioMode": "fixed",
+  "aspectRatio": "16:9",
+  "a11y": {
+    "nextSlide": "Imagen siguiente",
+    "prevSlide": "Imagen anterior",
+    "slidesNavigation": "Navegación entre imágenes",
+    "slide": "Imagen",
+    "slideX": "Imagen %slide de %total"
+  }
+}

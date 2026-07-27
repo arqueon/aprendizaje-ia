@@ -1,0 +1,30 @@
+{
+  "semantics": [
+    {"label": "Título"},
+    {"label": "Introducción"},
+    {"label": "Audiencia predeterminada"},
+    {"label": "Código de idioma"},
+    {
+      "label": "Textos de interfaz",
+      "fields": [
+        {"label": "Antetítulo"},
+        {"label": "Etiqueta de fórmula"},
+        {"label": "Quién"},
+        {"label": "Qué hará"},
+        {"label": "Cómo"},
+        {"label": "Qué tan bien"},
+        {"label": "Etiqueta de pasos"},
+        {"label": "Nivel"},
+        {"label": "Verbo"},
+        {"label": "Componentes"},
+        {"label": "Revisión"},
+        {"label": "Copiar"},
+        {"label": "Guardar"},
+        {"label": "Confirmación de copia"},
+        {"label": "Confirmación de guardado"},
+        {"label": "Vista previa vacía"},
+        {"label": "Lista vacía"}
+      ]
+    }
+  ]
+}

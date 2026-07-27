@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-07-27T17:24:48.635Z",
+  "page": "ia-educacion/constelaciones/cocreacion-evaluacion/",
+  "expectedIDs": [
+    "cocreacion-versiones-slider",
+    "direccion-epistemica-hotspots",
+    "cocreacion-conceptos-cards",
+    "evaluacion-proceso-decision",
+    "cocreacion-evaluacion-recorrido",
+    "objetivos-bloom-udgplus"
+  ],
+  "hugo": {
+    "warnings": [
+      "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+      "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+      "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+      "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+    ]
+  },
+  "mobile": {
+    "width": 375,
+    "scrollWidth": 375,
+    "h5pCount": 6,
+    "fallbackLengths": [
+      559,
+      501,
+      586,
+      608,
+      511,
+      719
+    ],
+    "dark": false,
+    "colorScheme": "light"
+  },
+  "desktop": {
+    "activities": [
+      {
+        "id": "cocreacion-versiones-slider",
+        "height": 417,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 417,
+          "scrollHeight": 417,
+          "imageCount": 6,
+          "errorText": []
+        },
+        "violations": []
+      },
+      {
+        "id": "direccion-epistemica-hotspots",
+        "height": 282,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 282,
+          "scrollHeight": 282,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "violations": []
+      },
+      {
+        "id": "cocreacion-conceptos-cards",
+        "height": 628,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 628,
+          "scrollHeight": 628,
+          "imageCount": 2,
+          "errorText": []
+        },
+        "violations": []
+      },
+      {
+        "id": "evaluacion-proceso-decision",
+        "height": 549,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 549,
+          "scrollHeight": 549,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "violations": []
+      },
+      {
+        "id": "cocreacion-evaluacion-recorrido",
+        "height": 283,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 283,
+          "scrollHeight": 283,
+          "imageCount": 2,
+          "errorText": []
+        },
+        "violations": []
+      },
+      {
+        "id": "objetivos-bloom-udgplus",
+        "height": 3594,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 3594,
+          "scrollHeight": 3594,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "violations": []
+      }
+    ],
+    "preview": "Al finalizar, el estudiante categorizar dos fuentes con criterios explícitos a partir de un caso justificando tres diferencias.",
+    "pageGeometry": {
+      "width": 1280,
+      "scrollWidth": 1280
+    },
+    "externalRequests": [],
+    "writeRequests": [],
+    "consoleErrors": []
+  }
+}

@@ -9,6 +9,54 @@
       "adapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
+    },
+    "cocreacion-versiones-slider": {
+      "path": "cocreacion-versiones-slider",
+      "title": "Tres versiones de una co-creación",
+      "mainLibrary": "H5P.ImageSlider",
+      "adapter": "image-slider.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "direccion-epistemica-hotspots": {
+      "path": "direccion-epistemica-hotspots",
+      "title": "Cinco decisiones de dirección epistémica",
+      "mainLibrary": "H5P.ImageHotspots",
+      "adapter": "image-hotspots.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false
+    },
+    "cocreacion-conceptos-cards": {
+      "path": "cocreacion-conceptos-cards",
+      "title": "Conceptos para co-crear con dirección",
+      "mainLibrary": "H5P.Dialogcards",
+      "adapter": "dialog-cards.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true
+    },
+    "evaluacion-proceso-decision": {
+      "path": "evaluacion-proceso-decision",
+      "title": "Qué evidencia muestra aprendizaje",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": true
+    },
+    "cocreacion-evaluacion-recorrido": {
+      "path": "cocreacion-evaluacion-recorrido",
+      "title": "Recorrido: co-crear y evaluar con IA",
+      "mainLibrary": "H5P.CoursePresentation",
+      "adapter": "course-presentation.css",
+      "fullScreen": true,
+      "reportingIsEnabled": false
+    },
+    "objetivos-bloom-udgplus": {
+      "path": "objetivos-bloom-udgplus",
+      "title": "Constructor de objetivos de aprendizaje UDGPlus",
+      "mainLibrary": "H5P.BloomObjectiveBuilder",
+      "adapter": "bloom-objective-builder.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
     }
   }
 }

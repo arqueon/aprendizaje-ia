@@ -1,0 +1,14 @@
+.h5p-image-slider,
+.h5p-image-slider .h5p-image-slider-content {
+  background: var(--udgia-paper, #f6f1e8);
+}
+
+.h5p-image-slider .h5p-image-slider-button {
+  color: #fff;
+  background: var(--udgia-ink, #123b4a);
+}
+
+.h5p-image-slider .h5p-image-slider-button:focus-visible {
+  outline: 3px solid var(--udgia-ochre, #f7a11a);
+  outline-offset: 2px;
+}

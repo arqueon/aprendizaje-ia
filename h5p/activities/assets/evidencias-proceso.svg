@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Evidencias del proceso</title>
+  <desc id="desc">Un portafolio reúne un borrador, una tabla de verificación, decisiones de revisión y un producto final.</desc>
+  <rect width="1200" height="675" rx="44" fill="#edf6f5"/>
+  <rect x="145" y="106" width="910" height="480" rx="36" fill="#123b4a"/>
+  <rect x="205" y="168" width="210" height="320" rx="20" fill="#fff"/>
+  <rect x="495" y="168" width="210" height="320" rx="20" fill="#fff"/>
+  <rect x="785" y="168" width="210" height="320" rx="20" fill="#fff"/>
+  <g stroke="#9aa9ad" stroke-width="10" stroke-linecap="round">
+    <path d="M245 246h130M245 286h110M245 326h125"/>
+    <path d="M535 246h130M535 286h110M535 326h125"/>
+    <path d="M825 246h130M825 286h110M825 326h125"/>
+  </g>
+  <g font-family="sans-serif" font-weight="700" text-anchor="middle">
+    <circle cx="310" cy="428" r="36" fill="#f7a11a"/><text x="310" y="437" font-size="25" fill="#123b4a">1</text>
+    <circle cx="600" cy="428" r="36" fill="#007c83"/><text x="600" y="437" font-size="25" fill="#fff">2</text>
+    <circle cx="890" cy="428" r="36" fill="#f7a11a"/><text x="890" y="437" font-size="25" fill="#123b4a">3</text>
+  </g>
+  <text x="76" y="77" font-family="sans-serif" font-size="29" font-weight="700" fill="#123b4a">Evaluar aprendizaje es leer decisiones, no contar prompts</text>
+  <text x="600" y="548" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#fff">borrador · verificación · revisión justificada</text>
+</svg>

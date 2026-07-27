@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-07-27",
+  "libraries": {
+    "H5P.AdvancedText": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-advanced-text#license"
+    },
+    "H5P.Audio": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-audio#license"
+    },
+    "H5P.FontIcons": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-font-icons#license"
+    },
+    "H5P.Image": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-image#license"
+    },
+    "H5P.JoubelUI": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-joubel-ui#license"
+    },
+    "H5P.Text": {
+      "license": "MIT",
+      "source": "https://github.com/h5p/h5p-text#license"
+    }
+  }
+}

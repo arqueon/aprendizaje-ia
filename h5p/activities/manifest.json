@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "activities": {
+    "cocreacion-versiones-slider": {
+      "package": "cocreacion-versiones-slider-1.0.0.h5p",
+      "template": "h5p/templates/official/image-slider.h5p",
+      "templateSha256": "93cbe3aa43e83bcb74b74316f0a267c1e117c27e4175cf22bdabb8c41e53d907",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.ImageSlider",
+      "overlay": "h5p/activities/cocreacion-versiones-slider/overlay"
+    },
+    "direccion-epistemica-hotspots": {
+      "package": "direccion-epistemica-hotspots-1.0.0.h5p",
+      "template": "h5p/templates/official/image-hotspots.h5p",
+      "templateSha256": "28796fce971ef8a0af1b8a7c6ea5b6fc6d744ae01061b049a34d42bfefcdbc5d",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.ImageHotspots",
+      "overlay": "h5p/activities/direccion-epistemica-hotspots/overlay"
+    },
+    "cocreacion-conceptos-cards": {
+      "package": "cocreacion-conceptos-cards-1.0.0.h5p",
+      "template": "h5p/templates/official/dialog-cards.h5p",
+      "templateSha256": "4928ee704b12080118cc1ceb091894c6224b1e66ecf310dd26b4301ffdd6dea6",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.Dialogcards",
+      "overlay": "h5p/activities/cocreacion-conceptos-cards/overlay"
+    },
+    "evaluacion-proceso-decision": {
+      "package": "evaluacion-proceso-decision-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/evaluacion-proceso-decision/overlay"
+    },
+    "cocreacion-evaluacion-recorrido": {
+      "package": "cocreacion-evaluacion-recorrido-1.0.0.h5p",
+      "template": "h5p/templates/official/course-presentation.h5p",
+      "templateSha256": "2b928e923d4e6afc4ecd344d51b689db1ef9bc11be74ce17b94f43129209d050",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.CoursePresentation",
+      "overlay": "h5p/activities/cocreacion-evaluacion-recorrido/overlay"
+    },
+    "objetivos-bloom-udgplus": {
+      "package": "objetivos-bloom-udgplus-1.0.0.h5p",
+      "sourceRoot": "h5p/activities/objetivos-bloom-udgplus/package"
+    }
+  }
+}

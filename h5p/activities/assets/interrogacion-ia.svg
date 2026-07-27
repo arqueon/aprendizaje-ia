@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Interrogación con IA</title>
+  <desc id="desc">La persona contrasta objeciones y conexiones propuestas por un sistema de IA.</desc>
+  <rect width="1200" height="675" rx="44" fill="#edf6f5"/>
+  <path d="M600 92v492" stroke="#8cb5b7" stroke-width="6" stroke-dasharray="14 18"/>
+  <circle cx="334" cy="335" r="146" fill="#fff" stroke="#123b4a" stroke-width="8"/>
+  <circle cx="866" cy="335" r="146" fill="#fff" stroke="#007c83" stroke-width="8"/>
+  <circle cx="334" cy="300" r="48" fill="#f7a11a"/>
+  <path d="M250 430c27-79 142-79 169 0" fill="#123b4a"/>
+  <rect x="806" y="275" width="120" height="96" rx="22" fill="#007c83"/>
+  <circle cx="842" cy="322" r="12" fill="#fff"/>
+  <circle cx="890" cy="322" r="12" fill="#fff"/>
+  <path d="M842 348h48M866 245v30M786 303h20M926 303h20" stroke="#007c83" stroke-width="10" stroke-linecap="round"/>
+  <path d="M491 252c67-56 151-56 218 0" fill="none" stroke="#f7a11a" stroke-width="17" stroke-linecap="round"/>
+  <path d="m680 225 36 27-35 29" fill="none" stroke="#f7a11a" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M709 420c-67 56-151 56-218 0" fill="none" stroke="#123b4a" stroke-width="17" stroke-linecap="round"/>
+  <path d="m520 447-36-27 35-29" fill="none" stroke="#123b4a" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="102" font-family="sans-serif" font-size="27" font-weight="700" fill="#007c83">2 · INTERROGAR Y CONTRASTAR</text>
+  <text x="78" y="141" font-family="sans-serif" font-size="23" fill="#123b4a">La IA propone; la persona verifica y decide.</text>
+</svg>
