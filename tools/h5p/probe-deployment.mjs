@@ -136,6 +136,7 @@ async function functionalProbe(baseURL) {
     colorScheme: "dark"
   });
   const externalRequests = [];
+  const outsideBaseRequests = [];
   const writeRequests = [];
   const consoleErrors = [];
   const runtimeRequests = [];
@@ -144,6 +145,12 @@ async function functionalProbe(baseURL) {
     const requestURL = new URL(request.url());
     if (!["data:", "blob:"].includes(requestURL.protocol)) {
       if (requestURL.origin !== baseURL.origin) externalRequests.push(request.url());
+      if (
+        requestURL.origin === baseURL.origin &&
+        !requestURL.pathname.startsWith(baseURL.pathname)
+      ) {
+        outsideBaseRequests.push(request.url());
+      }
       if (requestURL.pathname.includes("/h5p/udgia/v1/")) {
         runtimeRequests.push(requestURL.pathname);
       }
@@ -167,6 +174,20 @@ async function functionalProbe(baseURL) {
     assert(
       (await page.locator('meta[name="robots"]').getAttribute("content")) === "noindex, nofollow",
       "La fixture técnica perdió noindex,nofollow"
+    );
+    const internalLinks = await page.locator("a[href]").evaluateAll((links) =>
+      links
+        .map((link) => link.href)
+        .filter((href) => {
+          const url = new URL(href);
+          return url.origin === window.location.origin;
+        })
+    );
+    assert(
+      internalLinks.every((href) => withinBase(href, baseURL)),
+      `Enlaces internos fuera de la base: ${internalLinks
+        .filter((href) => !withinBase(href, baseURL))
+        .join(", ")}`
     );
     await page.waitForTimeout(500);
     assert(
@@ -227,6 +248,10 @@ async function functionalProbe(baseURL) {
       externalRequests.length === 0,
       `Solicitudes fuera del origen: ${externalRequests.join(", ")}`
     );
+    assert(
+      outsideBaseRequests.length === 0,
+      `Solicitudes fuera de la subruta: ${outsideBaseRequests.join(", ")}`
+    );
     assert(consoleErrors.length === 0, `Errores de consola: ${consoleErrors.join(" | ")}`);
 
     await page.emulateMedia({ media: "print" });
@@ -244,7 +269,9 @@ async function functionalProbe(baseURL) {
       keyboardFeedback: true,
       printFallback: true,
       storageUnchanged: true,
+      internalLinksWithinBase: true,
       externalRequests,
+      outsideBaseRequests,
       writeRequests,
       consoleErrors,
       cookies: cookies.map(({ name, domain, path: cookiePath, secure, sameSite }) => ({

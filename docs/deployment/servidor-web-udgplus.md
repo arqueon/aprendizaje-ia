@@ -122,19 +122,19 @@ Options -Indexes -MultiViews
 <IfModule mod_headers.c>
   Header always set X-Content-Type-Options "nosniff"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  <LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(player|libraries|themes)/">
+    Header always set Cache-Control "public, max-age=31536000, immutable"
+  </LocationMatch>
+
+  <LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(host\.(css|js)|embed\.(css|html|js))$">
+    Header always set Cache-Control "public, max-age=31536000, immutable"
+  </LocationMatch>
+
+  <LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(content-index\.json|runtime-manifest\.json|content/)">
+    Header always set Cache-Control "no-cache"
+  </LocationMatch>
 </IfModule>
-
-<LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(player|libraries|themes)/">
-  Header always set Cache-Control "public, max-age=31536000, immutable"
-</LocationMatch>
-
-<LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(host\.(css|js)|embed\.(css|html|js))$">
-  Header always set Cache-Control "public, max-age=31536000, immutable"
-</LocationMatch>
-
-<LocationMatch "^/ruta/h5p/udgia/v[0-9]+/(content-index\.json|runtime-manifest\.json|content/)">
-  Header always set Cache-Control "no-cache"
-</LocationMatch>
 ```
 
 Apache asocia extensiones y tipos mediante `mod_mime`, y controla cabeceras/caché con
@@ -155,7 +155,8 @@ npm run qa:h5p:deployment -- https://sitio-oficial.udg.mx/ruta/
 La sonda `tools/h5p/probe-deployment.mjs`:
 
 1. exige HTTPS en destinos no locales;
-2. comprueba raíz, subruta, 404 reales, redirecciones, query strings y MIME;
+2. comprueba raíz, subruta, enlaces/solicitudes internas, 404 reales, redirecciones,
+   query strings y MIME;
 3. abre la fixture no curricular con Chromium y CSP real;
 4. verifica carga diferida, teclado, dos montajes, altura, impresión y fallback;
 5. rechaza solicitudes externas, métodos de escritura, errores de consola y cambios de
