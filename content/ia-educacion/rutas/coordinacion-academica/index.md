@@ -52,8 +52,7 @@ las asignaturas sean distintas cuando lo necesiten, pero no contradictorias ni a
 {{< alert icon="clipboard-check" type="info" >}}
 Esta es una **ruta operativa en construcción**, no un reglamento ni una política universitaria
 vigente. Está dirigida a jefaturas de departamento, coordinaciones de programas docentes de
-licenciatura y posgrado, academias y equipos del SEMS. Las decisiones de alta dirección se
-reservan para un documento ejecutivo independiente.
+licenciatura y posgrado, academias y equipos del SEMS.
 {{< /alert >}}
 
 ## Para quién es esta ruta
@@ -68,20 +67,21 @@ Las tres entradas comparten un mismo resultado: que el profesorado sepa qué pue
 qué apoyo recibirá, qué necesita comunicar al estudiantado y qué evidencia permitirá revisar
 los acuerdos al final del ciclo.
 
-## Qué resuelve y qué deja fuera
+## Qué permite coordinar
 
-| Esta ruta ayuda a coordinar… | Debe escalarse al nivel institucional y al documento ejecutivo… |
-|---|---|
-| diagnóstico de asignaturas, evaluaciones y necesidades docentes; | estrategia universitaria y prioridades de toda la Red; |
-| acuerdos disciplinares o de programa que orientan el syllabus; | adquisición o licenciamiento general de plataformas; |
-| formación y acompañamiento del profesorado; | autorización institucional de servicios para procesar datos; |
-| pilotos acotados y alternativas equivalentes sin IA; | reglas generales de protección de datos, integridad y sanciones; |
-| evidencias para revisar la práctica al cierre del ciclo; | infraestructura, presupuesto y métricas de alcance institucional; |
-| rutas de consulta para casos no previstos. | decisiones automatizadas con consecuencias académicas o laborales. |
+La ruta se concentra en tareas que pueden convertirse en trabajo colegiado:
 
-La coordinación académica no sustituye el juicio del docente sobre una actividad concreta ni
-asume atribuciones de Rectoría. Traduce criterios comunes a un contexto disciplinar, acompaña
-su aplicación y hace visibles los casos que requieren una decisión de otro nivel.
+- diagnosticar asignaturas, evaluaciones y necesidades docentes;
+- acordar criterios disciplinares o de programa que orienten el syllabus;
+- organizar formación y acompañamiento del profesorado;
+- preparar pilotos acotados y alternativas equivalentes sin IA;
+- reunir evidencias para revisar la práctica al cierre del ciclo;
+- definir una ruta de consulta para casos no previstos.
+
+La coordinación traduce criterios comunes a un contexto disciplinar y acompaña su aplicación.
+Cuando una condición necesaria no puede resolverse desde el equipo, se registra como
+dependencia: qué se necesita, por qué afecta al piloto, quién debe consultarlo y para cuándo
+se requiere una respuesta.
 
 ## El recorrido de un ciclo
 
@@ -262,14 +262,3 @@ un reglamento.
   {{< card link="/ia-educacion/guias/evaluacion-formativa-ia/" title="Rediseñar evaluación" icon="arrows-rotate" color="#2f7f83" description="Conserva evidencias del proceso sin reemplazar la calidad del producto final." >}}
   {{< card link="/formacion-docente/taller-diseno-actividades-ia-backward/" title="Acompañar al profesorado" icon="person-chalkboard" color="#687653" description="Aplica un taller replicable a actividades y evaluaciones reales del programa." >}}
 {{< /cards >}}
-
-## Frontera con el documento ejecutivo
-
-El futuro documento para coordinaciones generales, direcciones generales, rectorías de centro,
-vicerrectorías y Rectoría General no será una versión más extensa de esta página. Tendrá otra
-pregunta: **qué condiciones, prioridades, recursos y responsabilidades debe sostener la
-institución para que las coordinaciones académicas puedan operar**.
-
-Esta separación evita dos errores: pedir a una jefatura que resuelva decisiones de
-infraestructura y gobierno general, o reducir la alta dirección a revisar detalles de cada
-syllabus. Ambas capas se necesitan, pero producen instrumentos distintos.

@@ -53,13 +53,18 @@ estudiantes y docentes ni como una ampliación burocrática de la ruta operativa
 La primera página no intenta enseñar toda la gobernanza. Presenta:
 
 1. a quién sirve y qué resultado común persigue;
-2. qué decisiones corresponden al nivel operativo y cuáles deben escalarse;
+2. qué tareas puede convertir la coordinación en trabajo colegiado;
 3. un ciclo de seis momentos: delimitar, diagnosticar, acordar, acompañar, pilotar y revisar;
 4. adaptaciones para departamentos/academias, licenciatura/posgrado y SEMS;
 5. una primera sesión de trabajo de 90 minutos;
 6. enlaces a guías existentes para desarrollar cada decisión.
 
 Los contenidos posteriores podrán profundizar cada momento sin repetir la portada.
+
+La separación respecto del futuro documento ejecutivo organiza el trabajo editorial, pero no
+forma parte del contenido público de la ruta. La página sólo explica cómo registrar una
+dependencia que el equipo no puede resolver: necesidad, efecto sobre el piloto, persona a
+consultar y fecha requerida.
 
 ## 5. Imagen editorial
 
@@ -93,7 +98,8 @@ La entrega ya cumple:
 
 - lenguaje operativo sin simular normativa institucional vigente;
 - diferenciación clara entre los tres contextos de coordinación;
-- frontera visible con el documento ejecutivo;
+- separación del documento ejecutivo conservada en el informe interno, sin trasladar
+  organigramas ni planeación editorial a la página pública;
 - enlaces internos válidos;
 - imagen editorial propia y diagrama con alternativa textual;
 - build Hugo y QA responsive/accesible;
@@ -117,10 +123,11 @@ en Chromium:
 | Featured de coordinación | visible a 1024 × 576 px en escritorio y 327 × 184 px en móvil |
 | Featured de introducción | visible a 1024 × 576 px en escritorio y 327 × 184 px en móvil |
 | Proporción de featured | 16:9 natural, sin recorte ni deformación |
-| Arquitectura de contenido | 7 tarjetas, 2 tablas, 17 secciones y cero H5P |
+| Arquitectura de contenido | 7 tarjetas, 1 tabla, 16 secciones y cero H5P |
 | Gráfico del ciclo | 505 × 746 px en escritorio; 327 × 483 px en móvil |
 | Contextos | jefaturas/academias, licenciatura/posgrado y SEMS presentes |
-| Frontera ejecutiva | explícita en la introducción, tabla de decisiones y cierre |
+| Planeación editorial interna | ausentes «documento ejecutivo», «alta dirección» y «Rectoría General» de la página pública |
+| Dependencias fuera del equipo | tratamiento operativo: necesidad, efecto, consulta y fecha |
 | Enlaces internos | todos responden HTTP 200 en la copia compilada |
 | Axe | cero violaciones serias o críticas |
 | Privacidad y estabilidad | cero solicitudes externas y cero errores de consola |

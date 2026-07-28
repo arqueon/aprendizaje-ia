@@ -177,6 +177,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   const snapshot = await page.evaluate(() => {
     const links = [...document.querySelectorAll("main a[href]")].map((link) => link.href);
     const processGraphic = document.querySelector('img[src$="ciclo-coordinacion.svg"]');
+    const bodyText = document.body.textContent.replace(/\s+/g, " ");
     const rectangle = (element) => {
       if (!element) return null;
       const box = element.getBoundingClientRect();
@@ -196,9 +197,13 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       processGraphic: document.querySelectorAll('img[src$="ciclo-coordinacion.svg"]').length,
       processGraphicGeometry: rectangle(processGraphic),
       h5p: document.querySelectorAll("[data-udg-h5p]").length,
-      hasOperationalScope: document.body.textContent.includes("ruta operativa en construcción"),
-      hasExecutiveBoundary: document.body.textContent.includes("documento ejecutivo independiente"),
-      hasSEMS: document.body.textContent.includes("SEMS"),
+      hasOperationalScope: bodyText.includes("ruta operativa en construcción"),
+      hasOperationalDependencies: bodyText.includes("se registra como dependencia"),
+      hasInternalPlanningLanguage:
+        bodyText.includes("documento ejecutivo") ||
+        bodyText.includes("Rectoría General") ||
+        bodyText.includes("alta dirección"),
+      hasSEMS: bodyText.includes("SEMS"),
       hasThreeContexts:
         Boolean(document.querySelector("#jefaturas-de-departamento-y-academias")) &&
         Boolean(document.querySelector("#coordinaciones-de-licenciatura-y-posgrado")) &&
@@ -210,7 +215,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   assert(snapshot.title === "Coordinar la IA en los procesos docentes", `${name}: título`);
   assert(snapshot.scrollWidth <= snapshot.width, `${name}: overflow horizontal`);
   assert(snapshot.cards >= 7, `${name}: faltan tarjetas de ruta`);
-  assert(snapshot.tables >= 2, `${name}: faltan tablas operativas`);
+  assert(snapshot.tables >= 1, `${name}: falta la tabla operativa`);
   assert(snapshot.h2 >= 12, `${name}: faltan etapas/secciones`);
   assert(snapshot.processGraphic === 1, `${name}: gráfico del ciclo`);
   assert(
@@ -219,7 +224,8 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   );
   assert(snapshot.h5p === 0, `${name}: la portada no debe contener H5P`);
   assert(snapshot.hasOperationalScope, `${name}: falta estado de ruta operativa`);
-  assert(snapshot.hasExecutiveBoundary, `${name}: falta frontera ejecutiva`);
+  assert(snapshot.hasOperationalDependencies, `${name}: falta tratamiento operativo de dependencias`);
+  assert(!snapshot.hasInternalPlanningLanguage, `${name}: se filtró planeación editorial interna`);
   assert(snapshot.hasSEMS && snapshot.hasThreeContexts, `${name}: faltan audiencias`);
 
   const linkChecks = [];
