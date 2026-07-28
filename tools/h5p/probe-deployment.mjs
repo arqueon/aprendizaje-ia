@@ -713,6 +713,72 @@ async function functionalProbe(baseURL) {
       "El featured de coordinación perdió su proporción natural"
     );
 
+    const executiveURL = assetURL(
+      baseURL,
+      "ia-educacion/rutas/decision-institucional-ia/"
+    );
+    const executiveResponse = await page.goto(executiveURL.href, {
+      waitUntil: "networkidle"
+    });
+    assert(
+      executiveResponse?.status() === 200,
+      `Ruta ejecutiva desplegada: HTTP ${executiveResponse?.status()}`
+    );
+    assert(
+      (await page.locator("h1").textContent())?.trim() ===
+        "Decidir institucionalmente sobre IA en la docencia",
+      "La ruta ejecutiva perdió su título"
+    );
+    const executiveText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
+    assert(
+      executiveText.includes("marco de trabajo adaptable") &&
+        executiveText.includes("no una política institucional vigente"),
+      "La ruta ejecutiva perdió su frontera no normativa"
+    );
+    assert(
+      [
+        "Propósito y alcance",
+        "Gobernanza y responsabilidades",
+        "Personas, capacidades y equidad",
+        "Datos, tecnología e infraestructura",
+        "Portafolio y recursos",
+        "Evidencia, revisión y continuidad"
+      ].every((term) => executiveText.includes(term)),
+      "La ruta ejecutiva perdió una o más decisiones"
+    );
+    const executiveHero = page.locator("main article > figure:first-child > img");
+    await executiveHero.waitFor({ state: "visible" });
+    const executiveHeroGeometry = await executiveHero.evaluate((image) => {
+      const box = image.getBoundingClientRect();
+      return {
+        width: Math.round(box.width),
+        height: Math.round(box.height),
+        naturalWidth: image.naturalWidth,
+        naturalHeight: image.naturalHeight
+      };
+    });
+    assert(
+      executiveHeroGeometry.naturalWidth > 0 &&
+        executiveHeroGeometry.width >= 320,
+      "El featured ejecutivo no es visible"
+    );
+    assert(
+      Math.abs(
+        executiveHeroGeometry.width / executiveHeroGeometry.height -
+          executiveHeroGeometry.naturalWidth /
+            executiveHeroGeometry.naturalHeight
+      ) <= 0.02,
+      "El featured ejecutivo perdió su proporción natural"
+    );
+    const executiveMap = page.locator(
+      'img[src$="mapa-decisiones-institucionales.svg"]'
+    );
+    await executiveMap.waitFor({ state: "visible" });
+    assert(
+      await executiveMap.evaluate((image) => image.complete && image.naturalWidth > 0),
+      "El mapa de decisiones ejecutivas no cargó"
+    );
+
     const routeIndexURL = assetURL(baseURL, "ia-educacion/rutas/");
     const routeIndexResponse = await page.goto(routeIndexURL.href, {
       waitUntil: "networkidle"
@@ -724,8 +790,9 @@ async function functionalProbe(baseURL) {
     const routeIndexText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
     assert(
       routeIndexText.includes("Estudio o enseño") &&
-        routeIndexText.includes("Coordino procesos docentes"),
-      "El índice no presenta las dos rutas de audiencia"
+        routeIndexText.includes("Coordino procesos docentes") &&
+        routeIndexText.includes("Dirijo decisiones institucionales"),
+      "El índice no presenta las tres rutas de audiencia"
     );
     assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);
     assert(
@@ -770,10 +837,19 @@ async function functionalProbe(baseURL) {
         internalPlanningLanguageAbsent: true,
         hero: coordinationHeroGeometry
       },
+      executiveRoute: {
+        url: executiveURL.href,
+        title: "Decidir institucionalmente sobre IA en la docencia",
+        nonNormativeBoundary: true,
+        sixDecisions: true,
+        decisionMap: true,
+        hero: executiveHeroGeometry
+      },
       routeIndex: {
         url: routeIndexURL.href,
         studentTeacherEntry: true,
-        coordinationEntry: true
+        coordinationEntry: true,
+        executiveEntry: true
       },
       cookies: cookies.map(({ name, domain, path: cookiePath, secure, sameSite }) => ({
         name,
@@ -880,6 +956,24 @@ try {
     },
     {
       path: "ia-educacion/rutas/coordinacion-academica/featured.webp",
+      contentType: /^image\/webp\b/i,
+      accept: "image/webp",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/decision-institucional-ia/",
+      contentType: /^text\/html\b/i,
+      accept: "text/html",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/decision-institucional-ia/mapa-decisiones-institucionales.svg",
+      contentType: /^image\/svg\+xml\b/i,
+      accept: "image/svg+xml",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/decision-institucional-ia/featured.webp",
       contentType: /^image\/webp\b/i,
       accept: "image/webp",
       cachePolicy: "mutable"

@@ -23,4 +23,5 @@ contenidos cada vez más específicos.
 {{< cards >}}
   {{< card link="/ia-educacion/constelaciones/empezar-con-ia/" title="Estudio o enseño" icon="graduation-cap" color="#b12028" description="Una introducción general para estudiantes y docentes que comienzan a usar IA con propósitos de aprendizaje." >}}
   {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Coordino procesos docentes" icon="people-group" color="#18223c" description="Una ruta operativa para jefaturas, programas de licenciatura y posgrado, y coordinaciones del SEMS." >}}
+  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" icon="landmark" color="#687653" description="Un marco ejecutivo para alinear propósito, gobernanza, capacidades, tecnología, recursos y evidencia." >}}
 {{< /cards >}}

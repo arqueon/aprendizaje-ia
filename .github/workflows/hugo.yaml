@@ -68,6 +68,10 @@ jobs:
         env:
           EVIDENCE_DIR: ${{ runner.temp }}/udgia-004c-qa
         run: npm run qa:coordinacion-route
+      - name: Run institutional decision route responsive and accessibility QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-004d-qa
+        run: npm run qa:decision-institucional-route
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
