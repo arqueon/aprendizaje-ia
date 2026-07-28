@@ -66,6 +66,13 @@ forma parte del contenido público de la ruta. La página sólo explica cómo re
 dependencia que el equipo no puede resolver: necesidad, efecto sobre el piloto, persona a
 consultar y fecha requerida.
 
+El barrido editorial posterior llevó la página hacia el vocabulario de trabajo de su
+audiencia: «programa de asignatura» sustituye a `syllabus`; las tres literacidades se expresan
+como uso básico, verificación crítica y autoría responsable; cada etapa nombra un producto
+concreto; y los casos fuera de atribuciones se convierten en solicitudes documentadas. La
+apertura parte ahora del problema observable —indicaciones contradictorias cuando cada
+docente resuelve por su cuenta— y no de una definición general.
+
 ## 5. Imagen editorial
 
 La portada usa

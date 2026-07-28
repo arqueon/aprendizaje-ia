@@ -197,7 +197,9 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       processGraphic: document.querySelectorAll('img[src$="ciclo-coordinacion.svg"]').length,
       processGraphicGeometry: rectangle(processGraphic),
       h5p: document.querySelectorAll("[data-udg-h5p]").length,
-      hasOperationalScope: bodyText.includes("ruta operativa en construcción"),
+      hasOperationalScope:
+        bodyText.includes("guía de trabajo") &&
+        bodyText.includes("organizar un piloto y acuerdos colegiados"),
       hasOperationalDependencies: bodyText.includes("se registra como dependencia"),
       hasInternalPlanningLanguage:
         bodyText.includes("documento ejecutivo") ||
@@ -223,7 +225,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     `${name}: el gráfico del ciclo perdió su proporción vertical`
   );
   assert(snapshot.h5p === 0, `${name}: la portada no debe contener H5P`);
-  assert(snapshot.hasOperationalScope, `${name}: falta estado de ruta operativa`);
+  assert(snapshot.hasOperationalScope, `${name}: falta propósito operativo para la audiencia`);
   assert(snapshot.hasOperationalDependencies, `${name}: falta tratamiento operativo de dependencias`);
   assert(!snapshot.hasInternalPlanningLanguage, `${name}: se filtró planeación editorial interna`);
   assert(snapshot.hasSEMS && snapshot.hasThreeContexts, `${name}: faltan audiencias`);

@@ -22,7 +22,7 @@ ecosistema:
   intenciones: [comprender, decidir, diseñar, evaluar, gobernar]
   tipo: guia
   capas: [R1, R2, R3, R4, R5, R7, D4, D5, P.evaluacion-proceso, P.trazabilidad]
-  resultado: "Organiza un piloto docente acotado, define acuerdos de programa y decide si conviene sostenerlo, modificarlo, escalarlo o detenerlo con base en evidencias."
+  resultado: "Organiza un piloto docente acotado, define acuerdos de programa y decide si conviene sostenerlo, modificarlo, ampliarlo o detenerlo con base en evidencias."
   estado_evidencia: prototipo-escenario
   fuentes:
     - "Orientaciones institucionales UdG para IA, secciones 2.3, 7, 8 y 11"
@@ -44,15 +44,16 @@ ecosistema:
 ---
 
 {{< lead >}}
-Incorporar IA en la docencia no consiste en pedir que cada profesor elija una herramienta.
-Consiste en coordinar expectativas, formación, evaluación y apoyos para que las decisiones de
-las asignaturas sean distintas cuando lo necesiten, pero no contradictorias ni aisladas.
+Cuando cada docente resuelve por su cuenta cómo usar IA, el estudiantado recibe indicaciones
+contradictorias y los problemas se descubren tarde. La coordinación puede ordenar
+expectativas, formación, evaluación y apoyos sin uniformar todas las asignaturas.
 {{< /lead >}}
 
 {{< alert icon="clipboard-check" type="info" >}}
-Esta es una **ruta operativa en construcción**, no un reglamento ni una política universitaria
-vigente. Está dirigida a jefaturas de departamento, coordinaciones de programas docentes de
-licenciatura y posgrado, academias y equipos del SEMS.
+Esta **guía de trabajo** está dirigida a jefaturas de departamento, coordinaciones de
+programas docentes de licenciatura y posgrado, academias y equipos del SEMS. Ayuda a
+organizar un piloto y acuerdos colegiados; no sustituye las disposiciones universitarias
+vigentes.
 {{< /alert >}}
 
 ## Para quién es esta ruta
@@ -63,16 +64,15 @@ licenciatura y posgrado, academias y equipos del SEMS.
   {{< card link="#coordinaciones-y-equipos-del-sems" title="SEMS" icon="school" color="#2f7f83" description="Necesito una implementación gradual, apropiada para el nivel formativo y coherente entre escuelas, academias y asignaturas." >}}
 {{< /cards >}}
 
-Las tres entradas comparten un mismo resultado: que el profesorado sepa qué puede decidir,
-qué apoyo recibirá, qué necesita comunicar al estudiantado y qué evidencia permitirá revisar
-los acuerdos al final del ciclo.
+El punto común es concreto. El profesorado debe saber qué puede decidir, qué apoyo recibirá,
+qué necesita comunicar al estudiantado y qué evidencia se revisará al final del ciclo.
 
 ## Qué permite coordinar
 
 La ruta se concentra en tareas que pueden convertirse en trabajo colegiado:
 
 - diagnosticar asignaturas, evaluaciones y necesidades docentes;
-- acordar criterios disciplinares o de programa que orienten el syllabus;
+- acordar criterios disciplinares o de programa que orienten los programas de asignatura;
 - organizar formación y acompañamiento del profesorado;
 - preparar pilotos acotados y alternativas equivalentes sin IA;
 - reunir evidencias para revisar la práctica al cierre del ciclo;
@@ -89,8 +89,8 @@ se requiere una respuesta.
 pilotar, revisar y documentar la decisión.](ciclo-coordinacion.svg
 "Ciclo operativo de coordinación académica")
 
-En texto: la coordinación delimita un problema docente concreto; reúne una línea de base;
-acuerda criterios mínimos; acompaña a quienes rediseñarán syllabus, actividades y
+**Recorrido en texto:** la coordinación delimita un problema docente concreto; reúne una línea de base;
+acuerda criterios mínimos; acompaña a quienes rediseñarán programas de asignatura, actividades y
 evaluaciones; prueba esos cambios en pocas asignaturas o academias; y revisa evidencias para
 sostener, modificar, ampliar o detener el piloto. La revisión abre un nuevo ciclo, no una
 regla permanente.
@@ -110,15 +110,15 @@ para convertirse en trabajo. Un punto de partida útil nombra:
 que hoy pueden resolverse con IA sin mostrar comprensión, formar a sus docentes y acordar
 cómo se documentará el proceso.
 
-**Entregable:** una ficha de una página con propósito, alcance, responsables, calendario,
-recursos disponibles y decisiones que quedarán fuera.
+**Ficha de alcance:** una página con propósito, alcance, responsables, calendario, recursos
+disponibles y decisiones que quedarán fuera.
 
 ## 2. Diagnosticar prácticas y evaluaciones
 
-No conviene comenzar preguntando qué herramienta comprar. Primero se observa qué está
-ocurriendo en los procesos docentes:
+La compra de una herramienta no es el punto de partida. Primero se observa qué está ocurriendo
+en los procesos docentes:
 
-1. revisar una muestra pequeña de syllabus, consignas y rúbricas;
+1. revisar una muestra pequeña de programas de asignatura, consignas y rúbricas;
 2. identificar dónde el estudiantado ya usa IA, aunque no esté declarada;
 3. distinguir evaluaciones que conservan su validez de las que requieren rediseño;
 4. localizar brechas de acceso, privacidad o formación;
@@ -129,13 +129,13 @@ método para mapear competencias, asignaturas y evaluaciones. Los
 [flujos de trabajo docente](/laboratorio/integracion-ia/flujos-trabajo-docente-ia/) ayudan a
 localizar los puntos donde debe permanecer una decisión humana.
 
-**Entregable:** una línea de base breve que distingue lo observado, lo inferido y lo que aún
-no se sabe.
+**Línea de base:** un registro breve que distingue lo observado, lo inferido y lo que aún no
+se sabe.
 
 ## 3. Acordar criterios mínimos de programa
 
-Un acuerdo operativo no necesita enumerar todas las herramientas. Necesita responder, con
-lenguaje común, preguntas que el profesorado pueda trasladar al syllabus:
+El acuerdo fija criterios que el profesorado puede trasladar a su programa de asignatura.
+Debe responder, con lenguaje común:
 
 - ¿qué debe enseñarse antes de pedir un uso responsable?;
 - ¿qué usos se permiten, se restringen o se excluyen según el aprendizaje esperado?;
@@ -150,16 +150,16 @@ Los [lineamientos éticos operativos](/ia-educacion/guias/lineamientos-eticos-ia
 [guía de evaluación formativa](/ia-educacion/guias/evaluacion-formativa-ia/) desarrollan
 estas decisiones.
 
-**Entregable:** una guía disciplinar o de programa de una o dos páginas, fechada, versionada
-y con responsable de revisión. Es una orientación de trabajo dentro de las atribuciones del
-órgano que la acuerda; no simula ser una política institucional.
+**Guía de programa:** una o dos páginas, fechadas y versionadas, con responsable de revisión.
+Debe indicar qué cuerpo colegiado la acordó, en qué asignaturas o procesos se aplicará y
+cuándo volverá a revisarse.
 
 ## 4. Acompañar el rediseño docente
 
-La coordinación no pide cambios sin ofrecer condiciones para realizarlos. El acompañamiento
-combina:
+La coordinación acompaña los cambios con tiempo, formación y asesoría. El plan puede combinar:
 
-- una introducción común a las tres literacidades;
+- una introducción común al uso básico de IA, la verificación crítica y la autoría
+  responsable;
 - talleres breves sobre objetivos, evaluación y transparencia;
 - tiempo colegiado para revisar actividades reales;
 - ejemplos disciplinares que puedan adaptarse;
@@ -168,50 +168,51 @@ combina:
 
 El [taller de diseño de actividades con IA](/formacion-docente/taller-diseno-actividades-ia-backward/)
 ofrece una secuencia replicable y la
-[guía de syllabus y portafolio](/formacion-docente/syllabus-portafolio/) ayuda a traducir los
-acuerdos a cada curso.
+[guía de programas de asignatura y portafolio](/formacion-docente/syllabus-portafolio/) ayuda
+a traducir los acuerdos a cada curso.
 
-**Entregable:** un plan de acompañamiento vinculado con los cambios que el piloto realmente
-pedirá, no un curso genérico sobre herramientas.
+**Plan de acompañamiento:** actividades vinculadas con los cambios que el piloto realmente
+pedirá. Un curso genérico sobre herramientas no basta.
 
 ## 5. Pilotar en un alcance acotado
 
 Un piloto prueba una hipótesis pedagógica y organizativa. Antes de iniciar debe quedar claro:
 
 - qué asignaturas, grupos o academias participan;
-- qué cambia en el syllabus, las actividades y la evaluación;
+- qué cambia en los programas de asignatura, las actividades y la evaluación;
 - qué apoyo recibirán docentes y estudiantes;
 - qué alternativa se ofrecerá cuando la IA no sea accesible o pertinente;
-- qué incidentes deben escalarse de inmediato;
+- qué casos requieren una consulta inmediata y con quién;
 - qué evidencias se recogerán y cuáles no.
 
 Conviene comenzar con pocos casos contrastantes: una asignatura de fundamentos, una de
 aplicación y, cuando corresponda, una de cierre, titulación o investigación. La comparación
 permite reconocer dónde la misma orientación necesita expresarse de forma diferente.
 
-**Entregable:** una ficha por caso con propósito, cambio docente, apoyo, evidencia, riesgo,
-responsable y fecha de revisión.
+**Ficha de piloto:** un registro por caso con propósito, cambio docente, apoyo, evidencia,
+riesgo, responsable y fecha de revisión.
 
 ## 6. Revisar evidencias y decidir
 
-La revisión no pregunta solamente si «se usó mucho» la IA. Pregunta si el proceso docente
-mejoró y si la coordinación pudo sostenerlo.
+La revisión pregunta si el proceso docente mejoró y si la coordinación pudo sostenerlo. La
+cantidad de usos de IA, por sí sola, no responde ninguna de las dos preguntas.
 
 | Evidencia útil | Pregunta que permite responder |
 |---|---|
-| muestra de syllabus y rúbricas antes/después; | ¿las expectativas y los criterios se hicieron más claros? |
+| muestra de programas de asignatura y rúbricas antes/después; | ¿las expectativas y los criterios se hicieron más claros? |
 | versiones de actividades y evaluaciones; | ¿el rediseño protege o mejora el aprendizaje esperado? |
 | consultas y casos no previstos, anonimizados; | ¿qué vacíos tuvo la guía y qué apoyo faltó? |
 | participación y productos de la formación; | ¿la capacitación llegó a la práctica o quedó aislada? |
 | problemas de acceso y alternativas utilizadas; | ¿el piloto produjo o redujo desigualdades? |
 | retroalimentación breve de docentes y estudiantes; | ¿qué funcionó, para quién y bajo qué condiciones? |
 
-No se necesitan conversaciones completas con IA, datos personales, rankings de docentes ni
-porcentajes de detectores de texto. Esas fuentes añaden vigilancia sin demostrar aprendizaje.
+Conviene excluir conversaciones completas con IA, datos personales, rankings de docentes y
+porcentajes de detectores de texto. Añaden vigilancia sin demostrar aprendizaje.
 
 **Decisión de cierre:** sostener, modificar, ampliar o detener. Cualquiera de las cuatro se
 documenta con alcance y razones. Cuando la decisión rebasa las atribuciones académicas
-operativas, se formula como asunto a escalar, no como disposición local.
+operativas, se convierte en una solicitud documentada: necesidad, evidencia disponible,
+instancia a consultar y fecha en la que se requiere respuesta.
 
 ## El mismo recorrido en tres contextos
 
@@ -243,16 +244,16 @@ secuencia gradual que las academias puedan adaptar sin perder un núcleo común.
 
 Para iniciar sin convertir la reunión en un debate abstracto:
 
-1. **Antes:** reunir tres syllabus, tres evaluaciones frecuentes, el perfil de egreso o
-   referente formativo y dos casos que hayan generado dudas.
+1. **Antes:** reunir tres programas de asignatura, tres evaluaciones frecuentes, el perfil de
+   egreso o referente formativo y dos casos que hayan generado dudas.
 2. **Minutos 0–15:** acordar el problema concreto y lo que queda fuera.
 3. **Minutos 15–40:** revisar los ejemplos y distinguir hechos, supuestos y vacíos.
 4. **Minutos 40–60:** elegir uno o dos casos para un piloto.
 5. **Minutos 60–75:** asignar responsable, apoyo, evidencia y ruta de consulta.
 6. **Minutos 75–90:** fijar el siguiente producto y la fecha de revisión.
 
-La sesión termina con una ficha de alcance y una tarea verificable. No necesita terminar con
-un reglamento.
+La sesión termina con una ficha de alcance y una tarea verificable. Ese es el producto
+esperado, no un reglamento.
 
 ## Continúa según la decisión que necesitas tomar
 
