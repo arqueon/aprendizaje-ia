@@ -199,6 +199,15 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       h2: document.querySelectorAll("main h2").length,
       cards: document.querySelectorAll("main .card-bg h5 a").length,
       tables: document.querySelectorAll("main table").length,
+      executiveTables: document.querySelectorAll("main .udgia-executive-table").length,
+      tableCaptions: [...document.querySelectorAll("main .udgia-executive-table caption")]
+        .map((caption) => caption.textContent.trim()),
+      tableRowHeaders: document.querySelectorAll(
+        'main .udgia-executive-table tbody th[scope="row"]'
+      ).length,
+      tableBodyCellsBeginUppercase: [
+        ...document.querySelectorAll("main .udgia-executive-table tbody td")
+      ].every((cell) => /^\p{Lu}/u.test(cell.textContent.trim())),
       h5p: document.querySelectorAll("[data-udg-h5p]").length,
       mapCount: document.querySelectorAll(
         'img[src$="mapa-decisiones-institucionales.svg"]'
@@ -237,6 +246,17 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   assert(snapshot.h2 >= 10, `${name}: faltan decisiones o secciones`);
   assert(snapshot.cards >= 4, `${name}: faltan continuaciones`);
   assert(snapshot.tables >= 2, `${name}: faltan matrices ejecutivas`);
+  assert(snapshot.executiveTables === 2, `${name}: faltan tablas ejecutivas estilizadas`);
+  assert(
+    snapshot.tableCaptions.length === 2 &&
+      snapshot.tableCaptions.every((caption) => caption.length > 0),
+    `${name}: las tablas ejecutivas requieren títulos visibles`
+  );
+  assert(snapshot.tableRowHeaders === 7, `${name}: faltan encabezados semánticos de fila`);
+  assert(
+    snapshot.tableBodyCellsBeginUppercase,
+    `${name}: hay celdas que todavía comienzan como fragmentos en minúscula`
+  );
   assert(snapshot.h5p === 0, `${name}: el marco ejecutivo no debe contener H5P`);
   assert(snapshot.mapCount === 1, `${name}: falta el mapa de decisiones`);
   assert(
@@ -270,6 +290,13 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       path: path.join(evidenceDirectory, "mapa-decisiones.png")
     });
   }
+  const executiveTables = page.locator(".udgia-executive-table");
+  await executiveTables.nth(0).screenshot({
+    path: path.join(evidenceDirectory, `tabla-gobernanza-${name}.png`)
+  });
+  await executiveTables.nth(1).screenshot({
+    path: path.join(evidenceDirectory, `tabla-portafolio-${name}.png`)
+  });
   await page.evaluate(() => window.scrollTo(0, 0));
   await page.screenshot({
     path: path.join(evidenceDirectory, `ruta-${name}.png`),

@@ -106,11 +106,31 @@ revisable.
 
 No todas las decisiones pertenecen al mismo nivel. El marco común debe distinguir:
 
-| Nivel | Decide y sostiene |
-|---|---|
-| Institución | principios, ciclo de revisión, condiciones de licenciamiento, privacidad, infraestructura, equidad y seguimiento agregado; |
-| Centro o programa | traducción disciplinar, formación y acompañamiento, criterios de programa y selección de pilotos; |
-| Asignatura | expectativas de uso, actividades, evaluación, evidencias y comunicación con el estudiantado. |
+<div class="udgia-executive-table" role="region" aria-label="Distribución de decisiones y responsabilidades por nivel" tabindex="0">
+  <table>
+    <caption>Distribución de decisiones y responsabilidades por nivel</caption>
+    <thead>
+      <tr>
+        <th scope="col">Nivel</th>
+        <th scope="col">Decide y sostiene</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Institución</th>
+        <td>Define los principios, el ciclo de revisión y las condiciones institucionales de licenciamiento, privacidad, infraestructura, equidad y seguimiento agregado.</td>
+      </tr>
+      <tr>
+        <th scope="row">Centro o programa</th>
+        <td>Traduce los criterios institucionales al contexto disciplinar, organiza la formación y el acompañamiento, y selecciona los pilotos.</td>
+      </tr>
+      <tr>
+        <th scope="row">Asignatura</th>
+        <td>Comunica las expectativas de uso, diseña las actividades y la evaluación, y define las evidencias que conocerá el estudiantado.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 La responsabilidad distribuida evita dos extremos: que cada docente resuelva en soledad
 problemas institucionales o que una regla central sustituya el juicio disciplinar. Para cada
@@ -169,12 +189,40 @@ dos preguntas:
 1. ¿cuánto contribuye al propósito educativo e institucional?;
 2. ¿existe capacidad real para sostenerla de forma responsable?
 
-| Aporte | Capacidad | Decisión provisional |
-|---|---|---|
-| Alto | Suficiente | pilotar o ampliar con evidencia y salvaguardas; |
-| Alto | Insuficiente | construir primero la capacidad que falta; |
-| Incierto | Suficiente | experimentar en escala pequeña para aprender; |
-| Bajo | Cualquiera | posponer o detener y liberar recursos. |
+<div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">
+  <table>
+    <caption>Criterios para priorizar iniciativas del portafolio</caption>
+    <thead>
+      <tr>
+        <th scope="col">Aporte</th>
+        <th scope="col">Capacidad</th>
+        <th scope="col">Decisión provisional</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Alto</th>
+        <td>Suficiente</td>
+        <td>Pilotar o ampliar con evidencia y salvaguardas.</td>
+      </tr>
+      <tr>
+        <th scope="row">Alto</th>
+        <td>Insuficiente</td>
+        <td>Construir primero la capacidad que falta.</td>
+      </tr>
+      <tr>
+        <th scope="row">Incierto</th>
+        <td>Suficiente</td>
+        <td>Experimentar en una escala pequeña para aprender.</td>
+      </tr>
+      <tr>
+        <th scope="row">Bajo</th>
+        <td>Cualquiera</td>
+        <td>Posponer o detener la iniciativa y liberar recursos.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 Cada iniciativa del portafolio debe tener responsable, población, costo, dependencia,
 salvaguarda, resultado observable, evidencia y fecha de revisión. El número de herramientas

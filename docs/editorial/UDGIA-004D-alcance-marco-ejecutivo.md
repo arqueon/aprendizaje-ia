@@ -98,6 +98,11 @@ artesanías, paisaje, pobreza ni otros atajos folklorizantes o turísticos.
 El mapa de seis decisiones es un SVG determinista con `title` y `desc`. La página incluye
 inmediatamente una lista textual equivalente; ninguna decisión depende del gráfico.
 
+Las dos matrices ejecutivas usan títulos visibles, encabezados de columna y encabezados
+semánticos de fila. Las celdas expresan decisiones mediante oraciones completas, y su
+tratamiento visual conserva el reflow: la tabla de tres columnas se desplaza dentro de una
+región enfocable con teclado en pantallas estrechas, sin ensanchar la página.
+
 Contenido visual: UDGPlus, CC BY-SA 4.0.
 
 ## 8. Puerta de revisión
@@ -121,7 +126,7 @@ La integración y publicación requieren un VoBo posterior y explícito.
 | Comprobación | Resultado |
 |---|---|
 | Build Hugo | 925 páginas |
-| Estructura | 15 secciones de segundo nivel, 4 tarjetas, 2 tablas y cero H5P |
+| Estructura | 15 secciones de segundo nivel, 4 tarjetas, 2 tablas ejecutivas y cero H5P |
 | Portada | 1024 × 576 px en escritorio y 327 × 184 px en móvil; proporción 16:9 |
 | Mapa ejecutivo | 505 × 303 px en escritorio y 327 × 196 px en móvil |
 | Reflow | 1440 y 375 px sin desbordamiento horizontal |

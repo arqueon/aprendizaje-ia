@@ -156,6 +156,116 @@ article > figure:first-child > img.single_hero_round {
   padding-block: 0.6rem;
 }
 
+.prose .udgia-executive-table {
+  margin-block: 1.75rem 2rem;
+  overflow-x: auto;
+  color: var(--udg-c-ink);
+  background: var(--udg-c-surface);
+  border: 1px solid var(--udg-c-line);
+  border-radius: 0.85rem;
+  box-shadow:
+    0 1px 2px rgb(24 34 60 / 5%),
+    0 12px 30px rgb(24 34 60 / 7%);
+  scrollbar-color: var(--udg-c-primary) var(--udg-c-surface-alt);
+}
+
+.prose .udgia-executive-table:focus-visible {
+  outline: 3px solid var(--udg-c-primary);
+  outline-offset: 3px;
+}
+
+.prose .udgia-executive-table table {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+.prose .udgia-executive-table caption {
+  padding: 0.9rem 1rem;
+  color: var(--udg-c-ink);
+  font-family: "Piazzolla", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 750;
+  line-height: 1.35;
+  text-align: left;
+  background: var(--udg-c-primary-tint);
+  border-bottom: 1px solid var(--udg-c-line);
+}
+
+.prose .udgia-executive-table :where(th, td) {
+  padding: 0.85rem 1rem;
+  color: var(--udg-c-ink);
+  font-size: 0.97rem;
+  line-height: 1.5;
+  text-align: left;
+  vertical-align: top;
+  border: 0;
+}
+
+.prose .udgia-executive-table thead th {
+  color: var(--udg-c-surface);
+  font-size: 0.84rem;
+  font-weight: 750;
+  letter-spacing: 0.025em;
+  background: var(--udg-c-ink);
+}
+
+.prose .udgia-executive-table tbody :where(th, td) {
+  border-top: 1px solid var(--udg-c-line);
+}
+
+.prose .udgia-executive-table tbody tr:first-child :where(th, td) {
+  border-top: 0;
+}
+
+.prose .udgia-executive-table tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--udg-c-surface-alt) 52%, var(--udg-c-surface));
+}
+
+.prose .udgia-executive-table tbody th[scope="row"] {
+  width: 10.75rem;
+  color: var(--udg-c-ink);
+  font-weight: 750;
+  background: var(--udg-c-surface-alt);
+  border-inline-end: 3px solid var(--udg-c-primary);
+}
+
+.prose .udgia-executive-table--portfolio tbody th[scope="row"] {
+  width: 7rem;
+}
+
+.prose .udgia-executive-table--portfolio :where(th:nth-child(2), td:nth-child(2)) {
+  width: 9rem;
+}
+
+@media (max-width: 640px) {
+  .prose .udgia-executive-table {
+    margin-inline: 0;
+    border-radius: 0.7rem;
+  }
+
+  .prose .udgia-executive-table caption {
+    padding: 0.8rem 0.85rem;
+    font-size: 1rem;
+  }
+
+  .prose .udgia-executive-table :where(th, td) {
+    padding: 0.75rem 0.8rem;
+    font-size: 0.93rem;
+  }
+
+  .prose .udgia-executive-table tbody th[scope="row"] {
+    width: 8.5rem;
+  }
+
+  .prose .udgia-executive-table--portfolio table {
+    min-width: 34rem;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -173,7 +283,9 @@ article > figure:first-child > img.single_hero_round {
   }
 
   .card-bg,
-  header {
+  header,
+  .udgia-executive-table,
+  .udgia-executive-table :where(caption, th, td) {
     border-color: CanvasText !important;
   }
 }
@@ -182,5 +294,15 @@ article > figure:first-child > img.single_hero_round {
   body {
     color: #000;
     background: #fff;
+  }
+
+  .prose .udgia-executive-table {
+    overflow: visible;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .prose .udgia-executive-table--portfolio table {
+    min-width: 0;
   }
 }

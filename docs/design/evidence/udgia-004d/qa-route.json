@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-07-28T18:17:34.967Z",
+  "checkedAt": "2026-07-28T19:08:08.279Z",
   "routePath": "ia-educacion/rutas/decision-institucional-ia/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
@@ -20,6 +20,13 @@
     "h2": 15,
     "cards": 4,
     "tables": 2,
+    "executiveTables": 2,
+    "tableCaptions": [
+      "Distribución de decisiones y responsabilidades por nivel",
+      "Criterios para priorizar iniciativas del portafolio"
+    ],
+    "tableRowHeaders": 7,
+    "tableBodyCellsBeginUppercase": true,
     "h5p": 0,
     "mapCount": 1,
     "mapGeometry": {
@@ -255,6 +262,13 @@
     "h2": 15,
     "cards": 4,
     "tables": 2,
+    "executiveTables": 2,
+    "tableCaptions": [
+      "Distribución de decisiones y responsabilidades por nivel",
+      "Criterios para priorizar iniciativas del portafolio"
+    ],
+    "tableRowHeaders": 7,
+    "tableBodyCellsBeginUppercase": true,
     "h5p": 0,
     "mapCount": 1,
     "mapGeometry": {
