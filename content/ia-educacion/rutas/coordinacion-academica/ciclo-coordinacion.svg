@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1330" role="img" aria-labelledby="title desc">
+  <title id="title">Ciclo operativo de coordinación académica</title>
+  <desc id="desc">Siete estaciones verticales: delimitar, diagnosticar, acordar, acompañar, pilotar, revisar y documentar la decisión. Una flecha lateral indica que la decisión abre un nuevo ciclo.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1 1l10 5-10 5z" fill="#536326"/>
+    </marker>
+    <style>
+      .label{font:700 30px Inter,Arial,sans-serif;fill:#18223c}
+      .detail{font:500 23px Inter,Arial,sans-serif;fill:#344054}
+      .number{font:800 31px Inter,Arial,sans-serif;text-anchor:middle;dominant-baseline:middle}
+      .connector{fill:none;stroke:#536326;stroke-width:8;stroke-linecap:round}
+      .node{stroke-width:4}
+      .inverse{fill:#fff}
+      .inverse-muted{fill:#f5f3ee}
+    </style>
+  </defs>
+
+  <rect width="900" height="1330" rx="44" fill="#f5f3ee"/>
+
+  <path class="connector" d="M450 174v42M450 344v42M450 514v42M450 684v42M450 854v42M450 1024v42" marker-end="url(#arrow)"/>
+  <path class="connector" d="M96 1185H48V98h48" marker-end="url(#arrow)" stroke-dasharray="16 14"/>
+  <text x="25" y="685" transform="rotate(-90 25 685)" class="detail" text-anchor="middle">la revisión abre un nuevo ciclo</text>
+
+  <g>
+    <rect class="node" x="96" y="46" width="744" height="128" rx="28" fill="#f7e5e2" stroke="#b12028"/>
+    <circle cx="166" cy="110" r="38" fill="#b12028"/>
+    <text x="166" y="112" class="number" fill="#fff">1</text>
+    <text x="224" y="102" class="label">Delimitar</text>
+    <text x="224" y="140" class="detail">qué proceso docente se coordinará</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="216" width="744" height="128" rx="28" fill="#ece9e1" stroke="#18223c"/>
+    <circle cx="166" cy="280" r="38" fill="#18223c"/>
+    <text x="166" y="282" class="number" fill="#fff">2</text>
+    <text x="224" y="272" class="label">Diagnosticar</text>
+    <text x="224" y="310" class="detail">prácticas, evaluaciones y apoyos</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="386" width="744" height="128" rx="28" fill="#dcebea" stroke="#2f7f83"/>
+    <circle cx="166" cy="450" r="38" fill="#2f7f83"/>
+    <text x="166" y="452" class="number" fill="#fff">3</text>
+    <text x="224" y="442" class="label">Acordar</text>
+    <text x="224" y="480" class="detail">criterios mínimos de programa</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="556" width="744" height="128" rx="28" fill="#eee7d5" stroke="#536326"/>
+    <circle cx="166" cy="620" r="38" fill="#536326"/>
+    <text x="166" y="622" class="number" fill="#fff">4</text>
+    <text x="224" y="612" class="label">Acompañar</text>
+    <text x="224" y="650" class="detail">el rediseño y la formación docente</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="726" width="744" height="128" rx="28" fill="#d99518" stroke="#8a5e0b"/>
+    <circle cx="166" cy="790" r="38" fill="#8a5e0b"/>
+    <text x="166" y="792" class="number" fill="#fff">5</text>
+    <text x="224" y="782" class="label">Pilotar</text>
+    <text x="224" y="820" class="detail">en pocas asignaturas o academias</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="896" width="744" height="128" rx="28" fill="#18223c" stroke="#10172a"/>
+    <circle cx="166" cy="960" r="38" fill="#f5f3ee"/>
+    <text x="166" y="962" class="number" fill="#18223c">6</text>
+    <text x="224" y="952" class="label inverse">Revisar</text>
+    <text x="224" y="990" class="detail inverse-muted">evidencias, condiciones y resultados</text>
+  </g>
+
+  <g>
+    <rect class="node" x="96" y="1066" width="744" height="172" rx="28" fill="#f7e5e2" stroke="#b12028"/>
+    <circle cx="166" cy="1152" r="38" fill="#b12028"/>
+    <text x="166" y="1154" class="number" fill="#fff">✓</text>
+    <text x="224" y="1130" class="label">Documentar la decisión</text>
+    <text x="224" y="1172" class="detail">sostener · modificar · ampliar · detener</text>
+  </g>
+</svg>

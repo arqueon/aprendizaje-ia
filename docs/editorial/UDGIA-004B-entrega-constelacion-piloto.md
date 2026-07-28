@@ -175,6 +175,9 @@ de `Referrer-Policy`. El contrato del futuro servidor institucional ya exige cor
 
 ## 10. Próxima puerta
 
-La siguiente subfase debe diseñar la ruta institucional de coordinación y gobierno como
-sección propia. Cualquier transferencia a Moodle, cambio en Orientaciones o desarrollo del
+La siguiente subfase separa dos instrumentos. UDGIA-004C desarrolla una ruta operativa para
+jefaturas de departamento, coordinaciones de licenciatura y posgrado, y equipos del SEMS,
+centrada en procesos docentes. La alta dirección —coordinaciones y direcciones generales,
+rectorías de centro, vicerrectorías y Rectoría General— tendrá después un documento ejecutivo
+independiente. Cualquier transferencia a Moodle, cambio en Orientaciones o desarrollo del
 Semillero requiere una tarea y autorización separadas.
