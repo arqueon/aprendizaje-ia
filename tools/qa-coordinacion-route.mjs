@@ -12,6 +12,7 @@ import { chromium } from "playwright-core";
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const routePath = "ia-educacion/rutas/coordinacion-academica/";
 const routeIndexPath = "ia-educacion/rutas/";
+const introductoryRoutePath = "ia-educacion/constelaciones/empezar-con-ia/";
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-004c");
@@ -111,6 +112,36 @@ async function axeViolations(page, label) {
   return violations;
 }
 
+async function inspectEditorialHero(page, pagePath, baseURL, label) {
+  const response = await page.goto(new URL(pagePath, baseURL).href, {
+    waitUntil: "networkidle"
+  });
+  assert(response?.status() === 200, `${label}: la página no respondió HTTP 200`);
+
+  const hero = page.locator("main article > figure:first-child > img");
+  await hero.waitFor({ state: "visible", timeout: 15000 });
+  const geometry = await hero.evaluate((image) => {
+    const box = image.getBoundingClientRect();
+    return {
+      source: image.currentSrc,
+      width: Math.round(box.width),
+      height: Math.round(box.height),
+      naturalWidth: image.naturalWidth,
+      naturalHeight: image.naturalHeight
+    };
+  });
+  const renderedRatio = geometry.width / geometry.height;
+  const naturalRatio = geometry.naturalWidth / geometry.naturalHeight;
+
+  assert(geometry.naturalWidth > 0, `${label}: el featured no cargó`);
+  assert(geometry.width >= 320, `${label}: el featured quedó demasiado pequeño`);
+  assert(
+    Math.abs(renderedRatio - naturalRatio) <= 0.02,
+    `${label}: el featured perdió su proporción natural ${JSON.stringify(geometry)}`
+  );
+  return geometry;
+}
+
 async function inspectViewport(browser, baseURL, name, viewport) {
   const context = await browser.newContext({
     viewport,
@@ -129,10 +160,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   });
   page.on("pageerror", (error) => consoleErrors.push(error.message));
 
-  const response = await page.goto(new URL(routePath, baseURL).href, {
-    waitUntil: "networkidle"
-  });
-  assert(response?.status() === 200, `${name}: la ruta no respondió HTTP 200`);
+  const hero = await inspectEditorialHero(page, routePath, baseURL, `${name}: coordinación`);
   const processGraphic = page.locator('img[src$="ciclo-coordinacion.svg"]');
   await processGraphic.waitFor({ state: "attached", timeout: 15000 });
   await processGraphic.scrollIntoViewIfNeeded();
@@ -213,11 +241,20 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     fullPage: false
   });
 
+  const introductoryHero = await inspectEditorialHero(
+    page,
+    introductoryRoutePath,
+    baseURL,
+    `${name}: introducción`
+  );
+
   assert(externalRequests.length === 0, `${name}: tráfico externo ${externalRequests}`);
   assert(consoleErrors.length === 0, `${name}: errores de consola ${consoleErrors}`);
   await context.close();
   return {
     ...snapshot,
+    hero,
+    introductoryHero,
     linkChecks,
     axeSeriousCritical: violations,
     externalRequests,

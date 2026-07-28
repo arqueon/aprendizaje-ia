@@ -9,7 +9,7 @@ categories: ["ruta-de-aprendizaje"]
 areas: ["ia", "pedagogia", "formacion"]
 weight: 10
 showHero: true
-heroStyle: "background"
+heroStyle: "big"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

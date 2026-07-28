@@ -11,6 +11,7 @@ tags: ["introducción a la IA", "aprendizaje", "docencia", "alfabetización en I
 categories: ["ruta-de-aprendizaje"]
 areas: ["ia", "pedagogia", "formacion"]
 showHero: true
+heroStyle: "big"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

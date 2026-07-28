@@ -74,6 +74,11 @@ Almagre, sin logos, texto legible, robots, hologramas ni símbolos de alta direc
 imagen funciona como acompañamiento editorial: la página no depende de ella para comunicar
 audiencias, etapas o decisiones.
 
+La imagen se presenta como `heroStyle: big`, en el flujo de lectura y antes del título. El
+estilo local neutraliza el límite de altura de Blowfish que deformaba la imagen y conserva su
+proporción 16:9 tanto en escritorio como en móvil. La misma corrección se aplica a la portada
+introductoria «Empezar con IA para aprender y enseñar».
+
 Contenido visual: UDGPlus, CC BY-SA 4.0.
 
 ## 6. Resultado observable
@@ -109,6 +114,9 @@ en Chromium:
 | Build Hugo | 916 páginas |
 | Vista escritorio | 1440 px, sin desbordamiento |
 | Vista móvil | 375 px, sin desbordamiento |
+| Featured de coordinación | visible a 1024 × 576 px en escritorio y 327 × 184 px en móvil |
+| Featured de introducción | visible a 1024 × 576 px en escritorio y 327 × 184 px en móvil |
+| Proporción de featured | 16:9 natural, sin recorte ni deformación |
 | Arquitectura de contenido | 7 tarjetas, 2 tablas, 17 secciones y cero H5P |
 | Gráfico del ciclo | 505 × 746 px en escritorio; 327 × 483 px en móvil |
 | Contextos | jefaturas/academias, licenciatura/posgrado y SEMS presentes |

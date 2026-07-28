@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-07-28T00:16:45.123Z",
+  "checkedAt": "2026-07-28T01:50:40.336Z",
   "routePath": "ia-educacion/rutas/coordinacion-academica/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
@@ -74,6 +74,20 @@
       "/tags/diagramas/",
       "/tags/protocolos/"
     ],
+    "hero": {
+      "source": "http://127.0.0.1:41779/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "width": 1024,
+      "height": 576,
+      "naturalWidth": 1200,
+      "naturalHeight": 675
+    },
+    "introductoryHero": {
+      "source": "http://127.0.0.1:41779/ia-educacion/constelaciones/empezar-con-ia/featured_hu_90f5860cd0e19260.webp",
+      "width": 1024,
+      "height": 576,
+      "naturalWidth": 1200,
+      "naturalHeight": 675
+    },
     "linkChecks": [
       {
         "pathname": "/",
@@ -309,6 +323,20 @@
       "/tags/diagramas/",
       "/tags/protocolos/"
     ],
+    "hero": {
+      "source": "http://127.0.0.1:41779/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "width": 327,
+      "height": 184,
+      "naturalWidth": 1200,
+      "naturalHeight": 675
+    },
+    "introductoryHero": {
+      "source": "http://127.0.0.1:41779/ia-educacion/constelaciones/empezar-con-ia/featured_hu_90f5860cd0e19260.webp",
+      "width": 327,
+      "height": 184,
+      "naturalWidth": 1200,
+      "naturalHeight": 675
+    },
     "linkChecks": [
       {
         "pathname": "/",
