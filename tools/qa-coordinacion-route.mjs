@@ -17,9 +17,13 @@ const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-004c");
 const reportPath = path.join(evidenceDirectory, "qa-route.json");
-const chromiumBinary =
-  process.env.CHROMIUM_PATH ||
-  ((await stat("/usr/bin/chromium").catch(() => null)) ? "/usr/bin/chromium" : "");
+const playwrightChromium = chromium.executablePath();
+const chromiumBinary = process.env.CHROMIUM_PATH ||
+  ((await stat("/usr/bin/chromium").catch(() => null))
+    ? "/usr/bin/chromium"
+    : (await stat(playwrightChromium).catch(() => null))
+      ? playwrightChromium
+      : "");
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);

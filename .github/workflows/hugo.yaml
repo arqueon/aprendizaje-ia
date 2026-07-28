@@ -64,6 +64,10 @@ jobs:
           EVIDENCE_DIR: ${{ runner.temp }}/udgia-h5p-qa
           CAPTURE_SCREENSHOTS: "false"
         run: npm run qa:h5p
+      - name: Run coordination route responsive and accessibility QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-004c-qa
+        run: npm run qa:coordinacion-route
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules

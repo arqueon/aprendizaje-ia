@@ -660,7 +660,93 @@ async function functionalProbe(baseURL) {
       "La alternativa accesible no permanece visible al imprimir"
     );
 
+    await page.emulateMedia({ media: "screen" });
+    const coordinationURL = assetURL(
+      baseURL,
+      "ia-educacion/rutas/coordinacion-academica/"
+    );
+    const coordinationResponse = await page.goto(coordinationURL.href, {
+      waitUntil: "networkidle"
+    });
+    assert(
+      coordinationResponse?.status() === 200,
+      `Ruta de coordinación desplegada: HTTP ${coordinationResponse?.status()}`
+    );
+    assert(
+      (await page.locator("h1").textContent())?.trim() ===
+        "Coordinar la IA en los procesos docentes",
+      "La ruta de coordinación perdió su título"
+    );
+    const coordinationText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
+    assert(
+      coordinationText.includes("organizar un piloto y acuerdos colegiados"),
+      "La ruta de coordinación perdió su propósito operativo"
+    );
+    assert(
+      !["documento ejecutivo", "alta dirección", "Rectoría General"].some((term) =>
+        coordinationText.includes(term)
+      ),
+      "La ruta pública contiene planeación editorial interna"
+    );
+    const coordinationHero = page.locator("main article > figure:first-child > img");
+    await coordinationHero.waitFor({ state: "visible" });
+    const coordinationHeroGeometry = await coordinationHero.evaluate((image) => {
+      const box = image.getBoundingClientRect();
+      return {
+        width: Math.round(box.width),
+        height: Math.round(box.height),
+        naturalWidth: image.naturalWidth,
+        naturalHeight: image.naturalHeight
+      };
+    });
+    assert(
+      coordinationHeroGeometry.naturalWidth > 0 &&
+        coordinationHeroGeometry.width >= 320,
+      "El featured de coordinación no es visible"
+    );
+    assert(
+      Math.abs(
+        coordinationHeroGeometry.width / coordinationHeroGeometry.height -
+          coordinationHeroGeometry.naturalWidth /
+            coordinationHeroGeometry.naturalHeight
+      ) <= 0.02,
+      "El featured de coordinación perdió su proporción natural"
+    );
+
+    const routeIndexURL = assetURL(baseURL, "ia-educacion/rutas/");
+    const routeIndexResponse = await page.goto(routeIndexURL.href, {
+      waitUntil: "networkidle"
+    });
+    assert(
+      routeIndexResponse?.status() === 200,
+      `Índice de rutas desplegado: HTTP ${routeIndexResponse?.status()}`
+    );
+    const routeIndexText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
+    assert(
+      routeIndexText.includes("Estudio o enseño") &&
+        routeIndexText.includes("Coordino procesos docentes"),
+      "El índice no presenta las dos rutas de audiencia"
+    );
+    assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);
+    assert(
+      externalRequests.length === 0,
+      `Solicitudes fuera del origen: ${externalRequests.join(", ")}`
+    );
+    assert(
+      outsideBaseRequests.length === 0,
+      `Solicitudes fuera de la subruta: ${outsideBaseRequests.join(", ")}`
+    );
+    assert(
+      blockedByGuard.length === 0,
+      `Solicitudes bloqueadas por la guarda de red: ${blockedByGuard.join(", ")}`
+    );
+    assert(
+      blockedWebSockets.length === 0,
+      `WebSockets bloqueados por la guarda de red: ${blockedWebSockets.join(", ")}`
+    );
+    assert(consoleErrors.length === 0, `Errores de consola: ${consoleErrors.join(" | ")}`);
     const cookies = await context.cookies();
+
     return {
       fixtureURL: fixtureURL.href,
       firstIframeURL,
@@ -677,6 +763,18 @@ async function functionalProbe(baseURL) {
       serviceWorkersBlocked: true,
       writeRequests,
       consoleErrors,
+      coordinationRoute: {
+        url: coordinationURL.href,
+        title: "Coordinar la IA en los procesos docentes",
+        operationalPurpose: true,
+        internalPlanningLanguageAbsent: true,
+        hero: coordinationHeroGeometry
+      },
+      routeIndex: {
+        url: routeIndexURL.href,
+        studentTeacherEntry: true,
+        coordinationEntry: true
+      },
       cookies: cookies.map(({ name, domain, path: cookiePath, secure, sameSite }) => ({
         name,
         domain,
@@ -760,6 +858,30 @@ try {
       path: "laboratorio/h5p-runtime/",
       contentType: /^text\/html\b/i,
       accept: "text/html",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/",
+      contentType: /^text\/html\b/i,
+      accept: "text/html",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/coordinacion-academica/",
+      contentType: /^text\/html\b/i,
+      accept: "text/html",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/coordinacion-academica/ciclo-coordinacion.svg",
+      contentType: /^image\/svg\+xml\b/i,
+      accept: "image/svg+xml",
+      cachePolicy: "mutable"
+    },
+    {
+      path: "ia-educacion/rutas/coordinacion-academica/featured.webp",
+      contentType: /^image\/webp\b/i,
+      accept: "image/webp",
       cachePolicy: "mutable"
     },
     {

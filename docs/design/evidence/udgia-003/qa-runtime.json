@@ -6,7 +6,7 @@
     {
       "mode": "root",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 909,
+      "pages": 916,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -17,7 +17,7 @@
     {
       "mode": "subpath",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 909,
+      "pages": 916,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -102,7 +102,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 473,
+      "firstHeight": 474,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,
@@ -193,7 +193,7 @@
         "/aprendizaje-ia/h5p/udgia/v1/host.js",
         "/aprendizaje-ia/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 481,
+      "firstHeight": 482,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 598,
       "collapsedHeight": 481,

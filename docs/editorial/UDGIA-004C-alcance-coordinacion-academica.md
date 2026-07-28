@@ -141,3 +141,11 @@ en Chromium:
 
 La evidencia está en `docs/design/evidence/udgia-004c/`. Permanecen los avisos conocidos de
 alineación de versiones Hugo/Blowfish y API deprecadas; no los introduce esta ruta.
+
+La misma QA forma parte ahora del job de build en GitHub Actions. La sonda posterior al
+despliegue también comprueba el índice de rutas, la página de coordinación, su SVG y su WebP;
+en Chromium exige propósito operativo, ausencia de lenguaje editorial interno y featured
+visible en proporción 16:9. La prueba previa contra un servidor Hugo limpio dio `PASS`:
+671 archivos H5P y 9,071,388 bytes íntegros, `Range 206`, CSP negativa, dos montajes,
+teclado, impresión, almacenamiento intacto, las dos entradas de audiencia y cero solicitudes
+externas, escrituras, cookies o errores de consola.
