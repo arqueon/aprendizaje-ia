@@ -2,7 +2,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004D**
 
-**Estado:** primera versión local para revisión
+**Estado:** integrada y publicada
 
 **Fecha:** 2026-07-28
 
@@ -61,13 +61,15 @@ recursos, evidencia y fecha de revisión. No equivale a un reglamento ni a un pl
 5. UDGIA-004D usa esos antecedentes como insumos, pero no declara aprobado el WIP de
    Orientaciones ni modifica su checkout.
 
-## 5. Límites de esta subfase
+## 5. Límites conservados
 
-- `aprendizaje-ia`: rama local `codex/UDGIA-004D-marco-ejecutivo`.
+- `aprendizaje-ia`: integrada por fast-forward desde
+  `codex/UDGIA-004D-marco-ejecutivo` hasta `cf8d924`.
 - `IAorientaciones`: solo lectura; el lote previo permanece intacto.
 - Moodle de referencia: solo lectura; no se crean actividades ni se alteran cursos.
 - `alfabetizacion_en_ia`: sin cambios; sigue siendo un esbozo derivado.
-- No hay integración, push, despliegue ni atribución de aprobación institucional.
+- La publicación del marco de trabajo no atribuye aprobación institucional a una política,
+  dictamen o compra.
 
 ## 6. Evidencia y lenguaje
 
@@ -105,7 +107,7 @@ región enfocable con teclado en pantallas estrechas, sin ensanchar la página.
 
 Contenido visual: UDGPlus, CC BY-SA 4.0.
 
-## 8. Puerta de revisión
+## 8. Puerta de revisión cerrada
 
 Antes de integrar o publicar deben revisarse:
 
@@ -117,7 +119,7 @@ Antes de integrar o publicar deben revisarse:
 - si gráfico, enlaces y portada pasan las pruebas de accesibilidad;
 - si no hay solicitudes externas, cookies, almacenamiento o errores de consola.
 
-La integración y publicación requieren un VoBo posterior y explícito.
+Rubén revisó la pieza y dio VoBo explícito para integrarla y publicarla el 2026-07-28.
 
 ## 9. Resultado de la primera QA local
 
@@ -138,3 +140,26 @@ La regresión `npm run qa:coordinacion-route` también terminó en `PASS`. La ve
 reproducible del runtime y de los seis paquetes H5P no detectó cambios. Permanecen los avisos
 conocidos sobre la diferencia de versiones Hugo/Blowfish y APIs deprecadas; UDGIA-004D no los
 introduce.
+
+## 10. Integración y publicación
+
+`main` avanzó por fast-forward de `4452755` a `cf8d924` y se envió a `origin/main`. GitHub
+Actions `30393150756` concluyó con `success` en sus tres trabajos:
+
+- build, incluida la QA H5P y las regresiones responsivas de UDGIA-004C y UDGIA-004D;
+- despliegue en GitHub Pages;
+- verificación del sitio ya desplegado.
+
+Una segunda sonda, ejecutada fuera del workflow, terminó en `PASS` contra
+`https://arqueon.github.io/aprendizaje-ia/`. Confirmó:
+
+- índice de rutas, ruta de coordinación y ruta ejecutiva con HTTP 200;
+- portada ejecutiva 16:9 y mapa SVG disponibles;
+- las dos tablas públicas, sus dos títulos y siete encabezados semánticos de fila;
+- 671 archivos H5P y 9,071,388 bytes verificados por integridad;
+- respuestas parciales `206`, dos montajes independientes, teclado, impresión y CSP
+  negativa;
+- cero solicitudes externas, escrituras, cookies, almacenamiento o errores de consola.
+
+Permanecen los avisos conocidos de GitHub Pages sobre políticas de caché y cabeceras
+recomendables para un futuro servidor oficial. Moodle, Orientaciones y Semillero no cambiaron.
