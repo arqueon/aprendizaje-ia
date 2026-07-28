@@ -89,6 +89,12 @@ académicas sin logos, texto incrustado, robots ni símbolos de autoridad única
 la herramienta integrada `imagegen`, se corrigió para retirar una cúpula central y se
 normalizó a 1600 × 900 px.
 
+La revisión del 2026-07-28 contextualizó a las cuatro personas en una universidad pública
+del Bajío y el centro-occidente mexicano. El criterio no es crear un fenotipo uniforme, sino
+mostrar una diversidad regional contemporánea y plausible mediante rasgos, tonos de piel y
+cabello. La contextualización no usa vestuario tradicional, banderas, arquitectura colonial,
+artesanías, paisaje, pobreza ni otros atajos folklorizantes o turísticos.
+
 El mapa de seis decisiones es un SVG determinista con `title` y `desc`. La página incluye
 inmediatamente una lista textual equivalente; ninguna decisión depende del gráfico.
 
