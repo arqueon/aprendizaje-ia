@@ -2,8 +2,7 @@
 
 **Ecosistema IA-docencia UDGPlus · UDGIA-004C**
 
-**Estado:** alcance fijado por Rubén; primer borrador Hugo listo para revisión editorial y
-visual
+**Estado:** integrado en `main`, publicado y verificado
 
 **Fecha:** 2026-07-27
 
@@ -20,8 +19,8 @@ La ruta pública que se construye ahora atiende el nivel de coordinación acadé
 - coordinaciones y equipos académicos del Sistema de Educación Media Superior.
 
 La ruta se enfoca en procesos docentes: acuerdos de programa, integración curricular,
-syllabus, evaluación, formación y acompañamiento del profesorado, pilotos, evidencia y
-revisión.
+programas de asignatura, evaluación, formación y acompañamiento del profesorado, pilotos,
+evidencia y revisión.
 
 ## 2. Documento ejecutivo separado
 
@@ -99,9 +98,9 @@ Una coordinación puede organizar un piloto docente acotado y decidir si convien
 modificarlo, ampliarlo o detenerlo mediante criterios y evidencias trazables, distinguiendo
 qué asunto necesita escalarse.
 
-## 7. Puerta antes de integrar
+## 7. Cierre de la puerta de integración
 
-La entrega ya cumple:
+Rubén dio el visto bueno y autorizó la integración y publicación. La entrega:
 
 - lenguaje operativo sin simular normativa institucional vigente;
 - diferenciación clara entre los tres contextos de coordinación;
@@ -112,12 +111,14 @@ La entrega ya cumple:
 - build Hugo y QA responsive/accesible;
 - ausencia de cambios en Moodle, Orientaciones y Semillero.
 
-Permanece pendiente:
+`main` avanzó de `cd71323` a `1e845c3`. La ejecución
+[GitHub Actions 30325286242](https://github.com/arqueon/aprendizaje-ia/actions/runs/30325286242)
+concluyó correctamente en sus tres etapas: construcción, despliegue y verificación posterior.
 
-- revisión editorial y visual de Rubén;
-- autorización separada antes de integrar o publicar.
+La siguiente pieza será un documento ejecutivo independiente para alta dirección. Queda
+fuera de UDGIA-004C y no está todavía autorizada para construcción o publicación.
 
-## 8. QA del primer borrador
+## 8. QA de la entrega publicada
 
 `npm run qa:coordinacion-route` construye el sitio, sirve una copia estática y revisa la ruta
 en Chromium:
@@ -145,7 +146,17 @@ alineación de versiones Hugo/Blowfish y API deprecadas; no los introduce esta r
 La misma QA forma parte ahora del job de build en GitHub Actions. La sonda posterior al
 despliegue también comprueba el índice de rutas, la página de coordinación, su SVG y su WebP;
 en Chromium exige propósito operativo, ausencia de lenguaje editorial interno y featured
-visible en proporción 16:9. La prueba previa contra un servidor Hugo limpio dio `PASS`:
+visible en proporción 16:9.
+
+Después del despliegue se ejecutó además una sonda pública independiente sobre
+<https://arqueon.github.io/aprendizaje-ia/>. El resultado fue `PASS`: el índice, la página,
+el SVG y el WebP respondieron HTTP 200; el featured público conservó 16:9; se verificaron
 671 archivos H5P y 9,071,388 bytes íntegros, `Range 206`, CSP negativa, dos montajes,
-teclado, impresión, almacenamiento intacto, las dos entradas de audiencia y cero solicitudes
-externas, escrituras, cookies o errores de consola.
+teclado, impresión y almacenamiento intacto; no hubo solicitudes fuera de la base,
+escrituras, cookies ni errores de consola.
+
+Permanecen como deuda conocida del alojamiento de GitHub Pages la caché pública de diez
+minutos y la ausencia de los encabezados `X-Content-Type-Options: nosniff` y
+`Referrer-Policy: strict-origin-when-cross-origin`. GitHub Actions también advierte que
+algunas acciones oficiales todavía se ejecutan con Node 20. Ninguno de estos avisos impidió
+la publicación ni fue introducido por UDGIA-004C.
