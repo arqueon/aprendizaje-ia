@@ -96,7 +96,7 @@ La diferencia entre un acuerdo escrito y un acuerdo aplicado se vuelve visible a
 
 ### 15. Citar el uso de IA con la misma honestidad que cualquier fuente
 
-El criterio base es la transparencia: si la IA contribuyó, conviene declararlo. Las formas de hacerlo varían según disciplina, pero la omisión sigue siendo la opción menos defendible. La entrada de [integridad académica](/glosario/integridad-academica/) sintetiza criterios de citación.
+El criterio base es la transparencia: si la IA contribuyó, conviene declararlo. Las formas de hacerlo varían según disciplina, pero la omisión sigue siendo la opción menos defendible. La entrada de [integridad académica](/recursos/glosario/integridad-academica/) sintetiza criterios de citación.
 
 ### 16. No subir información personal de terceros sin consentimiento
 

@@ -75,7 +75,7 @@ Cuando estos comportamientos aparecen en evaluaciones consecutivas, la disposici
 
 ## Lecturas relacionadas
 
-Para el lado normativo, ver los [principios de alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/). Para el lado práctico, las [prácticas documentadas de análisis de sesgos](/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/) ofrecen un caso de aula completo. La entrada de glosario sobre [pensamiento crítico](/glosario/pensamiento-critico/) sintetiza la definición operativa.
+Para el lado normativo, ver los [principios de alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/). Para el lado práctico, las [prácticas documentadas de análisis de sesgos](/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/) ofrecen un caso de aula completo. La entrada de glosario sobre [pensamiento crítico](/recursos/glosario/pensamiento-critico/) sintetiza la definición operativa.
 
 ## Referencias
 

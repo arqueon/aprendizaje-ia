@@ -1,7 +1,7 @@
 ---
 title: "Glosario de términos"
 description: "Definiciones breves y conceptos clave sobre el cruce entre pedagogía, aprendizaje digital e inteligencia artificial."
-summary: "Vocabulario operativo del sitio: 19 entradas que sirven de referencia rápida para los artículos del resto de la sección."
+summary: "Vocabulario operativo del sitio: 20 entradas que sirven de referencia rápida para los artículos del resto de la sección."
 date: 2026-04-26
 weight: 6
 layout: "list"

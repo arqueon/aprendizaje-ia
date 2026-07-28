@@ -45,7 +45,7 @@ Comprensión de los principios éticos y de los compromisos asociados al uso res
 
 ### 3. Técnicas y aplicaciones de IA
 
-Conocimiento de cómo funcionan los modelos a nivel conceptual y habilidad para usarlos en contextos académicos y profesionales. Incluye [ingeniería de prompts](/glosario/ingenieria-de-prompts/), evaluación de salidas y selección informada entre herramientas.
+Conocimiento de cómo funcionan los modelos a nivel conceptual y habilidad para usarlos en contextos académicos y profesionales. Incluye [ingeniería de prompts](/recursos/glosario/ingenieria-de-prompts/), evaluación de salidas y selección informada entre herramientas.
 
 ### 4. Diseño de sistemas de IA
 

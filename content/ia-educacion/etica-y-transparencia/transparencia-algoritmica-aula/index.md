@@ -72,7 +72,7 @@ Las cinco prácticas no son neutrales. Tres tensiones aparecen con frecuencia:
 
 ## Lecturas relacionadas
 
-El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) sostiene los principios; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) detallan las decisiones operativas; la [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) opera el anexo de uso. La entrada de glosario sobre [integridad académica](/glosario/integridad-academica/) sintetiza la norma de fondo.
+El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) sostiene los principios; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) detallan las decisiones operativas; la [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) opera el anexo de uso. La entrada de glosario sobre [integridad académica](/recursos/glosario/integridad-academica/) sintetiza la norma de fondo.
 
 ## Referencias
 

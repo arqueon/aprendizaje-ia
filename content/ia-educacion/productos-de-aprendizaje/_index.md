@@ -1,6 +1,6 @@
 ---
 title: "Productos de aprendizaje con IAG"
-description: "Catálogo de 26 productos de aprendizaje y cómo usar la IA generativa de forma formativa, evaluando el proceso, no sólo el entregable."
+description: "Catálogo de 27 productos de aprendizaje y cómo usar la IA generativa de forma formativa, evaluando el proceso, no sólo el entregable."
 summary: "Una página por producto: qué entrega el estudiante, qué hace la IAG en el camino, qué nivel de Bloom moviliza y cómo se evalúa el proceso."
 date: 2026-05-11
 draft: false
