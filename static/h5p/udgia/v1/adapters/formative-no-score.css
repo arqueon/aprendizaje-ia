@@ -1,0 +1,14 @@
+/*
+ * UDGPlus · política formativa sin puntuación visible.
+ * Este adaptador solo se carga en contenidos que lo declaran en el catálogo.
+ * El script compañero retira el nodo; estas reglas evitan cualquier destello
+ * antes de que el observador procese una mutación del núcleo H5P.
+ */
+.h5p-question-scorebar,
+.h5p-question-scorebar-container {
+  display: none !important;
+}
+
+.h5p-question-buttons.has-scorebar {
+  margin-left: 0 !important;
+}

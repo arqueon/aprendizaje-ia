@@ -100,6 +100,12 @@ async function udgia007GovernanceAudit() {
     assert(entry.fixture === false, `${id}: una actividad curricular no puede ser fixture`);
     assert(entry.adapter === "multi-choice.css", `${id}: falta el adaptador visual gobernado`);
     assert(
+      entry.presentationAdapter?.policy === "formative-no-score" &&
+        entry.presentationAdapter.css === "formative-no-score.css" &&
+        entry.presentationAdapter.js === "formative-no-score.js",
+      `${id}: falta la política gobernada que desactiva la scorebar`
+    );
+    assert(
       entry.provenance?.kind === "adapted-official-template",
       `${id}: procedencia H5P inesperada`
     );
@@ -475,12 +481,52 @@ async function visualAudit(playerFrame, id) {
 }
 
 async function exerciseUDGIA007Decision(playerFrame, id) {
+  const scorebarSnapshot = () =>
+    playerFrame.evaluate(() => {
+      const nodes = [
+        ...document.querySelectorAll(
+          ".h5p-question-scorebar, .h5p-question-scorebar-container"
+        )
+      ];
+      const bodyText = document.body.innerText.toLocaleLowerCase("es");
+      return {
+        nodeCount: nodes.length,
+        visibleClassCount: document.querySelectorAll(
+          ".h5p-question-scorebar.h5p-question-visible"
+        ).length,
+        visibleCount: nodes.filter((element) => {
+          const style = getComputedStyle(element);
+          const box = element.getBoundingClientRect();
+          return (
+            style.display !== "none" &&
+            style.visibility !== "hidden" &&
+            Number.parseFloat(style.opacity) !== 0 &&
+            box.width > 0 &&
+            box.height > 0
+          );
+        }).length,
+        scoreLanguagePresent:
+          /\b1\s*\/\s*1\b|obtuviste|puntos|puntaje|puntuación/.test(bodyText)
+      };
+    });
+  const assertScorebarAbsent = (snapshot, stage) => {
+    assert(
+      snapshot.nodeCount === 0 &&
+        snapshot.visibleClassCount === 0 &&
+        snapshot.visibleCount === 0 &&
+        snapshot.scoreLanguagePresent === false,
+      `${id}: scorebar o lenguaje de puntuación presente ${stage} ${JSON.stringify(snapshot)}`
+    );
+  };
+
   const answers = playerFrame.locator(".h5p-answer");
   assert((await answers.count()) === 5, `${id}: no aparecieron cinco rutas`);
   await answers.nth(1).click();
   await playerFrame.locator(".h5p-question-check-answer").click();
   await playerFrame.waitForTimeout(250);
   const wrongFeedback = (await playerFrame.locator("body").innerText()).toLocaleLowerCase("es");
+  const wrongScorebar = await scorebarSnapshot();
+  assertScorebarAbsent(wrongScorebar, "tras una ruta insuficiente");
   assert(
     id === "direccion-epistemica-decidir-reformular"
       ? wrongFeedback.includes("editar la forma no resuelve")
@@ -492,6 +538,8 @@ async function exerciseUDGIA007Decision(playerFrame, id) {
   await playerFrame.locator(".h5p-question-check-answer").click();
   await playerFrame.waitForTimeout(250);
   const correctFeedback = (await playerFrame.locator("body").innerText()).toLocaleLowerCase("es");
+  const correctScorebar = await scorebarSnapshot();
+  assertScorebarAbsent(correctScorebar, "tras la ruta recomendada");
   assert(
     id === "direccion-epistemica-decidir-reformular"
       ? correctFeedback.includes("conserva la dirección epistémica")
@@ -505,7 +553,11 @@ async function exerciseUDGIA007Decision(playerFrame, id) {
   return {
     wrongFeedbackVerified: true,
     correctFeedbackVerified: true,
-    scoreLanguageAbsent: true
+    scoreLanguageAbsent: true,
+    scorebarAbsent: {
+      afterWrongAnswer: wrongScorebar,
+      afterCorrectAnswer: correctScorebar
+    }
   };
 }
 

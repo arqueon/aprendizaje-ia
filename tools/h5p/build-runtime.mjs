@@ -98,6 +98,17 @@ function validateCatalogEntry(entryID, entry) {
   ) {
     throw new Error(`Adaptador no permitido en ${entryID}: ${entry.adapter}`);
   }
+  if (entry.presentationAdapter !== undefined) {
+    const presentation = entry.presentationAdapter;
+    if (
+      !presentation ||
+      presentation.policy !== "formative-no-score" ||
+      !/^[a-z0-9][a-z0-9-]{0,79}\.css$/.test(presentation.css || "") ||
+      !/^[a-z0-9][a-z0-9-]{0,79}\.js$/.test(presentation.js || "")
+    ) {
+      throw new Error(`Adaptador de presentación no permitido en ${entryID}`);
+    }
+  }
   if (!normalizedLicense(entry.contentLicense) || !normalizedLicense(entry.libraryLicense)) {
     throw new Error(`Licencias incompletas en el catálogo: ${entryID}`);
   }
@@ -446,6 +457,16 @@ async function build(output) {
       await mkdir(path.join(output, "adapters"), { recursive: true });
       await cp(adapterSource, path.join(output, "adapters", entry.adapter));
     }
+    if (entry.presentationAdapter) {
+      for (const asset of [entry.presentationAdapter.css, entry.presentationAdapter.js]) {
+        const adapterSource = path.join(runtimeSource, "adapters", asset);
+        if (!(await exists(adapterSource))) {
+          throw new Error(`Adaptador de presentación ausente en ${entryID}: ${asset}`);
+        }
+        await mkdir(path.join(output, "adapters"), { recursive: true });
+        await cp(adapterSource, path.join(output, "adapters", asset));
+      }
+    }
 
     const packageRoot = await mkdtemp(path.join(tmpdir(), `udgia-h5p-${entryID}-`));
     try {
@@ -460,6 +481,7 @@ async function build(output) {
       title: entry.title,
       mainLibrary: entry.mainLibrary,
       adapter: entry.adapter,
+      presentationAdapter: entry.presentationAdapter || null,
       fullScreen: entry.fullScreen === true,
       reportingIsEnabled: entry.reportingIsEnabled === true
     };

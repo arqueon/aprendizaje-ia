@@ -135,6 +135,13 @@
     const local = (path) => new URL(path, window.location.href).href;
     const customCss = [local("./themes/udg-c.css")];
     if (entry.adapter) customCss.push(local(`./adapters/${entry.adapter}`));
+    if (entry.presentationAdapter?.css) {
+      customCss.push(local(`./adapters/${entry.presentationAdapter.css}`));
+    }
+    const customJs = [];
+    if (entry.presentationAdapter?.js) {
+      customJs.push(local(`./adapters/${entry.presentationAdapter.js}`));
+    }
 
     const options = {
       id: instance,
@@ -144,6 +151,7 @@
       frameJs: local("./player/frame.bundle.js"),
       frameCss: local("./player/styles/h5p.css"),
       customCss,
+      customJs,
       frame: false,
       copyright: false,
       export: false,

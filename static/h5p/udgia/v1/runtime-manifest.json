@@ -19,6 +19,7 @@
       "title": "Comprobación técnica del runtime H5P",
       "mainLibrary": "H5P.UDGRuntimeProbe",
       "adapter": null,
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -27,6 +28,7 @@
       "title": "Del borrador a una revisión justificada",
       "mainLibrary": "H5P.ImageSlider",
       "adapter": "image-slider.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -35,6 +37,7 @@
       "title": "Cinco decisiones de dirección epistémica",
       "mainLibrary": "H5P.ImageHotspots",
       "adapter": "image-hotspots.css",
+      "presentationAdapter": null,
       "fullScreen": true,
       "reportingIsEnabled": false
     },
@@ -43,6 +46,11 @@
       "title": "Decidir, contrastar y reformular",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -51,6 +59,7 @@
       "title": "Conceptos para co-crear con dirección",
       "mainLibrary": "H5P.Dialogcards",
       "adapter": "dialog-cards.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": true
     },
@@ -59,6 +68,7 @@
       "title": "Qué evidencia muestra aprendizaje",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": true
     },
@@ -67,6 +77,11 @@
       "title": "Elegir evidencia suficiente y proporcional",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -75,6 +90,7 @@
       "title": "Recorrido: co-crear y evaluar con IA",
       "mainLibrary": "H5P.CoursePresentation",
       "adapter": "course-presentation.css",
+      "presentationAdapter": null,
       "fullScreen": true,
       "reportingIsEnabled": false
     },
@@ -83,11 +99,12 @@
       "title": "Constructor de objetivos de aprendizaje UDGPlus",
       "mainLibrary": "H5P.BloomObjectiveBuilder",
       "adapter": "bloom-objective-builder.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 9938636,
+  "totalBytes": 9940533,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -103,6 +120,16 @@
       "path": "adapters/dialog-cards.css",
       "bytes": 827,
       "sha256": "e9515c8f789d8466bb57ec55039cfc5792f493293317b81a7dae1412da1d698b"
+    },
+    {
+      "path": "adapters/formative-no-score.css",
+      "bytes": 451,
+      "sha256": "98fb1effbdb4f99d97613a3760b537dd08d6cd25a834cb792e643a6f6c05ffa2"
+    },
+    {
+      "path": "adapters/formative-no-score.js",
+      "bytes": 597,
+      "sha256": "a9abc68f7685f8f07026610200a129f3412f5e53ca1bb696e7633f844a15c459"
     },
     {
       "path": "adapters/image-hotspots.css",
@@ -321,8 +348,8 @@
     },
     {
       "path": "content-index.json",
-      "bytes": 2660,
-      "sha256": "54d1ccbb0b39ef6cc7d6227d8050f4b1c3d534abf942e4e6e4b506c9f0c653a2"
+      "bytes": 3223,
+      "sha256": "37a1c8e5a4782024354e61abbe145d7cd6756a96fa3f847b056750ecaec08486"
     },
     {
       "path": "embed.css",
@@ -336,8 +363,8 @@
     },
     {
       "path": "embed.js",
-      "bytes": 6128,
-      "sha256": "381fb6243e3b2d27170d8570504a6c7a7f4c3bc2de77dfa6cd8f912f6dcea7e8"
+      "bytes": 6414,
+      "sha256": "59c3fce2f58615f06868c47efae0eaca8a7dd1bbe343c1bc14e5b7e816701aa1"
     },
     {
       "path": "host.css",

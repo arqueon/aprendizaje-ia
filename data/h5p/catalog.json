@@ -96,6 +96,11 @@
         "template": "https://api.h5p.org/v1/content-types/H5P.MultiChoice"
       },
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false,
       "fixture": false
@@ -161,6 +166,11 @@
         "template": "https://api.h5p.org/v1/content-types/H5P.MultiChoice"
       },
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false,
       "fixture": false

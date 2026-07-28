@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-07-28T23:52:25.443Z",
+  "generated": "2026-07-28T23:57:37.067Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
@@ -275,7 +275,21 @@
         "formativeDecision": {
           "wrongFeedbackVerified": true,
           "correctFeedbackVerified": true,
-          "scoreLanguageAbsent": true
+          "scoreLanguageAbsent": true,
+          "scorebarAbsent": {
+            "afterWrongAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            },
+            "afterCorrectAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            }
+          }
         },
         "overlapAudit": {
           "scrollX": 0,
@@ -290,9 +304,9 @@
           },
           "section": {
             "top": 104.140625,
-            "bottom": 1906.046875,
+            "bottom": 1853.046875,
             "width": 479.703125,
-            "height": 1801.90625
+            "height": 1748.90625
           },
           "overlapsAtActivityEntry": false,
           "sectionScreenshotFixedHeaderHidden": true,
@@ -347,7 +361,21 @@
         "formativeDecision": {
           "wrongFeedbackVerified": true,
           "correctFeedbackVerified": true,
-          "scoreLanguageAbsent": true
+          "scoreLanguageAbsent": true,
+          "scorebarAbsent": {
+            "afterWrongAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            },
+            "afterCorrectAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            }
+          }
         },
         "overlapAudit": {
           "scrollX": 0,
@@ -362,9 +390,9 @@
           },
           "section": {
             "top": 103.875,
-            "bottom": 1858.96875,
+            "bottom": 1805.96875,
             "width": 504.75,
-            "height": 1755.09375
+            "height": 1702.09375
           },
           "overlapsAtActivityEntry": false,
           "sectionScreenshotFixedHeaderHidden": true,

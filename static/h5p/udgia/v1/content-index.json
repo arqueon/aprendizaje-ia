@@ -7,6 +7,7 @@
       "title": "Comprobación técnica del runtime H5P",
       "mainLibrary": "H5P.UDGRuntimeProbe",
       "adapter": null,
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -15,6 +16,7 @@
       "title": "Del borrador a una revisión justificada",
       "mainLibrary": "H5P.ImageSlider",
       "adapter": "image-slider.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -23,6 +25,7 @@
       "title": "Cinco decisiones de dirección epistémica",
       "mainLibrary": "H5P.ImageHotspots",
       "adapter": "image-hotspots.css",
+      "presentationAdapter": null,
       "fullScreen": true,
       "reportingIsEnabled": false
     },
@@ -31,6 +34,11 @@
       "title": "Decidir, contrastar y reformular",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -39,6 +47,7 @@
       "title": "Conceptos para co-crear con dirección",
       "mainLibrary": "H5P.Dialogcards",
       "adapter": "dialog-cards.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": true
     },
@@ -47,6 +56,7 @@
       "title": "Qué evidencia muestra aprendizaje",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": true
     },
@@ -55,6 +65,11 @@
       "title": "Elegir evidencia suficiente y proporcional",
       "mainLibrary": "H5P.MultiChoice",
       "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
       "fullScreen": false,
       "reportingIsEnabled": false
     },
@@ -63,6 +78,7 @@
       "title": "Recorrido: co-crear y evaluar con IA",
       "mainLibrary": "H5P.CoursePresentation",
       "adapter": "course-presentation.css",
+      "presentationAdapter": null,
       "fullScreen": true,
       "reportingIsEnabled": false
     },
@@ -71,6 +87,7 @@
       "title": "Constructor de objetivos de aprendizaje UDGPlus",
       "mainLibrary": "H5P.BloomObjectiveBuilder",
       "adapter": "bloom-objective-builder.css",
+      "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
     }
