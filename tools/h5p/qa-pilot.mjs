@@ -28,6 +28,14 @@ const activityPages = [
     path: "formacion-docente/alfabetizacion-co-creacion/"
   },
   {
+    id: "direccion-epistemica-decidir-reformular",
+    path: "ia-educacion/guias/agenciamiento-humano-ia/"
+  },
+  {
+    id: "evidencias-proceso-proporcion",
+    path: "ia-educacion/guias/evaluacion-formativa-ia/"
+  },
+  {
     id: "cocreacion-conceptos-cards",
     path: "ia-educacion/guias/agenciamiento-humano-ia/"
   },
@@ -49,6 +57,16 @@ const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-004b");
 const reportPath = path.join(evidenceDirectory, "qa-pilot.json");
+const udgia007Activities = {
+  "direccion-epistemica-decidir-reformular": {
+    page: "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+    requiredTerms: ["criterio", "verificar", "decidir", "reformular"]
+  },
+  "evidencias-proceso-proporcion": {
+    page: "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+    requiredTerms: ["esquema inicial", "verificación", "decisiones", "versión final"]
+  }
+};
 const chromiumBinary =
   process.env.CHROMIUM_PATH || (await stat("/usr/bin/chromium").catch(() => null)
     ? "/usr/bin/chromium"
@@ -56,6 +74,87 @@ const chromiumBinary =
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
+}
+
+async function udgia007GovernanceAudit() {
+  const catalog = JSON.parse(
+    await readFile(path.join(repoRoot, "data/h5p/catalog.json"), "utf8")
+  );
+  const manifest = JSON.parse(
+    await readFile(path.join(repoRoot, "h5p/activities/manifest.json"), "utf8")
+  );
+  const results = {};
+
+  for (const [id, expectation] of Object.entries(udgia007Activities)) {
+    const entry = catalog.contents?.[id];
+    const activity = manifest.activities?.[id];
+    assert(entry, `${id}: falta la entrada de catálogo`);
+    assert(activity, `${id}: falta la entrada del manifiesto`);
+    assert(entry.contentLicense === "U", `${id}: la licencia H5P no quedó pendiente`);
+    assert(
+      entry.licenseStatus === "pending-institutional-confirmation",
+      `${id}: falta el estado de licencia institucional`
+    );
+    assert(entry.publicationAuthorized === false, `${id}: la publicación no quedó bloqueada`);
+    assert(entry.reportingIsEnabled === false, `${id}: el reporte debe permanecer desactivado`);
+    assert(entry.fixture === false, `${id}: una actividad curricular no puede ser fixture`);
+    assert(entry.adapter === "multi-choice.css", `${id}: falta el adaptador visual gobernado`);
+    assert(
+      entry.provenance?.kind === "adapted-official-template",
+      `${id}: procedencia H5P inesperada`
+    );
+
+    const overlayRoot = path.join(repoRoot, activity.overlay);
+    const content = JSON.parse(
+      await readFile(path.join(overlayRoot, "content/content.json"), "utf8")
+    );
+    const h5p = JSON.parse(await readFile(path.join(overlayRoot, "h5p.json"), "utf8"));
+    const licenseNotice = await readFile(path.join(overlayRoot, "LICENSE-content.txt"), "utf8");
+    const serialized = JSON.stringify(content).toLocaleLowerCase("es");
+    const correctAnswers = content.answers.filter(({ correct }) => correct);
+
+    assert(h5p.license === "U", `${id}: h5p.json no declara licencia pendiente`);
+    assert(content.answers.length === 5, `${id}: se esperaban cinco rutas comparables`);
+    assert(correctAnswers.length === 1, `${id}: debe existir una sola ruta recomendada`);
+    assert(content.behaviour?.type === "single", `${id}: la decisión debe ser de ruta única`);
+    assert(content.behaviour?.showScorePoints === false, `${id}: no debe mostrar puntuación`);
+    for (const term of expectation.requiredTerms) {
+      assert(
+        correctAnswers[0].text.toLocaleLowerCase("es").includes(term),
+        `${id}: la ruta recomendada no contiene ${term}`
+      );
+    }
+    assert(!/https?:|localstorage|sessionstorage|indexeddb|fetch\(|xmlhttprequest/.test(serialized),
+      `${id}: el contenido incluye red o persistencia`);
+    assert(!/calificaci|puntuaci|puntaje|aprobad|reprobad/.test(serialized),
+      `${id}: el contenido introduce lenguaje sumativo`);
+    assert(
+      /Licencia institucional pendiente/.test(licenseNotice) &&
+        /Publicación no autorizada/.test(licenseNotice),
+      `${id}: el aviso editorial no explicita los dos bloqueos`
+    );
+
+    const pageSource = await readFile(path.join(repoRoot, expectation.page), "utf8");
+    const shortcodeMatches =
+      pageSource.match(new RegExp(`h5p id="${id}"`, "g")) || [];
+    assert(shortcodeMatches.length === 1, `${id}: integración de página no única`);
+    assert(
+      pageSource.includes("no genera una calificación") &&
+        pageSource.includes("no registra el intento"),
+      `${id}: la página no explica el carácter formativo y efímero`
+    );
+    results[id] = {
+      page: expectation.page,
+      contentLicense: entry.contentLicense,
+      licenseStatus: entry.licenseStatus,
+      publicationAuthorized: entry.publicationAuthorized,
+      reportingIsEnabled: entry.reportingIsEnabled,
+      answerCount: content.answers.length,
+      correctAnswerCount: correctAnswers.length,
+      showScorePoints: content.behaviour.showScorePoints
+    };
+  }
+  return results;
 }
 
 function mimeType(file) {
@@ -229,11 +328,25 @@ async function mobileCase(browser, baseURL) {
         width: document.documentElement.clientWidth,
         scrollWidth: document.documentElement.scrollWidth,
         fallbackLength:
-          section?.querySelector(".udg-h5p__fallback-body")?.textContent.trim().length || 0
+          section?.querySelector(".udg-h5p__fallback-body")?.textContent.trim().length || 0,
+        contentLicense: section?.dataset.contentLicense || "",
+        licenseStatus: section?.dataset.licenseStatus || "",
+        publicationAuthorized: section?.dataset.publicationAuthorized || ""
       };
     }, activity.id);
     assert(result.scrollWidth <= result.width, `${activity.id}: overflow móvil`);
     assert(result.fallbackLength > 180, `${activity.id}: fallback insuficiente`);
+    if (udgia007Activities[activity.id]) {
+      assert(result.contentLicense === "U", `${activity.id}: licencia no emitida en la ruta`);
+      assert(
+        result.licenseStatus === "pending-institutional-confirmation",
+        `${activity.id}: estado de licencia no emitido en la ruta`
+      );
+      assert(
+        result.publicationAuthorized === "false",
+        `${activity.id}: bloqueo de publicación no emitido en la ruta`
+      );
+    }
     await axeViolations(page, `${activity.id} móvil`);
     activities.push({ ...activity, ...result });
   }
@@ -316,6 +429,30 @@ async function visualAudit(playerFrame, id) {
         imageReadable: image.width >= root.clientWidth * 0.72
       };
     }
+    if (
+      activityID === "direccion-epistemica-decidir-reformular" ||
+      activityID === "evidencias-proceso-proporcion"
+    ) {
+      const alternatives = [...document.querySelectorAll(".h5p-alternative-container")];
+      const image = visibleImages.reduce(
+        (best, current) => (current.width > best.width ? current : best),
+        { width: 0, height: 0, ratio: 0 }
+      );
+      const bodyText = document.body.innerText.toLocaleLowerCase("es");
+      audit.checks = {
+        answerCountIsFive: alternatives.length === 5,
+        answersStyled: alternatives.every((element) => {
+          const style = getComputedStyle(element);
+          return style.backgroundColor !== "rgb(221, 221, 221)" &&
+            Number.parseFloat(style.borderRadius) >= 8;
+        }),
+        imageReadable: image.width >= root.clientWidth * 0.72,
+        scenarioVisible:
+          activityID === "direccion-epistemica-decidir-reformular"
+            ? bodyText.includes("dirección epistémica") && bodyText.includes("mejor iteración")
+            : bodyText.includes("paquete mínimo suficiente") && bodyText.includes("vigilancia")
+      };
+    }
     if (activityID === "cocreacion-evaluacion-recorrido") {
       const landscape = visibleImages.find(
         ({ ratio, width }) => ratio >= 1.65 && ratio <= 1.9 && width > root.clientWidth * 0.35
@@ -335,6 +472,165 @@ async function visualAudit(playerFrame, id) {
     }
   }
   return result;
+}
+
+async function exerciseUDGIA007Decision(playerFrame, id) {
+  const answers = playerFrame.locator(".h5p-answer");
+  assert((await answers.count()) === 5, `${id}: no aparecieron cinco rutas`);
+  await answers.nth(1).click();
+  await playerFrame.locator(".h5p-question-check-answer").click();
+  await playerFrame.waitForTimeout(250);
+  const wrongFeedback = (await playerFrame.locator("body").innerText()).toLocaleLowerCase("es");
+  assert(
+    id === "direccion-epistemica-decidir-reformular"
+      ? wrongFeedback.includes("editar la forma no resuelve")
+      : wrongFeedback.includes("ligera, pero insuficiente"),
+    `${id}: no apareció retroalimentación específica para la ruta insuficiente`
+  );
+  await playerFrame.locator(".h5p-question-try-again").click();
+  await answers.nth(0).click();
+  await playerFrame.locator(".h5p-question-check-answer").click();
+  await playerFrame.waitForTimeout(250);
+  const correctFeedback = (await playerFrame.locator("body").innerText()).toLocaleLowerCase("es");
+  assert(
+    id === "direccion-epistemica-decidir-reformular"
+      ? correctFeedback.includes("conserva la dirección epistémica")
+      : correctFeedback.includes("suficiente y proporcional"),
+    `${id}: no apareció retroalimentación para la ruta recomendada`
+  );
+  assert(
+    !correctFeedback.includes("obtuviste") && !correctFeedback.includes("puntos"),
+    `${id}: la interacción mostró una puntuación sumativa`
+  );
+  return {
+    wrongFeedbackVerified: true,
+    correctFeedbackVerified: true,
+    scoreLanguageAbsent: true
+  };
+}
+
+async function storageSnapshot(page) {
+  return page.evaluate(async () => {
+    const sortedEntries = (storage) =>
+      Object.keys(storage)
+        .sort()
+        .map((key) => [key, storage.getItem(key)]);
+    return {
+      localStorage: sortedEntries(localStorage),
+      sessionStorage: sortedEntries(sessionStorage),
+      indexedDB:
+        typeof indexedDB.databases === "function"
+          ? (await indexedDB.databases()).map((database) => database.name || "").sort()
+          : [],
+      cacheStorage: "caches" in window ? (await caches.keys()).sort() : [],
+      serviceWorkers:
+        "serviceWorker" in navigator
+          ? (await navigator.serviceWorker.getRegistrations())
+              .map((registration) => registration.scope)
+              .sort()
+          : []
+    };
+  });
+}
+
+async function captureUDGIA007Evidence(page, section, id) {
+  await section.evaluate((element) => {
+    const fixedHeader = [...document.querySelectorAll("body *")].find((candidate) => {
+      const style = getComputedStyle(candidate);
+      return style.position === "fixed" && candidate.querySelector(".main-menu");
+    });
+    const headerHeight = fixedHeader?.getBoundingClientRect().height || 0;
+    const sectionTop = element.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({
+      left: 0,
+      top: Math.max(0, sectionTop - headerHeight - 16),
+      behavior: "instant"
+    });
+  });
+  await page.waitForTimeout(150);
+  const geometry = await section.evaluate((element) => {
+    const fixedHeader = [...document.querySelectorAll("body *")].find((candidate) => {
+      const style = getComputedStyle(candidate);
+      const box = candidate.getBoundingClientRect();
+      return (
+        style.position === "fixed" &&
+        candidate.querySelector(".main-menu") &&
+        box.width > 0 &&
+        box.height > 0
+      );
+    });
+    const sectionBox = element.getBoundingClientRect();
+    const headerBox = fixedHeader?.getBoundingClientRect();
+    const overlap = headerBox
+      ? !(
+          headerBox.right <= sectionBox.left ||
+          headerBox.left >= sectionBox.right ||
+          headerBox.bottom <= sectionBox.top ||
+          headerBox.top >= sectionBox.bottom
+        )
+      : false;
+    return {
+      scrollX: window.scrollX,
+      viewportWidth: document.documentElement.clientWidth,
+      pageScrollWidth: document.documentElement.scrollWidth,
+      fixedHeaderPresent: Boolean(fixedHeader),
+      fixedHeader: headerBox
+        ? {
+            top: headerBox.top,
+            bottom: headerBox.bottom,
+            width: headerBox.width,
+            height: headerBox.height
+          }
+        : null,
+      section: {
+        top: sectionBox.top,
+        bottom: sectionBox.bottom,
+        width: sectionBox.width,
+        height: sectionBox.height
+      },
+      overlapsAtActivityEntry: overlap
+    };
+  });
+  assert(geometry.fixedHeaderPresent, `${id}: no se localizó la cabecera fija para auditarla`);
+  assert(geometry.scrollX === 0, `${id}: la página quedó desplazada horizontalmente`);
+  assert(
+    geometry.pageScrollWidth <= geometry.viewportWidth,
+    `${id}: la página tiene overflow horizontal`
+  );
+  assert(
+    geometry.overlapsAtActivityEntry === false,
+    `${id}: la cabecera fija tapa la actividad en el viewport ${JSON.stringify(geometry)}`
+  );
+  await page.screenshot({
+    path: path.join(evidenceDirectory, `${id}-viewport.png`)
+  });
+
+  await page.evaluate(() => {
+    const fixedHeader = [...document.querySelectorAll("body *")].find((candidate) => {
+      const style = getComputedStyle(candidate);
+      return style.position === "fixed" && candidate.querySelector(".main-menu");
+    });
+    if (fixedHeader) {
+      fixedHeader.dataset.udgiaQaPreviousVisibility = fixedHeader.style.visibility || "";
+      fixedHeader.style.visibility = "hidden";
+      fixedHeader.dataset.udgiaQaHidden = "true";
+    }
+  });
+  await section.screenshot({
+    path: path.join(evidenceDirectory, `${id}.png`)
+  });
+  await page.evaluate(() => {
+    const fixedHeader = document.querySelector("[data-udgia-qa-hidden='true']");
+    if (!fixedHeader) return;
+    fixedHeader.style.visibility = fixedHeader.dataset.udgiaQaPreviousVisibility || "";
+    delete fixedHeader.dataset.udgiaQaPreviousVisibility;
+    delete fixedHeader.dataset.udgiaQaHidden;
+  });
+  return {
+    ...geometry,
+    sectionScreenshotFixedHeaderHidden: true,
+    viewportScreenshot: `${id}-viewport.png`
+  };
 }
 
 async function desktopCase(browser, baseURL) {
@@ -368,9 +664,13 @@ async function desktopCase(browser, baseURL) {
   assert(introResponse?.status() === 200, "La introducción no respondió HTTP 200");
   assert((await page.locator("[data-udg-h5p]").count()) === 0, "La introducción contiene H5P");
   await axeViolations(page, "Introducción");
+  const storageBefore = await storageSnapshot(page);
 
   const activities = [];
   for (const activity of activityPages) {
+    const storageBeforeActivity = udgia007Activities[activity.id]
+      ? await storageSnapshot(page)
+      : null;
     const response = await page.goto(new URL(activity.path, baseURL).href, {
       waitUntil: "load"
     });
@@ -381,6 +681,18 @@ async function desktopCase(browser, baseURL) {
       await playerFrame.locator(".h5p-dialogcards-turn:visible").first().click();
       await playerFrame.waitForTimeout(350);
     }
+    await playerFrame.waitForFunction(
+      () =>
+        [...document.querySelectorAll("*")].some((element) => {
+          const background = getComputedStyle(element).backgroundImage;
+          return (
+            ["IMG", "SVG", "CANVAS", "PICTURE"].includes(element.tagName.toUpperCase()) ||
+            (background && background !== "none" && background.includes("url("))
+          );
+        }),
+      null,
+      { timeout: 5000 }
+    );
     const height = Number.parseFloat(await iframe.evaluate((element) => element.style.height));
     const inner = await playerFrame.evaluate(() => {
       const imageCount = [...document.querySelectorAll("*")].filter((element) => {
@@ -411,10 +723,41 @@ async function desktopCase(browser, baseURL) {
     );
     const visual = await visualAudit(playerFrame, activity.id);
     const violations = await axeViolations(playerFrame, activity.id);
-    await section.screenshot({
-      path: path.join(evidenceDirectory, `${activity.id}.png`)
+    const formativeDecision = udgia007Activities[activity.id]
+      ? await exerciseUDGIA007Decision(playerFrame, activity.id)
+      : null;
+    let overlapAudit = null;
+    if (udgia007Activities[activity.id]) {
+      overlapAudit = await captureUDGIA007Evidence(page, section, activity.id);
+    } else {
+      await section.screenshot({
+        path: path.join(evidenceDirectory, `${activity.id}.png`)
+      });
+    }
+    const storageAfterActivity = udgia007Activities[activity.id]
+      ? await storageSnapshot(page)
+      : null;
+    if (storageBeforeActivity) {
+      assert(
+        JSON.stringify(storageAfterActivity) === JSON.stringify(storageBeforeActivity),
+        `${activity.id}: alteró almacenamiento ${JSON.stringify({
+          before: storageBeforeActivity,
+          after: storageAfterActivity
+        })}`
+      );
+    }
+    activities.push({
+      ...activity,
+      height,
+      inner,
+      visual,
+      violations,
+      formativeDecision,
+      overlapAudit,
+      storage: storageBeforeActivity
+        ? { before: storageBeforeActivity, after: storageAfterActivity }
+        : null
     });
-    activities.push({ ...activity, height, inner, visual, violations });
   }
 
   const bloomActivity = activityPages.find(({ id }) => id === "objetivos-bloom-udgplus");
@@ -435,13 +778,25 @@ async function desktopCase(browser, baseURL) {
   assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);
   assert(consoleErrors.length === 0, `Errores de consola: ${consoleErrors.join(" | ")}`);
   assert((await context.cookies()).length === 0, "Las actividades crearon cookies");
+  const storageAfter = await storageSnapshot(page);
+  assert(
+    JSON.stringify(storageAfter) === JSON.stringify(storageBefore),
+    `Las actividades alteraron almacenamiento ${JSON.stringify({
+      before: storageBefore,
+      after: storageAfter
+    })}`
+  );
   await context.close();
   return {
     activities,
     preview,
     externalRequests,
     writeRequests,
-    consoleErrors
+    consoleErrors,
+    storage: {
+      before: storageBefore,
+      after: storageAfter
+    }
   };
 }
 
@@ -465,6 +820,7 @@ try {
     introPage: introPagePath,
     activityPages,
     expectedIDs,
+    udgia007Governance: await udgia007GovernanceAudit(),
     hugo,
     mobile: await mobileCase(browser, server.baseURL),
     desktop: await desktopCase(browser, server.baseURL)

@@ -6,7 +6,7 @@
     {
       "mode": "root",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 916,
+      "pages": 925,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -17,7 +17,7 @@
     {
       "mode": "subpath",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 916,
+      "pages": 925,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -32,16 +32,23 @@
       "version": "3.8.2",
       "license": "MIT",
       "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
-      "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+      "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391",
+      "privacyPatch": {
+        "id": "volatile-anonymous-xapi-actor",
+        "target": "player/frame.bundle.js",
+        "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
+      }
     },
-    "totalBytes": 9071388,
-    "files": 671,
+    "totalBytes": 9938636,
+    "files": 679,
     "contents": [
       "runtime-probe",
       "cocreacion-versiones-slider",
       "direccion-epistemica-hotspots",
+      "direccion-epistemica-decidir-reformular",
       "cocreacion-conceptos-cards",
       "evaluacion-proceso-decision",
+      "evidencias-proceso-proporcion",
       "cocreacion-evaluacion-recorrido",
       "objetivos-bloom-udgplus"
     ]

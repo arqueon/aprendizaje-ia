@@ -90,7 +90,8 @@
 }
 
 .h5p-multichoice .h5p-question-check-answer,
-.h5p-multichoice .h5p-question-retry {
+.h5p-multichoice .h5p-question-retry,
+.h5p-multichoice .h5p-question-try-again {
   min-height: 44px;
   color: #fff;
   background: var(--h-primary);
@@ -101,7 +102,8 @@
 }
 
 .h5p-multichoice .h5p-question-check-answer:hover,
-.h5p-multichoice .h5p-question-retry:hover {
+.h5p-multichoice .h5p-question-retry:hover,
+.h5p-multichoice .h5p-question-try-again:hover {
   background: var(--h-primary-strong);
   border-color: var(--h-primary-strong);
 }

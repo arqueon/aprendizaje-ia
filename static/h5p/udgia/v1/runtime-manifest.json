@@ -6,7 +6,12 @@
     "version": "3.8.2",
     "license": "MIT",
     "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
-    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391",
+    "privacyPatch": {
+      "id": "volatile-anonymous-xapi-actor",
+      "target": "player/frame.bundle.js",
+      "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
+    }
   },
   "contents": {
     "runtime-probe": {
@@ -33,6 +38,14 @@
       "fullScreen": true,
       "reportingIsEnabled": false
     },
+    "direccion-epistemica-decidir-reformular": {
+      "path": "direccion-epistemica-decidir-reformular",
+      "title": "Decidir, contrastar y reformular",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
     "cocreacion-conceptos-cards": {
       "path": "cocreacion-conceptos-cards",
       "title": "Conceptos para co-crear con dirección",
@@ -48,6 +61,14 @@
       "adapter": "multi-choice.css",
       "fullScreen": false,
       "reportingIsEnabled": true
+    },
+    "evidencias-proceso-proporcion": {
+      "path": "evidencias-proceso-proporcion",
+      "title": "Elegir evidencia suficiente y proporcional",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
     },
     "cocreacion-evaluacion-recorrido": {
       "path": "cocreacion-evaluacion-recorrido",
@@ -66,7 +87,7 @@
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 9071388,
+  "totalBytes": 9938636,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -95,8 +116,8 @@
     },
     {
       "path": "adapters/multi-choice.css",
-      "bytes": 2955,
-      "sha256": "1da3e17de3aca98ec1358e7c15fc66aba783d39dd8b725a298502fc5381e8e83"
+      "bytes": 3045,
+      "sha256": "5f88009de6d8e3b6900232c6dab4f624fdff27c681b5a5429ff9a36949dbad6e"
     },
     {
       "path": "content/cocreacion-conceptos-cards/content/content.json",
@@ -184,6 +205,26 @@
       "sha256": "010af75aeb5424d9b10f59658694ca36c59a2dff6a2ef8034826be34b41b4917"
     },
     {
+      "path": "content/direccion-epistemica-decidir-reformular/content/content.json",
+      "bytes": 6071,
+      "sha256": "262ddd664bf9c7b4f7d73c622134d16cac9ce0a11962b6ce7da9710548723d70"
+    },
+    {
+      "path": "content/direccion-epistemica-decidir-reformular/content/images/direccion-epistemica.png",
+      "bytes": 450754,
+      "sha256": "69d6cf33107db9b279b15778ce03f43f47a976df02f9fea3956db132f1d227f1"
+    },
+    {
+      "path": "content/direccion-epistemica-decidir-reformular/h5p.json",
+      "bytes": 504,
+      "sha256": "be6bfd380cd2eae9f454101a6fe05b5703e6142efc3392522ab982a3210c664d"
+    },
+    {
+      "path": "content/direccion-epistemica-decidir-reformular/LICENSE-content.txt",
+      "bytes": 259,
+      "sha256": "7e218c618d8b116fc12c662978bada160981e1a827d9d540c79a92408097fc98"
+    },
+    {
       "path": "content/direccion-epistemica-hotspots/content/content.json",
       "bytes": 4024,
       "sha256": "5f0c2b3a1d6c0fe25b3e407627d7d31f0879c440a47d7a7be2926219fd69b53c"
@@ -224,6 +265,26 @@
       "sha256": "b55da123fa20ee7b22aca31248bb734a83c8642c331646f0385868d083935125"
     },
     {
+      "path": "content/evidencias-proceso-proporcion/content/content.json",
+      "bytes": 5961,
+      "sha256": "5c18b789d5d95a94ac990d2e27774c6de58694fd0662399504b9ce855b5d1cea"
+    },
+    {
+      "path": "content/evidencias-proceso-proporcion/content/images/evidencias-proporcion.png",
+      "bytes": 402343,
+      "sha256": "10f3879b711000aefa43e03f3fa61099e9ec55fbcedc085bf5fac99804cbffbc"
+    },
+    {
+      "path": "content/evidencias-proceso-proporcion/h5p.json",
+      "bytes": 514,
+      "sha256": "e4edcabe44ddea94e219b8aa61cef1376bb700eb72088b1fc267e79525ea2cb1"
+    },
+    {
+      "path": "content/evidencias-proceso-proporcion/LICENSE-content.txt",
+      "bytes": 269,
+      "sha256": "8f595c7162ac8623622bf3901499bf2f995daf82d31ca1bcf4fa57e6474a933e"
+    },
+    {
       "path": "content/objetivos-bloom-udgplus/content/content.json",
       "bytes": 945,
       "sha256": "8a7bdf9e237c25b1bde8b6b12c53a610126f2c99e4320d4531ac7fe24bb793b8"
@@ -260,8 +321,8 @@
     },
     {
       "path": "content-index.json",
-      "bytes": 2066,
-      "sha256": "930fa5eb6b5f470f9fdce0c6c57740b75412470b7b9bb7abebf74b4c9b2a88b8"
+      "bytes": 2660,
+      "sha256": "54d1ccbb0b39ef6cc7d6227d8050f4b1c3d534abf942e4e6e4b506c9f0c653a2"
     },
     {
       "path": "embed.css",
@@ -3380,8 +3441,8 @@
     },
     {
       "path": "player/frame.bundle.js",
-      "bytes": 143904,
-      "sha256": "e6deb39e2d0114869080bacdf4092dcb30cf2ce20f8bde3c3ba8af035fa86e0b"
+      "bytes": 143793,
+      "sha256": "42766160e89593895c6f30c74334af031331bb805c7c467777829e3f0ab38da8"
     },
     {
       "path": "player/h5p.d.ts",

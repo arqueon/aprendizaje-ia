@@ -115,6 +115,29 @@ El ciclo tiene cuatro movimientos:
 | Acepta salidas sin contrastarlas ni decidir. | Sustituye trabajo intelectual y oculta cuánto se dejó de pensar. | Deriva en descarga cognitiva y cesión de dirección. |
 {{< /udgia-figure >}}
 
+## Decide cómo recuperar la dirección del proceso
+
+Este caso no pide recordar una definición. Pide decidir qué hacer cuando una respuesta
+convincente no resiste el contraste con sus propias fuentes. La actividad es una práctica
+formativa: no genera una calificación, no registra el intento y no se entrega como evidencia.
+
+{{< h5p id="direccion-epistemica-decidir-reformular" load="manual" title="Decidir, contrastar y reformular" >}}
+### Versión textual del caso
+
+Una IA propone una explicación clara sobre un problema de tu disciplina, pero dos
+afirmaciones no están respaldadas por las fuentes citadas. La ruta que conserva la dirección
+epistémica es:
+
+1. explicitar el criterio con el que se juzgará la respuesta;
+2. verificar las afirmaciones en fuentes pertinentes;
+3. decidir qué conservar o rechazar y explicar por qué;
+4. reformular la pregunta y el texto a partir de ese contraste.
+
+Editar solamente el estilo, elegir lo que repiten varios sistemas, pedir a la IA que se evalúe
+a sí misma o conservar el chat completo no sustituye esa secuencia. Pueden aportar material,
+pero el juicio debe permanecer en la persona y modificar la siguiente iteración.
+{{< /h5p >}}
+
 El docente puede pedir que el estudiante identifique y comente sus desplazamientos:
 
 - "¿En qué momento la IA dijo algo que no esperabas?"

@@ -26,6 +26,14 @@
       "fullScreen": true,
       "reportingIsEnabled": false
     },
+    "direccion-epistemica-decidir-reformular": {
+      "path": "direccion-epistemica-decidir-reformular",
+      "title": "Decidir, contrastar y reformular",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
     "cocreacion-conceptos-cards": {
       "path": "cocreacion-conceptos-cards",
       "title": "Conceptos para co-crear con dirección",
@@ -41,6 +49,14 @@
       "adapter": "multi-choice.css",
       "fullScreen": false,
       "reportingIsEnabled": true
+    },
+    "evidencias-proceso-proporcion": {
+      "path": "evidencias-proceso-proporcion",
+      "title": "Elegir evidencia suficiente y proporcional",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false
     },
     "cocreacion-evaluacion-recorrido": {
       "path": "cocreacion-evaluacion-recorrido",

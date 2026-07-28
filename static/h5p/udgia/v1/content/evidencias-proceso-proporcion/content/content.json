@@ -1,0 +1,143 @@
+{
+  "answers": [
+    {
+      "correct": true,
+      "text": "<div>Esquema inicial + verificación breve de las fuentes usadas + dos decisiones de revisión explicadas + versión final.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Este paquete es suficiente y proporcional: permite comparar el punto de partida, observar el contraste y comprender decisiones relevantes sin vigilar toda la interacción.",
+        "notChosenFeedback": "Busca el paquete más pequeño que permita reconstruir punto de partida, verificación, decisiones y resultado."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Solo la versión final, acompañada de una declaración de que se utilizó IA.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Es una entrega ligera, pero insuficiente: no permite observar cómo cambió el trabajo ni por qué se tomaron las decisiones.",
+        "notChosenFeedback": "Bien: declarar el uso aporta transparencia, pero no hace visible el aprendizaje del proceso."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Conversación completa, capturas de cada consulta, historial del navegador y registro de tiempo de uso.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Acumula datos que no son necesarios para juzgar la tarea y convierte la trazabilidad en vigilancia desproporcionada.",
+        "notChosenFeedback": "Bien: más rastros no equivalen a mejor evidencia."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Número de consultas, modelo utilizado y porcentaje de un detector aplicado al texto final.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Estos indicadores describen uso o producen una estimación técnica, pero no muestran comprensión, contraste ni revisión razonada.",
+        "notChosenFeedback": "Bien: los indicadores de uso no sustituyen evidencias pedagógicas."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Todas las versiones del texto y todos los mensajes intercambiados, aunque no hayan influido en el producto.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Puede contener evidencia útil, pero exige mucho más de lo necesario. Conviene seleccionar los hitos que sí permiten comprender el proceso.",
+        "notChosenFeedback": "Bien: una selección justificada puede ser más informativa que un archivo exhaustivo."
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Ver un paquete razonado",
+    "tryAgainButton": "Revisar otra vez",
+    "checkAnswerButton": "Revisar selección",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Revisión: :num de :total",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Este paquete no guarda la proporción necesaria",
+    "correctAnswer": "Este paquete es suficiente y proporcional",
+    "shouldCheck": "Paquete recomendado",
+    "shouldNotCheck": "Paquete que conviene revisar",
+    "noInput": "Selecciona un paquete antes de revisar",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Revisar el paquete seleccionado. Se mostrará retroalimentación formativa.",
+    "a11yShowSolution": "Mostrar un paquete razonado.",
+    "a11yRetry": "Reiniciar la actividad y revisar otro paquete."
+  },
+  "question": "<p>En una actividad de riesgo académico bajo, el estudiantado escribe un análisis de 900 palabras y realiza un solo ciclo de retroalimentación con IA. <strong>¿Cuál es el paquete mínimo suficiente para valorar el proceso sin convertir la entrega en vigilancia?</strong></p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "media": {
+    "type": {
+      "params": {
+        "contentName": "Imagen",
+        "file": {
+          "path": "images/evidencias-proporcion.png",
+          "mime": "image/png",
+          "width": 1200,
+          "height": 675,
+          "copyright": {
+            "license": "U",
+            "author": "UDGPlus",
+            "title": "Selección proporcional de evidencias"
+          }
+        },
+        "alt": "Portafolio de proceso con esquema inicial, verificación breve, decisiones comentadas y versión final.",
+        "decorative": false,
+        "expandImage": "Ampliar imagen",
+        "minimizeImage": "Reducir imagen"
+      },
+      "library": "H5P.Image 1.1",
+      "subContentId": "b8291334-0d0c-40cd-b052-c69111a8f602",
+      "metadata": {
+        "title": "Selección proporcional de evidencias",
+        "authors": [
+          {
+            "name": "UDGPlus",
+            "role": "Author"
+          }
+        ],
+        "license": "U",
+        "contentType": "Image"
+      }
+    },
+    "disableImageZooming": true
+  },
+  "confirmCheck": {
+    "header": "¿Revisar este paquete?",
+    "body": "Recibirás retroalimentación y podrás volver a intentarlo.",
+    "cancelLabel": "Cancelar",
+    "confirmLabel": "Revisar"
+  },
+  "confirmRetry": {
+    "header": "¿Revisar otro paquete?",
+    "body": "Se reiniciará tu selección.",
+    "cancelLabel": "Cancelar",
+    "confirmLabel": "Reiniciar"
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 99,
+      "feedback": "Revisa dos condiciones a la vez: que la evidencia permita juzgar decisiones relevantes y que no exija rastros ajenos al propósito de la tarea."
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "El paquete conserva solo los hitos necesarios para valorar evolución, contraste y juicio del estudiante."
+    }
+  ]
+}

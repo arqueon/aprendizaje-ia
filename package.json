@@ -10,6 +10,7 @@
     "h5p:verify": "node tools/h5p/package-fixture.mjs && node tools/h5p/package-pilot.mjs && node tools/h5p/build-runtime.mjs --check",
     "qa:h5p": "node tools/h5p/qa-runtime.mjs",
     "qa:h5p:pilot": "node tools/h5p/qa-pilot.mjs",
+    "qa:h5p:udgia007": "EVIDENCE_DIR=docs/design/evidence/udgia-007 node tools/h5p/qa-pilot.mjs",
     "qa:h5p:deployment": "node tools/h5p/probe-deployment.mjs",
     "qa:coordinacion-route": "node tools/qa-coordinacion-route.mjs",
     "qa:decision-institucional-route": "node tools/qa-decision-institucional-route.mjs",

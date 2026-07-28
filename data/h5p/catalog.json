@@ -6,7 +6,12 @@
     "version": "3.8.2",
     "license": "MIT",
     "npmIntegrity": "sha512-r7eQtTzBk/dbaQZ+tA9XD5FeSmyMxlypRZXudiheCnC8zAT0/zNgUvO4MZtZaznwfYVo98o7do5uxLTUQrxxwg==",
-    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391"
+    "sourceTarballSha256": "de7844ac07d5baddf5664c03738f25755914854b472f9b093251300ea1fec391",
+    "privacyPatch": {
+      "id": "volatile-anonymous-xapi-actor",
+      "target": "player/frame.bundle.js",
+      "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
+    }
   },
   "contents": {
     "runtime-probe": {
@@ -72,6 +77,29 @@
       "reportingIsEnabled": false,
       "fixture": false
     },
+    "direccion-epistemica-decidir-reformular": {
+      "title": "Decidir, contrastar y reformular",
+      "description": "Caso formativo para elegir una secuencia que conserva la dirección epistémica ante una respuesta no respaldada.",
+      "source": "h5p/packages/direccion-epistemica-decidir-reformular-1.0.0.h5p",
+      "sourceSha256": "256be521f2c9a84be7c5c72cdcdc4244feb09c0780679a6f135e4706f8673549",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "U",
+      "licenseStatus": "pending-institutional-confirmation",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/direccion-epistemica-decidir-reformular/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.MultiChoice"
+      },
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false,
+      "fixture": false
+    },
     "cocreacion-conceptos-cards": {
       "title": "Conceptos para co-crear con dirección",
       "description": "Tarjetas de relación entre co-creación, dirección epistémica, trazabilidad y ganancia cognitiva.",
@@ -112,6 +140,29 @@
       "adapter": "multi-choice.css",
       "fullScreen": false,
       "reportingIsEnabled": true,
+      "fixture": false
+    },
+    "evidencias-proceso-proporcion": {
+      "title": "Elegir evidencia suficiente y proporcional",
+      "description": "Caso formativo para seleccionar el paquete mínimo suficiente de evidencias según el alcance y riesgo de la tarea.",
+      "source": "h5p/packages/evidencias-proceso-proporcion-1.0.0.h5p",
+      "sourceSha256": "06ce6a97ff0bea958d5458eeded8ffef3260418b11efe366da5820e3339bde0e",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "U",
+      "licenseStatus": "pending-institutional-confirmation",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "adapted-official-template",
+        "author": "UDGPlus",
+        "source": "h5p/activities/evidencias-proceso-proporcion/overlay",
+        "template": "https://api.h5p.org/v1/content-types/H5P.MultiChoice"
+      },
+      "adapter": "multi-choice.css",
+      "fullScreen": false,
+      "reportingIsEnabled": false,
       "fixture": false
     },
     "cocreacion-evaluacion-recorrido": {

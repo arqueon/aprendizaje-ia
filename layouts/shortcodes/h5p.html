@@ -32,6 +32,9 @@
   data-embed-url="{{ $embedURL }}"
   data-load="{{ $load }}"
   data-fullscreen="{{ $entry.fullScreen | default false }}"
+  data-content-license="{{ $entry.contentLicense }}"
+  data-license-status="{{ $entry.licenseStatus }}"
+  data-publication-authorized="{{ $entry.publicationAuthorized }}"
   data-state="idle"
   aria-labelledby="{{ $titleID }}">
   <header class="udg-h5p__header">

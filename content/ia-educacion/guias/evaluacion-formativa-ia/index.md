@@ -98,6 +98,30 @@ La combinación debe ser proporcional a la tarea. No se necesita acumular todos 
 se necesita evidencia suficiente para comprender las decisiones importantes.
 {{< /udgia-figure >}}
 
+## Elige un paquete de evidencias proporcional
+
+La suficiencia depende de la tarea: no se pide lo mismo para una práctica breve que para un
+proyecto de alto impacto. Este ejercicio plantea una actividad de riesgo académico bajo y
+obliga a seleccionar, no a acumular. Es una práctica formativa: no genera una calificación,
+no registra el intento y no se entrega como evidencia.
+
+{{< h5p id="evidencias-proceso-proporcion" load="manual" title="Elegir evidencia suficiente y proporcional" >}}
+### Versión textual del caso
+
+En una actividad de riesgo académico bajo, el estudiantado escribe un análisis de 900
+palabras y realiza un solo ciclo de retroalimentación con IA. El paquete mínimo suficiente
+incluye:
+
+- el esquema inicial, para reconocer el punto de partida;
+- una verificación breve de las fuentes utilizadas, para observar el contraste;
+- dos decisiones de revisión explicadas, para hacer visible el juicio;
+- la versión final, para apreciar el resultado de esas decisiones.
+
+Entregar solo el producto final resulta insuficiente. Exigir conversaciones completas,
+capturas, historial de navegación o todos los mensajes resulta desproporcionado. El número de
+consultas y los detectores tampoco muestran por sí mismos qué aprendió la persona.
+{{< /h5p >}}
+
 ### 1. Portafolio iterativo
 
 El estudiante construye un portafolio donde cada pieza pasa por al menos tres versiones. La IA comenta cada versión; el estudiante decide qué incorporar.

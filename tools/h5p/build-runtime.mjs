@@ -365,6 +365,30 @@ async function writeManifest(output, catalog, contentIndex) {
   );
 }
 
+async function patchPlayerPrivacy(output, catalog) {
+  const expectedPatchID = "volatile-anonymous-xapi-actor";
+  if (catalog.player.privacyPatch?.id !== expectedPatchID) {
+    throw new Error(`Parche de privacidad H5P no gobernado: ${catalog.player.privacyPatch?.id}`);
+  }
+  const target = path.join(output, "player/frame.bundle.js");
+  const source = await readFile(target, "utf8");
+  const persistentActor =
+    'try{localStorage.H5PUserUUID?t=localStorage.H5PUserUUID:(t=e.createUUID(),' +
+    'localStorage.H5PUserUUID=t)}catch(n){t="not-trackable-"+e.createUUID()}';
+  const volatileActor = 't="not-trackable-"+e.createUUID();';
+  const matches = source.split(persistentActor).length - 1;
+  if (matches !== 1) {
+    throw new Error(
+      `No se pudo aplicar de forma unívoca el parche de privacidad H5P (${matches} coincidencias)`
+    );
+  }
+  const patched = source.replace(persistentActor, volatileActor);
+  if (patched.includes("H5PUserUUID")) {
+    throw new Error("El player H5P conserva una referencia a H5PUserUUID");
+  }
+  await writeFile(target, patched, "utf8");
+}
+
 async function build(output) {
   const catalog = JSON.parse(await readFile(catalogPath, "utf8"));
   const playerRoot = path.join(repoRoot, "node_modules/h5p-standalone");
@@ -378,6 +402,7 @@ async function build(output) {
 
   await mkdir(output, { recursive: true });
   await cp(path.join(playerRoot, "dist"), path.join(output, "player"), { recursive: true });
+  await patchPlayerPrivacy(output, catalog);
   await cp(path.join(runtimeSource, "host.js"), path.join(output, "host.js"));
   await cp(path.join(runtimeSource, "host.css"), path.join(output, "host.css"));
   await cp(path.join(runtimeSource, "embed.html"), path.join(output, "embed.html"));

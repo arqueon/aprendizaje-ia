@@ -15,6 +15,13 @@
       "templateSource": "https://api.h5p.org/v1/content-types/H5P.ImageHotspots",
       "overlay": "h5p/activities/direccion-epistemica-hotspots/overlay"
     },
+    "direccion-epistemica-decidir-reformular": {
+      "package": "direccion-epistemica-decidir-reformular-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/direccion-epistemica-decidir-reformular/overlay"
+    },
     "cocreacion-conceptos-cards": {
       "package": "cocreacion-conceptos-cards-1.0.0.h5p",
       "template": "h5p/templates/official/dialog-cards.h5p",
@@ -28,6 +35,13 @@
       "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
       "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
       "overlay": "h5p/activities/evaluacion-proceso-decision/overlay"
+    },
+    "evidencias-proceso-proporcion": {
+      "package": "evidencias-proceso-proporcion-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/evidencias-proceso-proporcion/overlay"
     },
     "cocreacion-evaluacion-recorrido": {
       "package": "cocreacion-evaluacion-recorrido-1.0.0.h5p",

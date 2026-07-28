@@ -1,0 +1,143 @@
+{
+  "answers": [
+    {
+      "correct": true,
+      "text": "<div>Explicitar el criterio → verificar las afirmaciones en las fuentes → decidir qué conservar o rechazar y por qué → reformular la pregunta y el texto.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Esta secuencia conserva la dirección epistémica: el criterio orienta el contraste, el contraste informa una decisión y la decisión transforma la siguiente iteración.",
+        "notChosenFeedback": "Busca la secuencia en la que el criterio, las fuentes y las razones de la persona cambian la siguiente iteración."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Corregir el estilo de la respuesta → conservar sus ideas centrales → añadir las referencias sugeridas al final.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Editar la forma no resuelve el problema de fondo: las afirmaciones siguen sin contrastarse y las referencias no se validan.",
+        "notChosenFeedback": "Bien: una respuesta más pulida no es necesariamente una respuesta mejor fundada."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Consultar a tres sistemas → elegir la respuesta que más se repita → reformularla con palabras propias.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "La coincidencia entre sistemas no sustituye una fuente ni un criterio disciplinar; una mayoría de respuestas puede repetir el mismo error.",
+        "notChosenFeedback": "Bien: contrastar no significa contar coincidencias entre modelos."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Pedir a la IA que evalúe su propia respuesta → aceptar sus correcciones → entregar el resultado con una nota de uso.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "La revisión automática puede aportar pistas, pero delegarle también el juicio final mantiene el criterio fuera de la persona.",
+        "notChosenFeedback": "Bien: documentar el uso no basta si la decisión sigue delegada."
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Guardar la conversación completa → seleccionar el fragmento más convincente → explicar que la IA ayudó a producirlo.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "El registro muestra qué ocurrió, pero no demuestra contraste ni explica con qué razones se aceptó o rechazó una propuesta.",
+        "notChosenFeedback": "Bien: trazabilidad y dirección epistémica se relacionan, pero no son equivalentes."
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Ver una ruta razonada",
+    "tryAgainButton": "Revisar otra vez",
+    "checkAnswerButton": "Revisar decisión",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Revisión: :num de :total",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Esta ruta cede una decisión importante",
+    "correctAnswer": "Esta ruta conserva la dirección epistémica",
+    "shouldCheck": "Ruta recomendada",
+    "shouldNotCheck": "Ruta que conviene revisar",
+    "noInput": "Selecciona una ruta antes de revisar la decisión",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Revisar la ruta seleccionada. Se mostrará retroalimentación formativa.",
+    "a11yShowSolution": "Mostrar la ruta razonada.",
+    "a11yRetry": "Reiniciar la actividad y revisar otra ruta."
+  },
+  "question": "<p>Una IA propone una explicación clara sobre un problema de tu disciplina, pero dos afirmaciones no están respaldadas por las fuentes citadas. <strong>¿Qué ruta permite conservar la dirección epistémica y convertir el hallazgo en una mejor iteración?</strong></p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": false,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "media": {
+    "type": {
+      "params": {
+        "contentName": "Imagen",
+        "file": {
+          "path": "images/direccion-epistemica.png",
+          "mime": "image/png",
+          "width": 1200,
+          "height": 675,
+          "copyright": {
+            "license": "U",
+            "author": "UDGPlus",
+            "title": "Decisiones para conservar la dirección epistémica"
+          }
+        },
+        "alt": "Mesa de trabajo con una persona que compara una respuesta de IA, fuentes y notas de revisión antes de reformular.",
+        "decorative": false,
+        "expandImage": "Ampliar imagen",
+        "minimizeImage": "Reducir imagen"
+      },
+      "library": "H5P.Image 1.1",
+      "subContentId": "11460468-70d1-4a73-8310-4c99ce94b092",
+      "metadata": {
+        "title": "Decisiones para conservar la dirección epistémica",
+        "authors": [
+          {
+            "name": "UDGPlus",
+            "role": "Author"
+          }
+        ],
+        "license": "U",
+        "contentType": "Image"
+      }
+    },
+    "disableImageZooming": true
+  },
+  "confirmCheck": {
+    "header": "¿Revisar esta decisión?",
+    "body": "Recibirás retroalimentación y podrás volver a intentarlo.",
+    "cancelLabel": "Cancelar",
+    "confirmLabel": "Revisar"
+  },
+  "confirmRetry": {
+    "header": "¿Revisar otra ruta?",
+    "body": "Se reiniciará tu selección.",
+    "cancelLabel": "Cancelar",
+    "confirmLabel": "Reiniciar"
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 99,
+      "feedback": "Vuelve al ciclo: criterio explícito, contraste con fuentes, decisión razonada y reformulación."
+    },
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "La secuencia mantiene el juicio en la persona y usa la respuesta de IA como material para contrastar y reformular."
+    }
+  ]
+}
