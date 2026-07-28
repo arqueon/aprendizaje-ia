@@ -13,6 +13,28 @@ La integración de la inteligencia artificial (IA) en entornos educativos ha gen
 
 Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. La diferencia entre un efecto positivo o negativo depende enteramente de la asignación de la capacidad mental liberada.
 
+{{< udgia-figure id="udgia-f04-disociacion" src="disociacion-desempeno-aprendizaje.svg" >}}
+El esquema compara dos condiciones:
+
+| Condición | Durante la práctica | Al retirar la IA |
+|---|---|---|
+| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |
+| Con salvaguardas | La IA dosifica pistas y conserva trabajo cognitivo en la persona. | El rendimiento regresa aproximadamente al nivel del grupo de control. |
+
+Sin salvaguardas, la asistencia sustituyó el esfuerzo que debía producir aprendizaje.
+Con salvaguardas, el andamiaje mitigó la pérdida observada cuando la IA entregaba soluciones.
+
+Es un esquema conceptual: no representa una escala ni una medición única. Sintetiza el
+contraste entre asistencia irrestricta y asistencia diseñada pedagógicamente.
+{{< /udgia-figure >}}
+
+El experimento sintetizado en el diagrama no prueba que toda asistencia produzca uno
+de esos dos desenlaces. Muestra algo más acotado: mejorar una tarea mientras la IA está
+disponible no basta para demostrar aprendizaje, y las salvaguardas pueden mitigar el daño
+cuando la asistencia se retira (Bastani et al., 2025). En otro contexto, un tutor diseñado
+con principios pedagógicos produjo mejores resultados en una prueba inmediata que una
+clase de aprendizaje activo; ese estudio no midió retención duradera (Kestin et al., 2025).
+
 ## La orientación de asociación y el aprendizaje transformativo
 
 El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes interactúan con la IA cuando la conceptualizan como un colaborador intelectual en lugar de una herramienta pasiva. Esta perspectiva, denominada "orientación de asociación", produce simultáneamente dos respuestas cognitivas: un incremento en la vigilancia cognitiva (evaluación crítica de los resultados generados) y un aumento en la descarga cognitiva (delegación estratégica de tareas).
@@ -60,11 +82,15 @@ La descarga cognitiva, en conclusión, no reemplaza el procesamiento mental; pro
 
 ## Referencias
 
+Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), e2422633122. https://doi.org/10.1073/pnas.2422633122
+
 Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. En J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about knowing* (pp. 185-205). MIT Press.
 
 Gerlich, M. (2025). The impact of artificial intelligence reliance on critical thinking capabilities in digital-native cohorts. *Journal of Applied Cognitive Science*, *12*(1), 45-61.
 
 Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, *331*(6018), 772-775.
+
+Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. https://doi.org/10.1038/s41598-025-97652-6
 
 Kosmyna, N., et al. (2025). Neural correlates of cognitive debt in generative AI writing assistance: An EEG study. *Neuroscience of Education*, *8*(2), 210-225.
 

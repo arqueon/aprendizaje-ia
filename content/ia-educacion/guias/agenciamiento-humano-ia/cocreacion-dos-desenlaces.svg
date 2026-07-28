@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 600" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">La co-creación persona-IA y sus dos desenlaces posibles</title>
+  <desc id="desc">En la parte superior, dos nodos diferenciados representan a la persona y a la IA
+    convergiendo en una cápsula de co-creación. Al centro, un ciclo de cuatro momentos: formular,
+    evaluar, descartar y reformular, con la pregunta de quién dirige el proceso en el centro. De ese
+    ciclo salen dos desenlaces: si la persona conserva la dirección epistémica, ganancia cognitiva,
+    el sistema activa el pensamiento; si la cede, descarga cognitiva, con subyugación algorítmica y
+    deriva metacognitiva.</desc>
+  <style>
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+
+  <defs>
+    <marker id="flechaCiclo" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#B12028"/>
+    </marker>
+    <marker id="flechaGood" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5E6A28"/>
+    </marker>
+    <marker id="flechaRisk" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#9A4A12"/>
+    </marker>
+  </defs>
+
+  <g class="tk-font">
+    <!-- ===== Ensamblaje persona-IA ===== -->
+    <rect x="245" y="42" width="130" height="56" rx="2" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="310" y="68" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">Persona</text>
+    <text x="310" y="85" text-anchor="middle" font-size="11.5" class="f-muted">Juicio y propósito</text>
+
+    <rect x="505" y="42" width="130" height="56" rx="2" class="bg-neutral st-axis" stroke-width="1.6"/>
+    <text x="570" y="68" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">IA</text>
+    <text x="570" y="85" text-anchor="middle" font-size="11.5" class="f-muted">Variantes y señales</text>
+
+    <line x1="375" y1="70" x2="405" y2="70" class="st-primary" stroke-width="1.8"/>
+    <line x1="505" y1="70" x2="475" y2="70" class="st-axis" stroke-width="1.8"/>
+    <rect x="405" y="36" width="70" height="68" rx="2" class="bg-good st-good" stroke-width="1.8"/>
+    <text x="440" y="61" text-anchor="middle" font-size="13" font-weight="bold" class="f-good">Co-</text>
+    <text x="440" y="78" text-anchor="middle" font-size="13" font-weight="bold" class="f-good">creación</text>
+    <text x="440" y="94" text-anchor="middle" font-size="10.5" class="f-muted">persona-IA</text>
+
+    <text x="665" y="62" font-size="13.5" font-weight="bold" class="f-primary">Ensamblaje productivo</text>
+    <text x="665" y="80" font-size="12" class="f-muted">Produce lo que ninguno haría</text>
+    <text x="665" y="96" font-size="12" class="f-muted">por separado</text>
+
+    <!-- conexión al ciclo -->
+    <line x1="440" y1="112" x2="440" y2="148" class="st-axis" stroke-width="1.8" marker-end="url(#flechaCiclo)"/>
+
+    <!-- ===== Ciclo de co-creación ===== -->
+    <!-- nodos: formular (arriba), evaluar (derecha), descartar (abajo), reformular (izquierda) -->
+    <g>
+      <rect x="385" y="155" width="110" height="34" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+      <text x="440" y="177" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">Formular</text>
+
+      <rect x="555" y="263" width="110" height="34" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+      <text x="610" y="285" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">Evaluar</text>
+
+      <rect x="385" y="371" width="110" height="34" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+      <text x="440" y="393" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">Descartar</text>
+
+      <rect x="215" y="263" width="110" height="34" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+      <text x="270" y="285" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">Reformular</text>
+
+      <!-- arcos del ciclo (sentido horario) -->
+      <path d="M 500 178 Q 600 195 608 258" fill="none" class="st-primary" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+      <path d="M 608 302 Q 600 365 500 388" fill="none" class="st-primary" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+      <path d="M 380 388 Q 280 365 272 302" fill="none" class="st-primary" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+      <path d="M 272 258 Q 280 195 380 178" fill="none" class="st-primary" stroke-width="2" marker-end="url(#flechaCiclo)"/>
+    </g>
+
+    <!-- pregunta central -->
+    <text x="440" y="270" text-anchor="middle" font-size="14" font-weight="bold" class="f-ink">¿Quién dirige</text>
+    <text x="440" y="289" text-anchor="middle" font-size="14" font-weight="bold" class="f-ink">el proceso?</text>
+    <text x="440" y="309" text-anchor="middle" font-size="11.5" class="f-muted">Dirección epistémica</text>
+
+    <!-- ===== Desenlaces ===== -->
+    <!-- ganancia -->
+    <path d="M 330 420 Q 250 450 230 478" fill="none" class="st-good" stroke-width="2.2" marker-end="url(#flechaGood)"/>
+    <text x="218" y="448" text-anchor="end" font-size="12.5" font-weight="bold" class="f-good">La persona conserva</text>
+    <text x="218" y="464" text-anchor="end" font-size="12.5" font-weight="bold" class="f-good">la dirección</text>
+
+    <rect x="60" y="485" width="350" height="92" rx="2" class="bg-good st-good" stroke-width="1.8"/>
+    <text x="235" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-good">Ganancia cognitiva</text>
+    <text x="235" y="534" text-anchor="middle" font-size="12" class="f-muted">Contraejemplos y conexiones inesperadas</text>
+    <text x="235" y="550" text-anchor="middle" font-size="12" class="f-muted">que obligan a revisar los propios supuestos;</text>
+    <text x="235" y="566" text-anchor="middle" font-size="12" class="f-muted">La IA puede activar el pensamiento</text>
+
+    <!-- descarga -->
+    <path d="M 550 420 Q 630 450 650 478" fill="none" class="st-risk" stroke-width="2.2" marker-end="url(#flechaRisk)"/>
+    <text x="662" y="448" font-size="12.5" font-weight="bold" class="f-risk">La persona cede</text>
+    <text x="662" y="464" font-size="12.5" font-weight="bold" class="f-risk">la dirección</text>
+
+    <rect x="470" y="485" width="350" height="92" rx="2" class="bg-risk st-risk" stroke-width="1.8"/>
+    <text x="645" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-risk">Descarga cognitiva</text>
+    <text x="645" y="534" text-anchor="middle" font-size="12" class="f-muted">Recibir y validar sin dirigir (subyugación</text>
+    <text x="645" y="550" text-anchor="middle" font-size="12" class="f-muted">algorítmica); dejar de notar cuánto se dejó</text>
+    <text x="645" y="566" text-anchor="middle" font-size="12" class="f-muted">de pensar (deriva metacognitiva)</text>
+  </g>
+</svg>

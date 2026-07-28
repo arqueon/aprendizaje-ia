@@ -26,7 +26,7 @@ ecosistema:
   fuentes:
     - "https://doi.org/10.1080/0969595980050102"
     - "https://doi.org/10.3102/003465430298487"
-  revisado: 2026-07-27
+  revisado: 2026-07-28
   relaciones:
     - tipo: aplica
       destino: evidence.trazabilidad
@@ -84,6 +84,19 @@ flowchart TD
 El elemento crítico no es la retroalimentación de la IA sino la **decisión documentada del estudiante**: qué aceptó, qué rechazó y por qué. Ahí está la evidencia de aprendizaje.
 
 ## Tres instrumentos formativos con IA
+
+{{< udgia-figure id="udgia-f09-instrumentos" src="instrumentos-evaluacion-proceso.svg" >}}
+Los tres instrumentos se complementan:
+
+| Instrumento | Qué hace visible | Qué no demuestra por sí solo |
+|---|---|---|
+| Portafolio iterativo | La evolución entre versiones y la incorporación de retroalimentación. | No explica por sí mismo la razón de cada cambio. |
+| Rúbrica analítica asistida | Criterios comunes para retroalimentar proceso y producto. | No aporta evidencia concreta ni valida una calificación sin juicio docente. |
+| Diario de reflexión | Consultas, decisiones y conciencia del propio aprendizaje. | No demuestra por sí solo la calidad integral del producto final. |
+
+La combinación debe ser proporcional a la tarea. No se necesita acumular todos los rastros:
+se necesita evidencia suficiente para comprender las decisiones importantes.
+{{< /udgia-figure >}}
 
 ### 1. Portafolio iterativo
 

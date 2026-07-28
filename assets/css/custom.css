@@ -123,6 +123,157 @@ article > figure:first-child > img.single_hero_round {
   object-fit: contain;
 }
 
+/* UDGIA-006 · Figuras compartidas desde Orientaciones.
+   En escritorio salen de la columna de lectura para conservar la escala editorial;
+   en móvil usan una composición vertical y el fallback permanece en HTML. */
+.prose .udgia-figure {
+  --udgia-figure-width: min(44rem, calc(100vw - 3rem));
+
+  width: var(--udgia-figure-width);
+  margin-block: 2rem;
+  margin-inline-start: calc(100% - var(--udgia-figure-width));
+  margin-inline-end: 0;
+  overflow: hidden;
+  scroll-margin-top: 5rem;
+  border: 1px solid rgba(91, 90, 102, 0.24);
+  border-radius: 0.4rem;
+  background: #fbf7f1;
+  box-shadow: 0 16px 36px rgba(32, 41, 69, 0.08);
+}
+
+.prose .udgia-figure__mobile-hint {
+  display: none;
+}
+
+.prose .udgia-figure__viewport {
+  overflow-x: auto;
+  padding: 1rem;
+  scrollbar-color: #b12028 #f2ebdf;
+  scrollbar-gutter: stable;
+}
+
+.prose .udgia-figure__viewport:focus-visible {
+  outline: 3px solid #b12028;
+  outline-offset: -3px;
+}
+
+.prose .udgia-figure__image-link {
+  display: block;
+  width: 100%;
+}
+
+.prose .udgia-figure__image-link picture {
+  display: block;
+}
+
+.prose .udgia-figure__image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.prose .udgia-figure__caption {
+  display: grid;
+  gap: 0.45rem;
+  padding: 1rem 1.15rem 1.1rem;
+  border-top: 1px solid rgba(91, 90, 102, 0.22);
+  color: #202945;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.prose .udgia-figure__caption strong {
+  color: #202945;
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 1rem;
+}
+
+.prose .udgia-figure__caption > a {
+  width: fit-content;
+  color: #b12028;
+  font-weight: 700;
+}
+
+.prose .udgia-figure__description {
+  margin-top: 0.35rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid rgba(91, 90, 102, 0.18);
+}
+
+.prose .udgia-figure__description summary {
+  cursor: pointer;
+  color: #202945;
+  font-weight: 700;
+}
+
+.prose .udgia-figure__description :where(p, ol, ul, table) {
+  margin-block: 0.65rem 0;
+}
+
+@media (max-width: 47.999rem) {
+  .prose .udgia-figure {
+    width: 100%;
+    margin-inline: 0;
+  }
+
+  .prose .udgia-figure__mobile-hint {
+    display: block;
+    margin: 0;
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid rgba(91, 90, 102, 0.18);
+    color: #5b5a66;
+    font-size: 0.78rem;
+    font-weight: 650;
+    letter-spacing: 0.01em;
+  }
+
+  .prose .udgia-figure__viewport {
+    overflow-x: hidden;
+    padding: 0.75rem;
+  }
+
+  .prose .udgia-figure__image {
+    width: 100%;
+  }
+}
+
+@media print {
+  .prose .udgia-figure {
+    width: 100%;
+    margin-inline: 0;
+    break-inside: avoid;
+    box-shadow: none;
+  }
+
+  .prose .udgia-figure__viewport {
+    overflow: visible;
+    padding: 0.5rem;
+  }
+
+  .prose .udgia-figure__image {
+    width: 100%;
+  }
+
+  .prose .udgia-figure__caption > a {
+    display: none;
+  }
+
+  .prose .udgia-figure__description,
+  .prose .udgia-figure__description > div {
+    display: block;
+  }
+
+  .prose .udgia-figure__description summary {
+    display: none;
+  }
+}
+
 .card-bg {
   background-color: var(--udg-c-surface);
   border-color: var(--udg-c-line);

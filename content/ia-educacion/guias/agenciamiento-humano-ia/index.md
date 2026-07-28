@@ -26,7 +26,7 @@ ecosistema:
   fuentes:
     - "https://doi.org/10.1109/TLT.2025.3554584"
     - "https://doi.org/10.3390/educsci15091198"
-  revisado: 2026-07-27
+  revisado: 2026-07-28
   relaciones:
     - tipo: requiere
       destino: pattern.direccion-epistemica
@@ -97,6 +97,23 @@ El diseño pedagógico convencional busca controlar variables: instrucciones cer
 ### 3. Valorar los desplazamientos
 
 Un desplazamiento ocurre cuando la IA dice algo que obliga al estudiante a repensar su posición. Estos momentos son pedagógicamente valiosos porque evidencian **actividad cognitiva genuina**: son la **ganancia cognitiva** —el reverso de la descarga cognitiva—, cuando la interacción bien orientada introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a revisar, precisar o abandonar los propios supuestos, y la IA deja de ser un atajo de razonamiento para volverse un interlocutor que activa el pensamiento en lugar de sustituirlo (Nasr et al., 2025). Que esto ocurra no depende del modelo, sino de sostener un ciclo iterativo —preguntar, leer críticamente, descartar y reformular— bajo el propio juicio, y no de delegar la tarea (Ji et al., 2025).
+
+{{< udgia-figure id="udgia-f05-cocreacion" src="cocreacion-dos-desenlaces.svg" >}}
+El ciclo tiene cuatro movimientos:
+
+1. **Formular:** definir el propósito, la pregunta y los criterios antes de solicitar una
+   respuesta.
+2. **Evaluar:** contrastar la salida con el propósito, el conocimiento disciplinar y
+   fuentes verificables.
+3. **Descartar:** rechazar lo que sea falso, irrelevante o incompatible con los criterios.
+4. **Reformular:** revisar la posición propia o la solicitud y comenzar una iteración mejor
+   informada.
+
+| Decisión de la persona | Efecto de la interacción | Desenlace |
+|---|---|---|
+| Conserva el propósito, los criterios y la validación. | Activa objeciones, conexiones y revisión. | Produce ganancia cognitiva que puede explicarse y transferirse. |
+| Acepta salidas sin contrastarlas ni decidir. | Sustituye trabajo intelectual y oculta cuánto se dejó de pensar. | Deriva en descarga cognitiva y cesión de dirección. |
+{{< /udgia-figure >}}
 
 El docente puede pedir que el estudiante identifique y comente sus desplazamientos:
 

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 830" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Tres instrumentos para hacer visible el proceso</title>
+  <desc id="desc">Versión vertical. El portafolio iterativo, la rúbrica analítica asistida y el diario
+    de reflexión aportan evidencias distintas. Los tres convergen en la trazabilidad y el juicio docente:
+    la IA apoya la retroalimentación y el docente juzga el aprendizaje.</desc>
+  <style>
+    .tk-font { font-family:'Archivo Narrow',Helvetica,Arial,sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; } .f-primary { fill:#B12028; }
+    .f-good { fill:#5E6A28; } .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+  <g class="tk-font">
+    <rect x="25" y="25" width="370" height="125" rx="3" class="bg-good st-good" stroke-width="1.7"/>
+    <text x="210" y="62" text-anchor="middle" font-size="20" font-weight="bold" class="f-good">Portafolio iterativo</text>
+    <text x="210" y="94" text-anchor="middle" font-size="15" class="f-muted">Las versiones sucesivas muestran</text>
+    <text x="210" y="118" text-anchor="middle" font-size="15" class="f-muted">la evolución del pensamiento.</text>
+
+    <rect x="25" y="180" width="370" height="125" rx="3" class="bg-warn st-warn" stroke-width="1.7"/>
+    <text x="210" y="217" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Rúbrica analítica asistida</text>
+    <text x="210" y="249" text-anchor="middle" font-size="15" class="f-muted">La IA retroalimenta con criterios;</text>
+    <text x="210" y="273" text-anchor="middle" font-size="15" class="f-muted">el docente conserva la calificación.</text>
+
+    <rect x="25" y="335" width="370" height="125" rx="3" class="bg-neutral st-axis" stroke-width="1.7"/>
+    <text x="210" y="372" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Diario de reflexión</text>
+    <text x="210" y="404" text-anchor="middle" font-size="15" class="f-muted">Registra consultas, decisiones</text>
+    <text x="210" y="428" text-anchor="middle" font-size="15" class="f-muted">y conciencia del propio proceso.</text>
+
+    <path d="M210 150 L210 180 M210 305 L210 335 M210 460 L210 520" fill="none" stroke-width="2" class="st-axis"/>
+    <rect x="25" y="520" width="370" height="155" rx="3" class="bg-primary st-primary" stroke-width="1.9"/>
+    <text x="210" y="560" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">Trazabilidad y juicio docente</text>
+    <text x="210" y="596" text-anchor="middle" font-size="15" class="f-muted">Versiones, criterios, decisiones</text>
+    <text x="210" y="620" text-anchor="middle" font-size="15" class="f-muted">y reflexión hacen visible el proceso.</text>
+    <text x="210" y="650" text-anchor="middle" font-size="16" font-weight="bold" class="f-ink">Las evidencias se complementan.</text>
+
+    <rect x="25" y="720" width="370" height="76" rx="3" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="210" y="750" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">La IA apoya la retroalimentación;</text>
+    <text x="210" y="777" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">el docente juzga el aprendizaje.</text>
+  </g>
+</svg>

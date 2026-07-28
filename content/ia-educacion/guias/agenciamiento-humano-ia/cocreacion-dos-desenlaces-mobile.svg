@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 980" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Co-creación persona-IA y sus dos desenlaces</title>
+  <desc id="desc">Versión vertical. Persona e IA convergen en una co-creación que recorre cuatro
+    movimientos: formular, evaluar, descartar y reformular. Si la persona conserva la dirección
+    epistémica puede producirse ganancia cognitiva; si la cede, la interacción deriva en descarga cognitiva.</desc>
+  <style>
+    .tk-font { font-family:'Archivo Narrow',Helvetica,Arial,sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; }
+    .bg-risk { fill:#F4E6D8; } .bg-neutral { fill:#F2EBDF; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; }
+    .st-risk { stroke:#9A4A12; } .st-axis { stroke:#202945; }
+  </style>
+  <defs>
+    <marker id="flecha" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#B12028"/>
+    </marker>
+    <marker id="flechaGood" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#5E6A28"/>
+    </marker>
+    <marker id="flechaRisk" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#9A4A12"/>
+    </marker>
+  </defs>
+  <g class="tk-font">
+    <rect x="25" y="25" width="150" height="72" rx="3" class="bg-primary st-primary" stroke-width="1.7"/>
+    <text x="100" y="55" text-anchor="middle" font-size="18" font-weight="bold" class="f-primary">Persona</text>
+    <text x="100" y="79" text-anchor="middle" font-size="14" class="f-muted">Juicio y propósito</text>
+    <rect x="245" y="25" width="150" height="72" rx="3" class="bg-neutral st-axis" stroke-width="1.7"/>
+    <text x="320" y="55" text-anchor="middle" font-size="18" font-weight="bold" class="f-ink">IA</text>
+    <text x="320" y="79" text-anchor="middle" font-size="14" class="f-muted">Variantes y señales</text>
+    <path d="M100 105 L180 145 M320 105 L240 145" fill="none" stroke-width="2" class="st-axis"/>
+    <rect x="120" y="135" width="180" height="66" rx="3" class="bg-good st-good" stroke-width="1.8"/>
+    <text x="210" y="163" text-anchor="middle" font-size="19" font-weight="bold" class="f-good">Co-creación</text>
+    <text x="210" y="187" text-anchor="middle" font-size="14" class="f-muted">Acoplamiento productivo</text>
+    <line x1="210" y1="201" x2="210" y2="238" class="st-primary" stroke-width="2.2" marker-end="url(#flecha)"/>
+
+    <rect x="140" y="245" width="140" height="46" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="210" y="274" text-anchor="middle" font-size="17" font-weight="bold" class="f-primary">Formular</text>
+    <rect x="280" y="350" width="120" height="46" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="340" y="379" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Evaluar</text>
+    <rect x="140" y="455" width="140" height="46" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="210" y="484" text-anchor="middle" font-size="17" font-weight="bold" class="f-primary">Descartar</text>
+    <rect x="20" y="350" width="120" height="46" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="80" y="379" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Reformular</text>
+    <path d="M285 275 Q365 300 342 343" fill="none" class="st-primary" stroke-width="2.4" marker-end="url(#flecha)"/>
+    <path d="M342 403 Q360 445 286 473" fill="none" class="st-primary" stroke-width="2.4" marker-end="url(#flecha)"/>
+    <path d="M135 473 Q60 445 78 403" fill="none" class="st-primary" stroke-width="2.4" marker-end="url(#flecha)"/>
+    <path d="M78 343 Q55 300 135 275" fill="none" class="st-primary" stroke-width="2.4" marker-end="url(#flecha)"/>
+    <text x="210" y="354" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">¿Quién dirige</text>
+    <text x="210" y="375" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">el proceso?</text>
+    <text x="210" y="399" text-anchor="middle" font-size="13.5" class="f-muted">Dirección epistémica</text>
+
+    <path d="M175 520 Q120 545 100 578" fill="none" class="st-good" stroke-width="2.4" marker-end="url(#flechaGood)"/>
+    <text x="210" y="555" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">La persona conserva propósito y criterio</text>
+    <rect x="25" y="585" width="370" height="145" rx="3" class="bg-good st-good" stroke-width="1.8"/>
+    <text x="210" y="620" text-anchor="middle" font-size="21" font-weight="bold" class="f-good">Ganancia cognitiva</text>
+    <text x="210" y="652" text-anchor="middle" font-size="15" class="f-muted">Contraejemplos y conexiones inesperadas</text>
+    <text x="210" y="676" text-anchor="middle" font-size="15" class="f-muted">obligan a revisar los propios supuestos.</text>
+    <text x="210" y="706" text-anchor="middle" font-size="16" font-weight="bold" class="f-ink">La IA puede activar el pensamiento.</text>
+
+    <text x="210" y="774" text-anchor="middle" font-size="15" font-weight="bold" class="f-risk">La persona cede propósito y criterio</text>
+    <line x1="210" y1="782" x2="210" y2="796" class="st-risk" stroke-width="2.4" marker-end="url(#flechaRisk)"/>
+    <rect x="25" y="800" width="370" height="150" rx="3" class="bg-risk st-risk" stroke-width="1.8"/>
+    <text x="210" y="837" text-anchor="middle" font-size="21" font-weight="bold" class="f-risk">Descarga cognitiva</text>
+    <text x="210" y="869" text-anchor="middle" font-size="15" class="f-muted">Recibir y validar sin dirigir sustituye</text>
+    <text x="210" y="893" text-anchor="middle" font-size="15" class="f-muted">trabajo intelectual y oculta cuánto</text>
+    <text x="210" y="917" text-anchor="middle" font-size="15" class="f-muted">se dejó de pensar.</text>
+  </g>
+</svg>

@@ -14,7 +14,9 @@
     "qa:coordinacion-route": "node tools/qa-coordinacion-route.mjs",
     "qa:decision-institucional-route": "node tools/qa-decision-institucional-route.mjs",
     "content:inventory": "node tools/audit-hugo-content.mjs",
-    "qa:content-inventory": "node tools/audit-hugo-content.mjs --check"
+    "qa:content-inventory": "node tools/audit-hugo-content.mjs --check",
+    "qa:udgia-figures": "node tools/qa-udgia-figures.mjs",
+    "qa:udgia-figures-route": "node tools/qa-udgia-figures-route.mjs"
   },
   "devDependencies": {
     "axe-core": "4.12.1",

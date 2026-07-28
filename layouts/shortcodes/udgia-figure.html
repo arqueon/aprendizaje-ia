@@ -1,0 +1,57 @@
+{{- $id := .Get "id" -}}
+{{- $src := .Get "src" -}}
+{{- $meta := index hugo.Data.udgia_figures $id -}}
+{{- if not $meta -}}
+  {{- errorf "udgia-figure: no existe metadata para %q en %s" $id .Position -}}
+{{- end -}}
+{{- $resource := .Page.Resources.GetMatch $src -}}
+{{- if not $resource -}}
+  {{- errorf "udgia-figure: no existe el recurso %q en %s" $src .Position -}}
+{{- end -}}
+{{- $mobileResource := .Page.Resources.GetMatch $meta.src_mobile -}}
+{{- if not $mobileResource -}}
+  {{- errorf "udgia-figure: no existe la variante móvil %q en %s" $meta.src_mobile .Position -}}
+{{- end -}}
+<figure
+  class="udgia-figure"
+  id="{{ $id }}"
+  data-source-id="{{ $id }}"
+  data-source-version="{{ $meta.source_version }}"
+  data-source-sha256="{{ $meta.source_sha256 }}"
+  data-variant-sha256="{{ $meta.variant_sha256 }}"
+  data-mobile-variant-sha256="{{ $meta.mobile_variant_sha256 }}"
+  data-license="{{ $meta.license }}"
+  data-publication-authorized="{{ $meta.publication_authorized }}">
+  <p class="udgia-figure__mobile-hint">Versión vertical adaptada para pantalla estrecha.</p>
+  <div
+    class="udgia-figure__viewport"
+    role="region"
+    aria-label="Diagrama: {{ $meta.title }}"
+    tabindex="0">
+    <a
+      class="udgia-figure__image-link"
+      href="{{ $resource.RelPermalink }}"
+      aria-label="Abrir {{ $meta.title }} en tamaño completo">
+      <picture>
+        <source media="(max-width: 47.999rem)" srcset="{{ $mobileResource.RelPermalink }}">
+        <img
+          class="udgia-figure__image nozoom"
+          src="{{ $resource.RelPermalink }}"
+          alt="{{ $meta.alt }}"
+          loading="lazy"
+          decoding="async">
+      </picture>
+    </a>
+  </div>
+  <figcaption class="udgia-figure__caption">
+    <strong>{{ $meta.title }}</strong>
+    <span>{{ $meta.caption }}</span>
+    <a href="{{ $resource.RelPermalink }}">Ampliar SVG</a>
+    {{- with .Inner }}
+      <details class="udgia-figure__description">
+        <summary>Descripción textual del diagrama</summary>
+        <div>{{ . | markdownify }}</div>
+      </details>
+    {{- end }}
+  </figcaption>
+</figure>
