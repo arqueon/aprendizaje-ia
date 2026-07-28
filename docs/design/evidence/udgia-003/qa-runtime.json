@@ -109,7 +109,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 474,
+      "firstHeight": 473,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,
