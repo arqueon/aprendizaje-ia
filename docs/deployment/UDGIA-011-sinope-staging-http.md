@@ -82,22 +82,45 @@ privado. Resultado final: **PASS sin advertencias**.
 
 ## Estado de Coolify
 
-La imagen se validó en el runtime Docker de Sinopé, pero el contenedor todavía no pertenece
-al plano de control de Coolify. La API instalada exige una credencial con alcance raíz para
-crear el recurso. No se generó esa credencial ni se modificó la base de Coolify sin una
-autorización separada.
+El recurso quedó incorporado al plano de control de Coolify:
 
-El siguiente gate debe escoger entre:
+| Elemento | Estado |
+|---|---|
+| Proyecto | `UDGIA - staging` |
+| Entorno | `staging` |
+| Servicio | `aprendizaje-ia-staging` |
+| UUID del servicio | `eqapv8jxiegjw26sdafa9uns` |
+| Contenedor | `aprendizaje-ia-eqapv8jxiegjw26sdafa9uns` |
+| Puerto | `127.0.0.1:8185 → 8080` |
+| Imagen efectiva | `sha256:20bbb8c3caaa4304a35ccff87cb4d888c1cb115682c6fbfd459723f435aeabda` |
+| Estado inicial | `running / healthy` |
 
-1. registrar el recurso mediante la interfaz de Coolify;
-2. autorizar un token raíz temporal, usarlo solo para crear/verificar el recurso y revocarlo;
-3. mantener temporalmente el staging privado fuera del plano de control;
-4. retirar el staging.
+La primera solicitud de despliegue no alcanzó Docker porque el listener de `sshd` de Sinopé,
+activo desde antes de una actualización, cerraba la negociación con
+`hostkeys confused (config 4 recvd 3)`. Con autorización separada se ejecutó `sshd -t`, se
+reinició únicamente `sshd` y se comprobó una conexión nueva. El PID principal cambió de
+`856` a `2980913`; la unidad quedó `active/running`.
 
-En todos los casos, `push`, GHCR, DNS y producción siguen fuera de alcance hasta una decisión
-posterior explícita.
+Coolify volvió a autenticar correctamente contra el host. Se creó un token raíz temporal
+dentro del propio contenedor de Coolify, se encoló **un solo** arranque del servicio y el
+token se revocó al terminar. La sonda completa se repitió contra `8185` mediante túnel SSH y
+dio nuevamente **PASS sin advertencias**, con los mismos 681 archivos y 9,943,325 bytes.
 
-La decisión recibida fue registrar el recurso mediante la interfaz de Coolify, sin emitir un
-token nuevo. El Compose validado para esa operación vive en
-`deploy/coolify/sinope-staging.compose.yaml`; usa un segundo puerto loopback para permitir una
-verificación azul-verde antes de retirar la réplica manual.
+## Conmutación y observación
+
+El contenedor manual `udgia-aprendizaje-ia-staging` se detuvo limpiamente con código `0`,
+pero no se eliminó; conserva la imagen aprobada y puede restablecerse como reversión. El
+servicio gestionado por Coolify quedó como única réplica activa.
+
+La observación de 24 horas comenzó el `2026-07-29 12:39:53 CST` mediante la unidad transitoria
+de usuario `udgia-011-observe-24h.service`. Registra cada cinco minutos, sin efectuar
+escrituras sobre el servicio:
+
+- estado y salud del contenedor;
+- contador de reinicios;
+- HTTP de `/healthz`, la raíz del sitio y el manifest del runtime H5P.
+
+La primera muestra fue `running`, `healthy`, cero reinicios y `200` en los tres endpoints.
+El registro privado vive en
+`/home/sinope/.local/state/udgia-011/observation-20260729.jsonl`. La promoción, el `push`,
+GHCR, DNS y producción continúan bloqueados hasta una compuerta posterior explícita.
