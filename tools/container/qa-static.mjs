@@ -118,6 +118,10 @@ assert(
 assert(!/try_files[^;]*index\.html/.test(nginx), "Nginx: fallback SPA ocultaría los 404");
 assert(!/\berror_page\b/.test(nginx), "Nginx: error_page podría ocultar un 404 real");
 assert(
+  !/^\s*~[^\n"]*\{\d+(?:,\d*)?\}/m.test(nginx),
+  "Nginx: una regex con cuantificador entre llaves debe estar entre comillas",
+);
+assert(
   !/h5p\/udgia\/v\[0-9\]\+\/\.\+\\\./.test(nginx),
   "Nginx: una regla H5P demasiado amplia volvería inmutable el contenido editorial",
 );

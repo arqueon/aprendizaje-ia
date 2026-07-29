@@ -991,7 +991,7 @@ try {
     {
       path: "h5p/udgia/v1/embed.html",
       contentType: /^text\/html\b/i,
-      cachePolicy: "immutable"
+      cachePolicy: "mutable"
     },
     {
       path: "h5p/udgia/v1/embed.js",
