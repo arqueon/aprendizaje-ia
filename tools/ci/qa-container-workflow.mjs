@@ -19,6 +19,8 @@ assert.doesNotMatch(workflow, /^  push:/m, "La publicación automática sigue ce
 assert.match(workflow, /publish_image:/);
 assert.match(workflow, /default: false/);
 assert.match(workflow, /file: \.\/Dockerfile/);
+assert.match(workflow, /HUGO_VERSION: 0\.164\.0/);
+assert.equal((workflow.match(/HUGO_VERSION=\$\{\{ env\.HUGO_VERSION \}\}/g) || []).length, 2);
 assert.match(workflow, /ghcr\.io\/\$\{\{ github\.repository \}\}/);
 assert.match(workflow, /:\$\{\{ github\.sha \}\}/);
 assert.match(workflow, /push: false/);

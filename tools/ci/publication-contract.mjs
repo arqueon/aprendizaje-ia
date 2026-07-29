@@ -35,8 +35,17 @@ export function evaluateCatalogObject(catalogPath, id, entry) {
   const normalizedLicense = String(declaredLicense ?? "").toLowerCase();
   const blockers = [];
 
-  if (authorization === false || authorization === "false") {
-    blockers.push("publication-not-authorized");
+  if (authorization !== true) {
+    blockers.push(
+      authorization === false || authorization === "false"
+        ? "publication-not-authorized"
+        : authorization == null
+          ? "publication-authorization-missing"
+          : "publication-authorization-invalid",
+    );
+  }
+  if (!String(declaredLicense ?? "").trim()) {
+    blockers.push("license-missing");
   }
   if (
     normalizedStatus.includes("pending") ||

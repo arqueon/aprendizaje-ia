@@ -1,8 +1,6 @@
 # UDGIA-009 · Contrato de imagen y runtime del sitio Hugo
 
-**Estado:** implementación local lista para revisión; no desplegada ni publicada.
-**Rama:** `codex/UDGIA-009-container-runtime`
-**Base:** `19021444f8d41838c9fc77c43e0df1decbc30136`
+**Estado:** integrada localmente; no desplegada ni publicada.
 
 ## Propósito
 
@@ -65,8 +63,8 @@ trabajo, archivos de entorno, llaves, certificados y directorios de secretos.
 | Rutas inexistentes | `try_files $uri $uri/ =404` conserva un `404` real; no existe fallback de aplicación de una sola página. |
 | Query strings | La resolución usa `$uri`, por lo que parámetros como `?content=…&instance=…` no alteran el archivo ni se pierden. |
 | MIME | Se declaran HTML, CSS, JavaScript/MJS, JSON, webmanifest, WASM, SVG, fuentes, audio y video. |
-| Activos versionados | JavaScript, CSS, fuentes e imágenes de `/h5p/udgia/vN/`, incluso bajo subruta, usan un año e `immutable`. Los nombres con huella hexadecimal reciben el mismo tratamiento. |
-| Contenido mutable | HTML, JSON y webmanifest usan `no-cache`. Los demás archivos usan una hora. |
+| Activos versionados | Los shells `host`/`embed` y los archivos de `player/`, `libraries/`, `themes/` y `adapters/` bajo `/h5p/udgia/vN/`, incluso en subruta, usan un año e `immutable`. Los nombres con huella hexadecimal reciben el mismo tratamiento. |
+| Contenido mutable | HTML, JSON, webmanifest y todo `content/` usan `no-cache`; así una imagen o medio editorial puede corregirse sin quedar retenido un año. Los demás archivos usan una hora. |
 | Compresión | Gzip se habilita para texto, CSS, JavaScript, JSON, XML, SVG, webmanifest y WASM. |
 | Solicitudes parciales | Nginx conserva soporte nativo de `Range` y limita cada petición a un rango. |
 | Seguridad | Todas las respuestas incluyen CSP compatible con el montaje H5P, `nosniff` y `strict-origin-when-cross-origin`. |
@@ -105,7 +103,7 @@ Esta prueba:
 
 - valida versiones, digests, checksums, usuario, healthcheck y estructura multi-stage;
 - comprueba el contrato Nginx, MIME, caché, CSP, gzip, Range y `404`;
-- confirma por checksum que `.github/workflows/hugo.yaml` permanece intacto;
+- confirma que GitHub Pages usa Hugo 0.164.0 y aplica la puerta editorial pública;
 - construye Hugo con una URL raíz y otra bajo `/ecosistema-ia/`;
 - verifica que la salida física, los activos H5P y sus query strings respeten cada base;
 - confirma que el constructor rechace una URL con credenciales.
@@ -129,4 +127,5 @@ Después elimina únicamente los contenedores e imágenes temporales que ella cr
 - Docker, Podman, Nginx y otros runtimes de contenedores no están instalados en este
   entorno; por ello la construcción y la prueba de imagen quedan preparadas, pero no se
   reportan como ejecutadas.
-- No se modificó el workflow de GitHub y no hubo push, despliegue ni publicación.
+- El workflow de GitHub Pages se alineó con Hugo 0.164.0 y con la puerta editorial pública.
+- No hubo push, despliegue ni publicación.

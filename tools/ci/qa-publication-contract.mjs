@@ -33,11 +33,14 @@ const fixtureAudit = evaluateCatalogs([
       unresolved: {
         contentLicense: "U",
       },
+      missingLicense: {
+        publicationAuthorized: true,
+      },
     },
   },
 ]);
 
-assert.equal(fixtureAudit.objectCount, 4);
+assert.equal(fixtureAudit.objectCount, 5);
 assert.equal(fixtureAudit.publicPublicationAllowed, false);
 assert.ok(
   fixtureAudit.blockers.some(({ reason }) => reason === "publication-not-authorized"),
@@ -47,6 +50,14 @@ assert.ok(
 );
 assert.ok(
   fixtureAudit.blockers.some(({ reason }) => reason === "license-unresolved"),
+);
+assert.ok(
+  fixtureAudit.blockers.some(
+    ({ reason }) => reason === "publication-authorization-missing",
+  ),
+);
+assert.ok(
+  fixtureAudit.blockers.some(({ reason }) => reason === "license-missing"),
 );
 
 const liveAudit = evaluateCatalogs(await loadCatalogs());

@@ -21,7 +21,7 @@ defaults:
     shell: bash
 
 env:
-  HUGO_VERSION: 0.155.2
+  HUGO_VERSION: 0.164.0
   IMAGE_NAME: ghcr.io/${{ github.repository }}
   DOCKER_BUILD_RECORD_UPLOAD: "false"
 
@@ -127,6 +127,7 @@ jobs:
           tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
           build-args: |
             HUGO_BASEURL=${{ inputs.base_url }}
+            HUGO_VERSION=${{ env.HUGO_VERSION }}
           outputs: type=oci,dest=${{ runner.temp }}/aprendizaje-ia-${{ github.sha }}.tar
           sbom: true
           provenance: mode=max
@@ -186,6 +187,7 @@ jobs:
           tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
           build-args: |
             HUGO_BASEURL=${{ inputs.base_url }}
+            HUGO_VERSION=${{ env.HUGO_VERSION }}
           sbom: true
           provenance: mode=max
           cache-from: type=gha,scope=aprendizaje-ia-oci

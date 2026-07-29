@@ -21,7 +21,8 @@ tags:
 ## Decisión
 
 El sitio es un **artefacto estático portable**. GitHub Pages es el adaptador de publicación
-vigente, no una dependencia de arquitectura. La misma carpeta `public/` puede servirse
+vigente y su workflow ya aplica la puerta editorial pública; no es una dependencia de
+arquitectura. La misma carpeta `public/` puede servirse
 desde Nginx, Apache, almacenamiento de objetos con CDN u otra plataforma institucional que
 cumpla este contrato.
 

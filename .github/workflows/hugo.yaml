@@ -32,7 +32,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.155.2
+      HUGO_VERSION: 0.164.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -57,6 +57,19 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Verify generated H5P runtime
         run: npm run h5p:verify
+      - name: Enforce public editorial contract
+        run: |
+          node tools/ci/publication-contract.mjs \
+            --mode public \
+            --report "${RUNNER_TEMP}/publication-contract.json"
+      - name: Upload public editorial decision
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-publication-contract-${{ github.sha }}
+          path: ${{ runner.temp }}/publication-contract.json
+          if-no-files-found: error
+          retention-days: 30
       - name: Install Chromium for H5P QA
         run: npx playwright-core install --with-deps chromium
       - name: Run H5P functional, accessibility and security QA

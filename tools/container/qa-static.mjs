@@ -1,4 +1,3 @@
-import crypto from "node:crypto";
 import { mkdtemp, readFile, rm, stat } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -94,6 +93,9 @@ includesAll(
     'return 200 "ok\\n";',
     "try_files $uri $uri/ =404;",
     "(?:[A-Za-z0-9._~-]+/)*h5p/udgia/v[0-9]+/",
+    "h5p/udgia/v[0-9]+/content/",
+    "(?:player|libraries|themes|adapters)",
+    "(?:host|embed)",
     "public, max-age=31536000, immutable",
     '"no-cache"',
     "Content-Security-Policy",
@@ -115,6 +117,10 @@ assert(
 );
 assert(!/try_files[^;]*index\.html/.test(nginx), "Nginx: fallback SPA ocultaría los 404");
 assert(!/\berror_page\b/.test(nginx), "Nginx: error_page podría ocultar un 404 real");
+assert(
+  !/h5p\/udgia\/v\[0-9\]\+\/\.\+\\\./.test(nginx),
+  "Nginx: una regla H5P demasiado amplia volvería inmutable el contenido editorial",
+);
 
 includesAll(
   mime,
@@ -130,10 +136,15 @@ includesAll(
   "MIME",
 );
 
-assert(
-  crypto.createHash("sha256").update(workflow).digest("hex")
-    === "211d38488d5f36fb97e495ce9cc8f8f52f83ac41369b8492a5776416eeebd173",
-  "El workflow de GitHub cambió",
+includesAll(
+  workflow.toString("utf8"),
+  [
+    "HUGO_VERSION: 0.164.0",
+    "Enforce public editorial contract",
+    "publication-contract.mjs",
+    "--mode public",
+  ],
+  "Workflow Pages",
 );
 
 const tempRoot = await mkdtemp(path.join(tmpdir(), "udgia009-container-static-"));
@@ -234,5 +245,5 @@ if (failures.length) {
 }
 
 console.log(
-  "PASS: Dockerfile, contexto, Nginx, MIME, workflow intacto y builds Hugo en raíz/subruta.",
+  "PASS: Dockerfile, Nginx, MIME, puerta editorial Pages y builds Hugo en raíz/subruta.",
 );

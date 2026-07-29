@@ -51,10 +51,10 @@ Con `publish_image: true`, el workflow audita antes del login:
 - `data/h5p/catalog.json`;
 - `data/udgia_figures.json`.
 
-El intento se bloquea si cualquier objeto declara
-`publicationAuthorized: false`, `publication_authorized: false`, una licencia
-pendiente o una licencia H5P no resuelta. En el estado actual del repositorio
-la publicación queda bloqueada deliberadamente.
+El intento se bloquea si cualquier objeto no declara
+`publicationAuthorized: true` de forma explícita, si la licencia falta o está
+pendiente, o si una licencia H5P continúa sin resolverse. En el estado actual
+del repositorio la publicación queda bloqueada deliberadamente.
 
 Solo después de una auditoría sin bloqueos, el job obtiene permiso
 `packages: write`, inicia sesión en `ghcr.io` con el `GITHUB_TOKEN` efímero y
@@ -91,6 +91,10 @@ explícita, después de resolver las licencias y validar una publicación manual
 Conectar el digest resultante con Coolify u otra plataforma constituye otra
 puerta: deberá consumir una referencia inmutable, definir rollback y ejecutar
 la sonda de despliegue. Esta fase no realiza ninguna de esas acciones.
+
+El adaptador vigente de GitHub Pages aplica el mismo contrato en modo
+`public` antes de compilar. Por ello, una futura subida a `main` no puede
+publicar los SVG o H5P pendientes por una ruta lateral.
 
 ## Verificación local
 
