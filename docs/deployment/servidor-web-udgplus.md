@@ -11,6 +11,13 @@ tags:
 
 # Contrato de despliegue para el servidor oficial UDGPlus
 
+## Documentos relacionados
+
+- [Runbook de réplica y promoción institucional bajo `udg.mx`](replicacion-institucional-udgmx.md):
+  roles, prerrequisitos, cadena de suministro, staging, promoción, rollback y expediente.
+- [Adaptador de laboratorio para Sinopé y Coolify](adapters/sinope-coolify.md):
+  traducción operativa separada del contrato institucional.
+
 ## Decisión
 
 El sitio es un **artefacto estático portable**. GitHub Pages es el adaptador de publicación
