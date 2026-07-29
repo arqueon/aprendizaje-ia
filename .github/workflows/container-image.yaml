@@ -1,0 +1,209 @@
+name: Build governed OCI image
+
+on:
+  workflow_dispatch:
+    inputs:
+      base_url:
+        description: "URL HTTPS absoluta y terminada en / usada por Hugo"
+        required: true
+        type: string
+      publish_image:
+        description: "Intentar publicar la imagen en GHCR"
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  HUGO_VERSION: 0.155.2
+  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  DOCKER_BUILD_RECORD_UPLOAD: "false"
+
+jobs:
+  quality:
+    name: Existing Hugo and H5P quality gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Install Hugo CLI
+        run: |
+          wget -O "${RUNNER_TEMP}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${RUNNER_TEMP}/hugo.deb"
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install Node.js dependencies
+        run: npm ci --ignore-scripts
+      - name: Verify generated H5P runtime
+        run: npm run h5p:verify
+      - name: Install Chromium for existing QA
+        run: npx playwright-core install --with-deps chromium
+      - name: Run H5P functional, accessibility and security QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-h5p-qa
+          CAPTURE_SCREENSHOTS: "false"
+        run: npm run qa:h5p
+      - name: Run coordination route QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-coordinacion-qa
+        run: npm run qa:coordinacion-route
+      - name: Run institutional decision route QA
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-decision-qa
+        run: npm run qa:decision-institucional-route
+      - name: Run container contract QA
+        run: |
+          npm run qa:container-publication
+          npm run qa:container-workflow
+
+  publication-contract:
+    name: Check image publication contract
+    needs: quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Select build-only or public contract
+        env:
+          PUBLISH_IMAGE: ${{ inputs.publish_image }}
+        run: |
+          mode="build-only"
+          if [[ "${PUBLISH_IMAGE}" == "true" ]]; then
+            mode="public"
+          fi
+          node tools/ci/publication-contract.mjs \
+            --mode "${mode}" \
+            --report "${RUNNER_TEMP}/publication-contract.json"
+      - name: Upload publication decision
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: publication-contract-${{ github.sha }}
+          path: ${{ runner.temp }}/publication-contract.json
+          if-no-files-found: error
+          retention-days: 30
+
+  build-only:
+    name: Build OCI archive without registry push
+    if: ${{ ! inputs.publish_image }}
+    needs: [quality, publication-contract]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - name: Validate Hugo base URL
+        env:
+          HUGO_BASEURL: ${{ inputs.base_url }}
+        run: node tools/ci/validate-base-url.mjs
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+      - name: Build governed OCI archive
+        id: build
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
+          push: false
+          tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
+          build-args: |
+            HUGO_BASEURL=${{ inputs.base_url }}
+          outputs: type=oci,dest=${{ runner.temp }}/aprendizaje-ia-${{ github.sha }}.tar
+          sbom: true
+          provenance: mode=max
+          cache-from: type=gha,scope=aprendizaje-ia-oci
+          cache-to: type=gha,mode=max,scope=aprendizaje-ia-oci
+      - name: Record digest, SBOM and provenance metadata
+        env:
+          BUILD_MODE: build-only
+          BUILD_METADATA: ${{ steps.build.outputs.metadata }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
+          IMAGE_DIGEST: ${{ steps.build.outputs.digest }}
+          OUTPUT_PATH: ${{ runner.temp }}/oci-evidence/build.json
+        run: node tools/ci/write-oci-evidence.mjs
+      - name: Upload no-push build evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: aprendizaje-ia-no-push-${{ github.sha }}
+          path: ${{ runner.temp }}/oci-evidence/build.json
+          if-no-files-found: error
+          retention-days: 30
+
+  publish:
+    name: Publish SHA image to GHCR
+    if: ${{ inputs.publish_image }}
+    needs: [quality, publication-contract]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          submodules: recursive
+      - name: Validate Hugo base URL
+        env:
+          HUGO_BASEURL: ${{ inputs.base_url }}
+        run: node tools/ci/validate-base-url.mjs
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+      - name: Log in to GHCR after governance gate
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and publish immutable SHA image
+        id: build
+        uses: docker/build-push-action@v7
+        with:
+          context: .
+          file: ./Dockerfile
+          push: true
+          tags: ${{ env.IMAGE_NAME }}:${{ github.sha }}
+          build-args: |
+            HUGO_BASEURL=${{ inputs.base_url }}
+          sbom: true
+          provenance: mode=max
+          cache-from: type=gha,scope=aprendizaje-ia-oci
+          cache-to: type=gha,mode=max,scope=aprendizaje-ia-oci
+      - name: Record immutable digest and attestations
+        env:
+          BUILD_MODE: public
+          BUILD_METADATA: ${{ steps.build.outputs.metadata }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_SHA: ${{ github.sha }}
+          IMAGE_NAME: ${{ env.IMAGE_NAME }}
+          IMAGE_DIGEST: ${{ steps.build.outputs.digest }}
+          OUTPUT_PATH: ${{ runner.temp }}/oci-evidence/published.json
+        run: node tools/ci/write-oci-evidence.mjs
+      - name: Upload publication evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: aprendizaje-ia-ghcr-${{ github.sha }}
+          path: ${{ runner.temp }}/oci-evidence/published.json
+          if-no-files-found: error
+          retention-days: 90

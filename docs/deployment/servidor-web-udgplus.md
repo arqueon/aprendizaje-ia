@@ -25,6 +25,11 @@ vigente, no una dependencia de arquitectura. La misma carpeta `public/` puede se
 desde Nginx, Apache, almacenamiento de objetos con CDN u otra plataforma institucional que
 cumpla este contrato.
 
+El carril complementario de construcción en contenedor se rige por el
+[contrato CI para la imagen OCI](imagen-oci-ghcr.md). En su puerta inicial solo
+admite despacho manual, no despliega y bloquea el push a GHCR cuando algún
+objeto conserva licencia pendiente o publicación no autorizada.
+
 Hugo y Node.js se necesitan al construir y verificar el artefacto, no en el servidor web
 de producción. El runtime H5P, las fuentes, imágenes, SVG, CSS, JavaScript y JSON se
 publican juntos y desde el mismo origen.
