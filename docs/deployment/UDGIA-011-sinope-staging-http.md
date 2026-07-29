@@ -96,3 +96,8 @@ El siguiente gate debe escoger entre:
 
 En todos los casos, `push`, GHCR, DNS y producción siguen fuera de alcance hasta una decisión
 posterior explícita.
+
+La decisión recibida fue registrar el recurso mediante la interfaz de Coolify, sin emitir un
+token nuevo. El Compose validado para esa operación vive en
+`deploy/coolify/sinope-staging.compose.yaml`; usa un segundo puerto loopback para permitir una
+verificación azul-verde antes de retirar la réplica manual.
