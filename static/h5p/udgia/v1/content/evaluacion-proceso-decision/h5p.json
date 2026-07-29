@@ -4,7 +4,7 @@
   "defaultLanguage": "es",
   "license": "CC BY-SA",
   "licenseVersion": "4.0",
-  "authors": [{"name": "UDGPlus", "role": "Author"}],
+  "authors": [{"name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "role": "Author"}],
   "mainLibrary": "H5P.MultiChoice",
   "embedTypes": ["div"],
   "preloadedDependencies": [

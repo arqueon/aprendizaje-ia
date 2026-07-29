@@ -5,7 +5,7 @@
   "minorVersion": 0,
   "patchVersion": 3,
   "runnable": 1,
-  "author": "UDGPlus",
+  "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
   "license": "MIT",
   "machineName": "H5P.BloomObjectiveBuilder",
   "preloadedJs": [{"path": "bloom-objective-builder.js"}],

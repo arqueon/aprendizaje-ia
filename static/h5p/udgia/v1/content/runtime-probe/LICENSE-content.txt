@@ -1,5 +1,5 @@
 Comprobación técnica del runtime H5P
-Copyright (c) 2026 UDGPlus
+Copyright (c) 2026 Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara
 
 Este contenido se distribuye bajo Creative Commons Atribución-CompartirIgual 4.0
 Internacional (CC BY-SA 4.0).

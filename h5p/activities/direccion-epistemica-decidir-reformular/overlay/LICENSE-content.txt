@@ -1,6 +1,8 @@
 Decidir, contrastar y reformular
-Copyright (c) 2026 UDGPlus
+Copyright (c) 2026 Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara
 
-Licencia institucional pendiente de confirmación.
-Estado H5P: U (licencia no declarada mientras se resuelve el dictamen).
-Publicación no autorizada. Uso exclusivo para revisión y piloto interno.
+Licencia del contenido y de la ilustración original: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Publicación autorizada mediante decisión editorial del proyecto UDGIA-010,
+2026-07-28. Esta autorización no constituye un dictamen institucional general.

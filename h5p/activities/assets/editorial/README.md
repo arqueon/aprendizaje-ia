@@ -1,7 +1,8 @@
 # Ilustraciones editoriales UDGIA-004B
 
 Activos raster generados el 2026-07-27 con la herramienta integrada `imagegen` de OpenAI y
-seleccionados por UDGPlus para reemplazar los esquemas SVG provisionales del piloto.
+seleccionados por Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara,
+para reemplazar los esquemas SVG provisionales del piloto.
 
 ## Serie
 
@@ -29,4 +30,6 @@ Los originales generados se conservaron fuera del repositorio en el directorio a
 por Codex. Las copias versionadas se normalizaron a 1200 × 675 px, sin metadatos. La imagen
 destacada se convirtió a WebP de 1600 × 900 px.
 
-Contenido visual: UDGPlus, CC BY-SA 4.0.
+Contenido visual: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara,
+CC BY-SA 4.0. Publicación autorizada por la decisión editorial del proyecto
+UDGIA-010, fechada el 2026-07-28; véase `h5p/AUTHORIZATION-UDGIA-010.md`.

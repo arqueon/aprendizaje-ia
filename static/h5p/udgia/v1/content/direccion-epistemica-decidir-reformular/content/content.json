@@ -90,8 +90,9 @@
           "width": 1200,
           "height": 675,
           "copyright": {
-            "license": "U",
-            "author": "UDGPlus",
+            "license": "CC BY-SA",
+            "version": "4.0",
+            "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
             "title": "Decisiones para conservar la dirección epistémica"
           }
         },
@@ -106,11 +107,12 @@
         "title": "Decisiones para conservar la dirección epistémica",
         "authors": [
           {
-            "name": "UDGPlus",
+            "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
             "role": "Author"
           }
         ],
-        "license": "U",
+        "license": "CC BY-SA",
+        "licenseVersion": "4.0",
         "contentType": "Image"
       }
     },

@@ -104,7 +104,7 @@
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 9940533,
+  "totalBytes": 9943325,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -148,8 +148,8 @@
     },
     {
       "path": "content/cocreacion-conceptos-cards/content/content.json",
-      "bytes": 5764,
-      "sha256": "40db1e40be5f0834bcfd56d4e3f5e50fb8a5c881dc5f1c0df9ad8f2f8ffb7e4c"
+      "bytes": 5984,
+      "sha256": "9a0a5eb9e4f9c3381e4e1431f6ebd24414db5474348710a88059ab81024a532b"
     },
     {
       "path": "content/cocreacion-conceptos-cards/content/images/conceptos-cocreacion.png",
@@ -158,18 +158,18 @@
     },
     {
       "path": "content/cocreacion-conceptos-cards/h5p.json",
-      "bytes": 385,
-      "sha256": "6cd9b968e921a37e82a584ca16f53993b25ac1c0c02bc57eb07173335cafe3bf"
+      "bytes": 440,
+      "sha256": "224cd00dde92110762f92ae51ee9745fb979de9e1faeafd7d4da3326c77288b9"
     },
     {
       "path": "content/cocreacion-conceptos-cards/LICENSE-content.txt",
-      "bytes": 181,
-      "sha256": "d9fad56c5237480a081a5c91ff6424bb9b8e173703d7beab66107c72be68d546"
+      "bytes": 236,
+      "sha256": "1a06d6dbb6b6b3fd808ef35ec321d4b9d69fa0cbfa181ac59b1945e8dd1aa4d8"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/content.json",
-      "bytes": 11223,
-      "sha256": "eb9badbbc54dbe63f8421cf3cbc703bb22c968f18ab5b0b02cbee54601d21341"
+      "bytes": 11443,
+      "sha256": "eda1f4b019d8836c728ae09eb126ca022f0f2bc3e822f9912c238113d25f512a"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/content/images/borrador-propio.png",
@@ -193,18 +193,18 @@
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/h5p.json",
-      "bytes": 557,
-      "sha256": "4dba8df160fce878f96875cdaf5544f3184a0fce42d1d9237a188014c43dbcf4"
+      "bytes": 612,
+      "sha256": "4dd372b16cab4d9a54798c4086ba805b38985c343a411498f843ef8ab6d8966c"
     },
     {
       "path": "content/cocreacion-evaluacion-recorrido/LICENSE-content.txt",
-      "bytes": 183,
-      "sha256": "2a0af56f6588529ee885e4a93f3b59a08b9ccf7fc8bb8ba2b588cc440295c21c"
+      "bytes": 238,
+      "sha256": "769caf1057830ec6e8d0ac3ddb38a02396d4715d34f59d127be892962bf59df8"
     },
     {
       "path": "content/cocreacion-versiones-slider/content/content.json",
-      "bytes": 4110,
-      "sha256": "64697d9737c6bfd4dac4fc2be24c954337d0d5ee36b1afd21cc798995bdf3a3b"
+      "bytes": 4440,
+      "sha256": "70d56c098ade1b522507257ed1ea3774f6bcabfe83b16e5ef8f37e7ff2e0fbf7"
     },
     {
       "path": "content/cocreacion-versiones-slider/content/images/borrador-propio.png",
@@ -223,18 +223,18 @@
     },
     {
       "path": "content/cocreacion-versiones-slider/h5p.json",
-      "bytes": 570,
-      "sha256": "31ee9ab87ed1d1e89d68037da18b2fb5e074c31b8177eeefa252fce208d309f4"
+      "bytes": 625,
+      "sha256": "e0938215dee17e11e98194ec7f75e6e833027bc767fd1d31a1fbec22d17e00f7"
     },
     {
       "path": "content/cocreacion-versiones-slider/LICENSE-content.txt",
-      "bytes": 187,
-      "sha256": "010af75aeb5424d9b10f59658694ca36c59a2dff6a2ef8034826be34b41b4917"
+      "bytes": 242,
+      "sha256": "45d83d1d953088fbd6b20f4ef050385453872375005a06e1f47555500830dc03"
     },
     {
       "path": "content/direccion-epistemica-decidir-reformular/content/content.json",
-      "bytes": 6071,
-      "sha256": "262ddd664bf9c7b4f7d73c622134d16cac9ce0a11962b6ce7da9710548723d70"
+      "bytes": 6258,
+      "sha256": "6e97417f8db16c2d7fa8d0e1cb17f9efc74c731bdd75225efdc85a640bd0df8b"
     },
     {
       "path": "content/direccion-epistemica-decidir-reformular/content/images/direccion-epistemica.png",
@@ -243,18 +243,18 @@
     },
     {
       "path": "content/direccion-epistemica-decidir-reformular/h5p.json",
-      "bytes": 504,
-      "sha256": "be6bfd380cd2eae9f454101a6fe05b5703e6142efc3392522ab982a3210c664d"
+      "bytes": 593,
+      "sha256": "b2721b6c8678c1813c769efb9be2e38c5d3fb20198bd0e9d67d1eaaf713f6ce2"
     },
     {
       "path": "content/direccion-epistemica-decidir-reformular/LICENSE-content.txt",
-      "bytes": 259,
-      "sha256": "7e218c618d8b116fc12c662978bada160981e1a827d9d540c79a92408097fc98"
+      "bytes": 389,
+      "sha256": "240818b800efc5ca0a362d342a4815fb5856880fa03772108ed78e304e201da1"
     },
     {
       "path": "content/direccion-epistemica-hotspots/content/content.json",
-      "bytes": 4024,
-      "sha256": "5f0c2b3a1d6c0fe25b3e407627d7d31f0879c440a47d7a7be2926219fd69b53c"
+      "bytes": 4079,
+      "sha256": "a1b0b438b3822a238b3397dc1ea2299267b1b6eb8d039ee62f8ba11326262b62"
     },
     {
       "path": "content/direccion-epistemica-hotspots/content/images/mapa-direccion-epistemica.png",
@@ -263,18 +263,18 @@
     },
     {
       "path": "content/direccion-epistemica-hotspots/h5p.json",
-      "bytes": 469,
-      "sha256": "03b439f1c9a3a1ebab3f60e1b2993f9a8a50c1db2945304561e49c4aee5d3974"
+      "bytes": 524,
+      "sha256": "5872ae01b644ba712448e91f1534bdfb316c084165e1282b93ce2d7b5db85089"
     },
     {
       "path": "content/direccion-epistemica-hotspots/LICENSE-content.txt",
-      "bytes": 185,
-      "sha256": "d63180b24445400ed3be1c1536b5276d313612bb09a6e2ffc9eb3f7c1d8c70bb"
+      "bytes": 240,
+      "sha256": "6db14f40c007003ff35da60e7a89c38de8ed422a360c1ee24530325fe3a4c704"
     },
     {
       "path": "content/evaluacion-proceso-decision/content/content.json",
-      "bytes": 4999,
-      "sha256": "0b4d1f52d3fbf9bd407f7d1042e53272a0a93e2726c3d0d0e8426e401382b934"
+      "bytes": 5109,
+      "sha256": "03e5be2acdc4e278dadd636aa661287cd9a003c2a2093cd472865cb63fb2a038"
     },
     {
       "path": "content/evaluacion-proceso-decision/content/images/evidencias-proceso.png",
@@ -283,18 +283,18 @@
     },
     {
       "path": "content/evaluacion-proceso-decision/h5p.json",
-      "bytes": 461,
-      "sha256": "edc79ababdeefbecaa8eed961d24d1440d4a76b18a242e9da09338805d5411f4"
+      "bytes": 516,
+      "sha256": "38054f2161b432a531bd7a80b96ac8b3029b74987de848b11e541501e848f85c"
     },
     {
       "path": "content/evaluacion-proceso-decision/LICENSE-content.txt",
-      "bytes": 176,
-      "sha256": "b55da123fa20ee7b22aca31248bb734a83c8642c331646f0385868d083935125"
+      "bytes": 231,
+      "sha256": "d65d6ba7119a239032de092f1a6c516ace3d893a82e2c81e882c335b661385bf"
     },
     {
       "path": "content/evidencias-proceso-proporcion/content/content.json",
-      "bytes": 5961,
-      "sha256": "5c18b789d5d95a94ac990d2e27774c6de58694fd0662399504b9ce855b5d1cea"
+      "bytes": 6148,
+      "sha256": "dab1c9cbb9530db14024abeac83a1e7addb13b5740840544fa10d8618a0237bc"
     },
     {
       "path": "content/evidencias-proceso-proporcion/content/images/evidencias-proporcion.png",
@@ -303,13 +303,13 @@
     },
     {
       "path": "content/evidencias-proceso-proporcion/h5p.json",
-      "bytes": 514,
-      "sha256": "e4edcabe44ddea94e219b8aa61cef1376bb700eb72088b1fc267e79525ea2cb1"
+      "bytes": 603,
+      "sha256": "1f8c038d1db5f6d39e0e460dd521063b187e91eabde0e07ff9034f2234154f67"
     },
     {
       "path": "content/evidencias-proceso-proporcion/LICENSE-content.txt",
-      "bytes": 269,
-      "sha256": "8f595c7162ac8623622bf3901499bf2f995daf82d31ca1bcf4fa57e6474a933e"
+      "bytes": 399,
+      "sha256": "45fc0b3a8a3cd61600350be7c455f765de5965ffd7bf6eea2e1de273aafb9630"
     },
     {
       "path": "content/objetivos-bloom-udgplus/content/content.json",
@@ -318,18 +318,18 @@
     },
     {
       "path": "content/objetivos-bloom-udgplus/h5p.json",
-      "bytes": 414,
-      "sha256": "8f587ccbfb97bf6851a8daf0e4e8289257b533514a4348c9a7b62baa2d0074f4"
+      "bytes": 469,
+      "sha256": "afaab7f50ea15e5a2ebbd4d6412cbfd7923650942de0bf463d9270f845986d34"
     },
     {
       "path": "content/objetivos-bloom-udgplus/LICENSE-content.txt",
-      "bytes": 274,
-      "sha256": "e4b76d9c174ba5059d666ced897a2ea0a27a543193c7d2b3fc7b1f0b5e826fed"
+      "bytes": 329,
+      "sha256": "cefad8204dc58cd812b9300783f5879cb61497a782239d927a088404db4228e0"
     },
     {
       "path": "content/runtime-probe/content/content.json",
-      "bytes": 715,
-      "sha256": "869e6c605ad8eb512525e1a8e7d786bdef7f7da17b353ad3e8d8fd2e8bbb009b"
+      "bytes": 770,
+      "sha256": "39b20b2a1ce0cec4517de09cf1d41f3ca85fbcb21f51f7ec55a4ca8b8c2c22f0"
     },
     {
       "path": "content/runtime-probe/content/images/runtime-probe.svg",
@@ -338,13 +338,13 @@
     },
     {
       "path": "content/runtime-probe/h5p.json",
-      "bytes": 480,
-      "sha256": "4852bb11094eb5b1d34fb87cd75678a1b17e32469a329ef65fab3558eda10bc7"
+      "bytes": 535,
+      "sha256": "e97e275ebf77bc0383173ca9919854b41ae0f556c69d5ff4f3ac5f52822ee384"
     },
     {
       "path": "content/runtime-probe/LICENSE-content.txt",
-      "bytes": 262,
-      "sha256": "8b1c237dd00e1d4f0c52bc7972063989bff87ddff77e320ad4d920e8652744fe"
+      "bytes": 317,
+      "sha256": "02640a8d69fbe3ed95f089998cfc6dfb1e07447bb64e390cc784fc2243dc5b87"
     },
     {
       "path": "content-index.json",
@@ -968,13 +968,13 @@
     },
     {
       "path": "libraries/H5P.BloomObjectiveBuilder-1.0/library.json",
-      "bytes": 446,
-      "sha256": "101ac0784c55f92918c8fd6ebaa39595f1dc96e44642ec41e77c22f13dbaeeb6"
+      "bytes": 501,
+      "sha256": "5a04890706f710f54af0acf6c1d177946a6e73640d62d77527e93e25215e9a30"
     },
     {
       "path": "libraries/H5P.BloomObjectiveBuilder-1.0/LICENSE",
-      "bytes": 1064,
-      "sha256": "c5226aae76a2c5127c13970933b6e5840727c22a2fc0ff6bba2712baaff82700"
+      "bytes": 1119,
+      "sha256": "921350ec0ae106243ac226ff627d67d864f4c1951c2fbecd85241f3802d4fe9c"
     },
     {
       "path": "libraries/H5P.BloomObjectiveBuilder-1.0/README.md",
@@ -3348,13 +3348,13 @@
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/library.json",
-      "bytes": 420,
-      "sha256": "7c06f005e7f91d64dfe4ee020c5555e38fe2f95febef46a126f5169529785ca2"
+      "bytes": 475,
+      "sha256": "50ac267903f130eaf282c3102a239d87ed233c335e53621806b9295a6b67e12b"
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/LICENSE",
-      "bytes": 1064,
-      "sha256": "c5226aae76a2c5127c13970933b6e5840727c22a2fc0ff6bba2712baaff82700"
+      "bytes": 1119,
+      "sha256": "921350ec0ae106243ac226ff627d67d864f4c1951c2fbecd85241f3802d4fe9c"
     },
     {
       "path": "libraries/H5P.UDGRuntimeProbe-1.0/runtime-probe.css",

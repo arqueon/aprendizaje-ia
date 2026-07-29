@@ -53,6 +53,15 @@ const activityPages = [
   }
 ];
 const expectedIDs = activityPages.map(({ id }) => id);
+const governedIDs = ["runtime-probe", ...expectedIDs];
+const attribution =
+  "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara";
+const authorizationDecision = {
+  scope: "project-editorial",
+  decision: "UDGIA-010",
+  decisionDate: "2026-07-28",
+  evidence: "h5p/AUTHORIZATION-UDGIA-010.md"
+};
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-004b");
@@ -83,19 +92,88 @@ async function udgia007GovernanceAudit() {
   const manifest = JSON.parse(
     await readFile(path.join(repoRoot, "h5p/activities/manifest.json"), "utf8")
   );
+  const authorizationEvidence = await readFile(
+    path.join(repoRoot, authorizationDecision.evidence),
+    "utf8"
+  );
   const results = {};
+
+  assert(
+    Object.keys(catalog.contents || {}).length === governedIDs.length &&
+      governedIDs.every((id) => catalog.contents?.[id]),
+    "UDGIA-010: el catálogo no contiene exactamente los nueve H5P gobernados"
+  );
+  assert(
+    authorizationEvidence.includes("Fecha de decisión: 2026-07-28") &&
+      authorizationEvidence.includes(`Atribución: ${attribution}`) &&
+      authorizationEvidence.includes("No constituye un dictamen institucional general"),
+    "UDGIA-010: la evidencia no delimita fecha, atribución y alcance editorial"
+  );
+  for (const id of governedIDs) {
+    const entry = catalog.contents[id];
+    assert(entry.contentLicense === "CC BY-SA 4.0", `${id}: licencia no autorizada`);
+    assert(
+      entry.licenseStatus === "authorized-project-editorial",
+      `${id}: estado editorial inesperado`
+    );
+    assert(entry.publicationAuthorized === true, `${id}: publicación no autorizada`);
+    assert(
+      JSON.stringify(entry.publicationAuthorization) ===
+        JSON.stringify(authorizationDecision),
+      `${id}: decisión editorial sin trazabilidad completa`
+    );
+    assert(entry.provenance?.author === attribution, `${id}: atribución inexacta`);
+
+    const activity = manifest.activities?.[id];
+    const sourceRoot =
+      id === "runtime-probe"
+        ? path.join(repoRoot, "h5p/fixtures/udg-runtime-probe")
+        : path.join(repoRoot, activity?.overlay || activity?.sourceRoot || "");
+    assert(
+      id === "runtime-probe" || activity,
+      `${id}: falta la fuente gobernada en el manifiesto`
+    );
+    const sourceH5p = JSON.parse(
+      await readFile(path.join(sourceRoot, "h5p.json"), "utf8")
+    );
+    const sourceContent = await readFile(
+      path.join(sourceRoot, "content/content.json"),
+      "utf8"
+    );
+    const sourceLicense = await readFile(
+      path.join(sourceRoot, "LICENSE-content.txt"),
+      "utf8"
+    );
+    assert(
+      sourceH5p.license === "CC BY-SA" &&
+        sourceH5p.licenseVersion === "4.0" &&
+        sourceH5p.authors?.[0]?.name === attribution,
+      `${id}: metadatos raíz no sincronizados`
+    );
+    assert(
+      !/"(?:author|name)"\s*:\s*"UDGPlus"/.test(sourceContent),
+      `${id}: permanece una atribución abreviada en metadatos internos`
+    );
+    assert(
+      sourceLicense.includes(attribution) &&
+        /CC BY-SA 4\.0|Creative Commons Atribución-CompartirIgual 4\.0/.test(
+          sourceLicense
+        ),
+      `${id}: licencia fuente sin atribución exacta`
+    );
+  }
 
   for (const [id, expectation] of Object.entries(udgia007Activities)) {
     const entry = catalog.contents?.[id];
     const activity = manifest.activities?.[id];
     assert(entry, `${id}: falta la entrada de catálogo`);
     assert(activity, `${id}: falta la entrada del manifiesto`);
-    assert(entry.contentLicense === "U", `${id}: la licencia H5P no quedó pendiente`);
+    assert(entry.contentLicense === "CC BY-SA 4.0", `${id}: licencia H5P inesperada`);
     assert(
-      entry.licenseStatus === "pending-institutional-confirmation",
-      `${id}: falta el estado de licencia institucional`
+      entry.licenseStatus === "authorized-project-editorial",
+      `${id}: falta el estado de autorización editorial`
     );
-    assert(entry.publicationAuthorized === false, `${id}: la publicación no quedó bloqueada`);
+    assert(entry.publicationAuthorized === true, `${id}: la publicación no quedó autorizada`);
     assert(entry.reportingIsEnabled === false, `${id}: el reporte debe permanecer desactivado`);
     assert(entry.fixture === false, `${id}: una actividad curricular no puede ser fixture`);
     assert(entry.adapter === "multi-choice.css", `${id}: falta el adaptador visual gobernado`);
@@ -119,7 +197,20 @@ async function udgia007GovernanceAudit() {
     const serialized = JSON.stringify(content).toLocaleLowerCase("es");
     const correctAnswers = content.answers.filter(({ correct }) => correct);
 
-    assert(h5p.license === "U", `${id}: h5p.json no declara licencia pendiente`);
+    assert(
+      h5p.license === "CC BY-SA" && h5p.licenseVersion === "4.0",
+      `${id}: h5p.json no declara CC BY-SA 4.0`
+    );
+    assert(h5p.authors?.[0]?.name === attribution, `${id}: autor H5P inexacto`);
+    assert(
+      content.media?.type?.params?.file?.copyright?.license === "CC BY-SA" &&
+        content.media.type.params.file.copyright.version === "4.0" &&
+        content.media.type.params.file.copyright.author === attribution &&
+        content.media.type.metadata?.license === "CC BY-SA" &&
+        content.media.type.metadata?.licenseVersion === "4.0" &&
+        content.media.type.metadata?.authors?.[0]?.name === attribution,
+      `${id}: metadatos internos de imagen no sincronizados`
+    );
     assert(content.answers.length === 5, `${id}: se esperaban cinco rutas comparables`);
     assert(correctAnswers.length === 1, `${id}: debe existir una sola ruta recomendada`);
     assert(content.behaviour?.type === "single", `${id}: la decisión debe ser de ruta única`);
@@ -135,9 +226,11 @@ async function udgia007GovernanceAudit() {
     assert(!/calificaci|puntuaci|puntaje|aprobad|reprobad/.test(serialized),
       `${id}: el contenido introduce lenguaje sumativo`);
     assert(
-      /Licencia institucional pendiente/.test(licenseNotice) &&
-        /Publicación no autorizada/.test(licenseNotice),
-      `${id}: el aviso editorial no explicita los dos bloqueos`
+      /CC BY-SA 4\.0/.test(licenseNotice) &&
+        /UDGIA-010/.test(licenseNotice) &&
+        /2026-07-28/.test(licenseNotice) &&
+        /no constituye un dictamen institucional general/i.test(licenseNotice),
+      `${id}: el aviso editorial no documenta licencia, decisión, fecha y alcance`
     );
 
     const pageSource = await readFile(path.join(repoRoot, expectation.page), "utf8");
@@ -342,17 +435,18 @@ async function mobileCase(browser, baseURL) {
     }, activity.id);
     assert(result.scrollWidth <= result.width, `${activity.id}: overflow móvil`);
     assert(result.fallbackLength > 180, `${activity.id}: fallback insuficiente`);
-    if (udgia007Activities[activity.id]) {
-      assert(result.contentLicense === "U", `${activity.id}: licencia no emitida en la ruta`);
-      assert(
-        result.licenseStatus === "pending-institutional-confirmation",
-        `${activity.id}: estado de licencia no emitido en la ruta`
-      );
-      assert(
-        result.publicationAuthorized === "false",
-        `${activity.id}: bloqueo de publicación no emitido en la ruta`
-      );
-    }
+    assert(
+      result.contentLicense === "CC BY-SA 4.0",
+      `${activity.id}: licencia no emitida en la ruta`
+    );
+    assert(
+      result.licenseStatus === "authorized-project-editorial",
+      `${activity.id}: estado editorial no emitido en la ruta`
+    );
+    assert(
+      result.publicationAuthorized === "true",
+      `${activity.id}: autorización de publicación no emitida en la ruta`
+    );
     await axeViolations(page, `${activity.id} móvil`);
     activities.push({ ...activity, ...result });
   }

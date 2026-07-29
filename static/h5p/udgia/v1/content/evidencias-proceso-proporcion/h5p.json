@@ -2,10 +2,11 @@
   "title": "Elegir evidencia suficiente y proporcional",
   "language": "es",
   "defaultLanguage": "es",
-  "license": "U",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
   "authors": [
     {
-      "name": "UDGPlus",
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
       "role": "Author"
     }
   ],

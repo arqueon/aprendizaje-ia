@@ -89,7 +89,7 @@
           "mime": "image/png",
           "width": 1200,
           "height": 675,
-          "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Evidencias del proceso"}
+          "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "title": "Evidencias del proceso"}
         },
         "alt": "Portafolio con borrador, tabla de verificación y decisiones de revisión.",
         "decorative": false,
@@ -100,7 +100,7 @@
       "subContentId": "6bb9b3fc-0393-4258-9a4a-c78fd94bb101",
       "metadata": {
         "title": "Evidencias del proceso",
-        "authors": [{"name": "UDGPlus", "role": "Author"}],
+        "authors": [{"name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "role": "Author"}],
         "license": "CC BY-SA",
         "licenseVersion": "4.0",
         "contentType": "Image"

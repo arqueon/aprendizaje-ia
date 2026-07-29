@@ -15,7 +15,7 @@
                   "mime": "image/png",
                   "width": 1200,
                   "height": 675,
-                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Borrador propio"}
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "title": "Borrador propio"}
                 },
                 "alt": "Borrador propio con tesis, fuentes pendientes y preguntas.",
                 "decorative": false
@@ -51,7 +51,7 @@
                   "mime": "image/png",
                   "width": 1200,
                   "height": 675,
-                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Interrogación con IA"}
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "title": "Interrogación con IA"}
                 },
                 "alt": "La IA propone y la persona contrasta, verifica y responde.",
                 "decorative": false
@@ -87,7 +87,7 @@
                   "mime": "image/png",
                   "width": 1200,
                   "height": 675,
-                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Revisión justificada"}
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "title": "Revisión justificada"}
                 },
                 "alt": "Documento revisado con fuentes verificadas y decisiones justificadas.",
                 "decorative": false
@@ -123,7 +123,7 @@
                   "mime": "image/png",
                   "width": 1200,
                   "height": 675,
-                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "UDGPlus", "title": "Evidencias del proceso"}
+                  "copyright": {"license": "CC BY-SA", "version": "4.0", "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara", "title": "Evidencias del proceso"}
                 },
                 "alt": "Portafolio con tres evidencias del proceso de aprendizaje.",
                 "decorative": false
