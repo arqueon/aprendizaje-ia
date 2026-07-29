@@ -200,6 +200,51 @@ article > figure:first-child > img.single_hero_round {
   font-weight: 700;
 }
 
+.prose .udgia-figure__credit,
+.prose .udgia-figure__scope,
+.prose .udgia-figure__notice {
+  margin: 0;
+}
+
+.prose .udgia-figure__credit {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 0.65rem;
+  color: #5b5a66;
+  font-size: 0.79rem;
+}
+
+.prose .udgia-figure__credit span:first-child {
+  flex: 1 1 18rem;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.prose .udgia-figure__credit span + span {
+  flex: 0 0 auto;
+  padding-inline-start: 0.65rem;
+  border-inline-start: 1px solid rgba(91, 90, 102, 0.32);
+  font-weight: 750;
+}
+
+.prose .udgia-figure__scope {
+  color: #5b5a66;
+  font-size: 0.79rem;
+  font-style: italic;
+}
+
+.prose .udgia-figure__notice {
+  padding: 0.7rem 0.8rem;
+  border-inline-start: 3px solid #c9971c;
+  background: #fde8c0;
+  color: #202945;
+  font-size: 0.84rem;
+}
+
+.prose .udgia-figure__notice strong {
+  font-size: inherit;
+}
+
 .prose .udgia-figure__description {
   margin-top: 0.35rem;
   padding-top: 0.7rem;

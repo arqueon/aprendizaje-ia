@@ -23,6 +23,11 @@
   data-variant-sha256="{{ $meta.variant_sha256 }}"
   data-mobile-variant-sha256="{{ $meta.mobile_variant_sha256 }}"
   data-license="{{ $meta.license }}"
+  data-attribution="{{ $meta.attribution }}"
+  data-editorial-scope="{{ $meta.editorial_scope }}"
+  data-authorization-scope="{{ $meta.authorization_scope }}"
+  data-institutional-policy-status="{{ $meta.institutional_policy_status }}"
+  data-provenance-kind="{{ $meta.provenance_kind }}"
   data-publication-authorized="{{ $meta.publication_authorized }}">
   <p class="udgia-figure__mobile-hint">Versión vertical adaptada para pantalla estrecha.</p>
   <div
@@ -49,6 +54,14 @@
     <strong>{{ $meta.title }}</strong>
     <span>{{ $meta.caption }}</span>
     <a href="{{ $resource.RelPermalink }}">Ampliar SVG</a>
+    <p class="udgia-figure__credit">
+      <span>{{ $meta.attribution }}</span>
+      <span>{{ $meta.license }}</span>
+    </p>
+    <p class="udgia-figure__scope">{{ $meta.editorial_scope }}</p>
+    {{- with $meta.notice }}
+      <p class="udgia-figure__notice"><strong>Aviso de alcance:</strong> {{ . }}</p>
+    {{- end }}
     {{- with .Inner }}
       <details class="udgia-figure__description">
         <summary>Descripción textual del diagrama</summary>

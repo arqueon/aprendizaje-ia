@@ -6,6 +6,7 @@
     que dosifica pistas en lugar de soluciones: el desempeño sube durante la práctica y, al evaluar sin IA,
     la caída frente al grupo de control se mitiga. La leyenda central concluye que la diferencia no es solo
     el modelo, sino el método.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }

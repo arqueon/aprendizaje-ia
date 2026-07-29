@@ -27,7 +27,7 @@ const routes = [{
   route: 'ia-educacion/guias/evaluacion-formativa-ia/',
   id: 'udgia-f09-instrumentos',
   mobileSvg: 'instrumentos-evaluacion-proceso-mobile.svg',
-  fallbackRows: 3,
+  fallbackRows: 4,
 }, {
   route: 'ia-educacion/rutas/coordinacion-academica/',
   id: 'udgia-f01-trayectoria',
@@ -178,7 +178,15 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
       variantSha256: figure?.dataset.variantSha256 || '',
       mobileVariantSha256: figure?.dataset.mobileVariantSha256 || '',
       license: figure?.dataset.license || '',
+      attribution: figure?.dataset.attribution || '',
+      editorialScope: figure?.dataset.editorialScope || '',
+      authorizationScope: figure?.dataset.authorizationScope || '',
+      institutionalPolicyStatus: figure?.dataset.institutionalPolicyStatus || '',
+      provenanceKind: figure?.dataset.provenanceKind || '',
       publicationAuthorized: figure?.dataset.publicationAuthorized || '',
+      credit: figure?.querySelector('.udgia-figure__credit')?.textContent?.trim() || '',
+      scope: figure?.querySelector('.udgia-figure__scope')?.textContent?.trim() || '',
+      notice: figure?.querySelector('.udgia-figure__notice')?.textContent?.trim() || '',
       alt: image?.getAttribute('alt') || '',
       imageComplete: image?.complete || false,
       naturalWidth: image?.naturalWidth || 0,
@@ -206,18 +214,36 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
     snapshot.sourceSha256 && snapshot.variantSha256 && snapshot.mobileVariantSha256,
     `${route} ${name}: checksums`,
   );
-  if (snapshot.sourceVersion === '0.2.0-lote2') {
-    assert(
-      snapshot.sourceRevision === '058b22b45fbc46a8ade8ed85efd0c6b93c2b620a'
-        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
-      `${route} ${name}: revisión canónica`,
-    );
-  }
   assert(
-    snapshot.license === 'pending-institutional-confirmation'
-      && snapshot.publicationAuthorized === 'false',
+    /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
+      && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
+      && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
+    `${route} ${name}: revisión canónica`,
+  );
+  assert(
+    snapshot.license === 'CC BY-SA 4.0'
+      && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
+      && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
+      && snapshot.authorizationScope === 'project-editorial'
+      && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
+      && snapshot.provenanceKind === 'original-synthesis'
+      && snapshot.publicationAuthorized === 'true',
     `${route} ${name}: estado editorial`,
   );
+  assert(
+    snapshot.credit.includes(snapshot.attribution)
+      && snapshot.credit.includes(snapshot.license)
+      && snapshot.scope === snapshot.editorialScope,
+    `${route} ${name}: crédito o alcance no visible`,
+  );
+  if (id === 'udgia-f11-politica-capas') {
+    assert(
+      snapshot.notice.includes('Esquema conceptual no normativo.'),
+      `${route} ${name}: advertencia normativa ausente`,
+    );
+  } else {
+    assert(snapshot.notice === '', `${route} ${name}: advertencia no prevista`);
+  }
   assert(snapshot.alt.length >= 40, `${route} ${name}: alt insuficiente`);
   assert(
     snapshot.imageComplete && snapshot.renderedWidth >= 250,

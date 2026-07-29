@@ -1,10 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">La arquitectura de política por capas y la gobernanza distribuida</title>
+  <title id="titulo">Modelo conceptual de política por capas y gobernanza distribuida</title>
   <desc id="desc">Cuatro capas apiladas que se concretan sucesivamente: principios institucionales,
     políticas institucionales, guía disciplinar y expectativas de curso. A la derecha, llaves que
     agrupan las capas en los tres niveles de la gobernanza distribuida: institucional, de programa
-    o centro universitario y de asignatura. La banda final indica que cada capa concreta la anterior
-    sin contradecirla y que un mismo principio se expresa de forma distinta en cada campo.</desc>
+    o centro universitario y de asignatura. Es un modelo conceptual y orientativo: no describe
+    normativa vigente ni distribuye competencias jurídicas.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
@@ -71,7 +72,7 @@
 
     <!-- Banda final -->
     <rect x="70" y="462" width="740" height="56" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
-    <text x="440" y="485" text-anchor="middle" font-size="13" font-weight="bold" class="f-primary">Cada capa concreta la anterior sin contradecirla</text>
-    <text x="440" y="505" text-anchor="middle" font-size="11.5" class="f-primary">Un mismo principio se expresa de forma distinta en medicina, letras o ingeniería, sin perder coherencia</text>
+    <text x="440" y="485" text-anchor="middle" font-size="13" font-weight="bold" class="f-primary">Modelo conceptual: cada capa concreta la anterior (§7.2)</text>
+    <text x="440" y="505" text-anchor="middle" font-size="11.5" class="f-primary">No establece normativa vigente ni distribuye competencias jurídicas</text>
   </g>
 </svg>

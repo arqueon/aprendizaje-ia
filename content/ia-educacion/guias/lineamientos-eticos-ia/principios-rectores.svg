@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="titulo desc">
   <title id="titulo">Siete principios rectores para el uso pedagógico responsable de la IA</title>
   <desc id="desc">Mapa radial de siete principios: formación antes que regulación, transparencia por defecto, evaluación del proceso, equidad de acceso, responsabilidad distribuida, autonomía y soberanía institucional, y revisión periódica. Todos convergen en el uso pedagógico responsable de la IA.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
     .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }

@@ -190,18 +190,28 @@ dos preguntas:
 2. ¿existe capacidad real para sostenerla de forma responsable?
 
 {{< udgia-figure id="udgia-f17-priorizacion" src="matriz-priorizacion.svg" >}}
-La matriz cruza el ajuste estratégico con la capacidad institucional disponible:
+La matriz examina una iniciativa mediante cuatro criterios del marco UDGIA:
 
-| Ajuste estratégico | Capacidad institucional | Orientación para deliberar |
+| Criterio | Pregunta de decisión | Evidencia mínima |
 |---|---|---|
-| El ajuste estratégico es alto. | La capacidad institucional es alta. | Conviene emprender o ampliar con seguimiento, evidencia y salvaguardas. |
-| El ajuste estratégico es alto. | La capacidad institucional es baja. | Conviene construir las capacidades necesarias antes de ampliar la iniciativa. |
-| El ajuste estratégico es bajo. | La capacidad institucional es alta. | Conviene revisar el propósito y el costo de oportunidad antes de comprometer recursos. |
-| El ajuste estratégico es bajo. | La capacidad institucional es baja. | Conviene no priorizar la iniciativa durante este ciclo. |
+| Propósito de aprendizaje. | ¿Qué problema formativo resuelve y para quién? | Resultado esperado y población definidos. |
+| Salvaguardas. | ¿Protege agencia, equidad, datos y responsabilidad humana? | Riesgos, alternativa y responsables identificados. |
+| Capacidad para sostener. | ¿Existen personas, tiempo, infraestructura y acompañamiento? | Recursos y responsable operativo confirmados. |
+| Evidencia y revisión. | ¿Puede probarse a pequeña escala y revisarse? | Indicadores, fecha de revisión y criterio de salida. |
 
-Adaptada del *Innovation Impact Compass* del Digital Education Council, la matriz ayuda a
-deliberar. No sustituye la evaluación pedagógica, ética, normativa, presupuestal ni
-contextual, y no prescribe automáticamente una decisión.
+El cruce de esos criterios abre cuatro orientaciones:
+
+- **Priorizar y pilotar**, cuando propósito, salvaguardas, capacidad y revisión están
+  suficientemente definidos.
+- **Preparar condiciones**, cuando el propósito es sólido pero faltan capacidad o
+  salvaguardas.
+- **Reformular**, cuando el problema, la población o la evidencia esperada siguen siendo
+  ambiguos.
+- **No priorizar por ahora**, cuando la contribución es insuficiente o los riesgos y costos
+  resultan desproporcionados.
+
+Es una síntesis original del marco UDGIA para apoyar deliberaciones. No sustituye la
+evaluación pedagógica, ética, normativa, presupuestal o contextual.
 {{< /udgia-figure >}}
 
 <div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">

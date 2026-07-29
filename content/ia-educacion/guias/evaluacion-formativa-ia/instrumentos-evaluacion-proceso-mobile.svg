@@ -1,41 +1,56 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 830" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Tres instrumentos para hacer visible el proceso</title>
-  <desc id="desc">Versión vertical. El portafolio iterativo, la rúbrica analítica asistida y el diario
-    de reflexión aportan evidencias distintas. Los tres convergen en la trazabilidad y el juicio docente:
-    la IA apoya la retroalimentación y el docente juzga el aprendizaje.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 980" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Cuatro instrumentos para hacer visible el proceso</title>
+  <desc id="desc">Versión vertical. El portafolio iterativo, la bitácora de decisiones, la defensa oral y las rúbricas asistidas aportan evidencias complementarias. Los cuatro convergen en la trazabilidad del proceso y el juicio docente.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
-    .tk-font { font-family:'Archivo Narrow',Helvetica,Arial,sans-serif; }
-    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; } .f-primary { fill:#B12028; }
-    .f-good { fill:#5E6A28; } .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; }
-    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
-    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; }
-    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
+    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.bg-warn{fill:#fde8c0}
+    .st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-warn{stroke:#c9971c}.st-axis{stroke:#202945}
   </style>
-  <g class="tk-font">
-    <rect x="25" y="25" width="370" height="125" rx="3" class="bg-good st-good" stroke-width="1.7"/>
-    <text x="210" y="62" text-anchor="middle" font-size="20" font-weight="bold" class="f-good">Portafolio iterativo</text>
-    <text x="210" y="94" text-anchor="middle" font-size="15" class="f-muted">Las versiones sucesivas muestran</text>
-    <text x="210" y="118" text-anchor="middle" font-size="15" class="f-muted">la evolución del pensamiento.</text>
+  <g class="tk">
+    <text x="210" y="36" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Cuatro instrumentos complementarios</text>
 
-    <rect x="25" y="180" width="370" height="125" rx="3" class="bg-warn st-warn" stroke-width="1.7"/>
-    <text x="210" y="217" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Rúbrica analítica asistida</text>
-    <text x="210" y="249" text-anchor="middle" font-size="15" class="f-muted">La IA retroalimenta con criterios;</text>
-    <text x="210" y="273" text-anchor="middle" font-size="15" class="f-muted">el docente conserva la calificación.</text>
+    <g transform="translate(25 62)">
+      <rect width="370" height="138" rx="5" class="bg-good st-good" stroke-width="1.7"/>
+      <text x="24" y="36" font-size="20" font-weight="bold" class="good">1 · Portafolio iterativo</text>
+      <text x="24" y="70" font-size="15.5" class="muted">Versiones sucesivas que muestran</text>
+      <text x="24" y="94" font-size="15.5" class="muted">la evolución del pensamiento.</text>
+      <text x="24" y="121" font-size="13.5" font-weight="bold" class="good">Hace visible: evolución.</text>
+    </g>
 
-    <rect x="25" y="335" width="370" height="125" rx="3" class="bg-neutral st-axis" stroke-width="1.7"/>
-    <text x="210" y="372" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Diario de reflexión</text>
-    <text x="210" y="404" text-anchor="middle" font-size="15" class="f-muted">Registra consultas, decisiones</text>
-    <text x="210" y="428" text-anchor="middle" font-size="15" class="f-muted">y conciencia del propio proceso.</text>
+    <g transform="translate(25 220)">
+      <rect width="370" height="138" rx="5" class="bg-warn st-warn" stroke-width="1.7"/>
+      <text x="24" y="36" font-size="20" font-weight="bold" class="ink">2 · Bitácora de decisiones</text>
+      <text x="24" y="70" font-size="15.5" class="muted">Registra consultas, criterios,</text>
+      <text x="24" y="94" font-size="15.5" class="muted">aceptaciones y descartes.</text>
+      <text x="24" y="121" font-size="13.5" font-weight="bold" class="ink">Hace visible: razonamiento.</text>
+    </g>
 
-    <path d="M210 150 L210 180 M210 305 L210 335 M210 460 L210 520" fill="none" stroke-width="2" class="st-axis"/>
-    <rect x="25" y="520" width="370" height="155" rx="3" class="bg-primary st-primary" stroke-width="1.9"/>
-    <text x="210" y="560" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">Trazabilidad y juicio docente</text>
-    <text x="210" y="596" text-anchor="middle" font-size="15" class="f-muted">Versiones, criterios, decisiones</text>
-    <text x="210" y="620" text-anchor="middle" font-size="15" class="f-muted">y reflexión hacen visible el proceso.</text>
-    <text x="210" y="650" text-anchor="middle" font-size="16" font-weight="bold" class="f-ink">Las evidencias se complementan.</text>
+    <g transform="translate(25 378)">
+      <rect width="370" height="138" rx="5" class="bg-neutral st-axis" stroke-width="1.7"/>
+      <text x="24" y="36" font-size="20" font-weight="bold" class="ink">3 · Defensa oral</text>
+      <text x="24" y="70" font-size="15.5" class="muted">Explicar y sostener el trabajo</text>
+      <text x="24" y="94" font-size="15.5" class="muted">sin depender de la IA.</text>
+      <text x="24" y="121" font-size="13.5" font-weight="bold" class="ink">Hace visible: comprensión.</text>
+    </g>
 
-    <rect x="25" y="720" width="370" height="76" rx="3" class="bg-primary st-primary" stroke-width="1.4"/>
-    <text x="210" y="750" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">La IA apoya la retroalimentación;</text>
-    <text x="210" y="777" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">el docente juzga el aprendizaje.</text>
+    <g transform="translate(25 536)">
+      <rect width="370" height="138" rx="5" class="bg-good st-good" stroke-width="1.7"/>
+      <text x="24" y="36" font-size="20" font-weight="bold" class="good">4 · Rúbricas asistidas</text>
+      <text x="24" y="70" font-size="15.5" class="muted">Retroalimentación con IA;</text>
+      <text x="24" y="94" font-size="15.5" class="muted">calificación con juicio docente.</text>
+      <text x="24" y="121" font-size="13.5" font-weight="bold" class="good">Hace visible: criterios.</text>
+    </g>
+
+    <path d="M210 674v34" class="st-axis" stroke-width="2"/>
+    <rect x="25" y="708" width="370" height="164" rx="5" class="bg-primary st-primary" stroke-width="1.9"/>
+    <text x="210" y="746" text-anchor="middle" font-size="20" font-weight="bold" class="primary">Trazabilidad del proceso</text>
+    <text x="210" y="782" text-anchor="middle" font-size="15.5" class="muted">Qué se preguntó, qué se descartó,</text>
+    <text x="210" y="806" text-anchor="middle" font-size="15.5" class="muted">qué se transformó y por qué.</text>
+    <text x="210" y="842" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Evidencia del juicio.</text>
+
+    <rect x="25" y="900" width="370" height="54" rx="5" class="bg-primary st-primary" stroke-width="1.3"/>
+    <text x="210" y="924" text-anchor="middle" font-size="14.5" font-weight="bold" class="primary">La integridad se sostiene en trazabilidad,</text>
+    <text x="210" y="945" text-anchor="middle" font-size="14.5" font-weight="bold" class="primary">no en detección.</text>
   </g>
 </svg>

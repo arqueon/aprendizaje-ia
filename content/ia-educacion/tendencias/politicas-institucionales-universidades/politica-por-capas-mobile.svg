@@ -1,12 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 980" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Arquitectura de política por capas y gobernanza distribuida</title>
-  <desc id="desc">Versión vertical de cuatro capas: principios, políticas institucionales, guía disciplinar y expectativas de curso. Cada capa concreta la anterior y se vincula con responsabilidades institucionales, de programa y de asignatura.</desc>
+  <title id="titulo">Modelo conceptual de política por capas y gobernanza distribuida</title>
+  <desc id="desc">Versión vertical de cuatro capas: principios, políticas institucionales, guía disciplinar y expectativas de curso. Cada capa concreta la anterior y se vincula con responsabilidades institucionales, de programa y de asignatura. Es un esquema conceptual no normativo y no distribuye competencias jurídicas.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
     .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-axis{stroke:#202945}
   </style>
   <g class="tk">
-    <text x="210" y="34" text-anchor="middle" font-size="20" font-weight="bold" class="ink">De los principios a la asignatura</text>
+    <text x="210" y="34" text-anchor="middle" font-size="20" font-weight="bold" class="ink">Modelo conceptual por capas</text>
     <g transform="translate(25 58)">
       <rect width="370" height="152" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
       <text x="28" y="39" font-size="20" font-weight="bold" class="primary">1 · Principios</text>
@@ -45,6 +46,7 @@
     <text x="48" y="846" font-size="15.5" class="ink">• La institución sostiene el marco común.</text>
     <text x="48" y="875" font-size="15.5" class="ink">• El programa lo traduce a su disciplina.</text>
     <text x="48" y="904" font-size="15.5" class="ink">• La asignatura decide dentro del marco.</text>
-    <text x="210" y="966" text-anchor="middle" font-size="14.5" font-weight="bold" class="muted">Arquitectura orientativa; no asigna competencias jurídicas.</text>
+    <text x="210" y="962" text-anchor="middle" font-size="14.5" font-weight="bold" class="primary">Esquema conceptual no normativo.</text>
+    <text x="210" y="979" text-anchor="middle" font-size="12.5" class="muted">No distribuye competencias jurídicas.</text>
   </g>
 </svg>

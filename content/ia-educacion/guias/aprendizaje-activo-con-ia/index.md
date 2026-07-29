@@ -45,19 +45,21 @@ Durante la actividad, el estudiante interactúa con la IA como:
 - **Compañero de debate** — defiende una postura contraria para fortalecer argumentos
 
 {{< udgia-figure id="udgia-f07-dialogo" src="dialogo-ia-aprendizaje-activo.svg" >}}
-Una actividad dialógica puede organizarse como una secuencia de seis movimientos:
+Una actividad dialógica se organiza en seis movimientos:
 
 | Movimiento | Acción de la persona | Función pedagógica |
 |---|---|---|
 | Consigna docente. | La persona recibe un propósito, criterios y límites de uso explícitos. | La interacción se vincula con un resultado de aprendizaje. |
-| Interacción con IA. | La persona pregunta, solicita variantes y pide contrapuntos. | La IA funciona como interlocutora y no como sustituta de la tarea. |
-| Respuesta del sistema. | La persona trata la salida como una propuesta que todavía debe validarse. | La plausibilidad se distingue del conocimiento sustentado. |
-| Contraste. | La persona compara la respuesta con fuentes, criterios y conocimientos previos. | La revisión activa el juicio disciplinar. |
-| Justificación. | La persona acepta, descarta o transforma la respuesta y explica sus razones. | Las decisiones se convierten en evidencia del proceso. |
-| Revisión. | La persona reformula su trabajo y documenta los cambios realizados. | El ciclo puede comenzar de nuevo con mejores criterios. |
+| Interacción con IA. | La persona formula preguntas, solicita variantes y pide contrapuntos. | La IA funciona como interlocutora y no como sustituta de la tarea. |
+| Respuesta del sistema. | La persona recibe la salida como plausible, no como conocimiento ya validado. | Se distingue la plausibilidad del conocimiento sustentado. |
+| Contraste. | La persona compara la respuesta con fuentes, criterios y contexto disciplinar. | La revisión activa el juicio disciplinar. |
+| Justificación. | La persona acepta, descarta o transforma lo recibido y explica sus razones. | Las decisiones se convierten en evidencia del proceso. |
+| Revisión. | La persona revisa el trabajo, documenta los cambios y abre una nueva iteración con mejores criterios. | El ciclo vuelve a comenzar con criterios enriquecidos. |
 
-La IA no produce por sí sola aprendizaje activo. El diseño debe exigir que la persona
-contraste, decida y sostenga sus razones.
+La IA no produce por sí sola aprendizaje activo: el diseño debe exigir que la persona
+contraste, decida y sostenga sus razones. La figura es una síntesis pedagógica de enfoques
+de aprendizaje activo y educación dialógica, no la representación de un efecto causal
+probado para toda interacción con IA.
 {{< /udgia-figure >}}
 
 ## Actividades tipo con IA

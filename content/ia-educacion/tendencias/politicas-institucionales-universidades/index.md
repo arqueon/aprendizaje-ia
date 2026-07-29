@@ -45,18 +45,28 @@ Adoptado por el Russell Group de universidades británicas en 2023, con cinco pr
 Adoptado por algunas universidades europeas y por instituciones técnicas como MIT en sus aspectos de seguridad de información: políticas con reglas operativas explícitas sobre qué herramientas usar, qué datos subir, qué procedimientos seguir. Las ventajas: claridad operativa, baja ambigüedad. Las desventajas: envejecen rápido, requieren actualización frecuente, generan resistencia docente cuando son demasiado restrictivas.
 
 {{< udgia-figure id="udgia-f11-politica-capas" src="politica-por-capas.svg" >}}
-Una arquitectura por capas permite combinar un marco común con decisiones situadas:
+La figura distingue dos estructuras relacionadas. La primera contiene cuatro capas que se
+concretan sucesivamente:
 
-| Capa de la política | Alcance orientativo | Nivel que la sostiene principalmente |
+| Capa de la política | Alcance orientativo | Traducción situada |
 |---|---|---|
-| Principios. | La capa establece integridad del aprendizaje, responsabilidad humana, transparencia, equidad, protección de datos y autonomía. | La institución sostiene y revisa el marco común. |
-| Políticas institucionales. | La capa define criterios de licenciamiento, privacidad e integridad aplicables a la comunidad. | La institución confirma atribuciones, recursos y salvaguardas. |
-| Guía disciplinar. | La capa traduce los criterios comunes a los problemas, prácticas y evidencias de cada campo. | Los centros, programas y academias realizan la traducción disciplinar. |
-| Expectativas de curso. | La capa comunica qué se permite, qué se declara, qué se excluye y cómo se evalúa. | Cada asignatura decide dentro de los criterios institucionales y del programa. |
+| Principios. | Integridad del aprendizaje, responsabilidad humana, transparencia, equidad, datos y autonomía. | La institución sostiene y revisa el marco común. |
+| Políticas institucionales. | Licenciamiento de herramientas, privacidad y marco de integridad. | La institución confirma atribuciones, recursos y salvaguardas. |
+| Guía disciplinar. | Los programas y academias adaptan los lineamientos a cada campo. | Los centros, programas y academias realizan la traducción disciplinar. |
+| Expectativas de curso. | El syllabus fija qué se permite, qué se declara, qué se excluye y cómo se evalúa. | Cada asignatura decide dentro de los criterios institucionales y del programa. |
 
-La figura propone una arquitectura orientativa de gobernanza distribuida. No describe una
-norma vigente ni asigna competencias jurídicas; las decisiones concretas deben armonizarse
-con la regulación y las atribuciones aplicables.
+La segunda estructura asigna esas capas a tres niveles de gobernanza:
+
+| Nivel de gobernanza | Responsabilidad orientativa | Límite |
+|---|---|---|
+| Institucional. | Principios, revisión, licencias y privacidad. | No sustituye las atribuciones formales aplicables. |
+| Centro o programa. | Traducción disciplinar y formación de su ámbito. | No convierte una orientación editorial en una norma. |
+| Asignatura. | El docente decide dentro de los criterios del programa. | No desplaza las responsabilidades institucionales o del programa. |
+
+La figura es un **modelo conceptual y orientativo** de gobernanza distribuida. No describe
+una norma vigente, no constituye un dictamen institucional ni asigna por sí sola competencias
+jurídicas. Las decisiones concretas deben armonizarse con la regulación y las atribuciones
+institucionales aplicables.
 {{< /udgia-figure >}}
 
 ## Lo que está convergiendo

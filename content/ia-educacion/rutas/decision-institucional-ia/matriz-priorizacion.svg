@@ -1,76 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Matriz de priorización: ajuste estratégico por capacidad institucional</title>
-  <desc id="desc">Matriz de dos por dos. El eje vertical representa el ajuste estratégico (de bajo a alto)
-    y el eje horizontal la capacidad institucional (de baja a alta). Resultan cuatro cuadrantes:
-    alto ajuste y alta capacidad, emprender de inmediato; alto ajuste y baja capacidad, desarrollar
-    capacidad primero; bajo ajuste y alta capacidad, posponer; bajo ajuste y baja capacidad, descartar.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Matriz UDGIA de priorización responsable</title>
+  <desc id="desc">Matriz conceptual original con cuatro criterios para deliberar antes de ampliar una iniciativa de inteligencia artificial: propósito de aprendizaje, salvaguardas y responsabilidad, capacidad para sostener, y evidencia y revisión. El análisis conjunto conduce a priorizar y pilotar, preparar condiciones, reformular o no priorizar por ahora.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional. Síntesis original del marco UDGIA.</metadata>
   <style>
-    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
     .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
     .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
     .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
     .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
-    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
-    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; }
+    .st-risk { stroke:#9A4A12; } .st-warn { stroke:#C9971C; }
+    .st-axis { stroke:#202945; }
   </style>
 
   <g class="tk-font">
-    <!-- Cuadrantes -->
-    <!-- Superior izquierdo: alto ajuste, baja capacidad -->
-    <rect x="120" y="45" width="250" height="200" class="bg-warn st-warn" stroke-width="1.5"/>
-    <!-- Superior derecho: alto ajuste, alta capacidad -->
-    <rect x="370" y="45" width="250" height="200" class="bg-good st-good" stroke-width="1.5"/>
-    <!-- Inferior izquierdo: bajo ajuste, baja capacidad -->
-    <rect x="120" y="245" width="250" height="200" class="bg-risk st-risk" stroke-width="1.5"/>
-    <!-- Inferior derecho: bajo ajuste, alta capacidad -->
-    <rect x="370" y="245" width="250" height="200" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="440" y="42" text-anchor="middle" font-size="22" font-weight="bold" class="f-ink">Matriz UDGIA de priorización responsable</text>
+    <text x="440" y="66" text-anchor="middle" font-size="13.5" class="f-muted">Cuatro preguntas antes de ampliar una iniciativa de IA</text>
 
-    <!-- Divisores centrales (color papel, no tokenizado) -->
-    <line x1="370" y1="45" x2="370" y2="445" stroke="#ffffff" stroke-width="2.5"/>
-    <line x1="120" y1="245" x2="620" y2="245" stroke="#ffffff" stroke-width="2.5"/>
+    <rect x="48" y="92" width="374" height="142" rx="4" class="bg-primary st-primary" stroke-width="1.7"/>
+    <text x="72" y="122" font-size="17" font-weight="bold" class="f-primary">1 · Propósito de aprendizaje</text>
+    <text x="72" y="150" font-size="13" font-weight="bold" class="f-ink">¿Qué problema formativo resuelve y para quién?</text>
+    <text x="72" y="178" font-size="12.5" class="f-muted">Evidencia mínima:</text>
+    <text x="72" y="198" font-size="12.5" class="f-muted">resultado esperado y población definidos.</text>
+    <text x="72" y="218" font-size="11.5" class="f-primary">Sin propósito claro → reformular.</text>
 
-    <!-- Textos de los cuadrantes -->
-    <g text-anchor="middle">
-      <!-- Superior derecho -->
-      <text x="495" y="120" font-size="17" font-weight="bold" class="f-good">Emprender</text>
-      <text x="495" y="142" font-size="17" font-weight="bold" class="f-good">De inmediato</text>
-      <text x="495" y="172" font-size="12.5" class="f-good">Alto aporte y</text>
-      <text x="495" y="190" font-size="12.5" class="f-good">Capacidad disponible</text>
+    <rect x="458" y="92" width="374" height="142" rx="4" class="bg-warn st-warn" stroke-width="1.7"/>
+    <text x="482" y="122" font-size="17" font-weight="bold" class="f-ink">2 · Salvaguardas y responsabilidad</text>
+    <text x="482" y="150" font-size="13" font-weight="bold" class="f-ink">¿Protege agencia, equidad, datos y juicio humano?</text>
+    <text x="482" y="178" font-size="12.5" class="f-muted">Evidencia mínima:</text>
+    <text x="482" y="198" font-size="12.5" class="f-muted">riesgos, alternativa y responsables identificados.</text>
+    <text x="482" y="218" font-size="11.5" class="f-risk">Sin salvaguardas → preparar condiciones.</text>
 
-      <!-- Superior izquierdo -->
-      <text x="245" y="120" font-size="17" font-weight="bold" class="f-ink">Desarrollar</text>
-      <text x="245" y="142" font-size="17" font-weight="bold" class="f-ink">Capacidad primero</text>
-      <text x="245" y="172" font-size="12.5" class="f-muted">Alto aporte,</text>
-      <text x="245" y="190" font-size="12.5" class="f-muted">Capacidad por construir</text>
+    <rect x="48" y="256" width="374" height="142" rx="4" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="72" y="286" font-size="17" font-weight="bold" class="f-ink">3 · Capacidad para sostener</text>
+    <text x="72" y="314" font-size="13" font-weight="bold" class="f-ink">¿Hay personas, tiempo, infraestructura y apoyo?</text>
+    <text x="72" y="342" font-size="12.5" class="f-muted">Evidencia mínima:</text>
+    <text x="72" y="362" font-size="12.5" class="f-muted">recursos y responsable operativo confirmados.</text>
+    <text x="72" y="382" font-size="11.5" class="f-ink">Sin capacidad → preparar antes de ampliar.</text>
 
-      <!-- Inferior izquierdo -->
-      <text x="245" y="330" font-size="17" font-weight="bold" class="f-risk">Descartar</text>
-      <text x="245" y="360" font-size="12.5" class="f-risk">Bajo aporte y</text>
-      <text x="245" y="378" font-size="12.5" class="f-risk">Baja capacidad</text>
+    <rect x="458" y="256" width="374" height="142" rx="4" class="bg-good st-good" stroke-width="1.7"/>
+    <text x="482" y="286" font-size="17" font-weight="bold" class="f-good">4 · Evidencia y revisión</text>
+    <text x="482" y="314" font-size="13" font-weight="bold" class="f-ink">¿Puede probarse, revisarse y detenerse?</text>
+    <text x="482" y="342" font-size="12.5" class="f-muted">Evidencia mínima:</text>
+    <text x="482" y="362" font-size="12.5" class="f-muted">indicadores, fecha de revisión y criterio de salida.</text>
+    <text x="482" y="382" font-size="11.5" class="f-good">Con revisión → pilotar y aprender.</text>
 
-      <!-- Inferior derecho -->
-      <text x="495" y="330" font-size="17" font-weight="bold" class="f-ink">Posponer</text>
-      <text x="495" y="360" font-size="12.5" class="f-muted">Factible, pero</text>
-      <text x="495" y="378" font-size="12.5" class="f-muted">De bajo aporte</text>
-    </g>
+    <line x1="440" y1="414" x2="440" y2="448" class="st-axis" stroke-width="1.5"/>
+    <text x="440" y="435" text-anchor="middle" font-size="12" font-weight="bold" class="f-ink">La orientación surge del conjunto, no de un criterio aislado</text>
 
-    <!-- Eje vertical: ajuste estratégico -->
-    <defs>
-      <marker id="flecha" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
-        <path d="M0,0 L6,3 L0,6 Z" fill="#202945"/>
-      </marker>
-    </defs>
-    <line x1="95" y1="445" x2="95" y2="40" class="st-axis" stroke-width="1.5" marker-end="url(#flecha)"/>
-    <text x="86" y="56" text-anchor="end" font-size="13" class="f-muted">Alto</text>
-    <text x="86" y="440" text-anchor="end" font-size="13" class="f-muted">Bajo</text>
-    <text x="34" y="245" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink"
-          transform="rotate(-90 34 245)">Ajuste estratégico</text>
+    <rect x="48" y="462" width="190" height="82" rx="4" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="143" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Priorizar y pilotar</text>
+    <text x="143" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Propósito, salvaguardas,</text>
+    <text x="143" y="532" text-anchor="middle" font-size="11.5" class="f-muted">capacidad y revisión definidos.</text>
 
-    <!-- Eje horizontal: capacidad institucional -->
-    <line x1="120" y1="480" x2="625" y2="480" class="st-axis" stroke-width="1.5" marker-end="url(#flecha)"/>
-    <text x="150" y="468" text-anchor="middle" font-size="13" class="f-muted">Baja</text>
-    <text x="590" y="468" text-anchor="middle" font-size="13" class="f-muted">Alta</text>
-    <text x="370" y="512" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Capacidad institucional</text>
+    <rect x="246" y="462" width="190" height="82" rx="4" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="341" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Preparar condiciones</text>
+    <text x="341" y="516" text-anchor="middle" font-size="11.5" class="f-muted">El propósito es sólido;</text>
+    <text x="341" y="532" text-anchor="middle" font-size="11.5" class="f-muted">faltan capacidad o salvaguardas.</text>
+
+    <rect x="444" y="462" width="190" height="82" rx="4" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="539" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">Reformular</text>
+    <text x="539" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Problema, población o</text>
+    <text x="539" y="532" text-anchor="middle" font-size="11.5" class="f-muted">evidencia aún son ambiguos.</text>
+
+    <rect x="642" y="462" width="190" height="82" rx="4" class="bg-risk st-risk" stroke-width="1.5"/>
+    <text x="737" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-risk">No priorizar por ahora</text>
+    <text x="737" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Aporte insuficiente o</text>
+    <text x="737" y="532" text-anchor="middle" font-size="11.5" class="f-muted">riesgos desproporcionados.</text>
+
+    <rect x="48" y="566" width="784" height="34" rx="3" class="bg-neutral st-axis" stroke-width="1"/>
+    <text x="440" y="588" text-anchor="middle" font-size="12.5" class="f-ink">Herramienta deliberativa: no sustituye la evaluación pedagógica, ética, normativa, presupuestal o contextual</text>
   </g>
 </svg>

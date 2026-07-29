@@ -83,19 +83,20 @@ flowchart TD
 
 El elemento crítico no es la retroalimentación de la IA sino la **decisión documentada del estudiante**: qué aceptó, qué rechazó y por qué. Ahí está la evidencia de aprendizaje.
 
-## Tres instrumentos formativos con IA
+## Cuatro instrumentos formativos con IA
 
 {{< udgia-figure id="udgia-f09-instrumentos" src="instrumentos-evaluacion-proceso.svg" >}}
-Los tres instrumentos se complementan:
+Cuatro instrumentos complementarios convergen en la trazabilidad del trabajo:
 
 | Instrumento | Qué hace visible | Qué no demuestra por sí solo |
 |---|---|---|
 | Portafolio iterativo | La evolución entre versiones y la incorporación de retroalimentación. | No explica por sí mismo la razón de cada cambio. |
-| Rúbrica analítica asistida | Criterios comunes para retroalimentar proceso y producto. | No aporta evidencia concreta ni valida una calificación sin juicio docente. |
-| Diario de reflexión | Consultas, decisiones y conciencia del propio aprendizaje. | No demuestra por sí solo la calidad integral del producto final. |
+| Bitácora de decisiones | Criterios, verificaciones, descartes y responsabilidades. | No demuestra por sí sola la calidad integral del producto final. |
+| Defensa oral | La capacidad de explicar y sostener el trabajo sin depender de la IA. | No reconstruye por sí sola todo el recorrido entre versiones. |
+| Rúbricas asistidas | Retroalimentación apoyada por IA, con calificación bajo juicio docente. | No aporta evidencia concreta si no se acompaña de artefactos. |
 
-La combinación debe ser proporcional a la tarea. No se necesita acumular todos los rastros:
-se necesita evidencia suficiente para comprender las decisiones importantes.
+Una combinación proporcionada permite evaluar el juicio sin convertir la trazabilidad en
+vigilancia exhaustiva.
 {{< /udgia-figure >}}
 
 ## Elige un paquete de evidencias proporcional
@@ -139,7 +140,7 @@ El estudiante construye un portafolio donde cada pieza pasa por al menos tres ve
 
 > *Prompt:* Soy estudiante de derecho y este es mi borrador de ensayo argumentativo sobre la proporcionalidad de las penas en delitos menores. Actúa como evaluador formativo. No me des la respuesta correcta. Señala: (1) los puntos donde mi argumento es débil o circular, (2) las afirmaciones que necesitan evidencia, (3) los contraargumentos que no estoy considerando. Usa un tono directo y constructivo.
 
-### 2. Rúbrica analítica asistida por IA
+### 2. Rúbricas asistidas por IA
 
 El docente diseña la rúbrica; la IA la aplica como primer filtro. El docente revisa la aplicación y ajusta.
 
@@ -159,9 +160,11 @@ El docente diseña la rúbrica; la IA la aplica como primer filtro. El docente r
 **La IA aplica la rúbrica; el docente decide la calificación.** La retroalimentación de la IA es formativa, no sumativa. El docente siempre tiene la última palabra sobre la evaluación del estudiante.
 {{< /alert >}}
 
-### 3. Diario de reflexión asistido
+### 3. Bitácora de decisiones
 
-El estudiante mantiene un diario donde registra sus interacciones con la IA y reflexiona sobre su proceso de aprendizaje. La IA funciona como espejo metacognitivo.
+El estudiante mantiene una bitácora breve donde registra criterios, verificaciones,
+aceptaciones y descartes durante su trabajo con IA. La escritura reflexiva ayuda a distinguir
+una decisión razonada de la adopción automática de una sugerencia.
 
 **Entradas sugeridas:**
 
@@ -169,6 +172,15 @@ El estudiante mantiene un diario donde registra sus interacciones con la IA y re
 - ¿Qué respuesta esperaba y qué obtuve?
 - ¿Qué acepté y qué rechacé de la sugerencia?
 - ¿Qué aprendí sobre mi propio proceso de pensamiento?
+
+### 4. Defensa oral
+
+El estudiante explica el propósito, las fuentes, los cambios y las decisiones centrales de
+su trabajo sin depender de la IA. No se trata de repetir el producto final, sino de sostener
+por qué tomó determinadas decisiones y cómo verificó lo que incorporó.
+
+Una defensa breve puede combinar tres preguntas: qué cambió entre versiones, qué sugerencia
+descartó y qué evidencia respalda la decisión más importante.
 
 ## Qué entrega el estudiante y qué evalúa el docente
 
