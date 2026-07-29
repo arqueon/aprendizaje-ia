@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1030" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">El diálogo con la IA como aprendizaje activo</title>
+  <desc id="desc">Versión vertical de una secuencia didáctica: la consigna define propósito y límites; la persona interactúa con la IA, recibe una respuesta, la contrasta, justifica sus decisiones y revisa su trabajo. El ciclo vuelve a empezar con mejor criterio.</desc>
+  <style>
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
+    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-axis{stroke:#202945}
+  </style>
+  <g class="tk">
+    <text x="210" y="34" text-anchor="middle" font-size="20" font-weight="bold" class="ink">Una secuencia de diálogo y revisión</text>
+    <g transform="translate(25 58)">
+      <rect width="370" height="118" rx="5" class="bg-neutral st-axis" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="ink">1 · Consigna docente</text>
+      <text x="32" y="72" font-size="15.5" class="muted">Define el propósito, los criterios</text>
+      <text x="32" y="96" font-size="15.5" class="muted">y los límites de uso.</text>
+    </g>
+    <path d="M210 176v27" class="st-axis" stroke-width="2.3"/>
+    <g transform="translate(25 203)">
+      <rect width="370" height="118" rx="5" class="bg-primary st-primary" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="primary">2 · Interacción con IA</text>
+      <text x="32" y="72" font-size="15.5" class="muted">La persona pregunta, pide variantes</text>
+      <text x="32" y="96" font-size="15.5" class="muted">y solicita contrapuntos.</text>
+    </g>
+    <path d="M210 321v27" class="st-axis" stroke-width="2.3"/>
+    <g transform="translate(25 348)">
+      <rect width="370" height="118" rx="5" class="bg-neutral st-axis" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="ink">3 · Respuesta del sistema</text>
+      <text x="32" y="72" font-size="15.5" class="muted">La salida puede ser plausible, pero</text>
+      <text x="32" y="96" font-size="15.5" class="muted">todavía no es conocimiento validado.</text>
+    </g>
+    <path d="M210 466v27" class="st-axis" stroke-width="2.3"/>
+    <g transform="translate(25 493)">
+      <rect width="370" height="118" rx="5" class="bg-primary st-primary" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="primary">4 · Contrastar</text>
+      <text x="32" y="72" font-size="15.5" class="muted">Revisar fuentes, criterios, conocimientos</text>
+      <text x="32" y="96" font-size="15.5" class="muted">previos y contexto disciplinar.</text>
+    </g>
+    <path d="M210 611v27" class="st-axis" stroke-width="2.3"/>
+    <g transform="translate(25 638)">
+      <rect width="370" height="118" rx="5" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="good">5 · Justificar</text>
+      <text x="32" y="72" font-size="15.5" class="muted">Aceptar, descartar o transformar</text>
+      <text x="32" y="96" font-size="15.5" class="muted">la respuesta y explicar las razones.</text>
+    </g>
+    <path d="M210 756v27" class="st-axis" stroke-width="2.3"/>
+    <g transform="translate(25 783)">
+      <rect width="370" height="118" rx="5" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="32" y="39" font-size="19" font-weight="bold" class="good">6 · Revisar</text>
+      <text x="32" y="72" font-size="15.5" class="muted">Reformular el trabajo y documentar</text>
+      <text x="32" y="96" font-size="15.5" class="muted">las decisiones tomadas.</text>
+    </g>
+    <path d="M210 901v27" class="st-primary" stroke-width="2.5"/>
+    <rect x="25" y="928" width="370" height="76" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="210" y="958" text-anchor="middle" font-size="16.5" font-weight="bold" class="primary">El diálogo vuelve a empezar</text>
+    <text x="210" y="983" text-anchor="middle" font-size="16.5" font-weight="bold" class="primary">con mejor criterio.</text>
+  </g>
+</svg>

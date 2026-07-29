@@ -189,6 +189,21 @@ dos preguntas:
 1. ¿cuánto contribuye al propósito educativo e institucional?;
 2. ¿existe capacidad real para sostenerla de forma responsable?
 
+{{< udgia-figure id="udgia-f17-priorizacion" src="matriz-priorizacion.svg" >}}
+La matriz cruza el ajuste estratégico con la capacidad institucional disponible:
+
+| Ajuste estratégico | Capacidad institucional | Orientación para deliberar |
+|---|---|---|
+| El ajuste estratégico es alto. | La capacidad institucional es alta. | Conviene emprender o ampliar con seguimiento, evidencia y salvaguardas. |
+| El ajuste estratégico es alto. | La capacidad institucional es baja. | Conviene construir las capacidades necesarias antes de ampliar la iniciativa. |
+| El ajuste estratégico es bajo. | La capacidad institucional es alta. | Conviene revisar el propósito y el costo de oportunidad antes de comprometer recursos. |
+| El ajuste estratégico es bajo. | La capacidad institucional es baja. | Conviene no priorizar la iniciativa durante este ciclo. |
+
+Adaptada del *Innovation Impact Compass* del Digital Education Council, la matriz ayuda a
+deliberar. No sustituye la evaluación pedagógica, ética, normativa, presupuestal ni
+contextual, y no prescribe automáticamente una decisión.
+{{< /udgia-figure >}}
+
 <div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">
   <table>
     <caption>Criterios para priorizar iniciativas del portafolio</caption>

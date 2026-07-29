@@ -83,6 +83,19 @@ Cuando una condición necesaria no puede resolverse desde el equipo, se registra
 dependencia: qué se necesita, por qué afecta al piloto, quién debe consultarlo y para cuándo
 se requiere una respuesta.
 
+{{< udgia-figure id="udgia-f01-trayectoria" src="trayectoria-habilitar-integrar.svg" >}}
+La trayectoria propone tres etapas que pueden solaparse y volver a revisarse:
+
+| Etapa | Pregunta que organiza el trabajo | Resultado esperado |
+|---|---|---|
+| Habilitar. | ¿Con qué acceso, protección de datos e infraestructura se cuenta? | Se establecen condiciones básicas y responsables para experimentar. |
+| Capacitar. | ¿Qué capacidades necesitan docentes, estudiantes y equipos de apoyo? | Se desarrolla un uso crítico, situado y pedagógicamente informado. |
+| Integrar. | ¿Cómo cambia el diseño de actividades, evaluación y acompañamiento? | La IA deja de ser un añadido y se articula con propósitos de aprendizaje. |
+
+La figura sintetiza una orientación, no una escala empírica ni un modelo de madurez
+obligatorio. Las etapas pueden coexistir y requieren ciclos periódicos de revisión.
+{{< /udgia-figure >}}
+
 ## El recorrido de un ciclo
 
 ![Ciclo operativo de coordinación académica: delimitar, diagnosticar, acordar, acompañar,

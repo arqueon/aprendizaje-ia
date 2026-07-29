@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">La arquitectura de política por capas y la gobernanza distribuida</title>
+  <desc id="desc">Cuatro capas apiladas que se concretan sucesivamente: principios institucionales,
+    políticas institucionales, guía disciplinar y expectativas de curso. A la derecha, llaves que
+    agrupan las capas en los tres niveles de la gobernanza distribuida: institucional, de programa
+    o centro universitario y de asignatura. La banda final indica que cada capa concreta la anterior
+    sin contradecirla y que un mismo principio se expresa de forma distinta en cada campo.</desc>
+  <style>
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+
+  <defs>
+    <marker id="fC" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#202945"/>
+    </marker>
+  </defs>
+
+  <g class="tk-font">
+    <!-- Capa 1 -->
+    <rect x="70" y="40" width="560" height="78" rx="2" class="bg-primary st-primary" stroke-width="1.8"/>
+    <text x="95" y="66" font-size="16" font-weight="bold" class="f-primary">1 · Principios</text>
+    <text x="95" y="87" font-size="11.5" class="f-muted">Integridad del aprendizaje, responsabilidad humana,</text>
+    <text x="95" y="103" font-size="11.5" class="f-muted">transparencia, equidad, datos, autonomía</text>
+
+    <line x1="350" y1="118" x2="350" y2="138" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
+
+    <!-- Capa 2 -->
+    <rect x="100" y="144" width="530" height="78" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="125" y="176" font-size="16" font-weight="bold" class="f-ink">2 · Políticas institucionales</text>
+    <text x="125" y="200" font-size="12" class="f-muted">Licenciamiento de herramientas, privacidad, marco de integridad</text>
+
+    <line x1="365" y1="222" x2="365" y2="242" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
+
+    <!-- Capa 3 -->
+    <rect x="130" y="248" width="500" height="78" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="155" y="280" font-size="16" font-weight="bold" class="f-ink">3 · Guía disciplinar</text>
+    <text x="155" y="304" font-size="12" class="f-muted">Programas y academias adaptan los lineamientos a cada campo</text>
+
+    <line x1="380" y1="326" x2="380" y2="346" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
+
+    <!-- Capa 4 -->
+    <rect x="160" y="352" width="470" height="78" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="185" y="378" font-size="16" font-weight="bold" class="f-good">4 · Expectativas de curso</text>
+    <text x="185" y="399" font-size="11.5" class="f-muted">El syllabus fija qué se permite, qué se declara,</text>
+    <text x="185" y="415" font-size="11.5" class="f-muted">qué se excluye y cómo se evalúa</text>
+
+    <!-- Llaves de gobernanza distribuida -->
+    <path d="M 650 44 L 665 44 L 665 218 L 680 218" fill="none" class="st-axis" stroke-width="1.8" transform="translate(0,0)"/>
+    <path d="M 650 218 L 665 218" fill="none" class="st-axis" stroke-width="1.8"/>
+    <text x="690" y="118" font-size="13" font-weight="bold" class="f-ink">Nivel institucional</text>
+    <text x="690" y="136" font-size="11.5" class="f-muted">Principios, revisión,</text>
+    <text x="690" y="151" font-size="11.5" class="f-muted">licencias, privacidad</text>
+
+    <path d="M 650 252 L 665 252 L 665 322 L 650 322" fill="none" class="st-axis" stroke-width="1.8"/>
+    <text x="690" y="283" font-size="13" font-weight="bold" class="f-ink">Nivel de programa</text>
+    <text x="690" y="300" font-size="11.5" class="f-muted">Traducción disciplinar,</text>
+    <text x="690" y="315" font-size="11.5" class="f-muted">formación de su ámbito</text>
+
+    <path d="M 650 356 L 665 356 L 665 426 L 650 426" fill="none" class="st-axis" stroke-width="1.8"/>
+    <text x="690" y="387" font-size="13" font-weight="bold" class="f-ink">Nivel de asignatura</text>
+    <text x="690" y="402" font-size="11.5" class="f-muted">El docente decide</text>
+    <text x="690" y="417" font-size="11.5" class="f-muted">dentro de los criterios</text>
+    <text x="690" y="432" font-size="11.5" class="f-muted">del programa</text>
+
+    <!-- Banda final -->
+    <rect x="70" y="462" width="740" height="56" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
+    <text x="440" y="485" text-anchor="middle" font-size="13" font-weight="bold" class="f-primary">Cada capa concreta la anterior sin contradecirla</text>
+    <text x="440" y="505" text-anchor="middle" font-size="11.5" class="f-primary">Un mismo principio se expresa de forma distinta en medicina, letras o ingeniería, sin perder coherencia</text>
+  </g>
+</svg>

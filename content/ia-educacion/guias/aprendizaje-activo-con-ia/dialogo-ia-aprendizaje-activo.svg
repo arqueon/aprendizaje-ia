@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">El diálogo con la IA como aprendizaje activo</title>
+  <desc id="desc">Secuencia didáctica en la que la consigna docente abre una interacción con IA, el estudiante interroga, contrasta, justifica y revisa. El aprendizaje se favorece cuando el estudiante mantiene el trabajo cognitivo.</desc>
+  <style>
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#202945"/>
+    </marker>
+    <marker id="flechaRoja" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#B12028"/>
+    </marker>
+  </defs>
+  <g class="tk-font">
+    <rect x="55" y="54" width="180" height="78" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="145" y="82" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Consigna docente</text>
+    <text x="145" y="104" text-anchor="middle" font-size="11.5" class="f-muted">Propósito, criterios</text>
+    <text x="145" y="119" text-anchor="middle" font-size="11.5" class="f-muted">y límites de uso</text>
+
+    <rect x="350" y="54" width="180" height="78" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="440" y="82" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">Interacción con IA</text>
+    <text x="440" y="104" text-anchor="middle" font-size="11.5" class="f-muted">Preguntar, pedir variantes</text>
+    <text x="440" y="119" text-anchor="middle" font-size="11.5" class="f-muted">y recibir contrapuntos</text>
+
+    <rect x="645" y="54" width="180" height="78" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="735" y="82" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Respuesta del sistema</text>
+    <text x="735" y="104" text-anchor="middle" font-size="11.5" class="f-muted">Salida plausible,</text>
+    <text x="735" y="119" text-anchor="middle" font-size="11.5" class="f-muted">no conocimiento validado</text>
+
+    <line x1="235" y1="93" x2="343" y2="93" class="st-axis" stroke-width="1.8" marker-end="url(#flecha)"/>
+    <line x1="530" y1="93" x2="638" y2="93" class="st-axis" stroke-width="1.8" marker-end="url(#flecha)"/>
+
+    <rect x="645" y="214" width="180" height="78" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="735" y="242" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">Contrastar</text>
+    <text x="735" y="264" text-anchor="middle" font-size="11.5" class="f-muted">Fuentes, criterios</text>
+    <text x="735" y="279" text-anchor="middle" font-size="11.5" class="f-muted">y contexto disciplinar</text>
+
+    <rect x="350" y="214" width="180" height="78" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="440" y="242" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Justificar</text>
+    <text x="440" y="264" text-anchor="middle" font-size="11.5" class="f-muted">Aceptar, descartar</text>
+    <text x="440" y="279" text-anchor="middle" font-size="11.5" class="f-muted">o transformar con razones</text>
+
+    <rect x="55" y="214" width="180" height="78" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="145" y="242" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Revisar</text>
+    <text x="145" y="264" text-anchor="middle" font-size="11.5" class="f-muted">Reformular el trabajo</text>
+    <text x="145" y="279" text-anchor="middle" font-size="11.5" class="f-muted">y documentar decisiones</text>
+
+    <path d="M 735 132 L 735 207" fill="none" class="st-primary" stroke-width="1.8" marker-end="url(#flechaRoja)"/>
+    <line x1="645" y1="253" x2="537" y2="253" class="st-axis" stroke-width="1.8" marker-end="url(#flecha)"/>
+    <line x1="350" y1="253" x2="242" y2="253" class="st-axis" stroke-width="1.8" marker-end="url(#flecha)"/>
+
+    <path d="M 145 292 C 145 374 735 374 735 300" fill="none" class="st-primary" stroke-width="1.8" marker-end="url(#flechaRoja)"/>
+    <text x="440" y="328" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">El diálogo vuelve a empezar con mejor criterio</text>
+
+    <rect x="110" y="408" width="660" height="54" rx="2" class="bg-neutral st-axis" stroke-width="1.2"/>
+    <text x="440" y="432" text-anchor="middle" font-size="14" font-weight="bold" class="f-ink">El valor pedagógico está en el intercambio, no en la respuesta final</text>
+    <text x="440" y="450" text-anchor="middle" font-size="11.5" class="f-muted">La actividad convierte la IA en interlocutor cuando exige contrastar y defender decisiones</text>
+  </g>
+</svg>

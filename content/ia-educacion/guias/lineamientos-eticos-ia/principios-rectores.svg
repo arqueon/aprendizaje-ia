@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Siete principios rectores para el uso pedagógico responsable de la IA</title>
+  <desc id="desc">Mapa radial de siete principios: formación antes que regulación, transparencia por defecto, evaluación del proceso, equidad de acceso, responsabilidad distribuida, autonomía y soberanía institucional, y revisión periódica. Todos convergen en el uso pedagógico responsable de la IA.</desc>
+  <style>
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+  <g class="tk-font">
+    <circle cx="440" cy="270" r="92" class="bg-primary st-primary" stroke-width="1.8"/>
+    <text x="440" y="250" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Uso pedagógico</text>
+    <text x="440" y="271" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">responsable</text>
+    <text x="440" y="292" text-anchor="middle" font-size="12" class="f-muted">criterios revisables</text>
+    <text x="440" y="309" text-anchor="middle" font-size="12" class="f-muted">para decidir con contexto</text>
+
+    <g stroke-width="1.4" fill="none">
+      <line x1="440" y1="178" x2="440" y2="93" class="st-primary"/>
+      <line x1="512" y1="212" x2="656" y2="126" class="st-axis"/>
+      <line x1="532" y1="290" x2="676" y2="342" class="st-axis"/>
+      <line x1="474" y1="356" x2="536" y2="446" class="st-good"/>
+      <line x1="406" y1="356" x2="344" y2="446" class="st-good"/>
+      <line x1="348" y1="290" x2="204" y2="342" class="st-warn"/>
+      <line x1="368" y1="212" x2="224" y2="126" class="st-warn"/>
+    </g>
+
+    <rect x="320" y="36" width="240" height="58" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="440" y="61" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Formación antes que regulación</text>
+    <text x="440" y="80" text-anchor="middle" font-size="11.5" class="f-muted">No exigir lo que no se enseñó</text>
+
+    <rect x="608" y="84" width="220" height="74" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="718" y="111" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Transparencia por defecto</text>
+    <text x="718" y="131" text-anchor="middle" font-size="11.5" class="f-muted">Declarar el uso como práctica</text>
+    <text x="718" y="146" text-anchor="middle" font-size="11.5" class="f-muted">normal y bidireccional</text>
+
+    <rect x="632" y="314" width="220" height="74" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="742" y="341" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Evaluación del proceso</text>
+    <text x="742" y="361" text-anchor="middle" font-size="11.5" class="f-muted">Valorar recorrido, decisiones</text>
+    <text x="742" y="376" text-anchor="middle" font-size="11.5" class="f-muted">y revisión crítica</text>
+
+    <rect x="466" y="442" width="220" height="64" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="576" y="469" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Equidad de acceso</text>
+    <text x="576" y="489" text-anchor="middle" font-size="11.5" class="f-muted">Que la actividad no cree brechas</text>
+
+    <rect x="194" y="442" width="220" height="64" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="304" y="469" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Responsabilidad distribuida</text>
+    <text x="304" y="489" text-anchor="middle" font-size="11.5" class="f-muted">Cada nivel responde por su parte</text>
+
+    <rect x="28" y="314" width="220" height="74" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="138" y="341" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Autonomía institucional</text>
+    <text x="138" y="361" text-anchor="middle" font-size="11.5" class="f-muted">Control sobre herramientas,</text>
+    <text x="138" y="376" text-anchor="middle" font-size="11.5" class="f-muted">datos y dependencia</text>
+
+    <rect x="52" y="84" width="220" height="74" rx="2" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="162" y="111" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">Revisión periódica</text>
+    <text x="162" y="131" text-anchor="middle" font-size="11.5" class="f-muted">Actualizar con evidencia,</text>
+    <text x="162" y="146" text-anchor="middle" font-size="11.5" class="f-muted">prácticas y casos</text>
+  </g>
+</svg>

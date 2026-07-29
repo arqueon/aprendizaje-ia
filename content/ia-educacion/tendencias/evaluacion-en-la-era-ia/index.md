@@ -47,6 +47,21 @@ La propuesta de Liardi no es ingenua ni permisiva. Es estratégica: **rediseñar
 
 Las universidades que logren este giro estarán formando lo que Liardi llama **aprendices ágiles**: personas capaces de adaptarse a distintas formas de demostrar lo que saben, de usar herramientas críticamente y de seguir aprendiendo en contextos cambiantes.
 
+{{< udgia-figure id="udgia-f08-producto-proceso" src="producto-a-proceso.svg" >}}
+El desplazamiento no elimina el producto final; lo acompaña con evidencias proporcionadas del
+proceso:
+
+| Enfoque de evaluación | Evidencia principal | Alcance de la inferencia |
+|---|---|---|
+| Se evalúa el producto aislado. | La evidencia principal es la entrega final. | El resultado puede mostrar desempeño, pero no acredita por sí solo cómo se aprendió ni quién tomó las decisiones. |
+| Se evalúan el producto y el proceso. | La evidencia incluye versiones, criterios, verificaciones, descartes y una defensa. | El conjunto aporta indicios del juicio y de las decisiones durante la interacción entre la persona y la IA. |
+
+El portafolio iterativo, la bitácora de decisiones, la defensa oral y las rúbricas asistidas
+pueden combinarse de manera proporcional. Ningún instrumento demuestra aprendizaje por sí
+solo; juntos ayudan a sostener la validez sin convertir la trazabilidad en vigilancia
+exhaustiva.
+{{< /udgia-figure >}}
+
 {{< alert icon="lightbulb" type="info" >}}
 **Pregunta para reflexionar:** ¿Tus evaluaciones actuales miden lo que los estudiantes podrían necesitar en 5 años, o miden lo que era relevante hace 10?
 {{< /alert >}}

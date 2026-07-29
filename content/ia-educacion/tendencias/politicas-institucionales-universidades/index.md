@@ -44,6 +44,21 @@ Adoptado por el Russell Group de universidades británicas en 2023, con cinco pr
 
 Adoptado por algunas universidades europeas y por instituciones técnicas como MIT en sus aspectos de seguridad de información: políticas con reglas operativas explícitas sobre qué herramientas usar, qué datos subir, qué procedimientos seguir. Las ventajas: claridad operativa, baja ambigüedad. Las desventajas: envejecen rápido, requieren actualización frecuente, generan resistencia docente cuando son demasiado restrictivas.
 
+{{< udgia-figure id="udgia-f11-politica-capas" src="politica-por-capas.svg" >}}
+Una arquitectura por capas permite combinar un marco común con decisiones situadas:
+
+| Capa de la política | Alcance orientativo | Nivel que la sostiene principalmente |
+|---|---|---|
+| Principios. | La capa establece integridad del aprendizaje, responsabilidad humana, transparencia, equidad, protección de datos y autonomía. | La institución sostiene y revisa el marco común. |
+| Políticas institucionales. | La capa define criterios de licenciamiento, privacidad e integridad aplicables a la comunidad. | La institución confirma atribuciones, recursos y salvaguardas. |
+| Guía disciplinar. | La capa traduce los criterios comunes a los problemas, prácticas y evidencias de cada campo. | Los centros, programas y academias realizan la traducción disciplinar. |
+| Expectativas de curso. | La capa comunica qué se permite, qué se declara, qué se excluye y cómo se evalúa. | Cada asignatura decide dentro de los criterios institucionales y del programa. |
+
+La figura propone una arquitectura orientativa de gobernanza distribuida. No describe una
+norma vigente ni asigna competencias jurídicas; las decisiones concretas deben armonizarse
+con la regulación y las atribuciones aplicables.
+{{< /udgia-figure >}}
+
 ## Lo que está convergiendo
 
 A pesar de las diferencias entre modelos, cinco elementos aparecen en casi todas las políticas universitarias maduras de 2025:

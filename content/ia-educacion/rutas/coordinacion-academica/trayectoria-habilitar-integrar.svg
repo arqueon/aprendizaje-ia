@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">De habilitar a integrar: el propósito de estas orientaciones</title>
+  <desc id="desc">Tres etapas encadenadas. Primera: habilitar, la IA ya está presente y en uso.
+    Segunda: capacitar, desarrollar competencias, criterios y alfabetización. Tercera: integrar,
+    incorporación responsable a la vida académica. Una llave indica que este documento cubre el
+    paso de capacitar a integrar, y una banda inferior recuerda que son orientaciones revisables
+    con ciclo de revisión periódica, no un reglamento cerrado.</desc>
+  <style>
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+
+  <defs>
+    <marker id="flecha" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#202945"/>
+    </marker>
+  </defs>
+
+  <g class="tk-font">
+    <!-- Etapa 1: Habilitar -->
+    <rect x="40" y="70" width="230" height="120" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="155" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Habilitar</text>
+    <text x="155" y="136" text-anchor="middle" font-size="13" class="f-muted">La IA ya está presente</text>
+    <text x="155" y="154" text-anchor="middle" font-size="13" class="f-muted">y en uso cotidiano</text>
+    <text x="155" y="172" text-anchor="middle" font-size="13" class="f-muted">Acceso, datos e infraestructura</text>
+
+    <!-- Flecha 1→2 -->
+    <line x1="270" y1="130" x2="318" y2="130" class="st-axis" stroke-width="2" marker-end="url(#flecha)"/>
+
+    <!-- Etapa 2: Capacitar -->
+    <rect x="325" y="70" width="230" height="120" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
+    <text x="440" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Capacitar</text>
+    <text x="440" y="136" text-anchor="middle" font-size="13" class="f-muted">Competencias, criterios</text>
+    <text x="440" y="154" text-anchor="middle" font-size="13" class="f-muted">y alfabetización en IA</text>
+    <text x="440" y="172" text-anchor="middle" font-size="13" class="f-muted">Formación y acompañamiento</text>
+
+    <!-- Flecha 2→3 -->
+    <line x1="555" y1="130" x2="603" y2="130" class="st-axis" stroke-width="2" marker-end="url(#flecha)"/>
+
+    <!-- Etapa 3: Integrar -->
+    <rect x="610" y="70" width="230" height="120" rx="2" class="bg-good st-good" stroke-width="1.5"/>
+    <text x="725" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-good">Integrar</text>
+    <text x="725" y="136" text-anchor="middle" font-size="13" class="f-muted">Incorporación responsable</text>
+    <text x="725" y="154" text-anchor="middle" font-size="13" class="f-muted">a la vida académica</text>
+    <text x="725" y="172" text-anchor="middle" font-size="13" class="f-muted">Diseño, evaluación y revisión</text>
+
+    <!-- Llave: alcance del documento -->
+    <path d="M 325 215 L 325 232 L 840 232 L 840 215" fill="none" class="st-primary" stroke-width="2"/>
+    <line x1="582" y1="232" x2="582" y2="247" class="st-primary" stroke-width="2"/>
+    <text x="582" y="268" text-anchor="middle" font-size="14" font-weight="bold" class="f-primary">Una trayectoria institucional posible</text>
+
+    <!-- Banda inferior -->
+    <rect x="40" y="295" width="800" height="42" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
+    <text x="440" y="321" text-anchor="middle" font-size="13.5" class="f-primary">Las etapas pueden solaparse y requieren revisión periódica; no son un reglamento cerrado</text>
+  </g>
+</svg>

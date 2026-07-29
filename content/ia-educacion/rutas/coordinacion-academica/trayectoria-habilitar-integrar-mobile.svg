@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 790" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">De habilitar a integrar</title>
+  <desc id="desc">Versión vertical de una trayectoria institucional posible en tres etapas: habilitar condiciones básicas, capacitar a la comunidad e integrar la IA al diseño educativo. Las etapas pueden solaparse y se revisan periódicamente.</desc>
+  <style>
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
+    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-axis{stroke:#202945}
+  </style>
+  <g class="tk">
+    <text x="210" y="35" text-anchor="middle" font-size="19" font-weight="bold" class="ink">Trayectoria institucional posible</text>
+    <rect x="25" y="62" width="370" height="155" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <circle cx="62" cy="100" r="22" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="62" y="107" text-anchor="middle" font-size="20" font-weight="bold" class="primary">1</text>
+    <text x="100" y="105" font-size="22" font-weight="bold" class="ink">Habilitar</text>
+    <text x="48" y="143" font-size="16" class="muted">La IA ya está presente y en uso cotidiano.</text>
+    <text x="48" y="170" font-size="16" class="muted">Asegurar acceso, protección de datos</text>
+    <text x="48" y="194" font-size="16" class="muted">e infraestructura para experimentar.</text>
+    <path d="M210 217v35" class="st-axis" stroke-width="2.5"/>
+    <path d="m202 243 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
+
+    <rect x="25" y="258" width="370" height="155" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
+    <circle cx="62" cy="296" r="22" fill="#fff" class="st-primary" stroke-width="1.5"/>
+    <text x="62" y="303" text-anchor="middle" font-size="20" font-weight="bold" class="primary">2</text>
+    <text x="100" y="301" font-size="22" font-weight="bold" class="primary">Capacitar</text>
+    <text x="48" y="339" font-size="16" class="muted">Desarrollar competencias, criterios</text>
+    <text x="48" y="366" font-size="16" class="muted">y alfabetización en IA mediante</text>
+    <text x="48" y="390" font-size="16" class="muted">formación y acompañamiento.</text>
+    <path d="M210 413v35" class="st-axis" stroke-width="2.5"/>
+    <path d="m202 439 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
+
+    <rect x="25" y="454" width="370" height="155" rx="5" class="bg-good st-good" stroke-width="1.7"/>
+    <circle cx="62" cy="492" r="22" fill="#fff" class="st-good" stroke-width="1.5"/>
+    <text x="62" y="499" text-anchor="middle" font-size="20" font-weight="bold" class="good">3</text>
+    <text x="100" y="497" font-size="22" font-weight="bold" class="good">Integrar</text>
+    <text x="48" y="535" font-size="16" class="muted">Articular la IA con los propósitos</text>
+    <text x="48" y="562" font-size="16" class="muted">de aprendizaje, el diseño, la evaluación</text>
+    <text x="48" y="586" font-size="16" class="muted">y el acompañamiento.</text>
+
+    <path d="M210 609v36" class="st-primary" stroke-width="2.5"/>
+    <rect x="25" y="645" width="370" height="112" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="210" y="681" text-anchor="middle" font-size="18" font-weight="bold" class="primary">Revisar y volver a decidir</text>
+    <text x="210" y="711" text-anchor="middle" font-size="15.5" class="muted">Las etapas pueden solaparse.</text>
+    <text x="210" y="735" text-anchor="middle" font-size="15.5" class="muted">No forman una escala obligatoria.</text>
+  </g>
+</svg>

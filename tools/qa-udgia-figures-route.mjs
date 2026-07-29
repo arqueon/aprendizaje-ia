@@ -12,7 +12,7 @@ import { chromium } from 'playwright-core';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const evidenceDir = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
-  : path.join(tmpdir(), 'udgia006-hugo-evidence');
+  : path.join(tmpdir(), 'udgia008-hugo-evidence');
 const routes = [{
   route: 'observatorio/estudios/paradoja-descarga-cognitiva/',
   id: 'udgia-f04-disociacion',
@@ -28,6 +28,36 @@ const routes = [{
   id: 'udgia-f09-instrumentos',
   mobileSvg: 'instrumentos-evaluacion-proceso-mobile.svg',
   fallbackRows: 3,
+}, {
+  route: 'ia-educacion/rutas/coordinacion-academica/',
+  id: 'udgia-f01-trayectoria',
+  mobileSvg: 'trayectoria-habilitar-integrar-mobile.svg',
+  fallbackRows: 3,
+}, {
+  route: 'ia-educacion/guias/lineamientos-eticos-ia/',
+  id: 'udgia-f03-principios',
+  mobileSvg: 'principios-rectores-mobile.svg',
+  fallbackRows: 7,
+}, {
+  route: 'ia-educacion/guias/aprendizaje-activo-con-ia/',
+  id: 'udgia-f07-dialogo',
+  mobileSvg: 'dialogo-ia-aprendizaje-activo-mobile.svg',
+  fallbackRows: 6,
+}, {
+  route: 'ia-educacion/tendencias/evaluacion-en-la-era-ia/',
+  id: 'udgia-f08-producto-proceso',
+  mobileSvg: 'producto-a-proceso-mobile.svg',
+  fallbackRows: 2,
+}, {
+  route: 'ia-educacion/tendencias/politicas-institucionales-universidades/',
+  id: 'udgia-f11-politica-capas',
+  mobileSvg: 'politica-por-capas-mobile.svg',
+  fallbackRows: 4,
+}, {
+  route: 'ia-educacion/rutas/decision-institucional-ia/',
+  id: 'udgia-f17-priorizacion',
+  mobileSvg: 'matriz-priorizacion-mobile.svg',
+  fallbackRows: 4,
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
@@ -53,11 +83,18 @@ function mimeType(file) {
   }[path.extname(file)] || 'application/octet-stream';
 }
 
-async function startServer(siteRoot) {
+async function startServer(siteRoot, mountPath = '') {
   const server = http.createServer(async (request, response) => {
     try {
       const url = new URL(request.url, 'http://127.0.0.1');
-      const normalized = path.posix.normalize(`/${decodeURIComponent(url.pathname)}`).replace(/^\/+/, '');
+      let normalized = path.posix.normalize(`/${decodeURIComponent(url.pathname)}`).replace(/^\/+/, '');
+      if (mountPath) {
+        assert(
+          normalized === mountPath || normalized.startsWith(`${mountPath}/`),
+          'ruta fuera del montaje',
+        );
+        normalized = normalized.slice(mountPath.length).replace(/^\/+/, '');
+      }
       assert(!normalized.startsWith('..'), 'ruta insegura');
       let file = path.join(siteRoot, normalized);
       if ((await stat(file).catch(() => null))?.isDirectory()) file = path.join(file, 'index.html');
@@ -77,22 +114,22 @@ async function startServer(siteRoot) {
     server.listen({ host: '127.0.0.1', port: 0 }, resolve);
   });
   return {
-    baseURL: `http://127.0.0.1:${server.address().port}/`,
+    baseURL: `http://127.0.0.1:${server.address().port}/${mountPath ? `${mountPath}/` : ''}`,
     close: () => new Promise((resolve) => server.close(resolve)),
   };
 }
 
-function build(siteRoot) {
+function build(siteRoot, baseURL) {
   const result = spawnSync(
     process.env.HUGO_BIN || 'hugo',
-    ['--minify', '--destination', siteRoot, '--baseURL', 'http://127.0.0.1/'],
+    ['--minify', '--destination', siteRoot, '--baseURL', baseURL],
     { cwd: root, encoding: 'utf8', maxBuffer: 32 * 1024 * 1024 },
   );
   if (result.status !== 0) throw new Error(`Hugo falló\n${result.stdout}\n${result.stderr}`);
   return result.stderr.split('\n').filter((line) => line.startsWith('WARN'));
 }
 
-async function inspect(browser, baseURL, target, viewport, name) {
+async function inspect(browser, baseURL, target, viewport, name, scenario) {
   const { route, id, mobileSvg, fallbackRows } = target;
   const context = await browser.newContext({ viewport, reducedMotion: 'reduce' });
   const external = [];
@@ -135,7 +172,9 @@ async function inspect(browser, baseURL, target, viewport, name) {
       figures: document.querySelectorAll('.udgia-figure').length,
       sourceId: figure?.dataset.sourceId || '',
       sourceVersion: figure?.dataset.sourceVersion || '',
+      sourceRevision: figure?.dataset.sourceRevision || '',
       sourceSha256: figure?.dataset.sourceSha256 || '',
+      descriptionSha256: figure?.dataset.descriptionSha256 || '',
       variantSha256: figure?.dataset.variantSha256 || '',
       mobileVariantSha256: figure?.dataset.mobileVariantSha256 || '',
       license: figure?.dataset.license || '',
@@ -167,6 +206,13 @@ async function inspect(browser, baseURL, target, viewport, name) {
     snapshot.sourceSha256 && snapshot.variantSha256 && snapshot.mobileVariantSha256,
     `${route} ${name}: checksums`,
   );
+  if (snapshot.sourceVersion === '0.2.0-lote2') {
+    assert(
+      snapshot.sourceRevision === '058b22b45fbc46a8ade8ed85efd0c6b93c2b620a'
+        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
+      `${route} ${name}: revisión canónica`,
+    );
+  }
   assert(
     snapshot.license === 'pending-institutional-confirmation'
       && snapshot.publicationAuthorized === 'false',
@@ -213,7 +259,13 @@ async function inspect(browser, baseURL, target, viewport, name) {
     const result = await window.axe.run(document, { rules: { region: { enabled: false } } });
     return result.violations
       .filter(({ impact }) => ['serious', 'critical'].includes(impact))
-      .map(({ id, impact, nodes }) => ({ id, impact, nodes: nodes.length }));
+      .map(({ id, impact, nodes }) => ({
+        id,
+        impact,
+        nodes: nodes.length,
+        target: nodes[0]?.target,
+        html: nodes[0]?.html,
+      }));
   });
   assert(violations.length === 0, `${route} ${name}: axe ${JSON.stringify(violations)}`);
   assert(external.length === 0, `${route} ${name}: tráfico externo ${external}`);
@@ -221,38 +273,66 @@ async function inspect(browser, baseURL, target, viewport, name) {
   assert(consoleErrors.length === 0, `${route} ${name}: consola ${consoleErrors}`);
   assert((await context.cookies()).length === 0, `${route} ${name}: cookies`);
 
+  if (viewport.width >= 1000 && scenario === 'root') {
+    const links = await page.locator('a[href]').evaluateAll((anchors) => [...new Set(anchors
+      .map((anchor) => anchor.href)
+      .filter((href) => {
+        const url = new URL(href);
+        return ['http:', 'https:'].includes(url.protocol)
+          && url.origin === window.location.origin
+          && url.pathname !== window.location.pathname;
+      }))]);
+    const broken = [];
+    for (const href of links) {
+      const linkResponse = await context.request.get(href);
+      if (linkResponse.status() < 200 || linkResponse.status() >= 400) {
+        broken.push(`${linkResponse.status()} ${href}`);
+      }
+    }
+    assert(broken.length === 0, `${route} ${name}: enlaces internos rotos ${broken.join(' | ')}`);
+  }
+
   const slug = route.split('/').filter(Boolean).at(-1);
   await page.locator('.udgia-figure').screenshot({
-    path: path.join(evidenceDir, `${slug}-${name}.png`),
+    path: path.join(evidenceDir, `${slug}-${scenario}-${name}.png`),
   });
   await context.close();
   return snapshot;
 }
 
 await mkdir(evidenceDir, { recursive: true });
-const tempRoot = await mkdtemp(path.join(tmpdir(), 'udgia006-hugo-'));
-const siteRoot = path.join(tempRoot, 'public');
-let server;
+const tempRoot = await mkdtemp(path.join(tmpdir(), 'udgia008-hugo-'));
 let browser;
 
 try {
-  const warnings = build(siteRoot);
-  const unexpectedWarnings = warnings.filter(
-    (warning) => !knownWarningPatterns.some((pattern) => pattern.test(warning)),
-  );
-  assert(unexpectedWarnings.length === 0, `advertencias Hugo nuevas: ${unexpectedWarnings.join(' | ')}`);
-  server = await startServer(siteRoot);
   browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
-  const results = [];
-  for (const target of routes) {
-    results.push(await inspect(browser, server.baseURL, target, { width: 1440, height: 900 }, 'desktop'));
-    results.push(await inspect(browser, server.baseURL, target, { width: 375, height: 812 }, 'mobile'));
+  const scenarios = [
+    { name: 'root', mountPath: '', buildBaseURL: 'http://127.0.0.1/' },
+    { name: 'subpath', mountPath: 'ecosistema-ia', buildBaseURL: 'http://127.0.0.1/ecosistema-ia/' },
+  ];
+  let warningCount = 0;
+  for (const scenario of scenarios) {
+    const siteRoot = path.join(tempRoot, scenario.name);
+    const warnings = build(siteRoot, scenario.buildBaseURL);
+    const unexpectedWarnings = warnings.filter(
+      (warning) => !knownWarningPatterns.some((pattern) => pattern.test(warning)),
+    );
+    assert(unexpectedWarnings.length === 0, `advertencias Hugo nuevas: ${unexpectedWarnings.join(' | ')}`);
+    warningCount += warnings.length;
+    const server = await startServer(siteRoot, scenario.mountPath);
+    try {
+      for (const target of routes) {
+        await inspect(browser, server.baseURL, target, { width: 1440, height: 900 }, 'desktop', scenario.name);
+        await inspect(browser, server.baseURL, target, { width: 375, height: 812 }, 'mobile', scenario.name);
+      }
+    } finally {
+      await server.close();
+    }
   }
-  console.log(`PASS: ${routes.length} rutas × 2 viewports, axe, SVG, fallback, red y almacenamiento.`);
-  if (warnings.length) console.log(`Advertencias Hugo conocidas: ${warnings.length}; nuevas: 0.`);
+  console.log(`PASS: ${routes.length} rutas × 2 bases × 2 viewports, axe, enlaces, SVG, fallback, red y almacenamiento.`);
+  if (warningCount) console.log(`Advertencias Hugo conocidas: ${warningCount}; nuevas: 0.`);
   console.log(`Evidencia: ${evidenceDir}`);
 } finally {
   await browser?.close();
-  await server?.close();
   await rm(tempRoot, { recursive: true, force: true });
 }

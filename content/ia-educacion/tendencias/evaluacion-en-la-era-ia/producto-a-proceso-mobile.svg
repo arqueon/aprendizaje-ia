@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 920" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">El desplazamiento de la evaluación: del producto al proceso</title>
+  <desc id="desc">Versión vertical. Evaluar solo el producto final puede mostrar desempeño sin revelar cómo se aprendió. Evaluar también el proceso aporta evidencia de preguntas, descartes, transformaciones y decisiones mediante instrumentos adaptables.</desc>
+  <style>
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
+    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-axis{stroke:#202945}
+  </style>
+  <g class="tk">
+    <rect x="25" y="25" width="370" height="185" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="210" y="64" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Evaluar solo el producto</text>
+    <text x="210" y="101" text-anchor="middle" font-size="16" class="muted">Observa el artefacto final.</text>
+    <text x="210" y="129" text-anchor="middle" font-size="16" class="muted">Deja opaco el uso de la IA.</text>
+    <text x="210" y="157" text-anchor="middle" font-size="16" class="muted">Puede mostrar desempeño sin acreditar</text>
+    <text x="210" y="181" text-anchor="middle" font-size="16" class="muted">por sí solo cómo se aprendió.</text>
+    <path d="M210 210v48" class="st-primary" stroke-width="3"/>
+    <path d="m201 248 9 12 9-12" fill="none" class="st-primary" stroke-width="3"/>
+    <text x="210" y="287" text-anchor="middle" font-size="16" font-weight="bold" class="primary">Desplazar la atención</text>
+
+    <rect x="25" y="310" width="370" height="210" rx="5" class="bg-primary st-primary" stroke-width="1.7"/>
+    <text x="210" y="350" text-anchor="middle" font-size="21" font-weight="bold" class="primary">Evaluar producto y proceso</text>
+    <text x="210" y="387" text-anchor="middle" font-size="16" class="ink">Observa el recorrido de pensamiento,</text>
+    <text x="210" y="413" text-anchor="middle" font-size="16" class="ink">decisión y revisión.</text>
+    <text x="210" y="451" text-anchor="middle" font-size="16" class="muted">Registra qué se preguntó, qué se descartó,</text>
+    <text x="210" y="477" text-anchor="middle" font-size="16" class="muted">qué se transformó y por qué.</text>
+    <text x="210" y="505" text-anchor="middle" font-size="16" font-weight="bold" class="good">Aporta evidencia de criterios y decisiones.</text>
+
+    <text x="210" y="567" text-anchor="middle" font-size="18" font-weight="bold" class="ink">Instrumentos adaptables</text>
+    <g transform="translate(25 590)">
+      <rect width="175" height="80" rx="4" class="bg-good st-good"/>
+      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="good">Portafolio</text>
+      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">iterativo.</text>
+    </g>
+    <g transform="translate(220 590)">
+      <rect width="175" height="80" rx="4" class="bg-good st-good"/>
+      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="good">Bitácora de</text>
+      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">decisiones.</text>
+    </g>
+    <g transform="translate(25 690)">
+      <rect width="175" height="80" rx="4" class="bg-neutral st-axis"/>
+      <text x="87.5" y="46" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Defensa oral.</text>
+    </g>
+    <g transform="translate(220 690)">
+      <rect width="175" height="80" rx="4" class="bg-neutral st-axis"/>
+      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Rúbricas</text>
+      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">asistidas.</text>
+    </g>
+    <rect x="25" y="808" width="370" height="86" rx="5" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="210" y="842" text-anchor="middle" font-size="16" font-weight="bold" class="primary">Trazabilidad sin vigilancia exhaustiva:</text>
+    <text x="210" y="870" text-anchor="middle" font-size="15.5" class="muted">documentar decisiones para sostener la validez.</text>
+  </g>
+</svg>

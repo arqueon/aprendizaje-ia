@@ -23,10 +23,48 @@ const targets = {
     mobileSvg: 'content/ia-educacion/guias/evaluacion-formativa-ia/instrumentos-evaluacion-proceso-mobile.svg',
     fallbackSignal: '| Instrumento |',
   },
+  'udgia-f01-trayectoria': {
+    page: 'content/ia-educacion/rutas/coordinacion-academica/index.md',
+    svg: 'content/ia-educacion/rutas/coordinacion-academica/trayectoria-habilitar-integrar.svg',
+    mobileSvg: 'content/ia-educacion/rutas/coordinacion-academica/trayectoria-habilitar-integrar-mobile.svg',
+    fallbackSignal: '| Etapa |',
+  },
+  'udgia-f03-principios': {
+    page: 'content/ia-educacion/guias/lineamientos-eticos-ia/index.md',
+    svg: 'content/ia-educacion/guias/lineamientos-eticos-ia/principios-rectores.svg',
+    mobileSvg: 'content/ia-educacion/guias/lineamientos-eticos-ia/principios-rectores-mobile.svg',
+    fallbackSignal: '| Principio rector |',
+  },
+  'udgia-f07-dialogo': {
+    page: 'content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md',
+    svg: 'content/ia-educacion/guias/aprendizaje-activo-con-ia/dialogo-ia-aprendizaje-activo.svg',
+    mobileSvg: 'content/ia-educacion/guias/aprendizaje-activo-con-ia/dialogo-ia-aprendizaje-activo-mobile.svg',
+    fallbackSignal: '| Movimiento |',
+  },
+  'udgia-f08-producto-proceso': {
+    page: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md',
+    svg: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/producto-a-proceso.svg',
+    mobileSvg: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/producto-a-proceso-mobile.svg',
+    fallbackSignal: '| Enfoque de evaluación |',
+  },
+  'udgia-f11-politica-capas': {
+    page: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md',
+    svg: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/politica-por-capas.svg',
+    mobileSvg: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/politica-por-capas-mobile.svg',
+    fallbackSignal: '| Capa de la política |',
+  },
+  'udgia-f17-priorizacion': {
+    page: 'content/ia-educacion/rutas/decision-institucional-ia/index.md',
+    svg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg',
+    mobileSvg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion-mobile.svg',
+    fallbackSignal: '| Ajuste estratégico |',
+  },
 };
 const failures = [];
 
-if (Object.keys(metadata).length !== 3) failures.push('el manifiesto no contiene tres figuras');
+if (Object.keys(metadata).length !== Object.keys(targets).length) {
+  failures.push(`el manifiesto no contiene ${Object.keys(targets).length} figuras`);
+}
 
 for (const [id, target] of Object.entries(targets)) {
   const meta = metadata[id];
@@ -56,6 +94,15 @@ for (const [id, target] of Object.entries(targets)) {
     || meta.publication_authorized !== false
   ) {
     failures.push(`${id}: procedencia o alternativa incompleta`);
+  }
+  if (
+    meta.source_version === '0.2.0-lote2'
+    && (
+      meta.source_revision !== '058b22b45fbc46a8ade8ed85efd0c6b93c2b620a'
+      || !/^[a-f0-9]{64}$/.test(meta.description_sha256)
+    )
+  ) {
+    failures.push(`${id}: revisión o checksum de descripción canónica`);
   }
   for (const [variant, source] of [['escritorio', svg], ['móvil', mobileSvg]]) {
     for (const [label, pattern] of [
@@ -94,4 +141,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log('PASS: 3 figuras × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.');
+console.log(`PASS: ${Object.keys(targets).length} figuras × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);

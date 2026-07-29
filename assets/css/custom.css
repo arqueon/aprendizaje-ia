@@ -216,6 +216,55 @@ article > figure:first-child > img.single_hero_round {
   margin-block: 0.65rem 0;
 }
 
+.prose .udgia-figure__description > div {
+  overflow-x: auto;
+  scrollbar-color: var(--udg-c-primary) var(--udg-c-surface-alt);
+}
+
+.prose .udgia-figure__description table {
+  width: 100%;
+  min-width: 38rem;
+  border: 1px solid var(--udg-c-line);
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 0.55rem;
+  background: var(--udg-c-surface);
+  overflow: hidden;
+}
+
+.prose .udgia-figure__description :where(th, td) {
+  padding: 0.7rem 0.8rem;
+  color: var(--udg-c-ink);
+  font-size: 0.88rem;
+  line-height: 1.45;
+  text-align: left;
+  vertical-align: top;
+  border: 0;
+}
+
+.prose .udgia-figure__description thead th {
+  color: var(--udg-c-surface);
+  font-size: 0.8rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  background: var(--udg-c-ink);
+}
+
+.prose .udgia-figure__description tbody td {
+  border-top: 1px solid var(--udg-c-line);
+}
+
+.prose .udgia-figure__description tbody tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--udg-c-surface-alt) 52%, var(--udg-c-surface));
+}
+
+.prose .udgia-figure__description tbody td:first-child {
+  min-width: 9rem;
+  font-weight: 750;
+  background: var(--udg-c-primary-tint);
+  border-inline-start: 3px solid var(--udg-c-primary);
+}
+
 @media (max-width: 47.999rem) {
   .prose .udgia-figure {
     width: 100%;
@@ -305,6 +354,12 @@ article > figure:first-child > img.single_hero_round {
   background: var(--udg-c-primary-tint);
   border-inline-start-color: var(--udg-c-primary);
   padding-block: 0.6rem;
+}
+
+.prose :where(blockquote a):not(:where([class~="not-prose"] *)) {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.16em;
 }
 
 .prose .udgia-executive-table {

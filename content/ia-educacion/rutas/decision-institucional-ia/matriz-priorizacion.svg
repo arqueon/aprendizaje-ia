@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 560" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Matriz de priorización: ajuste estratégico por capacidad institucional</title>
+  <desc id="desc">Matriz de dos por dos. El eje vertical representa el ajuste estratégico (de bajo a alto)
+    y el eje horizontal la capacidad institucional (de baja a alta). Resultan cuatro cuadrantes:
+    alto ajuste y alta capacidad, emprender de inmediato; alto ajuste y baja capacidad, desarrollar
+    capacidad primero; bajo ajuste y alta capacidad, posponer; bajo ajuste y baja capacidad, descartar.</desc>
+  <style>
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
+    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
+    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
+    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
+    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
+    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+  </style>
+
+  <g class="tk-font">
+    <!-- Cuadrantes -->
+    <!-- Superior izquierdo: alto ajuste, baja capacidad -->
+    <rect x="120" y="45" width="250" height="200" class="bg-warn st-warn" stroke-width="1.5"/>
+    <!-- Superior derecho: alto ajuste, alta capacidad -->
+    <rect x="370" y="45" width="250" height="200" class="bg-good st-good" stroke-width="1.5"/>
+    <!-- Inferior izquierdo: bajo ajuste, baja capacidad -->
+    <rect x="120" y="245" width="250" height="200" class="bg-risk st-risk" stroke-width="1.5"/>
+    <!-- Inferior derecho: bajo ajuste, alta capacidad -->
+    <rect x="370" y="245" width="250" height="200" class="bg-neutral st-axis" stroke-width="1.5"/>
+
+    <!-- Divisores centrales (color papel, no tokenizado) -->
+    <line x1="370" y1="45" x2="370" y2="445" stroke="#ffffff" stroke-width="2.5"/>
+    <line x1="120" y1="245" x2="620" y2="245" stroke="#ffffff" stroke-width="2.5"/>
+
+    <!-- Textos de los cuadrantes -->
+    <g text-anchor="middle">
+      <!-- Superior derecho -->
+      <text x="495" y="120" font-size="17" font-weight="bold" class="f-good">Emprender</text>
+      <text x="495" y="142" font-size="17" font-weight="bold" class="f-good">De inmediato</text>
+      <text x="495" y="172" font-size="12.5" class="f-good">Alto aporte y</text>
+      <text x="495" y="190" font-size="12.5" class="f-good">Capacidad disponible</text>
+
+      <!-- Superior izquierdo -->
+      <text x="245" y="120" font-size="17" font-weight="bold" class="f-ink">Desarrollar</text>
+      <text x="245" y="142" font-size="17" font-weight="bold" class="f-ink">Capacidad primero</text>
+      <text x="245" y="172" font-size="12.5" class="f-muted">Alto aporte,</text>
+      <text x="245" y="190" font-size="12.5" class="f-muted">Capacidad por construir</text>
+
+      <!-- Inferior izquierdo -->
+      <text x="245" y="330" font-size="17" font-weight="bold" class="f-risk">Descartar</text>
+      <text x="245" y="360" font-size="12.5" class="f-risk">Bajo aporte y</text>
+      <text x="245" y="378" font-size="12.5" class="f-risk">Baja capacidad</text>
+
+      <!-- Inferior derecho -->
+      <text x="495" y="330" font-size="17" font-weight="bold" class="f-ink">Posponer</text>
+      <text x="495" y="360" font-size="12.5" class="f-muted">Factible, pero</text>
+      <text x="495" y="378" font-size="12.5" class="f-muted">De bajo aporte</text>
+    </g>
+
+    <!-- Eje vertical: ajuste estratégico -->
+    <defs>
+      <marker id="flecha" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#202945"/>
+      </marker>
+    </defs>
+    <line x1="95" y1="445" x2="95" y2="40" class="st-axis" stroke-width="1.5" marker-end="url(#flecha)"/>
+    <text x="86" y="56" text-anchor="end" font-size="13" class="f-muted">Alto</text>
+    <text x="86" y="440" text-anchor="end" font-size="13" class="f-muted">Bajo</text>
+    <text x="34" y="245" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink"
+          transform="rotate(-90 34 245)">Ajuste estratégico</text>
+
+    <!-- Eje horizontal: capacidad institucional -->
+    <line x1="120" y1="480" x2="625" y2="480" class="st-axis" stroke-width="1.5" marker-end="url(#flecha)"/>
+    <text x="150" y="468" text-anchor="middle" font-size="13" class="f-muted">Baja</text>
+    <text x="590" y="468" text-anchor="middle" font-size="13" class="f-muted">Alta</text>
+    <text x="370" y="512" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Capacidad institucional</text>
+  </g>
+</svg>

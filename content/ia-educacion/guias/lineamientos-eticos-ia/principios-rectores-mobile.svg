@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1040" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Siete principios rectores para el uso pedagógico responsable de la IA</title>
+  <desc id="desc">Versión vertical de siete principios: formación antes que regulación, transparencia, evaluación del proceso, equidad, responsabilidad distribuida, autonomía institucional y revisión periódica. Son criterios revisables para decidir con contexto.</desc>
+  <style>
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
+    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-axis{stroke:#202945}
+  </style>
+  <g class="tk">
+    <rect x="25" y="24" width="370" height="92" rx="5" class="bg-primary st-primary" stroke-width="1.7"/>
+    <text x="210" y="60" text-anchor="middle" font-size="20" font-weight="bold" class="primary">Uso pedagógico responsable</text>
+    <text x="210" y="88" text-anchor="middle" font-size="15.5" class="muted">Criterios revisables para decidir con contexto.</text>
+
+    <g transform="translate(25 142)">
+      <rect width="370" height="105" rx="5" class="bg-neutral st-axis" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" class="bg-primary st-primary"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="primary">1</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="ink">Formación antes que regulación.</text>
+      <text x="70" y="72" font-size="15" class="muted">No exigir lo que no se enseñó.</text>
+    </g>
+    <g transform="translate(25 263)">
+      <rect width="370" height="105" rx="5" class="bg-primary st-primary" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" fill="#fff" class="st-primary"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="primary">2</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="primary">Transparencia por defecto.</text>
+      <text x="70" y="72" font-size="15" class="muted">Declarar el uso en ambas direcciones.</text>
+    </g>
+    <g transform="translate(25 384)">
+      <rect width="370" height="105" rx="5" class="bg-good st-good" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" fill="#fff" class="st-good"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="good">3</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="good">Evaluación del proceso.</text>
+      <text x="70" y="72" font-size="15" class="muted">Valorar decisiones, revisión y recorrido.</text>
+    </g>
+    <g transform="translate(25 505)">
+      <rect width="370" height="105" rx="5" class="bg-good st-good" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" fill="#fff" class="st-good"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="good">4</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="good">Equidad de acceso.</text>
+      <text x="70" y="72" font-size="15" class="muted">Evitar que una actividad cree brechas.</text>
+    </g>
+    <g transform="translate(25 626)">
+      <rect width="370" height="105" rx="5" class="bg-neutral st-axis" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" class="bg-primary st-primary"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="primary">5</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="ink">Responsabilidad distribuida.</text>
+      <text x="70" y="72" font-size="15" class="muted">Cada nivel responde por su parte.</text>
+    </g>
+    <g transform="translate(25 747)">
+      <rect width="370" height="105" rx="5" class="bg-neutral st-axis" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" class="bg-primary st-primary"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="primary">6</text>
+      <text x="70" y="37" font-size="18" font-weight="bold" class="ink">Autonomía y soberanía.</text>
+      <text x="70" y="66" font-size="15" class="muted">Conservar control sobre herramientas,</text>
+      <text x="70" y="88" font-size="15" class="muted">datos y dependencias.</text>
+    </g>
+    <g transform="translate(25 868)">
+      <rect width="370" height="105" rx="5" class="bg-primary st-primary" stroke-width="1.3"/>
+      <circle cx="35" cy="36" r="20" fill="#fff" class="st-primary"/><text x="35" y="42" text-anchor="middle" font-size="18" font-weight="bold" class="primary">7</text>
+      <text x="70" y="41" font-size="18" font-weight="bold" class="primary">Revisión periódica.</text>
+      <text x="70" y="72" font-size="15" class="muted">Actualizar con evidencia, prácticas y casos.</text>
+    </g>
+    <text x="210" y="1012" text-anchor="middle" font-size="15" font-weight="bold" class="ink">No son una lista de cumplimiento automático.</text>
+  </g>
+</svg>

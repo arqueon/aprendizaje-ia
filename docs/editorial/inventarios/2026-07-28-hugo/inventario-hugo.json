@@ -5,11 +5,11 @@
     "markdown": 158,
     "pages": 134,
     "sections": 24,
-    "words": 110696,
-    "assets": 174,
+    "words": 111619,
+    "assets": 186,
     "pages_with_featured": 140,
-    "pages_with_svg": 7,
-    "pages_with_tables": 61,
+    "pages_with_svg": 11,
+    "pages_with_tables": 64,
     "pages_with_mermaid": 19,
     "pages_with_h5p": 7,
     "pages_with_any_interaction": 9,
@@ -71,11 +71,11 @@
     "ia-educacion": {
       "pages": 51,
       "sections": 7,
-      "words": 55731,
+      "words": 56654,
       "featured": 47,
-      "svg": 6,
+      "svg": 18,
       "h5p": 5,
-      "tables": 108,
+      "tables": 114,
       "weak_lt250": 0,
       "missing_refs_with_citations": 0
     },
@@ -3131,7 +3131,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 989,
+      "words": 1162,
       "heading_count": 14,
       "h2_count": 8,
       "external_url_count": 5,
@@ -3141,10 +3141,10 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
-        "table_count": 2,
+        "svg_count": 2,
+        "table_count": 3,
         "mermaid_count": 1,
         "chart_count": 0,
         "h5p_count": 0,
@@ -3152,7 +3152,8 @@
         "shortcode_names": [
           "alert",
           "lead",
-          "mermaid"
+          "mermaid",
+          "udgia-figure"
         ]
       },
       "decision": "conservar",
@@ -3399,7 +3400,7 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1367,
+      "words": 1570,
       "heading_count": 28,
       "h2_count": 8,
       "external_url_count": 4,
@@ -3409,23 +3410,22 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
-        "table_count": 0,
+        "svg_count": 2,
+        "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead"
+          "lead",
+          "udgia-figure"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
@@ -5279,7 +5279,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1553,
+      "words": 1667,
       "heading_count": 15,
       "h2_count": 12,
       "external_url_count": 0,
@@ -5289,10 +5289,10 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 2,
+        "local_asset_count": 4,
         "inline_image_count": 1,
-        "svg_count": 1,
-        "table_count": 1,
+        "svg_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -5301,7 +5301,8 @@
           "alert",
           "card",
           "cards",
-          "lead"
+          "lead",
+          "udgia-figure"
         ]
       },
       "decision": "actualizar",
@@ -5336,7 +5337,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1365,
+      "words": 1500,
       "heading_count": 11,
       "h2_count": 11,
       "external_url_count": 0,
@@ -5346,10 +5347,10 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 2,
+        "local_asset_count": 4,
         "inline_image_count": 1,
-        "svg_count": 1,
-        "table_count": 2,
+        "svg_count": 3,
+        "table_count": 3,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -5358,7 +5359,8 @@
           "alert",
           "card",
           "cards",
-          "lead"
+          "lead",
+          "udgia-figure"
         ]
       },
       "decision": "actualizar",
@@ -5431,7 +5433,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 962,
+      "words": 1098,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 2,
@@ -5441,23 +5443,22 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
-        "table_count": 0,
+        "svg_count": 2,
+        "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead"
+          "lead",
+          "udgia-figure"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
@@ -5590,7 +5591,7 @@
         "ia",
         "etica"
       ],
-      "words": 972,
+      "words": 1134,
       "heading_count": 11,
       "h2_count": 8,
       "external_url_count": 4,
@@ -5600,22 +5601,21 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
-        "table_count": 0,
+        "svg_count": 2,
+        "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "lead",
+          "udgia-figure"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
