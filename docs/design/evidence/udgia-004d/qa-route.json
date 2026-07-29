@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-07-28T19:08:08.279Z",
+  "checkedAt": "2026-07-29T01:03:31.943Z",
   "routePath": "ia-educacion/rutas/decision-institucional-ia/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
@@ -19,7 +19,7 @@
     "scrollWidth": 1440,
     "h2": 15,
     "cards": 4,
-    "tables": 2,
+    "tables": 3,
     "executiveTables": 2,
     "tableCaptions": [
       "Distribución de decisiones y responsabilidades por nivel",
@@ -54,6 +54,7 @@
       "/tags/formaci%C3%B3n-docente/",
       "/tags/evaluaci%C3%B3n/",
       "/ia-educacion/rutas/coordinacion-academica/",
+      "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
       "/ia-educacion/guias/integracion-curricular-ia/",
       "/ia-educacion/guias/lineamientos-eticos-ia/",
       "/ia-educacion/tendencias/politicas-institucionales-universidades/",
@@ -150,6 +151,10 @@
       },
       {
         "pathname": "/ia-educacion/rutas/coordinacion-academica/",
+        "status": 200
+      },
+      {
+        "pathname": "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
         "status": 200
       },
       {
@@ -261,7 +266,7 @@
     "scrollWidth": 375,
     "h2": 15,
     "cards": 4,
-    "tables": 2,
+    "tables": 3,
     "executiveTables": 2,
     "tableCaptions": [
       "Distribución de decisiones y responsabilidades por nivel",
@@ -296,6 +301,7 @@
       "/tags/formaci%C3%B3n-docente/",
       "/tags/evaluaci%C3%B3n/",
       "/ia-educacion/rutas/coordinacion-academica/",
+      "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
       "/ia-educacion/guias/integracion-curricular-ia/",
       "/ia-educacion/guias/lineamientos-eticos-ia/",
       "/ia-educacion/tendencias/politicas-institucionales-universidades/",
@@ -392,6 +398,10 @@
       },
       {
         "pathname": "/ia-educacion/rutas/coordinacion-academica/",
+        "status": 200
+      },
+      {
+        "pathname": "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
         "status": 200
       },
       {
