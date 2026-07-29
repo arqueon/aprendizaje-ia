@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-07-27T18:31:03.235Z",
+  "generated": "2026-07-29T02:18:17.821Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
@@ -10,6 +10,14 @@
     {
       "id": "direccion-epistemica-hotspots",
       "path": "formacion-docente/alfabetizacion-co-creacion/"
+    },
+    {
+      "id": "direccion-epistemica-decidir-reformular",
+      "path": "ia-educacion/guias/agenciamiento-humano-ia/"
+    },
+    {
+      "id": "evidencias-proceso-proporcion",
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/"
     },
     {
       "id": "cocreacion-conceptos-cards",
@@ -31,11 +39,35 @@
   "expectedIDs": [
     "cocreacion-versiones-slider",
     "direccion-epistemica-hotspots",
+    "direccion-epistemica-decidir-reformular",
+    "evidencias-proceso-proporcion",
     "cocreacion-conceptos-cards",
     "evaluacion-proceso-decision",
     "cocreacion-evaluacion-recorrido",
     "objetivos-bloom-udgplus"
   ],
+  "udgia007Governance": {
+    "direccion-epistemica-decidir-reformular": {
+      "page": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "authorized-project-editorial",
+      "publicationAuthorized": true,
+      "reportingIsEnabled": false,
+      "answerCount": 5,
+      "correctAnswerCount": 1,
+      "showScorePoints": false
+    },
+    "evidencias-proceso-proporcion": {
+      "page": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "authorized-project-editorial",
+      "publicationAuthorized": true,
+      "reportingIsEnabled": false,
+      "answerCount": 5,
+      "correctAnswerCount": 1,
+      "showScorePoints": false
+    }
+  },
   "hugo": {
     "warnings": [
       "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
@@ -60,42 +92,80 @@
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 810
+        "fallbackLength": 810,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       },
       {
         "id": "direccion-epistemica-hotspots",
         "path": "formacion-docente/alfabetizacion-co-creacion/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 495
+        "fallbackLength": 495,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
+      },
+      {
+        "id": "direccion-epistemica-decidir-reformular",
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 702,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
+      },
+      {
+        "id": "evidencias-proceso-proporcion",
+        "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 737,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       },
       {
         "id": "cocreacion-conceptos-cards",
         "path": "ia-educacion/guias/agenciamiento-humano-ia/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 563
+        "fallbackLength": 563,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       },
       {
         "id": "evaluacion-proceso-decision",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 551
+        "fallbackLength": 551,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       },
       {
         "id": "cocreacion-evaluacion-recorrido",
         "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 545
+        "fallbackLength": 545,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       },
       {
         "id": "objetivos-bloom-udgplus",
         "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 602
+        "fallbackLength": 602,
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
       }
     ]
   },
@@ -137,7 +207,10 @@
             "landscapeRatio": true
           }
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
       },
       {
         "id": "direccion-epistemica-hotspots",
@@ -165,7 +238,182 @@
             "hotspotsDoNotOverlap": true
           }
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
+      },
+      {
+        "id": "direccion-epistemica-decidir-reformular",
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "height": 1029,
+        "inner": {
+          "width": 478,
+          "scrollWidth": 478,
+          "height": 1029,
+          "scrollHeight": 1029,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 478,
+          "visibleImages": [
+            {
+              "width": 478,
+              "height": 268.875,
+              "ratio": 1.7777777777777777
+            }
+          ],
+          "checks": {
+            "answerCountIsFive": true,
+            "answersStyled": true,
+            "imageReadable": true,
+            "scenarioVisible": true
+          }
+        },
+        "violations": [],
+        "formativeDecision": {
+          "wrongFeedbackVerified": true,
+          "correctFeedbackVerified": true,
+          "scoreLanguageAbsent": true,
+          "scorebarAbsent": {
+            "afterWrongAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            },
+            "afterCorrectAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            }
+          }
+        },
+        "overlapAudit": {
+          "scrollX": 0,
+          "viewportWidth": 1280,
+          "pageScrollWidth": 1280,
+          "fixedHeaderPresent": true,
+          "fixedHeader": {
+            "top": 0,
+            "bottom": 88,
+            "width": 1280,
+            "height": 88
+          },
+          "section": {
+            "top": 104.140625,
+            "bottom": 1853.046875,
+            "width": 479.703125,
+            "height": 1748.90625
+          },
+          "overlapsAtActivityEntry": false,
+          "sectionScreenshotFixedHeaderHidden": true,
+          "viewportScreenshot": "direccion-epistemica-decidir-reformular-viewport.png"
+        },
+        "storage": {
+          "before": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          },
+          "after": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          }
+        }
+      },
+      {
+        "id": "evidencias-proceso-proporcion",
+        "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "height": 973,
+        "inner": {
+          "width": 503,
+          "scrollWidth": 503,
+          "height": 973,
+          "scrollHeight": 973,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 503,
+          "visibleImages": [
+            {
+              "width": 503,
+              "height": 282.9375,
+              "ratio": 1.7777777777777777
+            }
+          ],
+          "checks": {
+            "answerCountIsFive": true,
+            "answersStyled": true,
+            "imageReadable": true,
+            "scenarioVisible": true
+          }
+        },
+        "violations": [],
+        "formativeDecision": {
+          "wrongFeedbackVerified": true,
+          "correctFeedbackVerified": true,
+          "scoreLanguageAbsent": true,
+          "scorebarAbsent": {
+            "afterWrongAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            },
+            "afterCorrectAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            }
+          }
+        },
+        "overlapAudit": {
+          "scrollX": 0,
+          "viewportWidth": 1280,
+          "pageScrollWidth": 1280,
+          "fixedHeaderPresent": true,
+          "fixedHeader": {
+            "top": 0,
+            "bottom": 88,
+            "width": 1280,
+            "height": 88
+          },
+          "section": {
+            "top": 103.875,
+            "bottom": 1805.96875,
+            "width": 504.75,
+            "height": 1702.09375
+          },
+          "overlapsAtActivityEntry": false,
+          "sectionScreenshotFixedHeaderHidden": true,
+          "viewportScreenshot": "evidencias-proceso-proporcion-viewport.png"
+        },
+        "storage": {
+          "before": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          },
+          "after": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          }
+        }
       },
       {
         "id": "cocreacion-conceptos-cards",
@@ -199,7 +447,10 @@
             "sceneKeepsLandscapeRatio": true
           }
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
       },
       {
         "id": "evaluacion-proceso-decision",
@@ -228,7 +479,10 @@
             "imageReadable": true
           }
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
       },
       {
         "id": "cocreacion-evaluacion-recorrido",
@@ -255,7 +509,10 @@
             "sceneKeepsLandscapeRatio": true
           }
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
       },
       {
         "id": "objetivos-bloom-udgplus",
@@ -274,12 +531,31 @@
           "visibleImages": [],
           "checks": {}
         },
-        "violations": []
+        "violations": [],
+        "formativeDecision": null,
+        "overlapAudit": null,
+        "storage": null
       }
     ],
     "preview": "Al finalizar, el estudiante categorizar dos fuentes con criterios explícitos a partir de un caso justificando tres diferencias.",
     "externalRequests": [],
     "writeRequests": [],
-    "consoleErrors": []
+    "consoleErrors": [],
+    "storage": {
+      "before": {
+        "localStorage": [],
+        "sessionStorage": [],
+        "indexedDB": [],
+        "cacheStorage": [],
+        "serviceWorkers": []
+      },
+      "after": {
+        "localStorage": [],
+        "sessionStorage": [],
+        "indexedDB": [],
+        "cacheStorage": [],
+        "serviceWorkers": []
+      }
+    }
   }
 }

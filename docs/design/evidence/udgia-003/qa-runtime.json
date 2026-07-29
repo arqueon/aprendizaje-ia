@@ -39,7 +39,7 @@
         "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
       }
     },
-    "totalBytes": 9940533,
+    "totalBytes": 9943325,
     "files": 681,
     "contents": [
       "runtime-probe",
@@ -54,7 +54,7 @@
     ]
   },
   "security": {
-    "validHash": "a53f444162b8e4985a153ffa1c6bd3cbc71e67af16650b774e41168f0ab4a82f",
+    "validHash": "710a7bea6a0574da6fe11a6a0d961f1e3d269205953338837ad030b8dfb6e094",
     "badHashRejected": true,
     "malicious": [
       {
@@ -109,9 +109,9 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 474,
+      "firstHeight": 473,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
-      "expandedHeight": 585,
+      "expandedHeight": 586,
       "collapsedHeight": 445,
       "stableHeight": 585,
       "innerGeometry": {
