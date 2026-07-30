@@ -56,6 +56,10 @@ content/
 - `layouts/partials/hooks/head-end.html` — parcial legado que Blowfish 2.97 no consume;
   no usarlo como punto de extensión
 - `layouts/shortcodes/card.html` + `cards.html` — usa **Font Awesome** (`fa-{icon}`), NO iconos nativos Blowfish
+- `layouts/_markup/render-table.html` — sistema global Almagre para tablas Markdown:
+  asigna variante editorial o matriz, mantiene desplazamiento móvil accesible y acepta
+  `.udgia-table--comparison`, `.udgia-table--matrix`, `.udgia-table--row-headers` y
+  `caption="…"` mediante atributos de bloque
 
 ## SVGs hero por sección — inventario legado
 
@@ -89,6 +93,14 @@ no con sustituciones cromáticas automáticas.
 ## Shortcodes disponibles (no usados aún)
 
 `tabs` (contenido por audiencia), `gallery` (evidencias Laboratorio), `carousel`, `figure`, `badge`, `list`, `article`, `video`, `github`
+
+## QA sistémica
+
+- `npm run qa:routes-tables` — valida “Elige tu ruta” en inicio e IA, tablas globales en
+  raíz/subruta y móvil/escritorio, contraste, axe, enlaces y ausencia de deriva H5P.
+- Las tablas sin atributos reciben el patrón global. Declara variante y caption solo cuando
+  aporten semántica; no reescribas el contenido como tarjetas móviles ni conviertas tablas
+  en imágenes.
 
 ## Estado del contenido
 

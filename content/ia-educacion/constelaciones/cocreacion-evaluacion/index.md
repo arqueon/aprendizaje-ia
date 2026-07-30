@@ -77,10 +77,11 @@ quien estudia o enseña.
 
 | La IA puede ayudarte a… | Todavía necesitas… |
 |---|---|
-| ensayar una explicación o pedir otro ejemplo; | comprobar si la explicación es correcta y pertinente; |
-| proponer preguntas, objeciones o alternativas; | decidir cuáles sirven para tu propósito; |
-| comentar un borrador y localizar puntos débiles; | juzgar qué cambios mejoran realmente el trabajo; |
-| ordenar información o comparar versiones; | verificar fuentes, cuidar datos y explicar tus decisiones. |
+| Ensayar una explicación o pedir otro ejemplo. | Comprobar si la explicación es correcta y pertinente. |
+| Proponer preguntas, objeciones o alternativas. | Decidir cuáles sirven para tu propósito. |
+| Comentar un borrador y localizar puntos débiles. | Juzgar qué cambios mejoran realmente el trabajo. |
+| Ordenar información o comparar versiones. | Verificar fuentes, cuidar datos y explicar tus decisiones. |
+{.udgia-table--comparison .udgia-table--row-headers caption="Qué puede aportar la IA y qué responsabilidad conserva la persona"}
 
 Un sistema genera respuestas a partir de patrones. No conoce tu asignatura como tu profesor,
 no sabe por sí mismo qué comprendiste y puede presentar información falsa con mucha

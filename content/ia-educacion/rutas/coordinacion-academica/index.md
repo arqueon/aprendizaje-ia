@@ -91,6 +91,7 @@ La trayectoria propone tres etapas que pueden solaparse y volver a revisarse:
 | Habilitar. | ¿Con qué acceso, protección de datos e infraestructura se cuenta? | Se establecen condiciones básicas y responsables para experimentar. |
 | Capacitar. | ¿Qué capacidades necesitan docentes, estudiantes y equipos de apoyo? | Se desarrolla un uso crítico, situado y pedagógicamente informado. |
 | Integrar. | ¿Cómo cambia el diseño de actividades, evaluación y acompañamiento? | La IA deja de ser un añadido y se articula con propósitos de aprendizaje. |
+{.udgia-table--matrix .udgia-table--row-headers caption="De habilitar condiciones a integrar la IA en el diseño educativo"}
 
 La figura sintetiza una orientación, no una escala empírica ni un modelo de madurez
 obligatorio. Las etapas pueden coexistir y requieren ciclos periódicos de revisión.
@@ -212,12 +213,13 @@ cantidad de usos de IA, por sí sola, no responde ninguna de las dos preguntas.
 
 | Evidencia útil | Pregunta que permite responder |
 |---|---|
-| muestra de programas de asignatura y rúbricas antes/después; | ¿las expectativas y los criterios se hicieron más claros? |
-| versiones de actividades y evaluaciones; | ¿el rediseño protege o mejora el aprendizaje esperado? |
-| consultas y casos no previstos, anonimizados; | ¿qué vacíos tuvo la guía y qué apoyo faltó? |
-| participación y productos de la formación; | ¿la capacitación llegó a la práctica o quedó aislada? |
-| problemas de acceso y alternativas utilizadas; | ¿el piloto produjo o redujo desigualdades? |
-| retroalimentación breve de docentes y estudiantes; | ¿qué funcionó, para quién y bajo qué condiciones? |
+| Muestra de programas de asignatura y rúbricas antes y después. | ¿Las expectativas y los criterios se hicieron más claros? |
+| Versiones de actividades y evaluaciones. | ¿El rediseño protege o mejora el aprendizaje esperado? |
+| Consultas y casos no previstos, anonimizados. | ¿Qué vacíos tuvo la guía y qué apoyo faltó? |
+| Participación y productos de la formación. | ¿La capacitación llegó a la práctica o quedó aislada? |
+| Problemas de acceso y alternativas utilizadas. | ¿El piloto produjo o redujo desigualdades? |
+| Retroalimentación breve de docentes y estudiantes. | ¿Qué funcionó, para quién y bajo qué condiciones? |
+{.udgia-table--comparison .udgia-table--row-headers caption="Evidencias proporcionadas para revisar un piloto"}
 
 Conviene excluir conversaciones completas con IA, datos personales, rankings de docentes y
 porcentajes de detectores de texto. Añaden vigilancia sin demostrar aprendizaje.

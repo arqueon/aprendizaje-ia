@@ -21,8 +21,22 @@ avanzar hacia guías, prácticas y marcos más especializados.
 ¿Cómo integramos la IA en el aula con intención?
 {{< /typeit >}}
 
+## Elige tu ruta
+
+Puedes entrar por la responsabilidad que hoy tienes. Cada ruta propone un primer recorrido y
+después enlaza las guías, prácticas y marcos que necesita.
+
 {{< cards >}}
-  {{< card link="constelaciones/empezar-con-ia/" title="Empezar con IA" icon="route" color="#b12028" description="Una introducción con dos rutas: aprender como estudiante o integrar IA como docente." >}}
+  {{< card link="constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Comprende qué cambia con la IA y comienza como estudiante o docente con una práctica acotada." >}}
+  {{< card link="rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Organiza acuerdos de programa, formación, pilotos y revisión con evidencias." >}}
+  {{< card link="rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" description="Relaciona propósito, gobernanza, capacidades, tecnología, recursos y seguimiento." >}}
+{{< /cards >}}
+
+[Compara las tres rutas y sus alcances](rutas/).
+
+## Explora por tema
+
+{{< cards >}}
   {{< card link="guias/" title="Guías prácticas" icon="map" color="#123b4a" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
   {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#9a4e3f" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
   {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#687653" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}

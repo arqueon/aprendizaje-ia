@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "checkedAt": "2026-07-30T03:34:14.254Z",
+  "h5pBaseline": {
+    "catalogContents": 9,
+    "pages": 7,
+    "mounts": 10
+  },
+  "scenarios": {
+    "root": {
+      "hugo": {
+        "pages": 925,
+        "warnings": 4,
+        "unexpectedWarnings": []
+      },
+      "homeDesktop": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "iaMobile": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "comparisonMobile": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "wrapperWidth": 310,
+        "wrapperScrollWidth": 608,
+        "overflowX": "auto",
+        "role": "region",
+        "tabindex": "0",
+        "ariaLabel": "Tabla: Qué puede aportar la IA y qué responsabilidad conserva la persona",
+        "hintDisplay": "block",
+        "caption": "Qué puede aportar la IA y qué responsabilidad conserva la persona",
+        "columnHeaders": 2,
+        "rowHeaders": 4,
+        "headerColor": "rgb(255, 255, 255)",
+        "headerBackground": "rgb(24, 34, 60)",
+        "cellColor": "rgb(24, 34, 60)",
+        "cellBackground": "rgb(255, 255, 255)",
+        "headerContrast": 15.76,
+        "bodyContrast": 15.76,
+        "axeSeriousCritical": []
+      },
+      "matrixDesktop": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "wrapperWidth": 648,
+        "wrapperScrollWidth": 648,
+        "overflowX": "auto",
+        "role": "region",
+        "tabindex": "0",
+        "ariaLabel": "Tabla: De habilitar condiciones a integrar la IA en el diseño educativo",
+        "hintDisplay": "none",
+        "caption": "De habilitar condiciones a integrar la IA en el diseño educativo",
+        "columnHeaders": 3,
+        "rowHeaders": 3,
+        "headerColor": "rgb(255, 255, 255)",
+        "headerBackground": "rgb(24, 34, 60)",
+        "cellColor": "rgb(24, 34, 60)",
+        "cellBackground": "rgb(255, 255, 255)",
+        "headerContrast": 15.76,
+        "bodyContrast": 15.76,
+        "axeSeriousCritical": []
+      },
+      "automaticEssayTables": 8,
+      "automaticEssayTableIdsUnique": true,
+      "preservedExecutiveTables": 2
+    },
+    "subpath": {
+      "hugo": {
+        "pages": 925,
+        "warnings": 4,
+        "unexpectedWarnings": []
+      },
+      "homeDesktop": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "iaMobile": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "comparisonMobile": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "wrapperWidth": 310,
+        "wrapperScrollWidth": 608,
+        "overflowX": "auto",
+        "role": "region",
+        "tabindex": "0",
+        "ariaLabel": "Tabla: Qué puede aportar la IA y qué responsabilidad conserva la persona",
+        "hintDisplay": "block",
+        "caption": "Qué puede aportar la IA y qué responsabilidad conserva la persona",
+        "columnHeaders": 2,
+        "rowHeaders": 4,
+        "headerColor": "rgb(255, 255, 255)",
+        "headerBackground": "rgb(24, 34, 60)",
+        "cellColor": "rgb(24, 34, 60)",
+        "cellBackground": "rgb(255, 255, 255)",
+        "headerContrast": 15.76,
+        "bodyContrast": 15.76,
+        "axeSeriousCritical": []
+      },
+      "matrixDesktop": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "wrapperWidth": 648,
+        "wrapperScrollWidth": 648,
+        "overflowX": "auto",
+        "role": "region",
+        "tabindex": "0",
+        "ariaLabel": "Tabla: De habilitar condiciones a integrar la IA en el diseño educativo",
+        "hintDisplay": "none",
+        "caption": "De habilitar condiciones a integrar la IA en el diseño educativo",
+        "columnHeaders": 3,
+        "rowHeaders": 3,
+        "headerColor": "rgb(255, 255, 255)",
+        "headerBackground": "rgb(24, 34, 60)",
+        "cellColor": "rgb(24, 34, 60)",
+        "cellBackground": "rgb(255, 255, 255)",
+        "headerContrast": 15.76,
+        "bodyContrast": 15.76,
+        "axeSeriousCritical": []
+      },
+      "automaticEssayTables": 8,
+      "automaticEssayTableIdsUnique": true,
+      "preservedExecutiveTables": 2
+    }
+  }
+}

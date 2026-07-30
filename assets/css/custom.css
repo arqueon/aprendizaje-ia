@@ -407,6 +407,147 @@ article > figure:first-child > img.single_hero_round {
   text-underline-offset: 0.16em;
 }
 
+/* UDGIA-015 · Sistema global de tablas.
+   El render hook conserva semántica tabular en cualquier ancho y permite declarar
+   comparativas, matrices, títulos y encabezados de fila desde Markdown. */
+.prose .udgia-table {
+  --udgia-table-min-width: 36rem;
+  --udgia-table-first-column: 10.5rem;
+
+  position: relative;
+  max-width: 100%;
+  margin-block: 1.75rem 2rem;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  color: var(--udg-c-ink);
+  background: var(--udg-c-surface);
+  border: 1px solid var(--udg-c-line);
+  border-radius: 0.85rem;
+  box-shadow:
+    0 1px 2px rgb(24 34 60 / 5%),
+    0 12px 30px rgb(24 34 60 / 7%);
+  scrollbar-color: var(--udg-c-primary) var(--udg-c-surface-alt);
+  scrollbar-gutter: stable;
+}
+
+.prose .udgia-table:focus-visible {
+  outline: 3px solid var(--udg-c-primary);
+  outline-offset: 3px;
+}
+
+.prose .udgia-table__mobile-hint {
+  display: none;
+}
+
+.prose .udgia-table__data {
+  width: 100%;
+  min-width: var(--udgia-table-min-width);
+  margin: 0;
+  color: var(--udg-c-ink);
+  border: 0;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: auto;
+}
+
+.prose .udgia-table__data caption {
+  padding: 0.9rem 1rem;
+  color: var(--udg-c-ink);
+  font-family: var(--udg-c-font-display);
+  font-size: 1.05rem;
+  font-weight: 750;
+  line-height: 1.4;
+  text-align: left;
+  background: var(--udg-c-primary-tint);
+  border-bottom: 1px solid var(--udg-c-line);
+}
+
+.prose .udgia-table__data :where(th, td) {
+  padding: 0.82rem 0.95rem;
+  color: var(--udg-c-ink);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-align: left;
+  text-transform: none;
+  vertical-align: top;
+  border: 0;
+}
+
+.prose .udgia-table__data thead th {
+  color: var(--udg-c-surface);
+  font-family: var(--udg-c-font-label);
+  font-size: 0.86rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  background: var(--udg-c-ink);
+}
+
+.prose .udgia-table__data tbody :where(th, td) {
+  border-top: 1px solid var(--udg-c-line);
+}
+
+.prose .udgia-table__data tbody tr:nth-child(even) :where(th, td) {
+  background: color-mix(in srgb, var(--udg-c-surface-alt) 52%, var(--udg-c-surface));
+}
+
+.prose .udgia-table__data tbody th[scope="row"] {
+  min-width: var(--udgia-table-first-column);
+  color: var(--udg-c-ink);
+  font-weight: 750;
+  background: var(--udg-c-primary-tint);
+  border-inline-end: 3px solid var(--udg-c-primary);
+}
+
+.prose .udgia-table__data tbody tr:nth-child(even) th[scope="row"] {
+  background: color-mix(in srgb, var(--udg-c-primary-tint) 72%, var(--udg-c-surface-alt));
+}
+
+.prose .udgia-table--editorial {
+  --udgia-table-min-width: 32rem;
+}
+
+.prose .udgia-table--comparison {
+  --udgia-table-min-width: 38rem;
+  --udgia-table-first-column: 14rem;
+}
+
+.prose .udgia-table--matrix {
+  --udgia-table-min-width: 44rem;
+}
+
+@media (max-width: 640px) {
+  .prose .udgia-table {
+    margin-block: 1.5rem 1.75rem;
+    border-radius: 0.7rem;
+  }
+
+  .prose .udgia-table__mobile-hint {
+    display: block;
+    position: sticky;
+    left: 0;
+    width: min(100%, 28rem);
+    margin: 0;
+    padding: 0.62rem 0.8rem;
+    color: var(--udg-c-muted);
+    font-family: var(--udg-c-font-label);
+    font-size: 0.78rem;
+    font-weight: 650;
+    letter-spacing: 0.015em;
+    background: var(--udg-c-surface-alt);
+    border-bottom: 1px solid var(--udg-c-line);
+  }
+
+  .prose .udgia-table__data caption {
+    padding: 0.78rem 0.82rem;
+    font-size: 0.98rem;
+  }
+
+  .prose .udgia-table__data :where(th, td) {
+    padding: 0.72rem 0.78rem;
+    font-size: 0.9rem;
+  }
+}
+
 .prose .udgia-executive-table {
   margin-block: 1.75rem 2rem;
   overflow-x: auto;
@@ -535,6 +676,8 @@ article > figure:first-child > img.single_hero_round {
 
   .card-bg,
   header,
+  .udgia-table,
+  .udgia-table :where(caption, th, td),
   .udgia-executive-table,
   .udgia-executive-table :where(caption, th, td) {
     border-color: CanvasText !important;
@@ -545,6 +688,20 @@ article > figure:first-child > img.single_hero_round {
   body {
     color: #000;
     background: #fff;
+  }
+
+  .prose .udgia-table {
+    overflow: visible;
+    box-shadow: none;
+    break-inside: avoid;
+  }
+
+  .prose .udgia-table__mobile-hint {
+    display: none;
+  }
+
+  .prose .udgia-table__data {
+    min-width: 0;
   }
 
   .prose .udgia-executive-table {

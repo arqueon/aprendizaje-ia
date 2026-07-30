@@ -16,6 +16,19 @@ Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que
   {{< card link="formacion-docente/" title="Formación docente" icon="graduation-cap" color="#10b981" img="images/cards/card-formacion.svg" description="Alfabetización digital, formación continua y redes de práctica para docentes." >}}
 {{< /cards >}}
 
+## Elige tu ruta
+
+Los temas del sitio permanecen disponibles arriba. Si buscas un punto de entrada según la
+decisión que necesitas tomar, comienza por una de estas rutas:
+
+{{< cards >}}
+  {{< card link="/ia-educacion/constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Una introducción para aprender con IA o integrarla a una actividad sin perder de vista el propósito formativo." >}}
+  {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Un recorrido para construir acuerdos, acompañar pilotos y revisar evidencias en programas, academias y SEMS." >}}
+  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" description="Un marco para alinear propósito, gobernanza, capacidades, tecnología, recursos y revisión." >}}
+{{< /cards >}}
+
+[Ver las rutas y sus alcances](/ia-educacion/rutas/).
+
 ## Ecosistema de aprendizaje
 
 {{< mermaid >}}
