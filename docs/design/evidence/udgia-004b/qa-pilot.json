@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-07-29T02:18:17.821Z",
+  "generated": "2026-08-02T20:00:21.881Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
@@ -92,7 +92,7 @@
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 810,
+        "fallbackLength": 868,
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -132,7 +132,7 @@
         "path": "ia-educacion/guias/agenciamiento-humano-ia/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 563,
+        "fallbackLength": 621,
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -162,7 +162,7 @@
         "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
         "width": 375,
         "scrollWidth": 375,
-        "fallbackLength": 602,
+        "fallbackLength": 660,
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -303,8 +303,8 @@
             "height": 88
           },
           "section": {
-            "top": 104.140625,
-            "bottom": 1853.046875,
+            "top": 104.203125,
+            "bottom": 1853.109375,
             "width": 479.703125,
             "height": 1748.90625
           },
@@ -389,8 +389,8 @@
             "height": 88
           },
           "section": {
-            "top": 103.875,
-            "bottom": 1805.96875,
+            "top": 104.15625,
+            "bottom": 1806.25,
             "width": 504.75,
             "height": 1702.09375
           },
