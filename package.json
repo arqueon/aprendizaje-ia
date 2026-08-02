@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "Sitio Hugo del ecosistema IA UDGPlus",
   "scripts": {
+    "qa:ecosistema": "node tools/qa-ecosystem.mjs",
     "h5p:package-fixture": "node tools/h5p/package-fixture.mjs",
     "h5p:package-pilot": "node tools/h5p/package-pilot.mjs",
     "h5p:build": "node tools/h5p/package-fixture.mjs && node tools/h5p/package-pilot.mjs && node tools/h5p/build-runtime.mjs",

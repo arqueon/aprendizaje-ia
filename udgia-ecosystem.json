@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "UDGIA-017",
+  "name": "Ecosistema editorial UDGIA",
+  "versionDate": "2026-08-02",
+  "policy": {
+    "scope": "QA de integración local entre autoridad editorial, distribución Hugo y fuente del curso",
+    "checkout": "La rama y la revisión deben coincidir exactamente; SELF resuelve al HEAD del repositorio portador del manifiesto.",
+    "workingTree": "report-only",
+    "remoteWritesAuthorized": false,
+    "publicationAuthorized": false
+  },
+  "repositories": [
+    {
+      "id": "orientaciones",
+      "role": "authority",
+      "label": "Orientaciones institucionales",
+      "defaultRoot": "../../../Academia/zettlr/UdeG/IAorientaciones",
+      "rootEnvironmentVariable": "UDGIA_ORIENTACIONES_ROOT",
+      "branch": "codex/UDGIA-015-orientaciones",
+      "revision": "1cb38d9b7486cb4f931de6d3657cf120e89ea4c1",
+      "qa": [
+        {
+          "id": "estructura-citas-figuras",
+          "command": ["python3", "tools/qa_udgia015.py"]
+        },
+        {
+          "id": "bibliografia-y-pdf",
+          "command": ["./scripts/build-orientaciones.sh"]
+        }
+      ]
+    },
+    {
+      "id": "hugo",
+      "role": "distribution",
+      "label": "Aprendizaje Digital e IA",
+      "defaultRoot": ".",
+      "rootEnvironmentVariable": "UDGIA_HUGO_ROOT",
+      "branch": "main",
+      "revision": "SELF",
+      "qa": [
+        {
+          "id": "figuras-gobernadas",
+          "command": ["npm", "run", "qa:udgia-figures"]
+        },
+        {
+          "id": "inventario-contenido",
+          "command": ["npm", "run", "qa:content-inventory"]
+        },
+        {
+          "id": "runtime-h5p",
+          "command": ["npm", "run", "qa:h5p"]
+        },
+        {
+          "id": "piloto-h5p",
+          "command": ["npm", "run", "qa:h5p:pilot"]
+        },
+        {
+          "id": "rutas-y-tablas",
+          "command": ["npm", "run", "qa:routes-tables"]
+        }
+      ]
+    },
+    {
+      "id": "curso",
+      "role": "course-source",
+      "label": "Alfabetización en IA",
+      "defaultRoot": "../alfabetizacion_en_ia",
+      "rootEnvironmentVariable": "UDGIA_CURSO_ROOT",
+      "branch": "main",
+      "revision": "8c93cb1ff6017248825320b5943b5448ae4b2845",
+      "qa": [
+        {
+          "id": "paquetes-y-piloto",
+          "command": ["npm", "test"]
+        }
+      ]
+    }
+  ],
+  "embeddedProvenance": {
+    "coursePackages": {
+      "authorityRevision": "126d64b09bda03a878cc2d0144c1e6e454aca860",
+      "distributionRevision": "24b752ed21736462dcb6a3a087b31323dbb5aecf",
+      "meaning": "Revisiones de origen de los activos empaquetados; no son las revisiones esperadas de los checkouts actuales."
+    },
+    "hugoFigureRegistry": {
+      "authorityRevision": "0331dfec00b47d2138641b0cdd3b6c8c56b9c345",
+      "meaning": "Revisión canónica registrada por las nueve figuras distribuidas."
+    }
+  },
+  "evidence": "docs/design/evidence/udgia-017/qa-ecosystem.json"
+}
