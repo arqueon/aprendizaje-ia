@@ -68,7 +68,7 @@
       "defaultRoot": "../alfabetizacion_en_ia",
       "rootEnvironmentVariable": "UDGIA_CURSO_ROOT",
       "branch": "main",
-      "revision": "8c93cb1ff6017248825320b5943b5448ae4b2845",
+      "revision": "6059398ffbf12c77a683776f2543bf4efdb48f5b",
       "qa": [
         {
           "id": "paquetes-y-piloto",
