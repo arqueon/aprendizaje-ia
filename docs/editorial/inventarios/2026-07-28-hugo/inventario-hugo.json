@@ -2,19 +2,19 @@
   "snapshot_date": "2026-07-28",
   "root": ".",
   "totals": {
-    "markdown": 165,
-    "pages": 141,
+    "markdown": 166,
+    "pages": 142,
     "sections": 24,
-    "words": 115814,
-    "assets": 188,
-    "pages_with_featured": 140,
+    "words": 115862,
+    "assets": 189,
+    "pages_with_featured": 141,
     "pages_with_svg": 12,
     "pages_with_tables": 64,
     "pages_with_mermaid": 18,
     "pages_with_h5p": 7,
     "pages_with_any_interaction": 9,
-    "body_lt90": 1,
-    "body_lt250": 27,
+    "body_lt90": 2,
+    "body_lt250": 28,
     "body_gt2800": 1,
     "missing_description": 25,
     "missing_summary": 8,
@@ -69,14 +69,14 @@
       "missing_refs_with_citations": 1
     },
     "ia-educacion": {
-      "pages": 58,
+      "pages": 59,
       "sections": 7,
-      "words": 59465,
-      "featured": 47,
+      "words": 59513,
+      "featured": 48,
       "svg": 20,
       "h5p": 5,
       "tables": 116,
-      "weak_lt250": 3,
+      "weak_lt250": 4,
       "missing_refs_with_citations": 0
     },
     "laboratorio": {
@@ -245,9 +245,14 @@
       "trabajo colaborativo": 1,
       "Guattari": 1,
       "marco conceptual": 1,
-      "aprendizaje activo": 2,
+      "aprendizaje activo": 3,
       "actividades de aula": 1,
       "retroalimentación": 3,
+      "aprendizaje híbrido": 2,
+      "diseño inverso": 1,
+      "Bloom": 1,
+      "ICAP": 1,
+      "co-creación con IA": 1,
       "aprendizaje rizomático": 1,
       "exploración": 1,
       "currículo abierto": 2,
@@ -455,7 +460,6 @@
       "plantillas": 2,
       "tecnología": 3,
       "educación digital": 1,
-      "aprendizaje híbrido": 1,
       "diseño-inverso": 1,
       "diseño curricular": 1,
       "planificación": 1,
@@ -487,7 +491,7 @@
     "categories": {
       "opinion": 6,
       "marco-conceptual": 5,
-      "guia": 21,
+      "guia": 22,
       "metodologia-pedagogica": 6,
       "marco-institucional": 1,
       "ruta-de-aprendizaje": 2,
@@ -507,10 +511,10 @@
       "video": 3
     },
     "areas": {
-      "ia": 119,
-      "pedagogia": 105,
-      "digital": 32,
-      "formacion": 39,
+      "ia": 120,
+      "pedagogia": 106,
+      "digital": 33,
+      "formacion": 40,
       "evaluacion": 49,
       "etica": 11
     },
@@ -582,8 +586,8 @@
         "canonical": "aprendizaje hibrido",
         "variants": [
           "aprendizaje-hibrido",
-          "Aprendizaje híbrido",
-          "aprendizaje híbrido"
+          "aprendizaje híbrido",
+          "Aprendizaje híbrido"
         ]
       },
       {
@@ -605,6 +609,13 @@
         "variants": [
           "marco-conceptual",
           "marco conceptual"
+        ]
+      },
+      {
+        "canonical": "icap",
+        "variants": [
+          "icap",
+          "ICAP"
         ]
       },
       {
@@ -639,6 +650,7 @@
         "canonical": "diseno inverso",
         "variants": [
           "diseno-inverso",
+          "diseño inverso",
           "diseño-inverso"
         ]
       },
@@ -689,6 +701,13 @@
         "variants": [
           "ABP",
           "abp"
+        ]
+      },
+      {
+        "canonical": "bloom",
+        "variants": [
+          "Bloom",
+          "bloom"
         ]
       },
       {
@@ -2515,13 +2534,13 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1389,
+      "words": 1435,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 5,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -3159,6 +3178,58 @@
       "needs": [
         "interaccion-candidata"
       ]
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+      "route": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+      "date": "2026-08-13",
+      "draft": false,
+      "description": "Una guía ilustrada para diseñar actividades de atrás hacia adelante: objetivo, evidencia, trabajo activo, contraste, integración y uso de IA sin delegar el aprendizaje.",
+      "summary": "Método paso a paso, ejemplos disciplinares, patrones transferibles, lista de cotejo y plantilla para diseñar actividades híbridas y activas con o sin IA.",
+      "tags": [
+        "aprendizaje híbrido",
+        "aprendizaje activo",
+        "diseño inverso",
+        "Bloom",
+        "ICAP",
+        "co-creación con IA"
+      ],
+      "categories": [
+        "guia"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia",
+        "formacion",
+        "digital"
+      ],
+      "words": 2,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "illustrated-guide"
+        ]
+      },
+      "decision": "archivar-o-fusionar",
+      "needs": []
     },
     {
       "path": "ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
