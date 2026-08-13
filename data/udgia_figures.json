@@ -197,9 +197,9 @@
     "license": "Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin",
     "attribution": "Generated Output de Napkin AI; adaptación editorial: Aprendizaje Digital e IA (UDGPlus)",
     "editorial_scope": "Material editorial del proyecto; no constituye un dictamen institucional.",
-    "authorization_scope": "local-preparation-only",
+    "authorization_scope": "project-editorial",
     "institutional_policy_status": "not-an-institutional-ruling",
-    "notice": "Piloto local pendiente de prueba de lectura y autorización de integración y publicación.",
-    "publication_authorized": false
+    "notice": "Integración y publicación autorizadas por Rubén el 2026-08-13 dentro del alcance 'commit de todo y push'.",
+    "publication_authorized": true
   }
 }
