@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">La acción se reconoce por lo que produce la persona</title>
+  <desc id="desc">Cuatro tarjetas no jerárquicas muestran el mismo caso. Recibir es leer una explicación; manipular es ordenar lo dado; generar es explicar con una razón; co-construir es responderse entre personas y crear una explicación común.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.blue{fill:#202d49}.pale{fill:#efe7d7}.t1{font:700 40px Lora,Georgia,serif}.t2{font:700 28px Lora,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+  </style>
+  <rect class="bg" width="640" height="800"/>
+  <text class="ink t1" x="320" y="52" text-anchor="middle">La acción se reconoce</text>
+  <text class="ink t1" x="320" y="96" text-anchor="middle">por lo que produce la persona</text>
+  <text class="muted body" x="320" y="134" text-anchor="middle">El mismo caso; cuatro conductas observables.</text>
+
+  <g transform="translate(34 174)">
+    <rect class="paper" width="276" height="218" rx="22"/>
+    <rect class="blue" x="24" y="27" width="10" height="30" rx="5"/>
+    <text class="ink t2" x="48" y="51">Recibir</text>
+    <text class="ink body" x="24" y="102">Lee una explicación.</text>
+    <text class="muted small" x="24" y="151">Producto visible</text>
+    <text class="ink body" x="24" y="184">Atención o recuerdo</text>
+  </g>
+  <g transform="translate(330 174)">
+    <rect class="paper" width="276" height="218" rx="22"/>
+    <rect class="ochre" x="24" y="27" width="10" height="30" rx="5"/>
+    <text class="ink t2" x="48" y="51">Manipular</text>
+    <text class="ink body" x="24" y="102">Ordena lo que recibió.</text>
+    <text class="muted small" x="24" y="151">Producto visible</text>
+    <text class="ink body" x="24" y="184">Selección u orden</text>
+  </g>
+  <g transform="translate(34 420)">
+    <rect class="paper" width="276" height="218" rx="22"/>
+    <rect class="red" x="24" y="27" width="10" height="30" rx="5"/>
+    <text class="ink t2" x="48" y="51">Generar</text>
+    <text class="ink body" x="24" y="102">Explica con una razón.</text>
+    <text class="muted small" x="24" y="151">Producto visible</text>
+    <text class="ink body" x="24" y="184">Relación o revisión</text>
+  </g>
+  <g transform="translate(330 420)">
+    <rect class="paper" width="276" height="218" rx="22"/>
+    <rect class="olive" x="24" y="27" width="10" height="30" rx="5"/>
+    <text class="ink t2" x="48" y="51">Co-construir</text>
+    <text class="ink body" x="24" y="102">Se responden y crean.</text>
+    <text class="muted small" x="24" y="151">Producto visible</text>
+    <text class="ink body" x="24" y="184">Explicación común</text>
+  </g>
+
+  <rect class="pale" x="34" y="676" width="572" height="82" rx="20"/>
+  <text class="red small" x="320" y="710" text-anchor="middle">No es una escalera ni una etiqueta de estudiante.</text>
+  <text class="ink body" x="320" y="742" text-anchor="middle">La consigna y la evidencia muestran la conducta.</text>
+</svg>

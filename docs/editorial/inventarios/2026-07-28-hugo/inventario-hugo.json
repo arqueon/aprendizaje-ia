@@ -2,19 +2,19 @@
   "snapshot_date": "2026-07-28",
   "root": ".",
   "totals": {
-    "markdown": 158,
-    "pages": 134,
+    "markdown": 165,
+    "pages": 141,
     "sections": 24,
-    "words": 111975,
-    "assets": 186,
+    "words": 115814,
+    "assets": 188,
     "pages_with_featured": 140,
-    "pages_with_svg": 11,
+    "pages_with_svg": 12,
     "pages_with_tables": 64,
-    "pages_with_mermaid": 19,
+    "pages_with_mermaid": 18,
     "pages_with_h5p": 7,
     "pages_with_any_interaction": 9,
     "body_lt90": 1,
-    "body_lt250": 26,
+    "body_lt250": 27,
     "body_gt2800": 1,
     "missing_description": 25,
     "missing_summary": 8,
@@ -27,7 +27,7 @@
     "_index.md": {
       "pages": 0,
       "sections": 1,
-      "words": 142,
+      "words": 199,
       "featured": 0,
       "svg": 0,
       "h5p": 0,
@@ -60,7 +60,7 @@
     "formacion-docente": {
       "pages": 17,
       "sections": 1,
-      "words": 15495,
+      "words": 16310,
       "featured": 18,
       "svg": 0,
       "h5p": 3,
@@ -69,20 +69,20 @@
       "missing_refs_with_citations": 1
     },
     "ia-educacion": {
-      "pages": 51,
+      "pages": 58,
       "sections": 7,
-      "words": 56965,
+      "words": 59465,
       "featured": 47,
-      "svg": 18,
+      "svg": 20,
       "h5p": 5,
-      "tables": 115,
-      "weak_lt250": 0,
+      "tables": 116,
+      "weak_lt250": 3,
       "missing_refs_with_citations": 0
     },
     "laboratorio": {
       "pages": 8,
       "sections": 4,
-      "words": 6485,
+      "words": 6560,
       "featured": 11,
       "svg": 0,
       "h5p": 2,
@@ -104,23 +104,23 @@
     "observatorio": {
       "pages": 10,
       "sections": 4,
-      "words": 10441,
+      "words": 10615,
       "featured": 14,
       "svg": 5,
       "h5p": 0,
       "tables": 14,
-      "weak_lt250": 1,
+      "weak_lt250": 0,
       "missing_refs_with_citations": 1
     },
     "recursos": {
       "pages": 40,
       "sections": 6,
-      "words": 16188,
+      "words": 16406,
       "featured": 44,
       "svg": 1,
       "h5p": 0,
-      "tables": 4,
-      "weak_lt250": 24,
+      "tables": 3,
+      "weak_lt250": 23,
       "missing_refs_with_citations": 3
     }
   },
@@ -1070,7 +1070,7 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 142,
+      "words": 199,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
@@ -1560,7 +1560,7 @@
         "digital",
         "ia"
       ],
-      "words": 1151,
+      "words": 1190,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 5,
@@ -1613,7 +1613,7 @@
         "ia",
         "formacion"
       ],
-      "words": 1998,
+      "words": 1987,
       "heading_count": 11,
       "h2_count": 7,
       "external_url_count": 3,
@@ -1780,7 +1780,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 932,
+      "words": 1081,
       "heading_count": 7,
       "h2_count": 6,
       "external_url_count": 2,
@@ -1836,7 +1836,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 828,
+      "words": 873,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 0,
@@ -1892,7 +1892,7 @@
         "ia",
         "formacion"
       ],
-      "words": 929,
+      "words": 951,
       "heading_count": 15,
       "h2_count": 7,
       "external_url_count": 3,
@@ -1945,7 +1945,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 728,
+      "words": 779,
       "heading_count": 10,
       "h2_count": 6,
       "external_url_count": 0,
@@ -1992,7 +1992,7 @@
         "formacion",
         "digital"
       ],
-      "words": 359,
+      "words": 370,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -2042,7 +2042,7 @@
         "ia",
         "formacion"
       ],
-      "words": 811,
+      "words": 802,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 5,
@@ -2095,7 +2095,7 @@
         "digital",
         "pedagogia"
       ],
-      "words": 947,
+      "words": 974,
       "heading_count": 6,
       "h2_count": 4,
       "external_url_count": 0,
@@ -2248,7 +2248,7 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 897,
+      "words": 949,
       "heading_count": 10,
       "h2_count": 5,
       "external_url_count": 0,
@@ -2276,7 +2276,8 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
-        "tabla-sintesis"
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -2304,7 +2305,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1268,
+      "words": 1525,
       "heading_count": 20,
       "h2_count": 9,
       "external_url_count": 2,
@@ -2356,7 +2357,7 @@
         "pedagogia",
         "evaluacion"
       ],
-      "words": 949,
+      "words": 966,
       "heading_count": 13,
       "h2_count": 7,
       "external_url_count": 1,
@@ -2413,7 +2414,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1008,
+      "words": 1173,
       "heading_count": 9,
       "h2_count": 8,
       "external_url_count": 0,
@@ -2498,8 +2499,8 @@
       "title": "Empezar con IA para aprender y enseñar",
       "date": "2026-07-27",
       "draft": false,
-      "description": "Una introducción al uso de la IA en educación: qué está cambiando, qué puede aportar y cómo comenzar como estudiante o docente.",
-      "summary": "Dos entradas —estudiante y docente— para comprender el cambio, decidir cuándo usar IA y avanzar sin perder de vista el aprendizaje.",
+      "description": "Una entrada para decidir qué conviene hacer con una ayuda de IA sin perder el propósito, la comprobación ni la responsabilidad.",
+      "summary": "Un caso completo y dos rutas —estudiar y enseñar— para probar una ayuda, revisar la evidencia y explicar una decisión.",
       "tags": [
         "introducción a la IA",
         "aprendizaje",
@@ -2514,34 +2515,32 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1013,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 1389,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 7,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
-        "table_count": 1,
-        "mermaid_count": 1,
+        "svg_count": 2,
+        "table_count": 0,
+        "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "alert",
-          "card",
-          "cards",
           "lead",
-          "mermaid"
+          "udgia-figure"
         ]
       },
       "decision": "actualizar",
       "needs": [
+        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
@@ -3077,7 +3076,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1730,
+      "words": 1710,
       "heading_count": 17,
       "h2_count": 11,
       "external_url_count": 6,
@@ -3212,6 +3211,46 @@
       "needs": [
         "svg-diagrama",
         "interaccion-candidata"
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/index.md",
+      "route": "/ia-educacion/guias/estudiantes/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Laboratorio guiado para decidir antes de entregar",
+      "date": "2026-08-03",
+      "draft": false,
+      "description": "Una práctica para comparar dos sugerencias, comprobar el punto decisivo y explicar qué cambia en un borrador.",
+      "summary": "Parte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 319,
+      "heading_count": 3,
+      "h2_count": 3,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": [
+        "featured"
       ]
     },
     {
@@ -3430,6 +3469,86 @@
       ]
     },
     {
+      "path": "ia-educacion/guias/privacidad-datos-ia/index.md",
+      "route": "/ia-educacion/guias/privacidad-datos-ia/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Antes de compartir: protege datos y trabajos al usar IA",
+      "date": "2026-08-11",
+      "draft": false,
+      "description": "Guía breve para decidir qué información no debe cargarse a un sistema generativo y qué alternativa permite continuar.",
+      "summary": "Distingue información pública, controlada, sensible y confidencial antes de copiarla a una herramienta de IA.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 192,
+      "heading_count": 3,
+      "h2_count": 3,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 1,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": [
+        "featured"
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/index.md",
+      "route": "/ia-educacion/guias/profesorado/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Diseñar actividades y observar el aprendizaje",
+      "date": "2026-08-03",
+      "draft": false,
+      "description": "Una práctica para comprobar si una actividad pide, permite practicar y revisa el mismo aprendizaje.",
+      "summary": "Parte de una actividad propia, localiza la primera desalineación y decide qué conviene ajustar.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 328,
+      "heading_count": 3,
+      "h2_count": 3,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 4,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": [
+        "featured"
+      ]
+    },
+    {
       "path": "ia-educacion/integracion-curricular/_index.md",
       "route": "/ia-educacion/integracion-curricular/",
       "kind": "section",
@@ -3495,7 +3614,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 785,
+      "words": 802,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -3522,6 +3641,166 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis"
+      ]
+    },
+    {
+      "path": "ia-educacion/investigacion/index.md",
+      "route": "/ia-educacion/investigacion/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Investigar con IA sin perder el rigor",
+      "date": "2026-08-11",
+      "draft": false,
+      "description": "Ruta para decidir dónde puede ayudar la IA en una investigación y qué comprobaciones, datos y responsabilidades no deben delegarse.",
+      "summary": "Pregunta, busca, lee, analiza y escribe con apoyo de IA conservando fuentes reales, confidencialidad, trazabilidad y responsabilidad humana.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 288,
+      "heading_count": 5,
+      "h2_count": 5,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": [
+        "featured"
+      ]
+    },
+    {
+      "path": "ia-educacion/orientaciones/index.md",
+      "route": "/ia-educacion/orientaciones/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+      "date": "2026-08-03",
+      "draft": false,
+      "description": "Estatus, alcance y rutas de consulta de una propuesta académica para orientar decisiones sobre IA y aprendizaje.",
+      "summary": "Qué propone el documento, qué autoridad tiene hoy y cómo continuar hacia una explicación o una práctica por audiencia.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 296,
+      "heading_count": 3,
+      "h2_count": 3,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": [
+        "featured"
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "route": "/ia-educacion/practicas/bitacora-cocreacion/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Bitácora breve de co-creación persona–IA",
+      "date": "2026-08-11",
+      "draft": false,
+      "description": "Plantilla para documentar propósito, aportes, fuentes, descartes, cambios y responsabilidad durante un trabajo con IA.",
+      "summary": "Deja visible cómo cambió el trabajo, qué decidió la persona y qué necesita comprobarse todavía.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 170,
+      "heading_count": 3,
+      "h2_count": 3,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 1,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": [
+        "featured"
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "route": "/ia-educacion/practicas/comprobar-afirmacion/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Comprueba la afirmación que cambia tu decisión",
+      "date": "2026-08-11",
+      "draft": false,
+      "description": "Práctica para identificar la afirmación decisiva de una salida de IA, localizar evidencia y decidir qué conservar.",
+      "summary": "No compruebes todo a la vez: localiza el punto que cambiaría tu conclusión y contrástalo con una fuente pertinente.",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 174,
+      "heading_count": 4,
+      "h2_count": 4,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": [
+        "featured"
       ]
     },
     {
@@ -5182,7 +5461,7 @@
         "modalidad-educativa"
       ],
       "areas": [],
-      "words": 1799,
+      "words": 2159,
       "heading_count": 8,
       "h2_count": 2,
       "external_url_count": 0,
@@ -5676,9 +5955,9 @@
         "pedagogia",
         "digital"
       ],
-      "words": 233,
-      "heading_count": 3,
-      "h2_count": 3,
+      "words": 190,
+      "heading_count": 2,
+      "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -5763,9 +6042,9 @@
         "pedagogia",
         "digital"
       ],
-      "words": 256,
-      "heading_count": 4,
-      "h2_count": 4,
+      "words": 216,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6073,7 +6352,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 809,
+      "words": 967,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -6098,7 +6377,8 @@
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6313,9 +6593,9 @@
         "pedagogia",
         "digital"
       ],
-      "words": 114,
-      "heading_count": 3,
-      "h2_count": 3,
+      "words": 92,
+      "heading_count": 2,
+      "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6642,7 +6922,7 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 224,
+      "words": 458,
       "heading_count": 4,
       "h2_count": 2,
       "external_url_count": 0,
@@ -6664,7 +6944,7 @@
           "chart"
         ]
       },
-      "decision": "fusionar-o-ampliar",
+      "decision": "actualizar",
       "needs": []
     },
     {
@@ -6788,9 +7068,9 @@
         "pedagogia",
         "evaluacion"
       ],
-      "words": 193,
-      "heading_count": 4,
-      "h2_count": 4,
+      "words": 155,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -7066,7 +7346,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 343,
+      "words": 358,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -7116,7 +7396,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 292,
+      "words": 321,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -7170,7 +7450,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1531,
+      "words": 1547,
       "heading_count": 15,
       "h2_count": 9,
       "external_url_count": 0,
@@ -7308,7 +7588,7 @@
       "date": "2026-04-26",
       "draft": false,
       "description": "Crítica sistemática de la narrativa dominante sobre IA en educación: qué se pierde cuando la educación se reorganiza para ser legible por máquinas.",
-      "summary": "Selwyn nombra cuatro límites que el discurso celebratorio de IA en educación rara vez reconoce: modelización estadística, daños a estudiantes minorizados, pérdidas por hacer la educación 'legible por máquinas', y costos ecológicos.",
+      "summary": "Selwyn nombra cuatro límites que el discurso celebratorio de IA en educación rara vez reconoce: modelización estadística, daños a estudiantes de grupos en minoría o en desventaja, pérdidas por hacer la educación 'legible por máquinas', y costos ecológicos.",
       "tags": [
         "pedagogía crítica",
         "Selwyn",
@@ -7324,7 +7604,7 @@
         "etica",
         "pedagogia"
       ],
-      "words": 363,
+      "words": 398,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -7375,7 +7655,7 @@
         "formacion",
         "digital"
       ],
-      "words": 1712,
+      "words": 1737,
       "heading_count": 17,
       "h2_count": 8,
       "external_url_count": 5,
@@ -7428,7 +7708,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 798,
+      "words": 850,
       "heading_count": 13,
       "h2_count": 7,
       "external_url_count": 2,
@@ -7472,9 +7752,9 @@
         "digital",
         "formacion"
       ],
-      "words": 233,
-      "heading_count": 4,
-      "h2_count": 4,
+      "words": 191,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -7521,7 +7801,7 @@
         "ia",
         "digital"
       ],
-      "words": 716,
+      "words": 739,
       "heading_count": 12,
       "h2_count": 6,
       "external_url_count": 6,
@@ -8556,7 +8836,7 @@
         "ia",
         "formacion"
       ],
-      "words": 244,
+      "words": 272,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
@@ -8578,7 +8858,7 @@
           "ref"
         ]
       },
-      "decision": "fusionar-o-ampliar",
+      "decision": "actualizar",
       "needs": []
     },
     {
@@ -8787,7 +9067,7 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 1777,
+      "words": 1801,
       "heading_count": 17,
       "h2_count": 7,
       "external_url_count": 8,
@@ -8980,7 +9260,7 @@
       "areas": [
         "ia"
       ],
-      "words": 178,
+      "words": 191,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -8993,7 +9273,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 1,
+        "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,

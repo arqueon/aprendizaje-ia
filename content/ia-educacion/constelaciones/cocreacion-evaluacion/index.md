@@ -4,197 +4,220 @@ slug: "empezar-con-ia"
 aliases:
   - "/ia-educacion/constelaciones/cocreacion-evaluacion/"
 date: 2026-07-27
+lastmod: 2026-08-05
 draft: false
-description: "Una introducción al uso de la IA en educación: qué está cambiando, qué puede aportar y cómo comenzar como estudiante o docente."
-summary: "Dos entradas —estudiante y docente— para comprender el cambio, decidir cuándo usar IA y avanzar sin perder de vista el aprendizaje."
+description: "Una entrada para decidir qué conviene hacer con una ayuda de IA sin perder el propósito, la comprobación ni la responsabilidad."
+summary: "Un caso completo y dos rutas —estudiar y enseñar— para probar una ayuda, revisar la evidencia y explicar una decisión."
 tags: ["introducción a la IA", "aprendizaje", "docencia", "alfabetización en IA"]
 categories: ["ruta-de-aprendizaje"]
 areas: ["ia", "pedagogia", "formacion"]
-showHero: true
-heroStyle: "big"
+showHero: false
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true
 showReadingTime: true
 showAuthor: false
+showRelatedContent: true
+content_type: entrada
+audiences: [estudiante, profesorado]
+intentions: [comprender, decidir]
+topics: [cocreacion, direccion-epistemica, evaluacion]
+challenges: [dependencia, alucinacion]
+competencies: [agencia, direccion-epistemica, verificacion]
+evidence_status: prototipo
+connections:
+  - relation: aplica
+    page: /ia-educacion/guias/estudiantes/
+    reason: "Practica cómo comparar dos sugerencias y conservar una decisión propia."
+  - relation: adapta
+    page: /ia-educacion/guias/profesorado/
+    reason: "Lleva el mismo principio al diseño de una actividad y su evidencia."
+  - relation: continua
+    page: /ia-educacion/investigacion/
+    reason: "Extiende la dirección humana a búsqueda, lectura, análisis y escritura académica."
 ecosistema:
   id: route.inicio-ia-educacion
   titulo: "Empezar con IA para aprender y enseñar"
   audiencias: [estudiante, docente]
   intenciones: [comprender, decidir, practicar, diseñar]
   tipo: guia
-  capas: [R.orientacion, L1, L2, L3]
-  resultado: "Reconoce qué cambia con la IA, elige una ruta inicial y decide qué parte del aprendizaje debe permanecer bajo responsabilidad humana."
-  estado_evidencia: prototipo-escenario
+  resultado: "Reconoce qué cambia con la IA y decide qué parte del aprendizaje debe permanecer bajo responsabilidad humana."
+  estado_evidencia: prototipo-revisado
   fuentes:
-    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion/"
-    - "https://arqueon.github.io/aprendizaje-ia/formacion-docente/alfabetizacion-operativa/"
-    - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/"
-  revisado: 2026-07-27
+    - "/ia-educacion/orientaciones/"
+  revisado: 2026-08-03
   relaciones:
-    - tipo: continua
-      destino: capacity.alfabetizacion-ia
-    - tipo: continua
-      destino: literacy.cocreacion
-    - tipo: prepara
-      destino: assessment.basada-en-procesos
-  reutilizacion: [hugo, moodle, curso-amplio]
-  accesibilidad: "El diagrama tiene una explicación textual equivalente y la ruta no depende de actividades interactivas."
+    - tipo: fundamenta
+      destino: orientaciones.propuesta
+    - tipo: aplica
+      destino: guia.estudiantes
+    - tipo: aplica
+      destino: guia.profesorado
+  reutilizacion: [hugo, curso-amplio]
+  accesibilidad: "El caso, las decisiones y las rutas se explican en texto; las actividades vinculadas incluyen versión sin JavaScript e impresión."
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-27
 ---
 
 {{< lead >}}
-La IA ya aparece al buscar información, escribir, traducir, programar, producir imágenes o
-preparar una clase. Su llegada a la educación cambia algo más profundo que las herramientas:
-cambia qué parte del trabajo hace una persona, qué puede pedir a un sistema y qué necesita
-comprender y decidir por sí misma.
+Una ayuda de inteligencia artificial puede mejorar un texto en segundos. Para que también
+apoye el aprendizaje, todavía hace falta recuperar el propósito, comprobar el punto decisivo
+y explicar qué se conserva, qué se modifica y por qué.
 {{< /lead >}}
 
-{{< alert icon="flask" type="info" >}}
-Esta es una **entrada introductoria**. No necesitas conocer todavía conceptos como
-co-creación, dirección epistémica o trazabilidad. Aparecerán después, cuando tengas una
-experiencia concreta desde la cual entenderlos.
-{{< /alert >}}
+## Dos sugerencias que parecen útiles
 
-## Qué está cambiando
+Renata prepara con su equipo una explicación para una asignatura de ciencias ambientales.
+Tomaron una muestra de agua junto a un puente, organizaron el resultado y escribieron una primera
+conclusión. Antes de entregar, Renata pide a un sistema de IA generativa una posible
+conclusión y un dato que convendría revisar.
 
-Una respuesta bien redactada, una imagen convincente o un programa que funciona pueden
-producirse en pocos minutos. Eso abre posibilidades reales: ensayar explicaciones, comparar
-alternativas, recibir comentarios sobre un borrador o explorar una pregunta desde varios
-ángulos.
+La primera sugerencia vuelve el texto más fluido, pero afirma que el agua es segura en toda la
+zona. Los datos del ejercicio no permiten sostener algo tan amplio. La segunda pregunta si llovió
+antes del muestreo y si eso podría cambiar la interpretación. Esa objeción sí revela un límite
+que el borrador no explicaba.
 
-También vuelve menos evidente qué aprendió una persona. El producto final ya no basta para
-reconstruir el recorrido. Por eso importa saber dónde hubo comprensión, qué se verificó y
-qué decisiones no fueron delegadas al sistema.
+Las dos propuestas suenan convincentes. Sin embargo, producen consecuencias distintas: aceptar
+la primera ampliaría la conclusión más allá de la evidencia; atender la segunda obligaría a
+limitarla o a conseguir nuevos datos. Renata todavía necesita decidir qué puede afirmar y qué
+debe dejar pendiente.
 
-La meta inicial no es dominar una marca ni memorizar fórmulas para escribir prompts. Es
-aprender a reconocer cuándo la IA ayuda, cuándo estorba y qué responsabilidad conserva
-quien estudia o enseña.
+## Una buena respuesta puede ocultar un mal recorrido
 
-## Qué puede aportar y qué no garantiza
+La IA puede proponer explicaciones, preguntas, imágenes, código o comentarios con rapidez. Eso
+permite ensayar alternativas y localizar un punto débil. También vuelve menos evidente qué
+aprendió una persona. Dos trabajos pueden verse igual de pulidos y provenir de recorridos muy
+distintos.
 
-| La IA puede ayudarte a… | Todavía necesitas… |
-|---|---|
-| Ensayar una explicación o pedir otro ejemplo. | Comprobar si la explicación es correcta y pertinente. |
-| Proponer preguntas, objeciones o alternativas. | Decidir cuáles sirven para tu propósito. |
-| Comentar un borrador y localizar puntos débiles. | Juzgar qué cambios mejoran realmente el trabajo. |
-| Ordenar información o comparar versiones. | Verificar fuentes, cuidar datos y explicar tus decisiones. |
-{.udgia-table--comparison .udgia-table--row-headers caption="Qué puede aportar la IA y qué responsabilidad conserva la persona"}
+En uno, la persona acepta una versión que no puede explicar. En otro, parte de una idea propia,
+compara la propuesta, verifica el punto decisivo y revisa con razones. El producto final importa,
+pero no muestra por sí solo dónde hubo comprensión ni quién conservó la decisión.
 
-Un sistema genera respuestas a partir de patrones. No conoce tu asignatura como tu profesor,
-no sabe por sí mismo qué comprendiste y puede presentar información falsa con mucha
-seguridad. Usarlo bien exige mantener esas limitaciones a la vista.
+Por eso conviene mirar dos cosas juntas:
 
-## Una forma sencilla de empezar
+- **el producto**, para valorar la calidad de lo que se entrega;
+- **una muestra pequeña del proceso**, para observar una decisión, una comprobación o un cambio
+  significativo.
 
-1. **Define el propósito.** Nombra qué quieres aprender, enseñar o producir antes de abrir
-   una herramienta.
-2. **Haz un primer intento.** Escribe una pregunta, esquema, solución o criterio propio.
-3. **Pide una ayuda concreta.** Solicita un ejemplo, una objeción, una comparación o
-   retroalimentación localizada.
-4. **Comprueba la respuesta.** Contrasta datos y fuentes; busca omisiones y supuestos.
-5. **Decide y explica.** Conserva, corrige o rechaza lo que recibiste. Al cerrar, identifica
-   qué entendiste mejor.
+No hace falta documentar cada clic ni guardar una conversación completa. En el caso de Renata
+bastan el primer borrador, la afirmación que decidió limitar, la evidencia consultada y una frase
+que explique por qué cambió la conclusión.
 
-Esta secuencia es deliberadamente básica. Primero conviene vivir el proceso; después podremos
-poner nombre a relaciones más complejas.
+## Cinco movimientos para probar una ayuda
 
-## Elige tu entrada
+1. **Nombra el propósito.** ¿Qué necesitas comprender, enseñar o producir?
+2. **Haz un primer intento.** Escribe una explicación, una pregunta o un criterio antes de pedir
+   una solución completa.
+3. **Solicita una ayuda delimitada.** Pide una objeción, un caso contrario, una comparación o un
+   comentario sobre una parte concreta.
+4. **Comprueba el punto decisivo.** Vuelve a los datos, fuentes, reglas o ejemplos que pueden
+   confirmar o debilitar la propuesta.
+5. **Decide y explica.** Conserva, transforma, descarta o deja pendiente el aporte y anota una
+   razón breve.
 
-{{< cards >}}
-  {{< card link="#si-eres-estudiante" title="Soy estudiante" icon="user-graduate" color="#b12028" description="Quiero usar IA para estudiar, investigar o mejorar un trabajo sin entregar mi aprendizaje a la herramienta." >}}
-  {{< card link="#si-eres-docente" title="Soy docente" icon="chalkboard-user" color="#18223c" description="Quiero decidir cuándo integrar IA y cómo conservar el propósito formativo de una actividad." >}}
-{{< /cards >}}
+Estos movimientos no son cinco requisitos separados. El esquema siguiente ayuda a ver cómo cada
+uno prepara el siguiente y mantiene el propósito, la comprobación y la decisión bajo
+responsabilidad de la persona.
 
-## Dos rutas, una misma pregunta
+{{< udgia-figure id="udgia-f18-cinco-movimientos" src="cinco-movimientos-ayuda.svg" >}}
+1. **Propósito claro:** nombra qué necesitas comprender, enseñar o producir.
+2. **Primer intento:** escribe una explicación, pregunta o criterio propio antes de pedir una solución completa.
+3. **Ayuda delimitada:** pide una objeción, un caso contrario, una comparación o apoyo sobre una parte concreta.
+4. **Punto comprobado:** vuelve a los datos, fuentes, reglas o ejemplos que pueden confirmar o debilitar la propuesta.
+5. **Decisión explicada:** conserva, transforma, descarta o deja pendiente el aporte y anota una razón breve.
 
-{{< mermaid >}}
-flowchart TD
-    A["Propósito de aprendizaje"] --> E["Si estudias:<br/>parte de un intento propio"]
-    A --> D["Si enseñas:<br/>define el esfuerzo que debe practicar el grupo"]
-    E --> I["Pregunta, compara<br/>y verifica"]
-    D --> T["Decide cuándo la IA<br/>ayuda o estorba"]
-    I --> R["Revisa y explica<br/>tus decisiones"]
-    T --> R
-    R --> P["Evidencia de aprendizaje"]
+El recorrido no obliga a usar IA ni a seguir una secuencia rígida. La ayuda también puede provenir de una fuente, una persona o un ejemplo preparado por quien enseña. Lo que se conserva es la relación entre propósito, trabajo propio, apoyo delimitado, comprobación y decisión.
+{{< /udgia-figure >}}
 
-    style A fill:#b12028,stroke:#7f1820,color:#ffffff
-    style E fill:#f7e5e2,stroke:#b12028,color:#18223c
-    style D fill:#ece9e1,stroke:#18223c,color:#18223c
-    style I fill:#dcebea,stroke:#2f7f83,color:#18223c
-    style T fill:#eee7d5,stroke:#687653,color:#18223c
-    style R fill:#d99518,stroke:#8a5e0b,color:#18223c
-    style P fill:#18223c,stroke:#10172a,color:#ffffff
-{{< /mermaid >}}
+La secuencia no convierte cada uso en una tarea larga. Sirve para reconocer qué parte no conviene
+delegar. Si todavía no puedes formular un primer intento, quizá necesites una explicación o un
+ejemplo antes de consultar la herramienta. Si ya dominas la tarea, una objeción puede ayudarte a
+profundizar sin ocupar tu decisión.
 
-En texto: ambas rutas comienzan con un propósito de aprendizaje. El estudiante parte de un
-intento propio; el docente identifica el esfuerzo que su grupo necesita practicar. Después
-se decide cómo participa la IA, se verifican sus aportes y se conserva alguna evidencia de
-las decisiones tomadas.
+## La misma ayuda cambia según el contexto
 
-## Si eres estudiante
+Una recomendación de redacción puede ser de bajo riesgo en un borrador privado y resultar
+inadecuada si contiene datos personales, información confidencial o una conclusión con
+consecuencias reales. También puede dejar de ser útil si exige un servicio de pago que no todo el
+grupo puede utilizar o si realiza justamente el trabajo que se intenta aprender.
 
-La IA puede funcionar como interlocutora, fuente de ejemplos o lectora de un borrador. No
-necesita escribir el trabajo por ti para ser útil.
+Antes de pegar información en una herramienta, retira datos que identifiquen a personas,
+materiales que no tengas permiso de compartir y detalles sensibles. Revisa también las reglas de
+la asignatura y las condiciones del servicio. Poder usar una herramienta no significa que
+cualquier dato deba entrar en ella.
 
-Empieza con una tarea pequeña:
+La alternativa sin IA forma parte de la misma decisión. Renata podría recibir dos conclusiones
+preparadas por su docente o intercambiar el borrador con otra persona. En ambas rutas necesita
+comparar, comprobar y explicar. Cambia la fuente de la objeción; no cambia el aprendizaje que se
+busca observar.
 
-1. escribe en dos o tres frases lo que ya entiendes;
-2. pide a la IA una objeción o un ejemplo que ponga a prueba esa idea;
-3. comprueba una afirmación importante en una fuente externa;
-4. reescribe con tus palabras y anota qué cambió;
-5. intenta explicar el resultado sin volver a consultar la conversación.
+## Si estudias: conserva una idea que puedas defender
 
-Cuando esta práctica te resulte familiar, continúa en este orden:
+Elige una parte pequeña de un trabajo actual. Escribe primero qué sostienes y qué duda tienes.
+Después consigue otra mirada mediante una fuente, un par o una IA. Comprueba primero la afirmación
+que sostiene tu conclusión: si fuera falsa, imprecisa o incompleta, ¿tendrías que cambiar lo que
+afirmas? Registra en una frase qué decidiste y por qué.
 
-1. [Alfabetización operativa](/formacion-docente/alfabetizacion-operativa/): formular,
-   comparar, verificar y documentar.
-2. [Alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/):
-   reconocer límites, sesgos y efectos.
-3. [Alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/):
-   sostener procesos más largos sin perder la dirección.
+Al terminar, intenta explicar sin volver a la conversación:
 
-## Si eres docente
+- qué sostenías al principio;
+- qué evidencia encontraste;
+- qué cambiaste o conservaste;
+- por qué la versión final es más defendible.
 
-La primera decisión no es qué herramienta usar. Es qué necesita practicar el estudiante y
-qué evidencia permitiría reconocer ese aprendizaje.
+Si puedes reconstruir esas cuatro piezas, la ayuda dejó una oportunidad de aprendizaje y no solo
+un producto más fluido.
 
-Antes de integrar IA en una actividad:
+[Practica con dos sugerencias para el mismo borrador](../../../actividades/comparar-sugerencias/)
+{.udgia-action-link}
 
-1. formula el resultado de aprendizaje con un desempeño observable;
-2. identifica el esfuerzo que el estudiante debe atravesar personalmente;
-3. decide si la IA amenaza ese esfuerzo, no lo afecta o puede enriquecerlo;
-4. explica con claridad qué usos están permitidos y cuáles no;
-5. ofrece una alternativa equivalente cuando el acceso, la privacidad o la preferencia del
-   estudiante lo requieran;
-6. revisa por separado el proceso y el producto final.
+## Si enseñas: protege el esfuerzo que forma la capacidad
 
-Para avanzar gradualmente:
+Antes de elegir una herramienta, identifica qué acción necesita practicar el grupo y qué evidencia
+permitiría verla. Después decide cuándo puede aparecer la ayuda. Una objeción puede ser útil
+después de un primer intento; una solución completa al comienzo puede retirar la dificultad que
+formaba la capacidad.
 
-1. [Tres literacidades para la formación](/formacion-docente/alfabetizacion/) ofrece el mapa
-   general.
-2. [Taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/)
-   ayuda a fijar objetivos antes de elegir tecnología.
-3. [Evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) muestra cómo
-   trabajar con borradores, retroalimentación y decisiones.
+Por ejemplo, si el grupo necesita comparar dos explicaciones y justificar cuál está mejor
+respaldada, la acción es comparar con criterios. La evidencia puede ser un párrafo que nombre el
+criterio decisivo, cite el dato usado y explique por qué una explicación resulta más sólida.
 
-## Cuándo aparece la co-creación
+El grupo necesita saber qué usos son pertinentes, qué información conviene mantener fuera de la
+herramienta y cómo puede realizarse el mismo aprendizaje sin IA. La expectativa resulta más clara
+cuando nombra una acción concreta —comparar, verificar, revisar— y no solamente “usar
+responsablemente”.
 
-Después de varios intentos notarás que la relación con la IA no siempre consiste en pedir y
-recibir. A veces una objeción cambia tu pregunta; una fuente invalida una respuesta; una
-comparación obliga a reescribir. La persona sigue decidiendo, pero el resultado surge de una
-interacción.
+[Revisa si una actividad pide, practica y revisa lo mismo](../../../actividades/revisar-actividad/)
+{.udgia-action-link}
 
-Llamamos **co-creación** a ese proceso cuando conserva propósito, verificación y decisión
-humana. Es un nivel posterior de la ruta, no el punto de partida. La
-[guía sobre co-creación y agenciamiento](/ia-educacion/guias/agenciamiento-humano-ia/)
-desarrolla el concepto con más detalle.
+## Cuando la relación se vuelve co-creación
 
-## Cuida la información
+A veces la ayuda solo corrige una forma. Otras veces una objeción modifica la pregunta y obliga a
+construir una explicación que no habría aparecido de la misma manera. Podemos hablar de
+**co-creación persona–IA** cuando ese aporte entra en un ciclo de trabajo intelectual y la persona
+conserva propósito, comprobación y decisión.
 
-Antes de pegar contenido en una herramienta, retira datos personales, información
-confidencial y trabajos de terceros que no tengas permiso de compartir. Comprueba también
-las reglas de tu asignatura y las condiciones del servicio. Poder usar una herramienta no
-significa que cualquier dato deba entrar en ella.
+El nombre importa menos que la relación que permite ver: la herramienta puede influir, pero no
+comprende ni responde por el trabajo como una persona. Quien entrega conserva la responsabilidad
+por lo que afirma; quien diseña la actividad conserva la responsabilidad por las condiciones y
+los apoyos que ofrece.
+
+En pocas palabras: empezar con IA no significa aprender primero una marca o una fórmula de
+instrucción. Significa reconocer qué quieres aprender, probar una ayuda delimitada y conservar la
+evidencia y la decisión que hacen tuyo el recorrido.
+
+## De dónde vienen estos criterios y cómo continuar
+
+La [propuesta de Orientaciones](../../orientaciones/) reúne el marco del que provienen estos
+criterios. No es una política institucional vigente. Aquí se traduce en acciones: hacer un primer
+intento protege el trabajo de aprendizaje, volver a los datos permite verificar, retirar
+información sensible cuida la privacidad y explicar una razón deja una decisión revisable.
+
+No necesitas recorrer todo el sitio en orden:
+
+- [Si estudias, continúa con el laboratorio breve](../../guias/estudiantes/).
+- [Si enseñas, continúa con la guía para revisar actividades](../../guias/profesorado/).
+- Si participarás en el programa acompañado de alfabetización crítica, encontrarás allí una
+  secuencia de tareas y evidencias. Ese programa está en diseño y todavía no tiene un destino
+  público autorizado.

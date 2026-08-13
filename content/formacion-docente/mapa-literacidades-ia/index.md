@@ -125,12 +125,12 @@ Las tres literacidades se concretan en un programa modular de seis módulos:
 
 {{< mermaid >}}
 flowchart LR
-    M1["**M1**<br/>Discernimiento"]
-    M2["**M2**<br/>Ética<br/>sociotécnica"]
-    M3["**M3**<br/>Agencia y<br/>co-creación"]
-    M4["**M4**<br/>Uso selectivo"]
-    M6["**M6**<br/>Proyecto<br/>integrador"]
-    M5["**M5 transversal**<br/>Adaptabilidad<br/>disciplinar"]
+    M1["**Discernimiento**"]
+    M2["**Ética<br/>sociotécnica**"]
+    M3["**Agencia y<br/>co-creación**"]
+    M4["**Uso selectivo**"]
+    M6["**Proyecto<br/>integrador**"]
+    M5["**Transversal**<br/>Adaptabilidad<br/>disciplinar"]
 
     M1 --> M2 --> M3 --> M4 --> M6
     M5 -.-> M1
@@ -147,10 +147,10 @@ flowchart LR
     style M5 fill:#f0fdf4,stroke:#16a34a,color:#166534
 {{< /mermaid >}}
 
-- **M1 · Discernimiento** y **M2 · Ética sociotécnica** construyen la literacidad **operativa** y la **crítica**.
-- **M3 · Agencia y co-creación** y **M4 · Uso selectivo** desarrollan la literacidad de **co-creación**.
-- **M5 · Adaptabilidad disciplinar** atraviesa los anteriores y traduce las tres literacidades a cada campo de estudio.
-- **M6 · Proyecto integrador** consolida todo y desplaza la evidencia de aprendizaje del producto al **proceso documentado**.
+- **Discernimiento** y **Ética sociotécnica** construyen la literacidad **operativa** y la **crítica**.
+- **Agencia y co-creación** y **Uso selectivo** desarrollan la literacidad de **co-creación**.
+- **Adaptabilidad disciplinar**, de carácter transversal, atraviesa los anteriores y traduce las tres literacidades a cada campo de estudio.
+- **Proyecto integrador** consolida todo y desplaza la evidencia de aprendizaje del producto al **proceso documentado**.
 
 ## Para profundizar
 

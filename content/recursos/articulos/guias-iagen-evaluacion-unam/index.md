@@ -31,7 +31,7 @@ tipoDocumento: "Guía institucional"
 ---
 
 {{< lead >}}
-En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus Redes Colaborativas, publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa** —una para bachillerato, otra para licenciatura y una más para posgrado—. Es el primer cuerpo institucional mexicano que aborda el problema con la granularidad que merece: cada nivel educativo tiene su propio documento y su propia lógica. Aquí los tres PDF completos, con una lectura comentada de lo que aporta cada uno.
+En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus Redes Colaborativas, publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa** —una para bachillerato, otra para licenciatura y una más para posgrado—. Es el primer cuerpo institucional mexicano que aborda el problema con el nivel de detalle que merece: cada nivel educativo tiene su propio documento y su propia lógica. Aquí los tres PDF completos, con una lectura comentada de lo que aporta cada uno.
 {{< /lead >}}
 
 ## Las tres guías en un solo lugar
@@ -80,7 +80,7 @@ La triada **evaluación del / para / como aprendizaje** organiza todo el materia
 
 La distinción entre **IA asistida (AI-Assisted)** e **IA integrada (AI-Integrated)** atraviesa toda la propuesta. La primera apoya tareas docentes específicas (generar reactivos, sugerir rúbricas, dar retroalimentación); la segunda incorpora la IAGen como componente estructural del ciclo evaluativo. Esta distinción permite tomar decisiones graduales en lugar de elegir entre prohibirla o adoptarla por completo.
 
-Los **principios éticos** son consistentes: equidad, transparencia, integridad académica, validez y supervisión humana. Las tres guías retoman las consideraciones de UNESCO (2021, 2023, 2025) y las cruzan con marcos recientes —ARCHED de Li et al. (2025), GAIA-GEN de la propia UNAM— para construir un discurso institucional alineado con la conversación internacional.
+Los **principios éticos** son consistentes: equidad, transparencia, integridad académica, validez y supervisión humana. Las tres guías retoman las consideraciones de UNESCO (2021, 2023, 2025) y las cruzan con marcos recientes de referencia para evaluación con IA —ARCHED de Li et al. (2025) y GAIA-GEN de la propia UNAM, cuyas siglas se conservan por trazabilidad bibliográfica— para construir un discurso institucional alineado con la conversación internacional.
 
 Las **advertencias sobre limitaciones** —alucinaciones, sesgos, problemas de privacidad y acceso desigual— aparecen en las tres con la misma seriedad. Ninguna guía vende a la IAGen como solución; todas insisten en que no sustituye el juicio docente.
 
@@ -162,6 +162,7 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 130%; margin-top: 1.5rem; margin-bottom: 1rem;">
     <iframe src="GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf"
+            title="Guía de uso de IAGen en evaluación educativa, nivel Bachillerato (UNAM, PDF)"
             style="position: absolute; width: 100%; height: 100%; border: none;"
             allowfullscreen>
     </iframe>
@@ -173,6 +174,7 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 130%; margin-top: 1.5rem; margin-bottom: 1rem;">
     <iframe src="GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf"
+            title="Guía de uso de IAGen en evaluación educativa, nivel Licenciatura (UNAM, PDF)"
             style="position: absolute; width: 100%; height: 100%; border: none;"
             allowfullscreen>
     </iframe>
@@ -184,6 +186,7 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 130%; margin-top: 1.5rem; margin-bottom: 1rem;">
     <iframe src="GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf"
+            title="Guía de uso de IAGen en evaluación educativa, nivel Posgrado (UNAM, PDF)"
             style="position: absolute; width: 100%; height: 100%; border: none;"
             allowfullscreen>
     </iframe>

@@ -14,6 +14,24 @@ showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
 showSummary: true
+showRelatedContent: true
+content_type: guia
+audiences: [profesorado, coordinacion]
+intentions: [diseñar, evaluar]
+topics: [evaluacion, retroalimentacion, trazabilidad]
+challenges: [dependencia, opacidad]
+competencies: [juicio-evaluativo, diseno-pedagogico, trazabilidad]
+evidence_status: evidencia-citada
+connections:
+  - relation: fundamenta
+    page: /formacion-docente/alfabetizacion-co-creacion/
+    reason: "Relaciona la evaluación del proceso con dirección epistémica y co-creación."
+  - relation: ejemplifica
+    page: /ia-educacion/productos-de-aprendizaje/ensayo/
+    reason: "Observa versiones, decisiones y declaración de uso en una tarea completa."
+  - relation: requiere
+    page: /ia-educacion/guias/privacidad-datos-ia/
+    reason: "Protege textos, retroalimentación y datos antes de usar un servicio externo."
 ecosistema:
   id: assessment.basada-en-procesos
   titulo: "Evaluación basada en procesos"

@@ -60,7 +60,7 @@ No solo el precio de lista. El costo total incluye la tarifa mensual, las cuotas
 
 ### Soporte institucional
 
-Factibilidad operativa para que la institución adopte la herramienta. Se examina si hay canal de soporte dedicado, documentación en español, SLA contractual, historial de comunicación sobre cambios y comunidad de usuarios en universidades mexicanas.
+Factibilidad operativa para que la institución adopte la herramienta. Se examina si hay canal de soporte dedicado, documentación en español, SLA —acuerdo de nivel de servicio, con tiempos de respuesta garantizados por contrato—, historial de comunicación sobre cambios y comunidad de usuarios en universidades mexicanas.
 
 ## Matriz comparativa: modelos generativos
 
@@ -74,7 +74,7 @@ La foto de abril de 2026 para los cinco modelos más relevantes en uso académic
 | Kimi (Moonshot AI) | Limitada: procesamiento en China | Medio: web accesible; interfaz parcialmente en chino | Alta en contexto largo (hasta 2 millones de tokens) | Gratuito; API de bajo costo | Muy bajo |
 | Qwen (Alibaba) | Limitada: procesamiento en China | Alto: web y API accesibles | Razonable; fuerte en idiomas asiáticos, adecuado en español | Gratuito vía web; API a bajo costo | Muy bajo |
 
-La lectura de esta tabla debe cruzarse con el uso previsto. Para calificar ensayos con datos estudiantiles, Gemini en Workspace for Education es la opción con menos fricción institucional. Para análisis de textos extensos sin datos personales, Kimi ofrece una ventana de contexto que los demás no igualan. Para tareas de aula donde la privacidad es menos crítica y el costo importa, DeepSeek es viable.
+La lectura de esta tabla debe cruzarse con el uso previsto. Para calificar ensayos con datos estudiantiles, Gemini en Workspace for Education es la opción con menos fricción institucional. Para análisis de textos extensos sin datos personales, Kimi ofrece una ventana de contexto —la cantidad de texto que el modelo puede tomar en cuenta a la vez— que los demás no igualan. Para tareas de aula donde la privacidad es menos crítica y el costo importa, DeepSeek es viable.
 
 ## Herramientas educativas específicas
 

@@ -20,7 +20,7 @@ weight: 8
 ---
 
 {{< lead >}}
-El syllabus es el programa detallado de aprendizaje: la base para determinar materiales, videos, ejercicios de evaluación y espacios de interacción en el curso. El portafolio de docencia permite a cada profesor reflexionar sobre y compartir sus prácticas.
+Antes del primer día de clase, el syllabus ya tomó muchas de las decisiones: qué se aprende, con qué materiales, cómo se evalúa y dónde se interactúa. El syllabus es el programa detallado de aprendizaje: la base para determinar materiales, videos, ejercicios de evaluación y espacios de interacción en el curso. El portafolio de docencia permite a cada profesor reflexionar sobre y compartir sus prácticas.
 {{< /lead >}}
 
 ## El syllabus en el aprendizaje híbrido
@@ -61,7 +61,7 @@ El syllabus o programa detallado de la asignatura debe contemplar los siguientes
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Perfil del profesor" icono="user-tie" color="#64748b" >}}
-  Datos de contacto y dirección URL del LMS (Moodle, Google Classroom).
+  Datos de contacto y dirección URL del LMS —el sistema de gestión de aprendizaje, como Moodle o Google Classroom—.
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
@@ -151,5 +151,5 @@ Este perfil del profesor moderno es indispensable para liderar la [transformaci�
 ## Referencias
 
 - Bowen, R.S. (2017). *Understanding by Design*. Vanderbilt University Center for Teaching.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
 - Wiggins, G., & McTighe, J. (2005). *Understanding By Design* (2nd ed., 2nd Expanded).

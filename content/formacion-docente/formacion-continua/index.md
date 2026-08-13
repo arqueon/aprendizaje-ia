@@ -28,7 +28,7 @@ La alternativa no es saturar al docente con más capacitaciones, sino organizar 
 
 ## Oferta UDGplus
 
-La Universidad de Guadalajara mantiene oferta de formación docente que articula los tres planos: programas como UDGplus para formación intensiva, talleres temáticos para mantenimiento y un ecosistema de comunidades de práctica para el aprendizaje informal. La oferta concreta cambia cada semestre y conviene consultar el calendario institucional vigente.
+La Universidad de Guadalajara mantiene oferta de formación docente que articula los tres planos: programas como UDGplus para formación intensiva, talleres temáticos para mantenimiento y un ecosistema de comunidades de práctica —grupos de colegas que aprenden juntos alrededor de lo que hacen— para el aprendizaje informal. La oferta concreta cambia cada semestre y conviene consultar el calendario institucional vigente.
 
 ## Recursos externos seleccionados
 

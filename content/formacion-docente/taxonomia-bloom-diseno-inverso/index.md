@@ -141,6 +141,6 @@ Esta correspondencia permite evaluar si la tecnología utilizada en un curso rea
 
 - Bowen, R.S. (2017). *Understanding by Design*. Vanderbilt University Center for Teaching.
 - Harvard / The Derek Bok Center for Teaching and Learning. (2022). Designing Your Course. https://bokcenter.harvard.edu/designing-your-course
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
 - Wiggins, G., & McTighe, J. (2005). *Understanding By Design* (2nd ed., 2nd Expanded).
 - Wiggins, G., & McTighe, J. (2011). *The Understanding by Design: Guide to Creating High-Quality Units*. Association for Supervision & Curriculum Development.

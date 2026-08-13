@@ -7,6 +7,21 @@ categories: ["concepto"]
 areas: ["pedagogia"]
 aliases: ["/glosario/ganancia-cognitiva/"]
 showHero: true
+showRelatedContent: true
+content_type: concepto
+audiences: [estudiante, profesorado, investigacion]
+intentions: [comprender, evaluar]
+topics: [carga-cognitiva, cocreacion, pensamiento-critico]
+challenges: [dependencia]
+competencies: [agencia, juicio-evaluativo]
+evidence_status: evidencia-citada
+connections:
+  - relation: contrasta
+    page: /observatorio/estudios/paradoja-descarga-cognitiva/
+    reason: "Mira evidencia y límites de la descarga cognitiva en situaciones de aprendizaje."
+  - relation: aplica
+    page: /ia-educacion/practicas/comprobar-afirmacion/
+    reason: "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
 summary: "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo."
 ecosistema:
   id: outcome.ganancia-cognitiva

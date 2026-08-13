@@ -1,0 +1,191 @@
+{{- if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) -}}
+  {{- $page := . -}}
+  {{- $limit := .Site.Params.article.relatedContentLimit | default 5 -}}
+  {{- $automaticLimit := 2 -}}
+  {{- $labels := dict
+    "continua" "Continúa"
+    "aplica" "Ponlo en práctica"
+    "ejemplifica" "Mira un ejemplo"
+    "fundamenta" "Comprende el fundamento"
+    "contrasta" "Contrasta"
+    "adapta" "Adáptalo"
+    "requiere" "Prepárate antes"
+    "actualiza" "Revisa la evidencia"
+    "debate" "Abre el debate"
+  -}}
+  {{- $typeLabels := dict
+    "entrada" "Vuelve al punto de partida"
+    "ruta" "Sigue una ruta"
+    "concepto" "Comprende el fundamento"
+    "guia" "Llévalo a una decisión"
+    "practica" "Ponlo en práctica"
+    "producto" "Mira una aplicación"
+    "evidencia" "Contrasta con evidencia"
+  -}}
+  {{- $typeMovements := dict
+    "entrada" "situar esa capacidad en un recorrido inicial"
+    "ruta" "seguirla en un recorrido guiado"
+    "concepto" "comprender su fundamento y sus límites"
+    "guia" "convertirla en decisiones concretas"
+    "practica" "ponerla a prueba con un procedimiento breve"
+    "producto" "verla aplicada en una tarea completa"
+    "evidencia" "contrastarla con evidencia y límites"
+  -}}
+  {{- $competencyText := dict
+    "agencia" "conservar la decisión propia"
+    "direccion-epistemica" "dirigir qué se pregunta, comprueba y concluye"
+    "verificacion" "comprobar afirmaciones y fuentes"
+    "diseno-pedagogico" "diseñar actividades coherentes"
+    "juicio-evaluativo" "valorar evidencias antes de decidir"
+    "cocreacion" "trabajar con IA sin ceder la dirección"
+    "trazabilidad" "hacer visibles fuentes, cambios y decisiones"
+    "integridad" "proteger la integridad del trabajo"
+  -}}
+  {{- $intentionText := dict
+    "comprender" "comprender el tema"
+    "decidir" "tomar una decisión"
+    "practicar" "poner una idea en práctica"
+    "comprobar" "comprobar una afirmación"
+    "diseñar" "diseñar una actividad"
+    "evaluar" "evaluar el proceso"
+    "investigar" "investigar con rigor"
+    "documentar" "documentar el proceso"
+    "debatir" "contrastar perspectivas"
+  -}}
+  {{- $challengeText := dict
+    "dependencia" "reconocer y reducir la dependencia"
+    "alucinacion" "detectar afirmaciones inventadas o sin respaldo"
+    "autoria" "conservar una autoría responsable"
+    "opacidad" "hacer visible cómo se llegó al resultado"
+    "privacidad" "proteger información personal"
+    "confidencialidad" "proteger información confidencial"
+    "inequidad" "evitar que la herramienta aumente desigualdades"
+    "desactualizacion" "detectar información desactualizada"
+  -}}
+  {{- $topicText := dict
+    "cocreacion" "la co-creación persona–IA"
+    "direccion-epistemica" "la dirección humana del trabajo"
+    "evaluacion" "la evaluación del aprendizaje"
+    "pensamiento-critico" "el pensamiento crítico"
+    "trazabilidad" "la trazabilidad de fuentes y decisiones"
+    "diseno-inverso" "el diseño de actividades desde el aprendizaje esperado"
+    "investigacion" "la investigación con IA"
+    "integridad-academica" "la integridad académica"
+    "carga-cognitiva" "la relación entre ayuda y esfuerzo cognitivo"
+    "retroalimentacion" "la retroalimentación para aprender"
+    "privacidad" "la protección de datos"
+    "etica" "las decisiones éticas"
+    "productos-de-aprendizaje" "los productos de aprendizaje"
+    "agencia-humana" "la agencia humana"
+    "evidencia" "el uso responsable de evidencia"
+  -}}
+  {{- $seen := newScratch -}}
+  {{- $usedCriteria := newScratch -}}
+  {{- $seen.Set $page.RelPermalink true -}}
+  {{- $manual := slice -}}
+  {{- range $page.Params.connections -}}
+    {{- $connection := . -}}
+    {{- $target := site.GetPage $connection.page -}}
+    {{- if not $target -}}
+      {{- range site.RegularPages -}}
+        {{- if and (not $target) (or (eq .RelPermalink $connection.page) (in .Aliases $connection.page)) -}}
+          {{- $target = . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and $target (not ($seen.Get $target.RelPermalink)) -}}
+      {{- $seen.Set $target.RelPermalink true -}}
+      {{- $manual = $manual | append (dict "page" $target "relation" $connection.relation "reason" $connection.reason) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $automatic := slice -}}
+  {{- range site.RegularPages.Related $page -}}
+    {{- if and (lt (len $automatic) $automaticLimit) (lt (add (len $manual) (len $automatic)) $limit) (not ($seen.Get .RelPermalink)) -}}
+      {{- $sharedCompetencies := intersect (default (slice) $page.Params.competencies) (default (slice) .Params.competencies) -}}
+      {{- $sharedIntentions := intersect (default (slice) $page.Params.intentions) (default (slice) .Params.intentions) -}}
+      {{- $sharedChallenges := intersect (default (slice) $page.Params.challenges) (default (slice) .Params.challenges) -}}
+      {{- $sharedTopics := intersect (default (slice) $page.Params.topics) (default (slice) .Params.topics) -}}
+      {{- $movement := index $typeMovements .Params.content_type | default "ver cómo cambia en otro contexto" -}}
+      {{- $label := index $typeLabels .Params.content_type | default "Explora otra perspectiva" -}}
+      {{- $criterion := "" -}}
+      {{- $dimension := "" -}}
+      {{- $plain := "" -}}
+      {{- $reason := "" -}}
+      {{- range $sharedCompetencies -}}
+        {{- $candidateCriterion := printf "competency:%s" . -}}
+        {{- if and (not $criterion) (not ($usedCriteria.Get $candidateCriterion)) -}}
+          {{- $criterion = $candidateCriterion -}}
+          {{- $dimension = "competency" -}}
+          {{- $plain = index $competencyText . | default (humanize .) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not $criterion -}}
+        {{- range $sharedIntentions -}}
+          {{- $candidateCriterion := printf "intention:%s" . -}}
+          {{- if and (not $criterion) (not ($usedCriteria.Get $candidateCriterion)) -}}
+            {{- $criterion = $candidateCriterion -}}
+            {{- $dimension = "intention" -}}
+            {{- $plain = index $intentionText . | default (humanize .) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not $criterion -}}
+        {{- range $sharedChallenges -}}
+          {{- $candidateCriterion := printf "challenge:%s" . -}}
+          {{- if and (not $criterion) (not ($usedCriteria.Get $candidateCriterion)) -}}
+            {{- $criterion = $candidateCriterion -}}
+            {{- $dimension = "challenge" -}}
+            {{- $plain = index $challengeText . | default (humanize .) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not $criterion -}}
+        {{- range $sharedTopics -}}
+          {{- $candidateCriterion := printf "topic:%s" . -}}
+          {{- if and (not $criterion) (not ($usedCriteria.Get $candidateCriterion)) -}}
+            {{- $criterion = $candidateCriterion -}}
+            {{- $dimension = "topic" -}}
+            {{- $plain = index $topicText . | default (humanize .) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if eq $dimension "competency" -}}
+        {{- $reason = printf "Comparte una capacidad clave: %s. Continúa para %s." $plain $movement -}}
+      {{- else if eq $dimension "intention" -}}
+        {{- $reason = printf "Amplía el mismo propósito: %s. Continúa para %s." $plain $movement -}}
+      {{- else if eq $dimension "challenge" -}}
+        {{- $reason = printf "Retoma un reto común: %s. Continúa para %s." $plain $movement -}}
+      {{- else if eq $dimension "topic" -}}
+        {{- $reason = printf "Profundiza en %s desde otro ángulo. Continúa para %s." $plain $movement -}}
+      {{- end -}}
+      {{- if $reason -}}
+        {{- $seen.Set .RelPermalink true -}}
+        {{- $usedCriteria.Set $criterion true -}}
+        {{- $automatic = $automatic | append (dict "page" . "label" $label "reason" $reason "criterion" $criterion) -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if or $manual $automatic -}}
+    <aside class="udgia-connections mt-10" aria-labelledby="udgia-connections-title">
+      <h2 id="udgia-connections-title" class="mt-8 text-2xl font-extrabold mb-3">Sigue tejiendo tu recorrido</h2>
+      <p class="mb-6 text-base text-neutral-700 dark:text-neutral-300">Cada sugerencia añade un criterio distinto y explica qué movimiento permite. Puedes profundizar, cambiar de ruta o volver al mapa.</p>
+      <section class="w-full grid gap-4 sm:grid-cols-2" aria-label="Conexiones recomendadas">
+        {{- range first $limit $manual -}}
+          {{- $label := index $labels .relation | default (humanize .relation) -}}
+          <article data-connection-source="curated" class="rounded-lg border border-neutral-300 dark:border-neutral-700 p-5 bg-neutral-50 dark:bg-neutral-800">
+            <p class="text-sm font-semibold text-primary-700 dark:text-primary-300 mb-2">{{ $label }}</p>
+            <h3 class="text-lg font-bold mt-0 mb-2"><a href="{{ .page.RelPermalink }}">{{ .page.LinkTitle }}</a></h3>
+            {{ with .reason }}<p class="text-sm mb-0">{{ . }}</p>{{ else }}{{ with .page.Params.summary }}<p class="text-sm mb-0">{{ . }}</p>{{ end }}{{ end }}
+          </article>
+        {{- end -}}
+        {{- range $automatic -}}
+          <article data-connection-source="automatic-explained" data-connection-criterion="{{ .criterion }}" class="rounded-lg border border-neutral-300 dark:border-neutral-700 p-5 bg-neutral-50 dark:bg-neutral-800">
+            <p class="text-sm font-semibold text-primary-700 dark:text-primary-300 mb-2">{{ .label }}</p>
+            <h3 class="text-lg font-bold mt-0 mb-2"><a href="{{ .page.RelPermalink }}">{{ .page.LinkTitle }}</a></h3>
+            <p class="text-sm mb-0">{{ .reason }}</p>
+          </article>
+        {{- end -}}
+      </section>
+    </aside>
+  {{- end -}}
+{{- end -}}

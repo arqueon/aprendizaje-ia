@@ -25,7 +25,7 @@ Las universidades mexicanas enfrentan la urgencia de pensar políticas sobre IA 
 {{< /lead >}}
 
 {{< alert "circle-info" >}}
-**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para alimentar conversaciones colegiadas, no normativa institucional. Aprendizaje-IA funciona como una red rizomática para reflexionar entre docentes; cualquier política institucional formal debe construirse en los espacios oficiales correspondientes. Tómese este texto como insumo abierto, revisable y no vinculante.
+**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para alimentar conversaciones colegiadas, no normativa institucional. Aprendizaje-IA funciona como una red rizomática —sin centro ni jerarquía: cualquier docente puede aportar una práctica y tomar la de otro— para reflexionar entre docentes; cualquier política institucional formal debe construirse en los espacios oficiales correspondientes. Tómese este texto como insumo abierto, revisable y no vinculante.
 {{< /alert >}}
 
 ## De qué tipo de conversación hablamos
@@ -54,7 +54,7 @@ Publicar una política sin plan de formación tiende a trasladar a los docentes 
 
 ### 3. Evaluación del proceso, no solo del producto
 
-Una política institucional puede respaldar diseños de evaluación que valoran el proceso de aprendizaje documentado: bitácoras de prompts, versiones sucesivas, reflexiones metacognitivas (Bearman et al., 2024). Los procedimientos de integridad académica suelen ganar legitimidad cuando reconocen estas evidencias y, cuando es posible, privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
+Una política institucional puede respaldar diseños de evaluación que valoran el proceso de aprendizaje documentado: bitácoras de prompts, versiones sucesivas, reflexiones metacognitivas —sobre el propio pensamiento: cómo se aprendió— (Bearman et al., 2024). Los procedimientos de integridad académica suelen ganar legitimidad cuando reconocen estas evidencias y, cuando es posible, privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
 
 ### 4. Equidad de acceso
 
@@ -104,11 +104,11 @@ Traduce los criterios generales a la realidad disciplinar. Un programa de medici
 
 Aterriza en el syllabus: qué usos de IA se permiten, qué se sugiere declarar, qué se excluye, cómo se evaluará el proceso. El docente es el decisor, dentro de los criterios del programa. La [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}) ofrece plantillas para el syllabus.
 
-Este modelo distribuye la carga decisional según la granularidad de la decisión. Las decisiones que afectan a toda la universidad se toman arriba; las que dependen del contexto disciplinar, en el medio; las que dependen del diseño del curso, abajo.
+Este modelo distribuye la carga decisional según el nivel de detalle de la decisión. Las decisiones que afectan a toda la universidad se toman arriba; las que dependen del contexto disciplinar, en el medio; las que dependen del diseño del curso, abajo.
 
 ## De la sugerencia a la práctica operativa
 
-Una sugerencia se vuelve útil en lo cotidiano cuando se responde a cuatro preguntas en cada instrumento institucional (syllabus, procedimiento de integridad, plan de formación):
+Una sugerencia se vuelve útil en lo cotidiano cuando se responde a siete preguntas en cada instrumento institucional (syllabus, procedimiento de integridad, plan de formación):
 
 | Sugerencia | Pregunta operativa |
 | --- | --- |

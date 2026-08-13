@@ -1,0 +1,237 @@
+diff --git a/tools/qa-udgia-figures-route.mjs b/tools/qa-udgia-figures-route.mjs
+index ad41b91..aafcf9a 100644
+--- a/tools/qa-udgia-figures-route.mjs
++++ b/tools/qa-udgia-figures-route.mjs
+@@ -53,11 +53,19 @@ const routes = [{
+   id: 'udgia-f11-politica-capas',
+   mobileSvg: 'politica-por-capas-mobile.svg',
+   fallbackRows: 4,
++  notice: 'Esquema conceptual no normativo.',
+ }, {
+   route: 'ia-educacion/rutas/decision-institucional-ia/',
+   id: 'udgia-f17-priorizacion',
+   mobileSvg: 'matriz-priorizacion-mobile.svg',
+   fallbackRows: 4,
++}, {
++  route: 'ia-educacion/constelaciones/empezar-con-ia/',
++  id: 'udgia-f18-cinco-movimientos',
++  mobileSvg: 'cinco-movimientos-ayuda-mobile.svg',
++  fallbackItems: 5,
++  editorialState: 'local-napkin',
++  notice: 'Piloto local pendiente de prueba de lectura y autorización de integración y publicación.',
+ }];
+ const knownWarningPatterns = [
+   /project config key languageCode was deprecated/,
+@@ -130,7 +138,15 @@ function build(siteRoot, baseURL) {
+ }
+ 
+ async function inspect(browser, baseURL, target, viewport, name, scenario) {
+-  const { route, id, mobileSvg, fallbackRows } = target;
++  const {
++    route,
++    id,
++    mobileSvg,
++    fallbackRows,
++    fallbackItems,
++    editorialState = 'canonical',
++    notice = '',
++  } = target;
+   const context = await browser.newContext({ viewport, reducedMotion: 'reduce' });
+   const external = [];
+   const writes = [];
+@@ -203,6 +219,7 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
+       detailsOpen: details?.open || false,
+       fallbackRows: table?.tBodies[0]?.rows.length || 0,
+       fallbackHeaders: table?.tHead?.rows[0]?.cells.length || 0,
++      fallbackItems: details?.querySelectorAll('ol > li').length || 0,
+       link: figure?.querySelector('a[href$=".svg"]')?.getAttribute('href') || '',
+       storage: localStorage.length + sessionStorage.length,
+     };
+@@ -214,33 +231,49 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
+     snapshot.sourceSha256 && snapshot.variantSha256 && snapshot.mobileVariantSha256,
+     `${route} ${name}: checksums`,
+   );
+-  assert(
+-    /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
+-      && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
+-      && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
+-    `${route} ${name}: revisión canónica`,
+-  );
+-  assert(
+-    snapshot.license === 'CC BY-SA 4.0'
+-      && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
+-      && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
+-      && snapshot.authorizationScope === 'project-editorial'
+-      && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
+-      && snapshot.provenanceKind === 'original-synthesis'
+-      && snapshot.publicationAuthorized === 'true',
+-    `${route} ${name}: estado editorial`,
+-  );
++  if (editorialState === 'local-napkin') {
++    assert(
++      snapshot.sourceVersion === 'napkin-generated-output-selection-18'
++        && snapshot.sourceRevision === '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
++        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
++      `${route} ${name}: revisión local Napkin`,
++    );
++    assert(
++      snapshot.license === 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
++        && snapshot.attribution.includes('Generated Output de Napkin AI')
++        && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
++        && snapshot.authorizationScope === 'local-preparation-only'
++        && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
++        && snapshot.provenanceKind === 'napkin-generated-output-adapted'
++        && snapshot.publicationAuthorized === 'false',
++      `${route} ${name}: estado editorial local`,
++    );
++  } else {
++    assert(
++      /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
++        && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
++        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
++      `${route} ${name}: revisión canónica`,
++    );
++    assert(
++      snapshot.license === 'CC BY-SA 4.0'
++        && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
++        && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
++        && snapshot.authorizationScope === 'project-editorial'
++        && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
++        && snapshot.provenanceKind === 'original-synthesis'
++        && snapshot.publicationAuthorized === 'true',
++      `${route} ${name}: estado editorial`,
++    );
++  }
+   assert(
+     snapshot.credit.includes(snapshot.attribution)
+       && snapshot.credit.includes(snapshot.license)
+       && snapshot.scope === snapshot.editorialScope,
+     `${route} ${name}: crédito o alcance no visible`,
+   );
+-  if (id === 'udgia-f11-politica-capas') {
+-    assert(
+-      snapshot.notice.includes('Esquema conceptual no normativo.'),
+-      `${route} ${name}: advertencia normativa ausente`,
+-    );
++  if (notice) {
++    assert(snapshot.notice.includes(notice), `${route} ${name}: advertencia esperada ausente`);
+   } else {
+     assert(snapshot.notice === '', `${route} ${name}: advertencia no prevista`);
+   }
+@@ -250,10 +283,17 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
+     `${route} ${name}: SVG no cargado ${JSON.stringify(snapshot)}`,
+   );
+   assert(snapshot.detailsOpen && snapshot.detailsText > 180, `${route} ${name}: fallback cerrado o insuficiente`);
+-  assert(
+-    snapshot.fallbackRows === fallbackRows && snapshot.fallbackHeaders >= 3,
+-    `${route} ${name}: tabla fallback ${JSON.stringify(snapshot)}`,
+-  );
++  if (Number.isInteger(fallbackRows)) {
++    assert(
++      snapshot.fallbackRows === fallbackRows && snapshot.fallbackHeaders >= 3,
++      `${route} ${name}: tabla fallback ${JSON.stringify(snapshot)}`,
++    );
++  } else {
++    assert(
++      snapshot.fallbackItems === fallbackItems,
++      `${route} ${name}: lista fallback ${JSON.stringify(snapshot)}`,
++    );
++  }
+   assert(snapshot.pageScrollWidth <= snapshot.pageWidth, `${route} ${name}: overflow de página`);
+   assert(snapshot.storage === 0, `${route} ${name}: almacenamiento`);
+   if (viewport.width < 600) {
+diff --git a/tools/qa-udgia-figures.mjs b/tools/qa-udgia-figures.mjs
+index f88f2d8..24dc3b3 100644
+--- a/tools/qa-udgia-figures.mjs
++++ b/tools/qa-udgia-figures.mjs
+@@ -74,10 +74,19 @@ const targets = {
+     fallbackSignal: '| Criterio |',
+   },
+ };
++const localTargets = {
++  'udgia-f18-cinco-movimientos': {
++    page: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md',
++    svg: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/cinco-movimientos-ayuda.svg',
++    mobileSvg: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/cinco-movimientos-ayuda-mobile.svg',
++    fallbackSignal: '1. **Propósito claro:**',
++  },
++};
+ const failures = [];
+ 
+-if (Object.keys(metadata).length !== Object.keys(targets).length) {
+-  failures.push(`el manifiesto no contiene ${Object.keys(targets).length} figuras`);
++const expectedFigureCount = Object.keys(targets).length + Object.keys(localTargets).length;
++if (Object.keys(metadata).length !== expectedFigureCount) {
++  failures.push(`el manifiesto no contiene ${expectedFigureCount} figuras`);
+ }
+ 
+ for (const [id, target] of Object.entries(targets)) {
+@@ -144,6 +153,62 @@ for (const [id, target] of Object.entries(targets)) {
+   }
+ }
+ 
++for (const [id, target] of Object.entries(localTargets)) {
++  const meta = metadata[id];
++  if (!meta) {
++    failures.push(`${id}: falta metadata`);
++    continue;
++  }
++  const page = fs.readFileSync(path.join(root, target.page), 'utf8');
++  const svg = fs.readFileSync(path.join(root, target.svg), 'utf8');
++  const mobileSvg = fs.readFileSync(path.join(root, target.mobileSvg), 'utf8');
++  const digest = crypto.createHash('sha256').update(svg).digest('hex');
++  const mobileDigest = crypto.createHash('sha256').update(mobileSvg).digest('hex');
++
++  if (!page.includes(`udgia-figure id="${id}"`)) failures.push(`${id}: falta shortcode`);
++  if (!page.includes('{{< /udgia-figure >}}') || !page.includes(target.fallbackSignal)) {
++    failures.push(`${id}: falta fallback textual`);
++  }
++  if (digest !== meta.variant_sha256) failures.push(`${id}: checksum de variante`);
++  if (mobileDigest !== meta.mobile_variant_sha256) failures.push(`${id}: checksum de variante móvil`);
++  if (path.basename(target.mobileSvg) !== meta.src_mobile) failures.push(`${id}: ruta de variante móvil`);
++  if (
++    meta.source_version !== 'napkin-generated-output-selection-18'
++    || meta.source_revision !== '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
++    || meta.source_sha256 !== 'dcddac08e6f6b933136580ddb4a26a0473e8255d0f5898fb7589da5102d4a8c2'
++    || meta.description_sha256 !== 'f287592b50c4814ecd5661f4786372c90b350724d06976bdd804f70e228fb714'
++    || meta.license !== 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
++    || !meta.attribution?.includes('Generated Output de Napkin AI')
++    || meta.editorial_scope !== expectedEditorialScope
++    || meta.authorization_scope !== 'local-preparation-only'
++    || meta.institutional_policy_status !== 'not-an-institutional-ruling'
++    || meta.provenance_kind !== 'napkin-generated-output-adapted'
++    || meta.publication_authorized !== false
++    || !meta.notice?.includes('Piloto local')
++  ) {
++    failures.push(`${id}: procedencia o alcance local incompletos`);
++  }
++  for (const [variant, source] of [['escritorio', svg], ['móvil', mobileSvg]]) {
++    for (const [label, pattern] of [
++      ['role', /\brole=["']img["']/],
++      ['title', /<title\b/],
++      ['desc', /<desc\b/],
++      ['aria-labelledby', /\baria-labelledby=/],
++      ['viewBox', /\bviewBox=/],
++      ['procedencia Napkin', /<metadata>[^<]*Generated Output de Napkin AI[^<]*<\/metadata>/],
++    ]) {
++      if (!pattern.test(source)) failures.push(`${id} ${variant}: falta ${label}`);
++    }
++    if (
++      /<script\b|<foreignObject\b|<image\b/i.test(source)
++      || /(?:href|src)=["'](?:https?:)?\/\//i.test(source)
++      || /url\(\s*["']?https?:\/\//i.test(source)
++    ) {
++      failures.push(`${id} ${variant}: recurso o código externo`);
++    }
++  }
++}
++
+ for (const id of ['udgia-f07-dialogo', 'udgia-f09-instrumentos', 'udgia-f11-politica-capas', 'udgia-f17-priorizacion']) {
+   if (metadata[id].source_sha256 !== metadata[id].variant_sha256) {
+     failures.push(`${id}: el SVG de escritorio no coincide literalmente con el canónico`);
+@@ -187,4 +252,4 @@ if (failures.length) {
+   process.exit(1);
+ }
+ 
+-console.log(`PASS: ${Object.keys(targets).length} figuras × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);
++console.log(`PASS: ${Object.keys(targets).length} figuras publicables y ${Object.keys(localTargets).length} figura local × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);

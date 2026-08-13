@@ -6,7 +6,7 @@
     {
       "mode": "root",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 925,
+      "pages": 928,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -17,7 +17,7 @@
     {
       "mode": "subpath",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 925,
+      "pages": 928,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -109,7 +109,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 473,
+      "firstHeight": 445,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,
@@ -185,8 +185,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
-        "bytes": 174055,
-        "sha256": "34006d925321ead7dfd7f23c9358a9f5131f070cfb056a0c8f1941af6efe3c41"
+        "bytes": 173993,
+        "sha256": "6ea7fb20b4fadb5fc631f6e5fecdab2bcf62bcaf56b9550d8b536902c73dcba3"
       }
     },
     {
@@ -200,14 +200,14 @@
         "/aprendizaje-ia/h5p/udgia/v1/host.js",
         "/aprendizaje-ia/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 481,
+      "firstHeight": 341,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
-      "expandedHeight": 598,
-      "collapsedHeight": 481,
-      "stableHeight": 598,
+      "expandedHeight": 458,
+      "collapsedHeight": 341,
+      "stableHeight": 458,
       "innerGeometry": {
-        "clientHeight": 598,
-        "scrollHeight": 598
+        "clientHeight": 458,
+        "scrollHeight": 458
       },
       "playerNetworkHits": 1,
       "externalRequests": [],
@@ -276,8 +276,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
-        "bytes": 208798,
-        "sha256": "f62523112870f626bf612877d070d6b52c4b30e855810d95170a3bd2638a5229"
+        "bytes": 219772,
+        "sha256": "bcbb30b024640621016e21f86f9cce1d911f31a7701d56ffc07dafd3ab574e51"
       }
     }
   ],

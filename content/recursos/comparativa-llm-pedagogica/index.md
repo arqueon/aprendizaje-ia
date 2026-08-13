@@ -19,14 +19,14 @@ showAuthor: false
 ---
 
 {{< lead >}}
-El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) compara modelos según criterios institucionales: privacidad, acceso, costo, soporte. Esta pieza ofrece la otra mirada: cuál modelo recomendar según la tarea pedagógica concreta. La selección no se reduce al modelo más capaz sino al que sostiene mejor el tipo de pensamiento que se quiere desarrollar en el estudiante.
+"¿Qué modelo uso para esta tarea?" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta pieza ofrece la otra mirada, con criterios pedagógicos y no de mercado: cuál modelo recomendar según la tarea pedagógica concreta. La selección no se reduce al modelo más capaz sino al que sostiene mejor el tipo de pensamiento que se quiere desarrollar en el estudiante.
 {{< /lead >}}
 
 ## Cómo leer esta comparativa
 
 La pregunta no es cuál es el mejor modelo, sino cuál sostiene mejor cada tipo de actividad docente. Un modelo con razonamiento profundo puede ser excesivo para generar ejemplos; uno especializado en escritura puede ser limitado para matemáticas. La selección depende del uso.
 
-La comparativa cruza seis tipos de tarea pedagógica con cinco modelos. Para cada celda, una recomendación cualitativa: **óptimo**, **adecuado**, **limitado** o **no recomendado**. Las recomendaciones se basan en pruebas internas y en literatura disponible a abril de 2026.
+La comparativa cruza seis tipos de tarea pedagógica con cinco modelos. Para cada celda, una recomendación cualitativa: **óptimo**, **adecuado**, **limitado** o **no recomendado**. Las recomendaciones se basan en pruebas de uso realizadas por el equipo editorial del sitio y en literatura disponible a abril de 2026; son orientaciones de trabajo, no resultados de un estudio.
 
 ## Seis tipos de tarea pedagógica
 
@@ -72,7 +72,7 @@ Sostener una conversación crítica donde el modelo asume una postura, anticipa 
 
 ### Análisis de textos largos
 
-Leer un capítulo, un artículo extenso o varios documentos y producir síntesis comparativa exige ventana de contexto amplia. Kimi tiene la ventaja específica de aceptar hasta dos millones de tokens, lo que ningún otro modelo iguala a abril de 2026. Para textos de menor longitud (hasta cien páginas), los demás modelos son adecuados.
+Leer un capítulo, un artículo extenso o varios documentos y producir síntesis comparativa exige una ventana de contexto amplia —que el modelo pueda tomar en cuenta mucho texto a la vez—. Kimi tiene la ventaja específica de aceptar hasta dos millones de tokens, lo que ningún otro modelo iguala a abril de 2026. Para textos de menor longitud (hasta cien páginas), los demás modelos son adecuados.
 
 ### Apoyo en clase (multimodal)
 

@@ -20,7 +20,7 @@ weight: 2
 ---
 
 {{< lead >}}
-El aprendizaje híbrido (*blended learning*) combina la presencialidad y la educación en línea, sumando las ventajas de ambos modelos de manera flexible y centrada en el éxito del estudiante.
+Un curso híbrido bien diseñado no es un curso presencial con videos pegados: cada actividad tiene un lugar —el aula o la plataforma— elegido por lo que aporta. El aprendizaje híbrido (*blended learning*) combina la presencialidad y la educación en línea, sumando las ventajas de ambos modelos de manera flexible y centrada en el éxito del estudiante.
 {{< /lead >}}
 
 ## Definición y principios
@@ -103,4 +103,4 @@ En la medida en que nos movemos más allá de la distinción entre aprendizaje p
 - Batchelor, J. (2018). Learning Design Principles to Support Communities of Practice in a Blended Learning Programme. In *9th Annual UNISA ISTE Conference on Mathematics, Science and Technology Education* (Vol. 315).
 - Hefetz, G., & Ben-Zvi, D. (2020). How Do Communities of Practice Transform Their Practices? *Learning, Culture and Social Interaction*, *26*, 100410.
 - Nayar, B., & Koul, S. (2020). Blended Learning in Higher Education: A Transition to Experiential Classrooms. *International Journal of Educational Management*, *34*(9), 1357–1374.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.

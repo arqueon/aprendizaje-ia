@@ -20,7 +20,7 @@ weight: 4
 ---
 
 {{< lead >}}
-El aprendizaje activo promueve la participación, la colaboración y el pensamiento crítico, tanto en el aula presencial como en ambientes en línea. Los estudiantes dejan de ser receptores pasivos para convertirse en participantes de su proceso de aprendizaje.
+En una clase tradicional el profesor explica y los estudiantes escuchan; en una clase con aprendizaje activo los estudiantes resuelven, discuten y construyen, y el profesor diseña y acompaña ese trabajo. El aprendizaje activo promueve la participación, la colaboración y el pensamiento crítico, tanto en el aula presencial como en ambientes en línea: los estudiantes dejan de ser receptores pasivos para convertirse en participantes de su proceso de aprendizaje.
 {{< /lead >}}
 
 ## Fundamentos
@@ -86,15 +86,17 @@ Las experiencias de aprendizaje generan interacciones que se convierten en espac
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
-Estas técnicas pueden implementarse con o sin tecnología. Herramientas como Mentimeter, Padlet, Miro o Canva facilitan su aplicación en entornos híbridos (Muzammal Ahmad Khan, 2025).
+Estas técnicas pueden implementarse con o sin tecnología. Herramientas como Mentimeter, Padlet, Miro o Canva facilitan su aplicación en entornos híbridos (Khan, 2025).
 
 ## Desarrollo de habilidades
 
 ![El dilema de las habilidades: perspectivas de la universidad, la industria y el gobierno](img/dilema-habilidades.svg "¿Qué habilidades deben enseñar las universidades? — adaptado de Academy of the Social Sciences in Australia, 2021")
 
+**Recorrido en texto:** la figura cruza tres miradas sobre qué habilidades importan, y en las tres hay tensión entre el largo y el corto plazo. La universidad quiere ofrecer habilidades que servirán en el futuro, pero también oportunidades inmediatas y conexiones de carrera. El gobierno necesita planear la innovación a largo plazo y, al mismo tiempo, responder a la demanda actual de recursos humanos. La industria valora la adaptabilidad y el análisis, pero pide habilidades específicas de incorporación rápida. El dilema es que ninguna de las tres puede elegir un solo horizonte.
+
 ### Relación con el desarrollo de habilidades
 
-Existe una relación directa entre el aprendizaje activo y el desarrollo de habilidades para la vida y el trabajo. Promover el aprendizaje experiencial en contextos de innovación permite mejorar el desarrollo de habilidades interpersonales que los empleadores consideran como sus necesidades principales, junto con el compromiso y las habilidades analíticas para la resolución de problemas (Universidad de Guadalajara, 2022).
+Existe una relación directa entre el aprendizaje activo y el desarrollo de habilidades para la vida y el trabajo. Promover el aprendizaje experiencial —aprender desde la actividad misma y no solo desde la explicación— en contextos de innovación permite mejorar el desarrollo de habilidades interpersonales que los empleadores consideran como sus necesidades principales, junto con el compromiso y las habilidades analíticas para la resolución de problemas (Universidad de Guadalajara, 2022).
 
 Al innovar en los procesos docentes, se potencian de manera simultánea una mejor comprensión y obtención de conocimientos y el desarrollo de habilidades de comunicación, colaboración, pensamiento crítico y creatividad. Estas habilidades permiten a los estudiantes aportar en contextos donde es indispensable construir y mantener entendimientos compartidos acerca de un problema y definir los pasos para enfrentarlo.
 
@@ -111,7 +113,7 @@ Al innovar en los procesos docentes, se potencian de manera simultánea una mejo
 - Fornari, A., & Poznanski, A. (2015). *How-to Guide for Active Learning*.
 - Malta, K., Glickman, C., Hunter, K., & McBride, A. (2025). Comparing the impact of online and in-person active learning in preclinical medical education. *BMC Medical Education*. https://doi.org/10.1186/s12909-025-06846-z
 - Mintzes, J.J., & Walter, E.M. (Eds.). (2020). *Active Learning in College Science: The Case for Evidence-Based Practice*. Springer International Publishing.
-- Muzammal Ahmad Khan. (2025). Mentimeter Tool for Enhancing Student Engagement and Active Learning: A Literature Review. *International Journal of Changes in Education*. https://doi.org/10.47852/bonviewijce52023801
+- Khan, M. A. (2025). Mentimeter Tool for Enhancing Student Engagement and Active Learning: A Literature Review. *International Journal of Changes in Education*. https://doi.org/10.47852/bonviewijce52023801
 - Patiño, A., Ramírez-Montoya, M.S., & Buenestado-Fernández, M. (2023). Active learning and education 4.0 for complex thinking training: Analysis of two case studies in open education. *Smart Learning Environments*, *10*(1), 8.
 - Ram, I., Rosenberg-Kima, R.B., Lewin, D.R., Barzilai, A., Chumtonov, O., & Roll, I. (2025). Active learning and the development of 21st century skills in online STEM education – a large scale survey. *Online Learning*, *29*(1).
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.

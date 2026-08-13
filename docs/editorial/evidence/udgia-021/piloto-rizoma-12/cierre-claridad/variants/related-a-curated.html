@@ -1,0 +1,49 @@
+{{- if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) -}}
+  {{- $page := . -}}
+  {{- $limit := .Site.Params.article.relatedContentLimit | default 5 -}}
+  {{- $labels := dict
+    "continua" "Continúa"
+    "aplica" "Ponlo en práctica"
+    "ejemplifica" "Mira un ejemplo"
+    "fundamenta" "Comprende el fundamento"
+    "contrasta" "Contrasta"
+    "adapta" "Adáptalo"
+    "requiere" "Prepárate antes"
+    "actualiza" "Revisa la evidencia"
+    "debate" "Abre el debate"
+  -}}
+  {{- $seen := newScratch -}}
+  {{- $seen.Set $page.RelPermalink true -}}
+  {{- $manual := slice -}}
+  {{- range $page.Params.connections -}}
+    {{- $connection := . -}}
+    {{- $target := site.GetPage $connection.page -}}
+    {{- if not $target -}}
+      {{- range site.RegularPages -}}
+        {{- if and (not $target) (or (eq .RelPermalink $connection.page) (in .Aliases $connection.page)) -}}
+          {{- $target = . -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if and $target (not ($seen.Get $target.RelPermalink)) -}}
+      {{- $seen.Set $target.RelPermalink true -}}
+      {{- $manual = $manual | append (dict "page" $target "relation" $connection.relation "reason" $connection.reason) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $manual -}}
+    <aside class="udgia-connections mt-10" aria-labelledby="udgia-connections-title">
+      <h2 id="udgia-connections-title" class="mt-8 text-2xl font-extrabold mb-3">Sigue tejiendo tu recorrido</h2>
+      <p class="mb-6 text-base text-neutral-700 dark:text-neutral-300">Estas conexiones fueron elegidas para explicar un siguiente movimiento posible. Puedes seguir una, elegir otra o volver al mapa.</p>
+      <section class="w-full grid gap-4 sm:grid-cols-2" aria-label="Conexiones recomendadas">
+        {{- range first $limit $manual -}}
+          {{- $label := index $labels .relation | default (humanize .relation) -}}
+          <article data-connection-source="curated" class="rounded-lg border border-neutral-300 dark:border-neutral-700 p-5 bg-neutral-50 dark:bg-neutral-800">
+            <p class="text-sm font-semibold text-primary-700 dark:text-primary-300 mb-2">{{ $label }}</p>
+            <h3 class="text-lg font-bold mt-0 mb-2"><a href="{{ .page.RelPermalink }}">{{ .page.LinkTitle }}</a></h3>
+            {{ with .reason }}<p class="text-sm mb-0">{{ . }}</p>{{ else }}{{ with .page.Params.summary }}<p class="text-sm mb-0">{{ . }}</p>{{ end }}{{ end }}
+          </article>
+        {{- end -}}
+      </section>
+    </aside>
+  {{- end -}}
+{{- end -}}

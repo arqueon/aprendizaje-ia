@@ -1,0 +1,1074 @@
+{
+  "generatedAt": "2026-08-04T01:52:38.702Z",
+  "status": "PASS",
+  "scope": "working tree aplicado; fuentes leídas de content/ y static/ del repositorio",
+  "axeInjection": "bypassCSP limitado al contexto de auditoría; los recursos funcionales permanecen propios y sin red externa",
+  "scenarios": [
+    {
+      "name": "raiz",
+      "baseURL": "http://127.0.0.1:36537/",
+      "hugoOutput": "Start building sites … \nhugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │ 928 \n Paginator pages  │  60 \n Non-page files   │ 190 \n Static files     │ 722 \n Processed images │ 251 \n Aliases          │ 396 \n Cleaned          │   0 \n\nTotal in 333 ms\nWARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.\nWARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.\nWARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.\nWARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.",
+      "results": [
+        {
+          "route": "ia-educacion/constelaciones/empezar-con-ia/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Empezar con IA para aprender y enseñar",
+          "horizontalOverflow": 0,
+          "mainLength": 8913,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/areas/ia/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/areas/formacion/",
+            "http://127.0.0.1:36537/categories/ruta-de-aprendizaje/",
+            "http://127.0.0.1:36537/tags/introducci%C3%B3n-a-la-ia/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/docencia/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%c3%batiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%c3%ban-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%c3%b1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/actividades/revisar-actividad/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%c3%b3n-se-vuelve-co-creaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%c3%b3nde-vienen-estos-criterios-y-c%c3%b3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/recursos/glosario/ganancia-cognitiva/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/carga-cognitiva/",
+            "http://127.0.0.1:36537/tags/co-creaci%C3%B3n/",
+            "http://127.0.0.1:36537/recursos/glosario/alfabetizacion-ia/",
+            "http://127.0.0.1:36537/areas/ia/",
+            "http://127.0.0.1:36537/areas/digital/",
+            "http://127.0.0.1:36537/areas/formacion/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-digital/",
+            "http://127.0.0.1:36537/recursos/glosario/aprendizaje-activo/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/aprendizaje-activo/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/constelaciones/empezar-con-ia/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Empezar con IA para aprender y enseñar",
+          "horizontalOverflow": 0,
+          "mainLength": 8570,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/areas/ia/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/areas/formacion/",
+            "http://127.0.0.1:36537/categories/ruta-de-aprendizaje/",
+            "http://127.0.0.1:36537/tags/introducci%C3%B3n-a-la-ia/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/docencia/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%c3%batiles",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%c3%ban-el-contexto",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:36537/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#si-ense%c3%b1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:36537/actividades/revisar-actividad/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%c3%b3n-se-vuelve-co-creaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#de-d%c3%b3nde-vienen-estos-criterios-y-c%c3%b3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/recursos/glosario/ganancia-cognitiva/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/carga-cognitiva/",
+            "http://127.0.0.1:36537/tags/co-creaci%C3%B3n/",
+            "http://127.0.0.1:36537/recursos/glosario/alfabetizacion-ia/",
+            "http://127.0.0.1:36537/areas/ia/",
+            "http://127.0.0.1:36537/areas/digital/",
+            "http://127.0.0.1:36537/areas/formacion/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:36537/tags/alfabetizaci%C3%B3n-digital/",
+            "http://127.0.0.1:36537/recursos/glosario/aprendizaje-activo/",
+            "http://127.0.0.1:36537/areas/pedagogia/",
+            "http://127.0.0.1:36537/categories/concepto/",
+            "http://127.0.0.1:36537/tags/aprendizaje-activo/",
+            "http://127.0.0.1:36537/tags/aprendizaje/",
+            "http://127.0.0.1:36537/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/orientaciones/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+          "horizontalOverflow": 0,
+          "mainLength": 2205,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%c3%a9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/que-es-la-educacion-digital/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/orientaciones/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+          "horizontalOverflow": 0,
+          "mainLength": 2162,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#qu%c3%a9-ayuda-a-decidir",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/que-es-la-educacion-digital/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/estudiantes/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "horizontalOverflow": 0,
+          "mainLength": 2208,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/guias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:36537/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%c3%a9s",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/abp-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/estudiantes/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "horizontalOverflow": 0,
+          "mainLength": 2184,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/guias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#la-situaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:36537/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#antes-y-despu%c3%a9s",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/abp-con-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/profesorado/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "horizontalOverflow": 0,
+          "mainLength": 2290,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/guias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:36537/actividades/revisar-actividad/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%c3%b3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/formacion-docente/taxonomia-bloom-diseno-inverso/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/aprendizaje-rizomatico-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/profesorado/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "horizontalOverflow": 0,
+          "mainLength": 2267,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/",
+            "http://127.0.0.1:36537/ia-educacion/",
+            "http://127.0.0.1:36537/ia-educacion/guias/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#la-situaci%c3%b3n",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:36537/actividades/revisar-actividad/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#c%c3%b3mo-continuar",
+            "http://127.0.0.1:36537/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:36537/formacion-docente/taxonomia-bloom-diseno-inverso/",
+            "http://127.0.0.1:36537/ia-educacion/orientaciones/",
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:36537/ia-educacion/guias/aprendizaje-rizomatico-ia/",
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/comparar-sugerencias/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Compara dos sugerencias sin perder tu propósito",
+          "horizontalOverflow": 0,
+          "mainLength": 5802,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/comparar-sugerencias/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Compara dos sugerencias sin perder tu propósito",
+          "horizontalOverflow": 0,
+          "mainLength": 5802,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/ia-educacion/guias/estudiantes/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/revisar-actividad/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "¿Tu actividad pide, practica y revisa lo mismo?",
+          "horizontalOverflow": 0,
+          "mainLength": 3091,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/revisar-actividad/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "¿Tu actividad pide, practica y revisa lo mismo?",
+          "horizontalOverflow": 0,
+          "mainLength": 3091,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:36537/ia-educacion/guias/profesorado/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        }
+      ],
+      "aliases": [
+        {
+          "route": "ia-educacion/constelaciones/cocreacion-evaluacion/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/orientaciones-ia/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/guias/para-estudiantes/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/guias/para-profesorado/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "name": "subruta",
+      "baseURL": "http://127.0.0.1:37435/aprendizaje-ia/",
+      "hugoOutput": "Start building sites … \nhugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │ 928 \n Paginator pages  │  60 \n Non-page files   │ 190 \n Static files     │ 722 \n Processed images │ 251 \n Aliases          │ 396 \n Cleaned          │   0 \n\nTotal in 326 ms\nWARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.\nWARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.\nWARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.\nWARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.",
+      "results": [
+        {
+          "route": "ia-educacion/constelaciones/empezar-con-ia/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Empezar con IA para aprender y enseñar",
+          "horizontalOverflow": 0,
+          "mainLength": 8913,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/formacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/ruta-de-aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/introducci%C3%B3n-a-la-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/docencia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%c3%batiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%c3%ban-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%c3%b1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/revisar-actividad/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%c3%b3n-se-vuelve-co-creaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%c3%b3nde-vienen-estos-criterios-y-c%c3%b3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/ganancia-cognitiva/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/carga-cognitiva/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/co-creaci%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/alfabetizacion-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/formacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/aprendizaje-activo/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje-activo/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/constelaciones/empezar-con-ia/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Empezar con IA para aprender y enseñar",
+          "horizontalOverflow": 0,
+          "mainLength": 8570,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/formacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/ruta-de-aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/introducci%C3%B3n-a-la-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/docencia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%C3%BAtiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%C3%BAn-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%C3%B1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%C3%B3n-se-vuelve-co-creaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%C3%B3nde-vienen-estos-criterios-y-c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#dos-sugerencias-que-parecen-%c3%batiles",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#una-buena-respuesta-puede-ocultar-un-mal-recorrido",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cinco-movimientos-para-probar-una-ayuda",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#la-misma-ayuda-cambia-seg%c3%ban-el-contexto",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-estudias-conserva-una-idea-que-puedas-defender",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#si-ense%c3%b1as-protege-el-esfuerzo-que-forma-la-capacidad",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/revisar-actividad/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#cuando-la-relaci%c3%b3n-se-vuelve-co-creaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#de-d%c3%b3nde-vienen-estos-criterios-y-c%c3%b3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/ganancia-cognitiva/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/carga-cognitiva/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/co-creaci%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/alfabetizacion-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/formacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-en-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/alfabetizaci%C3%B3n-digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/recursos/glosario/aprendizaje-activo/",
+            "http://127.0.0.1:37435/aprendizaje-ia/areas/pedagogia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/categories/concepto/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje-activo/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/aprendizaje/",
+            "http://127.0.0.1:37435/aprendizaje-ia/tags/cognici%C3%B3n/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/orientaciones/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+          "horizontalOverflow": 0,
+          "mainLength": 2205,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%c3%a9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/que-es-la-educacion-digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/orientaciones/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+          "horizontalOverflow": 0,
+          "mainLength": 2162,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%C3%A9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#estatus-del-documento",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#qu%c3%a9-ayuda-a-decidir",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#formas-de-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/que-es-la-educacion-digital/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/estudiantes/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "horizontalOverflow": 0,
+          "mainLength": 2208,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%c3%a9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/abp-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/estudiantes/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "horizontalOverflow": 0,
+          "mainLength": 2184,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%C3%A9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#la-situaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/comparar-sugerencias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#antes-y-despu%c3%a9s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/abp-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/profesorado/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "horizontalOverflow": 0,
+          "mainLength": 2290,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/revisar-actividad/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%c3%b3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/formacion-docente/taxonomia-bloom-diseno-inverso/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/aprendizaje-rizomatico-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "ia-educacion/guias/profesorado/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "horizontalOverflow": 0,
+          "mainLength": 2267,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%C3%B3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%C3%A9-obtendr%C3%A1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%C3%B3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#la-situaci%c3%b3n",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#qu%c3%a9-obtendr%c3%a1s",
+            "http://127.0.0.1:37435/aprendizaje-ia/actividades/revisar-actividad/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#c%c3%b3mo-continuar",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/constelaciones/empezar-con-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/formacion-docente/taxonomia-bloom-diseno-inverso/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/orientaciones/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/aprendizaje-rizomatico-ia/",
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/#the-top"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "↓\n        Ir al contenido"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/comparar-sugerencias/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "Compara dos sugerencias sin perder tu propósito",
+          "horizontalOverflow": 0,
+          "mainLength": 5802,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/comparar-sugerencias/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "Compara dos sugerencias sin perder tu propósito",
+          "horizontalOverflow": 0,
+          "mainLength": 5802,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/estudiantes/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/revisar-actividad/",
+          "viewport": {
+            "width": 1280,
+            "height": 900
+          },
+          "h1": 1,
+          "title": "¿Tu actividad pide, practica y revisa lo mismo?",
+          "horizontalOverflow": 0,
+          "mainLength": 3091,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        },
+        {
+          "route": "actividades/revisar-actividad/",
+          "viewport": {
+            "width": 320,
+            "height": 800
+          },
+          "h1": 1,
+          "title": "¿Tu actividad pide, practica y revisa lo mismo?",
+          "horizontalOverflow": 0,
+          "mainLength": 3091,
+          "storageKeys": [],
+          "links": [
+            "http://127.0.0.1:37435/aprendizaje-ia/ia-educacion/guias/profesorado/"
+          ],
+          "firstFocus": {
+            "tag": "A",
+            "text": "Ir a la actividad"
+          },
+          "brokenLinks": [],
+          "consoleErrors": [],
+          "externalRequests": [],
+          "axe": []
+        }
+      ],
+      "aliases": [
+        {
+          "route": "ia-educacion/constelaciones/cocreacion-evaluacion/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/orientaciones-ia/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/guias/para-estudiantes/",
+          "status": 200
+        },
+        {
+          "route": "ia-educacion/guias/para-profesorado/",
+          "status": 200
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "No equivale a una prueba con participantes reales",
+    "No equivale a una sesión con persona usuaria de lector de pantalla"
+  ]
+}

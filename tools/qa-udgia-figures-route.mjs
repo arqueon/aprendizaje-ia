@@ -53,11 +53,19 @@ const routes = [{
   id: 'udgia-f11-politica-capas',
   mobileSvg: 'politica-por-capas-mobile.svg',
   fallbackRows: 4,
+  notice: 'Esquema conceptual no normativo.',
 }, {
   route: 'ia-educacion/rutas/decision-institucional-ia/',
   id: 'udgia-f17-priorizacion',
   mobileSvg: 'matriz-priorizacion-mobile.svg',
   fallbackRows: 4,
+}, {
+  route: 'ia-educacion/constelaciones/empezar-con-ia/',
+  id: 'udgia-f18-cinco-movimientos',
+  mobileSvg: 'cinco-movimientos-ayuda-mobile.svg',
+  fallbackItems: 5,
+  editorialState: 'local-napkin',
+  notice: 'Piloto local pendiente de prueba de lectura y autorización de integración y publicación.',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
@@ -130,7 +138,15 @@ function build(siteRoot, baseURL) {
 }
 
 async function inspect(browser, baseURL, target, viewport, name, scenario) {
-  const { route, id, mobileSvg, fallbackRows } = target;
+  const {
+    route,
+    id,
+    mobileSvg,
+    fallbackRows,
+    fallbackItems,
+    editorialState = 'canonical',
+    notice = '',
+  } = target;
   const context = await browser.newContext({ viewport, reducedMotion: 'reduce' });
   const external = [];
   const writes = [];
@@ -203,6 +219,7 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
       detailsOpen: details?.open || false,
       fallbackRows: table?.tBodies[0]?.rows.length || 0,
       fallbackHeaders: table?.tHead?.rows[0]?.cells.length || 0,
+      fallbackItems: details?.querySelectorAll('ol > li').length || 0,
       link: figure?.querySelector('a[href$=".svg"]')?.getAttribute('href') || '',
       storage: localStorage.length + sessionStorage.length,
     };
@@ -214,33 +231,49 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
     snapshot.sourceSha256 && snapshot.variantSha256 && snapshot.mobileVariantSha256,
     `${route} ${name}: checksums`,
   );
-  assert(
-    /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
-      && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
-      && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
-    `${route} ${name}: revisión canónica`,
-  );
-  assert(
-    snapshot.license === 'CC BY-SA 4.0'
-      && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
-      && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
-      && snapshot.authorizationScope === 'project-editorial'
-      && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
-      && snapshot.provenanceKind === 'original-synthesis'
-      && snapshot.publicationAuthorized === 'true',
-    `${route} ${name}: estado editorial`,
-  );
+  if (editorialState === 'local-napkin') {
+    assert(
+      snapshot.sourceVersion === 'napkin-generated-output-selection-18'
+        && snapshot.sourceRevision === '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
+        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
+      `${route} ${name}: revisión local Napkin`,
+    );
+    assert(
+      snapshot.license === 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
+        && snapshot.attribution.includes('Generated Output de Napkin AI')
+        && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
+        && snapshot.authorizationScope === 'local-preparation-only'
+        && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
+        && snapshot.provenanceKind === 'napkin-generated-output-adapted'
+        && snapshot.publicationAuthorized === 'false',
+      `${route} ${name}: estado editorial local`,
+    );
+  } else {
+    assert(
+      /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
+        && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
+        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
+      `${route} ${name}: revisión canónica`,
+    );
+    assert(
+      snapshot.license === 'CC BY-SA 4.0'
+        && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
+        && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
+        && snapshot.authorizationScope === 'project-editorial'
+        && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
+        && snapshot.provenanceKind === 'original-synthesis'
+        && snapshot.publicationAuthorized === 'true',
+      `${route} ${name}: estado editorial`,
+    );
+  }
   assert(
     snapshot.credit.includes(snapshot.attribution)
       && snapshot.credit.includes(snapshot.license)
       && snapshot.scope === snapshot.editorialScope,
     `${route} ${name}: crédito o alcance no visible`,
   );
-  if (id === 'udgia-f11-politica-capas') {
-    assert(
-      snapshot.notice.includes('Esquema conceptual no normativo.'),
-      `${route} ${name}: advertencia normativa ausente`,
-    );
+  if (notice) {
+    assert(snapshot.notice.includes(notice), `${route} ${name}: advertencia esperada ausente`);
   } else {
     assert(snapshot.notice === '', `${route} ${name}: advertencia no prevista`);
   }
@@ -250,10 +283,17 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
     `${route} ${name}: SVG no cargado ${JSON.stringify(snapshot)}`,
   );
   assert(snapshot.detailsOpen && snapshot.detailsText > 180, `${route} ${name}: fallback cerrado o insuficiente`);
-  assert(
-    snapshot.fallbackRows === fallbackRows && snapshot.fallbackHeaders >= 3,
-    `${route} ${name}: tabla fallback ${JSON.stringify(snapshot)}`,
-  );
+  if (Number.isInteger(fallbackRows)) {
+    assert(
+      snapshot.fallbackRows === fallbackRows && snapshot.fallbackHeaders >= 3,
+      `${route} ${name}: tabla fallback ${JSON.stringify(snapshot)}`,
+    );
+  } else {
+    assert(
+      snapshot.fallbackItems === fallbackItems,
+      `${route} ${name}: lista fallback ${JSON.stringify(snapshot)}`,
+    );
+  }
   assert(snapshot.pageScrollWidth <= snapshot.pageWidth, `${route} ${name}: overflow de página`);
   assert(snapshot.storage === 0, `${route} ${name}: almacenamiento`);
   if (viewport.width < 600) {

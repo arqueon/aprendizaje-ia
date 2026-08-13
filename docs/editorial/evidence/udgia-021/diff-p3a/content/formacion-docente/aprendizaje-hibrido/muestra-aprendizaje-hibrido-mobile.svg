@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 360 480" role="img" aria-labelledby="title desc">
+  <title id="title">Cada momento usa y transforma lo anterior</title>
+  <desc id="desc">Secuencia vertical. Antes se produce un borrador y preguntas. Durante el encuentro se producen criterios y objeciones. Después se produce una versión con razones. Si las personas no coinciden en horario, un contraste diferido conserva la misma decisión y evidencia.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:1.5}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.line{fill:none;stroke:#536326;stroke-width:3;stroke-linecap:round}.t1{font:700 22px Lora,Georgia,serif}.t2{font:700 16px Lora,Georgia,serif}.body{font:400 14px Inter,Arial,sans-serif}.small{font:600 13px Inter,Arial,sans-serif}.micro{font:400 12px Inter,Arial,sans-serif}
+  </style>
+  <rect class="bg" width="360" height="480"/>
+  <text class="ink t1" x="180" y="27" text-anchor="middle">Cada momento transforma</text>
+  <text class="ink t1" x="180" y="51" text-anchor="middle">lo anterior</text>
+  <text class="muted micro" x="180" y="70" text-anchor="middle">Conecta productos y decisiones.</text>
+
+  <g transform="translate(22 88)">
+    <rect class="paper" width="316" height="88" rx="12"/>
+    <circle class="red" cx="28" cy="29" r="17"/>
+    <text class="ink t2" x="55" y="34">Antes · Intentar</text>
+    <text class="ink body" x="14" y="59">Formula una primera explicación.</text>
+    <text class="olive small" x="14" y="79">Produce · Borrador y preguntas</text>
+  </g>
+  <path class="line" d="M180 178v12"/><path class="olive" d="M180 196l-7-11h14z"/>
+
+  <g transform="translate(22 198)">
+    <rect class="paper" width="316" height="88" rx="12"/>
+    <circle class="olive" cx="28" cy="29" r="17"/>
+    <text class="ink t2" x="55" y="34">Encuentro · Contrastar</text>
+    <text class="ink body" x="14" y="59">Compara razones, fuentes y alternativas.</text>
+    <text class="olive small" x="14" y="79">Produce · Criterios y objeciones</text>
+  </g>
+  <path class="line" d="M180 288v12"/><path class="olive" d="M180 306l-7-11h14z"/>
+
+  <g transform="translate(22 308)">
+    <rect class="paper" width="316" height="88" rx="12"/>
+    <circle class="ochre" cx="28" cy="29" r="17"/>
+    <text class="ink t2" x="55" y="34">Después · Revisar</text>
+    <text class="ink body" x="14" y="59">Transforma el borrador y explica por qué.</text>
+    <text class="olive small" x="14" y="79">Produce · Versión y justificación</text>
+  </g>
+
+  <g transform="translate(22 410)">
+    <rect width="316" height="62" rx="11" fill="#efe7d7" stroke="#a8202a" stroke-width="1.5"/>
+    <text class="red small" x="14" y="21">Si no coinciden en horario</text>
+    <text class="ink micro" x="14" y="41">El contraste diferido conserva la misma</text>
+    <text class="ink micro" x="14" y="56">decisión y evidencia.</text>
+  </g>
+</svg>

@@ -204,7 +204,6 @@ El agenciamiento (ensamblaje) no asume que la IA es inteligente. Asume que la in
 
 ## Relación con otras secciones del sitio
 
-- Una práctica documentada de co-producción persona-IA sigue pendiente de desarrollo; cuando exista, mostrará una implementación concreta de este marco
 - La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) aplica el agenciamiento (ensamblaje) en contexto de proyectos
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) ofrecen el contrapeso necesario para evitar una adopción acrítica
 

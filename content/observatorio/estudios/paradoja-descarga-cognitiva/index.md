@@ -6,6 +6,21 @@ tags: ["cognición", "aprendizaje", "carga cognitiva", "evaluación"]
 categories: ["estudio"]
 areas: ["ia"]
 showHero: true
+showRelatedContent: true
+content_type: evidencia
+audiences: [estudiante, profesorado, investigacion]
+intentions: [comprender, debatir, evaluar]
+topics: [carga-cognitiva, agencia-humana, evidencia]
+challenges: [dependencia]
+competencies: [agencia, juicio-evaluativo]
+evidence_status: revision
+connections:
+  - relation: fundamenta
+    page: /recursos/glosario/ganancia-cognitiva/
+    reason: "Aclara la diferencia entre mejorar el producto y fortalecer aprendizaje transferible."
+  - relation: aplica
+    page: /ia-educacion/guias/profesorado/
+    reason: "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
 summary: "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo."
 ---
 

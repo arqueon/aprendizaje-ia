@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Dos lentes independientes sobre la misma actividad</title>
+  <desc id="desc">SAMR pregunta qué cambió en la tarea por la tecnología. ICAP pregunta qué produjo la persona con las ideas. Los diagnósticos se sostienen con evidencias diferentes y no se alinean por niveles.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.pale{fill:#efe7d7}.t1{font:700 42px Lora,Georgia,serif}.t2{font:700 31px Lora,Georgia,serif}.body{font:400 27px Inter,Arial,sans-serif}.small{font:600 23px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+  </style>
+  <rect class="bg" width="640" height="800"/>
+  <text class="ink t1" x="320" y="54" text-anchor="middle">Dos lentes independientes</text>
+  <text class="muted body" x="320" y="96" text-anchor="middle">sobre la misma actividad</text>
+
+  <rect class="pale" x="50" y="128" width="540" height="84" rx="20"/>
+  <text class="ink small" x="320" y="162" text-anchor="middle">Caso</text>
+  <text class="ink body" x="320" y="194" text-anchor="middle">Comparar dos soluciones y justificar.</text>
+
+  <g transform="translate(50 246)">
+    <rect class="paper" width="540" height="210" rx="24"/>
+    <circle class="red" cx="48" cy="48" r="27"/>
+    <text class="white t2" x="48" y="59" text-anchor="middle">S</text>
+    <text class="ink t2" x="92" y="58">Lente SAMR</text>
+    <text class="red small" x="28" y="106">¿Qué cambió en la tarea?</text>
+    <text class="ink body" x="28" y="145">Medio, función, secuencia o posibilidad.</text>
+    <text class="muted small" x="28" y="185">Evidencia · compara la tarea antes y después</text>
+  </g>
+
+  <g transform="translate(50 488)">
+    <rect class="paper" width="540" height="210" rx="24"/>
+    <circle class="olive" cx="48" cy="48" r="27"/>
+    <text class="white t2" x="48" y="59" text-anchor="middle">I</text>
+    <text class="ink t2" x="92" y="58">Lente ICAP</text>
+    <text class="olive small" x="28" y="106">¿Qué hizo con las ideas?</text>
+    <text class="ink body" x="28" y="145">Recibió, ordenó, generó o co-construyó.</text>
+    <text class="muted small" x="28" y="185">Evidencia · describe el producto cognitivo</text>
+  </g>
+
+  <rect class="pale" x="50" y="730" width="540" height="48" rx="15"/>
+  <text class="red small" x="320" y="762" text-anchor="middle">No hay correspondencia automática entre niveles.</text>
+</svg>
+

@@ -25,6 +25,23 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
+content_type: producto
+audiences: [estudiante, profesorado]
+intentions: [practicar, diseñar, evaluar]
+topics: [productos-de-aprendizaje, evaluacion, trazabilidad]
+challenges: [autoria, alucinacion, dependencia]
+competencies: [cocreacion, verificacion, trazabilidad]
+evidence_status: prototipo
+connections:
+  - relation: requiere
+    page: /ia-educacion/practicas/comprobar-afirmacion/
+    reason: "Verifica la evidencia antes de incorporar una afirmación al argumento."
+  - relation: aplica
+    page: /ia-educacion/practicas/bitacora-cocreacion/
+    reason: "Registra versiones, sugerencias aceptadas o rechazadas y fuentes."
+  - relation: fundamenta
+    page: /ia-educacion/guias/evaluacion-formativa-ia/
+    reason: "Comprende cómo valorar el recorrido y no solo el texto final."
 ecosistema:
   id: practice.declaracion-uso-ia
   titulo: "Declaración de uso de IA"

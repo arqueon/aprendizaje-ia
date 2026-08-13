@@ -37,7 +37,7 @@ Permite a profesores y diseñadores instruccionales integrar tecnología en sus 
 
   {{< infografia-seccion titulo="A – Aumento (Mejora)" icono="arrow-up" color="#3b82f6" >}}
   La tecnología sustituye actividades del aula pero con mejoras funcionales.
-  * **Ejemplo:** Usar un LMS con contenidos de video, texto y cuestionarios para complementar la clase.
+  * **Ejemplo:** Usar un LMS —una plataforma de gestión de aprendizaje, como Moodle o Classroom— con contenidos de video, texto y cuestionarios para complementar la clase.
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="M – Modificación (Transformación)" icono="edit" color="#f59e0b" >}}
@@ -117,5 +117,5 @@ Estos marcos se complementan con el [diseño inverso de aprendizajes]({{< ref "f
 
 - Caukin, N., & Trail, L. (2019). SAMR: A Tool for Reflection for Ed Tech Integration. *International Journal of the Whole Child*, *4*(1), 47–54.
 - Chi, M.T., & Wylie, R. (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes. *Educational Psychologist*, *49*(4), 219–243.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
 - Wiggins, B.L., Eddy, S.L., Grunspan, D.Z., & Crowe, A.J. (2017). The ICAP Active Learning Framework Predicts the Learning Gains Observed in Intensely Active Classroom Experiences. *AERA Open*, *3*(2), 2332858417708567.

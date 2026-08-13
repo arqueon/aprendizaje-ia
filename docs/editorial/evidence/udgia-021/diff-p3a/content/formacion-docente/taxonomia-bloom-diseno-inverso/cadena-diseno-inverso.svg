@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">La alineación se revisa de propósito a asistencia</title>
+  <desc id="desc">Cuatro tarjetas conectan propósito, evidencia, experiencia y asistencia. Un aviso de ruptura muestra que pedir analizar y evaluar solo reconocimiento no está alineado. La cadena puede revisarse en ambos sentidos.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.pale{fill:#efe7d7}.line{fill:none;stroke:#536326;stroke-width:5;stroke-linecap:round}.return{fill:none;stroke:#a8202a;stroke-width:3;stroke-linecap:round;stroke-dasharray:8 8}.t1{font:700 40px Lora,Georgia,serif}.t2{font:700 29px Lora,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+  </style>
+  <rect class="bg" width="640" height="800"/>
+  <text class="ink t1" x="320" y="50" text-anchor="middle">Alinear antes de elegir</text>
+  <text class="ink t1" x="320" y="94" text-anchor="middle">la herramienta</text>
+
+  <g transform="translate(44 132)">
+    <rect class="paper" width="552" height="108" rx="20"/>
+    <circle class="red" cx="45" cy="45" r="24"/>
+    <text class="white t2" x="45" y="55" text-anchor="middle">1</text>
+    <text class="ink t2" x="84" y="47">Propósito</text>
+    <text class="ink body" x="84" y="80">¿Qué necesita aprender y explicar?</text>
+  </g>
+  <path class="line" d="M320 244v22"/><path class="olive" d="M320 276l-10-16h20z"/>
+
+  <g transform="translate(44 280)">
+    <rect class="paper" width="552" height="108" rx="20"/>
+    <circle class="olive" cx="45" cy="45" r="24"/>
+    <text class="white t2" x="45" y="55" text-anchor="middle">2</text>
+    <text class="ink t2" x="84" y="47">Evidencia</text>
+    <text class="ink body" x="84" y="80">¿Qué producto y criterio lo muestran?</text>
+  </g>
+  <path class="line" d="M320 392v22"/><path class="olive" d="M320 424l-10-16h20z"/>
+
+  <g transform="translate(44 428)">
+    <rect class="paper" width="552" height="108" rx="20"/>
+    <circle class="ochre" cx="45" cy="45" r="24"/>
+    <text class="white t2" x="45" y="55" text-anchor="middle">3</text>
+    <text class="ink t2" x="84" y="47">Experiencia</text>
+    <text class="ink small" x="84" y="72">¿Qué intento y contraste</text>
+    <text class="ink small" x="84" y="97">preparan la revisión?</text>
+  </g>
+  <path class="line" d="M320 540v22"/><path class="olive" d="M320 572l-10-16h20z"/>
+
+  <g transform="translate(44 576)">
+    <rect class="paper" width="552" height="108" rx="20"/>
+    <circle class="red" cx="45" cy="45" r="24"/>
+    <text class="white t2" x="45" y="55" text-anchor="middle">4</text>
+    <text class="ink t2" x="84" y="47">Asistencia</text>
+    <text class="ink body" x="84" y="80">¿Qué ayuda conserva la evidencia propia?</text>
+  </g>
+
+  <path class="return" d="M610 630V178q0-22-22-22h-12"/>
+  <path class="red" d="M570 156l16-10v20z"/>
+
+  <rect class="pale" x="44" y="716" width="552" height="62" rx="17" stroke="#a8202a" stroke-width="2"/>
+  <text class="red small" x="320" y="742" text-anchor="middle">Ruptura · analizar no es solo reconocer.</text>
+  <text class="ink small" x="320" y="766" text-anchor="middle">Revisa la cadena en ambos sentidos.</text>
+</svg>

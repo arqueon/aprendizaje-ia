@@ -19,7 +19,7 @@ showAuthor: false
 ---
 
 {{< lead >}}
-La integración de IA en docencia universitaria sostiene mejor cuando hay un colectivo donde compartir, contrastar y refinar la propia práctica. Esta curaduría reúne seis comunidades activas en abril de 2026, organizadas por escala y por idioma de operación.
+Un docente que prueba IA en su aula aprende algo cada semana; diez docentes que se lo cuentan aprenden diez veces más. La integración de IA en docencia universitaria se sostiene mejor cuando hay un colectivo donde compartir, contrastar y refinar la propia práctica. Esta curaduría reúne seis comunidades activas en abril de 2026, organizadas por escala y por idioma de operación.
 {{< /lead >}}
 
 ## Por qué importa pertenecer a una comunidad

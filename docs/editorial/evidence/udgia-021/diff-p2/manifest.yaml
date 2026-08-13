@@ -1,0 +1,78 @@
+paquete: "UDGIA-021-P2-M1-B2-M6"
+version: 2
+fecha: "2026-08-03"
+estado: "aplicado-en-working-tree-qa-pass"
+autorizacion:
+  preparar_diff: true
+  integrar_content: true
+  integrar_static: true
+  publicar: false
+  desplegar: false
+  modificar_moodle: false
+  push: false
+aplicacion:
+  validado_por: "Rubén"
+  vobo: ".sdocs/UDGIA-021-vobo-P2-ligero.md"
+  envio_final: "2026-08-04T01:49:12.718Z"
+  fecha_local: "2026-08-03"
+  backup_m1: "docs/editorial/evidence/udgia-021/diff-p2/rollback/pre-aplicacion/content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md"
+  qa:
+    estado: "PASS"
+    generado: "2026-08-04T01:52:38.702Z"
+    alcance: "working tree; content/ y static/ reales"
+    reporte: "docs/editorial/evidence/udgia-021/diff-p2/qa-report.json"
+metodo_revision:
+  perspectivas_agenticas_permitidas: true
+  se_presentan_como_participantes: false
+  validacion_humana: "Rubén"
+  limitaciones_no_verificadas:
+    - "uso real por otras personas"
+    - "experiencia con lector de pantalla real"
+    - "carga de la cohorte"
+    - "adecuación disciplinar por campo"
+
+contenido_hugo:
+  - operacion: "reemplazar"
+    fuente_preparada: "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md"
+    destino_aplicado: "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md"
+    funcion: "M1; entrada común para estudiantes y profesorado"
+  - operacion: "crear"
+    fuente_preparada: "content/ia-educacion/orientaciones/index.md"
+    destino_aplicado: "content/ia-educacion/orientaciones/index.md"
+    funcion: "explicar estatus, alcance y continuidad de la propuesta de Orientaciones"
+  - operacion: "crear"
+    fuente_preparada: "content/ia-educacion/guias/estudiantes/index.md"
+    destino_aplicado: "content/ia-educacion/guias/estudiantes/index.md"
+    funcion: "landing por audiencia y acceso a B2"
+  - operacion: "crear"
+    fuente_preparada: "content/ia-educacion/guias/profesorado/index.md"
+    destino_aplicado: "content/ia-educacion/guias/profesorado/index.md"
+    funcion: "landing por audiencia y acceso a M6"
+
+runtimes_estaticos:
+  - id: "B2-comparar-sugerencias"
+    fuente: "docs/editorial/evidence/udgia-021/prototipos/comparador-sugerencias-b2/"
+    destino_aplicado: "static/actividades/comparar-sugerencias/"
+    archivos:
+      - { nombre: "index.html", sha256: "fcc6f19104e5ca7b122b25be6aa9bb6ba21eb45c83fa6f93a1487777ba6aa055", bytes: 20012 }
+      - { nombre: "styles.css", sha256: "f922e855146f97133e374565cc3f98228b480a44b7bd409c350ee0f01f5db02e", bytes: 11473 }
+      - { nombre: "app.js", sha256: "b80b16413f587c498c1cd9ed45288562b703bd10f30acd7bb123fe41c8f9aca4", bytes: 14386 }
+      - { nombre: "fallback-imprimible.html", sha256: "af645aea6b5a6908eecad222652e1b96a97deb4520ab80ab412aebac59a843fb", bytes: 11731 }
+      - { nombre: "favicon.svg", sha256: "2632a9f97db9b19137a96b78c4d3389be3c786f89f470e0c90998856a0a5df87", bytes: 544 }
+  - id: "M6-revisar-actividad"
+    fuente: "docs/editorial/evidence/udgia-021/prototipos/revisor-alineacion-m6/"
+    destino_aplicado: "static/actividades/revisar-actividad/"
+    archivos:
+      - { nombre: "index.html", sha256: "c51bfc323f2de687a31ec8b3e64e71edde0594246b6bfaef75a3a11fec63edcc", bytes: 12103 }
+      - { nombre: "styles.css", sha256: "63a6f9c7fbfea3691c5817d229ac4b9df65686b6de561fd430ca056a482d774f", bytes: 9672 }
+      - { nombre: "app.js", sha256: "b64c479893b43570bd565ed538a0f4ffc1bd0328345d588956a7edd09bf7f1e8", bytes: 10667 }
+      - { nombre: "fallback-imprimible.html", sha256: "907d77e90965565e8d33f69ec4697c1971e20673485103a8f57e52d1161eb824", bytes: 6969 }
+      - { nombre: "favicon.svg", sha256: "f554a3293e62c606a266095952470a401c4ae18bc9d782cadc56825d7def0c29", bytes: 306 }
+      - { nombre: "actividad-pide-practica-revisa.svg", sha256: "b25813bd4182205cd7922bc7e708c00619f2e34490602a23964125f2cbacb772", bytes: 3131 }
+
+excluido_del_runtime_publico:
+  - "capturas de QA"
+  - "qa.mjs y qa-report.json"
+  - "README de desarrollo"
+  - "escenas raster imagegen"
+  - "navegación global L5"

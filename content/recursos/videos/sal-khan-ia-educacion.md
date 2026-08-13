@@ -26,11 +26,7 @@ videoIdioma: "en"
 
 {{< youtubeLite id="hJP5GqnTrNo" label="Sal Khan: How AI could save (not destroy) education" >}}
 
-| | |
-|---|---|
-| **Canal** | TED |
-| **Duración** | 15:09 |
-| **Idioma** | Inglés (subtítulos disponibles en español) |
+**La pregunta que este video ayuda a responder:** si la IA puede actuar como tutor personal de cada estudiante, ¿qué pasa con el papel del docente?
 
 ## De qué trata
 

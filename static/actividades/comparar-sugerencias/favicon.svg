@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Dos notas comparadas y una decisión</title>
+  <rect width="64" height="64" rx="14" fill="#202d49"/>
+  <path d="M13 16h17v24H13z" fill="#f7f2e8"/>
+  <path d="M34 16h17v24H34z" fill="#efe7d7"/>
+  <path d="M20 24h4M20 31h4M41 24h4M41 31h4" stroke="#a8202a" stroke-width="3" stroke-linecap="round"/>
+  <path d="m23 49 6 5 13-13" fill="none" stroke="#c8d27c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -44,6 +44,8 @@ El ciclo de aprendizaje del estudiante en el aula invertida sigue cuatro fases:
 
 Las fases 1 y 2 (*prepara* y *prueba*) ocurren en el entorno de **aprendizaje en línea**. Las fases 3 y 4 (*participa* y *comprueba*) ocurren en el espacio de **aprendizaje interactivo cara a cara**.
 
+**Una semana con el ciclo completo.** En un curso de estadística, la fase 1 es un video de ocho minutos y dos lecturas cortas; la fase 2, un cuestionario de cinco preguntas que la plataforma califica solo; la fase 3, un estudio de caso por equipos en el salón («¿qué prueba conviene para comparar estos dos grupos?»); y la fase 4, un reporte breve individual que recibe retroalimentación comentada.
+
 
 
 ## Perspectiva del profesor
@@ -60,6 +62,8 @@ El profesor también tiene un ciclo de cuatro fases correspondiente:
 | **4. Crear actividades de asimilación** | Diseña actividades con rúbricas y objetivos de aprendizaje definidos: ensayos, cuestionarios, ejercicios |
 
 En el aula invertida los profesores se convierten en curadores de contenidos con el objetivo de promover una mayor interacción y trabajo colaborativo entre los estudiantes, de tal modo que apliquen y realicen creaciones colectivas con el conocimiento y lo apliquen a la resolución de problemas (Universidad de Guadalajara, 2022; Talbert, 2017).
+
+Los dos ciclos se engranan: lo que el profesor produce en sus fases 1 y 2 es exactamente lo que el estudiante consume en las suyas, y lo que el estudiante hace en el aula (su fase 3) solo es posible si el profesor diseñó antes el ejercicio interactivo (su fase 3). Si una fase del ciclo del profesor falta, el ciclo del estudiante se rompe en el mismo punto.
 
 
 
@@ -93,4 +97,4 @@ El aula invertida es un componente central del [aprendizaje híbrido]({{< ref "f
 - Reidsema, C., Kavanagh, L., Hadgraft, R., & Smith, N. (Eds.). (2017). *The Flipped Classroom*. Springer Singapore.
 - Santiago, R., & Bergmann, J. (2018). *Aprender al revés: Flipped Learning 3.0 y metodologías activas en el aula*. Ediciones Paidós.
 - Talbert, R. (2017). *Flipped Learning: A Guide for Higher Education Faculty*. Stylus Publishing.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.

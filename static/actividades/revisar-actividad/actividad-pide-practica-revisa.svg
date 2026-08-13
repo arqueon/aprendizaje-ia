@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1120" viewBox="0 0 640 747" role="img" aria-labelledby="title desc">
+  <title id="title">Un cambio pequeño permite practicar y mostrar la comparación</title>
+  <desc id="desc">El docente quiere que el grupo compare dos fuentes. Al principio, el grupo solo lee resúmenes y elige una opción. La versión revisada incorpora una comparación con razones antes de entregar.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.pale{fill:#efe7d7}.line{fill:none;stroke:#536326;stroke-width:5;stroke-linecap:round}.broken{fill:none;stroke:#a8202a;stroke-width:5;stroke-linecap:round;stroke-dasharray:9 9}.t1{font:700 36px Lora,Georgia,serif}.t2{font:700 26px Lora,Georgia,serif}.body{font:400 22px Inter,Arial,sans-serif}.small{font:600 19px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+  </style>
+  <rect class="bg" width="640" height="747"/>
+  <text class="ink t1" x="320" y="48" text-anchor="middle">Quieres que comparen</text>
+
+  <g transform="translate(44 82)">
+    <rect class="paper" width="552" height="102" rx="20"/>
+    <circle class="olive" cx="46" cy="46" r="24"/>
+    <text class="white t2" x="46" y="55" text-anchor="middle">1</text>
+    <text class="ink t2" x="86" y="42">Lo que quieres que aprendan</text>
+    <text class="ink body" x="86" y="76">Comparar dos fuentes y explicar una diferencia.</text>
+  </g>
+
+  <path class="broken" d="M320 192v28"/>
+  <path class="red" d="M320 231l-11-17h22z"/>
+
+  <g transform="translate(44 238)">
+    <rect class="paper" width="552" height="150" rx="20"/>
+    <circle class="red" cx="46" cy="46" r="24"/>
+    <text class="white t2" x="46" y="55" text-anchor="middle">2</text>
+    <text class="ink t2" x="86" y="42">Lo que ocurre ahora</text>
+    <text class="ink body" x="86" y="76">Leen dos resúmenes.</text>
+    <text class="ink body" x="86" y="108">Al final eligen una opción.</text>
+    <text class="red small" x="86" y="136">Nadie necesita comparar para completar el trabajo.</text>
+  </g>
+
+  <path class="line" d="M320 398v28"/>
+  <path class="olive" d="M320 437l-11-17h22z"/>
+
+  <g transform="translate(44 444)">
+    <rect class="paper" width="552" height="154" rx="20"/>
+    <circle class="olive" cx="46" cy="46" r="24"/>
+    <text class="white t2" x="46" y="55" text-anchor="middle">3</text>
+    <text class="ink t2" x="86" y="42">Un ajuste posible</text>
+    <text class="ink body" x="86" y="76">Comparan qué afirma cada fuente.</text>
+    <text class="ink body" x="86" y="108">Entregan una diferencia y explican su razón.</text>
+    <text class="olive small" x="86" y="138">Ahora practican y muestran la comparación.</text>
+  </g>
+
+  <rect class="pale" x="44" y="630" width="552" height="82" rx="17" stroke="#536326" stroke-width="2"/>
+  <text class="ink small" x="320" y="662" text-anchor="middle">La ayuda puede aportar preguntas o una objeción.</text>
+  <text class="ink small" x="320" y="690" text-anchor="middle">La comparación y la decisión siguen a cargo de la persona.</text>
+</svg>

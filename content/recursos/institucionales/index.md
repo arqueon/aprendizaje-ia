@@ -12,7 +12,7 @@ showSummary: true
 weight: 10
 ---
 
-Esta página reúne los tres recursos institucionales del sitio. No son recomendaciones abstractas: son documentos de trabajo que se pueden adaptar al programa, departamento o asignatura que los consulte.
+Tres documentos de trabajo sostienen la postura de este sitio sobre la IA en la UdeG. Esta página los reúne y explica para qué sirve cada uno: no son recomendaciones abstractas, son piezas que se pueden adaptar al programa, departamento o asignatura que los consulte.
 
 ## Qué encontrarás
 
@@ -24,4 +24,4 @@ Esta página reúne los tres recursos institucionales del sitio. No son recomend
 
 Los tres documentos se leen mejor en cadena: las sugerencias de política ofrecen el marco, el repositorio de prompts lo traduce a práctica docente concreta y el catálogo de herramientas orienta la elección tecnológica compatible con ambos. Un departamento que retoma los tres tiene una base operativa sin necesidad de empezar de cero.
 
-Para docentes que trabajan en solitario, el [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) suele ser el punto de entrada más útil. Para coordinadores de programa, las [sugerencias de política]({{< ref "/recursos/politica-ia-udeg" >}}) ofrecen un andamio para las discusiones colegiadas. Para responsables de cómputo académico, [el catálogo]({{< ref "/recursos/catalogo-herramientas-ia" >}}) provee los criterios técnicos para decidir licenciamientos.
+Para docentes que trabajan en solitario, el [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) suele ser el punto de entrada más útil. Para coordinadores de programa, las [sugerencias de política]({{< ref "/recursos/politica-ia-udeg" >}}) ofrecen un andamio —una estructura de apoyo que se retira cuando la obra se sostiene— para las discusiones colegiadas. Para responsables de cómputo académico, [el catálogo]({{< ref "/recursos/catalogo-herramientas-ia" >}}) provee los criterios técnicos para decidir licenciamientos.

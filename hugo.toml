@@ -11,6 +11,35 @@ home = ["HTML", "RSS", "JSON"]
   category = "categories"
   area = "areas"
 
+[related]
+includeNewer = true
+threshold = 45
+toLower = true
+
+[[related.indices]]
+name = "competencies"
+weight = 100
+
+[[related.indices]]
+name = "intentions"
+weight = 90
+
+[[related.indices]]
+name = "challenges"
+weight = 85
+
+[[related.indices]]
+name = "topics"
+weight = 70
+
+[[related.indices]]
+name = "audiences"
+weight = 45
+
+[[related.indices]]
+name = "content_type"
+weight = 20
+
 [params]
 colorScheme = "udgplus-c"
 # Valor técnico para controles nativos; el sitio no ofrece apariencias alternativas.
@@ -45,7 +74,7 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   showBreadcrumbs = true
   showTableOfContents = true
   showRelatedContent = true
-  relatedContentLimit = 3
+  relatedContentLimit = 5
   showScrollToTop = true
 
 [params.list]

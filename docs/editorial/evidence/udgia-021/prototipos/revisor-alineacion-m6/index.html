@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Comprueba si tu actividad pide, practica y revisa lo mismo</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#actividad">Ir a la actividad</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Actividad para docentes</p>
+      <h1>¿Tu actividad pide, practica y revisa lo mismo?</h1>
+      <p class="hero__lead">
+        Elige una actividad que ya utilices. Compararás lo que quieres que aprenda el grupo
+        con lo que practicará y entregará. Al final sabrás qué parte conviene ajustar primero.
+      </p>
+      <p class="privacy-pill">No califica ni envía tus respuestas</p>
+    </div>
+  </header>
+
+  <main id="actividad" class="layout">
+    <noscript>
+      <section class="notice notice--important">
+        <h2>Puedes hacer la revisión sin JavaScript</h2>
+        <p>
+          Abre la <a href="fallback-imprimible.html">hoja completa para leer, completar e
+          imprimir</a>. Conserva las mismas preguntas y la misma exigencia.
+        </p>
+      </section>
+    </noscript>
+
+    <section class="intro" aria-labelledby="caso-title">
+      <div class="intro__copy">
+        <p class="section-label">Un ejemplo completo antes de comenzar</p>
+        <h2 id="caso-title">Quieres que comparen, pero solo les pides elegir</h2>
+        <p>
+          Imagina que quieres que el grupo compare dos fuentes sobre un problema de agua y
+          explique cuál sostiene mejor una afirmación. Durante la actividad, las personas
+          leen un resumen de cada fuente. Al final solo eligen una opción de una lista.
+        </p>
+        <p>
+          El problema no está en la palabra <em>comparar</em>. Está en que nadie tuvo que
+          comparar para completar el trabajo. Un ajuste pequeño sería pedir una comparación
+          breve, con una razón y una referencia a cada fuente. Entonces la práctica y la
+          entrega permitirían ver el aprendizaje que importa.
+        </p>
+      </div>
+      <figure class="chain-figure">
+        <img src="actividad-pide-practica-revisa.svg" alt="El docente quiere que el grupo compare dos fuentes. La actividad solo permite leer resúmenes y elegir una opción. Una versión revisada añade una comparación con razones antes de la entrega.">
+        <figcaption>La herramienta te ayuda a encontrar este tipo de diferencia en una actividad propia.</figcaption>
+      </figure>
+    </section>
+
+    <section class="how-it-works" aria-labelledby="how-title">
+      <h2 id="how-title">Qué vas a hacer</h2>
+      <p>
+        No necesitas conocer términos de diseño educativo. Completa cinco frases sobre una
+        actividad y responde cuatro preguntas con <em>sí</em>, <em>no</em> o <em>no estoy
+        seguro</em>. La herramienta no interpreta ni califica lo que escribes.
+      </p>
+      <ul class="plain-list">
+        <li>Escribe qué quieres que el grupo aprenda a hacer y qué hará al final.</li>
+        <li>Describe cómo lo practicará y qué ayuda tendrá disponible.</li>
+        <li>Recibe una sugerencia sobre el primer punto que marcaste para revisar.</li>
+      </ul>
+    </section>
+
+    <div id="error-summary" class="error-summary" role="alert" tabindex="-1" hidden>
+      <h2>Revisa estos campos antes de continuar</h2>
+      <ul></ul>
+    </div>
+
+    <form id="alignment-form" class="review-form" novalidate>
+      <div class="form-toolbar" aria-label="Opciones del borrador">
+        <button class="button button--quiet" type="button" id="load-example">Usar el ejemplo de las dos fuentes</button>
+        <p id="draft-status" class="draft-status" aria-live="polite"></p>
+      </div>
+
+      <section class="chain-card" aria-labelledby="purpose-title">
+        <div class="chain-card__number" aria-hidden="true">1</div>
+        <div class="chain-card__body">
+          <h2 id="purpose-title">¿Qué quieres que el grupo aprenda a hacer?</h2>
+          <p>Escríbelo como una acción que podrías reconocer en un trabajo o explicación.</p>
+          <label for="purpose">Al terminar, quiero que cada persona pueda…</label>
+          <textarea id="purpose" name="purpose" rows="4" minlength="12" maxlength="700" required aria-describedby="purpose-help"></textarea>
+          <p id="purpose-help" class="field-help">Ejemplo: comparar dos fuentes y explicar cuál sostiene mejor una afirmación.</p>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="evidence-title">
+        <div class="chain-card__number" aria-hidden="true">2</div>
+        <div class="chain-card__body">
+          <h2 id="evidence-title">¿Qué hará o entregará para mostrártelo?</h2>
+          <p>Describe el trabajo final. No basta con nombrar el formato: indica qué tendrá que hacer la persona.</p>
+          <label for="evidence">Trabajo o actuación final</label>
+          <textarea id="evidence" name="evidence" rows="4" minlength="12" maxlength="700" required aria-describedby="evidence-help"></textarea>
+          <p id="evidence-help" class="field-help">Ejemplo: una comparación breve que cite cada fuente y explique una diferencia importante.</p>
+
+          <fieldset id="purpose-evidence-group" class="relation-group">
+            <legend>Para completar este trabajo, ¿la persona tendrá que hacer lo que escribiste en el paso 1?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="purposeEvidence" value="yes" required> Sí</label>
+              <label><input type="radio" name="purposeEvidence" value="no"> No</label>
+              <label><input type="radio" name="purposeEvidence" value="unsure"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="experience-title">
+        <div class="chain-card__number" aria-hidden="true">3</div>
+        <div class="chain-card__body">
+          <h2 id="experience-title">¿Cómo lo practicará antes de entregar?</h2>
+          <p>Describe un primer intento, una comparación o una revisión que prepare el trabajo final.</p>
+          <label for="experience">Práctica previa</label>
+          <textarea id="experience" name="experience" rows="4" minlength="12" maxlength="700" required aria-describedby="experience-help"></textarea>
+          <p id="experience-help" class="field-help">Ejemplo: subrayar qué afirma cada fuente, comparar sus razones y revisar una primera respuesta.</p>
+
+          <fieldset id="evidence-experience-group" class="relation-group">
+            <legend>¿Esta práctica prepara realmente el trabajo que pedirás al final?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="evidenceExperience" value="yes" required> Sí</label>
+              <label><input type="radio" name="evidenceExperience" value="no"> No</label>
+              <label><input type="radio" name="evidenceExperience" value="unsure"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="assistance-title">
+        <div class="chain-card__number" aria-hidden="true">4</div>
+        <div class="chain-card__body">
+          <h2 id="assistance-title">¿Qué ayuda podrá usar?</h2>
+          <p>Una guía, otra persona o una IA pueden orientar sin hacer la parte que el grupo necesita aprender.</p>
+          <label for="assistance">Ayuda disponible y momento en que se usa</label>
+          <textarea id="assistance" name="assistance" rows="4" minlength="12" maxlength="700" required aria-describedby="assistance-help"></textarea>
+          <p id="assistance-help" class="field-help">Ejemplo: después del primer intento, una IA propone una objeción; la persona comprueba las fuentes y decide.</p>
+
+          <fieldset id="experience-assistance-group" class="relation-group">
+            <legend>Con esta ayuda, ¿la parte importante del trabajo sigue a cargo de la persona?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="experienceAssistance" value="yes" required> Sí</label>
+              <label><input type="radio" name="experienceAssistance" value="no"> No</label>
+              <label><input type="radio" name="experienceAssistance" value="unsure"> No estoy seguro</label>
+            </div>
+          </fieldset>
+
+          <label for="alternative">Si no usa IA, ¿qué apoyo equivalente tendrá?</label>
+          <textarea id="alternative" name="alternative" rows="3" minlength="12" maxlength="500" required aria-describedby="alternative-help"></textarea>
+          <p id="alternative-help" class="field-help">Puede ser una pregunta preparada, una fuente, una guía o la revisión de otra persona.</p>
+
+          <fieldset id="alternative-equivalent-group" class="relation-group">
+            <legend>¿Las dos opciones permiten practicar y entregar lo mismo, con un esfuerzo parecido?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="alternativeEquivalent" value="yes" required> Sí</label>
+              <label><input type="radio" name="alternativeEquivalent" value="no"> No</label>
+              <label><input type="radio" name="alternativeEquivalent" value="unsure"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <div class="primary-actions">
+        <button class="button button--primary" type="submit">Comprobar mi actividad</button>
+        <p>La sugerencia se basa en tus respuestas; la herramienta no evalúa el contenido.</p>
+      </div>
+    </form>
+
+    <section id="review-result" class="result" tabindex="-1" aria-live="polite" hidden>
+      <p class="section-label">Un punto para volver a mirar</p>
+      <h2 id="result-title"></h2>
+      <p id="result-explanation" class="result__lead"></p>
+      <div class="result__next">
+        <h3>Prueba este cambio</h3>
+        <p id="result-action"></p>
+      </div>
+      <details>
+        <summary>Ver lo que escribiste</summary>
+        <dl id="result-summary" class="result-summary"></dl>
+      </details>
+      <p class="result__limit">
+        Esta revisión no comprueba la exactitud de la actividad ni garantiza que funcionará
+        con tu grupo. Antes de usarla, revisa también el contenido, el tiempo y las condiciones
+        de acceso.
+      </p>
+      <p><a href="../../ia-educacion/guias/profesorado/">Volver a la guía y elegir el siguiente paso</a></p>
+    </section>
+
+    <section class="local-tools" aria-labelledby="local-title">
+      <h2 id="local-title">Guarda una copia solo si la necesitas</h2>
+      <p>
+        Nada se envía. El borrador solo se conserva entre sesiones si eliges guardarlo en este
+        dispositivo. Puedes borrarlo en cualquier momento.
+      </p>
+      <div class="secondary-actions">
+        <button class="button button--secondary" type="button" id="save-draft">Guardar en este dispositivo</button>
+        <button class="button button--quiet" type="button" id="print-review">Imprimir o guardar como PDF</button>
+        <button class="button button--danger" type="button" id="clear-draft">Borrar mi borrador</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p><strong>Es un punto de partida.</strong> Otra persona puede ayudarte a comprobar si la actividad se entiende como esperas.</p>
+    <p><a href="../../ia-educacion/guias/profesorado/">Volver a la guía para profesorado</a></p>
+    <p><a href="fallback-imprimible.html">Abrir la hoja sin JavaScript</a></p>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

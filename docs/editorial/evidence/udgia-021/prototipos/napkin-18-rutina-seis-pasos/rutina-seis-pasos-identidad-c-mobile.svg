@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1080" viewBox="0 0 640 1080" role="img" aria-labelledby="napkin18-mobile-title napkin18-mobile-desc">
+  <title id="napkin18-mobile-title">Seis pasos para conservar tus decisiones</title>
+  <desc id="napkin18-mobile-desc">Secuencia vertical de seis pasos: partir de una posición propia, delimitar la ayuda, comprobar una afirmación, decidir con razones, comparar versiones y explicar el resultado.</desc>
+  <metadata>Variante móvil derivada del Generated Output de Napkin AI y adaptada a identidad C. Uso sujeto a los términos de Napkin.</metadata>
+  <rect width="640" height="1080" fill="#f7f2e8"/>
+
+  <g font-family="Lora, Georgia, serif" fill="#1d2a42">
+    <text x="44" y="66" font-size="36" font-weight="700">Seis pasos para conservar</text>
+    <text x="44" y="108" font-size="36" font-weight="700">tus decisiones</text>
+    <text x="44" y="145" font-size="17">Una rutina breve para trabajar con IA sin perder tu criterio.</text>
+  </g>
+
+  <line x1="82" y1="211" x2="82" y2="911" stroke="#9aa6b7" stroke-width="4"/>
+
+  <g font-family="Lora, Georgia, serif" fill="#1d2a42">
+    <g>
+      <rect x="112" y="170" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="170" width="12" height="114" rx="6" fill="#394f70"/>
+      <circle cx="82" cy="227" r="28" fill="#394f70"/>
+      <text x="82" y="228" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">1</text>
+      <text x="148" y="210" font-size="22" font-weight="700">Posición inicial propia</text>
+      <text x="148" y="244" font-size="17">Anota una posición propia antes</text>
+      <text x="148" y="268" font-size="17">de pedir ayuda.</text>
+    </g>
+
+    <g>
+      <rect x="112" y="310" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="310" width="12" height="114" rx="6" fill="#a8202a"/>
+      <circle cx="82" cy="367" r="28" fill="#a8202a"/>
+      <text x="82" y="368" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+      <text x="148" y="350" font-size="22" font-weight="700">Ayuda delimitada</text>
+      <text x="148" y="384" font-size="17">Define qué ayuda aceptar y qué</text>
+      <text x="148" y="408" font-size="17">tarea conservar.</text>
+    </g>
+
+    <g>
+      <rect x="112" y="450" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="450" width="12" height="114" rx="6" fill="#596522"/>
+      <circle cx="82" cy="507" r="28" fill="#596522"/>
+      <text x="82" y="508" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">3</text>
+      <text x="148" y="490" font-size="22" font-weight="700">Afirmación comprobada</text>
+      <text x="148" y="524" font-size="17">Comprueba una afirmación con</text>
+      <text x="148" y="548" font-size="17">otra fuente.</text>
+    </g>
+
+    <g>
+      <rect x="112" y="590" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="590" width="12" height="114" rx="6" fill="#7a571c"/>
+      <circle cx="82" cy="647" r="28" fill="#7a571c"/>
+      <text x="82" y="648" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">4</text>
+      <text x="148" y="630" font-size="22" font-weight="700">Decisión razonada</text>
+      <text x="148" y="664" font-size="17">Conserva, modifica o descarta</text>
+      <text x="148" y="688" font-size="17">con una razón.</text>
+    </g>
+
+    <g>
+      <rect x="112" y="730" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="730" width="12" height="114" rx="6" fill="#394f70"/>
+      <circle cx="82" cy="787" r="28" fill="#394f70"/>
+      <text x="82" y="788" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">5</text>
+      <text x="148" y="770" font-size="22" font-weight="700">Versiones comparadas</text>
+      <text x="148" y="804" font-size="17">Compara la versión inicial con</text>
+      <text x="148" y="828" font-size="17">la revisada.</text>
+    </g>
+
+    <g>
+      <rect x="112" y="870" width="484" height="114" rx="18" fill="#fffdf8" stroke="#d8cfbf" stroke-width="2"/>
+      <rect x="112" y="870" width="12" height="114" rx="6" fill="#a8202a"/>
+      <circle cx="82" cy="927" r="28" fill="#a8202a"/>
+      <text x="82" y="928" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle" dominant-baseline="middle">6</text>
+      <text x="148" y="910" font-size="22" font-weight="700">Resultado explicado</text>
+      <text x="148" y="944" font-size="17">Explica el cambio más importante</text>
+      <text x="148" y="968" font-size="17">y por qué.</text>
+    </g>
+
+    <text x="44" y="1034" font-size="16" font-style="italic">La IA aporta; la decisión y su explicación siguen siendo tuyas.</text>
+  </g>
+</svg>

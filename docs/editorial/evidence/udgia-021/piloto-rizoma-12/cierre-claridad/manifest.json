@@ -1,0 +1,80 @@
+{
+  "generated_at": "2026-08-12T03:27:50.784Z",
+  "entries": [
+    {
+      "path": "variants/related-a-curated.html",
+      "bytes": 2560,
+      "sha256": "8ed4d52159060218d6af1cc75ba1a32a7990aa48d11ddd0f4426ae31f13d39e1"
+    },
+    {
+      "path": "variants/related-b-explained.html",
+      "bytes": 9892,
+      "sha256": "690b30bcb2d870d3bdb0a627b53e77c99a1ac3312f07064ddf5d1a897a885b3a"
+    },
+    {
+      "path": "qa-report.json",
+      "bytes": 106282,
+      "sha256": "a0b51a38840f4afe934da9bd9a18af40a514f35c46a28c4c61049475f9a688a8"
+    },
+    {
+      "path": "captures/ganancia-cognitiva-desktop-a.png",
+      "bytes": 39556,
+      "sha256": "52ee97db88ab403b50278c6ac26e0c5ce667fcee8eadfa033edadd00345595e8"
+    },
+    {
+      "path": "captures/ganancia-cognitiva-desktop-b.png",
+      "bytes": 68139,
+      "sha256": "873ef6e1bd7d456a4de0c85807b80104ce57ab8395f534bc0df36960f8990e0c"
+    },
+    {
+      "path": "captures/ganancia-cognitiva-mobile-a.png",
+      "bytes": 40742,
+      "sha256": "88638b7170ab8310456e59f56b9ec65beb7a9745b06299c2baeb8354e1714314"
+    },
+    {
+      "path": "captures/ganancia-cognitiva-mobile-b.png",
+      "bytes": 71262,
+      "sha256": "1293e1b9c812bf103a8cf63bbe744407aeb206f85f87c78e54d1024c76cc5aae"
+    },
+    {
+      "path": "captures/paradoja-descarga-desktop-a.png",
+      "bytes": 46702,
+      "sha256": "79c1293f108d5523776a210bc4d972739572244a3813e45c91e3696973667aef"
+    },
+    {
+      "path": "captures/paradoja-descarga-desktop-b.png",
+      "bytes": 80262,
+      "sha256": "c77b677399b67287ecd47e7c8986bd433a4d34282019a1466ba8f070720e4fa5"
+    },
+    {
+      "path": "captures/paradoja-descarga-mobile-a.png",
+      "bytes": 47493,
+      "sha256": "ff509696e491ff1767bec89264dcaa12ecb69641a7e3bab877be9111f8a2adf9"
+    },
+    {
+      "path": "captures/paradoja-descarga-mobile-b.png",
+      "bytes": 70131,
+      "sha256": "33ea5dbd5379fc7e0f2712bb58b66a0c23a867a592622f7d9798ebcdb26c5057"
+    },
+    {
+      "path": "captures/comparacion-ganancia-cognitiva-desktop.png",
+      "bytes": 212716,
+      "sha256": "f376a40b184240f9629100016cee4e371265092e187b1a38327ab64d354dac87"
+    },
+    {
+      "path": "captures/comparacion-ganancia-cognitiva-mobile.png",
+      "bytes": 213393,
+      "sha256": "fde9703e46c0dced7841a986f839da34e414b1ef7d4e415c4c964e22465c0363"
+    },
+    {
+      "path": "captures/comparacion-paradoja-descarga-desktop.png",
+      "bytes": 230460,
+      "sha256": "684402ddb6dd43f78d963a4489b94a8ce2423407ae3a9809aab14de72fd256b0"
+    },
+    {
+      "path": "captures/comparacion-paradoja-descarga-mobile.png",
+      "bytes": 213950,
+      "sha256": "f95344b3e5b0fa44b03971555c678a7cacda55cd8f2d748e7ee46e6c12b81464"
+    }
+  ]
+}

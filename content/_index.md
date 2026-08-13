@@ -42,3 +42,5 @@ graph TD
   B -->|Ética y transparencia| H[Uso responsable]
   B -->|Integración| I[Currículo]
 {{< /mermaid >}}
+
+**Recorrido en texto:** la docencia se transforma al incorporar la IA en la educación; de ahí se desprenden cuatro caminos de innovación pedagógica —las prácticas del Laboratorio, el análisis del Observatorio, los materiales de Recursos y el desarrollo profesional de Formación docente— y dos compromisos transversales: el uso responsable (ética y transparencia) y la integración al currículo.

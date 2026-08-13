@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Hoja imprimible para comprobar una actividad</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#hoja">Ir a la hoja</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Actividad para docentes · alternativa sin JavaScript</p>
+      <h1>¿Tu actividad pide, practica y revisa lo mismo?</h1>
+      <p class="hero__lead">Completa la hoja en pantalla o imprímela. No envía ni guarda respuestas.</p>
+    </div>
+  </header>
+
+  <main id="hoja" class="layout">
+    <section class="intro" aria-labelledby="fallback-case-title">
+      <div class="intro__copy">
+        <p class="section-label">Un ejemplo completo antes de comenzar</p>
+        <h2 id="fallback-case-title">Quieres que comparen, pero solo les pides elegir</h2>
+        <p>
+          Quieres que el grupo compare dos fuentes y explique cuál sostiene mejor una
+          afirmación. Sin embargo, durante la actividad solo lee resúmenes y al final elige
+          una opción. Para completar el trabajo nadie necesita comparar. Pedir una comparación
+          breve con razones permitiría practicar y mostrar ese aprendizaje.
+        </p>
+      </div>
+      <figure class="chain-figure">
+        <img src="actividad-pide-practica-revisa.svg" alt="El docente quiere que el grupo compare dos fuentes. La actividad solo permite leer resúmenes y elegir una opción. Una versión revisada añade una comparación con razones antes de la entrega.">
+        <figcaption>La hoja te ayuda a encontrar este tipo de diferencia en una actividad propia.</figcaption>
+      </figure>
+    </section>
+
+    <section class="notice">
+      <h2>Cómo usar esta hoja</h2>
+      <p>
+        Completa cinco frases sobre una actividad. En cada pregunta marca sí, no o no estoy
+        seguro. La primera respuesta que no sea sí indica qué conviene revisar primero. Si
+        todas son sí, pide a otra persona que lea la actividad y te diga qué entiende.
+      </p>
+    </section>
+
+    <form class="review-form">
+      <section class="chain-card" aria-labelledby="f-purpose-title">
+        <div class="chain-card__number" aria-hidden="true">1</div>
+        <div class="chain-card__body">
+          <h2 id="f-purpose-title">¿Qué quieres que el grupo aprenda a hacer?</h2>
+          <label for="f-purpose">Al terminar, quiero que cada persona pueda…</label>
+          <textarea id="f-purpose" rows="5"></textarea>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="f-evidence-title">
+        <div class="chain-card__number" aria-hidden="true">2</div>
+        <div class="chain-card__body">
+          <h2 id="f-evidence-title">¿Qué hará o entregará para mostrártelo?</h2>
+          <label for="f-evidence">Trabajo o actuación final</label>
+          <textarea id="f-evidence" rows="5"></textarea>
+          <fieldset class="relation-group">
+            <legend>Para completar este trabajo, ¿la persona tendrá que hacer lo que escribiste en el paso 1?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="f-pe"> Sí</label>
+              <label><input type="radio" name="f-pe"> No</label>
+              <label><input type="radio" name="f-pe"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="f-experience-title">
+        <div class="chain-card__number" aria-hidden="true">3</div>
+        <div class="chain-card__body">
+          <h2 id="f-experience-title">¿Cómo lo practicará antes de entregar?</h2>
+          <label for="f-experience">Práctica previa</label>
+          <textarea id="f-experience" rows="5"></textarea>
+          <fieldset class="relation-group">
+            <legend>¿Esta práctica prepara realmente el trabajo que pedirás al final?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="f-ee"> Sí</label>
+              <label><input type="radio" name="f-ee"> No</label>
+              <label><input type="radio" name="f-ee"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <section class="chain-card" aria-labelledby="f-assistance-title">
+        <div class="chain-card__number" aria-hidden="true">4</div>
+        <div class="chain-card__body">
+          <h2 id="f-assistance-title">¿Qué ayuda podrá usar?</h2>
+          <label for="f-assistance">Ayuda disponible y momento en que se usa</label>
+          <textarea id="f-assistance" rows="5"></textarea>
+          <fieldset class="relation-group">
+            <legend>Con esta ayuda, ¿la parte importante del trabajo sigue a cargo de la persona?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="f-ea"> Sí</label>
+              <label><input type="radio" name="f-ea"> No</label>
+              <label><input type="radio" name="f-ea"> No estoy seguro</label>
+            </div>
+          </fieldset>
+          <label for="f-alternative">Si no usa IA, ¿qué apoyo equivalente tendrá?</label>
+          <textarea id="f-alternative" rows="4"></textarea>
+          <fieldset class="relation-group">
+            <legend>¿Las dos opciones permiten practicar y entregar lo mismo, con un esfuerzo parecido?</legend>
+            <div class="radio-row">
+              <label><input type="radio" name="f-ae"> Sí</label>
+              <label><input type="radio" name="f-ae"> No</label>
+              <label><input type="radio" name="f-ae"> No estoy seguro</label>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+    </form>
+
+    <section class="local-tools">
+      <h2>Decide qué revisar primero</h2>
+      <p><strong>Primera respuesta “no”:</strong> ajusta esa parte antes de añadir más instrucciones o herramientas.</p>
+      <p><strong>Primera respuesta “no estoy seguro”:</strong> prueba con un ejemplo o pide a otra persona que lea la actividad.</p>
+      <p><strong>Todas “sí”:</strong> confirma que otra persona entiende qué aprenderá el grupo, qué entregará y qué trabajo seguirá siendo suyo.</p>
+      <p><a href="index.html">Volver al revisor interactivo</a></p>
+      <p><a href="../../ia-educacion/guias/profesorado/">Volver a la guía para profesorado</a></p>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p><strong>Es un punto de partida.</strong> La revisión humana y disciplinar sigue siendo necesaria.</p>
+  </footer>
+</body>
+</html>

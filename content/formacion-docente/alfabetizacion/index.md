@@ -15,7 +15,7 @@ categories: ["marco-conceptual"]
 ---
 
 {{< lead >}}
-Estar alfabetizado digitalmente ya no es saber usar herramientas. Exige comprender el ecosistema en el que operan y aprender a co-crear con la IA sin ceder la dirección epistémica del proceso. Este marco organiza esa competencia en tres niveles acumulativos: operativa, crítica y co-creación.
+Estar alfabetizado digitalmente ya no es saber usar herramientas. Exige comprender el ecosistema en el que operan y aprender a co-crear con la IA sin ceder la dirección epistémica del proceso —el control de qué se acepta, qué se descarta y hacia dónde va el trabajo—. Este marco organiza esa competencia en tres niveles acumulativos: operativa, crítica y co-creación.
 {{< /lead >}}
 
 ## Por qué hacen falta tres niveles
@@ -75,7 +75,7 @@ La [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabeti
 
 ## Nivel 3 — Co-creación
 
-El tercer nivel es el que las dos alfabetizaciones anteriores no cubren: aprender a sostener una interacción con la IA donde lo que se produce emerge del acoplamiento humano-modelo, sin que el humano pierda la dirección del proceso.
+El tercer nivel es el que las dos alfabetizaciones anteriores no cubren: aprender a sostener una interacción con la IA donde lo que se produce emerge del acoplamiento humano-modelo —la unión de trabajo entre la persona y el sistema, de modo que el resultado no es de ninguno de los dos por separado—, sin que el humano pierda la dirección del proceso.
 
 Meshi (2024) describe este acoplamiento como un **ensamblaje cognitivo** (*cognitive assemblage*): el resultado no pertenece ni al humano solo ni al modelo solo, sino a la relación estructurada entre los dos. Yang y Ma (2025) ofrecen una taxonomía de las relaciones epistémicas en la interacción persona-IA que ayuda a nombrar qué tipo de vínculo se sostiene en cada tarea — si el humano actúa como autor, evaluador, curador o par. Rousell y Sinclair (2025) conectan esta dimensión con una pregunta más amplia: qué futuros educativos estamos co-creando con los sistemas que adoptamos.
 

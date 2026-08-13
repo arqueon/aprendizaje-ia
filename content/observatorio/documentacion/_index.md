@@ -20,9 +20,3 @@ Aquí se reúnen experiencias significativas de docentes UdeG y de otras institu
 ## Guías de implementación
 
 Materiales paso a paso para replicar estrategias ya validadas: rúbricas, prompts, secuencias didácticas y plantillas de syllabus.
-
-## Próximas publicaciones
-
-- Repositorio de casos UdeG por programa académico.
-- Plantillas de documentación reutilizables.
-- Materiales de soporte para coordinaciones académicas.

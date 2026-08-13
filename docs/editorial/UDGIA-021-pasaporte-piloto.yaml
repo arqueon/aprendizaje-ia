@@ -1,0 +1,1289 @@
+# PASAPORTE UDGIA-021 — fuente de verdad del piloto editorial de Hugo.
+# La arquitectura interna no se copia a las páginas públicas.
+
+curso:
+  titulo: "Piloto editorial del sitio IA y Aprendizaje"
+  clave: "UDGIA-021"
+  programa: "Ecosistema IA-docencia UDGPlus"
+  institucion: "Universidad de Guadalajara / UDGPlus"
+  modalidad: "recurso web público asincrónico; no es un curso ni fija modalidad del curso amplio"
+  duracion_semanas: 0
+  horas_totales_estudiante: 0
+  creditos: null
+  idioma: "es-MX"
+  version: "0.27-p2-aplicado-working-tree-qa-pass"
+  fecha_actualizacion: "2026-08-03"
+  modo_de_trabajo: "copiloto"
+
+poblacion:
+  descripcion: >-
+    Personas que llegan al sitio público por las rutas existentes de estudiantado o
+    profesorado. El primer piloto debe ser comprensible sin formación previa en diseño
+    instruccional, inteligencia artificial, Bloom, ICAP, SAMR, aprendizaje activo o
+    aprendizaje híbrido. Coordinación académica puede consultar el nodo de entrada, pero
+    no es la audiencia primaria de las seis familias piloto.
+  tamano_estimado: null
+  conocimientos_previos_garantizados: []
+  conocimientos_previos_NO_garantizados:
+    - "Vocabulario de inteligencia artificial y educación"
+    - "Diseño instruccional o evaluación del aprendizaje"
+    - "Taxonomía revisada de Bloom"
+    - "Modelos SAMR e ICAP"
+    - "Diferencia entre modalidad híbrida y aprendizaje activo"
+  concepciones_erroneas_frecuentes:
+    - concepto: "aprendizaje activo"
+      concepcion_previa: "Toda participación, clic o uso de una herramienta vuelve activa una actividad."
+      por_que_es_tentadora: "La actividad visible se confunde con generación y revisión de ideas."
+    - concepto: "aprendizaje híbrido"
+      concepcion_previa: "Basta repartir materiales entre aula y plataforma."
+      por_que_es_tentadora: "Describe los medios utilizados, aunque no exista una secuencia funcional."
+    - concepto: "ICAP interactivo"
+      concepcion_previa: "Conversar con un chatbot equivale a co-construir con otra persona."
+      por_que_es_tentadora: "La interfaz responde y parece recíproca."
+    - concepto: "taxonomía de Bloom"
+      concepcion_previa: "Es una pirámide rígida y siempre hay que subir sus seis escalones en orden."
+      por_que_es_tentadora: "La representación piramidal simplifica una relación compleja."
+    - concepto: "co-creación con IA"
+      concepcion_previa: "Un producto más pulido prueba que hubo aprendizaje compartido con el sistema."
+      por_que_es_tentadora: "El acabado oculta quién formuló, verificó y decidió."
+  lengua_y_variedad: "español de México; evitar anglicismos no mediados"
+  condiciones_materiales:
+    dispositivo_predominante: "DESCONOCIDO; diseñar primero para móvil y teclado"
+    conectividad: "DESCONOCIDA; no hacer que la comprensión dependa de activos pesados o interacción"
+    horas_disponibles_por_semana: null
+  motivaciones_de_inscripcion:
+    - "Resolver una duda sobre IA y aprendizaje"
+    - "Diseñar o revisar una actividad docente"
+    - "Entender un término encontrado en una guía o curso"
+  causas_de_abandono_conocidas:
+    - "Entrada por definiciones abstractas"
+    - "Texto o diagramas densos sin ejemplo mediado"
+    - "Navegación sin ruta de continuidad"
+    - "Imágenes genéricas que no aportan comprensión"
+  uso_previsto_del_aprendizaje: >-
+    Comprender una relación, tomar una decisión acotada y continuar hacia una guía,
+    práctica, ejemplo o tarea del curso pertinente.
+  fuente_del_perfil: >-
+    Rutas por audiencia y contrato editorial UDGIA-004A; no existe todavía investigación
+    de usuarios ni prueba con la primera cohorte del curso amplio.
+  huecos_de_informacion:
+    - "Perfiles, dispositivos y tecnologías de asistencia de usuarios reales"
+    - "Términos de búsqueda y rutas de entrada más frecuentes"
+    - "Tiempo de lectura y abandono por tipo de página"
+    - "Primera población, modalidad y carga del curso amplio"
+
+comunicacion_publica:
+  audiencia_en_sus_propias_palabras: >-
+    Estudio o enseño y necesito entender qué aporta la IA, qué parte del trabajo no debo
+    delegar y qué recurso me ayuda a continuar.
+  preguntas_que_probablemente_trae:
+    - "¿En qué puede ayudarme la IA sin sustituir mi aprendizaje o mi criterio?"
+    - "¿Qué significa que una actividad sea activa o híbrida?"
+    - "¿Para qué sirven Bloom, SAMR e ICAP y cuáles son sus límites?"
+    - "¿Qué debo observar, producir o documentar?"
+    - "¿Qué página o guía me conviene leer después?"
+  conocimientos_que_NO_se_pueden_suponer:
+    - "Diferencia entre producto y evidencia del proceso"
+    - "Diferencia entre herramienta, modalidad, conducta cognitiva y resultado"
+    - "Sentido de dirección epistémica, ICAP o diseño inverso"
+  etiquetas_internas_que_no_deben_publicarse: ["UDGIA-021", "RA", "CT", "M", "A", "L1-lote"]
+  tono: "orientador, conversacional y académico divulgativo"
+  terminos_necesarios:
+    - termino: "co-creación persona-IA"
+      situacion_que_prepara_su_significado: "Una persona recibe dos sugerencias plausibles y debe decidir qué cambia y por qué."
+      explicacion_cotidiana: "El sistema aporta posibilidades; la persona conserva la pregunta, el criterio, la verificación y la decisión."
+      ejemplo: "Revisar dos versiones de un borrador y justificar qué se acepta, transforma o descarta."
+      lugar_de_primera_aparicion: "Familia agenciamiento y co-creación"
+    - termino: "aprendizaje activo"
+      situacion_que_prepara_su_significado: "Dos estudiantes usan la misma herramienta, pero solo uno explica, contrasta y revisa."
+      explicacion_cotidiana: "La actividad importa por el trabajo de pensamiento que provoca, no por el movimiento o la tecnología."
+      ejemplo: "Comparar respuestas, construir un criterio y revisar una explicación."
+      lugar_de_primera_aparicion: "Familia aprendizaje activo"
+    - termino: "aprendizaje híbrido"
+      situacion_que_prepara_su_significado: "Un trabajo previo solo cobra sentido si se usa para decidir durante el encuentro y revisar después."
+      explicacion_cotidiana: "Los momentos se conectan por función; no basta distribuir archivos entre espacios."
+      ejemplo: "Borrador asíncrono, contraste síncrono y revisión final justificada."
+      lugar_de_primera_aparicion: "Familia aprendizaje híbrido"
+    - termino: "SAMR e ICAP"
+      situacion_que_prepara_su_significado: "La misma tecnología puede cambiar poco la tarea y aun así exigir razonamiento, o al revés."
+      explicacion_cotidiana: "SAMR mira la transformación de la tarea; ICAP, lo que hace cognitivamente la persona."
+      ejemplo: "Sustituir papel por pantalla frente a generar y contrastar una explicación propia."
+      lugar_de_primera_aparicion: "Familia SAMR e ICAP"
+    - termino: "Bloom y diseño inverso"
+      situacion_que_prepara_su_significado: "Una actividad empieza por lo que se quiere observar, no por una herramienta o verbo aislado."
+      explicacion_cotidiana: "Bloom ayuda a describir la operación cognitiva; el diseño inverso alinea propósito, evidencia y experiencia."
+      ejemplo: "Elegir una evidencia que realmente obligue a comparar y justificar, no solo reconocer opciones."
+      lugar_de_primera_aparicion: "Familia Bloom y diseño inverso"
+  ideas_centrales:
+    - idea: "El valor educativo depende de la decisión y el trabajo cognitivo, no de la presencia de IA."
+      situacion_de_entrada: "Dos productos igual de pulidos esconden procesos de aprendizaje distintos."
+      explicacion_cotidiana: "Hay que mirar qué comprendió, verificó y decidió la persona."
+      relaciones_que_deben_desarrollarse: ["co-creación", "aprendizaje activo", "evidencia del proceso"]
+      ejemplo_trabajado: "Un borrador revisado en dos versiones con razones de aceptación y descarte."
+      contraste_o_limite: "Usar más herramientas o producir más rápido no demuestra mayor aprendizaje."
+      uso_para_la_audiencia: "Decidir qué asistencia conviene y qué evidencia conservar."
+      recapitulacion: "La herramienta puede apoyar; el criterio y la responsabilidad siguen siendo humanos."
+    - idea: "Los marcos responden preguntas diferentes y no forman una escalera única."
+      situacion_de_entrada: "Una actividad puede ser híbrida, usar IA y seguir exigiendo solo recepción."
+      explicacion_cotidiana: "Modalidad, transformación de tarea, conducta cognitiva y propósito son dimensiones relacionadas pero distintas."
+      relaciones_que_deben_desarrollarse: ["aprendizaje híbrido", "SAMR", "ICAP", "Bloom", "diseño inverso"]
+      ejemplo_trabajado: "La misma consigna se observa desde cada marco y produce diagnósticos distintos."
+      contraste_o_limite: "No existe correspondencia automática SAMR↔Bloom ni chat↔ICAP interactivo."
+      uso_para_la_audiencia: "Elegir el marco según la pregunta de diseño que necesita responder."
+      recapitulacion: "Los marcos se coordinan por su función; no se apilan como niveles equivalentes."
+  decisiones_de_formato:
+    tablas_solo_despues_de_explicar: true
+    visuales_y_pregunta_que_responden:
+      - "Mapa de lentes: ¿qué pregunta responde cada marco y qué no permite concluir?"
+      - "Comparador de versiones: ¿qué decisión humana cambió el resultado?"
+      - "Secuencia híbrida: ¿cómo utiliza cada momento el trabajo del anterior?"
+    apoyos_para_lectura_en_movil:
+      - "Prosa breve antes de tablas y diagramas"
+      - "Una relación principal por visual"
+      - "Sin texto diminuto incrustado"
+      - "Fallback estructurado y navegación lineal equivalente"
+
+resultados_de_aprendizaje:
+  - id: "RA1"
+    enunciado_para_estudiante: "Podrás explicar con un ejemplo qué pregunta responde cada familia conceptual y qué no permite concluir."
+    enunciado_formal: "La persona distingue co-creación, aprendizaje activo, aprendizaje híbrido, SAMR, ICAP, Bloom y diseño inverso por su función y límites en un caso educativo."
+    nivel_cognitivo: "analizar"
+    justificacion_del_nivel: "La evidencia exige separar dimensiones que aparecen juntas en un mismo caso y explicar sus relaciones."
+    observable_en: "Reconstrucción del lector en frío y mapa comparativo de un caso."
+    criterio_de_suficiencia: "Distingue las seis lentes del recorrido sin equivalencias rígidas y aporta al menos un ejemplo y un límite correctos."
+    competencia_asociada: "Literacidades crítica y de co-creación; criterio didáctico y dirección epistémica."
+    auditado_por: "auditor de alineación UDGIA-021, ronda 2"
+    fecha_auditoria: "2026-08-02"
+  - id: "RA2"
+    enunciado_para_estudiante: "Podrás decidir qué ayuda de IA conviene, qué trabajo conservar y qué evidencia permite justificar tu decisión."
+    enunciado_formal: "La persona evalúa una situación educativa y justifica una ruta de uso, límite, aplazamiento o no uso de IA."
+    nivel_cognitivo: "evaluar"
+    justificacion_del_nivel: "La tarea exige aplicar criterios, comparar consecuencias y defender una decisión contextual."
+    observable_en: "Respuesta a un escenario con decisión, razón, evidencia y alternativa."
+    criterio_de_suficiencia: "La decisión corresponde al propósito, conserva trabajo no delegable y nombra una evidencia pertinente."
+    competencia_asociada: "Juicio crítico, agencia y uso selectivo/no utilización."
+    auditado_por: "auditor de alineación UDGIA-021, ronda 2"
+    fecha_auditoria: "2026-08-02"
+  - id: "RA3"
+    enunciado_para_estudiante: "Podrás encontrar una guía, práctica o profundización adecuada para continuar desde tu necesidad."
+    enunciado_formal: "La persona selecciona y explica un siguiente recurso según audiencia, intención y relación semántica."
+    nivel_cognitivo: "aplicar"
+    justificacion_del_nivel: "La evidencia usa las categorías del recorrido en una necesidad concreta, no solo reconoce etiquetas."
+    observable_en: "Prueba de recorrido desde una pregunta real hasta un recurso y un siguiente paso."
+    criterio_de_suficiencia: "Llega sin callejón a un recurso pertinente y puede explicar por qué continúa ahí."
+    competencia_asociada: "Autogestión del aprendizaje y navegación informacional."
+    auditado_por: "auditor de alineación UDGIA-021, ronda 2"
+    fecha_auditoria: "2026-08-02"
+
+alineacion:
+  - resultado: "RA1"
+    evidencia: "Explicación en palabras propias de un caso observado con los seis lentes, incluyendo ejemplo y límite."
+    actividad_preparatoria: "Caso recurrente explicado, contraste de dos interpretaciones y mapa que separa las preguntas de cada marco."
+    clase_de_tarea: "CT1"
+    modulo: "Columna conceptual completa"
+    tipo_de_aprendizaje: "indagacion"
+    modo_icap_previsto: "constructivo"
+    conducta_icap_observable: "Genera una comparación y una explicación que no estaban dadas literalmente."
+    justificacion_icap: "La clasificación depende de la explicación propia, no de clics, IA o formato visual."
+    papel_de_ia_si_aplica: "La lectura no requiere IA; un ejemplo puede mostrar respuestas producidas con IA."
+    alternativa_sin_ia: "Ruta completa en prosa, tablas y casos estáticos."
+    nivel_cognitivo_evidencia: "analizar"
+    peso_en_calificacion: null
+  - resultado: "RA2"
+    evidencia: "Decisión justificada ante un escenario: propósito, ayuda elegida, trabajo no delegable, evidencia y alternativa."
+    actividad_preparatoria: "Ejemplo trabajado completo, segundo caso con apoyos parciales y escenario de transferencia."
+    clase_de_tarea: "CT2"
+    modulo: "Agenciamiento/co-creación + aplicación de los cinco marcos"
+    tipo_de_aprendizaje: "produccion"
+    modo_icap_previsto: "constructivo"
+    conducta_icap_observable: "Formula y defiende una decisión contextual propia."
+    justificacion_icap: "La persona genera una justificación; una interfaz conversacional no se contabiliza como interacción ICAP."
+    papel_de_ia_si_aplica: "Opcional como fuente de una sugerencia o contraste; nunca decide ni evalúa la evidencia final."
+    alternativa_sin_ia: "Caso y alternativas escritas con la misma exigencia de justificación."
+    nivel_cognitivo_evidencia: "evaluar"
+    peso_en_calificacion: null
+  - resultado: "RA3"
+    evidencia: "Recorrido observado desde una pregunta por audiencia hasta una guía/práctica y una explicación del siguiente paso."
+    actividad_preparatoria: "Selector de entrada, enlaces tipados y cierres que explican por qué sigue cada recurso."
+    clase_de_tarea: "CT3"
+    modulo: "Entrada general y cierres de las seis familias"
+    tipo_de_aprendizaje: "practica"
+    modo_icap_previsto: "constructivo"
+    conducta_icap_observable: "Selecciona una ruta y genera una explicación propia de por qué responde a su necesidad."
+    justificacion_icap: "La evidencia completa no termina en navegar: exige producir una razón de pertinencia que no estaba dada literalmente."
+    papel_de_ia_si_aplica: "Ninguno."
+    alternativa_sin_ia: "La ruta completa es navegable sin IA ni H5P."
+    nivel_cognitivo_evidencia: "aplicar"
+    peso_en_calificacion: null
+
+distribucion_tipos_de_aprendizaje:
+  adquisicion_pct: 25
+  indagacion_pct: 25
+  practica_pct: 20
+  discusion_pct: 0
+  colaboracion_pct: 0
+  produccion_pct: 30
+  alerta: "El sitio público asincrónico no promete discusión o colaboración; el curso podrá añadirlas cuando modalidad y población estén definidas."
+
+distribucion_modos_icap:
+  pasivo_pct: 25
+  activo_pct: 20
+  constructivo_pct: 55
+  interactivo_pct: 0
+  criterio_de_conteo: "Función prevista de los tres tipos de evidencia y su preparación; no representa tiempo real de usuario."
+  alerta: "No atribuir modo interactivo a H5P o conversación con IA; el curso amplio resolverá interacción humana según modalidad."
+
+desempeno_terminal: >-
+  Ante una situación de aprendizaje con tecnología o IA, explica qué pregunta necesita
+  responder, usa el marco pertinente sin confundirlo con los demás, justifica una decisión
+  y encuentra el recurso adecuado para continuar.
+
+clases_de_tarea:
+  - id: "CT1"
+    tarea_completa: "Explicar un caso educativo mediante lentes conceptuales distintos sin convertirlos en una jerarquía única."
+    que_se_simplifica: "Un solo caso, propósito explícito y cuatro dimensiones muy contrastadas."
+    variantes:
+      - "Estudiante revisa un borrador con dos sugerencias de IA."
+      - "Docente distribuye una actividad entre preparación, encuentro y cierre."
+    andamiaje_inicial: "Ejemplo trabajado y preguntas visibles de cada lente."
+    secuencia_de_retirada: "ejemplo completo → comparación con huecos → caso con solo preguntas → transferencia"
+    informacion_de_apoyo: "Explicaciones cotidianas, límites y mapa de relaciones."
+    informacion_procedimental: "Preguntas: qué propósito, qué hace la persona, qué cambia en la tarea, cómo se conectan los momentos y qué evidencia queda."
+    practica_de_componentes: "Ninguna automatización aislada."
+  - id: "CT2"
+    tarea_completa: "Decidir y justificar si usar, limitar, aplazar o no usar IA en una situación concreta."
+    que_se_simplifica: "Consecuencia acotada, datos no sensibles y dos rutas plausibles."
+    variantes:
+      - "Revisión de un texto de bajo riesgo."
+      - "Actividad con información sensible o acceso desigual."
+    andamiaje_inicial: "Decisión modelada con propósito, criterio, evidencia y alternativa."
+    secuencia_de_retirada: "caso resuelto → pasos faltantes → plantilla breve → decisión autónoma"
+    informacion_de_apoyo: "Orientaciones §§3–6 y muestras para estudiantes/docentes."
+    informacion_procedimental: "Plantilla de decisión y verificación."
+    practica_de_componentes: "Verificar una afirmación solo si el caso lo requiere."
+  - id: "CT3"
+    tarea_completa: "Encontrar una ruta pertinente y explicar por qué ese recurso es el siguiente paso."
+    que_se_simplifica: "Tres entradas por audiencia/intención y un único enlace principal por cierre."
+    variantes:
+      - "Quiero comprender antes de usar IA."
+      - "Quiero diseñar una actividad."
+      - "Necesito resolver un término encontrado en el curso."
+    andamiaje_inicial: "Selector con ejemplos de necesidades."
+    secuencia_de_retirada: "ruta sugerida → mapa navegable → búsqueda o índice semántico"
+    informacion_de_apoyo: "Contrato de relaciones tipadas y mapa de constelación."
+    informacion_procedimental: "Indicadores Para quién, Para qué y Cómo continuar."
+    practica_de_componentes: "Ninguna."
+
+narrativa:
+  pregunta_motriz: "¿Qué necesita hacer una persona, además de usar una herramienta, para que la IA ayude a aprender y enseñar?"
+  caso_o_hilo_recurrente: >-
+    Un mismo borrador o actividad cambia de versión. La persona debe decidir propósito,
+    ayuda, momento, trabajo cognitivo, evidencia y siguiente paso.
+  arco:
+    al_inicio_es_capaz_de: "Reconocer nombres y herramientas que aparecen separados en el sitio."
+    al_final_es_capaz_de: "Distinguir las preguntas de cada marco, relacionarlas en un caso y justificar una ruta."
+  tension_por_modulo:
+    - modulo: "Entrada general"
+      queda_resuelto: "Por qué el producto final no basta para saber qué se aprendió."
+      queda_abierto: "Quién conserva la pregunta, el criterio y la decisión."
+      por_que_sigue_lo_que_sigue: "La co-creación permite observar cómo se reparte el trabajo."
+    - modulo: "Agenciamiento y co-creación"
+      queda_resuelto: "Qué decisiones no se delegan y qué rastro puede mostrarlas."
+      queda_abierto: "Qué tipo de actividad provoca aprendizaje."
+      por_que_sigue_lo_que_sigue: "Hay que mirar la conducta de la persona, no la herramienta."
+    - modulo: "Aprendizaje activo"
+      queda_resuelto: "Qué significa generar, contrastar y revisar ideas."
+      queda_abierto: "Cómo conectar esas acciones entre momentos y espacios."
+      por_que_sigue_lo_que_sigue: "El diseño híbrido responde a la secuencia funcional."
+    - modulo: "Aprendizaje híbrido"
+      queda_resuelto: "Cómo cada momento usa el trabajo del anterior."
+      queda_abierto: "Cómo describir transformación de la tarea e implicación cognitiva sin confundirlas."
+      por_que_sigue_lo_que_sigue: "SAMR e ICAP miran dimensiones diferentes del mismo caso."
+    - modulo: "SAMR e ICAP"
+      queda_resuelto: "Qué pregunta responde cada marco y por qué chat no equivale a interacción ICAP."
+      queda_abierto: "Cómo partir del propósito y elegir evidencia suficiente."
+      por_que_sigue_lo_que_sigue: "Bloom y diseño inverso conectan operación cognitiva, evidencia y experiencia."
+    - modulo: "Bloom y diseño inverso"
+      queda_resuelto: "Cómo alinear propósito, evidencia, actividad y uso de IA sin una pirámide rígida."
+      queda_abierto: "Cómo aplicar la decisión en una guía, práctica o curso."
+      por_que_sigue_lo_que_sigue: "El cierre dirige a una acción específica por audiencia."
+
+conceptos_umbral:
+  - concepto: "La herramienta no determina el aprendizaje."
+    intuicion_previa_en_conflicto: "Más tecnología, clics o fluidez significan mayor aprendizaje."
+    caso_que_la_rompe: "Dos productos iguales con procesos de decisión y comprensión opuestos."
+    tiempo_estimado_de_transito: "NO verificado"
+    evidencia_de_cruce: "La persona justifica el valor de la actividad mediante una conducta y una evidencia, no por la herramienta."
+  - concepto: "Los marcos no forman una jerarquía única."
+    intuicion_previa_en_conflicto: "SAMR, ICAP y Bloom pueden alinearse nivel por nivel."
+    caso_que_la_rompe: "Una tarea transforma el medio pero exige recepción, o cambia poco el medio y exige una explicación constructiva."
+    tiempo_estimado_de_transito: "NO verificado"
+    evidencia_de_cruce: "La persona explica qué pregunta responde cada marco y evita correspondencias automáticas."
+
+modulos:
+  - id: "M1"
+    titulo: "Entrada general"
+    titulo_publico_sin_codigo: "Empezar con IA para aprender y enseñar"
+    resultados_asociados: ["RA2", "RA3"]
+    clase_de_tarea: "CT2, CT3"
+    transicion_de_entrada: "Parte de una tarea o producto familiar y pregunta qué aprendió realmente la persona."
+    recorrido_explicativo:
+      situacion_reconocible: "Un producto convincente aparece en minutos."
+      explicacion_cotidiana: "El acabado no revela el recorrido."
+      concepto_y_relaciones: "Propósito, ayuda, verificación, decisión y evidencia."
+      ejemplo_trabajado: "Un caso ficticio de calidad del agua compara dos conclusiones y vuelve a la evidencia antes de decidir."
+      contraste_o_limite: "Dominar instrucciones o una marca no basta."
+      oportunidad_de_uso: "Elegir una ruta de estudiantado o profesorado."
+      recapitulacion_y_enlace: "Para decidir bien hay que observar quién conduce el sentido."
+    capas:
+      nucleo: { contenido: "Pregunta, límite, caso y selector de ruta.", horas_estimadas: null }
+      puente: { prerrequisito_que_cubre: "Qué es una respuesta generativa.", contenido: "Ejemplo breve sin jerga.", practica_corta: "Reconocer qué parte produjo el sistema y cuál decidió la persona." }
+      profundizacion: { tipo: "controversia", contenido: "Producto, proceso y evidencia en tareas de distinta consecuencia." }
+    representaciones_multiples: ["Prosa con caso", "Escena ambiental amplia y móvil", "Selector de tres preguntas de continuidad"]
+    formas_admitidas_de_demostrar: ["Explicación oral o escrita", "Selección de ruta con justificación"]
+    calibracion: { verificada: false, indice_legibilidad_es: 63.25, palabras_por_oracion: 16.23, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M1 medida con pyphen es_ES después del refinamiento autorizado: INFLESZ normal y auditor público 0/0; el ajuste a la población sigue NO verificado hasta lector humano." }
+  - id: "M2"
+    titulo: "Agenciamiento y co-creación"
+    titulo_publico_sin_codigo: "Conservar la dirección del trabajo con IA"
+    resultados_asociados: ["RA1", "RA2"]
+    clase_de_tarea: "CT1, CT2"
+    transicion_de_entrada: "La entrada mostró que el producto no basta; ahora se observa quién pregunta, verifica y decide."
+    recorrido_explicativo: { situacion_reconocible: "Dos sugerencias plausibles compiten.", explicacion_cotidiana: "Aceptar no es lo mismo que decidir.", concepto_y_relaciones: "Co-creación, dirección epistémica, ganancia y descarga cognitiva.", ejemplo_trabajado: "Comparación de dos versiones con decisiones intermedias.", contraste_o_limite: "Co-creación no equivale a coautoría técnica ni a delegación.", oportunidad_de_uso: "Documentar cambio, razón y verificación.", recapitulacion_y_enlace: "Conservar dirección requiere trabajo cognitivo observable." }
+    capas: { nucleo: { contenido: "Caso y distinciones esenciales.", horas_estimadas: null }, puente: { prerrequisito_que_cubre: "Diferenciar sugerencia, criterio y decisión.", contenido: "Caso anotado.", practica_corta: "Marcar quién hizo cada movimiento." }, profundizacion: { tipo: "caso límite", contenido: "Responsabilidad distribuida sin atribuir agencia moral al sistema." } }
+    representaciones_multiples: ["Comparador de versiones", "Mapa de decisiones y evidencias"]
+    formas_admitidas_de_demostrar: ["Justificación escrita", "Mapa anotado equivalente"]
+    calibracion: { verificada: false, indice_legibilidad_es: 62.98, palabras_por_oracion: 14.38, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M2 medida después del lote de continuidad autorizado: INFLESZ normal y auditor público 0/0; ajuste a población NO verificado hasta lector humano." }
+  - id: "M3"
+    titulo: "Aprendizaje activo"
+    titulo_publico_sin_codigo: "Qué hace activa una experiencia de aprendizaje"
+    resultados_asociados: ["RA1", "RA2"]
+    clase_de_tarea: "CT1, CT2"
+    transicion_de_entrada: "Ya se identificó quién decide; falta distinguir qué trabajo mental produce aprendizaje."
+    recorrido_explicativo: { situacion_reconocible: "Dos personas hacen clic, pero solo una genera y revisa una idea.", explicacion_cotidiana: "La actividad visible no prueba actividad cognitiva.", concepto_y_relaciones: "Conducta observable, esfuerzo productivo y evidencia.", ejemplo_trabajado: "De leer una respuesta a explicar, contrastar y revisar.", contraste_o_limite: "Participar, jugar o usar chat no basta.", oportunidad_de_uso: "Reformular una consigna por la conducta esperada.", recapitulacion_y_enlace: "Una buena conducta también necesita una secuencia entre momentos." }
+    capas: { nucleo: { contenido: "Situación, conducta, ejemplo y criterio.", horas_estimadas: null }, puente: { prerrequisito_que_cubre: "Diferencia entre acción visible y operación cognitiva.", contenido: "Cuatro mini-casos.", practica_corta: "Describir qué genera la persona." }, profundizacion: { tipo: "controversia", contenido: "Cuándo una explicación individual puede superar una mala colaboración." } }
+    representaciones_multiples: ["Prosa con microcasos", "Continuo de conductas observables"]
+    formas_admitidas_de_demostrar: ["Reescritura de consigna", "Explicación de conducta y evidencia"]
+    calibracion: { verificada: false, indice_legibilidad_es: 62.36, palabras_por_oracion: 12.84, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M3 medida después del lote de continuidad autorizado: INFLESZ normal y auditor público 0/0; ajuste a población NO verificado hasta lector humano." }
+  - id: "M4"
+    titulo: "Aprendizaje híbrido"
+    titulo_publico_sin_codigo: "Conectar momentos para que el aprendizaje avance"
+    resultados_asociados: ["RA1", "RA2"]
+    clase_de_tarea: "CT1, CT2"
+    transicion_de_entrada: "Una conducta útil quedó definida; ahora se decide en qué momento ocurre y cómo alimenta el siguiente."
+    recorrido_explicativo: { situacion_reconocible: "La preparación en línea se repite en clase y el cierre no recupera ninguna decisión.", explicacion_cotidiana: "Repartir tareas no crea continuidad.", concepto_y_relaciones: "Función de cada momento, preparación, encuentro y revisión.", ejemplo_trabajado: "Borrador asíncrono, contraste síncrono y revisión final.", contraste_o_limite: "Híbrido no equivale a digital ni garantiza actividad.", oportunidad_de_uso: "Comprobar qué usa cada momento del anterior.", recapitulacion_y_enlace: "La secuencia puede observarse además por transformación de tarea e implicación cognitiva." }
+    capas: { nucleo: { contenido: "Caso, secuencia y criterio de continuidad.", horas_estimadas: null }, puente: { prerrequisito_que_cubre: "Distinguir medio, momento y función.", contenido: "Secuencias contrastadas.", practica_corta: "Unir cada momento con lo que recibe y produce." }, profundizacion: { tipo: "restricción adicional", contenido: "Diseñar continuidad con conectividad intermitente y rutas equivalentes." } }
+    representaciones_multiples: ["Relato de una secuencia", "Diagrama antes-durante-después con productos"]
+    formas_admitidas_de_demostrar: ["Secuencia anotada", "Explicación de continuidad"]
+    calibracion: { verificada: false, indice_legibilidad_es: 63.05, palabras_por_oracion: 14.20, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M4 medida después del lote de continuidad autorizado: INFLESZ normal y auditor público 0/0; ajuste a población NO verificado hasta lector humano." }
+  - id: "M5"
+    titulo: "SAMR e ICAP"
+    titulo_publico_sin_codigo: "Dos preguntas distintas sobre una misma actividad"
+    resultados_asociados: ["RA1", "RA2"]
+    clase_de_tarea: "CT1, CT2"
+    transicion_de_entrada: "La secuencia ya tiene funciones; falta evitar que cambio tecnológico e implicación cognitiva se vuelvan sinónimos."
+    recorrido_explicativo: { situacion_reconocible: "Una herramienta transforma el producto, pero la persona solo recibe; otra cambia poco el medio y obliga a explicar.", explicacion_cotidiana: "Cambiar la tarea y cambiar lo que piensa la persona no son la misma pregunta.", concepto_y_relaciones: "SAMR observa transformación; ICAP describe conducta cognitiva.", ejemplo_trabajado: "La misma consigna analizada por ambos marcos.", contraste_o_limite: "No hay correspondencia nivel por nivel; chat no prueba interacción ICAP.", oportunidad_de_uso: "Elegir el marco según la decisión de diseño.", recapitulacion_y_enlace: "Después de describir tarea y conducta, aún hay que alinear propósito y evidencia." }
+    capas: { nucleo: { contenido: "Caso comparado y límites.", horas_estimadas: null }, puente: { prerrequisito_que_cubre: "Distinguir tarea de conducta.", contenido: "Preguntas separadas de cada marco.", practica_corta: "Clasificar con justificación, no por palabras clave." }, profundizacion: { tipo: "caso límite", contenido: "Desacuerdos razonables de clasificación y valor limitado de SAMR." } }
+    representaciones_multiples: ["Caso narrado", "Matriz de dos preguntas sin equivalencias"]
+    formas_admitidas_de_demostrar: ["Explicación comparada", "Anotación de caso"]
+    calibracion: { verificada: false, indice_legibilidad_es: 61.50, palabras_por_oracion: 13.25, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M5 medida después del lote de continuidad autorizado y con SAMR separado del marco: INFLESZ normal y auditor público 0/0; ajuste a población NO verificado hasta lector humano." }
+  - id: "M6"
+    titulo: "Bloom y diseño inverso"
+    titulo_publico_sin_codigo: "Partir de lo que quieres observar"
+    resultados_asociados: ["RA1", "RA2", "RA3"]
+    clase_de_tarea: "CT1, CT2, CT3"
+    transicion_de_entrada: "Ya se distinguieron tarea y conducta; ahora se conectan propósito, evidencia, actividad y asistencia."
+    recorrido_explicativo: { situacion_reconocible: "Un resultado dice analizar, pero la evidencia solo pide reconocer opciones.", explicacion_cotidiana: "El verbo no garantiza la operación cognitiva.", concepto_y_relaciones: "Bloom revisada describe demanda; diseño inverso alinea propósito, evidencia y experiencia.", ejemplo_trabajado: "Revisión completa de resultado, evidencia, tarea y uso de IA.", contraste_o_limite: "Bloom no es escalera universal ni correspondencia automática con SAMR.", oportunidad_de_uso: "Revisar una actividad y elegir una guía o práctica para continuar.", recapitulacion_y_enlace: "El criterio permite volver al sitio o al curso con una necesidad concreta." }
+    capas: { nucleo: { contenido: "Desalineación reconocible, ejemplo y plantilla.", horas_estimadas: null }, puente: { prerrequisito_que_cubre: "Diferenciar propósito, evidencia y actividad.", contenido: "Ejemplo trabajado con lenguaje cotidiano.", practica_corta: "Emparejar evidencia con propósito y explicar por qué." }, profundizacion: { tipo: "controversia", contenido: "Límites de clasificar tareas complejas con un único nivel." } }
+    representaciones_multiples: ["Caso de desalineación", "Cadena propósito-evidencia-actividad-asistencia"]
+    formas_admitidas_de_demostrar: ["Revisión de actividad", "Plantilla equivalente accesible"]
+    calibracion: { verificada: false, indice_legibilidad_es: 59.80, palabras_por_oracion: 15.07, terminos_tecnicos_por_1000: null, cadena_prerrequisitos_max: null, ejemplos_por_concepto: 1, nota: "Muestra M6 medida después del lote de continuidad autorizado: INFLESZ normal y auditor público 0/0; ajuste a población NO verificado hasta lector humano." }
+
+evaluacion:
+  formatos_utilizados: ["lector en frío", "escenario justificado", "prueba de recorrido"]
+  concentracion_maxima_de_peso_pct: null
+  cadenas_ecd:
+    - para_afirmar_que: "La persona distingue las familias y sus límites."
+      necesito_observar: "Una explicación que separa dimensiones y usa un ejemplo y un contraste correctos."
+      se_produce_si_pido: "Analizar el mismo caso con preguntas explícitas de cada marco."
+      se_juzga_con: "Exactitud, distinción funcional, ejemplo y límite."
+    - para_afirmar_que: "La persona decide responsablemente sobre IA."
+      necesito_observar: "Propósito, decisión, trabajo no delegable, evidencia y alternativa coherentes."
+      se_produce_si_pido: "Resolver un escenario con consecuencias y justificar la ruta."
+      se_juzga_con: "Pertinencia contextual, responsabilidad, evidencia y viabilidad."
+    - para_afirmar_que: "La persona sabe continuar."
+      necesito_observar: "Un recorrido pertinente y la razón por la que el siguiente recurso responde a su necesidad."
+      se_produce_si_pido: "Partir de una pregunta real y navegar sin ayuda del equipo."
+      se_juzga_con: "Pertinencia, ausencia de callejón y explicación del enlace."
+  integridad_academica:
+    uso_de_ia_permitido_por_evidencia:
+      - "RA1: no requerida; puede aparecer como objeto del caso."
+      - "RA2: opcional para proponer una alternativa; la decisión y justificación son no delegables."
+      - "RA3: no requerida."
+    evidencia_no_delegable: "Explicación del criterio, decisión final y razón de continuidad."
+    justificacion: "Son las observaciones que permiten inferir comprensión, juicio y agencia."
+
+carga_de_trabajo:
+  horas_por_semana_por_modulo: []
+  total_estimado: null
+  contrastada_con_disponibilidad: false
+
+compuerta_alineacion:
+  estado: "cerrada"
+  hallazgos:
+    - id: "A1"
+      descripcion: "Cada resultado tiene acción, objeto, condiciones, evidencia y criterio observables."
+      estado: "cerrado"
+      accion: "Ronda 2: resultado, evidencia y criterio coinciden."
+    - id: "A2"
+      descripcion: "La demanda cognitiva de la evidencia iguala o supera la del resultado."
+      estado: "cerrado"
+      accion: "Ronda 2: demanda juzgada contra la evidencia de cada tarea."
+    - id: "A3"
+      descripcion: "Cada actividad preparatoria permite producir la evidencia y cada pieza piloto tiene función."
+      estado: "cerrado"
+      accion: "Cada evidencia tiene preparación, clase de tarea y ubicación."
+    - id: "A4"
+      descripcion: "El papel de la IA y la alternativa sin IA son explícitos."
+      estado: "cerrado"
+      accion: "Papel de IA y alternativa equivalente verificados en las tres filas."
+    - id: "A5"
+      descripcion: "No hay resultados, evidencias, tareas o nodos canónicos huérfanos."
+      estado: "cerrado"
+      accion: "Resultados, tareas y las 15 piezas L1 tienen función explícita."
+    - id: "A6"
+      descripcion: "La mezcla de representaciones y formas de demostrar no depende de un único soporte."
+      estado: "abierto"
+      accion: "M1-M6 tienen prosa, equivalentes textuales y variantes visuales; mantener abierto hasta probar fallbacks dentro de Hugo bajo C2."
+    - id: "A7"
+      descripcion: "Bloom e ICAP se justifican por la tarea y la conducta observada."
+      estado: "cerrado"
+      accion: "Ronda 2: modo justificado por conducta observable en las tres evidencias."
+    - id: "A8"
+      descripcion: "La carga y dificultad se ajustan a la disponibilidad de la población."
+      estado: "abierto"
+      accion: "Mantener nivel y carga como NO verificados hasta pruebas con usuarios; no fijar el curso amplio."
+    - id: "A9"
+      descripcion: "La arquitectura interna no aparece en el artefacto público."
+      estado: "cerrado"
+      accion: "M1-M6 pasaron auditor público con 0 bloqueos y 0 alertas; los estados de producción permanecen en el expediente."
+
+compuerta_comprensibilidad_publica:
+  estado: "cerrada-internamente-para-m1-b2-m6; otras-piezas-y-uso-real-no-verificados"
+  artefacto_evaluado: "Seis muestras locales no integradas: entrada general, co-creación, aprendizaje activo, aprendizaje híbrido, SAMR/ICAP y Bloom/diseño inverso."
+  evidencia:
+    ideas_desarrolladas_antes_de_comprimir: ["Empezar por propósito, comprobación y decisión", "Conservar dirección en co-creación", "Distinguir conducta cognitiva", "Continuidad entre momentos", "Separar transformación de tarea y conducta", "Alinear propósito, evidencia, experiencia y ayuda"]
+    terminos_explicados_en_contexto: ["co-creación y agenciamiento", "aprendizaje activo e ICAP", "síncrono y asíncrono", "aprendizaje híbrido", "SAMR", "Bloom y diseño inverso"]
+    ejemplos_y_visuales_desarrollados: ["Seis casos completos", "Seis SVG con equivalentes textuales", "Dos escenas raster con composición amplia y móvil"]
+    etiquetas_internas_ausentes: true
+    prototipo_m6:
+      artefacto: "¿Tu actividad pide, practica y revisa lo mismo?"
+      situacion_y_ejemplo: "Querer que el grupo compare dos fuentes, pero permitir que complete la actividad leyendo resúmenes y eligiendo una opción."
+      accion_y_evidencia: "Completar cinco frases cotidianas y cuatro preguntas; recibir una sugerencia sobre el primer punto que la persona marcó para revisar."
+      soportes: ["HTML interactivo", "Hoja completa sin JavaScript", "Impresión"]
+      legibilidad: { interactivo_szigriszt: 71.63, fallback_szigriszt: 70.25, nivel: "INFLESZ bastante fácil", ajuste_a_poblacion: "NO verificado" }
+      lector_humano: "Rubén no comprendió la primera versión y confirmó con Sí, sin observaciones, que la reescritura ya deja clara la función. Rubén concentra la revisión humana y el VoBo; el uso real por otras personas permanece no verificado."
+    briefs_b2_b5:
+      artefacto: "Cuatro explicaciones detalladas para comparar sugerencias, revisar una instrucción, conectar momentos y separar cambio técnico de trabajo cognitivo."
+      lector_humano: "Rubén confirmó en segunda lectura que los cuatro bloques dejan claros propósito, recorrido y resultado; no pidió ajustes."
+      alcance: "La confirmación cierra claridad de los briefs; no autoriza prototipo, content, rutas, H5P, Git, publicación, despliegue o Moodle."
+    prototipo_b2:
+      artefacto: "Compara dos sugerencias sin perder tu propósito"
+      situacion_y_ejemplo: "Renata recibe una generalización sobre una muestra de agua y una pregunta sobre lluvia que requiere consultar el registro de campo."
+      accion_y_evidencia: "Anotar origen y encargo, revisar cambio, consecuencia, relación con el propósito, comprobación y decisión; comparar ambas sugerencias y conservar antes/después con dos notas."
+      soportes: ["HTML interactivo", "Hoja completa sin JavaScript", "Impresión"]
+      legibilidad: { interactivo_szigriszt: 65.38, fallback_szigriszt: 68.28, nivel: "INFLESZ bastante fácil", ajuste_a_poblacion: "NO verificado" }
+      lector_humano: "En segunda lectura, Rubén confirmó que ya son claros el origen, la comparación y el resultado, y autorizó conservar la versión local. Pidió explicar qué significa decidir, por qué hace falta y qué consecuencias tiene; el ajuste verbal se aplicó y pasó evaluación local."
+  lector_en_frio:
+    perfil: "Simulaciones sobre las seis muestras y P1 interno sobre M1, B2 y M6, más lecturas humanas de Rubén sobre M6, los briefs B2-B5 y dos versiones del prototipo B2; no se presentan como estudio con usuarios."
+    puede_explicar_de_que_trata: true
+    puede_explicar_por_que_importa: true
+    puede_dar_un_ejemplo: true
+    sabe_como_continuar_o_empezar: true
+    barreras_encontradas:
+      - "Orientaciones y guía docente aún no tienen destino público recuperable desde la muestra."
+      - "Las dos páginas siguientes existen, pero todavía no cumplen el mismo estándar editorial."
+      - "Primera lectura humana del prototipo M6: la persona no comprendió qué hacía la actividad por el retorno de jerga y metáforas internas."
+      - "Lectura humana del prototipo B2: se entiende la acción general, el inicio y el resultado, pero quedan implícitos el origen, aparición y alcance de las dos sugerencias."
+      - "Segunda lectura humana del prototipo B2: la frase «cierran la decisión» no explica qué se decide, por qué hay que decidir ni qué consecuencias tiene."
+    barreras_resueltas_segunda_ronda_m1:
+      - "El selector quedó como cierre después de la explicación de co-creación."
+      - "La propuesta de Orientaciones declara estatus y relación con acciones desarrolladas."
+      - "La afirmación decisiva se reconoce mediante una pregunta contrafactual."
+      - "Acción y evidencia docentes cuentan con un microejemplo operativo."
+    barreras_resueltas_lote_continuidad_m2_m6:
+      - "Las cinco recapitulaciones preceden ahora a la navegación y preparan el siguiente paso."
+      - "El estatus no normativo de la propuesta de Orientaciones y la traducción de la guía se explican en cada muestra aislada."
+      - "M4 jerarquiza el avance conceptual y M6 ofrece una aplicación autosuficiente sin inventar rutas."
+    barreras_resueltas_prototipo_b2:
+      - "La versión v2 explica quién pidió las sugerencias, a quién y sobre qué borrador."
+      - "Las dos sugerencias se contrastan entre sí antes de revisar el fragmento."
+      - "La frase abstracta sobre «cerrar la decisión» se sustituyó por opciones concretas, la razón para decidir y las consecuencias posibles sobre el texto y su evidencia."
+  hallazgos:
+    - id: "L1"
+      descripcion: "Cada muestra debe pasar lector en frío con el artefacto público aislado y al menos una lectura humana."
+      estado: "cerrado-internamente-para-m1-b2-m6-con-limitacion-aceptada"
+      accion: "Dos rondas P1 y VoBo de Rubén en PASS. No afirmar validación externa ni experiencia real con lector de pantalla."
+    - id: "L2"
+      descripcion: "El lector aislado puede explicar idea, importancia, ejemplo y primera acción."
+      estado: "cerrado-para-muestras-m1-a-m6"
+      accion: "Conservar evidencia en `evidence/udgia-021/lector-en-frio*.md`; no confundir simulación con validación humana."
+
+compuerta_calidad:
+  estado: "abierta"
+  hallazgos:
+    - id: "C1"
+      descripcion: "Exactitud conceptual y procedencia de afirmaciones."
+      estado: "cerrado-local"
+      accion: "Auditoría `UDGIA-021-auditoria-fuentes-y-precision.md` y verificación aplicada. La plausibilidad disciplinar puede recibir diagnóstico agéntico; su contraste con participantes de cada campo permanece no verificado."
+    - id: "C2"
+      descripcion: "Accesibilidad visual, móvil, teclado y movimiento reducido."
+      estado: "cerrado-local-en-working-tree-para-b2-m6"
+      accion: "Reportes frescos en PASS dentro de Hugo: axe 0, 320 px, teclado, impresión, tema oscuro, sin JS y almacenamiento bloqueado. Lector de pantalla real no verificado."
+    - id: "C3"
+      descripcion: "QA de Hugo en raíz y subruta."
+      estado: "cerrado-working-tree-pass"
+      accion: "Con VoBo de Rubén, P2 se aplicó y pasó dos bases, seis rutas, dos viewports, cuatro aliases, enlaces, axe, foco, red, consola, almacenamiento y fallbacks sobre content/ y static/ reales."
+
+iteraciones:
+  - fecha: "2026-08-02"
+    ciclo: "M4-ronda-1"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: ["Mediar síncrono/asíncrono", "Matizar causalidad de discusión", "Retirar continuidad no recuperable"]
+    optimizacion_acotada: "Se atendieron únicamente R1-H1, R1-H2 y R1-H3."
+  - fecha: "2026-08-02"
+    ciclo: "M4-ronda-2"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "Sin reescritura adicional; muestra enviada a lector en frío simulado."
+  - fecha: "2026-08-02"
+    ciclo: "M2-M3-M5-M6-ronda-1"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: ["Tono de control", "Numeración jerárquica", "Jerga pública", "Retorno de alineación ausente", "Recuperabilidad sin registrar"]
+    optimizacion_acotada: "Se atendieron únicamente V2-R1-H1 a V2-R1-H5."
+  - fecha: "2026-08-02"
+    ciclo: "M2-M3-M5-M6-ronda-2"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "Sin ampliación; cuatro muestras enviadas a lector en frío simulado."
+  - fecha: "2026-08-02"
+    ciclo: "M1-ronda-1"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: ["Caso ficticio no explícito", "Estado de rutas en texto público", "Tono de control", "Procedencia visual incompleta"]
+    optimizacion_acotada: "Se atendieron únicamente M1-R1-H1 a M1-R1-H4."
+  - fecha: "2026-08-02"
+    ciclo: "M1-ronda-2"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "Sin ampliación; entrada enviada a lector en frío simulado."
+  - fecha: "2026-08-02"
+    ciclo: "M1-M6-auditoria-fuentes"
+    evaluador: "evaluador de fuentes UDGIA-021"
+    hallazgos: ["Estatus institucional impreciso", "Curso futuro no recuperable", "SAMR ajeno al marco", "Estado de ruta en artefacto público"]
+    optimizacion_acotada: "Se corrigieron estatus, atribuciones y recuperabilidad; seis auditores públicos en cero."
+  - fecha: "2026-08-02"
+    ciclo: "M1-lector-simulado-ronda-2"
+    evaluador: "tres lectores en frío simulados e independientes"
+    hallazgos: ["Selector antes de co-creación", "Orientaciones sin contexto", "Criterio de afirmación decisiva ausente", "Acción y evidencia docentes poco operativas"]
+    optimizacion_acotada: "VoBo recibido; se aplicaron solo los cuatro hallazgos a M1 fuera de content."
+  - fecha: "2026-08-02"
+    ciclo: "M1-verificacion-post-segunda-simulacion"
+    evaluador: "evaluador separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS local; cuatro hallazgos cerrados, sin reescritura adicional."
+  - fecha: "2026-08-02"
+    ciclo: "M2-M6-auditoria-de-continuidad"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: ["Recapitulación posterior a la navegación en cinco muestras", "Mediación desigual del estatus de Orientaciones y guías", "Continuidad principal ambigua en M4", "M6 sin destino aplicable recuperable"]
+    optimizacion_acotada: "Ninguna todavía; diagnóstico registrado para VoBo antes de modificar M2-M6."
+  - fecha: "2026-08-02"
+    ciclo: "M2-M6-lote-continuidad-ronda-1"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: ["M6 usa plural para una guía docente canónica singular"]
+    optimizacion_acotada: "Se corrigió únicamente CONT-R1-H1."
+  - fecha: "2026-08-02"
+    ciclo: "M2-M6-lote-continuidad-ronda-2"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS local; lote A y briefs B2-B6 cerrados sin construir interacciones."
+  - fecha: "2026-08-02"
+    ciclo: "M6-prototipo-revisor-ronda-1"
+    evaluador: "evaluador didáctico y técnico separado UDGIA-021"
+    hallazgos: ["Favicon ausente", "Contraste oscuro insuficiente en el fallback", "Excepción posible cuando el navegador bloquea localStorage"]
+    optimizacion_acotada: "Se añadió favicon local, se corrigió el fondo oscuro y se protegieron lectura, guardado y borrado de estado."
+  - fecha: "2026-08-02"
+    ciclo: "M6-prototipo-revisor-ronda-2"
+    evaluador: "evaluador didáctico y técnico separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS local; cuatro escenarios, axe 0, red 0 y tres salidas diagnósticas verificadas."
+  - fecha: "2026-08-02"
+    ciclo: "M6-prototipo-claridad-ronda-3"
+    evaluador: "Rubén como lector humano en frío"
+    hallazgos: ["Título no explica la función", "Metáfora de cadena", "Jerga pública", "Salida técnica sin acción docente clara"]
+    optimizacion_acotada: "Se reescribió únicamente la superficie pública con la pauta narrativa de las guías; la lógica y el alcance técnico se conservaron."
+  - fecha: "2026-08-02"
+    ciclo: "M6-prototipo-claridad-ronda-4"
+    evaluador: "evaluador didáctico y técnico separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS automático local; queda pendiente la confirmación humana posterior a la reescritura."
+  - fecha: "2026-08-02"
+    ciclo: "M6-prototipo-claridad-confirmacion-humana"
+    evaluador: "Rubén como lector humano"
+    hallazgos: []
+    optimizacion_acotada: "Respondió Sí, sin observaciones; no se aplicaron más cambios ni se amplió el alcance."
+  - fecha: "2026-08-02"
+    ciclo: "B2-B5-claridad-ronda-1"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: ["Resultado abstracto en B2", "Jerga de diseño antes del caso en B3", "Mecánica antes del propósito en B4", "Marcos antes de las preguntas cotidianas en B5", "Producto y señal de avance implícitos", "Fallback presentado como ruta secundaria"]
+    optimizacion_acotada: "Se reescribieron únicamente los briefs B2-B5 y se preparó una copia pública provisional; no se construyeron interacciones."
+  - fecha: "2026-08-02"
+    ciclo: "B2-B5-claridad-ronda-2"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS local de claridad; auditor público 0/0 e INFLESZ bastante fácil. Lectura humana abierta en SmallDocs."
+  - fecha: "2026-08-02"
+    ciclo: "B2-B5-claridad-ronda-3-humana"
+    evaluador: "Rubén como lector humano"
+    hallazgos: ["No se entiende qué son los dos cambios", "No se explica de qué son", "No se explica para qué se comparan", "No se explica qué se logra", "Desarrollo insuficiente de las cinco cualidades obligatorias"]
+    optimizacion_acotada: "Se reabrió comprensibilidad, se descartó elegir prototipo y se desarrollaron los cuatro briefs con ejemplo completo, pasos intermedios, contraste, apoyo y recapitulación."
+  - fecha: "2026-08-02"
+    ciclo: "B2-B5-claridad-ronda-4"
+    evaluador: "evaluador editorial separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS automático local de la versión detallada; auditor público 0/0, INFLESZ bastante fácil y nueva lectura humana pendiente."
+  - fecha: "2026-08-02"
+    ciclo: "B2-claridad-confirmacion-humana-v2"
+    evaluador: "Rubén como lector humano"
+    hallazgos: []
+    optimizacion_acotada: "Confirmó que quedan claros las dos sugerencias, el propósito de compararlas, los pasos y el resultado; B2 no recibió más cambios."
+  - fecha: "2026-08-02"
+    ciclo: "B3-B5-claridad-confirmacion-humana-v2"
+    evaluador: "Rubén como lector humano"
+    hallazgos: []
+    optimizacion_acotada: "Confirmó que propósito, recorrido y resultado quedan claros en los tres bloques; no pidió ajustes ni autorizó un prototipo."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-1"
+    evaluador: "evaluador didáctico y técnico separado UDGIA-021"
+    hallazgos: ["Contraste 3.85:1 en los subtítulos verdes de las dos tarjetas sobre beige; mínimo AA 4.5:1."]
+    optimizacion_acotada: "Se oscureció únicamente el olivo del tema claro de #6e792d a #59631f; contenido, estructura y comportamiento no cambiaron."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-2"
+    evaluador: "evaluador didáctico y técnico separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "PASS local en raíz/subruta, escritorio/móvil, axe, teclado, sin JavaScript, impresión, privacidad, almacenamiento bloqueado y salidas funcionales."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-3-humana"
+    evaluador: "Rubén como lector humano, con insumo adicional solicitado a DeepSeek"
+    hallazgos: ["No se explica de quién son las sugerencias", "No se explica cómo surgen", "No se delimita su alcance", "Las sugerencias se procesan por separado sin un contraste explícito"]
+    optimizacion_acotada: "Ninguna todavía; se conserva la dirección y se reabre el ajuste local. Las sugerencias asistidas se evaluarán como hipótesis y no como aprobación automática."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-4-ajuste-y-verificacion-tecnica"
+    evaluador: "evaluador técnico separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "La v2 aclara origen y encargo, compara ambas sugerencias, modela el propósito, muestra antes/después, resume decisiones y restaura el borrador. PASS en raíz/subruta, 320 px, axe 0, fallback, impresión, privacidad y almacenamiento bloqueado."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-5-comprensibilidad-editorial"
+    evaluador: "evaluador didáctico y editorial separado UDGIA-021"
+    hallazgos: []
+    optimizacion_acotada: "Auditor público 0/0, INFLESZ bastante fácil y revisión Slopbuster en dos pasadas sin reescritura adicional. L9 queda abierta hasta la segunda lectura humana."
+  - fecha: "2026-08-02"
+    ciclo: "B2-prototipo-ronda-6-confirmacion-humana-y-ajuste-verbal"
+    evaluador: "Rubén como lector humano; optimización local acotada y evaluación técnica posterior"
+    hallazgos: ["La frase «cierran la decisión» no explica qué se decide, por qué hace falta decidir ni qué consecuencias tiene."]
+    optimizacion_acotada: "Se definieron las cuatro decisiones posibles y se explicaron sus efectos sobre el texto, el alcance y la evidencia. QA PASS, auditor público 0/0, INFLESZ 65.38/68.28 y revisión Slopbuster en dos pasadas."
+  - fecha: "2026-08-03"
+    ciclo: "reconciliacion-insumos-codex-navegacion-h5p"
+    evaluador: "auditoría local contra rutas Hugo, configuración y semántica H5P instalada"
+    hallazgos:
+      - "La ruta empezar-con-ia resuelve por slug y no reproduce el 404 informado."
+      - "Blog está fuera del menú, Formación Docente tiene 17 piezas planas y Experiencias no tiene artículos hijos."
+      - "Los videos se publican como páginas aunque no sean page bundles."
+      - "Course Presentation admite MultiChoice y Dialogcards, pero no ImageSlider como contenido interno."
+    optimizacion_acotada: "Se registró evidencia y un plan de desbloqueo; no se modificó content, rutas, H5P ni Moodle."
+  - fecha: "2026-08-03"
+    ciclo: "P1-interno-ronda-1"
+    evaluador: "evaluación interna separada bajo VoBo humano"
+    hallazgos: ["M6 no persistía el reporte QA", "El protocolo todavía exigía lectores externos", "La continuidad queda para el diff P2"]
+    optimizacion_acotada: "Se corrigió únicamente la persistencia del reporte y el protocolo; no se reescribieron M1, B2 o M6."
+  - fecha: "2026-08-03"
+    ciclo: "P1-interno-ronda-2"
+    evaluador: "segunda evaluación interna separada"
+    hallazgos: []
+    optimizacion_acotada: "PASS fresco de B2 y M6, auditoría de 158 piezas y contraste AA; P1 cerró internamente con limitación aceptada."
+  - fecha: "2026-08-03"
+    ciclo: "P2-diff-ronda-1-agentica"
+    evaluador: "tres perspectivas agénticas separadas; no participantes reales"
+    hallazgos: ["Carga móvil B2 no declarada", "B2 y M6 sin regreso a sus guías", "Diagnóstico B2 no reconocía una modificación ya resuelta", "Co-creación atribuida también a sugerencias no provenientes de IA", "HTML B2 con cierre sobrante"]
+    optimizacion_acotada: "Se declaró duración y recorrido por ejemplo, se adelantó el guardado, se añadieron salidas, se corrigió la prioridad del diagnóstico, se condicionó co-creación al origen y se normalizó el caso y el lenguaje público."
+  - fecha: "2026-08-03"
+    ciclo: "P2-diff-ronda-2-agentica"
+    evaluador: "segunda lectura con perspectivas estudiantil, docente y técnico-editorial simuladas"
+    hallazgos: []
+    optimizacion_acotada: "PASS sin bloqueantes. El estado evaluado se conservó sin otra reescritura pública; QA final del overlay PASS."
+patrones_de_error_recurrentes:
+  - "El corpus heredado empieza con definiciones y listas sin situación, ejemplo ni recapitulación."
+  - "Las portadas genéricas repiten IA mediante cerebro, robot, red, pantalla o neón sin función explicativa."
+  - "Bloom, SAMR e ICAP tienden a representarse como jerarquías equivalentes."
+  - "Una conversación con IA se llama interactiva sin conducta recíproca entre aprendices."
+  - "El glosario se usa como definición canónica aunque carece de mediación y contexto."
+
+pilotaje_simulado:
+  - perfil: "Estudiante con lectura móvil y conectividad intermitente"
+    resultado: "Comprende idea, importancia, caso y primera acción en seis muestras; continuidad institucional parcial."
+    barreras: ["Orientaciones y guía no recuperables desde la muestra"]
+  - perfil: "Docente sin formación previa en diseño instruccional"
+    resultado: "Distingue las seis familias y reconstruye una primera acción; continuidad editorial parcial."
+    barreras: ["Páginas siguientes aún no normalizadas"]
+  - perfil: "Segunda ronda M1: estudiante móvil, docente no técnico y accesibilidad editorial"
+    resultado: "Los tres reconstruyeron idea, importancia, caso, primera acción y alternativa sin IA; sus cuatro hallazgos se corrigieron y pasaron evaluación separada."
+    barreras: ["Accesibilidad del Hugo no verificada", "Uso real y lector de pantalla real no verificados"]
+  - perfil: "Método vigente: perspectivas agénticas separadas"
+    resultado: "Los agentes pueden simular perspectivas de audiencia para detectar barreras en los diffs; sus dictámenes se registran como diagnóstico interno."
+    barreras: ["No equivalen a participantes reales", "No sustituyen el VoBo humano de Rubén"]
+
+validacion_humana:
+  - artefacto: "Estrategia UDGIA-021"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T20:31:31.714Z"
+    dictamen: "aprobado"
+    observaciones: >-
+      Sustitución selectiva, L1, cinco alcances y cinco criterios visuales. Las muestras
+      requieren evaluación separada y otro VoBo antes de integrarse.
+  - artefacto: "Muestra de aprendizaje híbrido y dirección visual"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T21:10:54.209Z"
+    dictamen: "dirección aprobada; activos no aprobados para integración"
+    observaciones: >-
+      Narrativa aprobada como referencia, portada actual marcada para sustitución,
+      escena situada aprobada con revisión de representación/licencia y diagrama aprobado
+      como referencia funcional. Preparar además co-creación, aprendizaje activo, SAMR/ICAP
+      y Bloom/diseño inverso. Las escenas deben mostrar contexto y no personas intercambiables.
+  - artefacto: "Contrato de rutas, entrada general y lectura humana"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T21:54:14.024Z"
+    dictamen: "familia A aprobada como contrato local; no crear páginas"
+    observaciones: >-
+      Registrar `/ia-educacion/orientaciones/`, `/ia-educacion/guias/estudiantes/` y
+      `/ia-educacion/guias/profesorado/` como destinos canónicos futuros. Preparar primero la
+      entrada general para lectura móvil, docente no tecnológica y accesibilidad. Conservar la
+      escena contextual como estándar para escenas narrativas. No autoriza integración,
+      publicación, alias, despliegue ni Moodle.
+  - artefacto: "Refinamiento de M1 después de la segunda revisión simulada"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T22:44:13.954Z"
+    dictamen: "cuatro ajustes aprobados solo para M1 fuera de content"
+    observaciones: >-
+      Aplicar cierre narrativo, contexto de Orientaciones, criterio de afirmación decisiva y
+      microejemplo docente. Mantener la lectura humana antes de cualquier integración. No
+      autoriza cambios en las otras cinco muestras, content, rutas, Git, publicación,
+      despliegue ni Moodle.
+  - artefacto: "Calendario de lectura humana UDGIA-021"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T17:37:25-06:00"
+    dictamen: "lectura humana diferida; continuar refinamiento local"
+    observaciones: >-
+      La lectura humana no bloquea inventario, auditoría ni preparación local. Permanece
+      obligatoria antes de integrar o publicar; esta decisión no autoriza content, rutas,
+      Git, despliegue ni Moodle.
+  - artefacto: "Lote de continuidad M2-M6 y briefs interactivos"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T23:48:15.466Z"
+    dictamen: "aplicar lote A; preparar solo briefs; conservar SVG; lectura humana diferida"
+    observaciones: >-
+      Implementar todo el alcance elegido se interpreta como modificar las cinco muestras
+      locales y completar B2-B6. No autoriza construir H5P o componentes ni modificar
+      content, rutas, Git, publicación, despliegue o Moodle.
+  - artefacto: "Prototipo local del revisor de alineación M6"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-02T18:19:27-06:00"
+    dictamen: "prototipo técnico local autorizado"
+    observaciones: >-
+      Construir y verificar B6 fuera de content. No autoriza adaptar o desplegar el H5P,
+      integrar una ruta, publicar, hacer push, desplegar ni modificar Moodle.
+  - artefacto: "Primera lectura humana del prototipo M6"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector en frío"
+    fecha: "2026-08-02T18:48:36-06:00"
+    dictamen: "no comprensible; requiere reescritura"
+    observaciones: >-
+      La actividad volvió a un lenguaje complicado y no dejó claro qué hacía. La corrección
+      debe recuperar el enfoque consolidado en las guías para profesorado y estudiantes. Esta
+      observación no aprueba la versión posterior ni autoriza integración.
+  - artefacto: "Segunda lectura humana del prototipo M6 reescrito"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector en frío"
+    fecha: "2026-08-03T00:55:56.027Z"
+    dictamen: "sí se entiende; sin observaciones"
+    observaciones: >-
+      Confirma únicamente la claridad de la versión reescrita. No autoriza cambios en content,
+      rutas, H5P, Git, publicación, despliegue o Moodle y no equivale a una prueba de uso real
+      con otras personas.
+  - artefacto: "Primera lectura humana de los briefs B2-B5"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector en frío"
+    fecha: "2026-08-03T01:25:04.185Z"
+    dictamen: "comprensible en parte; requiere más explicación; no elegir prototipo"
+    observaciones: >-
+      No queda claro a qué se refiere comparar dos cambios, de qué son, para qué se comparan
+      ni qué se logra. Pide retomar las condiciones didáctica, divulgativa, ilustrativa,
+      accesible y reiterativa del estándar editorial local y explicar con el detalle necesario. No autoriza
+      prototipo, content, rutas, H5P, Git, publicación, despliegue ni Moodle.
+  - artefacto: "Segunda lectura humana detallada de B2"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector en frío"
+    fecha: "2026-08-03T02:06:44.931Z"
+    dictamen: "sí: los cuatro puntos quedan claros"
+    observaciones: >-
+      Confirma que se entienden qué son las dos sugerencias, para qué se comparan, qué pasos
+      sigue la persona y qué obtiene. No autoriza prototipo, content, rutas, H5P, Git,
+      publicación, despliegue ni Moodle.
+  - artefacto: "Segunda lectura humana detallada de B3-B5"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector en frío"
+    fecha: "2026-08-03T02:22:50.711Z"
+    dictamen: "sí: propósito, recorrido y resultado quedan claros en los tres bloques"
+    observaciones: >-
+      No pidió ajustes. La confirmación no elige ni autoriza un prototipo y tampoco autoriza
+      content, rutas, H5P, Git, publicación, despliegue o Moodle.
+  - artefacto: "Elección y alcance del siguiente prototipo B2-B5"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-03T02:40:58.128Z"
+    dictamen: "construir el comparador de dos sugerencias, evaluarlo en dos rondas y preparar otra lectura humana"
+    observaciones: >-
+      Eligió la opción recomendada sin ajustes. La autorización se limita a un prototipo local;
+      no incluye content, rutas, H5P, Git, publicación, despliegue o Moodle.
+  - artefacto: "Lectura humana del prototipo comparador B2"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector"
+    fecha: "2026-08-03T03:11:00.829Z"
+    dictamen: "comprensible en parte; conservar la dirección después de ajustes"
+    observaciones: >-
+      Sabe cómo empezar y qué obtiene al final, pero no queda claro de quién son las
+      sugerencias, cómo surgen ni qué alcance tienen. Añadió una revisión solicitada a DeepSeek,
+      registrada como insumo asistido y no como otro lector humano. La respuesta reabre solo el
+      ajuste local; no autoriza content, rutas, H5P, Git, publicación, despliegue o Moodle.
+  - artefacto: "Segunda lectura humana del prototipo comparador B2 v2"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto y lector"
+    fecha: "2026-08-03T03:47:00.510Z"
+    dictamen: "sí: la duda anterior quedó resuelta y puede conservarse esta versión local"
+    observaciones: >-
+      Confirmó que ya quedan claros el origen y alcance de las sugerencias, su comparación, las
+      decisiones y el antes/después. Pidió sustituir la frase abstracta «cierran la decisión» por
+      una explicación de qué se decide, por qué y con qué consecuencias. El cambio se aplicó solo
+      al prototipo local; no autoriza content, rutas, H5P, Git, publicación, despliegue o Moodle.
+  - artefacto: "Cierre P0 y lanzamiento P1"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-03"
+    dictamen: "P0 cerrado; preparar P1 y luego producir localmente por lotes"
+    observaciones: >-
+      Dos envíos SmallDocs fijaron dos cohortes separadas de 36 a 60 personas,
+      núcleo común multidisciplinar, modalidad virtual acompañada, 12 semanas de
+      5 horas, encuentro semanal de 60 minutos y una aplicación breve por cohorte
+      en el primer lote. Cada diff se revisa antes de integrar. Privacidad y
+      contacto se difieren; no se distribuye el instrumento, no se publica y no
+      se modifica Moodle.
+  - artefacto: "VoBo P1 de validación interna"
+    validado_por: "Rubén"
+    rol: "responsable humano del proyecto"
+    fecha: "2026-08-03"
+    dictamen: "aprobar P1 interno y preparar el diff si las dos rondas pasan"
+    observaciones: >-
+      Envío `2026-08-04T00:32:20.680Z`. Aceptó que no habrá participantes
+      externos ni prueba real con persona usuaria de lector de pantalla y que
+      el cierre se documente como validación interna. Autorizó preparar M1,
+      B2 y M6 y presentar el diff antes de integrar. No autorizó publicación,
+      despliegue, Moodle, push ni integración automática.
+
+artefactos:
+  - nombre: "Inventario reproducible UDGIA-021"
+    tipo: "recurso"
+    ruta: "docs/editorial/inventarios/2026-08-02-udgia-021/"
+    version: "1"
+    estado: "revisado"
+    generado_por: "mixto"
+  - nombre: "Expediente de estrategia"
+    tipo: "recurso"
+    ruta: ".sdocs/UDGIA-021-inventario-y-estrategia-editorial-hugo.md"
+    version: "0.1"
+    estado: "aprobado"
+    generado_por: "mixto"
+  - nombre: "Seis muestras conceptuales, seis SVG y cuatro raster"
+    tipo: "recurso"
+    ruta: "docs/editorial/evidence/udgia-021/"
+    version: "0.5"
+    estado: "evaluado-local-no-integrado"
+    generado_por: "mixto"
+  - nombre: "Auditoría de fuentes y precisión"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/UDGIA-021-auditoria-fuentes-y-precision.md"
+    version: "1"
+    estado: "verificado-local"
+    generado_por: "mixto"
+  - nombre: "Contrato propuesto de rutas públicas"
+    tipo: "recurso"
+    ruta: "docs/editorial/UDGIA-021-contrato-rutas-publicas.md"
+    version: "1-aprobado-local"
+    estado: "contrato-aprobado-sin-paginas"
+    generado_por: "mixto"
+  - nombre: "Paquete de lectura humana de la entrada"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-lector-humano-entrada.md"
+    version: "2-refinada"
+    estado: "refinado-listo-para-lectura-humana-sin-envio"
+    generado_por: "mixto"
+  - nombre: "Segunda revisión simulada de la entrada"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/lector-en-frio-entrada-ronda-2-agentes.md"
+    version: "1"
+    estado: "aplicado-local-pass-pendiente-lector-humano"
+    generado_por: "agentes evaluadores separados"
+  - nombre: "Verificación de M1 después de segunda simulación"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-3-entrada.md"
+    version: "1"
+    estado: "pass-local"
+    generado_por: "evaluador separado"
+  - nombre: "Auditoría de continuidad M2-M6"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/auditoria-continuidad-m2-m6.md"
+    version: "1"
+    estado: "aplicado-local-pass"
+    generado_por: "evaluador editorial separado"
+  - nombre: "Briefs interactivos B2-B6"
+    tipo: "recurso"
+    ruta: "docs/editorial/UDGIA-021-briefs-columna-conceptual.md"
+    version: "5-b2-b5-v2-detallada"
+    estado: "b2-b6-claridad-confirmada-por-ruben-pendiente-otros-perfiles-y-vobo-prototipo"
+    generado_por: "mixto"
+  - nombre: "Auditoría de claridad de briefs B2-B5"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/auditoria-claridad-briefs-b2-b5-ronda-1.md"
+    version: "1"
+    estado: "hallazgos-aplicados"
+    generado_por: "evaluador separado"
+  - nombre: "Copia pública provisional de interacciones B2-B5"
+    tipo: "recurso"
+    ruta: "docs/editorial/evidence/udgia-021/copia-publica-provisional-interacciones-b2-b5.md"
+    version: "1"
+    estado: "lectura-humana-en-parte-requiere-ajustes"
+    generado_por: "mixto"
+  - nombre: "Evaluación de claridad de briefs B2-B5"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-2-claridad-briefs-b2-b5.md"
+    version: "2"
+    estado: "pass-local"
+    generado_por: "evaluador separado"
+  - nombre: "Revisión SmallDocs de claridad y siguiente prototipo B2-B5"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-revision-claridad-briefs-b2-b5.md"
+    version: "1"
+    estado: "respuesta-recibida-en-parte-sin-prototipo"
+    generado_por: "mixto"
+  - nombre: "Auditoría humana de claridad de briefs B2-B5"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/auditoria-claridad-briefs-b2-b5-ronda-3-lectura-humana.md"
+    version: "3"
+    estado: "hallazgos-aplicados"
+    generado_por: "humano-y-evaluador-separado"
+  - nombre: "Copia pública detallada de interacciones B2-B5"
+    tipo: "recurso"
+    ruta: "docs/editorial/evidence/udgia-021/copia-publica-provisional-interacciones-b2-b5-v2-detallada.md"
+    version: "2-detallada"
+    estado: "pass-local-claridad-confirmada-por-ruben-pendiente-otros-perfiles"
+    generado_por: "mixto"
+  - nombre: "Evaluación de claridad de briefs B2-B5 v2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-4-claridad-briefs-b2-b5-v2-detallada.md"
+    version: "4"
+    estado: "pass-automatico-local"
+    generado_por: "evaluador separado"
+  - nombre: "Segunda revisión SmallDocs detallada de B2"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-segunda-revision-detallada-b2.md"
+    version: "1"
+    estado: "respuesta-recibida-claridad-si"
+    generado_por: "mixto"
+  - nombre: "Revisión SmallDocs detallada de B3-B5"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-revision-detallada-b3-b5.md"
+    version: "1"
+    estado: "respuesta-recibida-claridad-si-sin-ajustes"
+    generado_por: "mixto"
+  - nombre: "Decisión sobre el siguiente prototipo B2-B5"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-eleccion-siguiente-prototipo.md"
+    version: "1"
+    estado: "respuesta-recibida-comparador-b2-prototipo-local"
+    generado_por: "mixto"
+  - nombre: "Prototipo local comparador de sugerencias B2"
+    tipo: "recurso"
+    ruta: "docs/editorial/evidence/udgia-021/prototipos/comparador-sugerencias-b2/"
+    version: "2.1-ajuste-verbal-pass-local"
+    estado: "claridad-principal-confirmada-por-ruben-ajuste-verbal-aplicado-pendiente-otros-perfiles"
+    generado_por: "mixto"
+  - nombre: "Evaluación ronda 1 del comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-1-prototipo-comparador-b2.md"
+    version: "1"
+    estado: "hallazgo-de-contraste-aplicado"
+    generado_por: "evaluador separado"
+  - nombre: "Evaluación ronda 2 del comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-2-prototipo-comparador-b2.md"
+    version: "2"
+    estado: "pass-local"
+    generado_por: "evaluador separado"
+  - nombre: "Lectura humana del prototipo comparador B2"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-lectura-humana-prototipo-comparador-b2.md"
+    version: "1"
+    estado: "respuesta-recibida-en-parte-ajuste-local-pendiente"
+    generado_por: "mixto"
+  - nombre: "Síntesis de lectura humana del prototipo comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/lectura-humana-prototipo-comparador-b2.md"
+    version: "1"
+    estado: "hallazgos-aplicados-en-v2"
+    generado_por: "humano-y-evaluador-separado"
+  - nombre: "Evaluación técnica ronda 4 del comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-4-ajuste-prototipo-comparador-b2.md"
+    version: "4"
+    estado: "pass-local"
+    generado_por: "evaluador separado"
+  - nombre: "Evaluación de comprensibilidad ronda 5 del comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-5-comprensibilidad-prototipo-comparador-b2.md"
+    version: "5"
+    estado: "pass-local-l9-abierta"
+    generado_por: "evaluador separado"
+  - nombre: "Evaluación ronda 6 y confirmación humana del comparador B2"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-6-confirmacion-humana-prototipo-comparador-b2.md"
+    version: "6"
+    estado: "claridad-principal-confirmada-ajuste-verbal-aplicado-pass-local"
+    generado_por: "humano-y-evaluador-separado"
+  - nombre: "Segunda lectura humana del prototipo comparador B2"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-segunda-lectura-humana-prototipo-comparador-b2.md"
+    version: "1"
+    estado: "respuesta-recibida-claridad-confirmada-con-ajuste-verbal-aplicado"
+    generado_por: "mixto"
+  - nombre: "Evaluación del lote de continuidad M2-M6"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-2-continuidad-m2-m6.md"
+    version: "2"
+    estado: "pass-local"
+    generado_por: "evaluador separado"
+  - nombre: "Auditoría del H5P BloomObjectiveBuilder para M6"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/auditoria-h5p-bloom-objective-builder-para-m6.md"
+    version: "1"
+    estado: "no-reutilizar-sin-rediseño"
+    generado_por: "evaluador separado"
+  - nombre: "Prototipo local para comprobar una actividad M6"
+    tipo: "recurso"
+    ruta: "docs/editorial/evidence/udgia-021/prototipos/revisor-alineacion-m6/"
+    version: "2-reescrita"
+    estado: "pass-local-claridad-confirmada-pendiente-otros-perfiles-y-vobo-integracion"
+    generado_por: "mixto"
+  - nombre: "Evaluación del prototipo revisor M6"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-ronda-4-claridad-prototipo-revisor-m6.md"
+    version: "4"
+    estado: "pass-local-claridad-confirmada-por-ruben"
+    generado_por: "evaluador separado"
+  - nombre: "Revisión SmallDocs de claridad del prototipo M6"
+    tipo: "evaluacion"
+    ruta: ".sdocs/UDGIA-021-revision-claridad-prototipo-m6.md"
+    version: "2"
+    estado: "respuesta-recibida-claridad-si"
+    generado_por: "mixto"
+  - nombre: "Reconciliación de análisis Codex sobre navegación y H5P"
+    tipo: "evaluacion"
+    ruta: "docs/editorial/evidence/udgia-021/reconciliacion-insumos-codex-navegacion-h5p.md"
+    version: "1"
+    estado: "comprobado-local-sin-integracion"
+    generado_por: "auditor separado"
+  - nombre: "Plan de desbloqueo de producción del ecosistema"
+    tipo: "plan"
+    ruta: "docs/editorial/PLAN-DESBLOQUEO-PRODUCCION-ECOSISTEMA-2026-08-03.md"
+    version: "1"
+    estado: "p0-cerrado; p1-interno-pass; diff-p2-en-preparacion"
+    generado_por: "agente en modo copiloto"
+  - nombre: "Decisiones P0 para iniciar producción"
+    tipo: "decision humana"
+    ruta: ".sdocs/UDGIA-plan-desbloqueo-P0-decision-ligera-2026-08-03.md"
+    version: "respuesta-final-2026-08-03"
+    estado: "recibida-y-aplicada"
+    generado_por: "Rubén mediante SmallDocs"
+  - nombre: "Cierre P0 residual y lanzamiento P1"
+    tipo: "decision humana"
+    ruta: ".sdocs/UDGIA-cierre-P0-residual-y-lanzamiento-P1-2026-08-03.md"
+    version: "respuesta-final-2026-08-03"
+    estado: "recibida-y-aplicada"
+    generado_por: "Rubén mediante SmallDocs"
+  - nombre: "Paquete de coordinación P1"
+    tipo: "protocolo de lectura humana"
+    ruta: ".sdocs/UDGIA-021-paquete-coordinacion-P1.md"
+    version: "1"
+    estado: "actualizado-a-validacion-interna"
+    generado_por: "agente en modo copiloto"
+  - nombre: "Instrumento de dictamen P1"
+    tipo: "instrumento de comprensibilidad y accesibilidad"
+    ruta: ".sdocs/UDGIA-021-P1-dictamen-lector.md"
+    version: "1"
+    estado: "supersedido-sin-uso-por-metodo-interno"
+    generado_por: "agente en modo copiloto"
+  - nombre: "VoBo P1 de validación interna"
+    tipo: "decision humana"
+    ruta: ".sdocs/UDGIA-021-vobo-P1-validacion-interna.md"
+    version: "respuesta-final-2026-08-03"
+    estado: "recibida-y-aplicada"
+    generado_por: "Rubén mediante SmallDocs"
+  - nombre: "Evaluación interna P1, ronda 1"
+    tipo: "evaluacion separada"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-interna-P1-ronda-1.md"
+    version: "1"
+    estado: "hallazgos-atendidos"
+    generado_por: "evaluador interno"
+  - nombre: "Evaluación interna P1, ronda 2"
+    tipo: "evaluacion separada"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-interna-P1-ronda-2.md"
+    version: "2"
+    estado: "pass-interno-con-limitacion-aceptada"
+    generado_por: "evaluador interno"
+  - nombre: "Paquete preparado P2 de M1, B2 y M6"
+    tipo: "diff aplicado con rollback"
+    ruta: "docs/editorial/evidence/udgia-021/diff-p2/"
+    version: "2"
+    estado: "aplicado-en-working-tree-qa-pass"
+    generado_por: "agente en modo copiloto"
+  - nombre: "Evaluación agéntica P2, ronda 1"
+    tipo: "evaluacion separada simulada"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-agentica-P2-ronda-1.md"
+    version: "1"
+    estado: "hallazgos-atendidos"
+    generado_por: "tres evaluadores agénticos"
+  - nombre: "Evaluación agéntica P2, ronda 2"
+    tipo: "evaluacion separada simulada"
+    ruta: "docs/editorial/evidence/udgia-021/evaluacion-agentica-P2-ronda-2.md"
+    version: "2"
+    estado: "pass-sin-bloqueantes"
+    generado_por: "tres evaluadores agénticos"
+  - nombre: "QA del working tree P2"
+    tipo: "qa técnico"
+    ruta: "docs/editorial/evidence/udgia-021/diff-p2/qa-report.json"
+    version: "2026-08-04T01:52:38.702Z"
+    estado: "pass-working-tree"
+    generado_por: "qa-p2.mjs"
+  - nombre: "VoBo P2 para aplicación exacta"
+    tipo: "decision humana"
+    ruta: ".sdocs/UDGIA-021-vobo-P2-ligero.md"
+    version: "respuesta-final-2026-08-03"
+    estado: "recibida-y-aplicada"
+    generado_por: "Rubén mediante SmallDocs"
+
+decisiones_y_justificaciones:
+  - decision: "Sustitución visual selectiva por función y lotes."
+    alternativa_descartada: "Rediseñar todas las portadas antes de intervenir el contenido."
+    razon: "Conserva familias útiles, reduce fatiga prioritaria y evita retrabajo antes de resolver el núcleo."
+    fecha: "2026-08-02"
+  - decision: "Iniciar con L1 y seis familias conceptuales."
+    alternativa_descartada: "Piloto visual transversal sin reordenar contenidos."
+    razon: "Permite probar juntos coherencia conceptual, narrativa, navegación y sistema visual."
+    fecha: "2026-08-02"
+  - decision: "Usar escenas situadas solo con anclas de contexto y diagramas para relaciones conceptuales."
+    alternativa_descartada: "Sustituir imágenes genéricas por otras escenas humanas igualmente intercambiables."
+    razon: "Campo o problema, evidencia y consecuencia deben aportar comprensión; las personas no son decoración."
+    fecha: "2026-08-02"
+  - decision: "Reservar una familia pública por autoridad y audiencia, sin crear páginas todavía."
+    alternativa_descartada: "Centro único o enlaces directos a archivos externos."
+    razon: "Separa estatus, guía estudiantil y guía docente, y permite enlaces duraderos sin mezclar funciones."
+    fecha: "2026-08-02"
+  - decision: "Probar primero la entrada general con tres perfiles humanos."
+    alternativa_descartada: "Preparar de inmediato paquetes para las seis muestras."
+    razon: "La entrada debe orientar todo el recorrido y permite corregir el protocolo antes de escalarlo."
+    fecha: "2026-08-02"
+    estado: "supersedida-el-2026-08-03-por-falta-de-revisores-externos"
+  - decision: "Usar una segunda revisión simulada de M1 para no detener el refinamiento local."
+    alternativa_descartada: "Tratar la ausencia inmediata de lectores humanos como bloqueo de todo trabajo local."
+    razon: "Tres perfiles independientes pueden detectar coincidencias y priorizar ajustes; la lectura humana conserva su función antes de integrar o publicar."
+    fecha: "2026-08-02"
+  - decision: "Acotar la revisión humana a Rubén y usar agentes únicamente como perspectivas simuladas."
+    alternativa_descartada: "Presentar agentes como participantes, revisores externos o personas usuarias de tecnologías de asistencia."
+    razon: "No hay otras personas disponibles por ahora. Las simulaciones ayudan a detectar barreras, pero Rubén conserva el único dictamen humano y el VoBo final de cada lote; el uso real y el lector de pantalla real permanecen no verificados."
+    fecha: "2026-08-03"
+  - decision: "Aplicar cuatro ajustes acotados a M1 y mantener lectura humana antes de integrar."
+    alternativa_descartada: "Extender la reescritura a las otras cinco muestras o considerar suficiente la simulación."
+    razon: "Los tres perfiles coincidieron en las mismas barreras; el alcance aprobado corrige solo la entrada y conserva la aprobación final humana."
+    fecha: "2026-08-02"
+  - decision: "Diferir la lectura humana y continuar con diagnóstico y preparación local."
+    alternativa_descartada: "Detener todo el trabajo hasta conseguir lectores reales o eliminar la validación final."
+    razon: "La auditoría local puede avanzar sin confundir simulación con aprobación; la lectura humana conserva su función antes de integrar o publicar."
+    fecha: "2026-08-02"
+  - decision: "Aplicar el lote A de continuidad M2-M6, preparar solo briefs B2-B6 y conservar los SVG."
+    alternativa_descartada: "Dejar el diagnóstico sin cambios, reemplazar los diagramas o construir de inmediato las interacciones."
+    razon: "Resuelve un patrón común con cambios acotados, mantiene los visuales funcionales y define la interacción antes de elegir tecnología; la lectura humana permanece antes de integrar."
+    fecha: "2026-08-02"
+  - decision: "Prototipar B6 como HTML local autónomo y conservar BloomObjectiveBuilder sin cambios."
+    alternativa_descartada: "Convertir el constructor H5P existente en revisor mediante un parche menor."
+    razon: "El H5P empieza por nivel y verbo, representa una progresión ascendente y no diagnostica los enlaces propósito-evidencia-experiencia-asistencia; el prototipo necesita otro contrato conceptual."
+    fecha: "2026-08-02"
+  - decision: "Reescribir la superficie pública del prototipo M6 con el enfoque de las guías para profesorado y estudiantes."
+    alternativa_descartada: "Conservar la terminología interna y añadir una definición al inicio."
+    razon: "La primera lectura humana no pudo explicar qué hacía la actividad; el caso, la acción y el resultado deben entenderse antes de cualquier término técnico."
+    fecha: "2026-08-02"
+  - decision: "Reabrir la comprensibilidad de B2-B5, desarrollar las cinco cualidades obligatorias y no elegir todavía un prototipo."
+    alternativa_descartada: "Tomar el PASS automático y la brevedad de los resúmenes como prueba suficiente de claridad."
+    razon: "La lectura humana no pudo reconstruir qué se comparaba, para qué ni qué se lograba; las relaciones y los pasos deben enseñarse antes de comprimirlos."
+    fecha: "2026-08-02"
+  - decision: "Cerrar la duda de claridad de B2-B5 y separar la futura elección de prototipo."
+    alternativa_descartada: "Interpretar la confirmación de claridad como autorización para construir o integrar una interacción."
+    razon: "Rubén confirmó propósito, recorrido y resultado sin ajustes; la elección de prototipo requiere una decisión posterior con alcance propio."
+    fecha: "2026-08-02"
+  - decision: "Construir como siguiente prototipo local la comparación de dos sugerencias para el mismo borrador."
+    alternativa_descartada: "Prototipar primero la revisión de consigna, la secuencia híbrida o la separación entre cambio tecnológico y trabajo cognitivo."
+    razon: "La actividad sirve a estudiantes y docentes, pone en acción la dirección humana del proceso y complementa el prototipo M6 dirigido principalmente a profesorado."
+    fecha: "2026-08-02"
+  - decision: "Priorizar la eliminación de bloqueos de todo el ecosistema antes de escalar producción."
+    alternativa_descartada: "Seguir acumulando prototipos o producir cada soporte por separado."
+    razon: "La población y modalidad condicionan el curso y los lectores de Hugo; la integración vertical condiciona la producción por lotes. El orden P0-P4 reduce retrabajo sin confundir producción local con publicación."
+    fecha: "2026-08-03"
+  - decision: "Trabajar con dos cohortes separadas de educación superior y un núcleo común multidisciplinar."
+    alternativa_descartada: "Una sola cohorte mixta, una única ruta o casos cerrados de una disciplina."
+    razon: "Rubén eligió casos adaptables y revisión por campo para conservar un núcleo compartido sin borrar las diferencias entre estudiantado y profesorado."
+    fecha: "2026-08-03"
+  - decision: "Preparar P1 y después producir localmente por lotes con revisión de cada diff."
+    alternativa_descartada: "Integrar directamente en content, publicar o detener la preparación por el aviso de privacidad."
+    razon: "El envío SmallDocs autorizó preparación y producción local reversible; privacidad y contacto quedan diferidos y el instrumento no se distribuye."
+    fecha: "2026-08-03"
+  - decision: "Diseñar para 36 a 60 personas por cohorte y un encuentro semanal de 60 minutos."
+    alternativa_descartada: "Un piloto pequeño o una proporción mayor de tiempo síncrono."
+    razon: "Rubén fijó cuatro horas asincrónicas y una hora de encuentro dentro de las cinco horas semanales."
+    fecha: "2026-08-03"
+  - decision: "Producir primero el núcleo común y una aplicación breve para cada cohorte."
+    alternativa_descartada: "Completar primero una sola ruta."
+    razon: "Permite comprobar desde el primer lote que el núcleo compartido deriva en acciones distintas para estudiantado y profesorado."
+    fecha: "2026-08-03"
+  - decision: "Cerrar P1 mediante validación interna y VoBo de Rubén."
+    alternativa_descartada: "Esperar participantes externos o presentar la simulación como prueba con usuarios."
+    razon: "Rubén indicó que no habrá esas personas, aceptó explícitamente la limitación y conserva la aprobación final."
+    fecha: "2026-08-03"
+  - decision: "Preparar un diff reversible M1 + B2 + M6 después del PASS interno."
+    alternativa_descartada: "Integrar automáticamente o detener la producción después de P1."
+    razon: "Las dos rondas pasaron; el VoBo autoriza preparar y exige presentar el diff antes de integrar."
+    fecha: "2026-08-03"
+  - decision: "Aplicar P2 exactamente al working tree y conservar las tres observaciones menores como no bloqueantes."
+    alternativa_descartada: "Corregir de nuevo el lote evaluado o mantenerlo indefinidamente en staging."
+    razon: "Rubén revisó las muestras ampliadas y envió el VoBo SmallDocs; el lote conserva hashes, rollback y una nueva verificación sobre content/ y static/ reales."
+    fecha: "2026-08-03"

@@ -20,7 +20,7 @@ weight: 7
 ---
 
 {{< lead >}}
-Los procesos de evaluación y retroalimentación formativos y sumativos permiten a los estudiantes comprender su grado de avance en el logro de los objetivos de aprendizaje. Son componentes del [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}) que informan tanto al estudiante como al profesor.
+Un estudiante recibe su borrador devuelto con comentarios sobre qué mejorar, y una semana después entrega la versión final con la que se gana la calificación. La primera devolución es evaluación formativa; la segunda, sumativa. Entre ambas, los procesos de evaluación y retroalimentación permiten a los estudiantes comprender su grado de avance en el logro de los objetivos de aprendizaje, e informan tanto al estudiante como al profesor: son componentes del [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}).
 {{< /lead >}}
 
 ## Evaluación formativa y sumativa
@@ -111,4 +111,4 @@ El [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) debe especifi
 ## Referencias
 
 - Holbeck, R., Bergquist, E., & Lees, S. (2014). Classroom Assessment Techniques: Checking for Student Understanding in an Introductory University Success Course. *Journal of Instructional Research*, *3*, 38–42.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.

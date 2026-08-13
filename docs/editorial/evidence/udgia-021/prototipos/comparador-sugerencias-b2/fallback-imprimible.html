@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Hoja para comparar dos sugerencias</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#hoja">Ir a la hoja</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow">Actividad para estudiantes y docentes · alternativa sin JavaScript</p>
+      <h1>Compara dos sugerencias sin perder tu propósito</h1>
+      <p class="hero__lead">Completa la hoja en pantalla o imprímela. No envía ni guarda respuestas.</p>
+      <p><strong>Tiempo estimado:</strong> 25–35 minutos con un texto propio.</p>
+    </div>
+  </header>
+
+  <main id="hoja" class="layout">
+    <section class="case" aria-labelledby="fallback-case-title">
+      <p class="section-label">Un ejemplo completo antes de comenzar</p>
+      <h2 id="fallback-case-title">Dos sugerencias sobre la misma muestra</h2>
+      <p>
+        Renata escribió que una muestra tomada junto al puente no superó el límite permitido,
+        pero que un solo punto y un solo día no bastan para declarar seguro todo el arroyo. Para
+        revisar el borrador, pidió a una IA generativa una posible conclusión y un dato que quizá
+        hiciera falta comprobar. La IA devolvió dos sugerencias sobre el texto. No son órdenes ni
+        sustituyen el registro de campo.
+      </p>
+      <div class="example-grid">
+        <article class="example-card">
+          <h3>Sugerencia 1</h3>
+          <p>«La muestra demuestra que el agua del arroyo es segura».</p>
+          <p>Generaliza el resultado. Renata decide modificarla para conservar el alcance de la evidencia.</p>
+        </article>
+        <article class="example-card">
+          <h3>Sugerencia 2</h3>
+          <p>«Aclara si llovió antes del muestreo».</p>
+          <p>Señala un dato relevante. Renata deja la decisión pendiente hasta consultar el registro de campo.</p>
+        </article>
+      </div>
+      <p>
+        Las dos sugerencias se comparan con el propósito del fragmento. La hoja no decide por ti:
+        conserva tus razones, comprobaciones y decisiones.
+      </p>
+    </section>
+
+    <section class="concept concept--early" aria-labelledby="f-concept-early-title">
+      <h2 id="f-concept-early-title">Una sugerencia propone un cambio; tú decides qué hacer con él</h2>
+      <p>
+        Decidir aquí significa elegir si conservas, modificas, descartas o dejas pendiente cada
+        sugerencia. Hace falta tomar esa decisión porque aceptar un cambio puede alterar lo que
+        afirma tu texto. También puede ampliar su alcance o introducir un dato que aún no
+        comprobaste. Una IA, otra persona o quien imparte el curso puede proponer el cambio. Quien
+        escribe responde por la versión que conserva. Cuando las propuestas vienen de una IA, esta
+        forma de trabajar se llama
+        co-creación persona-IA.
+      </p>
+    </section>
+
+    <section class="notice">
+      <h2>Cómo usar esta hoja</h2>
+      <p>
+        Escribe el propósito y el fragmento original. Después revisa una sugerencia a la vez.
+        Al final redacta el fragmento que conservarás y resume cada decisión con estas cuatro
+        partes: qué cambió, qué podría ocurrir, qué comprobaste y qué decidiste.
+      </p>
+    </section>
+
+    <form class="comparison-form">
+      <section class="step-card" aria-labelledby="f-purpose-title">
+        <div class="step-card__number" aria-hidden="true">1</div>
+        <div class="step-card__body">
+          <h2 id="f-purpose-title">Recupera el propósito</h2>
+          <div class="model-answer">
+            <p class="section-label">Mira primero cómo lo hizo Renata</p>
+            <p>
+              Renata escribió: «La medición describe un punto y un día; no demuestra que todo el
+              arroyo sea seguro». Esa frase le sirve para revisar cada sugerencia sin perder el
+              límite que quiere comunicar.
+            </p>
+          </div>
+          <label for="f-purpose">Quiero que este fragmento permita entender que…</label>
+          <textarea id="f-purpose" rows="4"></textarea>
+          <label for="f-original">Fragmento original</label>
+          <textarea id="f-original" rows="6"></textarea>
+          <label for="f-origin">¿De dónde vienen las sugerencias y qué se pidió al producirlas?</label>
+          <textarea id="f-origin" rows="4"></textarea>
+          <p class="field-help">
+            Anota si vienen de una IA, otra persona o un comentario del curso. Incluye el encargo
+            que las originó.
+          </p>
+        </div>
+      </section>
+
+      <section class="suggestion-card" aria-labelledby="f-a-title">
+        <div class="suggestion-card__heading">
+          <p class="suggestion-card__number" aria-hidden="true">2</p>
+          <h2 id="f-a-title">Revisa la sugerencia 1</h2>
+        </div>
+        <label for="f-suggestion-a">Texto de la sugerencia</label>
+        <textarea id="f-suggestion-a" rows="4"></textarea>
+        <label for="f-change-a">¿Qué añade, quita o cambia?</label>
+        <textarea id="f-change-a" rows="4"></textarea>
+        <label for="f-consequence-a">¿Qué podría ocurrir si la aceptas?</label>
+        <textarea id="f-consequence-a" rows="4"></textarea>
+        <fieldset class="choice-group">
+          <legend>¿Conserva tu propósito?</legend>
+          <div class="radio-row">
+            <label><input type="radio" name="f-preserves-a"> Sí</label>
+            <label><input type="radio" name="f-preserves-a"> No</label>
+            <label><input type="radio" name="f-preserves-a"> No estoy seguro</label>
+          </div>
+        </fieldset>
+        <fieldset class="choice-group">
+          <legend>¿Necesitas comprobar un dato, una fuente o un ejemplo?</legend>
+          <div class="radio-row">
+            <label><input type="radio" name="f-check-a"> Sí</label>
+            <label><input type="radio" name="f-check-a"> No</label>
+            <label><input type="radio" name="f-check-a"> No estoy seguro</label>
+          </div>
+        </fieldset>
+        <label for="f-verification-a">¿Qué comprobarás o por qué no hace falta?</label>
+        <textarea id="f-verification-a" rows="4"></textarea>
+        <fieldset class="choice-group">
+          <legend>¿Qué decides hacer?</legend>
+          <div class="radio-row radio-row--four">
+            <label><input type="radio" name="f-decision-a"> Conservar</label>
+            <label><input type="radio" name="f-decision-a"> Modificar</label>
+            <label><input type="radio" name="f-decision-a"> Descartar</label>
+            <label><input type="radio" name="f-decision-a"> Dejar pendiente</label>
+          </div>
+        </fieldset>
+
+      </section>
+
+      <section class="suggestion-card" aria-labelledby="f-b-title">
+        <div class="suggestion-card__heading">
+          <p class="suggestion-card__number" aria-hidden="true">3</p>
+          <h2 id="f-b-title">Revisa la sugerencia 2</h2>
+        </div>
+        <label for="f-suggestion-b">Texto de la sugerencia</label>
+        <textarea id="f-suggestion-b" rows="4"></textarea>
+        <label for="f-change-b">¿Qué añade, quita o cambia?</label>
+        <textarea id="f-change-b" rows="4"></textarea>
+        <label for="f-consequence-b">¿Qué podría ocurrir si la aceptas?</label>
+        <textarea id="f-consequence-b" rows="4"></textarea>
+        <fieldset class="choice-group">
+          <legend>¿Conserva tu propósito?</legend>
+          <div class="radio-row">
+            <label><input type="radio" name="f-preserves-b"> Sí</label>
+            <label><input type="radio" name="f-preserves-b"> No</label>
+            <label><input type="radio" name="f-preserves-b"> No estoy seguro</label>
+          </div>
+        </fieldset>
+        <fieldset class="choice-group">
+          <legend>¿Necesitas comprobar un dato, una fuente o un ejemplo?</legend>
+          <div class="radio-row">
+            <label><input type="radio" name="f-check-b"> Sí</label>
+            <label><input type="radio" name="f-check-b"> No</label>
+            <label><input type="radio" name="f-check-b"> No estoy seguro</label>
+          </div>
+        </fieldset>
+        <label for="f-verification-b">¿Qué comprobarás o por qué no hace falta?</label>
+        <textarea id="f-verification-b" rows="4"></textarea>
+        <fieldset class="choice-group">
+          <legend>¿Qué decides hacer?</legend>
+          <div class="radio-row radio-row--four">
+            <label><input type="radio" name="f-decision-b"> Conservar</label>
+            <label><input type="radio" name="f-decision-b"> Modificar</label>
+            <label><input type="radio" name="f-decision-b"> Descartar</label>
+            <label><input type="radio" name="f-decision-b"> Dejar pendiente</label>
+          </div>
+        </fieldset>
+
+        <div class="comparison-prompt">
+          <p class="section-label">Pon las dos sugerencias frente a frente</p>
+          <label for="f-comparison">¿Cuál se acerca más a tu propósito y qué ocurriría si aceptaras ambas?</label>
+          <textarea id="f-comparison" rows="5"></textarea>
+          <p class="field-help">Explica la diferencia que importa para tu texto.</p>
+        </div>
+      </section>
+
+      <section class="step-card" aria-labelledby="f-revised-title">
+        <div class="step-card__number" aria-hidden="true">4</div>
+        <div class="step-card__body">
+          <h2 id="f-revised-title">Escribe el fragmento que conservarás por ahora</h2>
+          <p>Si falta un dato, señálalo. No llenes el hueco con una suposición.</p>
+          <div class="before-after">
+            <div>
+              <label for="f-original-review">Antes: copia aquí el fragmento original del paso 1</label>
+              <textarea id="f-original-review" rows="7"></textarea>
+            </div>
+            <div>
+              <label for="f-revised">Después: fragmento revisado</label>
+              <textarea id="f-revised" rows="7"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+    </form>
+
+    <section class="local-tools" aria-labelledby="f-notes-title">
+      <h2 id="f-notes-title">Prepara tus dos notas de decisión</h2>
+      <p>
+        Para cada sugerencia, reúne en una sola nota lo que cambia, la consecuencia que
+        anticipaste, la comprobación realizada o pendiente y tu decisión. Conserva esas notas
+        junto al fragmento revisado. La comparación entre ambas explica por qué esas dos
+        decisiones pueden ser distintas.
+      </p>
+      <p>
+        Antes de compartirlo, comprueba las fuentes y pide una lectura de alguien con conocimiento
+        del tema si el texto puede afectar una decisión importante.
+      </p>
+      <p>
+        Lleva el fragmento y las dos notas a tu tarea. Explica qué sugerencia cambió el texto,
+        qué comprobación sigue pendiente y por qué tu decisión mantiene o modifica el propósito.
+      </p>
+      <p><a href="index.html">Volver a la actividad interactiva</a></p>
+      <p><a href="../../ia-educacion/guias/estudiantes/">Volver a la guía para estudiantes</a></p>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p><strong>La decisión sigue siendo tuya.</strong> La hoja solo ayuda a reconstruir cómo llegaste a ella.</p>
+  </footer>
+</body>
+</html>

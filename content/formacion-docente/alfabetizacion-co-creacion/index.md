@@ -16,6 +16,23 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
+content_type: concepto
+audiences: [estudiante, profesorado, investigacion]
+intentions: [comprender, practicar]
+topics: [cocreacion, direccion-epistemica, trazabilidad]
+challenges: [dependencia, autoria, opacidad]
+competencies: [agencia, direccion-epistemica, cocreacion]
+evidence_status: evidencia-citada
+connections:
+  - relation: aplica
+    page: /ia-educacion/practicas/bitacora-cocreacion/
+    reason: "Convierte los cinco principios en un registro breve de decisiones y fuentes."
+  - relation: contrasta
+    page: /observatorio/estudios/paradoja-descarga-cognitiva/
+    reason: "Examina cuándo la ayuda libera capacidad y cuándo sustituye el aprendizaje."
+  - relation: fundamenta
+    page: /ia-educacion/guias/evaluacion-formativa-ia/
+    reason: "Explica por qué la evaluación necesita observar decisiones, no solo productos."
 weight: 1
 ecosistema:
   id: pattern.direccion-epistemica

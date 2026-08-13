@@ -1,0 +1,2885 @@
+{
+  "generated_at": "2026-08-12T03:27:50.779Z",
+  "authorization": {
+    "submitted_at": "2026-08-12T02:15:16.193Z",
+    "decision": "Preparar comparación local de las variantes A y B",
+    "limits": "Trabajo local y reversible; sin commit, push, publicación ni despliegue",
+    "refinement": {
+      "submitted_at": "2026-08-12T03:10:57.009Z",
+      "decision": "B · Conexiones curadas más coincidencias explicadas",
+      "next_step": "Refinar B fuera de la plantilla activa y repetir muestras más QA",
+      "human_test": "Después del refinamiento",
+      "limits": "Trabajo local y reversible; sin commit, push, publicación ni despliegue"
+    },
+    "pruning": {
+      "submitted_at": "2026-08-12T03:22:24.312Z",
+      "decision": "Aplicar al candidato el tope de dos automáticas por página y repetir QA",
+      "expected": "37 relaciones curadas y 21 automáticas explicadas",
+      "limits": "Solo candidato local y reversible; sin commit, push, publicación ni despliegue"
+    },
+    "incorporation": {
+      "submitted_at": "2026-08-12T03:25:29.761Z",
+      "decision": "Incorporar B únicamente al piloto local y verificarla",
+      "rollback_sha256": "0ae52c5d2e1b21229230e4962958f382626863deac6f50b156666c4d53a69ece",
+      "limits": "Sin commit, push, publicación ni despliegue"
+    }
+  },
+  "active_template": {
+    "path": "layouts/partials/related.html",
+    "sha256_before": "690b30bcb2d870d3bdb0a627b53e77c99a1ac3312f07064ddf5d1a897a885b3a",
+    "sha256_after": "690b30bcb2d870d3bdb0a627b53e77c99a1ac3312f07064ddf5d1a897a885b3a",
+    "unchanged_during_qa": true,
+    "matches_candidate_b": true
+  },
+  "builds": {
+    "a": {
+      "name": "A · Solo conexiones curadas",
+      "pages": 932,
+      "warnings": [
+        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+      ],
+      "candidate_template_sha256": "8ed4d52159060218d6af1cc75ba1a32a7990aa48d11ddd0f4426ae31f13d39e1"
+    },
+    "b": {
+      "name": "B afinada · Máximo dos coincidencias explicadas",
+      "pages": 932,
+      "warnings": [
+        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+        "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+        "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+        "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
+      ],
+      "candidate_template_sha256": "690b30bcb2d870d3bdb0a627b53e77c99a1ac3312f07064ddf5d1a897a885b3a"
+    }
+  },
+  "summary": {
+    "pilot_pages": 12,
+    "viewport_checks_per_variant": 24,
+    "total_checks": 48,
+    "curated_relations_a": 37,
+    "curated_relations_b": 37,
+    "automatic_explained_b": 21,
+    "automatic_limit_per_page_b": 2,
+    "repeated_automatic_criteria_b": 0,
+    "repeated_automatic_reasons_b": 0,
+    "comparison_images": [
+      "captures/comparacion-ganancia-cognitiva-desktop.png",
+      "captures/comparacion-ganancia-cognitiva-mobile.png",
+      "captures/comparacion-paradoja-descarga-desktop.png",
+      "captures/comparacion-paradoja-descarga-mobile.png"
+    ]
+  },
+  "checks": [
+    {
+      "path": "ia-educacion/constelaciones/empezar-con-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Practica cómo comparar dos sugerencias y conservar una decisión propia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva el mismo principio al diseño de una actividad y su evidencia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Extiende la dirección humana a búsqueda, lectura, análisis y escritura académica."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/constelaciones/empezar-con-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Practica cómo comparar dos sugerencias y conservar una decisión propia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva el mismo principio al diseño de una actividad y su evidencia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Extiende la dirección humana a búsqueda, lectura, análisis y escritura académica."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa primero qué parte del trabajo debe permanecer bajo tu responsabilidad."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Comprueba la afirmación que podría cambiar tu decisión antes de entregar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva fuentes, cambios y descartes en una bitácora breve."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa el recorrido completo aplicado a un ensayo universitario."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa primero qué parte del trabajo debe permanecer bajo tu responsabilidad."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Comprueba la afirmación que podría cambiar tu decisión antes de entregar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva fuentes, cambios y descartes en una bitácora breve."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa el recorrido completo aplicado a un ensayo universitario."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa la relación entre ayuda, aprendizaje y responsabilidad antes de diseñar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Diseña retroalimentación iterativa y conserva el juicio docente."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Distingue una ayuda que sostiene el razonamiento de otra que lo sustituye."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira cómo el mismo principio cambia en una tarea concreta."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa la relación entre ayuda, aprendizaje y responsabilidad antes de diseñar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Diseña retroalimentación iterativa y conserva el juicio docente."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Distingue una ayuda que sostiene el razonamiento de otra que lo sustituye."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira cómo el mismo principio cambia en una tarea concreta."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/investigacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Decide qué datos, textos o manuscritos no deben entrar a un sistema generativo."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica referencias y afirmaciones en fuentes primarias antes de sintetizar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Documenta búsquedas, intervenciones, descartes y cambios para reconstruir el proceso."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "reason": "Examina cómo la producción acelerada afecta la revisión y la comunicación científica."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/investigacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Decide qué datos, textos o manuscritos no deben entrar a un sistema generativo."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica referencias y afirmaciones en fuentes primarias antes de sintetizar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Documenta búsquedas, intervenciones, descartes y cambios para reconstruir el proceso."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "reason": "Examina cómo la producción acelerada afecta la revisión y la comunicación científica."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Convierte los cinco principios en un registro breve de decisiones y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Examina cuándo la ayuda libera capacidad y cuándo sustituye el aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Explica por qué la evaluación necesita observar decisiones, no solo productos."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Convierte los cinco principios en un registro breve de decisiones y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Examina cuándo la ayuda libera capacidad y cuándo sustituye el aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Explica por qué la evaluación necesita observar decisiones, no solo productos."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "recursos/glosario/ganancia-cognitiva/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Mira evidencia y límites de la descarga cognitiva en situaciones de aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "recursos/glosario/ganancia-cognitiva/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Mira evidencia y límites de la descarga cognitiva en situaciones de aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Relaciona la evaluación del proceso con dirección epistémica y co-creación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa versiones, decisiones y declaración de uso en una tarea completa."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Protege textos, retroalimentación y datos antes de usar un servicio externo."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Relaciona la evaluación del proceso con dirección epistémica y co-creación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa versiones, decisiones y declaración de uso en una tarea completa."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Protege textos, retroalimentación y datos antes de usar un servicio externo."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Aplica la decisión de privacidad a cada etapa de una investigación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra qué información excluiste, transformaste o sustituiste y por qué."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Cuatro criterios éticos para el uso de IA en educación superior",
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "reason": "Profundiza en autonomía, transparencia, justicia y responsabilidad compartida."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Aplica la decisión de privacidad a cada etapa de una investigación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra qué información excluiste, transformaste o sustituiste y por qué."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Cuatro criterios éticos para el uso de IA en educación superior",
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "reason": "Profundiza en autonomía, transparencia, justicia y responsabilidad compartida."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva la fuente, el hallazgo y la decisión para que otra persona pueda reconstruirlos."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Usa la comprobación dentro de una tarea de escritura por etapas."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Relaciona la verificación con el aprendizaje que permanece después de retirar la ayuda."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva la fuente, el hallazgo y la decisión para que otra persona pueda reconstruirlos."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Usa la comprobación dentro de una tarea de escritura por etapas."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Relaciona la verificación con el aprendizaje que permanece después de retirar la ayuda."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comprende las decisiones que mantienen la dirección humana durante la interacción."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Adapta la bitácora a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira una tarea completa organizada en versiones y decisiones."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comprende las decisiones que mantienen la dirección humana durante la interacción."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Adapta la bitácora a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira una tarea completa organizada en versiones y decisiones."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica la evidencia antes de incorporar una afirmación al argumento."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra versiones, sugerencias aceptadas o rechazadas y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comprende cómo valorar el recorrido y no solo el texto final."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica la evidencia antes de incorporar una afirmación al argumento."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra versiones, sugerencias aceptadas o rechazadas y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comprende cómo valorar el recorrido y no solo el texto final."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Aclara la diferencia entre mejorar el producto y fortalecer aprendizaje transferible."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Aclara la diferencia entre mejorar el producto y fortalecer aprendizaje transferible."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/constelaciones/empezar-con-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Practica cómo comparar dos sugerencias y conservar una decisión propia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva el mismo principio al diseño de una actividad y su evidencia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Extiende la dirección humana a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:comprender",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Amplía el mismo propósito: comprender el tema. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/constelaciones/empezar-con-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Practica cómo comparar dos sugerencias y conservar una decisión propia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva el mismo principio al diseño de una actividad y su evidencia."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Extiende la dirección humana a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:comprender",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Amplía el mismo propósito: comprender el tema. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa primero qué parte del trabajo debe permanecer bajo tu responsabilidad."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Comprueba la afirmación que podría cambiar tu decisión antes de entregar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva fuentes, cambios y descartes en una bitácora breve."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa el recorrido completo aplicado a un ensayo universitario."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa primero qué parte del trabajo debe permanecer bajo tu responsabilidad."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Comprueba la afirmación que podría cambiar tu decisión antes de entregar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva fuentes, cambios y descartes en una bitácora breve."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa el recorrido completo aplicado a un ensayo universitario."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa la relación entre ayuda, aprendizaje y responsabilidad antes de diseñar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Diseña retroalimentación iterativa y conserva el juicio docente."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Distingue una ayuda que sostiene el razonamiento de otra que lo sustituye."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira cómo el mismo principio cambia en una tarea concreta."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Sitúa la relación entre ayuda, aprendizaje y responsabilidad antes de diseñar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Diseña retroalimentación iterativa y conserva el juicio docente."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Distingue una ayuda que sostiene el razonamiento de otra que lo sustituye."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Adáptalo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira cómo el mismo principio cambia en una tarea concreta."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/investigacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Decide qué datos, textos o manuscritos no deben entrar a un sistema generativo."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica referencias y afirmaciones en fuentes primarias antes de sintetizar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Documenta búsquedas, intervenciones, descartes y cambios para reconstruir el proceso."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "reason": "Examina cómo la producción acelerada afecta la revisión y la comunicación científica."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/investigacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Decide qué datos, textos o manuscritos no deben entrar a un sistema generativo."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica referencias y afirmaciones en fuentes primarias antes de sintetizar."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Documenta búsquedas, intervenciones, descartes y cambios para reconstruir el proceso."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "reason": "Examina cómo la producción acelerada afecta la revisión y la comunicación científica."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/crisis-revision-pares-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Convierte los cinco principios en un registro breve de decisiones y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Examina cuándo la ayuda libera capacidad y cuándo sustituye el aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Explica por qué la evaluación necesita observar decisiones, no solo productos."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para situar esa capacidad en un recorrido inicial."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Convierte los cinco principios en un registro breve de decisiones y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Examina cuándo la ayuda libera capacidad y cuándo sustituye el aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Explica por qué la evaluación necesita observar decisiones, no solo productos."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para situar esa capacidad en un recorrido inicial."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "recursos/glosario/ganancia-cognitiva/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Mira evidencia y límites de la descarga cognitiva en situaciones de aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "recursos/glosario/ganancia-cognitiva/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Contrasta",
+          "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "reason": "Mira evidencia y límites de la descarga cognitiva en situaciones de aprendizaje."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Relaciona la evaluación del proceso con dirección epistémica y co-creación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa versiones, decisiones y declaración de uso en una tarea completa."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Protege textos, retroalimentación y datos antes de usar un servicio externo."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:trazabilidad",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Comparte una capacidad clave: hacer visibles fuentes, cambios y decisiones. Continúa para ponerla a prueba con un procedimiento breve."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Relaciona la evaluación del proceso con dirección epistémica y co-creación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Observa versiones, decisiones y declaración de uso en una tarea completa."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Antes de compartir: protege datos y trabajos al usar IA",
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "reason": "Protege textos, retroalimentación y datos antes de usar un servicio externo."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:juicio-evaluativo",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: valorar evidencias antes de decidir. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:trazabilidad",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Comparte una capacidad clave: hacer visibles fuentes, cambios y decisiones. Continúa para ponerla a prueba con un procedimiento breve."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/privacidad-datos-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Aplica la decisión de privacidad a cada etapa de una investigación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra qué información excluiste, transformaste o sustituiste y por qué."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Cuatro criterios éticos para el uso de IA en educación superior",
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "reason": "Profundiza en autonomía, transparencia, justicia y responsabilidad compartida."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:decidir",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Amplía el mismo propósito: tomar una decisión. Continúa para situar esa capacidad en un recorrido inicial."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Aplica la decisión de privacidad a cada etapa de una investigación."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra qué información excluiste, transformaste o sustituiste y por qué."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Cuatro criterios éticos para el uso de IA en educación superior",
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "reason": "Profundiza en autonomía, transparencia, justicia y responsabilidad compartida."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Sigue una ruta",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:decidir",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Amplía el mismo propósito: tomar una decisión. Continúa para situar esa capacidad en un recorrido inicial."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva la fuente, el hallazgo y la decisión para que otra persona pueda reconstruirlos."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Usa la comprobación dentro de una tarea de escritura por etapas."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Relaciona la verificación con el aprendizaje que permanece después de retirar la ayuda."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:verificacion",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: comprobar afirmaciones y fuentes. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Conserva la fuente, el hallazgo y la decisión para que otra persona pueda reconstruirlos."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Usa la comprobación dentro de una tarea de escritura por etapas."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Relaciona la verificación con el aprendizaje que permanece después de retirar la ayuda."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:verificacion",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: comprobar afirmaciones y fuentes. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:direccion-epistemica",
+          "label": "Sigue una ruta",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Comparte una capacidad clave: dirigir qué se pregunta, comprueba y concluye. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comprende las decisiones que mantienen la dirección humana durante la interacción."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Adapta la bitácora a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira una tarea completa organizada en versiones y decisiones."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:trazabilidad",
+          "label": "Llévalo a una decisión",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comparte una capacidad clave: hacer visibles fuentes, cambios y decisiones. Continúa para convertirla en decisiones concretas."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:practicar",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Amplía el mismo propósito: poner una idea en práctica. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comprende las decisiones que mantienen la dirección humana durante la interacción."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Continúa",
+          "title": "Investigar con IA sin perder el rigor",
+          "href": "/ia-educacion/investigacion/",
+          "reason": "Adapta la bitácora a búsqueda, lectura, análisis y escritura académica."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Mira un ejemplo",
+          "title": "Ensayo con IA: evaluar el proceso de escritura",
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "reason": "Mira una tarea completa organizada en versiones y decisiones."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:trazabilidad",
+          "label": "Llévalo a una decisión",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comparte una capacidad clave: hacer visibles fuentes, cambios y decisiones. Continúa para convertirla en decisiones concretas."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:practicar",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Amplía el mismo propósito: poner una idea en práctica. Continúa para seguirla en un recorrido guiado."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/investigacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica la evidencia antes de incorporar una afirmación al argumento."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra versiones, sugerencias aceptadas o rechazadas y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comprende cómo valorar el recorrido y no solo el texto final."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:verificacion",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: comprobar afirmaciones y fuentes. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:cocreacion",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: trabajar con IA sin ceder la dirección. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Prepárate antes",
+          "title": "Comprueba la afirmación que cambia tu decisión",
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "reason": "Verifica la evidencia antes de incorporar una afirmación al argumento."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Bitácora breve de co-creación persona–IA",
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "reason": "Registra versiones, sugerencias aceptadas o rechazadas y fuentes."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "reason": "Comprende cómo valorar el recorrido y no solo el texto final."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:verificacion",
+          "label": "Sigue una ruta",
+          "title": "Laboratorio guiado para decidir antes de entregar",
+          "href": "/ia-educacion/guias/estudiantes/",
+          "reason": "Comparte una capacidad clave: comprobar afirmaciones y fuentes. Continúa para seguirla en un recorrido guiado."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:cocreacion",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: trabajar con IA sin ceder la dirección. Continúa para comprender su fundamento y sus límites."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/ia-educacion/practicas/comprobar-afirmacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/practicas/bitacora-cocreacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/evaluacion-formativa-ia/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/estudiantes/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/",
+      "viewport": "desktop",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Aclara la diferencia entre mejorar el producto y fortalecer aprendizaje transferible."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:comprender",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Amplía el mismo propósito: comprender el tema. Continúa para situar esa capacidad en un recorrido inicial."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/",
+      "viewport": "mobile",
+      "cards": [
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Comprende el fundamento",
+          "title": "Ganancia cognitiva",
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "reason": "Aclara la diferencia entre mejorar el producto y fortalecer aprendizaje transferible."
+        },
+        {
+          "source": "curated",
+          "criterion": "",
+          "label": "Ponlo en práctica",
+          "title": "Diseñar actividades y observar el aprendizaje",
+          "href": "/ia-educacion/guias/profesorado/",
+          "reason": "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "competency:agencia",
+          "label": "Comprende el fundamento",
+          "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "reason": "Comparte una capacidad clave: conservar la decisión propia. Continúa para comprender su fundamento y sus límites."
+        },
+        {
+          "source": "automatic-explained",
+          "criterion": "intention:comprender",
+          "label": "Vuelve al punto de partida",
+          "title": "Empezar con IA para aprender y enseñar",
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "reason": "Amplía el mismo propósito: comprender el tema. Continúa para situar esa capacidad en un recorrido inicial."
+        }
+      ],
+      "seriousAxe": [],
+      "consoleErrors": [],
+      "externalRequests": [],
+      "linkChecks": [
+        {
+          "href": "/recursos/glosario/ganancia-cognitiva/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/guias/profesorado/",
+          "status": 200
+        },
+        {
+          "href": "/formacion-docente/alfabetizacion-co-creacion/",
+          "status": 200
+        },
+        {
+          "href": "/ia-educacion/constelaciones/empezar-con-ia/",
+          "status": 200
+        }
+      ]
+    }
+  ]
+}

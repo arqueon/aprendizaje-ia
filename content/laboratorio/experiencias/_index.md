@@ -14,7 +14,7 @@ areas: ["ia", "pedagogia", "digital"]
 ---
 
 {{< lead >}}
-Rutas formativas que ignoran la linealidad tradicional, enfocándose en la experiencia de aprendizaje del estudiante más que en la transmisión de datos. Aquí se documentan casos reales: cómo docentes de la UdeG y de otras instituciones diseñaron, ejecutaron y reescribieron sus cursos con IA.
+Toda práctica pedagógica cambia cuando sale del diseño y entra al aula. Aquí se documentan casos reales: cómo docentes de la UdeG y de otras instituciones diseñaron, ejecutaron y reescribieron sus cursos con IA —qué funcionó, qué falló y qué aprendieron en el camino.
 {{< /lead >}}
 
 ## Qué encontrarás aquí
@@ -32,9 +32,3 @@ Cada experiencia se documenta con la misma estructura mínima:
 ## Criterios de inclusión
 
 Aceptamos relatos honestos por encima de relatos exitosos. Una experiencia de fracaso parcial bien analizada vale más que una victoria sin sombras. Los textos pueden enviarse como narrativa larga (1,500–2,500 palabras) o como ficha estructurada (600–900 palabras).
-
-## Próximas publicaciones
-
-- Caso piloto: integración de IA en una asignatura de pregrado de la UdeG (semestre 2026A).
-- Reflexión docente: primer semestre enseñando con IA — qué cambió en mí.
-- Caso comparado: una universidad latinoamericana que reescribió su syllabus para incluir IA.

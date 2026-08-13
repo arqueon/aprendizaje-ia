@@ -1,0 +1,76 @@
+{
+  "version": "p3a-candidato-1",
+  "generated_at": "2026-08-04T02:21:05.712Z",
+  "scope": "Staging local; no modifica content/ ni autoriza publicación",
+  "pages": [
+    {
+      "id": "M2",
+      "source": "docs/editorial/evidence/udgia-021/muestras/cocreacion.md",
+      "destination": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "staged": "docs/editorial/evidence/udgia-021/diff-p3a/content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "sha256": "a76b1317904925243ac562d820e437fe42d56e446840a88f6a9556c35d752200",
+      "assets": [
+        {
+          "name": "comparador-cocreacion.svg",
+          "sha256": "79fac4a2fa3adfe1d15bd1359cc3756e81197892546bf264df91f0d473c8236f"
+        }
+      ]
+    },
+    {
+      "id": "M3",
+      "source": "docs/editorial/evidence/udgia-021/muestras/aprendizaje-activo.md",
+      "destination": "content/formacion-docente/aprendizaje-activo/index.md",
+      "staged": "docs/editorial/evidence/udgia-021/diff-p3a/content/formacion-docente/aprendizaje-activo/index.md",
+      "sha256": "e6eaf31e25ed2de87055135a12c8a44f6681dde1e948e6c7893b50ee493c5b84",
+      "assets": [
+        {
+          "name": "acciones-aprendizaje-activo.svg",
+          "sha256": "f7085c22f1c6baa359c8592f08ca8290debf19ef96cb9d54aa7e9142235233c5"
+        }
+      ]
+    },
+    {
+      "id": "M4",
+      "source": "docs/editorial/evidence/udgia-021/muestras/aprendizaje-hibrido.md",
+      "destination": "content/formacion-docente/aprendizaje-hibrido/index.md",
+      "staged": "docs/editorial/evidence/udgia-021/diff-p3a/content/formacion-docente/aprendizaje-hibrido/index.md",
+      "sha256": "743331c82b2abf1d328256277dd4f81ced8f8708ce42b72f9ce7ab429c7ef6bf",
+      "assets": [
+        {
+          "name": "muestra-aprendizaje-hibrido.svg",
+          "sha256": "33afd47bdc75574e117b7d0e5c2b94d7657de1ed8527952da36a73a2a7024be1"
+        },
+        {
+          "name": "muestra-aprendizaje-hibrido-mobile.svg",
+          "sha256": "78abfc6fb9efff6710fb498d435def89765f435810b3870b49e6c3aab5d85bd4"
+        }
+      ]
+    },
+    {
+      "id": "M5",
+      "source": "docs/editorial/evidence/udgia-021/muestras/samr-icap.md",
+      "destination": "content/formacion-docente/modelos-samr-icap/index.md",
+      "staged": "docs/editorial/evidence/udgia-021/diff-p3a/content/formacion-docente/modelos-samr-icap/index.md",
+      "sha256": "b799368778dd8e855b5e74cf324e88e1f70d80b199e58a51a7730262ede4b88f",
+      "assets": [
+        {
+          "name": "dos-lentes-samr-icap.svg",
+          "sha256": "4b7f7d2be5426d712c971b799419275fbfd070ff0269de568e717559e598fe8c"
+        }
+      ]
+    },
+    {
+      "id": "M6",
+      "source": "docs/editorial/evidence/udgia-021/muestras/bloom-diseno-inverso.md",
+      "destination": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "staged": "docs/editorial/evidence/udgia-021/diff-p3a/content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "sha256": "5a68a09dd93d227b097d847c1cefa2ce729be05f723e67bbddbee8c187738b88",
+      "assets": [
+        {
+          "name": "cadena-diseno-inverso.svg",
+          "sha256": "fee968e75e7af76120c165e1d770419d27078b5273173cb14992eb49f2f7a2a9"
+        }
+      ]
+    }
+  ]
+}

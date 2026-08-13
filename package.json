@@ -18,6 +18,8 @@
     "qa:routes-tables": "node tools/qa-routes-tables.mjs",
     "content:inventory": "node tools/audit-hugo-content.mjs",
     "qa:content-inventory": "node tools/audit-hugo-content.mjs --check",
+    "content:learning-audit": "node tools/audit-learning-materials.mjs",
+    "qa:learning-audit": "node tools/audit-learning-materials.mjs --check",
     "qa:udgia-figures": "node tools/qa-udgia-figures.mjs",
     "qa:udgia-figures-route": "node tools/qa-udgia-figures-route.mjs",
     "qa:container:static": "node tools/container/qa-static.mjs",

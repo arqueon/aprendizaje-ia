@@ -31,9 +31,3 @@ Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara
 ## Principio de neutralidad de proveedor
 
 Los protocolos se diseñan para ser independientes del modelo. Un buen flujo debe funcionar igual con Claude, Gemini, DeepSeek, Kimi o Qwen, salvo que la diferencia entre modelos sea precisamente lo que se quiere enseñar. La preferencia por uno u otro proveedor es decisión institucional, no metodológica.
-
-## Próximas publicaciones
-
-- Flujo docente: planeación semanal con IA — del syllabus a la sesión.
-- Protocolo: ciclo de retroalimentación con IA en evaluación formativa.
-- Diagrama: árbol de decisiones para autorizar o no el uso de IA en una entrega.

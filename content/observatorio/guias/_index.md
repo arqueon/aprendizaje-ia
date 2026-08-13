@@ -31,9 +31,3 @@ Mientras los [estudios y encuestas](/observatorio/estudios/) reportan hallazgos 
 ## Audiencia
 
 Coordinaciones académicas, comités de evaluación, equipos de innovación pedagógica y docentes que quieran formalizar lo que ya hacen para compartirlo en redes inter-institucionales.
-
-## Próximas publicaciones
-
-- Guía: documentación de buenas prácticas con IA — plantilla y ejemplos.
-- Guía: evaluación de herramientas IA educativas — matriz de criterios con ponderación.
-- Guía: protocolo de revisión por pares para prácticas pedagógicas mediadas por IA.

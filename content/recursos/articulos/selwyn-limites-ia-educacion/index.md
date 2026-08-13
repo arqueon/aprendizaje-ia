@@ -3,7 +3,7 @@ title: "On the limits of artificial intelligence (AI) in education — Selwyn"
 date: 2026-04-26
 draft: false
 description: "Crítica sistemática de la narrativa dominante sobre IA en educación: qué se pierde cuando la educación se reorganiza para ser legible por máquinas."
-summary: "Selwyn nombra cuatro límites que el discurso celebratorio de IA en educación rara vez reconoce: modelización estadística, daños a estudiantes minorizados, pérdidas por hacer la educación 'legible por máquinas', y costos ecológicos."
+summary: "Selwyn nombra cuatro límites que el discurso celebratorio de IA en educación rara vez reconoce: modelización estadística, daños a estudiantes de grupos en minoría o en desventaja, pérdidas por hacer la educación 'legible por máquinas', y costos ecológicos."
 tags: ["pedagogía crítica", "Selwyn", "límites IA", "ecología", "equidad"]
 categories: ["articulo"]
 areas: ["ia", "etica", "pedagogia"]
@@ -32,7 +32,7 @@ tipoDocumento: "Artículo"
 
 ## Abstract
 
-Selwyn aborda la hipérbole que rodea a la IA en educación y propone un giro: en lugar de discutir lo que la IA puede hacer, examinar sus límites. El artículo identifica cuatro órdenes de límites que el discurso dominante elide. **Primero**, los procesos educativos tienen una dimensión cualitativa que no se modela estadísticamente sin pérdida: lo que la IA mide es una versión empobrecida de lo que la educación trabaja. **Segundo**, las tecnologías de IA arrastran sesgos que se traducen en daños desiguales para estudiantes minorizados, daños que las narrativas de personalización ocultan. **Tercero**, hacer la educación más *legible por máquinas* (machine readable) tiene costos: simplificación de prácticas, reducción de la profundidad pedagógica, pérdida de espacios de ambigüedad necesaria para el aprendizaje. **Cuarto**, los costos ecológicos y ambientales del entrenamiento y operación de modelos de IA rara vez aparecen en discusiones educativas. El artículo concluye con un llamado a *desacelerar y recalibrar* el discurso, prestando más atención a cuestiones de poder, resistencia y posibilidades de re-imaginar la articulación IA-educación en líneas más equitativas.
+Los titulares prometen que la IA transformará la educación de punta a punta; ¿qué queda de esa promesa cuando se mira de cerca? Selwyn aborda la hipérbole que rodea a la IA en educación y propone un giro: en lugar de discutir lo que la IA puede hacer, examinar sus límites. El artículo identifica cuatro órdenes de límites que el discurso dominante elide. **Primero**, los procesos educativos tienen una dimensión cualitativa que no se modela estadísticamente sin pérdida: lo que la IA mide es una versión empobrecida de lo que la educación trabaja. **Segundo**, las tecnologías de IA arrastran sesgos que se traducen en daños desiguales para estudiantes minorizados —que pertenecen a grupos en minoría o en desventaja dentro del sistema—, daños que las narrativas de personalización ocultan. **Tercero**, hacer la educación más *legible por máquinas* (machine readable) tiene costos: simplificación de prácticas, reducción de la profundidad pedagógica, pérdida de espacios de ambigüedad necesaria para el aprendizaje. **Cuarto**, los costos ecológicos y ambientales del entrenamiento y operación de modelos de IA rara vez aparecen en discusiones educativas. El artículo concluye con un llamado a *desacelerar y recalibrar* el discurso, prestando más atención a cuestiones de poder, resistencia y posibilidades de re-imaginar la articulación IA-educación en líneas más equitativas.
 
 ## Por qué lo compartimos
 

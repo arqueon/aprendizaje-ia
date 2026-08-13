@@ -1,0 +1,63 @@
+{
+  "checkedAt": "2026-08-04T00:59:48.801Z",
+  "prototype": "prototipos/revisor-alineacion-m6/",
+  "scenarios": [
+    {
+      "basePath": "/",
+      "viewport": {
+        "width": 1280,
+        "height": 900
+      },
+      "colorScheme": "light",
+      "consoleErrors": [],
+      "externalRequests": [],
+      "requests": 19,
+      "axe": 0,
+      "overflow": {
+        "scroll": 1280,
+        "client": 1280
+      }
+    },
+    {
+      "basePath": "biblioteca/",
+      "viewport": {
+        "width": 320,
+        "height": 760
+      },
+      "colorScheme": "dark",
+      "consoleErrors": [],
+      "externalRequests": [],
+      "requests": 19,
+      "axe": 0,
+      "overflow": {
+        "scroll": 320,
+        "client": 320
+      }
+    },
+    {
+      "basePath": "sin-js/",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "javaScriptEnabled": false,
+      "fallback": true
+    },
+    {
+      "basePath": "almacenamiento-bloqueado/",
+      "viewport": {
+        "width": 800,
+        "height": 800
+      },
+      "storageDenied": true,
+      "consoleErrors": []
+    }
+  ],
+  "screenshots": [
+    "captura-resultado.png",
+    "captura-escritorio.png",
+    "captura-movil.png"
+  ],
+  "failures": [],
+  "status": "PASS"
+}

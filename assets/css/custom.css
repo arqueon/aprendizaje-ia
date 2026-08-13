@@ -385,7 +385,7 @@ article > figure:first-child > img.single_hero_round {
 
 .prose,
 .max-w-prose {
-  max-width: 76ch !important;
+  max-width: 104ch !important;
 }
 
 .prose :where(a):not(:where([class~="not-prose"] *)) {
@@ -655,6 +655,28 @@ article > figure:first-child > img.single_hero_round {
 
   .prose .udgia-executive-table--portfolio table {
     min-width: 34rem;
+  }
+}
+
+/* Ancho de lectura y menú lateral (confirmado 2026-08-04).
+   Diagnóstico: entre 1024 y 1400 px la columna quedaba estrangulada a ~480 px
+   por el padding de 8 rem por lado más el TOC de 16 rem; y en ventanas anchas
+   el bloque de contenido se quedaba a la izquierda con espacio muerto a la
+   derecha. El contenedor crece con la ventana hasta 120 rem, el padding
+   lateral baja a 2.5 rem, la columna de lectura pasa a 104 ch y el bloque
+   contenido+TOC se centra para que el conjunto llene la ventana. */
+@media (min-width: 1024px) {
+  div.relative.m-auto.max-w-7xl {
+    max-width: min(100%, 120rem);
+    padding-inline: 2.5rem;
+  }
+
+  div.mx-auto.max-w-7xl {
+    max-width: min(100%, 120rem);
+  }
+
+  div.min-w-0.min-h-0.max-w-fit {
+    margin-inline: auto;
   }
 }
 

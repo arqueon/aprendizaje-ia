@@ -74,10 +74,19 @@ const targets = {
     fallbackSignal: '| Criterio |',
   },
 };
+const localTargets = {
+  'udgia-f18-cinco-movimientos': {
+    page: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md',
+    svg: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/cinco-movimientos-ayuda.svg',
+    mobileSvg: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/cinco-movimientos-ayuda-mobile.svg',
+    fallbackSignal: '1. **Propósito claro:**',
+  },
+};
 const failures = [];
 
-if (Object.keys(metadata).length !== Object.keys(targets).length) {
-  failures.push(`el manifiesto no contiene ${Object.keys(targets).length} figuras`);
+const expectedFigureCount = Object.keys(targets).length + Object.keys(localTargets).length;
+if (Object.keys(metadata).length !== expectedFigureCount) {
+  failures.push(`el manifiesto no contiene ${expectedFigureCount} figuras`);
 }
 
 for (const [id, target] of Object.entries(targets)) {
@@ -144,6 +153,62 @@ for (const [id, target] of Object.entries(targets)) {
   }
 }
 
+for (const [id, target] of Object.entries(localTargets)) {
+  const meta = metadata[id];
+  if (!meta) {
+    failures.push(`${id}: falta metadata`);
+    continue;
+  }
+  const page = fs.readFileSync(path.join(root, target.page), 'utf8');
+  const svg = fs.readFileSync(path.join(root, target.svg), 'utf8');
+  const mobileSvg = fs.readFileSync(path.join(root, target.mobileSvg), 'utf8');
+  const digest = crypto.createHash('sha256').update(svg).digest('hex');
+  const mobileDigest = crypto.createHash('sha256').update(mobileSvg).digest('hex');
+
+  if (!page.includes(`udgia-figure id="${id}"`)) failures.push(`${id}: falta shortcode`);
+  if (!page.includes('{{< /udgia-figure >}}') || !page.includes(target.fallbackSignal)) {
+    failures.push(`${id}: falta fallback textual`);
+  }
+  if (digest !== meta.variant_sha256) failures.push(`${id}: checksum de variante`);
+  if (mobileDigest !== meta.mobile_variant_sha256) failures.push(`${id}: checksum de variante móvil`);
+  if (path.basename(target.mobileSvg) !== meta.src_mobile) failures.push(`${id}: ruta de variante móvil`);
+  if (
+    meta.source_version !== 'napkin-generated-output-selection-18'
+    || meta.source_revision !== '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
+    || meta.source_sha256 !== 'dcddac08e6f6b933136580ddb4a26a0473e8255d0f5898fb7589da5102d4a8c2'
+    || meta.description_sha256 !== 'f287592b50c4814ecd5661f4786372c90b350724d06976bdd804f70e228fb714'
+    || meta.license !== 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
+    || !meta.attribution?.includes('Generated Output de Napkin AI')
+    || meta.editorial_scope !== expectedEditorialScope
+    || meta.authorization_scope !== 'local-preparation-only'
+    || meta.institutional_policy_status !== 'not-an-institutional-ruling'
+    || meta.provenance_kind !== 'napkin-generated-output-adapted'
+    || meta.publication_authorized !== false
+    || !meta.notice?.includes('Piloto local')
+  ) {
+    failures.push(`${id}: procedencia o alcance local incompletos`);
+  }
+  for (const [variant, source] of [['escritorio', svg], ['móvil', mobileSvg]]) {
+    for (const [label, pattern] of [
+      ['role', /\brole=["']img["']/],
+      ['title', /<title\b/],
+      ['desc', /<desc\b/],
+      ['aria-labelledby', /\baria-labelledby=/],
+      ['viewBox', /\bviewBox=/],
+      ['procedencia Napkin', /<metadata>[^<]*Generated Output de Napkin AI[^<]*<\/metadata>/],
+    ]) {
+      if (!pattern.test(source)) failures.push(`${id} ${variant}: falta ${label}`);
+    }
+    if (
+      /<script\b|<foreignObject\b|<image\b/i.test(source)
+      || /(?:href|src)=["'](?:https?:)?\/\//i.test(source)
+      || /url\(\s*["']?https?:\/\//i.test(source)
+    ) {
+      failures.push(`${id} ${variant}: recurso o código externo`);
+    }
+  }
+}
+
 for (const id of ['udgia-f07-dialogo', 'udgia-f09-instrumentos', 'udgia-f11-politica-capas', 'udgia-f17-priorizacion']) {
   if (metadata[id].source_sha256 !== metadata[id].variant_sha256) {
     failures.push(`${id}: el SVG de escritorio no coincide literalmente con el canónico`);
@@ -187,4 +252,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`PASS: ${Object.keys(targets).length} figuras × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);
+console.log(`PASS: ${Object.keys(targets).length} figuras publicables y ${Object.keys(localTargets).length} figura local × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);

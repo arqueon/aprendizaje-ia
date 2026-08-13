@@ -73,10 +73,10 @@ cognitivo conserva la persona.
 
 {{< mermaid >}}
 flowchart LR
-    A["**Operativa**<br/>usar · M1"]
-    B["**Crítica**<br/>entender · M1·M2"]
-    C["**Co-creación**<br/>sostener · M3·M4·M6"]
-    T["M5 + evaluación<br/>del proceso<br/>(transversal)"]
+    A["**Operativa**<br/>usar"]
+    B["**Crítica**<br/>entender"]
+    C["**Co-creación**<br/>sostener"]
+    T["Evaluación<br/>del proceso<br/>(transversal)"]
 
     A --> B --> C
     T -.- A & B & C
@@ -88,7 +88,7 @@ flowchart LR
 
 {{< /mermaid >}}
 
-Esta progresión es un **programa de alfabetización en IA** dirigido al profesorado y al estudiantado, dividido en seis módulos (60h): evaluación crítica y discernimiento (M1), conciencia sociotécnica y ética (M2), agencia y co-creación (M3), uso selectivo y derecho a la no-utilización (M4), adaptabilidad disciplinar (M5) y un proyecto integrador de coproducción documentada (M6). Sus contenidos están fundamentados en los principios de las tres literacidades —[operativa](/formacion-docente/alfabetizacion-operativa/), [crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) y [co-creación](/formacion-docente/alfabetizacion-co-creacion/)— y desplazan la evidencia de aprendizaje hacia la [evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) —bitácora de decisiones, portafolio iterativo y auditoría de salidas—, donde se detallan los tres niveles que siguen.
+Esta progresión es un **programa de alfabetización en IA** dirigido al profesorado y al estudiantado, dividido en seis módulos (60h): evaluación crítica y discernimiento, conciencia sociotécnica y ética, agencia y co-creación, uso selectivo y derecho a la no-utilización, adaptabilidad disciplinar y un proyecto integrador de coproducción documentada. Sus contenidos están fundamentados en los principios de las tres literacidades —[operativa](/formacion-docente/alfabetizacion-operativa/), [crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) y [co-creación](/formacion-docente/alfabetizacion-co-creacion/)— y desplazan la evidencia de aprendizaje hacia la [evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) —bitácora de decisiones, portafolio iterativo y auditoría de salidas—, donde se detallan los tres niveles que siguen.
 
 ## Tres niveles de progresión
 

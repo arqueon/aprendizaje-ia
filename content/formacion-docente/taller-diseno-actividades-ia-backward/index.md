@@ -45,14 +45,18 @@ Cada participante sale con una lista de tres a cinco aprendizajes esperados de s
 
 ### Secuencia
 
+La tabla siguiente es el guion de la sesión: la primera columna marca el reloj y la segunda dice qué pasa en cada bloque. Los bloques alternan trabajo individual, lectura comentada y contraste en parejas —nunca más de 30 minutos seguidos en la misma modalidad.
+
 | Tiempo | Actividad |
 |---|---|
 | 0:00–0:15 | Presentación del taller y del marco. |
-| 0:15–0:30 | Ejercicio de detonación: cada participante escribe en tarjeta qué quiere que sus estudiantes sepan, hagan o sean al final del semestre. |
+| 0:15–0:30 | Ejercicio de detonación —escritura rápida en tarjetas para hacer brotar ideas antes de discutirlas—: cada participante escribe qué quiere que sus estudiantes sepan, hagan o sean al final del semestre. |
 | 0:30–0:45 | Lectura comentada de un fragmento sobre verbos observables y taxonomía de Bloom. |
 | 0:45–1:30 | Trabajo individual: reformular las tarjetas iniciales como aprendizajes esperados con verbos observables y nivel de Bloom. Mínimo tres, máximo cinco. |
 | 1:30–1:50 | Trabajo en parejas: revisión cruzada con dos preguntas — "¿este verbo se puede observar?" y "¿este nivel de Bloom es el adecuado para tu asignatura?". |
 | 1:50–2:00 | Cierre y tarea para la sesión 2. |
+
+La pieza clave es el bloque de 0:45 a 1:30: ahí cada participante reformula sus propias tarjetas; el resto del guion existe para preparar y revisar ese trabajo.
 
 ### Materiales mínimos
 
@@ -72,14 +76,18 @@ Cada participante define las evidencias que permitirán saber si los aprendizaje
 
 ### Secuencia
 
+La tabla siguiente es el guion de la sesión: la primera columna marca el reloj y la segunda dice qué pasa en cada bloque.
+
 | Tiempo | Actividad |
 |---|---|
 | 0:00–0:15 | Recapitulación. Recordatorio: la IA no entra todavía. |
 | 0:15–0:45 | Trabajo individual: para cada aprendizaje esperado, definir 1-2 evidencias que lo demuestren. La pregunta operativa: "¿qué tendría que hacer un estudiante para que yo sepa que lo logró?" |
-| 0:45–1:15 | Lectura comentada sobre evaluación auténtica y los cuatro principios para rediseñar evaluación con IA: contexto local, proceso documentado, defensa oral, juicio en zona gris (ver [post sobre IA generativa y evaluación auténtica](/blog/ia-generativa-evaluacion-autentica/)). |
+| 0:45–1:15 | Lectura comentada sobre evaluación auténtica y los cuatro principios para rediseñar evaluación con IA: contexto local, proceso documentado, defensa oral y juicio en zona gris —sostener el criterio propio cuando una salida de IA ni es claramente correcta ni claramente incorrecta— (ver [post sobre IA generativa y evaluación auténtica](/blog/ia-generativa-evaluacion-autentica/)). |
 | 1:15–1:45 | Trabajo individual: revisar cada evidencia con la pregunta — "¿esta evidencia se sostiene cuando el estudiante puede usar IA?". Las evidencias que no se sostienen se marcan para rediseño. |
 | 1:45–1:55 | Trabajo en parejas: contraste de criterios. |
 | 1:55–2:00 | Cierre y tarea. |
+
+La pieza clave es el bloque de 1:15 a 1:45, donde cada evidencia se somete a la pregunta «¿se sostiene cuando el estudiante puede usar IA?»; el resto del guion existe para preparar y contrastar ese trabajo.
 
 ### Materiales mínimos
 
@@ -99,6 +107,8 @@ Cada participante diseña al menos una actividad concreta de su asignatura que p
 
 ### Secuencia
 
+La tabla siguiente es el guion de la sesión: la primera columna marca el reloj y la segunda dice qué pasa en cada bloque.
+
 | Tiempo | Actividad |
 |---|---|
 | 0:00–0:15 | Recapitulación: ahora sí, la IA. |
@@ -106,6 +116,8 @@ Cada participante diseña al menos una actividad concreta de su asignatura que p
 | 0:35–1:30 | Trabajo individual: diseñar una actividad completa que produce la evidencia y articula la IA. Plantilla con cinco campos: aprendizaje esperado, evidencia, descripción de la actividad, rol específico de la IA, política de uso (permitida/restringida/prohibida). |
 | 1:30–1:55 | Trabajo en grupos de tres: cada uno presenta su actividad. Los otros dos comentan con dos preguntas — "¿la IA aquí amplifica el aprendizaje o lo sustituye?" y "¿la rúbrica evalúa proceso o solo producto?". |
 | 1:55–2:00 | Cierre del taller. Compromiso de cada participante: implementar la actividad en el siguiente semestre y compartir la experiencia. |
+
+La pieza clave es el bloque de 0:35 a 1:30: ahí cada participante diseña su actividad completa; el resto del guion existe para prepararla y someterla a revisión.
 
 ### Materiales mínimos
 
@@ -124,6 +136,8 @@ Sirve para autoevaluación al cierre de la sesión 3 y para retroalimentación e
 | **Evaluación de proceso** | Solo se evalúa el producto final. | El proceso se evalúa pero con peso menor. | El proceso (decisiones, prompts, descartes) tiene peso evaluativo explícito. |
 | **Política de uso explícita** | No hay declaración. | Declaración general sin ejemplos. | Política específica con ejemplos de uso aceptable y no aceptable. |
 | **Defensa o iteración** | El estudiante entrega y se acaba. | Hay una entrega intermedia. | Hay defensa oral o varias iteraciones documentadas. |
+
+Cómo leerla: no suma puntos ni produce un promedio. Un criterio en «Bajo» marca exactamente qué reforzar en la siguiente iteración de la actividad; una fila en «Alto» señala qué puede mostrarse como referente a otros docentes.
 
 ## Cómo replicar el taller en distintos contextos
 

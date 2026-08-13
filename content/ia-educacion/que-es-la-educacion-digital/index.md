@@ -9,9 +9,9 @@ weight: 10
 draft: false
 ---
 
-La **educación digital** se define como un *ecosistema pedagógico sistemático* que integra estratégicamente tecnologías computacionales y redes de información para mediar, enriquecer o transformar los procesos de enseñanza y aprendizaje, independientemente de la co-ubicación geográfica de los actores educativos. 
+Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin pisar el campus. Ambos participan en **educación digital**: no porque haya pantallas de por medio, sino porque la tecnología media de forma deliberada la enseñanza y el aprendizaje.
 
-A diferencia de la simple transmisión unidireccional de información, exige **diseños instruccionales deliberados** que configuran entornos sociotécnicos orientados a la construcción de conocimiento de orden superior. Hacia 2026, este ecosistema evoluciona para incorporar modelos de aprendizaje adaptativo, donde la inteligencia artificial personaliza masivamente las trayectorias cognitivas. En la educación superior, la tecnología opera simultáneamente como canal de distribución, andamiaje intelectual, tutor analítico y espacio relacional colaborativo.
+Dicho de manera formal, la educación digital es un *ecosistema pedagógico sistemático*: integra tecnologías computacionales y redes de información para mediar, enriquecer o transformar los procesos de enseñanza y aprendizaje, con independencia de que docentes y estudiantes coincidan en el mismo lugar. No basta con transmitir información en un solo sentido: hacen falta **diseños instruccionales deliberados** —decisiones explícitas sobre qué se hace en cada espacio y con qué herramienta— orientados a construir conocimiento. Hacia 2026, el ecosistema incorpora además aprendizaje adaptativo: sistemas de inteligencia artificial que ajustan las trayectorias de aprendizaje a cada persona. En la universidad, la tecnología puede operar a la vez como canal de distribución, apoyo intelectual, tutor analítico y espacio de colaboración.
 
 Para que esta aproximación sea efectiva —desde entornos presenciales hasta clases 100% virtuales— todo se reduce a una alineación estricta entre tres piezas, donde la tecnología tiene un rol activo:
 
@@ -36,6 +36,8 @@ flowchart LR
     class E negative;
     class F,G positive;
 {{< /mermaid >}}
+
+**Recorrido en texto:** la educación digital nace de alinear tres piezas —objetivos de aprendizaje, metodologías de enseñanza y herramientas digitales—. Alineadas, no forman un canal pasivo de información: forman un entorno de aprendizaje activo y un espacio de colaboración.
 
 <div class="my-6 p-4 bg-blue-50/50 dark:bg-blue-900/20 border-l-4 border-blue-500 rounded-r-lg shadow-sm">
   <h4 class="text-blue-700 dark:text-blue-300 m-0 text-lg flex items-center">
@@ -65,7 +67,7 @@ El discurso pedagógico contemporáneo ha transitado desde un enfoque centrado e
 
 </div>
 
-La disonancia semántica en la práctica académica suele derivar del uso de "e-learning" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corporativos, la educación digital exige reflexión compartida que desborda el empaquetamiento. Finalmente, el concepto asume que la interfaz *altera la ontología del mensaje*; teclear en un foro exige un procesamiento metacognitivo distinto al de levantar la mano en clase.
+La disonancia semántica en la práctica académica suele derivar del uso de "e-learning" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corporativos, la educación digital exige reflexión compartida que desborda el empaquetamiento. Finalmente, el concepto asume que el canal transforma lo que se dice: levantar la mano en clase produce una intervención breve y efímera, mientras que escribir en un foro exige pensar, ordenar y revisar el argumento antes de publicarlo —y deja un rastro permanente que los demás pueden citar. En la literatura especializada esta idea aparece como que la interfaz *altera la ontología del mensaje*; en ambos casos la observación práctica es la misma: al elegir un medio digital se elige también una forma de pensar y de participar.
 
 ---
 
@@ -110,6 +112,10 @@ Se caracteriza por una desvinculación total del campus físico. El 100% de la c
 
 ### Cuadro comparativo de modalidades
 
+La tabla siguiente responde una sola pregunta: **¿qué modalidad le conviene a mi asignatura?** Cada fila es una modalidad y las columnas se leen en dos pisos: la primera y la última dicen qué es y cuándo elegirla; las del centro detallan sus condiciones de diseño (presencialidad, sincronía, papel de la tecnología, ejemplo y tecnologías). Si solo está eligiendo, lea la primera, la segunda y la última columna; vuelva al detalle cuando tenga una candidata.
+
+Así se lee, por ejemplo, la fila del aula invertida: la instrucción directa se traslada a videos o lecturas previas a la clase y el tiempo presencial se reserva para aplicar; conviene cuando se quiere elevar la complejidad cognitiva del encuentro sin renunciar a él.
+
 *<small>Nota: Si nos visitas desde móvil o no se ve completa la tabla, deslízala  horizontalmente para ver todas las columnas.</small>*
 
 <div class="overflow-x-auto w-full pb-4">
@@ -148,6 +154,7 @@ mindmap
       Metaversos / RA y RV
 {{< /mermaid >}}
 
+**Recorrido en texto:** la educación digital se despliega en cuatro familias. Las que no dependen del campus: modalidades cien por ciento en línea, síncronas o asíncronas. Las que combinan medios: aula invertida y aprendizaje híbrido. La que conserva el aula como centro: la presencialidad enriquecida. Y los formatos emergentes: cursos cortos y microcredenciales, metaversos y realidades aumentada o virtual.
 
 **Reflexión final:** Elegir en nuestro diseño instruccional una modalidad sobre otra no es una cuestión presupuestal o de logística tecnológica. Responde a decisiones sobre qué competencias formativas y qué tipo de interactividad propiciamos para preparar a los estudiantes para un mundo interconectado y potenciado por la inteligencia artificial.
 

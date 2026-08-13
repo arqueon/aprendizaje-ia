@@ -37,7 +37,7 @@ El marco UNESCO 2024 organiza las competencias de IA para estudiantes en cuatro 
 
 ### 1. Mentalidad humanista (*human-centred mindset*)
 
-Capacidad para mantener la agencia humana, la responsabilidad social y la rendición de cuentas en interacciones con sistemas de IA. Es la dimensión menos técnica y la más decisiva: sin ella, las otras tres se convierten en habilidades operativas sin criterio de uso.
+Capacidad para mantener la agencia humana —la capacidad de decidir y actuar por cuenta propia frente al sistema—, la responsabilidad social y la rendición de cuentas en interacciones con sistemas de IA. Es la dimensión menos técnica y la más decisiva: sin ella, las otras tres se convierten en habilidades operativas sin criterio de uso.
 
 ### 2. Ética de la IA
 
@@ -49,7 +49,7 @@ Conocimiento de cómo funcionan los modelos a nivel conceptual y habilidad para 
 
 ### 4. Diseño de sistemas de IA
 
-Para estudiantes con perfil técnico, la capacidad de cuestionar la explicabilidad de los sistemas y participar en su diseño, prueba y optimización. Para estudiantes con perfil no técnico, la capacidad de leer críticamente cómo se construyen estos sistemas, sin convertirse en programador.
+Para estudiantes con perfil técnico, la capacidad de cuestionar la explicabilidad de los sistemas —que puedan dar cuenta de por qué producen sus salidas— y participar en su diseño, prueba y optimización. Para estudiantes con perfil no técnico, la capacidad de leer críticamente cómo se construyen estos sistemas, sin convertirse en programador.
 
 ## Tres niveles de progresión
 

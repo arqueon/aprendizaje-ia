@@ -20,12 +20,12 @@ weight: 1
 ---
 
 {{< lead >}}
-La Universidad de Guadalajara impulsa un modelo de aprendizaje híbrido y activo centrado en el estudiante. Este documento presenta el marco general de esa estrategia: las lecciones de la pandemia, la justificación del cambio y los elementos comunes que guían la transformación en toda la Red Universitaria.
+Un estudiante de la UdeG asiste dos días al aula y el resto de la semana trabaja desde donde esté: revisa materiales en línea, discute en foros y entrega evidencias sin pisar el campus. Esa combinación no es improvisada ni un arreglo particular de su profesor: es el modelo de aprendizaje híbrido y activo centrado en el estudiante que impulsa la Universidad de Guadalajara. Este documento presenta el marco general de esa estrategia: las lecciones de la pandemia, la justificación del cambio y los elementos comunes que guían la transformación en toda la Red Universitaria.
 {{< /lead >}}
 
 ## Lecciones de la pandemia
 
-La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en línea. Ese proceso reveló que las disrupciones pedagógicas —no las tecnológicas— son las que determinan el éxito educativo (Universidad de Guadalajara, 2022). Tres lecciones aprendidas permanecen:
+La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en línea. Ese proceso reveló que lo que determina el éxito educativo son las disrupciones pedagógicas —los cambios de método: cómo se enseña y cómo se aprende— y no las meramente tecnológicas —los cambios de aparato o plataforma— (Universidad de Guadalajara, 2022). Tres lecciones aprendidas permanecen:
 
 1. **Re-humanizar la educación.** La educación debe promover el crecimiento personal de los estudiantes, no solo el intelectual. La empatía y el reconocimiento integral del estudiante son condiciones previas al aprendizaje.
 
@@ -33,13 +33,15 @@ La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en
 
 3. **Aulas globales.** Internet entrelaza lo global y lo local; el aula se convierte en un espacio genuinamente global donde convergen perspectivas, recursos y colaboraciones internacionales.
 
-La pandemia no fue una "revolución tecnológica" pero si hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch* (Universidad de Guadalajara, 2022).
+La pandemia no fue una "revolución tecnológica" pero sí hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch*: tanta tecnología como sea útil, pero sin perder el contacto humano (Universidad de Guadalajara, 2022).
 
 ### Opiniones en la red universitaria
 
 Una encuesta realizada en los centros universitarios y el Sistema de Educación Media Superior muestra que la mayoría de los docentes considera que sus programas educativos podrían cursarse combinando las ventajas de la modalidad presencial y en línea mediante el aprendizaje híbrido.
 
 ![Opiniones sobre las modalidades presencial, en línea y el aprendizaje híbrido en la Red Universitaria](img/encuesta-red-universitaria.svg "Encuesta sobre modalidades en la Red Universitaria — Universidad de Guadalajara, 2022")
+
+**Recorrido en texto:** ante la pregunta de si los programas podrían cursarse combinando lo presencial y lo en línea, la respuesta es un consenso amplio (~85 %); la opción cien por ciento en línea divide (~40 %, y varía según la disciplina); y solo una minoría (~15 %) considera obligatoria la presencialidad estricta. La lectura: la comunidad docente ve el híbrido como el camino viable, no el en línea total.
 
 ## ¿Por qué una transformación pedagógica y digital?
 
@@ -134,4 +136,4 @@ El éxito de esta transformación depende de toda la comunidad universitaria y, 
 - Kaplan-Rakowski, R., Grotewold, K., Hartwick, P., & Papin, K. (2023). Generative AI and Teachers' Perspectives on Its Implementation in Education. *Journal of Interactive Learning Research*, *34*(2), 313–338.
 - Miyagawa, S., & Perdue, C. (2021). What Will Remain? *Inside Higher Ed*.
 - Teich, A.G. (2022). A New Lens: Viewing Institutional Success as Student Success. *Fierce Education*.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. (Documento interno).
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.

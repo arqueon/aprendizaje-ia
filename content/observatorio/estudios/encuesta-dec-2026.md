@@ -6,7 +6,7 @@ description: Informe sobre la adopción de IA en universidades de Latinoamérica
 
 ## Resultados Destacados
 
-Este estudio cuenta con la participación de la **Universidad de Guadalajara**. Se realiza a partir de una muestra de 22,941 de estudiantes y 7,319 profesores, en 29 instituciones de educación superior en Latinoamérica. La UdeG representa el 24.5% de la muestra total con **6,578 universitarios**.
+Este estudio cuenta con la participación de la **Universidad de Guadalajara**. Se realiza a partir de una muestra de 22,941 estudiantes y 7,319 profesores, en 29 instituciones de educación superior en Latinoamérica. La UdeG aporta **6,578 universitarios** a esa muestra.
 
 ### Distribución de participantes (UdeG)
 
@@ -71,13 +71,22 @@ options: {
 }
 {{< /chart >}}
 
+**El gráfico en texto:** la UdeG aporta 5,617 de los 22,941 estudiantes (24.5 %) y 961 de los 7,319 profesores (13.1 %) de la muestra. En conjunto, uno de cada cinco participantes del estudio es universitario de la UdeG: los resultados permiten lecturas con peso propio, aunque conviene recordar que la muestra latinoamericana completa se inclina hacia lo que ocurre en esta institución.
+
 ---
 
 ## Visualización del informe
 
 A continuación puedes consultar el documento completo directamente en el navegador.
 
-<div style="position: relative; width: 180%; height: 0; padding-bottom: 125%; margin-top: 2rem; margin-bottom: 2rem;">
+**El informe en breve.** La encuesta del Digital Education Council —en colaboración con el Tecnológico de Monterrey y el Institute for the Future of Education— reunió 22,941 respuestas de estudiantes y 7,319 de profesorado en 29 instituciones de educación superior de América Latina; es la mayor encuesta regional de su tipo. Cuatro hallazgos orientan su lectura:
+
+- La adopción ya es mayoritaria: 92 % del estudiantado y 79 % del profesorado usan IA activamente, niveles que superan las tendencias globales de los estudios previos del DEC.
+- La preocupación acompaña al uso: 65 % del estudiantado teme que la IA conduzca a un aprendizaje superficial; 56 % se inquieta por la equidad en la evaluación y otro 56 % por la privacidad de sus datos.
+- Persisten brechas de alfabetización en IA, junto con vacíos de gobernanza y de comunicación institucional.
+- El llamado del informe: gobernanza transparente, formación práctica en alfabetización para profesorado y estudiantado, y rediseño de la evaluación que proteja la integridad académica y el pensamiento crítico.
+
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 125%; margin-top: 2rem; margin-bottom: 2rem;">
     <iframe src="../../../files/encuesta_ia_latam_2026.pdf" 
             style="position: absolute; width: 100%; height: 100%; border: none;" 
             allowfullscreen>
