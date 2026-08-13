@@ -2,7 +2,9 @@ import { chromium } from "playwright-core";
 
 const browser = await chromium.launch({ executablePath: "/usr/bin/chromium", headless: true });
 const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
-await page.goto("http://127.0.0.1:4173/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/#plantilla-titulo", { waitUntil: "networkidle" });
+const siteRoot = process.env.GUIDE_BASE_URL ?? "http://127.0.0.1:4173/";
+const guideURL = new URL("ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/#plantilla-titulo", siteRoot);
+await page.goto(guideURL.href, { waitUntil: "networkidle" });
 const name = page.locator('input[name="actividad_nombre"]');
 const objective = page.locator('textarea[name="objetivo"]');
 await name.fill("Actividad de prueba");
