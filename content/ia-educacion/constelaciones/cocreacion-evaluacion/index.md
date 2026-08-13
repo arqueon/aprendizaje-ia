@@ -198,6 +198,11 @@ construir una explicación que no habría aparecido de la misma manera. Podemos 
 **co-creación persona–IA** cuando ese aporte entra en un ciclo de trabajo intelectual y la persona
 conserva propósito, comprobación y decisión.
 
+Si quieres convertir esta relación en una actividad completa, la guía
+[Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso](/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/)
+muestra cómo definir el desempeño, preparar un primer intento, introducir contraste humano o
+asistido por IA, proteger la reconstrucción y cerrar con evidencia individual.
+
 El nombre importa menos que la relación que permite ver: la herramienta puede influir, pero no
 comprende ni responde por el trabajo como una persona. Quien entrega conserva la responsabilidad
 por lo que afirma; quien diseña la actividad conserva la responsabilidad por las condiciones y

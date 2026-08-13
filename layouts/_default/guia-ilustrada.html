@@ -1,0 +1,23 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "single" }}
+  {{ $pageCSS := .Resources.GetMatch "guide.css" }}
+  {{ with $pageCSS }}
+    {{ $style := . | minify | fingerprint (site.Params.fingerprintAlgorithm | default "sha512") }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+  {{ end }}
+
+  <article class="guide-article">
+    {{ if .Params.showBreadcrumbs | default (site.Params.article.showBreadcrumbs | default false) }}
+      <div class="guide-site-breadcrumbs print:hidden">{{ partial "breadcrumbs.html" . }}</div>
+    {{ end }}
+
+    {{ with .Resources.GetMatch "featured.*" }}
+      <figure class="guide-featured">
+        <img src="{{ .RelPermalink }}" width="1200" height="630"
+          alt="Un recorrido de diseño conecta propósito, trabajo entre pares, reconstrucción, evidencia y reflexión; una mano conserva la decisión mientras una señal abstracta de IA ofrece opciones.">
+      </figure>
+    {{ end }}
+
+    {{ .Content }}
+  </article>
+{{ end }}
