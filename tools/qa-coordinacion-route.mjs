@@ -116,14 +116,31 @@ async function axeViolations(page, label) {
   return violations;
 }
 
-async function inspectEditorialHero(page, pagePath, baseURL, label) {
+async function inspectEditorialHero(
+  page,
+  pagePath,
+  baseURL,
+  label,
+  selector = "main article > figure:first-child > img",
+  minimumWidth = 320
+) {
   const response = await page.goto(new URL(pagePath, baseURL).href, {
     waitUntil: "networkidle"
   });
   assert(response?.status() === 200, `${label}: la página no respondió HTTP 200`);
 
-  const hero = page.locator("main article > figure:first-child > img");
+  const hero = page.locator(selector);
+  await hero.waitFor({ state: "attached", timeout: 15000 });
+  await hero.scrollIntoViewIfNeeded();
   await hero.waitFor({ state: "visible", timeout: 15000 });
+  await page.waitForFunction(
+    (imageSelector) => {
+      const image = document.querySelector(imageSelector);
+      return image?.complete && image.naturalWidth > 0;
+    },
+    selector,
+    { timeout: 15000 }
+  );
   const geometry = await hero.evaluate((image) => {
     const box = image.getBoundingClientRect();
     return {
@@ -138,7 +155,7 @@ async function inspectEditorialHero(page, pagePath, baseURL, label) {
   const naturalRatio = geometry.naturalWidth / geometry.naturalHeight;
 
   assert(geometry.naturalWidth > 0, `${label}: el featured no cargó`);
-  assert(geometry.width >= 320, `${label}: el featured quedó demasiado pequeño`);
+  assert(geometry.width >= minimumWidth, `${label}: el featured quedó demasiado pequeño`);
   assert(
     Math.abs(renderedRatio - naturalRatio) <= 0.02,
     `${label}: el featured perdió su proporción natural ${JSON.stringify(geometry)}`
@@ -257,7 +274,9 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     page,
     introductoryRoutePath,
     baseURL,
-    `${name}: introducción`
+    `${name}: introducción`,
+    "#udgia-f18-cinco-movimientos img",
+    260
   );
 
   assert(externalRequests.length === 0, `${name}: tráfico externo ${externalRequests}`);
