@@ -10,7 +10,7 @@
 
 
   <div class="acciones-guia" aria-label="Descargas y continuación">
-    <a class="accion-guia accion-guia--principal" href="../../../descargas/aprendizaje-hibrido-y-activo-disenar-una-actividad-paso-a-paso.pdf" download>Descargar la guía en PDF</a>
+    <a class="accion-guia accion-guia--principal" href="../../../descargas/aprendizaje-hibrido-y-activo-disenar-una-actividad-paso-a-paso.pdf" download>Descargar PDF rellenable</a>
     <a class="accion-guia accion-guia--secundaria" href="../../constelaciones/empezar-con-ia/#cuando-aparece-la-co-creacion">Continuar con co-creación con IA</a>
   </div>
 
@@ -1223,47 +1223,116 @@
     <li>La actividad alimenta un hito de la ruta del curso (portafolio, proyecto, examen integrador): nada se tira.</li>
   </ul>
 
-  <h3>Plantilla en blanco (copiar y llenar)</h3>
+  <h3 id="plantilla-titulo">Plantilla en blanco para completar</h3>
 
-<pre class="plantilla" tabindex="0" aria-label="Plantilla desplazable">ACTIVIDAD · [nombre breve y memorable] — [tramo o sesión del curso]
+  <form class="plantilla-form" aria-labelledby="plantilla-titulo" autocomplete="off">
+    <p class="form-aviso"><strong>Formulario de trabajo.</strong> Completa los campos directamente en esta página. La información permanece en tu navegador: este formulario no la envía ni la guarda en un servidor.</p>
 
-OBJETIVO DE APRENDIZAJE
-Al finalizar, el estudiante [verbo observable] [contenido],
-[condición: con qué apoyos o límites], [criterio: con qué calidad mínima].
+    <fieldset>
+      <legend>1 · Identificación y objetivo</legend>
+      <div class="form-grid form-grid--2">
+        <label>Nombre breve y memorable
+          <input type="text" name="actividad_nombre" autocomplete="off">
+        </label>
+        <label>Tramo o sesión del curso
+          <input type="text" name="actividad_tramo" autocomplete="off">
+        </label>
+      </div>
+      <label>Objetivo de aprendizaje
+        <span class="form-ayuda">Al finalizar, el estudiante [verbo observable] [contenido], [condición], [criterio].</span>
+        <textarea name="objetivo" rows="4"></textarea>
+      </label>
+      <div class="form-grid form-grid--3">
+        <label>Verbo principal<input type="text" name="verbo_principal" autocomplete="off"></label>
+        <label>Nivel Bloom
+          <select name="nivel_bloom"><option value="">Seleccionar…</option><option>Recordar</option><option>Comprender</option><option>Aplicar</option><option>Analizar</option><option>Evaluar</option><option>Crear</option></select>
+        </label>
+        <label>Nivel ICAP meta
+          <select name="nivel_icap"><option value="">Seleccionar…</option><option>Pasivo</option><option>Activo</option><option>Constructivo</option><option>Interactivo</option></select>
+        </label>
+      </div>
+    </fieldset>
 
-Verbo principal:            Nivel Bloom:        Nivel ICAP meta (durante):
+    <fieldset>
+      <legend>2 · Para qué en la ruta</legend>
+      <label>¿Qué hito del curso alimenta y qué habilidad previa requiere?<textarea name="ruta_proposito" rows="4"></textarea></label>
+    </fieldset>
 
-PARA QUÉ EN LA RUTA
-[qué hito del curso alimenta · qué habilidad previa requiere]
+    <fieldset>
+      <legend>3 · Antes · activación</legend>
+      <div class="form-grid form-grid--2">
+        <label>Tiempo estimado<input type="text" name="antes_tiempo" placeholder="Ejemplo: 20 minutos"></label>
+        <label>Nivel ICAP
+          <select name="antes_icap"><option value="">Seleccionar…</option><option>Pasivo</option><option>Activo</option><option>Constructivo</option><option>Interactivo</option></select>
+        </label>
+      </div>
+      <label>Indicaciones de la actividad<textarea name="antes_indicaciones" rows="4"></textarea></label>
+      <label>Huella que debe traer el estudiante<textarea name="antes_huella" rows="2"></textarea></label>
+      <label>Uso exacto de esa huella durante la sesión<textarea name="antes_uso" rows="2"></textarea></label>
+      <label>Plan B para quien no la trajo<textarea name="antes_plan_b" rows="2"></textarea></label>
+    </fieldset>
 
-ANTES · ACTIVACIÓN (tiempo estimado, asincrónico, ICAP: ___)
-Indicaciones de la actividad:
-Huella traíble:
-Uso exacto en el durante:
-Plan B para quien no la trajo:
+    <fieldset>
+      <legend>4 · Durante · hacer</legend>
+      <div class="form-grid form-grid--2">
+        <label>Tiempo total<input type="text" name="durante_tiempo"></label>
+        <label>Modalidad<input type="text" name="durante_modalidad" placeholder="Presencial, en línea o híbrida"></label>
+      </div>
+      <div class="bloques-durante">
+        <div class="bloque-durante"><label>Tiempo de apertura<input type="text" name="apertura_tiempo" placeholder="min"></label><label>¿Qué ocurre en la apertura?<textarea name="apertura_accion" rows="2"></textarea></label></div>
+        <div class="bloque-durante"><label>Tiempo del primer intento<input type="text" name="intento_tiempo" placeholder="min"></label><label>Producto concreto del primer intento<textarea name="intento_producto" rows="2"></textarea></label></div>
+        <div class="bloque-durante"><label>Tiempo de contraste<input type="text" name="contraste_tiempo" placeholder="min"></label><label>Protocolo y emparejamientos<textarea name="contraste_protocolo" rows="2"></textarea></label></div>
+        <div class="bloque-durante"><label>Tiempo de reconstrucción<input type="text" name="reconstruccion_tiempo" placeholder="min"></label><label>¿Cómo se modifica el producto?<textarea name="reconstruccion_accion" rows="2"></textarea></label></div>
+        <div class="bloque-durante"><label>Tiempo de cierre<input type="text" name="cierre_tiempo" placeholder="min"></label><label>¿Qué deja preparado el cierre?<textarea name="cierre_accion" rows="2"></textarea></label></div>
+      </div>
+    </fieldset>
 
-DURANTE (tiempo total, modalidad)
-Apertura        [__ min]:
-Primer intento  [__ min]: producto concreto:
-Contraste       [__ min]: protocolo y emparejamientos:
-Reconstrucción  [__ min]:
-Cierre          [__ min]:
+    <fieldset>
+      <legend>5 · Después · integración</legend>
+      <div class="form-grid form-grid--2">
+        <label>Tiempo estimado<input type="text" name="despues_tiempo"></label>
+        <label>Nivel ICAP
+          <select name="despues_icap"><option value="">Seleccionar…</option><option>Pasivo</option><option>Activo</option><option>Constructivo</option><option>Interactivo</option></select>
+        </label>
+      </div>
+      <label>Indicaciones para la transferencia, revisión documentada o reflexión estructurada<textarea name="despues_indicaciones" rows="5"></textarea></label>
+    </fieldset>
 
-DESPUÉS · INTEGRACIÓN (tiempo estimado, individual, ICAP: ___)
-Indicaciones (transferencia / revisión documentada / reflexión estructurada):
+    <fieldset>
+      <legend>6 · Evidencia y criterios</legend>
+      <label>Producto, formato y extensión<textarea name="evidencia_producto" rows="3"></textarea></label>
+      <div class="form-grid form-grid--2">
+        <label>Criterio observable 1<input type="text" name="criterio_1"></label>
+        <label>Criterio observable 2<input type="text" name="criterio_2"></label>
+        <label>Criterio observable 3<input type="text" name="criterio_3"></label>
+        <label>Criterio observable 4<input type="text" name="criterio_4"></label>
+      </div>
+    </fieldset>
 
-EVIDENCIA
-Producto, formato y extensión:
-Criterios de calidad (2-4, observables):
-1.  2.  3.  4.
+    <fieldset>
+      <legend>7 · Equidad y contingencia</legend>
+      <div class="form-grid form-grid--2">
+        <label>Ruta de baja conectividad<textarea name="equidad_conectividad" rows="3"></textarea></label>
+        <label>Alternativa sin IA<textarea name="equidad_sin_ia" rows="3"></textarea></label>
+        <label>Accesibilidad<textarea name="equidad_accesibilidad" rows="3"></textarea></label>
+        <label>Consentimientos y circulación<textarea name="equidad_consentimientos" rows="3"></textarea></label>
+      </div>
+    </fieldset>
 
-EQUIDAD Y CONTINGENCIA
-Baja conectividad:        Sin IA:        Accesibilidad:        Consentimientos:
+    <fieldset>
+      <legend>8 · Después de implementar</legend>
+      <label>¿Qué tomó más tiempo del previsto?<textarea name="revision_tiempo" rows="3"></textarea></label>
+      <label>¿Qué confundió al grupo?<textarea name="revision_confusion" rows="3"></textarea></label>
+      <label>¿Qué cambiaré la próxima vez?<textarea name="revision_cambio" rows="3"></textarea></label>
+    </fieldset>
 
-DESPUÉS DE IMPLEMENTAR (llenar para el rediseño)
-¿Qué tomó más tiempo del previsto?
-¿Qué confundió al grupo?
-¿Qué cambiaré la próxima vez?</pre>
+    <div class="form-acciones">
+      <a class="form-boton form-boton--principal" href="../../../descargas/aprendizaje-hibrido-y-activo-disenar-una-actividad-paso-a-paso.pdf" download>Descargar PDF rellenable</a>
+      <button type="reset" class="form-boton">Limpiar formulario</button>
+    </div>
+  </form>
+
+  <p class="plantilla-print-note"><strong>Plantilla rellenable:</strong> las páginas finales de este PDF contienen la ficha completa con campos editables.</p>
 
   <hr class="sep">
 

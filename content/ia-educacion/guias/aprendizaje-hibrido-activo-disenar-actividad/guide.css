@@ -94,7 +94,32 @@
 .guia-ilustrada .cotejo li{position:relative;padding-left:36px;margin:11px 0}
 .guia-ilustrada .cotejo li::before{content:"";position:absolute;left:0;top:5px;width:16px;height:16px;border:2.5px solid var(--carmin);border-radius:4px;background:var(--blanco)}
 
-.guia-ilustrada pre.plantilla{background:var(--panel);border:1px solid var(--arena);border-radius:14px;padding:24px 26px;font:13px/1.65 ui-monospace,'Cascadia Mono',Consolas,monospace;color:#27324a;overflow-x:auto;white-space:pre;margin:22px 0}
+/* formulario de diseño */
+.guia-ilustrada .plantilla-form{background:var(--panel);border:1px solid var(--arena);border-radius:16px;padding:22px;margin:22px 0}
+.guia-ilustrada .plantilla-form fieldset{border:1px solid var(--arena);border-radius:12px;background:var(--blanco);padding:18px 20px 20px;margin:0 0 18px;min-width:0}
+.guia-ilustrada .plantilla-form legend{font-family:var(--sans);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--carmin);font-weight:800;padding:0 8px}
+.guia-ilustrada .plantilla-form label{display:block;font-family:var(--sans);font-size:13px;line-height:1.45;color:var(--titulo);font-weight:700;margin:0 0 14px}
+.guia-ilustrada .plantilla-form input,.guia-ilustrada .plantilla-form textarea,.guia-ilustrada .plantilla-form select{display:block;width:100%;margin-top:7px;border:1.5px solid #9a8e76;border-radius:8px;background:#fff;color:var(--tinta);font:15px/1.45 var(--sans);padding:10px 12px}
+.guia-ilustrada .plantilla-form textarea{resize:vertical;min-height:58px}
+.guia-ilustrada .plantilla-form input:focus,.guia-ilustrada .plantilla-form textarea:focus,.guia-ilustrada .plantilla-form select:focus{outline:3px solid rgba(168,32,42,.28);border-color:var(--carmin)}
+.guia-ilustrada .form-aviso{border-left:4px solid var(--oliva);background:#f4f2e3;padding:12px 15px;margin:0 0 20px!important;font-family:var(--sans);font-size:13px;line-height:1.55}
+.guia-ilustrada .form-ayuda{display:block;color:var(--gris);font-size:12px;font-weight:400;margin-top:3px}
+.guia-ilustrada .form-grid{display:grid;gap:14px 18px}
+.guia-ilustrada .form-grid--2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.guia-ilustrada .form-grid--3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.guia-ilustrada .bloque-durante{display:grid;grid-template-columns:180px minmax(0,1fr);gap:18px;border-top:1px solid var(--arena2);padding-top:14px;margin-top:2px}
+.guia-ilustrada .form-acciones{display:flex;flex-wrap:wrap;gap:12px}
+.guia-ilustrada .form-boton{display:inline-flex;align-items:center;justify-content:center;border:2px solid var(--carmin);border-radius:999px;background:var(--blanco);color:var(--carmin);font:700 13px/1 var(--sans);padding:12px 18px;cursor:pointer;text-decoration:none}
+.guia-ilustrada .form-boton--principal{background:var(--carmin);color:#fff}
+.guia-ilustrada .form-boton:hover{transform:translateY(-1px)}
+.guia-ilustrada .plantilla-print-note{display:none}
+@media(max-width:740px){
+  .guia-ilustrada .plantilla-form{padding:14px}
+  .guia-ilustrada .plantilla-form fieldset{padding:15px}
+  .guia-ilustrada .form-grid--2,.guia-ilustrada .form-grid--3,.guia-ilustrada .bloque-durante{grid-template-columns:1fr}
+  .guia-ilustrada .form-acciones{flex-direction:column}
+  .guia-ilustrada .form-boton{width:100%;min-height:44px}
+}
 
 .guia-ilustrada hr.sep{border:none;border-top:1px solid #d8cbb2;margin:64px 0 0}
 .guia-ilustrada .pie{margin-top:40px;border-top:3px double var(--arena);padding-top:22px;font-family:var(--sans);font-size:13px;color:var(--gris);line-height:1.7}
@@ -148,12 +173,10 @@
 .guia-ilustrada .chip { color: #465016; }
 .guia-ilustrada .caso-b dt { color: #536019; }
 .guia-ilustrada .caso-b dd { color: #1d2a42; }
-.guia-ilustrada table:focus,
-.guia-ilustrada pre.plantilla:focus { outline: 3px solid var(--carmin); outline-offset: 3px; }
+.guia-ilustrada table:focus { outline: 3px solid var(--carmin); outline-offset: 3px; }
 @media (max-width: 740px) {
   .guide-featured { margin-top: 1rem; border-radius: .85rem; }
   .guia-ilustrada .acciones-guia { flex-direction: column; }
   .guia-ilustrada .accion-guia { width: 100%; }
-  .guia-ilustrada table,
-  .guia-ilustrada pre.plantilla { display: block; width: 100%; max-width: 100%; overflow-x: auto; }
+  .guia-ilustrada table { display: block; width: 100%; max-width: 100%; overflow-x: auto; }
 }

@@ -47,6 +47,12 @@ for (const profile of [
       tableCount: document.querySelectorAll(".guia-ilustrada table").length,
       caseCount: document.querySelectorAll(".guia-ilustrada .caso").length,
       hasCocreacionText: document.body.innerText.includes("Cómo se enlaza con la co-creación con IA"),
+      formPresent: Boolean(document.querySelector(".plantilla-form")),
+      formFields: document.querySelectorAll(".plantilla-form input, .plantilla-form textarea, .plantilla-form select").length,
+      unlabeledFormFields: [...document.querySelectorAll(".plantilla-form input, .plantilla-form textarea, .plantilla-form select")]
+        .filter((field) => !field.closest("label") && !field.getAttribute("aria-label") && !field.getAttribute("aria-labelledby")).length,
+      formButtons: document.querySelectorAll(".plantilla-form button").length,
+      formDownload: document.querySelector(".plantilla-form a[download]")?.getAttribute("href") ?? "",
       overflow,
       bodyWidth: document.body.scrollWidth,
       viewportWidth: document.documentElement.clientWidth,
@@ -93,6 +99,9 @@ for (const result of results) {
   if (checks.svgCount !== 9 || checks.svgMissingNames !== 0) failures.push("SVG accessibility mismatch");
   if (checks.caseCount !== 10) failures.push("case count mismatch");
   if (!checks.hasCocreacionText) failures.push("co-creation bridge missing");
+  if (!checks.formPresent || checks.formFields !== 40) failures.push(`form mismatch: ${checks.formFields} fields`);
+  if (checks.unlabeledFormFields !== 0) failures.push(`${checks.unlabeledFormFields} unlabeled form fields`);
+  if (checks.formButtons !== 1 || !checks.formDownload.endsWith(".pdf")) failures.push("form actions missing");
   if (!checks.actions.some((href) => href?.endsWith(".pdf"))) failures.push("PDF link missing");
   if (checks.bodyWidth > checks.viewportWidth + 2) failures.push("horizontal page overflow");
   if (checks.overflow.length) failures.push(`element overflow: ${JSON.stringify(checks.overflow)}`);
@@ -104,6 +113,6 @@ for (const result of results) {
     console.error(`${result.profile.name}: FAIL\n- ${failures.join("\n- ")}`);
     process.exitCode = 1;
   } else {
-    console.log(`${result.profile.name}: PASS — ${checks.svgCount} figuras, ${checks.tableCount} tablas, ${checks.caseCount} patrones, axe ${result.axe.length} hallazgos (${result.axe.filter((v) => ["serious", "critical"].includes(v.impact)).length} serios/críticos)`);
+    console.log(`${result.profile.name}: PASS — ${checks.svgCount} figuras, ${checks.tableCount} tablas, ${checks.caseCount} patrones, formulario ${checks.formFields} campos, axe ${result.axe.length} hallazgos (${result.axe.filter((v) => ["serious", "critical"].includes(v.impact)).length} serios/críticos)`);
   }
 }
