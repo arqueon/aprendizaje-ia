@@ -191,6 +191,11 @@ humana. Es un nivel posterior de la ruta, no el punto de partida. La
 [guía sobre co-creación y agenciamiento](/ia-educacion/guias/agenciamiento-humano-ia/)
 desarrolla el concepto con más detalle.
 
+Si quieres convertir esta relación en una actividad completa, la guía
+[Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso](/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/)
+muestra cómo definir el desempeño, preparar un primer intento, introducir contraste humano o
+asistido por IA, proteger la reconstrucción y cerrar con evidencia individual.
+
 ## Cuida la información
 
 Antes de pegar contenido en una herramienta, retira datos personales, información

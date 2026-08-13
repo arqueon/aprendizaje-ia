@@ -1,0 +1,5 @@
+{{- with .Page.Resources.GetMatch "guide-body.txt" -}}
+  <div class="guia-ilustrada">{{ .Content | safeHTML }}</div>
+{{- else -}}
+  {{- errorf "illustrated-guide: falta guide-body.txt en %s" .Page.File.Path -}}
+{{- end -}}
