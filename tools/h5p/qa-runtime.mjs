@@ -22,7 +22,8 @@ import { ZipFile } from "yazl";
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const hugoBinary = process.env.HUGO_BIN || "hugo";
 const chromiumBinary =
-  process.env.CHROMIUM_PATH || (existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : "");
+  process.env.CHROMIUM_PATH ||
+  (existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : chromium.executablePath());
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-003");
@@ -134,7 +135,11 @@ async function startServer(root, basePath) {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
 

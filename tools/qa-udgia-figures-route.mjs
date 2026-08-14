@@ -114,7 +114,11 @@ async function startServer(siteRoot, mountPath = '') {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end('Not found');
+      if (!response.headersSent) {
+        response.writeHead(404).end('Not found');
+      } else {
+        response.destroy();
+      }
     }
   });
   await new Promise((resolve, reject) => {

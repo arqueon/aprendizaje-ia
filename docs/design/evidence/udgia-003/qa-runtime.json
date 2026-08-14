@@ -6,7 +6,7 @@
     {
       "mode": "root",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 928,
+      "pages": 935,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -17,7 +17,7 @@
     {
       "mode": "subpath",
       "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 928,
+      "pages": 935,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -185,8 +185,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
-        "bytes": 173993,
-        "sha256": "6ea7fb20b4fadb5fc631f6e5fecdab2bcf62bcaf56b9550d8b536902c73dcba3"
+        "bytes": 173981,
+        "sha256": "f91f1f6a979d54444dc916ba54d6c45988bb798f0686ad869bc40f65d9bd7354"
       }
     },
     {
@@ -276,8 +276,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
-        "bytes": 219772,
-        "sha256": "bcbb30b024640621016e21f86f9cce1d911f31a7701d56ffc07dafd3ab574e51"
+        "bytes": 218201,
+        "sha256": "b91ae4774502e02793999afff716b5056da7e87f686a43148f28d59288fa6759"
       }
     }
   ],
