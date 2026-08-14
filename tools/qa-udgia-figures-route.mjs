@@ -65,7 +65,7 @@ const routes = [{
   mobileSvg: 'cinco-movimientos-ayuda-mobile.svg',
   fallbackItems: 5,
   editorialState: 'local-napkin',
-  notice: 'Piloto local pendiente de prueba de lectura y autorización de integración y publicación.',
+  notice: 'Publicación autorizada por Rubén el 2026-08-13',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
@@ -242,10 +242,10 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
       snapshot.license === 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
         && snapshot.attribution.includes('Generated Output de Napkin AI')
         && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
-        && snapshot.authorizationScope === 'local-preparation-only'
+        && snapshot.authorizationScope === 'project-editorial'
         && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
         && snapshot.provenanceKind === 'napkin-generated-output-adapted'
-        && snapshot.publicationAuthorized === 'false',
+        && snapshot.publicationAuthorized === 'true',
       `${route} ${name}: estado editorial local`,
     );
   } else {
@@ -371,7 +371,8 @@ const tempRoot = await mkdtemp(path.join(tmpdir(), 'udgia008-hugo-'));
 let browser;
 
 try {
-  browser = await chromium.launch({ executablePath: '/usr/bin/chromium', headless: true, args: ['--no-sandbox'] });
+  const executablePath = process.env.CHROMIUM_PATH || ((await stat('/usr/bin/chromium').catch(() => null)) ? '/usr/bin/chromium' : chromium.executablePath());
+  browser = await chromium.launch({ executablePath, headless: true, args: ['--no-sandbox'] });
   const scenarios = [
     { name: 'root', mountPath: '', buildBaseURL: 'http://127.0.0.1/' },
     { name: 'subpath', mountPath: 'ecosistema-ia', buildBaseURL: 'http://127.0.0.1/ecosistema-ia/' },

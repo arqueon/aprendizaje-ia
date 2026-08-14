@@ -13,6 +13,7 @@ tags:
   - h5p
   - laboratorio
   - accesibilidad
+summary: "Fixture técnica no curricular para validar el reproductor H5P autoalojado del sitio."
 ---
 
 Esta página no es una actividad curricular. Sirve para comprobar que el sitio puede cargar

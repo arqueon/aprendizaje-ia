@@ -2,6 +2,7 @@
 title: "Aprendizaje digital e IA"
 description: "Espacio de convergencia entre pedagogía y tecnología para abordar la complejidad de la docencia en la era de la inteligencia artificial."
 showMermaid: true
+summary: "Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que integran inteligencia artificial y aprendizaje digital."
 ---
 
 {{< lead >}}

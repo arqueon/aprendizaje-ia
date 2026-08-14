@@ -104,6 +104,14 @@ No hace falta documentar cada clic ni guardar una conversación completa. En el 
 bastan el primer borrador, la afirmación que decidió limitar, la evidencia consultada y una frase
 que explique por qué cambió la conclusión.
 
+| La IA puede ayudarte a… | Todavía necesitas… |
+|---|---|
+| Ensayar una explicación o pedir otro ejemplo. | Comprobar si la explicación es correcta y pertinente. |
+| Proponer preguntas, objeciones o alternativas. | Decidir cuáles sirven para tu propósito. |
+| Comentar un borrador y localizar puntos débiles. | Juzgar qué cambios mejoran realmente el trabajo. |
+| Ordenar información o comparar versiones. | Verificar fuentes, cuidar datos y explicar tus decisiones. |
+{.udgia-table--comparison .udgia-table--row-headers caption="Qué puede aportar la IA y qué responsabilidad conserva la persona"}
+
 ## Cinco movimientos para probar una ayuda
 
 1. **Nombra el propósito.** ¿Qué necesitas comprender, enseñar o producir?

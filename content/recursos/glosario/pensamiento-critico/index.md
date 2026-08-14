@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["pedagogia"]
 showHero: true
 summary: "Capacidad cognitiva de evaluación objetiva y síntesis de la información."
+description: "Capacidad cognitiva de evaluación objetiva y síntesis de la información."
 ---
 
 El **pensamiento crítico** es una capacidad cognitiva de orden superior enfocada en analizar, estructurar y evaluar objetivamente afirmaciones o problemas complejos. 

@@ -7,6 +7,7 @@ categories: ["metodologia"]
 areas: ["pedagogia", "evaluacion"]
 showHero: true
 summary: "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción."
+description: "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción."
 ---
 
 El **diseño inverso** (*backward design*) es un método para diseñar currículos, cursos y unidades de instrucción cuyo principio fundamental es comenzar por el final: primero se determinan las metas que se desea que los estudiantes alcancen y luego se diseña el camino para llegar a ellas.

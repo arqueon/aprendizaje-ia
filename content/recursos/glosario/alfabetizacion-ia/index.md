@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia", "digital", "formacion"]
 showHero: true
 summary: "Competencia técnica y ética para comprender, evaluar e interactuar con sistemas algorítmicos."
+description: "Competencia técnica y ética para comprender, evaluar e interactuar con sistemas algorítmicos."
 ---
 
 La **alfabetización en IA** (*AI literacy*) es una dimensión avanzada de la alfabetización digital. Abarca el conjunto de competencias cognitivas, técnicas y éticas necesarias para comprender cómo funcionan los algoritmos de IA, cómo procesan la información y cuáles son sus sesgos inherentes.

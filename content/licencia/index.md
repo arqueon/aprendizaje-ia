@@ -12,6 +12,7 @@ showBreadcrumbs: true
 showTableOfContents: true
 showRelatedContent: false
 sharingLinks: false
+summary: "Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0) del sitio."
 ---
 
 {{< lead >}}

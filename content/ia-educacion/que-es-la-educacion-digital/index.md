@@ -7,6 +7,7 @@ tags: ["Educación digital", "Taxonomía", "Aprendizaje híbrido", "Blended lear
 toc: true
 weight: 10
 draft: false
+summary: "Exploración conceptual, diferenciación terminológica y taxonomía de la educación digital para el nivel superior."
 ---
 
 Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin pisar el campus. Ambos participan en **educación digital**: no porque haya pantallas de por medio, sino porque la tecnología media de forma deliberada la enseñanza y el aprendizaje.

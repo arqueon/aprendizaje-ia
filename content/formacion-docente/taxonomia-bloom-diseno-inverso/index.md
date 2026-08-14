@@ -1,14 +1,14 @@
 ---
-title: "Taxonomía de Bloom y diseño inverso de aprendizajes"
-date: 2026-04-06
+title: "Partir de lo que quieres observar"
+date: "2026-08-03"
 draft: false
-description: "Cómo usar la taxonomía de Bloom para seleccionar niveles de aprendizaje y el diseño inverso (backward design) para construir objetivos y experiencias de aprendizaje."
-summary: "La taxonomía de Bloom identifica niveles cognitivos para diseñar actividades; el diseño inverso (backward design) parte de los resultados deseados para planear las experiencias de aprendizaje."
+description: "Cómo alinear propósito, evidencia, experiencia y asistencia sin diseñar desde la herramienta ni clasificar una tarea por un verbo aislado."
+summary: "Bloom ayuda a describir la demanda; el diseño inverso mantiene conectados propósito, evidencia, experiencia y apoyo."
 tags: ["taxonomia-bloom", "diseno-inverso", "backward-design", "objetivos-aprendizaje", "niveles-cognitivos"]
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "evaluacion"]
 
-showHero: true
+showHero: false
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
@@ -17,130 +17,102 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 weight: 5
+lastmod: "2026-08-03"
 ---
 
-{{< lead >}}
-La taxonomía de Bloom es una herramienta para identificar y seleccionar los aprendizajes que se trabajan fuera y dentro del aula. El diseño inverso (*backward design*) parte de los resultados deseados para planear las experiencias de aprendizaje.
-{{< /lead >}}
+Una planeación propone como resultado “analizar los supuestos de dos soluciones”. La
+actividad explica ambos procedimientos y la evaluación pregunta cuál opción es correcta. El
+verbo **analizar** aparece en el resultado, pero la evidencia solo exige reconocer una
+respuesta. El desajuste no se corrige añadiendo una herramienta ni cambiando el verbo: hay que
+revisar qué aprendizaje se busca y qué producto permitiría observarlo.
 
-## La taxonomía de Bloom
+El diseño inverso propone comenzar por el final educativo. Primero se aclara qué necesita
+aprender la persona; después, qué evidencia mostraría ese aprendizaje; solo entonces se diseña
+la experiencia y se eligen apoyos, incluida la IA cuando resulte pertinente.
 
-La taxonomía de Bloom (revisada) es un modelo que organiza los procesos cognitivos en seis niveles jerárquicos, de menor a mayor complejidad:
+## El verbo orienta, pero no clasifica la tarea
 
-{{< infografia titulo="Niveles Cognitivos de Bloom" subtitulo="Procesos cognitivos en orden de complejidad (de menor a mayor)" >}}
-  {{< infografia-seccion numero="1" titulo="Recordar" icono="brain" color="#64748b" >}}
-  Memorización de hechos y conceptualizaciones básicas.
-  * **Actividades:** Identificar, listar, definir.
-  {{< /infografia-seccion >}}
+La taxonomía revisada de Bloom ofrece un vocabulario para distinguir procesos como recordar,
+comprender, aplicar, analizar, evaluar y crear. Es útil para precisar una intención, pero no
+obliga a subir una pirámide ni permite juzgar una actividad por una palabra aislada.
 
-  {{< infografia-seccion numero="2" titulo="Entender" icono="lightbulb" color="#3b82f6" >}}
-  Comprensión de ideas o conceptos.
-  * **Actividades:** Explicar, parafrasear, clasificar.
-  {{< /infografia-seccion >}}
+“Analiza las soluciones” puede pedir una comparación profunda o una lista superficial.
+“Explica” puede limitarse a repetir o exigir relacionar evidencia y conclusión. “Crea” puede
+producir un objeto nuevo sin comprensión. Para reconocer la demanda hay que leer juntos el
+contenido, las condiciones, el producto y el criterio con que se juzgará.
 
-  {{< infografia-seccion numero="3" titulo="Aplicar" icono="tools" color="#10b981" >}}
-  Utilizar información o habilidades adquiridas en una situación nueva.
-  * **Actividades:** Resolver un ejercicio, implementar un procedimiento.
-  {{< /infografia-seccion >}}
+## Reparar la cadena completa
 
-  {{< infografia-seccion numero="4" titulo="Analizar" icono="search" color="#f59e0b" >}}
-  Separar las partes de algo para relacionarlo con una estructura o propósito general.
-  * **Actividades:** Comparar, contrastar, diferenciar.
-  {{< /infografia-seccion >}}
+Volvamos al ejemplo. Si se espera que la persona identifique el supuesto que cambia entre dos
+soluciones, la evidencia puede pedir una comparación anotada y una conclusión justificada. La
+experiencia necesita preparar ese producto: primer intento, contraste de casos y revisión con
+una razón. Solo después se decide qué apoyo conviene.
 
-  {{< infografia-seccion numero="5" titulo="Evaluar" icono="balance-scale" color="#8b5cf6" >}}
-  Crear juicios basados en criterios y estándares.
-  * **Actividades:** Argumentar, justificar, criticar.
-  {{< /infografia-seccion >}}
+![Una cadena revisable conecta propósito, evidencia, experiencia y asistencia; una ruptura muestra el desajuste entre pedir analizar y evaluar solo reconocimiento.](cadena-diseno-inverso.svg)
 
-  {{< infografia-seccion numero="6" titulo="Crear" icono="magic" color="#ec4899" >}}
-  Poner en relación elementos para formar nuevos patrones y estructuras.
-  * **Actividades:** Diseñar, construir, formular.
-  {{< /infografia-seccion >}}
-{{< /infografia >}}
+La cadena no termina en una herramienta. Cada elemento debe sostener la misma operación:
 
-La base de la pirámide concentra los niveles cognitivos más simples (recordar, entender), mientras que los niveles superiores (aplicar, analizar, evaluar, crear) requieren procesos cognitivos más complejos.
+- **Propósito:** identificar el supuesto y explicar cómo cambia la solución.
+- **Evidencia:** comparación de dos soluciones y conclusión con razones.
+- **Experiencia:** formular un intento, contrastarlo y revisarlo.
+- **Asistencia:** fuente, guía, par o IA que ofrece una objeción sin producir la conclusión.
 
-## Bloom y el aula invertida
+Si la evaluación vuelve a pedir solo reconocer una opción, la cadena se rompe aunque el
+resultado tenga un verbo ambicioso y la actividad use tecnología avanzada.
 
-El [aprendizaje invertido]({{< ref "laboratorio/practicas/aula-invertida" >}}) y el [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}) permiten a los estudiantes avanzar a los niveles cognitivos superiores para crear nuevas aplicaciones, ponderar los conocimientos aprendidos y usarlos para resolver problemas del mundo real.
+## La IA se decide después del propósito y la evidencia
 
-### Modelo tradicional
+Un sistema de IA generativa puede proponer un caso contrario, formular una objeción o comentar una
+parte delimitada del borrador. Esa ayuda es pertinente si llega en un momento que conserva el
+primer intento y deja a la persona comparar, verificar y decidir.
 
-En la enseñanza tradicional:
-- **Durante la clase**: el profesor expone (niveles *recordar* y *entender*) mediante conferencias.
-- **Fuera de clase**: tareas y lecturas que buscan niveles superiores pero sin la guía del profesor.
+No conviene pedir a la IA la comparación final si precisamente esa comparación es la evidencia
+del aprendizaje. Tampoco es necesario usarla cuando los casos preparados y la revisión entre
+pares ofrecen el mismo apoyo con menos riesgo, costo o desigualdad. La decisión incluye la
+posibilidad de limitar, aplazar o no usar la herramienta.
 
-El resultado es que los niveles superiores de la taxonomía quedan como tarea doméstica, donde el estudiante no tiene apoyo para alcanzarlos.
+La ruta sin IA conserva la misma evidencia. Puede ofrecer un contraejemplo preparado,
+una fuente adicional o preguntas de revisión. Cambia el apoyo, no la operación cognitiva ni
+lo que cuenta como evidencia suficiente.
 
-### Modelo invertido y activo
+## Un ejemplo de revisión completa
 
-En el aula invertida:
-- **Antes de la clase** (en línea): los estudiantes revisan videos y materiales de repaso, trabajando los niveles de *recordar* y *entender*.
-- **Durante la clase**: actividades de aprendizaje activo y resolución de problemas que abordan los niveles de *aplicar*, *analizar*, *evaluar* y *crear*, con la guía del profesor.
+**Antes:** “Comprender las soluciones”; leer una explicación; elegir la respuesta correcta;
+usar IA para resumir.
 
-Esta reconfiguración permite que los niveles cognitivos superiores se trabajen con el apoyo del profesor y la colaboración entre pares.
+**Después:** “Comparar dos soluciones e identificar el supuesto que cambia bajo una condición
+dada”; entregar comparación y conclusión justificada; formular un primer intento, contrastar
+una objeción y revisar; usar IA de forma opcional para proponer la objeción después del intento.
 
-![Aprendizaje invertido y activo en la taxonomía de Bloom](img/bloom-invertida.svg "Comparación del modelo tradicional con el aprendizaje invertido y activo en la taxonomía de Bloom — Universidad de Guadalajara, 2022")
+La segunda versión no es buena solo porque es más específica. Es coherente porque propósito,
+evidencia, experiencia y ayuda exigen y sostienen la misma comparación. Todavía necesita
+ajustarse a la disciplina, el tiempo y las condiciones de acceso del grupo.
 
-## El diseño inverso de aprendizajes
+## Cuatro preguntas en el orden correcto
 
-El diseño inverso (*backward design*) es un enfoque de planificación curricular desarrollado por Wiggins y McTighe (2005, 2011) que parte del final —los resultados de aprendizaje deseados— y avanza hacia el inicio —las actividades y recursos. Se estructura en tres etapas:
+1. ¿Qué necesita poder explicar, aplicar, analizar, evaluar o crear la persona?
+2. ¿Qué producto y qué criterio permitirán reconocerlo?
+3. ¿Qué experiencias preparan esa evidencia con apoyo decreciente?
+4. ¿Dónde puede ayudar la IA sin realizar la evidencia no delegable y qué alternativa existe?
 
-### 1. Identificar los resultados de aprendizaje deseados
+[La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia que desarrolla este orden;
+todavía no es una norma institucional vigente. Parte del aprendizaje esperado y de la
+evidencia antes de elegir actividades y ayudas. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) convierte ese
+criterio en una revisión completa que puede adaptarse a una disciplina y justificar el papel
+de la IA. Bloom aporta lenguaje para describir la demanda; el diseño inverso mantiene
+conectados propósito, evidencia y experiencia.
 
-Definir qué deben aprender los estudiantes al finalizar el curso o la unidad. Los objetivos de aprendizaje deben reflejar lo que se requiere que aprendan para cada actividad de aprendizaje activo y para el contenido general del curso (Bowen, 2017).
+En pocas palabras: no se diseña desde la herramienta ni desde un verbo aislado. Se comienza
+por lo que se quiere aprender, se elige una evidencia que realmente lo muestre y se construye
+una experiencia —con IA o sin ella— que permita producirla.
 
-### 2. Determinar la forma de evaluación
+## Cómo continuar
 
-Establecer cómo se medirán los aprendizajes adquiridos. Los métodos de [evaluación]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}}) deben ser coherentes con los objetivos y permitir evidenciar los niveles cognitivos que se buscan desarrollar.
+Toma una actividad que ya utilices y escribe cuatro líneas: qué quieres observar, qué producto
+lo mostraría, qué experiencia lo prepara y qué ayuda puede ofrecerse sin resolver la evidencia.
+Si alguna línea exige un aprendizaje distinto, ajusta primero esa ruptura y luego decide la
+herramienta. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) amplía este procedimiento para adaptarlo a una
+disciplina.
 
-### 3. Planear las experiencias de aprendizaje
-
-Diseñar las actividades de aprendizaje activo que llevarán a los estudiantes a alcanzar los resultados deseados y demostrarlos en las evaluaciones planificadas.
-
-![Diseño inverso de objetivos de aprendizaje](img/diseno-inverso.svg "Las tres etapas del diseño inverso (backward design) — Universidad de Guadalajara, 2022")
-
-## Construye un objetivo antes de elegir la IA
-
-El constructor aplica las tres etapas anteriores a un solo objetivo. Primero formula el
-desempeño y su evidencia; después decide en qué momento la IA amenaza, no afecta o puede
-ampliar ese aprendizaje.
-
-{{< h5p id="objetivos-bloom-udgplus" load="manual" title="Constructor de objetivos de aprendizaje UDGPlus" >}}
-### Plantilla equivalente
-
-| Componente | Pregunta | Inicio de la formulación |
-|---|---|---|
-| Audiencia | ¿Quién aprende? | Al finalizar, el estudiante… |
-| Desempeño | ¿Qué hará y sobre qué contenido? | contrastará, diseñará, argumentará… |
-| Condición | ¿Con qué recursos o en qué contexto? | a partir de un caso, con dos fuentes… |
-| Criterio | ¿Con qué calidad o estándar? | justificando diferencias, sin errores críticos… |
-| Evidencia | ¿Qué actuación o producto permitirá observarlo? | informe, defensa, prototipo, demostración… |
-
-Con el objetivo completo, responde: ¿qué esfuerzo necesita atravesar la persona antes de
-recibir asistencia y qué evidencia permitiría comprobarlo?
-{{< /h5p >}}
-
-## Aplicación al syllabus
-
-El [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) construido mediante objetivos de aprendizaje diseñados de manera inversa tiene como fin crear experiencias de aprendizaje que permitan a los estudiantes lograr aprendizajes de manera autónoma, creativa y en contacto con problemas del mundo real (Universidad de Guadalajara, 2022).
-
-Para el [aprendizaje híbrido]({{< ref "formacion-docente/aprendizaje-hibrido" >}}) y el aula invertida, el syllabus debe separar las actividades que se realizan fuera del aula (previas a la clase presencial) de las actividades dentro del aula (aprendizaje activo, interacción, retroalimentación).
-
-## Relación con los modelos SAMR e ICAP
-
-Los niveles de la taxonomía de Bloom se corresponden con los niveles del [modelo SAMR]({{< ref "formacion-docente/modelos-samr-icap" >}}):
-
-- **Sustitución y aumento** (mejora): se corresponden con *recordar*, *entender* y *aplicar*.
-- **Modificación y redefinición** (transformación): se corresponden con *analizar*, *evaluar* y *crear*.
-
-Esta correspondencia permite evaluar si la tecnología utilizada en un curso realmente contribuye a alcanzar niveles cognitivos superiores o se queda en un uso superficial.
-
-## Referencias
-
-- Bowen, R.S. (2017). *Understanding by Design*. Vanderbilt University Center for Teaching.
-- Harvard / The Derek Bok Center for Teaching and Learning. (2022). Designing Your Course. https://bokcenter.harvard.edu/designing-your-course
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
-- Wiggins, G., & McTighe, J. (2005). *Understanding By Design* (2nd ed., 2nd Expanded).
-- Wiggins, G., & McTighe, J. (2011). *The Understanding by Design: Guide to Creating High-Quality Units*. Association for Supervision & Curriculum Development.
+Si necesitas volver a precisar transformación y conducta, regresa a [Dos preguntas distintas
+sobre una misma actividad]({{< relref "formacion-docente/modelos-samr-icap" >}}).

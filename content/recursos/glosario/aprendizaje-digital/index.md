@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
+description: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
 ---
 
 El **aprendizaje digital** (*digital learning*) engloba cualquier práctica educativa que dependa de forma sustantiva del uso de la tecnología para instruir, evaluar o gestionar el ecosistema formativo.

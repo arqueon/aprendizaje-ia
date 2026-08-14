@@ -7,6 +7,7 @@ categories: ["estudio"]
 areas: ["ia", "pedagogia", "digital"]
 showHero: true
 summary: "Una relectura de Gilbert Simondon y del concepto de mundoambiente de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?»."
+description: "Una relectura de Gilbert Simondon y del concepto de mundoambiente de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?»."
 ---
 
 {{< lead >}}

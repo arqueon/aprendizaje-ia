@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["pedagogia", "evaluacion"]
 showHero: true
 summary: "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación."
+description: "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación."
 ---
 
 La **Taxonomía de Bloom** es un marco de clasificación de los objetivos educativos estructurado jerárquicamente según la complejidad cognitiva requerida. Originalmente propuesta en 1956 y revisada en 2001, categoriza el pensamiento en seis niveles secuenciales.

@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia"]
 showHero: true
 summary: "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje."
+description: "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje."
 ---
 
 La **ingeniería de *prompts*** (o parametrización de instrucciones) es la práctica de diseñar, estructurar y refinar los comandos de entrada que se proporcionan a un sistema de inteligencia artificial generativa.

@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Modelo educativo que amalgama intencionalmente la instrucción presencial con mediaciones digitales."
+description: "Modelo educativo que amalgama intencionalmente la instrucción presencial con mediaciones digitales."
 ---
 
 El **aprendizaje híbrido** (*blended learning*) es un modelo pedagógico que combina de forma estructurada e intencional el aprendizaje presencial con el mediado por tecnología (frecuentemente asincrónico).

@@ -39,3 +39,8 @@ La participación sostenida en redes requiere disciplina, no entusiasmo. Convien
 ## Lecturas relacionadas
 
 La participación en redes se nutre de lo que el docente ya documenta de su propia práctica. Por eso conviene articular esta sección con [experiencias documentadas en aula](/laboratorio/experiencias/) y con la [formación continua](/formacion-docente/formacion-continua/) que sostiene la actualización temática.
+
+## Referencias
+
+- Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
+

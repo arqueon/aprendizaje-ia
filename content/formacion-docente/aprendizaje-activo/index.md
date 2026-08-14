@@ -1,14 +1,14 @@
 ---
-title: "Aprendizaje activo: estrategias y técnicas"
-date: 2026-04-06
+title: "Qué hace activa una experiencia de aprendizaje"
+date: "2026-08-03"
 draft: false
-description: "Fundamentos del aprendizaje activo, catálogo de técnicas para el aula presencial y en línea, y su relación con el desarrollo de habilidades en la educación superior."
-summary: "El aprendizaje activo promueve la participación, la colaboración y el pensamiento crítico. Incluye un catálogo de técnicas aplicables en el aula presencial y en línea."
+description: "Cómo reconocer el trabajo cognitivo por lo que la persona produce, contrasta y revisa, no por la cantidad de tecnología o movimiento."
+summary: "Distingue recibir, manipular, generar y construir para diseñar una actividad que haga visible el aprendizaje."
 tags: ["aprendizaje-activo", "active-learning", "tecnicas-didacticas", "pensamiento-critico", "colaboracion"]
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "formacion"]
 
-showHero: true
+showHero: false
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
@@ -17,103 +17,100 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 weight: 4
+lastmod: "2026-08-03"
 ---
 
-{{< lead >}}
-En una clase tradicional el profesor explica y los estudiantes escuchan; en una clase con aprendizaje activo los estudiantes resuelven, discuten y construyen, y el profesor diseña y acompaña ese trabajo. El aprendizaje activo promueve la participación, la colaboración y el pensamiento crítico, tanto en el aula presencial como en ambientes en línea: los estudiantes dejan de ser receptores pasivos para convertirse en participantes de su proceso de aprendizaje.
-{{< /lead >}}
+Dos estudiantes reciben la misma explicación producida con IA. Diego la lee, selecciona tres
+frases y las ordena en una diapositiva. Sara escribe primero qué entiende, compara la respuesta
+con una fuente del curso, identifica una contradicción y revisa su explicación. Los dos usaron
+la misma herramienta y estuvieron ocupados. Solo observar la pantalla no permite saber qué
+hicieron con el conocimiento.
 
-## Fundamentos
+Una experiencia se vuelve activa por el trabajo que pide realizar: recuperar una idea,
+explicarla, contrastarla, aplicarla, formular una relación o revisarla con razones. Participar,
+hacer clic o conversar puede acompañar ese trabajo, pero no lo demuestra por sí mismo.
 
-El aprendizaje activo parte de la idea de que el proceso educativo debe ofrecer lo que John Dewey llamaba *experiencias de aprendizaje*: vínculos con problemas del mundo real que permiten "aprender haciendo" (*learning by doing*) y desarrollar procesos cognitivos superiores más allá de memorizar o recordar lo que expone el profesor (Baepler et al., 2016; Fornari & Poznanski, 2015).
+## Mira el producto que genera la persona
 
-Es aplicable a todas las áreas del saber y puede ser implementado directamente por los profesores, con la ayuda de apoyos institucionales técnicos y de formación docente que promuevan la autogestión del aprendizaje en los estudiantes. Estudios demuestran que el aprendizaje activo incrementa el desempeño en las áreas STEM (Mintzes & Walter, 2020; Ram et al., 2025; Malta et al., 2025).
+Comparemos cuatro consignas sobre el mismo caso:
 
-Una estrategia de aprendizaje activo es cualquier tipo de actividad durante la clase (presencial, en línea o fuera de clase) que involucra a los estudiantes en una reflexión profunda sobre el tema de su curso. Más allá de que los estudiantes "reciban" pasivamente el contenido mediante conferencias, el aprendizaje activo requiere que se conviertan en participantes de su proceso de aprendizaje.
+- **Recibir:** lee una explicación y escucha el comentario final.
+- **Manipular lo dado:** subraya afirmaciones y ordénalas por tema.
+- **Generar una idea:** explica el supuesto central, compáralo con una fuente y corrige tu
+  respuesta con una razón.
+- **Construir con otra persona:** compara tu explicación con la de un par; respondan a sus
+  diferencias y elaboren una versión común que ninguna persona tenía al comenzar.
 
-## Beneficios
+![El mismo caso se trabaja de cuatro maneras: recibir, ordenar, explicar y construir una respuesta común; la diferencia se reconoce por lo que produce la persona.](acciones-aprendizaje-activo.svg)
 
-El aprendizaje activo utiliza el tiempo liberado de las conferencias tradicionales del profesor para ampliar:
+Las cuatro formas pueden tener un lugar. Leer una explicación es útil cuando ofrece una base
+necesaria. Subrayar puede ayudar a organizar información. El error consiste en suponer que una
+actividad es mejor porque tiene más movimiento, tecnología o colaboración aparente. La
+pregunta decisiva es qué necesita aprender la persona y qué conducta permitirá observarlo.
 
-- **Colaboración**: construcción colectiva de los saberes mediante interacciones entre estudiantes.
-- **Comunicación**: desarrollo de la capacidad de expresar y argumentar ideas.
-- **Pensamiento crítico**: análisis, evaluación y síntesis de información.
-- **Creatividad**: generación de nuevas conexiones y soluciones.
+## “Activo” no significa una escalera obligatoria
 
-Las experiencias de aprendizaje generan interacciones que se convierten en espacios de construcción colectiva de los saberes, donde se resuelven rápidamente dudas y concepciones erróneas, además de generar confianza y autoestima en los estudiantes (Patiño et al., 2023).
+El marco ICAP ofrece nombres para distinguir conductas visibles. Recibir información se llama
+modo pasivo; seleccionar u ordenar lo dado, modo activo; producir una explicación o relación
+nueva, modo constructivo; y responderse entre personas hasta crear una comprensión común,
+modo interactivo.
 
-## Catálogo de técnicas
+Estas categorías ayudan a describir una actividad comparable, no a etiquetar estudiantes ni
+a convertir cada clase en una carrera hacia el último nivel. Una buena explicación breve puede
+ser necesaria antes de pedir una producción. Una discusión puede fallar si una persona
+resuelve y las demás copian. Una tarea individual puede exigir una revisión profunda.
 
-{{< infografia titulo="Catálogo de Técnicas" subtitulo="Estrategias prácticas para implementar el aprendizaje activo" >}}
-  {{< infografia-seccion titulo="Pensar, unir, compartir (think-pair-share)" icono="comments" color="#8b5cf6" >}}
-  Los estudiantes reflexionan individualmente, discuten en parejas y luego comparten con el grupo.
-  {{< /infografia-seccion >}}
+Conversar con una IA tampoco vuelve interactiva una actividad en el sentido de ICAP. La
+respuesta del sistema puede provocar una pregunta o una explicación nueva y apoyar un trabajo
+constructivo. La construcción interactiva requiere reciprocidad entre aprendices: cada persona
+aporta, responde y transforma su idea a partir de la otra.
 
-  {{< infografia-seccion titulo="Reflexión de un minuto (minute papers)" icono="stopwatch" color="#ef4444" >}}
-  Escritos breves al final de la clase para sintetizar lo aprendido o plantear dudas.
-  {{< /infografia-seccion >}}
+## Reformular una consigna cambia lo observable
 
-  {{< infografia-seccion titulo="Encuestas rápidas" icono="poll" color="#3b82f6" >}}
-  Herramientas para evaluar la comprensión en tiempo real y adaptar la enseñanza.
-  {{< /infografia-seccion >}}
+Imaginemos una consigna inicial: “Lee la respuesta de la IA sobre las dos soluciones y entrega
+un resumen”. El producto puede mostrar comprensión, pero también puede limitarse a abreviar lo
+recibido. Una reformulación más clara sería:
 
-  {{< infografia-seccion titulo="Puntos confusos" icono="question" color="#f59e0b" >}}
-  Identificación de los conceptos que resultaron más difíciles para aclaración posterior.
-  {{< /infografia-seccion >}}
+> Antes de consultar otra explicación, escribe cuál supuesto crees que cambia. Después compara
+> tu respuesta con una fuente y con una objeción. Revisa tu posición y explica qué evidencia
+> influyó en el cambio.
 
-  {{< infografia-seccion titulo="Debates y discusiones" icono="bullhorn" color="#10b981" >}}
-  Análisis crítico y argumentación sobre posiciones contrapuestas.
-  {{< /infografia-seccion >}}
+La nueva consigna no es mejor por ser más larga. Es mejor para este propósito porque hace
+visible un primer intento, una comparación y una revisión. Si el resultado buscado fuera
+reconocer vocabulario básico, esa complejidad podría ser innecesaria.
 
-  {{< infografia-seccion titulo="Estudios de caso y solución de problemas" icono="briefcase" color="#6366f1" >}}
-  Aplicación del conocimiento a situaciones reales o simuladas.
-  {{< /infografia-seccion >}}
+## Con IA y sin IA, conserva la misma conducta
 
-  {{< infografia-seccion titulo="Aprendizaje entre pares" icono="user-friends" color="#ec4899" >}}
-  Colaboración y apoyo mutuo entre estudiantes para resolver problemas.
-  {{< /infografia-seccion >}}
+La IA puede aportar una objeción o un caso contrario después del primer intento. La ruta sin
+IA puede usar objeciones preparadas, fuentes contrastadas o revisión entre pares. Ambas deben
+pedir que la persona explique, compare y revise; ninguna debe recibir la solución antes de
+intentar el trabajo que se desea aprender.
 
-  {{< infografia-seccion titulo="Mapas conceptuales" icono="project-diagram" color="#14b8a6" >}}
-  Organización visual del conocimiento y sus relaciones.
-  {{< /infografia-seccion >}}
+También importa el momento de la ayuda. Una pista temprana puede orientar sin sustituir. Una
+respuesta completa antes del intento puede retirar la dificultad productiva. La herramienta
+no define el modo de aprendizaje: lo definen la consigna, el momento y la evidencia que debe
+producir la persona.
 
-  {{< infografia-seccion titulo="Juegos específicos" icono="gamepad" color="#f97316" >}}
-  Gamificación para hacer el aprendizaje más interactivo y motivador.
-  {{< /infografia-seccion >}}
+## Cinco preguntas para revisar una actividad
 
-  {{< infografia-seccion titulo="Revisiones entre pares" icono="check-double" color="#0ea5e9" >}}
-  Evaluación constructiva del trabajo de otros compañeros.
-  {{< /infografia-seccion >}}
-{{< /infografia >}}
+1. ¿Qué necesita producir o transformar la persona?
+2. ¿La consigna pide una idea propia o solo manipular lo dado?
+3. ¿Qué evidencia mostrará la comparación, la explicación o la revisión?
+4. ¿La ayuda llega después de un intento suficiente?
+5. ¿La ruta sin IA conserva la misma exigencia y oportunidad?
 
-Estas técnicas pueden implementarse con o sin tecnología. Herramientas como Mentimeter, Padlet, Miro o Canva facilitan su aplicación en entornos híbridos (Khan, 2025).
+El aprendizaje activo aparece en la propuesta de Orientaciones, el documento de referencia
+que todavía no constituye una norma institucional vigente. Esta página lo convierte en tres
+acciones observables: formular, contrastar y reelaborar. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lleva ese
+criterio a consignas y evidencias adaptables a distintas disciplinas. La presencia de una
+herramienta, por sí sola, no prueba participación cognitiva.
 
-## Desarrollo de habilidades
+En pocas palabras: una experiencia activa no se reconoce por cuánto se mueve la clase ni por
+cuántos botones ofrece. Se reconoce por la idea, relación, decisión o revisión que la persona
+produce y puede explicar.
 
-![El dilema de las habilidades: perspectivas de la universidad, la industria y el gobierno](img/dilema-habilidades.svg "¿Qué habilidades deben enseñar las universidades? — adaptado de Academy of the Social Sciences in Australia, 2021")
+## Cómo continuar
 
-**Recorrido en texto:** la figura cruza tres miradas sobre qué habilidades importan, y en las tres hay tensión entre el largo y el corto plazo. La universidad quiere ofrecer habilidades que servirán en el futuro, pero también oportunidades inmediatas y conexiones de carrera. El gobierno necesita planear la innovación a largo plazo y, al mismo tiempo, responder a la demanda actual de recursos humanos. La industria valora la adaptabilidad y el análisis, pero pide habilidades específicas de incorporación rápida. El dilema es que ninguna de las tres puede elegir un solo horizonte.
-
-### Relación con el desarrollo de habilidades
-
-Existe una relación directa entre el aprendizaje activo y el desarrollo de habilidades para la vida y el trabajo. Promover el aprendizaje experiencial —aprender desde la actividad misma y no solo desde la explicación— en contextos de innovación permite mejorar el desarrollo de habilidades interpersonales que los empleadores consideran como sus necesidades principales, junto con el compromiso y las habilidades analíticas para la resolución de problemas (Universidad de Guadalajara, 2022).
-
-Al innovar en los procesos docentes, se potencian de manera simultánea una mejor comprensión y obtención de conocimientos y el desarrollo de habilidades de comunicación, colaboración, pensamiento crítico y creatividad. Estas habilidades permiten a los estudiantes aportar en contextos donde es indispensable construir y mantener entendimientos compartidos acerca de un problema y definir los pasos para enfrentarlo.
-
-## Relación con otros enfoques
-
-- El aprendizaje activo se integra en el marco del **[aprendizaje híbrido]({{< ref "formacion-docente/aprendizaje-hibrido" >}})** como las técnicas concretas para las sesiones presenciales o sincrónicas.
-- El **[aula invertida]({{< ref "laboratorio/practicas/aula-invertida" >}})** libera el tiempo presencial para que estas técnicas puedan aplicarse.
-- La **[taxonomía de Bloom]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}})** sirve como guía para seleccionar técnicas que alcancen niveles cognitivos superiores.
-- El **[modelo ICAP]({{< ref "formacion-docente/modelos-samr-icap" >}})** permite evaluar si las actividades realmente logran interactividad o se quedan en niveles pasivos o activos.
-
-## Referencias
-
-- Baepler, P.M., Walker, J.D., Brooks, D.C., Saichaie, K., & Petersen, C.I. (2016). *A Guide to Teaching in the Active Learning Classroom: History, Research, and Practice*. Stylus Publishing.
-- Fornari, A., & Poznanski, A. (2015). *How-to Guide for Active Learning*.
-- Malta, K., Glickman, C., Hunter, K., & McBride, A. (2025). Comparing the impact of online and in-person active learning in preclinical medical education. *BMC Medical Education*. https://doi.org/10.1186/s12909-025-06846-z
-- Mintzes, J.J., & Walter, E.M. (Eds.). (2020). *Active Learning in College Science: The Case for Evidence-Based Practice*. Springer International Publishing.
-- Khan, M. A. (2025). Mentimeter Tool for Enhancing Student Engagement and Active Learning: A Literature Review. *International Journal of Changes in Education*. https://doi.org/10.47852/bonviewijce52023801
-- Patiño, A., Ramírez-Montoya, M.S., & Buenestado-Fernández, M. (2023). Active learning and education 4.0 for complex thinking training: Analysis of two case studies in open education. *Smart Learning Environments*, *10*(1), 8.
-- Ram, I., Rosenberg-Kima, R.B., Lewin, D.R., Barzilai, A., Chumtonov, O., & Roll, I. (2025). Active learning and the development of 21st century skills in online STEM education – a large scale survey. *Online Learning*, *29*(1).
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
+Ya puedes mirar qué hace la persona con el conocimiento. Ahora observa cómo esa conducta se
+conecta entre momentos. Continúa con [Conectar momentos para que el aprendizaje
+avance]({{< relref "formacion-docente/aprendizaje-hibrido" >}}).

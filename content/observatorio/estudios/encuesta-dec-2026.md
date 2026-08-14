@@ -2,6 +2,7 @@
 title: Encuesta DEC 2026 — IA en educación superior
 date: 2026-02-06
 description: Informe sobre la adopción de IA en universidades de Latinoamérica y UdeG.
+summary: "Resultados de la encuesta DEC 2026 sobre la adopción y percepción de IA en universidades latinoamericanas y la UdeG."
 ---
 
 ## Resultados Destacados

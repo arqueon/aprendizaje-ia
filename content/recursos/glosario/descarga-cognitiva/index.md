@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["pedagogia"]
 showHero: true
 summary: "Transferencia de carga mental y tareas operativas a sistemas automatizados."
+description: "Transferencia de carga mental y tareas operativas a sistemas automatizados."
 ---
 
 La **descarga cognitiva** (*cognitive offloading*) ocurre cuando un individuo transfiere el esfuerzo de procesar, almacenar o estructurar información hacia una herramienta externa, como un sistema de inteligencia artificial.
@@ -16,3 +17,8 @@ Si bien estudios iniciales la asociaron con una reducción del pensamiento crít
 Cuando, en cambio, esa capacidad liberada no se reinvierte y la persona se limita a recibir y validar lo que el sistema produce, la descarga deriva en una pérdida de aprendizaje. El desenlace contrario —que la interacción active el razonamiento en lugar de sustituirlo— es lo que se denomina [ganancia cognitiva](/recursos/glosario/ganancia-cognitiva/).
 
 **Relacionado con:** [Ganancia cognitiva](/recursos/glosario/ganancia-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Observatorio de IA](/observatorio/)
+
+## Referencias
+
+- Gerlich, M. (2025). The impact of artificial intelligence on critical thinking and cognitive offloading: An empirical study. *Journal of Applied Learning and Teaching*, 8(1), 1-12.
+

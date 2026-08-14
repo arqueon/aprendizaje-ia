@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia", "etica"]
 showHero: true
 summary: "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas."
+description: "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas."
 ---
 
 La **integridad académica** comprende el mantenimiento de la honestidad, el rigor y la ética en la producción y atribución del conocimiento dentro del entorno educativo.

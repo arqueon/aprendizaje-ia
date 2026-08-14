@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-02T21:24:47.033Z",
+  "checkedAt": "2026-08-14T18:46:02.992Z",
   "h5pBaseline": {
     "catalogContents": 9,
-    "pages": 7,
-    "mounts": 10
+    "pages": 5,
+    "mounts": 7
   },
   "scenarios": {
     "root": {
       "hugo": {
-        "pages": 925,
+        "pages": 935,
         "warnings": 4,
         "unexpectedWarnings": []
       },
@@ -92,7 +92,7 @@
     },
     "subpath": {
       "hugo": {
-        "pages": 925,
+        "pages": 935,
         "warnings": 4,
         "unexpectedWarnings": []
       },

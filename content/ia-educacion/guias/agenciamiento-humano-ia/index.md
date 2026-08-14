@@ -1,13 +1,13 @@
 ---
-title: "El agenciamiento (ensamblaje) persona-IA — marco conceptual para docentes"
-date: 2026-04-14
+title: "Conservar la dirección del trabajo con IA"
+date: "2026-08-03"
 draft: false
-description: "Marco conceptual basado en Deleuze y Guattari para entender la relación persona-IA como un agenciamiento (ensamblaje) productivo, no como uso de herramienta."
-summary: "Ni la persona usa la IA como herramienta pasiva, ni la IA reemplaza a la persona. El par persona-IA constituye un agenciamiento (ensamblaje): una relación productiva que genera algo nuevo."
+description: "Un caso para distinguir una sugerencia de una decisión y comprender la co-creación sin trasladar la responsabilidad a la herramienta."
+summary: "Formula, contrasta, decide y conserva un rastro breve de los cambios que puedes sostener."
 tags: ["agenciamiento (ensamblaje)", "Deleuze", "Guattari", "rizoma", "co-producción", "marco conceptual"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
-showHero: true
+showHero: false
 heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
@@ -39,185 +39,116 @@ ecosistema:
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-27
+lastmod: "2026-08-03"
 ---
 
-{{< lead >}}
-La metáfora dominante para hablar de IA en educación es la de la "herramienta": el docente o el estudiante *usa* la IA como quien usa un martillo. Esta guía propone un marco distinto, derivado de Deleuze y Guattari: el de *agenciamiento (ensamblaje)*, donde persona e IA forman una unidad productiva que genera algo que ninguno de los dos produciría solo.
-{{< /lead >}}
+Renata prepara una explicación sobre un problema de su asignatura. Ya escribió un primer
+borrador y puede señalar la idea central. Al revisarlo con un sistema de IA generativa recibe dos
+sugerencias plausibles. La primera vuelve el texto más fluido, pero elimina la condición que
+hace válido el argumento. La segunda pregunta si una afirmación cambia cuando se considera
+otro contexto. Esa objeción revela un supuesto que Renata no había comprobado.
 
-## Por qué la metáfora de la herramienta es insuficiente
+Las dos respuestas parecen útiles. Ninguna decide por sí sola qué debe cambiar. Renata
+necesita volver al propósito, revisar la evidencia y explicar por qué acepta, transforma o
+descarta cada aporte. Ese trabajo permite hablar de co-creación sin convertir la colaboración
+con una herramienta en obediencia.
 
-Cuando decimos que la IA es una "herramienta", asumimos tres cosas:
+## Una sugerencia todavía no es una decisión
 
-1. Que el humano tiene control total sobre el proceso
-2. Que la IA no modifica el pensamiento de quien la usa
-3. Que el resultado es atribuible exclusivamente al humano
+Un sistema puede proponer una formulación, una pregunta, una objeción o una manera distinta de
+organizar el material. La contribución puede influir de verdad en el recorrido. Sin embargo,
+la persona conserva cuatro movimientos que no conviene esconder:
 
-Las tres son falsas en la práctica. Quien interactúa con una IA generativa experimenta desplazamientos: la IA propone formulaciones que el humano no habría considerado, desafía supuestos implícitos, y produce combinaciones que reorganizan el pensamiento del usuario (Hayles, 2017).
+1. formula la pregunta o reconoce qué problema intenta resolver;
+2. compara la propuesta con el propósito y con fuentes pertinentes;
+3. decide qué conserva, transforma o descarta;
+4. responde por la versión que presenta y puede explicar su decisión.
 
-Esto no significa que la IA "piense". Significa que la relación entre persona e IA es más compleja que la de quien usa un instrumento pasivo.
+Renata no acepta la primera sugerencia porque “suena mejor”. Compara la versión con la
+consigna y observa que el matiz eliminado era necesario. Conserva una frase más breve, pero
+restituye la condición con sus propias palabras. En la segunda sugerencia no copia la
+objeción: consulta la fuente que ya estaba usando, encuentra que el contexto sí cambia la
+interpretación y reescribe su explicación.
 
-## El concepto de agenciamiento (ensamblaje)
+![Dos sugerencias se convierten en decisiones distintas: una se transforma para conservar un matiz y la otra se comprueba antes de revisar el argumento.](comparador-cocreacion.svg)
 
-En *Mil mesetas*, Deleuze y Guattari (1987) definen el agenciamiento (ensamblaje) (*agencement*) como un ensamblaje de elementos heterogéneos —humanos, máquinas, signos, instituciones— que, al combinarse, producen efectos que no se reducen a la suma de sus partes.
+La figura no muestra una ruta correcta por color ni una calificación. Muestra que un mismo
+aporte puede recibir tratamientos distintos. La pregunta útil no es “¿la IA ayudó?”, sino
+“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”.
 
-Un agenciamiento (ensamblaje) tiene dos caras:
+## Co-crear no significa repartir la responsabilidad
 
-| Cara | Función | En el par persona-IA |
-|------|---------|---------------------|
-| **Contenido** | Lo que se produce (enunciados, textos, ideas) | El conocimiento que emerge de la interacción |
-| **Expresión** | Cómo se organiza y circula lo producido | Los formatos, prompts, iteraciones y documentos |
+La expresión **co-creación persona–IA** nombra un ciclo en el que una respuesta del sistema
+entra al trabajo intelectual y la persona la interroga, contrasta y transforma. No significa
+que ambos participantes comprendan o respondan de la misma manera. La herramienta influye;
+la persona mantiene la responsabilidad por lo que entrega.
 
-El par persona-IA no es una relación de uso. Es un **acoplamiento productivo**: el estudiante formula un prompt, la IA responde, el estudiante se desplaza, reformula, la IA responde de nuevo. Lo que emerge de ese ciclo es irreducible a lo que cualquiera de los dos habría producido en aislamiento.
+El término **agenciamiento persona–IA** amplía la mirada. Además de la persona y el sistema,
+incluye la actividad, las fuentes, los criterios, el tiempo disponible, las reglas del curso
+y las condiciones de acceso. Todos esos elementos pueden orientar lo que sucede, pero no
+tienen la misma capacidad de comprender, decidir o responder por una consecuencia.
 
-## Implicaciones para la práctica docente
-
-### 1. Dejar de preguntar "¿quién lo hizo?"
-
-La pregunta "¿lo hizo el estudiante o lo hizo la IA?" carece de sentido en un agenciamiento (ensamblaje). La pregunta productiva es: **¿qué decisiones tomó el estudiante en el proceso de co-producción?**
-
-Esto tiene consecuencias directas para la evaluación:
-
-| Pregunta improductiva | Pregunta productiva |
-|---|---|
-| ¿Este texto lo escribió una IA? | ¿Qué decidió incluir el estudiante y qué descartó? |
-| ¿Usó IA? | ¿Cómo documentó su proceso de interacción? |
-| ¿Es original? | ¿Qué transformaciones hizo sobre lo que la IA propuso? |
-
-### 2. Diseñar para el acoplamiento, no para el control
-
-El diseño pedagógico convencional busca controlar variables: instrucciones cerradas, rúbricas exhaustivas, plazos fijos. El agenciamiento (ensamblaje) requiere diseñar **condiciones de posibilidad**: espacios donde el acoplamiento persona-IA pueda ocurrir de formas no predeterminadas.
-
-**Ejemplo de diseño abierto:**
-
-> En lugar de: "Usa IA para redactar un ensayo de 1,000 palabras sobre cambio climático"
->
-> Diseña: "Explora el tema de cambio climático en conversación con al menos dos modelos de IA distintos (Gemini, Claude, DeepSeek u otro). Documenta los momentos donde la IA te llevó a pensar algo que no habías considerado. Presenta tus hallazgos en el formato que mejor capture tu proceso."
-
-### 3. Valorar los desplazamientos
-
-Un desplazamiento ocurre cuando la IA dice algo que obliga al estudiante a repensar su posición. Estos momentos son pedagógicamente valiosos porque evidencian **actividad cognitiva genuina**: son la **ganancia cognitiva** —el reverso de la descarga cognitiva—, cuando la interacción bien orientada introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a revisar, precisar o abandonar los propios supuestos, y la IA deja de ser un atajo de razonamiento para volverse un interlocutor que activa el pensamiento en lugar de sustituirlo (Nasr et al., 2025). Que esto ocurra no depende del modelo, sino de sostener un ciclo iterativo —preguntar, leer críticamente, descartar y reformular— bajo el propio juicio, y no de delegar la tarea (Ji et al., 2025).
+En el caso de Renata, el resultado no depende solo de “una buena conversación”. También
+depende del primer borrador, la consigna que exige conservar el matiz, la fuente que permite
+comprobar el supuesto y la decisión de no confundir fluidez con exactitud. Nombrar esa
+configuración ayuda a mirar el proceso completo sin presentar al sistema como autor moral ni
+a la estudiante como simple operadora.
 
 {{< udgia-figure id="udgia-f05-cocreacion" src="cocreacion-dos-desenlaces.svg" >}}
-El ciclo tiene cuatro movimientos:
-
-1. **Formular:** definir el propósito, la pregunta y los criterios antes de solicitar una
-   respuesta.
-2. **Evaluar:** contrastar la salida con el propósito, el conocimiento disciplinar y
-   fuentes verificables.
-3. **Descartar:** rechazar lo que sea falso, irrelevante o incompatible con los criterios.
-4. **Reformular:** revisar la posición propia o la solicitud y comenzar una iteración mejor
-   informada.
-
-| Decisión de la persona | Efecto de la interacción | Desenlace |
+| Decisión de la persona | Interacción con IA | Consecuencia cognitiva |
 |---|---|---|
-| Conserva el propósito, los criterios y la validación. | Activa objeciones, conexiones y revisión. | Produce ganancia cognitiva que puede explicarse y transferirse. |
-| Acepta salidas sin contrastarlas ni decidir. | Sustituye trabajo intelectual y oculta cuánto se dejó de pensar. | Deriva en descarga cognitiva y cesión de dirección. |
+| Conserva la dirección epistémica | Formula, evalúa, descarta y reformula con criterio propio | **Ganancia cognitiva:** el juicio crítico y la comprensión se fortalecen |
+| Cede la dirección epistémica | Acepta sugerencias acríticamente sin contrastar supuestos | **Descarga cognitiva:** se reduce el esfuerzo de pensamiento y la comprensión profunda |
 {{< /udgia-figure >}}
 
-## Decide cómo recuperar la dirección del proceso
+## El rastro útil es pequeño y significativo
 
-Este caso no pide recordar una definición. Pide decidir qué hacer cuando una respuesta
-convincente no resiste el contraste con sus propias fuentes. La actividad es una práctica
-formativa: no genera una calificación, no registra el intento y no se entrega como evidencia.
+Documentar co-creación no exige entregar una transcripción completa. Un registro breve puede
+mostrar mejor el aprendizaje:
 
-{{< h5p id="direccion-epistemica-decidir-reformular" load="manual" title="Decidir, contrastar y reformular" >}}
-### Versión textual del caso
+| Cambio considerado | Qué aportó el sistema | Qué hizo la persona | Evidencia conservada |
+|---|---|---|---|
+| Acortar la explicación | Una versión más fluida | Recuperó el matiz que se había perdido | Versión anterior, versión final y razón |
+| Revisar un supuesto | Una objeción contextual | Consultó una fuente y cambió el argumento | Fuente, decisión y fragmento revisado |
 
-Una IA propone una explicación clara sobre un problema de tu disciplina, pero dos
-afirmaciones no están respaldadas por las fuentes citadas. La ruta que conserva la dirección
-epistémica es:
+Este registro permite observar juicio y revisión. Guardar cada clic, en cambio, puede añadir
+ruido, exponer información innecesaria y desplazar la atención hacia el uso de la herramienta.
+Conviene conservar solo aquello que permite reconstruir una decisión relevante.
 
-1. explicitar el criterio con el que se juzgará la respuesta;
-2. verificar las afirmaciones en fuentes pertinentes;
-3. decidir qué conservar o rechazar y explicar por qué;
-4. reformular la pregunta y el texto a partir de ese contraste.
+## La alternativa sin IA conserva el mismo aprendizaje
 
-Editar solamente el estilo, elegir lo que repiten varios sistemas, pedir a la IA que se evalúe
-a sí misma o conservar el chat completo no sustituye esa secuencia. Pueden aportar material,
-pero el juicio debe permanecer en la persona y modificar la siguiente iteración.
-{{< /h5p >}}
+La actividad también puede ofrecer dos cambios preparados por el profesorado o intercambiar
+borradores entre pares. La ruta cambia, pero la evidencia se mantiene: una comparación, una
+comprobación, una versión revisada y una razón. Al comparar las rutas, conviene comprobar que
+la alternativa exige el mismo pensamiento y no se convierte en sanción para quien no puede o
+no desea usar IA.
 
-El docente puede pedir que el estudiante identifique y comente sus desplazamientos:
+Puede ser razonable no usar la herramienta cuando el material contiene datos sensibles,
+cuando no ofrece condiciones de uso aceptables o cuando la ayuda realizaría justamente el
+trabajo que se intenta aprender. La decisión de no usarla también expresa agencia si responde
+al propósito y a las condiciones reales.
 
-- "¿En qué momento la IA dijo algo que no esperabas?"
-- "¿Cambiaste de opinión sobre algo? ¿Por qué?"
-- "¿Rechazaste algo que la IA propuso? ¿Con qué argumento?"
+## Cuatro preguntas para conservar la dirección
 
-### 4. La transparencia como competencia, no como vigilancia
+Antes de aceptar una sugerencia, prueba estas preguntas:
 
-En el marco del agenciamiento (ensamblaje), la [transparencia](/ia-educacion/etica-y-transparencia/) no es un mecanismo de control ("demuestra que no hiciste trampa"). Es una **competencia académica**: la capacidad de explicitar cómo se produjo el conocimiento, con qué herramientas, qué decisiones se tomaron y qué sesgos se identificaron (Lodge & Loble, 2026).
+1. ¿Qué problema intentaba resolver antes de pedir ayuda?
+2. ¿Qué cambió exactamente en la propuesta?
+3. ¿Qué fuente, criterio o ejemplo permite comprobarla?
+4. ¿Qué conservaré, transformaré o descartaré, y por qué?
 
-## Relaciona los conceptos
+[La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia del que proviene este criterio;
+todavía no es una norma institucional vigente. En esta página se vuelve una secuencia de
+acciones: distinguir qué aportó la herramienta, comprobar cómo influyó y conservar la
+responsabilidad por la decisión. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lo traduce en una comparación de
+versiones que documenta un cambio significativo sin delegar la explicación final.
 
-Las tarjetas siguientes funcionan como repaso después de leer las secciones anteriores.
-Cada concepto responde una pregunta distinta: cómo se distribuye el trabajo, quién conserva
-el criterio, qué hace visible el recorrido y qué aprendizaje permanece en la persona.
+En pocas palabras: una herramienta puede introducir una posibilidad que cambie el recorrido.
+Hay co-creación educativa cuando la persona la comprueba, la transforma y puede responder por
+la decisión; no cuando el acabado oculta el trabajo que dejó de realizar.
 
-{{< h5p id="cocreacion-conceptos-cards" load="manual" title="Conceptos para co-crear con dirección" >}}
-### Cuatro relaciones para revisar
+## Cómo continuar
 
-| Concepto | Pregunta que ayuda a responder |
-|---|---|
-| Co-creación | ¿Cómo se distribuyó el trabajo entre la persona y el sistema? |
-| Dirección epistémica | ¿Quién decidió qué cuenta como una respuesta pertinente y fundada? |
-| Trazabilidad | ¿Qué evidencias permiten reconstruir las decisiones importantes? |
-| Ganancia cognitiva | ¿Qué puede explicar o transferir ahora la persona que antes no podía? |
-
-Escribe un ejemplo en el que estén presentes las cuatro relaciones. Después cambia una
-decisión para mostrar cómo el mismo uso de IA podría convertirse en delegación pasiva.
-{{< /h5p >}}
-
-## El rizoma como complemento
-
-El concepto de agenciamiento (ensamblaje) se vincula con otro de Deleuze: el **rizoma**. Frente al modelo arbóreo del conocimiento (raíz → tronco → ramas → hojas), el rizoma crece en cualquier dirección, sin centro ni jerarquía.
-
-La IA potencia el rizoma educativo porque permite al estudiante:
-
-- Seguir conexiones inesperadas entre disciplinas
-- Explorar tangentes que en clase se descartarían por falta de tiempo
-- Construir mapas de conocimiento no lineales
-- Vincular conceptos de formas que el currículo no prevé
-
-El docente no prescribe un camino: diseña **condiciones de exploración**. Para profundizar en este aspecto, la tarea de [aprendizaje rizomático con IA](/ia-educacion/guias/aprendizaje-rizomatico-ia/) está en desarrollo.
-
-## Objeciones frecuentes
-
-**"Esto suena a que el estudiante puede hacer lo que quiera."**
-No. El agenciamiento (ensamblaje) opera dentro de un marco: hay competencias a desarrollar, hay criterios de evaluación, hay un docente que supervisa. Lo que cambia es que el *camino* hacia esas competencias no está predeterminado.
-
-**"¿Cómo evalúo algo que no puedo predecir?"**
-Evaluando el proceso: las decisiones del estudiante, la calidad de sus preguntas a la IA, la documentación de su recorrido, la reflexión sobre sus desplazamientos. La [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece instrumentos concretos para esto.
-
-**"¿No estamos romantizando la IA?"**
-El agenciamiento (ensamblaje) no asume que la IA es inteligente. Asume que la interacción entre persona e IA produce efectos cognitivos que vale la pena estudiar y diseñar pedagógicamente. La [alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) sigue siendo imprescindible.
-
-## Consejos pedagógicos
-
-{{< alert icon="lightbulb" type="info" >}}
-**Pide los prompts, no solo los productos.** El historial de interacciones con la IA muestra el proceso de pensamiento del estudiante con más detalle que cualquier ensayo final.
-{{< /alert >}}
-
-{{< alert icon="lightbulb" type="info" >}}
-**Usa la palabra "co-producción" en el aula.** El lenguaje importa. Decir "co-producción" en lugar de "uso de herramienta" cambia la disposición del estudiante hacia la interacción.
-{{< /alert >}}
-
-## Relación con otras secciones del sitio
-
-- La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) aplica el agenciamiento (ensamblaje) en contexto de proyectos
-- Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) ofrecen el contrapeso necesario para evitar una adopción acrítica
-
-## Recursos adicionales
-
-- [Rhizomatic Learning — Dave Cormier](https://davecormier.com/edblog/rhizomatic-learning/) — Desarrollo del concepto de aprendizaje rizomático
-- [Posthumanism and Educational Research — Taylor & Hughes](https://www.routledge.com/Posthumanism-and-Educational-Research/Taylor-Hughes/p/book/9781138283480) — Marcos posthumanistas para educación
-
-## Referencias
-
-- Cormier, D. (2008). Rhizomatic education: Community as curriculum. *Innovate: Journal of Online Education*, *4*(5), 2. https://nsuworks.nova.edu/innovate/vol4/iss5/2
-- Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trad.). University of Minnesota Press.
-- Hayles, N. K. (2017). *Unthought: The power of the cognitive nonconscious*. University of Chicago Press.
-- Ji, Y., Zhan, Z., Li, T., Zou, X., & Lyu, S. (2025). Human–machine cocreation: The effects of ChatGPT on students' learning performance, AI awareness, critical thinking, and cognitive load in a STEM course toward entrepreneurship. *IEEE Transactions on Learning Technologies*, *18*, 402–415. https://doi.org/10.1109/TLT.2025.3554584
-- Lodge, J. M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
-- Nasr, N. R., Tu, C.-H., Werner, J., Bauer, T., Yen, C.-J., & Sujo-Montes, L. (2025). Exploring the impact of generative AI ChatGPT on critical thinking in higher education: Passive AI-directed use or human–AI supported collaboration? *Education Sciences*, *15*(9), Artículo 1198. https://doi.org/10.3390/educsci15091198
-- Nail, T. (2017). What is an assemblage? *SubStance*, *46*(1), 21–37. https://doi.org/10.3368/ss.46.1.21
+La co-creación permite observar quién conserva la dirección. El siguiente paso es mirar qué
+trabajo realiza la persona con las ideas. Continúa con [Qué hace activa una experiencia de
+aprendizaje]({{< relref "formacion-docente/aprendizaje-activo" >}}).

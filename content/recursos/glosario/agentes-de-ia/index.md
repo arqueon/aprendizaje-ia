@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia"]
 showHero: true
 summary: "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos."
+description: "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos."
 ---
 
 Un **agente de IA** (*AI agent*) representa una evolución sobre los modelos generativos puros. Mientras que un modelo de lenguaje clásico responde a un comando aislado, un agente posee la arquitectura para percibir su entorno (digital), tomar decisiones lógicas en pasos secuenciales y ejecutar acciones mediante el uso de herramientas externas para alcanzar una meta compleja.

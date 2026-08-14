@@ -1,14 +1,14 @@
 ---
-title: "Aprendizaje híbrido (blended learning)"
-date: 2026-04-06
+title: "Conectar momentos para que el aprendizaje avance"
+date: "2026-08-03"
 draft: false
-description: "Qué es el aprendizaje híbrido, cómo combina la presencialidad y la educación en línea, y cómo implementarlo de manera flexible en la educación superior."
-summary: "El aprendizaje híbrido combina la presencialidad y la educación en línea de manera flexible, redefiniendo el rol del profesor y creando comunidades de aprendizaje centradas en el estudiante."
+description: "Un caso para diseñar continuidad entre momentos presenciales, en línea, síncronos o asíncronos sin confundir modalidad con aprendizaje."
+summary: "Cada momento recibe, transforma y prepara algo; la conexión importa más que repartir materiales entre aula y plataforma."
 tags: ["blended-learning", "aprendizaje-hibrido", "modalidades", "educacion-en-linea", "presencialidad"]
 categories: ["metodologia-pedagogica"]
 areas: ["pedagogia", "digital"]
 
-showHero: true
+showHero: false
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
@@ -17,90 +17,136 @@ showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
 weight: 2
+lastmod: "2026-08-03"
 ---
 
-{{< lead >}}
-Un curso híbrido bien diseñado no es un curso presencial con videos pegados: cada actividad tiene un lugar —el aula o la plataforma— elegido por lo que aporta. El aprendizaje híbrido (*blended learning*) combina la presencialidad y la educación en línea, sumando las ventajas de ambos modelos de manera flexible y centrada en el éxito del estudiante.
-{{< /lead >}}
+Una estudiante prepara antes de la clase una explicación breve sobre un problema de su
+asignatura. Cuando llega al encuentro, el grupo escucha otra explicación del mismo tema, pero
+nadie recupera lo que escribió. Después responde un cuestionario que tampoco utiliza la
+discusión. Hubo plataforma, trabajo previo y sesión común. Sin embargo, las tres tareas no
+llegaron a encontrarse.
 
-## Definición y principios
+Repartir contenidos entre el aula y la red puede describir una combinación de modalidades, pero
+no garantiza una experiencia híbrida coherente. Un criterio para diseñarla es que cada momento
+**reciba algo del anterior, lo transforme y prepare lo que sigue**. Esa continuidad permite que
+una primera idea se convierta en contraste, decisión y revisión.
 
-El aprendizaje híbrido combina la enseñanza presencial con recursos interactivos entregados en línea de manera asincrónica. Los estudiantes deciden en qué momento realizar las actividades en línea, ya que no son en tiempo real. Esto implica usar recursos tecnológicos que permitan nuevas formas de socialización y relación entre estudiantes y entre estos y los profesores (Universidad de Guadalajara, 2022; Nayar & Koul, 2020).
+## Una secuencia es más que una suma de momentos
 
-La implementación efectiva del aprendizaje híbrido debe ser flexible para permitir diferentes experiencias de aprendizaje en línea y presencial en función de las necesidades de cada disciplina o temática. Sus principios son:
+En un diseño híbrido pueden combinarse encuentros presenciales o en línea, actividades que
+ocurren al mismo tiempo o en momentos diferentes —también llamadas síncronas y asíncronas— y
+trabajo individual o compartido. Esas combinaciones describen dónde y cuándo ocurre una
+actividad. Todavía falta decidir para qué sirve cada parte.
 
-- **Flexibilidad**: diferentes combinaciones de aprendizaje cara a cara y en línea según las necesidades del curso.
-- **Autonomía progresiva**: promover que los estudiantes gestionen cada vez más su propio proceso de aprendizaje.
-- **Interactividad**: cada actividad programada debe permitir la interacción y comunicación necesarias para la construcción colectiva del conocimiento.
-- **Comunidades de práctica**: estudiantes y profesores interactúan bajo la premisa de que el aprendizaje ocurre en contextos vinculados con la vida real (Azukas, 2019; Hefetz & Ben-Zvi, 2020).
+Imaginemos que, antes del encuentro, cada persona formula una explicación inicial y anota una
+pregunta. Durante la sesión, el grupo compara explicaciones, examina objeciones y acuerda un
+criterio. Después, cada persona vuelve a su texto, lo revisa y explica qué cambió. El borrador
+prepara el contraste; el contraste prepara la revisión. La secuencia tiene continuidad porque
+el trabajo no se desecha al cambiar de espacio o de horario.
 
-## Redefinición del rol docente
+<picture>
+  <source media="(max-width: 700px)" srcset="muestra-aprendizaje-hibrido-mobile.svg">
+  <img src="muestra-aprendizaje-hibrido.svg" alt="Cada momento usa y transforma lo anterior. Antes se formula un borrador y preguntas; durante el encuentro se contrastan razones, fuentes y alternativas; después se revisa y explica una versión con razones. Una ruta asincrónica puede conservar la misma decisión y evidencia.">
+</picture>
 
-El profesor se convierte en un líder y diseñador de actividades de aprendizaje. Ya no solo dicta conferencias sino que refuerza, guía, apoya y promueve los procesos de comunicación e interacción que definen el ritmo de trabajo y afirman el aprendizaje de los estudiantes (Universidad de Guadalajara, 2022).
+La figura muestra una posibilidad, no una receta. El contraste también puede realizarse de
+manera asíncrona mediante comentarios entre pares, una colección de objeciones preparada por
+el docente o una discusión con plazos amplios. La conexión importa más que el orden fijo: cada
+parte debe utilizar y transformar algo producido antes.
 
-Cada tema del curso se convierte en una comunidad de aprendizaje con actividades de retroalimentación y evaluación orientadas colaborativamente al logro de los objetivos de aprendizaje.
+## El mismo caso, paso a paso
 
-## Características y desarrollo
+Una estudiante necesita explicar por qué dos soluciones aparentemente correctas conducen a
+resultados distintos. Su docente quiere que pueda identificar el supuesto que cambia entre
+ellas y justificar qué solución corresponde al problema.
 
-El aprendizaje híbrido se desarrolla a lo largo de etapas que transitan de lo simple a lo complejo:
+**Antes del encuentro**, la estudiante escribe un primer intento. No necesita que sea
+perfecto. Señala cuál supuesto cree que cambia y anota una duda. Si la actividad permite IA,
+puede pedir una objeción o un ejemplo contrario después de su intento; si no la utiliza,
+trabaja con dos objeciones preparadas por el docente. En ambas rutas llega con una posición
+inicial que puede revisarse.
 
-{{< infografia titulo="Etapas del aprendizaje híbrido" >}}
-  {{< infografia-seccion numero="1" titulo="Etapa 1" icono="step-forward" color="#3b82f6" >}}
-  * **Autonomía del estudiante:** Baja
-  * **Tiempo cara a cara:** Alto
-  * Mayor guía del profesor, actividades presenciales predominantes.
-  {{< /infografia-seccion >}}
+**Durante el encuentro**, compara su explicación con otra. El grupo no vota únicamente por
+la respuesta más convincente: identifica las diferencias, consulta la evidencia disponible y
+formula un criterio común. La presencia de otras personas se aprovecha para responderse y
+transformar ideas, no para repetir lo que ya estaba en una lectura.
 
-  {{< infografia-seccion numero="2" titulo="Etapa 2" icono="forward" color="#0ea5e9" >}}
-  * Introducción gradual de actividades asincrónicas.
-  {{< /infografia-seccion >}}
+**Después del encuentro**, la estudiante revisa su explicación y añade una nota breve: qué
+cambió, qué evidencia influyó y por qué la nueva versión responde mejor al problema. Esa nota
+no intenta registrar cada clic o conversación. Conserva el rastro mínimo que permite observar
+una decisión relevante.
 
-  {{< infografia-seccion numero="3" titulo="Etapa 3" icono="balance-scale" color="#10b981" >}}
-  * **Autonomía del estudiante:** Media
-  * **Tiempo cara a cara:** Medio
-  * Equilibrio entre trabajo autónomo en línea y sesiones presenciales.
-  {{< /infografia-seccion >}}
+La secuencia puede adaptarse. Si no existe un encuentro común, el contraste puede realizarse
+en un foro accesible o con comentarios diferidos. Si la conectividad es intermitente, las
+explicaciones y objeciones pueden distribuirse en un archivo descargable. Lo que debe
+permanecer equivalente es el aprendizaje: formular, contrastar, decidir y revisar con una
+razón.
 
-  {{< infografia-seccion numero="4" titulo="Etapa 4" icono="people-arrows" color="#f59e0b" >}}
-  * Mayor proporción de trabajo autónomo y colaborativo en línea.
-  {{< /infografia-seccion >}}
+## Híbrido y activo responden preguntas diferentes
 
-  {{< infografia-seccion numero="5" titulo="Etapa 5" icono="rocket" color="#ef4444" >}}
-  * **Autonomía del estudiante:** Alta
-  * **Tiempo cara a cara:** Bajo
-  * El tiempo presencial se reserva para trabajo creativo y colaborativo.
-  {{< /infografia-seccion >}}
-{{< /infografia >}}
+El diseño híbrido pregunta **cómo se conectan los momentos**. El aprendizaje activo pregunta
+**qué hace la persona con el conocimiento en cada momento**.
 
-La interacción cara a cara puede darse tanto en línea (sincrónica) como en el aula física. Lo relevante es propiciar mayor tiempo de trabajo autónomo en línea (asincrónico) —revisando materiales, completando ejercicios, viendo videos— para que el tiempo presencial se aproveche en el trabajo creativo y la construcción colectiva de aprendizajes.
+Una clase presencial puede limitarse a escuchar. Una actividad asíncrona puede pedir que la
+persona compare fuentes, construya una explicación o revise una decisión. También puede
+ocurrir al revés. Por eso la modalidad no permite concluir, por sí sola, qué trabajo cognitivo
+ocurre.
 
+Esta distinción ayuda a evitar dos errores. El primero es llamar híbrido a cualquier curso que
+sube materiales a una plataforma. El segundo es suponer que el encuentro común será activo
+solo porque incluye conversación. Una discusión ofrece una oportunidad de construir en común
+cuando sus participantes aportan, examinan y transforman ideas; el formato no garantiza el
+aprendizaje y puede limitarse a turnarse para opinar.
 
+## Antes de distribuir una actividad, revisa su conexión
 
-## El continuo del aprendizaje híbrido
+Puedes probar la secuencia con cinco preguntas:
 
-Ya no existe una distinción tajante entre las modalidades en línea y presencial. En la práctica, siempre hay combinaciones de ambas que varían en dos dimensiones (Universidad de Guadalajara, 2022):
+1. ¿Qué necesita poder hacer la persona al terminar?
+2. ¿Qué primer intento le permitirá llegar con una idea propia?
+3. ¿Cómo utilizará el siguiente momento ese intento?
+4. ¿Qué producto o decisión se transformará después?
+5. ¿De qué otra manera puede realizarse el mismo aprendizaje si cambia el acceso, el horario
+   o el uso de IA?
 
-- **Temporalidad**: desde actividades en tiempo real (sincrónicas) hasta actividades asincrónicas como foros y tareas en línea.
-- **Espacialidad**: desde la modalidad presencial hasta la modalidad completamente en línea.
+No hace falta que todas las actividades tengan tres momentos. Si una tarea puede resolverse
+bien en uno, añadir pasos solo aumenta la carga. Las preguntas sirven para descubrir si la
+distribución aporta continuidad o si fragmenta una experiencia que era más clara de otra
+manera.
 
-Un mismo curso puede combinar actividades asincrónicas (foros, tareas, videos) con clases en tiempo real desarrolladas en línea (Meet, Webex, Zoom) o de manera presencial. La pedagogía en todas las combinaciones posibles debe ser compatible y centrarse en el éxito del estudiante.
+## Una misma evidencia, con IA o sin ella
 
-![Continuo del aprendizaje híbrido: temporalidad y espacialidad](img/continuo-hibrido.svg "Continuo del aprendizaje híbrido — Universidad de Guadalajara, 2022")
+La herramienta no define la calidad de la ruta. En el ejemplo, la evidencia importante es la
+explicación revisada y la razón del cambio. Una ruta puede utilizar una objeción producida por
+IA; la otra, una objeción preparada por el docente o formulada por un par. Ambas deben ofrecer
+tiempo, apoyo y una oportunidad comparables para formular, contrastar y decidir.
 
-## Relación con otros enfoques
+Si la actividad utiliza datos sensibles, una herramienta no ofrece garantías suficientes o
+no existe acceso equitativo, la decisión razonable puede ser aplazarla o no incorporarla. La
+alternativa sin IA no es un castigo ni una versión más pobre. Cambia el apoyo, no el
+aprendizaje que se busca observar.
 
-El aprendizaje híbrido integra y se apoya en otras metodologías:
+## Qué criterio desarrolla esta página
 
-- El **[aula invertida]({{< ref "laboratorio/practicas/aula-invertida" >}})** estructura la relación entre el trabajo fuera del aula (revisión de materiales) y el tiempo presencial (actividades de profundización).
-- El **[aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}})** proporciona las técnicas concretas para que las sesiones presenciales o sincrónicas sean interactivas y participativas.
-- Los **[modelos SAMR e ICAP]({{< ref "formacion-docente/modelos-samr-icap" >}})** ofrecen marcos de referencia para evaluar y mejorar la integración tecnológica dentro del modelo híbrido.
+[La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia que reúne estas decisiones;
+todavía no es una norma institucional vigente. Distingue dos cuestiones complementarias: el
+diseño híbrido conecta de forma deliberada momentos presenciales y en línea, síncronos y
+asíncronos; el aprendizaje activo describe lo que hace la persona con el conocimiento en
+cualquiera de ellos. También propone que cada ruta utilice el trabajo anterior y ofrezca una
+alternativa accesible cuando la modalidad o la herramienta puedan convertirse en una barrera.
 
-En la medida en que nos movemos más allá de la distinción entre aprendizaje presencial y en línea, las comunidades de práctica se vuelven los espacios en los que se combinan talentos e innovaciones, se crean nuevas formas de expresión y se superan necesidades por la vía de la cooperación (Batchelor, 2018).
+[La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) convierte ese criterio en una pregunta de diseño: ¿cómo utilizará
+cada momento el trabajo producido en el anterior? Esa pregunta ayuda a adaptar una actividad
+a una disciplina y a justificar dónde conviene usar, limitar o no usar IA. La página no
+sustituye esa tarea; ofrece el caso y las distinciones que permiten realizarla.
 
-## Referencias
+En pocas palabras: una experiencia híbrida no se reconoce por la cantidad de tecnología ni
+por cuánto trabajo ocurre fuera del aula. Se reconoce porque cada momento tiene una función,
+usa lo que recibió y deja algo que el siguiente puede transformar.
 
-- Azukas, M.E. (2019). Cultivating Blended Communities of Practice to Promote Personalized Learning. *Journal of Online Learning Research*, *5*(3), 251–274.
-- Batchelor, J. (2018). Learning Design Principles to Support Communities of Practice in a Blended Learning Programme. In *9th Annual UNISA ISTE Conference on Mathematics, Science and Technology Education* (Vol. 315).
-- Hefetz, G., & Ben-Zvi, D. (2020). How Do Communities of Practice Transform Their Practices? *Learning, Culture and Social Interaction*, *26*, 100410.
-- Nayar, B., & Koul, S. (2020). Blended Learning in Higher Education: A Transition to Experiential Classrooms. *International Journal of Educational Management*, *34*(9), 1357–1374.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
+## Cómo continuar
+
+- Para avanzar, distingue **el cambio de la tarea y la implicación cognitiva** en [Dos
+  preguntas distintas sobre una misma actividad]({{< relref "formacion-docente/modelos-samr-icap" >}}).
+- Si necesitas volver a precisar **qué hará la persona con las ideas**, regresa a [Qué hace
+  activa una experiencia de aprendizaje]({{< relref "formacion-docente/aprendizaje-activo" >}}).

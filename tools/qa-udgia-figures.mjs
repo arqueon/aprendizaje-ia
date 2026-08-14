@@ -180,11 +180,11 @@ for (const [id, target] of Object.entries(localTargets)) {
     || meta.license !== 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
     || !meta.attribution?.includes('Generated Output de Napkin AI')
     || meta.editorial_scope !== expectedEditorialScope
-    || meta.authorization_scope !== 'local-preparation-only'
+    || meta.authorization_scope !== 'project-editorial'
     || meta.institutional_policy_status !== 'not-an-institutional-ruling'
     || meta.provenance_kind !== 'napkin-generated-output-adapted'
-    || meta.publication_authorized !== false
-    || !meta.notice?.includes('Piloto local')
+    || meta.publication_authorized !== true
+    || !meta.notice?.includes('Publicación autorizada por Rubén')
   ) {
     failures.push(`${id}: procedencia o alcance local incompletos`);
   }

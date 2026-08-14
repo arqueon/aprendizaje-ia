@@ -335,7 +335,7 @@ try {
     mounts: h5pCalls.stdout.trim().split("\n").filter(Boolean).length
   };
   assert(
-    h5pBaseline.catalogContents === 9 && h5pBaseline.pages === 7 && h5pBaseline.mounts === 10,
+    h5pBaseline.catalogContents === 9 && h5pBaseline.pages === 5 && h5pBaseline.mounts === 7,
     `deriva H5P ${JSON.stringify(h5pBaseline)}`
   );
 

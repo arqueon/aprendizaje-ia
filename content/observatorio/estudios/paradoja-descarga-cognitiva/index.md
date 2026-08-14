@@ -22,6 +22,7 @@ connections:
     page: /ia-educacion/guias/profesorado/
     reason: "Lleva la distinción entre apoyo y sustitución al diseño de actividades."
 summary: "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo."
+description: "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo."
 ---
 
 La integración de la inteligencia artificial (IA) en entornos educativos ha generado preocupación respecto al fenómeno de la "descarga cognitiva". Este término refiere a la transferencia de trabajo mental hacia sistemas automatizados. Investigaciones iniciales apuntaron a que el uso frecuente de herramientas de IA correlacionaba con una reducción en la capacidad de pensamiento crítico, afectando principalmente a usuarios jóvenes (Gerlich, 2025). Estudios neurométricos confirmaron una menor participación neuronal en individuos que delegaban tareas de redacción a sistemas de IA, observando una posterior incapacidad para recordar la información producida (Kosmyna et al., 2025). 

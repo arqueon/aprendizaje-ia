@@ -48,6 +48,7 @@ ecosistema:
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-27
+description: "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo."
 ---
 
 La **ganancia cognitiva** es el reverso de la [descarga cognitiva](/recursos/glosario/descarga-cognitiva/): el efecto que produce la interacción con la IA generativa cuando está **bien orientada**. En lugar de transferir el esfuerzo intelectual al sistema, la interacción introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a la persona a revisar, precisar o abandonar sus supuestos previos.

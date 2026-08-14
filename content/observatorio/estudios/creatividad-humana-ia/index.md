@@ -6,6 +6,7 @@ tags: ["creatividad", "autoría", "ética", "arte generativo"]
 categories: ["estudio"]
 areas: ["ia", "evaluacion"]
 summary: "Un análisis de cómo la IA generativa reconfigura los modelos tradicionales de creatividad, autoría y propiedad en el ecosistema digital."
+description: "Un análisis de cómo la IA generativa reconfigura los modelos tradicionales de creatividad, autoría y propiedad en el ecosistema digital."
 ---
 
 ![Representación geométrica de la convergencia entre cognición algorítmica y creatividad humana](creatividad-ia.png)

@@ -5,21 +5,21 @@
     "markdown": 166,
     "pages": 142,
     "sections": 24,
-    "words": 115862,
-    "assets": 189,
+    "words": 115169,
+    "assets": 195,
     "pages_with_featured": 141,
-    "pages_with_svg": 12,
+    "pages_with_svg": 16,
     "pages_with_tables": 64,
     "pages_with_mermaid": 18,
-    "pages_with_h5p": 7,
-    "pages_with_any_interaction": 9,
+    "pages_with_h5p": 5,
+    "pages_with_any_interaction": 7,
     "body_lt90": 2,
     "body_lt250": 28,
     "body_gt2800": 1,
-    "missing_description": 25,
-    "missing_summary": 8,
+    "missing_description": 0,
+    "missing_summary": 0,
     "missing_date_pages": 0,
-    "citation_without_reference_heading": 5,
+    "citation_without_reference_heading": 1,
     "legacy_glossary_link_occurrences": 0,
     "broken_internal_link_occurrences": 0
   },
@@ -60,22 +60,22 @@
     "formacion-docente": {
       "pages": 17,
       "sections": 1,
-      "words": 16310,
+      "words": 16168,
       "featured": 18,
-      "svg": 0,
-      "h5p": 3,
-      "tables": 9,
+      "svg": 5,
+      "h5p": 2,
+      "tables": 8,
       "weak_lt250": 0,
-      "missing_refs_with_citations": 1
+      "missing_refs_with_citations": 0
     },
     "ia-educacion": {
       "pages": 59,
       "sections": 7,
-      "words": 59513,
+      "words": 58882,
       "featured": 48,
-      "svg": 20,
-      "h5p": 5,
-      "tables": 116,
+      "svg": 21,
+      "h5p": 3,
+      "tables": 115,
       "weak_lt250": 4,
       "missing_refs_with_citations": 0
     },
@@ -115,13 +115,13 @@
     "recursos": {
       "pages": 40,
       "sections": 6,
-      "words": 16406,
+      "words": 16486,
       "featured": 44,
       "svg": 1,
       "h5p": 0,
       "tables": 3,
       "weak_lt250": 23,
-      "missing_refs_with_citations": 3
+      "missing_refs_with_citations": 0
     }
   },
   "taxonomy": {
@@ -1085,7 +1085,7 @@
       "date": "",
       "draft": false,
       "description": "Espacio de convergencia entre pedagogía y tecnología para abordar la complejidad de la docencia en la era de la inteligencia artificial.",
-      "summary": "",
+      "summary": "Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que integran inteligencia artificial y aprendizaje digital.",
       "tags": [],
       "categories": [],
       "areas": [],
@@ -1780,11 +1780,11 @@
       "route": "/formacion-docente/aprendizaje-activo/",
       "kind": "page",
       "section": "formacion-docente",
-      "title": "Aprendizaje activo: estrategias y técnicas",
-      "date": "2026-04-06",
+      "title": "Qué hace activa una experiencia de aprendizaje",
+      "date": "2026-08-03",
       "draft": false,
-      "description": "Fundamentos del aprendizaje activo, catálogo de técnicas para el aula presencial y en línea, y su relación con el desarrollo de habilidades en la educación superior.",
-      "summary": "El aprendizaje activo promueve la participación, la colaboración y el pensamiento crítico. Incluye un catálogo de técnicas aplicables en el aula presencial y en línea.",
+      "description": "Cómo reconocer el trabajo cognitivo por lo que la persona produce, contrasta y revisa, no por la cantidad de tecnología o movimiento.",
+      "summary": "Distingue recibir, manipular, generar y construir para diseñar una actividad que haga visible el aprendizaje.",
       "tags": [
         "aprendizaje-activo",
         "active-learning",
@@ -1799,36 +1799,31 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1081,
-      "heading_count": 7,
+      "words": 830,
+      "heading_count": 6,
       "h2_count": 6,
-      "external_url_count": 2,
-      "citation_signals": 5,
-      "reference_heading": true,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
       "internal_link_count": 0,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 1,
-        "svg_count": 0,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "infografia",
-          "infografia-seccion",
-          "lead",
-          "ref"
+          "relref"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis",
-        "interaccion-candidata"
+        "tabla-sintesis"
       ]
     },
     {
@@ -1836,11 +1831,11 @@
       "route": "/formacion-docente/aprendizaje-hibrido/",
       "kind": "page",
       "section": "formacion-docente",
-      "title": "Aprendizaje híbrido (blended learning)",
-      "date": "2026-04-06",
+      "title": "Conectar momentos para que el aprendizaje avance",
+      "date": "2026-08-03",
       "draft": false,
-      "description": "Qué es el aprendizaje híbrido, cómo combina la presencialidad y la educación en línea, y cómo implementarlo de manera flexible en la educación superior.",
-      "summary": "El aprendizaje híbrido combina la presencialidad y la educación en línea de manera flexible, redefiniendo el rol del profesor y creando comunidades de aprendizaje centradas en el estudiante.",
+      "description": "Un caso para diseñar continuidad entre momentos presenciales, en línea, síncronos o asíncronos sin confundir modalidad con aprendizaje.",
+      "summary": "Cada momento recibe, transforma y prepara algo; la conexión importa más que repartir materiales entre aula y plataforma.",
       "tags": [
         "blended-learning",
         "aprendizaje-hibrido",
@@ -1855,35 +1850,32 @@
         "pedagogia",
         "digital"
       ],
-      "words": 873,
-      "heading_count": 6,
-      "h2_count": 6,
+      "words": 1155,
+      "heading_count": 7,
+      "h2_count": 7,
       "external_url_count": 0,
-      "citation_signals": 5,
-      "reference_heading": true,
+      "citation_signals": 0,
+      "reference_heading": false,
       "internal_link_count": 0,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
-        "inline_image_count": 1,
-        "svg_count": 0,
+        "local_asset_count": 3,
+        "inline_image_count": 2,
+        "svg_count": 2,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "infografia",
-          "infografia-seccion",
-          "lead",
-          "ref"
+          "relref"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis"
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -2095,11 +2087,11 @@
       "route": "/formacion-docente/modelos-samr-icap/",
       "kind": "page",
       "section": "formacion-docente",
-      "title": "Modelos SAMR e ICAP para la integración tecnológica",
-      "date": "2026-04-06",
+      "title": "Dos preguntas distintas sobre una misma actividad",
+      "date": "2026-08-03",
       "draft": false,
-      "description": "Dos marcos de referencia para integrar tecnología en el aula de manera efectiva: el modelo SAMR (sustitución, aumento, modificación, redefinición) y el modelo ICAP (pasivo, activo, constructivo, interactivo).",
-      "summary": "El modelo SAMR evalúa el nivel de integración tecnológica en el aula. El modelo ICAP vincula los niveles de compromiso cognitivo de los estudiantes con los resultados del aprendizaje activo.",
+      "description": "SAMR describe qué cambió en la tarea e ICAP qué hizo la persona con las ideas; ninguna lente califica por sí sola una tecnología.",
+      "summary": "Separa transformación tecnológica e implicación cognitiva para evitar escaleras y correspondencias rígidas.",
       "tags": [
         "samr",
         "icap",
@@ -2114,36 +2106,31 @@
         "digital",
         "pedagogia"
       ],
-      "words": 974,
+      "words": 890,
       "heading_count": 6,
-      "h2_count": 4,
+      "h2_count": 6,
       "external_url_count": 0,
-      "citation_signals": 5,
-      "reference_heading": true,
+      "citation_signals": 0,
+      "reference_heading": false,
       "internal_link_count": 0,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
-        "inline_image_count": 2,
-        "svg_count": 0,
+        "local_asset_count": 2,
+        "inline_image_count": 1,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "infografia",
-          "infografia-seccion",
-          "lead",
-          "ref"
+          "relref"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
-        "svg-diagrama",
-        "tabla-sintesis",
-        "interaccion-candidata"
+        "tabla-sintesis"
       ]
     },
     {
@@ -2216,12 +2203,12 @@
         "formacion",
         "digital"
       ],
-      "words": 378,
-      "heading_count": 4,
-      "h2_count": 4,
+      "words": 393,
+      "heading_count": 5,
+      "h2_count": 5,
       "external_url_count": 0,
       "citation_signals": 1,
-      "reference_heading": false,
+      "reference_heading": true,
       "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
@@ -2239,9 +2226,7 @@
         ]
       },
       "decision": "actualizar",
-      "needs": [
-        "procedencia"
-      ]
+      "needs": []
     },
     {
       "path": "formacion-docente/syllabus-portafolio/index.md",
@@ -2357,11 +2342,11 @@
       "route": "/formacion-docente/taxonomia-bloom-diseno-inverso/",
       "kind": "page",
       "section": "formacion-docente",
-      "title": "Taxonomía de Bloom y diseño inverso de aprendizajes",
-      "date": "2026-04-06",
+      "title": "Partir de lo que quieres observar",
+      "date": "2026-08-03",
       "draft": false,
-      "description": "Cómo usar la taxonomía de Bloom para seleccionar niveles de aprendizaje y el diseño inverso (backward design) para construir objetivos y experiencias de aprendizaje.",
-      "summary": "La taxonomía de Bloom identifica niveles cognitivos para diseñar actividades; el diseño inverso (backward design) parte de los resultados deseados para planear las experiencias de aprendizaje.",
+      "description": "Cómo alinear propósito, evidencia, experiencia y asistencia sin diseñar desde la herramienta ni clasificar una tarea por un verbo aislado.",
+      "summary": "Bloom ayuda a describir la demanda; el diseño inverso mantiene conectados propósito, evidencia, experiencia y apoyo.",
       "tags": [
         "taxonomia-bloom",
         "diseno-inverso",
@@ -2376,36 +2361,31 @@
         "pedagogia",
         "evaluacion"
       ],
-      "words": 966,
-      "heading_count": 13,
-      "h2_count": 7,
-      "external_url_count": 1,
-      "citation_signals": 2,
-      "reference_heading": true,
+      "words": 862,
+      "heading_count": 6,
+      "h2_count": 6,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
       "internal_link_count": 0,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
-        "inline_image_count": 2,
-        "svg_count": 0,
-        "table_count": 1,
+        "local_asset_count": 2,
+        "inline_image_count": 1,
+        "svg_count": 1,
+        "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 1,
+        "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "h5p",
-          "infografia",
-          "infografia-seccion",
-          "lead",
-          "ref"
+          "relref"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
-        "svg-diagrama",
-        "fallback-verificar"
+        "tabla-sintesis"
       ]
     },
     {
@@ -2534,7 +2514,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1435,
+      "words": 1513,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -2547,7 +2527,7 @@
         "local_asset_count": 3,
         "inline_image_count": 0,
         "svg_count": 2,
-        "table_count": 0,
+        "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -2559,7 +2539,6 @@
       },
       "decision": "actualizar",
       "needs": [
-        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
@@ -2572,7 +2551,7 @@
       "date": "",
       "draft": false,
       "description": "Disposiciones, directrices y marcos para el uso ético, transparente e íntegro de la IA en la docencia y la investigación.",
-      "summary": "",
+      "summary": "Disposiciones, directrices y marcos para el uso ético, transparente e íntegro de la IA en la docencia y la investigación universitaria.",
       "tags": [],
       "categories": [],
       "areas": [
@@ -2988,7 +2967,7 @@
       "date": "",
       "draft": false,
       "description": "Guías de uso, tutoriales y recursos paso a paso para integrar herramientas de IA en la docencia universitaria.",
-      "summary": "",
+      "summary": "Guías prácticas y tutoriales para integrar herramientas de inteligencia artificial en la docencia universitaria.",
       "tags": [],
       "categories": [],
       "areas": [
@@ -3075,11 +3054,11 @@
       "route": "/ia-educacion/guias/agenciamiento-humano-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "El agenciamiento (ensamblaje) persona-IA — marco conceptual para docentes",
-      "date": "2026-04-14",
+      "title": "Conservar la dirección del trabajo con IA",
+      "date": "2026-08-03",
       "draft": false,
-      "description": "Marco conceptual basado en Deleuze y Guattari para entender la relación persona-IA como un agenciamiento (ensamblaje) productivo, no como uso de herramienta.",
-      "summary": "Ni la persona usa la IA como herramienta pasiva, ni la IA reemplaza a la persona. El par persona-IA constituye un agenciamiento (ensamblaje): una relación productiva que genera algo nuevo.",
+      "description": "Un caso para distinguir una sugerencia de una decisión y comprender la co-creación sin trasladar la responsabilidad a la herramienta.",
+      "summary": "Formula, contrasta, decide y conserva un rastro breve de los cambios que puedes sostener.",
       "tags": [
         "agenciamiento (ensamblaje)",
         "Deleuze",
@@ -3095,34 +3074,32 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1710,
-      "heading_count": 17,
-      "h2_count": 11,
-      "external_url_count": 6,
-      "citation_signals": 4,
-      "reference_heading": true,
-      "internal_link_count": 6,
+      "words": 1001,
+      "heading_count": 6,
+      "h2_count": 6,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 3,
-        "inline_image_count": 0,
-        "svg_count": 2,
-        "table_count": 4,
+        "local_asset_count": 4,
+        "inline_image_count": 1,
+        "svg_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 2,
+        "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "alert",
-          "h5p",
-          "lead",
+          "relref",
           "udgia-figure"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
-        "fallback-verificar"
+        "interaccion-candidata"
       ]
     },
     {
@@ -5518,7 +5495,7 @@
       "date": "2026-04-03",
       "draft": false,
       "description": "Exploración conceptual, diferenciación terminológica y taxonomía de la educación digital para el nivel superior.",
-      "summary": "",
+      "summary": "Exploración conceptual, diferenciación terminológica y taxonomía de la educación digital para el nivel superior.",
       "tags": [
         "Educación digital",
         "Taxonomía",
@@ -6060,7 +6037,7 @@
       "date": "2026-07-26",
       "draft": false,
       "description": "Fixture no curricular para validar el reproductor H5P autoalojado del sitio.",
-      "summary": "",
+      "summary": "Fixture técnica no curricular para validar el reproductor H5P autoalojado del sitio.",
       "tags": [
         "h5p",
         "laboratorio",
@@ -6575,7 +6552,7 @@
       "date": "2026-05-11",
       "draft": false,
       "description": "Este sitio se publica bajo Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).",
-      "summary": "",
+      "summary": "Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0) del sitio.",
       "tags": [],
       "categories": [],
       "areas": [],
@@ -6846,8 +6823,8 @@
       "title": "Estudios, encuestas y hallazgos",
       "date": "",
       "draft": false,
-      "description": "",
-      "summary": "",
+      "description": "Seguimiento, encuestas y estudios sobre el uso e impacto de la inteligencia artificial en la educación universitaria.",
+      "summary": "Seguimiento, encuestas y estudios sobre el uso e impacto de la inteligencia artificial en la educación universitaria.",
       "tags": [],
       "categories": [],
       "areas": [],
@@ -6886,7 +6863,7 @@
       "title": "Creatividad humana e inteligencia artificial: Más allá del antropocentrismo",
       "date": "2026-04-12",
       "draft": false,
-      "description": "",
+      "description": "Un análisis de cómo la IA generativa reconfigura los modelos tradicionales de creatividad, autoría y propiedad en el ecosistema digital.",
       "summary": "Un análisis de cómo la IA generativa reconfigura los modelos tradicionales de creatividad, autoría y propiedad en el ecosistema digital.",
       "tags": [
         "creatividad",
@@ -6934,7 +6911,7 @@
       "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
       "date": "2026-05-13",
       "draft": false,
-      "description": "",
+      "description": "Reseña del editorial de la Fuerza de Tarea de IA de Organization Science: 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural.",
       "summary": "Reseña del editorial de la Fuerza de Tarea de IA de Organization Science: 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural.",
       "tags": [
         "revisión por pares",
@@ -6973,7 +6950,7 @@
           "lead"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
@@ -6989,7 +6966,7 @@
       "date": "2026-02-06",
       "draft": false,
       "description": "Informe sobre la adopción de IA en universidades de Latinoamérica y UdeG.",
-      "summary": "",
+      "summary": "Resultados de la encuesta DEC 2026 sobre la adopción y percepción de IA en universidades latinoamericanas y la UdeG.",
       "tags": [],
       "categories": [],
       "areas": [],
@@ -7026,7 +7003,7 @@
       "title": "Habitar la IA: técnica, cultura y aprendizaje con Simondon",
       "date": "2026-04-22",
       "draft": false,
-      "description": "",
+      "description": "Una relectura de Gilbert Simondon y del concepto de mundoambiente de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?».",
       "summary": "Una relectura de Gilbert Simondon y del concepto de mundoambiente de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?».",
       "tags": [
         "filosofía de la técnica",
@@ -7066,7 +7043,7 @@
           "lead"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "tabla-sintesis",
         "interaccion-candidata"
@@ -7080,7 +7057,7 @@
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo.",
       "summary": "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo.",
       "tags": [
         "cognición",
@@ -7117,7 +7094,7 @@
           "udgia-figure"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "interaccion-candidata"
       ]
@@ -7999,7 +7976,7 @@
       "title": "Agentes de IA",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos.",
       "summary": "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos.",
       "tags": [
         "tecnología",
@@ -8042,7 +8019,7 @@
       "title": "Alfabetización en IA",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Competencia técnica y ética para comprender, evaluar e interactuar con sistemas algorítmicos.",
       "summary": "Competencia técnica y ética para comprender, evaluar e interactuar con sistemas algorítmicos.",
       "tags": [
         "alfabetización en IA",
@@ -8087,7 +8064,7 @@
       "title": "Aprendizaje activo",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Enfoque donde el estudiante participa directamente en la construcción de conocimiento.",
       "summary": "Enfoque donde el estudiante participa directamente en la construcción de conocimiento.",
       "tags": [
         "aprendizaje-activo",
@@ -8131,7 +8108,7 @@
       "title": "Aprendizaje basado en problemas",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Metodología centrada en el estudiante estructurada en torno a la resolución de problemas abiertos.",
       "summary": "Metodología centrada en el estudiante estructurada en torno a la resolución de problemas abiertos.",
       "tags": [
         "aprendizaje",
@@ -8174,7 +8151,7 @@
       "title": "Aprendizaje digital",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa.",
       "summary": "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa.",
       "tags": [
         "educación digital",
@@ -8218,7 +8195,7 @@
       "title": "Aprendizaje híbrido",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Modelo educativo que amalgama intencionalmente la instrucción presencial con mediaciones digitales.",
       "summary": "Modelo educativo que amalgama intencionalmente la instrucción presencial con mediaciones digitales.",
       "tags": [
         "aprendizaje híbrido",
@@ -8262,7 +8239,7 @@
       "title": "Aprendizaje transformativo",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Aprendizaje profundo caracterizado por la revaluación estructural de presunciones y marcos teóricos.",
       "summary": "Aprendizaje profundo caracterizado por la revaluación estructural de presunciones y marcos teóricos.",
       "tags": [
         "cognición",
@@ -8275,12 +8252,12 @@
       "areas": [
         "pedagogia"
       ],
-      "words": 110,
-      "heading_count": 0,
-      "h2_count": 0,
+      "words": 132,
+      "heading_count": 1,
+      "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 1,
-      "reference_heading": false,
+      "reference_heading": true,
       "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
@@ -8296,9 +8273,7 @@
         "shortcode_names": []
       },
       "decision": "fusionar-o-ampliar",
-      "needs": [
-        "procedencia"
-      ]
+      "needs": []
     },
     {
       "path": "recursos/glosario/aula-invertida/index.md",
@@ -8308,7 +8283,7 @@
       "title": "Aula invertida",
       "date": "2026-04-20",
       "draft": false,
-      "description": "",
+      "description": "Modelo pedagógico que invierte la enseñanza tradicional transfiriendo la instrucción fuera del aula para dedicar el tiempo presencial a actividades prácticas.",
       "summary": "Modelo pedagógico que invierte la enseñanza tradicional transfiriendo la instrucción fuera del aula para dedicar el tiempo presencial a actividades prácticas.",
       "tags": [
         "aula-invertida",
@@ -8353,7 +8328,7 @@
       "title": "Descarga cognitiva",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Transferencia de carga mental y tareas operativas a sistemas automatizados.",
       "summary": "Transferencia de carga mental y tareas operativas a sistemas automatizados.",
       "tags": [
         "cognición",
@@ -8366,12 +8341,12 @@
       "areas": [
         "pedagogia"
       ],
-      "words": 167,
-      "heading_count": 0,
-      "h2_count": 0,
+      "words": 195,
+      "heading_count": 1,
+      "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 1,
-      "reference_heading": false,
+      "reference_heading": true,
       "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
@@ -8387,9 +8362,7 @@
         "shortcode_names": []
       },
       "decision": "fusionar-o-ampliar",
-      "needs": [
-        "procedencia"
-      ]
+      "needs": []
     },
     {
       "path": "recursos/glosario/diseno-inverso/index.md",
@@ -8399,7 +8372,7 @@
       "title": "Diseño inverso",
       "date": "2026-04-20",
       "draft": false,
-      "description": "",
+      "description": "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción.",
       "summary": "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción.",
       "tags": [
         "diseño-inverso",
@@ -8444,7 +8417,7 @@
       "title": "Evaluación auténtica",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Marcos de evaluación diseñados para medir competencias reales, centrados en el proceso y el juicio crítico del estudiante.",
       "summary": "Marcos de evaluación diseñados para medir competencias reales, centrados en el proceso y el juicio crítico del estudiante.",
       "tags": [
         "evaluación auténtica",
@@ -8458,12 +8431,12 @@
         "pedagogia",
         "evaluacion"
       ],
-      "words": 109,
-      "heading_count": 0,
-      "h2_count": 0,
+      "words": 139,
+      "heading_count": 1,
+      "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 1,
-      "reference_heading": false,
+      "reference_heading": true,
       "internal_link_count": 1,
       "broken_internal_links": [],
       "visual": {
@@ -8479,9 +8452,7 @@
         "shortcode_names": []
       },
       "decision": "fusionar-o-ampliar",
-      "needs": [
-        "procedencia"
-      ]
+      "needs": []
     },
     {
       "path": "recursos/glosario/ganancia-cognitiva/index.md",
@@ -8491,7 +8462,7 @@
       "title": "Ganancia cognitiva",
       "date": "2026-05-26",
       "draft": false,
-      "description": "",
+      "description": "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo.",
       "summary": "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo.",
       "tags": [
         "cognición",
@@ -8538,7 +8509,7 @@
       "title": "IA generativa",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Sistemas algorítmicos capaces de generar contenido original a partir de patrones.",
       "summary": "Sistemas algorítmicos capaces de generar contenido original a partir de patrones.",
       "tags": [
         "IA generativa",
@@ -8581,7 +8552,7 @@
       "title": "Ingeniería de prompts",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje.",
       "summary": "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje.",
       "tags": [
         "prompts",
@@ -8624,7 +8595,7 @@
       "title": "Integridad académica",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas.",
       "summary": "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas.",
       "tags": [
         "integridad académica",
@@ -8668,7 +8639,7 @@
       "title": "Modelo SAMR",
       "date": "2026-04-20",
       "draft": false,
-      "description": "",
+      "description": "Marco teórico de cuatro niveles (Sustitución, Aumento, Modificación, Redefinición) para evaluar la integración de la tecnología en la educación.",
       "summary": "Marco teórico de cuatro niveles (Sustitución, Aumento, Modificación, Redefinición) para evaluar la integración de la tecnología en la educación.",
       "tags": [
         "samr",
@@ -8713,7 +8684,7 @@
       "title": "Pensamiento crítico",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Capacidad cognitiva de evaluación objetiva y síntesis de la información.",
       "summary": "Capacidad cognitiva de evaluación objetiva y síntesis de la información.",
       "tags": [
         "pensamiento crítico",
@@ -8756,7 +8727,7 @@
       "title": "Sesgo algorítmico",
       "date": "2026-04-20",
       "draft": false,
-      "description": "",
+      "description": "Errores sistemáticos en sistemas informáticos que generan resultados injustos, originados en los datos de entrenamiento o el diseño del modelo.",
       "summary": "Errores sistemáticos en sistemas informáticos que generan resultados injustos, originados en los datos de entrenamiento o el diseño del modelo.",
       "tags": [
         "sesgos",
@@ -8801,7 +8772,7 @@
       "title": "Taxonomía de Bloom",
       "date": "2026-04-19",
       "draft": false,
-      "description": "",
+      "description": "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación.",
       "summary": "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación.",
       "tags": [
         "taxonomía",
@@ -8848,7 +8819,7 @@
       "title": "Tutor inteligente",
       "date": "2026-04-20",
       "draft": false,
-      "description": "",
+      "description": "Sistema de software que utiliza inteligencia artificial para simular el comportamiento de un tutor humano y proveer instrucción personalizada.",
       "summary": "Sistema de software que utiliza inteligencia artificial para simular el comportamiento de un tutor humano y proveer instrucción personalizada.",
       "tags": [
         "tutor IA",

@@ -1,5 +1,7 @@
 ---
 title: Estudios, encuestas y hallazgos
+summary: "Seguimiento, encuestas y estudios sobre el uso e impacto de la inteligencia artificial en la educación universitaria."
+description: "Seguimiento, encuestas y estudios sobre el uso e impacto de la inteligencia artificial en la educación universitaria."
 ---
 
 Resultados de encuestas y monitoreo del ecosistema. Una radiografía de cómo la comunidad universitaria adopta, resiste o ignora la inteligencia artificial en sus aulas.

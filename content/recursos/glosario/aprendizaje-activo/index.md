@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["pedagogia"]
 showHero: true
 summary: "Enfoque donde el estudiante participa directamente en la construcción de conocimiento."
+description: "Enfoque donde el estudiante participa directamente en la construcción de conocimiento."
 ---
 
 El **aprendizaje activo** (*active learning*) es un marco pedagógico que requiere que el estudiante se involucre activamente en el proceso cognitivo (mediante el análisis, la síntesis y la evaluación), en contraposición a la recepción pasiva de información que caracteriza a los modelos de transmisión tradicional.
