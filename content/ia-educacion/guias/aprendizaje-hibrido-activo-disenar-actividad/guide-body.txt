@@ -45,73 +45,73 @@
     <figure>
       <svg viewbox="0 0 900 470" role="img" aria-label="Diagrama de los dos órdenes: el orden en que se diseña la actividad y el orden en que el estudiante la vive, con la inversión entre el durante y el antes destacada">
         <defs>
-          <marker id="fN" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#202d49"/></marker>
-          <marker id="fC" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#a8202a"/></marker>
-          <marker id="fO" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6e792d"/></marker>
+          <marker id="fN" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--udg-c-ink, #18223c)"/></marker>
+          <marker id="fC" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--udg-c-primary, #34508c)"/></marker>
+          <marker id="fO" viewbox="0 0 10 10" refx="9" refy="5" markerwidth="7" markerheight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="var(--udg-c-good, #536326)"/></marker>
         </defs>
 
-        <text x="40" y="26" font-family="'Avenir Next','Segoe UI',sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#6e792d">CÓMO SE DISEÑA · ORDEN DE TRABAJO</text>
-        <text x="570" y="26" font-family="'Avenir Next','Segoe UI',sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="#6e792d">CÓMO SE VIVE · ORDEN DEL ESTUDIANTE</text>
+        <text x="40" y="26" font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="var(--udg-c-good, #536326)">CÓMO SE DISEÑA · ORDEN DE TRABAJO</text>
+        <text x="570" y="26" font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="12" font-weight="700" letter-spacing="2" fill="var(--udg-c-good, #536326)">CÓMO SE VIVE · ORDEN DEL ESTUDIANTE</text>
 
         <!-- chips izquierda -->
-        <g font-family="'Avenir Next','Segoe UI',sans-serif" font-size="14.5" fill="#1d2a42">
-          <rect x="40" y="44" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="69" r="15" fill="#a8202a"/><text x="68" y="74" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="14.5" fill="var(--udg-c-ink, #18223c)">
+          <rect x="40" y="44" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="69" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="74" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">1</text>
           <text x="94" y="74">Definir el <tspan font-weight="700">objetivo</tspan></text>
 
-          <rect x="40" y="110" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="135" r="15" fill="#a8202a"/><text x="68" y="140" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+          <rect x="40" y="110" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="135" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="140" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">2</text>
           <text x="94" y="140">Definir la <tspan font-weight="700">evidencia</tspan></text>
 
-          <rect x="40" y="176" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="201" r="15" fill="#a8202a"/><text x="68" y="206" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+          <rect x="40" y="176" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="201" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="206" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">3</text>
           <text x="94" y="206">Diseñar el <tspan font-weight="700">DURANTE</tspan></text>
 
-          <rect x="40" y="242" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="267" r="15" fill="#a8202a"/><text x="68" y="272" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">4</text>
+          <rect x="40" y="242" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="267" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="272" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">4</text>
           <text x="94" y="272">Diseñar el <tspan font-weight="700">ANTES</tspan></text>
 
-          <rect x="40" y="308" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="333" r="15" fill="#a8202a"/><text x="68" y="338" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">5</text>
+          <rect x="40" y="308" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="333" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="338" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">5</text>
           <text x="94" y="338">Diseñar el <tspan font-weight="700">DESPUÉS</tspan></text>
 
-          <rect x="40" y="374" width="310" height="50" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="68" cy="399" r="15" fill="#a8202a"/><text x="68" y="404" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">6</text>
+          <rect x="40" y="374" width="310" height="50" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="68" cy="399" r="15" fill="var(--udg-c-primary, #34508c)"/><text x="68" y="404" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">6</text>
           <text x="94" y="404">Revisar la <tspan font-weight="700">alineación</tspan></text>
         </g>
 
         <!-- columna derecha -->
-        <rect x="558" y="146" width="324" height="240" rx="14" fill="none" stroke="#6e792d" stroke-dasharray="6 5"/>
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
-          <rect x="570" y="44" width="300" height="64" rx="10" fill="#efe7d7" stroke="#a8202a" stroke-width="1.6"/>
-          <text x="720" y="70" font-size="14" font-weight="700" fill="#202d49" text-anchor="middle">Meta: desempeño observable</text>
-          <text x="720" y="90" font-size="12.5" fill="#1d2a42" text-anchor="middle">+ el producto que lo demuestra</text>
+        <rect x="558" y="146" width="324" height="240" rx="14" fill="none" stroke="var(--udg-c-good, #536326)" stroke-dasharray="6 5"/>
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
+          <rect x="570" y="44" width="300" height="64" rx="10" fill="var(--udg-c-surface-alt, #ece9e1)" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.6"/>
+          <text x="720" y="70" font-size="14" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Meta: desempeño observable</text>
+          <text x="720" y="90" font-size="12.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">+ el producto que lo demuestra</text>
 
-          <rect x="570" y="158" width="300" height="52" rx="10" fill="#f1eadc" stroke="#c9baa2"/>
-          <text x="590" y="189" font-size="14" fill="#1d2a42"><tspan font-weight="700">ANTES</tspan> · activación</text>
+          <rect x="570" y="158" width="300" height="52" rx="10" fill="var(--udg-c-surface-alt, #ece9e1)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="590" y="189" font-size="14" fill="var(--udg-c-ink, #18223c)"><tspan font-weight="700">ANTES</tspan> · activación</text>
 
-          <rect x="570" y="240" width="300" height="52" rx="10" fill="#f1eadc" stroke="#c9baa2"/>
-          <text x="590" y="271" font-size="14" fill="#1d2a42"><tspan font-weight="700">DURANTE</tspan> · hacer</text>
+          <rect x="570" y="240" width="300" height="52" rx="10" fill="var(--udg-c-surface-alt, #ece9e1)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="590" y="271" font-size="14" fill="var(--udg-c-ink, #18223c)"><tspan font-weight="700">DURANTE</tspan> · hacer</text>
 
-          <rect x="570" y="322" width="300" height="52" rx="10" fill="#f1eadc" stroke="#c9baa2"/>
-          <text x="590" y="353" font-size="14" fill="#1d2a42"><tspan font-weight="700">DESPUÉS</tspan> · integración</text>
+          <rect x="570" y="322" width="300" height="52" rx="10" fill="var(--udg-c-surface-alt, #ece9e1)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="590" y="353" font-size="14" fill="var(--udg-c-ink, #18223c)"><tspan font-weight="700">DESPUÉS</tspan> · integración</text>
 
-          <line x1="720" y1="212" x2="720" y2="236" stroke="#8a7d5f" stroke-width="1.6" marker-end="url(#fN)"/>
-          <line x1="720" y1="294" x2="720" y2="318" stroke="#8a7d5f" stroke-width="1.6" marker-end="url(#fN)"/>
+          <line x1="720" y1="212" x2="720" y2="236" stroke="var(--udg-c-muted, #525d70)" stroke-width="1.6" marker-end="url(#fN)"/>
+          <line x1="720" y1="294" x2="720" y2="318" stroke="var(--udg-c-muted, #525d70)" stroke-width="1.6" marker-end="url(#fN)"/>
         </g>
 
         <!-- conectores -->
-        <path d="M350 69 C 460 69 470 76 564 76" fill="none" stroke="#202d49" stroke-width="1.8" marker-end="url(#fN)"/>
-        <path d="M350 135 C 465 135 470 94 564 92" fill="none" stroke="#202d49" stroke-width="1.8" marker-end="url(#fN)"/>
-        <path d="M350 201 C 470 201 455 266 564 266" fill="none" stroke="#a8202a" stroke-width="2.6" marker-end="url(#fC)"/>
-        <path d="M350 267 C 470 267 455 184 564 184" fill="none" stroke="#a8202a" stroke-width="2.6" marker-end="url(#fC)"/>
-        <path d="M350 333 C 460 333 470 348 564 348" fill="none" stroke="#202d49" stroke-width="1.8" marker-end="url(#fN)"/>
-        <path d="M350 399 C 450 399 480 382 552 374" fill="none" stroke="#6e792d" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#fO)"/>
+        <path d="M350 69 C 460 69 470 76 564 76" fill="none" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/>
+        <path d="M350 135 C 465 135 470 94 564 92" fill="none" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/>
+        <path d="M350 201 C 470 201 455 266 564 266" fill="none" stroke="var(--udg-c-primary, #34508c)" stroke-width="2.6" marker-end="url(#fC)"/>
+        <path d="M350 267 C 470 267 455 184 564 184" fill="none" stroke="var(--udg-c-primary, #34508c)" stroke-width="2.6" marker-end="url(#fC)"/>
+        <path d="M350 333 C 460 333 470 348 564 348" fill="none" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/>
+        <path d="M350 399 C 450 399 480 382 552 374" fill="none" stroke="var(--udg-c-good, #536326)" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#fO)"/>
 
-        <text x="452" y="152" font-family="'Avenir Next','Segoe UI',sans-serif" font-size="12.5" font-style="italic" font-weight="600" fill="#a8202a" text-anchor="middle">la inversión clave:</text>
-        <text x="452" y="168" font-family="'Avenir Next','Segoe UI',sans-serif" font-size="12.5" font-style="italic" fill="#a8202a" text-anchor="middle">el durante se diseña antes que el antes</text>
+        <text x="452" y="152" font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="12.5" font-style="italic" font-weight="600" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">la inversión clave:</text>
+        <text x="452" y="168" font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="12.5" font-style="italic" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">el durante se diseña antes que el antes</text>
 
-        <text x="450" y="452" font-family="'Avenir Next','Segoe UI',sans-serif" font-size="12.5" fill="#7a6f57" text-anchor="middle">El antes y el después existen al servicio del durante; el durante existe al servicio del objetivo.</text>
+        <text x="450" y="452" font-family=""Archivo Narrow",'Segoe UI',sans-serif" font-size="12.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">El antes y el después existen al servicio del durante; el durante existe al servicio del objetivo.</text>
       </svg>
       <figcaption><strong>Figura 1.</strong> Los dos órdenes de toda actividad. La numeración carmín es el orden de diseño; la columna derecha, el orden en que la vive el estudiante. Los pasos 1 y 2 fijan la meta; el 6 revisa la coherencia del conjunto.</figcaption>
     </figure>
@@ -163,53 +163,53 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 320" role="img" aria-label="Fórmula del objetivo de aprendizaje: verbo más contenido más condición más criterio, con un ejemplo armado y coloreado por ingrediente">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- caja VERBO -->
-          <rect x="26" y="42" width="196" height="112" rx="10" fill="#fdfbf6" stroke="#a8202a" stroke-width="1.4"/>
-          <path d="M26 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="#a8202a"/>
-          <text x="124" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">VERBO</text>
-          <text x="124" y="98" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">¿Qué hará,</text>
-          <text x="124" y="115" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">observable?</text>
-          <text x="124" y="140" font-size="11" font-weight="600" fill="#6e792d" text-anchor="middle">comparará</text>
+          <rect x="26" y="42" width="196" height="112" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.4"/>
+          <path d="M26 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="124" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">VERBO</text>
+          <text x="124" y="98" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">¿Qué hará,</text>
+          <text x="124" y="115" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">observable?</text>
+          <text x="124" y="140" font-size="11" font-weight="600" fill="var(--udg-c-good, #536326)" text-anchor="middle">comparará</text>
 
-          <circle cx="233" cy="98" r="11" fill="#f7f2e8" stroke="#c9baa2"/>
-          <text x="233" y="103" font-size="15" fill="#1d2a42" text-anchor="middle">+</text>
+          <circle cx="233" cy="98" r="11" fill="var(--udg-c-paper, #f5f3ee)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="233" y="103" font-size="15" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">+</text>
 
           <!-- caja CONTENIDO -->
-          <rect x="244" y="42" width="196" height="112" rx="10" fill="#fdfbf6" stroke="#202d49" stroke-width="1.4"/>
-          <path d="M244 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="#202d49"/>
-          <text x="342" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">CONTENIDO</text>
-          <text x="342" y="104" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">¿Sobre qué?</text>
-          <text x="342" y="130" font-size="10.8" font-weight="600" fill="#6e792d" text-anchor="middle">dos explicaciones del</text>
-          <text x="342" y="144" font-size="10.8" font-weight="600" fill="#6e792d" text-anchor="middle">mismo fenómeno</text>
+          <rect x="244" y="42" width="196" height="112" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.4"/>
+          <path d="M244 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="var(--udg-c-ink, #18223c)"/>
+          <text x="342" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">CONTENIDO</text>
+          <text x="342" y="104" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">¿Sobre qué?</text>
+          <text x="342" y="130" font-size="10.8" font-weight="600" fill="var(--udg-c-good, #536326)" text-anchor="middle">dos explicaciones del</text>
+          <text x="342" y="144" font-size="10.8" font-weight="600" fill="var(--udg-c-good, #536326)" text-anchor="middle">mismo fenómeno</text>
 
-          <circle cx="451" cy="98" r="11" fill="#f7f2e8" stroke="#c9baa2"/>
-          <text x="451" y="103" font-size="15" fill="#1d2a42" text-anchor="middle">+</text>
+          <circle cx="451" cy="98" r="11" fill="var(--udg-c-paper, #f5f3ee)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="451" y="103" font-size="15" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">+</text>
 
           <!-- caja CONDICIÓN -->
-          <rect x="462" y="42" width="196" height="112" rx="10" fill="#fdfbf6" stroke="#6e792d" stroke-width="1.4"/>
-          <path d="M462 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="#6e792d"/>
-          <text x="560" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">CONDICIÓN</text>
-          <text x="560" y="98" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">¿Con qué apoyos</text>
-          <text x="560" y="115" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">o límites?</text>
-          <text x="560" y="140" font-size="10.8" font-weight="600" fill="#6e792d" text-anchor="middle">usando la pauta de contraste</text>
+          <rect x="462" y="42" width="196" height="112" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-good, #536326)" stroke-width="1.4"/>
+          <path d="M462 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="var(--udg-c-good, #536326)"/>
+          <text x="560" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">CONDICIÓN</text>
+          <text x="560" y="98" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">¿Con qué apoyos</text>
+          <text x="560" y="115" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">o límites?</text>
+          <text x="560" y="140" font-size="10.8" font-weight="600" fill="var(--udg-c-good, #536326)" text-anchor="middle">usando la pauta de contraste</text>
 
-          <circle cx="669" cy="98" r="11" fill="#f7f2e8" stroke="#c9baa2"/>
-          <text x="669" y="103" font-size="15" fill="#1d2a42" text-anchor="middle">+</text>
+          <circle cx="669" cy="98" r="11" fill="var(--udg-c-paper, #f5f3ee)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="669" y="103" font-size="15" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">+</text>
 
           <!-- caja CRITERIO -->
-          <rect x="680" y="42" width="196" height="112" rx="10" fill="#fdfbf6" stroke="#b07a2a" stroke-width="1.4"/>
-          <path d="M680 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="#b07a2a"/>
-          <text x="778" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">CRITERIO</text>
-          <text x="778" y="98" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">¿Con qué calidad</text>
-          <text x="778" y="115" font-size="12.5" font-style="italic" fill="#1d2a42" text-anchor="middle">mínima?</text>
-          <text x="778" y="140" font-size="10.8" font-weight="600" fill="#6e792d" text-anchor="middle">≥ 3 diferencias con evidencia</text>
+          <rect x="680" y="42" width="196" height="112" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-warning, #914411)" stroke-width="1.4"/>
+          <path d="M680 52 a10 10 0 0 1 10 -10 h176 a10 10 0 0 1 10 10 v24 h-196 z" fill="var(--udg-c-warning, #914411)"/>
+          <text x="778" y="64" font-size="14" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">CRITERIO</text>
+          <text x="778" y="98" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">¿Con qué calidad</text>
+          <text x="778" y="115" font-size="12.5" font-style="italic" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">mínima?</text>
+          <text x="778" y="140" font-size="10.8" font-weight="600" fill="var(--udg-c-good, #536326)" text-anchor="middle">≥ 3 diferencias con evidencia</text>
 
           <!-- ejemplo armado -->
-          <rect x="26" y="192" width="850" height="100" rx="12" fill="#efe7d7" stroke="#c9baa2"/>
-          <text x="46" y="216" font-size="10.5" font-weight="700" letter-spacing="2" fill="#6e792d">EJEMPLO ARMADO</text>
-          <text x="46" y="246" font-family="Georgia,serif" font-size="15.5" fill="#1d2a42">Al finalizar, el estudiante <tspan fill="#a8202a" font-weight="700">comparará</tspan> <tspan fill="#202d49" font-weight="700">dos explicaciones de un mismo fenómeno</tspan>,</text>
-          <text x="46" y="274" font-family="Georgia,serif" font-size="15.5" fill="#1d2a42"><tspan fill="#6e792d" font-weight="700">usando la pauta de contraste del curso</tspan>, y señalará <tspan fill="#b07a2a" font-weight="700">al menos tres diferencias sustentadas con evidencia</tspan>.</text>
+          <rect x="26" y="192" width="850" height="100" rx="12" fill="var(--udg-c-surface-alt, #ece9e1)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <text x="46" y="216" font-size="10.5" font-weight="700" letter-spacing="2" fill="var(--udg-c-good, #536326)">EJEMPLO ARMADO</text>
+          <text x="46" y="246" font-family="Georgia,serif" font-size="15.5" fill="var(--udg-c-ink, #18223c)">Al finalizar, el estudiante <tspan fill="var(--udg-c-primary, #34508c)" font-weight="700">comparará</tspan> <tspan fill="var(--udg-c-ink, #18223c)" font-weight="700">dos explicaciones de un mismo fenómeno</tspan>,</text>
+          <text x="46" y="274" font-family="Georgia,serif" font-size="15.5" fill="var(--udg-c-ink, #18223c)"><tspan fill="var(--udg-c-good, #536326)" font-weight="700">usando la pauta de contraste del curso</tspan>, y señalará <tspan fill="var(--udg-c-warning, #914411)" font-weight="700">al menos tres diferencias sustentadas con evidencia</tspan>.</text>
         </g>
       </svg>
       <figcaption><strong>Figura 2.</strong> La fórmula de cuatro ingredientes. El orden gramatical puede variar; lo que no puede faltar es ninguna de las cuatro piezas. Cada ingrediente responde una pregunta distinta y se verifica por separado.</figcaption>
@@ -246,45 +246,45 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 360" role="img" aria-label="Escalera de la taxonomía de Bloom revisada, de Recordar a Crear, con verbos de ejemplo y la advertencia de que el nivel lo define la tarea real">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- llamada -->
-          <rect x="20" y="14" width="392" height="66" rx="10" fill="#fdfbf6" stroke="#c9baa2"/>
-          <rect x="20" y="14" width="5" height="66" rx="2.5" fill="#a8202a"/>
-          <text x="38" y="40" font-size="12.3" fill="#1d2a42">El nivel no lo da el verbo declarado, sino la tarea real:</text>
-          <text x="38" y="60" font-size="12.3" font-style="italic" fill="#1d2a42">«identificar» puede ser Recordar… o Analizar.</text>
+          <rect x="20" y="14" width="392" height="66" rx="10" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <rect x="20" y="14" width="5" height="66" rx="2.5" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="38" y="40" font-size="12.3" fill="var(--udg-c-ink, #18223c)">El nivel no lo da el verbo declarado, sino la tarea real:</text>
+          <text x="38" y="60" font-size="12.3" font-style="italic" fill="var(--udg-c-ink, #18223c)">«identificar» puede ser Recordar… o Analizar.</text>
 
           <!-- corchete zona meta -->
-          <path d="M470 50 v-8 h405 v8" fill="none" stroke="#a8202a" stroke-width="1.6"/>
-          <text x="672" y="30" font-size="11" font-weight="700" letter-spacing="1.5" fill="#a8202a" text-anchor="middle">META MÍNIMA DEL TRABAJO CENTRAL</text>
+          <path d="M470 50 v-8 h405 v8" fill="none" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.6"/>
+          <text x="672" y="30" font-size="11" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">META MÍNIMA DEL TRABAJO CENTRAL</text>
 
           <!-- escalones -->
-          <rect x="20" y="268" width="136" height="56" rx="6" fill="#e7dcc8"/>
-          <text x="88" y="291" font-size="14" font-weight="700" fill="#1d2a42" text-anchor="middle">Recordar</text>
-          <text x="88" y="309" font-size="10.5" fill="#1d2a42" text-anchor="middle">identificar · listar</text>
+          <rect x="20" y="268" width="136" height="56" rx="6" fill="var(--udg-c-surface-alt, #ece9e1)"/>
+          <text x="88" y="291" font-size="14" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Recordar</text>
+          <text x="88" y="309" font-size="10.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">identificar · listar</text>
 
-          <rect x="163" y="226" width="136" height="56" rx="6" fill="#d5c9a6"/>
-          <text x="231" y="249" font-size="14" font-weight="700" fill="#1d2a42" text-anchor="middle">Comprender</text>
-          <text x="231" y="267" font-size="10.5" fill="#1d2a42" text-anchor="middle">resumir · ejemplificar</text>
+          <rect x="163" y="226" width="136" height="56" rx="6" fill="var(--udg-c-line, #c9c5bb)"/>
+          <text x="231" y="249" font-size="14" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Comprender</text>
+          <text x="231" y="267" font-size="10.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">resumir · ejemplificar</text>
 
-          <rect x="306" y="184" width="136" height="56" rx="6" fill="#a9b26a"/>
-          <text x="374" y="207" font-size="14" font-weight="700" fill="#1d2a42" text-anchor="middle">Aplicar</text>
-          <text x="374" y="225" font-size="10.5" fill="#1d2a42" text-anchor="middle">usar · ejecutar</text>
+          <rect x="306" y="184" width="136" height="56" rx="6" fill="var(--udg-c-good, #536326)"/>
+          <text x="374" y="207" font-size="14" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Aplicar</text>
+          <text x="374" y="225" font-size="10.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">usar · ejecutar</text>
 
-          <rect x="449" y="142" width="136" height="56" rx="6" fill="#c96b60"/>
-          <text x="517" y="165" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Analizar</text>
-          <text x="517" y="183" font-size="10.5" fill="#ffffff" text-anchor="middle">comparar · atribuir</text>
+          <rect x="449" y="142" width="136" height="56" rx="6" fill="#cc615f"/>
+          <text x="517" y="165" font-size="14" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">Analizar</text>
+          <text x="517" y="183" font-size="10.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">comparar · atribuir</text>
 
-          <rect x="592" y="100" width="136" height="56" rx="6" fill="#b8433f"/>
-          <text x="660" y="123" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Evaluar</text>
-          <text x="660" y="141" font-size="10.5" fill="#ffffff" text-anchor="middle">justificar · verificar</text>
+          <rect x="592" y="100" width="136" height="56" rx="6" fill="var(--udg-c-risk, #8b2635)"/>
+          <text x="660" y="123" font-size="14" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">Evaluar</text>
+          <text x="660" y="141" font-size="10.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">justificar · verificar</text>
 
-          <rect x="735" y="58" width="140" height="56" rx="6" fill="#a8202a"/>
-          <text x="805" y="81" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Crear</text>
-          <text x="805" y="99" font-size="10.5" fill="#ffffff" text-anchor="middle">diseñar · componer</text>
+          <rect x="735" y="58" width="140" height="56" rx="6" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="805" y="81" font-size="14" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">Crear</text>
+          <text x="805" y="99" font-size="10.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">diseñar · componer</text>
 
           <!-- eje -->
-          <line x1="20" y1="336" x2="872" y2="336" stroke="#202d49" stroke-width="1.6" marker-end="url(#fN)"/>
-          <text x="446" y="354" font-size="11.5" fill="#7a6f57" text-anchor="middle">complejidad cognitiva</text>
+          <line x1="20" y1="336" x2="872" y2="336" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.6" marker-end="url(#fN)"/>
+          <text x="446" y="354" font-size="11.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">complejidad cognitiva</text>
         </g>
       </svg>
       <figcaption><strong>Figura 3.</strong> La escalera de Bloom revisada. Una regla práctica transferible: las primeras sesiones de un curso pueden trabajar en Recordar/Comprender; a partir del primer tercio, casi toda actividad central debería llegar al menos a Analizar; en el tramo final, a Evaluar y Crear. Si una actividad avanzada queda en Comprender, hay que subirle.</figcaption>
@@ -321,47 +321,47 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 320" role="img" aria-label="Los cuatro niveles ICAP como barras ascendentes: pasivo, activo, constructivo e interactivo, con sus indicadores observables">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- eje de generación -->
-          <line x1="24" y1="240" x2="24" y2="66" stroke="#8a7d5f" stroke-width="1.6" marker-end="url(#fO)"/>
-          <text x="16" y="160" font-size="11" fill="#7a6f57" text-anchor="middle" transform="rotate(-90 16 160)">grado de generación</text>
+          <line x1="24" y1="240" x2="24" y2="66" stroke="var(--udg-c-muted, #525d70)" stroke-width="1.6" marker-end="url(#fO)"/>
+          <text x="16" y="160" font-size="11" fill="var(--udg-c-muted, #525d70)" text-anchor="middle" transform="rotate(-90 16 160)">grado de generación</text>
 
           <!-- pictogramas -->
-          <g stroke="#1d2a42" stroke-width="2" fill="none">
-            <ellipse cx="136" cy="150" rx="20" ry="11"/><circle cx="136" cy="150" r="4.5" fill="#1d2a42" stroke="none"/>
+          <g stroke="var(--udg-c-ink, #18223c)" stroke-width="2" fill="none">
+            <ellipse cx="136" cy="150" rx="20" ry="11"/><circle cx="136" cy="150" r="4.5" fill="var(--udg-c-ink, #18223c)" stroke="none"/>
           </g>
-          <g transform="translate(346 108) rotate(45)"><rect x="-4" y="-17" width="8" height="26" rx="2" fill="#1d2a42"/><path d="M-4 9 L0 20 L4 9 Z" fill="#1d2a42"/></g>
-          <g><circle cx="556" cy="66" r="13" fill="#fdfbf6" stroke="#1d2a42" stroke-width="2"/><line x1="549" y1="66" x2="563" y2="66" stroke="#1d2a42" stroke-width="2.4"/><line x1="556" y1="59" x2="556" y2="73" stroke="#1d2a42" stroke-width="2.4"/></g>
-          <g><circle cx="748" cy="30" r="9" fill="#fdfbf6" stroke="#1d2a42" stroke-width="2"/><circle cx="784" cy="30" r="9" fill="#fdfbf6" stroke="#1d2a42" stroke-width="2"/><line x1="759" y1="25" x2="772" y2="25" stroke="#1d2a42" stroke-width="1.8" marker-end="url(#fN)"/><line x1="773" y1="35" x2="760" y2="35" stroke="#1d2a42" stroke-width="1.8" marker-end="url(#fN)"/></g>
+          <g transform="translate(346 108) rotate(45)"><rect x="-4" y="-17" width="8" height="26" rx="2" fill="var(--udg-c-ink, #18223c)"/><path d="M-4 9 L0 20 L4 9 Z" fill="var(--udg-c-ink, #18223c)"/></g>
+          <g><circle cx="556" cy="66" r="13" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-ink, #18223c)" stroke-width="2"/><line x1="549" y1="66" x2="563" y2="66" stroke="var(--udg-c-ink, #18223c)" stroke-width="2.4"/><line x1="556" y1="59" x2="556" y2="73" stroke="var(--udg-c-ink, #18223c)" stroke-width="2.4"/></g>
+          <g><circle cx="748" cy="30" r="9" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-ink, #18223c)" stroke-width="2"/><circle cx="784" cy="30" r="9" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-ink, #18223c)" stroke-width="2"/><line x1="759" y1="25" x2="772" y2="25" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/><line x1="773" y1="35" x2="760" y2="35" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/></g>
 
           <!-- barras -->
-          <rect x="52" y="176" width="168" height="76" rx="8" fill="#cfc4a9"/>
-          <text x="136" y="203" font-size="15" font-weight="700" fill="#1d2a42" text-anchor="middle">PASIVO</text>
-          <text x="136" y="222" font-size="11" fill="#1d2a42" text-anchor="middle">recibe sin producir</text>
+          <rect x="52" y="176" width="168" height="76" rx="8" fill="var(--udg-c-line, #c9c5bb)"/>
+          <text x="136" y="203" font-size="15" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">PASIVO</text>
+          <text x="136" y="222" font-size="11" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">recibe sin producir</text>
 
-          <rect x="262" y="136" width="168" height="116" rx="8" fill="#a9b26a"/>
-          <text x="346" y="163" font-size="15" font-weight="700" fill="#1d2a42" text-anchor="middle">ACTIVO</text>
-          <text x="346" y="182" font-size="11" fill="#1d2a42" text-anchor="middle">manipula lo dado</text>
+          <rect x="262" y="136" width="168" height="116" rx="8" fill="var(--udg-c-good, #536326)"/>
+          <text x="346" y="163" font-size="15" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">ACTIVO</text>
+          <text x="346" y="182" font-size="11" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">manipula lo dado</text>
 
-          <rect x="472" y="96" width="168" height="156" rx="8" fill="#6e792d"/>
-          <text x="556" y="123" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">CONSTRUCTIVO</text>
-          <text x="556" y="142" font-size="11" fill="#ffffff" text-anchor="middle">genera algo propio</text>
+          <rect x="472" y="96" width="168" height="156" rx="8" fill="var(--udg-c-good, #536326)"/>
+          <text x="556" y="123" font-size="15" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">CONSTRUCTIVO</text>
+          <text x="556" y="142" font-size="11" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">genera algo propio</text>
 
-          <rect x="682" y="56" width="168" height="196" rx="8" fill="#a8202a"/>
-          <text x="766" y="83" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">INTERACTIVO</text>
-          <text x="766" y="102" font-size="11" fill="#ffffff" text-anchor="middle">construye con otros</text>
-          <text x="766" y="116" font-size="11" fill="#ffffff" text-anchor="middle">y cambia por ello</text>
+          <rect x="682" y="56" width="168" height="196" rx="8" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="766" y="83" font-size="15" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">INTERACTIVO</text>
+          <text x="766" y="102" font-size="11" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">construye con otros</text>
+          <text x="766" y="116" font-size="11" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">y cambia por ello</text>
 
           <!-- línea base e indicadores -->
-          <line x1="30" y1="252" x2="880" y2="252" stroke="#202d49" stroke-width="1.6"/>
-          <text x="136" y="276" font-size="10.5" fill="#6b6046" text-anchor="middle">sin producto:</text>
-          <text x="136" y="291" font-size="10.5" fill="#6b6046" text-anchor="middle">la asistencia es la única huella</text>
-          <text x="346" y="276" font-size="10.5" fill="#6b6046" text-anchor="middle">el producto es lo dado,</text>
-          <text x="346" y="291" font-size="10.5" fill="#6b6046" text-anchor="middle">subrayado o elegido</text>
-          <text x="556" y="276" font-size="10.5" fill="#6b6046" text-anchor="middle">el producto contiene algo</text>
-          <text x="556" y="291" font-size="10.5" fill="#6b6046" text-anchor="middle">que no estaba en el material</text>
-          <text x="766" y="276" font-size="10.5" fill="#6b6046" text-anchor="middle">el producto cambia por el diálogo:</text>
-          <text x="766" y="291" font-size="10.5" fill="#6b6046" text-anchor="middle">réplicas que transforman</text>
+          <line x1="30" y1="252" x2="880" y2="252" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.6"/>
+          <text x="136" y="276" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">sin producto:</text>
+          <text x="136" y="291" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">la asistencia es la única huella</text>
+          <text x="346" y="276" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">el producto es lo dado,</text>
+          <text x="346" y="291" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">subrayado o elegido</text>
+          <text x="556" y="276" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">el producto contiene algo</text>
+          <text x="556" y="291" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">que no estaba en el material</text>
+          <text x="766" y="276" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">el producto cambia por el diálogo:</text>
+          <text x="766" y="291" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">réplicas que transforman</text>
         </g>
       </svg>
       <figcaption><strong>Figura 4.</strong> Los cuatro niveles ICAP, diagnosticados por la acción y no por la intención. Bajo cada nivel, su indicador observable: es lo que se mira en el producto, no en la planeación, para saber en qué nivel quedó realmente la actividad.</figcaption>
@@ -404,9 +404,9 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 470" role="img" aria-label="Plano cartesiano con ICAP en el eje horizontal y Bloom en el vertical; cuatro actividades de ejemplo ubicadas en el plano y la zona meta del trabajo central marcada arriba a la derecha">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- rejilla -->
-          <g stroke="#e2d7c1" stroke-width="1">
+          <g stroke="var(--udg-c-line, #c9c5bb)" stroke-width="1">
             <line x1="200" y1="70" x2="200" y2="380"/><line x1="380" y1="70" x2="380" y2="380"/>
             <line x1="560" y1="70" x2="560" y2="380"/><line x1="740" y1="70" x2="740" y2="380"/>
             <line x1="110" y1="94" x2="860" y2="94"/><line x1="110" y1="146" x2="860" y2="146"/>
@@ -415,47 +415,47 @@
           </g>
 
           <!-- zona meta -->
-          <rect x="470" y="70" width="390" height="156" rx="8" fill="rgba(168,32,42,0.06)" stroke="#a8202a" stroke-dasharray="7 5"/>
-          <text x="845" y="90" font-size="11" font-weight="700" letter-spacing="1" fill="#a8202a" text-anchor="end">ZONA META DEL TRABAJO CENTRAL</text>
+          <rect x="470" y="70" width="390" height="156" rx="8" fill="rgba(168,32,42,0.06)" stroke="var(--udg-c-primary, #34508c)" stroke-dasharray="7 5"/>
+          <text x="845" y="90" font-size="11" font-weight="700" letter-spacing="1" fill="var(--udg-c-primary, #34508c)" text-anchor="end">ZONA META DEL TRABAJO CENTRAL</text>
 
           <!-- ejes -->
-          <line x1="100" y1="380" x2="872" y2="380" stroke="#202d49" stroke-width="1.8" marker-end="url(#fN)"/>
-          <line x1="110" y1="390" x2="110" y2="58" stroke="#202d49" stroke-width="1.8" marker-end="url(#fN)"/>
+          <line x1="100" y1="380" x2="872" y2="380" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/>
+          <line x1="110" y1="390" x2="110" y2="58" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8" marker-end="url(#fN)"/>
 
           <!-- etiquetas de ejes -->
-          <text x="200" y="403" font-size="12" fill="#1d2a42" text-anchor="middle">Pasivo</text>
-          <text x="380" y="403" font-size="12" fill="#1d2a42" text-anchor="middle">Activo</text>
-          <text x="560" y="403" font-size="12" fill="#1d2a42" text-anchor="middle">Constructivo</text>
-          <text x="740" y="403" font-size="12" fill="#1d2a42" text-anchor="middle">Interactivo</text>
-          <text x="100" y="358" font-size="12" fill="#1d2a42" text-anchor="end">Recordar</text>
-          <text x="100" y="306" font-size="12" fill="#1d2a42" text-anchor="end">Comprender</text>
-          <text x="100" y="254" font-size="12" fill="#1d2a42" text-anchor="end">Aplicar</text>
-          <text x="100" y="202" font-size="12" fill="#1d2a42" text-anchor="end">Analizar</text>
-          <text x="100" y="150" font-size="12" fill="#1d2a42" text-anchor="end">Evaluar</text>
-          <text x="100" y="98" font-size="12" fill="#1d2a42" text-anchor="end">Crear</text>
+          <text x="200" y="403" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Pasivo</text>
+          <text x="380" y="403" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Activo</text>
+          <text x="560" y="403" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Constructivo</text>
+          <text x="740" y="403" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Interactivo</text>
+          <text x="100" y="358" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Recordar</text>
+          <text x="100" y="306" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Comprender</text>
+          <text x="100" y="254" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Aplicar</text>
+          <text x="100" y="202" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Analizar</text>
+          <text x="100" y="150" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Evaluar</text>
+          <text x="100" y="98" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Crear</text>
 
-          <text x="490" y="432" font-size="12.5" font-weight="700" fill="#202d49" text-anchor="middle">ICAP · grado de generación</text>
-          <text x="34" y="225" font-size="12.5" font-weight="700" fill="#202d49" text-anchor="middle" transform="rotate(-90 34 225)">BLOOM · complejidad cognitiva</text>
+          <text x="490" y="432" font-size="12.5" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">ICAP · grado de generación</text>
+          <text x="34" y="225" font-size="12.5" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle" transform="rotate(-90 34 225)">BLOOM · complejidad cognitiva</text>
 
           <!-- puntos de ejemplo -->
-          <circle cx="200" cy="170" r="8" fill="#a8202a"/>
-          <text x="216" y="163" font-size="12" fill="#1d2a42">Escuchar un análisis brillante del docente</text>
-          <text x="216" y="179" font-size="10.5" fill="#7a6f57">alto Bloom · nula generación</text>
+          <circle cx="200" cy="170" r="8" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="216" y="163" font-size="12" fill="var(--udg-c-ink, #18223c)">Escuchar un análisis brillante del docente</text>
+          <text x="216" y="179" font-size="10.5" fill="var(--udg-c-muted, #525d70)">alto Bloom · nula generación</text>
 
-          <circle cx="380" cy="330" r="8" fill="#8a7d5f"/>
-          <text x="396" y="324" font-size="12" fill="#1d2a42">Cuestionario de opción múltiple</text>
-          <text x="396" y="340" font-size="10.5" fill="#7a6f57">manipula lo dado, sin complejidad</text>
+          <circle cx="380" cy="330" r="8" fill="var(--udg-c-muted, #525d70)"/>
+          <text x="396" y="324" font-size="12" fill="var(--udg-c-ink, #18223c)">Cuestionario de opción múltiple</text>
+          <text x="396" y="340" font-size="10.5" fill="var(--udg-c-muted, #525d70)">manipula lo dado, sin complejidad</text>
 
-          <circle cx="560" cy="276" r="8" fill="#6e792d"/>
-          <text x="576" y="270" font-size="12" fill="#1d2a42">Escribir una analogía propia</text>
-          <text x="576" y="286" font-size="10.5" fill="#7a6f57">genera, con complejidad media</text>
+          <circle cx="560" cy="276" r="8" fill="var(--udg-c-good, #536326)"/>
+          <text x="576" y="270" font-size="12" fill="var(--udg-c-ink, #18223c)">Escribir una analogía propia</text>
+          <text x="576" y="286" font-size="10.5" fill="var(--udg-c-muted, #525d70)">genera, con complejidad media</text>
 
-          <circle cx="740" cy="146" r="8" fill="#202d49"/>
-          <text x="726" y="126" font-size="12" fill="#1d2a42" text-anchor="end">Réplica entre equipos que</text>
-          <text x="726" y="141" font-size="12" fill="#1d2a42" text-anchor="end">obliga a revisar el producto</text>
-          <text x="726" y="157" font-size="10.5" fill="#7a6f57" text-anchor="end">complejo y generativo</text>
+          <circle cx="740" cy="146" r="8" fill="var(--udg-c-ink, #18223c)"/>
+          <text x="726" y="126" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">Réplica entre equipos que</text>
+          <text x="726" y="141" font-size="12" fill="var(--udg-c-ink, #18223c)" text-anchor="end">obliga a revisar el producto</text>
+          <text x="726" y="157" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="end">complejo y generativo</text>
 
-          <text x="485" y="460" font-size="12" fill="#7a6f57" text-anchor="middle">Dos ejes independientes: se puede exigir pensamiento complejo sin generar nada, y generar mucho sin complejidad.</text>
+          <text x="485" y="460" font-size="12" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">Dos ejes independientes: se puede exigir pensamiento complejo sin generar nada, y generar mucho sin complejidad.</text>
         </g>
       </svg>
       <figcaption><strong>Figura 5.</strong> El plano Bloom × ICAP. El punto carmín es la trampa habitual de la buena cátedra: demanda cognitiva alta con generación nula. La zona punteada es la meta del trabajo central de la sesión; el antes y el después pueden —y suelen— quedar fuera de ella, a propósito.</figcaption>
@@ -467,27 +467,27 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 310" role="img" aria-label="Arco ICAP de una actividad: el antes arranca activo y sube a constructivo, el durante alcanza el nivel interactivo, y el después baja a constructivo individual">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- etiquetas de fase -->
-          <rect x="110" y="18" width="110" height="24" rx="12" fill="#6e792d"/>
-          <text x="165" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">ANTES</text>
-          <rect x="395" y="18" width="110" height="24" rx="12" fill="#a8202a"/>
-          <text x="450" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">DURANTE</text>
-          <rect x="690" y="18" width="110" height="24" rx="12" fill="#202d49"/>
-          <text x="745" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="#ffffff" text-anchor="middle">DESPUÉS</text>
+          <rect x="110" y="18" width="110" height="24" rx="12" fill="var(--udg-c-good, #536326)"/>
+          <text x="165" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">ANTES</text>
+          <rect x="395" y="18" width="110" height="24" rx="12" fill="var(--udg-c-primary, #34508c)"/>
+          <text x="450" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">DURANTE</text>
+          <rect x="690" y="18" width="110" height="24" rx="12" fill="var(--udg-c-ink, #18223c)"/>
+          <text x="745" y="34" font-size="11" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">DESPUÉS</text>
 
           <!-- separadores de fase -->
-          <line x1="280" y1="52" x2="280" y2="266" stroke="#c9baa2" stroke-dasharray="3 6"/>
-          <line x1="620" y1="52" x2="620" y2="266" stroke="#c9baa2" stroke-dasharray="3 6"/>
+          <line x1="280" y1="52" x2="280" y2="266" stroke="var(--udg-c-line, #c9c5bb)" stroke-dasharray="3 6"/>
+          <line x1="620" y1="52" x2="620" y2="266" stroke="var(--udg-c-line, #c9c5bb)" stroke-dasharray="3 6"/>
 
           <!-- niveles ICAP -->
-          <g stroke="#cbbfa4" stroke-dasharray="4 6">
+          <g stroke="var(--udg-c-line, #c9c5bb)" stroke-dasharray="4 6">
             <line x1="112" y1="96" x2="860" y2="96"/>
             <line x1="112" y1="148" x2="860" y2="148"/>
             <line x1="112" y1="200" x2="860" y2="200"/>
             <line x1="112" y1="252" x2="860" y2="252"/>
           </g>
-          <g font-size="11" fill="#6b6046" text-anchor="end">
+          <g font-size="11" fill="var(--udg-c-muted, #525d70)" text-anchor="end">
             <text x="104" y="100">Interactivo</text>
             <text x="104" y="152">Constructivo</text>
             <text x="104" y="204">Activo</text>
@@ -495,18 +495,18 @@
           </g>
 
           <!-- trayectoria -->
-          <path d="M126 200 C 176 200 210 152 268 149 L 285 148 C 330 147 330 98 378 97 L 562 96 C 610 96 612 146 656 148 L 842 148" fill="none" stroke="#a8202a" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="126" cy="200" r="6" fill="#202d49"/>
-          <circle cx="268" cy="149" r="6" fill="#6e792d"/>
-          <circle cx="470" cy="96" r="6" fill="#a8202a"/>
-          <circle cx="842" cy="148" r="6" fill="#202d49"/>
+          <path d="M126 200 C 176 200 210 152 268 149 L 285 148 C 330 147 330 98 378 97 L 562 96 C 610 96 612 146 656 148 L 842 148" fill="none" stroke="var(--udg-c-primary, #34508c)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="126" cy="200" r="6" fill="var(--udg-c-ink, #18223c)"/>
+          <circle cx="268" cy="149" r="6" fill="var(--udg-c-good, #536326)"/>
+          <circle cx="470" cy="96" r="6" fill="var(--udg-c-primary, #34508c)"/>
+          <circle cx="842" cy="148" r="6" fill="var(--udg-c-ink, #18223c)"/>
 
-          <text x="126" y="226" font-size="10.5" fill="#6b6046" text-anchor="middle">arranque individual</text>
-          <text x="248" y="132" font-size="11" font-weight="700" fill="#6e792d" text-anchor="middle">huella traíble</text>
-          <text x="470" y="78" font-size="11.5" font-weight="700" fill="#a8202a" text-anchor="middle">contraste entre pares</text>
-          <text x="762" y="131" font-size="11" font-weight="700" fill="#202d49" text-anchor="middle">evidencia individual</text>
+          <text x="126" y="226" font-size="10.5" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">arranque individual</text>
+          <text x="248" y="132" font-size="11" font-weight="700" fill="var(--udg-c-good, #536326)" text-anchor="middle">huella traíble</text>
+          <text x="470" y="78" font-size="11.5" font-weight="700" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">contraste entre pares</text>
+          <text x="762" y="131" font-size="11" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">evidencia individual</text>
 
-          <text x="486" y="292" font-size="12" fill="#7a6f57" text-anchor="middle">La actividad sube de nivel hacia el centro y baja a propósito al final: el después comprueba, en solitario, lo que cada quien aprendió.</text>
+          <text x="486" y="292" font-size="12" fill="var(--udg-c-muted, #525d70)" text-anchor="middle">La actividad sube de nivel hacia el centro y baja a propósito al final: el después comprueba, en solitario, lo que cada quien aprendió.</text>
         </g>
       </svg>
       <figcaption><strong>Figura 6.</strong> La escalera dentro de la actividad. Que el después «baje» a constructivo individual no es una pérdida: es la única ventana limpia para observar aprendizaje individual, porque el trabajo en equipo —y la IA— pueden ocultar a quien no aprendió.</figcaption>
@@ -550,28 +550,28 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 250" role="img" aria-label="Barra de tiempo de los cinco bloques del durante con sus porcentajes: apertura, primer intento, contraste, reconstrucción y cierre">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- corchete sobre contraste -->
-          <path d="M380 82 v-8 h265 v8" fill="none" stroke="#a8202a" stroke-width="1.6"/>
-          <text x="512" y="60" font-size="12.5" font-style="italic" font-weight="600" fill="#a8202a" text-anchor="middle">aquí ocurre el aprendizaje más profundo</text>
+          <path d="M380 82 v-8 h265 v8" fill="none" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.6"/>
+          <text x="512" y="60" font-size="12.5" font-style="italic" font-weight="600" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">aquí ocurre el aprendizaje más profundo</text>
 
           <!-- segmentos -->
-          <rect x="40" y="96" width="105" height="64" fill="#e7dcc8"/>
-          <rect x="145" y="96" width="231" height="64" fill="#a9b26a"/>
-          <rect x="376" y="96" width="273" height="64" fill="#a8202a"/>
-          <rect x="649" y="96" width="147" height="64" fill="#6e792d"/>
-          <rect x="796" y="96" width="63" height="64" fill="#e7dcc8"/>
-          <rect x="40" y="96" width="819" height="64" fill="none" stroke="#8a7d5f"/>
+          <rect x="40" y="96" width="105" height="64" fill="var(--udg-c-surface-alt, #ece9e1)"/>
+          <rect x="145" y="96" width="231" height="64" fill="var(--udg-c-good, #536326)"/>
+          <rect x="376" y="96" width="273" height="64" fill="var(--udg-c-primary, #34508c)"/>
+          <rect x="649" y="96" width="147" height="64" fill="var(--udg-c-good, #536326)"/>
+          <rect x="796" y="96" width="63" height="64" fill="var(--udg-c-surface-alt, #ece9e1)"/>
+          <rect x="40" y="96" width="819" height="64" fill="none" stroke="var(--udg-c-muted, #525d70)"/>
 
-          <text x="92" y="132" font-size="12.5" font-weight="700" fill="#1d2a42" text-anchor="middle">Apertura</text>
-          <text x="260" y="132" font-size="13.5" font-weight="700" fill="#1d2a42" text-anchor="middle">Primer intento</text>
-          <text x="512" y="132" font-size="13.5" font-weight="700" fill="#ffffff" text-anchor="middle">Contraste</text>
-          <text x="722" y="128" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">Reconstruc-</text>
-          <text x="722" y="143" font-size="11.5" font-weight="700" fill="#ffffff" text-anchor="middle">ción</text>
-          <text x="827" y="132" font-size="11.5" font-weight="700" fill="#1d2a42" text-anchor="middle">Cierre</text>
+          <text x="92" y="132" font-size="12.5" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Apertura</text>
+          <text x="260" y="132" font-size="13.5" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Primer intento</text>
+          <text x="512" y="132" font-size="13.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">Contraste</text>
+          <text x="722" y="128" font-size="11.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">Reconstruc-</text>
+          <text x="722" y="143" font-size="11.5" font-weight="700" fill="var(--udg-c-surface, #ffffff)" text-anchor="middle">ción</text>
+          <text x="827" y="132" font-size="11.5" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">Cierre</text>
 
           <!-- porcentajes -->
-          <g font-size="11.5" fill="#1d2a42" text-anchor="middle">
+          <g font-size="11.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">
             <text x="92" y="182">10–15 %</text>
             <text x="260" y="182">25–30 %</text>
             <text x="512" y="182">30–35 %</text>
@@ -579,9 +579,9 @@
             <text x="827" y="182">5–10 %</text>
           </g>
 
-          <text x="40" y="212" font-size="11" fill="#6b6046">sesión típica ≈ 90–120 min</text>
-          <text x="722" y="206" font-size="10.5" fill="#7c1e26" text-anchor="middle">sin reconstrucción, el contraste</text>
-          <text x="722" y="220" font-size="10.5" fill="#7c1e26" text-anchor="middle">queda en anécdota</text>
+          <text x="40" y="212" font-size="11" fill="var(--udg-c-muted, #525d70)">sesión típica ≈ 90–120 min</text>
+          <text x="722" y="206" font-size="10.5" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">sin reconstrucción, el contraste</text>
+          <text x="722" y="220" font-size="10.5" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">queda en anécdota</text>
         </g>
       </svg>
       <figcaption><strong>Figura 7.</strong> La gramática mínima del durante. Los porcentajes son del tiempo total de la sesión. El contraste es el bloque protagonista, pero solo rinde si la reconstrucción tiene tiempo protegido: es habitual quedarse sin él, y es el error más caro.</figcaption>
@@ -641,39 +641,39 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 430" role="img" aria-label="Triángulo de alineación entre objetivo, evidencia y actividad, con los criterios al centro y la pregunta de verificación de cada lado">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- aristas -->
-          <line x1="405" y1="106" x2="230" y2="318" stroke="#202d49" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
-          <line x1="495" y1="106" x2="670" y2="318" stroke="#202d49" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
-          <line x1="312" y1="355" x2="588" y2="355" stroke="#202d49" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
+          <line x1="405" y1="106" x2="230" y2="318" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
+          <line x1="495" y1="106" x2="670" y2="318" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
+          <line x1="312" y1="355" x2="588" y2="355" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-start="url(#fN)" marker-end="url(#fN)"/>
 
           <!-- nodo objetivo -->
-          <rect x="330" y="36" width="240" height="70" rx="12" fill="#fdfbf6" stroke="#a8202a" stroke-width="1.8"/>
-          <text x="450" y="66" font-size="15" font-weight="700" fill="#a8202a" text-anchor="middle" letter-spacing="1">OBJETIVO</text>
-          <text x="450" y="86" font-size="11.5" fill="#1d2a42" text-anchor="middle">lo que debe poder hacer</text>
+          <rect x="330" y="36" width="240" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.8"/>
+          <text x="450" y="66" font-size="15" font-weight="700" fill="var(--udg-c-primary, #34508c)" text-anchor="middle" letter-spacing="1">OBJETIVO</text>
+          <text x="450" y="86" font-size="11.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">lo que debe poder hacer</text>
 
           <!-- nodo evidencia -->
-          <rect x="70" y="320" width="240" height="70" rx="12" fill="#fdfbf6" stroke="#202d49" stroke-width="1.8"/>
-          <text x="190" y="350" font-size="15" font-weight="700" fill="#202d49" text-anchor="middle" letter-spacing="1">EVIDENCIA</text>
-          <text x="190" y="370" font-size="11.5" fill="#1d2a42" text-anchor="middle">el producto que lo demuestra</text>
+          <rect x="70" y="320" width="240" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-ink, #18223c)" stroke-width="1.8"/>
+          <text x="190" y="350" font-size="15" font-weight="700" fill="var(--udg-c-ink, #18223c)" text-anchor="middle" letter-spacing="1">EVIDENCIA</text>
+          <text x="190" y="370" font-size="11.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">el producto que lo demuestra</text>
 
           <!-- nodo actividad -->
-          <rect x="590" y="320" width="240" height="70" rx="12" fill="#fdfbf6" stroke="#6e792d" stroke-width="1.8"/>
-          <text x="710" y="350" font-size="15" font-weight="700" fill="#6e792d" text-anchor="middle" letter-spacing="1">ACTIVIDAD</text>
-          <text x="710" y="370" font-size="11.5" fill="#1d2a42" text-anchor="middle">antes · durante · después</text>
+          <rect x="590" y="320" width="240" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-good, #536326)" stroke-width="1.8"/>
+          <text x="710" y="350" font-size="15" font-weight="700" fill="var(--udg-c-good, #536326)" text-anchor="middle" letter-spacing="1">ACTIVIDAD</text>
+          <text x="710" y="370" font-size="11.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">antes · durante · después</text>
 
           <!-- criterios al centro -->
-          <rect x="358" y="224" width="184" height="48" rx="24" fill="#fdfbf6" stroke="#a8202a" stroke-width="1.6"/>
-          <text x="450" y="244" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="#a8202a" text-anchor="middle">CRITERIOS</text>
-          <text x="450" y="261" font-size="10.5" fill="#1d2a42" text-anchor="middle">2–4 · observables</text>
-          <g stroke="#c9baa2" stroke-dasharray="3 4">
+          <rect x="358" y="224" width="184" height="48" rx="24" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-primary, #34508c)" stroke-width="1.6"/>
+          <text x="450" y="244" font-size="11.5" font-weight="700" letter-spacing="1.5" fill="var(--udg-c-primary, #34508c)" text-anchor="middle">CRITERIOS</text>
+          <text x="450" y="261" font-size="10.5" fill="var(--udg-c-ink, #18223c)" text-anchor="middle">2–4 · observables</text>
+          <g stroke="var(--udg-c-line, #c9c5bb)" stroke-dasharray="3 4">
             <line x1="384" y1="224" x2="316" y2="200"/>
             <line x1="516" y1="224" x2="584" y2="200"/>
             <line x1="450" y1="272" x2="450" y2="340"/>
           </g>
 
           <!-- preguntas por arista -->
-          <g font-size="11.5" font-style="italic" fill="#56503e">
+          <g font-size="11.5" font-style="italic" fill="var(--udg-c-muted, #525d70)">
             <text x="252" y="192" text-anchor="middle">¿el producto demuestra</text>
             <text x="252" y="207" text-anchor="middle">ese desempeño?</text>
             <text x="650" y="192" text-anchor="middle">¿la secuencia lo</text>
@@ -706,61 +706,61 @@
   <div class="figura">
     <figure>
       <svg viewbox="0 0 900 330" role="img" aria-label="Los ocho pasos del procedimiento de diseño en dos filas tipo serpentina, con la nota de rediseño que regresa al inicio">
-        <g font-family="'Avenir Next','Segoe UI',sans-serif">
+        <g font-family=""Archivo Narrow",'Segoe UI',sans-serif">
           <!-- fila 1 -->
-          <rect x="32" y="48" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="58" cy="83" r="16" fill="#a8202a"/><text x="58" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
-          <text x="82" y="79" font-size="12.5" fill="#1d2a42">Situar la actividad</text>
-          <text x="82" y="97" font-size="12.5" fill="#1d2a42">en la ruta del curso</text>
+          <rect x="32" y="48" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="58" cy="83" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="58" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+          <text x="82" y="79" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Situar la actividad</text>
+          <text x="82" y="97" font-size="12.5" fill="var(--udg-c-ink, #18223c)">en la ruta del curso</text>
 
-          <rect x="250" y="48" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="276" cy="83" r="16" fill="#a8202a"/><text x="276" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
-          <text x="300" y="79" font-size="12.5" fill="#1d2a42">Redactar el objetivo</text>
-          <text x="300" y="97" font-size="12.5" fill="#1d2a42">(cuatro ingredientes)</text>
+          <rect x="250" y="48" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="276" cy="83" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="276" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+          <text x="300" y="79" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Redactar el objetivo</text>
+          <text x="300" y="97" font-size="12.5" fill="var(--udg-c-ink, #18223c)">(cuatro ingredientes)</text>
 
-          <rect x="468" y="48" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="494" cy="83" r="16" fill="#a8202a"/><text x="494" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
-          <text x="518" y="79" font-size="12.5" fill="#1d2a42">Verificar la tarea real</text>
-          <text x="518" y="97" font-size="12.5" fill="#1d2a42">contra el nivel Bloom</text>
+          <rect x="468" y="48" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="494" cy="83" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="494" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+          <text x="518" y="79" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Verificar la tarea real</text>
+          <text x="518" y="97" font-size="12.5" fill="var(--udg-c-ink, #18223c)">contra el nivel Bloom</text>
 
-          <rect x="686" y="48" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="712" cy="83" r="16" fill="#a8202a"/><text x="712" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
-          <text x="736" y="79" font-size="12.5" fill="#1d2a42">Fijar el ICAP meta</text>
-          <text x="736" y="97" font-size="12.5" fill="#1d2a42">de cada momento</text>
+          <rect x="686" y="48" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="712" cy="83" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="712" y="88" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+          <text x="736" y="79" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Fijar el ICAP meta</text>
+          <text x="736" y="97" font-size="12.5" fill="var(--udg-c-ink, #18223c)">de cada momento</text>
 
           <!-- fila 2 (derecha a izquierda) -->
-          <rect x="686" y="190" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="712" cy="225" r="16" fill="#a8202a"/><text x="712" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
-          <text x="736" y="221" font-size="12.5" fill="#1d2a42">Diseñar el DURANTE</text>
-          <text x="736" y="239" font-size="12.5" fill="#1d2a42">(los cinco bloques)</text>
+          <rect x="686" y="190" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="712" cy="225" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="712" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+          <text x="736" y="221" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Diseñar el DURANTE</text>
+          <text x="736" y="239" font-size="12.5" fill="var(--udg-c-ink, #18223c)">(los cinco bloques)</text>
 
-          <rect x="468" y="190" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="494" cy="225" r="16" fill="#a8202a"/><text x="494" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
-          <text x="518" y="221" font-size="12.5" fill="#1d2a42">Derivar el ANTES</text>
-          <text x="518" y="239" font-size="12.5" fill="#1d2a42">desde el durante</text>
+          <rect x="468" y="190" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="494" cy="225" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="494" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+          <text x="518" y="221" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Derivar el ANTES</text>
+          <text x="518" y="239" font-size="12.5" fill="var(--udg-c-ink, #18223c)">desde el durante</text>
 
-          <rect x="250" y="190" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="276" cy="225" r="16" fill="#a8202a"/><text x="276" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
-          <text x="300" y="221" font-size="12.5" fill="#1d2a42">Derivar el DESPUÉS</text>
-          <text x="300" y="239" font-size="12.5" fill="#1d2a42">desde el objetivo</text>
+          <rect x="250" y="190" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="276" cy="225" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="276" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+          <text x="300" y="221" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Derivar el DESPUÉS</text>
+          <text x="300" y="239" font-size="12.5" fill="var(--udg-c-ink, #18223c)">desde el objetivo</text>
 
-          <rect x="32" y="190" width="196" height="70" rx="12" fill="#fdfbf6" stroke="#c9baa2"/>
-          <circle cx="58" cy="225" r="16" fill="#a8202a"/><text x="58" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">8</text>
-          <text x="82" y="221" font-size="12.5" fill="#1d2a42">Cotejo final</text>
-          <text x="82" y="239" font-size="12.5" fill="#1d2a42">y publicación</text>
+          <rect x="32" y="190" width="196" height="70" rx="12" fill="var(--udg-c-surface, #ffffff)" stroke="var(--udg-c-line, #c9c5bb)"/>
+          <circle cx="58" cy="225" r="16" fill="var(--udg-c-primary, #34508c)"/><text x="58" y="230" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+          <text x="82" y="221" font-size="12.5" fill="var(--udg-c-ink, #18223c)">Cotejo final</text>
+          <text x="82" y="239" font-size="12.5" fill="var(--udg-c-ink, #18223c)">y publicación</text>
 
           <!-- flechas -->
-          <line x1="228" y1="83" x2="246" y2="83" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <line x1="446" y1="83" x2="464" y2="83" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <line x1="664" y1="83" x2="682" y2="83" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <path d="M784 118 L784 186" fill="none" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <line x1="686" y1="225" x2="668" y2="225" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <line x1="468" y1="225" x2="450" y2="225" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
-          <line x1="250" y1="225" x2="232" y2="225" stroke="#202d49" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="228" y1="83" x2="246" y2="83" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="446" y1="83" x2="464" y2="83" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="664" y1="83" x2="682" y2="83" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <path d="M784 118 L784 186" fill="none" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="686" y1="225" x2="668" y2="225" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="468" y1="225" x2="450" y2="225" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
+          <line x1="250" y1="225" x2="232" y2="225" stroke="var(--udg-c-ink, #18223c)" stroke-width="2" marker-end="url(#fN)"/>
 
           <!-- retorno -->
-          <path d="M130 260 L130 294" fill="none" stroke="#6e792d" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#fO)"/>
-          <text x="148" y="302" font-size="11.5" font-style="italic" fill="#6b6046">la nota post-implementación alimenta el rediseño: es el paso 1 de la próxima vez</text>
+          <path d="M130 260 L130 294" fill="none" stroke="var(--udg-c-good, #536326)" stroke-width="1.8" stroke-dasharray="5 5" marker-end="url(#fO)"/>
+          <text x="148" y="302" font-size="11.5" font-style="italic" fill="var(--udg-c-muted, #525d70)">la nota post-implementación alimenta el rediseño: es el paso 1 de la próxima vez</text>
         </g>
       </svg>
       <figcaption><strong>Figura 9.</strong> El circuito de ocho pasos. Los pasos 1–4 son de definición; los pasos 5–7 son de construcción y siguen el orden inverso de la figura 1 (durante → antes → después); el paso 8 cierra y deja sembrado el rediseño.</figcaption>
@@ -813,7 +813,7 @@
     <div class="fa-head">
       <div class="fa-letra">A</div>
       <div>
-        <h3 class="fa-tit" style="margin:0;color:#202d49">«Un acontecimiento, tres mundos»</h3>
+        <h3 class="fa-tit" style="margin:0;color:var(--udg-c-ink, #18223c)">«Un acontecimiento, tres mundos»</h3>
         <div class="chips">
           <span class="chip">Ciencias sociales · comunicación</span>
           <span class="chip">Bloom: Analizar</span>
@@ -877,7 +877,7 @@
     <div class="fa-head">
       <div class="fa-letra">B</div>
       <div>
-        <h3 class="fa-tit" style="margin:0;color:#202d49">«El modelo contra los datos»</h3>
+        <h3 class="fa-tit" style="margin:0;color:var(--udg-c-ink, #18223c)">«El modelo contra los datos»</h3>
         <div class="chips">
           <span class="chip">Ciencias exactas · ingenierías · economía</span>
           <span class="chip">Bloom: Evaluar</span>
@@ -941,7 +941,7 @@
     <div class="fa-head">
       <div class="fa-letra">C</div>
       <div>
-        <h3 class="fa-tit" style="margin:0;color:#202d49">«El protocolo que sobrevive al caso límite»</h3>
+        <h3 class="fa-tit" style="margin:0;color:var(--udg-c-ink, #18223c)">«El protocolo que sobrevive al caso límite»</h3>
         <div class="chips">
           <span class="chip">Ciencias de la salud · trabajo social · atención a personas</span>
           <span class="chip">Bloom: Crear</span>
