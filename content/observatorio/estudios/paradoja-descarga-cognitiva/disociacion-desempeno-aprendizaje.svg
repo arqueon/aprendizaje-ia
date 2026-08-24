@@ -10,12 +10,12 @@
   <style>
     /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
-    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
-    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
-    .bg-primary { fill:#F7E5E2; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
-    .bg-neutral { fill:#F2EBDF; } .bg-warn { fill:#FDE8C0; }
-    .st-primary { stroke:#B12028; } .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; }
-    .st-warn { stroke:#C9971C; } .st-axis { stroke:#202945; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
   </style>
 
   <g class="tk-font">
@@ -33,13 +33,13 @@
 
     <!-- control (línea discontinua) -->
     <line x1="165" y1="245" x2="330" y2="245" class="st-axis" stroke-width="2" stroke-dasharray="6 5"/>
-    <circle cx="165" cy="245" r="4.5" fill="#202945"/>
-    <circle cx="330" cy="245" r="4.5" fill="#202945"/>
+    <circle cx="165" cy="245" r="4.5" fill="#18223c"/>
+    <circle cx="330" cy="245" r="4.5" fill="#18223c"/>
 
     <!-- con IA -->
     <line x1="165" y1="140" x2="330" y2="290" class="st-risk" stroke-width="2.6"/>
-    <circle cx="165" cy="140" r="5" fill="#9A4A12"/>
-    <circle cx="330" cy="290" r="5" fill="#9A4A12"/>
+    <circle cx="165" cy="140" r="5" fill="#8b2635"/>
+    <circle cx="330" cy="290" r="5" fill="#8b2635"/>
     <text x="172" y="132" font-size="11.5" class="f-risk">Rinde más mientras la usa</text>
     <text x="330" y="312" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-risk">Queda por debajo</text>
 
@@ -59,13 +59,13 @@
 
     <!-- control -->
     <line x1="585" y1="245" x2="750" y2="245" class="st-axis" stroke-width="2" stroke-dasharray="6 5"/>
-    <circle cx="585" cy="245" r="4.5" fill="#202945"/>
-    <circle cx="750" cy="245" r="4.5" fill="#202945"/>
+    <circle cx="585" cy="245" r="4.5" fill="#18223c"/>
+    <circle cx="750" cy="245" r="4.5" fill="#18223c"/>
 
     <!-- con IA andamiada -->
     <line x1="585" y1="130" x2="750" y2="245" class="st-good" stroke-width="2.6"/>
-    <circle cx="585" cy="130" r="5" fill="#5E6A28"/>
-    <circle cx="750" cy="245" r="5" fill="#5E6A28"/>
+    <circle cx="585" cy="130" r="5" fill="#536326"/>
+    <circle cx="750" cy="245" r="5" fill="#536326"/>
     <text x="592" y="122" font-size="11.5" class="f-good">Gana más practicando</text>
     <text x="750" y="228" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-good">mitiga la caída</text>
 

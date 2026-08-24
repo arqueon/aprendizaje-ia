@@ -3,9 +3,9 @@
   <desc id="desc">Versión vertical. El portafolio iterativo, la bitácora de decisiones, la defensa oral y las rúbricas asistidas aportan evidencias complementarias. Los cuatro convergen en la trazabilidad del proceso y el juicio docente.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
-    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#202945}.muted{fill:#5b5a66}.primary{fill:#b12028}.good{fill:#5e6a28}
-    .bg-primary{fill:#f7e5e2}.bg-good{fill:#eceddc}.bg-neutral{fill:#f2ebdf}.bg-warn{fill:#fde8c0}
-    .st-primary{stroke:#b12028}.st-good{stroke:#5e6a28}.st-warn{stroke:#c9971c}.st-axis{stroke:#202945}
+    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}
+    .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.bg-warn{fill:#f4e6d8}
+    .st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-warn{stroke:#914411}.st-axis{stroke:#18223c}
   </style>
   <g class="tk">
     <text x="210" y="36" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Cuatro instrumentos complementarios</text>

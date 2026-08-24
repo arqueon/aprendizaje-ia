@@ -7,10 +7,10 @@
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .tk-font { font-family:'Archivo Narrow',Helvetica,Arial,sans-serif; }
-    .f-ink { fill:#202945; } .f-muted { fill:#5B5A66; }
-    .f-primary { fill:#B12028; } .f-good { fill:#5E6A28; } .f-risk { fill:#9A4A12; }
-    .bg-good { fill:#ECEDDC; } .bg-risk { fill:#F4E6D8; }
-    .st-good { stroke:#5E6A28; } .st-risk { stroke:#9A4A12; } .st-axis { stroke:#202945; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; } .st-axis { stroke:#18223c; }
   </style>
   <g class="tk-font">
     <rect x="20" y="20" width="380" height="355" rx="3" class="bg-risk st-risk" stroke-width="1.6" fill-opacity=".38"/>
@@ -20,11 +20,11 @@
     <line x1="68" y1="295" x2="68" y2="112" class="st-axis" stroke-width="1.6"/>
     <text x="46" y="210" text-anchor="middle" font-size="14" class="f-muted" transform="rotate(-90 46 210)">Desempeño</text>
     <line x1="145" y1="220" x2="315" y2="220" class="st-axis" stroke-width="2.3" stroke-dasharray="7 6"/>
-    <circle cx="145" cy="220" r="5" fill="#202945"/>
-    <circle cx="315" cy="220" r="5" fill="#202945"/>
+    <circle cx="145" cy="220" r="5" fill="#18223c"/>
+    <circle cx="315" cy="220" r="5" fill="#18223c"/>
     <line x1="145" y1="135" x2="315" y2="260" class="st-risk" stroke-width="3"/>
-    <circle cx="145" cy="135" r="6" fill="#9A4A12"/>
-    <circle cx="315" cy="260" r="6" fill="#9A4A12"/>
+    <circle cx="145" cy="135" r="6" fill="#8b2635"/>
+    <circle cx="315" cy="260" r="6" fill="#8b2635"/>
     <text x="145" y="120" text-anchor="middle" font-size="14" font-weight="bold" class="f-risk">Rinde más con IA</text>
     <text x="315" y="280" text-anchor="middle" font-size="14" font-weight="bold" class="f-risk">Queda por debajo</text>
     <text x="145" y="322" text-anchor="middle" font-size="14" class="f-muted">Práctica con IA</text>
@@ -38,11 +38,11 @@
     <line x1="68" y1="680" x2="68" y2="497" class="st-axis" stroke-width="1.6"/>
     <text x="46" y="595" text-anchor="middle" font-size="14" class="f-muted" transform="rotate(-90 46 595)">Desempeño</text>
     <line x1="145" y1="605" x2="315" y2="605" class="st-axis" stroke-width="2.3" stroke-dasharray="7 6"/>
-    <circle cx="145" cy="605" r="5" fill="#202945"/>
-    <circle cx="315" cy="605" r="5" fill="#202945"/>
+    <circle cx="145" cy="605" r="5" fill="#18223c"/>
+    <circle cx="315" cy="605" r="5" fill="#18223c"/>
     <line x1="145" y1="520" x2="315" y2="605" class="st-good" stroke-width="3"/>
-    <circle cx="145" cy="520" r="6" fill="#5E6A28"/>
-    <circle cx="315" cy="605" r="6" fill="#5E6A28"/>
+    <circle cx="145" cy="520" r="6" fill="#536326"/>
+    <circle cx="315" cy="605" r="6" fill="#536326"/>
     <text x="145" y="505" text-anchor="middle" font-size="14" font-weight="bold" class="f-good">Rinde más con IA</text>
     <text x="315" y="588" text-anchor="middle" font-size="14" font-weight="bold" class="f-good">Mitiga la caída</text>
     <text x="145" y="707" text-anchor="middle" font-size="14" class="f-muted">Práctica con IA</text>
