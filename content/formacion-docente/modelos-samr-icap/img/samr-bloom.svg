@@ -11,13 +11,13 @@
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       .th-text { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #18223c; }
       .td-bold { font-family: "Piazzolla", Georgia, serif; font-size: 16px; font-weight: bold; fill: #18223c; }
-      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
+      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #232c47; }
       
       .cat-mejor { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; fill: #536326; font-weight: bold; }
-      .cat-trans { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; fill: #b12028; font-weight: bold; }
+      .cat-trans { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; fill: #34508c; font-weight: bold; }
       
-      .pill-bg-mejor { fill: #eceddc; rx: 12; } .pill-txt-mejor { fill: #3f4b1d; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
-      .pill-bg-trans { fill: #f7e5e2; rx: 12; } .pill-txt-trans { fill: #7f1820; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
+      .pill-bg-mejor { fill: #eceddc; rx: 12; } .pill-txt-mejor { fill: #44521f; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
+      .pill-bg-trans { fill: #e7ecf7; rx: 12; } .pill-txt-trans { fill: #2a4072; font-size: 12px; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; }
 
     </style>
   </defs>

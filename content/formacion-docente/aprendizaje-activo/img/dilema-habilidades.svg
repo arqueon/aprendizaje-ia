@@ -8,17 +8,17 @@
       
       .c1-title { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #536326; }
       .c2-title { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #914411; }
-      .c3-title { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #b12028; }
+      .c3-title { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #34508c; }
       
-      .li-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
+      .li-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #232c47; }
       .res-title { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #18223c; letter-spacing: 1px; }
       
       .box-1 { fill: #eceddc; stroke: #d8dbae; stroke-width: 1; rx: 8; }
-      .box-2 { fill: #f4e6d8; stroke: #e7c7a6; stroke-width: 1; rx: 8; }
-      .box-3 { fill: #f7e5e2; stroke: #efc6c2; stroke-width: 1; rx: 8; }
+      .box-2 { fill: #f4e6d8; stroke: #f4e6d8; stroke-width: 1; rx: 8; }
+      .box-3 { fill: #e7ecf7; stroke: #c3cfe9; stroke-width: 1; rx: 8; }
       
-      .box-text-1 { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #3f4b1d; text-anchor: middle; }
-      .box-text-2 { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #78380f; text-anchor: middle; }
+      .box-text-1 { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #44521f; text-anchor: middle; }
+      .box-text-2 { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #5e2e0d; text-anchor: middle; }
       .box-text-3 { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #7f1820; text-anchor: middle; }
 
     </style>
@@ -63,11 +63,11 @@
   <g transform="translate(600, 100)">
     <rect class="card-bg" width="260" height="200" filter="url(#shadow)" />
     <text x="20" y="35" class="c3-title">Industria</text>
-    <circle cx="20" cy="70" r="4" fill="#b12028" />
+    <circle cx="20" cy="70" r="4" fill="#34508c" />
     <text x="35" y="75" class="li-text">Satisfechos con egresados</text>
     <text x="35" y="95" class="li-text">que tengan adaptabilidad</text>
     <text x="35" y="115" class="li-text">y análisis.</text>
-    <circle cx="20" cy="150" r="4" fill="#b12028" />
+    <circle cx="20" cy="150" r="4" fill="#34508c" />
     <text x="35" y="155" class="li-text">Solicitan habilidades</text>
     <text x="35" y="175" class="li-text">específicas para inicio rápido.</text>
   </g>

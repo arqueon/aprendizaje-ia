@@ -11,9 +11,9 @@
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       
       .th-text { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; font-weight: bold; fill: #18223c; }
-      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
+      .td-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #494f5b; }
       
-      .cat-i { fill: #b12028; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
+      .cat-i { fill: #34508c; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
       .cat-c { fill: #536326; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
       .cat-a { fill: #914411; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }
       .cat-p { fill: #525d70; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 15px; }

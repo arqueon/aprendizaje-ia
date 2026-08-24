@@ -7,11 +7,11 @@
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       .q-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #18223c; }
       .p-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #525d70; }
-      .pct-1 { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #b12028; }
+      .pct-1 { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #34508c; }
       .pct-2 { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #536326; }
       .pct-3 { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #914411; }
       .bar-bg { fill: #ece9e1; rx: 4; }
-      .bar-fill-1 { fill: #b12028; rx: 4; }
+      .bar-fill-1 { fill: #34508c; rx: 4; }
       .bar-fill-2 { fill: #536326; rx: 4; }
       .bar-fill-3 { fill: #914411; rx: 4; }
       

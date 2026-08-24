@@ -7,12 +7,12 @@
       .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 24px; font-weight: bold; fill: #18223c; }
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       
-      .step-pill-1 { fill: #f7e5e2; rx: 12; } .step-txt-1 { fill: #7f1820; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
-      .step-pill-2 { fill: #eceddc; rx: 12; } .step-txt-2 { fill: #3f4b1d; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
-      .step-pill-3 { fill: #f4e6d8; rx: 12; } .step-txt-3 { fill: #78380f; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
+      .step-pill-1 { fill: #e7ecf7; rx: 12; } .step-txt-1 { fill: #2a4072; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
+      .step-pill-2 { fill: #eceddc; rx: 12; } .step-txt-2 { fill: #44521f; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
+      .step-pill-3 { fill: #f4e6d8; rx: 12; } .step-txt-3 { fill: #5e2e0d; font-weight: bold; font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; }
       
       .card-title { font-family: "Piazzolla", Georgia, serif; font-size: 16px; font-weight: bold; fill: #18223c; }
-      .card-desc { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #34405a; }
+      .card-desc { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #232c47; }
 
     </style>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">

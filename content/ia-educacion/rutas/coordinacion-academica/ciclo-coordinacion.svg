@@ -7,7 +7,7 @@
     </marker>
     <style>
       .label{font:700 30px Inter,Arial,sans-serif;fill:#18223c}
-      .detail{font:500 23px Inter,Arial,sans-serif;fill:#344054}
+      .detail{font:500 23px Inter,Arial,sans-serif;fill:#232c47}
       .number{font:800 31px Inter,Arial,sans-serif;text-anchor:middle;dominant-baseline:middle}
       .connector{fill:none;stroke:#536326;stroke-width:8;stroke-linecap:round}
       .node{stroke-width:4}
@@ -23,8 +23,8 @@
   <text x="25" y="685" transform="rotate(-90 25 685)" class="detail" text-anchor="middle">la revisión abre un nuevo ciclo</text>
 
   <g>
-    <rect class="node" x="96" y="46" width="744" height="128" rx="28" fill="#f7e5e2" stroke="#b12028"/>
-    <circle cx="166" cy="110" r="38" fill="#b12028"/>
+    <rect class="node" x="96" y="46" width="744" height="128" rx="28" fill="#e7ecf7" stroke="#34508c"/>
+    <circle cx="166" cy="110" r="38" fill="#34508c"/>
     <text x="166" y="112" class="number" fill="#fff">1</text>
     <text x="224" y="102" class="label">Delimitar</text>
     <text x="224" y="140" class="detail">qué proceso docente se coordinará</text>
@@ -39,15 +39,15 @@
   </g>
 
   <g>
-    <rect class="node" x="96" y="386" width="744" height="128" rx="28" fill="#dcebea" stroke="#2f7f83"/>
-    <circle cx="166" cy="450" r="38" fill="#2f7f83"/>
+    <rect class="node" x="96" y="386" width="744" height="128" rx="28" fill="#eceddc" stroke="#536326"/>
+    <circle cx="166" cy="450" r="38" fill="#536326"/>
     <text x="166" y="452" class="number" fill="#fff">3</text>
     <text x="224" y="442" class="label">Acordar</text>
     <text x="224" y="480" class="detail">criterios mínimos de programa</text>
   </g>
 
   <g>
-    <rect class="node" x="96" y="556" width="744" height="128" rx="28" fill="#eee7d5" stroke="#536326"/>
+    <rect class="node" x="96" y="556" width="744" height="128" rx="28" fill="#ece9e1" stroke="#536326"/>
     <circle cx="166" cy="620" r="38" fill="#536326"/>
     <text x="166" y="622" class="number" fill="#fff">4</text>
     <text x="224" y="612" class="label">Acompañar</text>
@@ -55,15 +55,15 @@
   </g>
 
   <g>
-    <rect class="node" x="96" y="726" width="744" height="128" rx="28" fill="#d99518" stroke="#8a5e0b"/>
-    <circle cx="166" cy="790" r="38" fill="#8a5e0b"/>
+    <rect class="node" x="96" y="726" width="744" height="128" rx="28" fill="#b06a1f" stroke="#914411"/>
+    <circle cx="166" cy="790" r="38" fill="#914411"/>
     <text x="166" y="792" class="number" fill="#fff">5</text>
     <text x="224" y="782" class="label">Pilotar</text>
     <text x="224" y="820" class="detail">en pocas asignaturas o academias</text>
   </g>
 
   <g>
-    <rect class="node" x="96" y="896" width="744" height="128" rx="28" fill="#18223c" stroke="#10172a"/>
+    <rect class="node" x="96" y="896" width="744" height="128" rx="28" fill="#18223c" stroke="#18223c"/>
     <circle cx="166" cy="960" r="38" fill="#f5f3ee"/>
     <text x="166" y="962" class="number" fill="#18223c">6</text>
     <text x="224" y="952" class="label inverse">Revisar</text>
@@ -71,8 +71,8 @@
   </g>
 
   <g>
-    <rect class="node" x="96" y="1066" width="744" height="172" rx="28" fill="#f7e5e2" stroke="#b12028"/>
-    <circle cx="166" cy="1152" r="38" fill="#b12028"/>
+    <rect class="node" x="96" y="1066" width="744" height="172" rx="28" fill="#e7ecf7" stroke="#34508c"/>
+    <circle cx="166" cy="1152" r="38" fill="#34508c"/>
     <text x="166" y="1154" class="number" fill="#fff">✓</text>
     <text x="224" y="1130" class="label">Documentar la decisión</text>
     <text x="224" y="1172" class="detail">sostener · modificar · ampliar · detener</text>

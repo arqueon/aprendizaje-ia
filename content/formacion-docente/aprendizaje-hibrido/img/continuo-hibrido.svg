@@ -9,12 +9,12 @@
       .axis-line { stroke: #c9c5bb; stroke-width: 2; stroke-dasharray: 6 6; }
       .q-title { font-family: "Piazzolla", Georgia, serif; font-size: 16px; font-weight: bold; fill: #18223c; }
       .q-subtitle { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 12px; font-weight: 700; }
-      .q-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #34405a; }
+      .q-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #232c47; }
       
-      .icon-bg-1 { fill: #f7e5e2; rx: 8; } .icon-fg-1 { fill: #b12028; } .text-1 { fill: #7f1820; }
-      .icon-bg-2 { fill: #eceddc; rx: 8; } .icon-fg-2 { fill: #536326; } .text-2 { fill: #3f4b1d; }
-      .icon-bg-3 { fill: #f4e6d8; rx: 8; } .icon-fg-3 { fill: #914411; } .text-3 { fill: #78380f; }
-      .icon-bg-4 { fill: #f8e7ea; rx: 8; } .icon-fg-4 { fill: #8b2635; } .text-4 { fill: #6f1e2a; }
+      .icon-bg-1 { fill: #e7ecf7; rx: 8; } .icon-fg-1 { fill: #34508c; } .text-1 { fill: #7f1820; }
+      .icon-bg-2 { fill: #eceddc; rx: 8; } .icon-fg-2 { fill: #536326; } .text-2 { fill: #44521f; }
+      .icon-bg-3 { fill: #f4e6d8; rx: 8; } .icon-fg-3 { fill: #914411; } .text-3 { fill: #5e2e0d; }
+      .icon-bg-4 { fill: #f8e7ea; rx: 8; } .icon-fg-4 { fill: #914411; } .text-4 { fill: #68151c; }
 
     </style>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">

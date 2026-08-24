@@ -7,21 +7,21 @@
       .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 24px; font-weight: bold; fill: #18223c; }
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       
-      .lvl-crear { fill: #8b2635; } .lvl-evaluar { fill: #b12028; } .lvl-analizar { fill: #536326; }
-      .lvl-aplicar { fill: #34405a; } .lvl-entender { fill: #914411; } .lvl-recordar { fill: #18223c; }
+      .lvl-crear { fill: #20325a; } .lvl-evaluar { fill: #34508c; } .lvl-analizar { fill: #536326; }
+      .lvl-aplicar { fill: #232c47; } .lvl-entender { fill: #914411; } .lvl-recordar { fill: #18223c; }
       
       .lvl-text { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #ffffff; text-anchor: middle; letter-spacing: 1px; }
       
-      .col-title-1 { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #b12028; text-anchor: middle; }
+      .col-title-1 { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #34508c; text-anchor: middle; }
       .col-title-2 { font-family: "Piazzolla", Georgia, serif; font-size: 18px; font-weight: bold; fill: #536326; text-anchor: middle; }
       
       .box-title { font-family: "Archivo Narrow", "Arial Narrow", Arial, sans-serif; font-size: 14px; font-weight: bold; }
-      .box-title-red { fill: #7f1820; }
-      .box-title-green { fill: #3f4b1d; }
+      .box-title-red { fill: #2a4072; }
+      .box-title-green { fill: #44521f; }
       .box-title-dark { fill: #18223c; }
-      .box-desc { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #34405a; }
+      .box-desc { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #232c47; }
       
-      .red-box { fill: #f7e5e2; stroke: #efc6c2; rx: 8; }
+      .red-box { fill: #f8e7ea; stroke: #efc6c2; rx: 8; }
       .green-box { fill: #eceddc; stroke: #d8dbae; rx: 8; }
 
     </style>
