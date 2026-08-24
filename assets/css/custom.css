@@ -915,3 +915,25 @@ article > figure:first-child > img.single_hero_round {
 .prose .alm-pestanas .alm-tab-panel { display: none; padding: 1rem 1.25rem; }
 .prose .alm-pestanas .alm-tab-panel > p:first-child { margin-top: 0; }
 .prose .alm-pestanas .alm-tab-panel > p:last-child { margin-bottom: 0; }
+
+.prose .alm-figura {
+  margin-block: 2rem;
+  border: 1px solid var(--udg-c-line);
+  border-radius: 0.85rem;
+  background: var(--udg-c-surface);
+  overflow: hidden;
+}
+.prose .alm-figura .alm-figura-lienzo { padding: 1rem; }
+.prose .alm-figura svg { display: block; width: 100%; height: auto; }
+.prose .alm-figura figcaption {
+  padding: 0.8rem 1.1rem;
+  border-top: 1px solid var(--udg-c-line);
+  font-size: 0.85rem;
+  color: var(--udg-c-muted);
+}
+
+/* Hero estilo background en modo oscuro: el lavado de papel al 82% se volvía
+   tinta-sobre-tinta y ocultaba la imagen; en oscuro se baja la opacidad. */
+html.dark .single_hero_background {
+  background-color: color-mix(in srgb, var(--udg-c-paper) 55%, transparent) !important;
+}

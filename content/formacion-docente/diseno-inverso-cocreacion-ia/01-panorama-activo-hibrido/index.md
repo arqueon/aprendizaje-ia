@@ -5,7 +5,7 @@ summary: "Primera lección del curso: conceptos clave, evidencia de beneficios, 
 date: 2026-08-23
 weight: 1
 showHero: true
-heroStyle: "background"
+heroStyle: "big"
 showBreadcrumbs: true
 showTableOfContents: true
 showReadingTime: true
@@ -55,29 +55,7 @@ No es aprendizaje activo si solo se copia información sin manipularla o cuestio
 
 El marco ICAP clasifica la participación del estudiantado en cuatro modos: **pasivo** (recibe información), **activo** (manipula o selecciona material), **constructivo** (genera ideas nuevas) e **interactivo** (co-construye en diálogo). Cada escalón implica mayor compromiso cognitivo y mejores resultados de aprendizaje (Chi y Wylie, 2014). Este modelo ayuda a diseñar actividades que realmente promuevan el pensamiento profundo y la colaboración significativa.
 
-<figure class="not-prose" style="margin: 2rem 0; border: 1px solid var(--udg-c-line); border-radius: 0.85rem; background: var(--udg-c-surface); overflow: hidden;">
-<svg viewBox="0 0 900 300" role="img" aria-label="Cuatro modos ICAP como peldaños ascendentes: pasivo, activo, constructivo e interactivo, con mayor aprendizaje a mayor compromiso" style="display: block; width: 100%;">
-  <rect x="60"  y="200" width="170" height="56" rx="10" fill="color-mix(in srgb, var(--udg-c-muted) 14%, var(--udg-c-surface))" stroke="var(--udg-c-muted)" stroke-width="1.5"/>
-  <rect x="270" y="160" width="170" height="56" rx="10" fill="color-mix(in srgb, var(--udg-c-primary) 12%, var(--udg-c-surface))" stroke="var(--udg-c-primary)" stroke-width="1.5"/>
-  <rect x="480" y="120" width="170" height="56" rx="10" fill="color-mix(in srgb, var(--udg-c-good) 14%, var(--udg-c-surface))" stroke="var(--udg-c-good)" stroke-width="1.5"/>
-  <rect x="690" y="80"  width="170" height="56" rx="10" fill="color-mix(in srgb, var(--udg-c-good) 26%, var(--udg-c-surface))" stroke="var(--udg-c-good)" stroke-width="2"/>
-  <path d="M120 190 L840 60" stroke="var(--udg-c-line)" stroke-width="1.5" stroke-dasharray="5 5" fill="none"/>
-  <g font-family="Archivo Narrow, sans-serif" font-size="17" fill="var(--udg-c-ink)" text-anchor="middle" font-weight="600">
-    <text x="145" y="233">PASIVO</text>
-    <text x="355" y="193">ACTIVO</text>
-    <text x="565" y="153">CONSTRUCTIVO</text>
-    <text x="775" y="113">INTERACTIVO</text>
-  </g>
-  <g font-family="Inter, sans-serif" font-size="12.5" fill="var(--udg-c-muted)" text-anchor="middle">
-    <text x="145" y="278">recibe</text>
-    <text x="355" y="238">manipula</text>
-    <text x="565" y="198">genera</text>
-    <text x="775" y="158">co-construye</text>
-  </g>
-  <text x="850" y="40" font-family="Archivo Narrow, sans-serif" font-size="13" fill="var(--udg-c-muted)" text-anchor="end">+ APRENDIZAJE</text>
-</svg>
-<figcaption style="padding: 0.8rem 1.1rem; border-top: 1px solid var(--udg-c-line); font-size: 0.85rem; color: var(--udg-c-muted);">Fuente: elaboración propia a partir de Chi y Wylie (2014).</figcaption>
-</figure>
+{{< figura src="figura-icap.svg" caption="Fuente: sistema de figuras de *Orientaciones UdeG* (a partir de Chi y Wylie, 2014); re-skin a identidad v2 — registro en catálogo del ecosistema pendiente." >}}
 
 ## Beneficios: ¿qué dice la evidencia?
 
