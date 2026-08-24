@@ -1,7 +1,9 @@
 /*
-  UDGPlus C · Almagre interactivo
+  UDGPlus C · Almagre interactivo (rediseño 2026-08: acento añil)
   Fuente canónica inicial de los tres roles que Blowfish consume.
   Los valores se expresan como RGB porque el tema los combina con transparencias.
+  La escala primary es el añil derivado de la tinta (#18223c); el rojo almagre
+  histórico vive ahora en custom.css como --udg-c-risk (avisos).
 */
 :root {
   --color-neutral: 245, 243, 238;
@@ -16,16 +18,16 @@
   --color-neutral-800: 24, 34, 60;
   --color-neutral-900: 14, 22, 40;
 
-  --color-primary-50: 253, 244, 243;
-  --color-primary-100: 247, 229, 226;
-  --color-primary-200: 239, 198, 194;
-  --color-primary-300: 223, 149, 145;
-  --color-primary-400: 204, 97, 95;
-  --color-primary-500: 177, 32, 40;
-  --color-primary-600: 153, 28, 37;
-  --color-primary-700: 127, 24, 32;
-  --color-primary-800: 104, 21, 28;
-  --color-primary-900: 76, 16, 21;
+  --color-primary-50: 245, 247, 252;
+  --color-primary-100: 231, 236, 247;
+  --color-primary-200: 195, 207, 233;
+  --color-primary-300: 157, 178, 216;
+  --color-primary-400: 123, 147, 197;
+  --color-primary-500: 92, 122, 180;
+  --color-primary-600: 52, 80, 140;
+  --color-primary-700: 42, 64, 114;
+  --color-primary-800: 32, 50, 90;
+  --color-primary-900: 24, 34, 60;
 
   --color-secondary-50: 247, 248, 239;
   --color-secondary-100: 236, 237, 220;

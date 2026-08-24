@@ -75,31 +75,31 @@ La alfabetización para la co-creación es el tercer nivel del marco de tres lit
 La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo que las literacidades operativa y crítica no tocan: cómo sostener un acoplamiento **persona-IA** productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024). Es la competencia más difícil de formar y la que decide si la IA amplifica el pensamiento o lo sustituye.
 {{< /infografia-intro >}}
 
-{{< infografia-seccion numero="1" titulo="Reconocer el acoplamiento" icono="handshake" color="#6d28d9" >}}
+{{< infografia-seccion numero="1" titulo="Reconocer el acoplamiento" icono="handshake" color="#2a4072" >}}
 - Nombrar la interacción como **ensamblaje cognitivo**, no como uso instrumental (Meshi, 2024).
 - Reconocer que el resultado no pertenece al humano solo ni al modelo solo, sino a la relación entre ambos.
 - Hablar en términos de proceso ("trabajé con la IA para…") y no de transacción ("le pedí, me respondió").
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="2" titulo="Conservar la dirección epistémica" icono="compass" color="#7c3aed" >}}
+{{< infografia-seccion numero="2" titulo="Conservar la dirección epistémica" icono="compass" color="#34508c" >}}
 - Mantener el criterio propio como referencia estable, no negociable con la salida del modelo (Yang & Ma, 2025).
 - Decidir qué preguntar, qué aceptar, qué descartar y qué transformar.
 - Resistir la **subyugación algorítmica**: la deriva en la que el humano deja de dirigir y solo recibe y valida lo que el sistema produce.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="3" titulo="Sostener el ciclo iterativo" icono="arrows-rotate" color="#8b5cf6" >}}
+{{< infografia-seccion numero="3" titulo="Sostener el ciclo iterativo" icono="arrows-rotate" color="#5c7ab4" >}}
 - Formular, leer críticamente lo que devuelve, descartar lo que no cumple el criterio, reformular.
 - Tratar la primera respuesta como **borrador inicial**, no como producto.
 - La calidad del resultado depende del juicio que conduce el ciclo, no del modelo que lo procesa.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="4" titulo="Documentar el proceso, no solo el producto" icono="book-open" color="#a855f7" >}}
+{{< infografia-seccion numero="4" titulo="Documentar el proceso, no solo el producto" icono="book-open" color="#5c7ab4" >}}
 - Mantener bitácora de decisiones: qué se delegó, qué se conservó, qué se transformó.
 - La transparencia sobre el proceso de co-creación es descripción precisa de cómo se produjo el conocimiento, no solo norma ética.
 - La evidencia del aprendizaje vive en el proceso, no únicamente en el artefacto final.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="5" titulo="Cultivar la ganancia cognitiva" icono="seedling" color="#c026d3" >}}
+{{< infografia-seccion numero="5" titulo="Cultivar la ganancia cognitiva" icono="seedling" color="#34508c" >}}
 - La co-creación productiva ocurre cuando el sistema ofrece formulaciones, contraejemplos o conexiones **inesperadas** que obligan a revisar, precisar o abandonar supuestos previos (Wang & Zhang, 2026).
 - El criterio de éxito no es la velocidad ni la calidad del producto, sino lo que el proceso enseñó al humano.
 - Es el reverso simétrico de la descarga cognitiva: una **misma interacción** puede producir aprendizaje genuino o atrofia (Lodge & Loble, 2026).

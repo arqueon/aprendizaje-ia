@@ -45,27 +45,27 @@ Cada tema del curso se convierte en una comunidad de aprendizaje con actividades
 El aprendizaje híbrido se desarrolla a lo largo de etapas que transitan de lo simple a lo complejo:
 
 {{< infografia titulo="Etapas del aprendizaje híbrido" >}}
-  {{< infografia-seccion numero="1" titulo="Etapa 1" icono="step-forward" color="#3b82f6" >}}
+  {{< infografia-seccion numero="1" titulo="Etapa 1" icono="step-forward" color="#5c7ab4" >}}
   * **Autonomía del estudiante:** Baja
   * **Tiempo cara a cara:** Alto
   * Mayor guía del profesor, actividades presenciales predominantes.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="2" titulo="Etapa 2" icono="forward" color="#0ea5e9" >}}
+  {{< infografia-seccion numero="2" titulo="Etapa 2" icono="forward" color="#656f85" >}}
   * Introducción gradual de actividades asincrónicas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="3" titulo="Etapa 3" icono="balance-scale" color="#10b981" >}}
+  {{< infografia-seccion numero="3" titulo="Etapa 3" icono="balance-scale" color="#68762f" >}}
   * **Autonomía del estudiante:** Media
   * **Tiempo cara a cara:** Medio
   * Equilibrio entre trabajo autónomo en línea y sesiones presenciales.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="4" titulo="Etapa 4" icono="people-arrows" color="#f59e0b" >}}
+  {{< infografia-seccion numero="4" titulo="Etapa 4" icono="people-arrows" color="#b06a1f" >}}
   * Mayor proporción de trabajo autónomo y colaborativo en línea.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="5" titulo="Etapa 5" icono="rocket" color="#ef4444" >}}
+  {{< infografia-seccion numero="5" titulo="Etapa 5" icono="rocket" color="#b12028" >}}
   * **Autonomía del estudiante:** Alta
   * **Tiempo cara a cara:** Bajo
   * El tiempo presencial se reserva para trabajo creativo y colaborativo.

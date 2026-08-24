@@ -1,26 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e1b4b"/>
-      <stop offset="100%" stop-color="#312e81"/>
+      <stop offset="0%" stop-color="#101a33"/>
+      <stop offset="100%" stop-color="#20325a"/>
     </linearGradient>
     <radialGradient id="glow" cx="40%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#818cf8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#7b93c5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7b93c5" stop-opacity="0"/>
     </radialGradient>
   </defs>
   <rect width="600" height="300" fill="url(#bg)"/>
   <rect width="600" height="300" fill="url(#glow)"/>
 
   <!-- Grid -->
-  <g stroke="#818cf8" stroke-opacity="0.07" stroke-width="1">
+  <g stroke="#7b93c5" stroke-opacity="0.07" stroke-width="1">
     <line x1="0" y1="75" x2="600" y2="75"/><line x1="0" y1="150" x2="600" y2="150"/>
     <line x1="0" y1="225" x2="600" y2="225"/><line x1="150" y1="0" x2="150" y2="300"/>
     <line x1="300" y1="0" x2="300" y2="300"/><line x1="450" y1="0" x2="450" y2="300"/>
   </g>
 
   <!-- Brain outline — two lobes as bezier curves -->
-  <g fill="none" stroke="#a5b4fc" stroke-opacity="0.18" stroke-width="1.5">
+  <g fill="none" stroke="#9db2d8" stroke-opacity="0.18" stroke-width="1.5">
     <!-- Left lobe -->
     <path d="M 200 150 C 160 100, 120 90, 130 140 C 120 180, 155 200, 200 180 Z"/>
     <!-- Right lobe -->
@@ -38,7 +38,7 @@
   </g>
 
   <!-- Neural connections emanating right -->
-  <g stroke="#818cf8" stroke-opacity="0.30" stroke-width="1" fill="none">
+  <g stroke="#7b93c5" stroke-opacity="0.30" stroke-width="1" fill="none">
     <line x1="270" y1="130" x2="360" y2="90"/>
     <line x1="270" y1="150" x2="370" y2="150"/>
     <line x1="270" y1="170" x2="360" y2="210"/>
@@ -53,12 +53,12 @@
   </g>
 
   <!-- Neural nodes -->
-  <g fill="#6366f1">
+  <g fill="#5c7ab4">
     <circle cx="370" cy="150" r="7"/>
     <circle cx="460" cy="130" r="5"/>
     <circle cx="460" cy="180" r="5"/>
   </g>
-  <g fill="#a5b4fc" fill-opacity="0.80">
+  <g fill="#9db2d8" fill-opacity="0.80">
     <circle cx="360" cy="90" r="4"/>
     <circle cx="360" cy="210" r="4"/>
     <circle cx="450" cy="70" r="3"/>
@@ -70,12 +70,12 @@
   </g>
 
   <!-- Glow pulse on brain -->
-  <circle cx="200" cy="150" r="55" fill="none" stroke="#6366f1" stroke-opacity="0.15" stroke-width="12"/>
+  <circle cx="200" cy="150" r="55" fill="none" stroke="#5c7ab4" stroke-opacity="0.15" stroke-width="12"/>
 
   <!-- Label -->
-  <text x="30" y="270" font-family="system-ui, sans-serif" font-size="11" fill="#c7d2fe" fill-opacity="0.60" font-weight="500">IA EN EDUCACIÓN</text>
+  <text x="30" y="270" font-family="system-ui, sans-serif" font-size="11" fill="#c3cfe9" fill-opacity="0.60" font-weight="500">IA EN EDUCACIÓN</text>
 
   <!-- Bottom gradient -->
-  <defs><linearGradient id="ov" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e1b4b" stop-opacity="0"/><stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.45"/></linearGradient></defs>
+  <defs><linearGradient id="ov" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#101a33" stop-opacity="0"/><stop offset="100%" stop-color="#101a33" stop-opacity="0.45"/></linearGradient></defs>
   <rect width="600" height="300" fill="url(#ov)"/>
 </svg>

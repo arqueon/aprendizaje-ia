@@ -42,12 +42,13 @@ weight = 20
 
 [params]
 colorScheme = "udgplus-c"
-# Valor técnico para controles nativos; el sitio no ofrece apariencias alternativas.
+# Rediseño 2026-08: el sitio ofrece modo claro y oscuro (tokens en custom.css).
 defaultAppearance = "light"
-autoSwitchAppearance = false
+autoSwitchAppearance = true
 enableSearch = true
 showMermaid = true
 logo = "images/udg-logo.svg"
+defaultFeaturedImage = "images/featured/default-almagre.svg"
 mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
 
 [params.header]
@@ -91,7 +92,7 @@ mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "form
   groupDepth = 2
 
 [params.footer]
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
 
 [params.author]
   name = "Aprendizaje Digital e IA"

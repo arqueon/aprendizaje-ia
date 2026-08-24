@@ -42,7 +42,7 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         img="cover-bachillerato.png"
         tall="true"
         icon="graduation-cap"
-        color="#0ea5e9"
+        color="#656f85"
         description="27 pp. — Red Colaborativa del Bachillerato. Énfasis en estudiantes menores de edad, principios pedagógicos y plantillas." >}}
 
 {{< card link="#guia-licenciatura"
@@ -50,7 +50,7 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         img="cover-licenciatura.png"
         tall="true"
         icon="user-graduate"
-        color="#d97706"
+        color="#914411"
         description="50 pp. — Red Colaborativa de Licenciatura. La más extensa: ciclo de evaluación, principios UNESCO, sustentabilidad y rúbricas." >}}
 
 {{< card link="#guia-posgrado"
@@ -58,7 +58,7 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         img="cover-posgrado.png"
         tall="true"
         icon="user-tie"
-        color="#6366f1"
+        color="#5c7ab4"
         description="26 pp. — Red Colaborativa del Posgrado. Vistazo técnico a las IAGen, sesgos cognitivos, integridad investigadora y un apéndice sobre el modelo transformer." >}}
 {{< /cards >}}
 

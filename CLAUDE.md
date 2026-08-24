@@ -38,8 +38,12 @@ content/
 
 ## Configuración clave (hugo.toml)
 
-- Identidad única C: `colorScheme = "udgplus-c"`, `defaultAppearance = "light"` como
-  valor técnico, `autoSwitchAppearance = false` y selector de apariencia desactivado
+- Identidad C con **dos apariencias** (rediseño 2026-08): `colorScheme = "udgplus-c"`,
+  `defaultAppearance = "light"`, `autoSwitchAppearance = true` y selector activo
+  (`footer.showAppearanceSwitcher = true`). Los tokens de ambos modos viven en
+  `assets/css/custom.css` (`:root` claro, `html.dark` oscuro); acento primario **añil**
+  (`#34508c` claro / `#8ba3d6` oscuro), rojo almagre reservado a `--udg-c-risk`.
+  Titulares en **Newsreader** peso ~500 (Piazzolla retirada)
 - Taxonomías: `tags`, `categories`, `areas` (ia, evaluacion, pedagogia, digital, formacion)
 - `mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]`
 - Homepage: `showRecent = true`, `showRecentItems = 6`, `cardView = true`
@@ -51,29 +55,30 @@ content/
 ## Layouts personalizados
 
 - `layouts/partials/home/background.html` — homepage hero con recent articles
-- `layouts/partials/extend-head.html` — fija la identidad C y elimina preferencias de
-  apariencia heredadas antes de pintar la página
-- `layouts/partials/hooks/head-end.html` — parcial legado que Blowfish 2.97 no consume;
-  no usarlo como punto de extensión
+- `layouts/partials/extend-head.html` — declara `color-scheme: light dark`; la
+  inicialización de apariencia la hace Blowfish (no purgar `localStorage.appearance`)
+- `layouts/partials/hooks/head-end.html` — RETIRADO 2026-08 (Blowfish 2.97 nunca lo
+  consumió: Font Awesome estuvo sin cargar en producción); FA se carga ahora en
+  `extend-head.html`
 - `layouts/shortcodes/card.html` + `cards.html` — usa **Font Awesome** (`fa-{icon}`), NO iconos nativos Blowfish
 - `layouts/_markup/render-table.html` — sistema global Almagre para tablas Markdown:
   asigna variante editorial o matriz, mantiene desplazamiento móvil accesible y acepta
   `.udgia-table--comparison`, `.udgia-table--matrix`, `.udgia-table--row-headers` y
   `caption="…"` mediante atributos de bloque
 
-## SVGs hero por sección — inventario legado
+## SVGs hero por sección — migrados a identidad C (2026-08)
 
-Estas ilustraciones anteceden a la identidad C y deben migrarse mediante revisión visual,
-no con sustituciones cromáticas automáticas.
+Los heros, tarjetas (`static/images/cards/`) y `featured/default-almagre.svg` ya usan
+las familias de la identidad; los `color=` de los shortcodes `card` en contenido siguen
+el mismo mapa. Asignación por sección (mantener en gráficos nuevos):
 
-| Archivo                 | Sección           | Estado cromático heredado         |
-| ----------------------- | ----------------- | --------------------------------- |
-| `hero-bg.svg`           | Homepage          | Azul oceánico                     |
-| `hero-ia.svg`           | IA en Educación   | Índigo/violeta (red neuronal)     |
-| `hero-formacion.svg`    | Formación Docente | Verde esmeralda (red de personas) |
-| `hero-laboratorio.svg`  | Laboratorio       | Azul                              |
-| `hero-observatorio.svg` | Observatorio      | Azul                              |
-| `hero-recursos.svg`     | Recursos          | Azul                              |
+| Sección / uso              | Familia cromática                  |
+| -------------------------- | ---------------------------------- |
+| Homepage, IA en Educación  | Añil (`#34508c` y rampa)           |
+| Laboratorio                | Tinta desaturada (`#656f85` rampa) |
+| Observatorio, marcos       | Ocre (`#b06a1f` rampa)             |
+| Recursos                   | Almagre (`#b12028` rampa)          |
+| Formación Docente          | Oliva (`#68762f` rampa)            |
 
 ## Shortcodes Blowfish en uso
 
@@ -115,9 +120,10 @@ del proyecto — este archivo solo guarda reglas estables. Verificar el contenid
 3. **`_vendor/` nunca se commitea** — está en .gitignore; el tema se descarga vía Go modules en CI
 4. **Deploy automático** al pushear a `main` — confirmar antes de cambios estructurales grandes
 5. **Taxonomía `areas`** en todo contenido nuevo: ia, evaluacion, pedagogia, digital, formacion
-6. **Identidad C única en gráficos nuevos o modificados** — usar papel, tinta marina,
-   almagre, olivo y ocre; no añadir bifurcaciones `prefers-color-scheme`. Los SVG hero
-   heredados se migrarán de forma explícita y semántica.
+6. **Identidad C en gráficos nuevos o modificados** — usar solo las familias de la
+   identidad (añil, tinta, ocre, almagre, oliva sobre papel/noche) según la tabla de
+   secciones. Los SVG servidos vía `<img>` no reciben las variables CSS de la página:
+   deben funcionar sobre ambos modos por sí mismos (fondo nocturno propio) o inlinearse.
 7. **Imagen `featured.*` obligatoria** en todo artículo nuevo:
    - Colocar un archivo `featured.webp` (o `.png`) en la raíz del Page Bundle, junto al `index.md`
    - Blowfish la detecta automáticamente para: cards del homepage, listados de sección, hero del artículo y Open Graph

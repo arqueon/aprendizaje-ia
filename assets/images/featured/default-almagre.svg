@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Trama editorial del ecosistema de aprendizaje digital e IA</title>
+  <desc id="desc">Composición abstracta almagre con rutas, nodos y capas que representa una página cuya imagen específica está pendiente.</desc>
+  <rect width="1200" height="675" fill="#f5f3ee"/>
+  <path d="M0 520C170 430 270 580 430 488S720 318 890 398s190 94 310 38v239H0Z" fill="#e7d8c8"/>
+  <path d="M0 438c145-60 246-8 346-68s188-178 342-132 220 158 512 52" fill="none" stroke="#34508c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M74 136h366c92 0 114 112 210 112h420" fill="none" stroke="#536326" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 30"/>
+  <g fill="#f5f3ee" stroke="#34508c" stroke-width="12">
+    <circle cx="170" cy="438" r="54"/><circle cx="482" cy="326" r="46"/><circle cx="736" cy="282" r="58"/><circle cx="1018" cy="360" r="48"/>
+  </g>
+  <g fill="#536326">
+    <circle cx="170" cy="438" r="16"/><circle cx="482" cy="326" r="14"/><circle cx="736" cy="282" r="18"/><circle cx="1018" cy="360" r="15"/>
+  </g>
+</svg>

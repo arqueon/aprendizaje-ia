@@ -36,31 +36,31 @@ El syllabus o programa detallado de la asignatura debe contemplar los siguientes
 ### Información general
 
 {{< infografia titulo="Elementos del Syllabus" subtitulo="Información general de la asignatura" >}}
-  {{< infografia-seccion titulo="Identificación de la unidad" icono="id-card" color="#3b82f6" >}}
+  {{< infografia-seccion titulo="Identificación de la unidad" icono="id-card" color="#5c7ab4" >}}
   Clave, centro, programa, créditos.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Perfil de egreso" icono="graduation-cap" color="#10b981" >}}
+  {{< infografia-seccion titulo="Perfil de egreso" icono="graduation-cap" color="#68762f" >}}
   Programa de estudios y relación con su campo profesional.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Objetivos" icono="bullseye" color="#f59e0b" >}}
+  {{< infografia-seccion titulo="Objetivos" icono="bullseye" color="#b06a1f" >}}
   Objetivos generales y específicos de aprendizaje y estructura conceptual del curso.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Habilidades" icono="cogs" color="#ef4444" >}}
+  {{< infografia-seccion titulo="Habilidades" icono="cogs" color="#b12028" >}}
   Disciplinares, transversales, actitudes y valores.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Método de evaluación" icono="tasks" color="#8b5cf6" >}}
+  {{< infografia-seccion titulo="Método de evaluación" icono="tasks" color="#5c7ab4" >}}
   Criterios generales, ponderaciones y rúbricas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Recursos y materiales" icono="book" color="#0ea5e9" >}}
+  {{< infografia-seccion titulo="Recursos y materiales" icono="book" color="#656f85" >}}
   Bibliografía, hardware, software y otros materiales de apoyo.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Perfil del profesor" icono="user-tie" color="#64748b" >}}
+  {{< infografia-seccion titulo="Perfil del profesor" icono="user-tie" color="#656f85" >}}
   Datos de contacto y dirección URL del LMS —el sistema de gestión de aprendizaje, como Moodle o Google Classroom—.
   {{< /infografia-seccion >}}
 {{< /infografia >}}
@@ -70,27 +70,27 @@ El syllabus o programa detallado de la asignatura debe contemplar los siguientes
 Cada semana del curso debe especificar:
 
 {{< infografia titulo="Planeación Semanal" subtitulo="Estructura de actividades para el aprendizaje híbrido" >}}
-  {{< infografia-seccion numero="1" titulo="Objetivos de aprendizaje" icono="flag" color="#ec4899" >}}
+  {{< infografia-seccion numero="1" titulo="Objetivos de aprendizaje" icono="flag" color="#b12028" >}}
   Qué deben lograr los estudiantes al finalizar la semana.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="2" titulo="Actividades asíncronas previas" icono="laptop" color="#3b82f6" >}}
+  {{< infografia-seccion numero="2" titulo="Actividades asíncronas previas" icono="laptop" color="#5c7ab4" >}}
   Lecturas, videos, foros y cuestionarios requeridos antes de la sesión presencial.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="3" titulo="Creación y construcción en aula" icono="users" color="#10b981" >}}
+  {{< infografia-seccion numero="3" titulo="Creación y construcción en aula" icono="users" color="#68762f" >}}
   Actividades de aprendizaje activo colaborativo durante la sesión presencial.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="4" titulo="Reforzamiento posterior" icono="clipboard-check" color="#f59e0b" >}}
+  {{< infografia-seccion numero="4" titulo="Reforzamiento posterior" icono="clipboard-check" color="#b06a1f" >}}
   Tareas, ejercicios o foros de profundización para realizar después de la clase.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="5" titulo="Recursos de la semana" icono="folder-open" color="#6366f1" >}}
+  {{< infografia-seccion numero="5" titulo="Recursos de la semana" icono="folder-open" color="#5c7ab4" >}}
   Videos, ejercicios interactivos y materiales complementarios necesarios.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="6" titulo="Evaluaciones" icono="check-circle" color="#14b8a6" >}}
+  {{< infografia-seccion numero="6" titulo="Evaluaciones" icono="check-circle" color="#656f85" >}}
   Criterios de [evaluación]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}}) claros para el estudiante y rúbricas aplicables.
   {{< /infografia-seccion >}}
 {{< /infografia >}}

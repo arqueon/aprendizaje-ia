@@ -15,7 +15,7 @@ Un espacio para explorar, probar y documentar prácticas pedagógicas que integr
 {{< /lead >}}
 
 {{< cards >}}
-  {{< card link="practicas/" title="Prácticas pedagógicas" icon="flask" color="#0ea5e9" description="Prácticas documentadas con objetivos, actividades, evaluación y resultados observados." >}}
-  {{< card link="experiencias/" title="Experiencias docentes" icon="star" color="#0284c7" description="Relatos y reflexiones de docentes que han experimentado con IA en sus aulas." >}}
-  {{< card link="integracion-ia/" title="Integración de IA" icon="robot" color="#0369a1" description="Estrategias específicas de integración de herramientas de IA en el diseño didáctico." >}}
+  {{< card link="practicas/" title="Prácticas pedagógicas" icon="flask" color="#656f85" description="Prácticas documentadas con objetivos, actividades, evaluación y resultados observados." >}}
+  {{< card link="experiencias/" title="Experiencias docentes" icon="star" color="#565f75" description="Relatos y reflexiones de docentes que han experimentado con IA en sus aulas." >}}
+  {{< card link="integracion-ia/" title="Integración de IA" icon="robot" color="#494f5b" description="Estrategias específicas de integración de herramientas de IA en el diseño didáctico." >}}
 {{< /cards >}}

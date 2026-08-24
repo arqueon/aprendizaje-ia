@@ -30,22 +30,22 @@ El modelo SAMR (Caukin & Trail, 2019) es una herramienta para reflexionar sobre 
 Permite a profesores y diseñadores instruccionales integrar tecnología en sus prácticas pedagógicas de manera progresiva. Los cuatro niveles se agrupan en dos categorías:
 
 {{< infografia titulo="Modelo SAMR" subtitulo="Fases para la integración tecnológica en el aula" >}}
-  {{< infografia-seccion titulo="S – Sustitución (Mejora)" icono="exchange-alt" color="#64748b" >}}
+  {{< infografia-seccion titulo="S – Sustitución (Mejora)" icono="exchange-alt" color="#656f85" >}}
   La tecnología actúa como un sustituto directo de actividades que ya se desarrollan en el aula, sin cambios funcionales.
   * **Ejemplo:** Usar Zoom o Webex para dar la misma conferencia que se daría presencialmente.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="A – Aumento (Mejora)" icono="arrow-up" color="#3b82f6" >}}
+  {{< infografia-seccion titulo="A – Aumento (Mejora)" icono="arrow-up" color="#5c7ab4" >}}
   La tecnología sustituye actividades del aula pero con mejoras funcionales.
   * **Ejemplo:** Usar un LMS —una plataforma de gestión de aprendizaje, como Moodle o Classroom— con contenidos de video, texto y cuestionarios para complementar la clase.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="M – Modificación (Transformación)" icono="edit" color="#f59e0b" >}}
+  {{< infografia-seccion titulo="M – Modificación (Transformación)" icono="edit" color="#b06a1f" >}}
   La tecnología permite un rediseño significativo de actividades en el aula.
   * **Ejemplo:** Actividades de [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}) mediadas por tecnología que transforman la dinámica de clase.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="R – Redefinición (Transformación)" icono="rocket" color="#ef4444" >}}
+  {{< infografia-seccion titulo="R – Redefinición (Transformación)" icono="rocket" color="#b12028" >}}
   La tecnología permite la creación de actividades previamente imposibles.
   * **Ejemplo:** Actividades colectivas interactivas y de retroalimentación que no serían viables sin la tecnología.
   {{< /infografia-seccion >}}
@@ -67,25 +67,25 @@ Este modelo no puede considerarse como una receta. Es útil solo en relación co
 El modelo ICAP (Chi & Wylie, 2014) permite vincular cuatro niveles de involucramiento o compromiso (*engagement*) cognitivo de los estudiantes con los resultados del [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}). Una mayor interactividad repercute en un mayor aprovechamiento de los estudiantes y mejores resultados educativos (Wiggins et al., 2017).
 
 {{< infografia titulo="Niveles del Modelo ICAP" subtitulo="Compromiso cognitivo y resultados de aprendizaje" >}}
-  {{< infografia-seccion numero="4" titulo="Interactivo" icono="users" color="#ec4899" >}}
+  {{< infografia-seccion numero="4" titulo="Interactivo" icono="users" color="#b12028" >}}
   * **Proceso cognitivo:** Activar, inferir y almacenar nuevos conocimientos integrándolos colaborativamente.
   * **Cambio en el conocimiento:** Innovar y descubrir nuevas soluciones o explicaciones.
   * **Ejemplo:** Defender una postura en grupo, responder preguntas en pares, debatir justificaciones.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="3" titulo="Constructivo" icono="hammer" color="#8b5cf6" >}}
+  {{< infografia-seccion numero="3" titulo="Constructivo" icono="hammer" color="#5c7ab4" >}}
   * **Proceso cognitivo:** Usar conocimientos previos e inferir nuevos conocimientos.
   * **Cambio en el conocimiento:** Resolver problemas en trabajo en equipo.
   * **Ejemplo:** Compartir reflexiones, sintetizar con sus propias palabras, hacer mapas de conceptos.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="2" titulo="Activo" icono="bolt" color="#3b82f6" >}}
+  {{< infografia-seccion numero="2" titulo="Activo" icono="bolt" color="#5c7ab4" >}}
   * **Proceso cognitivo:** Activar conocimientos previos relevantes para nuevas situaciones.
   * **Cambio en el conocimiento:** Aplicar el conocimiento a problemas o situaciones similares.
   * **Ejemplo:** Tomar notas, resaltar información clave, definir su ritmo de aprendizaje.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="1" titulo="Pasivo" icono="bed" color="#64748b" >}}
+  {{< infografia-seccion numero="1" titulo="Pasivo" icono="bed" color="#656f85" >}}
   * **Proceso cognitivo:** Almacenar información de manera aislada.
   * **Cambio en el conocimiento:** Recordar algo en un contexto determinado.
   * **Ejemplo:** Escuchar una conferencia, leer un artículo, mirar un video.

@@ -92,9 +92,9 @@ Evaluar el proceso **no significa dejar de evaluar el ensayo final**. Significa 
 ## Elige tu ruta
 
 {{< cards >}}
-  {{< card link="#ruta-estudiante" title="Soy estudiante" icon="pen-nib" color="#4f46e5" description="Sigue las siete etapas, conserva las evidencias mínimas y decide qué hacer con cada sugerencia de la IA." >}}
-  {{< card link="#ruta-docente" title="Soy docente" icon="chalkboard-user" color="#0d9488" description="Define la política de uso, distribuye los puntos de control y evalúa proceso y producto con criterios distintos." >}}
-  {{< card link="#la-ruta-completa" title="Ver la ruta completa" icon="route" color="#7c3aed" description="Recorre el proceso común: preparar, escribir, interrogar, revisar y defender." >}}
+  {{< card link="#ruta-estudiante" title="Soy estudiante" icon="pen-nib" color="#34508c" description="Sigue las siete etapas, conserva las evidencias mínimas y decide qué hacer con cada sugerencia de la IA." >}}
+  {{< card link="#ruta-docente" title="Soy docente" icon="chalkboard-user" color="#565f75" description="Define la política de uso, distribuye los puntos de control y evalúa proceso y producto con criterios distintos." >}}
+  {{< card link="#la-ruta-completa" title="Ver la ruta completa" icon="route" color="#34508c" description="Recorre el proceso común: preparar, escribir, interrogar, revisar y defender." >}}
 {{< /cards >}}
 
 ## La ruta completa
@@ -131,9 +131,9 @@ flowchart LR
 La secuencia desarrolla tres literacidades de manera progresiva:
 
 {{< cards >}}
-  {{< card link="/formacion-docente/alfabetizacion-operativa/" title="Operativa" icon="keyboard" color="#4f46e5" description="Encuadrar una tarea, dar contexto y formular restricciones útiles." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Crítica" icon="magnifying-glass" color="#d97706" description="Verificar fuentes, detectar errores y discutir las respuestas del modelo." >}}
-  {{< card link="/formacion-docente/alfabetizacion-co-creacion/" title="Co-creación y autoría" icon="fingerprint" color="#7c3aed" description="Decidir, transformar, documentar y conservar una voz reconocible." >}}
+  {{< card link="/formacion-docente/alfabetizacion-operativa/" title="Operativa" icon="keyboard" color="#34508c" description="Encuadrar una tarea, dar contexto y formular restricciones útiles." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Crítica" icon="magnifying-glass" color="#914411" description="Verificar fuentes, detectar errores y discutir las respuestas del modelo." >}}
+  {{< card link="/formacion-docente/alfabetizacion-co-creacion/" title="Co-creación y autoría" icon="fingerprint" color="#34508c" description="Decidir, transformar, documentar y conservar una voz reconocible." >}}
 {{< /cards >}}
 
 ## Siete etapas para construir el ensayo
@@ -435,10 +435,10 @@ Todos parten de trabajo previo del estudiante y contienen una restricción expl�
 ## Riesgos y salvaguardas
 
 {{< cards >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/" title="Sustitución de autoría" icon="user-lock" color="#dc2626" description="Se previene con un borrador previo, decisiones visibles y defensa del razonamiento." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Fuentes inexistentes" icon="link-slash" color="#d97706" description="Toda referencia se localiza y comprueba fuera de la respuesta del modelo." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/" title="Deriva del criterio" icon="compass" color="#7c3aed" description="La tesis nace del estudiante y cada sugerencia puede aceptarse, adaptarse o rechazarse." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/" title="Pérdida de voz" icon="fingerprint" color="#0d9488" description="La comparación entre versiones permite detectar una edición que uniforma el estilo." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/" title="Sustitución de autoría" icon="user-lock" color="#991c25" description="Se previene con un borrador previo, decisiones visibles y defensa del razonamiento." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Fuentes inexistentes" icon="link-slash" color="#914411" description="Toda referencia se localiza y comprueba fuera de la respuesta del modelo." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/" title="Deriva del criterio" icon="compass" color="#34508c" description="La tesis nace del estudiante y cada sugerencia puede aceptarse, adaptarse o rechazarse." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/" title="Pérdida de voz" icon="fingerprint" color="#565f75" description="La comparación entre versiones permite detectar una edición que uniforma el estilo." >}}
 {{< /cards >}}
 
 ## Preguntas frecuentes del docente

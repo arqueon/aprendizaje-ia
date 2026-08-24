@@ -61,37 +61,37 @@ No existe un esquema único para la transformación pedagógica y digital. Cada 
 ![Diagrama de los elementos comunes de la estrategia de transformación pedagógica](img/elementos-comunes.png "Elementos comunes de la transformación pedagógica y digital")
 
 {{< infografia titulo="Elementos Comunes de la Estrategia" subtitulo="Pilares de la transformación pedagógica" >}}
-  {{< infografia-seccion titulo="Aprendizaje híbrido" icono="laptop-house" color="#3b82f6" >}}
+  {{< infografia-seccion titulo="Aprendizaje híbrido" icono="laptop-house" color="#5c7ab4" >}}
   Combinaciones flexibles de aprendizaje presencial y en línea.
 
 - [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-hibrido" >}})
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Aprendizaje invertido" icono="retweet" color="#10b981" >}}
+  {{< infografia-seccion titulo="Aprendizaje invertido" icono="retweet" color="#68762f" >}}
   Las lecciones se revisan fuera del aula; en clase se profundiza colaborativamente.
 
 - [Ver más sobre este elemento]({{< ref "laboratorio/practicas/aula-invertida" >}})
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Aprendizaje activo" icono="users" color="#f59e0b" >}}
+  {{< infografia-seccion titulo="Aprendizaje activo" icono="users" color="#b06a1f" >}}
   Los estudiantes se vuelven partícipes de su propio aprendizaje.
 
 - [Ver más sobre este elemento]({{< ref "formacion-docente/aprendizaje-activo" >}})
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Evaluación y retroalimentación" icono="comments" color="#ef4444" >}}
+  {{< infografia-seccion titulo="Evaluación y retroalimentación" icono="comments" color="#b12028" >}}
   Comentarios, sugerencias y evaluación sistemática de y hacia el profesor y entre los estudiantes.
 
 - [Ver más sobre este elemento]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}})
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Syllabus y objetivos" icono="clipboard-list" color="#8b5cf6" >}}
+  {{< infografia-seccion titulo="Syllabus y objetivos" icono="clipboard-list" color="#5c7ab4" >}}
   Programación detallada de actividades con objetivos explícitos.
 
 - [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Portafolio de docencia" icono="folder-open" color="#0ea5e9" >}}
+  {{< infografia-seccion titulo="Portafolio de docencia" icono="folder-open" color="#656f85" >}}
   Definición de la filosofía y objetivos de docencia de cada profesor.
 
 - [Ver más sobre este elemento]({{< ref "formacion-docente/syllabus-portafolio" >}})

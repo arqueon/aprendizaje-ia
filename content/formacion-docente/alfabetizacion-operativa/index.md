@@ -33,31 +33,31 @@ La alfabetización operativa es el primer nivel del marco de tres literacidades 
 La alfabetización operativa es el primer nivel del marco de tres literacidades. Cubre la **capacidad de usar la IA con soltura**: formular instrucciones, comparar salidas, verificarlas, documentar su uso e integrarla al flujo de trabajo. Es la base sobre la que se construyen las literacidades crítica y de co-creación; por sí sola es insuficiente.
 {{< /infografia-intro >}}
 
-{{< infografia-seccion numero="1" titulo="Formulación clara de instrucciones" icono="keyboard" color="#1d4ed8" >}}
+{{< infografia-seccion numero="1" titulo="Formulación clara de instrucciones" icono="keyboard" color="#2a4072" >}}
 - Especificar contexto, criterios y restricciones desde el primer prompt, en lugar de iterar a ciegas.
 - Tratar el prompt como un **género discursivo** con reglas propias: precisión, ejemplos, formato esperado de salida.
 - Iterar la formulación cuando la respuesta no es satisfactoria: cambiar el prompt antes que cambiar de modelo.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="2" titulo="Comparación entre modelos y versiones" icono="code-compare" color="#2563eb" >}}
+{{< infografia-seccion numero="2" titulo="Comparación entre modelos y versiones" icono="code-compare" color="#34508c" >}}
 - Ningún modelo es universal: las salidas varían según el motor, su versión y su configuración.
 - Comparar dos modelos frente al mismo problema permite ver el **artefacto**, no solo el resultado.
 - Identificar para qué tareas conviene cada modelo: redacción, síntesis, búsqueda, código, conversación.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="3" titulo="Verificación sistemática de salidas" icono="check-double" color="#3b82f6" >}}
+{{< infografia-seccion numero="3" titulo="Verificación sistemática de salidas" icono="check-double" color="#5c7ab4" >}}
 - Tratar la respuesta del sistema como **borrador**, no como autoridad.
 - Cruzar lo que devuelve con fuentes propias antes de usarlo o enseñarlo.
 - Detectar alucinaciones, citas falsas y afirmaciones plausibles sin evidencia.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="4" titulo="Documentación del uso" icono="clipboard-list" color="#0ea5e9" >}}
+{{< infografia-seccion numero="4" titulo="Documentación del uso" icono="clipboard-list" color="#656f85" >}}
 - Registrar qué modelo, qué prompt y qué versión generó cada material producido.
 - Convertir el registro en parte del trabajo intelectual visible, no en un trámite.
 - Esta documentación es la condición de la transparencia académica con IA y de la política institucional de la UdeG.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="5" titulo="Integración deliberada al flujo de trabajo" icono="diagram-project" color="#06b6d4" >}}
+{{< infografia-seccion numero="5" titulo="Integración deliberada al flujo de trabajo" icono="diagram-project" color="#656f85" >}}
 - Decidir en qué fases del trabajo intelectual entra el asistente y en cuáles no.
 - Reservar la IA para tareas donde amplifica el juicio propio, no para las que lo sustituyen.
 - Evitar la integración por defecto: no toda actividad mejora porque exista una IA disponible.

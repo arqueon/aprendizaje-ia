@@ -42,32 +42,32 @@ Ambas formas son complementarias. Un curso que solo usa evaluación sumativa pie
 Las técnicas de evaluación en el aula (*Classroom Assessment Techniques*, CAT) son herramientas que permiten a los docentes recolectar y analizar rápidamente preguntas realizadas antes, durante o después de la clase. Permiten dar cuenta de los principales aprendizajes alcanzados y los puntos que aún persistan (Holbeck et al., 2014).
 
 {{< infografia titulo="Técnicas de Evaluación (CAT)" subtitulo="Herramientas para recolectar información sobre el aprendizaje" >}}
-  {{< infografia-seccion titulo="El punto más confuso" icono="question-circle" color="#ef4444" >}}
+  {{< infografia-seccion titulo="El punto más confuso" icono="question-circle" color="#b12028" >}}
   Los estudiantes identifican el concepto que les resultó más difícil de entender.
   * **Momento de uso:** Al final de una sesión.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Reflexión de un minuto" icono="stopwatch" color="#f59e0b" >}}
+  {{< infografia-seccion titulo="Reflexión de un minuto" icono="stopwatch" color="#b06a1f" >}}
   Escritos breves para sintetizar lo aprendido o plantear dudas (*minute papers*).
   * **Momento de uso:** Al final de una sesión.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Conocimientos previos" icono="search" color="#3b82f6" >}}
+  {{< infografia-seccion titulo="Conocimientos previos" icono="search" color="#5c7ab4" >}}
   Sondeo de lo que los estudiantes ya saben sobre un tema antes de abordarlo.
   * **Momento de uso:** Al inicio de un tema.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Encuestas de autoconfianza" icono="poll" color="#8b5cf6" >}}
+  {{< infografia-seccion titulo="Encuestas de autoconfianza" icono="poll" color="#5c7ab4" >}}
   Los estudiantes evalúan su nivel de confianza respecto a los conceptos trabajados.
   * **Momento de uso:** Durante o después de una unidad.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Matriz de características" icono="border-all" color="#10b981" >}}
+  {{< infografia-seccion titulo="Matriz de características" icono="border-all" color="#68762f" >}}
   Organización de conceptos clave en una tabla comparativa.
   * **Momento de uso:** Durante el desarrollo de un tema.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Evaluación en línea" icono="laptop" color="#64748b" >}}
+  {{< infografia-seccion titulo="Evaluación en línea" icono="laptop" color="#656f85" >}}
   Cuestionarios, foros y actividades de autoevaluación en la plataforma del curso.
   * **Momento de uso:** Antes, durante o después de clase.
   {{< /infografia-seccion >}}

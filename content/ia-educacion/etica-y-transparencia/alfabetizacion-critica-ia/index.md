@@ -33,32 +33,32 @@ La alfabetización crítica en inteligencia artificial es el juicio para usar es
 La alfabetización crítica en inteligencia artificial es el juicio para usar estas herramientas. Implica evaluar lo que devuelven y conservar la dirección humana del proceso. Sin ese juicio, el estudiante delega el trabajo mental a la máquina y deja de pensar por sí mismo. La investigación reciente nombra a estos fenómenos **deriva metacognitiva** y **descarga cognitiva** (*cognitive offloading*) (Gerlich, 2025; Lodge & Loble, 2026).
 {{< /infografia-intro >}}
 
-{{< infografia-seccion numero="1" titulo="Evaluación crítica y discernimiento sobre la maestría técnica" icono="magnifying-glass" color="#0369a1" >}}
+{{< infografia-seccion numero="1" titulo="Evaluación crítica y discernimiento sobre la maestría técnica" icono="magnifying-glass" color="#494f5b" >}}
 - Definir la competencia por la capacidad de **decidir y evaluar**, no por la fluidez para operar herramientas o redactar indicaciones.
 - Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia y alucinaciones.
 - Aplicar la **lectura lateral** para cruzar información en múltiples fuentes independientes en lugar de confiar en una única respuesta.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="2" titulo="Conciencia del sistema socio-técnico y ético" icono="scale-balanced" color="#7c3aed" >}}
+{{< infografia-seccion numero="2" titulo="Conciencia del sistema socio-técnico y ético" icono="scale-balanced" color="#34508c" >}}
 - Desmitificar la tecnología al entenderla como un **modelo predictivo entrenado con datos**, no como un oráculo infalible.
 - Cuestionar quién se beneficia de la herramienta y cómo esta perpetúa sesgos raciales, de género o culturales.
 - Entender la IA como un **modo de ordenamiento** que estructura decisiones y distribuye agencia antes de que el usuario la toque: la opacidad es parte del diseño, no un accidente (Vallès-Peris & Pareto, 2025).
 - Comprender los riesgos asociados con la privacidad de datos, los derechos de autor y el impacto social (SchoolAI, 2025).
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="3" titulo="Cultivo de hábitos mentales y agencia humana" icono="brain" color="#0891b2" >}}
+{{< infografia-seccion numero="3" titulo="Cultivo de hábitos mentales y agencia humana" icono="brain" color="#565f75" >}}
 - Basar el uso en la **curiosidad, el escepticismo y la reflexión constante**, más que en habilidades procedimentales fijas.
 - Evitar delegar el esfuerzo cognitivo a la máquina para prevenir la pereza metacognitiva y la atrofia de capacidades (Gerlich, 2025).
 - Usar la herramienta como un **espejo cognitivo** que rete el pensamiento del estudiante sin reemplazarlo (Lopez-Lopez et al., 2026).
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="4" titulo="Uso selectivo, restricción informada y no utilización" icono="hand" color="#b45309" >}}
+{{< infografia-seccion numero="4" titulo="Uso selectivo, restricción informada y no utilización" icono="hand" color="#914411" >}}
 - Rechazar la presión de adopción al comprender que la competencia **no requiere usar la tecnología de forma entusiasta para todo**.
 - Validar la **negativa informada**. Decir "no" o "todavía no" a la herramienta es un resultado avanzado de la alfabetización (Lodge & Loble, 2026).
 - Preservar la voz académica y la autonomía personal, sin que la herramienta sustituya el tiempo de estudio sin pantalla ni la conversación con compañeros y colegas.
 {{< /infografia-seccion >}}
 
-{{< infografia-seccion numero="5" titulo="Adaptabilidad contextual y alineación con literacidades previas" icono="puzzle-piece" color="#059669" >}}
+{{< infografia-seccion numero="5" titulo="Adaptabilidad contextual y alineación con literacidades previas" icono="puzzle-piece" color="#536326" >}}
 - Adaptar la alfabetización a las necesidades de cada área: enfocarse en el sesgo diagnóstico en salud o la autenticidad en literatura.
 - Evitar enseñar el uso de la herramienta de forma aislada.
 - **Integrar la alfabetización en IA con las alfabetizaciones mediática, informacional y digital** existentes, en lugar de tratarla como una competencia aparte.

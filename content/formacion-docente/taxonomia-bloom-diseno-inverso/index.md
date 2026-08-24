@@ -28,32 +28,32 @@ La taxonomía de Bloom es una herramienta para identificar y seleccionar los apr
 La taxonomía de Bloom (revisada) es un modelo que organiza los procesos cognitivos en seis niveles jerárquicos, de menor a mayor complejidad:
 
 {{< infografia titulo="Niveles Cognitivos de Bloom" subtitulo="Procesos cognitivos en orden de complejidad (de menor a mayor)" >}}
-  {{< infografia-seccion numero="1" titulo="Recordar" icono="brain" color="#64748b" >}}
+  {{< infografia-seccion numero="1" titulo="Recordar" icono="brain" color="#656f85" >}}
   Memorización de hechos y conceptualizaciones básicas.
   * **Actividades:** Identificar, listar, definir.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="2" titulo="Entender" icono="lightbulb" color="#3b82f6" >}}
+  {{< infografia-seccion numero="2" titulo="Entender" icono="lightbulb" color="#5c7ab4" >}}
   Comprensión de ideas o conceptos.
   * **Actividades:** Explicar, parafrasear, clasificar.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="3" titulo="Aplicar" icono="tools" color="#10b981" >}}
+  {{< infografia-seccion numero="3" titulo="Aplicar" icono="tools" color="#68762f" >}}
   Utilizar información o habilidades adquiridas en una situación nueva.
   * **Actividades:** Resolver un ejercicio, implementar un procedimiento.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="4" titulo="Analizar" icono="search" color="#f59e0b" >}}
+  {{< infografia-seccion numero="4" titulo="Analizar" icono="search" color="#b06a1f" >}}
   Separar las partes de algo para relacionarlo con una estructura o propósito general.
   * **Actividades:** Comparar, contrastar, diferenciar.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="5" titulo="Evaluar" icono="balance-scale" color="#8b5cf6" >}}
+  {{< infografia-seccion numero="5" titulo="Evaluar" icono="balance-scale" color="#5c7ab4" >}}
   Crear juicios basados en criterios y estándares.
   * **Actividades:** Argumentar, justificar, criticar.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion numero="6" titulo="Crear" icono="magic" color="#ec4899" >}}
+  {{< infografia-seccion numero="6" titulo="Crear" icono="magic" color="#b12028" >}}
   Poner en relación elementos para formar nuevos patrones y estructuras.
   * **Actividades:** Diseñar, construir, formular.
   {{< /infografia-seccion >}}

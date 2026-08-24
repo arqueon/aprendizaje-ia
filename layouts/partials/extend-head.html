@@ -1,16 +1,8 @@
-<meta name="color-scheme" content="light">
-<script>
-  /*
-   * C · Almagre interactivo es la única identidad.
-   * Blowfish ya ejecutó su inicialización en <head>; este hook elimina una preferencia
-   * heredada antes de que se pinte <body>. No borra ningún otro estado local.
-   */
-  document.documentElement.classList.remove("dark");
-  document.documentElement.setAttribute("data-default-appearance", "light");
-  document.documentElement.setAttribute("data-auto-appearance", "false");
-  try {
-    localStorage.removeItem("appearance");
-  } catch (_error) {
-    /* El sitio no depende del almacenamiento local. */
-  }
-</script>
+<meta name="color-scheme" content="light dark">
+{{/* Rediseño 2026-08: el sitio ofrece apariencia clara y oscura. La inicialización
+     (clase .dark, preferencia guardada, autoSwitch) la hace Blowfish en <head>;
+     los tokens de ambos modos viven en assets/css/custom.css. */}}
+{{/* Font Awesome autohospedado (la QA del sitio prohíbe tráfico externo).
+     Antes se cargaba desde cdnjs en hooks/head-end.html, partial que Blowfish
+     nunca consumió: los iconos fas de las cards llevaban tiempo sin pintarse. */}}
+<link rel="stylesheet" href="{{ "vendor/fontawesome/css/all.min.css" | relURL }}" />

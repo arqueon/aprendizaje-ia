@@ -45,35 +45,35 @@ Las experiencias de aprendizaje generan interacciones que se convierten en espac
 ## Catálogo de técnicas
 
 {{< infografia titulo="Catálogo de Técnicas" subtitulo="Estrategias prácticas para implementar el aprendizaje activo" >}}
-  {{< infografia-seccion titulo="Pensar, unir, compartir (think-pair-share)" icono="comments" color="#8b5cf6" >}}
+  {{< infografia-seccion titulo="Pensar, unir, compartir (think-pair-share)" icono="comments" color="#5c7ab4" >}}
   Los estudiantes reflexionan individualmente, discuten en parejas y luego comparten con el grupo.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Reflexión de un minuto (minute papers)" icono="stopwatch" color="#ef4444" >}}
+  {{< infografia-seccion titulo="Reflexión de un minuto (minute papers)" icono="stopwatch" color="#b12028" >}}
   Escritos breves al final de la clase para sintetizar lo aprendido o plantear dudas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Encuestas rápidas" icono="poll" color="#3b82f6" >}}
+  {{< infografia-seccion titulo="Encuestas rápidas" icono="poll" color="#5c7ab4" >}}
   Herramientas para evaluar la comprensión en tiempo real y adaptar la enseñanza.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Puntos confusos" icono="question" color="#f59e0b" >}}
+  {{< infografia-seccion titulo="Puntos confusos" icono="question" color="#b06a1f" >}}
   Identificación de los conceptos que resultaron más difíciles para aclaración posterior.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Debates y discusiones" icono="bullhorn" color="#10b981" >}}
+  {{< infografia-seccion titulo="Debates y discusiones" icono="bullhorn" color="#68762f" >}}
   Análisis crítico y argumentación sobre posiciones contrapuestas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Estudios de caso y solución de problemas" icono="briefcase" color="#6366f1" >}}
+  {{< infografia-seccion titulo="Estudios de caso y solución de problemas" icono="briefcase" color="#5c7ab4" >}}
   Aplicación del conocimiento a situaciones reales o simuladas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Aprendizaje entre pares" icono="user-friends" color="#ec4899" >}}
+  {{< infografia-seccion titulo="Aprendizaje entre pares" icono="user-friends" color="#b12028" >}}
   Colaboración y apoyo mutuo entre estudiantes para resolver problemas.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Mapas conceptuales" icono="project-diagram" color="#14b8a6" >}}
+  {{< infografia-seccion titulo="Mapas conceptuales" icono="project-diagram" color="#656f85" >}}
   Organización visual del conocimiento y sus relaciones.
   {{< /infografia-seccion >}}
 
@@ -81,7 +81,7 @@ Las experiencias de aprendizaje generan interacciones que se convierten en espac
   Gamificación para hacer el aprendizaje más interactivo y motivador.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Revisiones entre pares" icono="check-double" color="#0ea5e9" >}}
+  {{< infografia-seccion titulo="Revisiones entre pares" icono="check-double" color="#656f85" >}}
   Evaluación constructiva del trabajo de otros compañeros.
   {{< /infografia-seccion >}}
 {{< /infografia >}}

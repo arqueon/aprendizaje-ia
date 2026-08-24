@@ -40,5 +40,5 @@ después enlaza las guías, prácticas y marcos que necesita.
   {{< card link="guias/" title="Guías prácticas" icon="map" color="#123b4a" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
   {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#9a4e3f" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
   {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#687653" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
-  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#f7a11a" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
+  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#c98b43" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
 {{< /cards >}}

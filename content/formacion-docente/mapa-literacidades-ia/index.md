@@ -67,15 +67,15 @@ Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa
 
 {{< cards >}}
 
-{{< card title="Alfabetización operativa" icon="keyboard" color="#3b82f6"
+{{< card title="Alfabetización operativa" icon="keyboard" color="#5c7ab4"
     link="/formacion-docente/alfabetizacion-operativa/"
     description="Usar la IA con soltura: formular, comparar, verificar, documentar e integrar al flujo de trabajo." >}}
 
-{{< card title="Alfabetización crítica" icon="magnifying-glass" color="#6366f1"
+{{< card title="Alfabetización crítica" icon="magnifying-glass" color="#5c7ab4"
     link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/"
     description="Entender los sistemas, sus sesgos y efectos; discernir y verificar lo que devuelven." >}}
 
-{{< card title="Alfabetización para la co-creación" icon="handshake" color="#7c3aed"
+{{< card title="Alfabetización para la co-creación" icon="handshake" color="#34508c"
     link="/formacion-docente/alfabetizacion-co-creacion/"
     description="Sostener el acoplamiento persona-IA conservando la dirección epistémica del proceso." >}}
 
