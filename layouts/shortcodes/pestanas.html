@@ -1,0 +1,26 @@
+{{- $_ := .Inner -}}
+{{- $tabs := .Scratch.Get "tabs" -}}
+{{- $uid := printf "almtabs-%s-%d" (substr (md5 .Page.RelPermalink) 0 6) .Ordinal -}}
+<div class="alm-pestanas not-prose-controls">
+  {{- range $i, $t := $tabs -}}
+    <input type="radio" name="{{ $uid }}" id="{{ $uid }}-{{ $i }}"{{ if eq $i 0 }} checked{{ end }}>
+  {{- end -}}
+  <nav class="alm-tabs-nav">
+    {{- range $i, $t := $tabs -}}
+      <label for="{{ $uid }}-{{ $i }}">{{ $t.titulo }}</label>
+    {{- end -}}
+  </nav>
+  {{- range $i, $t := $tabs -}}
+    <div class="alm-tab-panel" data-panel="{{ $uid }}-{{ $i }}">{{ $t.cuerpo }}</div>
+  {{- end -}}
+  <style>
+    {{- range $i, $t := $tabs }}
+    #{{ $uid }}-{{ $i }}:checked ~ [data-panel="{{ $uid }}-{{ $i }}"] { display: block; }
+    #{{ $uid }}-{{ $i }}:checked ~ .alm-tabs-nav label[for="{{ $uid }}-{{ $i }}"] {
+      color: var(--udg-c-ink);
+      background: var(--udg-c-surface);
+      border-bottom-color: var(--udg-c-primary);
+    }
+    {{- end }}
+  </style>
+</div>

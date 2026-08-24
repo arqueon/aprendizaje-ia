@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ciclo de diseño inverso en cocreación con IA: red de seis pasos enlazados sobre fondo nocturno">
+  <rect width="1200" height="630" fill="#0e1628"/>
+  <rect width="1200" height="630" fill="#1f260f" opacity="0.35"/>
+  <g stroke="#68762f" stroke-width="2" opacity="0.65" fill="none">
+    <path d="M240 315 L420 190 L640 250 L840 180"/>
+    <path d="M240 315 L420 440 L640 380 L840 450"/>
+    <path d="M840 180 L980 315 L840 450"/>
+    <path d="M420 190 L420 440 M640 250 L640 380"/>
+  </g>
+  <g>
+    <circle cx="240" cy="315" r="34" fill="#68762f"/>
+    <circle cx="420" cy="190" r="24" fill="#96a14c"/>
+    <circle cx="420" cy="440" r="24" fill="#96a14c"/>
+    <circle cx="640" cy="250" r="20" fill="#bdc276"/>
+    <circle cx="640" cy="380" r="20" fill="#bdc276"/>
+    <circle cx="840" cy="180" r="24" fill="#96a14c"/>
+    <circle cx="840" cy="450" r="24" fill="#96a14c"/>
+    <circle cx="980" cy="315" r="34" fill="#d8dbae"/>
+  </g>
+  <g font-family="Archivo Narrow, sans-serif" font-size="24" fill="#d8dbae" text-anchor="middle">
+    <text x="240" y="385">RESULTADOS</text>
+    <text x="420" y="150">EVIDENCIAS</text>
+    <text x="420" y="500">CONTEXTO</text>
+    <text x="640" y="215">SECUENCIAS</text>
+    <text x="640" y="445">COCREACIÓN</text>
+    <text x="840" y="140">PILOTAJE</text>
+    <text x="840" y="510">REVISIÓN</text>
+    <text x="980" y="385" fill="#eceddc">APRENDIZAJE</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+<details class="alm-pliegue"{{ if eq (.Get "abierto") "true" }} open{{ end }}>
+  <summary>{{ .Get "titulo" }}</summary>
+  <div class="alm-pliegue-cuerpo">{{ .Inner | markdownify }}</div>
+</details>

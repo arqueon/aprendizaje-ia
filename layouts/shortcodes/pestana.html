@@ -1,0 +1,3 @@
+{{- with .Parent -}}
+  {{- .Scratch.Add "tabs" (slice (dict "titulo" ($.Get "titulo") "cuerpo" ($.Inner | markdownify))) -}}
+{{- end -}}
