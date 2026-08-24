@@ -1,0 +1,7 @@
+{{- $r := .Page.Resources.Get (.Get "src") -}}
+{{- $m := "" -}}{{- with .Get "movil" }}{{ $m = $.Page.Resources.Get . }}{{ end -}}
+<figure class="not-prose alm-figura">
+  <div class="alm-figura-lienzo{{ if $m }} alm-figura-escritorio{{ end }}">{{ $r.Content | safeHTML }}</div>
+  {{- with $m }}<div class="alm-figura-lienzo alm-figura-movil">{{ .Content | safeHTML }}</div>{{ end -}}
+  {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+</figure>

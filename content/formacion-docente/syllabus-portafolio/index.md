@@ -131,7 +131,7 @@ El portafolio docente es una herramienta para que cada profesora y profesor pued
 
 Uno de los componentes centrales del portafolio es la filosofía de enseñanza. Esta implica la reflexión sobre la forma en que cada profesor concibe su actividad docente, incluyendo los enfoques de aprendizaje específicos que promueve, la forma en que fomenta la participación de los estudiantes y sus propias fortalezas y áreas de desarrollo futuro como académico.
 
-![El perfil de un profesor moderno](img/profesor-moderno.svg "El perfil de un profesor moderno — adaptado de Reid Wilson, @wayfaringpath")
+{{< figura src="img/profesor-moderno.svg" movil="img/profesor-moderno-movil.svg" caption="Ocho hábitos de la mente del profesorado moderno. Fuente: adaptado de Reid Wilson (@wayfaringpath), citado en Universidad de Guadalajara (2022)." >}}
 
 ## El perfil del profesor moderno
 

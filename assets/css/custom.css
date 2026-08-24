@@ -937,3 +937,10 @@ article > figure:first-child > img.single_hero_round {
 html.dark .single_hero_background {
   background-color: color-mix(in srgb, var(--udg-c-paper) 55%, transparent) !important;
 }
+
+/* figura con variante móvil: escritorio ≥640px, móvil debajo */
+.prose .alm-figura .alm-figura-movil { display: none; }
+@media (max-width: 639px) {
+  .prose .alm-figura .alm-figura-escritorio { display: none; }
+  .prose .alm-figura .alm-figura-movil { display: block; }
+}
