@@ -1,15 +1,14 @@
 ---
-title: "Learn Prompting: curso completo de ingeniería de prompts"
+title: "Learn Prompting: guía introductoria y cursos"
 date: 2026-04-26
 draft: false
-description: "Recurso abierto y gratuito que cubre la ingeniería de prompts desde lo básico hasta técnicas avanzadas, con enfoque pedagógico y ejemplos transferibles al aula universitaria."
-summary: "Una de las referencias más completas y abiertas sobre ingeniería de prompts. Útil para docentes que quieran formación sostenida sin pagar suscripciones."
-tags: ["prompts", "ingeniería de prompts", "curso abierto", "formación docente"]
-categories: ["video"]
+description: "Guía web sobre instrucciones para IA, con explicaciones y ejemplos que pueden probarse sobre una tarea propia."
+summary: "Úsala para pasar de una instrucción breve a una versión revisada y comprobar qué información mejoró la respuesta."
+tags: ["prompts", "ingeniería de prompts", "curso web", "formación docente"]
+categories: ["link"]
 areas: ["ia", "formacion"]
-
 showHero: false
-showTableOfContents: false
+showTableOfContents: true
 showReadingTime: false
 showDate: true
 showTaxonomies: true
@@ -17,28 +16,39 @@ showRelatedContent: true
 showBreadcrumbs: true
 showSummary: true
 showAuthor: false
-
-videoCanal: "Learn Prompting"
-videoIdioma: "en (subtítulos en español disponibles)"
-videoUrl: "https://learnprompting.org/"
+resourceType: "guía web y cursos"
+resourceLanguage: "en"
+resourceUrl: "https://learnprompting.org/docs"
 ---
 
 {{< alert icon="link" cardColor="#e0f2fe" >}}
-Recurso externo — se abre en una nueva pestaña.
+[Abre la guía introductoria de Learn Prompting](https://learnprompting.org/docs). Es un recurso externo en inglés.
 {{< /alert >}}
 
-**Sobre el recurso:** *Learn Prompting* es un libro abierto y un curso en línea, mantenido por Sander Schulhoff y un equipo de colaboradores. Cubre la ingeniería de prompts desde nociones básicas (estructura de un prompt, contexto, ejemplos) hasta técnicas avanzadas (chain-of-thought, autoconsistencia, ReAct, prompts adversariales). El material se publica como repositorio abierto y se actualiza regularmente conforme aparecen nuevas técnicas.
+## Qué es
 
-**Por qué lo compartimos:** Es probablemente la fuente más completa y libre disponible sobre el tema. La diferencia con cursos comerciales es relevante: *Learn Prompting* mantiene su material accesible sin paywall y trata la ingeniería de prompts con rigor académico, no como receta de marketing. Para un docente que quiere formación sostenida sin comprometerse con un proveedor comercial, este es el punto de partida.
+*Learn Prompting* mantiene una guía web sobre IA generativa y diseño de instrucciones. La parte introductoria explica cómo escribir una petición clara, probar variantes, añadir contexto y usar ejemplos cuando una instrucción por sí sola no basta. El sitio también ofrece cursos y certificaciones separados; sus condiciones de acceso pueden cambiar y deben comprobarse antes de recomendar una ruta completa.
 
-**Para quién es útil:** Docentes que ya completaron una introducción básica a IA generativa y quieren profundizar; coordinaciones académicas que diseñan formaciones internas y necesitan material de referencia con licencia abierta; estudiantes universitarios avanzados con interés en el tema.
+No es un video único. Se conserva en esta colección porque combina explicaciones, ejemplos y cursos que pueden acompañar la formación docente. La ficha identifica el formato para no confundirlo con la charla de Sal Khan ni con una serie de YouTube.
 
-**Cómo se articula con el sitio:** El material complementa la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/), que opera como introducción adaptada al contexto pedagógico. Para profundizar en técnicas avanzadas, *Learn Prompting* es el siguiente paso natural.
+## Para quién sirve
 
-**Otras opciones a considerar:** El curso *ChatGPT Prompt Engineering for Developers* de DeepLearning.AI con Isa Fulford y Andrew Ng (1.5 horas, gratuito) ofrece una introducción más breve pero igualmente sólida. Está disponible en [DeepLearning.AI](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
+Puede servir a docentes y estudiantes que ya tienen una tarea concreta y quieren observar cómo cambia una respuesta al modificar la instrucción. Para una introducción situada en el trabajo docente conviene empezar por la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/).
 
-## Referencias
+## Prueba breve
 
-DeepLearning.AI. (2024). *ChatGPT prompt engineering for developers* [Online course]. https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+1. Elige un párrafo, una tabla o una pregunta que ya utilices.
+2. Escribe una instrucción breve y conserva la primera respuesta.
+3. Añade solo la información que la tarea realmente necesita: el material inicial, la audiencia, un límite o un ejemplo.
+4. Compara ambas respuestas contra el material original.
+5. Anota qué cambio ayudó y qué afirmación todavía debes comprobar.
 
-Schulhoff, S. (2024). *Learn Prompting* [Online textbook and course]. https://learnprompting.org/
+La prueba sirve si puedes explicar por qué la segunda instrucción fue más útil. Una respuesta más larga o segura no es necesariamente mejor.
+
+## Acceso comprobado
+
+- [Guía introductoria](https://learnprompting.org/docs)
+- [Consejos básicos para escribir mejores instrucciones](https://learnprompting.org/docs/basics/ai_prompt_tips)
+- [Curso de introducción a la ingeniería de prompts](https://learnprompting.org/courses/introduction_to_prompt_engineering)
+
+Enlaces revisados el 23 de agosto de 2026.

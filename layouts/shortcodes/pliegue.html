@@ -1,4 +1,30 @@
-<details class="alm-pliegue"{{ if eq (.Get "abierto") "true" }} open{{ end }}>
-  <summary>{{ .Get "titulo" }}</summary>
-  <div class="alm-pliegue-cuerpo">{{ .Inner | markdownify }}</div>
+{{- if not .Parent -}}
+  {{- errorf "Shortcode pliegue: solo puede usarse dentro de acordeon en %s" .Position -}}
+{{- else if ne .Parent.Name "acordeon" -}}
+  {{- errorf "Shortcode pliegue: requiere acordeon como padre; recibió %q en %s" .Parent.Name .Position -}}
+{{- end -}}
+{{- $title := strings.TrimSpace (.Get "titulo" | default "") -}}
+{{- if not $title -}}
+  {{- errorf "Shortcode pliegue: titulo es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- $open := .Get "abierto" | default "false" -}}
+{{- if not (in (slice "true" "false") $open) -}}
+  {{- errorf "Shortcode pliegue: abierto debe ser true o false; recibió %q en %s" $open .Position -}}
+{{- end -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode pliegue: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- $body := $inner | markdownify -}}
+{{- $printBody := $body | replaceRE `\s+id="[^"]+"` "" | safeHTML -}}
+<details
+  class="alm-pliegue alm-componente"
+  data-udgia-component="pliegue"
+  {{- if eq $open "true" }} open{{ end }}>
+  <summary>{{ $title }}</summary>
+  <div class="alm-pliegue-cuerpo">{{ $body }}</div>
 </details>
+<div class="alm-pliegue-impresion" aria-hidden="true">
+  <p class="alm-pliegue-impresion__titulo">{{ $title }}</p>
+  <div>{{ $printBody }}</div>
+</div>

@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-08-25",
+  "scope": {
+    "source": "layouts/shortcodes",
+    "styles": "assets/css/custom.css",
+    "fixture": "tests/fixtures/shortcode-library/content/componentes/index.md",
+    "qa": "tools/qa-shortcode-library.mjs",
+    "publicationAuthorized": false,
+    "contentPropagationAuthorized": false
+  },
+  "categories": {
+    "global": "Bloque estable, semántico y reutilizable en cualquier sección pública.",
+    "compound": "Familia de dos shortcodes o contenedor estructural con contrato de anidamiento.",
+    "specific": "Pieza ligada a un tipo de contenido, catálogo, runtime o plantilla concreta; no se generaliza por apariencia.",
+    "retirable": "Compatibilidad conservada sin adopciones nuevas y con reemplazo explícito."
+  },
+  "tokens": {
+    "color": [
+      "--udg-c-paper",
+      "--udg-c-surface",
+      "--udg-c-surface-alt",
+      "--udg-c-ink",
+      "--udg-c-muted",
+      "--udg-c-line",
+      "--udg-c-primary",
+      "--udg-c-primary-tint",
+      "--udg-c-good",
+      "--udg-c-good-tint",
+      "--udg-c-warning",
+      "--udg-c-warning-tint",
+      "--udg-c-risk",
+      "--udg-c-risk-tint"
+    ],
+    "type": [
+      "--udg-c-font-display",
+      "--udg-c-font-body",
+      "--udg-c-font-label"
+    ],
+    "component": [
+      "--alm-space-xs",
+      "--alm-space-sm",
+      "--alm-space-md",
+      "--alm-space-lg",
+      "--alm-space-xl",
+      "--alm-radius-sm",
+      "--alm-radius-md",
+      "--alm-inset-inline",
+      "--alm-control-min"
+    ],
+    "rules": [
+      "Los componentes compartidos consumen tokens semánticos; no introducen una paleta paralela.",
+      "color en card se conserva sólo por compatibilidad con contenido existente; las adopciones nuevas deben omitirlo.",
+      "Los SVG externos no heredan variables CSS y deben resolver por sí mismos sus dos apariencias."
+    ]
+  },
+  "contractProfiles": {
+    "semantic-block": {
+      "accessibility": "Región semántica con nombre accesible visible y contenido Markdown en el DOM.",
+      "responsive": "Ancho fluido, palabras largas quebrables e inset lateral adaptable desde 320 px.",
+      "print": "Fondo transparente, contraste negro sobre blanco y bloque indivisible cuando cabe.",
+      "fallback": "HTML y Markdown nativos; no depende de JavaScript, iconos ni color para conservar el contenido.",
+      "tests": ["manifest", "hugo-build", "desktop-light", "mobile-dark", "forced-colors", "axe", "print"]
+    },
+    "native-disclosure": {
+      "accessibility": "details y summary nativos, foco visible, título obligatorio y activación por teclado.",
+      "responsive": "Una columna fluida con objetivo de control mínimo de 44 px.",
+      "print": "Todos los paneles se muestran aunque estén cerrados en pantalla.",
+      "fallback": "Sin JavaScript; el navegador conserva apertura nativa y todo el texto permanece en el DOM.",
+      "tests": ["manifest", "nesting", "hugo-build", "keyboard", "forced-colors", "axe", "print"]
+    },
+    "ordered-process": {
+      "accessibility": "Lista ordenada real; la numeración visual no reemplaza la semántica de ol y li.",
+      "responsive": "Sangría y conectores se reducen en pantalla estrecha sin perder el orden.",
+      "print": "Cada paso evita cortes internos cuando cabe y conserva numeración y texto.",
+      "fallback": "Sin CSS sigue siendo una lista ordenada legible; no usa JavaScript.",
+      "tests": ["manifest", "nesting", "hugo-build", "mobile-dark", "forced-colors", "axe", "print"]
+    },
+    "card-grid": {
+      "accessibility": "La agrupación tiene nombre accesible, cada destino conserva un enlace textual y la imagen es decorativa.",
+      "responsive": "La cuadrícula pasa de una a tres columnas según el ancho y cada tarjeta admite texto largo.",
+      "print": "Las tarjetas pierden sombra y evitan cortes internos; los enlaces siguen presentes.",
+      "fallback": "El título enlazado funciona sin icono, imagen o JavaScript; existe imagen predeterminada para adopciones vigentes.",
+      "tests": ["manifest", "hugo-build", "desktop-light", "mobile-dark", "forced-colors", "axe", "print"]
+    },
+    "inline-svg": {
+      "accessibility": "Caption obligatorio y SVG con semántica propia; la explicación equivalente debe preceder o acompañar la figura.",
+      "responsive": "Variante móvil opcional por debajo de 640 px; la variante de escritorio es el fallback.",
+      "print": "Figura y caption se imprimen juntos cuando cabe.",
+      "fallback": "Sin variante móvil se usa el SVG principal; un recurso ausente detiene el build con error explícito.",
+      "tests": ["manifest", "resource-validation", "hugo-build", "mobile-dark", "forced-colors", "axe", "print"]
+    },
+    "bounded-specific": {
+      "accessibility": "La pieza conserva su contrato propio y debe tener alternativa equivalente cuando contiene interacción o visualización.",
+      "responsive": "Se verifica en su ruta o plantilla propietaria; no adquiere por ello estatus global.",
+      "print": "Se verifica en su QA propietaria y debe declarar la conducta de controles y contenido.",
+      "fallback": "El dueño de la pieza documenta el fallback; no se infiere desde la biblioteca global.",
+      "tests": ["manifest", "owner-qa"]
+    },
+    "deprecated-compat": {
+      "accessibility": "No se prometen nuevas capacidades; el HTML heredado se conserva durante la sustitución.",
+      "responsive": "Sin garantía nueva; no debe adoptarse en contenido adicional.",
+      "print": "Sin garantía nueva; migrar al reemplazo antes de ampliar su uso.",
+      "fallback": "La plantilla permanece para no romper contenido histórico y emite advertencia si reaparece.",
+      "tests": ["manifest", "zero-public-uses", "replacement-present"]
+    }
+  },
+  "components": {
+    "idea": {
+      "category": "global",
+      "status": "stable",
+      "family": "callout",
+      "contractProfile": "semantic-block",
+      "api": {"kind": "paired", "params": {"titulo": "opcional; Idea clave"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "cualquiera", "children": "Markdown y shortcodes de contenido"}
+    },
+    "practica": {
+      "category": "global",
+      "status": "stable",
+      "family": "callout",
+      "contractProfile": "semantic-block",
+      "api": {"kind": "paired", "params": {"titulo": "opcional; Práctica"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "cualquiera", "children": "Markdown y shortcodes de contenido"}
+    },
+    "parallevar": {
+      "category": "global",
+      "status": "stable",
+      "family": "callout",
+      "contractProfile": "semantic-block",
+      "api": {"kind": "paired", "params": {"titulo": "opcional; Para llevar"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "cualquiera", "children": "Markdown y shortcodes de contenido"}
+    },
+    "referencias": {
+      "category": "global",
+      "status": "stable",
+      "family": "references",
+      "contractProfile": "semantic-block",
+      "api": {"kind": "paired", "params": {"titulo": "opcional; Referencias"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "cualquiera; una instancia por página", "children": "lista Markdown de referencias"}
+    },
+    "figura": {
+      "category": "global",
+      "status": "stable",
+      "family": "figure",
+      "contractProfile": "inline-svg",
+      "api": {"kind": "self-closing", "params": {"src": "SVG de Page Bundle obligatorio", "movil": "SVG opcional", "caption": "obligatorio"}, "inner": "no admite"},
+      "nesting": {"parent": "Page Bundle", "children": "ninguno"}
+    },
+    "cards": {
+      "category": "compound",
+      "status": "stable",
+      "family": "cards/card",
+      "contractProfile": "card-grid",
+      "api": {"kind": "paired", "params": {"etiqueta": "opcional; Enlaces relacionados"}, "inner": "uno o más card"},
+      "nesting": {"parent": "cualquiera", "children": "card"}
+    },
+    "card": {
+      "category": "compound",
+      "status": "stable-compatible",
+      "family": "cards/card",
+      "contractProfile": "card-grid",
+      "api": {"kind": "self-closing", "params": {"link": "obligatorio", "title": "obligatorio", "description": "opcional", "icon": "opcional Font Awesome", "img": "opcional", "tall": "true o false", "color": "legado; no usar en adopciones nuevas"}, "inner": "no admite"},
+      "nesting": {"parent": "cards recomendado; standalone conservado para tres usos heredados", "children": "ninguno"}
+    },
+    "acordeon": {
+      "category": "compound",
+      "status": "stable",
+      "family": "acordeon/pliegue",
+      "contractProfile": "native-disclosure",
+      "api": {"kind": "paired", "params": {"etiqueta": "opcional; Contenido desplegable"}, "inner": "uno o más pliegue"},
+      "nesting": {"parent": "cualquiera", "children": "pliegue"}
+    },
+    "pliegue": {
+      "category": "compound",
+      "status": "stable",
+      "family": "acordeon/pliegue",
+      "contractProfile": "native-disclosure",
+      "api": {"kind": "paired", "params": {"titulo": "obligatorio", "abierto": "true o false; false"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "acordeon obligatorio", "children": "Markdown y shortcodes de contenido"}
+    },
+    "proceso": {
+      "category": "compound",
+      "status": "stable",
+      "family": "proceso/paso",
+      "contractProfile": "ordered-process",
+      "api": {"kind": "paired", "params": {}, "inner": "uno o más paso"},
+      "nesting": {"parent": "cualquiera", "children": "paso"}
+    },
+    "paso": {
+      "category": "compound",
+      "status": "stable",
+      "family": "proceso/paso",
+      "contractProfile": "ordered-process",
+      "api": {"kind": "paired", "params": {"titulo": "obligatorio"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "proceso obligatorio", "children": "Markdown y shortcodes de contenido"}
+    },
+    "pestanas": {
+      "category": "compound",
+      "status": "stable",
+      "family": "pestanas/pestana",
+      "contractProfile": "native-disclosure",
+      "api": {"kind": "paired", "params": {"etiqueta": "opcional; Contenido por facetas"}, "inner": "dos o más pestana"},
+      "nesting": {"parent": "cualquiera", "children": "pestana"}
+    },
+    "pestana": {
+      "category": "compound",
+      "status": "stable",
+      "family": "pestanas/pestana",
+      "contractProfile": "native-disclosure",
+      "api": {"kind": "paired", "params": {"titulo": "obligatorio"}, "inner": "Markdown obligatorio"},
+      "nesting": {"parent": "pestanas obligatorio", "children": "Markdown y shortcodes de contenido"}
+    },
+    "curso-interactivo": {
+      "category": "specific",
+      "status": "course-bounded",
+      "family": "course",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {"id": "obligatorio y registrado en data/h5p/course_candidates.json"}, "inner": "reservado; el fallback procede del catálogo"},
+      "nesting": {"parent": "curso diseno-inverso-cocreacion-ia", "children": "ninguno"}
+    },
+    "curso-navegacion": {
+      "category": "specific",
+      "status": "course-bounded",
+      "family": "course",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "self-closing", "params": {"anterior": "slug opcional", "siguiente": "slug opcional"}, "inner": "no admite"},
+      "nesting": {"parent": "lección del curso", "children": "ninguno"}
+    },
+    "h5p": {
+      "category": "specific",
+      "status": "runtime-bounded",
+      "family": "h5p-runtime",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {"id": "obligatorio y registrado", "load": "manual o visible", "title": "opcional", "description": "opcional"}, "inner": "fallback Markdown obligatorio"},
+      "nesting": {"parent": "página con objeto H5P gobernado", "children": "alternativa accesible"}
+    },
+    "recurso-info": {
+      "category": "specific",
+      "status": "content-type-bounded",
+      "family": "resource-article",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "self-closing", "params": {}, "inner": "no admite; lee articuloAutores, articuloAnio, articuloFuente, articuloDOI, articuloAccesoAbierto y articuloUrl"},
+      "nesting": {"parent": "artículo de recursos", "children": "ninguno"}
+    },
+    "illustrated-guide": {
+      "category": "specific",
+      "status": "template-bounded",
+      "family": "illustrated-guide",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "self-closing", "params": {}, "inner": "no admite; carga guide-body.txt"},
+      "nesting": {"parent": "Page Bundle con layout guia-ilustrada", "children": "ninguno"}
+    },
+    "infografia": {
+      "category": "specific",
+      "status": "legacy-frozen",
+      "family": "infografia",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {"titulo": "obligatorio", "subtitulo": "opcional", "fuente": "opcional"}, "inner": "infografia-intro e infografia-seccion"},
+      "nesting": {"parent": "páginas heredadas", "children": "infografia-intro e infografia-seccion"}
+    },
+    "infografia-intro": {
+      "category": "specific",
+      "status": "legacy-frozen",
+      "family": "infografia",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {}, "inner": "Markdown"},
+      "nesting": {"parent": "infografia", "children": "Markdown"}
+    },
+    "infografia-seccion": {
+      "category": "specific",
+      "status": "legacy-frozen",
+      "family": "infografia",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {"numero": "opcional", "titulo": "obligatorio", "icono": "opcional", "color": "legado"}, "inner": "Markdown"},
+      "nesting": {"parent": "infografia", "children": "Markdown"}
+    },
+    "udgia-figure": {
+      "category": "specific",
+      "status": "catalog-bounded",
+      "family": "governed-figure",
+      "contractProfile": "bounded-specific",
+      "api": {"kind": "paired", "params": {"id": "obligatorio y registrado en data/udgia_figures.json", "src": "sobrescritura opcional"}, "inner": "descripción textual opcional"},
+      "nesting": {"parent": "página que participa en el catálogo de figuras", "children": "descripción Markdown"}
+    },
+    "tarjetas": {
+      "category": "retirable",
+      "status": "deprecated-preserved",
+      "family": "legacy-card-grid",
+      "contractProfile": "deprecated-compat",
+      "api": {"kind": "paired", "params": {}, "inner": "HTML heredado"},
+      "nesting": {"parent": "sin adopciones nuevas", "children": "no especificados"},
+      "replacement": "cards/card"
+    }
+  },
+  "themeDependencies": {
+    "lead": {"category": "global", "owner": "Blowfish v2.97.0"},
+    "alert": {"category": "global", "owner": "Blowfish v2.97.0"},
+    "timeline": {"category": "compound", "owner": "Blowfish v2.97.0", "child": "timelineItem"},
+    "timelineItem": {"category": "compound", "owner": "Blowfish v2.97.0", "parent": "timeline"},
+    "chart": {"category": "specific", "owner": "Blowfish v2.97.0"},
+    "mermaid": {"category": "specific", "owner": "Blowfish v2.97.0"},
+    "typeit": {"category": "specific", "owner": "Blowfish v2.97.0"},
+    "youtubeLite": {"category": "specific", "owner": "Blowfish v2.97.0"}
+  }
+}

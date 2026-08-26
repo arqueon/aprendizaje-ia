@@ -329,6 +329,7 @@ async function listFiles(directory, base = directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
   for (const entry of entries.sort((a, b) => a.name.localeCompare(b.name))) {
+    if (/^\..+\.~[a-f0-9]+$/i.test(entry.name)) continue;
     const absolute = path.join(directory, entry.name);
     if ((await lstat(absolute)).isSymbolicLink()) {
       throw new Error(`El runtime generado no admite symlinks: ${absolute}`);

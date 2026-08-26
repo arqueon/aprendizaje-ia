@@ -33,7 +33,7 @@ connections:
   - relation: fundamenta
     page: /ia-educacion/guias/evaluacion-formativa-ia/
     reason: "Explica por qué la evaluación necesita observar decisiones, no solo productos."
-weight: 1
+weight: 12
 ecosistema:
   id: pattern.direccion-epistemica
   titulo: "Dirección epistémica"
@@ -135,9 +135,10 @@ La alfabetización para la co-creación es el tercer nivel del marco; supone los
 
 Para profundizar en la **progresión formativa** de la co-creación —detectar, sostener y diseñar para otros, con indicadores observables y métodos de entrenamiento—, ver la [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/). La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa.
 
-## Referencias
+{{< referencias >}}
 
 - Lodge, J.M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
 - Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
 - Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*(11). https://doi.org/10.1186/s41239-026-00585-x
 - Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. *arXiv preprint*.
+{{< /referencias >}}

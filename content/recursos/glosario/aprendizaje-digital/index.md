@@ -6,11 +6,16 @@ tags: ["educación digital", "tecnología"]
 categories: ["concepto"]
 areas: ["digital", "pedagogia"]
 showHero: true
-summary: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
+summary: "Aprender y enseñar con apoyo de tecnologías y recursos digitales, dentro o fuera de un aula en línea."
+description: "Uso educativo de tecnologías digitales para estudiar, enseñar, comunicarse, practicar o revisar avances."
 ---
 
-El **aprendizaje digital** (*digital learning*) engloba cualquier práctica educativa que dependa de forma sustantiva del uso de la tecnología para instruir, evaluar o gestionar el ecosistema formativo.
+Cuando una clase depende de una plataforma, una simulación, un documento compartido o una herramienta de comunicación, hablamos de **aprendizaje digital** si ese recurso interviene de manera significativa en lo que el grupo hace para aprender. Puede ocurrir en un curso presencial, híbrido o en línea. La tecnología puede servir para acceder a materiales, colaborar, practicar, recibir comentarios o revisar avances.
 
-No debe confundirse con la simple digitalización de formatos analógicos (ej. subir un PDF a un repositorio). El verdadero aprendizaje digital aprovecha las capacidades intrínsecas de las herramientas computacionales —como la recolección de datos, la interactividad y la adaptación algorítmica— para crear experiencias hiper-personalizadas.
+Subir un PDF a una plataforma puede formar parte de una actividad, pero el archivo por sí solo no explica qué hará el grupo. Por ejemplo, una actividad digital puede pedir que dos estudiantes comparen sus anotaciones sobre un texto, revisen una afirmación con las fuentes disponibles y dejen una versión corregida. Lo importante es la acción que la tecnología permite o facilita, no que todo sea interactivo, automático o personalizado.
 
-**Relacionado con:** [IA y Educación](/ia-educacion/)
+La expresión tampoco significa que una herramienta mejore el aprendizaje por sí misma. Hay que revisar acceso, privacidad, carga de trabajo y relación con lo que se espera aprender.
+
+**Relacionado con:** [Diseñar una actividad de aprendizaje híbrido y activo](/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/)
+
+**Para contrastar:** [Digital learning, UNESCO](https://www.unesco.org/en/query-list/d/digital-learning)

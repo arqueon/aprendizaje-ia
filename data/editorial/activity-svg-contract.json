@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-08-23",
+  "policy": {
+    "default": "svg-required",
+    "exceptionRequires": "justificación pedagógica explícita",
+    "reusePreference": "reuse-before-new",
+    "purpose": "Cada actividad debe incluir una representación SVG que ayude a anticipar la secuencia, comparar opciones, reconocer una decisión o comprender el producto; no se usa como ornamento.",
+    "delivery": "Toda figura ofrece variante de escritorio y móvil, ampliación, descripción textual equivalente, procedencia, licencia y un identificador reusable.",
+    "circulation": "Los SVG se catalogan para reutilización en guías, prácticas, cards, materiales descargables y otros contextos compatibles sin duplicar la fuente canónica."
+  },
+  "baseline": {
+    "totalActivities": 12,
+    "integrated": 1,
+    "temporaryDebt": 11,
+    "exceptions": 0,
+    "note": "La deuda heredada solo puede disminuir. Una actividad nueva debe integrar una figura catalogada o registrar una excepción aprobada y justificada en el mismo cambio."
+  },
+  "activities": [
+    {
+      "path": "ia-educacion/guias/abp-con-ia/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "ciclo-abp-decision-evidencia",
+      "rationale": "La guía y la práctica de ABP deben compartir un ciclo visual de problema, investigación, producción, contraste y decisión, con variaciones de contexto pero una sola fuente SVG."
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "status": "integrated",
+      "figureId": "udgia-f07-dialogo",
+      "rationale": "La secuencia gobernada de diálogo hace visible la relación entre consigna, interacción, contraste, justificación y revisión."
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f07-dialogo",
+      "rationale": "La actividad puede reutilizar la secuencia de diálogo activo, acompañada por una explicación específica de cómo se distribuyen los momentos presenciales y asincrónicos."
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f18-cinco-movimientos",
+      "rationale": "El laboratorio estudiantil sigue el mismo recorrido de propósito, intento, ayuda delimitada, comprobación y decisión; debe reutilizar la fuente compartida."
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "alineacion-proposito-accion-evidencia",
+      "rationale": "La revisión docente necesita una figura breve que conecte propósito, acción observable, evidencia y ajuste, y que también pueda circular en talleres y plantillas."
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f05-cocreacion",
+      "rationale": "La bitácora documenta el ciclo de formular, evaluar, descartar y reformular; la figura de co-creación ya expresa ese proceso y evita una copia redundante."
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f18-cinco-movimientos",
+      "rationale": "La práctica desarrolla especialmente el cuarto movimiento, pero gana claridad al conservar el recorrido completo y señalar dónde ocurre la comprobación decisiva."
+    },
+    {
+      "path": "laboratorio/practicas/abp-con-ia/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "ciclo-abp-decision-evidencia",
+      "rationale": "La práctica y la guía de ABP necesitan el mismo ciclo visual reusable; compartir la clave preserva consistencia y permite adaptar el texto sin duplicar el SVG."
+    },
+    {
+      "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "recorrido-auditoria-sesgos",
+      "rationale": "La actividad requiere visualizar muestra, patrón, personas afectadas, explicación alternativa y decisión de mitigación para evitar que sesgo funcione como etiqueta abstracta."
+    },
+    {
+      "path": "laboratorio/practicas/aula-invertida/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "ciclo-aula-invertida-evidencia",
+      "rationale": "Una figura debe mostrar cómo antes, durante y después transforman la misma evidencia, incluyendo una ruta equivalente cuando no es posible asistir sincrónicamente."
+    },
+    {
+      "path": "laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "status": "new-shared-planned",
+      "sharedKey": "ciclo-debate-socratico-contraste",
+      "rationale": "La actividad necesita distinguir pregunta, postura inicial, objeción, evidencia, revisión y defensa para que la IA no parezca una autoridad que entrega respuestas."
+    },
+    {
+      "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f09-instrumentos",
+      "rationale": "El portafolio iterativo forma parte de los instrumentos ya catalogados para hacer visible el proceso; reutilizar la figura conserva la relación con bitácora, defensa y rúbrica."
+    }
+  ]
+}

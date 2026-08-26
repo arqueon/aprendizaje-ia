@@ -1,25 +1,31 @@
 ---
 title: Estudios, encuestas y hallazgos
+summary: "Encuestas, ensayos y reseñas sobre IA y educación superior, presentados con su procedencia y sus límites."
+description: "Una colección para distinguir datos regionales, interpretación conceptual y argumentos sobre tendencias en IA educativa."
 ---
 
-Resultados de encuestas y monitoreo del ecosistema. Una radiografía de cómo la comunidad universitaria adopta, resiste o ignora la inteligencia artificial en sus aulas.
+Esta sección reúne materiales que no producen el mismo tipo de conocimiento. Una **encuesta regional** describe respuestas declaradas por quienes participaron; un **ensayo conceptual** propone una interpretación; una **reseña** reconstruye y discute el argumento de otra publicación. La distinción importa porque una cifra, una lectura teórica y una tesis editorial no permiten las mismas conclusiones.
+
+{{< practica titulo="Elige la entrada según tu pregunta" >}}
+Si necesitas datos para delimitar un diagnóstico, revisa primero el método y los límites de la encuesta. Si buscas una interpretación para formular un problema, consulta los ensayos. Si necesitas reconstruir un argumento reciente y discutir sus consecuencias, entra en las reseñas. En todos los casos conviene volver a la fuente citada antes de trasladar una afirmación a una decisión institucional.
+{{< /practica >}}
 
 ## Estudios recientes
 
-### Encuesta DEC 2026: IA en educación superior (Latinoamérica)
+### Encuesta DEC 2026: IA en educación superior en América Latina
 
-Este estudio cuenta con la participación de la **Universidad de Guadalajara**, aportando una muestra significativa de **6,578** universitarios.
+El Digital Education Council reunió respuestas de estudiantes y profesorado de 29 instituciones. La Universidad de Guadalajara figura entre las instituciones participantes, pero el informe público no publica resultados desagregados por universidad. Su inclusión permite reconocer participación institucional; no permite atribuir a la UdeG los porcentajes regionales ni afirmar representatividad local.
 
-{{< card link="/observatorio/estudios/encuesta-dec-2026" title="Leer informe completo y gráficas" icon="book-open" >}}
+{{< card link="/observatorio/estudios/encuesta-dec-2026" title="Leer la ficha metodológica y consultar el informe" icon="book-open" >}}
 
 ### Habitar la IA: técnica, cultura y aprendizaje con Simondon
 
-Una relectura de Gilbert Simondon y del concepto de *mundoambiente* de Flavia Costa para mover el debate educativo desde «¿cómo usamos la IA?» hacia «¿en qué entorno técnico estamos enseñando?».
+Este ensayo relaciona a Gilbert Simondon con el concepto de *mundoambiente* de Flavia Costa. Su aporte es interpretativo: desplaza la pregunta por el uso aislado de una herramienta hacia las condiciones técnicas y culturales en las que se enseña.
 
 {{< card link="/observatorio/estudios/habitar-ia-simondon" title="Leer el ensayo" icon="brain" >}}
 
-### Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares
+### Más, no mejor: IA, incentivos y revisión por pares
 
-Reseña del editorial de la Fuerza de Tarea de IA de *Organization Science* (Gartenberg, Hasan, Murray & Pierce, 2026): 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural. Implicaciones para el rediseño de la evaluación universitaria.
+Esta reseña examina un editorial de la Fuerza de Tarea de IA de *Organization Science* (Gartenberg, Hasan, Murray y Pierce, 2026). Presenta el argumento de esa fuente sobre el aumento de manuscritos y las tensiones del sistema de revisión; no sustituye la lectura del editorial ni convierte sus cifras en una descripción de toda la publicación académica.
 
 {{< card link="/observatorio/estudios/crisis-revision-pares-ia" title="Leer la reseña" icon="magnifying-glass" >}}

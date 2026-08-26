@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo realizar un análisis económico con apoyo formativo de IAG, evaluando la selección de métricas, la sensibilidad de variables y los supuestos detrás de la conclusión."
 summary: "Análisis económico con IAG: métricas estándar (VPN, TIR, payback), análisis de sensibilidad y crítica de los supuestos que sostienen la decisión. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Cuatro estudiantes comparan un proyecto sobre una balanza y tres rutas de escenario antes de tomar una decisión económica."
 tags: ["producto-aprendizaje", "bloom-5", "rubrica-iag", "profesionales", "cognitivas", "análisis-económico", "evaluación-financiera"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -142,7 +143,8 @@ proyectos, finanzas aplicadas.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa con análisis de sensibilidad análogo.
 - Producto cercano: [Gestión industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/gestion-industrial" >}}) — decisiones operativas.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

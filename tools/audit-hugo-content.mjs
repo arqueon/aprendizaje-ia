@@ -1,11 +1,16 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { auditGlossaryIndex } from './lib/glossary-index.mjs';
 
 const root = process.cwd();
 const contentRoot = path.join(root, 'content');
-const outputDir = path.join(root, 'docs', 'editorial', 'inventarios', '2026-07-28-hugo');
+const sharedFiguresRoot = path.join(root, 'assets', 'figures');
+const snapshotDate = process.env.UDGIA_SNAPSHOT_DATE || '2026-08-23';
+const outputDir = path.resolve(
+  process.env.UDGIA_HUGO_INVENTORY_DIR
+    || path.join(root, 'docs', 'editorial', 'inventarios', `${snapshotDate}-hugo`),
+);
 const checkMode = process.argv.includes('--check');
-const snapshotDate = '2026-07-28';
 
 function walk(dir) {
   const out = [];
@@ -77,7 +82,11 @@ function canonicalRoute(route) {
 const allContentFiles = walk(contentRoot);
 const markdownFiles = allContentFiles.filter((file) => file.endsWith('.md'));
 const assetPattern = /\.(png|jpe?g|webp|svg|gif|avif)$/i;
-const assets = allContentFiles.filter((file) => assetPattern.test(file));
+const contentAssets = allContentFiles.filter((file) => assetPattern.test(file));
+const sharedFigureAssets = fs.existsSync(sharedFiguresRoot)
+  ? walk(sharedFiguresRoot).filter((file) => assetPattern.test(file))
+  : [];
+const assets = [...contentAssets, ...sharedFigureAssets];
 const documents = markdownFiles.map((file) => {
   const relativePath = path.relative(contentRoot, file);
   const text = fs.readFileSync(file, 'utf8');
@@ -266,7 +275,7 @@ const tagVariantCollisions = Object.entries(Object.groupBy(Object.keys(tags), (t
 const duplicateTitles = Object.entries(titleGroups)
   .filter(([title, matches]) => title && matches.length > 1)
   .map(([title, matches]) => ({ title, paths: matches.map((page) => page.path) }));
-const orphanFeaturedAssets = assets.filter((asset) => {
+const orphanFeaturedAssets = contentAssets.filter((asset) => {
   const directory = path.dirname(asset);
   return /^featured\./i.test(path.basename(asset))
     && !fs.existsSync(path.join(directory, 'index.md'))
@@ -297,6 +306,17 @@ const declaredCountChecks = [
   const declared = Number(value.match(/\b(\d+)\b/)?.[1] ?? Number.NaN);
   return { ...check, declared, matches: declared === check.actual };
 });
+const glossaryIndexDocument = documents.find((document) => (
+  document.relativePath === 'recursos/glosario/_index.md'
+));
+const glossaryEntryTitles = documents
+  .filter((document) => /^recursos\/glosario\/[^/]+\/index\.md$/.test(document.relativePath))
+  .map((document) => document.metadata.title)
+  .filter(Boolean);
+const glossaryIndexCheck = auditGlossaryIndex(
+  glossaryIndexDocument?.body ?? '',
+  glossaryEntryTitles,
+);
 
 const report = {
   snapshot_date: snapshotDate,
@@ -307,6 +327,8 @@ const report = {
     sections: pages.filter((page) => page.kind === 'section').length,
     words: pages.reduce((total, page) => total + page.words, 0),
     assets: assets.length,
+    content_assets: contentAssets.length,
+    shared_figure_assets: sharedFigureAssets.length,
     pages_with_featured: pages.filter((page) => page.visual.featured).length,
     pages_with_svg: pages.filter((page) => page.visual.svg_count > 0).length,
     pages_with_tables: pages.filter((page) => page.visual.table_count > 0).length,
@@ -340,6 +362,7 @@ const report = {
   duplicate_titles: duplicateTitles,
   possible_overlaps: similarities.slice(0, 50),
   declared_count_checks: declaredCountChecks,
+  glossary_index_check: glossaryIndexCheck,
   orphan_featured_assets: orphanFeaturedAssets,
   pages,
 };
@@ -382,6 +405,15 @@ if (checkMode) {
     if (!check.matches) {
       failures.push(`${check.path}: declara ${check.declared} y contiene ${check.actual}`);
     }
+  }
+  if (!report.glossary_index_check.matches) {
+    const check = report.glossary_index_check;
+    failures.push([
+      'recursos/glosario/_index.md no coincide con sus entradas',
+      `faltan: ${check.missing.join('|') || 'ninguna'}`,
+      `desconocidas: ${check.unknown.join('|') || 'ninguna'}`,
+      `repetidas: ${check.duplicates.join('|') || 'ninguna'}`,
+    ].join('; '));
   }
   if (failures.length > 0) {
     console.error(`Inventario desactualizado o inválido: ${failures.join(', ')}`);

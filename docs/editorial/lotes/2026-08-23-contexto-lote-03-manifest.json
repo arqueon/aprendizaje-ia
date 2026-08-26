@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "lot": "contexto-lote-03",
+  "rollback": "docs/editorial/rollback/2026-08-23-contexto-lote-03/",
+  "before": [
+    {
+      "path": "content/observatorio/_index.md",
+      "sha256": "2b979aaa42055ffc386784cba9eecf7a4001946f83df8a8fa486401110ce55f4",
+      "bytes": 1295
+    },
+    {
+      "path": "content/observatorio/documentacion/_index.md",
+      "sha256": "34e11615e564451cd58675fd6d4ef4da277a759020e641d37c43cc6a641bb4c3",
+      "bytes": 1200
+    },
+    {
+      "path": "content/observatorio/estudios/_index.md",
+      "sha256": "9dec962bc8f2e8926e511b81d1685685e691a86e297fea13838778c275244f16",
+      "bytes": 1728
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-dec-2026.md",
+      "sha256": "f0d630eb4545bfa643aa879fe0430238d49ffc971b0502e4c04958cd43a690f0",
+      "bytes": 3770
+    },
+    {
+      "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "sha256": "729741f790174741d21d10fa50e34930e842ed8b0cf1f81a70b4eb75140196e6",
+      "bytes": 9026
+    }
+  ],
+  "after": [
+    {
+      "path": "content/observatorio/_index.md",
+      "sha256": "d0d29eef9805f40b7b80587517757b6762d005c9bd065516d26b4edb0abb6ca6",
+      "bytes": 1945
+    },
+    {
+      "path": "content/observatorio/documentacion/_index.md",
+      "sha256": "580792740def44c2d28a5ec942c09f1b20ae5a7b2dc96379c5e7611efa5ed1b1",
+      "bytes": 1693
+    },
+    {
+      "path": "content/observatorio/estudios/_index.md",
+      "sha256": "e7771eace5415106ec613255cd5ec2e8e49a12317ffe73ca5c09d50d3de5a507",
+      "bytes": 2712
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-dec-2026/index.md",
+      "sha256": "e9ad1c4dd22ccf4dea18634ce758a2ba6cc97d3c85da2accdbdccae267ef80b1",
+      "bytes": 4927
+    },
+    {
+      "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "sha256": "1d74f47a2693b6bad33292b5919d4308e258feb88d2f1ace89349841bc3ccf9a",
+      "bytes": 7425
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-dec-2026/featured.webp",
+      "sha256": "67eb27383c79ca856c6ea924636171bf39e475a0556ff52fb1d292241ebb006b",
+      "bytes": 75986
+    }
+  ],
+  "route_preserved": "/observatorio/estudios/encuesta-dec-2026/",
+  "production_changed": false,
+  "approval_required": false,
+  "approval": {
+    "approved_by": "Rubén",
+    "approved_at": "2026-08-24T00:58:03-06:00",
+    "scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+  }
+}

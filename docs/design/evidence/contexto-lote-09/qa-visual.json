@@ -1,0 +1,106 @@
+{
+  "pages": 10,
+  "failures": [],
+  "results": [
+    {
+      "name": "blog-evaluacion-autentica",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "IA generativa y evaluación auténtica",
+      "textLength": 7074,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "ficha-ajjawi-bearman",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "From authentic assessment to authenticity in assessment: Broadening perspectives — Ajjawi, Bearman et al.",
+      "textLength": 3618,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "plagio-autenticidad",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Plagio y autenticidad académica en la era de la IA",
+      "textLength": 10803,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-formativa",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+      "textLength": 16738,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "integridad-academica",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Integridad académica",
+      "textLength": 1031,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "blog-evaluacion-autentica",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "IA generativa y evaluación auténtica",
+      "textLength": 7074,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "ficha-ajjawi-bearman",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "From authentic assessment to authenticity in assessment: Broadening perspectives — Ajjawi, Bearman et al.",
+      "textLength": 3618,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "plagio-autenticidad",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Plagio y autenticidad académica en la era de la IA",
+      "textLength": 10490,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-formativa",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+      "textLength": 16404,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "integridad-academica",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Integridad académica",
+      "textLength": 1031,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    }
+  ]
+}

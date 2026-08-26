@@ -1,0 +1,89 @@
+{
+  "cards": 10,
+  "complete": 10,
+  "fallbacks": [
+    "Ganancia cognitiva"
+  ],
+  "items": [
+    {
+      "title": "Ganancia cognitiva",
+      "src": "/images/featured/default-almagre.svg",
+      "naturalWidth": 267,
+      "naturalHeight": 150,
+      "complete": true,
+      "fallback": true
+    },
+    {
+      "title": "Tutor inteligente",
+      "src": "/recursos/glosario/tutor-inteligente/featured_hu_b076959ebbbf8c42.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Sesgo algorítmico",
+      "src": "/recursos/glosario/sesgo-algoritmico/featured_hu_9cf882e5e8246e5d.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Modelo SAMR",
+      "src": "/recursos/glosario/modelo-samr/featured_hu_3bf38253321d3890.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Diseño inverso",
+      "src": "/recursos/glosario/diseno-inverso/featured_hu_b8ba50556c7f2071.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Aula invertida",
+      "src": "/recursos/glosario/aula-invertida/featured_hu_ca6ade4a6f0c107e.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Taxonomía de Bloom",
+      "src": "/recursos/glosario/taxonomia-de-bloom/featured_hu_6027d1ac34768c05.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Pensamiento crítico",
+      "src": "/recursos/glosario/pensamiento-critico/featured_hu_7753bb9ebea503ad.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Integridad académica",
+      "src": "/recursos/glosario/integridad-academica/featured_hu_c2d6a77abee2400c.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    },
+    {
+      "title": "Ingeniería de prompts",
+      "src": "/recursos/glosario/ingenieria-de-prompts/featured_hu_9971b3f77625d573.webp",
+      "naturalWidth": 600,
+      "naturalHeight": 600,
+      "complete": true,
+      "fallback": false
+    }
+  ]
+}

@@ -1,0 +1,2542 @@
+{
+  "schemaVersion": 1,
+  "note": "Cola heurística para revisión humana; no autoriza fusiones ni publicación.",
+  "rubric": [
+    "situation",
+    "example",
+    "product",
+    "criterion",
+    "limit",
+    "next"
+  ],
+  "pages": [
+    {
+      "score": 20,
+      "route": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/",
+      "path": "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+      "title": "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+      "words": 2,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/aprendizaje-digital/",
+      "path": "recursos/glosario/aprendizaje-digital/index.md",
+      "title": "Aprendizaje digital",
+      "words": 77,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/aprendizaje-basado-en-problemas/",
+      "path": "recursos/glosario/aprendizaje-basado-en-problemas/index.md",
+      "title": "Aprendizaje basado en problemas",
+      "words": 98,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/aprendizaje-hibrido/",
+      "path": "recursos/glosario/aprendizaje-hibrido/index.md",
+      "title": "Aprendizaje híbrido",
+      "words": 100,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/agentes-de-ia/",
+      "path": "recursos/glosario/agentes-de-ia/index.md",
+      "title": "Agentes de IA",
+      "words": 102,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/integridad-academica/",
+      "path": "recursos/glosario/integridad-academica/index.md",
+      "title": "Integridad académica",
+      "words": 104,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/ingenieria-de-prompts/",
+      "path": "recursos/glosario/ingenieria-de-prompts/index.md",
+      "title": "Ingeniería de prompts",
+      "words": 105,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/glosario/aprendizaje-activo/",
+      "path": "recursos/glosario/aprendizaje-activo/index.md",
+      "title": "Aprendizaje activo",
+      "words": 112,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 20,
+      "route": "/recursos/links/unesco-marco-competencias-docentes-ia/",
+      "path": "recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+      "title": "Marco de competencias de IA para docentes — UNESCO",
+      "words": 207,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 19,
+      "route": "/recursos/glosario/tutor-inteligente/",
+      "path": "recursos/glosario/tutor-inteligente/index.md",
+      "title": "Tutor inteligente",
+      "words": 131,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 19,
+      "route": "/recursos/glosario/aprendizaje-transformativo/",
+      "path": "recursos/glosario/aprendizaje-transformativo/index.md",
+      "title": "Aprendizaje transformativo",
+      "words": 132,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 1,
+      "tables": 0
+    },
+    {
+      "score": 19,
+      "route": "/recursos/glosario/diseno-inverso/",
+      "path": "recursos/glosario/diseno-inverso/index.md",
+      "title": "Diseño inverso",
+      "words": 169,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 18,
+      "route": "/recursos/links/ai-for-education-toolkit/",
+      "path": "recursos/links/ai-for-education-toolkit.md",
+      "title": "AI for Education Toolkit — UNESCO",
+      "words": 96,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 18,
+      "route": "/recursos/glosario/pensamiento-critico/",
+      "path": "recursos/glosario/pensamiento-critico/index.md",
+      "title": "Pensamiento crítico",
+      "words": 106,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 18,
+      "route": "/recursos/glosario/ia-generativa/",
+      "path": "recursos/glosario/ia-generativa/index.md",
+      "title": "IA generativa",
+      "words": 109,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 18,
+      "route": "/recursos/glosario/alfabetizacion-ia/",
+      "path": "recursos/glosario/alfabetizacion-ia/index.md",
+      "title": "Alfabetización en IA",
+      "words": 182,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 0,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 18,
+      "route": "/recursos/links/ocde-ia-educacion/",
+      "path": "recursos/links/ocde-ia-educacion/index.md",
+      "title": "Digital Education Outlook 2026 — OCDE",
+      "words": 214,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 17,
+      "route": "/recursos/glosario/evaluacion-autentica/",
+      "path": "recursos/glosario/evaluacion-autentica/index.md",
+      "title": "Evaluación auténtica",
+      "words": 139,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 1,
+      "tables": 0
+    },
+    {
+      "score": 17,
+      "route": "/recursos/glosario/aula-invertida/",
+      "path": "recursos/glosario/aula-invertida/index.md",
+      "title": "Aula invertida",
+      "words": 159,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 17,
+      "route": "/recursos/glosario/modelo-samr/",
+      "path": "recursos/glosario/modelo-samr/index.md",
+      "title": "Modelo SAMR",
+      "words": 168,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 4,
+      "tables": 0
+    },
+    {
+      "score": 17,
+      "route": "/recursos/videos/learn-prompting-curso-completo/",
+      "path": "recursos/videos/learn-prompting-curso-completo.md",
+      "title": "Learn Prompting: curso completo de ingeniería de prompts",
+      "words": 270,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 17,
+      "route": "/recursos/articulos/genai-feedback-engagement-2025/",
+      "path": "recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "title": "Generative AI as an enabler of student feedback engagement",
+      "words": 321,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 16,
+      "route": "/recursos/glosario/sesgo-algoritmico/",
+      "path": "recursos/glosario/sesgo-algoritmico/index.md",
+      "title": "Sesgo algorítmico",
+      "words": 140,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 15,
+      "route": "/recursos/videos/sal-khan-ia-educacion/",
+      "path": "recursos/videos/sal-khan-ia-educacion.md",
+      "title": "Sal Khan: la IA en el aula podría ser el mayor cambio educativo de la historia",
+      "words": 191,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 4,
+      "tables": 0
+    },
+    {
+      "score": 15,
+      "route": "/recursos/glosario/descarga-cognitiva/",
+      "path": "recursos/glosario/descarga-cognitiva/index.md",
+      "title": "Descarga cognitiva",
+      "words": 195,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 1,
+      "tables": 0
+    },
+    {
+      "score": 15,
+      "route": "/recursos/articulos/next-era-assessment-dec/",
+      "path": "recursos/articulos/next-era-assessment-dec/index.md",
+      "title": "The Next Era of Assessment: A Global Review of AI in Assessment Design — Digital Education Council",
+      "words": 266,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 15,
+      "route": "/recursos/articulos/selwyn-limites-ia-educacion/",
+      "path": "recursos/articulos/selwyn-limites-ia-educacion/index.md",
+      "title": "On the limits of artificial intelligence (AI) in education — Selwyn",
+      "words": 398,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 14,
+      "route": "/recursos/glosario/taxonomia-de-bloom/",
+      "path": "recursos/glosario/taxonomia-de-bloom/index.md",
+      "title": "Taxonomía de Bloom",
+      "words": 204,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 14,
+      "route": "/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/",
+      "path": "recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "title": "From authentic assessment to authenticity in assessment: Broadening perspectives — Ajjawi, Bearman et al.",
+      "words": 225,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 14,
+      "route": "/recursos/institucionales/",
+      "path": "recursos/institucionales/index.md",
+      "title": "Recursos institucionales para IA en educación",
+      "words": 272,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 2,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 14,
+      "route": "/recursos/glosario/ganancia-cognitiva/",
+      "path": "recursos/glosario/ganancia-cognitiva/index.md",
+      "title": "Ganancia cognitiva",
+      "words": 279,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 1,
+      "lists": 2,
+      "tables": 0
+    },
+    {
+      "score": 14,
+      "route": "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/",
+      "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
+      "title": "Análisis crítico de sesgos en la IA",
+      "words": 389,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 6,
+      "lists": 5,
+      "tables": 3
+    },
+    {
+      "score": 14,
+      "route": "/formacion-docente/redes/",
+      "path": "formacion-docente/redes/index.md",
+      "title": "Redes y comunidades",
+      "words": 393,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 5,
+      "lists": 7,
+      "tables": 0
+    },
+    {
+      "score": 13,
+      "route": "/recursos/articulos/cormier-rhizomatic-education/",
+      "path": "recursos/articulos/cormier-rhizomatic-education/index.md",
+      "title": "Rhizomatic education: community as curriculum — Cormier",
+      "words": 358,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/ia-educacion/orientaciones/",
+      "path": "ia-educacion/orientaciones/index.md",
+      "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
+      "words": 296,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 8,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/about/",
+      "path": "about.md",
+      "title": "Acerca del proyecto",
+      "words": 405,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 5,
+      "lists": 13,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/recursos/videos/tutoriales-herramientas-ia-docentes/",
+      "path": "recursos/videos/tutoriales-herramientas-ia-docentes.md",
+      "title": "Tutoriales de herramientas IA para docentes (curaduría)",
+      "words": 441,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 9,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/observatorio/estudios/encuesta-dec-2026/",
+      "path": "observatorio/estudios/encuesta-dec-2026.md",
+      "title": "Encuesta DEC 2026 — IA en educación superior",
+      "words": 458,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": true,
+      "headings": 4,
+      "lists": 8,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/",
+      "path": "ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
+      "title": "Principios de la alfabetización crítica en inteligencia artificial",
+      "words": 666,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 2,
+      "lists": 23,
+      "tables": 0
+    },
+    {
+      "score": 12,
+      "route": "/formacion-docente/syllabus-portafolio/",
+      "path": "formacion-docente/syllabus-portafolio/index.md",
+      "title": "El syllabus y el portafolio de docencia",
+      "words": 949,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 10,
+      "lists": 29,
+      "tables": 0
+    },
+    {
+      "score": 11,
+      "route": "/ia-educacion/guias/privacidad-datos-ia/",
+      "path": "ia-educacion/guias/privacidad-datos-ia/index.md",
+      "title": "Antes de compartir: protege datos y trabajos al usar IA",
+      "words": 192,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 3
+    },
+    {
+      "score": 11,
+      "route": "/observatorio/estudios/creatividad-humana-ia/",
+      "path": "observatorio/estudios/creatividad-humana-ia/index.md",
+      "title": "Creatividad humana e inteligencia artificial: Más allá del antropocentrismo",
+      "words": 518,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "product",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 4,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 11,
+      "route": "/blog/ia-generativa-evaluacion-autentica/",
+      "path": "blog/ia-generativa-evaluacion-autentica/index.md",
+      "title": "IA generativa y evaluación auténtica",
+      "words": 856,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 10,
+      "route": "/ia-educacion/investigacion/",
+      "path": "ia-educacion/investigacion/index.md",
+      "title": "Investigar con IA sin perder el rigor",
+      "words": 288,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 5,
+      "lists": 5,
+      "tables": 0
+    },
+    {
+      "score": 10,
+      "route": "/recursos/externas/comunidades-practica-docente-ia/",
+      "path": "recursos/externas/comunidades-practica-docente-ia/index.md",
+      "title": "Comunidades de práctica docente con IA",
+      "words": 739,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 12,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 10,
+      "route": "/formacion-docente/evaluacion-retroalimentacion/",
+      "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
+      "title": "Evaluación y retroalimentación en el aprendizaje activo",
+      "words": 779,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 15,
+      "tables": 0
+    },
+    {
+      "score": 10,
+      "route": "/formacion-docente/mapa-literacidades-ia/",
+      "path": "formacion-docente/mapa-literacidades-ia/index.md",
+      "title": "Las tres literacidades en IA — mapa visual",
+      "words": 802,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 14,
+      "tables": 3
+    },
+    {
+      "score": 10,
+      "route": "/laboratorio/practicas/aprendizaje-activo-ia/",
+      "path": "laboratorio/practicas/aprendizaje-activo-ia/index.md",
+      "title": "Aprendizaje activo con IA — actividades diseñadas y ejecutadas con IA",
+      "words": 961,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 29,
+      "tables": 5
+    },
+    {
+      "score": 9,
+      "route": "/ia-educacion/practicas/bitacora-cocreacion/",
+      "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "title": "Bitácora breve de co-creación persona–IA",
+      "words": 170,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 0,
+      "tables": 5
+    },
+    {
+      "score": 9,
+      "route": "/ia-educacion/practicas/comprobar-afirmacion/",
+      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "title": "Comprueba la afirmación que cambia tu decisión",
+      "words": 174,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 4,
+      "lists": 4,
+      "tables": 0
+    },
+    {
+      "score": 9,
+      "route": "/laboratorio/h5p-runtime/",
+      "path": "laboratorio/h5p-runtime/index.md",
+      "title": "Laboratorio técnico del runtime H5P",
+      "words": 226,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": true,
+      "headings": 4,
+      "lists": 7,
+      "tables": 0
+    },
+    {
+      "score": 9,
+      "route": "/blog/rol-docente-era-ia/",
+      "path": "blog/rol-docente-era-ia/index.md",
+      "title": "El rol del docente en la era de la IA",
+      "words": 830,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 6,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 9,
+      "route": "/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/",
+      "path": "recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+      "title": "Alianzas pedagógicas con IA generativa — Wang & Zhang (2026)",
+      "words": 1082,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 11,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 9,
+      "route": "/recursos/articulos/guias-iagen-evaluacion-unam/",
+      "path": "recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "title": "Tres guías UNAM sobre IA generativa en evaluación: bachillerato, licenciatura y posgrado",
+      "words": 1547,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 15,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/ia-educacion/guias/estudiantes/",
+      "path": "ia-educacion/guias/estudiantes/index.md",
+      "title": "Laboratorio guiado para decidir antes de entregar",
+      "words": 319,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 3,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/formacion-docente/formacion-continua/",
+      "path": "formacion-docente/formacion-continua/index.md",
+      "title": "Formación continua",
+      "words": 370,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "product"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 4,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "path": "laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "title": "Debate socrático con IA como interlocutor",
+      "words": 470,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 5,
+      "tables": 3
+    },
+    {
+      "score": 8,
+      "route": "/formacion-docente/alfabetizacion-operativa/",
+      "path": "formacion-docente/alfabetizacion-operativa/index.md",
+      "title": "Principios de la alfabetización operativa en inteligencia artificial",
+      "words": 503,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 2,
+      "lists": 20,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/ia-educacion/productos-de-aprendizaje/metrologia/",
+      "path": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "title": "Metrología con IAG",
+      "words": 689,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 7,
+      "tables": 11
+    },
+    {
+      "score": 8,
+      "route": "/recursos/externas/syllabus-internacionales-ia/",
+      "path": "recursos/externas/syllabus-internacionales-ia/index.md",
+      "title": "Syllabus universitarios con IA: ejemplos internacionales",
+      "words": 748,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 11,
+      "lists": 8,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/observatorio/guias/documentacion-buenas-practicas-ia/",
+      "path": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "title": "Documentación de buenas prácticas con IA",
+      "words": 766,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 15,
+      "tables": 5
+    },
+    {
+      "score": 8,
+      "route": "/observatorio/documentacion/monitoreo-herramientas-emergentes/",
+      "path": "observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+      "title": "Monitoreo de herramientas IA emergentes en educación",
+      "words": 817,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 21,
+      "tables": 1
+    },
+    {
+      "score": 8,
+      "route": "/laboratorio/practicas/abp-con-ia/",
+      "path": "laboratorio/practicas/abp-con-ia/index.md",
+      "title": "ABP con IA — proyecto colaborativo documentado",
+      "words": 827,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 10,
+      "tables": 7
+    },
+    {
+      "score": 8,
+      "route": "/recursos/comparativa-llm-pedagogica/",
+      "path": "recursos/comparativa-llm-pedagogica/index.md",
+      "title": "Comparativa pedagógica de LLMs: qué usar para qué tarea",
+      "words": 850,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 13,
+      "lists": 9,
+      "tables": 4
+    },
+    {
+      "score": 8,
+      "route": "/blog/experiencias-docentes-ia-aula/",
+      "path": "blog/experiencias-docentes-ia-aula/index.md",
+      "title": "Experiencias de docentes con IA en el aula: lo que se repite",
+      "words": 920,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/ia-educacion/guias/aprendizaje-rizomatico-ia/",
+      "path": "ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
+      "title": "Aprendizaje rizomático con IA",
+      "words": 1028,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 12,
+      "lists": 3,
+      "tables": 4
+    },
+    {
+      "score": 8,
+      "route": "/formacion-docente/alfabetizacion/",
+      "path": "formacion-docente/alfabetizacion/index.md",
+      "title": "Alfabetización digital",
+      "words": 1190,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 6,
+      "lists": 16,
+      "tables": 2
+    },
+    {
+      "score": 8,
+      "route": "/observatorio/estudios/crisis-revision-pares-ia/",
+      "path": "observatorio/estudios/crisis-revision-pares-ia/index.md",
+      "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
+      "words": 1300,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 13,
+      "lists": 8,
+      "tables": 0
+    },
+    {
+      "score": 8,
+      "route": "/recursos/catalogo-herramientas-ia/",
+      "path": "recursos/catalogo-herramientas-ia/index.md",
+      "title": "Catálogo de herramientas IA para educación universitaria",
+      "words": 1737,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 17,
+      "lists": 5,
+      "tables": 5
+    },
+    {
+      "score": 8,
+      "route": "/recursos/politica-ia-udeg/",
+      "path": "recursos/politica-ia-udeg/index.md",
+      "title": "Sugerencias y criterios para pensar una política de IA en la UdeG",
+      "words": 1801,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 17,
+      "lists": 8,
+      "tables": 6
+    },
+    {
+      "score": 7,
+      "route": "/blog/agenciamiento-humano-ia/",
+      "path": "blog/agenciamiento-humano-ia/index.md",
+      "title": "El agenciamiento persona-IA: ni herramienta ni reemplazo",
+      "words": 891,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 7,
+      "route": "/blog/rizoma-digital-aprender-sin-mapa/",
+      "path": "blog/rizoma-digital-aprender-sin-mapa/index.md",
+      "title": "El rizoma digital: aprender sin mapa",
+      "words": 943,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/licencia/",
+      "path": "licencia/index.md",
+      "title": "Licencia del sitio",
+      "words": 476,
+      "contentType": "sin-tipo",
+      "missing": [
+        "product",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": true,
+      "headings": 12,
+      "lists": 18,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/",
+      "path": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "title": "Diseño de sistemas con IAG",
+      "words": 694,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 11
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/control-y-dinamica/",
+      "path": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "title": "Control y dinámica con IAG",
+      "words": 705,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales/",
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "title": "Análisis de materiales con IAG",
+      "words": 731,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 11
+    },
+    {
+      "score": 6,
+      "route": "/formacion-docente/alfabetizacion-co-creacion/",
+      "path": "formacion-docente/alfabetizacion-co-creacion/index.md",
+      "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
+      "words": 761,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 4,
+      "lists": 26,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/blog/aprender-con-ia-vs-aprender-sobre-ia/",
+      "path": "blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
+      "title": "Aprender con IA vs aprender sobre IA",
+      "words": 781,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 6,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada/",
+      "path": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md",
+      "title": "Investigación aplicada con IAG",
+      "words": 785,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/planos-tecnicos/",
+      "path": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md",
+      "title": "Planos técnicos con IAG",
+      "words": 787,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 7,
+      "tables": 11
+    },
+    {
+      "score": 6,
+      "route": "/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/",
+      "path": "observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+      "title": "Monitoreo de publicaciones sobre IA educativa",
+      "words": 788,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 6,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/",
+      "path": "ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+      "title": "IA en el aprendizaje híbrido y activo",
+      "words": 802,
+      "contentType": "sin-tipo",
+      "missing": [
+        "product",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 24,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/prototipo/",
+      "path": "ia-educacion/productos-de-aprendizaje/prototipo/index.md",
+      "title": "Prototipo con IAG",
+      "words": 811,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/mapa-conceptual/",
+      "path": "ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
+      "title": "Mapa conceptual con IAG",
+      "words": 816,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 7,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/presentacion/",
+      "path": "ia-educacion/productos-de-aprendizaje/presentacion/index.md",
+      "title": "Presentación con IAG",
+      "words": 836,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 7,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/reporte-tecnico/",
+      "path": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md",
+      "title": "Reporte técnico con IAG",
+      "words": 846,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 11
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/resena/",
+      "path": "ia-educacion/productos-de-aprendizaje/resena/index.md",
+      "title": "Reseña con IAG",
+      "words": 856,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 11
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/entrevista/",
+      "path": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+      "title": "Entrevista con IAG",
+      "words": 858,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 8,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/",
+      "path": "ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
+      "title": "Síntesis de los lineamientos UNESCO para IA en educación",
+      "words": 864,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 18,
+      "tables": 2
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/",
+      "path": "ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
+      "title": "Transparencia algorítmica en el aula: prácticas concretas",
+      "words": 874,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 3,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/observatorio/documentacion/redes-investigacion-vinculacion/",
+      "path": "observatorio/documentacion/redes-investigacion-vinculacion/index.md",
+      "title": "Redes de investigación y vinculación academia-industria",
+      "words": 879,
+      "contentType": "sin-tipo",
+      "missing": [
+        "product",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 18,
+      "lists": 6,
+      "tables": 2
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/proyecto/",
+      "path": "ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+      "title": "Proyecto con IAG",
+      "words": 887,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/tendencias/ia-tutorias-mentoria/",
+      "path": "ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+      "title": "IA en tutorías y mentoría estudiantil",
+      "words": 943,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 16,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/formacion-docente/competencias-digitales-ia-estudiantes/",
+      "path": "formacion-docente/competencias-digitales-ia-estudiantes/index.md",
+      "title": "Competencias digitales con IA para estudiantes",
+      "words": 951,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 15,
+      "lists": 6,
+      "tables": 2
+    },
+    {
+      "score": 6,
+      "route": "/laboratorio/practicas/aula-invertida/",
+      "path": "laboratorio/practicas/aula-invertida/index.md",
+      "title": "Aula invertida (flipped classroom)",
+      "words": 967,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 7,
+      "lists": 11,
+      "tables": 6
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/productos-de-aprendizaje/monografia/",
+      "path": "ia-educacion/productos-de-aprendizaje/monografia/index.md",
+      "title": "Monografía con IAG",
+      "words": 976,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 10,
+      "tables": 12
+    },
+    {
+      "score": 6,
+      "route": "/formacion-docente/pensamiento-critico-ia-generativa/",
+      "path": "formacion-docente/pensamiento-critico-ia-generativa/index.md",
+      "title": "Pensamiento crítico ante la IA generativa",
+      "words": 993,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 11,
+      "lists": 9,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/",
+      "path": "ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
+      "title": "Marco regulatorio de IA en universidades mexicanas",
+      "words": 1001,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation",
+        "example"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 21,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
+      "path": "observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "title": "Evaluación de herramientas IA educativas: criterios y matriz",
+      "words": 1025,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 16,
+      "lists": 6,
+      "tables": 18
+    },
+    {
+      "score": 6,
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "title": "Evaluación formativa asistida por IA — portafolios iterativos",
+      "words": 1075,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 23,
+      "tables": 6
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/tendencias/evaluacion-en-la-era-ia/",
+      "path": "ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "title": "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",
+      "words": 1098,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 8,
+      "lists": 9,
+      "tables": 2
+    },
+    {
+      "score": 6,
+      "route": "/formacion-docente/transformacion-pedagogica-digital/",
+      "path": "formacion-docente/transformacion-pedagogica-digital/index.md",
+      "title": "La transformación pedagógica y digital en la UdeG",
+      "words": 1173,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 9,
+      "lists": 19,
+      "tables": 0
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/guias/integracion-curricular-ia/",
+      "path": "ia-educacion/guias/integracion-curricular-ia/index.md",
+      "title": "Integración curricular de IA en programas existentes",
+      "words": 1270,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 26,
+      "tables": 2
+    },
+    {
+      "score": 6,
+      "route": "/formacion-docente/taller-diseno-actividades-ia-backward/",
+      "path": "formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+      "title": "Taller: Diseño de actividades con IA (backward design)",
+      "words": 1603,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 20,
+      "lists": 15,
+      "tables": 15
+    },
+    {
+      "score": 6,
+      "route": "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/",
+      "path": "ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "title": "Plagio y autenticidad académica en la era de la IA",
+      "words": 1763,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 12,
+      "lists": 19,
+      "tables": 1
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/",
+      "path": "ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
+      "title": "Ingeniería de prompts para docentes",
+      "words": 601,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 8,
+      "lists": 8,
+      "tables": 0
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/",
+      "path": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+      "title": "Integración de sistemas con IAG",
+      "words": 694,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/circuitos-electricos/",
+      "path": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "title": "Circuitos eléctricos con IAG",
+      "words": 719,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 8,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial/",
+      "path": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "title": "Automatización industrial con IAG",
+      "words": 729,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/analisis-economico/",
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "title": "Análisis económico con IAG",
+      "words": 788,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/nota/",
+      "path": "ia-educacion/productos-de-aprendizaje/nota/index.md",
+      "title": "Nota con IAG",
+      "words": 804,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 8,
+      "tables": 11
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/modelado-matematico/",
+      "path": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md",
+      "title": "Modelado matemático con IAG",
+      "words": 820,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/programacion/",
+      "path": "ia-educacion/productos-de-aprendizaje/programacion/index.md",
+      "title": "Programación con IAG",
+      "words": 899,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 8,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo/",
+      "path": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
+      "title": "Investigación de campo con IAG",
+      "words": 914,
+      "contentType": "sin-tipo",
+      "missing": [
+        "situation"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 8,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/tendencias/personalizacion-aprendizaje/",
+      "path": "ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
+      "title": "IA generativa y personalización del aprendizaje",
+      "words": 914,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 6,
+      "tables": 0
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/cronica/",
+      "path": "ia-educacion/productos-de-aprendizaje/cronica/index.md",
+      "title": "Crónica con IAG",
+      "words": 932,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 11
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/articulo/",
+      "path": "ia-educacion/productos-de-aprendizaje/articulo/index.md",
+      "title": "Artículo con IAG",
+      "words": 1012,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 10,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/laboratorio/integracion-ia/flujos-trabajo-docente-ia/",
+      "path": "laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
+      "title": "Flujos de trabajo docente con IA",
+      "words": 1175,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 7,
+      "lists": 15,
+      "tables": 0
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/guias/aprendizaje-activo-con-ia/",
+      "path": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "title": "Aprendizaje activo con IA — diseño y ejecución de actividades",
+      "words": 1192,
+      "contentType": "sin-tipo",
+      "missing": [
+        "criterion",
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 14,
+      "lists": 21,
+      "tables": 12
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/tendencias/politicas-institucionales-universidades/",
+      "path": "ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
+      "title": "Políticas institucionales de IA en universidades",
+      "words": 1198,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 11,
+      "lists": 11,
+      "tables": 5
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/guias/abp-con-ia/",
+      "path": "ia-educacion/guias/abp-con-ia/index.md",
+      "title": "Aprendizaje basado en proyectos (ABP) con IA",
+      "words": 1273,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 12,
+      "lists": 20,
+      "tables": 4
+    },
+    {
+      "score": 4,
+      "route": "/recursos/repositorio-prompts-docentes/",
+      "path": "recursos/repositorio-prompts-docentes/index.md",
+      "title": "Repositorio de prompts para docentes: banco curado por fase pedagógica",
+      "words": 1364,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 23,
+      "lists": 53,
+      "tables": 0
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/productos-de-aprendizaje/analisis-de-casos/",
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-de-casos/index.md",
+      "title": "Análisis de casos con IAG",
+      "words": 1493,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 11,
+      "tables": 13
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/",
+      "path": "ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
+      "title": "Sesgos algorítmicos y equidad educativa",
+      "words": 1912,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 15,
+      "lists": 14,
+      "tables": 3
+    },
+    {
+      "score": 4,
+      "route": "/formacion-docente/alfabetizacion-agenciamiento-ia/",
+      "path": "formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
+      "title": "Alfabetización en co-creación: aprender a co-producir con IA",
+      "words": 1987,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example",
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 11,
+      "lists": 19,
+      "tables": 2
+    },
+    {
+      "score": 4,
+      "route": "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/",
+      "path": "ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
+      "title": "Cuatro criterios éticos para el uso de IA en educación superior",
+      "words": 2089,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": false,
+      "headings": 15,
+      "lists": 19,
+      "tables": 6
+    },
+    {
+      "score": 3,
+      "route": "/observatorio/estudios/habitar-ia-simondon/",
+      "path": "observatorio/estudios/habitar-ia-simondon/index.md",
+      "title": "Habitar la IA: técnica, cultura y aprendizaje con Simondon",
+      "words": 2228,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 9,
+      "lists": 0,
+      "tables": 0
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/productos-de-aprendizaje/gestion-industrial/",
+      "path": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
+      "title": "Gestión industrial con IAG",
+      "words": 718,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": false,
+      "hasBodyVisual": false,
+      "headings": 10,
+      "lists": 9,
+      "tables": 12
+    },
+    {
+      "score": 2,
+      "route": "/formacion-docente/aprendizaje-activo/",
+      "path": "formacion-docente/aprendizaje-activo/index.md",
+      "title": "Qué hace activa una experiencia de aprendizaje",
+      "words": 830,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 6,
+      "lists": 9,
+      "tables": 0
+    },
+    {
+      "score": 2,
+      "route": "/formacion-docente/modelos-samr-icap/",
+      "path": "formacion-docente/modelos-samr-icap/index.md",
+      "title": "Dos preguntas distintas sobre una misma actividad",
+      "words": 926,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 7,
+      "lists": 7,
+      "tables": 0
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/rutas/decision-institucional-ia/",
+      "path": "ia-educacion/rutas/decision-institucional-ia/index.md",
+      "title": "Decidir institucionalmente sobre IA en la docencia",
+      "words": 1534,
+      "contentType": "sin-tipo",
+      "missing": [
+        "example"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 11,
+      "lists": 46,
+      "tables": 3
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/guias/lineamientos-eticos-ia/",
+      "path": "ia-educacion/guias/lineamientos-eticos-ia/index.md",
+      "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
+      "words": 1570,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 28,
+      "lists": 0,
+      "tables": 4
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/guias/evaluacion-formativa-ia/",
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+      "words": 1817,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 17,
+      "lists": 37,
+      "tables": 11
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/que-es-la-educacion-digital/",
+      "path": "ia-educacion/que-es-la-educacion-digital/index.md",
+      "title": "¿Qué es la educación digital?",
+      "words": 2159,
+      "contentType": "sin-tipo",
+      "missing": [
+        "limit"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 8,
+      "lists": 15,
+      "tables": 6
+    },
+    {
+      "score": 2,
+      "route": "/ia-educacion/productos-de-aprendizaje/ensayo/",
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+      "title": "Ensayo con IA: evaluar el proceso de escritura",
+      "words": 3522,
+      "contentType": "sin-tipo",
+      "missing": [
+        "next"
+      ],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 22,
+      "lists": 34,
+      "tables": 27
+    },
+    {
+      "score": 0,
+      "route": "/ia-educacion/guias/profesorado/",
+      "path": "ia-educacion/guias/profesorado/index.md",
+      "title": "Diseñar actividades y observar el aprendizaje",
+      "words": 761,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 6,
+      "lists": 23,
+      "tables": 3
+    },
+    {
+      "score": 0,
+      "route": "/formacion-docente/taxonomia-bloom-diseno-inverso/",
+      "path": "formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "title": "Partir de lo que quieres observar",
+      "words": 902,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 7,
+      "lists": 10,
+      "tables": 0
+    },
+    {
+      "score": 0,
+      "route": "/ia-educacion/guias/agenciamiento-humano-ia/",
+      "path": "ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "title": "Conservar la dirección del trabajo con IA",
+      "words": 1001,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 6,
+      "lists": 8,
+      "tables": 4
+    },
+    {
+      "score": 0,
+      "route": "/formacion-docente/aprendizaje-hibrido/",
+      "path": "formacion-docente/aprendizaje-hibrido/index.md",
+      "title": "Conectar momentos para que el aprendizaje avance",
+      "words": 1155,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 7,
+      "lists": 7,
+      "tables": 0
+    },
+    {
+      "score": 0,
+      "route": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/index.md",
+      "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+      "words": 1386,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 5,
+      "lists": 9,
+      "tables": 2
+    },
+    {
+      "score": 0,
+      "route": "/ia-educacion/constelaciones/empezar-con-ia/",
+      "path": "ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
+      "title": "Empezar con IA para aprender y enseñar",
+      "words": 1513,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 8,
+      "lists": 19,
+      "tables": 3
+    },
+    {
+      "score": 0,
+      "route": "/ia-educacion/rutas/coordinacion-academica/",
+      "path": "ia-educacion/rutas/coordinacion-academica/index.md",
+      "title": "Coordinar la IA en los procesos docentes",
+      "words": 1696,
+      "contentType": "sin-tipo",
+      "missing": [],
+      "ownFeatured": true,
+      "hasBodyVisual": true,
+      "headings": 15,
+      "lists": 42,
+      "tables": 6
+    }
+  ]
+}

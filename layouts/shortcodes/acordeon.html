@@ -1,1 +1,11 @@
-<div class="alm-acordeon">{{ .Inner }}</div>
+{{- $label := .Get "etiqueta" | default "Contenido desplegable" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode acordeon: requiere al menos un pliegue en %s" .Position -}}
+{{- end -}}
+<section
+  class="alm-acordeon alm-componente"
+  aria-label="{{ $label }}"
+  data-udgia-component="acordeon">
+  {{- $inner | safeHTML -}}
+</section>

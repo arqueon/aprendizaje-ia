@@ -1,0 +1,131 @@
+{{- $id := .Get "id" -}}
+{{- $catalog := hugo.Data.h5p.course_candidates -}}
+{{- $entry := index $catalog.candidates $id -}}
+{{- if not $entry -}}
+  {{- errorf "Shortcode curso-interactivo: id no registrado %q en %s" $id .Position -}}
+{{- end -}}
+{{- $fallback := $entry.fallback -}}
+{{- $titleID := printf "curso-interactivo-%s" $id -}}
+<section
+  class="alm-curso-interactivo"
+  aria-labelledby="{{ $titleID }}"
+  data-course-interactive="{{ $id }}"
+  data-h5p-library="{{ $entry.proposedLibrary }}"
+  data-h5p-decision="{{ $entry.decision }}"
+  data-content-license="{{ $entry.contentLicense }}"
+  data-publication-authorized="{{ $entry.publicationAuthorized }}"
+>
+  <header class="alm-curso-interactivo__header">
+    <span class="alm-kicker">Práctica sin calificación</span>
+    <h3 id="{{ $titleID }}">{{ $entry.title }}</h3>
+    <p>{{ $fallback.instruction | default "Responde primero por tu cuenta y abre después la solución razonada." }}</p>
+  </header>
+
+  {{- if eq $fallback.type "dialog-cards" }}
+    <div class="alm-curso-interactivo__cards">
+      {{- range $fallback.items }}
+        <details class="alm-curso-interactivo__card">
+          <summary>{{ .prompt }}</summary>
+          <p>{{ .answer }}</p>
+        </details>
+      {{- end }}
+    </div>
+
+  {{- else if or (eq $fallback.type "single-choice") (eq $fallback.type "multiple-response") }}
+    <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    <ol class="alm-curso-interactivo__options">
+      {{- range $fallback.options }}
+        <li>{{ .text }}</li>
+      {{- end }}
+    </ol>
+    <details class="alm-curso-interactivo__solution">
+      <summary>Ver respuesta razonada</summary>
+      <ul>
+        {{- range $fallback.options }}
+          <li>
+            <strong>{{ if .correct }}Respuesta esperada:{{ else }}Por qué no corresponde:{{ end }}</strong>
+            {{ .text }}{{ with .feedback }} — {{ . }}{{ end }}
+          </li>
+        {{- end }}
+      </ul>
+      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+    </details>
+
+  {{- else if eq $fallback.type "fill-blank" }}
+    <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    <p class="alm-curso-interactivo__write">Escribe tu respuesta en tus notas antes de abrir la solución.</p>
+    <details class="alm-curso-interactivo__solution">
+      <summary>Ver respuesta y explicación</summary>
+      <p><strong>Respuesta esperada:</strong> {{ delimit $fallback.answers ", " }}</p>
+      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+    </details>
+
+  {{- else if eq $fallback.type "matching" }}
+    <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    <div class="alm-curso-interactivo__attempt">
+      <p><strong>Conceptos o momentos:</strong></p>
+      <ol>
+        {{- range $fallback.pairs }}<li>{{ .prompt }}</li>{{ end }}
+      </ol>
+      <p><strong>Opciones para relacionar:</strong></p>
+      <ol type="A">
+        {{- range collections.Reverse $fallback.pairs }}<li>{{ .match }}</li>{{ end }}
+      </ol>
+      <p>Escribe en tus notas la letra que corresponde a cada número antes de abrir la solución.</p>
+    </div>
+    <details class="alm-curso-interactivo__solution">
+      <summary>Ver correspondencias y explicación</summary>
+      <dl>
+        {{- range $fallback.pairs }}
+          <dt>{{ .prompt }}</dt>
+          <dd>{{ .match }}</dd>
+        {{- end }}
+      </dl>
+      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+    </details>
+
+  {{- else if eq $fallback.type "sorting" }}
+    <div class="alm-curso-interactivo__attempt">
+      <p><strong>Categorías disponibles:</strong></p>
+      <ul class="alm-curso-interactivo__categories">
+        {{- range $fallback.groups }}<li>{{ .title }}</li>{{ end }}
+      </ul>
+      <p><strong>Elementos por clasificar:</strong></p>
+      <ol>
+        {{- with $fallback.itemsPool }}
+          {{- range . }}<li>{{ . }}</li>{{ end }}
+        {{- else }}
+          {{- range $fallback.groups }}{{ range .items }}<li>{{ . }}</li>{{ end }}{{ end }}
+        {{- end }}
+      </ol>
+      <p>Anota una categoría para cada elemento antes de abrir la solución.</p>
+    </div>
+    <details class="alm-curso-interactivo__solution">
+      <summary>Ver clasificación razonada</summary>
+      {{- range $fallback.groups }}
+        <h4>{{ .title }}</h4>
+        <ul>
+          {{- range .items }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      {{- end }}
+    </details>
+
+  {{- else }}
+    {{- errorf "Shortcode curso-interactivo: fallback no soportado %q para %q" $fallback.type $id -}}
+  {{- end }}
+
+  {{- with index $catalog.reviewLessons $id }}
+    <p class="alm-curso-interactivo__review">
+      <a href="{{ printf "formacion-docente/diseno-inverso-cocreacion-ia/%s/" .slug | relURL }}">
+        Revisar la explicación: {{ .label }}
+      </a>
+    </p>
+  {{- end }}
+
+  <p class="alm-curso-interactivo__privacy">
+    Esta versión no envía respuestas, no guarda intentos y no calcula una puntuación.
+  </p>
+</section>

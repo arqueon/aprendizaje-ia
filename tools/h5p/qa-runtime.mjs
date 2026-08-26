@@ -22,7 +22,8 @@ import { ZipFile } from "yazl";
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const hugoBinary = process.env.HUGO_BIN || "hugo";
 const chromiumBinary =
-  process.env.CHROMIUM_PATH || (existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : "");
+  process.env.CHROMIUM_PATH ||
+  (existsSync("/usr/bin/chromium") ? "/usr/bin/chromium" : chromium.executablePath());
 const evidenceDirectory = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(repoRoot, "docs/design/evidence/udgia-003");
@@ -134,7 +135,11 @@ async function startServer(root, basePath) {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
 
@@ -571,8 +576,25 @@ async function functionalCase(browser, server, label, viewport) {
     colorScheme: getComputedStyle(document.documentElement).colorScheme,
     iframeTransition: getComputedStyle(document.querySelector(".udg-h5p__iframe")).transitionDuration
   }));
+  const embedFrame = await (await firstIframe.elementHandle()).contentFrame();
+  assert(embedFrame, `${label}: no se pudo inspeccionar embed.html`);
+  const runtimeAppearance = await embedFrame.evaluate(() => ({
+    dark: document.documentElement.classList.contains("dark"),
+    metaColorScheme: document.querySelector('meta[name="color-scheme"]')?.getAttribute("content")
+  }));
+  const contentAppearance = await contentFrame.evaluate(() => ({
+    dark: document.documentElement.classList.contains("dark"),
+    colorScheme: getComputedStyle(document.documentElement).colorScheme
+  }));
   assert(layout.scrollWidth <= layout.width, `${label}: overflow horizontal ${layout.scrollWidth}/${layout.width}`);
-  assert(!layout.dark && layout.colorScheme.includes("light"), `${label}: la identidad dejó de ser únicamente clara`);
+  assert(layout.dark && layout.colorScheme.includes("dark"), `${label}: el documento padre perdió la apariencia oscura solicitada`);
+  assert(
+    !runtimeAppearance.dark &&
+      runtimeAppearance.metaColorScheme === "light" &&
+      !contentAppearance.dark &&
+      contentAppearance.colorScheme.includes("light"),
+    `${label}: el runtime dejó de conservar su apariencia clara ${JSON.stringify({ runtimeAppearance, contentAppearance })}`
+  );
   assert(
     ["0s", "0.001ms"].includes(layout.iframeTransition),
     `${label}: reduced-motion no anuló la transición (${layout.iframeTransition})`

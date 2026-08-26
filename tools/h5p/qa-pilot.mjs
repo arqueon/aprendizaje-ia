@@ -15,45 +15,58 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import axe from "axe-core";
 import { chromium } from "playwright-core";
+import { waitForH5pHostStyles } from "./qa-host-styles.mjs";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../..");
 const introPagePath = "ia-educacion/constelaciones/empezar-con-ia/";
-const activityPages = [
+const governedActivityPages = [
   {
     id: "cocreacion-versiones-slider",
-    path: "ia-educacion/productos-de-aprendizaje/ensayo/"
+    path: "ia-educacion/productos-de-aprendizaje/ensayo/",
+    integrated: true
   },
   {
     id: "direccion-epistemica-hotspots",
-    path: "formacion-docente/alfabetizacion-co-creacion/"
+    path: "formacion-docente/alfabetizacion-co-creacion/",
+    integrated: true
   },
   {
     id: "direccion-epistemica-decidir-reformular",
-    path: "ia-educacion/guias/agenciamiento-humano-ia/"
+    path: "ia-educacion/guias/agenciamiento-humano-ia/",
+    integrated: false
   },
   {
     id: "evidencias-proceso-proporcion",
-    path: "ia-educacion/guias/evaluacion-formativa-ia/"
+    path: "ia-educacion/guias/evaluacion-formativa-ia/",
+    integrated: true
   },
   {
     id: "cocreacion-conceptos-cards",
-    path: "ia-educacion/guias/agenciamiento-humano-ia/"
+    path: "ia-educacion/guias/agenciamiento-humano-ia/",
+    integrated: false
   },
   {
     id: "evaluacion-proceso-decision",
-    path: "ia-educacion/guias/evaluacion-formativa-ia/"
+    path: "ia-educacion/guias/evaluacion-formativa-ia/",
+    integrated: true
   },
   {
     id: "cocreacion-evaluacion-recorrido",
-    path: "formacion-docente/alfabetizacion-agenciamiento-ia/"
+    path: "formacion-docente/alfabetizacion-agenciamiento-ia/",
+    integrated: true
   },
   {
     id: "objetivos-bloom-udgplus",
-    path: "formacion-docente/taxonomia-bloom-diseno-inverso/"
+    path: "formacion-docente/taxonomia-bloom-diseno-inverso/",
+    integrated: false
   }
 ];
+const activityPages = governedActivityPages.filter(({ integrated }) => integrated);
 const expectedIDs = activityPages.map(({ id }) => id);
-const governedIDs = ["runtime-probe", ...expectedIDs];
+const preparedIDs = governedActivityPages
+  .filter(({ integrated }) => !integrated)
+  .map(({ id }) => id);
+const governedIDs = ["runtime-probe", ...governedActivityPages.map(({ id }) => id)];
 const attribution =
   "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara";
 const authorizationDecision = {
@@ -69,17 +82,22 @@ const reportPath = path.join(evidenceDirectory, "qa-pilot.json");
 const udgia007Activities = {
   "direccion-epistemica-decidir-reformular": {
     page: "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-    requiredTerms: ["criterio", "verificar", "decidir", "reformular"]
+    requiredTerms: ["criterio", "verificar", "decidir", "reformular"],
+    integrated: false
   },
   "evidencias-proceso-proporcion": {
     page: "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-    requiredTerms: ["esquema inicial", "verificación", "decisiones", "versión final"]
+    requiredTerms: ["esquema inicial", "verificación", "decisiones", "versión final"],
+    integrated: true
   }
 };
-const chromiumBinary =
-  process.env.CHROMIUM_PATH || (await stat("/usr/bin/chromium").catch(() => null)
+const playwrightChromium = chromium.executablePath();
+const chromiumBinary = process.env.CHROMIUM_PATH ||
+  ((await stat("/usr/bin/chromium").catch(() => null))
     ? "/usr/bin/chromium"
-    : "");
+    : (await stat(playwrightChromium).catch(() => null))
+      ? playwrightChromium
+      : "");
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -236,14 +254,21 @@ async function udgia007GovernanceAudit() {
     const pageSource = await readFile(path.join(repoRoot, expectation.page), "utf8");
     const shortcodeMatches =
       pageSource.match(new RegExp(`h5p id="${id}"`, "g")) || [];
-    assert(shortcodeMatches.length === 1, `${id}: integración de página no única`);
     assert(
-      pageSource.includes("no genera una calificación") &&
-        pageSource.includes("no registra el intento"),
-      `${id}: la página no explica el carácter formativo y efímero`
+      shortcodeMatches.length === (expectation.integrated ? 1 : 0),
+      `${id}: estado de integración inesperado`
     );
+    if (expectation.integrated) {
+      const normalizedPageSource = pageSource.replace(/\s+/g, " ");
+      assert(
+        /no (?:genera una calificación|se califica)/i.test(normalizedPageSource) &&
+          /no registra el intento/i.test(normalizedPageSource),
+        `${id}: la página no explica el carácter formativo y efímero`
+      );
+    }
     results[id] = {
       page: expectation.page,
+      integrated: expectation.integrated,
       contentLicense: entry.contentLicense,
       licenseStatus: entry.licenseStatus,
       publicationAuthorized: entry.publicationAuthorized,
@@ -294,7 +319,11 @@ async function startServer(root) {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
   await new Promise((resolve, reject) => {
@@ -358,6 +387,16 @@ function sectionFor(page, id) {
   );
 }
 
+function hostStylesEvidence(state) {
+  return {
+    ready: state.ready,
+    path: new URL(state.expectedStyleURLs[0]).pathname,
+    cssRuleCount: state.correspondingLinks[0]?.link?.cssRuleCount || 0,
+    mountCount: state.mounts.length,
+    appliedMountCount: state.mounts.filter(({ applied }) => applied).length
+  };
+}
+
 async function loadActivity(page, id) {
   const section = sectionFor(page, id);
   assert((await section.count()) === 1, `${id}: no se encontró una sección única`);
@@ -398,15 +437,15 @@ async function mobileCase(browser, baseURL) {
     width: document.documentElement.clientWidth,
     scrollWidth: document.documentElement.scrollWidth,
     h5pCount: document.querySelectorAll("[data-udg-h5p]").length,
-    studentRoute: Boolean(document.querySelector('a[href="#si-eres-estudiante"]')),
-    teacherRoute: Boolean(document.querySelector('a[href="#si-eres-docente"]')),
+    studentRoute: Boolean(document.querySelector('a[href$="/ia-educacion/guias/estudiantes/"]')),
+    teacherRoute: Boolean(document.querySelector('a[href$="/ia-educacion/guias/profesorado/"]')),
     dark: document.documentElement.classList.contains("dark"),
     colorScheme: getComputedStyle(document.documentElement).colorScheme
   }));
   assert(intro.h5pCount === 0, "Móvil: la introducción no debe contener H5P");
   assert(intro.studentRoute && intro.teacherRoute, "Móvil: faltan las dos entradas");
   assert(intro.scrollWidth <= intro.width, "Móvil: overflow en la introducción");
-  assert(!intro.dark && intro.colorScheme.includes("light"), "Móvil: identidad no clara");
+  assert(intro.dark && intro.colorScheme.includes("dark"), "Móvil: la introducción perdió la apariencia oscura solicitada");
   await axeViolations(page, "Introducción móvil");
   await page.screenshot({
     path: path.join(evidenceDirectory, "introduccion-movil.png"),
@@ -419,15 +458,66 @@ async function mobileCase(browser, baseURL) {
       waitUntil: "load"
     });
     assert(response?.status() === 200, `${activity.id}: página móvil HTTP`);
+    const hostStyles = hostStylesEvidence(
+      await waitForH5pHostStyles(page, `${activity.id}: página móvil`)
+    );
     const result = await page.evaluate((id) => {
       const section = [...document.querySelectorAll("[data-udg-h5p]")].find(
         (element) => element.dataset.embedUrl?.includes(`content=${id}`)
       );
+      const fallback = section?.querySelector(".udg-h5p__fallback");
+      const parseColor = (value) => {
+        const channels = value.match(/[\d.]+/g)?.map(Number) || [];
+        return {
+          red: channels[0] || 0,
+          green: channels[1] || 0,
+          blue: channels[2] || 0,
+          alpha: channels.length > 3 ? channels[3] : 1
+        };
+      };
+      const luminance = ({ red, green, blue }) => {
+        const linear = [red, green, blue].map((channel) => {
+          const normalized = channel / 255;
+          return normalized <= 0.04045
+            ? normalized / 12.92
+            : ((normalized + 0.055) / 1.055) ** 2.4;
+        });
+        return 0.2126 * linear[0] + 0.7152 * linear[1] + 0.0722 * linear[2];
+      };
+      const backgroundFor = (element) => {
+        let current = element;
+        while (current) {
+          const background = parseColor(getComputedStyle(current).backgroundColor);
+          if (background.alpha > 0) return background;
+          current = current.parentElement;
+        }
+        return parseColor(getComputedStyle(document.documentElement).backgroundColor);
+      };
+      const contrastSamples = fallback
+        ? [...fallback.querySelectorAll("summary, .udg-h5p__fallback-body, h2, h3, h4, h5, h6, p, li, th, td, strong")]
+          .filter((element) => element.textContent.trim().length > 0)
+          .map((element) => {
+            const foreground = parseColor(getComputedStyle(element).color);
+            const background = backgroundFor(element);
+            const light = Math.max(luminance(foreground), luminance(background));
+            const dark = Math.min(luminance(foreground), luminance(background));
+            return {
+              element: element.tagName.toLowerCase(),
+              foreground: getComputedStyle(element).color,
+              background: `rgb(${background.red}, ${background.green}, ${background.blue})`,
+              ratio: Number(((light + 0.05) / (dark + 0.05)).toFixed(2))
+            };
+          })
+        : [];
       return {
         width: document.documentElement.clientWidth,
         scrollWidth: document.documentElement.scrollWidth,
         fallbackLength:
           section?.querySelector(".udg-h5p__fallback-body")?.textContent.trim().length || 0,
+        fallbackContrast: {
+          minimum: Math.min(...contrastSamples.map(({ ratio }) => ratio)),
+          samples: contrastSamples
+        },
         contentLicense: section?.dataset.contentLicense || "",
         licenseStatus: section?.dataset.licenseStatus || "",
         publicationAuthorized: section?.dataset.publicationAuthorized || ""
@@ -435,6 +525,11 @@ async function mobileCase(browser, baseURL) {
     }, activity.id);
     assert(result.scrollWidth <= result.width, `${activity.id}: overflow móvil`);
     assert(result.fallbackLength > 180, `${activity.id}: fallback insuficiente`);
+    assert(
+      result.fallbackContrast.minimum >= 4.5,
+      `${activity.id}: contraste oscuro móvil insuficiente en fallback ` +
+        `${JSON.stringify(result.fallbackContrast.samples.filter(({ ratio }) => ratio < 4.5))}`
+    );
     assert(
       result.contentLicense === "CC BY-SA 4.0",
       `${activity.id}: licencia no emitida en la ruta`
@@ -448,7 +543,7 @@ async function mobileCase(browser, baseURL) {
       `${activity.id}: autorización de publicación no emitida en la ruta`
     );
     await axeViolations(page, `${activity.id} móvil`);
-    activities.push({ ...activity, ...result });
+    activities.push({ ...activity, hostStyles, ...result });
   }
   await context.close();
   return { intro, activities };
@@ -821,6 +916,9 @@ async function desktopCase(browser, baseURL) {
       waitUntil: "load"
     });
     assert(response?.status() === 200, `${activity.id}: página HTTP`);
+    const hostStyles = hostStylesEvidence(
+      await waitForH5pHostStyles(page, `${activity.id}: página`)
+    );
     await axeViolations(page, `${activity.id}: página`);
     const { section, iframe, playerFrame } = await loadActivity(page, activity.id);
     if (activity.id === "cocreacion-conceptos-cards") {
@@ -894,6 +992,7 @@ async function desktopCase(browser, baseURL) {
     }
     activities.push({
       ...activity,
+      hostStyles,
       height,
       inner,
       visual,
@@ -906,19 +1005,23 @@ async function desktopCase(browser, baseURL) {
     });
   }
 
+  let preview = null;
   const bloomActivity = activityPages.find(({ id }) => id === "objetivos-bloom-udgplus");
-  await page.goto(new URL(bloomActivity.path, baseURL).href, { waitUntil: "load" });
-  const { playerFrame: bloomFrame } = await loadActivity(page, bloomActivity.id);
-  await bloomFrame.locator(".bob-level").nth(3).click();
-  await bloomFrame.locator(".bob-verb").first().click();
-  await bloomFrame.locator('[data-field="content"]').fill("dos fuentes con criterios explícitos");
-  await bloomFrame.locator('[data-field="condition"]').fill("a partir de un caso");
-  await bloomFrame.locator('[data-field="criterion"]').fill("justificando tres diferencias");
-  const preview = (await bloomFrame.locator(".bob-preview").textContent())?.trim() || "";
-  assert(preview.includes("dos fuentes"), "Bloom: la vista previa no respondió");
-  assert(await bloomFrame.locator(".bob-save").isEnabled(), "Bloom: no habilitó el guardado");
-  await bloomFrame.locator(".bob-save").click();
-  assert((await bloomFrame.locator(".bob-saved-item").count()) === 1, "Bloom: no guardó");
+  if (bloomActivity) {
+    await page.goto(new URL(bloomActivity.path, baseURL).href, { waitUntil: "load" });
+    await waitForH5pHostStyles(page, `${bloomActivity.id}: página`);
+    const { playerFrame: bloomFrame } = await loadActivity(page, bloomActivity.id);
+    await bloomFrame.locator(".bob-level").nth(3).click();
+    await bloomFrame.locator(".bob-verb").first().click();
+    await bloomFrame.locator('[data-field="content"]').fill("dos fuentes con criterios explícitos");
+    await bloomFrame.locator('[data-field="condition"]').fill("a partir de un caso");
+    await bloomFrame.locator('[data-field="criterion"]').fill("justificando tres diferencias");
+    preview = (await bloomFrame.locator(".bob-preview").textContent())?.trim() || "";
+    assert(preview.includes("dos fuentes"), "Bloom: la vista previa no respondió");
+    assert(await bloomFrame.locator(".bob-save").isEnabled(), "Bloom: no habilitó el guardado");
+    await bloomFrame.locator(".bob-save").click();
+    assert((await bloomFrame.locator(".bob-saved-item").count()) === 1, "Bloom: no guardó");
+  }
 
   assert(externalRequests.length === 0, `Solicitudes externas: ${externalRequests.join(", ")}`);
   assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);
@@ -966,6 +1069,7 @@ try {
     introPage: introPagePath,
     activityPages,
     expectedIDs,
+    preparedIDs,
     udgia007Governance: await udgia007GovernanceAudit(),
     hugo,
     mobile: await mobileCase(browser, server.baseURL),

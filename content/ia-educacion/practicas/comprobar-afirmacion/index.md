@@ -38,17 +38,16 @@ Una respuesta puede contener diez afirmaciones y sonar convincente. Empieza por 
 
 Una IA afirma que una intervención mejoró el aprendizaje un 30%. Antes de repetir el número, pregunta: ¿qué estudio lo midió, contra qué comparación, en qué población y durante cuánto tiempo? Si no aparece una fuente verificable, el porcentaje no puede sostener la decisión.
 
-## Cuatro pasos
+{{< practica titulo="Práctica en cuatro pasos" >}}
 
 1. Copia la afirmación exacta sin mejorarla.
 2. Explica qué cambiaría si fuera falsa o estuviera incompleta.
 3. Localiza una fuente primaria o institucional pertinente fuera de la conversación.
 4. Decide: conservar, limitar, corregir, descartar o dejar pendiente.
 
-## Producto
-
+**Producto.**
 Conserva la afirmación, el enlace o identificador de la fuente, el pasaje relevante, la fecha de consulta y una frase de decisión. Si no encuentras evidencia suficiente, decir “queda pendiente” es un resultado válido.
 
-## Alternativa sin IA
-
+**Alternativa sin IA.**
 Aplica los mismos pasos a una afirmación tomada de una noticia, un video, un compañero o una versión anterior de tu texto.
+{{< /practica >}}

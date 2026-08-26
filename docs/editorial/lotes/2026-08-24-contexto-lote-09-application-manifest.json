@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-09",
+  "created_at": "2026-08-24T18:06:41-06:00",
+  "updated_at": "2026-08-24T18:06:41-06:00",
+  "approved_by": "Rubén",
+  "approved_at": "2026-08-24T17:31:56-06:00",
+  "authorization": "borrador reversible y QA; no publicación",
+  "publication_authorized": false,
+  "production_changed": false,
+  "review_site": "http://100.107.89.3:1313/",
+  "baseline": {
+    "active_sources": 164,
+    "active_decisions": 58,
+    "conservar": 15,
+    "cambiar": 43,
+    "quitar": 0,
+    "pending": 106,
+    "historical_records": 60
+  },
+  "current": {
+    "active_sources": 164,
+    "active_decisions": 63,
+    "conservar": 15,
+    "cambiar": 48,
+    "quitar": 0,
+    "pending": 101,
+    "historical_records": 65
+  },
+  "decisions": {
+    "conservar": [],
+    "cambiar": [
+      "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "content/recursos/glosario/integridad-academica/index.md"
+    ],
+    "quitar": []
+  },
+  "sources": [
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "sha256_before": "3a48258410bf31378d37d4b1d88aabb4775335a849e4333dc40db5c33f1d9934",
+      "sha256_after": "7e2abb5abdbc88a343c0cb1778aabfd1858fcdcd0437746713d76d7ded4804e7",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/blog/ia-generativa-evaluacion-autentica/index.md"
+    },
+    {
+      "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "sha256_before": "b0edcdcd35abb6eb70c7db76c5fc3288d4729fa2f8c801d782a6adc2fae1647e",
+      "sha256_after": "86871583d41756480c903de615d1ae3563b3295e68424d96b4381dfd88f39df3",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md"
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "sha256_before": "4d1eaeebfa9c60f5747bafb98fe901a06cfc0f6315fc7f7ba4a2ba1812715ecf",
+      "sha256_after": "aa35c3384a884a468e932c95910990ab25565a270b4de4c75fdcbfc30fc47ce8",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md"
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "sha256_before": "5cbea1e457199a355d484f0922bf8755ffafabe21174bdb4dbc6c9c17b2f2197",
+      "sha256_after": "839ebc62a1a780bfd9914473e47bccc7172fc8835e54430c832336ab7c7d0893",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/ia-educacion/guias/evaluacion-formativa-ia/index.md"
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "sha256_before": "28b911bfcf7520d76e89a50bbeff6bb3ef445cb013ac307eb92fc9a65a1990e0",
+      "sha256_after": "a5b2526ac8421e589e3f7286015cc87854a5fa097d1960b6ea8c7859e9eefe1f",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/recursos/glosario/integridad-academica/index.md"
+    }
+  ],
+  "qa": {
+    "focal": "PASS 57/57",
+    "content_inventory": "PASS 164 documentos; 0 enlaces internos rotos",
+    "context_audit": "PASS 164 fuentes; 15 conservar; 48 cambiar; 101 pendientes",
+    "glossary_index": "PASS 2/2",
+    "direct_language": "PASS",
+    "routes_tables": "PASS",
+    "citations": "PASS strict+evidence; 12/12 fuentes con evidencia; cobertura 16%, umbral 10%",
+    "hugo_build": "PASS 924 páginas; 399 aliases",
+    "visual_focal": "PASS 10/10; 0 fallos; axe A/AA, consola, imágenes y overflow sin incidencias",
+    "cold_read": "PASS; 5 rutas HTTP 200; contradicción residual reconciliada"
+  },
+  "known_global_blocks": [
+    {
+      "gate": "qa:visual-contract",
+      "result": "FAIL",
+      "reason": "22 sin featured propio; 18 con hero oculto; 0 cards sin imagen"
+    },
+    {
+      "gate": "qa:learning-audit",
+      "result": "FAIL",
+      "reason": "inventarios Hugo y curso con distinto número de piezas"
+    },
+    {
+      "gate": "qa:activity-svg-contract",
+      "result": "FAIL",
+      "reason": "fuente laboratorio/practicas/aprendizaje-activo-ia/index.md ausente"
+    },
+    {
+      "gate": "qa:udgia-figures",
+      "result": "FAIL",
+      "reason": "checksums históricos de 18 variantes escritorio/móvil"
+    },
+    {
+      "gate": "qa:udgia-figures-route",
+      "result": "PASS",
+      "reason": "10 rutas × 2 bases × 2 viewports; 0 advertencias Hugo nuevas"
+    }
+  ],
+  "proposal_review": {
+    "model": "Sol",
+    "verdict": "AJUSTAR expediente; confirmar 5 cambiar",
+    "blockers_reconciled": true,
+    "delegation": "deleg_23f4ef58",
+    "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09.md"
+  },
+  "final_review": {
+    "model": "Sol",
+    "status": "completed",
+    "verdict": "AJUSTAR",
+    "blockers": 0,
+    "delegation": "deleg_ed4131e6",
+    "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09-final.md",
+    "requested_adjustments": 5,
+    "reconciled": true,
+    "reconciliation_qa": "PASS 57/57; visual 10/10; Hugo 924/399",
+    "closure_recommended_after_reconciliation": true
+  },
+  "production_verification": {
+    "base_url": "https://arqueon.github.io/aprendizaje-ia",
+    "routes_checked": 5,
+    "http_200": 5,
+    "new_markers_present": 0
+  },
+  "sync_conflicts": {
+    "owned_sources": 0,
+    "lote09_artifacts": 0,
+    "note": "copias históricas ajenas al lote permanecen sin borrar bajo public/"
+  },
+  "artifacts": [
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "d6cb460f8be133b95a74a0444522b8aac38c864443b70621f94b8aa792d4d235",
+      "bytes": 86001
+    },
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "sha256": "7e2abb5abdbc88a343c0cb1778aabfd1858fcdcd0437746713d76d7ded4804e7",
+      "bytes": 7932
+    },
+    {
+      "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "sha256": "86871583d41756480c903de615d1ae3563b3295e68424d96b4381dfd88f39df3",
+      "bytes": 4735
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "sha256": "aa35c3384a884a468e932c95910990ab25565a270b4de4c75fdcbfc30fc47ce8",
+      "bytes": 11492
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "sha256": "839ebc62a1a780bfd9914473e47bccc7172fc8835e54430c832336ab7c7d0893",
+      "bytes": 19196
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "sha256": "a5b2526ac8421e589e3f7286015cc87854a5fa097d1960b6ea8c7859e9eefe1f",
+      "bytes": 1411
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-autenticidad-integridad-evaluacion.md",
+      "sha256": "3982c0d268fdeabfaf604e825a0f9728d73f4a71508ad8a94688bd75d49d4e07",
+      "bytes": 18527
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-citations.json",
+      "sha256": "c2fd15cba1aeab92f41beface743f7dd1a59e56cd10c8508ec587744c137a0e2",
+      "bytes": 8678
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-investigation-manifest.json",
+      "sha256": "fb16135842192a8017813df9cf0be96595b3e4761b87889ded73a76aea972881",
+      "bytes": 4562
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-link-map.json",
+      "sha256": "54c6ca3e989f813a889cc89cabddf19c7698177546bdafb23dc8e3d118bde61d",
+      "bytes": 4588
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-registro-aplicacion.md",
+      "sha256": "ca3e8b93466811e9020a613bd110a9ce283a1708fe1cb5df7ce43d916bb0658e",
+      "bytes": 5688
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09.md",
+      "sha256": "e6db16cb5bd35f25a80ed4f72a4214ba9fe06dd8ff8ed2dd6c96e9a667303c30",
+      "bytes": 8545
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09-final.md",
+      "sha256": "ea9a3ac460f7f8737cd244517b7db5d9942a96823c20a7b27cf41ee718cad582",
+      "bytes": 5521
+    },
+    {
+      "path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/manifest.json",
+      "sha256": "320ae60ebb6f928cc29b9793396f712edb023736ecf09d802248c691a2e42c0c",
+      "bytes": 2595
+    },
+    {
+      "path": "tools/qa-contexto-lote-09.tmp.mjs",
+      "sha256": "1235cd26fb775f348737d4b1a67cdbfa22919fc5c1be5feb94a0c4fbba7d23f7",
+      "bytes": 9399
+    },
+    {
+      "path": "tools/qa-contexto-lote-09-visual.tmp.mjs",
+      "sha256": "6add47fc168e94f828957543cf760490cf6ce74c74a3f01dfec5306173aa58ba",
+      "bytes": 5491
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/qa-visual.json",
+      "sha256": "8af8374ab38cc59e177c5a3c9bd2a4651c2e65eaf39366dfe4978cb6d78f3232",
+      "bytes": 2888
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/blog-evaluacion-autentica-desktop.png",
+      "sha256": "9781587fc7d76c29c20b281c44260437734b87639fe5ad9ea1a6be0d9a83899d",
+      "bytes": 706833
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/blog-evaluacion-autentica-mobile.png",
+      "sha256": "01bac28d9b9f1d13de4ea9dff82f532d90925910fd30d97472049a6c42a79dbd",
+      "bytes": 717746
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/evaluacion-formativa-desktop.png",
+      "sha256": "172239b8876ec61341e0a44d371783aee3799d562bedcde655482f391718221f",
+      "bytes": 2163143
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/evaluacion-formativa-mobile.png",
+      "sha256": "ea44646c2c72587662a54cb9d4912a9f5c0728365619c5582b4a3b73b6d046c5",
+      "bytes": 1952778
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/ficha-ajjawi-bearman-desktop.png",
+      "sha256": "40eac9ed6a0546da77e36fa43a0a64d19d4a3d3784a0d4c8da34f383e44304a4",
+      "bytes": 385089
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/ficha-ajjawi-bearman-mobile.png",
+      "sha256": "2337255adad6e44ec083d300ffb8ae5558dec71a8704b28ebc94c0611e1bbf3d",
+      "bytes": 412612
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/integridad-academica-desktop.png",
+      "sha256": "1d281bcddae441e67d2d9e8acfeb376dfd8dcf0dfea67b631f3adb21a0a234f1",
+      "bytes": 178352
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/integridad-academica-mobile.png",
+      "sha256": "5664b1ecb0c8e41132a019074784b02e0e81d7ed44f458b7348ee609c4f55c1f",
+      "bytes": 144683
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/plagio-autenticidad-desktop.png",
+      "sha256": "347c81a36c1d23a73eaff560131d5683d1465cef45403280b54e7a3652dfb3bb",
+      "bytes": 1107794
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-09/plagio-autenticidad-mobile.png",
+      "sha256": "fa2a103d3bc5828d4eaae590ce64efb614bd912cdf99031fc068ab7bb301cdda",
+      "bytes": 1030329
+    }
+  ]
+}

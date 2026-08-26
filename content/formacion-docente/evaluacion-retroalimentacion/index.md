@@ -1,9 +1,10 @@
 ---
 title: "Evaluación y retroalimentación en el aprendizaje activo"
 date: 2026-04-06
+lastmod: 2026-08-24
 draft: false
-description: "Evaluación formativa y sumativa, técnicas de evaluación en el aula (CAT), retroalimentación entre pares y del profesor: guía práctica para el aprendizaje activo."
-summary: "Los procesos de evaluación y retroalimentación formativos y sumativos son componentes del aprendizaje activo. Incluye técnicas concretas de evaluación en el aula (CAT) y estrategias de retroalimentación."
+description: "Cómo distinguir evaluación formativa, sumativa, retroalimentación y evaluación de la docencia; incluye técnicas CAT y un recorrido antes, durante y después de clase."
+summary: "La evaluación produce evidencia; la retroalimentación ayuda a decidir qué hacer con ella. Esta guía distingue funciones, limita el alcance de las técnicas CAT y propone acciones observables."
 tags: ["evaluacion", "retroalimentacion", "evaluacion-formativa", "evaluacion-sumativa", "cat", "classroom-assessment-techniques"]
 categories: ["metodologia-pedagogica"]
 areas: ["evaluacion", "pedagogia"]
@@ -16,99 +17,165 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-weight: 7
+weight: 5
 ---
 
 {{< lead >}}
-Un estudiante recibe su borrador devuelto con comentarios sobre qué mejorar, y una semana después entrega la versión final con la que se gana la calificación. La primera devolución es evaluación formativa; la segunda, sumativa. Entre ambas, los procesos de evaluación y retroalimentación permiten a los estudiantes comprender su grado de avance en el logro de los objetivos de aprendizaje, e informan tanto al estudiante como al profesor: son componentes del [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}).
+Una persona entrega un borrador, recibe comentarios y revisa su trabajo antes de la versión final. La primera devolución cumple una función formativa si permite modificar el aprendizaje mientras ocurre; la valoración final cumple una función sumativa cuando reconoce el desempeño alcanzado. Una encuesta sobre el curso responde otra pregunta: ayuda a revisar la docencia, no sustituye la retroalimentación que recibe la persona sobre su aprendizaje.
 {{< /lead >}}
+
+## Tres preguntas distintas
+
+Evaluación y retroalimentación se relacionan, pero no son sinónimos. Conviene separarlas mediante la pregunta que cada proceso intenta responder:
+
+1. **¿Qué comprende o puede hacer la persona en este momento?** La evaluación recoge una evidencia: una explicación, una decisión, una actuación, un borrador o una respuesta.
+2. **¿Qué necesita revisar y cuál puede ser el siguiente movimiento?** La retroalimentación interpreta esa evidencia contra criterios y orienta una acción posible.
+3. **¿Qué conviene modificar en el diseño del curso o en la práctica docente?** La evaluación del curso reúne información sobre la experiencia de aprendizaje y debe analizarse con fuentes adicionales.
+
+La distinción evita llamar “retroalimentación” a cualquier comentario o encuesta. También impide presentar una calificación como si, por sí sola, explicara cómo mejorar.
 
 ## Evaluación formativa y sumativa
 
-La evaluación puede ser de dos tipos (Universidad de Guadalajara, 2022; Holbeck et al., 2014):
+Black y Wiliam describen la evaluación formativa por el uso de información como retroalimentación para modificar la enseñanza y el aprendizaje mientras están en marcha.
+
+{{< idea titulo="Qué vuelve formativa una evaluación" >}}
+El carácter formativo no depende únicamente de que la evaluación tenga o no calificación: depende de que todavía exista una oportunidad real de actuar sobre la evidencia. Si el resultado llega cuando ya no se puede revisar nada, la función es sumativa aunque el instrumento se llame formativo.
+{{< /idea >}}
 
 ### Evaluación formativa
 
-No necesariamente se incluye en la calificación final. Su función es dar a los estudiantes la oportunidad de demostrar y expresar lo que saben, mostrar las brechas de aprendizaje para que puedan ser corregidas, y proporcionar al profesor información sobre el progreso del grupo en tiempo real.
+Puede ocurrir al inicio o durante una secuencia. Sirve para reconocer conocimientos previos, probar una explicación, localizar una dificultad o decidir qué apoyo hace falta. El resultado no cierra el proceso: cambia la siguiente acción de la persona, del grupo o de quien enseña.
+
+Ejemplo: antes de comparar dos soluciones, cada persona explica cuál supuesto considera decisivo. El profesorado lee las respuestas, identifica una confusión recurrente y modifica el caso de contraste. Después, cada estudiante revisa su explicación y señala qué cambió.
 
 ### Evaluación sumativa
 
-Se acumula en la calificación final y se produce en ciertos momentos del curso. Debe basarse en actividades con criterios definidos, comunicando las expectativas y utilizando rúbricas claras.
+Reconoce o certifica el desempeño alcanzado en un momento definido. Puede contribuir a la calificación final, pero necesita criterios comunicados y un instrumento adecuado a la evidencia. Una rúbrica puede ser útil para un proyecto complejo; una lista de cotejo, una escala, una defensa o una clave de respuestas pueden ser más adecuadas para otros productos.
 
-Ambas formas son complementarias. Un curso que solo usa evaluación sumativa pierde la oportunidad de corregir brechas durante el proceso. Un curso que solo usa evaluación formativa carece de mecanismos de certificación del aprendizaje.
+Ejemplo: al terminar la unidad, cada persona analiza un caso nuevo, justifica una decisión con fuentes y responde preguntas sobre sus criterios. La valoración integra la calidad del producto y la capacidad de sostener el razonamiento.
+
+Las dos funciones pueden aparecer en una misma secuencia. Lo importante es declarar cuándo la evidencia todavía puede transformarse y cuándo se utilizará para reconocer un resultado final.
 
 ## Técnicas de evaluación en el aula (CAT)
 
-Las técnicas de evaluación en el aula (*Classroom Assessment Techniques*, CAT) son herramientas que permiten a los docentes recolectar y analizar rápidamente preguntas realizadas antes, durante o después de la clase. Permiten dar cuenta de los principales aprendizajes alcanzados y los puntos que aún persistan (Holbeck et al., 2014).
+Las *Classroom Assessment Techniques* son actividades breves para recoger respuestas, productos o decisiones como indicios de comprensión y usar esa información en la siguiente acción docente. No son pruebas de eficacia por sí mismas. Su valor depende de la pregunta que formulan, la evidencia que recogen y la respuesta que provocan.
 
-{{< infografia titulo="Técnicas de Evaluación (CAT)" subtitulo="Herramientas para recolectar información sobre el aprendizaje" >}}
+Holbeck, Bergquist y Lees estudiaron una sola técnica —*Misconception/Preconception Check*— en cuatro cursos en línea de ingreso universitario. Participaron de forma opcional 39 de 96 estudiantes. Ese estudio ilustra una aplicación situada; no demuestra que cualquier CAT produzca el mismo resultado ni sostiene por sí solo todo el repertorio siguiente.
+
+{{< infografia titulo="Técnicas de Evaluación (CAT)" subtitulo="Actividades breves para recoger indicios y decidir el siguiente paso" >}}
   {{< infografia-seccion titulo="El punto más confuso" icono="question-circle" color="#b12028" >}}
-  Los estudiantes identifican el concepto que les resultó más difícil de entender.
+  Cada persona identifica el concepto, paso o relación que todavía no puede explicar.
   * **Momento de uso:** Al final de una sesión.
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Reflexión de un minuto" icono="stopwatch" color="#b06a1f" >}}
-  Escritos breves para sintetizar lo aprendido o plantear dudas (*minute papers*).
-  * **Momento de uso:** Al final de una sesión.
+  Un escrito breve sintetiza una idea aprendida y formula una pregunta pendiente.
+  * **Momento de uso:** Al cierre de un bloque.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Conocimientos previos" icono="search" color="#5c7ab4" >}}
-  Sondeo de lo que los estudiantes ya saben sobre un tema antes de abordarlo.
-  * **Momento de uso:** Al inicio de un tema.
+  {{< infografia-seccion titulo="Conocimientos y supuestos previos" icono="search" color="#5c7ab4" >}}
+  Una respuesta inicial hace visibles ideas que pueden ayudar o dificultar el aprendizaje posterior.
+  * **Momento de uso:** Antes de abordar un tema.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Encuestas de autoconfianza" icono="poll" color="#5c7ab4" >}}
-  Los estudiantes evalúan su nivel de confianza respecto a los conceptos trabajados.
+  {{< infografia-seccion titulo="Escala de confianza con explicación" icono="poll" color="#5c7ab4" >}}
+  La persona indica cuánta seguridad tiene y añade una razón o ejemplo; la cifra sin explicación no basta.
   * **Momento de uso:** Durante o después de una unidad.
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Matriz de características" icono="border-all" color="#68762f" >}}
-  Organización de conceptos clave en una tabla comparativa.
+  Una tabla compara conceptos mediante criterios definidos y deja ver relaciones o confusiones.
   * **Momento de uso:** Durante el desarrollo de un tema.
   {{< /infografia-seccion >}}
 
-  {{< infografia-seccion titulo="Evaluación en línea" icono="laptop" color="#656f85" >}}
-  Cuestionarios, foros y actividades de autoevaluación en la plataforma del curso.
+  {{< infografia-seccion titulo="Respuesta breve en línea" icono="laptop" color="#656f85" >}}
+  Un formulario, foro o cuestionario recoge una explicación o decisión; la plataforma es el medio, no la técnica.
   * **Momento de uso:** Antes, durante o después de clase.
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
+### De la respuesta a una decisión
 
+Una CAT queda incompleta si solo acumula respuestas. Antes de aplicarla, conviene definir cuatro movimientos:
 
-## Retroalimentación
+{{< proceso >}}
+{{< paso titulo="Pregunta" >}}
+Qué aspecto del aprendizaje se necesita observar.
+{{< /paso >}}
+{{< paso titulo="Evidencia" >}}
+Qué respuesta o producto permitiría reconocerlo.
+{{< /paso >}}
+{{< paso titulo="Interpretación" >}}
+Qué patrones, diferencias o errores se buscarán, sin reducir a las personas a una etiqueta.
+{{< /paso >}}
+{{< paso titulo="Respuesta" >}}
+Qué cambiará después: una explicación adicional, un ejemplo, una agrupación, una revisión o el
+avance a otra tarea.
+{{< /paso >}}
+{{< /proceso >}}
 
-La retroalimentación es un elemento del proceso de aprendizaje que puede generarse tanto entre los propios estudiantes (retroalimentación entre pares) como directamente del profesor.
+Si no habrá tiempo para leer la evidencia ni actuar sobre ella, es preferible una actividad más pequeña o una pregunta que pueda revisarse con el grupo.
 
-### Retroalimentación formativa
+## Retroalimentación para revisar el aprendizaje
 
-Se da a lo largo de todo el curso y permite mejorar la experiencia de aprendizaje de los estudiantes. Puede incluir:
+La retroalimentación puede provenir del profesorado, de pares, de una autoevaluación guiada o de un sistema automático. La fuente no garantiza la calidad. Un comentario ayuda cuando se conecta con criterios comprensibles, señala algo observable y deja una acción que la persona todavía puede realizar.
 
-- Comentarios del profesor sobre entregas parciales.
-- Retroalimentación entre pares durante actividades colaborativas.
-- Autoevaluaciones guiadas.
-- Comentarios automáticos en cuestionarios en línea.
+### Del profesorado
 
-### Retroalimentación sumativa
+En lugar de “falta profundidad”, puede indicar: “La conclusión introduce una relación causal que las dos fuentes no sostienen. Separa lo observado de tu interpretación y explica qué evidencia faltaría para afirmar causalidad”.
 
-Se da al final del curso o de una unidad. Es útil para que el profesor conozca el desempeño de su práctica docente desde la perspectiva de los estudiantes. Permite ajustar el curso para futuras iteraciones.
+### Entre pares
 
-## Integración con el aprendizaje activo
+La revisión necesita una tarea delimitada. Por ejemplo: localizar dónde aparece el criterio principal, formular una objeción y señalar qué evidencia permitiría responderla. Pedir “comenta el trabajo de otra persona” suele producir elogios o correcciones superficiales.
 
-En el contexto del [aula invertida]({{< ref "laboratorio/practicas/aula-invertida" >}}), la evaluación y retroalimentación se distribuyen a lo largo de todo el ciclo de aprendizaje:
+### Autoevaluación
 
-1. **Antes de clase**: cuestionarios en línea y actividades de autoevaluación que verifican la revisión de materiales.
-2. **Durante la clase**: técnicas CAT, encuestas rápidas, retroalimentación entre pares durante las actividades grupales.
-3. **Después de clase**: entregas evaluadas con rúbricas, retroalimentación del profesor, autoevaluaciones.
+Una lista de criterios o dos versiones del propio trabajo permiten explicar qué cambió, por qué cambió y qué duda persiste. La autoevaluación no exige acertar en todo; exige hacer visible el juicio para poder revisarlo.
 
-Los sistemas de respuestas del aula (clickers, Mentimeter, Kahoot, formularios en línea) facilitan la recolección y el análisis rápido de las respuestas, permitiendo al profesor adaptar su enseñanza en tiempo real.
+### Respuesta automática o generada con IA
 
-## Relación con el diseño de cursos
+Puede ofrecer una pregunta, detectar un patrón o comparar el texto con criterios declarados. No debe decidir por sí sola una calificación de alto impacto ni reemplazar la responsabilidad docente. La persona necesita contrastar el comentario con la evidencia, identificar errores y decidir qué acepta, modifica o descarta.
 
-La evaluación y retroalimentación están directamente vinculadas al [diseño inverso de aprendizajes]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}). En el diseño inverso, el segundo paso (después de definir los objetivos) es determinar cómo se evaluarán los aprendizajes. Los métodos de evaluación deben ser coherentes con los niveles cognitivos de la [taxonomía de Bloom]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) que se buscan desarrollar.
+## Evaluación del curso y de la docencia
 
-El [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) debe especificar las evaluaciones y rúbricas para cada semana del curso, de modo que los estudiantes conozcan desde el inicio cómo se medirá su progreso.
+Las opiniones del estudiantado al final de una unidad o del curso pueden ayudar a revisar tiempos, instrucciones, accesibilidad, recursos y acompañamiento. Esa información se refiere a la experiencia y a la práctica docente; no es “retroalimentación sumativa” sobre el aprendizaje de quien responde.
 
-## Referencias
+Una encuesta final tampoco basta para evaluar la docencia. Conviene contrastarla con productos del curso, participación, dificultades observadas, decisiones de diseño y condiciones que afectaron la experiencia. El propósito es comprender qué ajustar en otra iteración, no convertir una percepción aislada en veredicto.
 
-- Holbeck, R., Bergquist, E., & Lees, S. (2014). Classroom Assessment Techniques: Checking for Student Understanding in an Introductory University Success Course. *Journal of Instructional Research*, *3*, 38–42.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
+## Antes, durante y después de una actividad
+
+En una secuencia de [aula invertida]({{< ref "laboratorio/practicas/aula-invertida" >}}), las funciones pueden distribuirse así:
+
+1. **Antes de clase:** una explicación inicial o sondeo de supuestos permite decidir qué necesita el encuentro presencial.
+2. **Durante la clase:** una CAT breve recoge indicios; el grupo compara respuestas y revisa una idea.
+3. **Después de clase:** una entrega recibe comentarios, se modifica y, cuando corresponde, se valora contra criterios comunicados.
+
+Los formularios, sistemas de respuesta o plataformas pueden acelerar la recolección. Su utilidad aparece solo cuando la pregunta y la decisión posterior están claras.
+
+## Relación con el diseño inverso
+
+La evaluación se define antes de elegir actividades porque indica qué aprendizaje debe hacerse visible. La página sobre [taxonomía de Bloom y diseño inverso]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) propone la cadena propósito → evidencia → experiencia → ayuda. Esta página desarrolla el segundo eslabón y muestra cómo la evidencia modifica también la enseñanza.
+
+Un [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) debe comunicar propósitos, productos, criterios, momentos de revisión y condiciones de uso de ayudas. No necesita imponer una rúbrica semanal; necesita que cada instrumento corresponda con lo que se desea observar.
+
+## Cinco preguntas para revisar una evaluación
+
+{{< practica >}}
+1. ¿Qué aprendizaje se quiere observar y mediante qué evidencia?
+2. ¿La persona tendrá oportunidad de actuar sobre la información recibida?
+3. ¿Los criterios permiten comprender qué cuenta como un desempeño suficiente?
+4. ¿La técnica produce una decisión posterior o solo acumula respuestas?
+5. ¿Se distingue el aprendizaje de la evaluación del curso y de la docencia?
+{{< /practica >}}
+
+## Cómo continuar
+
+Ya definiste qué evidencia recoger y cómo usarla para orientar una revisión. Continúa con el
+[taller de diseño de actividades con IA]({{< relref "formacion-docente/taller-diseno-actividades-ia-backward" >}}), donde estas decisiones se integran en una actividad completa.
+
+{{< referencias >}}
+- Angelo, T. A., & Cross, K. P. (1993). *Classroom assessment techniques: A handbook for college teachers* (2nd ed.). Jossey-Bass.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education: Principles, Policy & Practice, 5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
+- Holbeck, R., Bergquist, E., & Lees, S. (2014). Classroom Assessment Techniques: Checking for student understanding in an introductory university success course. *Journal of Instructional Research, 3*, 38–42. <https://files.eric.ed.gov/fulltext/EJ1127694.pdf>
+- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna sin versión pública disponible; se conserva como antecedente y no como soporte único de afirmaciones verificables.
+{{< /referencias >}}

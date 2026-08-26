@@ -5,8 +5,8 @@
   "builds": [
     {
       "mode": "root",
-      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 928,
+      "version": "hugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z",
+      "pages": 934,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -16,8 +16,8 @@
     },
     {
       "mode": "subpath",
-      "version": "hugo v0.164.0-87433e81f9ea6fab8b033e76148ab36556c1a47d+extended+withdeploy linux/amd64 BuildDate=2026-07-06T20:58:27Z",
-      "pages": 928,
+      "version": "hugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z",
+      "pages": 934,
       "warnings": [
         "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -39,7 +39,7 @@
         "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
       }
     },
-    "totalBytes": 9943325,
+    "totalBytes": 9943441,
     "files": 681,
     "contents": [
       "runtime-probe",
@@ -109,7 +109,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 445,
+      "firstHeight": 474,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,
@@ -179,14 +179,14 @@
       "layout": {
         "width": 375,
         "scrollWidth": 375,
-        "dark": false,
-        "colorScheme": "light",
+        "dark": true,
+        "colorScheme": "dark",
         "iframeTransition": "0s"
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
-        "bytes": 173993,
-        "sha256": "6ea7fb20b4fadb5fc631f6e5fecdab2bcf62bcaf56b9550d8b536902c73dcba3"
+        "bytes": 164996,
+        "sha256": "f7bd1c3ab7a980c55f268019b40284f212d926191527b7fe00989aeba6acea2c"
       }
     },
     {
@@ -270,14 +270,14 @@
       "layout": {
         "width": 1280,
         "scrollWidth": 1280,
-        "dark": false,
-        "colorScheme": "light",
+        "dark": true,
+        "colorScheme": "dark",
         "iframeTransition": "0s"
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
-        "bytes": 219772,
-        "sha256": "bcbb30b024640621016e21f86f9cce1d911f31a7701d56ffc07dafd3ab574e51"
+        "bytes": 217758,
+        "sha256": "2c6b280b4a554a6655eb15c7ea98964ff775878eb1b09433bbd90343385167c3"
       }
     }
   ],

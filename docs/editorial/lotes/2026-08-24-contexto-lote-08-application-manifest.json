@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-08",
+  "created_at": "2026-08-24T14:49:06-06:00",
+  "approved_by": "Rubén",
+  "approved_at": "2026-08-24T14:38:23-06:00",
+  "authorization": "borrador reversible y QA; no publicación",
+  "publication_authorized": false,
+  "production_changed": false,
+  "review_site": "http://100.107.89.3:1313/",
+  "baseline": {
+    "active_sources": 164,
+    "active_decisions": 50,
+    "pending": 114,
+    "historical_records": 52
+  },
+  "current": {
+    "active_sources": 164,
+    "active_decisions": 55,
+    "conservar": 14,
+    "cambiar": 41,
+    "quitar": 0,
+    "pending": 109,
+    "historical_records": 57
+  },
+  "decisions": {
+    "conservar": [
+      "content/recursos/glosario/taxonomia-de-bloom/index.md",
+      "content/recursos/glosario/modelo-samr/index.md"
+    ],
+    "cambiar": [
+      "content/recursos/glosario/aprendizaje-activo/index.md",
+      "content/recursos/glosario/diseno-inverso/index.md",
+      "content/recursos/glosario/evaluacion-autentica/index.md"
+    ],
+    "quitar": []
+  },
+  "sources": [
+    {
+      "path": "content/recursos/glosario/aprendizaje-activo/index.md",
+      "sha256_before": "c4aba12df9478697cd4e236c59ecea81a996d96bdd876a8aee7222c15de7f8e5",
+      "sha256_after": "1c8f5f65a36d415c394e879feda6a1dc58fec43552b82fbd02e105f1684ee792",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/aprendizaje-activo/index.md"
+    },
+    {
+      "path": "content/recursos/glosario/diseno-inverso/index.md",
+      "sha256_before": "756dd72ca412ae733c73fc91c443f2db2b39f759ab8a0bae491bf8372e11f2b0",
+      "sha256_after": "f42dc5acf8bb6dc3e7d28a2946f681535c7890c92f6c3d0f29de74487ab35441",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/diseno-inverso/index.md"
+    },
+    {
+      "path": "content/recursos/glosario/taxonomia-de-bloom/index.md",
+      "sha256_before": "57c2513f21abfa46c62e3f493c74f4b60c05c2d32aa58ff22a359ae42b5d8b76",
+      "sha256_after": "57c2513f21abfa46c62e3f493c74f4b60c05c2d32aa58ff22a359ae42b5d8b76",
+      "changed": false,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/taxonomia-de-bloom/index.md"
+    },
+    {
+      "path": "content/recursos/glosario/modelo-samr/index.md",
+      "sha256_before": "5b397daea47a4ff7aba7a6b052b3c0a9ce5d2dac48076f167a2074e99558aa81",
+      "sha256_after": "5b397daea47a4ff7aba7a6b052b3c0a9ce5d2dac48076f167a2074e99558aa81",
+      "changed": false,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/modelo-samr/index.md"
+    },
+    {
+      "path": "content/recursos/glosario/evaluacion-autentica/index.md",
+      "sha256_before": "994dd4865c868019fb298643d11359374ac095cc148b548597c6d933f7dc0a29",
+      "sha256_after": "2baf9d8e3c56e321821ba7d1439b4422a8a85d8e07248ba5be512ef78409a527",
+      "changed": true,
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/evaluacion-autentica/index.md"
+    }
+  ],
+  "qa": {
+    "focal": "PASS 24/24",
+    "content_inventory": "PASS 164 documentos; 0 enlaces internos rotos",
+    "context_audit": "PASS 164 fuentes; 14 conservar; 41 cambiar; 109 pendientes",
+    "glossary_index": "PASS 2/2",
+    "direct_language": "PASS",
+    "routes_tables": "PASS",
+    "hugo_build": "PASS 924 páginas; 399 aliases",
+    "visual_focal": "PASS 10/10; 0 fallos; axe A/AA, consola y overflow sin incidencias"
+  },
+  "known_global_blocks": [
+    {
+      "gate": "qa:visual-contract",
+      "result": "FAIL",
+      "reason": "deuda global declarada: 22 sin featured propio y 18 con hero oculto; listas unexpected vacías"
+    },
+    {
+      "gate": "qa:learning-audit",
+      "result": "FAIL",
+      "reason": "inventarios Hugo y curso con distinto número de piezas"
+    },
+    {
+      "gate": "qa:activity-svg-contract",
+      "result": "FAIL",
+      "reason": "fuente laboratorio/practicas/aprendizaje-activo-ia/index.md ausente"
+    },
+    {
+      "gate": "qa:udgia-figures",
+      "result": "FAIL",
+      "reason": "checksums históricos de 18 variantes escritorio/móvil"
+    }
+  ],
+  "proposal_review": {
+    "model": "Sol",
+    "verdict": "approve",
+    "blockers": 0,
+    "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-08-propuesta.md"
+  },
+  "final_review": {
+    "model": "Sol",
+    "status": "completed",
+    "verdict": "approve",
+    "blockers": 0,
+    "delegation": "deleg_6c49f8bc",
+    "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-08-final.md",
+    "important_debt": "falta una explicación extensa dedicada a autenticidad; no enlazar automáticamente el blog hasta revisarlo"
+  },
+  "artifacts": [
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "6d70bb285105447466de7311bedbd5eba279f0f57bf89e083071930f1f307e28",
+      "bytes": 74329
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/aprendizaje-activo-desktop.png",
+      "sha256": "81523483c45732031c270972f490e8d1df0b6ba3b65cb775ae37349983ade7ed",
+      "bytes": 234555
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/aprendizaje-activo-mobile.png",
+      "sha256": "10c47e75a035b7ed79c0c4cacc2c172bc75995f7e9960ec651f12d7fd51ba9ee",
+      "bytes": 192561
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/diseno-inverso-desktop.png",
+      "sha256": "2da0c42604eb423f025de07fbf8cb3bd3da9a8047ec3786a445794f3d5846341",
+      "bytes": 284853
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/diseno-inverso-mobile.png",
+      "sha256": "a9261b77d2ab0f54c670262edd9e517696e59283d6ee381cd8d13fdcd1ef4bb3",
+      "bytes": 185802
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/evaluacion-autentica-desktop.png",
+      "sha256": "e197031b291514da2bb81a8db73bdc02684bdef3b0ace2a02127c396e7ddfe29",
+      "bytes": 294137
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/evaluacion-autentica-mobile.png",
+      "sha256": "73d56b806acf434a00a1f31e1161ababcdc0f70abfaf11dfbbd8f936a4c21249",
+      "bytes": 257629
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/modelo-samr-desktop.png",
+      "sha256": "1bb3d9d5cfef9e0bbfdbdef82e0c330b586842e8be63ad64da1289432efc2134",
+      "bytes": 237832
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/modelo-samr-mobile.png",
+      "sha256": "70aa6bc27235a4c8325e928781db20ce07c7bcc9fee218628fce6dde7dfdbe1f",
+      "bytes": 228178
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/qa-visual.json",
+      "sha256": "51060dc32b230d5e601792d72937d359b5eb09d521ded256dd08d1793206bf2c",
+      "bytes": 2426
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/taxonomia-bloom-desktop.png",
+      "sha256": "d099ec931287eafa739cd8766c98a898d481900a7389204dff91900632c18441",
+      "bytes": 199489
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-08/taxonomia-bloom-mobile.png",
+      "sha256": "15f57861dc19ac617d338eda8ab053961c87fabbb2e839449d488874cde4faa8",
+      "bytes": 190441
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-08-citations.json",
+      "sha256": "923d6708149256d320edd78976c55d4d6e2af3db7d315742092fd7738a1f5330",
+      "bytes": 2551
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-08-glosario-pedagogico.md",
+      "sha256": "5dc9e1907afb320a0be7c82ff5fb80c5ee2d3e7967053b07f72abece2c06fba3",
+      "bytes": 10272
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-08-registro-aplicacion.md",
+      "sha256": "b8b7a6917529f2d889c48c17875009a7bc2a0ab62d82d413c4b7a473f3fd585a",
+      "bytes": 2448
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-08-final.md",
+      "sha256": "7ab6b5d36524b18a323dfe280b6c3282d88bf716252385b41a419e92c84a9f15",
+      "bytes": 3219
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-08-propuesta.md",
+      "sha256": "165e905518f42c28b951dca48235a2cf532410b056ddc79f9f186a49f9388720",
+      "bytes": 1988
+    },
+    {
+      "path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/manifest.json",
+      "sha256": "8203be838225116860d1d2b8824313419784340c2cdeb4b762f45c47297b1a52",
+      "bytes": 2790
+    },
+    {
+      "path": "tools/qa-contexto-lote-08-visual.tmp.mjs",
+      "sha256": "494305cc9c2162f9135f757b4c94bc534beb735b4b9626bae6a70e8c29b7d7fb",
+      "bytes": 5282
+    },
+    {
+      "path": "tools/qa-contexto-lote-08.tmp.mjs",
+      "sha256": "88f2d8d3c74edfe2e78fc09cdfc13cfdb3b56e56582ea5fbbf8749c0acb5cec1",
+      "bytes": 4448
+    }
+  ],
+  "updated_at": "2026-08-24T14:53:15-06:00"
+}

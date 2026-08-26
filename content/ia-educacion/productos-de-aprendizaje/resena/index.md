@@ -146,7 +146,8 @@ con análisis crítico de obras culturales o académicas.
 - Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — relato en lugar de juicio.
 - Producto cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — descripción sin juicio.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

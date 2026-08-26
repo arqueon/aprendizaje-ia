@@ -1,0 +1,126 @@
+{
+  "lot": "09",
+  "date": "2026-08-24",
+  "phase": "investigation_reconciled_ready_for_vobo",
+  "publication_authorized": false,
+  "application_authorized": false,
+  "content_sources_modified_by_lot09": false,
+  "active_sources": 164,
+  "active_decisions": 58,
+  "pending_before_lot09": 106,
+  "proposal": {
+    "conservar": 0,
+    "cambiar": 5,
+    "quitar": 0
+  },
+  "independent_review": {
+    "reviewer": "Sol",
+    "delegation": "deleg_23f4ef58",
+    "initial_verdict": "AJUSTAR expediente probatorio",
+    "classification_confirmed": true,
+    "blockers_initial": 1,
+    "blockers_after_reconciliation": 0,
+    "review_path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09.md"
+  },
+  "evidence_gate": {
+    "status": "PASS",
+    "command": "sources.py verify <report> --strict --evidence --min-coverage 0.10",
+    "distinct_sources_cited": 12,
+    "ledger_sources": 12,
+    "sources_with_evidence": 12
+  },
+  "link_map_method": "exact textual reference to canonical route",
+  "critical_incoming_links": {
+    "content/ia-educacion/guias/evaluacion-formativa-ia/index.md": {
+      "unique_files": 19,
+      "textual_occurrences": 23
+    }
+  },
+  "files": [
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "bytes": 6732,
+      "sha256": "3a48258410bf31378d37d4b1d88aabb4775335a849e4333dc40db5c33f1d9934"
+    },
+    {
+      "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "bytes": 2799,
+      "sha256": "b0edcdcd35abb6eb70c7db76c5fc3288d4729fa2f8c801d782a6adc2fae1647e"
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "bytes": 13145,
+      "sha256": "4d1eaeebfa9c60f5747bafb98fe901a06cfc0f6315fc7f7ba4a2ba1812715ecf"
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "bytes": 15769,
+      "sha256": "5cbea1e457199a355d484f0922bf8755ffafabe21174bdb4dbc6c9c17b2f2197"
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "bytes": 1268,
+      "sha256": "28b911bfcf7520d76e89a50bbeff6bb3ef445cb013ac307eb92fc9a65a1990e0"
+    },
+    {
+      "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+      "bytes": 12351,
+      "sha256": "c2c779443918c7a810b3ed657a312d64f1b235b85c79548442cff2ccc879bfbd"
+    },
+    {
+      "path": "content/recursos/glosario/evaluacion-autentica/index.md",
+      "bytes": 2624,
+      "sha256": "2baf9d8e3c56e321821ba7d1439b4422a8a85d8e07248ba5be512ef78409a527"
+    },
+    {
+      "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "bytes": 7425,
+      "sha256": "1d74f47a2693b6bad33292b5919d4308e258feb88d2f1ace89349841bc3ccf9a"
+    },
+    {
+      "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "bytes": 12469,
+      "sha256": "fc68cf18492604cd34ea91b4988450294e640e70bbbd6748303d0aae6872fa6d"
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/_index.md",
+      "bytes": 1342,
+      "sha256": "32e223be0fc04bbd0a343cfbce2f4abf6fd43afa3a52e7b2dac5931f3ee89627"
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "bytes": 78738,
+      "sha256": "0952d6771bd913c33ab4e997207919d5fb5e75059a49aacd4f322e0b6d3d2932"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-hoja-ruta-106-pendientes.md",
+      "bytes": 13589,
+      "sha256": "f13cee800143bd34012242be5995fd8d1328301a4b3535d02d667011861b9d93"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-hoja-ruta-106-pendientes.json",
+      "bytes": 10696,
+      "sha256": "dfdab089109f524707c0a67dde3f375890b8151b1477244e62ed0b29f7501035"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-link-map.json",
+      "bytes": 4588,
+      "sha256": "54c6ca3e989f813a889cc89cabddf19c7698177546bdafb23dc8e3d118bde61d"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-citations.json",
+      "bytes": 8678,
+      "sha256": "c2fd15cba1aeab92f41beface743f7dd1a59e56cd10c8508ec587744c137a0e2"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-09-autenticidad-integridad-evaluacion.md",
+      "bytes": 18527,
+      "sha256": "3982c0d268fdeabfaf604e825a0f9728d73f4a71508ad8a94688bd75d49d4e07"
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-09.md",
+      "bytes": 8545,
+      "sha256": "e6db16cb5bd35f25a80ed4f72a4214ba9fe06dd8ff8ed2dd6c96e9a667303c30"
+    }
+  ]
+}

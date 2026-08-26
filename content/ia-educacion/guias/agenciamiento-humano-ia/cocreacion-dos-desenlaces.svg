@@ -3,9 +3,9 @@
   <desc id="desc">En la parte superior, dos nodos diferenciados representan a la persona y a la IA
     convergiendo en una cápsula de co-creación. Al centro, un ciclo de cuatro momentos: formular,
     evaluar, descartar y reformular, con la pregunta de quién dirige el proceso en el centro. De ese
-    ciclo salen dos desenlaces: si la persona conserva la dirección epistémica, ganancia cognitiva,
-    el sistema activa el pensamiento; si la cede, descarga cognitiva, con subyugación algorítmica y
-    deriva metacognitiva.</desc>
+    ciclo salen dos desenlaces posibles: si la persona conserva la dirección epistémica, la interacción
+    puede ampliar lo que comprende y explica; si la cede, existe el riesgo de que la salida sustituya
+    el trabajo intelectual que debía realizar.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
@@ -13,7 +13,7 @@
     .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
     .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
     .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
-    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .bg-canvas { fill:#fbf9f3; } .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
     .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
     .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
   </style>
@@ -30,6 +30,7 @@
     </marker>
   </defs>
 
+  <rect width="880" height="600" class="bg-canvas"/>
   <g class="tk-font">
     <!-- ===== Ensamblaje persona-IA ===== -->
     <rect x="245" y="42" width="130" height="56" rx="2" class="bg-primary st-primary" stroke-width="1.6"/>
@@ -88,10 +89,10 @@
     <text x="218" y="464" text-anchor="end" font-size="12.5" font-weight="bold" class="f-good">la dirección</text>
 
     <rect x="60" y="485" width="350" height="92" rx="2" class="bg-good st-good" stroke-width="1.8"/>
-    <text x="235" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-good">Ganancia cognitiva</text>
+    <text x="235" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-good">Ganancia cognitiva posible</text>
     <text x="235" y="534" text-anchor="middle" font-size="12" class="f-muted">Contraejemplos y conexiones inesperadas</text>
     <text x="235" y="550" text-anchor="middle" font-size="12" class="f-muted">que obligan a revisar los propios supuestos;</text>
-    <text x="235" y="566" text-anchor="middle" font-size="12" class="f-muted">La IA puede activar el pensamiento</text>
+    <text x="235" y="566" text-anchor="middle" font-size="12" class="f-muted">La interacción puede activar el pensamiento</text>
 
     <!-- descarga -->
     <path d="M 550 420 Q 630 450 650 478" fill="none" class="st-risk" stroke-width="2.2" marker-end="url(#flechaRisk)"/>
@@ -99,9 +100,9 @@
     <text x="662" y="464" font-size="12.5" font-weight="bold" class="f-risk">la dirección</text>
 
     <rect x="470" y="485" width="350" height="92" rx="2" class="bg-risk st-risk" stroke-width="1.8"/>
-    <text x="645" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-risk">Descarga cognitiva</text>
-    <text x="645" y="534" text-anchor="middle" font-size="12" class="f-muted">Recibir y validar sin dirigir (subyugación</text>
-    <text x="645" y="550" text-anchor="middle" font-size="12" class="f-muted">algorítmica); dejar de notar cuánto se dejó</text>
-    <text x="645" y="566" text-anchor="middle" font-size="12" class="f-muted">de pensar (deriva metacognitiva)</text>
+    <text x="645" y="512" text-anchor="middle" font-size="16" font-weight="bold" class="f-risk">Riesgo de descarga cognitiva</text>
+    <text x="645" y="534" text-anchor="middle" font-size="12" class="f-muted">Aceptar sin comprobar puede sustituir</text>
+    <text x="645" y="550" text-anchor="middle" font-size="12" class="f-muted">el trabajo intelectual que se buscaba</text>
+    <text x="645" y="566" text-anchor="middle" font-size="12" class="f-muted">aprender y hacer visible.</text>
   </g>
 </svg>

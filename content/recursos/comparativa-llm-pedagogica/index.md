@@ -68,7 +68,7 @@ Leer trabajo estudiantil y producir comentarios formativos requiere captar matic
 
 ### Debate y contraargumento
 
-Sostener una conversación crítica donde el modelo asume una postura, anticipa objeciones y responde con rigor exige razonamiento dialéctico. Claude y DeepSeek destacan en esta tarea; ambos sostienen posiciones complejas sin colapsar en respuestas conciliadoras. La [práctica de debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/) documenta un caso de aula.
+Sostener una conversación crítica donde el modelo asume una postura, anticipa objeciones y responde con rigor exige razonamiento dialéctico. Claude y DeepSeek destacan en esta tarea; ambos sostienen posiciones complejas sin colapsar en respuestas conciliadoras. La [actividad propuesta de debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/) lleva esta tarea al aula como diseño adaptable.
 
 ### Análisis de textos largos
 

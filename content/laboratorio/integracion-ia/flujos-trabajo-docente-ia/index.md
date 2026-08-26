@@ -116,16 +116,24 @@ flowchart TD
 
 Los tres diagramas son referencia, no plantilla rígida. Tres orientaciones para adaptarlos:
 
-- **Identificar los pasos donde la IA aporta poco.** Cada disciplina tiene puntos donde la IA no es útil; el flujo debe respetarlos. Por ejemplo, en disciplinas con notación específica (matemáticas formales, química, partituras), los pasos de generación pueden requerir más tiempo de docente que de IA.
-- **Documentar las desviaciones del flujo.** Cuando un docente se aparta del diagrama, conviene registrarlo. Las desviaciones repetidas sugieren que el flujo necesita revisarse.
-- **Compartir las versiones adaptadas.** Si una academia adopta variantes de estos flujos, el repositorio comparativo —en una carpeta institucional accesible— sostiene el aprendizaje colectivo. La [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) ofrece la plantilla para capturarlas.
+{{< proceso >}}
+  {{< paso titulo="Identifica dónde la IA aporta poco" >}}
+  Cada disciplina tiene puntos donde la IA no es útil; el flujo debe respetarlos. Por ejemplo, en disciplinas con notación específica —matemáticas formales, química o partituras—, los pasos de generación pueden requerir más tiempo de docente que de IA.
+  {{< /paso >}}
+  {{< paso titulo="Documenta las desviaciones" >}}
+  Cuando un docente se aparta del diagrama, conviene registrarlo. Las desviaciones repetidas sugieren que el flujo necesita revisarse.
+  {{< /paso >}}
+  {{< paso titulo="Comparte las versiones adaptadas" >}}
+  Si una academia adopta variantes de estos flujos, el repositorio comparativo —en una carpeta institucional accesible— sostiene el aprendizaje colectivo. La [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) ofrece la plantilla para capturarlas.
+  {{< /paso >}}
+{{< /proceso >}}
 
 ## Lecturas relacionadas
 
 La [guía de integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/) extiende los flujos al nivel de programa académico; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen los criterios que cruzan los tres flujos; la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) detalla cómo hacer visibles las decisiones de cada paso.
 
-## Referencias
-
+{{< referencias >}}
 UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>
 
 Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). ASCD.
+{{< /referencias >}}

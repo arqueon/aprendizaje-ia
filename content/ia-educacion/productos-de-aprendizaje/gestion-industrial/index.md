@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo proponer mejoras de gestión industrial con apoyo formativo de IAG, evaluando cuellos de botella, resistencias organizacionales y métricas de seguimiento."
 summary: "Gestión industrial con IAG: selección de herramientas (lean, VSM, Six Sigma), lectura de indicadores, anticipación de resistencias y métricas de seguimiento. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Tres estudiantes redistribuyen personas y herramientas para resolver la acumulación en una estación del proceso."
 tags: ["producto-aprendizaje", "bloom-5", "rubrica-iag", "profesionales", "ingeniería", "gestión", "mejora-continua"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -136,7 +137,8 @@ gestión de calidad, gestión de proyectos industriales.
 - Producto cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — justificación cuantitativa de la mejora.
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — formato analítico cercano.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

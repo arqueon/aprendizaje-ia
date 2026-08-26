@@ -1,54 +1,50 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-08-02T21:24:24.879Z",
+  "generated": "2026-08-23T20:11:13.139Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
       "id": "cocreacion-versiones-slider",
-      "path": "ia-educacion/productos-de-aprendizaje/ensayo/"
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+      "integrated": true
     },
     {
       "id": "direccion-epistemica-hotspots",
-      "path": "formacion-docente/alfabetizacion-co-creacion/"
-    },
-    {
-      "id": "direccion-epistemica-decidir-reformular",
-      "path": "ia-educacion/guias/agenciamiento-humano-ia/"
+      "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "integrated": true
     },
     {
       "id": "evidencias-proceso-proporcion",
-      "path": "ia-educacion/guias/evaluacion-formativa-ia/"
-    },
-    {
-      "id": "cocreacion-conceptos-cards",
-      "path": "ia-educacion/guias/agenciamiento-humano-ia/"
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "integrated": true
     },
     {
       "id": "evaluacion-proceso-decision",
-      "path": "ia-educacion/guias/evaluacion-formativa-ia/"
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+      "integrated": true
     },
     {
       "id": "cocreacion-evaluacion-recorrido",
-      "path": "formacion-docente/alfabetizacion-agenciamiento-ia/"
-    },
-    {
-      "id": "objetivos-bloom-udgplus",
-      "path": "formacion-docente/taxonomia-bloom-diseno-inverso/"
+      "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
+      "integrated": true
     }
   ],
   "expectedIDs": [
     "cocreacion-versiones-slider",
     "direccion-epistemica-hotspots",
-    "direccion-epistemica-decidir-reformular",
     "evidencias-proceso-proporcion",
-    "cocreacion-conceptos-cards",
     "evaluacion-proceso-decision",
-    "cocreacion-evaluacion-recorrido",
+    "cocreacion-evaluacion-recorrido"
+  ],
+  "preparedIDs": [
+    "direccion-epistemica-decidir-reformular",
+    "cocreacion-conceptos-cards",
     "objetivos-bloom-udgplus"
   ],
   "udgia007Governance": {
     "direccion-epistemica-decidir-reformular": {
       "page": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "integrated": false,
       "contentLicense": "CC BY-SA 4.0",
       "licenseStatus": "authorized-project-editorial",
       "publicationAuthorized": true,
@@ -59,6 +55,7 @@
     },
     "evidencias-proceso-proporcion": {
       "page": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "integrated": true,
       "contentLicense": "CC BY-SA 4.0",
       "licenseStatus": "authorized-project-editorial",
       "publicationAuthorized": true,
@@ -90,6 +87,7 @@
       {
         "id": "cocreacion-versiones-slider",
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
+        "integrated": true,
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 868,
@@ -100,6 +98,7 @@
       {
         "id": "direccion-epistemica-hotspots",
         "path": "formacion-docente/alfabetizacion-co-creacion/",
+        "integrated": true,
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 495,
@@ -108,18 +107,9 @@
         "publicationAuthorized": "true"
       },
       {
-        "id": "direccion-epistemica-decidir-reformular",
-        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
-        "width": 375,
-        "scrollWidth": 375,
-        "fallbackLength": 702,
-        "contentLicense": "CC BY-SA 4.0",
-        "licenseStatus": "authorized-project-editorial",
-        "publicationAuthorized": "true"
-      },
-      {
         "id": "evidencias-proceso-proporcion",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "integrated": true,
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 737,
@@ -128,18 +118,9 @@
         "publicationAuthorized": "true"
       },
       {
-        "id": "cocreacion-conceptos-cards",
-        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
-        "width": 375,
-        "scrollWidth": 375,
-        "fallbackLength": 621,
-        "contentLicense": "CC BY-SA 4.0",
-        "licenseStatus": "authorized-project-editorial",
-        "publicationAuthorized": "true"
-      },
-      {
         "id": "evaluacion-proceso-decision",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
+        "integrated": true,
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 551,
@@ -150,19 +131,10 @@
       {
         "id": "cocreacion-evaluacion-recorrido",
         "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
+        "integrated": true,
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 545,
-        "contentLicense": "CC BY-SA 4.0",
-        "licenseStatus": "authorized-project-editorial",
-        "publicationAuthorized": "true"
-      },
-      {
-        "id": "objetivos-bloom-udgplus",
-        "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
-        "width": 375,
-        "scrollWidth": 375,
-        "fallbackLength": 660,
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -174,31 +146,32 @@
       {
         "id": "cocreacion-versiones-slider",
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
-        "height": 323,
+        "integrated": true,
+        "height": 469,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 323,
-          "scrollHeight": 323,
+          "width": 762,
+          "scrollWidth": 762,
+          "height": 469,
+          "scrollHeight": 469,
           "imageCount": 6,
           "errorText": []
         },
         "visual": {
-          "viewportWidth": 503,
+          "viewportWidth": 762,
           "visibleImages": [
             {
-              "width": 503,
-              "height": 282.9375,
+              "width": 762,
+              "height": 428.625,
               "ratio": 1.7777777777777777
             },
             {
-              "width": 503,
-              "height": 282.9375,
+              "width": 762,
+              "height": 428.625,
               "ratio": 1.7777777777777777
             },
             {
-              "width": 503,
-              "height": 282.9375,
+              "width": 762,
+              "height": 428.625,
               "ratio": 1.7777777777777777
             }
           ],
@@ -215,22 +188,23 @@
       {
         "id": "direccion-epistemica-hotspots",
         "path": "formacion-docente/alfabetizacion-co-creacion/",
-        "height": 282,
+        "integrated": true,
+        "height": 428,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 282,
-          "scrollHeight": 282,
+          "width": 762,
+          "scrollWidth": 762,
+          "height": 428,
+          "scrollHeight": 428,
           "imageCount": 1,
           "errorText": []
         },
         "visual": {
-          "viewportWidth": 503,
+          "viewportWidth": 762,
           "visibleImages": [
             {
-              "width": 503,
-              "height": 282,
-              "ratio": 1.7836879432624113
+              "width": 762,
+              "height": 428,
+              "ratio": 1.780373831775701
             }
           ],
           "checks": {
@@ -244,109 +218,24 @@
         "storage": null
       },
       {
-        "id": "direccion-epistemica-decidir-reformular",
-        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
-        "height": 1029,
-        "inner": {
-          "width": 478,
-          "scrollWidth": 478,
-          "height": 1029,
-          "scrollHeight": 1029,
-          "imageCount": 1,
-          "errorText": []
-        },
-        "visual": {
-          "viewportWidth": 478,
-          "visibleImages": [
-            {
-              "width": 478,
-              "height": 268.875,
-              "ratio": 1.7777777777777777
-            }
-          ],
-          "checks": {
-            "answerCountIsFive": true,
-            "answersStyled": true,
-            "imageReadable": true,
-            "scenarioVisible": true
-          }
-        },
-        "violations": [],
-        "formativeDecision": {
-          "wrongFeedbackVerified": true,
-          "correctFeedbackVerified": true,
-          "scoreLanguageAbsent": true,
-          "scorebarAbsent": {
-            "afterWrongAnswer": {
-              "nodeCount": 0,
-              "visibleClassCount": 0,
-              "visibleCount": 0,
-              "scoreLanguagePresent": false
-            },
-            "afterCorrectAnswer": {
-              "nodeCount": 0,
-              "visibleClassCount": 0,
-              "visibleCount": 0,
-              "scoreLanguagePresent": false
-            }
-          }
-        },
-        "overlapAudit": {
-          "scrollX": 0,
-          "viewportWidth": 1280,
-          "pageScrollWidth": 1280,
-          "fixedHeaderPresent": true,
-          "fixedHeader": {
-            "top": 0,
-            "bottom": 88,
-            "width": 1280,
-            "height": 88
-          },
-          "section": {
-            "top": 104.203125,
-            "bottom": 1853.109375,
-            "width": 479.703125,
-            "height": 1748.90625
-          },
-          "overlapsAtActivityEntry": false,
-          "sectionScreenshotFixedHeaderHidden": true,
-          "viewportScreenshot": "direccion-epistemica-decidir-reformular-viewport.png"
-        },
-        "storage": {
-          "before": {
-            "localStorage": [],
-            "sessionStorage": [],
-            "indexedDB": [],
-            "cacheStorage": [],
-            "serviceWorkers": []
-          },
-          "after": {
-            "localStorage": [],
-            "sessionStorage": [],
-            "indexedDB": [],
-            "cacheStorage": [],
-            "serviceWorkers": []
-          }
-        }
-      },
-      {
         "id": "evidencias-proceso-proporcion",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
-        "height": 973,
+        "integrated": true,
+        "height": 1007,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 973,
-          "scrollHeight": 973,
+          "width": 762,
+          "scrollWidth": 762,
+          "height": 1007,
+          "scrollHeight": 1007,
           "imageCount": 1,
           "errorText": []
         },
         "visual": {
-          "viewportWidth": 503,
+          "viewportWidth": 762,
           "visibleImages": [
             {
-              "width": 503,
-              "height": 282.9375,
+              "width": 762,
+              "height": 428.625,
               "ratio": 1.7777777777777777
             }
           ],
@@ -389,10 +278,10 @@
             "height": 88
           },
           "section": {
-            "top": 104.15625,
-            "bottom": 1806.25,
-            "width": 504.75,
-            "height": 1702.09375
+            "top": 104.46875,
+            "bottom": 1660.375,
+            "width": 764,
+            "height": 1555.90625
           },
           "overlapsAtActivityEntry": false,
           "sectionScreenshotFixedHeaderHidden": true,
@@ -416,60 +305,24 @@
         }
       },
       {
-        "id": "cocreacion-conceptos-cards",
-        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
-        "height": 734,
-        "inner": {
-          "width": 478,
-          "scrollWidth": 478,
-          "height": 734,
-          "scrollHeight": 734,
-          "imageCount": 2,
-          "errorText": []
-        },
-        "visual": {
-          "viewportWidth": 478,
-          "visibleImages": [
-            {
-              "width": 426.65625,
-              "height": 240,
-              "ratio": 1.777734375
-            },
-            {
-              "width": 426.65625,
-              "height": 240,
-              "ratio": 1.777734375
-            }
-          ],
-          "checks": {
-            "progressShowsFour": true,
-            "explanatoryTextPresent": true,
-            "sceneKeepsLandscapeRatio": true
-          }
-        },
-        "violations": [],
-        "formativeDecision": null,
-        "overlapAudit": null,
-        "storage": null
-      },
-      {
         "id": "evaluacion-proceso-decision",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
-        "height": 854,
+        "integrated": true,
+        "height": 889,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 854,
-          "scrollHeight": 854,
+          "width": 762,
+          "scrollWidth": 762,
+          "height": 889,
+          "scrollHeight": 889,
           "imageCount": 1,
           "errorText": []
         },
         "visual": {
-          "viewportWidth": 503,
+          "viewportWidth": 762,
           "visibleImages": [
             {
-              "width": 503,
-              "height": 282.9375,
+              "width": 762,
+              "height": 428.625,
               "ratio": 1.7777777777777777
             }
           ],
@@ -487,22 +340,23 @@
       {
         "id": "cocreacion-evaluacion-recorrido",
         "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
-        "height": 283,
+        "integrated": true,
+        "height": 413,
         "inner": {
-          "width": 503,
-          "scrollWidth": 503,
-          "height": 283,
-          "scrollHeight": 283,
+          "width": 734,
+          "scrollWidth": 734,
+          "height": 413,
+          "scrollHeight": 413,
           "imageCount": 2,
           "errorText": []
         },
         "visual": {
-          "viewportWidth": 503,
+          "viewportWidth": 734,
           "visibleImages": [
             {
-              "width": 231.375,
-              "height": 129.859375,
-              "ratio": 1.7817350499338227
+              "width": 337.625,
+              "height": 189.5,
+              "ratio": 1.7816622691292876
             }
           ],
           "checks": {
@@ -513,31 +367,9 @@
         "formativeDecision": null,
         "overlapAudit": null,
         "storage": null
-      },
-      {
-        "id": "objetivos-bloom-udgplus",
-        "path": "formacion-docente/taxonomia-bloom-diseno-inverso/",
-        "height": 3592,
-        "inner": {
-          "width": 493,
-          "scrollWidth": 493,
-          "height": 3592,
-          "scrollHeight": 3592,
-          "imageCount": 1,
-          "errorText": []
-        },
-        "visual": {
-          "viewportWidth": 493,
-          "visibleImages": [],
-          "checks": {}
-        },
-        "violations": [],
-        "formativeDecision": null,
-        "overlapAudit": null,
-        "storage": null
       }
     ],
-    "preview": "Al finalizar, el estudiante categorizar dos fuentes con criterios explícitos a partir de un caso justificando tres diferencias.",
+    "preview": null,
     "externalRequests": [],
     "writeRequests": [],
     "consoleErrors": [],

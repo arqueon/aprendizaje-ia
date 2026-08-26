@@ -1,0 +1,312 @@
+{
+  "schema": "context-lot-investigation-manifest-v1",
+  "lot": "10",
+  "generated_at": "2026-08-24",
+  "project_root": "/home/hermes/Nextcloud/Projects/ia/aprendizaje-ia",
+  "project_is_git_checkout": false,
+  "content_mutated": false,
+  "classification_proposed": {
+    "conservar": 0,
+    "cambiar": 4,
+    "quitar_o_cuarentena": 0
+  },
+  "items": [
+    {
+      "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "route": "/recursos/articulos/genai-feedback-engagement-2025/",
+      "source_sha256": "742d82427ea02bee43a038a96f1c8e019119293e647ec5dc7de465313d259bb2",
+      "decision_present": false,
+      "bundle_files": [
+        {
+          "path": "content/recursos/articulos/genai-feedback-engagement-2025/.featured.webp.~5bd8f5f5",
+          "sha256": "3caea1c4c5d2f8a8aaf95912fd86940810960ce315937ce8c9d086ba68649702",
+          "bytes": 38730,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/genai-feedback-engagement-2025/.index.md.~5c31242e",
+          "sha256": "08357572e101a50f68db8a69ab59a077828accc2e9f713438297a50cbb32ed83",
+          "bytes": 3443,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/genai-feedback-engagement-2025/featured.webp",
+          "sha256": "3caea1c4c5d2f8a8aaf95912fd86940810960ce315937ce8c9d086ba68649702",
+          "bytes": 38730,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+          "sha256": "742d82427ea02bee43a038a96f1c8e019119293e647ec5dc7de465313d259bb2",
+          "bytes": 3439,
+          "active_bundle_file": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "route": "/recursos/articulos/guias-iagen-evaluacion-unam/",
+      "source_sha256": "2bfefcae6f5efa80e91267c655b1e5a5ccc7aeb10183f97b7e55da02175e36eb",
+      "decision_present": false,
+      "bundle_files": [
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf.~2eaa0623",
+          "sha256": "57c6025413b47c54b704b4e5913a2a8634dcbda4e6310697fbdbf5d6bb1c409e",
+          "bytes": 1197372,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf.~5aeffb74",
+          "sha256": "31e0c55ce88bba93393c8300ff0f1342693866019f140853017f5f71da65292f",
+          "bytes": 1484985,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf.~659ab95",
+          "sha256": "6a4322ddf969ed4ef68bb00eb3502b398733d70292281bdab65a9808c642f218",
+          "bytes": 1253313,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-bachillerato.png.~19a6c78f",
+          "sha256": "39132bae403ce35a62a40884e66e5bea1e6cc1db19fe6a6acbc277448afa7244",
+          "bytes": 1091154,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-licenciatura.png.~685296d2",
+          "sha256": "8d80dd9705f3a681efb7584375d7d6e9a37797f0c62120c9302933c7c592a915",
+          "bytes": 940500,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-posgrado.png.~34f87196",
+          "sha256": "e23a96658aa3d3ee2ad1ad9e70ad1da039950d81b45d518dbfe24d1784d9a0f8",
+          "bytes": 1273491,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.featured.svg.~3ed70766",
+          "sha256": "13f42e466dfc586a1d5b8de0eaac67ad16531eac2a1105a7a43dae7e6a120576",
+          "bytes": 6641,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.index.md.~68997a3",
+          "sha256": "33678becf7802838a0acdb3b0f2f81224537bfa3f5e4a81a5b2492407e5cc168",
+          "bytes": 14799,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf",
+          "sha256": "57c6025413b47c54b704b4e5913a2a8634dcbda4e6310697fbdbf5d6bb1c409e",
+          "bytes": 1197372,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf",
+          "sha256": "31e0c55ce88bba93393c8300ff0f1342693866019f140853017f5f71da65292f",
+          "bytes": 1484985,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf",
+          "sha256": "6a4322ddf969ed4ef68bb00eb3502b398733d70292281bdab65a9808c642f218",
+          "bytes": 1253313,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-bachillerato.png",
+          "sha256": "39132bae403ce35a62a40884e66e5bea1e6cc1db19fe6a6acbc277448afa7244",
+          "bytes": 1091154,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-licenciatura.png",
+          "sha256": "8d80dd9705f3a681efb7584375d7d6e9a37797f0c62120c9302933c7c592a915",
+          "bytes": 940500,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-posgrado.png",
+          "sha256": "e23a96658aa3d3ee2ad1ad9e70ad1da039950d81b45d518dbfe24d1784d9a0f8",
+          "bytes": 1273491,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/featured.svg",
+          "sha256": "13f42e466dfc586a1d5b8de0eaac67ad16531eac2a1105a7a43dae7e6a120576",
+          "bytes": 6641,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+          "sha256": "2bfefcae6f5efa80e91267c655b1e5a5ccc7aeb10183f97b7e55da02175e36eb",
+          "bytes": 14799,
+          "active_bundle_file": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
+      "route": "/recursos/articulos/next-era-assessment-dec/",
+      "source_sha256": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+      "decision_present": false,
+      "bundle_files": [
+        {
+          "path": "content/recursos/articulos/next-era-assessment-dec/.featured.png.~595d4461",
+          "sha256": "0408f7cc6f2fa8c5ff4354da84022882c5ba0f5b001915dc44013ecd6742395e",
+          "bytes": 571821,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/next-era-assessment-dec/.index.md.~13b01e13",
+          "sha256": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+          "bytes": 2967,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/recursos/articulos/next-era-assessment-dec/featured.png",
+          "sha256": "0408f7cc6f2fa8c5ff4354da84022882c5ba0f5b001915dc44013ecd6742395e",
+          "bytes": 571821,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
+          "sha256": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+          "bytes": 2967,
+          "active_bundle_file": true,
+          "note": ""
+        }
+      ]
+    },
+    {
+      "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
+      "source_sha256": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+      "decision_present": false,
+      "bundle_files": [
+        {
+          "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/.featured.webp.~35e22075",
+          "sha256": "b11019f0593e46133c2c407799cb08909f913d2b4e69ef23035f7e3b84e4e3b8",
+          "bytes": 33222,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/.index.md.~1c4f4c0f",
+          "sha256": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+          "bytes": 8971,
+          "active_bundle_file": false,
+          "note": "Nextcloud recovery file; preserve and exclude from Hugo"
+        },
+        {
+          "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/featured.webp",
+          "sha256": "b11019f0593e46133c2c407799cb08909f913d2b4e69ef23035f7e3b84e4e3b8",
+          "bytes": 33222,
+          "active_bundle_file": true,
+          "note": ""
+        },
+        {
+          "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+          "sha256": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+          "bytes": 8971,
+          "active_bundle_file": true,
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-10-evidencia-y-recursos-evaluacion.md",
+      "sha256": "e8c2f13717aaea38206f2d46013043f1f40cad855e9ea2bce2a0f10fb940e873",
+      "bytes": 17637
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-10-citations.json",
+      "sha256": "ca1d5737846ec5f40b19b590cf10cace72af484dadc5df0f4b7912b750f3bae7",
+      "bytes": 7249
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-10-link-map.json",
+      "sha256": "2fd98706eefbc17d063ba1e44dae30a65b5c6947fd1c99b8d60b8ec905ec3e34",
+      "bytes": 2632
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-10.md",
+      "sha256": "10785f92bcf135e17e4739998931abc9dd54d29db5c7a1647ff31f1eea4ff614",
+      "bytes": 4427
+    }
+  ],
+  "pdf_sha256_matches_official_downloads": {
+    "Bachillerato": "57c6025413b47c54b704b4e5913a2a8634dcbda4e6310697fbdbf5d6bb1c409e",
+    "Licenciatura": "31e0c55ce88bba93393c8300ff0f1342693866019f140853017f5f71da65292f",
+    "Posgrado": "6a4322ddf969ed4ef68bb00eb3502b398733d70292281bdab65a9808c642f218"
+  },
+  "second_review": {
+    "reviewer": "Sol (independent agent)",
+    "delegation": "deleg_9d6decba",
+    "verdict": "AJUSTAR",
+    "classification_confirmed": {
+      "conservar": 0,
+      "cambiar": 4,
+      "quitar_o_cuarentena": 0
+    },
+    "blockers_after_reconciliation": 0,
+    "publication_authorized": false,
+    "report": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-10.md"
+  },
+  "verification": {
+    "citation_gate": "strict + evidence + min coverage 0.10: PASS",
+    "prose_sentences": 96,
+    "provenance_sentences": 12,
+    "coverage": "12%",
+    "cited_sources": 11,
+    "sources_with_evidence": 11,
+    "content_sources_unchanged": true,
+    "link_counts": {
+      "zhan": [
+        0,
+        0
+      ],
+      "unam": [
+        0,
+        0
+      ],
+      "dec": [
+        4,
+        4
+      ],
+      "tool_evaluation": [
+        3,
+        4
+      ]
+    }
+  },
+  "application_authorized": false,
+  "publication_authorized": false
+}

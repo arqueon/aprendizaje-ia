@@ -1,7 +1,30 @@
-{{- $r := .Page.Resources.Get (.Get "src") -}}
-{{- $m := "" -}}{{- with .Get "movil" }}{{ $m = $.Page.Resources.Get . }}{{ end -}}
-<figure class="not-prose alm-figura">
+{{- $src := strings.TrimSpace (.Get "src" | default "") -}}
+{{- $caption := strings.TrimSpace (.Get "caption" | default "") -}}
+{{- if not $src -}}
+  {{- errorf "Shortcode figura: src es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- if not (strings.HasSuffix (lower $src) ".svg") -}}
+  {{- errorf "Shortcode figura: src debe ser SVG; recibió %q en %s" $src .Position -}}
+{{- end -}}
+{{- if not $caption -}}
+  {{- errorf "Shortcode figura: caption es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- $r := .Page.Resources.Get $src -}}
+{{- if not $r -}}
+  {{- errorf "Shortcode figura: no existe el recurso %q en %s" $src .Position -}}
+{{- end -}}
+{{- $m := "" -}}
+{{- with .Get "movil" -}}
+  {{- if not (strings.HasSuffix (lower .) ".svg") -}}
+    {{- errorf "Shortcode figura: movil debe ser SVG; recibió %q en %s" . $.Position -}}
+  {{- end -}}
+  {{- $m = $.Page.Resources.Get . -}}
+  {{- if not $m -}}
+    {{- errorf "Shortcode figura: no existe la variante móvil %q en %s" . $.Position -}}
+  {{- end -}}
+{{- end -}}
+<figure class="not-prose alm-figura alm-componente" data-udgia-component="figura">
   <div class="alm-figura-lienzo{{ if $m }} alm-figura-escritorio{{ end }}">{{ $r.Content | safeHTML }}</div>
   {{- with $m }}<div class="alm-figura-lienzo alm-figura-movil">{{ .Content | safeHTML }}</div>{{ end -}}
-  {{- with .Get "caption" }}<figcaption>{{ . | markdownify }}</figcaption>{{ end -}}
+  <figcaption>{{ $caption | markdownify }}</figcaption>
 </figure>

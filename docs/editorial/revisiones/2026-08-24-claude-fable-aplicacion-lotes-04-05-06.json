@@ -1,0 +1,71 @@
+{
+  "review": "segunda-lectura-aplicacion-lotes-04-05-06",
+  "date": "2026-08-24",
+  "reviewer": "claude-fable-5 (agente independiente de segunda lectura, solo lectura)",
+  "verdict": "approve",
+  "checks": [
+    {
+      "id": "lote04-hashes-activos",
+      "ok": true,
+      "evidence": "Los 12 archivos de active_files del manifiesto lote 4 verificados con sha256sum: 12/12 coinciden (incluye _index.md 2cc5ca65…, los 5 index.md y las 6 featured.webp). content/recursos/externas/ solo contiene 6 archivos ocultos de recuperación (.*.~*), cero archivos activos. La cuarentena docs/editorial/cuarentena/2026-08-24-contexto-lote-04/ existe con content/recursos/externas/_index.md y featured.png."
+    },
+    {
+      "id": "lote05-practicas-reescritas",
+      "ok": true,
+      "evidence": "Lectura completa de los tres index.md. Los tres declaran estado 'actividad propuesta' en alert destacado. Grep de n=32, 78 %/78%, 72 %/72%, 'grupo de 28/32/30/35', 'primera implementación/aplicación', '[pegar/[Pegar' y 'semestre anterior' sobre los tres archivos: cero coincidencias. ABP incluye problema inicial de ejemplo, alternativa sin IA, riesgos y preguntas de revisión. Debate incluye tesis de ejemplo, descriptores de rúbrica por criterio, dos objeciones seleccionadas en lugar de conversación completa y alternativa sin IA con par refutador. Portafolio conserva bloque ecosistema con id practice.portafolio-proceso y relación continua→practice.declaracion-uso-ia, rúbrica breve y fragmento inicial de ejemplo sin datos personales, y alternativa sin IA entre pares con misma rúbrica y mismo número de revisiones."
+    },
+    {
+      "id": "lote05-cuarentena-aprendizaje-activo",
+      "ok": true,
+      "evidence": "content/laboratorio/practicas/aprendizaje-activo-ia/ solo contiene .featured.png.~57231a45 y .index.md.~41de60cb; sin activos. Cuarentena lote 05 contiene index.md (sha256 02fb4410db0784f9213da0541923888ef18fd381365a7ad90e5fcfcff4b9a5ec, idéntico al manifiesto de investigación) y featured.png (b6f5ac22…, idéntico al rollback). La guía aprendizaje-activo-con-ia declara el alias /laboratorio/practicas/aprendizaje-activo-ia/."
+    },
+    {
+      "id": "lote05-referencias-entrantes",
+      "ok": true,
+      "evidence": "En los 14 archivos citantes no queda lenguaje de caso implementado apuntando a las prácticas; documentacion-buenas-practicas-ia L38 las presenta como ejemplos de estado declarado. Todos los enlaces activos (markdown y ref-shortcode) usan 'actividad propuesta' o 'plantilla'. Únicos matches de la ruta en cuarentena: el alias de la guía y dos ocultos ~. context-audit-decisions.json: abp/debate/evaluación=cambiar, aprendizaje-activo=quitar, con razones fechadas lote 05, 2026-08-24."
+    },
+    {
+      "id": "lote06-conservar-y-cambiar",
+      "ok": true,
+      "evidence": "coordinacion-academica sin cambios (sha256 38b1e3b6… idéntico al manifiesto). modelo-samr cita la captura Wayback 20250904122306 y el DOI 10.1007/s11528-016-0091-y conservando los límites conceptuales del 02A. about.md declara 'No es un canal oficial de la Universidad de Guadalajara ni de UDGPlus', sin 'prioridad' y con criterio editorial verificable. ia-tutorias-mentoria cita Burns (2026, 27 de enero), sin atribución a Brookings 2024, sin 'replicable y robusto', sin cifras de cuarenta/cincuenta como dato empírico, con sección 'Riesgos de diseño (no efectos inevitables)'."
+    },
+    {
+      "id": "lote06-cuarentenas-y-aliases",
+      "ok": true,
+      "evidence": "blog/experiencias-docentes-ia-aula y laboratorio/experiencias sin archivos activos (solo ocultos ~). Cuarentena lote 06 con los 4 archivos y sha256 idénticos a las copias pre-edición (33e2fbf7…, ba847a5d…, d292ab6b…, 03303444…). laboratorio/_index.md declara ambos aliases, sin tarjeta de experiencias y con lead que aclara que las fichas son propuestas. Ningún archivo activo de content/ enlaza esas rutas."
+    },
+    {
+      "id": "rollback-manifiestos",
+      "ok": true,
+      "evidence": "Rollback lote 05: 23/23 copias con sha256 correcto. Lote 06: 15/15. Cruce con los estados previos de los manifiestos de investigación: lote 05 4/4 prácticas; lote 06 11/11 (6 fuentes + 5 dependencias)."
+    },
+    {
+      "id": "reversibilidad",
+      "ok": true,
+      "evidence": "Cada archivo movido a cuarentena existe también íntegro en el rollback con hash pre-edición idéntico. Copiar los 23+15 archivos del rollback a sus rutas originales revierte todos los cambios de contenido de los lotes 5 y 6."
+    },
+    {
+      "id": "produccion-no-tocada",
+      "ok": true,
+      "evidence": "No existe .git (imposible hacer push desde esta copia). 367 archivos ocultos de recuperación de Nextcloud permanecen en content/; los 13 hidden_recovery_files del lote 4 verificados por hash 13/13 intactos. Las 6 'conflicted copy' de docs/ permanecen."
+    },
+    {
+      "id": "build-y-redirects",
+      "ok": true,
+      "evidence": "hugo --quiet exit=0. Los tres HTML de las rutas en cuarentena son meta refresh hacia /laboratorio/ y /ia-educacion/guias/aprendizaje-activo-con-ia/ con canonical correcto."
+    },
+    {
+      "id": "lenguaje-evidencia-residual",
+      "ok": true,
+      "evidence": "Grep en content/ activo de n=32, 78 %, 72 %: cero coincidencias. Los usos restantes de 'casos reales/resultados observados' son genéricos y ajenos a los lotes; ninguno promete casos documentados del Laboratorio."
+    }
+  ],
+  "blocking_issues": [],
+  "observations": [
+    "ia-tutorias-mentoria conserva 'cincuenta' como ilustración hipotética de escala docente, no como cifra empírica de grupos mexicanos; no bloqueante.",
+    "La tarjeta de Prácticas en laboratorio/_index.md menciona el estado 'práctica documentada' como categoría del sistema de etiquetado aunque aún no existe ningún ejemplar; sugerencia menor de redacción, no bloqueante.",
+    "Los grep de rutas con barra final no detectan enlaces ref-shortcode; se verificaron por separado. Tener en cuenta en QA futuras.",
+    "Los archivos de cuarentena están doblemente preservados (cuarentena + rollback) con hashes idénticos.",
+    "Tras la aplicación algunas páginas citantes ya no enlazan las prácticas (p. ej. habitar-ia-simondon enlaza ahora la guía canónica), coherente con la cuarentena y sin enlaces rotos."
+  ]
+}

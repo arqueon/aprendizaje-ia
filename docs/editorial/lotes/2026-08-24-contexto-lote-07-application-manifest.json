@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "lot": "2026-08-24-contexto-lote-07",
+  "closed_at": "2026-08-24T14:21:40-06:00",
+  "status": "borrador-reversible-verificado-no-publicado",
+  "authorization": {
+    "statement": "VoBo lote 7",
+    "approved_by": "Rubén",
+    "scope": "Aplicar cinco decisiones, editar cuatro páginas y el índice, registrar el ledger y ejecutar QA.",
+    "publication_authorized": false
+  },
+  "counts": {
+    "active_sources": 164,
+    "active_decisions": {
+      "conservar": 12,
+      "cambiar": 38,
+      "quitar": 0
+    },
+    "pending": 114,
+    "context_candidates": 11,
+    "historical_ledger_entries": 52
+  },
+  "files": [
+    {
+      "path": "content/formacion-docente/aprendizaje-activo/index.md",
+      "decision": "cambiar",
+      "pre_edit_sha256": "e6eaf31e25ed2de87055135a12c8a44f6681dde1e948e6c7893b50ee493c5b84",
+      "post_edit_sha256": "2b5c3367af94d3f37afeb315d61046ae0799b5fb86b97ccf97905b1d4e3099d7",
+      "pre_edit_bytes": 6378,
+      "post_edit_bytes": 6970,
+      "changed": true
+    },
+    {
+      "path": "content/formacion-docente/modelos-samr-icap/index.md",
+      "decision": "cambiar",
+      "pre_edit_sha256": "16dd45705c91bdc21af46ed3548917168165990daf103dbaf4618836ff9a5d1b",
+      "post_edit_sha256": "3b974c8b117412f0ad07f8f8a99360cdfb933a37fd98fb83080ed4f35529a33b",
+      "pre_edit_bytes": 7100,
+      "post_edit_bytes": 8149,
+      "changed": true
+    },
+    {
+      "path": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "decision": "conservar",
+      "pre_edit_sha256": "38ee6824ff47f883b2b3a4208c2ee472af1aaab044fa6fdc216e023319711287",
+      "post_edit_sha256": "38ee6824ff47f883b2b3a4208c2ee472af1aaab044fa6fdc216e023319711287",
+      "pre_edit_bytes": 7009,
+      "post_edit_bytes": 7009,
+      "changed": false
+    },
+    {
+      "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+      "decision": "cambiar",
+      "pre_edit_sha256": "2bd57d238b4ccd4354edd4baa21f7646073627732cfa017d26025115aba1a022",
+      "post_edit_sha256": "c2c779443918c7a810b3ed657a312d64f1b235b85c79548442cff2ccc879bfbd",
+      "pre_edit_bytes": 7339,
+      "post_edit_bytes": 12351,
+      "changed": true
+    },
+    {
+      "path": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+      "decision": "cambiar",
+      "pre_edit_sha256": "e5a1afb70171d14c48f6796c028ee9ad2f510b19d2b57f92a2b9a3399e2d110a",
+      "post_edit_sha256": "eb497d2a05753d74ed5350d6dba8c1838feb6342244f432cdad0a346a5c84513",
+      "pre_edit_bytes": 12089,
+      "post_edit_bytes": 14112,
+      "changed": true
+    },
+    {
+      "path": "content/formacion-docente/_index.md",
+      "decision": "indice",
+      "pre_edit_sha256": "aa2d0a33a72f8d1523aa7f70850dcf950d1974fd58b174c6bf448ddd5d32418e",
+      "post_edit_sha256": "a363fd60f6649554779c74ae297838297cbc9859d48213906d16e697038e7051",
+      "pre_edit_bytes": 3076,
+      "post_edit_bytes": 3913,
+      "changed": true
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "decision": "registro",
+      "pre_edit_sha256": "e336aa16842ba6d5cac61e5d3b84bfc3e1865362fb2a3235b36320f39e410768",
+      "post_edit_sha256": "af4d1480f36e25a33467f94edb24079b18dac1751c42e24e8024177d3dab70be",
+      "pre_edit_bytes": 59692,
+      "post_edit_bytes": 67028,
+      "changed": true
+    }
+  ],
+  "checks": {
+    "focused_editorial": {
+      "status": "pass",
+      "result": "38/38"
+    },
+    "content_inventory": {
+      "status": "pass",
+      "documents": 164,
+      "broken_internal_links": 0
+    },
+    "context_audit": {
+      "status": "pass",
+      "documents": 164,
+      "pending": 114,
+      "candidates": 11
+    },
+    "routes_tables": {
+      "status": "pass"
+    },
+    "hugo_build": {
+      "status": "pass",
+      "pages": 924,
+      "aliases": 399,
+      "destination": "/tmp/aprendizaje-ia-lote07-public"
+    },
+    "visual_browser": {
+      "status": "pass",
+      "renders": 12,
+      "http_200": 12,
+      "overflow": 0,
+      "console_errors": 0,
+      "axe_violations": 0
+    },
+    "independent_review": {
+      "reviewer": "Sol (subagente aislado)",
+      "status": "approve_with_improvements",
+      "blockers": 0,
+      "important_improvements": 5,
+      "reconciled": 5
+    }
+  },
+  "known_global_qa_debt_not_introduced_by_lot": [
+    {
+      "gate": "qa:visual-contract",
+      "state": "blocked",
+      "evidence": "22 páginas sin featured propio y 18 con hero oculto; el lote no creó páginas ni cambió assets."
+    },
+    {
+      "gate": "qa:learning-audit",
+      "state": "blocked",
+      "evidence": "Los inventarios de Hugo y curso no tienen el mismo número de piezas."
+    },
+    {
+      "gate": "qa:activity-svg-contract",
+      "state": "blocked",
+      "evidence": "El inventario de materiales fechado el 23 todavía incluye una práctica cuarentenada en el lote 05."
+    },
+    {
+      "gate": "qa:udgia-figures",
+      "state": "blocked",
+      "evidence": "18 hashes de variantes SVG ya divergían; los SVG tienen mtime 2026-08-24T00:17:28-06:00, anterior al lote 07; no se actualizaron locks."
+    },
+    {
+      "gate": "qa:ecosistema",
+      "state": "blocked",
+      "evidence": "Falta /home/hermes/Nextcloud/Academia y la copia sincronizada no contiene .git; el gate no fue relajado."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-diseno-actividades.md",
+      "sha256": "24866d860f4cc8ffcc5a773357701dbf2b95ee9630b90ee470f255d01d5ee774"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-citations.json",
+      "sha256": "547235cadcf3f5cbb0a466227fc04401cc492d5972a88effc98ee333b726da38"
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-investigation-manifest.json",
+      "sha256": "f57e09090fd1d5de8ae1282f03d2f2af5873b2f529e84b174b10ac299645dfa1"
+    },
+    {
+      "path": "docs/editorial/rollback/2026-08-24-contexto-lote-07/manifest.json",
+      "sha256": "344b53224d5e275edd3cc8bfddfb26ecdea5a149c1c9f6f0d28903e96e8c2063"
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-sol-contexto-lote-07-final.md",
+      "sha256": "e00ec050e5c2653b5c64189e1318b0bb39328d343121c7830cc0f828650d08dd"
+    },
+    {
+      "path": "tools/qa-contexto-lote-07.tmp.mjs",
+      "sha256": "17106f47413f57b11f385a7ead8185a25bb527e00f8264eef6b579dd46059f2d"
+    },
+    {
+      "path": "tools/qa-contexto-lote-07-visual.tmp.mjs",
+      "sha256": "1140fbb6569f0fee10bbf4a93ce97af53212366620e9085b158a6182e6bb5088"
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-07/qa-visual.json",
+      "sha256": "054d0f85df81b53a15127fa90e2b6285a4aace4c45e25e919b2acdb3225f618c"
+    },
+    {
+      "path": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
+      "sha256": "0686df79d0171d875940d62e77858e56a0e72d8dbe8bb4119d481f22ff90b812"
+    },
+    {
+      "path": "docs/editorial/inventarios/2026-08-23-contexto/auditoria-contexto.json",
+      "sha256": "012d371353a83cc21a175ba143f4cd9088e17ed8346ed84878c36f17d1efb7ce"
+    }
+  ],
+  "rollback": {
+    "manifest": "docs/editorial/rollback/2026-08-24-contexto-lote-07/manifest.json",
+    "verified_files": "7/7",
+    "bloom_preserved_byte_for_byte": true
+  },
+  "publication": {
+    "authorized": false,
+    "performed": false,
+    "production_url": "https://arqueon.github.io/aprendizaje-ia",
+    "review_url": "http://100.107.89.3:1313/"
+  }
+}

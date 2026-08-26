@@ -1,0 +1,42 @@
+{
+  "lot": "contexto-lote-02",
+  "created_at": "2026-08-23T20:02:17-06:00",
+  "scope": "rollback previo a borrador local",
+  "files": [
+    {
+      "path": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "sha256": "cc231dd5d418d114dca6044d3dd72c8c3246d6399516d1fa3c2c9e3ed7509803",
+      "bytes": 2583
+    },
+    {
+      "path": "content/recursos/glosario/agentes-de-ia/index.md",
+      "sha256": "b58eb907dda7a46f11203cdd49c1cd3e707ab93b7ba1ba849b259a0fdaa1026f",
+      "bytes": 1154
+    },
+    {
+      "path": "content/recursos/glosario/aprendizaje-digital/index.md",
+      "sha256": "537146fc900644664b375a04d831625d05b312cd4f7a939e0e958f3ea2d478ea",
+      "bytes": 1015
+    },
+    {
+      "path": "content/recursos/glosario/ingenieria-de-prompts/index.md",
+      "sha256": "acc3a5550e82c463b45298b05128a9fb17a64a8ce3059ee4fe78bbe3417b1558",
+      "bytes": 1189
+    },
+    {
+      "path": "content/recursos/videos/_index.md",
+      "sha256": "e6e30b6e8dad80236037bb82a4be63c9fa5f881070316ebb485e381ead3c7aed",
+      "bytes": 490
+    },
+    {
+      "path": "content/recursos/videos/learn-prompting-curso-completo.md",
+      "sha256": "31d61af648fecf9c4cfda1465e3b5cc8cc64224b9ac78a576f04ab94a84c0690",
+      "bytes": 3154
+    },
+    {
+      "path": "content/recursos/videos/tutoriales-herramientas-ia-docentes.md",
+      "sha256": "8bae93bed5911fa9b90278036684a87855fa77961574bb016060600c50650ee6",
+      "bytes": 4104
+    }
+  ]
+}

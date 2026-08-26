@@ -1,0 +1,30 @@
+{{- $anterior := .Get "anterior" -}}
+{{- $siguiente := .Get "siguiente" -}}
+<nav class="alm-curso-navegacion" aria-label="Navegación del curso">
+  {{- if $anterior }}
+    {{- $anteriorPath := printf "/formacion-docente/diseno-inverso-cocreacion-ia/%s" $anterior -}}
+    {{- $anteriorPage := site.GetPage $anteriorPath -}}
+    <a rel="prev" href="{{ printf "formacion-docente/diseno-inverso-cocreacion-ia/%s/" $anterior | relURL }}">
+      <span>Lección anterior</span>
+      <strong>{{ with $anteriorPage }}{{ .Title }}{{ else }}Volver{{ end }}</strong>
+    </a>
+  {{- else }}
+    <a rel="up" href="{{ "formacion-docente/diseno-inverso-cocreacion-ia/" | relURL }}">
+      <span>Curso</span>
+      <strong>Ver las trece lecciones</strong>
+    </a>
+  {{- end }}
+  {{- if $siguiente }}
+    {{- $siguientePath := printf "/formacion-docente/diseno-inverso-cocreacion-ia/%s" $siguiente -}}
+    {{- $siguientePage := site.GetPage $siguientePath -}}
+    <a rel="next" href="{{ printf "formacion-docente/diseno-inverso-cocreacion-ia/%s/" $siguiente | relURL }}">
+      <span>Siguiente lección</span>
+      <strong>{{ with $siguientePage }}{{ .Title }}{{ else }}Continuar{{ end }}</strong>
+    </a>
+  {{- else }}
+    <a rel="up" href="{{ "formacion-docente/diseno-inverso-cocreacion-ia/" | relURL }}">
+      <span>Recorrido completo</span>
+      <strong>Volver al inicio del curso</strong>
+    </a>
+  {{- end }}
+</nav>

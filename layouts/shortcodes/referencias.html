@@ -1,1 +1,16 @@
-<section class="alm-referencias"><h2 id="referencias">Referencias</h2>{{ .Inner | markdownify }}</section>
+{{- $title := .Get "titulo" | default "Referencias" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode referencias: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- $instances := findRE `\{\{[<%][[:space:]]*referencias([[:space:]]|[>%])` .Page.RawContent -}}
+{{- if gt (len $instances) 1 -}}
+  {{- errorf "Shortcode referencias: sólo admite una instancia por página en %s" .Position -}}
+{{- end -}}
+<section
+  class="alm-referencias alm-componente"
+  aria-labelledby="referencias"
+  data-udgia-component="referencias">
+  <h2 id="referencias">{{ $title }}</h2>
+  {{- $inner | markdownify -}}
+</section>

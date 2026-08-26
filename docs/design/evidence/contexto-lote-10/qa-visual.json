@@ -1,0 +1,86 @@
+{
+  "pages": 8,
+  "failures": [],
+  "results": [
+    {
+      "name": "zhan-feedback",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Generative AI as an enabler of student feedback engagement",
+      "textLength": 4340,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "guias-unam",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Tres guías UNAM sobre IA generativa en evaluación: bachillerato, licenciatura y posgrado",
+      "textLength": 6871,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "informe-dec",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "The Next Era of Assessment: A Global Review of AI in Assessment Design — Digital Education Council",
+      "textLength": 3639,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-herramientas",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Evaluación de herramientas IA educativas: criterios y matriz",
+      "textLength": 9253,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "zhan-feedback",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Generative AI as an enabler of student feedback engagement",
+      "textLength": 4340,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "guias-unam",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Tres guías UNAM sobre IA generativa en evaluación: bachillerato, licenciatura y posgrado",
+      "textLength": 6871,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "informe-dec",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "The Next Era of Assessment: A Global Review of AI in Assessment Design — Digital Education Council",
+      "textLength": 3639,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-herramientas",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Evaluación de herramientas IA educativas: criterios y matriz",
+      "textLength": 9066,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    }
+  ]
+}

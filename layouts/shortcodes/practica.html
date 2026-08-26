@@ -1,1 +1,13 @@
-<aside class="alm-practica"><span class="alm-kicker">{{ .Get "titulo" | default "Práctica" }}</span>{{ .Inner | markdownify }}</aside>
+{{- $title := .Get "titulo" | default "Práctica" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode practica: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- $titleID := printf "alm-practica-%d" .Ordinal -}}
+<aside
+  class="alm-practica alm-componente"
+  aria-labelledby="{{ $titleID }}"
+  data-udgia-component="practica">
+  <span class="alm-kicker" id="{{ $titleID }}">{{ $title }}</span>
+  {{- $inner | markdownify -}}
+</aside>

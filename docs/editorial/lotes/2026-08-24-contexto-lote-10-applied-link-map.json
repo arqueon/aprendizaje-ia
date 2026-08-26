@@ -1,0 +1,98 @@
+{
+  "schema": "context-lot-applied-link-map-v1",
+  "lot": "10",
+  "generated_at": "2026-08-24",
+  "scope": "estado aplicado después de segunda lectura; content/**/*.md; se excluye la página destino del recuento entrante",
+  "baseline": "docs/editorial/lotes/2026-08-24-contexto-lote-10-link-map.json",
+  "items": [
+    {
+      "id": "zhan",
+      "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "route": "/recursos/articulos/genai-feedback-engagement-2025/",
+      "inbound_files": 0,
+      "inbound_occurrences": 0,
+      "references": []
+    },
+    {
+      "id": "unam",
+      "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "route": "/recursos/articulos/guias-iagen-evaluacion-unam/",
+      "inbound_files": 1,
+      "inbound_occurrences": 1,
+      "references": [
+        {
+          "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
+          "line": 68,
+          "occurrences": 1,
+          "text": "La [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) explica cómo usar comentarios para ajustar enseñanza y aprendizaje. Las [guías UNAM por nivel educativo](/recursos/articulos/guias-iagen-evaluacion-unam/) ofrecen orientaciones situadas para bachillerato, licenciatura y posgrado. El [estudio sobre alianzas pedagógicas con IA](/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/) examina condiciones del trabajo conjunto entre estudiantes y sistemas generativos."
+        }
+      ]
+    },
+    {
+      "id": "dec",
+      "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
+      "route": "/recursos/articulos/next-era-assessment-dec/",
+      "inbound_files": 4,
+      "inbound_occurrences": 4,
+      "references": [
+        {
+          "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+          "line": 277,
+          "occurrences": 1,
+          "text": "- El [reporte global del DEC sobre la nueva era de la evaluación](/recursos/articulos/next-era-assessment-dec/) ofrece un catálogo de 14 metodologías directas."
+        },
+        {
+          "path": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
+          "line": 47,
+          "occurrences": 1,
+          "text": "El hallazgo de mayor adopción de IA en instituciones con métricas competitivas conecta con un problema que la universidad ya conocía antes de 2022: cuando un sistema premia el conteo, los actores optimizan el conteo. La IA generativa simplemente reduce el costo marginal de producir un objeto contable —un manuscrito, un informe, una asignación, una tesis—. En docencia, este patrón se repite en miniatura cada semestre: si la rúbrica premia la entrega del producto y no el proceso, la IA optimiza la entrega del producto. El estudio refuerza la línea argumental sostenida en la [paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) y en el debate de [la nueva era de la evaluación en IA](/recursos/articulos/next-era-assessment-dec/): rediseñar la evaluación es condición previa, no posterior, a la integración de IA."
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+          "line": 121,
+          "occurrences": 1,
+          "text": "La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece un marco internacional más amplio. El Digital Education Council y Pearson [describen 14 metodologías prácticas de evaluación integrada con IA](/recursos/articulos/next-era-assessment-dec/) a partir de 101 casos; ese informe institucional no convierte las 14 en requisitos. La pieza sobre la [evaluación en la era de la IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) sitúa el debate en el contexto universitario regional."
+        },
+        {
+          "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+          "line": 87,
+          "occurrences": 1,
+          "text": "**Diseñar evaluaciones que premien el proceso de la alianza, no solo el producto.** Esto refuerza los nuevos marcos expuestos en [la nueva era de la evaluación del DEC]({{< ref \"/recursos/articulos/next-era-assessment-dec\" >}}): si el aprendizaje transformador emerge de la calidad del partnership, la evaluación tiene que mirar precisamente eso — cómo se distribuyeron las tareas, qué decisiones de delegación se tomaron, qué se verificó y por qué."
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
+      "inbound_files": 3,
+      "inbound_occurrences": 4,
+      "references": [
+        {
+          "path": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+          "line": 72,
+          "occurrences": 1,
+          "text": "Si la herramienta pasa el filtro, recién entonces se aplica la matriz formal de seis dimensiones de la [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/)."
+        },
+        {
+          "path": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+          "line": 96,
+          "occurrences": 1,
+          "text": "La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) ofrece el protocolo formal para herramientas que pasan el filtro rápido; el [monitoreo de publicaciones sobre IA educativa](/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/) cubre el lado académico; el [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) ofrece la foto comparativa actual de los modelos en uso."
+        },
+        {
+          "path": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+          "line": 98,
+          "occurrences": 1,
+          "text": "La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el seguimiento de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) explica cómo registrar lo encontrado dentro del sitio; la curaduría de [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) permite seguir conversaciones profesionales."
+        },
+        {
+          "path": "content/recursos/comparativa-llm-pedagogica/index.md",
+          "line": 91,
+          "occurrences": 1,
+          "text": "El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) ofrece la dimensión institucional (privacidad, acceso, costo); los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen el principio de pluralidad de modelos; la [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) ofrece la matriz formal para comités de selección."
+        }
+      ]
+    }
+  ]
+}

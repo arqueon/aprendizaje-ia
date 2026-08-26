@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "record": "registro-aplicacion-lotes-04-05-06",
+  "applied_at": "2026-08-24T07:49:45-06:00",
+  "vobo": "VoBo editorial de Rubén (2026-08-24) para preparar borrador reversible y QA de los lotes 4, 5 y 6",
+  "publication_authorized": false,
+  "production_changed": false,
+  "lots": {
+    "contexto-lote-04": {
+      "status": "ya-aplicado-verificado",
+      "note": "El borrador del lote 4 ya estaba íntegramente aplicado en esta copia. Verificación: 12/12 archivos activos, 13/13 recuperaciones ocultas, cuarentena y rollback conforme al manifiesto; sin edición adicional en esta sesión."
+    },
+    "contexto-lote-05": {
+      "status": "aplicado",
+      "rewritten": [
+        "content/laboratorio/practicas/abp-con-ia/index.md",
+        "content/laboratorio/practicas/debate-socratico-con-ia/index.md",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md"
+      ],
+      "quarantined": [
+        "content/laboratorio/practicas/aprendizaje-activo-ia/index.md -> docs/editorial/cuarentena/2026-08-24-contexto-lote-05/",
+        "content/laboratorio/practicas/aprendizaje-activo-ia/featured.png -> docs/editorial/cuarentena/2026-08-24-contexto-lote-05/"
+      ],
+      "aliases_added": {
+        "/laboratorio/practicas/aprendizaje-activo-ia/": "/ia-educacion/guias/aprendizaje-activo-con-ia/"
+      },
+      "citing_files_updated": [
+        "content/blog/agenciamiento-humano-ia/index.md",
+        "content/ia-educacion/guias/abp-con-ia/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+        "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+        "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+        "content/observatorio/estudios/habitar-ia-simondon/index.md",
+        "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+        "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+        "content/recursos/comparativa-llm-pedagogica/index.md",
+        "content/blog/ia-generativa-evaluacion-autentica/index.md",
+        "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+        "content/ia-educacion/guias/integracion-curricular-ia/index.md",
+        "content/recursos/articulos/genai-feedback-engagement-2025/index.md"
+      ],
+      "data_updated": [
+        "data/editorial/context-audit-decisions.json"
+      ],
+      "rollback": "docs/editorial/rollback/2026-08-24-contexto-lote-05/ (23 copias pre-edición, manifest.json con sha256)"
+    },
+    "contexto-lote-06": {
+      "status": "aplicado",
+      "conserved_unchanged": [
+        "content/ia-educacion/rutas/coordinacion-academica/index.md"
+      ],
+      "edited": [
+        "content/recursos/glosario/modelo-samr/index.md",
+        "content/about.md",
+        "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+        "content/laboratorio/_index.md",
+        "content/formacion-docente/redes/index.md",
+        "content/laboratorio/integracion-ia/_index.md"
+      ],
+      "quarantined": [
+        "content/blog/experiencias-docentes-ia-aula/{index.md,featured.webp} -> docs/editorial/cuarentena/2026-08-24-contexto-lote-06/",
+        "content/laboratorio/experiencias/{_index.md,featured.png} -> docs/editorial/cuarentena/2026-08-24-contexto-lote-06/"
+      ],
+      "aliases_added": {
+        "/laboratorio/experiencias/": "/laboratorio/",
+        "/blog/experiencias-docentes-ia-aula/": "/laboratorio/"
+      },
+      "census_gap_fixes": [
+        "content/formacion-docente/redes/index.md (enlace a /laboratorio/experiencias/ no censado; redirigido a la guía de documentación)",
+        "content/laboratorio/integracion-ia/_index.md (enlace a /laboratorio/experiencias/ no censado; frase reformulada)"
+      ],
+      "rollback": "docs/editorial/rollback/2026-08-24-contexto-lote-06/ (15 copias pre-edición, manifest.json con sha256)"
+    }
+  },
+  "post_edit_hashes": {
+    "lote-05-reescritas": [
+      {
+        "path": "content/laboratorio/practicas/abp-con-ia/index.md",
+        "sha256": "8f0a2e8cfa6187557f3c9ac66b4acbb432ce3fe92f44045e1833dcfed6cb66ad",
+        "bytes": 10647
+      },
+      {
+        "path": "content/laboratorio/practicas/debate-socratico-con-ia/index.md",
+        "sha256": "ba0cf9a9a2f407d7378b464bc0b24f82d47c5945bb7bfa8fceea19f8061c1afa",
+        "bytes": 8163
+      },
+      {
+        "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+        "sha256": "fc68cf18492604cd34ea91b4988450294e640e70bbbd6748303d0aae6872fa6d",
+        "bytes": 12469
+      }
+    ],
+    "lote-05-citantes": [
+      {
+        "path": "content/blog/agenciamiento-humano-ia/index.md",
+        "sha256": "bd63ce7738c9caea588eed888fd3020712033b280bbf95744692dd737eb4e9d2",
+        "bytes": 6616
+      },
+      {
+        "path": "content/ia-educacion/guias/abp-con-ia/index.md",
+        "sha256": "fcc74d9cf3921b1c76639427fc335ce409f941f3ce111f9251310fc860e6e52f",
+        "bytes": 9768
+      },
+      {
+        "path": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+        "sha256": "e829d2bd9f07f629c8927ee297f2a539944c82d1f68b0aa9959db59b9d5d2636",
+        "bytes": 8455
+      },
+      {
+        "path": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+        "sha256": "050ac3c499f0aef736595c7a074db14fe067d93850d8aa142c1bcfdfad28b501",
+        "bytes": 7031
+      },
+      {
+        "path": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+        "sha256": "9919a18cb8de38741b0d7246b579e17feb84cf4864f73d5b5273dd6898cfd22d",
+        "bytes": 9400
+      },
+      {
+        "path": "content/observatorio/estudios/habitar-ia-simondon/index.md",
+        "sha256": "7af9031999331d5d612a06d8a0d015a3efccd7b7c51336611600b3fcdee72d8f",
+        "bytes": 15845
+      },
+      {
+        "path": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
+        "sha256": "6b167613b61e4093dd9673bca939b6da8bebac0e3b6d24a86f81e505684f2347",
+        "bytes": 7812
+      },
+      {
+        "path": "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+        "sha256": "7d6a1e2f3031a1eae341fe0984d0ab744e0eb01fb3f759deff3b0b4faf7cc6da",
+        "bytes": 31817
+      },
+      {
+        "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+        "sha256": "1c7141dceefe1ef22ff263cacd9298a3dd4ba207e80e415d08cb7571addafd9b",
+        "bytes": 12082
+      },
+      {
+        "path": "content/recursos/comparativa-llm-pedagogica/index.md",
+        "sha256": "dc83e097be14f992995489f0041aa04629d178a0b260f864dab28d1deac32603",
+        "bytes": 7311
+      },
+      {
+        "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+        "sha256": "3a48258410bf31378d37d4b1d88aabb4775335a849e4333dc40db5c33f1d9934",
+        "bytes": 6732
+      },
+      {
+        "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+        "sha256": "5cbea1e457199a355d484f0922bf8755ffafabe21174bdb4dbc6c9c17b2f2197",
+        "bytes": 15769
+      },
+      {
+        "path": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
+        "sha256": "c51d769e89fa84eb27403bb45b799ceba46178b01787e8bb1588f008b65ce8fc",
+        "bytes": 10448
+      },
+      {
+        "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+        "sha256": "742d82427ea02bee43a038a96f1c8e019119293e647ec5dc7de465313d259bb2",
+        "bytes": 3439
+      }
+    ],
+    "lote-05-datos": [
+      {
+        "path": "data/editorial/context-audit-decisions.json",
+        "sha256": "e336aa16842ba6d5cac61e5d3b84bfc3e1865362fb2a3235b36320f39e410768",
+        "bytes": 59692
+      }
+    ],
+    "lote-06-editadas": [
+      {
+        "path": "content/recursos/glosario/modelo-samr/index.md",
+        "sha256": "5b397daea47a4ff7aba7a6b052b3c0a9ce5d2dac48076f167a2074e99558aa81",
+        "bytes": 2182
+      },
+      {
+        "path": "content/about.md",
+        "sha256": "1983f98d470317d70209c64ff54a3d86a5a365f154b796d067fe48ca7044e4cf",
+        "bytes": 5366
+      },
+      {
+        "path": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+        "sha256": "8f2a7417f4af5088da112f6b19fad5eba30954e76c3a7d32e2de2abfd4803b4d",
+        "bytes": 9116
+      },
+      {
+        "path": "content/laboratorio/_index.md",
+        "sha256": "6160473ca0b5d58aa3bdd1e78531df32341d5c1f424f2bed2cafcb3ab1e75937",
+        "bytes": 1971
+      },
+      {
+        "path": "content/formacion-docente/redes/index.md",
+        "sha256": "54bac3cf524679055d09305349d2658b23b4d3c4f1438f967f39087896649c0c",
+        "bytes": 3386
+      },
+      {
+        "path": "content/laboratorio/integracion-ia/_index.md",
+        "sha256": "d5f7b8554463b7de1d6a91abd46d67c9b931678185635d05284d938fa353723d",
+        "bytes": 1987
+      }
+    ],
+    "cuarentena-lote-05": [
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-05/content/laboratorio/practicas/aprendizaje-activo-ia/index.md",
+        "sha256": "02fb4410db0784f9213da0541923888ef18fd381365a7ad90e5fcfcff4b9a5ec",
+        "bytes": 8039
+      },
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-05/content/laboratorio/practicas/aprendizaje-activo-ia/featured.png",
+        "sha256": "b6f5ac22360710faa797d781dc8aff3bd42a82eca58d274cc34a716447db1af7",
+        "bytes": 571355
+      }
+    ],
+    "cuarentena-lote-06": [
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-06/content/blog/experiencias-docentes-ia-aula/index.md",
+        "sha256": "33e2fbf712cd7842db879318f2d14968761f21e7bcdcebace1026cbd25d32edb",
+        "bytes": 7168
+      },
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-06/content/blog/experiencias-docentes-ia-aula/featured.webp",
+        "sha256": "ba847a5d83c5683105ec1a3c30bc9f7815c7401e575236b4bebf77a84e350423",
+        "bytes": 337535
+      },
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-06/content/laboratorio/experiencias/_index.md",
+        "sha256": "d292ab6b38c51c3dd844863f68a75014984800e3531b38c87f370af3f8e54812",
+        "bytes": 1776
+      },
+      {
+        "path": "docs/editorial/cuarentena/2026-08-24-contexto-lote-06/content/laboratorio/experiencias/featured.png",
+        "sha256": "03303444f65a8d96266836460abf82f890d01e9328e0ac8ab1226661444e1211",
+        "bytes": 609688
+      }
+    ]
+  },
+  "qa": {
+    "hugo_build": "exit 0; 924 páginas, 399 aliases; solo advertencias de deprecación ya conocidas (languageCode, Site.Data)",
+    "qa_content_inventory": "PASS — 164 documentos, 0 enlaces internos rotos (regenerado)",
+    "qa_context_audit": "PASS — 164 fuentes, 0 afirmaciones de implementación marcadas, 0 estados contradictorios",
+    "qa_routes_tables": "PASS — rutas, tablas Almagre, axe, contraste, móvil, enlaces y H5P sin deriva (evidencia docs/design/evidence/udgia-015)",
+    "qa_glossary_index": "PASS — 2 pass, 0 fail",
+    "qa_direct_language": "PASS — 5 piezas con instrucciones concretas",
+    "qa_visual_contract": "Sin deuda nueva (unexpected vacío); 22 sin featured y 18 hero ocultos son deuda conocida preexistente",
+    "qa_focal_lotes_05_06": "PASS — 76 comprobaciones, 0 fallos (tools/qa-contexto-lote-05-06.tmp.mjs; evidencia docs/design/evidence/contexto-lote-05-06/qa-focal.json)",
+    "qa_lote_04_tmp": "60/61 — la única falla es la aserción obsoleta de 167 documentos, superada por las 3 cuarentenas legítimas de los lotes 5-6 (164)",
+    "qa_learning_audit": "BLOQUEADO — compara contra el inventario del proyecto hermano ../alfabetizacion_en_ia (167 piezas), fuera del árbol autorizado; requiere regenerar ese inventario externo tras las cuarentenas",
+    "qa_ecosistema": "FALLA PREEXISTENTE — preflight de git falla porque esta copia no tiene .git; deuda ya declarada como separada en el expediente del lote 05"
+  },
+  "independent_review": {
+    "path": "docs/editorial/revisiones/2026-08-24-claude-fable-aplicacion-lotes-04-05-06.json",
+    "verdict": "approve",
+    "checks_passed": 11,
+    "checks_total": 11,
+    "blocking_issues": 0
+  },
+  "safeguards": {
+    "no_push_no_publish": "Sin .git en la copia; builds dirigidos a /tmp; qa:routes-tables regeneró public/ localmente como parte de su arnés (igual que en el QA del lote 04); ninguna vía de publicación ejecutada",
+    "nextcloud_recoveries": "367 archivos ocultos ~ intactos en content/; 13/13 del manifiesto lote 04 verificados; conflicted copies de docs/ y public/ sin tocar",
+    "quarantines_reversible": "Cada archivo en cuarentena existe también en el rollback con hash pre-edición idéntico"
+  }
+}

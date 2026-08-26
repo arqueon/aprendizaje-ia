@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "lot": "contexto-lote-05",
+  "created": "2026-08-24",
+  "purpose": "Copia exacta previa a la aplicación editorial con VoBo de Rubén (2026-08-24). Restaurar copiando cada archivo de vuelta a su ruta original.",
+  "pre_edit_copies": [
+    {
+      "path": "content/laboratorio/practicas/abp-con-ia/index.md",
+      "sha256": "d68139b4fa0e4a5774db5674926313fe1a226bb3c2b408a6a0e3d33f8a8de1c0",
+      "bytes": 7549
+    },
+    {
+      "path": "content/laboratorio/practicas/abp-con-ia/featured.png",
+      "sha256": "b6a7d98370ce16940e6110fc53fbb78ea494a492f1451f28d1d1be971e5ecc24",
+      "bytes": 575786
+    },
+    {
+      "path": "content/laboratorio/practicas/aprendizaje-activo-ia/index.md",
+      "sha256": "02fb4410db0784f9213da0541923888ef18fd381365a7ad90e5fcfcff4b9a5ec",
+      "bytes": 8039
+    },
+    {
+      "path": "content/laboratorio/practicas/aprendizaje-activo-ia/featured.png",
+      "sha256": "b6f5ac22360710faa797d781dc8aff3bd42a82eca58d274cc34a716447db1af7",
+      "bytes": 571355
+    },
+    {
+      "path": "content/laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "sha256": "b7d9a79010912786263f6434b97b4c22df36413d525f847a2f09e2d14f7de89c",
+      "bytes": 4506
+    },
+    {
+      "path": "content/laboratorio/practicas/debate-socratico-con-ia/featured.png",
+      "sha256": "f816d93abbfa50538fbf9dfd48093c9f8a060fd2b0aeafe5c6e1535d211f86a5",
+      "bytes": 458424
+    },
+    {
+      "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "sha256": "b8f64db5287d0e249a723360cf2b4f386c42a2e5f739303a49147918f9b7909f",
+      "bytes": 10073
+    },
+    {
+      "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/featured.png",
+      "sha256": "fbdb3a608a9f601fddd67cbe018d54c969cf15e55503622425176a293d4b5f41",
+      "bytes": 527222
+    },
+    {
+      "path": "content/ia-educacion/guias/abp-con-ia/index.md",
+      "sha256": "00d8d2657f060a46bc543b44030c1fac052d41a85cffcc4e537da594a2263afb",
+      "bytes": 9730
+    },
+    {
+      "path": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "sha256": "c7f2d50c5977c8d1506cc1fd10dc6517e42af91cda9d34178c768bfa3190f6cb",
+      "bytes": 9466
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "sha256": "c0b00ca78a8693844fe245fe7a840656309d8028a665f28d07f12a5179cca9cb",
+      "bytes": 15756
+    },
+    {
+      "path": "content/blog/agenciamiento-humano-ia/index.md",
+      "sha256": "156a580678a4bb9d9c3f34553873c66296e9b5c6d5a565e02eadad9ad6d7d52f",
+      "bytes": 6612
+    },
+    {
+      "path": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+      "sha256": "dd429f6fb7a9e10d6731eafc6cbc058c47dbcbf2fc58d0544e59b250cab11aa1",
+      "bytes": 8445
+    },
+    {
+      "path": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "sha256": "fd2442cb16763b5e8ed9adc69e4b4bf5f9e2bbd02778be1504bc44c26f0c4f7a",
+      "bytes": 6831
+    },
+    {
+      "path": "content/observatorio/estudios/habitar-ia-simondon/index.md",
+      "sha256": "2335e82f8759683ccaa680465d858fed27abe6a5c21b360c73b9eaf609a13a7a",
+      "bytes": 15851
+    },
+    {
+      "path": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
+      "sha256": "668848196f0c61ef0d5b941489391225096f8a68aec6c8c5956ed1fb32c275ff",
+      "bytes": 7827
+    },
+    {
+      "path": "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+      "sha256": "7555ab7040fb3a6703d45df1bc08b1ba88e1270c2c1eb8441a04b6f045733cdd",
+      "bytes": 31796
+    },
+    {
+      "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+      "sha256": "e1586f37026cc56125d47676185cf4b657764c9fe0974f22fa0204f2d6823196",
+      "bytes": 12045
+    },
+    {
+      "path": "content/recursos/comparativa-llm-pedagogica/index.md",
+      "sha256": "984464527f0e80421aa740bc75cdd9e8a593138ffa75c0c261e497c432485945",
+      "bytes": 7279
+    },
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "sha256": "da442c1dd0a7809701723b7c15aee3342ea030bfe1e87d2ee9b280dba923c5b6",
+      "bytes": 6699
+    },
+    {
+      "path": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
+      "sha256": "ff6337b6a1a2ec7f6695331ea708616736f85a7e2d428e7be4d6cdf2cf542c44",
+      "bytes": 10419
+    },
+    {
+      "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "sha256": "08357572e101a50f68db8a69ab59a077828accc2e9f713438297a50cbb32ed83",
+      "bytes": 3443
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "783394a91a9c18c47bcc84c713c2fe6837abb608f167df027bb0d02a2970a964",
+      "bytes": 58603
+    }
+  ],
+  "publication_authorized": false
+}

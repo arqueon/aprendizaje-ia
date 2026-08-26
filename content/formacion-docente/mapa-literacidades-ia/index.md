@@ -14,7 +14,7 @@ showSummary: true
 showTableOfContents: true
 showReadingTime: true
 showAuthor: false
-weight: 0
+weight: 9
 ecosistema:
   id: capacity.alfabetizacion-ia
   titulo: "Alfabetización en IA"
@@ -159,11 +159,12 @@ flowchart LR
 
 - [Marco conceptual completo de las tres literacidades](/formacion-docente/alfabetizacion/) — desarrollo textual extenso de los tres niveles.
 - [Guía formativa de la co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) — progresión en tres sub-niveles (detectar, sostener, diseñar para otros) con indicadores observables.
-- [Marco conceptual de la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) — sustento teórico (Deleuze-Guattari, Meshi, ensamblaje cognitivo).
+- [Guía sobre co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) — caso trabajado que distingue una sugerencia de una decisión y muestra cómo conservar la dirección del trabajo.
+- [Lección 3 del curso de diseño inverso y cocreación con IA](/formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/) — práctica guiada para aplicar las tres literacidades a una decisión de diseño.
 - [Evaluación formativa del proceso](/ia-educacion/guias/evaluacion-formativa-ia/) — cómo desplazar la evaluación al proceso de co-creación.
 {{< /alert >}}
 
-## Referencias clave
+{{< referencias titulo="Referencias clave" >}}
 
 - Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
 - Rousell, D., & Sinclair, M. P. (2025). Desiring-futures in education policy: Assemblage theory, artificial intelligence, and UNESCO's futures of education. *Educational Review*, *77*(6), 1754–1777. https://doi.org/10.1080/00131911.2024.2362176
@@ -171,3 +172,4 @@ flowchart LR
 - Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802
 - Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*(11). https://doi.org/10.1186/s41239-026-00585-x
 - Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. *arXiv preprint*.
+{{< /referencias >}}

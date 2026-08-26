@@ -1,0 +1,78 @@
+{
+  "pages": 8,
+  "failures": [],
+  "results": [
+    {
+      "name": "guia-prompts",
+      "mode": "desktop",
+      "url": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "guia-prompts",
+      "mode": "mobile",
+      "url": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "sal-khan",
+      "mode": "desktop",
+      "url": "/recursos/videos/sal-khan-ia-educacion/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "sal-khan",
+      "mode": "mobile",
+      "url": "/recursos/videos/sal-khan-ia-educacion/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "glosario",
+      "mode": "desktop",
+      "url": "/recursos/glosario/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "glosario",
+      "mode": "mobile",
+      "url": "/recursos/glosario/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "agentes",
+      "mode": "desktop",
+      "url": "/recursos/glosario/agentes-de-ia/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    },
+    {
+      "name": "agentes",
+      "mode": "mobile",
+      "url": "/recursos/glosario/agentes-de-ia/",
+      "status": 200,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": []
+    }
+  ]
+}

@@ -147,7 +147,8 @@ residencias profesionales, prácticas industriales.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa del reporte.
 - Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — tipo específico de reporte experimental.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
-y la rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

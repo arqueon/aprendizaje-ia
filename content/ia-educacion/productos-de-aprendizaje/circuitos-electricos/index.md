@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo analizar y diseñar circuitos eléctricos con apoyo formativo de IAG, evaluando la comprensión del comportamiento, las simplificaciones razonables y los casos límite."
 summary: "Circuitos eléctricos con IAG: comportamiento esperado en términos de Kirchhoff y frecuencia, método de análisis y comparación cálculo–simulación. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Una mano relaciona un circuito físico con su representación simplificada para anticipar su comportamiento."
 tags: ["producto-aprendizaje", "bloom-3", "rubrica-iag", "ingeniería", "circuitos", "análisis-eléctrico"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -135,7 +136,8 @@ circuitos.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base formal del análisis.
 - Producto cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación digital.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

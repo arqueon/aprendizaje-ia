@@ -4,6 +4,7 @@ aliases:
   - "/ia-educacion/orientaciones-ia/"
 date: 2026-08-03
 draft: false
+weight: 9
 description: "Estatus, alcance y rutas de consulta de una propuesta académica para orientar decisiones sobre IA y aprendizaje."
 summary: "Qué propone el documento, qué autoridad tiene hoy y cómo continuar hacia una explicación o una práctica por audiencia."
 showHero: false
@@ -19,14 +20,14 @@ Estas Orientaciones reúnen criterios para decidir cuándo una ayuda de intelige
 apoya el aprendizaje, cuándo lo desplaza y qué evidencias permiten sostener una decisión.
 {{< /lead >}}
 
-## Estatus del documento
-
+{{< idea titulo="Estatus: propuesta en revisión" >}}
 El documento es una **propuesta académica en revisión**. No se presenta como política,
 lineamiento vigente ni obligación institucional. Su publicación futura necesitará identificar
 versión, responsable, autoridad de aprobación y fecha de revisión.
 
 Mientras conserva este estatus, el sitio puede desarrollar sus criterios y mostrar cómo se
 aplican, pero no atribuirles una autoridad que todavía no tienen.
+{{< /idea >}}
 
 ## Qué ayuda a decidir
 
@@ -56,4 +57,3 @@ de cada decisión.
 El archivo completo se añadirá a esta página solo cuando exista una versión autorizada para
 publicación. La ausencia temporal de descarga evita confundir una propuesta local con un documento
 institucional vigente.
-

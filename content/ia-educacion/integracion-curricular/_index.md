@@ -2,7 +2,7 @@
 title: "Integración curricular"
 description: "Estrategias y marcos para integrar la IA de forma intencional en el currículo, las asignaturas y los proyectos formativos."
 summary: "Cómo pasar del uso espontáneo de IA a una integración curricular alineada con objetivos de aprendizaje."
-weight: 2
+weight: 3
 showHero: true
 heroStyle: "background"
 showBreadcrumbs: true

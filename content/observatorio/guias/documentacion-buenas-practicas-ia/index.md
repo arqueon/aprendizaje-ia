@@ -35,7 +35,7 @@ Sin estas cuatro condiciones, una práctica documentada termina siendo testimoni
 
 ## Estructura mínima recomendada
 
-La plantilla siguiente integra la mayoría de lo que se necesita para cumplir las cuatro condiciones. Las prácticas ya publicadas en este sitio —[ABP con IA](/laboratorio/practicas/abp-con-ia/), [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/), [evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/)— siguen esta estructura y pueden usarse como referencia.
+La plantilla siguiente integra la mayoría de lo que se necesita para cumplir las cuatro condiciones. Las actividades propuestas del Laboratorio —[ABP con IA](/laboratorio/practicas/abp-con-ia/), [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/), [evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/)— sirven como ejemplos de **estado declarado**: cada una se presenta como plantilla o actividad propuesta, no como caso implementado. Una práctica solo podrá citarse aquí como referente empírico cuando exista un expediente verificable de su aplicación.
 
 ### Frontmatter (metadatos comparables)
 

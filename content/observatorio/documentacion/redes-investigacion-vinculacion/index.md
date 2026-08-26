@@ -118,7 +118,7 @@ Sin esta administración, la institución pierde memoria sobre qué participacio
 
 ## Lecturas relacionadas
 
-La curaduría sobre [comunidades de práctica docente con IA](/recursos/externas/comunidades-practica-docente-ia/) cubre el lado individual del relacionamiento; la [pieza sobre redes y comunidades](/formacion-docente/redes/) ofrece el marco conceptual; el [marco regulatorio universidades MX](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) sostiene el contexto institucional nacional.
+La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica cómo sostener el trabajo colectivo; el [marco regulatorio para universidades mexicanas](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) sitúa la discusión institucional nacional.
 
 ## Referencias
 

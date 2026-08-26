@@ -66,7 +66,11 @@ async function startServer(root) {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
   await new Promise((resolve, reject) => {
@@ -197,7 +201,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       width: document.documentElement.clientWidth,
       scrollWidth: document.documentElement.scrollWidth,
       h2: document.querySelectorAll("main h2").length,
-      cards: document.querySelectorAll("main .card-bg h5 a").length,
+      cards: document.querySelectorAll("main [data-udgia-card] h3 a").length,
       tables: document.querySelectorAll("main table").length,
       executiveTables: document.querySelectorAll("main .udgia-executive-table").length,
       tableCaptions: [...document.querySelectorAll("main .udgia-executive-table caption")]
@@ -335,7 +339,7 @@ try {
   assert(routeIndex.includes("Estudio o enseño"), "Índice: falta la ruta introductoria");
   assert(routeIndex.includes("Coordino procesos docentes"), "Índice: falta la ruta operativa");
   assert(
-    routeIndex.includes("Dirijo decisiones institucionales"),
+    routeIndex.includes("Preparo decisiones institucionales"),
     "Índice: falta la ruta ejecutiva"
   );
 

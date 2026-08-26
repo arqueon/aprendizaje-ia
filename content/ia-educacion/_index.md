@@ -29,7 +29,7 @@ después enlaza las guías, prácticas y marcos que necesita.
 {{< cards >}}
   {{< card link="constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Comprende qué cambia con la IA y comienza como estudiante o docente con una práctica acotada." >}}
   {{< card link="rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Organiza acuerdos de programa, formación, pilotos y revisión con evidencias." >}}
-  {{< card link="rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" description="Relaciona propósito, gobernanza, capacidades, tecnología, recursos y seguimiento." >}}
+  {{< card link="rutas/decision-institucional-ia/" title="Preparo decisiones institucionales" description="Relaciona propósito, gobernanza, capacidades, tecnología, recursos y seguimiento." >}}
 {{< /cards >}}
 
 [Compara las tres rutas y sus alcances](rutas/).
@@ -37,8 +37,9 @@ después enlaza las guías, prácticas y marcos que necesita.
 ## Explora por tema
 
 {{< cards >}}
-  {{< card link="guias/" title="Guías prácticas" icon="map" color="#123b4a" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
-  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" color="#9a4e3f" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
-  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" color="#687653" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
-  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" color="#c98b43" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
+  {{< card link="/formacion-docente/diseno-inverso-cocreacion-ia/" title="Curso: diseño inverso y cocreación con IA" icon="route" description="Trece lecciones abiertas para diseñar, practicar y revisar una actividad con decisiones docentes explícitas." >}}
+  {{< card link="guias/" title="Guías prácticas" icon="map" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
+  {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}
+  {{< card link="etica-y-transparencia/" title="Ética y transparencia" icon="scale-balanced" description="Disposiciones, directrices y marcos para el uso responsable de la IA en educación." >}}
+  {{< card link="tendencias/" title="Tendencias y políticas" icon="chart-line" description="Panorama global: UNESCO, OCDE, políticas institucionales y debates emergentes." >}}
 {{< /cards >}}

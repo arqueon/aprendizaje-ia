@@ -12,6 +12,7 @@ showBreadcrumbs: true
 showTableOfContents: true
 showRelatedContent: false
 sharingLinks: false
+summary: "Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0) del sitio."
 ---
 
 {{< lead >}}
@@ -45,7 +46,7 @@ aprendizaje digital y la IA en educación superior.
 
 Debes dar crédito de forma razonable. Una atribución mínima incluye:
 
-> *"Aprendizaje Digital e IA (UDGplus), Universidad de Guadalajara — disponible en [https://udgplus.github.io](https://udgplus.github.io) — bajo licencia CC BY-SA 4.0."*
+> *"Aprendizaje Digital e IA (UDGplus), Universidad de Guadalajara. Licencia CC BY-SA 4.0."*
 
 Si modificaste el material, indícalo (por ejemplo: *"adaptado de…"*, *"basado en…"*).
 
@@ -87,15 +88,13 @@ Aunque el sitio es CC BY-SA 4.0, **estas excepciones aplican**:
 ```text
 "Título del recurso", de Aprendizaje Digital e IA (UDGplus),
 Universidad de Guadalajara. Licencia CC BY-SA 4.0.
-URL: https://udgplus.github.io/ruta/al/recurso
 ```
 
 ### Atribución en HTML
 
 ```html
 <p>
-  Basado en
-  <a href="https://udgplus.github.io/ruta/al/recurso">"Título del recurso"</a>
+  Basado en "Título del recurso",
   de Aprendizaje Digital e IA (UDGplus), bajo
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es">CC BY-SA 4.0</a>.
 </p>

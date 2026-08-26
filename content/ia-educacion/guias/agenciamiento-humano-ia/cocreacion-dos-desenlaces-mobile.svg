@@ -2,14 +2,15 @@
   <title id="titulo">Co-creación persona-IA y sus dos desenlaces</title>
   <desc id="desc">Versión vertical. Persona e IA convergen en una co-creación que recorre cuatro
     movimientos: formular, evaluar, descartar y reformular. Si la persona conserva la dirección
-    epistémica puede producirse ganancia cognitiva; si la cede, la interacción deriva en descarga cognitiva.</desc>
+    epistémica puede ampliar lo que comprende y explica; si la cede, existe el riesgo de que la salida
+    sustituya el trabajo intelectual que debía realizar.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .tk-font { font-family:'Archivo Narrow',Helvetica,Arial,sans-serif; }
     .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
     .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
     .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; }
-    .bg-risk { fill:#f8e7ea; } .bg-neutral { fill:#ece9e1; }
+    .bg-canvas { fill:#fbf9f3; } .bg-risk { fill:#f8e7ea; } .bg-neutral { fill:#ece9e1; }
     .st-primary { stroke:#34508c; } .st-good { stroke:#536326; }
     .st-risk { stroke:#8b2635; } .st-axis { stroke:#18223c; }
   </style>
@@ -24,6 +25,7 @@
       <path d="M0,0 L7,3.5 L0,7 Z" fill="#8b2635"/>
     </marker>
   </defs>
+  <rect width="420" height="980" class="bg-canvas"/>
   <g class="tk-font">
     <rect x="25" y="25" width="150" height="72" rx="3" class="bg-primary st-primary" stroke-width="1.7"/>
     <text x="100" y="55" text-anchor="middle" font-size="18" font-weight="bold" class="f-primary">Persona</text>
@@ -56,16 +58,16 @@
     <path d="M175 520 Q120 545 100 578" fill="none" class="st-good" stroke-width="2.4" marker-end="url(#flechaGood)"/>
     <text x="210" y="555" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">La persona conserva propósito y criterio</text>
     <rect x="25" y="585" width="370" height="145" rx="3" class="bg-good st-good" stroke-width="1.8"/>
-    <text x="210" y="620" text-anchor="middle" font-size="21" font-weight="bold" class="f-good">Ganancia cognitiva</text>
+    <text x="210" y="620" text-anchor="middle" font-size="20" font-weight="bold" class="f-good">Ganancia cognitiva posible</text>
     <text x="210" y="652" text-anchor="middle" font-size="15" class="f-muted">Contraejemplos y conexiones inesperadas</text>
     <text x="210" y="676" text-anchor="middle" font-size="15" class="f-muted">obligan a revisar los propios supuestos.</text>
-    <text x="210" y="706" text-anchor="middle" font-size="16" font-weight="bold" class="f-ink">La IA puede activar el pensamiento.</text>
+    <text x="210" y="706" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">La interacción puede activar el pensamiento.</text>
 
     <text x="210" y="774" text-anchor="middle" font-size="15" font-weight="bold" class="f-risk">La persona cede propósito y criterio</text>
     <line x1="210" y1="782" x2="210" y2="796" class="st-risk" stroke-width="2.4" marker-end="url(#flechaRisk)"/>
     <rect x="25" y="800" width="370" height="150" rx="3" class="bg-risk st-risk" stroke-width="1.8"/>
-    <text x="210" y="837" text-anchor="middle" font-size="21" font-weight="bold" class="f-risk">Descarga cognitiva</text>
-    <text x="210" y="869" text-anchor="middle" font-size="15" class="f-muted">Recibir y validar sin dirigir sustituye</text>
+    <text x="210" y="837" text-anchor="middle" font-size="20" font-weight="bold" class="f-risk">Riesgo de descarga cognitiva</text>
+    <text x="210" y="869" text-anchor="middle" font-size="15" class="f-muted">Aceptar sin comprobar puede sustituir</text>
     <text x="210" y="893" text-anchor="middle" font-size="15" class="f-muted">trabajo intelectual y oculta cuánto</text>
     <text x="210" y="917" text-anchor="middle" font-size="15" class="f-muted">se dejó de pensar.</text>
   </g>

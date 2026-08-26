@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "lots": [
+    "contexto-lote-05",
+    "contexto-lote-06"
+  ],
+  "date": "2026-08-24",
+  "checks": [
+    {
+      "id": "l5.abp.sin-cifras-ni-huecos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.abp.estado-propuesta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.abp.alternativa-sin-ia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.abp.riesgos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.sin-cifras-ni-huecos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.estado-propuesta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.alternativa-sin-ia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.riesgos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.sin-cifras-ni-huecos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.estado-propuesta",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.alternativa-sin-ia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.riesgos",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.abp.problema-ejemplo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.abp.preguntas-revision",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.tesis-ejemplo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.dos-objeciones",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.debate.sin-conversacion-completa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.ecosistema-id",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.relacion-continua",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.rubrica-ejemplo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.fragmento-ejemplo",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.portafolio.sin-logs-integros",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.aa.activo-sin-index",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.aa.recuperaciones-ocultas-intactas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.aa.cuarentena-completa",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.aa.cuarentena-hash",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.aa.alias-en-guia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.citante.agenciamiento-humano-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.abp-con-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.proyecto",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.documentacion-buenas-practicas-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.aprendizaje-activo-con-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.habitar-ia-simondon",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.pensamiento-critico-ia-generativa",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.ensayo",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.partnerships-pedagogicos-ia-wang-zhang",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.comparativa-llm-pedagogica",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.ia-generativa-evaluacion-autentica",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.evaluacion-formativa-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.integracion-curricular-ia",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.citante.genai-feedback-engagement-2025",
+      "ok": true,
+      "detail": "conserva lenguaje de caso implementado"
+    },
+    {
+      "id": "l5.decisiones.abp-cambiar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.decisiones.debate-cambiar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.decisiones.portafolio-cambiar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.decisiones.aa-quitar",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.coordinacion.sin-cambios",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.samr.wayback",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.samr.doi-critica",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.samr.sin-enlace-vivo-roto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.samr.limites-02a-conservados",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.about.sin-prioridad-institucional",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.about.sin-promesa-total",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.about.no-canal-oficial",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.about.estatuto-piezas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.sin-replicable-robusto",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.fecha-brookings",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.sin-brookings-2024",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.sin-cifras-mexicanas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.caveat-kestin",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.riesgos-de-diseno",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.cuando-persona",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.tutorias.comprobar-sin-ia",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.blog.activo-sin-index",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.blog.cuarentena-hash",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.hub.activo-sin-index",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.hub.cuarentena-hash",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.recuperaciones-ocultas-intactas",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.lab.aliases",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.lab.sin-tarjeta-experiencias",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.lab.sin-promesa-documentada",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l6.sin-enlaces-a-cuarentena",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "l5.sin-enlaces-a-cuarentena",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "rollback.2026-08-24-contexto-lote-05.integro",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "rollback.2026-08-24-contexto-lote-06.integro",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "salvaguarda.sin-git",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "salvaguarda.conflicted-copies-public-intactas",
+      "ok": true,
+      "detail": "0 de 18 copias en conflicto modificadas en sesión"
+    }
+  ],
+  "failures": 0
+}

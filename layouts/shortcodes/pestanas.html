@@ -1,26 +1,28 @@
 {{- $_ := .Inner -}}
 {{- $tabs := .Scratch.Get "tabs" -}}
-{{- $uid := printf "almtabs-%s-%d" (substr (md5 .Page.RelPermalink) 0 6) .Ordinal -}}
-<div class="alm-pestanas not-prose-controls">
-  {{- range $i, $t := $tabs -}}
-    <input type="radio" name="{{ $uid }}" id="{{ $uid }}-{{ $i }}"{{ if eq $i 0 }} checked{{ end }}>
+{{- if lt (len $tabs) 2 -}}
+  {{- errorf "Shortcode pestanas: requiere al menos dos pestana en %s" .Position -}}
+{{- end -}}
+{{- $label := .Get "etiqueta" | default "Contenido por facetas" -}}
+<section
+  class="alm-pestanas alm-componente"
+  aria-label="{{ $label }}"
+  data-udgia-component="pestanas">
+  {{- range $i, $tab := $tabs -}}
+    <details
+      class="alm-pestana"
+      data-udgia-component="pestana"
+      {{- if eq $i 0 }} open{{ end }}>
+      <summary>{{ $tab.titulo }}</summary>
+      <div class="alm-tab-panel">{{ $tab.cuerpo }}</div>
+    </details>
   {{- end -}}
-  <nav class="alm-tabs-nav">
-    {{- range $i, $t := $tabs -}}
-      <label for="{{ $uid }}-{{ $i }}">{{ $t.titulo }}</label>
+  <div class="alm-pestanas-impresion" aria-hidden="true">
+    {{- range $tab := $tabs -}}
+      <section class="alm-pestana-impresion">
+        <h3>{{ $tab.titulo }}</h3>
+        <div>{{ $tab.cuerpo | replaceRE `\s+id="[^"]+"` "" | safeHTML }}</div>
+      </section>
     {{- end -}}
-  </nav>
-  {{- range $i, $t := $tabs -}}
-    <div class="alm-tab-panel" data-panel="{{ $uid }}-{{ $i }}">{{ $t.cuerpo }}</div>
-  {{- end -}}
-  <style>
-    {{- range $i, $t := $tabs }}
-    #{{ $uid }}-{{ $i }}:checked ~ [data-panel="{{ $uid }}-{{ $i }}"] { display: block; }
-    #{{ $uid }}-{{ $i }}:checked ~ .alm-tabs-nav label[for="{{ $uid }}-{{ $i }}"] {
-      color: var(--udg-c-ink);
-      background: var(--udg-c-surface);
-      border-bottom-color: var(--udg-c-primary);
-    }
-    {{- end }}
-  </style>
-</div>
+  </div>
+</section>

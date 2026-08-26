@@ -104,15 +104,23 @@ Para asignaturas que incluyen programación. GitHub Copilot y Claude Code son lo
 
 La matriz por sí sola no produce una decisión. El procedimiento corto es este.
 
-Primero, identifica el **uso pedagógico** concreto (diseñar actividad, calificar ensayo, dar retroalimentación, generar material visual). El [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) ordena estos usos en cuatro fases.
-
-Segundo, identifica los **datos involucrados**: ¿hay datos personales de estudiantes? ¿hay datos sensibles (salud, identidad, procesos disciplinarios)? Si la respuesta es sí en alguno, el criterio de privacidad descarta herramientas sin acuerdo institucional.
-
-Tercero, evalúa el **acceso del grupo**: ¿todos pueden usar la herramienta sin costo? Si no, el criterio de equidad te obliga a adaptar la actividad o a proveer acceso institucional.
-
-Cuarto, compara **capacidad y costo** entre las opciones que pasan los dos filtros anteriores. Aquí suele haber varias opciones viables y la decisión se toma por preferencia docente.
-
-Quinto, documenta la decisión en el **syllabus** con el prompt y la herramienta indicados. Esta documentación protege al docente y al estudiante en caso de disputa.
+{{< proceso >}}
+  {{< paso titulo="Identifica el uso pedagógico" >}}
+  Precisa si necesitas diseñar una actividad, calificar un ensayo, dar retroalimentación o generar material visual. El [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}) ordena estos usos en cuatro fases.
+  {{< /paso >}}
+  {{< paso titulo="Identifica los datos involucrados" >}}
+  Pregunta si hay datos personales de estudiantes o datos sensibles, como salud, identidad o procesos disciplinarios. Si la respuesta es sí en alguno, el criterio de privacidad descarta herramientas sin acuerdo institucional.
+  {{< /paso >}}
+  {{< paso titulo="Evalúa el acceso del grupo" >}}
+  Comprueba si todas las personas pueden usar la herramienta sin costo. Si no, el criterio de equidad obliga a adaptar la actividad o a proveer acceso institucional.
+  {{< /paso >}}
+  {{< paso titulo="Compara capacidad y costo" >}}
+  Contrasta las opciones que pasan los dos filtros anteriores. Aquí suele haber varias alternativas viables y la decisión puede responder a las necesidades docentes.
+  {{< /paso >}}
+  {{< paso titulo="Documenta la decisión" >}}
+  Registra en el **syllabus** el uso previsto, el prompt y la herramienta. Esta documentación hace visibles las condiciones acordadas para docentes y estudiantes en caso de una duda o disputa.
+  {{< /paso >}}
+{{< /proceso >}}
 
 {{< mermaid >}}
 flowchart TB
@@ -128,13 +136,20 @@ flowchart TB
 
 ## Preguntas frecuentes
 
-**¿Puedo usar una herramienta nueva que no está en el catálogo?** Sí, si pasa los cinco criterios para el uso previsto. Conviene documentar la decisión y, si el uso se va a repetir, proponer la herramienta para la próxima revisión del catálogo.
-
-**¿Qué hago si una herramienta del catálogo cambia sus términos de servicio?** Reportar el cambio a la coordinación del programa. Si el cambio afecta los criterios de privacidad o equidad, la recomendación institucional puede revisarse entre ciclos.
-
-**¿Por qué no hay ranking global de "mejor herramienta"?** Porque no existe. El mejor modelo para redacción puede ser el peor para cálculo, y la mejor herramienta para un docente individual puede ser inadmisible para uso institucional por razones de privacidad. El catálogo entrega criterios, no un veredicto.
-
-**¿Cuándo se actualiza el catálogo?** Formalmente cada seis meses. Los cambios urgentes (cambios de privacidad, caídas de servicio, nuevos modelos relevantes) se incorporan entre ciclos con nota explícita en esta misma página.
+{{< acordeon etiqueta="Preguntas frecuentes sobre el catálogo" >}}
+  {{< pliegue titulo="¿Puedo usar una herramienta nueva que no está en el catálogo?" abierto="true" >}}
+  Sí, si pasa los cinco criterios para el uso previsto. Conviene documentar la decisión y, si el uso se va a repetir, proponer la herramienta para la próxima revisión del catálogo.
+  {{< /pliegue >}}
+  {{< pliegue titulo="¿Qué hago si una herramienta cambia sus términos de servicio?" >}}
+  Reporta el cambio a la coordinación del programa. Si afecta los criterios de privacidad o equidad, la recomendación institucional puede revisarse entre ciclos.
+  {{< /pliegue >}}
+  {{< pliegue titulo="¿Por qué no hay un ranking global de la mejor herramienta?" >}}
+  Porque no existe. El mejor modelo para redacción puede ser el peor para cálculo, y la mejor herramienta para un docente individual puede ser inadmisible para uso institucional por razones de privacidad. El catálogo entrega criterios, no un veredicto.
+  {{< /pliegue >}}
+  {{< pliegue titulo="¿Cuándo se actualiza el catálogo?" >}}
+  Formalmente cada seis meses. Los cambios urgentes —cambios de privacidad, caídas de servicio o nuevos modelos relevantes— se incorporan entre ciclos con nota explícita en esta misma página.
+  {{< /pliegue >}}
+{{< /acordeon >}}
 
 ## Advertencias operativas
 

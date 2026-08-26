@@ -141,7 +141,8 @@ Periodismo, comunicación organizacional, divulgación científica, derecho
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — versión más larga y especializada.
 - Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — contraparte interpretativa de la nota.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

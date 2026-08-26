@@ -2,8 +2,8 @@
 title: "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA"
 date: 2026-03-18
 draft: false
-description: "El Dr. Vincent Liardi de Pearson propone que las universidades vayan más allá del control del plagio y rediseñen la evaluación para que los estudiantes prosperen en un mundo aumentado por la IA."
-summary: "¿Estamos construyendo muros para evitar el uso de la IA… o regando el jardín para que los estudiantes florezcan dentro de ella? Una reflexión del DEC Executive Briefing #018 con Dr. Vincent Liardi (Pearson)."
+description: "Lectura crítica de una propuesta de Vincent Liardi y el Digital Education Council para rediseñar la evaluación ante el uso de IA."
+summary: "Qué sostiene la fuente, qué añade este sitio y qué condiciones deben cumplirse antes de incorporar IA o cambiar una evaluación."
 tags: ["evaluación", "integridad académica", "IA generativa", "políticas", "tendencias"]
 categories: ["tendencia"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -17,132 +17,66 @@ showSummary: true
 ---
 
 {{< lead >}}
-"Quizás estamos construyendo una cerca muy sólida alrededor del jardín, pero descuidando regar las plantas." — Dr. Vincent Liardi, Pearson
+“Quizás estamos construyendo una cerca muy sólida alrededor del jardín, pero descuidando regar las plantas”. — Vincent Liardi, Pearson
 {{< /lead >}}
 
-Esta metáfora, lanzada durante el **DEC Executive Briefing #018: The Next Era of Assessment** (Digital Education Council, julio 2025), sintetiza uno de los debates más urgentes en educación superior: ¿qué hacemos con la evaluación cuando la IA está en todas partes?
+La metáfora procede del **DEC Executive Briefing #018: The Next Era of Assessment**, una conversación entre Vincent Liardi y Daniel A. Bielik publicada por el Digital Education Council en julio de 2025. La fuente propone desplazar parte de la atención desde la detección del uso de IA hacia el diseño de evaluaciones que permitan observar decisiones, revisión y aprendizaje.
 
-> Artículo original: [Watering the Plants, Not Just Building Fences](https://www.digitaleducationcouncil.com/post/watering-the-plants-not-just-building-fences-rethinking-assessment-in-the-ai-era) — Digital Education Council (7 jul. 2025). Resumen y adaptación al español con fines educativos.
+## Procedencia y alcance de la fuente
 
----
+Esta es una **perspectiva institucional**, no es un estudio de eficacia. El artículo del DEC resume una conversación con un representante de Pearson; no presenta muestra, comparación de grupos ni resultados de aprendizaje. El DEC y Pearson habían anunciado una **alianza estratégica** el **23 de abril de 2025** y desarrollaron conjuntamente *The Next Era of Assessment*. Esa relación no invalida el argumento, pero debe conocerse al valorar sus recomendaciones.
 
-## El problema: solo construimos cercas
+Las citas de Liardi que aparecen en esta página provienen del artículo del DEC y se ofrecen en traducción al español. Las tablas, condiciones de uso y propuestas para revisar una evaluación forman parte de la lectura editorial del sitio.
 
-Cuando las instituciones detectan que los estudiantes usan ChatGPT u otras herramientas de IA, la respuesta más frecuente es reactiva: detectores de IA, restricciones, sanciones, rediseño de exámenes presenciales.
+## Lo que sostiene Liardi
 
-El Dr. **Vincent Liardi**, Global Lead for Industry Engagement & Advocacy en **Pearson International**, cuestiona esta lógica de frente:
+Liardi cuestiona que la respuesta institucional se concentre en detectar o impedir el uso de IA. Su metáfora distingue la protección del perímetro, la “cerca”, del desarrollo de las capacidades que la evaluación pretende observar, las “plantas”. En sus términos, la discusión debe incluir cómo preparar al estudiantado para contextos de trabajo donde estas herramientas estarán disponibles.
 
-{{< alert icon="quote-left" type="info" >}}
-**"La pregunta para mí no es sobre integridad académica, sino sobre cómo podemos prosperar en un mundo aumentado por la IA."**
-— Dr. Vincent Liardi
-{{< /alert >}}
+> “La pregunta para mí no es sobre integridad académica, sino sobre cómo podemos prosperar en un mundo aumentado por la IA”.
+>
+> — Vincent Liardi, traducción del sitio
 
-La metáfora del jardín lo ilustra bien: si toda nuestra energía va a proteger el perímetro (la cerca), olvidamos lo único que realmente importa: que las plantas crezcan. Las "plantas" son las competencias, la curiosidad, la capacidad de juicio y la agencia de los estudiantes.
+El argumento también favorece una diversidad de formatos. Portafolios de proceso, conversaciones orales, proyectos reflexivos y evaluación entre pares pueden mostrar aspectos distintos del trabajo. La fuente no demuestra que uno de estos formatos mejore por sí solo el aprendizaje; propone ampliar el repertorio y examinar qué permite observar cada método.
 
----
+Liardi advierte además que el acceso desigual puede agravar diferencias entre estudiantes. Permitir una herramienta sin garantizar condiciones comparables, o prohibirla sin considerar sus usos reales, produce problemas distintos que una política de evaluación debe hacer visibles.
 
-## Repensar la evaluación: de la vigilancia al desarrollo
+## Lectura editorial del sitio: del producto aislado al proceso revisable
 
-La propuesta de Liardi no es ingenua ni permisiva. Es estratégica: **rediseñar la evaluación para cultivar las capacidades que se necesitan en una sociedad con IA**. Esto implica pasar de preguntar "¿el estudiante hizo trampa?" a preguntar "¿el estudiante aprendió algo que le sirva en el mundo real?".
-
-Las universidades que logren este giro estarán formando lo que Liardi llama **aprendices ágiles**: personas capaces de adaptarse a distintas formas de demostrar lo que saben, de usar herramientas críticamente y de seguir aprendiendo en contextos cambiantes.
+La propuesta puede traducirse en una decisión más acotada: conservar la entrega final y acompañarla con rastros proporcionados de las decisiones que importan. No hace falta registrar cada interacción. Conviene pedir únicamente aquello que permita reconstruir cómo la persona definió el problema, qué verificó, qué descartó y por qué sostuvo la versión final.
 
 {{< udgia-figure id="udgia-f08-producto-proceso" src="producto-a-proceso.svg" >}}
-El desplazamiento no elimina el producto final; lo acompaña con evidencias proporcionadas del
-proceso:
+El desplazamiento no elimina el producto final; lo acompaña con información seleccionada del proceso:
 
-| Enfoque de evaluación | Evidencia principal | Alcance de la inferencia |
+| Enfoque de evaluación | Qué se observa | Límite de la inferencia |
 |---|---|---|
-| Se evalúa el producto aislado. | La evidencia principal es la entrega final. | El resultado puede mostrar desempeño, pero no acredita por sí solo cómo se aprendió ni quién tomó las decisiones. |
-| Se evalúan el producto y el proceso. | La evidencia incluye versiones, criterios, verificaciones, descartes y una defensa. | El conjunto aporta indicios del juicio y de las decisiones durante la interacción entre la persona y la IA. |
+| Se evalúa la entrega aislada. | El desempeño visible en la versión final. | La entrega no acredita por sí sola cómo se aprendió ni quién tomó las decisiones. |
+| Se evalúan entrega y proceso. | Versiones, verificaciones, descartes y una defensa breve. | El conjunto aporta indicios del juicio ejercido, pero tampoco demuestra por sí solo aprendizaje transferible. |
 
-El portafolio iterativo, la bitácora de decisiones, la defensa oral y las rúbricas asistidas
-pueden combinarse de manera proporcional. Ningún instrumento demuestra aprendizaje por sí
-solo; juntos ayudan a sostener la validez sin convertir la trazabilidad en vigilancia
-exhaustiva.
+Una bitácora de decisiones, una comparación entre versiones o una defensa oral pueden combinarse según la tarea. Pedir registros completos de conversación añadiría vigilancia y datos personales sin garantizar una inferencia mejor.
 {{< /udgia-figure >}}
 
-{{< alert icon="lightbulb" type="info" >}}
-**Pregunta para reflexionar:** ¿Tus evaluaciones actuales miden lo que los estudiantes podrían necesitar en 5 años, o miden lo que era relevante hace 10?
-{{< /alert >}}
+## Condiciones para usar IA en retroalimentación
 
----
+La posibilidad de generar comentarios rápidos no convierte una herramienta en evaluador. Antes de usar IA para retroalimentar trabajos, el equipo docente debe definir qué datos pueden procesarse, evitar información personal o confidencial y comprobar las reglas institucionales de **privacidad**. También debe prever una alternativa para quienes no tengan el mismo **acceso** a la herramienta.
 
-## La brecha de acceso: una alerta urgente
+La persona docente conserva la responsabilidad de revisar la pertinencia de los comentarios, corregir errores y explicar qué parte influyó en una calificación. La **revisión humana** es indispensable cuando la respuesta de la herramienta puede afectar oportunidades, resultados o trato entre estudiantes. La IA puede preparar observaciones iniciales; no debe tomar por sí sola una decisión de evaluación.
 
-Uno de los puntos más importantes del análisis de Liardi es la advertencia sobre equidad. No todos los estudiantes tienen el mismo acceso a herramientas de IA, ni las mismas condiciones para integrarlas en su aprendizaje:
+{{< practica titulo="Revisa una evaluación antes de cambiarla" >}}
 
-{{< alert icon="triangle-exclamation" type="danger" >}}
-**"Me preocupa que, con esta transformación e proliferación de la IA, pueda haber un efecto rebote… en términos de disparidad de acceso."**
-— Dr. Vincent Liardi
-{{< /alert >}}
+Las siguientes son decisiones locales de este sitio y **no representan una postura oficial** de la Universidad de Guadalajara:
 
-Si las universidades asumen que todos los estudiantes tienen acceso igualitario a la IA (o al contrario, que ninguno debe usarla), estarán profundizando brechas ya existentes. La integración debe ser **intencional, equitativa y acompañada**.
+1. Identificar la capacidad que la evaluación pretende observar y comprobar si la entrega actual permite verla.
+2. Decidir qué usos de IA son admisibles, cuáles deben declararse y cuáles impedirían interpretar el desempeño.
+3. Añadir una comprobación breve del proceso cuando sea necesaria: comparación de versiones, explicación de una decisión, verificación de una fuente o defensa oral.
+4. Revisar acceso, privacidad y posibles efectos desiguales antes de exigir o permitir una herramienta.
+5. Mantener una vía de revisión humana para errores, desacuerdos y decisiones que afecten la calificación.
 
----
+Estas acciones no ofrecen una evaluación “a prueba de IA”. Permiten formular con mayor precisión qué se observará y qué límites tendrá la conclusión sobre el aprendizaje.
+{{< /practica >}}
 
-## El valor de la retroalimentación personalizada
+{{< referencias titulo="Fuentes y atribución" >}}
 
-Uno de los aportes más concretos del modelo que describe Liardi es el uso de IA para **escalar la retroalimentación personalizada**, algo que históricamente ha sido imposible de dar de forma individual a grupos grandes:
-
-> **"Lo que Pearson realmente está tratando de impulsar es la retroalimentación personalizada. Creo que ahí está la joya."**
-
-La lógica es sencilla: si la IA puede encargarse de tareas de diseño de contenidos o corrección de formatos, el docente libera tiempo para lo que ninguna máquina puede reemplazar — **ser mentor, compartir experiencias, acompañar el proceso humano del aprendizaje**.
-
-Este cambio de rol —del docente como calificador al docente como guía— es uno de los más prometedores y, al mismo tiempo, uno de los que más requieren formación y apoyo institucional.
-
----
-
-## Diversidad de métodos de evaluación
-
-Liardi no propone un único modelo de evaluación para la era de la IA. Al contrario, su apuesta es por la **diversidad de métodos**:
-
-- Portafolios de proceso
-- Evaluaciones orales y conversacionales
-- Proyectos con componente reflexivo
-- Co-evaluación entre pares
-- Tareas abiertas que integren herramientas digitales
-
-El objetivo no es encontrar el formato "a prueba de IA", sino exponer a los estudiantes a distintas formas de demostrar su aprendizaje para que desarrollen flexibilidad:
-
-> **"Mi esperanza es que los estudiantes queden expuestos a diferentes formas de evaluación, para que puedan adoptar distintas técnicas y prácticas y convertirse en aprendices ágiles."**
-
----
-
-## Video: DEC Executive Briefing #018
-
-La conversación completa entre el Dr. Vincent Liardi y Danny Bielik (presidente del DEC) está disponible como parte del Executive Briefing #018: **The Next Era of Assessment**.
-
-{{< alert icon="play" type="info" >}}
-Puedes acceder al briefing y otros recursos en el sitio del **[Digital Education Council](https://www.digitaleducationcouncil.com/briefings-events)**.
-*(El acceso a algunos contenidos puede requerir membresía DEC.)*
-{{< /alert >}}
-
----
-
-## Implicaciones para la UdeG
-
-Para docentes de la Universidad de Guadalajara, esta perspectiva plantea preguntas concretas:
-
-{{< alert icon="graduation-cap" type="info" >}}
-**¿Qué significa "regar las plantas" en tu disciplina?** Identificar una competencia clave que quieras que tus estudiantes desarrollen, y preguntarse si el diseño de evaluación actual la cultiva o simplemente la mide.
-{{< /alert >}}
-
-Algunas pistas prácticas:
-
-1. **Audita tus evaluaciones actuales** — ¿cuántas miden memorización vs. aplicación vs. creación vs. juicio crítico?
-2. **Identifica qué puede hacer la IA por ti** — corrección de borradores, retroalimentación formativa básica, generación de rúbricas — para liberar tu tiempo hacia la mentoría.
-3. **Considera la equidad como punto de partida**, no como añadido: ¿todos tus estudiantes tienen acceso a las herramientas que supones que usan?
-4. **Diversifica formatos** — no tienes que eliminar el examen, pero incorporar al menos un instrumento alternativo por semestre amplía el repertorio de los estudiantes.
-
----
-
-## Fuente y atribución
-
-Este post es un resumen y adaptación al español con fines educativos del artículo:
-
-> **"Watering the Plants, Not Just Building Fences": Rethinking Assessment in the AI Era**
-> Digital Education Council — 7 de julio de 2025
-> [Ver artículo original →](https://www.digitaleducationcouncil.com/post/watering-the-plants-not-just-building-fences-rethinking-assessment-in-the-ai-era)
-
-Basado en el DEC Executive Briefing #018: *The Next Era of Assessment*, conversación entre **Dr. Vincent Liardi** (Global Lead for Industry Engagement & Advocacy, Pearson International) y **Danny Bielik** (Presidente, Digital Education Council).
+- Digital Education Council. (7 de julio de 2025). [“Watering the Plants, Not Just Building Fences”: Rethinking Assessment in the AI Era](https://www.digitaleducationcouncil.com/post/watering-the-plants-not-just-building-fences-rethinking-assessment-in-the-ai-era). Resumen del Executive Briefing #018 con Vincent Liardi y Daniel A. Bielik.
+- Digital Education Council. (23 de abril de 2025). [Digital Education Council Announce Strategic Partnership with Pearson to Shape the Future of Global Higher Education](https://www.digitaleducationcouncil.com/newsroom/strategic-partnership-with-pearson-to-shape-the-future-of-global-higher-education).
+- Digital Education Council y Pearson. (2025). [The Next Era of Assessment: A Global Review of AI in Assessment Design](https://www.digitaleducationcouncil.com/post/the-next-era-of-assessment-a-global-review-of-ai-in-assessment-design).
+{{< /referencias >}}

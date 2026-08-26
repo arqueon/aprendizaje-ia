@@ -1,0 +1,92 @@
+{
+  "date": "2026-08-24",
+  "method": "exact textual references to current canonical route in content/**/*.md",
+  "targets": [
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "canonical_route": "/blog/ia-generativa-evaluacion-autentica/",
+      "incoming_count": 3,
+      "incoming_files": [
+        "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+        "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
+        "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md"
+      ],
+      "outgoing_internal_routes": [
+        "/ia-educacion/guias/evaluacion-formativa-ia/",
+        "/ia-educacion/tendencias/evaluacion-en-la-era-ia/",
+        "/laboratorio/practicas/evaluacion-formativa-asistida-ia/"
+      ],
+      "incoming_occurrence_count": 3
+    },
+    {
+      "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "canonical_route": "/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/",
+      "incoming_count": 0,
+      "incoming_files": [],
+      "outgoing_internal_routes": [],
+      "incoming_occurrence_count": 0
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "canonical_route": "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/",
+      "incoming_count": 4,
+      "incoming_files": [
+        "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
+        "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+        "content/observatorio/estudios/habitar-ia-simondon/index.md"
+      ],
+      "outgoing_internal_routes": [],
+      "incoming_occurrence_count": 4
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "canonical_route": "/ia-educacion/guias/evaluacion-formativa-ia/",
+      "incoming_count": 19,
+      "incoming_files": [
+        "content/blog/ia-generativa-evaluacion-autentica/index.md",
+        "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
+        "content/formacion-docente/alfabetizacion-co-creacion/index.md",
+        "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
+        "content/formacion-docente/mapa-literacidades-ia/index.md",
+        "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+        "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
+        "content/ia-educacion/guias/abp-con-ia/index.md",
+        "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+        "content/ia-educacion/guias/integracion-curricular-ia/index.md",
+        "content/ia-educacion/guias/profesorado/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+        "content/ia-educacion/rutas/coordinacion-academica/index.md",
+        "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
+        "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
+        "content/laboratorio/practicas/abp-con-ia/index.md",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+        "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+        "content/recursos/articulos/genai-feedback-engagement-2025/index.md"
+      ],
+      "outgoing_internal_routes": [
+        "/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/",
+        "/ia-educacion/guias/abp-con-ia/",
+        "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+        "/recursos/articulos/next-era-assessment-dec/"
+      ],
+      "incoming_occurrence_count": 23
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "canonical_route": "/recursos/glosario/integridad-academica/",
+      "incoming_count": 2,
+      "incoming_files": [
+        "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
+        "content/ia-educacion/guias/lineamientos-eticos-ia/index.md"
+      ],
+      "outgoing_internal_routes": [
+        "/ia-educacion/etica-y-transparencia/",
+        "/recursos/glosario/evaluacion-autentica/"
+      ],
+      "incoming_occurrence_count": 2
+    }
+  ],
+  "incoming_count_semantics": "number of distinct active Markdown files containing the exact canonical route",
+  "incoming_occurrence_count_semantics": "number of exact textual occurrences of the canonical route across those files"
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Relación entre explicación, componente y verificación</title>
+  <desc id="desc">Tres bloques conectados de izquierda a derecha: explicar, componer y verificar.</desc>
+  <rect width="960" height="360" rx="24" fill="#f5f3ee"/>
+  <path d="M292 180h46M622 180h46" fill="none" stroke="#34508c" stroke-width="8" stroke-linecap="round"/>
+  <path d="m326 164 16 16-16 16M656 164l16 16-16 16" fill="none" stroke="#34508c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <rect x="52" y="92" width="240" height="176" rx="18" fill="#e7ecf7" stroke="#34508c" stroke-width="3"/>
+    <text x="172" y="170" font-size="28" font-weight="700" fill="#18223c">Explicar</text>
+    <text x="172" y="208" font-size="20" fill="#525d70">relación y límite</text>
+    <rect x="338" y="92" width="284" height="176" rx="18" fill="#eceddc" stroke="#68762f" stroke-width="3"/>
+    <text x="480" y="170" font-size="28" font-weight="700" fill="#18223c">Componer</text>
+    <text x="480" y="208" font-size="20" fill="#525d70">HTML semántico</text>
+    <rect x="668" y="92" width="240" height="176" rx="18" fill="#f4e6d8" stroke="#b06a1f" stroke-width="3"/>
+    <text x="788" y="170" font-size="28" font-weight="700" fill="#18223c">Verificar</text>
+    <text x="788" y="208" font-size="20" fill="#525d70">render y fallback</text>
+  </g>
+</svg>

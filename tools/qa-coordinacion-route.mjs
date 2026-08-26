@@ -67,7 +67,11 @@ async function startServer(root) {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
   await new Promise((resolve, reject) => {
@@ -212,7 +216,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
       title: document.querySelector("h1")?.textContent?.trim(),
       width: document.documentElement.clientWidth,
       scrollWidth: document.documentElement.scrollWidth,
-      cards: document.querySelectorAll("main .card-bg h5 a").length,
+      cards: document.querySelectorAll("main [data-udgia-card] h3 a").length,
       tables: document.querySelectorAll("main table").length,
       h2: document.querySelectorAll("main h2").length,
       processGraphic: document.querySelectorAll('img[src$="ciclo-coordinacion.svg"]').length,

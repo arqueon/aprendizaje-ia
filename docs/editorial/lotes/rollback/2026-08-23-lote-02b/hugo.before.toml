@@ -1,0 +1,159 @@
+baseURL = '/'
+languageCode = 'es'
+title = 'Aprendizaje Digital e IA'
+theme = 'github.com/nunocoracao/blowfish/v2'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  area = "areas"
+
+[related]
+includeNewer = true
+threshold = 45
+toLower = true
+
+[[related.indices]]
+name = "competencies"
+weight = 100
+
+[[related.indices]]
+name = "intentions"
+weight = 90
+
+[[related.indices]]
+name = "challenges"
+weight = 85
+
+[[related.indices]]
+name = "topics"
+weight = 70
+
+[[related.indices]]
+name = "audiences"
+weight = 45
+
+[[related.indices]]
+name = "content_type"
+weight = 20
+
+[params]
+colorScheme = "udgplus-c"
+# Valor técnico para controles nativos; el sitio no ofrece apariencias alternativas.
+defaultAppearance = "light"
+autoSwitchAppearance = false
+enableSearch = true
+showMermaid = true
+logo = "images/udg-logo.svg"
+mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
+
+[params.header]
+  layout = "fixed-fill-blur"
+
+[params.homepage]
+  layout = "background"
+  homepageImage = "images/hero-bg.svg"
+  showRecent = true
+  showRecentItems = 6
+  cardView = true
+  showMoreLink = true
+  showMoreLinkDest = "ia-educacion/"
+
+[params.article]
+  showMermaid = true
+  showDate = true
+  showAuthor = false
+  showHero = true
+  heroStyle = "background"
+  showReadingTime = true
+  showWordCount = false
+  showTaxonomies = true
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 5
+  showScrollToTop = true
+
+[params.list]
+  showHero = true
+  heroStyle = "big"
+  showCards = true
+  cardView = true
+  cardViewScreenWidth = false
+  showSummary = true
+  groupByYear = false
+
+[params.sidebar]
+  showSidebar = true
+  groupDepth = 2
+
+[params.footer]
+  showAppearanceSwitcher = false
+
+[params.author]
+  name = "Aprendizaje Digital e IA"
+  headline = "UDGplus"
+  links = [
+    { facebook = "https://www.facebook.com/udgplus/" },
+    { twitter = "https://x.com/UDGPlus" },
+    { instagram = "https://www.instagram.com/udgplus_oficial/" },
+    { youtube = "https://www.youtube.com/@UDGPlus_oficial" },
+    { tiktok = "https://www.tiktok.com/@udgplus" },
+  ]
+
+[menu]
+[[menu.main]]
+identifier = "ia-educacion"
+name = "IA en Educación"
+url = "/ia-educacion/"
+weight = 5
+[[menu.main]]
+identifier = "laboratorio"
+name = "Laboratorio"
+url = "/laboratorio/"
+weight = 10
+[[menu.main]]
+identifier = "observatorio"
+name = "Observatorio"
+url = "/observatorio/"
+weight = 20
+[[menu.main]]
+identifier = "recursos"
+name = "Recursos"
+url = "/recursos/"
+weight = 30
+[[menu.main]]
+identifier = "formacion-docente"
+name = "Formación Docente"
+url = "/formacion-docente/"
+weight = 40
+
+
+[[menu.main]]
+identifier = "about"
+name = "Acerca de"
+url = "/about/"
+weight = 70
+
+[[menu.footer]]
+identifier = "licencia"
+name = "Licencia (CC BY-SA 4.0)"
+url = "/licencia/"
+weight = 10
+
+[[menu.footer]]
+identifier = "about-footer"
+name = "Acerca de"
+url = "/about/"
+weight = 20
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+block = true
+[markup.goldmark.renderer]
+unsafe = true

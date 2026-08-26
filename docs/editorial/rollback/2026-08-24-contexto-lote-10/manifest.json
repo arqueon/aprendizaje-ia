@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-10",
+  "approved_by": "Rubén",
+  "approved_at": "2026-08-24T19:33:57-06:00",
+  "authorization": "borrador reversible y QA; no publicación",
+  "publication_authorized": false,
+  "production_changed": false,
+  "proposal": {
+    "conservar": 0,
+    "cambiar": 4,
+    "quitar": 0
+  },
+  "baseline": {
+    "active_sources": 164,
+    "applied_decisions": 63,
+    "pending": 101
+  },
+  "files": [
+    {
+      "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "sha256_before": "742d82427ea02bee43a038a96f1c8e019119293e647ec5dc7de465313d259bb2",
+      "bytes_before": 3439
+    },
+    {
+      "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "sha256_before": "2bfefcae6f5efa80e91267c655b1e5a5ccc7aeb10183f97b7e55da02175e36eb",
+      "bytes_before": 14799
+    },
+    {
+      "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/next-era-assessment-dec/index.md",
+      "sha256_before": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+      "bytes_before": 2967
+    },
+    {
+      "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "sha256_before": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+      "bytes_before": 8971
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/data/editorial/context-audit-decisions.json",
+      "sha256_before": "d6cb460f8be133b95a74a0444522b8aac38c864443b70621f94b8aa792d4d235",
+      "bytes_before": 86001
+    }
+  ]
+}

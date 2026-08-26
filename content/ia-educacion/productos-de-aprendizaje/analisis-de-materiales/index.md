@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo realizar un análisis de materiales con apoyo formativo de IAG, evaluando parámetros operativos de la técnica, lectura de resultados y consistencia con la teoría."
 summary: "Análisis de materiales con IAG: parámetros operativos de la técnica, hipótesis a verificar a partir de los datos y consistencia interpretativa con la teoría. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Estudiante observa tres muestras de materiales y compara sus patrones con una referencia antes de interpretar el resultado."
 tags: ["producto-aprendizaje", "bloom-4", "rubrica-iag", "ingeniería", "investigación", "materiales", "caracterización"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -138,7 +139,8 @@ materiales, ciencia de materiales.
 - Producto cercano: [Metrología con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/metrologia" >}}) — manejo de incertidumbre análogo.
 - Producto cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — marco mayor.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

@@ -1,0 +1,2711 @@
+{
+  "schemaVersion": 1,
+  "courseId": "diseno-inverso-cocreacion-ia",
+  "status": "local-candidate-not-published",
+  "source": {
+    "format": "Articulate Rise web export",
+    "package": "diseno-inverso-y-cocreacion-con-ia-para-aprendizaje-activo-e-hibrido-raw-28ezk9aB.zip",
+    "sha256": "2fa5079a75b32f64d68a830a19ec386cc1f66eb16be6887b5a8fcf2ca4c73a2d",
+    "lessonCount": 13,
+    "nativeInteractiveCount": 56,
+    "h5pCandidateCount": 56
+  },
+  "policy": {
+    "principle": "El componente más simple que conserva la intención pedagógica.",
+    "access": "Abierto, sin cuenta, sin calificación y sin persistencia de intentos.",
+    "publicationAuthorized": false,
+    "productionRule": "Solo las 30 prácticas de selección conservan candidatura H5P. Las demás permanecen en HTML nativo; ninguna decisión autoriza empaquetado, publicación, Moodle ni despliegue.",
+    "eligibleCount": 30,
+    "deferredCount": 0,
+    "nativeHtmlPreferredCount": 26
+  },
+  "libraryPolicies": {
+    "H5P.Dialogcards": {
+      "status": "native-html-preferred",
+      "catalogEvidence": [],
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime."
+    },
+    "H5P.MultiChoice": {
+      "status": "eligible-separate-production-gate",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios."
+    },
+    "H5P.Blanks": {
+      "status": "native-html-preferred",
+      "catalogEvidence": [],
+      "rationale": "Completar una respuesta breve en las propias notas y contrastarla después conserva la intención sin calificación, persistencia ni una biblioteca adicional."
+    },
+    "H5P.DragText": {
+      "status": "native-html-preferred",
+      "catalogEvidence": [],
+      "rationale": "El pareo se resuelve con dos listas identificadas y una solución razonada. La alternativa lineal conserva la decisión sin depender de arrastre."
+    },
+    "H5P.SortParagraphs": {
+      "status": "native-html-preferred",
+      "catalogEvidence": [],
+      "rationale": "La clasificación se resuelve con un banco de elementos, categorías visibles y solución razonada; el HTML nativo conserva la práctica y el teclado."
+    }
+  },
+  "candidates": {
+    "l01-h5p-01": {
+      "lesson": 1,
+      "sequence": 1,
+      "lessonSlug": "01-panorama-activo-hibrido",
+      "title": "Tarjetas de Repaso: Aprendizaje Activo e Híbrido",
+      "sourceBlockId": "c56f39cd-e23e-4e93-b131-e3f2520dd461",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Aprendizaje activo",
+            "answer": "Estrategia donde el estudiantado participa activamente en la construcción de su conocimiento, más allá de recibir información."
+          },
+          {
+            "prompt": "Aprendizaje híbrido",
+            "answer": "Modelo que combina experiencias presenciales y virtuales, asignando cada actividad al canal más adecuado para su propósito."
+          },
+          {
+            "prompt": "Ver un video en casa",
+            "answer": "No es aprendizaje activo a menos que se acompañe de predicción, análisis o aplicación."
+          },
+          {
+            "prompt": "Debate estructurado en clase",
+            "answer": "Es aprendizaje activo cuando exige contrastar y construir argumentos; será además híbrido solo si conecta de forma intencional momentos presenciales y en línea."
+          },
+          {
+            "prompt": "Tomar notas pasivamente",
+            "answer": "No es aprendizaje activo si solo se copia información sin manipularla o cuestionarla."
+          }
+        ]
+      }
+    },
+    "l01-h5p-02": {
+      "lesson": 1,
+      "sequence": 2,
+      "lessonSlug": "01-panorama-activo-hibrido",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+      "sourceBlockId": "78167ad1-33c5-4b7c-9282-2199153a086a",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+        "options": [
+          {
+            "text": "Adoptar una nueva herramienta digital sin modificar la secuencia didáctica",
+            "correct": false,
+            "feedback": "Considera la herramienta, pero no implica un diseño intencional ni adaptación al contexto."
+          },
+          {
+            "text": "Diseñar actividades alineadas con resultados de aprendizaje y ajustar estrategias según el grupo",
+            "correct": true,
+            "feedback": "Correcto. Refleja agencia docente al planificar, adaptar y evaluar de manera consciente."
+          },
+          {
+            "text": "Permitir que la IA decida los criterios de evaluación sin supervisión",
+            "correct": false,
+            "feedback": "Delegar decisiones clave a la IA sin supervisión compromete la integridad académica."
+          },
+          {
+            "text": "Repetir la misma clase magistral en formato presencial y virtual",
+            "correct": false,
+            "feedback": "No hay adaptación ni aprovechamiento de las ventajas del entorno híbrido."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l02-h5p-01": {
+      "lesson": 2,
+      "sequence": 1,
+      "lessonSlug": "02-introduccion-diseno-inverso",
+      "title": "¿Esto es diseño inverso?",
+      "sourceBlockId": "da30eb4f-2169-4cf2-8eed-c2df1fe110bd",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Quiero usar Kahoot",
+            "answer": "No es diseño inverso: parte de la herramienta, no del resultado de aprendizaje."
+          },
+          {
+            "prompt": "Defino primero el producto final",
+            "answer": "Sí es diseño inverso: comienza por la evidencia que demostrará el aprendizaje."
+          },
+          {
+            "prompt": "Empiezo por los criterios de evaluación",
+            "answer": "Depende: definir criterios es central en el diseño inverso, pero deben derivarse de los resultados y de la evidencia. Empezar por ellos sin un resultado claro invierte el orden."
+          },
+          {
+            "prompt": "Diseño una actividad porque es divertida",
+            "answer": "No es diseño inverso: la diversión es valiosa, pero debe estar alineada con los objetivos de aprendizaje."
+          },
+          {
+            "prompt": "Solicito a la IA una actividad sin contexto",
+            "answer": "No es diseño inverso: delegar el punto de partida a la IA sin definir resultados ni criterios genera actividades genéricas."
+          }
+        ]
+      }
+    },
+    "l02-h5p-02": {
+      "lesson": 2,
+      "sequence": 2,
+      "lessonSlug": "02-introduccion-diseno-inverso",
+      "title": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+      "sourceBlockId": "e2505fd5-7e8a-47fe-b54c-339f2b2a05a3",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+        "options": [
+          {
+            "text": "Seleccionar primero la herramienta digital que se usará en clase",
+            "correct": false,
+            "feedback": "Esta opción se enfoca en la herramienta antes que en los objetivos de aprendizaje, lo cual no es coherente con el diseño inverso."
+          },
+          {
+            "text": "Definir los resultados de aprendizaje y luego planear las evidencias y actividades",
+            "correct": true,
+            "feedback": "Esta es la lógica central del diseño inverso: comenzar por los resultados de aprendizaje y luego planificar las evidencias y actividades en función de ellos."
+          },
+          {
+            "text": "Elegir un tema interesante y diseñar actividades a partir de él",
+            "correct": false,
+            "feedback": "Elegir un tema interesante no garantiza que se parta de los resultados de aprendizaje, por lo que no sigue la lógica del diseño inverso."
+          },
+          {
+            "text": "Pedir a la IA que genere una actividad sin especificar objetivos",
+            "correct": false,
+            "feedback": "Generar actividades sin definir objetivos de aprendizaje no sigue el enfoque del diseño inverso."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l03-h5p-01": {
+      "lesson": 3,
+      "sequence": 1,
+      "lessonSlug": "03-literacidades-ia",
+      "title": "Tarjetas sobre tipos de literacidad en el uso de IA",
+      "sourceBlockId": "7c61263e-0d04-49b3-a587-758de8edc6b7",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Usar IA para resumir textos",
+            "answer": "Literacidad operativa: implica saber utilizar funciones básicas de la herramienta para tareas concretas."
+          },
+          {
+            "prompt": "Evaluar críticamente la respuesta de la IA",
+            "answer": "Literacidad crítica: requiere analizar, cuestionar y verificar la información generada por la IA."
+          },
+          {
+            "prompt": "Colaborar con IA en el diseño de actividades",
+            "answer": "Literacidad de cocreación: se basa en trabajar junto a la IA para crear soluciones educativas, combinando juicio humano y capacidades de la máquina."
+          },
+          {
+            "prompt": "Ajustar un prompt para obtener mejores resultados",
+            "answer": "Literacidad operativa: demuestra habilidad para interactuar técnicamente con la IA y optimizar su uso."
+          },
+          {
+            "prompt": "Decidir cuándo no usar IA",
+            "answer": "Literacidad de cocreación: conservar la dirección del trabajo incluye decidir si la herramienta aporta algo o conviene prescindir de ella."
+          }
+        ]
+      }
+    },
+    "l03-h5p-02": {
+      "lesson": 3,
+      "sequence": 2,
+      "lessonSlug": "03-literacidades-ia",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+      "sourceBlockId": "bf31a648-1b2f-4ac4-929d-604ca66132ea",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+        "options": [
+          {
+            "text": "Utilizar IA para corregir ortografía en un texto",
+            "correct": false,
+            "feedback": "Corregir ortografía con IA es un uso funcional, pero no implica cocreación ni reflexión ética."
+          },
+          {
+            "text": "Verificar la información generada por la IA con fuentes externas",
+            "correct": false,
+            "feedback": "Verificar información es importante, pero no constituye cocreación, ya que no hay colaboración activa con la IA."
+          },
+          {
+            "text": "Colaborar con la IA para diseñar una actividad, evaluando y adaptando sus propuestas de forma ética",
+            "correct": true,
+            "feedback": "Esta opción implica cocreación, ya que se trabaja activamente con la IA, evaluando y adaptando sus propuestas de manera ética."
+          },
+          {
+            "text": "Ajustar un prompt para obtener una respuesta más precisa",
+            "correct": false,
+            "feedback": "Ajustar un prompt mejora la interacción, pero no necesariamente implica cocreación ni reflexión ética."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l04-h5p-01": {
+      "lesson": 4,
+      "sequence": 1,
+      "lessonSlug": "04-cocreacion-persona-ia",
+      "title": "Modos de intervención: ¿Cuál es cuál?",
+      "sourceBlockId": "3e636300-4a96-4352-a8dc-dde2cd51f6cc",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "IA genera rúbrica, docente revisa",
+            "answer": "Guiado por retroalimentación; combina eficiencia con control humano, considerado buena práctica."
+          },
+          {
+            "prompt": "Docente y IA alternan propuestas y validaciones",
+            "answer": "Copiloto; validación paso a paso, ideal para materiales que verán estudiantes."
+          },
+          {
+            "prompt": "IA diseña toda la actividad sin revisión",
+            "answer": "Autónomo; no recomendado para uso real, solo para prototipos rápidos."
+          },
+          {
+            "prompt": "Docente entrega contexto, IA genera borrador",
+            "answer": "Guiado por contexto; mejora la relevancia, pero requiere revisión y ajuste humano."
+          }
+        ]
+      }
+    },
+    "l04-h5p-02": {
+      "lesson": 4,
+      "sequence": 2,
+      "lessonSlug": "04-cocreacion-persona-ia",
+      "title": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+      "sourceBlockId": "7e32bc50-fb33-4d4c-b847-17f9adc20865",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+        "options": [
+          {
+            "text": "La IA diseña toda la actividad y se usa sin revisión humana",
+            "correct": false,
+            "feedback": "Esta opción omite la validación humana, lo que puede comprometer la calidad y la pertinencia del diseño."
+          },
+          {
+            "text": "El docente revisa y valida cada propuesta de la IA, documentando el proceso",
+            "correct": true,
+            "feedback": "¡Correcto! La cocreación efectiva requiere revisión, validación y documentación por parte del docente."
+          },
+          {
+            "text": "El docente acepta la primera propuesta de la IA sin cambios",
+            "correct": false,
+            "feedback": "Aceptar sin revisión puede llevar a errores y pérdida de agencia profesional."
+          },
+          {
+            "text": "Se utiliza la IA solo para generar materiales, sin definir objetivos ni criterios",
+            "correct": false,
+            "feedback": "Usar la IA sin objetivos claros ni criterios definidos limita la alineación y el valor educativo."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l05-h5p-01": {
+      "lesson": 5,
+      "sequence": 1,
+      "lessonSlug": "05-contexto-diagnostico",
+      "title": "Escenarios de perfil estudiantil",
+      "sourceBlockId": "cc637c4f-c3d8-4562-acc5-7432fe6e869d",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Experiencia en foros virtuales",
+            "answer": "Habilidad previa; permite diseñar actividades colaborativas en línea aprovechando la familiaridad del grupo con estas herramientas."
+          },
+          {
+            "prompt": "Baja confianza en matemáticas",
+            "answer": "Obstáculo o concepción errónea; sugiere la necesidad de apoyos adicionales o estrategias para fortalecer la autoconfianza."
+          },
+          {
+            "prompt": "Interés alto en temas sociales",
+            "answer": "Intereses y experiencias; facilita la selección de ejemplos y problemas contextualizados para aumentar la motivación."
+          },
+          {
+            "prompt": "Conocimiento previo de teorías básicas",
+            "answer": "Conocimiento previo; permite avanzar hacia aplicaciones más complejas sin repetir contenidos elementales."
+          }
+        ]
+      }
+    },
+    "l05-h5p-02": {
+      "lesson": 5,
+      "sequence": 2,
+      "lessonSlug": "05-contexto-diagnostico",
+      "title": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+      "sourceBlockId": "f32f343c-20a7-4049-97d9-e37ad1f72104",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+        "options": [
+          {
+            "text": "Usar la IA para inventar un perfil estudiantil sin datos reales",
+            "correct": false,
+            "feedback": "Inventar perfiles sin datos reales puede llevar a diagnósticos incorrectos y no es un uso apropiado de la IA."
+          },
+          {
+            "text": "Delegar todo el diagnóstico a la IA sin revisión",
+            "correct": false,
+            "feedback": "La IA debe ser una herramienta de apoyo, pero siempre requiere revisión y validación humana."
+          },
+          {
+            "text": "Utilizar la IA para generar preguntas diagnósticas y validarlas con datos reales del grupo",
+            "correct": true,
+            "feedback": "Esta es la opción correcta porque la IA puede ayudar a generar instrumentos, pero deben ser validados y ajustados con datos reales y considerando la equidad."
+          },
+          {
+            "text": "Ignorar las condiciones de equidad al usar IA",
+            "correct": false,
+            "feedback": "Ignorar la equidad puede perpetuar desigualdades y no es un uso apropiado de la IA."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l06-h5p-01": {
+      "lesson": 6,
+      "sequence": 1,
+      "lessonSlug": "06-resultados-aprendizaje",
+      "title": "¿Esto es un resultado observable?",
+      "sourceBlockId": "8a3276d2-e42b-4464-8ef1-d2b4b89d3b0a",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Conocer el concepto X",
+            "answer": "No es observable; no indica cómo se demostrará el aprendizaje."
+          },
+          {
+            "prompt": "Explicar cómo X afecta Y en contexto Z",
+            "answer": "Sí es observable; requiere una explicación concreta y contextualizada."
+          },
+          {
+            "prompt": "Comprender la importancia de Y",
+            "answer": "No es observable; no especifica una acción demostrable."
+          },
+          {
+            "prompt": "Aplicar el modelo X en un caso real",
+            "answer": "Sí es observable; implica el uso del modelo en una situación concreta."
+          }
+        ]
+      }
+    },
+    "l06-h5p-02": {
+      "lesson": 6,
+      "sequence": 2,
+      "lessonSlug": "06-resultados-aprendizaje",
+      "title": "¿Verbo observable o verbo vago?",
+      "sourceBlockId": "8c24a5da-542f-4422-b581-27b6d1278ff8",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Identificar",
+            "answer": "Observable; implica reconocer o señalar elementos específicos."
+          },
+          {
+            "prompt": "Comprender",
+            "answer": "Vago; no especifica una acción demostrable."
+          },
+          {
+            "prompt": "Evaluar",
+            "answer": "Observable; requiere emitir un juicio con criterios y evidencia."
+          },
+          {
+            "prompt": "Aprender a…",
+            "answer": "Vago; no indica cómo se evidenciará el aprendizaje."
+          },
+          {
+            "prompt": "Explicar",
+            "answer": "Observable; implica una exposición clara y argumentada."
+          }
+        ]
+      }
+    },
+    "l06-h5p-03": {
+      "lesson": 6,
+      "sequence": 3,
+      "lessonSlug": "06-resultados-aprendizaje",
+      "title": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+      "sourceBlockId": "7b1f7740-f8e6-41de-9130-bb6c4535db28",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+        "options": [
+          {
+            "text": "A. Comprender la importancia de la resiliencia en comunidades vulnerables.",
+            "correct": false,
+            "feedback": "Este enunciado usa un verbo vago y no especifica una acción observable."
+          },
+          {
+            "text": "B. El estudiante identificará los conceptos clave del modelo X en una lista.",
+            "correct": false,
+            "feedback": "Aunque es observable, no incluye contexto ni criterio de calidad."
+          },
+          {
+            "text": "C. El estudiante analizará el riesgo de dos comunidades ante una ola de calor, utilizando datos de amenaza, exposición y vulnerabilidad, y justificará su conclusión con al menos tres evidencias pertinentes.",
+            "correct": true,
+            "feedback": "Correcto: es observable, alineado y especifica verbo, objeto, condición y criterio."
+          },
+          {
+            "text": "D. El estudiante aprenderá sobre los factores de riesgo en casos de desastres.",
+            "correct": false,
+            "feedback": "El verbo 'aprender' es vago y no permite evaluar el aprendizaje."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l07-h5p-01": {
+      "lesson": 7,
+      "sequence": 1,
+      "lessonSlug": "07-evidencias-criterios",
+      "title": "¿Directa, indirecta o auténtica?",
+      "sourceBlockId": "536002a9-2732-48ce-ba4f-df93d10eb97f",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Examen de opción múltiple",
+            "answer": "En la mayoría de los casos, es una evidencia directa, ya que evalúa conocimientos específicos, aunque suele ser limitada en profundidad."
+          },
+          {
+            "prompt": "Propuesta de intervención fundamentada",
+            "answer": "Es una evidencia auténtica y directa, pues requiere aplicar conocimientos y justificar decisiones en un contexto real o simulado."
+          },
+          {
+            "prompt": "Registro de participación en foros",
+            "answer": "Se considera evidencia indirecta, ya que indica actividad o presencia, pero no garantiza aprendizaje profundo."
+          },
+          {
+            "prompt": "Análisis de datos de un caso",
+            "answer": "Es una evidencia directa y puede ser auténtica si el caso es relevante y realista."
+          },
+          {
+            "prompt": "Encuesta de percepción de aprendizaje",
+            "answer": "Es una evidencia indirecta, útil como complemento, pero insuficiente como base principal de evaluación."
+          }
+        ]
+      }
+    },
+    "l07-h5p-02": {
+      "lesson": 7,
+      "sequence": 2,
+      "lessonSlug": "07-evidencias-criterios",
+      "title": "¿Es suficiente la evidencia en un entorno con IA?",
+      "sourceBlockId": "47d195ce-7f07-4735-bcbf-b54a4e658f6b",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Ensayo escrito en casa sin anclajes",
+            "answer": "No es suficiente, ya que puede ser generado íntegramente por IA sin demostrar aprendizaje real."
+          },
+          {
+            "prompt": "Producto basado en datos de sesión",
+            "answer": "Es robusto, porque utiliza información trabajada en clase que la IA no conoce por sí sola."
+          },
+          {
+            "prompt": "Defensa oral de una propuesta",
+            "answer": "Es adecuado, pues exige argumentar y responder en tiempo real, dificultando la delegación total a la IA."
+          },
+          {
+            "prompt": "Bitácora de decisiones y versiones",
+            "answer": "Es una evidencia sólida, ya que muestra el proceso y la evolución del pensamiento del estudiante."
+          },
+          {
+            "prompt": "Encuesta de percepción sobre el tema",
+            "answer": "No es suficiente, ya que solo refleja opiniones o sensaciones, no el aprendizaje alcanzado."
+          }
+        ]
+      }
+    },
+    "l07-h5p-03": {
+      "lesson": 7,
+      "sequence": 3,
+      "lessonSlug": "07-evidencias-criterios",
+      "title": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en un contexto con IA?",
+      "sourceBlockId": "c37512b5-443c-4725-8846-47a03256be3b",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en un contexto con IA?",
+        "options": [
+          {
+            "text": "Ensayo escrito en casa sin anclajes",
+            "correct": false,
+            "feedback": "Un ensayo escrito en casa puede ser fácilmente realizado por una IA, lo que dificulta asegurar la autenticidad del aprendizaje."
+          },
+          {
+            "text": "Cuestionario de opción múltiple sobre conceptos",
+            "correct": false,
+            "feedback": "Un cuestionario de opción múltiple evalúa conocimientos básicos, pero no necesariamente la justificación de una intervención ni la autenticidad del proceso."
+          },
+          {
+            "text": "Análisis de caso usando datos de la sesión y defensa oral",
+            "correct": true,
+            "feedback": "Esta opción es la más robusta porque combina el uso de datos trabajados en clase con una defensa oral, dificultando la delegación total a la IA y asegurando la autenticidad del aprendizaje."
+          },
+          {
+            "text": "Registro de participación en foros",
+            "correct": false,
+            "feedback": "El registro de participación en foros puede ser manipulado o realizado por una IA, y no necesariamente evidencia la justificación de una intervención."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l08-h5p-01": {
+      "lesson": 8,
+      "sequence": 1,
+      "lessonSlug": "08-secuencias-activas-hibridas",
+      "title": "¿En qué fase ubicarías esta actividad?",
+      "sourceBlockId": "a41c9634-e54d-4ac1-ab53-99bfc72eda61",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Análisis de un caso en equipo",
+            "answer": "En la fase de \"Hacer\": aquí se promueve la interacción, la aplicación y la construcción colectiva del conocimiento."
+          },
+          {
+            "prompt": "Lectura breve con pregunta de predicción",
+            "answer": "En la fase de \"Activar\": se utiliza para despertar interés y activar conocimientos previos antes de la sesión."
+          },
+          {
+            "prompt": "Revisión y mejora de un producto",
+            "answer": "En la fase de \"Integrar\": corresponde al momento de consolidación, reflexión y transferencia del aprendizaje."
+          },
+          {
+            "prompt": "Simulación con roles en clase",
+            "answer": "En la fase de \"Hacer\": fomenta la participación activa y la toma de decisiones en tiempo real."
+          },
+          {
+            "prompt": "Foro de reflexión sobre estrategias usadas",
+            "answer": "En la fase de \"Integrar\": permite analizar el proceso y reconocer aprendizajes y retos."
+          }
+        ]
+      }
+    },
+    "l08-h5p-02": {
+      "lesson": 8,
+      "sequence": 2,
+      "lessonSlug": "08-secuencias-activas-hibridas",
+      "title": "Clasifica cada ejemplo según el modo ICAP",
+      "sourceBlockId": "84a7ca48-3200-48c8-aa92-8aa92d0c8090",
+      "sourceFamily": "sorting",
+      "sourceType": "sorting",
+      "proposedLibrary": "H5P.SortParagraphs",
+      "decision": "native-html-preferred",
+      "rationale": "La clasificación se resuelve con un banco de elementos, categorías visibles y solución razonada; el HTML nativo conserva la práctica y el teclado.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "sorting",
+        "instruction": "Clasifica primero cada elemento por tu cuenta y abre después la solución agrupada.",
+        "groups": [
+          {
+            "title": "Pasivo",
+            "items": [
+              "Ver un video sin pausa"
+            ]
+          },
+          {
+            "title": "Activo",
+            "items": [
+              "Completar un cuestionario de opción múltiple",
+              "Tomar notas durante una lectura"
+            ]
+          },
+          {
+            "title": "Constructivo",
+            "items": [
+              "Explicar un concepto con palabras propias"
+            ]
+          },
+          {
+            "title": "Interactivo",
+            "items": [
+              "Defender una propuesta en debate",
+              "Contrastar argumentos en equipo"
+            ]
+          }
+        ],
+        "itemsPool": [
+          "Contrastar argumentos en equipo",
+          "Ver un video sin pausa",
+          "Explicar un concepto con palabras propias",
+          "Tomar notas durante una lectura",
+          "Defender una propuesta en debate",
+          "Completar un cuestionario de opción múltiple"
+        ]
+      }
+    },
+    "l08-h5p-03": {
+      "lesson": 8,
+      "sequence": 3,
+      "lessonSlug": "08-secuencias-activas-hibridas",
+      "title": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+      "sourceBlockId": "306878ef-62f8-4277-b146-8efebb3c15b9",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+        "options": [
+          {
+            "text": "Se duplican todas las actividades en modalidad presencial y virtual para asegurar cobertura.",
+            "correct": false,
+            "feedback": "Duplicar actividades en ambas modalidades no garantiza una experiencia de aprendizaje efectiva y puede generar redundancia y sobrecarga para los estudiantes."
+          },
+          {
+            "text": "El docente expone el contenido en ambos canales y los estudiantes escuchan.",
+            "correct": false,
+            "feedback": "Una secuencia activa e híbrida bien diseñada debe priorizar la participación activa de los estudiantes, no solo la exposición pasiva del contenido."
+          },
+          {
+            "text": "Se distribuyen intencionalmente los momentos asincrónicos y sincrónicos, priorizando la interacción, la equidad y la participación activa.",
+            "correct": true,
+            "feedback": "Esta opción refleja una secuencia bien diseñada, ya que equilibra los momentos de aprendizaje y promueve la participación activa, la equidad y la interacción."
+          },
+          {
+            "text": "Se asignan tareas extensas fuera de clase sin estimar la carga de trabajo.",
+            "correct": false,
+            "feedback": "Asignar tareas extensas sin considerar la carga de trabajo puede afectar negativamente la motivación y el aprendizaje de los estudiantes."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l09-h5p-01": {
+      "lesson": 9,
+      "sequence": 1,
+      "lessonSlug": "09-analisis-casos",
+      "title": "Tarjetas de Conceptos Fundamentales: Amenaza, Exposición, Vulnerabilidad y Capacidad de Respuesta",
+      "sourceBlockId": "9c16f16e-aadb-4815-8c20-57f96e384f5e",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Ola de calor intensa",
+            "answer": "Ejemplo de amenaza: se refiere al evento potencialmente dañino que puede afectar a la comunidad."
+          },
+          {
+            "prompt": "Alta proporción de adultos mayores",
+            "answer": "Ejemplo de exposición: indica cuántas personas o bienes pueden verse afectados por la amenaza."
+          },
+          {
+            "prompt": "Viviendas mal aisladas y sin sombra",
+            "answer": "Vulnerabilidad"
+          },
+          {
+            "prompt": "Red de voluntariado activa",
+            "answer": "Ejemplo de capacidad de respuesta: representa los recursos y acciones disponibles para enfrentar la amenaza."
+          }
+        ]
+      }
+    },
+    "l09-h5p-02": {
+      "lesson": 9,
+      "sequence": 2,
+      "lessonSlug": "09-analisis-casos",
+      "title": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que la otra?",
+      "sourceBlockId": "c14ef1c8-948e-424e-b67d-1bb147b22ab8",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que la otra?",
+        "options": [
+          {
+            "text": "Solo la intensidad de la amenaza",
+            "correct": false,
+            "feedback": "La amenaza es importante, pero no explica todo el riesgo. Otros factores también influyen en el nivel de riesgo."
+          },
+          {
+            "text": "El tamaño de la población",
+            "correct": false,
+            "feedback": "El tamaño influye, pero no es el único factor relevante. Hay otros componentes que deben considerarse."
+          },
+          {
+            "text": "Solo la vulnerabilidad",
+            "correct": false,
+            "feedback": "La vulnerabilidad es clave, pero debe analizarse junto a los otros componentes para entender el riesgo completo."
+          },
+          {
+            "text": "La combinación de los cuatro componentes con datos pertinentes",
+            "correct": true,
+            "feedback": "¡Correcto! El riesgo depende de cómo interactúan amenaza, exposición, vulnerabilidad y capacidad de respuesta."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l09-h5p-03": {
+      "lesson": 9,
+      "sequence": 3,
+      "lessonSlug": "09-analisis-casos",
+      "title": "¿Caso disciplinarmente válido o no?",
+      "sourceBlockId": "169e30ba-979e-4c0d-b803-d3dc141e59f6",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Comunidad con 100% adultos mayores y cero acceso a agua",
+            "answer": "No es válido: es improbable y poco realista; requiere ajuste para reflejar situaciones plausibles."
+          },
+          {
+            "prompt": "Comunidad con ola de calor de 40°C, 30% adultos mayores, y dos centros de atención",
+            "answer": "Válido: los datos son consistentes y reflejan un escenario posible para el análisis de riesgo."
+          },
+          {
+            "prompt": "Comunidad con amenaza baja pero alta vulnerabilidad y exposición",
+            "answer": "Válido: permite analizar cómo el riesgo puede ser alto incluso si la amenaza es moderada, gracias a otros factores."
+          },
+          {
+            "prompt": "Comunidad con todos los factores en nivel máximo",
+            "answer": "No es válido: escenarios extremos y poco frecuentes suelen ser poco útiles para el aprendizaje auténtico."
+          }
+        ]
+      }
+    },
+    "l10-h5p-01": {
+      "lesson": 10,
+      "sequence": 1,
+      "lessonSlug": "10-limitaciones-analisis",
+      "title": "Diferentes tipos de limitaciones",
+      "sourceBlockId": "399bbd22-ba07-465c-b8ed-9c1c1d20431e",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Falta de datos locales: no se dispone de información sobre la infraestructura local.",
+            "answer": "Esto es información faltante y puede afectar la viabilidad de una propuesta."
+          },
+          {
+            "prompt": "Suposición de acceso universal: se asume que todo el estudiantado tiene acceso a internet.",
+            "answer": "Esto es una suposición que puede no cumplirse en la realidad."
+          },
+          {
+            "prompt": "Incertidumbre sobre la reacción: no se sabe cómo responderá la comunidad a la intervención.",
+            "answer": "Esto representa incertidumbre y debe ser reconocido en el análisis."
+          },
+          {
+            "prompt": "Datos desactualizados: se utilizan estadísticas de hace cinco años.",
+            "answer": "Esto es información faltante o incierta, ya que la situación actual puede haber cambiado."
+          },
+          {
+            "prompt": "Generalización de experiencias previas: se parte de que lo que funcionó en otro grupo funcionará aquí.",
+            "answer": "Esto es una suposición que debe ser cuestionada."
+          }
+        ]
+      }
+    },
+    "l10-h5p-02": {
+      "lesson": 10,
+      "sequence": 2,
+      "lessonSlug": "10-limitaciones-analisis",
+      "title": "¿Reflexión genuina o superficial sobre limitaciones?",
+      "sourceBlockId": "682020d2-7d0d-4781-8d66-94073a6ab249",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Reconocimiento explícito de incertidumbre: «No tengo información de X, por lo que mi recomendación podría no ser adecuada».",
+            "answer": "Esto demuestra reflexión genuina y conciencia crítica."
+          },
+          {
+            "prompt": "Declaración vaga sin análisis: «No sé todo, pero igual recomiendo lo que sea».",
+            "answer": "Esta respuesta es superficial y no aporta valor al análisis."
+          },
+          {
+            "prompt": "Identificación de suposiciones clave: «Asumo que todo el estudiantado tiene acceso a internet; si no es así, la estrategia debe ajustarse».",
+            "answer": "Esto es una reflexión auténtica sobre una suposición relevante."
+          },
+          {
+            "prompt": "Omisión de límites por temor: «Prefiero no mencionar lo que no sé para no perder puntos».",
+            "answer": "Esta actitud refleja una falta de reflexión y honestidad."
+          },
+          {
+            "prompt": "Análisis del impacto de información faltante: «La falta de datos sobre infraestructura limita la precisión de la propuesta y debe considerarse en la toma de decisiones».",
+            "answer": "Esto es una reflexión genuina y valiosa."
+          }
+        ]
+      }
+    },
+    "l10-h5p-03": {
+      "lesson": 10,
+      "sequence": 3,
+      "lessonSlug": "10-limitaciones-analisis",
+      "title": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el análisis de un caso?",
+      "sourceBlockId": "cbedbeac-b579-476b-9095-06ac674e126e",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el análisis de un caso?",
+        "options": [
+          {
+            "text": "Ignorar las limitaciones para no complicar el análisis",
+            "correct": false,
+            "feedback": "Ignorar las limitaciones puede llevar a conclusiones erróneas y no permite mejorar el análisis."
+          },
+          {
+            "text": "Mencionar límites solo como formalidad sin análisis",
+            "correct": false,
+            "feedback": "Mencionar limitaciones sin analizarlas no contribuye a una reflexión profunda ni a la mejora del análisis."
+          },
+          {
+            "text": "Penalizar la incertidumbre en la evaluación",
+            "correct": false,
+            "feedback": "Penalizar la incertidumbre desalienta la reflexión crítica y el reconocimiento de las limitaciones inherentes a cualquier análisis."
+          },
+          {
+            "text": "Reconocer explícitamente las limitaciones, justificar decisiones ante ellas y usarlas para mejorar el análisis",
+            "correct": true,
+            "feedback": "Esta opción representa una integración efectiva, ya que implica identificar, justificar y aprovechar las limitaciones para fortalecer el análisis y la toma de decisiones."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l11-h5p-01": {
+      "lesson": 11,
+      "sequence": 1,
+      "lessonSlug": "11-priorizar-intervenciones",
+      "title": "¿Es este un criterio válido para priorizar?",
+      "sourceBlockId": "9dd42fc5-d37a-4d58-a6e9-463bd943ed51",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "La propuesta es novedosa",
+            "answer": "La novedad no garantiza relevancia ni impacto; no es un criterio suficiente por sí solo."
+          },
+          {
+            "prompt": "Se relaciona con el diagnóstico del caso",
+            "answer": "Sí, un criterio clave: la intervención debe responder al problema identificado."
+          },
+          {
+            "prompt": "Es fácil de implementar",
+            "answer": "La facilidad puede ser un valor, pero solo si también hay pertinencia y evidencia de impacto."
+          },
+          {
+            "prompt": "Tiene respaldo en datos del grupo",
+            "answer": "Sí, la evidencia contextual es fundamental para priorizar de manera responsable."
+          }
+        ]
+      }
+    },
+    "l11-h5p-02": {
+      "lesson": 11,
+      "sequence": 2,
+      "lessonSlug": "11-priorizar-intervenciones",
+      "title": "¿Pertinencia, viabilidad, ambas o ninguna?",
+      "sourceBlockId": "5fe6ec2d-f403-4431-a227-59ef4e01cda8",
+      "sourceFamily": "sorting",
+      "sourceType": "sorting",
+      "proposedLibrary": "H5P.SortParagraphs",
+      "decision": "native-html-preferred",
+      "rationale": "La clasificación se resuelve con un banco de elementos, categorías visibles y solución razonada; el HTML nativo conserva la práctica y el teclado.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "sorting",
+        "instruction": "Clasifica primero cada elemento por tu cuenta y abre después la solución agrupada.",
+        "groups": [
+          {
+            "title": "Pertinencia",
+            "items": [
+              "Propuesta alineada con el diagnóstico pero requiere tecnología inaccesible"
+            ]
+          },
+          {
+            "title": "Viabilidad",
+            "items": [
+              "Alternativa fácil de implementar pero poco relevante para el problema"
+            ]
+          },
+          {
+            "title": "Ambas",
+            "items": [
+              "Intervención respaldada por datos y viable en el contexto actual"
+            ]
+          },
+          {
+            "title": "Ninguna",
+            "items": [
+              "Acción innovadora sin relación con las necesidades detectadas"
+            ]
+          }
+        ],
+        "itemsPool": [
+          "Acción innovadora sin relación con las necesidades detectadas",
+          "Intervención respaldada por datos y viable en el contexto actual",
+          "Propuesta alineada con el diagnóstico pero requiere tecnología inaccesible",
+          "Alternativa fácil de implementar pero poco relevante para el problema"
+        ]
+      }
+    },
+    "l11-h5p-03": {
+      "lesson": 11,
+      "sequence": 3,
+      "lessonSlug": "11-priorizar-intervenciones",
+      "title": "¿Argumento sólido o débil para priorizar una intervención?",
+      "sourceBlockId": "9ddd9b5a-ab32-479d-8b9c-9cd9de2c0b84",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Es la opción más rápida",
+            "answer": "Débil: la rapidez no garantiza pertinencia ni impacto si no responde al diagnóstico."
+          },
+          {
+            "prompt": "Responde al diagnóstico y tiene respaldo en datos",
+            "answer": "Sólido: conecta la intervención con la necesidad identificada y la evidencia disponible."
+          },
+          {
+            "prompt": "Fue sugerida por la IA sin revisión",
+            "answer": "Débil: toda propuesta de IA debe ser validada y contextualizada por el docente."
+          },
+          {
+            "prompt": "Considera la equidad y la viabilidad contextual",
+            "answer": "Sólido: integra criterios clave para una decisión responsable y justa."
+          }
+        ]
+      }
+    },
+    "l11-h5p-04": {
+      "lesson": 11,
+      "sequence": 4,
+      "lessonSlug": "11-priorizar-intervenciones",
+      "title": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación robusta y contextualizada?",
+      "sourceBlockId": "cbd472b9-9ba6-40d2-9535-c83f1102dcb5",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación robusta y contextualizada?",
+        "options": [
+          {
+            "text": "Elegir la alternativa más innovadora sin analizar el contexto",
+            "correct": false,
+            "feedback": "Seleccionar una alternativa solo por su innovación, sin considerar el contexto, puede llevar a soluciones inapropiadas o ineficaces."
+          },
+          {
+            "text": "Justificar la recomendación con criterios explícitos, evidencia y viabilidad contextual",
+            "correct": true,
+            "feedback": "Esta opción asegura que la decisión esté fundamentada en criterios claros, evidencia relevante y que sea viable en el contexto específico, lo que fortalece la justificación."
+          },
+          {
+            "text": "Delegar la decisión completamente a la IA",
+            "correct": false,
+            "feedback": "Delegar la decisión a la IA sin supervisión humana puede omitir factores contextuales importantes y carecer de una justificación robusta."
+          },
+          {
+            "text": "Seleccionar la opción más fácil de implementar sin considerar el diagnóstico",
+            "correct": false,
+            "feedback": "Elegir la opción más sencilla sin analizar el diagnóstico puede resultar en intervenciones poco efectivas o inadecuadas para el contexto."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l12-h5p-01": {
+      "lesson": 12,
+      "sequence": 1,
+      "lessonSlug": "12-evaluacion-mejora-continua",
+      "title": "¿Qué acción tomarías?",
+      "sourceBlockId": "dc4253c0-d7ac-4fb6-bc28-86a6519556b3",
+      "sourceFamily": "flashcard",
+      "sourceType": "flashcard",
+      "proposedLibrary": "H5P.Dialogcards",
+      "decision": "native-html-preferred",
+      "rationale": "Las tarjetas de diálogo ya permiten intentar, abrir y contrastar con HTML semántico. H5P no añade retroalimentación contingente suficiente para justificar otro runtime.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "dialog-cards",
+        "instruction": "Abre cada tarjeta para contrastar el concepto con su explicación.",
+        "items": [
+          {
+            "prompt": "Muchos estudiantes en nivel inicial",
+            "answer": "Reforzar la fase de práctica o clarificar la instrucción relacionada con el criterio débil antes de la siguiente implementación."
+          },
+          {
+            "prompt": "Tiempo real superó lo estimado",
+            "answer": "Simplificar la actividad, dividirla en fases más cortas o ajustar la carga de trabajo para evitar sobrecarga."
+          },
+          {
+            "prompt": "Dudas frecuentes sobre la instrucciones de la actividad",
+            "answer": "Revisar y reescribir la instrucciones de la actividad principal, usando ejemplos claros y lenguaje accesible."
+          },
+          {
+            "prompt": "Percepción negativa sobre utilidad",
+            "answer": "Explicar el propósito de la actividad y vincularla explícitamente con los objetivos del curso."
+          },
+          {
+            "prompt": "Ejemplos de trabajo poco variados",
+            "answer": "Proporcionar modelos de respuesta de distintos niveles y fomentar la diversidad de enfoques en el grupo."
+          }
+        ]
+      }
+    },
+    "l12-h5p-02": {
+      "lesson": 12,
+      "sequence": 2,
+      "lessonSlug": "12-evaluacion-mejora-continua",
+      "title": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+      "sourceBlockId": "29d305dd-166d-408c-953e-6fbd53bd05b7",
+      "sourceFamily": "knowledgeCheck",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+        "options": [
+          {
+            "text": "Realizar ajustes sin datos",
+            "correct": false,
+            "feedback": "Hacer cambios sin evidencia puede llevar a soluciones ineficaces o arbitrarias."
+          },
+          {
+            "text": "Dar retroalimentación solo al final",
+            "correct": false,
+            "feedback": "La retroalimentación tardía limita la oportunidad de mejora real."
+          },
+          {
+            "text": "Ignorar percepciones del grupo",
+            "correct": false,
+            "feedback": "Desestimar la experiencia estudiantil debilita la pertinencia y equidad del diseño."
+          },
+          {
+            "text": "Analizar datos de desempeño y ajustar de manera focalizada y documentada",
+            "correct": true,
+            "feedback": "Correcto. La mejora continua requiere análisis sistemático y ajustes basados en evidencia, con registro transparente."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-01": {
+      "lesson": 13,
+      "sequence": 1,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+      "sourceBlockId": "8be3d006-ee29-4ecb-9fb3-17adcb737e19",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+        "options": [
+          {
+            "text": "Amenaza, gravedad, vulnerabilidad y capacidad de respuesta",
+            "correct": false,
+            "feedback": "Incluye términos relacionados con el análisis del riesgo, pero \"gravedad\" no sustituye a \"exposición\" como componente del marco."
+          },
+          {
+            "text": "Amenaza, exposición, prevención y capacidad de respuesta",
+            "correct": false,
+            "feedback": "\"Prevención\" es una idea vinculada a la gestión del riesgo, pero no corresponde al componente llamado \"vulnerabilidad\"."
+          },
+          {
+            "text": "Amenaza, exposición, vulnerabilidad y capacidad de respuesta",
+            "correct": true,
+            "feedback": "Es la lista correcta de los cuatro componentes del riesgo."
+          },
+          {
+            "text": "Amenaza, exposición, infraestructura y capacidad de respuesta",
+            "correct": false,
+            "feedback": "La infraestructura puede influir en la vulnerabilidad o en la capacidad de respuesta, pero no constituye por sí sola uno de los cuatro componentes."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-02": {
+      "lesson": 13,
+      "sequence": 2,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuentes académicas y luego trabaja con la IA para diseñar una actividad adaptada a su grupo. ¿Qué conjunto de literacidades está aplicando?",
+      "sourceBlockId": "6a79536e-069c-42ab-bc9b-05af4cf96439",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuentes académicas y luego trabaja con la IA para diseñar una actividad adaptada a su grupo. ¿Qué conjunto de literacidades está aplicando?",
+        "options": [
+          {
+            "text": "Literacidad operativa, literacidad crítica y literacidad de cocreación",
+            "correct": true,
+            "feedback": "Es correcto porque las acciones descritas incluyen uso técnico de la herramienta, evaluación de sus resultados y colaboración activa para crear una propuesta educativa."
+          },
+          {
+            "text": "Literacidad operativa, alfabetización digital y literacidad de cocreación",
+            "correct": false,
+            "feedback": "Parece plausible porque incluye competencias relacionadas con el uso de tecnología, pero reemplaza la literacidad crítica por un término más general que no identifica la evaluación de respuestas de IA."
+          },
+          {
+            "text": "Literacidad operativa, verificación documental y literacidad de diseño",
+            "correct": false,
+            "feedback": "Suena razonable porque refleja acciones del escenario, pero mezcla descripciones parciales con nombres que no representan las tres literacidades establecidas."
+          },
+          {
+            "text": "Literacidad técnica, literacidad crítica y literacidad de evaluación",
+            "correct": false,
+            "feedback": "Es verosímil porque emplea términos cercanos al tema, pero sustituye dos categorías precisas por etiquetas que no corresponden a la clasificación trabajada."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-03": {
+      "lesson": 13,
+      "sequence": 3,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experiencia previa. Quiere fortalecer la participación activa y personalizar el aprendizaje sin perder coherencia pedagógica. ¿Qué acción integra mejor el papel de la tecnología y la agencia docente en este contexto?",
+      "sourceBlockId": "dffa1a23-3e62-4b1c-acc3-55ef6562ebda",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experiencia previa. Quiere fortalecer la participación activa y personalizar el aprendizaje sin perder coherencia pedagógica. ¿Qué acción integra mejor el papel de la tecnología y la agencia docente en este contexto?",
+        "options": [
+          {
+            "text": "Diseñar actividades alineadas con los resultados de aprendizaje y usar herramientas digitales para ajustar apoyos según las necesidades del grupo.",
+            "correct": true,
+            "feedback": "Integra el uso estratégico de la tecnología con una planificación y adaptación docente intencionales."
+          },
+          {
+            "text": "Repetir la explicación magistral en el aula y en videollamada para garantizar que todos reciban el mismo contenido.",
+            "correct": false,
+            "feedback": "Parece una práctica organizada y equitativa, pero se centra en transmisión uniforme de información y no en interacción activa ni personalización del aprendizaje."
+          },
+          {
+            "text": "Delegar en la inteligencia artificial la selección de actividades para asegurar uniformidad entre estudiantes presenciales y remotos.",
+            "correct": false,
+            "feedback": "Incluye una herramienta válida en educación, pero desplaza indebidamente el juicio profesional docente y prioriza uniformidad sobre adaptación contextual."
+          },
+          {
+            "text": "Incorporar una plataforma digital nueva y mantener la misma secuencia didáctica para todo el grupo.",
+            "correct": false,
+            "feedback": "La opción parece razonable porque incluye tecnología, pero no muestra adaptación pedagógica ni personalización basada en las necesidades del estudiantado."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-04": {
+      "lesson": 13,
+      "sequence": 4,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+      "sourceBlockId": "dd1ff1a8-289e-4a75-9e2a-1b0d221f9fdc",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+        "options": [
+          {
+            "text": "Hacer, activar e integrar.",
+            "correct": false,
+            "feedback": "Incluye las tres fases correctas, pero altera el orden al colocar la fase de trabajo antes de la preparación inicial."
+          },
+          {
+            "text": "Activar, integrar y hacer.",
+            "correct": false,
+            "feedback": "Menciona las fases correctas, pero ubica la integración antes del trabajo central de aplicación y construcción."
+          },
+          {
+            "text": "Activar, hacer e integrar.",
+            "correct": true,
+            "feedback": "Es el orden correcto de las tres fases de una secuencia activa e híbrida."
+          },
+          {
+            "text": "Explorar, hacer e integrar.",
+            "correct": false,
+            "feedback": "Usa un término relacionado con el inicio del aprendizaje, pero no corresponde al nombre formal de la primera fase."
+          }
+        ],
+        "feedbackCorrect": "Es el orden habitual de este curso: activar, hacer e integrar. Puede adaptarse al contexto y no funciona como una receta rígida.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-05": {
+      "lesson": 13,
+      "sequence": 5,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cercana al ejercicio profesional. ¿Qué opción corresponde a una evidencia auténtica?",
+      "sourceBlockId": "234ae486-b2b1-4c09-b8ab-e67ee2800eb8",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cercana al ejercicio profesional. ¿Qué opción corresponde a una evidencia auténtica?",
+        "options": [
+          {
+            "text": "Contestar un examen de opción múltiple sobre definiciones de fuentes confiables y sesgos.",
+            "correct": false,
+            "feedback": "Puede ser evidencia directa de conocimientos, pero no reproduce una tarea semejante a la práctica profesional."
+          },
+          {
+            "text": "Responder una encuesta sobre qué tan seguro se siente al verificar información en línea.",
+            "correct": false,
+            "feedback": "Se relaciona con el tema, pero recoge percepción del estudiante, no una demostración observable de desempeño en la tarea."
+          },
+          {
+            "text": "Registrar la cantidad de intervenciones realizadas durante un foro sobre desinformación digital.",
+            "correct": false,
+            "feedback": "Aporta un indicador de participación, pero no muestra por sí mismo la calidad del aprendizaje ni la aplicación de criterios."
+          },
+          {
+            "text": "Analizar una publicación real y defender oralmente la decisión tomada con base en criterios definidos.",
+            "correct": true,
+            "feedback": "Es auténtica porque plantea una tarea similar a una situación real y exige aplicar criterios en contexto."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-06": {
+      "lesson": 13,
+      "sequence": 6,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte tendrá acceso diferido por limitaciones de conectividad. ¿Qué decisión de diseño responde mejor al criterio de equidad y accesibilidad?",
+      "sourceBlockId": "0193c81c-cc7d-4747-9dd4-c4698e15d15e",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte tendrá acceso diferido por limitaciones de conectividad. ¿Qué decisión de diseño responde mejor al criterio de equidad y accesibilidad?",
+        "options": [
+          {
+            "text": "Publicar el mismo texto base para todo el grupo y dejar que cada estudiante organice su participación.",
+            "correct": false,
+            "feedback": "Compartir un recurso común puede ser útil, pero por sí solo no incorpora adaptaciones de accesibilidad ni diseña una alternativa equivalente para la interacción."
+          },
+          {
+            "text": "Mantener el debate en vivo y pedir una síntesis individual posterior en el aula virtual.",
+            "correct": false,
+            "feedback": "La síntesis individual puede apoyar la reflexión, pero no reemplaza la experiencia dialógica ni la participación equivalente que requiere una actividad híbrida equitativa."
+          },
+          {
+            "text": "Crear un foro con réplicas guiadas y materiales accesibles que cumpla la misma función pedagógica del debate.",
+            "correct": true,
+            "feedback": "Mantiene una ruta equivalente, conserva la interacción y considera accesibilidad para quienes no pueden asistir en tiempo real."
+          },
+          {
+            "text": "Subir la grabación del debate para que el resto del grupo la vea cuando pueda conectarse.",
+            "correct": false,
+            "feedback": "Ofrecer la grabación puede facilitar el acceso al contenido, pero no sustituye la función interactiva del debate ni garantiza una ruta equivalente de participación."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-07": {
+      "lesson": 13,
+      "sequence": 7,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel interactivo del modelo ICAP?",
+      "sourceBlockId": "f7c954cf-0c40-4866-ba06-1a621dc2ca0f",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel interactivo del modelo ICAP?",
+        "options": [
+          {
+            "text": "Contrastar argumentos en equipo para construir una solución compartida.",
+            "correct": true,
+            "feedback": "Es correcta porque implica co-construcción mediante diálogo, rasgo propio del nivel interactivo en ICAP."
+          },
+          {
+            "text": "Explicar con palabras propias un concepto en una respuesta individual.",
+            "correct": false,
+            "feedback": "Es una actividad cognitivamente valiosa, pero corresponde al nivel constructivo porque el estudiante genera una elaboración propia sin interacción colaborativa."
+          },
+          {
+            "text": "Ver un video completo sobre el tema antes de la sesión.",
+            "correct": false,
+            "feedback": "Esta opción se relaciona con una actividad de aprendizaje válida, pero corresponde al nivel pasivo porque el estudiante recibe información sin generar ni negociar ideas con otros."
+          },
+          {
+            "text": "Tomar notas individuales mientras revisa una lectura asignada.",
+            "correct": false,
+            "feedback": "Esta actividad supone cierta participación del estudiante, pero se clasifica como activa, no como interactiva, porque no hay co-construcción con otras personas."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-08": {
+      "lesson": 13,
+      "sequence": 8,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones aplica correctamente la fórmula recomendada de verbo + objeto + condición + criterio?",
+      "sourceBlockId": "ea5a4655-49b9-44ab-8a67-9d3dd297681d",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones aplica correctamente la fórmula recomendada de verbo + objeto + condición + criterio?",
+        "options": [
+          {
+            "text": "El estudiante analizará un caso de convivencia escolar y describirá sus ideas principales.",
+            "correct": false,
+            "feedback": "La opción incluye un verbo observable y un objeto, pero omite la condición en que se realizará la tarea y no precisa un criterio de calidad que permita evaluar el desempeño con claridad."
+          },
+          {
+            "text": "El estudiante analizará un caso de convivencia escolar utilizando una guía de observación y justificará su propuesta con dos evidencias pertinentes.",
+            "correct": true,
+            "feedback": "Incluye un verbo observable, un objeto claro, una condición de realización y un criterio verificable de calidad."
+          },
+          {
+            "text": "El estudiante comprenderá la convivencia escolar en el aula durante la actividad asignada.",
+            "correct": false,
+            "feedback": "La opción parece cercana porque menciona un tema y una condición general, pero usa un verbo vago que no muestra cómo se evidenciará el aprendizaje y no establece un criterio de logro."
+          },
+          {
+            "text": "El estudiante identificará la convivencia escolar en una guía de observación con participación activa.",
+            "correct": false,
+            "feedback": "La opción presenta verbo, objeto y una referencia instrumental, pero el cierre no establece un criterio evaluable; la expresión participación activa suena pertinente, aunque no permite medir con precisión el logro esperado."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-09": {
+      "lesson": 13,
+      "sequence": 9,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una respuesta más útil; después contrasta la información con fuentes confiables; finalmente adapta la propuesta junto con la IA para que se ajuste al contexto del grupo y a criterios éticos. ¿Qué opción identifica correctamente la literacidad predominante en cada acción?",
+      "sourceBlockId": "1cfd176d-9817-4d4f-bb56-ac09426140d5",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una respuesta más útil; después contrasta la información con fuentes confiables; finalmente adapta la propuesta junto con la IA para que se ajuste al contexto del grupo y a criterios éticos. ¿Qué opción identifica correctamente la literacidad predominante en cada acción?",
+        "options": [
+          {
+            "text": "Crítica al ajustar el prompt, de cocreación al contrastar fuentes y operativa al adaptar la propuesta con la IA.",
+            "correct": false,
+            "feedback": "Intercambia las funciones: ajustar la solicitud es operativo, contrastar fuentes es crítico y adaptar con la IA corresponde a la cocreación."
+          },
+          {
+            "text": "De cocreación al ajustar el prompt, crítica al contrastar fuentes y de cocreación al adaptar la propuesta con la IA.",
+            "correct": false,
+            "feedback": "Contrastar fuentes sí pertenece a la literacidad crítica, pero ajustar la solicitud es operativo y adaptar la propuesta corresponde a la cocreación."
+          },
+          {
+            "text": "Operativa al ajustar el prompt, operativa al contrastar fuentes y crítica al adaptar la propuesta con la IA.",
+            "correct": false,
+            "feedback": "Contrastar fuentes no es solo una acción operativa, y adaptar una propuesta con la IA exige dirigir la cocreación."
+          },
+          {
+            "text": "Operativa al ajustar el prompt, crítica al contrastar fuentes y de cocreación al adaptar la propuesta con la IA.",
+            "correct": true,
+            "feedback": "Distingue el manejo técnico, la revisión crítica y la dirección de la cocreación."
+          }
+        ],
+        "feedbackCorrect": "Identifica correctamente la dimensión técnica, la evaluativa y la colaborativa ética de cada acción.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-10": {
+      "lesson": 13,
+      "sequence": 10,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma más adecuada las restricciones, los recursos y las condiciones de equidad para diseñar una experiencia inclusiva?",
+      "sourceBlockId": "0cb2a910-794e-46af-8e73-b1f4aca12730",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma más adecuada las restricciones, los recursos y las condiciones de equidad para diseñar una experiencia inclusiva?",
+        "options": [
+          {
+            "text": "Revisar conectividad, accesibilidad de materiales, horarios, herramientas disponibles y características del grupo antes de definir la actividad.",
+            "correct": true,
+            "feedback": "Considera acceso, tiempo, herramientas y características reales antes de decidir el formato."
+          },
+          {
+            "text": "Basarse en el contenido disciplinar y asumir que el mismo formato funcionará si el objetivo académico está bien definido.",
+            "correct": false,
+            "feedback": "Un objetivo claro no elimina las barreras de acceso, tiempo o accesibilidad."
+          },
+          {
+            "text": "Aplicar una única actividad sincrónica estándar para obtener información comparable de todo el grupo desde el inicio.",
+            "correct": false,
+            "feedback": "Una sola vía sincrónica puede excluir a quienes tienen restricciones de conectividad, accesibilidad u horario."
+          },
+          {
+            "text": "Elegir primero una herramienta innovadora y después ajustar las instrucciones según las reacciones del grupo.",
+            "correct": false,
+            "feedback": "Empezar por la herramienta desplaza el análisis previo que debe orientar el diseño."
+          }
+        ],
+        "feedbackCorrect": "Esta acción integra de manera directa las restricciones, los recursos y las condiciones de equidad necesarias para diseñar una actividad inclusiva.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-11": {
+      "lesson": 13,
+      "sequence": 11,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuentes confiables y decide qué partes adaptar antes de implementarlas. ¿Qué acción describe mejor que la docente está dirigiendo la interacción con la IA?",
+      "sourceBlockId": "b600ca34-83a6-413a-ab37-c4a5fe497425",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuentes confiables y decide qué partes adaptar antes de implementarlas. ¿Qué acción describe mejor que la docente está dirigiendo la interacción con la IA?",
+        "options": [
+          {
+            "text": "Mantiene la supervisión del proceso y valida críticamente las propuestas antes de usarlas.",
+            "correct": true,
+            "feedback": "Dirigir implica supervisar, contrastar y decidir antes de usar una propuesta."
+          },
+          {
+            "text": "Usa la IA para corregir el formato del documento antes de compartirlo.",
+            "correct": false,
+            "feedback": "Corregir el formato es una tarea operativa; no demuestra revisión del contenido ni de la decisión pedagógica."
+          },
+          {
+            "text": "Acepta la propuesta completa de la IA para ahorrar tiempo en la planificación.",
+            "correct": false,
+            "feedback": "Aceptar la propuesta completa cede la decisión principal a la herramienta."
+          },
+          {
+            "text": "Mejora el prompt inicial para que la IA entregue una actividad más detallada.",
+            "correct": false,
+            "feedback": "Mejorar la solicitud puede producir más detalle, pero no sustituye la comprobación ni la decisión."
+          }
+        ],
+        "feedbackCorrect": "Dirigir implica conservar el control del proceso, revisar los resultados de la IA y decidir de forma fundamentada qué se utiliza.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-12": {
+      "lesson": 13,
+      "sequence": 12,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Relaciona cada nivel cognitivo de la taxonomía de Bloom revisada con la evidencia que mejor demuestra ese tipo de desempeño en un resultado de aprendizaje. Fíjate en qué acción tendría que realizar el estudiante y qué producto o desempeño permitiría observarla con claridad.",
+      "sourceBlockId": "1db026d6-e813-4bd4-8d2f-d14d098e234d",
+      "sourceFamily": "quiz",
+      "sourceType": "MATCHING",
+      "proposedLibrary": "H5P.DragText",
+      "decision": "native-html-preferred",
+      "rationale": "El pareo se resuelve con dos listas identificadas y una solución razonada. La alternativa lineal conserva la decisión sin depender de arrastre.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "matching",
+        "question": "Relaciona cada nivel cognitivo de la taxonomía de Bloom revisada con la evidencia que mejor demuestra ese tipo de desempeño en un resultado de aprendizaje. Fíjate en qué acción tendría que realizar el estudiante y qué producto o desempeño permitiría observarla con claridad.",
+        "pairs": [
+          {
+            "prompt": "Recordar",
+            "match": "Cuestionario o listado en el que se identifican términos, hechos o componentes previamente estudiados"
+          },
+          {
+            "prompt": "Comprender",
+            "match": "Explicación escrita o mapa conceptual que muestra relaciones y sentido entre ideas clave"
+          },
+          {
+            "prompt": "Aplicar",
+            "match": "Ejercicio resuelto o demostración en la que se emplea un modelo o protocolo en un caso"
+          },
+          {
+            "prompt": "Analizar",
+            "match": "Análisis causal o matriz comparativa que distingue factores y organiza sus vínculos"
+          },
+          {
+            "prompt": "Evaluar",
+            "match": "Dictamen o debate argumentado en el que se justifica una elección con evidencias pertinentes"
+          },
+          {
+            "prompt": "Crear",
+            "match": "Proyecto o prototipo que presenta una solución nueva y justifica sus componentes"
+          }
+        ],
+        "feedbackCorrect": "Correcto. Cada nivel de la taxonomía de Bloom se asocia con un tipo de evidencia distinto: recordar recupera información, comprender construye significado, aplicar usa procedimientos, analizar descompone relaciones, evaluar emite juicios fundamentados y crear produce algo original.",
+        "feedbackIncorrect": "Incorrecto. La relación no depende solo del verbo, sino del tipo de desempeño observable que exige cada nivel cognitivo. Si una evidencia solo pide recordar datos, no corresponde a analizar, evaluar o crear; y si pide diseñar una propuesta original, se ubica en crear, no en comprender."
+      }
+    },
+    "l13-h5p-13": {
+      "lesson": 13,
+      "sequence": 13,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Relaciona cada tipo de conocimiento con el ejemplo de desempeño o evidencia que mejor lo representa en un resultado de aprendizaje. Fíjate en qué se espera que el estudiante haga y en la naturaleza del saber movilizado para diferenciar entre factual, conceptual, procedimental y metacognitivo.",
+      "sourceBlockId": "3dee28f9-484b-40c3-b9bc-9e9b31546075",
+      "sourceFamily": "quiz",
+      "sourceType": "MATCHING",
+      "proposedLibrary": "H5P.DragText",
+      "decision": "native-html-preferred",
+      "rationale": "El pareo se resuelve con dos listas identificadas y una solución razonada. La alternativa lineal conserva la decisión sin depender de arrastre.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "matching",
+        "question": "Relaciona cada tipo de conocimiento con el ejemplo de desempeño o evidencia que mejor lo representa en un resultado de aprendizaje. Fíjate en qué se espera que el estudiante haga y en la naturaleza del saber movilizado para diferenciar entre factual, conceptual, procedimental y metacognitivo.",
+        "pairs": [
+          {
+            "prompt": "Factual",
+            "match": "Identificar términos, fechas o elementos clave en un cuestionario o listado preciso."
+          },
+          {
+            "prompt": "Conceptual",
+            "match": "Explicar cómo se relacionan varias categorías o principios mediante un mapa conceptual o una comparación argumentada."
+          },
+          {
+            "prompt": "Procedimental",
+            "match": "Aplicar un método o protocolo para resolver un caso práctico y mostrar el procedimiento seguido."
+          },
+          {
+            "prompt": "Metacognitivo",
+            "match": "Valorar la eficacia de la estrategia utilizada y proponer ajustes a partir de una autoevaluación escrita."
+          }
+        ],
+        "feedbackCorrect": "Correcto. Cada tipo de conocimiento se distingue por la clase de saber que activa: el factual se centra en datos y términos, el conceptual en relaciones y estructuras, el procedimental en el saber hacer, y el metacognitivo en la reflexión y regulación del propio aprendizaje.",
+        "feedbackIncorrect": "Incorrecto. La correspondencia no depende solo del verbo, sino de qué evidencia muestra el aprendizaje: recordar datos apunta a lo factual, explicar relaciones a lo conceptual, ejecutar métodos a lo procedimental y reflexionar sobre la propia estrategia a lo metacognitivo."
+      }
+    },
+    "l13-h5p-14": {
+      "lesson": 13,
+      "sequence": 14,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más fundamentada?",
+      "sourceBlockId": "e78e83a9-f39b-43e8-9813-e330c6efab09",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más fundamentada?",
+        "options": [
+          {
+            "text": "Pertinencia, viabilidad, impacto potencial, evidencia y equidad",
+            "correct": true,
+            "feedback": "Integra la relación con el diagnóstico, la posibilidad de implementación, el efecto esperado, el respaldo y la equidad."
+          },
+          {
+            "text": "Innovación, rapidez, creatividad y facilidad de ejecución",
+            "correct": false,
+            "feedback": "La novedad o la rapidez pueden influir, pero no muestran por sí solas pertinencia, evidencia ni equidad."
+          },
+          {
+            "text": "Diagnóstico, presupuesto, calendario y aceptación institucional",
+            "correct": false,
+            "feedback": "Son condiciones relevantes, pero no bastan para comparar el impacto, la evidencia y la equidad de las alternativas."
+          },
+          {
+            "text": "Novedad, preferencia del equipo, rapidez y visibilidad de la propuesta",
+            "correct": false,
+            "feedback": "La novedad y la preferencia del equipo no sustituyen criterios vinculados al diagnóstico, la evidencia y las condiciones de implementación."
+          }
+        ],
+        "feedbackCorrect": "Este es el conjunto de criterios clave para priorizar intervenciones de forma fundamentada y contextualizada.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-15": {
+      "lesson": 13,
+      "sequence": 15,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base en evidencia pertinente\". ¿Qué criterio está mejor derivado de ese resultado y permite evaluar la calidad del desempeño con claridad?",
+      "sourceBlockId": "b76d4639-11c4-4041-b9bb-ddcbe35a837a",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base en evidencia pertinente\". ¿Qué criterio está mejor derivado de ese resultado y permite evaluar la calidad del desempeño con claridad?",
+        "options": [
+          {
+            "text": "Sustenta la intervención con evidencia pertinente y explica la relación entre esa evidencia y la decisión propuesta.",
+            "correct": true,
+            "feedback": "Convierte el resultado en un criterio observable sobre evidencia y razonamiento."
+          },
+          {
+            "text": "Expone una intervención pertinente y usa evidencia, aunque prioriza la extensión del texto como indicador principal de calidad.",
+            "correct": false,
+            "feedback": "La extensión no demuestra por sí sola la calidad de la justificación."
+          },
+          {
+            "text": "Presenta un trabajo bien elaborado y con buena estructura general sobre la intervención propuesta.",
+            "correct": false,
+            "feedback": "«Bien elaborado» es demasiado general y no permite valorar la relación entre evidencia y decisión."
+          },
+          {
+            "text": "Incluye una portada completa, referencias en formato establecido y entrega dentro del plazo definido.",
+            "correct": false,
+            "feedback": "Los requisitos formales pueden ser necesarios, pero no evalúan la justificación solicitada."
+          }
+        ],
+        "feedbackCorrect": "Es correcto porque convierte el resultado en un criterio observable, específico y evaluable en el producto del estudiante.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-16": {
+      "lesson": 13,
+      "sequence": 16,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herramientas.",
+      "sourceBlockId": "99b68535-2a7a-4dba-9e1f-f37d67bb728c",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herramientas.",
+        "options": [
+          {
+            "text": "Falso",
+            "correct": false,
+            "feedback": "Incorrecto. En el diseño inverso no se comienza por la herramienta ni por la actividad. Primero se establecen los resultados de aprendizaje deseados y después se organizan los demás elementos."
+          },
+          {
+            "text": "Verdadero",
+            "correct": true,
+            "feedback": "Correcto respecto del modelo clásico: comienza por los resultados de aprendizaje. En este curso se añade antes una pregunta por el contexto del grupo."
+          }
+        ],
+        "feedbackCorrect": "Correcto respecto del modelo clásico: comienza por los resultados de aprendizaje. En este curso se añade antes una pregunta por el contexto del grupo.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-17": {
+      "lesson": 13,
+      "sequence": 17,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos del grupo. ¿Qué acción ayuda mejor a mitigar la descarga cognitiva y preservar la agencia docente?",
+      "sourceBlockId": "ff72bc16-7bad-463f-920e-61843eb094d9",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos del grupo. ¿Qué acción ayuda mejor a mitigar la descarga cognitiva y preservar la agencia docente?",
+        "options": [
+          {
+            "text": "Revisar cada propuesta, contrastarla con los objetivos y decidir los ajustes antes de implementarla.",
+            "correct": true,
+            "feedback": "Conserva la comprobación y la decisión docente antes de implementar."
+          },
+          {
+            "text": "Pedir a la IA una versión final más detallada para ahorrar tiempo en la toma de decisiones.",
+            "correct": false,
+            "feedback": "Pedir una versión final más extensa mantiene la delegación del juicio."
+          },
+          {
+            "text": "Solicitar varias propuestas a la IA y elegir una de inmediato según su redacción más completa.",
+            "correct": false,
+            "feedback": "Solicitar variedad puede ayudar, pero elegir por la redacción más completa omite el análisis pedagógico."
+          },
+          {
+            "text": "Usar la IA para generar y evaluar la misma actividad en un solo flujo de trabajo automatizado.",
+            "correct": false,
+            "feedback": "Generar y evaluar en el mismo flujo automatizado concentra funciones que necesitan revisión humana."
+          }
+        ],
+        "feedbackCorrect": "Esta acción mantiene la validación humana y reduce la delegación excesiva del juicio a la IA.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-18": {
+      "lesson": 13,
+      "sequence": 18,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer preguntas y formatos accesibles, y luego revisa esas propuestas con base en las características reales de su grupo antes de aplicarlas. ¿Qué acción refleja mejor un uso adecuado de la IA en este proceso?",
+      "sourceBlockId": "c9b87fa6-0668-4a95-9681-f64f30d4a6bc",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer preguntas y formatos accesibles, y luego revisa esas propuestas con base en las características reales de su grupo antes de aplicarlas. ¿Qué acción refleja mejor un uso adecuado de la IA en este proceso?",
+        "options": [
+          {
+            "text": "Generar instrumentos con IA y validarlos con información real del grupo antes de usarlos.",
+            "correct": true,
+            "feedback": "La IA propone; la información real del grupo y la revisión docente determinan la pertinencia."
+          },
+          {
+            "text": "Aplicar directamente las preguntas de IA para ahorrar tiempo en la planeación inicial.",
+            "correct": false,
+            "feedback": "Aplicar las preguntas sin revisión puede introducir barreras o supuestos ajenos al grupo."
+          },
+          {
+            "text": "Pedir a la IA que defina el perfil del grupo sin recopilar evidencia del estudiantado.",
+            "correct": false,
+            "feedback": "La herramienta no puede definir un perfil válido sin datos reales del estudiantado."
+          },
+          {
+            "text": "Usar la IA solo para calificar respuestas diagnósticas después de cerrar el diseño.",
+            "correct": false,
+            "feedback": "Calificar al final no aprovecha la IA para proponer y revisar un diagnóstico antes del diseño."
+          }
+        ],
+        "feedbackCorrect": "Es correcto porque la IA funciona como apoyo para proponer instrumentos, mientras que la pertinencia final depende de la revisión docente basada en el contexto real.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-19": {
+      "lesson": 13,
+      "sequence": 19,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, en la sesión presencial, debata soluciones y aplique conceptos en equipos. ¿Qué característica clave del aprendizaje activo e híbrido se observa mejor en este diseño?",
+      "sourceBlockId": "2f0bca2e-2569-490d-b1ab-7aa96efd68d6",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_RESPONSE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, en la sesión presencial, debata soluciones y aplique conceptos en equipos. ¿Qué característica clave del aprendizaje activo e híbrido se observa mejor en este diseño?",
+        "options": [
+          {
+            "text": "La combinación de trabajo grupal presencial con estudio individual en casa sin relación entre ambas experiencias.",
+            "correct": false,
+            "feedback": "Sin relación entre ambos momentos no hay una integración híbrida intencional."
+          },
+          {
+            "text": "La participación cognitiva profunda del estudiantado y la distribución estratégica de actividades entre lo virtual y lo presencial.",
+            "correct": true,
+            "feedback": "Articula trabajo cognitivo profundo y asigna cada experiencia al canal que mejor cumple su función."
+          },
+          {
+            "text": "La incorporación de tecnología para transmitir información y facilitar que el estudiantado tome notas durante la clase.",
+            "correct": false,
+            "feedback": "Transmitir información con tecnología no basta para producir aprendizaje activo."
+          },
+          {
+            "text": "La exposición anticipada de contenidos y la repetición del mismo tema en dos formatos distintos.",
+            "correct": false,
+            "feedback": "Repetir el mismo contenido en dos formatos no conecta las modalidades ni exige elaboración."
+          }
+        ],
+        "feedbackCorrect": "Describe con precisión la esencia del aprendizaje activo e híbrido en el escenario planteado.",
+        "feedbackIncorrect": ""
+      }
+    },
+    "l13-h5p-20": {
+      "lesson": 13,
+      "sequence": 20,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "La capacidad de pensar sobre nuestro propio pensamiento para identificar vacíos en la información y reconocer sesgos se llama ____________.",
+      "sourceBlockId": "b5bb722f-1e24-48a1-8f3d-252c1c2f59db",
+      "sourceFamily": "quiz",
+      "sourceType": "FILL_IN_THE_BLANK",
+      "proposedLibrary": "H5P.Blanks",
+      "decision": "native-html-preferred",
+      "rationale": "Completar una respuesta breve en las propias notas y contrastarla después conserva la intención sin calificación, persistencia ni una biblioteca adicional.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "fill-blank",
+        "question": "La capacidad de pensar sobre nuestro propio pensamiento para identificar vacíos en la información y reconocer sesgos se llama ____________.",
+        "answers": [
+          "metacognición"
+        ],
+        "feedbackCorrect": "Correcto. La metacognición consiste en pensar sobre el propio pensamiento, lo que permite reconocer lo que sabemos, lo que suponemos y los límites del análisis.",
+        "feedbackIncorrect": "Incorrecto. La respuesta correcta es \"metacognición\", porque este concepto describe la capacidad de reflexionar sobre el propio pensamiento para detectar vacíos de información y posibles sesgos."
+      }
+    },
+    "l13-h5p-21": {
+      "lesson": 13,
+      "sequence": 21,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Cuando una actividad pide comparar, explicar o justificar en vez de solo recibir información, aumenta el ____________ que realiza el estudiantado.",
+      "sourceBlockId": "a58110f3-2ea2-4994-a8cc-40d67c532d45",
+      "sourceFamily": "quiz",
+      "sourceType": "FILL_IN_THE_BLANK",
+      "proposedLibrary": "H5P.Blanks",
+      "decision": "native-html-preferred",
+      "rationale": "Completar una respuesta breve en las propias notas y contrastarla después conserva la intención sin calificación, persistencia ni una biblioteca adicional.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "fill-blank",
+        "question": "Cuando una actividad pide comparar, explicar o justificar en vez de solo recibir información, aumenta el ____________ que realiza el estudiantado.",
+        "answers": [
+          "compromiso cognitivo"
+        ],
+        "feedbackCorrect": "El compromiso cognitivo se reconoce por lo que la persona hace con el conocimiento, no por la presencia de tecnología.",
+        "feedbackIncorrect": "Vuelve a la lección 1 y distingue recibir, manipular, generar y co-construir."
+      }
+    },
+    "l13-h5p-22": {
+      "lesson": 13,
+      "sequence": 22,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "La expresión que nombra el trabajo conjunto de una persona, un sistema, un propósito y unas condiciones, dirigido y gobernado por personas, se denomina ____________.",
+      "sourceBlockId": "775e0785-9a94-4ab3-b7f1-1cc6482a9c5d",
+      "sourceFamily": "quiz",
+      "sourceType": "FILL_IN_THE_BLANK",
+      "proposedLibrary": "H5P.Blanks",
+      "decision": "native-html-preferred",
+      "rationale": "Completar una respuesta breve en las propias notas y contrastarla después conserva la intención sin calificación, persistencia ni una biblioteca adicional.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "fill-blank",
+        "question": "La expresión que nombra el trabajo conjunto de una persona, un sistema, un propósito y unas condiciones, dirigido y gobernado por personas, se denomina ____________.",
+        "answers": [
+          "inteligencia híbrida"
+        ],
+        "feedbackCorrect": "La expresión es inteligencia híbrida. No implica una relación simétrica: las personas conservan propósito, comprobación, decisión y responsabilidad.",
+        "feedbackIncorrect": "Revisa la lección 4: el sistema puede influir y proponer, pero no comparte intención ni responsabilidad moral."
+      }
+    },
+    "l13-h5p-23": {
+      "lesson": 13,
+      "sequence": 23,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Relaciona cada momento del diagnóstico inicial con la función que cumple para adaptar mejor una actividad educativa al grupo. Piensa en cómo cada acción aporta información útil para ajustar el diseño y los apoyos de manera pertinente e inclusiva.",
+      "sourceBlockId": "252c8c76-99d0-4c73-be2d-d630d7cc36e7",
+      "sourceFamily": "quiz",
+      "sourceType": "MATCHING",
+      "proposedLibrary": "H5P.DragText",
+      "decision": "native-html-preferred",
+      "rationale": "El pareo se resuelve con dos listas identificadas y una solución razonada. La alternativa lineal conserva la decisión sin depender de arrastre.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "matching",
+        "question": "Relaciona cada momento del diagnóstico inicial con la función que cumple para adaptar mejor una actividad educativa al grupo. Piensa en cómo cada acción aporta información útil para ajustar el diseño y los apoyos de manera pertinente e inclusiva.",
+        "pairs": [
+          {
+            "prompt": "Definir información relevante",
+            "match": "Precisar qué se necesita conocer sobre saberes, habilidades, intereses y obstáculos antes de diseñar la actividad."
+          },
+          {
+            "prompt": "Seleccionar instrumento o actividad",
+            "match": "Escoger una pregunta, encuesta, mapa conceptual u otro recurso según la modalidad y el tiempo disponible."
+          },
+          {
+            "prompt": "Analizar resultados y ajustar",
+            "match": "Identificar patrones o lagunas en las respuestas para adaptar la actividad y los apoyos al punto de partida del grupo."
+          },
+          {
+            "prompt": "Comunicar hallazgos y próximos pasos",
+            "match": "Explicar al grupo qué se observó de forma general y cómo esa información se usará para mejorar la experiencia educativa."
+          }
+        ],
+        "feedbackCorrect": "Correcto. El diagnóstico inicial tiene valor porque no se reduce a aplicar un instrumento: permite decidir qué información hace falta, recogerla de forma adecuada, interpretarla y usarla para ajustar el diseño educativo a las necesidades reales del grupo.",
+        "feedbackIncorrect": "Incorrecto. El valor del diagnóstico inicial no está solo en preguntar al comienzo, sino en usar esa información para comprender el punto de partida del grupo y ajustar la actividad, los apoyos y la comunicación de manera pertinente e inclusiva."
+      }
+    },
+    "l13-h5p-24": {
+      "lesson": 13,
+      "sequence": 24,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Identificar y comprender los factores que rodean la planeación y ejecución de una actividad educativa corresponde al ____________.",
+      "sourceBlockId": "7f3c05b0-bc40-4109-81ac-d3c6e65e4b41",
+      "sourceFamily": "quiz",
+      "sourceType": "FILL_IN_THE_BLANK",
+      "proposedLibrary": "H5P.Blanks",
+      "decision": "native-html-preferred",
+      "rationale": "Completar una respuesta breve en las propias notas y contrastarla después conserva la intención sin calificación, persistencia ni una biblioteca adicional.",
+      "catalogEvidence": [],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "fill-blank",
+        "question": "Identificar y comprender los factores que rodean la planeación y ejecución de una actividad educativa corresponde al ____________.",
+        "answers": [
+          "análisis del contexto"
+        ],
+        "feedbackCorrect": "Correcto. El análisis del contexto consiste en identificar y comprender los factores institucionales, curriculares, de modalidad, recursos y participación que influyen en el diseño pedagógico.",
+        "feedbackIncorrect": "Incorrecto. La respuesta correcta es \"análisis del contexto\" porque este proceso permite identificar los factores clave que influyen en la planeación y ejecución de una actividad educativa."
+      }
+    },
+    "l13-h5p-25": {
+      "lesson": 13,
+      "sequence": 25,
+      "lessonSlug": "13-autoevaluacion-final",
+      "title": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+      "sourceBlockId": "c43ccd8b-1d21-41de-9e4b-dd3298ef90e9",
+      "sourceFamily": "quiz",
+      "sourceType": "MULTIPLE_CHOICE",
+      "proposedLibrary": "H5P.MultiChoice",
+      "decision": "eligible-separate-production-gate",
+      "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
+      "catalogEvidence": [
+        "direccion-epistemica-decidir-reformular",
+        "evaluacion-proceso-decision",
+        "evidencias-proceso-proporcion"
+      ],
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "reportingIsEnabled": false,
+      "graded": false,
+      "fallback": {
+        "type": "single-choice",
+        "question": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+        "options": [
+          {
+            "text": "Verdadero",
+            "correct": true,
+            "feedback": "Correcto. Verbos como explicar, aplicar o analizar describen acciones concretas que pueden observarse y evaluarse, a diferencia de verbos vagos como comprender o conocer."
+          },
+          {
+            "text": "Falso",
+            "correct": false,
+            "feedback": "Incorrecto. El contenido señala que los resultados observables requieren verbos concretos y medibles, como explicar, aplicar o analizar, porque estos permiten evidenciar el aprendizaje de forma clara y evaluable."
+          }
+        ],
+        "feedbackCorrect": "",
+        "feedbackIncorrect": ""
+      }
+    }
+  },
+  "reviewLessons": {
+    "l13-h5p-01": {
+      "slug": "09-analisis-casos",
+      "label": "Lección 9 · Análisis de casos"
+    },
+    "l13-h5p-02": {
+      "slug": "03-literacidades-ia",
+      "label": "Lección 3 · Literacidades para el uso de IA"
+    },
+    "l13-h5p-03": {
+      "slug": "01-panorama-activo-hibrido",
+      "label": "Lección 1 · Aprendizaje activo e híbrido"
+    },
+    "l13-h5p-04": {
+      "slug": "08-secuencias-activas-hibridas",
+      "label": "Lección 8 · Secuencias activas e híbridas"
+    },
+    "l13-h5p-05": {
+      "slug": "07-evidencias-criterios",
+      "label": "Lección 7 · Evidencias y criterios"
+    },
+    "l13-h5p-06": {
+      "slug": "08-secuencias-activas-hibridas",
+      "label": "Lección 8 · Secuencias activas e híbridas"
+    },
+    "l13-h5p-07": {
+      "slug": "08-secuencias-activas-hibridas",
+      "label": "Lección 8 · Secuencias activas e híbridas"
+    },
+    "l13-h5p-08": {
+      "slug": "06-resultados-aprendizaje",
+      "label": "Lección 6 · Resultados observables"
+    },
+    "l13-h5p-09": {
+      "slug": "03-literacidades-ia",
+      "label": "Lección 3 · Literacidades para el uso de IA"
+    },
+    "l13-h5p-10": {
+      "slug": "05-contexto-diagnostico",
+      "label": "Lección 5 · Contexto y diagnóstico"
+    },
+    "l13-h5p-11": {
+      "slug": "04-cocreacion-persona-ia",
+      "label": "Lección 4 · Cocreación persona–IA"
+    },
+    "l13-h5p-12": {
+      "slug": "06-resultados-aprendizaje",
+      "label": "Lección 6 · Resultados observables"
+    },
+    "l13-h5p-13": {
+      "slug": "06-resultados-aprendizaje",
+      "label": "Lección 6 · Resultados observables"
+    },
+    "l13-h5p-14": {
+      "slug": "11-priorizar-intervenciones",
+      "label": "Lección 11 · Priorizar con evidencia"
+    },
+    "l13-h5p-15": {
+      "slug": "07-evidencias-criterios",
+      "label": "Lección 7 · Evidencias y criterios"
+    },
+    "l13-h5p-16": {
+      "slug": "02-introduccion-diseno-inverso",
+      "label": "Lección 2 · Diseño inverso"
+    },
+    "l13-h5p-17": {
+      "slug": "04-cocreacion-persona-ia",
+      "label": "Lección 4 · Cocreación persona–IA"
+    },
+    "l13-h5p-18": {
+      "slug": "05-contexto-diagnostico",
+      "label": "Lección 5 · Contexto y diagnóstico"
+    },
+    "l13-h5p-19": {
+      "slug": "01-panorama-activo-hibrido",
+      "label": "Lección 1 · Aprendizaje activo e híbrido"
+    },
+    "l13-h5p-20": {
+      "slug": "10-limitaciones-analisis",
+      "label": "Lección 10 · Limitaciones del análisis"
+    },
+    "l13-h5p-21": {
+      "slug": "01-panorama-activo-hibrido",
+      "label": "Lección 1 · Aprendizaje activo e híbrido"
+    },
+    "l13-h5p-22": {
+      "slug": "04-cocreacion-persona-ia",
+      "label": "Lección 4 · Cocreación persona–IA"
+    },
+    "l13-h5p-23": {
+      "slug": "05-contexto-diagnostico",
+      "label": "Lección 5 · Contexto y diagnóstico"
+    },
+    "l13-h5p-24": {
+      "slug": "05-contexto-diagnostico",
+      "label": "Lección 5 · Contexto y diagnóstico"
+    },
+    "l13-h5p-25": {
+      "slug": "06-resultados-aprendizaje",
+      "label": "Lección 6 · Resultados observables"
+    }
+  }
+}

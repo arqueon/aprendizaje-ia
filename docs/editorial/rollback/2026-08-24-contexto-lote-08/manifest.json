@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-08",
+  "approved_by": "Rubén",
+  "approved_at": "2026-08-24T14:38:23-06:00",
+  "authorization": "borrador reversible y QA; no publicación",
+  "publication_authorized": false,
+  "production_changed": false,
+  "proposal": {
+    "conservar": 2,
+    "cambiar": 3,
+    "quitar": 0
+  },
+  "baseline": {
+    "active_sources": 164,
+    "applied_decisions": 50,
+    "pending": 114
+  },
+  "files": [
+    {
+      "path": "content/recursos/glosario/aprendizaje-activo/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/aprendizaje-activo/index.md",
+      "sha256_before": "c4aba12df9478697cd4e236c59ecea81a996d96bdd876a8aee7222c15de7f8e5",
+      "bytes_before": 1194
+    },
+    {
+      "path": "content/recursos/glosario/diseno-inverso/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/diseno-inverso/index.md",
+      "sha256_before": "756dd72ca412ae733c73fc91c443f2db2b39f759ab8a0bae491bf8372e11f2b0",
+      "bytes_before": 1695
+    },
+    {
+      "path": "content/recursos/glosario/taxonomia-de-bloom/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/taxonomia-de-bloom/index.md",
+      "sha256_before": "57c2513f21abfa46c62e3f493c74f4b60c05c2d32aa58ff22a359ae42b5d8b76",
+      "bytes_before": 1932
+    },
+    {
+      "path": "content/recursos/glosario/modelo-samr/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/modelo-samr/index.md",
+      "sha256_before": "5b397daea47a4ff7aba7a6b052b3c0a9ce5d2dac48076f167a2074e99558aa81",
+      "bytes_before": 2182
+    },
+    {
+      "path": "content/recursos/glosario/evaluacion-autentica/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/evaluacion-autentica/index.md",
+      "sha256_before": "994dd4865c868019fb298643d11359374ac095cc148b548597c6d933f7dc0a29",
+      "bytes_before": 1497
+    },
+    {
+      "path": "content/recursos/glosario/_index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/_index.md",
+      "sha256_before": "c3f9d22fc624fc9f5323fa5934c0df1086a4e631253fb3b2cca31d820fb4e824",
+      "bytes_before": 2138
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-08/sources/content/recursos/glosario/integridad-academica/index.md",
+      "sha256_before": "28b911bfcf7520d76e89a50bbeff6bb3ef445cb013ac307eb92fc9a65a1990e0",
+      "bytes_before": 1268
+    }
+  ]
+}

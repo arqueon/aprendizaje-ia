@@ -155,7 +155,7 @@ Tercero, los **espacios colegiados**. Los dilemas no se resuelven individualment
 
 La pregunta relevante no es si la IA generativa es compatible con la educación superior. Está instalada, y seguirá estándolo. La pregunta es con qué criterios la universidad acompaña su uso. Los cuatro ejes que aquí se sugieren — autonomía, transparencia, justicia epistémica y responsabilidad compartida — no son un listado exhaustivo ni una norma: son un mínimo común sobre el que pueden construirse acuerdos situados, revisables y operativos. Lo demás es decisión docente en contexto.
 
-## Referencias
+{{< referencias >}}
 
 - Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 - Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
@@ -167,3 +167,5 @@ La pregunta relevante no es si la IA generativa es compatible con la educación 
 - UNESCO. (2023). *Guidance for generative AI in education and research*. United Nations Educational, Scientific and Cultural Organization. https://doi.org/10.54675/EWZM9535
 - Williamson, B., & Eynon, R. (2020). Historical threads, missing links, and future directions in AI in education. *Learning, Media and Technology*, 45(3), 223–235. https://doi.org/10.1080/17439884.2020.1798995
 - World Bank. (2024). *Unlocking the potential of generative AI in education: Opportunities, risks, and policy priorities*. World Bank Group. https://documents1.worldbank.org/curated/en/099734306182493324/pdf/IDU152823b13109c514ebd19c241a289470b6902.pdf
+
+{{< /referencias >}}

@@ -1,11 +1,12 @@
 ---
 title: "Ética y transparencia en el uso de IA"
 description: "Disposiciones, directrices y marcos para el uso ético, transparente e íntegro de la IA en la docencia y la investigación."
-weight: 3
+weight: 4
 showHero: false
 showBreadcrumbs: true
 showSummary: true
 areas: ["ia", "etica"]
+summary: "Disposiciones, directrices y marcos para el uso ético, transparente e íntegro de la IA en la docencia y la investigación universitaria."
 ---
 
 El uso de IA en educación plantea preguntas fundamentales sobre **autoría, transparencia, integridad académica y justicia**. Esta sección reúne disposiciones institucionales, directrices para estudiantes y marcos éticos que orientan una práctica responsable.

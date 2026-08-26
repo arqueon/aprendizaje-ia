@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-26T06:40:35.853Z",
+  "totals": {
+    "pages": 153,
+    "ownFeatured": 141,
+    "missingFeatured": 12,
+    "hiddenHero": 18,
+    "cards": 553,
+    "cardsWithoutImage": 0,
+    "cardShortcodeSources": 95,
+    "cardShortcodes": 240,
+    "cardShortcodesWithImage": 240
+  },
+  "unexpected": {
+    "missingFeatured": [],
+    "hiddenHero": []
+  },
+  "resolvedDebt": {
+    "missingFeatured": [],
+    "hiddenHero": []
+  },
+  "actual": {
+    "missingFeatured": [
+      "about.md",
+      "ia-educacion/investigacion/index.md",
+      "ia-educacion/orientaciones/index.md",
+      "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "laboratorio/h5p-runtime/index.md",
+      "licencia/index.md",
+      "recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "recursos/glosario/ganancia-cognitiva/index.md",
+      "recursos/videos/learn-prompting-curso-completo.md",
+      "recursos/videos/sal-khan-ia-educacion.md",
+      "recursos/videos/tutoriales-herramientas-ia-docentes.md"
+    ],
+    "hiddenHero": [
+      "formacion-docente/aprendizaje-activo/index.md",
+      "formacion-docente/aprendizaje-hibrido/index.md",
+      "formacion-docente/modelos-samr-icap/index.md",
+      "formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
+      "ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+      "ia-educacion/guias/estudiantes/index.md",
+      "ia-educacion/guias/privacidad-datos-ia/index.md",
+      "ia-educacion/investigacion/index.md",
+      "ia-educacion/orientaciones/index.md",
+      "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "recursos/glosario/modelo-samr/index.md",
+      "recursos/glosario/taxonomia-de-bloom/index.md",
+      "recursos/videos/learn-prompting-curso-completo.md",
+      "recursos/videos/sal-khan-ia-educacion.md",
+      "recursos/videos/tutoriales-herramientas-ia-docentes.md"
+    ],
+    "cardsWithoutImage": []
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "items": [
+    {
+      "path": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L34: el lead sitúa situación, momento (una ayuda de IA cambió algo que habrá que explicar) y material de inicio (versión anterior, respuesta recibida, fuente de comprobación).",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L37: declara explícitamente que la página es plantilla con ejemplo ficticio, no una aplicación documentada, lo que resuelve el rol-editorial-impreciso señalado en data/editorial/context-audit-decisions.json (entrada bitacora-cocreacion, issue_types L70-73).",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L41-45: cinco acciones observables (conservar versión, registrar solo la sugerencia influyente, comprobar fuera, decidir, guardar).",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L49-61: ejemplo completado con punto de partida, descarte razonado y comprobación contra datos de la actividad, en condicional ('podría registrar'), que cubre el material-inicial-ausente citado en decisions.json L75.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L79: minimización de datos (no copiar datos personales, confidenciales ni transcripciones innecesarias).",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L81-83: criterio de revisión verificable por otra persona, sin medir por cantidad de mensajes.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L21-30: las tres conexiones apuntan a páginas existentes (content/formacion-docente/alfabetizacion-co-creacion/index.md, content/ia-educacion/investigacion/index.md, content/ia-educacion/productos-de-aprendizaje/ensayo/index.md)."
+      ],
+      "reason": "Cumple los diez criterios: plantilla declarada, ejemplo ficticio distinguible de un caso real, acciones y cierre comprobables, destinos internos existentes, lenguaje directo y regla explícita de minimización. Atiende exactamente lo pedido por la reconciliación humana (caso breve completado y rol de plantilla) y lo descrito en docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L22-28, incluida la sustitución de content_type (L14: plantilla).",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/glosario/agentes-de-ia/index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/recursos/glosario/agentes-de-ia/index.md L13: retira la autonomía obligatoria y distingue flujo fijo de agente que decide, como pedía decisions.json (entrada agentes-de-ia: 'presenta al agente como necesariamente autónomo').",
+        "content/recursos/glosario/agentes-de-ia/index.md L15: ejemplo en condicional ('podría buscar', 'tendría que aprobar') con supervisión humana, sustituyendo la predicción categórica citada en la auditoría; queda claro que es hipotético.",
+        "content/recursos/glosario/agentes-de-ia/index.md L17: convierte la definición en decisión práctica (qué revisar antes de autorizar: herramientas, datos, aprobaciones, tiempo, registro) sin garantías exageradas.",
+        "content/recursos/glosario/agentes-de-ia/index.md L19: el enlace interno apunta a una página existente (content/ia-educacion/guias/privacidad-datos-ia/index.md).",
+        "content/recursos/glosario/agentes-de-ia/index.md L21: la fuente de contraste externa coincide con la comprobada en docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L64."
+      ],
+      "reason": "La entrada sirve para decidir (asignar permisos), distingue propuesta de caso real, mantiene precisión conceptual y longitud dentro del rango 100-200 palabras que promete content/recursos/glosario/_index.md L19. Queda un gap menor no bloqueante: decisions.json pedía además relaciones con modelos de lenguaje y tutores inteligentes, y el borrador no enlaza esas entradas hermanas del glosario (ver hallazgos transversales).",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/glosario/aprendizaje-digital/index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/recursos/glosario/aprendizaje-digital/index.md L13: sitúa el concepto en cursos presenciales, híbridos o en línea y lo ancla a una situación reconocible (clase que depende de plataforma, simulación, documento compartido), retirando el 'verdadero aprendizaje digital' objetado en decisions.json (entrada aprendizaje-digital).",
+        "content/recursos/glosario/aprendizaje-digital/index.md L15: ejemplo cotidiano (dos estudiantes comparan anotaciones y corrigen una afirmación) y distinción entre archivo presente y acción del grupo, sin reducir el concepto a hiperpersonalización.",
+        "content/recursos/glosario/aprendizaje-digital/index.md L17: niega que la herramienta mejore el aprendizaje por sí misma y nombra límites revisables (acceso, privacidad, carga de trabajo).",
+        "content/recursos/glosario/aprendizaje-digital/index.md L19: el enlace interno apunta a una página existente (content/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md)."
+      ],
+      "reason": "Definición operativa con ejemplo observable, sin garantías, en lenguaje directo, con destino interno válido y fuente de contraste coherente con la tabla de docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L65. Cubre los cambios anunciados en ese reporte L37-42 y las carencias señaladas por la auditoría (falta de ejemplo cotidiano y de cuándo importa la distinción).",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/glosario/ingenieria-de-prompts/index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L13: sitúa persona y momento (docente o estudiante con tarea delimitada) y explica cuándo basta una instrucción breve, con ejemplo citable, retirando los requisitos universales objetados en decisions.json (entrada ingenieria-de-prompts).",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L15: ejemplo con material inicial (introducción y rúbrica) que termina en revisión contra el material, no en confianza en la respuesta.",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L17: sustituye 'limitar alucinaciones' y 'forzar' por 'puede reducir... pero no garantiza', y distingue instrucción de acceso a fuentes, recuperación y comprobación final.",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L19: enlaza la guía específica existente (content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md), como pedía la auditoría en lugar del destino genérico al Observatorio."
+      ],
+      "reason": "Cumple precisión sin garantías, ejemplo verificable, lenguaje directo y destino interno válido; ejecuta punto por punto los cambios del reporte docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L44-50. Existe una tensión conceptual con la guía enlazada, que conserva promesas de 'resultados de alta calidad' y seis componentes obligatorios; es un problema del destino, fuera del lote, y se registra en los hallazgos transversales.",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/videos/_index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/recursos/videos/_index.md L14: sitúa persona y momento (docente o estudiante que quiere estudiar un tema), declara la conservación de la ruta /videos/ para no romper enlaces y exige que cada ficha identifique su formato real, resolviendo el criterio 10.",
+        "content/recursos/videos/_index.md L19-21: los tres destinos nombrados existen y son toda la colección: content/recursos/videos/sal-khan-ia-educacion.md (video real con reproductor), learn-prompting-curso-completo.md (identificada como guía web) y tutoriales-herramientas-ia-docentes.md (identificada como curaduría); la promesa coincide con los destinos.",
+        "content/recursos/videos/_index.md L23: cierra con qué conservar al terminar (referencia, idea probada, cambio sobre material propio, forma de revisión) y repite la regla contra fichas mal tipificadas.",
+        "docs/editorial/rollback/2026-08-23-contexto-lote-02/content/recursos/videos/_index.md L13: la versión anterior prometía que cada pieza era un video con resumen y momentos clave, promesa que la colección no cumplía; el borrador corrige esa desalineación citada en decisions.json (entrada videos/_index)."
+      ],
+      "reason": "El índice reorienta por tarea, mantiene la ruta histórica con justificación explícita y su promesa ahora coincide con las tres fichas reales. Observación menor no bloqueante: los tres destinos de L19-21 se nombran sin hipervínculo directo (se llega por las tarjetas de la lista); añadir los enlaces en las viñetas reforzaría la coherencia con la exigencia de 'destino directo'. La decisión de conservar el título 'Videos y cursos abiertos' sobre la ruta /videos/ queda correctamente delegada a revisión humana en docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L119.",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/videos/learn-prompting-curso-completo.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/recursos/videos/learn-prompting-curso-completo.md L30-32: identifica el formato real (guía web con cursos separados), advierte que las condiciones de acceso pueden cambiar y explica por qué permanece en la colección, corrigiendo la ficha que se presentaba como video de acceso completo y gratuito (decisions.json, entrada learn-prompting: 'afirmaba acceso completo y gratuito').",
+        "content/recursos/videos/learn-prompting-curso-completo.md L36: define para quién sirve y ofrece punto de entrada alternativo interno existente (content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md).",
+        "content/recursos/videos/learn-prompting-curso-completo.md L40-46: la 'Prueba breve' parte de material propio, fija cinco acciones observables y un criterio de cierre ('puedes explicar por qué la segunda instrucción fue más útil'), con advertencia contra respuestas largas o seguras.",
+        "content/recursos/videos/learn-prompting-curso-completo.md L42: minimización ('Añade solo la información que la tarea realmente necesita').",
+        "content/recursos/videos/learn-prompting-curso-completo.md L54: la fecha de revisión de enlaces (23 de agosto de 2026) coincide con la comprobación documentada en docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L60-72; las URL externas no se reverifican aquí por falta de acceso web."
+      ],
+      "reason": "La ficha resuelve la desalineación de tipo señalada por la auditoría: formato declarado en front matter (L19: resourceType 'guía web y cursos') y en el cuerpo, prueba con material propio, cierre revisable, sin garantías y con distinción explícita respecto de la charla de Sal Khan. Los destinos internos existen; los externos quedan cubiertos por la comprobación documentada del reporte del lote.",
+      "required_changes": []
+    },
+    {
+      "path": "content/recursos/videos/tutoriales-herramientas-ia-docentes.md",
+      "decision": "ajustar-borrador",
+      "citations": [
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L20: el front matter conserva resourceLanguage: 'es / en', pero las tres fuentes del listado activo son en inglés (L36, L44, L52); el 'es' era herencia de las dos fuentes en español retiradas (docs/editorial/rollback/2026-08-23-contexto-lote-02/content/recursos/videos/tutoriales-herramientas-ia-docentes.md L31-43).",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L49 y L55: la tercera fuente se titula 'CodeAI: AI 101 for Educators', pero su destino es code.org y la copia previa atribuía la iniciativa a 'Code.org Foundation' (rollback L59-63); el nombre 'CodeAI' no coincide con el dominio del propio destino ni con el nombre usado antes, y docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L57 y L70 repiten esa denominación.",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L28: el lead sitúa persona, momento y material de inicio (una pregunta de la asignatura, cierre con prueba sobre material propio) — criterios 1-2 cumplidos.",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L33-55: cada fuente declara formato, idioma, alcance con límites (contexto escolar, desactualización) y momento de uso — criterios 6-8 cumplidos.",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L59-65: cinco acciones observables y criterio de cierre (explicar qué cambiaste, qué no trasladarás, cómo comprobarás) — criterios 3-4 cumplidos.",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L69: los tres enlaces internos apuntan a páginas existentes (sal-khan-ia-educacion.md, learn-prompting-curso-completo.md, content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md) — criterio 5 cumplido."
+      ],
+      "reason": "La estructura editorial es correcta y la retirada de las dos fuentes sin URL está bien resuelta (permanecen en la copia reversible, rollback L33-43, con decisión delegada a revisión humana en el reporte L120). Quedan dos imprecisiones verificables sin acceso web: el idioma declarado en el front matter contradice el cuerpo tras retirar las fuentes en español, y el nombre del proveedor del curso AI 101 no coincide con el dominio de su propio destino ni con la atribución previa a Code.org.",
+      "required_changes": [
+        "Cambiar resourceLanguage de 'es / en' a 'en' en L20 (o reincorporar una fuente en español verificada), y revisar la descripción L5 si se mantiene la promesa de elegir por idioma.",
+        "Confirmar el nombre real del proveedor de 'AI 101 for Educators' contra la página de destino y corregir 'CodeAI' (L49, L55) — la evidencia disponible apunta a Code.org; aplicar la misma corrección en docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L57 y L70."
+      ]
+    }
+  ],
+  "cross_page_findings": [
+    "La guía content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md, destino enlazado desde el glosario (L19) y desde dos fichas de videos, contradice la precisión que el lote introduce: promete 'resultados de alta calidad' (L6, L29), presenta seis componentes como esenciales para todo prompt (L29-36) y califica un recurso externo como 'la guía más completa de la industria' (L77), mientras el glosario reescrito afirma que una frase directa puede bastar y que nada garantiza exactitud. La guía está fuera del lote 02, pero es candidata natural a un lote posterior para no enviar al lector de una definición prudente a una promesa expansiva.",
+    "content/recursos/videos/sal-khan-ia-educacion.md conserva título y resumen con tono promocional ('el mayor cambio educativo de la historia', L2) y momentos clave sin advertencias de verificación; el nuevo índice lo mitiga pidiendo anotar 'qué afirmación necesita comprobarse' (_index.md L19), pero la ficha misma quedó fuera del lote y desentona con el criterio de precisión aplicado al resto de la colección.",
+    "content/recursos/glosario/_index.md L19 promete que cada entrada incluye 'su origen y al menos una referencia interna': las tres entradas reescritas cumplen la referencia interna pero ninguna narra el origen del término; conviene ajustar la promesa del índice del glosario o aceptar explícitamente el criterio nuevo en un lote futuro.",
+    "data/editorial/context-audit-decisions.json (entrada agentes-de-ia) pedía además 'relaciones con modelos de lenguaje, herramientas y tutores inteligentes'; el borrador no enlaza las entradas hermanas del glosario (IA generativa, tutor inteligente). Gap menor que no bloquea la aprobación pero debería registrarse como pendiente.",
+    "Criterio 10 verificado: la ruta histórica /recursos/videos/ se conserva sin cambios de URL (reporte del lote L18 y L54), el índice explica esa decisión en el texto visible (_index.md L14) y las tres fichas de la colección declaran su formato real en front matter y cuerpo; la conveniencia del título 'Videos y cursos abiertos' sobre esa ruta queda delegada a la revisión humana solicitada (reporte L119).",
+    "Las direcciones externas no se verificaron en esta revisión por falta de acceso web; la observación se limita a lo documentado: docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md L60-72 registra la comprobación del 23 de agosto de 2026 y las fechas declaradas en las fichas (learn-prompting L54, tutoriales L24) son coherentes con ese registro.",
+    "El manifiesto de reversión (docs/editorial/rollback/2026-08-23-contexto-lote-02/manifest.json) cubre exactamente las siete fuentes del lote con SHA-256 y tamaño, y las copias previas leídas coinciden con lo que el reporte describe como estado anterior; la reversibilidad prometida es consistente."
+  ],
+  "totals": {
+    "aprobar-borrador": 6,
+    "ajustar-borrador": 1,
+    "total": 7
+  },
+  "_execution": {
+    "wrapper_subtype": "success",
+    "models": [
+      "claude-haiku-4-5-20251001",
+      "claude-fable-5"
+    ],
+    "num_turns": 23,
+    "stop_reason": "end_turn"
+  },
+  "_reconciliation": {
+    "status": "required_changes_applied",
+    "original_totals": {
+      "aprobar-borrador": 6,
+      "ajustar-borrador": 1,
+      "total": 7
+    },
+    "changes": [
+      {
+        "path": "content/recursos/videos/tutoriales-herramientas-ia-docentes.md",
+        "field": "resourceLanguage",
+        "before": "es / en",
+        "after": "en"
+      },
+      {
+        "path": "content/recursos/videos/tutoriales-herramientas-ia-docentes.md",
+        "field": "provider_name",
+        "before": "CodeAI",
+        "after": "Code.org / CodeAI"
+      },
+      {
+        "path": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+        "field": "provider_name",
+        "before": "CodeAI",
+        "after": "Code.org / CodeAI"
+      }
+    ],
+    "final_ready_for_human_review": true
+  }
+}

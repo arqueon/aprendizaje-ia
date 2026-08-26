@@ -2,6 +2,7 @@
 title: "Aprendizaje digital e IA"
 description: "Espacio de convergencia entre pedagogía y tecnología para abordar la complejidad de la docencia en la era de la inteligencia artificial."
 showMermaid: true
+summary: "Recursos, prácticas y marcos para docentes de la Universidad de Guadalajara que integran inteligencia artificial y aprendizaje digital."
 ---
 
 {{< lead >}}
@@ -24,7 +25,7 @@ decisión que necesitas tomar, comienza por una de estas rutas:
 {{< cards >}}
   {{< card link="/ia-educacion/constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Una introducción para aprender con IA o integrarla a una actividad sin perder de vista el propósito formativo." >}}
   {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Un recorrido para construir acuerdos, acompañar pilotos y revisar evidencias en programas, academias y SEMS." >}}
-  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" description="Un marco para alinear propósito, gobernanza, capacidades, tecnología, recursos y revisión." >}}
+  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Preparo decisiones institucionales" description="Un marco para alinear propósito, gobernanza, capacidades, tecnología, recursos y revisión." >}}
 {{< /cards >}}
 
 [Ver las rutas y sus alcances](/ia-educacion/rutas/).

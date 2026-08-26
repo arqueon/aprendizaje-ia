@@ -1,0 +1,28 @@
+{
+  "dec_survey": {
+    "official_page": "https://www.digitaleducationcouncil.com/post/ai-in-higher-education-latam-survey-2026",
+    "local_pdf": "static/files/encuesta_ia_latam_2026.pdf",
+    "verified": [
+      "22,941 respuestas de estudiantes",
+      "7,319 respuestas de profesorado",
+      "29 instituciones",
+      "UdeG aparece como participante"
+    ],
+    "not_reported": [
+      "desglose por institución",
+      "selección de participantes",
+      "fechas de levantamiento",
+      "tasa de respuesta por institución",
+      "ponderación"
+    ]
+  },
+  "assessment": {
+    "article": "https://www.digitaleducationcouncil.com/post/watering-the-plants-not-just-building-fences-rethinking-assessment-in-the-ai-era",
+    "partnership": "https://www.digitaleducationcouncil.com/newsroom/strategic-partnership-with-pearson-to-shape-the-future-of-global-higher-education",
+    "verified": [
+      "alianza DEC–Pearson anunciada 2025-04-23",
+      "pieza publicada 2025-07-07",
+      "fuente institucional, no estudio de eficacia"
+    ]
+  }
+}

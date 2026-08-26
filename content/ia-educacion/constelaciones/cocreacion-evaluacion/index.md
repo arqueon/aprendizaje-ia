@@ -96,38 +96,46 @@ pero no muestra por sí solo dónde hubo comprensión ni quién conservó la dec
 
 Por eso conviene mirar dos cosas juntas:
 
-- **el producto**, para valorar la calidad de lo que se entrega;
+- **el trabajo entregado**, para revisar su calidad;
 - **una muestra pequeña del proceso**, para observar una decisión, una comprobación o un cambio
   significativo.
 
 No hace falta documentar cada clic ni guardar una conversación completa. En el caso de Renata
-bastan el primer borrador, la afirmación que decidió limitar, la evidencia consultada y una frase
+bastan el primer borrador, la afirmación que decidió limitar, la fuente consultada y una frase
 que explique por qué cambió la conclusión.
+
+| La IA puede ayudarte a… | Todavía necesitas… |
+|---|---|
+| Ensayar una explicación o pedir otro ejemplo. | Comprobar si la explicación es correcta y pertinente. |
+| Proponer preguntas, objeciones o alternativas. | Decidir cuáles sirven para lo que intentas hacer. |
+| Comentar un borrador y localizar puntos débiles. | Juzgar qué cambios mejoran realmente el trabajo. |
+| Ordenar información o comparar versiones. | Verificar fuentes, cuidar datos y explicar tus decisiones. |
+{.udgia-table--comparison .udgia-table--row-headers caption="Qué puede aportar la IA y qué responsabilidad conserva la persona"}
 
 ## Cinco movimientos para probar una ayuda
 
-1. **Nombra el propósito.** ¿Qué necesitas comprender, enseñar o producir?
-2. **Haz un primer intento.** Escribe una explicación, una pregunta o un criterio antes de pedir
+1. **Di qué necesitas hacer.** ¿Necesitas comprender, enseñar o producir algo?
+2. **Haz un primer intento.** Escribe una explicación, una pregunta o una primera decisión antes de pedir
    una solución completa.
-3. **Solicita una ayuda delimitada.** Pide una objeción, un caso contrario, una comparación o un
+3. **Pide ayuda sobre una parte.** Pide una objeción, un caso contrario, una comparación o un
    comentario sobre una parte concreta.
-4. **Comprueba el punto decisivo.** Vuelve a los datos, fuentes, reglas o ejemplos que pueden
+4. **Comprueba la respuesta.** Vuelve a los datos, fuentes, reglas o ejemplos que pueden
    confirmar o debilitar la propuesta.
 5. **Decide y explica.** Conserva, transforma, descarta o deja pendiente el aporte y anota una
    razón breve.
 
 Estos movimientos no son cinco requisitos separados. El esquema siguiente ayuda a ver cómo cada
-uno prepara el siguiente y mantiene el propósito, la comprobación y la decisión bajo
+uno prepara el siguiente y mantiene la comprobación y la decisión bajo
 responsabilidad de la persona.
 
-{{< udgia-figure id="udgia-f18-cinco-movimientos" src="cinco-movimientos-ayuda.svg" >}}
-1. **Propósito claro:** nombra qué necesitas comprender, enseñar o producir.
-2. **Primer intento:** escribe una explicación, pregunta o criterio propio antes de pedir una solución completa.
-3. **Ayuda delimitada:** pide una objeción, un caso contrario, una comparación o apoyo sobre una parte concreta.
-4. **Punto comprobado:** vuelve a los datos, fuentes, reglas o ejemplos que pueden confirmar o debilitar la propuesta.
+{{< udgia-figure id="udgia-f18-cinco-movimientos" >}}
+1. **¿Qué necesitas hacer?:** di si necesitas comprender, enseñar o producir algo.
+2. **Primer intento:** escribe una explicación, pregunta o primera decisión antes de pedir una solución completa.
+3. **Ayuda sobre una parte:** pide una objeción, un caso contrario, una comparación o apoyo sobre una parte concreta.
+4. **Comprueba la respuesta:** vuelve a los datos, fuentes, reglas o ejemplos que pueden confirmar o debilitar la propuesta.
 5. **Decisión explicada:** conserva, transforma, descarta o deja pendiente el aporte y anota una razón breve.
 
-El recorrido no obliga a usar IA ni a seguir una secuencia rígida. La ayuda también puede provenir de una fuente, una persona o un ejemplo preparado por quien enseña. Lo que se conserva es la relación entre propósito, trabajo propio, apoyo delimitado, comprobación y decisión.
+El recorrido no obliga a usar IA ni a seguir una secuencia rígida. La ayuda también puede provenir de una fuente, una persona o un ejemplo preparado por quien enseña. Lo importante es decir qué necesitas hacer, escribir algo propio, pedir ayuda sobre una parte, comprobar la respuesta y explicar tu decisión.
 {{< /udgia-figure >}}
 
 La secuencia no convierte cada uso en una tarea larga. Sirve para reconocer qué parte no conviene
@@ -188,7 +196,7 @@ herramienta y cómo puede realizarse el mismo aprendizaje sin IA. La expectativa
 cuando nombra una acción concreta —comparar, verificar, revisar— y no solamente “usar
 responsablemente”.
 
-[Revisa si una actividad pide, practica y revisa lo mismo](../../../actividades/revisar-actividad/)
+[Revisa una actividad y produce un ajuste concreto]({{< relref "ia-educacion/guias/profesorado" >}})
 {.udgia-action-link}
 
 ## Cuando la relación se vuelve co-creación

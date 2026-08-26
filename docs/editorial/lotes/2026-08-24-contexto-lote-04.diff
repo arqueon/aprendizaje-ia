@@ -1,0 +1,761 @@
+--- a/content/recursos/externas/_index.md
++++ b/dev/null
+@@ -1,39 +0,0 @@
+----
+-title: "Recursos externos"
+-description: "Curaduría de aplicaciones, guías y comunidades externas seleccionadas con criterio pedagógico."
+-summary: "Herramientas de terceros y referentes internacionales que cubren funcionalidades que la institución tarda en ofrecer."
+-date: 2026-04-26
+-weight: 5
+-showHero: true
+-heroStyle: "background"
+-showBreadcrumbs: true
+-showSummary: true
+-showCards: true
+-cardView: true
+-areas: ["ia", "digital", "formacion"]
+----
+-
+-{{< lead >}}
+-Curaduría de aplicaciones de terceros y referentes internacionales que, aunque exigen más responsabilidad individual, ofrecen funcionalidades específicas que la oferta institucional aún no cubre.
+-{{< /lead >}}
+-
+-## Qué encontrarás aquí
+-
+-Donde los [recursos institucionales](/recursos/politica-ia-udeg/) y los [artículos](/recursos/articulos/) consolidan la base académica, esta rama abre la mirada a lo que se está haciendo afuera: organismos internacionales (UNESCO, OCDE), comunidades de práctica docente con IA, repositorios abiertos de syllabus, y herramientas independientes que vale la pena conocer.
+-
+-## Criterios de curaduría
+-
+-Cada entrada se evalúa con la misma matriz mínima:
+-
+-- **Acceso** — disponibilidad gratuita o de bajo costo para docentes UdeG.
+-- **Privacidad y datos** — política de uso de información del usuario.
+-- **Sustento pedagógico** — orientación explícita a contextos educativos formales.
+-- **Mantenimiento** — frecuencia de actualización del recurso.
+-- **Idioma** — disponibilidad en español o material de apoyo en español.
+-
+-## Bloques temáticos
+-
+-- **Organismos internacionales** — UNESCO, OCDE, UNICEF y sus marcos de referencia para IA en educación.
+-- **Comunidades de práctica** — redes docentes activas que comparten experiencias con IA.
+-- **Syllabus y planeaciones abiertas** — ejemplos de programas universitarios que ya integran IA.
+-- **Herramientas independientes** — aplicaciones de terceros con función pedagógica clara.
+--- a/content/recursos/externas/comunidades-practica-docente-ia/index.md
++++ b/content/recursos/links/comunidades-practica-docente-ia/index.md
+@@ -1,14 +1,15 @@
+ ---
+-title: "Comunidades de práctica docente con IA"
++title: "Redes y espacios para compartir prácticas docentes con IA"
+ date: 2026-04-26
++lastmod: 2026-08-24
+ draft: false
+-description: "Curaduría de redes y comunidades de docentes universitarios que comparten experiencias, recursos y discusiones sobre integración de IA en la enseñanza."
+-summary: "Seis comunidades activas para docentes que integran IA: tres regionales latinoamericanas, dos internacionales y una específica para educación superior pública."
+-tags: ["comunidades de práctica", "redes docentes", "Latinoamérica", "intercambio profesional"]
+-categories: ["recurso-institucional"]
++description: "Curaduría de redes, programas, encuentros y documentos que permiten localizar conversaciones profesionales sobre IA y educación."
++summary: "Seis puntos de entrada de distinto tipo para seguir experiencias docentes, buscar interlocutores y contrastar políticas sobre IA en educación."
++aliases: ["/recursos/externas/comunidades-practica-docente-ia/"]
++tags: ["redes docentes", "colaboración", "Latinoamérica", "educación superior"]
++categories: ["curaduria"]
+ areas: ["formacion", "ia", "digital"]
+-
+ weight: 2
+ showHero: true
+ heroStyle: "background"
+ showBreadcrumbs: true
+@@ -18,72 +19,64 @@
+ showAuthor: false
+ ---
+ 
+ {{< lead >}}
+-Un docente que prueba IA en su aula aprende algo cada semana; diez docentes que se lo cuentan aprenden diez veces más. La integración de IA en docencia universitaria se sostiene mejor cuando hay un colectivo donde compartir, contrastar y refinar la propia práctica. Esta curaduría reúne seis comunidades activas en abril de 2026, organizadas por escala y por idioma de operación.
++Esta curaduría ayuda a localizar personas, programas y conversaciones profesionales sobre IA en educación. Reúne seis puntos de entrada, pero no todos permiten incorporarse a una comunidad: algunos son redes, otros documentan un encuentro, publican principios o reúnen casos. La distinción importa porque leer un informe no equivale a participar en un grupo de trabajo.
+ {{< /lead >}}
+ 
+-## Por qué importa pertenecer a una comunidad
++## Antes de elegir
+ 
+-La [pieza sobre redes y comunidades](/formacion-docente/redes/) sostiene que el aprendizaje docente más duradero ocurre en colectivo, no en eventos puntuales. Esto se vuelve más claro con IA generativa: el ritmo del cambio técnico y la cantidad de decisiones nuevas que aparecen cada semestre rebasan lo que un docente puede procesar solo. Una comunidad activa funciona como mecanismo de filtrado, validación y aprendizaje compartido.
++Primero conviene precisar qué se busca. Una persona puede necesitar colegas con quienes intercambiar experiencias, una convocatoria para participar en actividades, casos latinoamericanos que pueda comparar o un documento colectivo para discutir políticas. Cada necesidad conduce a una fuente distinta.
+ 
+-No se trata de pertenecer a muchas comunidades. Se trata de elegir una o dos donde la interacción produzca aprendizaje real y sostener participación regular. La brevedad disciplinada vale más que la presencia compulsiva.
++La disponibilidad también cambia con el tiempo. Antes de registrarse o citar una actividad, hay que comprobar la fecha de la última publicación, quién puede participar, el idioma de trabajo y si existe una convocatoria abierta. Esta página se revisó el 24 de agosto de 2026; no garantiza que un formulario o programa permanezca abierto después de esa fecha.
+ 
+-## Comunidades regionales (Latinoamérica)
++## Redes y programas con posibilidades de participación
+ 
+-### Red ANUIES de IA en Educación Superior (México)
++### Comité ANUIES-TIC y su grupo de inteligencia artificial
+ 
+-Espacio coordinado por ANUIES (Asociación Nacional de Universidades e Instituciones de Educación Superior) a través del Comité ANUIES-TIC y del Grupo de IA en Educación Superior (GIAES). Para universidades miembro, ofrece participación en grupos de trabajo, seminarios virtuales y publicaciones sobre gobernanza de IA en educación superior. Es la opción institucional más cercana para docentes UdeG.
++El Comité ANUIES-TIC reúne a instituciones mexicanas de educación superior para trabajar sobre gestión tecnológica. Su sección de inteligencia artificial publica jornadas, documentos y actividades del Grupo de Inteligencia Artificial en la Educación Superior. Es una referencia cercana para seguir discusiones institucionales en México. La participación depende de cada convocatoria y de la relación de la institución con ANUIES; el sitio no ofrece una comunidad abierta permanente para cualquier visitante.
+ 
+-URL: [Comité ANUIES-TIC](https://anuies-tic2.anuies.mx)
++Acceso: [Inteligencia artificial — Comité ANUIES-TIC](https://anuies-tic2.anuies.mx/inteligencia-artificial/)
+ 
+-### KHIPU — Latin American AI Community
++### KHIPUx
+ 
+-Red regional latinoamericana centrada en machine learning e IA, con una rama educativa creciente. El programa KHIPUx 2025-2026 ofrece apoyo a comunidades locales, fondos para eventos y red de contactos. No es exclusiva de docentes —incluye investigadores y profesionales—, pero la dimensión educativa está cobrando peso.
++KHIPU es una comunidad latinoamericana de aprendizaje e investigación en inteligencia artificial. El programa KHIPUx 2025-2026 ofrece apoyo a comunidades locales y actividades de articulación. No está dirigido exclusivamente a docentes ni se limita a la educación superior, por lo que conviene revisar cada convocatoria antes de asumir que responde a una necesidad pedagógica concreta.
+ 
+-URL: [KHIPU AI](https://khipu.ai/khipux-about/khipux-2025-2026/)
++Acceso: [KHIPUx 2025-2026](https://khipu.ai/khipux-about/khipux-2025-2026/)
+ 
+-### Iniciativa AI Here! (BID + Ceibal)
++### Association of Pacific Rim Universities
+ 
+-Iniciativa del Banco Interamericano de Desarrollo en alianza con Ceibal de Uruguay y Socialab. Documenta más de 193 soluciones de IA en educación operando en escuelas de la región, con énfasis en educación básica pero con extensiones a educación superior. Útil para conocer prácticas latinoamericanas concretas, no solo discursos.
++APRU es una red de universidades de la región Asia-Pacífico. Su informe de 2025 sobre IA generativa en educación superior reúne experiencias de instituciones miembro y remite a actividades de la asociación. El informe puede consultarse públicamente; participar en sus grupos de trabajo depende de la pertenencia institucional y de las convocatorias vigentes.
+ 
+-URL: [BID — How AI Is Transforming Education in LAC](https://www.iadb.org/en/blog/education/how-ai-transforming-education-latin-america-and-caribbean-lessons-193-solutions)
++Acceso: [APRU — *Generative AI in Higher Education*](https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf)
+ 
+-## Comunidades internacionales
++## Fuentes para localizar casos y discusiones
+ 
+-### UNESCO — Red regional LAC para competencias de IA
++### AI Here! del BID, Ceibal y Socialab
+ 
+-UNESCO mantiene un espacio de intercambio regional para América Latina y el Caribe en torno a competencias docentes y estudiantiles en IA, articulado con su [marco de competencias](/recursos/links/unesco-marco-competencias-docentes-ia/). El seminario regional de diciembre 2025 estableció una plataforma para compartir experiencias entre países y desarrollar marcos nacionales.
++AI Here! documentó 193 soluciones de IA en educación en América Latina y el Caribe. Su utilidad está en el mapa de casos y en la comparación regional. No es una comunidad docente ni una invitación abierta a participar; funciona como catálogo para identificar iniciativas que después deben revisarse en su contexto original.
+ 
+-URL: [UNESCO — Empowering teachers and students with AI competencies (regional seminar)](https://www.unesco.org/en/articles/empowering-teachers-and-students-ai-competencies-regional-seminar-latin-america-and-caribbean)
++Acceso: [BID — *How AI Is Transforming Education in Latin America and the Caribbean*](https://www.iadb.org/en/blog/education/how-ai-transforming-education-latin-america-and-caribbean-lessons-193-solutions)
+ 
+-### Russell Group — Principles and Communities (Reino Unido)
++### Seminario regional de UNESCO
+ 
+-Para docentes que leen inglés y buscan referentes europeos, las universidades del Russell Group sostienen una red de buenas prácticas en torno a sus cinco principios sobre IA en educación. Las publicaciones derivadas y los grupos de trabajo asociados son accesibles desde el portal de cada universidad miembro.
++UNESCO celebró en diciembre de 2025 un seminario regional sobre competencias de IA para docentes y estudiantes de América Latina y el Caribe. La página conserva el programa y el marco de esa conversación. Documenta un encuentro fechado; no demuestra por sí sola que exista una red regional permanente ni ofrece necesariamente un mecanismo actual de incorporación.
+ 
+-URL: [Russell Group — Principles on the use of generative AI](https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education)
++Acceso: [UNESCO — seminario regional sobre competencias de IA](https://www.unesco.org/en/articles/empowering-teachers-and-students-ai-competencies-regional-seminar-latin-america-and-caribbean)
+ 
+-### APRU — Association of Pacific Rim Universities
++### Principios del Russell Group
+ 
+-Red de universidades del Pacífico (Asia, Oceanía, Las Américas) con un grupo de trabajo activo sobre IA en educación superior. El white paper de enero 2025 funciona como punto de entrada y los webinars periódicos como espacio de intercambio.
++Las universidades del Russell Group publicaron cinco principios comunes sobre IA generativa en educación. El documento sirve para comparar cómo una asociación universitaria formula compromisos sobre alfabetización, apoyo docente, evaluación, acceso e integridad académica. Es una referencia de política, no una comunidad a la que pueda sumarse una persona desde esta página.
+ 
+-URL: [APRU — Generative AI in Higher Education](https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf)
++Acceso: [Russell Group — principios sobre IA generativa en educación](https://www.russellgroup.ac.uk/policy/policy-briefings/principles-use-generative-ai-tools-education)
+ 
+-## Cómo participar sin saturarse
++## Una forma concreta de usar esta curaduría
+ 
+-Tres orientaciones operativas para sostener participación útil sin caer en la saturación informacional:
+-
+-- **Elegir una comunidad regional y una internacional.** Permite combinar contexto cercano con perspectiva amplia sin duplicar esfuerzos.
+-- **Asignar 30 minutos semanales fijos.** Tiempo corto y consistente rinde más que sesiones largas esporádicas.
+-- **Comprometer una intervención propia al mes.** Compartir un caso, formular una pregunta o comentar la práctica de un colega. La participación pasiva agota; la activa sostiene el aprendizaje.
++Conviene elegir una fuente de participación y otra de referencia. En la primera, se comprueba si hay convocatoria y a quién admite. En la segunda, se selecciona un caso o principio para compararlo con una situación propia. Después se escribe una nota breve con tres datos: qué ofrece la fuente, qué condición limita su uso y qué pregunta se llevaría a una conversación con colegas. No hace falta registrarse en varias redes ni conservar conversaciones completas.
+ 
+ ## Lecturas relacionadas
+ 
+-La pieza sobre [redes y comunidades](/formacion-docente/redes/) ofrece el marco conceptual de las comunidades de práctica; el ensayo del blog sobre [experiencias de docentes con IA en el aula](/blog/experiencias-docentes-ia-aula/) sostiene por qué el cambio se sostiene en colectivo, no en individuo; el [marco regulatorio universidades MX](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) describe la red institucional ANUIES con más detalle.
++La página sobre [redes y comunidades](/formacion-docente/redes/) explica cómo sostener aprendizaje profesional entre colegas. El [marco de competencias de IA para docentes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/) ofrece una referencia para decidir qué capacidades trabajar. El [marco regulatorio para universidades mexicanas](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) sitúa parte de la discusión institucional.
+ 
+ ## Referencias
+ 
+-ANUIES. (2024). *Inteligencia artificial en la educación superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*. Asociación Nacional de Universidades e Instituciones de Educación Superior.
+-
+-APRU. (2025, enero). *Generative AI in higher education: Current practices and ways forward*. Association of Pacific Rim Universities. https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf
+-
+-Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
++APRU. (2025). *Generative AI in higher education: Current practices and ways forward*. Association of Pacific Rim Universities. https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf
+--- a/content/recursos/externas/syllabus-internacionales-ia/index.md
++++ b/content/recursos/links/syllabus-internacionales-ia/index.md
+@@ -1,14 +1,15 @@
+ ---
+-title: "Syllabus universitarios con IA: ejemplos internacionales"
++title: "Políticas de IA para el syllabus: ejemplos internacionales"
+ date: 2026-04-26
++lastmod: 2026-08-24
+ draft: false
+-description: "Curaduría de syllabus universitarios públicamente disponibles que integran IA generativa, con análisis de los modelos de política que cada uno ejemplifica."
+-summary: "Cinco fuentes con syllabus reales que docentes UdeG pueden adaptar: Stanford, Harvard, Sydney, APRU y plantillas comparativas. Tres modelos de política identificados."
+-tags: ["syllabus", "ejemplos internacionales", "política docente", "plantillas"]
+-categories: ["recurso-institucional"]
++description: "Cinco fuentes internacionales para comparar cómo se redactan reglas de uso de IA en una asignatura y qué decisiones debe tomar cada docente."
++summary: "Orientaciones, ejemplos de políticas de curso, un informe comparativo y una revisión secundaria para redactar reglas claras sin copiar modelos extranjeros."
++aliases: ["/recursos/externas/syllabus-internacionales-ia/"]
++tags: ["syllabus", "política de curso", "IA generativa", "ejemplos internacionales"]
++categories: ["curaduria"]
+ areas: ["ia", "pedagogia"]
+-
+ weight: 1
+ showHero: true
+ heroStyle: "background"
+ showBreadcrumbs: true
+@@ -18,74 +19,66 @@
+ showAuthor: false
+ ---
+ 
+ {{< lead >}}
+-Los syllabus son el espacio donde una política institucional sobre IA se vuelve decisión docente concreta. Esta curaduría reúne cinco fuentes que ofrecen ejemplos reales y plantillas adaptables, organizadas por el modelo de política que cada uno representa.
++Una regla institucional sobre IA necesita traducirse en decisiones comprensibles dentro de cada asignatura. Las cinco fuentes de esta curaduría ayudan a comparar formulaciones, pero no son cinco syllabus completos: incluyen orientaciones docentes, ejemplos de políticas de curso, un informe internacional y una comparación secundaria. Se ofrecen para analizar y adaptar, no para copiar.
+ {{< /lead >}}
+ 
+-## Por qué importa estudiar syllabus reales
++## Qué debe resolver una política de curso
+ 
+-Una política institucional puede declarar transparencia y permisividad razonable, pero hasta que esos principios no se traducen al syllabus de una asignatura concreta, no producen efecto en el aula. Los estudiantes leen syllabus, no políticas. Por eso los ejemplos internacionales valen como referencia: muestran cómo se redacta operativamente lo que las políticas enuncian.
++Una persona que lee el syllabus necesita saber qué usos de IA están permitidos en cada actividad, cuáles requieren declaración, cuáles no se aceptan y por qué. También debe saber qué hacer si no puede o no quiere usar una plataforma comercial, cómo proteger datos personales y a quién preguntar cuando un caso no esté previsto.
+ 
+-Tres modelos de política aparecen en los syllabus disponibles públicamente, según la revisión que ofrece Thesify (2025): **restrictivos**, **mixtos** y **permisivos**. Las cinco fuentes seleccionadas cubren los tres modelos.
++Estas decisiones no se reducen a elegir entre prohibir o permitir. Una misma asignatura puede aceptar IA para explorar alternativas, limitarla durante una evaluación individual y exigir que el estudiante explique qué parte del trabajo realizó con ayuda del sistema. La política debe nombrar esas diferencias con ejemplos vinculados a las actividades reales del curso.
+ 
+-## Fuentes seleccionadas
++## Cinco fuentes con funciones distintas
+ 
+-### 1. Stanford Teaching Commons — Course Policies on AI
++### Stanford Teaching Commons: modelos de política
+ 
+-La oficina de docencia de Stanford ofrece tres ejemplos completos de política de IA en syllabus, etiquetados como *restrictive*, *mixed* y *encouraging*. Cada ejemplo incluye lenguaje específico que los docentes pueden adaptar y un breve análisis de cuándo conviene usar cada modelo. Es probablemente el recurso más utilizado internacionalmente para docentes que escriben su primera política.
++Stanford presenta ejemplos de políticas restrictivas, mixtas y favorables al uso de IA. Son formulaciones que un docente puede comparar y adaptar. La página también plantea preguntas sobre objetivos de aprendizaje, equidad y comunicación con estudiantes; no ofrece una regla universal para todos los cursos.
+ 
+-URL: [Stanford Teaching Commons — Creating your course policy on AI](https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide/creating-your-course-policy-ai)
++Acceso: [Stanford Teaching Commons — *Creating your course policy on AI*](https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide/creating-your-course-policy-ai)
+ 
+-### 2. Harvard FAS — Generative AI Guidance for Faculty
++### Harvard FAS: orientaciones para docentes
+ 
+-Harvard ofrece a sus docentes tres etiquetas que pueden aplicar al curso en su sistema Canvas: *AI permitted*, *some AI allowed*, *no AI*. Cada etiqueta tiene plantilla pre-redactada y guía de uso. Para programas que buscan estandarizar el lenguaje en una facultad o departamento, es un modelo replicable.
++Harvard distingue cursos donde la IA está permitida, parcialmente permitida o no permitida y ofrece lenguaje de referencia para comunicar cada opción. El valor de la página está en hacer visible la decisión del docente. Sus categorías pertenecen al contexto de Harvard y no reemplazan las normas de otra institución.
+ 
+-URL: [Harvard Office of Undergraduate Education — Generative AI Guidance](https://oue.fas.harvard.edu/faculty-resources/generative-ai-guidance/)
++Acceso: [Harvard Office of Undergraduate Education — *Generative AI Guidance*](https://oue.fas.harvard.edu/faculty-resources/generative-ai-guidance/)
+ 
+-### 3. Stanford Hub — Course Policies Repository
++### Stanford Teaching and Learning Hub: políticas de curso
+ 
+-Repositorio comparativo de políticas de curso de docentes de Stanford. A diferencia del recurso anterior, aquí cada caso es un syllabus real con autor identificado, no una plantilla idealizada. Es útil para ver cómo distintos docentes resuelven la misma decisión en contextos disciplinares diferentes.
++El repositorio del Graduate School of Business reúne declaraciones y ejemplos de política usados en cursos. Permite observar diferencias de redacción entre asignaturas y comparar cómo cada docente delimita actividades concretas. Conviene revisar la fecha y el contexto de cada ejemplo antes de reutilizar una frase.
+ 
+-URL: [Stanford Teaching and Learning Hub — Course Policies on Generative AI Use](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
++Acceso: [Stanford Teaching and Learning Hub — *Course Policies on Generative AI Use*](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
+ 
+-### 4. APRU White Paper — Generative AI in Higher Education
++### APRU: comparación entre universidades
+ 
+-La Association of Pacific Rim Universities (APRU, enero 2025) publicó un white paper que incluye un capítulo de práctica con ejemplos de syllabus de universidades miembro (Hong Kong, Sydney, Tokio, Pacífico). El valor agregado es la diversidad cultural y la inclusión de prácticas asiáticas que rara vez aparecen en compendios anglosajones.
++El informe de APRU de enero de 2025 examina prácticas de varias universidades de la región Asia-Pacífico. Incluye ejemplos y discusiones sobre políticas, enseñanza y evaluación. No es un repositorio de syllabus completos; sirve para comparar decisiones institucionales y localizar los casos que el informe cita.
+ 
+-URL: [APRU — Generative AI in Higher Education Whitepaper](https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf)
++Acceso: [APRU — *Generative AI in Higher Education*](https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf)
+ 
+-### 5. Thesify — Comparativa de políticas de las universidades top
++### Thesify: revisión secundaria de políticas
+ 
+-Comparativa actualizada en octubre de 2025 que sintetiza las políticas vigentes en universidades líderes del mundo, con enlaces directos a los syllabus o a los marcos institucionales que los sostienen. Funciona como punto de entrada para una revisión rápida.
++Thesify publicó en octubre de 2025 una comparación de políticas de universidades internacionales. Es una fuente secundaria y comercial. Puede ayudar a localizar documentos, pero cada afirmación debe comprobarse en la página de la universidad correspondiente antes de incorporarla al syllabus.
+ 
+-URL: [Thesify AI — Generative AI Policies at the World's Top Universities](https://www.thesify.ai/blog/gen-ai-policies-update-2025)
++Acceso: [Thesify — *Generative AI Policies at the World's Top Universities*](https://www.thesify.ai/blog/gen-ai-policies-update-2025)
+ 
+-## Patrones que se repiten en los ejemplos buenos
++## Preguntas para comparar los ejemplos
+ 
+-Después de revisar las cinco fuentes, cinco elementos aparecen en los syllabus que la literatura institucional cita como casos sólidos:
++Al revisar una fuente, conviene anotar qué actividades permite, limita o prohíbe; si pide declarar el uso de IA; cómo protege datos personales; qué alternativa ofrece a quien no use la herramienta; y cuándo se revisó la política. Estas preguntas permiten comparar documentos distintos sin tratarlos como modelos equivalentes.
+ 
+-- **Declaración explícita en la primera página.** No relegada al final ni dispersa entre secciones.
+-- **Ejemplos concretos** de qué uso se considera aceptable y cuál no, con consignas tipo.
+-- **Forma específica de citar el uso de IA.** Modelo, versión, prompt usado.
+-- **Política sobre datos personales** en plataformas comerciales.
+-- **Cláusula de revisión.** Fecha en que la política se actualizará.
++No es necesario pedir al estudiante una conversación completa con el sistema. Para comprender una decisión suele bastar una nota que indique la herramienta utilizada, la ayuda recibida y qué parte del resultado fue comprobada o modificada por la persona.
+ 
+-Los syllabus que carecen de uno o más de estos elementos generan más conflictos durante el semestre. Los que los incluyen sostienen la asignatura sin fricción notable.
++## Adaptación al contexto UdeG
+ 
+-## Cómo adaptar al contexto UdeG
++La página local sobre [política de IA para la UdeG](/recursos/politica-ia-udeg/) es una **propuesta editorial** del sitio y no es una política oficial de la Universidad de Guadalajara. Puede servir para discutir opciones, pero la versión que llegue a una asignatura debe contrastarse con los reglamentos, acuerdos y orientaciones formalmente vigentes.
+ 
+-Los syllabus internacionales son insumo, no plantilla directa. Tres orientaciones para una adaptación útil al contexto UdeG:
+-
+-- **Articular con la [política institucional de IA UdeG](/recursos/politica-ia-udeg/) y los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/).** El syllabus de asignatura debe poder rastrearse a estos dos documentos.
+-- **Conservar lenguaje sobrio**, sin imitar el tono celebratorio o jurídico que algunas universidades estadounidenses adoptan.
+-- **Documentar la versión de IA disponible institucionalmente.** Si la institución provee Gemini en Workspace for Education, el syllabus lo declara; si no provee nada, también declara la falta de provisión.
++Una adaptación responsable evita copiar categorías extranjeras sin revisar las condiciones del curso. Debe nombrar la actividad, el uso permitido, la forma de declarar la ayuda y la alternativa disponible. También conviene incluir una fecha de revisión, porque las herramientas y las disposiciones institucionales pueden cambiar durante el ciclo escolar.
+ 
+ ## Lecturas relacionadas
+ 
+-La [guía sobre el syllabus y portafolio de docencia](/formacion-docente/syllabus-portafolio/) ofrece el marco de diseño general; la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) detalla las prácticas que el syllabus debe sostener; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) ofrecen el lenguaje normativo.
++La guía sobre [syllabus y portafolio docente](/formacion-docente/syllabus-portafolio/) sitúa esta decisión dentro del diseño general del curso. La página sobre [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) desarrolla las obligaciones de información y protección de datos. Los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) ofrecen preguntas para revisar la propuesta antes de compartirla con estudiantes.
+ 
+ ## Referencias
+ 
+-APRU. (2025, enero). *Generative AI in higher education: Current practices and ways forward*. Association of Pacific Rim Universities. https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf
++APRU. (2025). *Generative AI in higher education: Current practices and ways forward*. Association of Pacific Rim Universities. https://www.apru.org/wp-content/uploads/2025/01/APRU-Generative-AI-in-Higher-Education-Whitepaper_Jan-2025.pdf
+ 
+-Thesify AI. (2025). *Generative AI policies at the world's top universities: October 2025 update*. https://www.thesify.ai/blog/gen-ai-policies-update-2025
++Thesify. (2025). *Generative AI policies at the world's top universities: October 2025 update*. https://www.thesify.ai/blog/gen-ai-policies-update-2025
+--- a/content/recursos/links/_index.md
++++ b/content/recursos/links/_index.md
+@@ -1,13 +1,33 @@
+ ---
+-title: "Links relevantes"
+-description: "Recursos externos seleccionados: herramientas, guías, repositorios y sitios de referencia para docentes que integran IA."
+-summary: "Selección curada de recursos en la web sobre pedagogía con IA, evaluación auténtica y tecnología educativa."
++title: "Recursos externos seleccionados"
++description: "Fichas y curadurías de fuentes externas para tomar decisiones sobre enseñanza, evaluación y formación docente con IA."
++summary: "Informes, marcos, portales y comparaciones que explican quién publica cada recurso, para qué consulta sirve y qué límites conviene tener presentes."
++aliases: ["/recursos/externas/"]
+ weight: 1
++showHero: true
++heroStyle: "background"
+ showBreadcrumbs: true
+ showSummary: true
+ showCards: true
+ cardView: true
+ groupByYear: false
++areas: ["ia", "digital", "formacion"]
+ ---
+ 
+-Recursos externos seleccionados con criterio pedagógico. Cada enlace incluye una breve descripción de por qué es útil y para quién.
++{{< lead >}}
++Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisión institucional.
++{{< /lead >}}
++
++## Dos formas de consulta
++
++Las **fichas individuales** presentan un informe, un marco o un portal concreto. Sirven cuando ya se sabe qué documento se necesita y hace falta una orientación breve sobre su alcance, idioma y público.
++
++Las **curadurías temáticas** comparan varias fuentes que responden a una misma necesidad. Una reúne redes y espacios para compartir prácticas docentes; otra contrasta ejemplos internacionales para redactar políticas de IA en el syllabus. Estas páginas no sustituyen la lectura de las fuentes originales: ayudan a elegir cuáles conviene abrir y qué diferencia hay entre ellas.
++
++## Cómo elegir una página
++
++Si se busca un marco para diseñar formación docente, conviene empezar por el [marco de competencias de IA para docentes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). Para comparar datos y orientaciones de política educativa entre países, la ficha de la OCDE ofrece un punto de entrada. Quien necesite localizar una red, un programa o un espacio de intercambio puede consultar la curaduría de colaboración docente. Para redactar reglas de uso de IA en una asignatura, la comparación de políticas de curso permite revisar formulaciones concretas sin copiar una política extranjera como si fuera aplicable a la UdeG.
++
++## Qué comprobar antes de usar una fuente
++
++La fecha, el organismo responsable y el tipo de publicación cambian lo que una fuente permite concluir. También conviene revisar si el acceso sigue abierto, si la versión consultada es definitiva, qué idioma utiliza, cómo trata la privacidad y qué datos personales solicita. Cuando una página externa cambia o bloquea el acceso automatizado, esta sección conserva la referencia, pero no presenta ese bloqueo como prueba de que el recurso haya desaparecido.
+--- a/content/recursos/links/ai-for-education-toolkit.md
++++ b/content/recursos/links/ai-for-education-toolkit/index.md
+@@ -1,14 +1,14 @@
+ ---
+-title: "AI for Education Toolkit — UNESCO"
++title: "Inteligencia artificial en la educación — UNESCO"
+ date: 2026-03-01
++lastmod: 2026-08-24
+ draft: false
+-description: "Kit de herramientas de la UNESCO para integrar IA en educación con criterios éticos, pedagógicos y de equidad."
+-summary: "Guía práctica de la UNESCO con marcos, ejemplos y recursos para docentes e instituciones que quieren integrar IA de forma responsable."
+-tags: ["UNESCO", "marcos de referencia", "ética", "equidad", "guía"]
++description: "Portal de UNESCO que reúne publicaciones, noticias y líneas de trabajo sobre inteligencia artificial en educación."
++summary: "Punto de entrada a materiales de UNESCO sobre gobernanza, formación docente, equidad y usos educativos de la inteligencia artificial."
++tags: ["UNESCO", "gobernanza", "ética", "equidad", "educación"]
+ categories: ["link"]
+-areas: ["ia"]
+-
++areas: ["ia", "formacion"]
+ layout: "simple"
+ externalUrl: "https://www.unesco.org/en/digital-education/artificial-intelligence"
+ showDate: true
+ showReadingTime: false
+@@ -16,17 +16,22 @@
+ showTaxonomies: true
+ showBreadcrumbs: true
+ showSummary: true
+ showAuthor: false
+-
+ fuente: "UNESCO"
+ idioma: "en"
+-tipoRecurso: "Guía institucional"
++tipoRecurso: "Portal temático institucional"
++featureAlt: "Composición editorial con el texto UNESCO, IA y educación y una red de nodos conectados"
++featureCredit: "Diseño editorial del sitio"
+ ---
+ 
+ {{< alert icon="link" type="info" >}}
+-Recurso externo — se abre en una nueva pestaña.
++Recurso externo; su contenido y sus enlaces pueden cambiar cuando UNESCO actualiza el portal.
+ {{< /alert >}}
+ 
+-**Por qué lo compartimos:** La UNESCO ofrece uno de los marcos más completos y equilibrados para pensar la IA en educación. No se queda en lo técnico: aborda equidad, derechos digitales, formación docente y gobernanza institucional. Es un buen punto de partida antes de tomar decisiones de política o diseño curricular.
++El destino enlazado es el portal temático de UNESCO sobre inteligencia artificial en educación. No corresponde a una publicación única. Reúne informes, orientaciones, noticias y páginas de programas que abarcan gobernanza, derechos, formación docente y usos educativos de la IA.
+ 
+-**Para quién es útil:** Coordinadores académicos, docentes con rol de liderazgo, equipos de innovación educativa, y cualquier persona que quiera ir más allá de "usar IA en clase" hacia una integración con criterio.
++**Por qué se comparte:** permite localizar documentos oficiales de UNESCO y distinguir una orientación normativa de una noticia o de la descripción de un programa. Es un buen punto de entrada cuando todavía no se conoce el título exacto de la publicación que se necesita.
++
++**Para quién es útil:** coordinaciones académicas, equipos que diseñan formación docente y personas que buscan una referencia institucional antes de tomar decisiones curriculares. Quien necesite citar una afirmación debe abrir la publicación específica, comprobar su fecha y citar ese documento; el portal general no sustituye esa lectura.
++
++**Límite:** UNESCO reorganiza periódicamente esta página y mezcla materiales de distinta fecha y función. La presencia de una publicación en el portal no demuestra que su recomendación sea obligatoria para la UdeG ni que describa las condiciones de una asignatura local.
+--- a/content/recursos/links/ocde-ia-educacion/index.md
++++ b/content/recursos/links/ocde-ia-educacion/index.md
+@@ -22,13 +22,13 @@
+ idioma: "en"
+ tipoRecurso: "Informe institucional"
+ ---
+ 
+-{{< alert icon="link" cardColor="#e0f2fe" >}}
++{{< alert icon="link" type="info" >}}
+ Recurso externo — se abre en una nueva pestaña.
+ {{< /alert >}}
+ 
+-**Por qué lo compartimos:** El *Digital Education Outlook 2026* es la entrega más reciente de la OCDE sobre educación digital y dedica un bloque completo a IA generativa: usos por estudiantes para aprender contenido, usos compartidos entre estudiantes y docentes durante la instrucción, y usos por docentes para preparar y apoyar su trabajo (OCDE, 2026). El informe también incluye datos comparativos provenientes de TALIS 2024, según los cuales aproximadamente el 41 % de los docentes en países OCDE ya usa IA en su enseñanza.
++**Por qué se comparte:** El *Digital Education Outlook 2026* es la entrega más reciente de la OCDE sobre educación digital y dedica un bloque completo a IA generativa: usos por estudiantes para aprender contenido, usos compartidos entre estudiantes y docentes durante la instrucción, y usos por docentes para preparar y apoyar su trabajo (OCDE, 2026). La página oficial del informe indica que el 37 % de los docentes de secundaria baja usó IA para su trabajo en 2024, con datos de TALIS 2024. Ese porcentaje no describe a todo el profesorado ni significa que todos esos usos ocurrieran durante la enseñanza.
+ 
+ **Para quién es útil:** Tomadores de decisiones institucionales, equipos de planeación académica, coordinaciones que requieren benchmarks internacionales y docentes interesados en ubicar la práctica local en un marco comparativo más amplio.
+ 
+ **Recursos asociados:** El [Education Policy Outlook 2024](https://www.oecd.org/en/publications/education-policy-outlook-2024_dd5140e4-en.html), titulado *Reshaping Teaching into a Thriving Profession from ABCs to AI*, complementa la entrega anual con un foco específico en la profesión docente. La OCDE y la Comisión Europea publicaron en mayo de 2025 un borrador de [marco de alfabetización en IA para educación básica y media](https://learnworkecosystemlibrary.com/initiatives/ai-literacy-framework-for-primary-secondary-education-oecd-ec/), versión preliminar para consulta pública.
+--- a/content/recursos/links/unesco-marco-competencias-docentes-ia/index.md
++++ b/content/recursos/links/unesco-marco-competencias-docentes-ia/index.md
+@@ -22,13 +22,13 @@
+ idioma: "en"
+ tipoRecurso: "Marco de referencia institucional"
+ ---
+ 
+-{{< alert icon="link" cardColor="#e0f2fe" >}}
++{{< alert icon="link" type="info" >}}
+ Recurso externo — se abre en una nueva pestaña.
+ {{< /alert >}}
+ 
+-**Por qué lo compartimos:** En septiembre de 2024, UNESCO publicó la primera referencia global sobre las competencias de IA que necesita un docente (UNESCO, 2024). El marco va más allá del "saber usar la herramienta" y articula cinco áreas que se sostienen entre sí: una mentalidad humanista centrada en agencia y responsabilidad social; ética del uso de IA; fundamentos y aplicaciones; pedagogía con IA; e IA para el desarrollo profesional propio. Cada área se gradúa en tres niveles de progresión (adquirir, profundizar, crear), lo que permite a una institución diseñar programas de formación docente sin partir de cero.
++**Por qué se comparte:** En 2024, UNESCO publicó este marco como una referencia global para definir las competencias de IA que necesita un docente (UNESCO, 2024). El documento articula cinco áreas: una mentalidad humanista centrada en agencia y responsabilidad social; ética del uso de IA; fundamentos y aplicaciones; pedagogía con IA; e IA para el desarrollo profesional propio. Cada área se organiza en tres niveles de progresión (adquirir, profundizar, crear), lo que permite a una institución diseñar programas de formación docente sin partir de cero.
+ 
+ **Para quién es útil:** Coordinaciones académicas que diseñan diplomados o programas de actualización; equipos de innovación educativa que necesitan un lenguaje común para hablar de competencias docentes en IA; docentes que quieran autoevaluar dónde están y a qué nivel apuntar.
+ 
+ **Recursos asociados:** El marco complementa la [guía sobre IA generativa en educación e investigación](https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research) (UNESCO, 2023, última actualización enero 2026), que cubre el lado normativo y de política institucional. Versión PDF del marco disponible en [UNESCO ASP](https://unesco-asp.dk/wp-content/uploads/2025/02/AI-Competency-framework-for-teachers_UNESCO_2024.pdf).
+--- a/content/formacion-docente/formacion-continua/index.md
++++ b/content/formacion-docente/formacion-continua/index.md
+@@ -31,9 +31,9 @@
+ La Universidad de Guadalajara mantiene oferta de formación docente que articula los tres planos: programas como UDGplus para formación intensiva, talleres temáticos para mantenimiento y un ecosistema de comunidades de práctica —grupos de colegas que aprenden juntos alrededor de lo que hacen— para el aprendizaje informal. La oferta concreta cambia cada semestre y conviene consultar el calendario institucional vigente.
+ 
+ ## Recursos externos seleccionados
+ 
+-Cuando la oferta interna no cubre un tema o un nivel de profundidad, vale la pena recurrir a [recursos externos seleccionados con criterio pedagógico](/recursos/externas/), particularmente los marcos de UNESCO y OCDE para integración de IA en educación.
++Cuando la oferta interna no cubre un tema o un nivel de profundidad, vale la pena consultar los [recursos externos seleccionados](/recursos/links/), en particular los marcos de UNESCO y los informes de la OCDE sobre IA y educación.
+ 
+ ## Cómo sostener la práctica
+ 
+ La formación continua se sostiene mejor cuando se combina con la documentación de la propia experiencia y el intercambio con colegas. Por eso esta sección se complementa con [redes y comunidades](/formacion-docente/redes/), donde lo aprendido se valida y refina en diálogo, y con [ejemplos de prácticas documentadas](/laboratorio/practicas/) que sirven de referencia para diseñar las propias.
+--- a/content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md
++++ b/content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md
+@@ -94,9 +94,9 @@
+ - **Comunicar al claustro.** Una nota breve mensual con dos o tres hallazgos digeridos llega más a docentes ocupados que un boletín extenso.
+ 
+ ## Lecturas relacionadas
+ 
+-La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el monitoreo del lado de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) detalla cómo capitalizar lo monitoreado dentro del sitio; la curaduría de [comunidades de práctica docente con IA](/recursos/externas/comunidades-practica-docente-ia/) ofrece el lado social del monitoreo.
++La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el seguimiento de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) explica cómo registrar lo encontrado dentro del sitio; la curaduría de [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) permite seguir conversaciones profesionales.
+ 
+ ## Referencias
+ 
+ OECD. (2026). *OECD digital education outlook 2026*. OECD Publishing. https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html
+--- a/content/observatorio/documentacion/redes-investigacion-vinculacion/index.md
++++ b/content/observatorio/documentacion/redes-investigacion-vinculacion/index.md
+@@ -117,9 +117,9 @@
+ Sin esta administración, la institución pierde memoria sobre qué participaciones están vivas y qué resultados producen.
+ 
+ ## Lecturas relacionadas
+ 
+-La curaduría sobre [comunidades de práctica docente con IA](/recursos/externas/comunidades-practica-docente-ia/) cubre el lado individual del relacionamiento; la [pieza sobre redes y comunidades](/formacion-docente/redes/) ofrece el marco conceptual; el [marco regulatorio universidades MX](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) sostiene el contexto institucional nacional.
++La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica cómo sostener el trabajo colectivo; el [marco regulatorio para universidades mexicanas](/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/) sitúa la discusión institucional nacional.
+ 
+ ## Referencias
+ 
+ ANUIES. (2024). *Inteligencia artificial en la educación superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*. Asociación Nacional de Universidades e Instituciones de Educación Superior.
+--- a/data/editorial/context-audit-decisions.json
++++ b/data/editorial/context-audit-decisions.json
+@@ -518,14 +518,17 @@
+         "duplicación_parcial",
+         "desajuste_de_inventario"
+       ],
+       "citations": [
+-        "content/recursos/externas/_index.md:16-22",
+-        "content/recursos/externas/_index.md:24-39",
+-        "content/recursos/links/_index.md:2-4",
+-        "content/recursos/_index.md:18-21"
+-      ],
+-      "review_source": "auditoria-paralela-2026-08-23"
++        "docs/editorial/rollback/2026-08-24-contexto-lote-04/content/recursos/externas/_index.md:16-39",
++        "content/recursos/links/_index.md:1-39"
++      ],
++      "review_source": "auditoria-paralela-2026-08-23",
++      "draft_status": "retirado-en-borrador-con-alias",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "redirect_target": "/recursos/links/",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+     },
+     "content/recursos/glosario/agentes-de-ia/index.md": {
+       "decision": "cambiar",
+       "reason": "La definición corregida en el lote 2 se conserva; el lote 02B añade relaciones con IA generativa y tutor inteligente para evitar atribuir capacidad de acción a cualquier modelo o sistema educativo.",
+@@ -591,21 +594,23 @@
+       "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+     },
+     "content/recursos/links/_index.md": {
+       "decision": "cambiar",
+-      "reason": "Las fichas existentes sí explican por qué se comparte cada recurso, para quién sirve y qué ofrece. El problema está en el alcance del índice: «herramientas, guías, repositorios y sitios» resulta indistinguible de la rama /externas/. Debe convertirse en el destino canónico de recursos externos, aclarando que contiene fichas individuales y curadurías temáticas, e incorporar allí las piezas actualmente separadas.",
+-      "role": "Índice de fichas de recursos externos individuales",
++      "reason": "El índice se convirtió en el único destino de recursos externos. Ahora distingue fichas individuales de curadurías temáticas, orienta la elección según la consulta y preserva la URL del hub retirado mediante alias.",
++      "role": "Hub canónico de recursos externos",
+       "issue_types": [
+         "fragmentación",
+-        "duplicación_parcial"
+-      ],
+-      "citations": [
+-        "content/recursos/links/_index.md:2-4",
+-        "content/recursos/links/_index.md:8-13",
+-        "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md:30-34",
+-        "content/recursos/externas/_index.md:20-22"
+-      ],
+-      "review_source": "auditoria-paralela-2026-08-23"
++        "duplicación_parcial",
++        "navegación"
++      ],
++      "citations": [
++        "content/recursos/links/_index.md:1-39"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+     },
+     "content/recursos/videos/_index.md": {
+       "decision": "cambiar",
+       "reason": "El índice promete videos con resumen, momentos clave y recomendación, algo que cumple la ficha de Sal Khan, pero no toda la colección: Learn Prompting es principalmente un libro y curso web, y la curaduría de tutoriales agrupa canales en lugar de reseñar un video. Esa curaduría contiene además un enlace Markdown sin destino y una instrucción textual sin URL. Conviene redefinir la sección como recursos audiovisuales y exigir destinos reproducibles, o mover los recursos no audiovisuales a /links/.",
+@@ -795,7 +800,89 @@
+       "source_reconciliation": "Se verificó la observación sobre carga cognitiva con el DOI y ERIC EJ1469066; el texto conserva el contraste completo y no infiere la dirección de la medida.",
+       "approved_by": "Rubén",
+       "approved_at": "2026-08-23T23:48:02-06:00",
+       "approval_scope": "lote-02c-como-borrador; sin autorización de publicación ni retiro de rutas"
++    },
++    "content/recursos/links/comunidades-practica-docente-ia/index.md": {
++      "decision": "cambiar",
++      "reason": "La función de localizar conversaciones profesionales se conserva, pero la página dejó de llamar comunidades activas a seis destinos heterogéneos. Ahora diferencia redes, programas, catálogos, seminarios, principios e informes y declara las condiciones de participación.",
++      "role": "Curaduría temática de redes y puntos de entrada",
++      "issue_types": [
++        "atribución_imprecisa",
++        "tipos_de_fuente_mezclados",
++        "vigencia"
++      ],
++      "citations": [
++        "content/recursos/links/comunidades-practica-docente-ia/index.md:21-94"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
++    },
++    "content/recursos/links/syllabus-internacionales-ia/index.md": {
++      "decision": "cambiar",
++      "reason": "La página conserva cinco fuentes útiles, pero ya no las presenta como cinco syllabus completos ni atribuye efectos sin respaldo. Distingue orientaciones, políticas de curso, informe y revisión secundaria, y aclara que la propuesta local no es política oficial de la UdeG.",
++      "role": "Curaduría temática de políticas de IA para syllabus",
++      "issue_types": [
++        "alcance_sobredimensionado",
++        "atribución_imprecisa",
++        "afirmación_sin_fuente"
++      ],
++      "citations": [
++        "content/recursos/links/syllabus-internacionales-ia/index.md:21-105"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
++    },
++    "content/recursos/links/ai-for-education-toolkit/index.md": {
++      "decision": "cambiar",
++      "reason": "El título anterior prometía un toolkit específico, pero la URL abre el portal temático general de UNESCO. La ficha ahora identifica el tipo real de recurso, explica cómo usarlo y advierte que el portal no sustituye la cita de una publicación concreta.",
++      "role": "Ficha individual de portal temático institucional",
++      "issue_types": [
++        "título_inexacto",
++        "tipo_de_fuente_impreciso",
++        "imagen_faltante"
++      ],
++      "citations": [
++        "content/recursos/links/ai-for-education-toolkit/index.md:1-41"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
++    },
++    "content/recursos/links/ocde-ia-educacion/index.md": {
++      "decision": "conservar",
++      "reason": "La ficha identifica un informe concreto de la OCDE y conserva su función. Se corrigió el dato TALIS: la fuente primaria informa 37 % de docentes de secundaria baja que usaron IA para su trabajo en 2024, no 41 % de todo el profesorado en su enseñanza; la página declara ahora ese límite.",
++      "role": "Ficha individual de informe institucional",
++      "issue_types": [],
++      "citations": [
++        "content/recursos/links/ocde-ia-educacion/index.md:1-40"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
++    },
++    "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md": {
++      "decision": "conservar",
++      "reason": "La ficha identifica el marco UNESCO de 2024 y conserva su función. Se sustituyó “la primera referencia global”, que la fuente no sostiene, por “una referencia global”, formulación usada por UNESCO.",
++      "role": "Ficha individual de marco institucional",
++      "issue_types": [],
++      "citations": [
++        "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md:1-40"
++      ],
++      "review_source": "contexto-lote-04-2026-08-24",
++      "draft_status": "borrador-revisado-pendiente-vobo",
++      "draft_updated_at": "2026-08-24T01:00:00-06:00",
++      "production_status": "sin-publicar",
++      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+     }
+   }
+ }
+--- a/data/editorial/visual-contract.json
++++ b/data/editorial/visual-contract.json
+@@ -33,9 +33,8 @@
+     "laboratorio/h5p-runtime/index.md",
+     "licencia/index.md",
+     "recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+     "recursos/glosario/ganancia-cognitiva/index.md",
+-    "recursos/links/ai-for-education-toolkit.md",
+     "recursos/videos/learn-prompting-curso-completo.md",
+     "recursos/videos/sal-khan-ia-educacion.md",
+     "recursos/videos/tutoriales-herramientas-ia-docentes.md"
+   ],
+--- a/indice-sitio.md
++++ b/indice-sitio.md
+@@ -133,22 +133,18 @@
+ - [ ] Learn Prompting: curso completo de ingeniería de prompts — `recursos/videos/learn-prompting-curso-completo.md`
+ - [ ] Sal Khan: la IA en el aula podría ser el mayor cambio educativo de la historia — `recursos/videos/sal-khan-ia-educacion.md`
+ - [ ] Tutoriales de herramientas IA para docentes (curaduría) — `recursos/videos/tutoriales-herramientas-ia-docentes.md`
+ 
+-### 4.3 Links relevantes — `recursos/links/`
+-
+-- [ ] Links relevantes (hub) — `recursos/links/_index.md`
+-- [ ] AI for Education Toolkit — UNESCO — `recursos/links/ai-for-education-toolkit.md`
++### 4.3 Recursos externos seleccionados — `recursos/links/`
++
++- [ ] Recursos externos seleccionados (hub) — `recursos/links/_index.md`
++- [ ] Inteligencia artificial en la educación — UNESCO — `recursos/links/ai-for-education-toolkit/`
+ - [ ] Digital Education Outlook 2026 — OCDE — `recursos/links/ocde-ia-educacion/`
+ - [ ] Marco de competencias de IA para docentes — UNESCO — `recursos/links/unesco-marco-competencias-docentes-ia/`
+-
+-### 4.4 Recursos externos — `recursos/externas/`
+-
+-- [ ] Recursos externos (hub) — `recursos/externas/_index.md`
+-- [ ] Comunidades de práctica docente con IA — `recursos/externas/comunidades-practica-docente-ia/`
+-- [ ] Syllabus universitarios con IA: ejemplos internacionales — `recursos/externas/syllabus-internacionales-ia/`
+-
+-### 4.5 Recursos institucionales — `recursos/institucionales/`
++- [ ] Redes y espacios para compartir prácticas docentes con IA — `recursos/links/comunidades-practica-docente-ia/`
++- [ ] Políticas de IA para el syllabus: ejemplos internacionales — `recursos/links/syllabus-internacionales-ia/`
++
++### 4.4 Recursos institucionales — `recursos/institucionales/`
+ 
+ - [ ] Recursos institucionales para IA en educación — `recursos/institucionales/`
+ 
+ ---
+--- a/external-course-inventory/auditoria-hugo-curso-inventario.json
++++ b/external-course-inventory/auditoria-hugo-curso-inventario.json
+@@ -2082,25 +2082,13 @@
+       ],
+       "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+     },
+     {
+-      "path": "recursos/externas/_index.md",
+-      "route": "/recursos/externas/",
+-      "title": "Recursos externos",
+-      "kind": "section",
+-      "words": 191,
+-      "rol_en_el_curso": "navegacion",
+-      "accion_editorial": "conservar-como-navegacion",
+-      "modulos_posibles": [],
+-      "rutas": [],
+-      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+-    },
+-    {
+-      "path": "recursos/externas/comunidades-practica-docente-ia/index.md",
+-      "route": "/recursos/externas/comunidades-practica-docente-ia/",
+-      "title": "Comunidades de práctica docente con IA",
+-      "kind": "page",
+-      "words": 739,
++      "path": "recursos/links/comunidades-practica-docente-ia/index.md",
++      "route": "/recursos/links/comunidades-practica-docente-ia/",
++      "title": "Redes y espacios para compartir prácticas docentes con IA",
++      "kind": "page",
++      "words": 755,
+       "rol_en_el_curso": "referencia-opcional",
+       "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+       "modulos_posibles": [],
+       "rutas": [
+@@ -2109,13 +2097,13 @@
+       ],
+       "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+     },
+     {
+-      "path": "recursos/externas/syllabus-internacionales-ia/index.md",
+-      "route": "/recursos/externas/syllabus-internacionales-ia/",
+-      "title": "Syllabus universitarios con IA: ejemplos internacionales",
+-      "kind": "page",
+-      "words": 748,
++      "path": "recursos/links/syllabus-internacionales-ia/index.md",
++      "route": "/recursos/links/syllabus-internacionales-ia/",
++      "title": "Políticas de IA para el syllabus: ejemplos internacionales",
++      "kind": "page",
++      "words": 784,
+       "rol_en_el_curso": "referencia-opcional",
+       "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+       "modulos_posibles": [],
+       "rutas": [
+@@ -2460,23 +2448,23 @@
+     },
+     {
+       "path": "recursos/links/_index.md",
+       "route": "/recursos/links/",
+-      "title": "Links relevantes",
++      "title": "Recursos externos seleccionados",
+       "kind": "section",
+-      "words": 20,
++      "words": 315,
+       "rol_en_el_curso": "navegacion",
+       "accion_editorial": "conservar-como-navegacion",
+       "modulos_posibles": [],
+       "rutas": [],
+       "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+     },
+     {
+-      "path": "recursos/links/ai-for-education-toolkit.md",
++      "path": "recursos/links/ai-for-education-toolkit/index.md",
+       "route": "/recursos/links/ai-for-education-toolkit/",
+-      "title": "AI for Education Toolkit — UNESCO",
+-      "kind": "page",
+-      "words": 96,
++      "title": "Inteligencia artificial en la educación — UNESCO",
++      "kind": "page",
++      "words": 187,
+       "rol_en_el_curso": "referencia-opcional",
+       "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+       "modulos_posibles": [],
+       "rutas": [
+@@ -2489,9 +2477,9 @@
+       "path": "recursos/links/ocde-ia-educacion/index.md",
+       "route": "/recursos/links/ocde-ia-educacion/",
+       "title": "Digital Education Outlook 2026 — OCDE",
+       "kind": "page",
+-      "words": 214,
++      "words": 226,
+       "rol_en_el_curso": "referencia-opcional",
+       "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+       "modulos_posibles": [],
+       "rutas": [
+@@ -2504,9 +2492,9 @@
+       "path": "recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+       "route": "/recursos/links/unesco-marco-competencias-docentes-ia/",
+       "title": "Marco de competencias de IA para docentes — UNESCO",
+       "kind": "page",
+-      "words": 207,
++      "words": 190,
+       "rol_en_el_curso": "referencia-opcional",
+       "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+       "modulos_posibles": [],
+       "rutas": [

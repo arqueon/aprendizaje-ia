@@ -19,7 +19,7 @@ La inteligencia artificial como infraestructura cognitiva. Uso de modelos de len
 
 ## Qué encontrarás aquí
 
-Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) muestran qué se hace en clase y las [experiencias](/laboratorio/experiencias/) narran cómo se vive, esta sección expone los **flujos de trabajo, protocolos y diagramas** que sostienen una integración pedagógica defendible.
+Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en clase, esta sección expone los **flujos de trabajo, protocolos y diagramas** que sostienen una integración pedagógica defendible.
 
 ## Áreas de trabajo
 
@@ -28,6 +28,6 @@ Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara
 - **Diagramas de proceso** — representaciones [Mermaid](https://mermaid.js.org) de las secuencias didácticas con puntos de decisión humana explícitos.
 - **Plantillas reutilizables** — esquemas de planeación que cualquier docente puede adaptar a su materia.
 
-## Principio de neutralidad de proveedor
-
+{{< idea titulo="Principio de neutralidad de proveedor" >}}
 Los protocolos se diseñan para ser independientes del modelo. Un buen flujo debe funcionar igual con Claude, Gemini, DeepSeek, Kimi o Qwen, salvo que la diferencia entre modelos sea precisamente lo que se quiere enseñar. La preferencia por uno u otro proveedor es decisión institucional, no metodológica.
+{{< /idea >}}

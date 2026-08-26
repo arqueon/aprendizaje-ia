@@ -14,6 +14,8 @@ showSummary: true
 Un catálogo curado de materiales con criterio pedagógico: desde artículos académicos hasta herramientas digitales, seleccionados por su relevancia para la práctica docente.
 {{< /lead >}}
 
+Los artículos y documentos ayudan a reconstruir un argumento o revisar evidencia. Los recursos externos permiten localizar marcos, portales y redes; las fichas de videos y cursos abiertos proponen una forma concreta de estudiar cada material; el glosario aclara los términos que aparecen en el resto del sitio. Elige la entrada según la decisión que necesitas preparar, no sólo por el formato del recurso.
+
 {{< cards >}}
   {{< card link="articulos/" title="Artículos y documentos" icon="file-lines" color="#b12028" description="Fichas bibliográficas con resumen, contexto y relevancia para la práctica con IA." >}}
   {{< card link="videos/" title="Videos" icon="film" color="#991c25" description="Charlas, conferencias y tutoriales seleccionados sobre pedagogía digital e IA." >}}
@@ -30,3 +32,7 @@ Tres documentos operativos para programas, departamentos y coordinaciones acadé
   {{< card link="repositorio-prompts-docentes/" title="Repositorio de prompts" icon="layer-group" color="#494f5b" description="Banco curado de prompts por fase pedagógica, con plantillas listas para adaptar." >}}
   {{< card link="catalogo-herramientas-ia/" title="Catálogo de herramientas IA" icon="toolbox" color="#20325a" description="Matriz comparativa de modelos y herramientas con criterios de privacidad, acceso y costo." >}}
 {{< /cards >}}
+
+{{< parallevar titulo="Un recurso prepara la decisión; no la sustituye" >}}
+Comprueba la fecha, la procedencia y el alcance de la fuente. Después registra qué parte sirve para tu contexto, qué necesita adaptación y quién debe revisar o autorizar el uso cuando intervengan datos, plataformas o reglas institucionales.
+{{< /parallevar >}}

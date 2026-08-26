@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.hippasus.com/rrpweblog/archives/2012/01/19/SAMR_GuidingDevelopment.pdf",
+      "title": "Puentedura — SAMR: Guiding Development",
+      "accessed": "2026-08-24"
+    },
+    {
+      "id": 2,
+      "url": "https://www.brookings.edu/articles/what-the-research-shows-about-generative-ai-in-tutoring",
+      "title": "Brookings — What the research shows about generative AI in tutoring",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Thus far, many claims about the educational benefits of generative AI have outpaced high-quality evidence.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "January 27, 2026",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://doi.org/10.1038/s41598-025-97652-6",
+      "title": "Kestin et al. — AI tutoring outperforms in-class active learning",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "While the advantages of the experimental condition are widely generalizable and our findings have broad implications, we do not presume that structured AI tutoring will always outperform in-class active learning in all contexts, for example, those requiring complex synthesis of multiple concepts and higher-order critical thinking.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-teachers",
+      "title": "UNESCO AI competency framework for teachers",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Guiding teachers on artificial intelligence (AI) use and misuse in education, this publication defines the knowledge, skills, and values teachers must master in the age of AI.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://doi.org/10.1080/02602938.2024.2335321",
+      "title": "Bearman et al. — Developing evaluative judgement",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Developing evaluative judgement for a time of generative artificial intelligence",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html",
+      "title": "OECD Digital Education Outlook 2026",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "The OECD Digital Education Outlook 2026 analyses emerging research that suggests GenAI can support learning when guided by clear teaching principles. However, if designed or used without pedagogical guidance, outsourcing tasks to GenAI simply enhances performance with no real learning gains.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://eric.ed.gov/?id=EJ1438704",
+      "title": "ERIC EJ1438704 — Developing evaluative judgement for a time of generative AI",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "In this conceptual paper, we describe the intersection between evaluative judgement and generative AI with a view to articulating how assessment practices can help students learn to work productively with generative AI.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://web.archive.org/web/20250904122306/https://www.hippasus.com/rrpweblog/archives/2012/01/19/SAMR_GuidingDevelopment.pdf",
+      "title": "Wayback 2025-09-04 — SAMR: Guiding Development",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Tech allows for the creation of new tasks, previously inconceivable",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://udgplus.udg.mx/noticias/promueve-udgplus-uso-de-herramientas-de-ia-generativa-en-la-educacion",
+      "title": "UDGPlus promueve herramientas de IA generativa en educación",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Promover el uso de herramientas de inteligencia artificial generativa entre docentes, para que puedan integrarlas de manera ética y efectiva en sus prácticas educativas",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://newcollegedurhamhe.wordpress.com/wp-content/uploads/2018/03/the-samr-model-a-critical-review.pdf",
+      "title": "Hamilton et al. — The SAMR Model: A Critical Review",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "We focus on the absence of context, its hierarchical structure, and the emphasis placed on product over process and conclude with suggestions to guide educators’ and researchers’ technology integration efforts.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://doi.org/10.1007/s11528-016-0091-y",
+      "title": "Hamilton, Rosenberg y Akcaoglu (2016) — SAMR: A Critical Review and Suggestions for Its Use",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "The Substitution Augmentation Modification Redefinition (SAMR) Model: a Critical Review and Suggestions for its Use",
+          "added": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}

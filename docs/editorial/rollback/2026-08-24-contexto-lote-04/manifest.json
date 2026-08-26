@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "lot": "contexto-lote-04",
+  "public_and_metadata_copies": [
+    {
+      "path": "content/recursos/externas/_index.md",
+      "sha256": "99bfa521fe6895c09a5a70f530610bda5ecd0ad365ae5d550f223ccea49b96ed",
+      "bytes": 1969
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/featured.webp",
+      "sha256": "cf11b3998c0f1e56cf9d91e51e3e5a5e946f77d60d22bb71ca686963408f1503",
+      "bytes": 51062
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/index.md",
+      "sha256": "5c72908a6ef95f31d6fa71e2ddbe983af99896e0af75a38aa7d6b5db78985d76",
+      "bytes": 6838
+    },
+    {
+      "path": "content/recursos/externas/featured.png",
+      "sha256": "9efd9bb03a61a721f8d6f514cedee9f10b6adb52da42af9bece35adc2f3c7b16",
+      "bytes": 575313
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/featured.webp",
+      "sha256": "4bc3f811f48e34d444a1c4fd110555ecb9427f6830b6c9bfdf277b6f70c831b7",
+      "bytes": 66580
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/index.md",
+      "sha256": "0668bbcbab196683336d92fb4ea73c75c4e783000c5a5e27ad1aeddf740851f8",
+      "bytes": 6838
+    },
+    {
+      "path": "content/recursos/links/_index.md",
+      "sha256": "28905268ee418da46a842f0b09f65edb80769b286782f20f34e29c67c165bb53",
+      "bytes": 533
+    },
+    {
+      "path": "content/recursos/links/ai-for-education-toolkit.md",
+      "sha256": "90c6d3b4492442baf24bf605f7766f7085884342416de28050c519da8691d5e0",
+      "bytes": 1433
+    },
+    {
+      "path": "content/recursos/links/featured.webp",
+      "sha256": "44775fcdf2455b165f3dc20d1eeafdaa2a26bd419b791ab75909b5dd13c472de",
+      "bytes": 133512
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/featured.webp",
+      "sha256": "751d800db8ac942d3eefe02a0b1dedb93311862dcbb3ad695bea935014310a55",
+      "bytes": 440704
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/index.md",
+      "sha256": "f4895782faf5a321555b08c19c7abb4c21627df7cc9ce718714c84ab77a440a2",
+      "bytes": 2743
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/featured.webp",
+      "sha256": "b66bd18c5ffeb7af79b90452b604ef148a64a0b0942c46935c92356d40277a8f",
+      "bytes": 574056
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+      "sha256": "2b7d1c59d0a565cc7041af89f127ec29ce1263513117f60eaa82761d9aa82efb",
+      "bytes": 2751
+    },
+    {
+      "path": "content/formacion-docente/formacion-continua/index.md",
+      "sha256": "3e55617ff3aab9901afad8a7b2b4e611725a994cf6ddecbb8bb0760f998f5be6",
+      "bytes": 3127
+    },
+    {
+      "path": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+      "sha256": "a6d858bb0dc75779fa67dfca6603a24c4e777653f6f4033e4a5020b2a33de57c",
+      "bytes": 6843
+    },
+    {
+      "path": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
+      "sha256": "85ae5d76d542d36e4c7c0724d346091b1e310ab3c0678b163c72581a0e198d56",
+      "bytes": 8391
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "8814ec07eb091303b4eb2c089e4084009eb01fd1a6ea43297ec38ada6bba517f",
+      "bytes": 53628
+    },
+    {
+      "path": "data/editorial/visual-contract.json",
+      "sha256": "406a6d97603563e057495c7b795d7644aa1249daef861bd2af4ceaafec95ad8f",
+      "bytes": 3250
+    },
+    {
+      "path": "indice-sitio.md",
+      "sha256": "ceb0d06938310b4f9593f121c0c594c49dc18d506d0209c9ac775dd7579802fd",
+      "bytes": 13441
+    },
+    {
+      "path": "external-course-inventory/auditoria-hugo-curso-inventario.json",
+      "sha256": "3b38692fb982450c9b8b617251511c337dc75c1d91de80e704c946890e58897b",
+      "bytes": 96418
+    }
+  ],
+  "hidden_nextcloud_recovery_files_preserved_in_place": [
+    {
+      "path": "content/recursos/externas/._index.md.~230406ea",
+      "sha256": "99bfa521fe6895c09a5a70f530610bda5ecd0ad365ae5d550f223ccea49b96ed",
+      "bytes": 1969
+    },
+    {
+      "path": "content/recursos/externas/.featured.png.~4847faba",
+      "sha256": "9efd9bb03a61a721f8d6f514cedee9f10b6adb52da42af9bece35adc2f3c7b16",
+      "bytes": 575313
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/.featured.webp.~1269796a",
+      "sha256": "cf11b3998c0f1e56cf9d91e51e3e5a5e946f77d60d22bb71ca686963408f1503",
+      "bytes": 51062
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/.index.md.~3a8f21d4",
+      "sha256": "5c72908a6ef95f31d6fa71e2ddbe983af99896e0af75a38aa7d6b5db78985d76",
+      "bytes": 6838
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/.featured.webp.~5f3b934d",
+      "sha256": "4bc3f811f48e34d444a1c4fd110555ecb9427f6830b6c9bfdf277b6f70c831b7",
+      "bytes": 66580
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/.index.md.~2b4e5bcf",
+      "sha256": "0668bbcbab196683336d92fb4ea73c75c4e783000c5a5e27ad1aeddf740851f8",
+      "bytes": 6838
+    },
+    {
+      "path": "content/recursos/links/._index.md.~21af91dd",
+      "sha256": "28905268ee418da46a842f0b09f65edb80769b286782f20f34e29c67c165bb53",
+      "bytes": 533
+    },
+    {
+      "path": "content/recursos/links/.ai-for-education-toolkit.md.~36de8417",
+      "sha256": "90c6d3b4492442baf24bf605f7766f7085884342416de28050c519da8691d5e0",
+      "bytes": 1433
+    },
+    {
+      "path": "content/recursos/links/.featured.webp.~7d38a25",
+      "sha256": "44775fcdf2455b165f3dc20d1eeafdaa2a26bd419b791ab75909b5dd13c472de",
+      "bytes": 133512
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/.featured.webp.~224997f1",
+      "sha256": "751d800db8ac942d3eefe02a0b1dedb93311862dcbb3ad695bea935014310a55",
+      "bytes": 440704
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/.index.md.~4baff8b7",
+      "sha256": "f4895782faf5a321555b08c19c7abb4c21627df7cc9ce718714c84ab77a440a2",
+      "bytes": 2743
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/.featured.webp.~5a39821e",
+      "sha256": "b66bd18c5ffeb7af79b90452b604ef148a64a0b0942c46935c92356d40277a8f",
+      "bytes": 574056
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/.index.md.~29075121",
+      "sha256": "2b7d1c59d0a565cc7041af89f127ec29ce1263513117f60eaa82761d9aa82efb",
+      "bytes": 2751
+    }
+  ],
+  "production_changed": false,
+  "approval_scope": "preparar borrador reversible; no publicación ni retirada en producción"
+}

@@ -1,1 +1,7 @@
-<ol class="alm-proceso">{{ .Inner }}</ol>
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode proceso: requiere al menos un paso en %s" .Position -}}
+{{- end -}}
+<ol class="alm-proceso alm-componente" data-udgia-component="proceso">
+  {{- $inner | safeHTML -}}
+</ol>

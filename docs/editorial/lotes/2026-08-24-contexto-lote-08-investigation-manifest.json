@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-08",
+  "created_at": "2026-08-24",
+  "phase": "investigacion-propuesta",
+  "publication_authorized": false,
+  "source_pages_modified": false,
+  "baseline": {
+    "active_sources": 164,
+    "applied_decisions": 50,
+    "pending": 114
+  },
+  "proposal": {
+    "conservar": 2,
+    "cambiar": 3,
+    "quitar": 0,
+    "pending_if_approved": 109
+  },
+  "files": [
+    {
+      "path": "content/recursos/glosario/aprendizaje-activo/index.md",
+      "sha256": "c4aba12df9478697cd4e236c59ecea81a996d96bdd876a8aee7222c15de7f8e5",
+      "bytes": 1194
+    },
+    {
+      "path": "content/recursos/glosario/diseno-inverso/index.md",
+      "sha256": "756dd72ca412ae733c73fc91c443f2db2b39f759ab8a0bae491bf8372e11f2b0",
+      "bytes": 1695
+    },
+    {
+      "path": "content/recursos/glosario/taxonomia-de-bloom/index.md",
+      "sha256": "57c2513f21abfa46c62e3f493c74f4b60c05c2d32aa58ff22a359ae42b5d8b76",
+      "bytes": 1932
+    },
+    {
+      "path": "content/recursos/glosario/modelo-samr/index.md",
+      "sha256": "5b397daea47a4ff7aba7a6b052b3c0a9ce5d2dac48076f167a2074e99558aa81",
+      "bytes": 2182
+    },
+    {
+      "path": "content/recursos/glosario/evaluacion-autentica/index.md",
+      "sha256": "994dd4865c868019fb298643d11359374ac095cc148b548597c6d933f7dc0a29",
+      "bytes": 1497
+    },
+    {
+      "path": "content/recursos/glosario/_index.md",
+      "sha256": "c3f9d22fc624fc9f5323fa5934c0df1086a4e631253fb3b2cca31d820fb4e824",
+      "bytes": 2138
+    },
+    {
+      "path": "content/formacion-docente/aprendizaje-activo/index.md",
+      "sha256": "2b5c3367af94d3f37afeb315d61046ae0799b5fb86b97ccf97905b1d4e3099d7",
+      "bytes": 6970
+    },
+    {
+      "path": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "sha256": "38ee6824ff47f883b2b3a4208c2ee472af1aaab044fa6fdc216e023319711287",
+      "bytes": 7009
+    },
+    {
+      "path": "content/formacion-docente/modelos-samr-icap/index.md",
+      "sha256": "3b974c8b117412f0ad07f8f8a99360cdfb933a37fd98fb83080ed4f35529a33b",
+      "bytes": 8149
+    },
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "sha256": "3a48258410bf31378d37d4b1d88aabb4775335a849e4333dc40db5c33f1d9934",
+      "bytes": 6732
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "sha256": "28b911bfcf7520d76e89a50bbeff6bb3ef445cb013ac307eb92fc9a65a1990e0",
+      "bytes": 1268
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-08-citations.json",
+      "sha256": "923d6708149256d320edd78976c55d4d6e2af3db7d315742092fd7738a1f5330",
+      "bytes": 2551
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-08-glosario-pedagogico.md",
+      "sha256": "b0ec8cb003f7fc6fe655a00ef323a44e7ead94fd5b700fb0a9b74c9688f747bb",
+      "bytes": 9979
+    }
+  ]
+}

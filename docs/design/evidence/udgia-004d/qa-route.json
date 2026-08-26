@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-07-29T01:03:31.943Z",
+  "checkedAt": "2026-08-23T19:36:17.094Z",
   "routePath": "ia-educacion/rutas/decision-institucional-ia/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
-    "pages": 925,
+    "pages": 935,
     "warnings": [
       "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
       "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -17,7 +17,7 @@
     "title": "Decidir institucionalmente sobre IA en la docencia",
     "width": 1440,
     "scrollWidth": 1440,
-    "h2": 15,
+    "h2": 11,
     "cards": 4,
     "tables": 3,
     "executiveTables": 2,
@@ -30,8 +30,8 @@
     "h5p": 0,
     "mapCount": 1,
     "mapGeometry": {
-      "width": 505,
-      "height": 303
+      "width": 749,
+      "height": 450
     },
     "hasExecutiveDisclaimer": true,
     "hasSixDecisions": true,
@@ -57,28 +57,7 @@
       "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
       "/ia-educacion/guias/integracion-curricular-ia/",
       "/ia-educacion/guias/lineamientos-eticos-ia/",
-      "/ia-educacion/tendencias/politicas-institucionales-universidades/",
-      "/categories/ruta-de-aprendizaje/",
-      "/tags/coordinaci%C3%B3n-acad%C3%A9mica/",
-      "/tags/procesos-docentes/",
-      "/tags/integraci%C3%B3n-curricular/",
-      "/tags/sems/",
-      "/observatorio/estudios/crisis-revision-pares-ia/",
-      "/areas/evaluacion/",
-      "/categories/estudio/",
-      "/tags/revisi%C3%B3n-por-pares/",
-      "/tags/publicaci%C3%B3n-acad%C3%A9mica/",
-      "/tags/incentivos/",
-      "/tags/calidad-cient%C3%ADfica/",
-      "/recursos/articulos/guias-iagen-evaluacion-unam/",
-      "/categories/articulo/",
-      "/tags/unam/",
-      "/tags/ia-generativa/",
-      "/tags/gu%C3%ADa-institucional/",
-      "/tags/bachillerato/",
-      "/tags/licenciatura/",
-      "/tags/posgrado/",
-      "/tags/%C3%A9tica/"
+      "/ia-educacion/tendencias/politicas-institucionales-universidades/"
     ],
     "localStorage": [],
     "sessionStorage": [],
@@ -168,90 +147,6 @@
       {
         "pathname": "/ia-educacion/tendencias/politicas-institucionales-universidades/",
         "status": 200
-      },
-      {
-        "pathname": "/categories/ruta-de-aprendizaje/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/coordinaci%C3%B3n-acad%C3%A9mica/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/procesos-docentes/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/integraci%C3%B3n-curricular/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/sems/",
-        "status": 200
-      },
-      {
-        "pathname": "/observatorio/estudios/crisis-revision-pares-ia/",
-        "status": 200
-      },
-      {
-        "pathname": "/areas/evaluacion/",
-        "status": 200
-      },
-      {
-        "pathname": "/categories/estudio/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/revisi%C3%B3n-por-pares/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/publicaci%C3%B3n-acad%C3%A9mica/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/incentivos/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/calidad-cient%C3%ADfica/",
-        "status": 200
-      },
-      {
-        "pathname": "/recursos/articulos/guias-iagen-evaluacion-unam/",
-        "status": 200
-      },
-      {
-        "pathname": "/categories/articulo/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/unam/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/ia-generativa/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/gu%C3%ADa-institucional/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/bachillerato/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/licenciatura/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/posgrado/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/%C3%A9tica/",
-        "status": 200
       }
     ],
     "axeSeriousCritical": [],
@@ -264,7 +159,7 @@
     "title": "Decidir institucionalmente sobre IA en la docencia",
     "width": 375,
     "scrollWidth": 375,
-    "h2": 15,
+    "h2": 11,
     "cards": 4,
     "tables": 3,
     "executiveTables": 2,
@@ -304,28 +199,7 @@
       "/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg",
       "/ia-educacion/guias/integracion-curricular-ia/",
       "/ia-educacion/guias/lineamientos-eticos-ia/",
-      "/ia-educacion/tendencias/politicas-institucionales-universidades/",
-      "/categories/ruta-de-aprendizaje/",
-      "/tags/coordinaci%C3%B3n-acad%C3%A9mica/",
-      "/tags/procesos-docentes/",
-      "/tags/integraci%C3%B3n-curricular/",
-      "/tags/sems/",
-      "/observatorio/estudios/crisis-revision-pares-ia/",
-      "/areas/evaluacion/",
-      "/categories/estudio/",
-      "/tags/revisi%C3%B3n-por-pares/",
-      "/tags/publicaci%C3%B3n-acad%C3%A9mica/",
-      "/tags/incentivos/",
-      "/tags/calidad-cient%C3%ADfica/",
-      "/recursos/articulos/guias-iagen-evaluacion-unam/",
-      "/categories/articulo/",
-      "/tags/unam/",
-      "/tags/ia-generativa/",
-      "/tags/gu%C3%ADa-institucional/",
-      "/tags/bachillerato/",
-      "/tags/licenciatura/",
-      "/tags/posgrado/",
-      "/tags/%C3%A9tica/"
+      "/ia-educacion/tendencias/politicas-institucionales-universidades/"
     ],
     "localStorage": [],
     "sessionStorage": [],
@@ -414,90 +288,6 @@
       },
       {
         "pathname": "/ia-educacion/tendencias/politicas-institucionales-universidades/",
-        "status": 200
-      },
-      {
-        "pathname": "/categories/ruta-de-aprendizaje/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/coordinaci%C3%B3n-acad%C3%A9mica/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/procesos-docentes/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/integraci%C3%B3n-curricular/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/sems/",
-        "status": 200
-      },
-      {
-        "pathname": "/observatorio/estudios/crisis-revision-pares-ia/",
-        "status": 200
-      },
-      {
-        "pathname": "/areas/evaluacion/",
-        "status": 200
-      },
-      {
-        "pathname": "/categories/estudio/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/revisi%C3%B3n-por-pares/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/publicaci%C3%B3n-acad%C3%A9mica/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/incentivos/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/calidad-cient%C3%ADfica/",
-        "status": 200
-      },
-      {
-        "pathname": "/recursos/articulos/guias-iagen-evaluacion-unam/",
-        "status": 200
-      },
-      {
-        "pathname": "/categories/articulo/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/unam/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/ia-generativa/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/gu%C3%ADa-institucional/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/bachillerato/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/licenciatura/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/posgrado/",
-        "status": 200
-      },
-      {
-        "pathname": "/tags/%C3%A9tica/",
         "status": 200
       }
     ],

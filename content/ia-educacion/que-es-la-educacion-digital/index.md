@@ -5,8 +5,9 @@ description: "Exploración conceptual, diferenciación terminológica y taxonom�
 categories: ["concepto", "modalidad-educativa"]
 tags: ["Educación digital", "Taxonomía", "Aprendizaje híbrido", "Blended learning", "E-learning", "Diseño instruccional"]
 toc: true
-weight: 10
+weight: 7
 draft: false
+summary: "Exploración conceptual, diferenciación terminológica y taxonomía de la educación digital para el nivel superior."
 ---
 
 Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin pisar el campus. Ambos participan en **educación digital**: no porque haya pantallas de por medio, sino porque la tecnología media de forma deliberada la enseñanza y el aprendizaje.
@@ -160,7 +161,7 @@ mindmap
 
 ---
 
-### Referencias
+{{< referencias >}}
 
 El marco teórico de esta exploración ontológica y metodológica se fundamenta en autores clave de la disciplina:
 
@@ -168,5 +169,4 @@ El marco teórico de esta exploración ontológica y metodológica se fundamenta
 * Garrison, D. R., & Vaughan, N. D. (2008). *Blended learning in higher education: Framework, principles, and guidelines*. Jossey-Bass.
 * Graham, C. R. (2006). Blended learning systems: Definition, current trends, and future directions. En C. J. Bonk & C. R. Graham (Eds.), *The handbook of blended learning: Global perspectives, local designs* (pp. 3-21). Pfeiffer.
 * Hernández Rendón, F., & Ramírez Hernández, M. (2026). Panorama del aprendizaje adaptativo en la educación superior STEM. *RIDE Revista Iberoamericana para la Investigación y el Desarrollo Educativo*, 16(32).
-
-
+{{< /referencias >}}

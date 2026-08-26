@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia"]
 showHero: true
 summary: "Sistema de software que utiliza inteligencia artificial para simular el comportamiento de un tutor humano y proveer instrucción personalizada."
+description: "Sistema de software que utiliza inteligencia artificial para simular el comportamiento de un tutor humano y proveer instrucción personalizada."
 ---
 
 Un **tutor inteligente** (o *Intelligent Tutoring System*, ITS) es un programa informático diseñado para ofrecer instrucción, retroalimentación y orientación inmediata y personalizada a los aprendices, generalmente sin la intervención directa de un profesor humano.

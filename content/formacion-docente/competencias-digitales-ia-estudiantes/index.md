@@ -8,7 +8,7 @@ tags: ["competencias digitales", "DigComp", "UNESCO", "estudiantes", "alfabetiza
 categories: ["guia"]
 areas: ["digital", "ia", "formacion"]
 
-weight: 12
+weight: 15
 showHero: true
 heroStyle: "background"
 showBreadcrumbs: true
@@ -61,7 +61,9 @@ Cada una de las doce competencias se gradúa en tres niveles que el marco UNESCO
 | **Aplicar** | Usar herramientas con criterio, evaluar salidas, integrar IA en tareas académicas con [transparencia](/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/). |
 | **Crear** | Diseñar prompts complejos, articular flujos con varias herramientas, configurar sistemas o cuestionar su diseño. |
 
-Un programa universitario no necesita llevar a todos los estudiantes al nivel "Crear" en las doce competencias. Necesita decidir, programa por programa, qué nivel exige cada competencia para egresar.
+{{< idea titulo="Qué decide cada programa" >}}
+Un programa universitario no necesita llevar a todos los estudiantes al nivel "Crear" en las doce competencias. Necesita decidir, programa por programa, qué nivel exige cada competencia para egresar. Esa decisión es curricular, no técnica: depende del perfil de egreso, no de la herramienta disponible.
+{{< /idea >}}
 
 ## Cómo se traduce esto al aula universitaria
 
@@ -96,10 +98,10 @@ Conviene nombrar los errores frecuentes para evitarlos:
 
 Para el desarrollo de competencias docentes —el otro lado del proceso— ver el [marco de competencias de IA para docentes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). El [pensamiento crítico ante la IA generativa](/formacion-docente/pensamiento-critico-ia-generativa/) sostiene la dimensión 1 del marco. La [alfabetización digital](/formacion-docente/alfabetizacion/) es el peldaño previo del que parten estas competencias.
 
-## Referencias
-
+{{< referencias >}}
 European Commission. (2022). *DigComp 2.2: The digital competence framework for citizens*. Joint Research Centre. https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp_en
 
 UNESCO. (2024). *AI competency framework for students*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-students
 
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
+{{< /referencias >}}

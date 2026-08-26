@@ -1,0 +1,2059 @@
+{
+  "schemaVersion": 1,
+  "id": "UDGIA-021-course-classification-source",
+  "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
+  "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
+  "expectedPageCount": 182,
+  "deliberateAdditions": [
+    "areas/digital/_index.md",
+    "areas/etica/_index.md",
+    "areas/evaluacion/_index.md",
+    "areas/formacion/_index.md",
+    "areas/ia/_index.md",
+    "areas/pedagogia/_index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/04-cocreacion-persona-ia/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/10-limitaciones-analisis/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/index.md",
+    "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
+  ],
+  "pages": [
+    {
+      "path": "_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "about.md",
+      "rol_en_el_curso": "fuera-del-recorrido-inicial",
+      "accion_editorial": "no-incorporar-al-curso",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "No se identifico una funcion directa en la secuencia de resultados y evidencias."
+    },
+    {
+      "path": "areas/digital/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "areas/etica/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "areas/evaluacion/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "areas/formacion/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "areas/ia/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "areas/pedagogia/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Índice taxonómico local: organiza el sitio y no amplía por sí mismo el recorrido de aprendizaje."
+    },
+    {
+      "path": "blog/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "blog/agenciamiento-humano-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/ia-generativa-evaluacion-autentica/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/rizoma-digital-aprender-sin-mapa/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/rol-docente-era-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "formacion-docente/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "formacion-docente/alfabetizacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "fusionar-o-desduplicar",
+      "modulos_posibles": [
+        "M3"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Se solapa con la guia de agenciamiento; conviene conservar aportes unicos y evitar dos explicaciones rivales."
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-co-creacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "fusionar-o-desduplicar",
+      "modulos_posibles": [
+        "M3"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Se solapa con agenciamiento y co-creacion; puede aportar ejemplos despues de una mediacion comun."
+    },
+    {
+      "path": "formacion-docente/alfabetizacion-operativa/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/aprendizaje-activo/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "El catalogo de tecnicas es util, pero debe partir de conductas observables y evitar equiparar actividad con procesos superiores."
+    },
+    {
+      "path": "formacion-docente/aprendizaje-hibrido/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Debe organizar momentos por su funcion de aprendizaje, no como una marcha obligatoria hacia mas asincronia o autonomia."
+    },
+    {
+      "path": "formacion-docente/competencias-digitales-ia-estudiantes/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/04-cocreacion-persona-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/10-limitaciones-analisis/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Lección local del curso abierto: permanece como WIP y requiere revisión editorial antes de incorporarse a un recorrido."
+    },
+    {
+      "path": "formacion-docente/diseno-inverso-cocreacion-ia/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Índice local de un curso abierto en WIP: organiza sus lecciones y no equivale a aprobación para un recorrido."
+    },
+    {
+      "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta retroalimentacion y evaluacion para los ciclos de diseno."
+    },
+    {
+      "path": "formacion-docente/formacion-continua/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/mapa-literacidades-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/modelos-samr-icap/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "ICAP es central, pero los ejemplos confunden colaboracion con interactividad y se afirma una correspondencia directa SAMR-Bloom."
+    },
+    {
+      "path": "formacion-docente/pensamiento-critico-ia-generativa/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M1"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta el problema de discernir y comprobar, pero debe alinearse con el expediente de verificacion."
+    },
+    {
+      "path": "formacion-docente/redes/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/syllabus-portafolio/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el portafolio y la explicitacion de criterios del proyecto final."
+    },
+    {
+      "path": "formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta un taller de diseno inverso que puede alinearse con resultado, evidencia, actividad, Bloom e ICAP."
+    },
+    {
+      "path": "formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "El constructor de objetivos es aprovechable, pero la pagina trata Bloom como jerarquia rigida y afirma una correspondencia directa con SAMR."
+    },
+    {
+      "path": "formacion-docente/transformacion-pedagogica-digital/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "ia-educacion/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M3"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Es una entrada publica util al problema de co-creacion y evaluacion."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Da el marco critico para examinar sistemas y practicas, con mediacion narrativa antes del vocabulario especializado."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M2",
+        "M4"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Puede aportar contexto normativo o etico, pero debe vincularse con una decision o evidencia concreta."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta criterios eticos para la auditoria sociotecnica."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M2",
+        "M4"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Puede aportar contexto normativo o etico, pero debe vincularse con una decision o evidencia concreta."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2",
+        "M4"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Permite distinguir autenticidad, declaracion y decision de uso sin reducir el problema a deteccion."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta un caso de sesgo y equidad que puede alimentar el analisis de personas afectadas."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta preguntas de transparencia y responsabilidad aplicables al caso de M2."
+    },
+    {
+      "path": "ia-educacion/guias/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/guias/abp-con-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Ofrece un formato de proyecto, no una columna vertebral universal."
+    },
+    {
+      "path": "ia-educacion/guias/agenciamiento-humano-ia/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M3"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Conserva la columna teorica del agenciamiento, pero debe construir referentes cotidianos antes del vocabulario especializado."
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta ejemplos con IA que deben compararse con alternativas sin IA y clasificarse por conducta real."
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Guía operativa para diseñar una actividad híbrida y activa; debe conservarse como práctica y no como explicación conceptual rival."
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M3",
+        "M4",
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "La guia puede apoyar una tarea, pero no entra al recorrido hasta demostrar su funcion y comprensibilidad."
+    },
+    {
+      "path": "ia-educacion/guias/estudiantes/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado"
+      ],
+      "razon": "Laboratorio guiado para comparar ayudas, comprobar el punto decisivo y justificar una decisión antes de entregar."
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M1",
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta evidencia procesual y ejemplos; debe mantener un paquete proporcional y no exigir vigilancia exhaustiva."
+    },
+    {
+      "path": "ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M3",
+        "M4",
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "La guia puede apoyar una tarea, pero no entra al recorrido hasta demostrar su funcion y comprensibilidad."
+    },
+    {
+      "path": "ia-educacion/guias/integracion-curricular-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar la transferencia al curriculo despues de cerrar el marco de alineacion."
+    },
+    {
+      "path": "ia-educacion/guias/lineamientos-eticos-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M2",
+        "M4"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Puede aportar criterios para decidir usos y limites si se vincula con situaciones concretas."
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/index.md",
+      "rol_en_el_curso": "nucleo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Cuidado transversal y previo al uso de sistemas generativos; necesita continuidad visible hacia investigación y bitácora."
+    },
+    {
+      "path": "ia-educacion/guias/profesorado/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Práctica docente para revisar alineación entre propósito, actividad y evidencia sin duplicar el marco conceptual."
+    },
+    {
+      "path": "ia-educacion/integracion-curricular/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+      "rol_en_el_curso": "referencia-en-cuarentena",
+      "accion_editorial": "reescribir-antes-de-enlazar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Sobregeneraliza personalizacion, tutoria y analitica; no debe sostener el curso en su estado actual."
+    },
+    {
+      "path": "ia-educacion/investigacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Ruta de apoyo para investigar con IA; requiere conectar de forma explícita fuentes, confidencialidad, comprobación y responsabilidad."
+    },
+    {
+      "path": "ia-educacion/orientaciones/index.md",
+      "rol_en_el_curso": "referencia-en-cuarentena",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Presenta una propuesta académica y su estatus; debe mantener visible que no constituye todavía postura institucional oficial."
+    },
+    {
+      "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Plantilla portable para documentar aportes, decisiones, fuentes y pendientes sin enviar ni almacenar datos personales."
+    },
+    {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Práctica focalizada de verificación: localizar la afirmación decisiva, contrastarla y decidir qué conservar."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-de-casos/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/articulo/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/cronica/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/monografia/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/nota/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/presentacion/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/programacion/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/prototipo/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/productos-de-aprendizaje/resena/index.md",
+      "rol_en_el_curso": "banco-ejemplos-disciplinarios",
+      "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede ofrecer un caso o producto segun la disciplina; no todas las personas deben recorrer todos los ejemplos."
+    },
+    {
+      "path": "ia-educacion/que-es-la-educacion-digital/index.md",
+      "rol_en_el_curso": "fuera-del-recorrido-inicial",
+      "accion_editorial": "no-incorporar-al-curso",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "No se identifico una funcion directa en la secuencia de resultados y evidencias."
+    },
+    {
+      "path": "ia-educacion/rutas/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/rutas/coordinacion-academica/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/rutas/decision-institucional-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/tendencias/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "laboratorio/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "laboratorio/h5p-runtime/index.md",
+      "rol_en_el_curso": "fuera-del-recorrido-inicial",
+      "accion_editorial": "conservar-como-entorno-o-demostracion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Describe infraestructura, experiencias o demostraciones; no es contenido obligatorio del programa."
+    },
+    {
+      "path": "laboratorio/integracion-ia/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
+      "rol_en_el_curso": "fuera-del-recorrido-inicial",
+      "accion_editorial": "conservar-como-entorno-o-demostracion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Describe infraestructura, experiencias o demostraciones; no es contenido obligatorio del programa."
+    },
+    {
+      "path": "laboratorio/practicas/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "laboratorio/practicas/abp-con-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta una tecnica o practica que debe seleccionarse por el resultado y la conducta cognitiva esperada."
+    },
+    {
+      "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta una tecnica o practica que debe seleccionarse por el resultado y la conducta cognitiva esperada."
+    },
+    {
+      "path": "laboratorio/practicas/aula-invertida/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta una tecnica o practica que debe seleccionarse por el resultado y la conducta cognitiva esperada."
+    },
+    {
+      "path": "laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta una tecnica o practica que debe seleccionarse por el resultado y la conducta cognitiva esperada."
+    },
+    {
+      "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "revisar-contra-bloom-e-icap",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Aporta una tecnica o practica que debe seleccionarse por el resultado y la conducta cognitiva esperada."
+    },
+    {
+      "path": "licencia/index.md",
+      "rol_en_el_curso": "fuera-del-recorrido-inicial",
+      "accion_editorial": "no-incorporar-al-curso",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "No se identifico una funcion directa en la secuencia de resultados y evidencias."
+    },
+    {
+      "path": "observatorio/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "observatorio/documentacion/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/documentacion/redes-investigacion-vinculacion/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "observatorio/estudios/creatividad-humana-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/crisis-revision-pares-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/encuesta-dec-2026/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/habitar-ia-simondon/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/guias/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "recursos/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/articulos/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/cormier-rhizomatic-education/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/next-era-assessment-dec/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta lectura o evidencia secundaria para profundizar, no una tarea central."
+    },
+    {
+      "path": "recursos/articulos/selwyn-limites-ia-educacion/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M4"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta un contrapunto para decidir limites y no uso; no existe aun una pagina publica central de M4."
+    },
+    {
+      "path": "recursos/catalogo-herramientas-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "recursos/comparativa-llm-pedagogica/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "recursos/glosario/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/glosario/agentes-de-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/alfabetizacion-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/aprendizaje-activo/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "fusionar-o-desduplicar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Debe concordar con la pagina principal y no competir con ella."
+    },
+    {
+      "path": "recursos/glosario/aprendizaje-basado-en-problemas/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/aprendizaje-digital/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/aprendizaje-hibrido/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "fusionar-o-desduplicar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Debe concordar con la pagina principal y explicar la integracion funcional de momentos."
+    },
+    {
+      "path": "recursos/glosario/aprendizaje-transformativo/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/aula-invertida/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/descarga-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/diseno-inverso/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede servir como consulta breve despues de un ejemplo completo."
+    },
+    {
+      "path": "recursos/glosario/evaluacion-autentica/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [
+        "M5",
+        "M6"
+      ],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta criterios para tareas y defensas autenticas."
+    },
+    {
+      "path": "recursos/glosario/ganancia-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/ia-generativa/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/ingenieria-de-prompts/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/integridad-academica/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/modelo-samr/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/pensamiento-critico/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/sesgo-algoritmico/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/taxonomia-de-bloom/index.md",
+      "rol_en_el_curso": "referencia-en-cuarentena",
+      "accion_editorial": "fusionar-o-desduplicar",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Presenta niveles secuenciales y desplaza la evaluacion a la cuspide por la IA; no debe enlazarse hasta corregirse o integrarse a una pagina principal."
+    },
+    {
+      "path": "recursos/glosario/tutor-inteligente/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/institucionales/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "recursos/links/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/links/ai-for-education-toolkit/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/links/comunidades-practica-docente-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/links/ocde-ia-educacion/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/links/syllabus-internacionales-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/politica-ia-udeg/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "recursos/repositorio-prompts-docentes/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Puede consultarse segun interes o funcion institucional, pero no prepara directamente una evidencia del curso."
+    },
+    {
+      "path": "recursos/videos/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/videos/learn-prompting-curso-completo.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/videos/sal-khan-ia-educacion.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    },
+    {
+      "path": "recursos/videos/tutoriales-herramientas-ia-docentes.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "verificar-vigencia-antes-de-enlazar",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Es un recurso externo o de consulta cuya vigencia y accesibilidad deben comprobarse."
+    }
+  ]
+}

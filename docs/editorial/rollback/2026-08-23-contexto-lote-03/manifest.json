@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-08-23",
+  "files": [
+    {
+      "path": "content/observatorio/_index.md",
+      "sha256": "2b979aaa42055ffc386784cba9eecf7a4001946f83df8a8fa486401110ce55f4",
+      "bytes": 1295
+    },
+    {
+      "path": "content/observatorio/documentacion/_index.md",
+      "sha256": "34e11615e564451cd58675fd6d4ef4da277a759020e641d37c43cc6a641bb4c3",
+      "bytes": 1200
+    },
+    {
+      "path": "content/observatorio/estudios/_index.md",
+      "sha256": "9dec962bc8f2e8926e511b81d1685685e691a86e297fea13838778c275244f16",
+      "bytes": 1728
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-dec-2026.md",
+      "sha256": "f0d630eb4545bfa643aa879fe0430238d49ffc971b0502e4c04958cd43a690f0",
+      "bytes": 3770
+    },
+    {
+      "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "sha256": "729741f790174741d21d10fa50e34930e842ed8b0cf1f81a70b4eb75140196e6",
+      "bytes": 9026
+    }
+  ]
+}

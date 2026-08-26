@@ -2,8 +2,8 @@
 title: "IA generativa y evaluación auténtica"
 date: 2026-04-26
 draft: false
-description: "La aparición de IA generativa no destruye el principio de evaluación auténtica; lo lleva a su forma más exigente."
-summary: "Lejos de invalidar la evaluación auténtica, la IA generativa la vuelve más necesaria que antes. Pero exige rediseñarla con criterios específicos."
+description: "Qué puede aportar la autenticidad al rediseño de evaluaciones con IA y qué límites conviene reconocer."
+summary: "La IA generativa obliga a revisar qué evidencia permite valorar aprendizaje; la autenticidad ofrece criterios situados, no una receta inmune a la automatización."
 tags: ["evaluación auténtica", "evaluación formativa", "IA generativa", "rediseño evaluativo"]
 categories: ["opinion"]
 areas: ["evaluacion", "ia", "pedagogia"]
@@ -18,53 +18,68 @@ showAuthor: false
 ---
 
 {{< lead >}}
-La narrativa que asocia IA generativa con "el fin de la evaluación universitaria" descansa en una confusión: trata las evaluaciones de baja calidad —exámenes de respuesta única, ensayos genéricos, ejercicios sin contexto— como si fueran el estándar al cual la IA pone en jaque. La evaluación auténtica, bien entendida, no se ve amenazada. Se vuelve, finalmente, indispensable.
+La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cuando producir una respuesta plausible se ha vuelto más sencillo.
 {{< /lead >}}
 
-## Qué es evaluación auténtica
+## Qué significa autenticidad en una evaluación
 
-La evaluación auténtica es aquella en la que los estudiantes demuestran comprensión profunda y desarrollan habilidades aplicables a contextos significativos del mundo real, en lugar de demostrar memorización o recall (Wiggins, 1990). Las características que la distinguen son consistentes en la literatura: tareas situadas en contextos reales, demanda de juicio profesional, integración de habilidades múltiples, posibilidad de respuestas diversas y peso evaluativo del proceso, no solo del producto (Villarroel et al., 2018).
+Durante años, la evaluación auténtica se asoció con tareas parecidas a las del trabajo profesional: resolver un caso, diseñar una intervención o justificar una decisión. Esa semejanza puede ser útil, pero no basta. Una tarea laboral también puede ser rutinaria, excluyente o fácilmente automatizable.
 
-Lo que la IA generativa pone en crisis no es la evaluación auténtica; es su contrario: las tareas estandarizadas, descontextualizadas y de respuesta única que dominaron la evaluación universitaria en buena parte del último siglo. Esas tareas eran defendibles cuando producirlas exigía dominio cognitivo del estudiante. Hoy, cuando un modelo las resuelve en segundos, su validez evaluativa colapsa.
+Ajjawi y sus colegas proponen hablar de **autenticidad en la evaluación** y distinguir tres perspectivas: autenticidad psicológica, cuando la persona reconoce sentido y agencia en lo que hace; fidelidad ontológica, cuando la tarea la pone en relación con formas de ser y actuar propias de una práctica; y teoría de la práctica, que atiende las relaciones entre personas, herramientas, normas y contextos. La autenticidad no es una etiqueta binaria. Se construye con decisiones situadas y puede entrar en tensión con accesibilidad, tiempo, familiaridad cultural o condiciones desiguales de participación.
 
-## Lo que la IA pone en evidencia
+Por eso conviene valorar una tarea por lo que permite observar, no por cuánto se parece superficialmente al empleo. Una simulación profesional no demuestra por sí sola aprendizaje, del mismo modo que un ensayo no deja de ser válido solo porque una IA pueda producir texto.
 
-La IA generativa funciona, en este sentido, como un revelador. Lo que evidencia es lo que ya sabíamos pero no enfrentábamos:
+## Lo que la IA hace visible
 
-Una pregunta cuya respuesta puede generarse instantáneamente con un prompt simple no evaluaba mucho del estudiante, ni siquiera antes. Lo que evaluaba era su disposición a sentarse a redactar la respuesta correcta —una mezcla de paciencia, gestión del tiempo y obediencia—, no el dominio del contenido.
+Una respuesta generada en segundos puede revelar que una tarea recoge poca evidencia del razonamiento del estudiante. Sin embargo, ese diagnóstico depende del propósito. Un cuestionario breve puede servir para recuperar conocimientos; un ensayo puede permitir contrastar fuentes; una exposición puede mostrar capacidad de explicación. El problema aparece cuando se atribuye a un único producto más evidencia de la que realmente contiene.
 
-Bearman et al. (2024) sostienen que la respuesta institucional adecuada no es perseguir el "uso indebido" de IA, sino rediseñar las evaluaciones para que recuperen su capacidad de capturar aprendizaje real. La afirmación es operativa, no moral: las evaluaciones de baja calidad eran ya un problema antes de la IA; la IA solo lo hace visible.
+Bearman et al. (2024) sitúan aquí el **juicio evaluativo**: la capacidad de reconocer la calidad del trabajo propio y ajeno. Su propuesta no prescribe una política institucional única. Delimita tres focos para el aprendizaje con IA: juzgar la calidad de sus productos o resultados, juzgar los procesos usados para obtenerlos y examinar los propios juicios con apoyo de la herramienta. Estrategias conocidas —autoevaluación, revisión entre pares, rúbricas, ejemplos y retroalimentación— pueden ayudar a desarrollar esa capacidad si el estudiante no delega la decisión sobre qué cuenta como calidad.
 
-## Cuatro principios para rediseñar evaluación auténtica con IA
+## Cuatro decisiones posibles de rediseño
 
-Cuatro principios sostienen una evaluación auténtica que conserve su validez en presencia de IA generativa. Ninguno es nuevo; lo que cambia es la urgencia de aplicarlos.
+Estas decisiones pueden combinarse según el propósito de la asignatura, el riesgo académico, la accesibilidad y la carga de trabajo. No constituyen una lista obligatoria.
 
-**Contexto local irreductible.** Una tarea cuya consigna requiere conocer el contexto institucional, geográfico, profesional o personal del estudiante no se resuelve con un modelo entrenado en datos generales. Pedir un análisis del cambio climático en una ciudad latinoamericana específica con base en fuentes locales obliga al estudiante a un trabajo que la IA no puede sustituir.
+### 1. Incorporar información situada
 
-**Proceso documentado, no solo producto.** Cuando la rúbrica evalúa cómo se llegó a la respuesta —con anexos de fuentes, decisiones, descartes, iteraciones— el producto deja de ser autosuficiente. Esta práctica no es nueva en evaluación auténtica; lo que cambia con IA es que se vuelve obligatoria.
+Una tarea puede pedir trabajar con datos locales, documentos del curso, observaciones propias o restricciones de un caso concreto. Esto reduce las respuestas genéricas y obliga a relacionar conceptos con una situación. No impide usar IA ni garantiza autoría: simplemente cambia la evidencia disponible y requiere ofrecer materiales equivalentes a quien no pueda acceder al contexto de la misma manera.
 
-**Defensa oral o iteración con docente.** Una evaluación que culmina en un encuentro donde el estudiante sostiene sus elecciones ante un docente recupera la dimensión intersubjetiva que la IA no puede simular. La conversación con un evaluador humano es el mecanismo más simple de validación.
+### 2. Comparar versiones y decisiones
 
-**Tareas que requieren juicio en zona gris.** Una tarea cuya respuesta correcta es ambigua —donde hay dos o más opciones defendibles y el estudiante debe argumentar la suya— pone en juego competencias que la IA puede asistir pero no resolver.
+Un esquema inicial, una fuente descartada o dos cambios explicados pueden mostrar cómo evolucionó el trabajo. No hace falta conservar toda la conversación con una herramienta. El paquete debe ser proporcional: suficiente para observar una decisión relevante, sin convertir la evaluación en vigilancia ni acumular datos personales.
 
-## Lo que cambia para el docente
+### 3. Pedir explicación o revisión
 
-La evaluación auténtica con IA exige más planeación que la evaluación tradicional. Conviene reconocerlo: no es un movimiento de menor esfuerzo. Diseñar una tarea contextualizada, con rúbrica de proceso y momento de defensa, lleva más tiempo que escribir un examen de opción múltiple. Pero el costo se distribuye: la evaluación se vuelve más rica, y los conflictos sobre integridad académica se reducen porque la lógica de la trampa pierde sentido.
+Una conversación breve, una nota reflexiva o la revisión de un fragmento permiten comprobar qué entiende la persona y cómo responde a preguntas. La modalidad depende del tamaño del grupo, la accesibilidad y la importancia de la tarea. Una defensa oral puede aportar evidencia, pero no es superior en todos los contextos ni debe convertirse en requisito automático.
 
-La pregunta institucional que conviene plantearse no es "cómo detectamos IA" sino "cómo rediseñamos para que no importe que la usen". La detección es una carrera armamentista que la institución pierde cada semestre. El rediseño es estructural y se sostiene en el tiempo.
+### 4. Trabajar con criterios y alternativas defendibles
+
+Las tareas con varias respuestas posibles permiten observar cómo se usan criterios, fuentes y consecuencias para sostener una decisión. La IA puede proponer alternativas; el aprendizaje aparece cuando el estudiante las compara, detecta límites, justifica una elección y puede revisarla ante nueva evidencia.
+
+## Qué cambia para el docente
+
+El rediseño puede exigir tiempo adicional: seleccionar materiales, anticipar apoyos, explicar reglas de uso y decidir qué evidencia merece revisión. También puede simplificar la evaluación si se pide un conjunto pequeño de rastros significativos en lugar de historiales completos.
+
+Antes de adoptar una medida conviene responder cuatro preguntas:
+
+1. ¿Qué aprendizaje se quiere observar?
+2. ¿Qué evidencia permitiría reconocerlo sin depender de un solo producto?
+3. ¿Qué uso de IA está permitido, debe declararse o queda fuera de la actividad?
+4. ¿Qué carga, riesgo de privacidad o barrera de acceso introduce el diseño?
+
+La detección automática no responde estas preguntas. Tampoco lo hace añadir una defensa o una bitácora por rutina. El objetivo es construir una relación razonable entre propósito, actividad, evidencia y decisión docente.
 
 ## Una posición
 
-La IA generativa no le hace daño a la evaluación auténtica. Le hace daño a la evaluación pobre. Lo que se está terminando no es la posibilidad de evaluar el aprendizaje universitario, sino la legitimidad de las prácticas evaluativas que ya estaban agotadas. La pregunta para los próximos cinco años no es si la IA cambia la evaluación; es si las universidades aprovechan el momento para cambiarla bien.
+La IA generativa vuelve menos defendibles algunas inferencias habituales: que un texto fluido demuestra comprensión, que una respuesta original prueba autoría o que un detector reconstruye el proceso. La evaluación auténtica ayuda cuando amplía lo que puede observarse y cuando reconoce sus propias compensaciones. Pierde utilidad si se presenta como una técnica universal o como una forma de hacer la evaluación resistente a cualquier herramienta.
 
 ## Lecturas relacionadas
 
-La [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece el método operativo; el ensayo sobre [evaluación en la era IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) sostiene la crítica al enfoque punitivo; la [práctica documentada de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) muestra un caso real.
+La entrada de [evaluación auténtica](/recursos/glosario/evaluacion-autentica/) ofrece una definición breve. La [ficha de Ajjawi, Bearman y colegas](/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/) desarrolla las tres perspectivas de autenticidad. La [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) propone ciclos donde la evidencia se usa para ajustar el aprendizaje, y la [actividad de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) presenta una secuencia adaptable.
 
 ## Referencias
 
+Ajjawi, R., Tai, J., Dollinger, M., Dawson, P., Boud, D., & Bearman, M. (2024). From authentic assessment to authenticity in assessment: Broadening perspectives. *Assessment & Evaluation in Higher Education*, 49(4), 499–510. https://doi.org/10.1080/02602938.2023.2271193
+
 Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 
-Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., & Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. *Assessment & Evaluation in Higher Education*, 43(5), 840–854. https://doi.org/10.1080/02602938.2017.1412396
-
-Wiggins, G. (1990). The case for authentic assessment. *Practical Assessment, Research, and Evaluation*, 2(2). https://doi.org/10.7275/ffb1-mm19
+Fawns, T., Bearman, M., Dawson, P., & O’Donnell, M. (2024). Authentic assessment: From panacea to criticality. *Assessment & Evaluation in Higher Education*. https://doi.org/10.1080/02602938.2024.2404634

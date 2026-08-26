@@ -6,11 +6,10 @@ tags: ["integridad académica", "ética"]
 categories: ["concepto"]
 areas: ["ia", "etica"]
 showHero: true
-summary: "Mantenimiento de principios éticos y autoría en el trabajo intelectual ante herramientas automatizadas."
+summary: "Valores, acuerdos y responsabilidades para producir, atribuir y presentar trabajo académico con honestidad."
+description: "Definición breve de integridad académica y de su aplicación cuando intervienen herramientas de IA."
 ---
 
-La **integridad académica** comprende el mantenimiento de la honestidad, el rigor y la ética en la producción y atribución del conocimiento dentro del entorno educativo.
+La **integridad académica** es el compromiso con seis valores en la enseñanza, el aprendizaje y la producción de conocimiento: **honestidad, confianza, justicia, respeto, responsabilidad y valentía**. Incluye atribuir las aportaciones ajenas, aplicar criterios con equidad, reconocer límites y responder por el trabajo que se presenta.
 
-La disrupción de la inteligencia artificial ha evidenciado las limitaciones de los enfoques tradicionales, centrados casi exclusivamente en la prevención y detección del fraude mediante *software*. Un enfoque contemporáneo de integridad académica exige ir más allá: requiere el rediseño de las tareas para asegurar que la evaluación mida la aportación genuina del estudiante (ver [evaluación auténtica](/recursos/glosario/evaluacion-autentica/)) y la formulación de políticas institucionales transparentes sobre qué nivel de asistencia algorítmica es pedagógicamente aceptable.
-
-**Relacionado con:** [Ética y Transparencia](/ia-educacion/etica-y-transparencia/)
+Cuando interviene IA, esos valores se concretan mediante reglas comprensibles, declaración del uso cuando corresponda, atribución de fuentes y oportunidades razonables para explicar o demostrar el aprendizaje. Ninguna herramienta o diseño garantiza integridad por sí solo: cada institución y actividad debe definir qué ayuda admite y cómo revisará una duda sin sustituir el debido proceso. Véanse [evaluación auténtica](/recursos/glosario/evaluacion-autentica/) para una definición relacionada y [plagio y autenticidad académica en la era de la IA](/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/) para la explicación extensa.

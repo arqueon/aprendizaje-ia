@@ -2,8 +2,8 @@
 title: "Tres guías UNAM sobre IA generativa en evaluación: bachillerato, licenciatura y posgrado"
 date: 2026-04-30
 draft: false
-description: "Reseña y descarga directa de las tres guías que el Consejo de Evaluación Educativa de la UNAM publicó en abril de 2026 para orientar el uso de IA generativa en la evaluación educativa."
-summary: "El Consejo de Evaluación Educativa de la UNAM acaba de publicar tres guías diferenciadas por nivel —bachillerato, licenciatura y posgrado— sobre el uso de IA generativa en evaluación. Aquí están las tres en PDF, junto con una lectura comentada de qué aporta cada una y cómo conviene leerlas en conjunto."
+description: "Reseña y descarga directa de las tres guías que la UNAM publicó en abril de 2026 para orientar el uso de IA generativa en la evaluación educativa."
+summary: "Tres documentos orientadores para bachillerato, licenciatura y posgrado, con sus PDF completos y una comparación que distingue lo común de lo específico de cada nivel."
 tags: ["UNAM", "IA generativa", "evaluación", "guía institucional", "bachillerato", "licenciatura", "posgrado", "ética"]
 categories: ["articulo"]
 areas: ["ia", "evaluacion", "pedagogia", "formacion"]
@@ -24,14 +24,14 @@ articuloAutores: "Universidad Nacional Autónoma de México (UNAM) — Consejo d
 articuloAnio: "2026"
 articuloFuente: "Consejo de Evaluación Educativa, Redes Colaborativas de Bachillerato, Licenciatura y Posgrado, UNAM"
 articuloDOI: ""
-articuloUrl: "https://www.ceide.unam.mx/"
+articuloUrl: "https://www.ceide.unam.mx/index.php/informes/"
 articuloAccesoAbierto: true
 idioma: "es"
 tipoDocumento: "Guía institucional"
 ---
 
 {{< lead >}}
-En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus Redes Colaborativas, publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa** —una para bachillerato, otra para licenciatura y una más para posgrado—. Es el primer cuerpo institucional mexicano que aborda el problema con el nivel de detalle que merece: cada nivel educativo tiene su propio documento y su propia lógica. Aquí los tres PDF completos, con una lectura comentada de lo que aporta cada uno.
+En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página reúne los tres PDF y explica qué aborda cada uno sin suponer que todos usan los mismos marcos.
 {{< /lead >}}
 
 ## Las tres guías en un solo lugar
@@ -43,7 +43,7 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         tall="true"
         icon="graduation-cap"
         color="#656f85"
-        description="27 pp. — Red Colaborativa del Bachillerato. Énfasis en estudiantes menores de edad, principios pedagógicos y plantillas." >}}
+        description="32 páginas físicas — Red Colaborativa del Bachillerato. Principios pedagógicos, ejemplos y plantillas." >}}
 
 {{< card link="#guia-licenciatura"
         title="Guía Licenciatura"
@@ -51,7 +51,7 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         tall="true"
         icon="user-graduate"
         color="#914411"
-        description="50 pp. — Red Colaborativa de Licenciatura. La más extensa: ciclo de evaluación, principios UNESCO, sustentabilidad y rúbricas." >}}
+        description="57 páginas físicas — Red Colaborativa de Licenciatura. Ciclo de evaluación, principios atribuidos a UNESCO, sostenibilidad y rúbricas." >}}
 
 {{< card link="#guia-posgrado"
         title="Guía Posgrado"
@@ -59,104 +59,70 @@ En abril de 2026 el Consejo de Evaluación Educativa de la UNAM, junto con sus R
         tall="true"
         icon="user-tie"
         color="#5c7ab4"
-        description="26 pp. — Red Colaborativa del Posgrado. Vistazo técnico a las IAGen, sesgos cognitivos, integridad investigadora y un apéndice sobre el modelo transformer." >}}
+        description="31 páginas físicas — Red Colaborativa del Posgrado. Modalidades de uso de IA, sesgos, integridad investigadora y explicación técnica." >}}
 {{< /cards >}}
 
 {{< alert "circle-info" >}}
-Las tres guías se distribuyen bajo licencia **Creative Commons BY-NC-SA 4.0**. Se pueden compartir, adaptar y reutilizar con atribución, sin fines comerciales y manteniendo la misma licencia. Primera edición: abril de 2026.
+Las tres guías se distribuyen bajo licencia **CC BY-NC-SA 4.0**. Se pueden compartir y adaptar con atribución, sin fines comerciales y manteniendo la misma licencia. Primera edición: abril de 2026. El conteo 32/57/31 corresponde a las páginas físicas de los PDF; la numeración impresa puede ser menor.
 {{< /alert >}}
 
-## Por qué importan
+## Cómo conviene leerlas
 
-Hasta ahora, en México, el debate sobre IA generativa en evaluación se sostenía con materiales fragmentarios: lineamientos universitarios aislados, traducciones de UNESCO y un puñado de pronunciamientos rectorales. Estas tres guías cambian el panorama porque ofrecen, por primera vez desde una institución mexicana de la talla de la UNAM, **un marco diferenciado por nivel educativo, con bibliografía actualizada (2024-2026) y orientación operativa para el aula**.
+Gaceta UNAM presenta los documentos como orientaciones elaboradas colectivamente por la Coordinación de Evaluación, Innovación y Desarrollo Educativos y especialistas de los tres niveles. **No sustituyen** reglamentos, acuerdos institucionales ni decisiones de cada programa.
 
-No son documentos normativos —no obligan ni sustituyen a marcos institucionales— sino orientaciones pedagógicas que funcionan como punto de partida para que cada coordinación, academia o profesor pueda construir su propia política sin reinventar la rueda.
+Las tres comparten preocupaciones sobre enseñanza, aprendizaje, evaluación, integridad, sesgos, privacidad, acceso y supervisión humana. Sin embargo, no conviene tratarlas como si repitieran un único marco. Cada red selecciona conceptos, ejemplos y grados de detalle diferentes.
 
-## Lo que comparten las tres guías
-
-Las tres guías están construidas sobre el mismo andamiaje conceptual, lo cual facilita leerlas en conjunto:
-
-La triada **evaluación del / para / como aprendizaje** organiza todo el material. Cada guía analiza qué puede aportar la IAGen en cada uno de los tres enfoques —sumativo, formativo y metacognitivo— y los aterriza en ejemplos concretos.
-
-La distinción entre **IA asistida (AI-Assisted)** e **IA integrada (AI-Integrated)** atraviesa toda la propuesta. La primera apoya tareas docentes específicas (generar reactivos, sugerir rúbricas, dar retroalimentación); la segunda incorpora la IAGen como componente estructural del ciclo evaluativo. Esta distinción permite tomar decisiones graduales en lugar de elegir entre prohibirla o adoptarla por completo.
-
-Los **principios éticos** son consistentes: equidad, transparencia, integridad académica, validez y supervisión humana. Las tres guías retoman las consideraciones de UNESCO (2021, 2023, 2025) y las cruzan con marcos recientes de referencia para evaluación con IA —ARCHED de Li et al. (2025) y GAIA-GEN de la propia UNAM, cuyas siglas se conservan por trazabilidad bibliográfica— para construir un discurso institucional alineado con la conversación internacional.
-
-Las **advertencias sobre limitaciones** —alucinaciones, sesgos, problemas de privacidad y acceso desigual— aparecen en las tres con la misma seriedad. Ninguna guía vende a la IAGen como solución; todas insisten en que no sustituye el juicio docente.
-
-## Lo que cada guía aporta de manera específica
+## Lo específico de cada guía
 
 ### Guía de Bachillerato
 
-Es la más breve y accesible de las tres, lo cual no es accidente: está pensada para profesorado de un nivel donde **el estudiantado suele ser menor de edad**, lo que añade obligaciones específicas en privacidad, manejo de datos y supervisión. La guía dedica especial atención a la prevención del uso indebido por parte del estudiantado y a las estrategias para promover honestidad académica desde edades tempranas.
+La guía de **Bachillerato** organiza ejemplos para docentes y estudiantes de ese nivel. Incluye actividades, rúbricas y orientaciones para formular instrucciones a una herramienta de IA generativa. También menciona **ARCHED** como referencia para pensar evaluación e IA.
 
-Su sección de ejemplos prácticos incluye plantillas de actividades evaluativas con IA, rúbricas que integran su uso y un apartado de *prompting educativo* con instrucciones claras y efectivas. Es ideal como **primer documento de lectura** para docentes que se acercan al tema por primera vez.
+En este documento, **GAIA-GEN** nombra al *Grupo Académico de Inteligencia Artificial Generativa en Educación* de la UNAM, autor de una recomendación citada por la guía; no es un segundo marco de evaluación equivalente a ARCHED ni se le atribuye la autoría del documento. La guía también trata privacidad, acceso y acompañamiento, asuntos relevantes cuando parte del estudiantado es menor de edad, sin convertir una condición probable en descripción universal de todos los grupos.
 
 ### Guía de Licenciatura
 
-Es la más extensa y conceptualmente densa de las tres. Su valor diferencial está en tres aportes:
+La guía de **Licenciatura** atribuye a **UNESCO (2025)** diez principios: proporcionalidad, seguridad, intimidad, gobernanza, responsabilidad, transparencia, supervisión humana, sostenibilidad, sensibilización y equidad. Esa atribución debe leerse como parte de la bibliografía de la propia guía; no conviene condensarla con la Recomendación de UNESCO adoptada en 2021 y publicada en 2022 como si fueran un solo documento.
 
-Primero, articula los **diez principios fundamentales de la UNESCO (2025)** —proporcionalidad, seguridad, derecho a la intimidad, gobernanza, responsabilidad, transparencia, supervisión humana, sostenibilidad, sensibilización y equidad— y los traduce a decisiones operativas para el aula universitaria.
-
-Segundo, ubica la IAGen dentro del **ciclo completo de evaluación educativa** (planificación → recolección → valoración → retroalimentación → toma de decisiones → metaevaluación), mostrando dónde puede intervenir y dónde no debe hacerlo.
-
-Tercero, incorpora una sección sobre **sustentabilidad** poco habitual en este tipo de documentos: discute el costo ambiental de las IAGen, su huella de carbono y la necesidad de elegir herramientas con menor impacto. Es un eje que la conversación universitaria sobre IA suele omitir y que esta guía coloca en el centro.
-
-Es la lectura recomendada para **coordinadores académicos y diseñadores curriculares** que buscan un fundamento institucional sólido.
+También recorre planificación, recolección de información, valoración, retroalimentación, toma de decisiones y metaevaluación. Su tratamiento de sostenibilidad añade preguntas sobre el costo ambiental de las herramientas, junto con privacidad, acceso y validez.
 
 ### Guía de Posgrado
 
-Es la más técnica de las tres. Comienza con un capítulo —*Un vistazo a las IAGen*— que explica con honestidad cómo funcionan los modelos de lenguaje, qué es un *prompt* y por qué la ingeniería de *prompts* condiciona la calidad del resultado. Esta apertura es valiosa porque parte de algo cierto: el profesorado de posgrado necesita comprender la herramienta antes de regularla.
+La guía de **Posgrado** propone tres modalidades: **sin uso de IA**, **con asistencia de la IA o IA asistida** y **con IA integrada**. Las presenta como opciones para diseñar una evaluación según lo que se quiere observar, no como una escala donde integrar más IA siempre sea mejor.
 
-Su sección sobre **sesgos** es particularmente lúcida. Identifica cuatro sesgos psicológicos comunes al interactuar con IAGen —necesidad de cierre cognitivo, efecto halo, sesgo de autoridad y sesgo de confirmación— y explica por qué la formación investigadora exige cultivar resistencia a ellos.
+Además, explica rasgos generales de los modelos de lenguaje, revisa sesgos cognitivos —cierre, halo, autoridad y confirmación— y relaciona su uso con integridad investigadora. El apéndice sobre *transformers* ofrece una introducción técnica breve; no sustituye formación especializada sobre modelos ni seguridad de datos.
 
-La guía propone tres **modalidades de evaluación en posgrado**: sin IA, con asistencia de IA y con IA integrada. Cada modalidad tiene un propósito formativo distinto y la guía explica cuándo conviene cada una. Esta clasificación es operativamente útil porque rompe el falso dilema "permitir o prohibir".
+## Qué no debe deducirse de la colección
 
-Cierra con un **apéndice sobre el modelo transformer** que vale la pena leer aunque no se trabaje en posgrado: condensa en pocas páginas el funcionamiento real de los LLM sin caer en simplificaciones.
+- Que exista una regla universal para permitir, restringir o exigir IA en cada actividad.
+- Que una recomendación situada en una de las guías aparezca necesariamente en las otras dos.
+- Que “supervisión humana” signifique revisar todo manualmente o que una herramienta pueda tomar decisiones académicas por cuenta propia.
+- Que registrar el uso de IA autorice solicitar conversaciones completas o datos personales sin atender privacidad y proporcionalidad.
+- Que una evaluación sea invulnerable porque se denomine “resistente” a IA.
 
-Es la lectura recomendada para **tutores, directores de tesis y coordinaciones de posgrado**.
+Cada programa necesita decidir qué puede hacer la persona, qué puede hacer la herramienta, qué información se puede compartir y quién revisará los resultados.
 
-## Cinco ideas transversales que conviene retener
+## Tres maneras concretas de usarlas
 
-A lo largo de las tres guías reaparecen ideas que vale la pena destacar:
-
-**1. La IAGen no debe ser un fin en sí misma**, sino un medio para fortalecer la enseñanza, el aprendizaje y la evaluación. Esta es la frase más repetida —y la más importante— de los tres documentos.
-
-**2. La supervisión docente es innegociable.** Las guías insisten una y otra vez en que ninguna decisión pedagógica significativa debe quedar en manos de un sistema automatizado. La IAGen sugiere; el docente decide.
-
-**3. El rediseño evaluativo es prioritario.** La estrategia no es "blindar" las evaluaciones contra la IA, sino rediseñarlas para que la participación del estudiante sea genuinamente irreemplazable. Aquí las tres guías dialogan, sin citarlo, con el marco de Bearman et al. (2023).
-
-**4. La transparencia es un principio operativo, no un eslogan.** Documentar cuándo se usa IA, con qué propósito y bajo qué criterios fortalece la confianza pública en el proceso evaluativo.
-
-**5. La equidad incluye al medio ambiente y al acceso desigual.** Las guías reconocen que las brechas digitales y la huella ecológica de los modelos forman parte del problema ético, no solo de su contexto.
-
-## Cómo usarlas en una universidad pública mexicana
-
-Estas tres guías son de la UNAM, pero su valor se extiende a cualquier institución pública mexicana —incluida la UdeG— que necesite construir o actualizar su propia política de IA en evaluación. Tres usos prácticos inmediatos:
-
-Como **insumo para academias y cuerpos colegiados** que estén discutiendo lineamientos de uso de IA en evaluación. Las tres guías ofrecen un vocabulario común y una bibliografía compartida que ahorra meses de trabajo previo.
-
-Como **lectura formativa para programas de actualización docente**. La guía de bachillerato puede servir de introducción; la de licenciatura, de profundización; la de posgrado, de especialización. Distribuirlas por nivel permite diseñar trayectos formativos diferenciados.
-
-Como **referencia bibliográfica institucional** para la elaboración de políticas locales. Su licencia BY-NC-SA permite citarlas, adaptarlas e incluso reutilizar fragmentos completos siempre que se reconozca la autoría y se mantenga la misma licencia.
+1. **Comparar una actividad existente.** Leer la guía del nivel correspondiente y marcar qué cambiaría en instrucciones, preguntas, retroalimentación o revisión.
+2. **Redactar un acuerdo local.** Elegir las recomendaciones pertinentes y convertirlas en reglas comprensibles para un curso o programa, sin copiar todo el documento.
+3. **Preparar una conversación colegiada.** Contrastar las tres modalidades de posgrado, el ciclo de licenciatura y los ejemplos de bachillerato para decidir qué sirve en el contexto propio.
 
 ## Cómo citarlas
 
-Para citar cada guía en formato APA:
+> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Bachillerato*. Consejo de Evaluación Educativa; Red Colaborativa del Bachillerato; Coordinación de Evaluación, Innovación y Desarrollo Educativos.
 
-> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Bachillerato*. Consejo de Evaluación Educativa; Red Colaborativa del Bachillerato; Coordinación de Evaluación, Innovación y Desarrollo Educativos (CEIDE).
+> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Licenciatura*. Consejo de Evaluación Educativa; Red Colaborativa de Licenciatura; Coordinación de Evaluación, Innovación y Desarrollo Educativos.
 
-> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Licenciatura*. Consejo de Evaluación Educativa; Red Colaborativa de Licenciatura; Coordinación de Evaluación, Innovación y Desarrollo Educativos (CEIDE).
-
-> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Posgrado*. Consejo de Evaluación Educativa; Red Colaborativa del Posgrado; Coordinación de Evaluación, Innovación y Desarrollo Educativos (CEIDE).
+> Universidad Nacional Autónoma de México. (2026). *Guía de uso de inteligencia artificial generativa en la evaluación educativa en Posgrado*. Consejo de Evaluación Educativa; Red Colaborativa del Posgrado; Coordinación de Evaluación, Innovación y Desarrollo Educativos.
 
 ## Lecturas relacionadas en este sitio
 
-La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece el marco internacional con el que estas guías UNAM dialogan. El reporte del DEC sobre [la nueva era de la evaluación](/recursos/articulos/next-era-assessment-dec/) ofrece las 14 metodologías necesarias para entender la lógica del rediseño evaluativo actual. Y la pieza sobre la [evaluación en la era de la IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) ubica el debate en el contexto universitario regional.
+La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece un marco internacional más amplio. El Digital Education Council y Pearson [describen 14 metodologías prácticas de evaluación integrada con IA](/recursos/articulos/next-era-assessment-dec/) a partir de 101 casos; ese informe institucional no convierte las 14 en requisitos. La pieza sobre la [evaluación en la era de la IA](/ia-educacion/tendencias/evaluacion-en-la-era-ia/) sitúa el debate en el contexto universitario regional.
 
 ## Visualización de las guías
 
-A continuación puedes consultar cada documento directamente en el navegador. Si la previsualización tarda en cargar o no se ve correctamente, usa el enlace de descarga que aparece debajo de cada guía.
+Puedes consultar cada documento en el navegador. Si la previsualización tarda en cargar o no se ve correctamente, usa la descarga local o el PDF oficial.
 
 ### Guía Bachillerato {#guia-bachillerato}
 
@@ -168,7 +134,7 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
     </iframe>
 </div>
 
-[Descargar PDF — Guía Bachillerato](GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf)
+[Descargar copia local — Guía Bachillerato](GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf) · [Abrir PDF oficial](https://www.cee.unam.mx/wp-content/uploads/2026/04/GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf)
 
 ### Guía Licenciatura {#guia-licenciatura}
 
@@ -180,7 +146,7 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
     </iframe>
 </div>
 
-[Descargar PDF — Guía Licenciatura](GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf)
+[Descargar copia local — Guía Licenciatura](GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf) · [Abrir PDF oficial](https://www.cee.unam.mx/wp-content/uploads/2026/04/GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf)
 
 ### Guía Posgrado {#guia-posgrado}
 
@@ -192,4 +158,4 @@ A continuación puedes consultar cada documento directamente en el navegador. Si
     </iframe>
 </div>
 
-[Descargar PDF — Guía Posgrado](GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf)
+[Descargar copia local — Guía Posgrado](GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf) · [Abrir PDF oficial](https://www.cee.unam.mx/wp-content/uploads/2026/04/GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf)

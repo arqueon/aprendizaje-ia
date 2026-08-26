@@ -1,0 +1,224 @@
+--- a/content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md
++++ b/content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md
+@@ -17,7 +17,7 @@
+ showRelatedContent: true
+ showAuthor: false
+ weight: 5
+-lastmod: "2026-08-03"
++lastmod: "2026-08-23"
+ ---
+ 
+ Una planeación propone como resultado “analizar los supuestos de dos soluciones”. La
+@@ -116,3 +116,8 @@
+ 
+ Si necesitas volver a precisar transformación y conducta, regresa a [Dos preguntas distintas
+ sobre una misma actividad]({{< relref "formacion-docente/modelos-samr-icap" >}}).
++
++## Referencias
++
++- Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom’s taxonomy of educational objectives*. Longman.
++- Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). ASCD.
+--- a/content/recursos/glosario/taxonomia-de-bloom/index.md
++++ b/content/recursos/glosario/taxonomia-de-bloom/index.md
+@@ -1,34 +1,24 @@
+ ---
+ title: "Taxonomía de Bloom"
+ date: 2026-04-19
++lastmod: 2026-08-23
+ draft: false
+ tags: ["taxonomía", "cognición", "niveles-cognitivos"]
+ categories: ["concepto"]
+ areas: ["pedagogia", "evaluacion"]
+-showHero: true
+-summary: "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación."
+-description: "Marco jerárquico de habilidades cognitivas, desde la memorización hasta la creación."
++showHero: false
++summary: "Vocabulario para describir la demanda cognitiva de un propósito educativo sin clasificar una tarea por un verbo aislado."
++description: "Definición breve de la taxonomía revisada de Bloom y sus límites para diseñar y evaluar actividades."
+ ---
+ 
+-La **Taxonomía de Bloom** es un marco de clasificación de los objetivos educativos estructurado jerárquicamente según la complejidad cognitiva requerida. Originalmente propuesta en 1956 y revisada en 2001, categoriza el pensamiento en seis niveles secuenciales.
++La **taxonomía revisada de Bloom** ofrece un vocabulario para describir procesos cognitivos: recordar, comprender, aplicar, analizar, evaluar y crear. Puede ayudar a precisar qué se espera que una persona haga con un contenido, pero no basta para diseñar una actividad ni para juzgar su calidad.
+ 
+-{{< mermaid >}}
+-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#f7e5e2', 'primaryTextColor': '#18223c', 'primaryBorderColor': '#b12028', 'lineColor': '#536326', 'edgeLabelBackground':'#f5f3ee', 'tertiaryColor': '#eceddc', 'tertiaryTextColor': '#18223c'}}}%%
+-flowchart TD
+-    C[Crear] --> E[Evaluar]
+-    E --> A[Analizar]
+-    A --> Ap[Aplicar]
+-    Ap --> Co[Comprender]
+-    Co --> R[Recordar]
+-    
+-    style R fill:#ece9e1,stroke:#525d70,color:#18223c
+-    style Co fill:#ece9e1,stroke:#525d70,color:#18223c
+-    style Ap fill:#eceddc,stroke:#536326,color:#18223c
+-    style A fill:#f4e6d8,stroke:#914411,color:#18223c,stroke-width:2px
+-    style E fill:#f7e5e2,stroke:#b12028,color:#18223c,stroke-width:2px
+-    style C fill:#8b2635,stroke:#6f1e2a,color:#ffffff,stroke-width:2px
+-{{< /mermaid >}}
++Las categorías no obligan a recorrer una pirámide en orden. Tampoco convierten automáticamente una consigna en una tarea compleja: *analizar* puede pedir una lista superficial y *explicar* puede exigir relacionar evidencia y conclusión. Hay que revisar juntos el contenido, las condiciones, el producto y el criterio de evaluación.
+ 
+-La disrupción de la IA generativa afecta fundamentalmente a este modelo: los sistemas algorítmicos actuales son extremadamente eficientes resolviendo los tres niveles inferiores (Recordar, Comprender, Aplicar). En consecuencia, los diseños didácticos modernos están obligados a desplazar su evaluación hacia el vértice de la pirámide (Analizar, Evaluar, Crear), donde el juicio humano, el pensamiento crítico y la [evaluación auténtica](/recursos/glosario/evaluacion-autentica/) siguen siendo irremplazables.
++La IA no vuelve prescindibles las categorías iniciales ni reserva las finales al juicio humano. Una persona puede recordar, comprender o aplicar para sostener un análisis; un sistema puede generar un producto aparente sin que exista aprendizaje. Lo importante es qué operación realiza la persona y qué evidencia permite observarla.
+ 
+-En el cruce con la IA, las tres literacidades formativas se alinean con esta jerarquía: la **operativa** con los niveles inferiores (recordar, comprender, aplicar), la **crítica** con analizar y evaluar, y la **[alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/)** con la cúspide —**crear**—, donde el conocimiento nuevo emerge del acoplamiento persona-IA y el estudiante conserva la dirección epistémica.
++Para diseñar una actividad completa, continúa con [Partir de lo que quieres observar]({{< relref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}). La guía conecta propósito, evidencia, experiencia y asistencia, y muestra por qué un verbo aislado no determina la demanda cognitiva.
++
++## Referencia
++
++Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom’s taxonomy of educational objectives*. Longman.
+--- a/content/formacion-docente/modelos-samr-icap/index.md
++++ b/content/formacion-docente/modelos-samr-icap/index.md
+@@ -17,7 +17,7 @@
+ showRelatedContent: true
+ showAuthor: false
+ weight: 6
+-lastmod: "2026-08-03"
++lastmod: "2026-08-23"
+ ---
+ 
+ Una docente quiere mejorar una actividad en la que el grupo explica por qué dos soluciones
+@@ -115,3 +115,8 @@
+ Las dos lentes ya describen tarea y conducta. Falta comprobar si propósito, evidencia y
+ experiencia apuntan al mismo aprendizaje. Continúa con [Partir de lo que quieres
+ observar]({{< relref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}).
++
++## Referencias
++
++- Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist, 49*(4), 219–243. <https://doi.org/10.1080/00461520.2014.965823>
++- Puentedura, R. R. (2012). *SAMR: Guiding development*. <https://www.hippasus.com/rrpweblog/archives/2012/01/19/SAMR_GuidingDevelopment.pdf>
+--- a/content/recursos/glosario/modelo-samr/index.md
++++ b/content/recursos/glosario/modelo-samr/index.md
+@@ -1,23 +1,29 @@
+ ---
+ title: "Modelo SAMR"
+ date: 2026-04-20
++lastmod: 2026-08-23
+ draft: false
+ tags: ["samr", "tecnología-educativa", "integración-tecnológica"]
+ categories: ["concepto"]
+ areas: ["digital", "pedagogia"]
+-showHero: true
+-summary: "Marco teórico de cuatro niveles (Sustitución, Aumento, Modificación, Redefinición) para evaluar la integración de la tecnología en la educación."
+-description: "Marco teórico de cuatro niveles (Sustitución, Aumento, Modificación, Redefinición) para evaluar la integración de la tecnología en la educación."
++showHero: false
++summary: "Lente para describir qué cambió en una tarea al incorporar tecnología, sin convertir sus cuatro categorías en una meta de ascenso."
++description: "Definición breve de sustitución, aumento, modificación y redefinición y de los límites de SAMR para juzgar el aprendizaje."
+ ---
+ 
+-El **modelo SAMR**, desarrollado por el Dr. Ruben Puentedura, es un marco conceptual diseñado para ayudar a los educadores a evaluar e integrar la tecnología en la enseñanza y el aprendizaje. Se divide en cuatro niveles progresivos:
++El **modelo SAMR** distingue cuatro maneras de describir la relación entre tecnología y tarea:
+ 
+-## Fases de mejora (Enhancement)
++- **Sustitución:** cambia el medio sin cambiar la función principal.
++- **Aumento:** se conserva la función y aparece una mejora útil.
++- **Modificación:** la tecnología permite reorganizar de forma importante la tarea.
++- **Redefinición:** se vuelve viable una tarea pertinente que antes no podía realizarse de forma comparable.
+ 
+-- **Sustitución (Substitution):** La tecnología actúa como una herramienta sustituta directa, sin cambio funcional en la tarea. *Ejemplo: Usar un procesador de textos en lugar de escribir a mano.*
+-- **Aumento (Augmentation):** La tecnología actúa como un sustituto directo, pero con una mejora funcional. *Ejemplo: Usar el corrector ortográfico o los diccionarios integrados en el procesador de textos.*
++Estas categorías no son una escala de calidad. Una sustitución puede resolver una necesidad real de acceso; una redefinición puede añadir novedad y carga sin mejorar el aprendizaje. SAMR describe qué cambió en la tarea, pero no demuestra qué comprendió o produjo la persona.
+ 
+-## Fases de transformación (Transformation)
++Tampoco existe una correspondencia fija entre SAMR, Bloom e ICAP. Una actividad con poca transformación tecnológica puede exigir una comparación profunda, y una actividad muy transformada puede limitarse a reconocer información.
+ 
+-- **Modificación (Modification):** La tecnología permite un rediseño significativo de las tareas. *Ejemplo: Colaboración en tiempo real en un documento compartido con retroalimentación instantánea.*
+-- **Redefinición (Redefinition):** La tecnología permite la creación de nuevas tareas que antes eran inconcebibles. *Ejemplo: Alumnos utilizando IA generativa para simular interacciones históricas o analizar masivamente datos abstractos para resolver problemas globales.*
++Para aplicar SAMR junto con una lente sobre la conducta cognitiva, continúa con [Dos preguntas distintas sobre una misma actividad]({{< relref "formacion-docente/modelos-samr-icap" >}}).
++
++## Referencia
++
++Puentedura, R. R. (2012). *SAMR: Guiding development*. <https://www.hippasus.com/rrpweblog/archives/2012/01/19/SAMR_GuidingDevelopment.pdf>
+--- a/content/formacion-docente/taller-diseno-actividades-ia-backward/index.md
++++ b/content/formacion-docente/taller-diseno-actividades-ia-backward/index.md
+@@ -7,6 +7,7 @@
+ tags: ["taller", "backward design", "diseño didáctico", "formación docente", "rúbricas"]
+ categories: ["guia"]
+ areas: ["formacion", "ia", "pedagogia"]
++lastmod: 2026-08-23
+ 
+ weight: 14
+ showHero: true
+@@ -27,7 +28,7 @@
+ El taller funciona con grupos de 12 a 24 docentes universitarios. La heterogeneidad disciplinar es bienvenida; produce contraste útil. Los participantes deben llegar con dos cosas:
+ 
+ - **Una asignatura propia identificada.** El taller no es teórico; cada docente trabaja sobre una asignatura concreta que enseña o va a enseñar.
+-- **Familiaridad básica con al menos un modelo de IA.** No exige dominio; sí exige haber interactuado con Claude, Gemini o equivalente al menos diez veces antes del taller.
++- **Familiaridad básica con al menos un asistente de IA.** No exige dominio ni una marca concreta: basta con haber realizado una prueba guiada y poder describir qué información se introdujo, qué respuesta se recibió y qué límite se observó.
+ 
+ Si un grupo carece del segundo requisito, conviene precederlo con una sesión introductoria de dos horas sobre [ingeniería de prompts](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/).
+ 
+@@ -41,7 +42,7 @@
+ 
+ ### Objetivo
+ 
+-Cada participante sale con una lista de tres a cinco aprendizajes esperados de su asignatura, formulados con verbos observables y nivel de Bloom explícito.
++Cada participante sale con tres a cinco aprendizajes esperados que explicitan qué operación realizará el estudiantado, sobre qué contenido, en qué condiciones y con qué criterio podrá reconocerse. Bloom sirve como vocabulario de revisión, no como etiqueta asignada por un verbo aislado.
+ 
+ ### Secuencia
+ 
+@@ -51,9 +52,9 @@
+ |---|---|
+ | 0:00–0:15 | Presentación del taller y del marco. |
+ | 0:15–0:30 | Ejercicio de detonación —escritura rápida en tarjetas para hacer brotar ideas antes de discutirlas—: cada participante escribe qué quiere que sus estudiantes sepan, hagan o sean al final del semestre. |
+-| 0:30–0:45 | Lectura comentada de un fragmento sobre verbos observables y taxonomía de Bloom. |
+-| 0:45–1:30 | Trabajo individual: reformular las tarjetas iniciales como aprendizajes esperados con verbos observables y nivel de Bloom. Mínimo tres, máximo cinco. |
+-| 1:30–1:50 | Trabajo en parejas: revisión cruzada con dos preguntas — "¿este verbo se puede observar?" y "¿este nivel de Bloom es el adecuado para tu asignatura?". |
++| 0:30–0:45 | Lectura comentada sobre demanda cognitiva, contenido, condiciones y criterios; Bloom se usa para ampliar el vocabulario, no para clasificar por un verbo. |
++| 0:45–1:30 | Trabajo individual: reformular las tarjetas iniciales como aprendizajes esperados que integren operación, contenido, condiciones y criterio. Mínimo tres, máximo cinco. |
++| 1:30–1:50 | Trabajo en parejas: revisión cruzada con dos preguntas — "¿qué tendría que hacer la persona para mostrar este aprendizaje?" y "¿qué evidencia permitiría distinguir un desempeño suficiente?". |
+ | 1:50–2:00 | Cierre y tarea para la sesión 2. |
+ 
+ La pieza clave es el bloque de 0:45 a 1:30: ahí cada participante reformula sus propias tarjetas; el resto del guion existe para preparar y revisar ese trabajo.
+@@ -61,12 +62,12 @@
+ ### Materiales mínimos
+ 
+ - Tarjetas tamaño media carta.
+-- Hoja de referencia con verbos observables organizados por nivel de Bloom.
+-- Plantilla de aprendizaje esperado: *"Al finalizar esta asignatura, el estudiante será capaz de [verbo] [contenido] [contexto]"*.
++- Hoja de referencia con procesos cognitivos de Bloom y advertencias contra la clasificación por verbo aislado.
++- Plantilla de aprendizaje esperado: *"Al finalizar esta asignatura, la persona será capaz de [operación] [contenido] en [condiciones], con [criterio observable]"*.
+ 
+ ### Tarea para la sesión 2
+ 
+-Cada participante trae sus tres a cinco aprendizajes esperados refinados, con verbo observable, nivel de Bloom y contexto explícito.
++Cada participante trae sus tres a cinco aprendizajes esperados refinados, con operación, contenido, condiciones y criterio explícitos.
+ 
+ ## Sesión 2 — Evidencias de aprendizaje (2 horas)
+ 
+@@ -113,7 +114,7 @@
+ |---|---|
+ | 0:00–0:15 | Recapitulación: ahora sí, la IA. |
+ | 0:15–0:35 | Lectura comentada sobre las cuatro tareas pedagógicas donde la IA aporta más (planeación, ejemplos, retroalimentación, debate) y las tres donde no aporta (lectura del grupo, mentoría, decisiones éticas). Ver [comparativa pedagógica de LLMs](/recursos/comparativa-llm-pedagogica/). |
+-| 0:35–1:30 | Trabajo individual: diseñar una actividad completa que produce la evidencia y articula la IA. Plantilla con cinco campos: aprendizaje esperado, evidencia, descripción de la actividad, rol específico de la IA, política de uso (permitida/restringida/prohibida). |
++| 0:35–1:30 | Trabajo individual: diseñar una actividad completa que produce la evidencia y articula la IA. Plantilla con siete campos: aprendizaje esperado, evidencia, criterio, experiencia, rol específico de la IA, alternativa sin IA y política de uso (permitida/restringida/prohibida). |
+ | 1:30–1:55 | Trabajo en grupos de tres: cada uno presenta su actividad. Los otros dos comentan con dos preguntas — "¿la IA aquí amplifica el aprendizaje o lo sustituye?" y "¿la rúbrica evalúa proceso o solo producto?". |
+ | 1:55–2:00 | Cierre del taller. Compromiso de cada participante: implementar la actividad en el siguiente semestre y compartir la experiencia. |
+ 
+@@ -121,7 +122,7 @@
+ 
+ ### Materiales mínimos
+ 
+-- Plantilla de actividad con los cinco campos.
++- Plantilla de actividad con los siete campos.
+ - Rúbrica de evaluación de la actividad (ver siguiente sección).
+ - Lista de criterios de los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) aplicables a actividades de aula.
+ 
+@@ -133,7 +134,7 @@
+ |---|---|---|---|
+ | **Alineación** | La actividad no se conecta con el aprendizaje esperado declarado. | La conexión existe pero es indirecta. | La actividad produce directamente la evidencia del aprendizaje esperado. |
+ | **Rol de la IA** | La IA hace el trabajo principal. | La IA asiste pero el estudiante puede delegar fácilmente. | La IA aporta sin sustituir; el estudiante debe sostener el juicio. |
+-| **Evaluación de proceso** | Solo se evalúa el producto final. | El proceso se evalúa pero con peso menor. | El proceso (decisiones, prompts, descartes) tiene peso evaluativo explícito. |
++| **Evaluación de proceso** | Solo se evalúa el producto final. | El proceso se evalúa pero con peso menor. | El proceso (decisiones, fuentes, versiones intermedias y descartes) tiene peso evaluativo explícito. |
+ | **Política de uso explícita** | No hay declaración. | Declaración general sin ejemplos. | Política específica con ejemplos de uso aceptable y no aceptable. |
+ | **Defensa o iteración** | El estudiante entrega y se acaba. | Hay una entrega intermedia. | Hay defensa oral o varias iteraciones documentadas. |
+ 
+@@ -156,6 +157,8 @@
+ 
+ Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). ASCD.
+ 
++Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A taxonomy for learning, teaching, and assessing: A revision of Bloom’s taxonomy of educational objectives*. Longman.
++
+ Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
+ 
+ UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers

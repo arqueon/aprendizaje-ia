@@ -149,7 +149,8 @@ cuantitativo, investigación de operaciones, economía aplicada.
 - Producto cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — modelado aplicado a decisiones.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — modelo como soporte de diseño.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
-y la rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

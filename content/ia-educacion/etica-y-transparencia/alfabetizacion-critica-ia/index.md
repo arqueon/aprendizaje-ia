@@ -75,10 +75,12 @@ La alfabetización crítica es el segundo nivel del marco de tres literacidades.
 
 La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa.
 
-## Referencias
+{{< referencias >}}
 
 - Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies*, *15*(1), 6. https://doi.org/10.3390/soc15010006
 - Lodge, J.M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
 - Lopez-Lopez, E., Abels, C.M., Lorenz-Spreen, P., Lewandowsky, S., & Herzog, S.M. (2026). Boosting metacognition in entangled human-AI interaction to navigate cognitive-behavioral drift. *arXiv*. https://doi.org/10.48550/arXiv.2602.01959
 - SchoolAI. (2025). Teaching AI literacy in the classroom: Strategies for educators. https://schoolai.com/blog/ai-literacy-english-class
 - Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802
+
+{{< /referencias >}}

@@ -1,9 +1,10 @@
 ---
-title: "Evaluación formativa asistida por IA — portafolios iterativos"
+title: "Actividad propuesta: portafolio iterativo con retroalimentación de IA"
 date: 2026-04-14
+lastmod: 2026-08-24
 draft: false
-description: "Práctica documentada donde los estudiantes construyen portafolios iterativos con retroalimentación de IA en cada versión, documentando sus decisiones de revisión."
-summary: "Un sistema de portafolios donde cada texto pasa por tres versiones con retroalimentación de IA. Lo que se evalúa no es el producto final sino las decisiones que el estudiante tomó en cada iteración."
+description: "Actividad propuesta donde los estudiantes construyen portafolios iterativos con retroalimentación de IA en cada versión, documentando sus decisiones de revisión."
+summary: "Un sistema de portafolios donde cada texto pasa por tres versiones con retroalimentación de IA. Lo que se evalúa no es el producto final sino las decisiones que el estudiante tomó en cada iteración. Es un prototipo de escenario para adaptar, no una implementación observada."
 tags: ["evaluación formativa", "portafolios", "retroalimentación iterativa", "Claude", "Gemini", "licenciatura", "híbrida", "rúbrica"]
 categories: ["practica-pedagogica"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -27,7 +28,7 @@ ecosistema:
   estado_evidencia: prototipo-escenario
   fuentes:
     - "https://arqueon.github.io/aprendizaje-ia/ia-educacion/guias/evaluacion-formativa-ia/"
-  revisado: 2026-07-27
+  revisado: 2026-08-24
   relaciones:
     - tipo: ejemplifica
       destino: assessment.basada-en-procesos
@@ -43,21 +44,22 @@ ecosistema:
 ---
 
 {{< lead >}}
-¿Qué pasa si evaluamos las decisiones del estudiante en lugar del texto que entrega? Esta práctica implementa un sistema de portafolios iterativos donde la IA ofrece retroalimentación formativa en cada versión. El centro de la evaluación no es la calidad del producto final sino la evidencia del proceso: qué aceptó, qué rechazó y por qué.
+¿Qué pasa si evaluamos las decisiones del estudiante en lugar del texto que entrega? Esta actividad propone un sistema de portafolios iterativos donde la IA ofrece retroalimentación formativa en cada versión. El centro de la evaluación no es la calidad del producto final sino la evidencia del proceso: qué aceptó, qué rechazó y por qué.
 {{< /lead >}}
 
 {{< alert icon="flask" type="warning" >}}
-**Estado de evidencia:** esta práctica es un **prototipo de escenario** adaptable, no el
-reporte de una implementación ya observada. El grupo, la asignatura y los resultados
-esperados sirven para probar el diseño; una aplicación futura deberá documentar contexto,
-alcance, resultados y limitaciones antes de presentarse como práctica implementada.
+**Estado: actividad propuesta (prototipo de escenario).** Esta página describe un diseño
+adaptable, no el reporte de una implementación observada. No existe un expediente —curso,
+grupo, fecha, instrumentos aplicados, resultados— que la respalde como caso real. Una
+aplicación futura deberá documentar contexto, alcance, resultados y limitaciones antes de
+presentarse como práctica implementada.
 {{< /alert >}}
 
-## Contexto
+## Contexto de aplicación previsto
 
-Grupo de 30 estudiantes de tercer semestre en una asignatura de comunicación escrita, modalidad híbrida. El problema habitual: los estudiantes entregan un texto una vez, reciben calificación y no vuelven a mirarlo. No hay iteración ni reflexión sobre el proceso de escritura.
+La actividad está pensada para asignaturas de escritura académica o argumentativa, en cualquier modalidad, durante cuatro semanas. Responde a un problema habitual: los estudiantes entregan un texto una vez, reciben calificación y no vuelven a mirarlo; no hay iteración ni reflexión sobre el proceso de escritura.
 
-Se diseñó un sistema donde cada texto pasa por tres versiones con retroalimentación de IA entre cada una, y el docente evalúa el portafolio completo (las tres versiones + las decisiones documentadas), no solo el texto final.
+El diseño hace que cada texto pase por tres versiones con retroalimentación de IA entre cada una, y que el docente evalúe el portafolio completo (las tres versiones + las decisiones documentadas), no solo el texto final. El docente define grupo, calendario y herramientas antes de aplicar.
 
 ## Objetivo pedagógico
 
@@ -76,7 +78,22 @@ La IA **no** califica. El docente es quien evalúa el portafolio completo al fin
 
 **Prompt que se proporciona a los estudiantes para solicitar retroalimentación (adaptado a Claude):**
 
-> Aquí tienes una rúbrica con 4 criterios: [pegar rúbrica del docente]. Evalúa el siguiente texto usando exclusivamente estos criterios. Para cada criterio: (1) indica el nivel que consideras, (2) justifica tu evaluación con ejemplos del texto, (3) ofrece una sugerencia concreta de mejora. No reescribas el texto. [Pegar texto]
+> Aquí tienes una rúbrica con 4 criterios: *(rúbrica del docente; abajo hay una de ejemplo)*. Evalúa el siguiente texto usando exclusivamente estos criterios. Para cada criterio: (1) indica el nivel que consideras, (2) justifica tu evaluación con ejemplos del texto, (3) ofrece una sugerencia concreta de mejora. No reescribas el texto. *(texto del estudiante)*
+
+**Rúbrica breve de ejemplo** (para un ensayo argumentativo; el docente la sustituye por la suya):
+
+| Criterio | Qué se observa |
+|----------|----------------|
+| Tesis y enfoque | La tesis es identificable, discutible y se mantiene a lo largo del texto |
+| Argumentación | Las premisas sostienen la conclusión; se consideran objeciones |
+| Uso de fuentes | Las fuentes son pertinentes, están citadas y se distinguen de la voz propia |
+| Claridad y organización | Los párrafos progresan; cada uno cumple una función reconocible |
+
+**Fragmento inicial de ejemplo** (sin datos personales, para probar el prompt antes de usarlo con textos reales):
+
+> La discusión sobre el uso de celulares en el aula suele plantearse como disciplina, pero
+> es más útil plantearla como diseño: cuando la actividad exige consultar, comparar o
+> producir algo con el dispositivo, la distracción disminuye sin necesidad de prohibiciones.
 
 ## Secuencia de la actividad
 
@@ -91,7 +108,7 @@ El estudiante escribe la primera versión de su texto sin usar IA. El propósito
 {{< timelineItem icon="brain" header="Semana 2 — Retroalimentación IA + versión 2" subheader="Trabajo individual con IA" >}}
 El estudiante somete su V1 a retroalimentación de la IA usando el prompt estandarizado con la rúbrica del docente. La IA comenta cada criterio.
 
-El estudiante lee la retroalimentación, decide qué incorporar y qué rechazar, y produce la V2. Documenta cada decisión en una tabla de registro.
+El estudiante lee la retroalimentación, decide qué incorporar y qué rechazar, y produce la V2. Documenta en la tabla de registro al menos dos decisiones justificadas (una aceptación y un rechazo, cuando sea posible).
 
 <strong>Tabla de registro:</strong>
 
@@ -101,7 +118,7 @@ El estudiante lee la retroalimentación, decide qué incorporar y qué rechazar,
 | "Incluir estadísticas de impacto ambiental" | No | El texto es un ensayo argumentativo, no un reporte; las estadísticas desvían el tono |
 | "Reorganizar la estructura: mover §4 antes de §2" | Parcial | Moví §4 pero lo combiné con §2 en un solo párrafo |
 
-<strong>Entregable:</strong> Texto V2 + tabla de registro de decisiones + log de la conversación con IA.
+<strong>Entregable:</strong> Texto V2 + tabla de registro con al menos dos decisiones justificadas. No se entregan conversaciones completas.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="users" header="Semana 3 — Revisión de pares + versión 3" subheader="Sesión presencial" >}}
@@ -115,14 +132,13 @@ El estudiante prepara su portafolio final:
 
 1. Las tres versiones del texto (V1, V2, V3)
 2. Las tablas de registro de decisiones
-3. Los logs de interacciones con la IA
-4. Una reflexión escrita (500 palabras) respondiendo:
+3. Una reflexión escrita (500 palabras) respondiendo:
    - ¿Qué cambió entre V1 y V3?
    - ¿En qué fue útil la retroalimentación de la IA? ¿En qué no?
    - ¿Hubo algún momento donde la IA estaba equivocada? ¿Cómo lo identificaste?
    - ¿Qué aprendiste sobre tu proceso de escritura?
 
-<strong>Entregable:</strong> Portafolio completo.
+<strong>Entregable:</strong> Portafolio completo (versiones, decisiones y reflexión).
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -144,16 +160,23 @@ El docente evalúa el portafolio completo, no el texto final:
 **El texto final no es lo más importante.** El 65% de la evaluación se concentra en el proceso (decisiones, evolución, reflexión). Un estudiante que entrega un texto final excelente pero sin evidencia de proceso obtiene una calificación inferior a uno cuyo texto evolucionó de forma documentada.
 {{< /alert >}}
 
-## Resultados y reflexión
+## Alternativa sin IA
 
-Después de implementar esta práctica durante un semestre:
+El mismo sistema funciona sustituyendo la retroalimentación de IA de la semana 2 por retroalimentación entre pares con la misma rúbrica y el mismo número de revisiones: V1 recibe comentarios de un par (con la rúbrica), V2 los incorpora con tabla de decisiones, y la semana 3 usa un segundo par distinto. Los entregables y la ponderación no cambian. Esta vía garantiza participación equivalente a quien no puede o no quiere usar IA.
 
-- El 72% de los estudiantes reportó que las tablas de registro les ayudaron a ser más conscientes de sus decisiones de escritura
-- Los estudiantes que rechazaron al menos una sugerencia de la IA con justificación produjeron textos de mayor calidad que los que aceptaron todo acríticamente
-- La V2 (post-IA) mejoró consistentemente respecto a la V1 en estructura y argumentación, pero en algunos casos empeoró en voz personal (el texto se "homogeneizó")
-- La V3 (post-pares) recuperó la voz personal en la mayoría de los casos
+## Riesgos y condiciones de aplicación
 
-**Área de mejora:** en la primera implementación, algunos estudiantes no entendieron la tabla de registro y la llenaron de forma superficial ("Sí porque me pareció bien"). Se añadió un ejemplo modelado por el docente al inicio de la semana 2 mostrando cómo luce una decisión bien justificada y una superficial.
+- **Privacidad de borradores.** Los textos de estudiantes no deben contener datos personales al enviarse a una herramienta de IA; el docente debe indicar qué herramienta usar y con qué configuración.
+- **Retroalimentación errónea.** La IA puede señalar problemas inexistentes o sugerir cambios que empeoran el texto; la tabla de decisiones existe precisamente para que el estudiante ejerza y documente su criterio.
+- **Homogeneización de la voz.** La revisión asistida puede uniformar el estilo; la revisión de pares de la semana 3 y el criterio de evolución documentable ayudan a vigilarlo.
+- **Carga de documentación.** Exigir conversaciones completas o registros exhaustivos convierte la trazabilidad en trámite; por eso se piden versiones, dos decisiones justificadas y una reflexión, no logs íntegros.
+
+## Preguntas de revisión tras aplicar la propuesta
+
+- ¿Las tablas de registro produjeron decisiones justificadas o se llenaron de forma superficial? ¿Hizo falta modelar un ejemplo?
+- ¿Qué diferencias se observaron entre estudiantes que rechazaron sugerencias con justificación y los que aceptaron todo?
+- ¿Se detectó homogeneización de la voz entre V1 y V2? ¿La revisión de pares la corrigió?
+- ¿Qué cambiaría en el prompt, la rúbrica o la ponderación para la siguiente aplicación?
 
 ## Relación con otras secciones
 
@@ -167,3 +190,5 @@ Después de implementar esta práctica durante un semestre:
 - Hamp-Lyons, L., & Condon, W. (2000). *Assessing the portfolio: Principles for practice, theory, and research*. Hampton Press.
 - Nicol, D. J., & Macfarlane-Dick, D. (2006). Formative assessment and self-regulated learning: A model and seven principles of good feedback practice. *Studies in Higher Education*, *31*(2), 199–218. https://doi.org/10.1080/03075070600572090
 - Yancey, K. B. (1998). *Reflection in the writing classroom*. Utah State University Press.
+
+Las referencias respaldan la evaluación formativa y el trabajo con portafolios en general, no esta actividad en particular: ninguna de ellas evaluó esta secuencia con IA.

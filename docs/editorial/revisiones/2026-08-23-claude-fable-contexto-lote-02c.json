@@ -1,0 +1,144 @@
+{
+  "is_error": false,
+  "duration_api_ms": 329795,
+  "num_turns": 8,
+  "stop_reason": "end_turn",
+  "session_id": "ab6f06e6-ca23-4804-bb2e-250686be26c9",
+  "total_cost_usd": 1.602185,
+  "usage": {
+    "input_tokens": 4,
+    "cache_creation_input_tokens": 38611,
+    "cache_read_input_tokens": 76665,
+    "output_tokens": 9088,
+    "output_tokens_details": {
+      "thinking_tokens": 6693
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 38611,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 3042,
+        "cache_read_input_tokens": 54373,
+        "cache_creation_input_tokens": 6530,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 6530
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 1211,
+      "outputTokens": 22,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.0013210000000000001,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty"
+    },
+    "claude-fable-5": {
+      "inputTokens": 6,
+      "outputTokens": 9719,
+      "cacheReadInputTokens": 95714,
+      "cacheCreationInputTokens": 50957,
+      "webSearchRequests": 0,
+      "costUSD": 1.600864,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "canonicalModel": "claude-fable-5",
+      "provider": "firstParty"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subtype": "success",
+  "api_error_status": null,
+  "result": {
+    "scope": [
+      "content/recursos/glosario/ganancia-cognitiva/index.md",
+      "content/recursos/glosario/_index.md",
+      "tools/lib/glossary-index.mjs",
+      "tools/qa-glossary-index.test.mjs",
+      "tools/audit-hugo-content.mjs",
+      "docs/editorial/rollback/2026-08-23-contexto-lote-02c/content/recursos/glosario/ganancia-cognitiva/index.md"
+    ],
+    "coverage": {
+      "expected": 6,
+      "reviewed": 6,
+      "missing": []
+    },
+    "editorial": {
+      "verdict": "aprobar",
+      "mandatory_changes": [],
+      "observations": [
+        "La definición cumple el objetivo 1: 'una mejora que la persona puede mostrar en su razonamiento después de trabajar con IA', con ejemplos concretos (detectar un supuesto, corregir una explicación) y la exclusión explícita de 'una respuesta más rápida o mejor redactada no basta'.",
+        "El objetivo 2 se cumple con estructura completa: el Ejemplo da situación y material inicial (borrador con afirmación de efecto único), 'Qué hacer para buscarla' da acciones numeradas partiendo de conservar el material inicial, el cambio observable está en 'puede explicar el supuesto que corrigió', y 'Cómo comprobarla' da criterios de verificación con criterio negativo ('Si solo cambió la redacción, no hay evidencia suficiente').",
+        "El objetivo 3 se cumple: '**No es automática**: depende de la tarea, de los conocimientos de la persona, de la orientación docente y de cómo se use la respuesta', reforzado en el cierre ('No es un resultado que pueda atribuirse a la herramienta por sí sola'). Esto corrige la versión de rollback, que definía la ganancia como 'el efecto que produce la interacción con la IA generativa cuando está bien orientada', formulación que la presentaba como consecuencia de la herramienta.",
+        "El objetivo 4 se cumple: Ji et al. queda acotado a 'un solo curso' y 'una intervención concreta; no demuestra que cualquier conversación con IA produzca la misma mejora'; Nasr et al. queda acotado con cifras ('40 estudiantes', 'seis conversaciones', 'dos entrevistas') y la cautela 'no establecer un efecto universal'. El cierre declara el término como 'síntesis editorial', lo que separa el concepto del alcance de las fuentes.",
+        "Ambigüedad menor en 'obtuvo mejores resultados en aprendizaje, conciencia sobre IA y carga cognitiva': aplicado a carga cognitiva, 'mejores resultados' no indica dirección (¿menor carga?). No se propone reemplazo obligatorio porque precisar la dirección requeriría consultar la fuente, fuera del alcance de esta lectura; conviene verificarlo contra el artículo en una pasada con acceso a fuentes.",
+        "La prosa es directa y sin jerga interna (objetivo 5); el bloque 'ecosistema' del front matter contiene vocabulario interno (capas, R.conceptual, P.direccion-epistemica) pero no se renderiza en la página y el repositorio ya lo usa como convención de metadatos.",
+        "El _index.md declara '20 entradas' en summary y enumera 20 títulos en tres ejes, coincidiendo con los 20 directorios reales de content/recursos/glosario/ verificados por listado."
+      ]
+    },
+    "technical": {
+      "verdict": "aprobar",
+      "mandatory_changes": [],
+      "observations": [
+        "Objetivo 1 cubierto: la prueba real exige missing/unknown/duplicates vacíos y además 'assert.equal(result.listed.length, titles.length)', lo que garantiza biyección exacta (cada entrada existente aparece exactamente una vez).",
+        "Objetivo 2 cubierto: auditGlossaryIndex devuelve missing, unknown y duplicates por separado, y audit-hugo-content.mjs en modo --check los reporta como 'faltan/desconocidas/repetidas' y sale con código 1.",
+        "Objetivo 3 cubierto: el normalizador maneja acentos (NFD + \\p{Diacritic}), mayúsculas (toLowerCase), punto final (/[.。]\\s*$/) y enlaces Markdown (/\\[([^\\]]+)\\]\\([^)]*\\)/); la conjunción final se resuelve con /\\s+(?:y|e)\\s+([^,]+)$/i antes del split por comas, y el token vacío que deja una coma de Oxford se elimina con filter(Boolean).",
+        "Objetivo 4 cubierto: hay un caso sintético fallido (detecta 'Cuatro' como faltante con matches=false) y una prueba contra el índice real que deriva los títulos leyendo los directorios de content/recursos/glosario/.",
+        "Objetivo 5 cubierto: no hay sustitución global; el número declarado en el summary (declaredCountChecks con /\\b(\\d+)\\b/) es una comprobación adicional, no la única — la verificación entrada por entrada de glossaryIndexCheck es independiente del número escrito.",
+        "Caso límite no cubierto por diseño: si en el futuro un título de entrada contiene ' y ' o ' e ' y aparece como último elemento de un eje (p. ej. 'Ética y transparencia'), la regla /\\s+(?:y|e)\\s+([^,]+)$/i lo partiría en dos y el auditor lo reportaría como desconocido+faltante. Falla en dirección segura (falso positivo detectable), pero conviene recordarlo al añadir entradas.",
+        "Caso límite menor: dos títulos distintos que normalicen a la misma clave (p. ej. solo difieren en acentos) colisionarían en expectedByKey (Map, último gana); improbable en un glosario y detectable por duplicate_titles del auditor general.",
+        "declaredCountChecks toma el primer número del campo con /\\b(\\d+)\\b/; si el summary incorporara otro número antes del recuento ('3 ejes con 20 entradas'), leería 3. Con el texto actual ('20 entradas para aclarar…') funciona correctamente.",
+        "La extracción de títulos en la prueba (/^title:\\s*[\"']?(.+?)[\"']?\\s*$/m) toma la primera coincidencia del archivo, que es el title del front matter; el bloque ecosistema usa 'titulo:' y no interfiere."
+      ]
+    },
+    "blocking_issues": []
+  },
+  "ttft_ms": 200875,
+  "ttft_stream_ms": 208031,
+  "time_to_request_ms": 200953,
+  "type": "result",
+  "duration_ms": 328782,
+  "uuid": "2779fc05-3cf5-4509-89d1-5fe0ee02b829",
+  "_validation": {
+    "valid_json": true,
+    "coverage_exact": "6/6",
+    "editorial_verdict": "aprobar",
+    "technical_verdict": "aprobar",
+    "mandatory_changes": 0,
+    "blocking_issues": 0
+  },
+  "_reconciliation": {
+    "status": "reconciliada con verificación externa de una observación no obligatoria",
+    "fable_original": "aprobó editorial y técnica sin cambios obligatorios ni bloqueos",
+    "observation": "La expresión “mejores resultados ... carga cognitiva” no indicaba la dirección de esa medida.",
+    "verification": [
+      "DOI 10.1109/TLT.2025.3554584",
+      "ERIC EJ1469066"
+    ],
+    "change": "Se explicitó el cuasiexperimento de ocho semanas y 36 estudiantes, la distribución 21/15 y el mejor resultado del grupo sin ChatGPT en pensamiento crítico. Se preservó “superó ... en la medida de carga cognitiva” sin inferir una dirección no especificada en el resumen.",
+    "focused_gate": "16/16",
+    "publication": "no autorizada",
+    "vobo": "pendiente para lote 02C"
+  }
+}

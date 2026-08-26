@@ -1,0 +1,176 @@
+{
+  "lot": "contexto-lote-05",
+  "date": "2026-08-24",
+  "status": "investigacion-verificada-lista-para-vobo",
+  "production_changed": false,
+  "proposal": {
+    "cambiar": [
+      "abp-con-ia",
+      "debate-socratico-con-ia",
+      "evaluacion-formativa-asistida-ia"
+    ],
+    "quitar_cuarentena": [
+      "aprendizaje-activo-ia"
+    ]
+  },
+  "practices": [
+    {
+      "path": "laboratorio/practicas/abp-con-ia/index.md",
+      "sha256": "d68139b4fa0e4a5774db5674926313fe1a226bb3c2b408a6a0e3d33f8a8de1c0"
+    },
+    {
+      "path": "laboratorio/practicas/aprendizaje-activo-ia/index.md",
+      "sha256": "02fb4410db0784f9213da0541923888ef18fd381365a7ad90e5fcfcff4b9a5ec"
+    },
+    {
+      "path": "laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "sha256": "b7d9a79010912786263f6434b97b4c22df36413d525f847a2f09e2d14f7de89c"
+    },
+    {
+      "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "sha256": "b8f64db5287d0e249a723360cf2b4f386c42a2e5f739303a49147918f9b7909f"
+    }
+  ],
+  "canonical_guides": [
+    {
+      "path": "ia-educacion/guias/abp-con-ia/index.md",
+      "sha256": "00d8d2657f060a46bc543b44030c1fac052d41a85cffcc4e537da594a2263afb"
+    },
+    {
+      "path": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "sha256": "c7f2d50c5977c8d1506cc1fd10dc6517e42af91cda9d34178c768bfa3190f6cb"
+    },
+    {
+      "path": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "sha256": "c0b00ca78a8693844fe245fe7a840656309d8028a665f28d07f12a5179cca9cb"
+    }
+  ],
+  "inbound_count": 16,
+  "inbound": [
+    {
+      "route": "/laboratorio/practicas/abp-con-ia/",
+      "file": "blog/agenciamiento-humano-ia/index.md",
+      "line": 60,
+      "sha256": "156a580678a4bb9d9c3f34553873c66296e9b5c6d5a565e02eadad9ad6d7d52f"
+    },
+    {
+      "route": "/laboratorio/practicas/abp-con-ia/",
+      "file": "ia-educacion/guias/abp-con-ia/index.md",
+      "line": 148,
+      "sha256": "00d8d2657f060a46bc543b44030c1fac052d41a85cffcc4e537da594a2263afb"
+    },
+    {
+      "route": "/laboratorio/practicas/abp-con-ia/",
+      "file": "ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+      "line": 150,
+      "sha256": "dd429f6fb7a9e10d6731eafc6cbc058c47dbcbf2fc58d0544e59b250cab11aa1"
+    },
+    {
+      "route": "/laboratorio/practicas/abp-con-ia/",
+      "file": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "line": 38,
+      "sha256": "fd2442cb16763b5e8ed9adc69e4b4bf5f9e2bbd02778be1504bc44c26f0c4f7a"
+    },
+    {
+      "route": "/laboratorio/practicas/aprendizaje-activo-ia/",
+      "file": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+      "line": 145,
+      "sha256": "c7f2d50c5977c8d1506cc1fd10dc6517e42af91cda9d34178c768bfa3190f6cb"
+    },
+    {
+      "route": "/laboratorio/practicas/aprendizaje-activo-ia/",
+      "file": "observatorio/estudios/habitar-ia-simondon/index.md",
+      "line": 49,
+      "sha256": "2335e82f8759683ccaa680465d858fed27abe6a5c21b360c73b9eaf609a13a7a"
+    },
+    {
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "file": "formacion-docente/pensamiento-critico-ia-generativa/index.md",
+      "line": 54,
+      "sha256": "668848196f0c61ef0d5b941489391225096f8a68aec6c8c5956ed1fb32c275ff"
+    },
+    {
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "file": "ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+      "line": 498,
+      "sha256": "7555ab7040fb3a6703d45df1bc08b1ba88e1270c2c1eb8441a04b6f045733cdd"
+    },
+    {
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "file": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "line": 38,
+      "sha256": "fd2442cb16763b5e8ed9adc69e4b4bf5f9e2bbd02778be1504bc44c26f0c4f7a"
+    },
+    {
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "file": "recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+      "line": 85,
+      "sha256": "e1586f37026cc56125d47676185cf4b657764c9fe0974f22fa0204f2d6823196"
+    },
+    {
+      "route": "/laboratorio/practicas/debate-socratico-con-ia/",
+      "file": "recursos/comparativa-llm-pedagogica/index.md",
+      "line": 71,
+      "sha256": "984464527f0e80421aa740bc75cdd9e8a593138ffa75c0c261e497c432485945"
+    },
+    {
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "file": "blog/ia-generativa-evaluacion-autentica/index.md",
+      "line": 62,
+      "sha256": "da442c1dd0a7809701723b7c15aee3342ea030bfe1e87d2ee9b280dba923c5b6"
+    },
+    {
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "file": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "line": 263,
+      "sha256": "c0b00ca78a8693844fe245fe7a840656309d8028a665f28d07f12a5179cca9cb"
+    },
+    {
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "file": "ia-educacion/guias/integracion-curricular-ia/index.md",
+      "line": 80,
+      "sha256": "ff6337b6a1a2ec7f6695331ea708616736f85a7e2d428e7be4d6cdf2cf542c44"
+    },
+    {
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "file": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+      "line": 38,
+      "sha256": "fd2442cb16763b5e8ed9adc69e4b4bf5f9e2bbd02778be1504bc44c26f0c4f7a"
+    },
+    {
+      "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
+      "file": "recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "line": 43,
+      "sha256": "08357572e101a50f68db8a69ab59a077828accc2e9f713438297a50cbb32ed83"
+    }
+  ],
+  "provenance_commits": [
+    "80496da95880fc8a072604771bdcbc9200d24047",
+    "6421c3ce5640040a12a33f820e314cacaa1ee69f"
+  ],
+  "citation_ledger": "docs/editorial/lotes/2026-08-24-contexto-lote-05-citations.json",
+  "citation_gate": "strict evidence: PASS",
+  "report": {
+    "path": "docs/editorial/lotes/2026-08-24-contexto-lote-05-procedencia-practicas.md",
+    "sha256": "dab1efd52cb6df0ac9ecec675cddce6ccb2c1fe806f69ee37f65824c7b993822"
+  },
+  "independent_review": {
+    "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-05.json",
+    "sha256": "2ff2c5fb2e6d7dd313bd88c20cba3186302a6fd7d4d292e4dc149831da5d3776",
+    "initial_verdict": "adjust",
+    "blocking_issues": 1,
+    "required_changes": 4,
+    "reconciliation_status": "approved",
+    "reconciliation_path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-05-reconciliacion.json",
+    "reconciliation_sha256": "0c32bdb3872e768593b228066fd98896c27908fa63d22d0d4e3be044c89c1a63",
+    "reconciliation_checks": 6,
+    "remaining_blocking_issues": 0,
+    "remaining_required_changes": 0
+  },
+  "limitations": [
+    "La carpeta Academia completa no está montada en sinope; solo se revisó el árbol local disponible.",
+    "Las búsquedas exactas sin coincidencias no prueban inexistencia universal; acotan lo que pudo verificarse."
+  ],
+  "citation_ledger_sha256": "e705fd185c3902232a89dc2c31a0ef1c3469a1abbdfac48847ed362ec16008f7",
+  "inbound_unique_pages": 14
+}

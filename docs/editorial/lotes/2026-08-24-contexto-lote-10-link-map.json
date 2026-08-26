@@ -1,0 +1,70 @@
+{
+  "schema": "context-lot-link-map-v1",
+  "lot": "10",
+  "generated_at": "2026-08-24",
+  "scope": "read-only investigation; no content edits; route references include Hugo ref shortcodes",
+  "items": [
+    {
+      "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "route": "/recursos/articulos/genai-feedback-engagement-2025/",
+      "inbound_file_count": 0,
+      "exact_occurrences": 0,
+      "inbound": [],
+      "counting_method": "canonical route without trailing slash; captures Markdown URLs and Hugo ref shortcodes"
+    },
+    {
+      "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "route": "/recursos/articulos/guias-iagen-evaluacion-unam/",
+      "inbound_file_count": 0,
+      "exact_occurrences": 0,
+      "inbound": [],
+      "counting_method": "canonical route without trailing slash; captures Markdown URLs and Hugo ref shortcodes"
+    },
+    {
+      "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
+      "route": "/recursos/articulos/next-era-assessment-dec/",
+      "inbound_file_count": 4,
+      "exact_occurrences": 4,
+      "inbound": [
+        {
+          "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+          "occurrences": 1
+        },
+        {
+          "path": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
+          "occurrences": 1
+        },
+        {
+          "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+          "occurrences": 1
+        },
+        {
+          "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
+          "occurrences": 1
+        }
+      ],
+      "counting_method": "canonical route without trailing slash; captures Markdown URLs and Hugo ref shortcodes"
+    },
+    {
+      "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
+      "inbound_file_count": 3,
+      "exact_occurrences": 4,
+      "inbound": [
+        {
+          "path": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+          "occurrences": 2
+        },
+        {
+          "path": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+          "occurrences": 1
+        },
+        {
+          "path": "content/recursos/comparativa-llm-pedagogica/index.md",
+          "occurrences": 1
+        }
+      ],
+      "counting_method": "canonical route without trailing slash; captures Markdown URLs and Hugo ref shortcodes"
+    }
+  ]
+}

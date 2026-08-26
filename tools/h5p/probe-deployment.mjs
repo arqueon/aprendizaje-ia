@@ -791,7 +791,7 @@ async function functionalProbe(baseURL) {
     assert(
       routeIndexText.includes("Estudio o enseño") &&
         routeIndexText.includes("Coordino procesos docentes") &&
-        routeIndexText.includes("Dirijo decisiones institucionales"),
+        routeIndexText.includes("Preparo decisiones institucionales"),
       "El índice no presenta las tres rutas de audiencia"
     );
     assert(writeRequests.length === 0, `Solicitudes de escritura: ${JSON.stringify(writeRequests)}`);

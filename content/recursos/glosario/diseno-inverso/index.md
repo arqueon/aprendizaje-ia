@@ -1,20 +1,28 @@
 ---
 title: "Diseño inverso"
 date: 2026-04-20
+lastmod: 2026-08-24
 draft: false
 tags: ["diseño-inverso", "diseño curricular", "planificación"]
 categories: ["metodologia"]
 areas: ["pedagogia", "evaluacion"]
 showHero: true
-summary: "Enfoque de planificación curricular que comienza definiendo los resultados de aprendizaje deseados antes de diseñar la evaluación y la instrucción."
+summary: "Método de planificación que alinea resultados de aprendizaje, evidencia aceptable y experiencias de aprendizaje."
+description: "Definición breve de las tres etapas del diseño inverso y de su uso para alinear propósito, evaluación y actividades."
 ---
 
-El **diseño inverso** (*backward design*) es un método para diseñar currículos, cursos y unidades de instrucción cuyo principio fundamental es comenzar por el final: primero se determinan las metas que se desea que los estudiantes alcancen y luego se diseña el camino para llegar a ellas.
+El **diseño inverso** (*backward design*), formulado por Grant Wiggins y Jay McTighe, es un método para planificar cursos, unidades o actividades comenzando por el aprendizaje que se quiere observar, no por la herramienta o la dinámica disponible.
 
 ## Etapas del diseño inverso
 
-1. **Identificar los resultados deseados:** Establecer qué es lo que los estudiantes deben saber, comprender y ser capaces de hacer. Se definen las "grandes ideas" y los aprendizajes perdurables.
-2. **Determinar la evidencia de evaluación:** Decidir cómo sabremos si los estudiantes han alcanzado los resultados deseados. Se diseñan tareas de rendimiento y otros métodos de evaluación.
-3. **Planificar las experiencias de aprendizaje y la instrucción:** Con los objetivos y las evaluaciones definidos, se diseñan las actividades didácticas, se seleccionan los materiales y se planifican las secuencias de instrucción.
+1. **Identificar los resultados deseados:** precisar qué debe comprender y poder hacer la persona.
+2. **Determinar la evidencia aceptable:** decidir qué producto, desempeño o explicación permitiría comprobar esos resultados.
+3. **Planificar las experiencias de aprendizaje:** elegir actividades, materiales, apoyos y secuencia en función de la evidencia esperada.
 
-Este marco es particularmente valioso al integrar IA generativa, ya que obliga a centrarse en el desarrollo de competencias cognitivas profundas en lugar de en la mera ejecución de tareas operativas.
+El método ayuda a revisar la alineación entre propósito, evaluación y experiencia, pero no garantiza por sí solo una tarea profunda. Si se incorpora IA, su función debe decidirse después de definir qué evidencia corresponde a la persona y bajo qué condiciones podrá interpretarse.
+
+Para llevar estas etapas a una actividad y relacionarlas con la demanda cognitiva, continúa con [Partir de lo que quieres observar]({{< relref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}).
+
+## Referencia
+
+Wiggins, G., & McTighe, J. (2005). *Understanding by design* (2nd ed.). Association for Supervision and Curriculum Development.

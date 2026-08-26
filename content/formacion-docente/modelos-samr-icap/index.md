@@ -1,14 +1,14 @@
 ---
-title: "Modelos SAMR e ICAP para la integración tecnológica"
-date: 2026-04-06
+title: "Dos preguntas distintas sobre una misma actividad"
+date: "2026-08-03"
 draft: false
-description: "Dos marcos de referencia para integrar tecnología en el aula de manera efectiva: el modelo SAMR (sustitución, aumento, modificación, redefinición) y el modelo ICAP (pasivo, activo, constructivo, interactivo)."
-summary: "El modelo SAMR evalúa el nivel de integración tecnológica en el aula. El modelo ICAP vincula los niveles de compromiso cognitivo de los estudiantes con los resultados del aprendizaje activo."
+description: "SAMR describe qué cambió en la tarea e ICAP qué hizo la persona con las ideas; ninguna lente califica por sí sola una tecnología."
+summary: "Separa transformación tecnológica e implicación cognitiva para evitar escaleras y correspondencias rígidas."
 tags: ["samr", "icap", "tecnologia-educativa", "integracion-tecnologica", "engagement"]
 categories: ["metodologia-pedagogica"]
 areas: ["digital", "pedagogia"]
 
-showHero: true
+showHero: false
 showTableOfContents: true
 showReadingTime: true
 showBreadcrumbs: true
@@ -16,106 +16,122 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-weight: 6
+weight: 4
+lastmod: "2026-08-23"
 ---
 
-{{< lead >}}
-Integrar tecnología en el aula sin un marco de referencia puede resultar en un uso superficial que no transforma el aprendizaje. Los modelos SAMR e ICAP proporcionan herramientas para evaluar y mejorar la calidad de esa integración.
-{{< /lead >}}
+Una docente quiere mejorar una actividad en la que el grupo explica por qué dos soluciones
+aparentemente correctas conducen a resultados distintos. Prueba dos cambios. En el primero,
+sustituye la hoja impresa por un documento digital que corrige formato y reúne respuestas. En
+el segundo, conserva una hoja sencilla, pero pide a cada persona formular un supuesto,
+compararlo con otra explicación y revisar su posición con razones.
 
-## El modelo SAMR
+El primer cambio modifica visiblemente el medio. El segundo puede cambiar más el trabajo de
+pensamiento. Para no confundirlos conviene formular dos preguntas independientes: **¿qué
+cambió en la tarea gracias a la tecnología?** y **¿qué hizo la persona con las ideas?**
 
-El modelo SAMR (Caukin & Trail, 2019) es una herramienta para reflexionar sobre el qué, cómo y por qué de la implementación de tecnologías en el proceso educativo. Su fin es lograr un uso estratégico que incremente la interacción, la colaboración, el compromiso y la innovación en las aulas.
+## Una lente mira la tarea; la otra, la conducta
 
-Permite a profesores y diseñadores instruccionales integrar tecnología en sus prácticas pedagógicas de manera progresiva. Los cuatro niveles se agrupan en dos categorías:
+El marco SAMR —sustitución, aumento, modificación y redefinición— ayuda a describir la relación
+entre tecnología y tarea. Puede señalar una sustitución del medio, una mejora funcional, una
+modificación importante de la secuencia o una tarea que la tecnología vuelve posible de una
+forma antes no viable o no comparable. Esa descripción no es una calificación automática.
+Un cambio pequeño puede ser suficiente; uno espectacular puede añadir carga sin mejorar el
+aprendizaje.
 
-{{< infografia titulo="Modelo SAMR" subtitulo="Fases para la integración tecnológica en el aula" >}}
-  {{< infografia-seccion titulo="S – Sustitución (Mejora)" icono="exchange-alt" color="#656f85" >}}
-  La tecnología actúa como un sustituto directo de actividades que ya se desarrollan en el aula, sin cambios funcionales.
-  * **Ejemplo:** Usar Zoom o Webex para dar la misma conferencia que se daría presencialmente.
-  {{< /infografia-seccion >}}
+El marco ICAP observa conductas relacionadas con el conocimiento: recibir información,
+manipular lo dado, generar una explicación propia o construir una comprensión en reciprocidad
+con otras personas. Tampoco califica la herramienta. La misma plataforma puede sostener una
+lectura pasiva, una clasificación, una explicación constructiva o una colaboración real.
 
-  {{< infografia-seccion titulo="A – Aumento (Mejora)" icono="arrow-up" color="#5c7ab4" >}}
-  La tecnología sustituye actividades del aula pero con mejoras funcionales.
-  * **Ejemplo:** Usar un LMS —una plataforma de gestión de aprendizaje, como Moodle o Classroom— con contenidos de video, texto y cuestionarios para complementar la clase.
-  {{< /infografia-seccion >}}
+{{< figura src="dos-lentes-samr-icap.svg" caption="Dos lentes independientes sobre la misma actividad: SAMR pregunta qué cambió en la tarea; ICAP, qué produjo la persona con las ideas. Los párrafos anteriores describen ambas lentes por separado." >}}
 
-  {{< infografia-seccion titulo="M – Modificación (Transformación)" icono="edit" color="#b06a1f" >}}
-  La tecnología permite un rediseño significativo de actividades en el aula.
-  * **Ejemplo:** Actividades de [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}) mediadas por tecnología que transforman la dinámica de clase.
-  {{< /infografia-seccion >}}
+El diagrama evita colocar ambas lentes como pisos de una escalera. Sus categorías no se
+corresponden nivel por nivel. Cambiar mucho una tarea no garantiza una conducta cognitiva más
+elaborada, y una explicación profunda puede ocurrir con medios sencillos.
 
-  {{< infografia-seccion titulo="R – Redefinición (Transformación)" icono="rocket" color="#b12028" >}}
-  La tecnología permite la creación de actividades previamente imposibles.
-  * **Ejemplo:** Actividades colectivas interactivas y de retroalimentación que no serían viables sin la tecnología.
-  {{< /infografia-seccion >}}
-{{< /infografia >}}
+## El mismo caso produce diagnósticos diferentes
 
-### Correspondencia con la taxonomía de Bloom
+En el documento digital, la tecnología sustituye y mejora algunas funciones de la hoja: reúne
+respuestas, facilita el formato y permite consultar el trabajo. Sin embargo, si la persona
+solo lee una solución ya elaborada, la conducta sigue siendo receptiva.
 
-Los niveles del modelo SAMR se relacionan con la [taxonomía de Bloom]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}):
+En la hoja sencilla, el medio casi no cambia. La persona formula un supuesto, compara una
+fuente y revisa su explicación. Esa conducta es constructiva porque añade una relación y una
+razón que no estaban dadas. Una actividad tecnológicamente modesta puede, por tanto, exigir
+más elaboración propia.
 
-- **Sustitución y aumento** → niveles de *recordar*, *entender* y *aplicar*.
-- **Modificación y redefinición** → niveles de *analizar*, *evaluar* y *crear*.
+Podemos combinar ambas fortalezas. Un documento compartido puede hacer visibles dos versiones
+y permitir que pares respondan a sus diferencias. Si cada participante aporta, considera el
+aporte ajeno y juntos producen una explicación nueva, la conducta puede ser interactiva. Si
+una persona escribe y las demás aceptan, la colaboración es solo nominal.
 
-![Modelo SAMR y su correspondencia con la taxonomía de Bloom](img/samr-bloom.svg "Modelo SAMR y su correspondencia con la taxonomía de Bloom — Universidad de Guadalajara, 2022")
+## Una conversación con IA no resuelve las dos preguntas
 
-Este modelo no puede considerarse como una receta. Es útil solo en relación con el diseño de actividades orientadas a promover el aprendizaje activo, colaborativo e interactivo. Las actividades interactivas desarrollan "habilidades profesionales" además de abordar el tema de un curso (Universidad de Guadalajara, 2022).
+Un chat puede transformar la tarea al ofrecer objeciones inmediatas o casos adaptados. Aun así,
+la persona podría limitarse a copiar. También puede usar una sola objeción para construir una
+explicación propia y verificarla. La interfaz no decide el modo cognitivo.
 
-## El modelo ICAP
+En ICAP, “interactivo” no significa simplemente que una pantalla responda. Chi y Wylie admiten
+un agente computacional como posible interlocutor cuando responde con contenido pertinente y
+el diálogo conserva aportes constructivos y turnos. La interfaz conversacional no decide la
+clasificación: hay que observar si la persona copia, construye una explicación o responde a una
+objeción revisando lo que pensaba. Una conversación entre aprendices aporta una reciprocidad
+social valiosa, pero no es la única situación que el artículo original permite analizar.
 
-El modelo ICAP (Chi & Wylie, 2014) permite vincular cuatro niveles de involucramiento o compromiso (*engagement*) cognitivo de los estudiantes con los resultados del [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}). Una mayor interactividad repercute en un mayor aprovechamiento de los estudiantes y mejores resultados educativos (Wiggins et al., 2017).
+## No conviertas SAMR en una meta de ascenso
 
-{{< infografia titulo="Niveles del Modelo ICAP" subtitulo="Compromiso cognitivo y resultados de aprendizaje" >}}
-  {{< infografia-seccion numero="4" titulo="Interactivo" icono="users" color="#b12028" >}}
-  * **Proceso cognitivo:** Activar, inferir y almacenar nuevos conocimientos integrándolos colaborativamente.
-  * **Cambio en el conocimiento:** Innovar y descubrir nuevas soluciones o explicaciones.
-  * **Ejemplo:** Defender una postura en grupo, responder preguntas en pares, debatir justificaciones.
-  {{< /infografia-seccion >}}
+SAMR puede ayudar a preguntar si una tecnología permite hacer algo pertinente que antes era
+difícil. No obliga a rediseñar cada actividad para llegar a una categoría “superior”. Sustituir
+papel por un archivo accesible puede resolver una necesidad real. Modificar por completo una
+tarea puede ser inútil si se pierde el propósito, aumenta la desigualdad o se delega la
+evidencia que se quería observar.
 
-  {{< infografia-seccion numero="3" titulo="Constructivo" icono="hammer" color="#5c7ab4" >}}
-  * **Proceso cognitivo:** Usar conocimientos previos e inferir nuevos conocimientos.
-  * **Cambio en el conocimiento:** Resolver problemas en trabajo en equipo.
-  * **Ejemplo:** Compartir reflexiones, sintetizar con sus propias palabras, hacer mapas de conceptos.
-  {{< /infografia-seccion >}}
+La revisión crítica de Hamilton, Rosenberg y Akcaoglu advierte tres límites: SAMR suele omitir
+el contexto pedagógico, su representación favorece una lectura jerárquica y puede concentrar la
+atención en el producto sobre proceso. Por eso sus categorías describen cambios en una tarea;
+no califican por sí solas su calidad ni sustituyen el juicio sobre propósito, acceso y evidencia.
 
-  {{< infografia-seccion numero="2" titulo="Activo" icono="bolt" color="#5c7ab4" >}}
-  * **Proceso cognitivo:** Activar conocimientos previos relevantes para nuevas situaciones.
-  * **Cambio en el conocimiento:** Aplicar el conocimiento a problemas o situaciones similares.
-  * **Ejemplo:** Tomar notas, resaltar información clave, definir su ritmo de aprendizaje.
-  {{< /infografia-seccion >}}
+Por la misma razón, no conviene alinear SAMR con la taxonomía de Bloom como si cada nivel
+tecnológico correspondiera a una operación cognitiva. Una sustitución puede pedir evaluar;
+una tarea redefinida puede limitarse a reconocer. La demanda se juzga contra la evidencia
+completa, no contra el brillo del medio ni una palabra de la consigna.
 
-  {{< infografia-seccion numero="1" titulo="Pasivo" icono="bed" color="#656f85" >}}
-  * **Proceso cognitivo:** Almacenar información de manera aislada.
-  * **Cambio en el conocimiento:** Recordar algo en un contexto determinado.
-  * **Ejemplo:** Escuchar una conferencia, leer un artículo, mirar un video.
-  {{< /infografia-seccion >}}
-{{< /infografia >}}
+## Prueba las dos lentes por separado
 
-![Modelo ICAP: del aprendizaje pasivo a la interactividad](img/icap-tabla.svg "Modelo ICAP: procesos cognitivos, cambios en el conocimiento y ejemplos — Universidad de Guadalajara, 2022")
+Ante una actividad concreta, escribe dos diagnósticos breves y sostenlos con evidencia
+distinta: uno sobre la tarea, otro sobre la conducta.
 
-### Del aprendizaje pasivo a la interactividad
+{{< practica >}}
+1. ¿Qué función, relación o posibilidad cambió en la tarea por la tecnología?
+2. ¿Qué genera, contrasta o transforma la persona con el conocimiento?
+3. ¿Qué evidencia permite sostener cada diagnóstico?
+4. ¿El cambio ayuda al propósito o solo añade novedad y carga?
+5. ¿La misma conducta puede conservarse con otra herramienta o sin IA?
+{{< /practica >}}
 
-Si bien el aprendizaje activo es una estrategia para superar el modelo de aprendizaje pasivo, para producir conocimientos significativos y aplicables a situaciones de la vida cotidiana es necesario llevar a los estudiantes más allá de la mera manipulación y selección de información. Se requiere que los estudiantes construyan, generen, dialoguen y colaboren (Universidad de Guadalajara, 2022).
+ICAP aparece en la propuesta de Orientaciones, el documento de referencia que todavía no es
+una norma institucional vigente. Allí ayuda a describir la implicación cognitiva y mantiene
+las decisiones tecnológicas subordinadas al propósito. SAMR no forma parte de ese marco: se
+usa aquí como lente complementaria para describir qué cambió en la tarea. La guía para el
+profesorado lleva la pregunta sobre la conducta a la revisión de actividades; la lente
+tecnológica aporta cuando ayuda a justificar una decisión sin crear correspondencias rígidas.
 
-- En el nivel **pasivo** el estudiante solo escucha, lee o mira algún video.
-- Al pasar al nivel **activo** puede tomar notas, subrayar la lectura o interactuar con el video.
-- Para lograr el nivel **constructivo** debe reflexionar en voz alta, hacer mapas conceptuales, integrar notas de varios textos, explicar los conceptos de un video y contrastarlos con otros materiales.
-- Para avanzar al nivel **interactivo** debe argumentar o defender una posición con los demás compañeros, hacer y responder preguntas con un compañero, o debatir sobre las justificaciones de un tema o sus similaridades o diferencias.
+{{< parallevar >}}
+SAMR ayuda a mirar qué cambió en la tarea; ICAP, qué hizo la persona con las ideas. Separar las
+preguntas permite usar ambos marcos con mayor precisión y reconocer cuándo la tecnología cambia
+mucho, poco o justo lo necesario.
+{{< /parallevar >}}
 
-## Aplicación práctica
+## Cómo continuar
 
-Ambos modelos sirven como herramientas de autoevaluación para el docente:
+Las dos lentes ya describen qué cambió en la tarea y qué hizo la persona con las ideas. Falta
+decidir cuándo la información recogida servirá para ajustar el aprendizaje y cuándo servirá
+para valorar un resultado. Continúa con [Evaluación y retroalimentación en el aprendizaje
+activo]({{< relref "formacion-docente/evaluacion-retroalimentacion" >}}).
 
-1. **Diagnóstico**: ¿en qué nivel SAMR se encuentra mi uso actual de tecnología? ¿En qué nivel ICAP están las actividades de mis estudiantes?
-2. **Planificación**: ¿cómo puedo diseñar actividades que muevan a mis estudiantes del nivel pasivo hacia el interactivo? ¿Cómo puedo usar la tecnología para modificar o redefinir mis actividades de aprendizaje?
-3. **Evaluación**: después de implementar cambios, ¿han mejorado los niveles de interacción y los resultados de aprendizaje?
-
-Estos marcos se complementan con el [diseño inverso de aprendizajes]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) y con las técnicas de [evaluación y retroalimentación]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}}) para conformar un ecosistema coherente de innovación pedagógica.
-
-## Referencias
-
-- Caukin, N., & Trail, L. (2019). SAMR: A Tool for Reflection for Ed Tech Integration. *International Journal of the Whole Child*, *4*(1), 47–54.
-- Chi, M.T., & Wylie, R. (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes. *Educational Psychologist*, *49*(4), 219–243.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
-- Wiggins, B.L., Eddy, S.L., Grunspan, D.Z., & Crowe, A.J. (2017). The ICAP Active Learning Framework Predicts the Learning Gains Observed in Intensely Active Classroom Experiences. *AERA Open*, *3*(2), 2332858417708567.
+{{< referencias >}}
+- Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist, 49*(4), 219–243. <https://doi.org/10.1080/00461520.2014.965823>
+- Puentedura, R. R. (2012). *SAMR: Guiding development*. <https://www.hippasus.com/rrpweblog/archives/2012/01/19/SAMR_GuidingDevelopment.pdf>
+- Hamilton, E. R., Rosenberg, J. M., & Akcaoglu, M. (2016). The Substitution Augmentation Modification Redefinition (SAMR) Model: A critical review and suggestions for its use. *TechTrends, 60*, 433–441. <https://doi.org/10.1007/s11528-016-0091-y>
+{{< /referencias >}}

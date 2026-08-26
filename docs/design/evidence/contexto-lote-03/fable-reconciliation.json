@@ -1,0 +1,35 @@
+{
+  "coverage": {
+    "expected": 6,
+    "reviewed": 6,
+    "paths": [
+      "content/observatorio/_index.md",
+      "content/observatorio/documentacion/_index.md",
+      "content/observatorio/estudios/_index.md",
+      "content/observatorio/estudios/encuesta-dec-2026.md",
+      "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
+      "tools/qa-contexto-lote-03.tmp.mjs"
+    ]
+  },
+  "original_verdicts": {
+    "overall": "ajustar",
+    "editorial": "ajustar",
+    "technical": "aprobar"
+  },
+  "blocking_issues": [],
+  "cross_file_contradictions": [],
+  "unsupported_or_overstated_claims": [],
+  "required_changes": [
+    {
+      "request": "Añadir areas a la ficha DEC.",
+      "decision": "aceptar",
+      "resolution": "areas: [\"ia\", \"evaluacion\", \"digital\"] en el bundle final."
+    },
+    {
+      "request": "Convertir la ficha DEC en Page Bundle con featured.*.",
+      "decision": "aceptar tras contrastar con el contrato visual general",
+      "resolution": "Ruta preservada como encuesta-dec-2026/index.md; featured.webp derivado de la portada del informe, con atribución y derechos declarados."
+    }
+  ],
+  "reconciled_status": "sin cambios obligatorios pendientes; falta VoBo humano"
+}

@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo analizar y diseñar un sistema de control con apoyo formativo de IAG, evaluando especificaciones de desempeño, características dinámicas y robustez."
 summary: "Control y dinámica con IAG: especificaciones razonables, lectura de polos/ceros/retardos y pruebas de robustez antes de declarar el controlador aceptable. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Estudiante ajusta un controlador mientras un sistema de nivel responde a una perturbación de agua."
 tags: ["producto-aprendizaje", "bloom-4", "rubrica-iag", "ingeniería", "cognitivas", "control", "dinámica", "robustez"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -137,7 +138,8 @@ asignatura con sistemas dinámicos realimentados.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base de la función de transferencia.
 - Producto cercano: [Automatización industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial" >}}) — aplicación industrial.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

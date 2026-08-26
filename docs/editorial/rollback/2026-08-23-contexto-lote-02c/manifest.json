@@ -1,0 +1,72 @@
+{
+  "created_at": "2026-08-23T22:40:40-06:00",
+  "scope": "contexto-lote-02c",
+  "status": "borrador-local-reconciliado-pendiente-de-vobo",
+  "files": [
+    {
+      "path": "content/recursos/glosario/ganancia-cognitiva/index.md",
+      "sha256": "538958bf210f69032661d279e9b36e6011ba71214b5703b9c170421d2a0e639b",
+      "bytes": 4299
+    },
+    {
+      "path": "content/recursos/glosario/_index.md",
+      "sha256": "c3f9d22fc624fc9f5323fa5934c0df1086a4e631253fb3b2cca31d820fb4e824",
+      "bytes": 2138
+    },
+    {
+      "path": "tools/audit-hugo-content.mjs",
+      "sha256": "3f36bf0cec1b42d2eba4506e72975c505ffb37365bd5a6617be03648d7d6bf9e",
+      "bytes": 16843
+    },
+    {
+      "path": "package.json",
+      "sha256": "3a7c88b92c9fc16c41dc590f3e2735768bd423927e777065de5b7ed571dd2dde",
+      "bytes": 2326
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/design/evidence/contexto-lote-02c/desktop.png",
+      "sha256": "6e188a58766dc7634a8a02b5a74236080aa27d84e7b9d3810ab03807ba736d2e"
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-02c/mobile.png",
+      "sha256": "763c8547cae99a991566b23225a3c05569f38ecfb56373ada679b6c533c3f381"
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-02c/qa-summary.json",
+      "sha256": "ad1a697343633a02354c87ff4fce52ff0471952a000c2e8c286a25457fb6584d"
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-02c/results.json",
+      "sha256": "7236bcc123c183131619f328992b7046c10b964242f4fe6d6c8e9f62360a9aea"
+    }
+  ],
+  "current_files": [
+    {
+      "path": "content/recursos/glosario/ganancia-cognitiva/index.md",
+      "sha256": "65265e5d9b23681e9a589444db328d55ab1d289ae5f76dafd6998f2bc9627743"
+    },
+    {
+      "path": "content/recursos/glosario/_index.md",
+      "sha256": "c3f9d22fc624fc9f5323fa5934c0df1086a4e631253fb3b2cca31d820fb4e824"
+    },
+    {
+      "path": "tools/audit-hugo-content.mjs",
+      "sha256": "6ba1b1c48163a92510b72d0dbe401b83aa62851cbe6942d54053d7bb955ba319"
+    },
+    {
+      "path": "package.json",
+      "sha256": "2fde2cd0c1f8f51a05384ff2567c77659c1a89d733b669f1c9fdb94cdd6d3fe6"
+    },
+    {
+      "path": "tools/lib/glossary-index.mjs",
+      "sha256": "921d1eed2afd7416620eb09e790e2606797dbdbbe412e89e6fb699d6f8e94dd3"
+    },
+    {
+      "path": "tools/qa-glossary-index.test.mjs",
+      "sha256": "1bece57631e7e88a51a5a4754562bfcc1e64c0cba0187525938c3cabc5df669a"
+    }
+  ],
+  "diff": "docs/editorial/lotes/2026-08-23-contexto-lote-02c-ganancia-cognitiva.diff"
+}

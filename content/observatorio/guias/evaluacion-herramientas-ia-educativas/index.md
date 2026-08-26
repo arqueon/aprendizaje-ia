@@ -2,8 +2,8 @@
 title: "Evaluación de herramientas IA educativas: criterios y matriz"
 date: 2026-04-26
 draft: false
-description: "Marco operativo en seis dimensiones para que coordinaciones académicas evalúen herramientas de IA antes de adoptarlas institucionalmente."
-summary: "Adoptar una herramienta de IA sin evaluarla cuesta más caro que evaluarla y descartarla. Esta guía propone una matriz revisable que cualquier comité puede aplicar."
+description: "Matriz revisable en seis dimensiones para comparar beneficios, riesgos y condiciones antes de autorizar una herramienta educativa con IA."
+summary: "Una adaptación de ASCCC y McMaster/eCampusOntario para hacer preguntas, documentar respuestas y separar una revisión preliminar de una autorización institucional."
 tags: ["evaluación de herramientas", "rúbrica institucional", "adopción", "comité académico"]
 categories: ["guia"]
 areas: ["ia", "evaluacion", "etica"]
@@ -19,116 +19,122 @@ showAuthor: false
 ---
 
 {{< lead >}}
-Adoptar una herramienta de IA sin un proceso de evaluación previo expone a la institución a costos invisibles: privacidad comprometida, dependencia de un proveedor sin alternativas, prácticas pedagógicas mal alineadas con los valores institucionales. Esta guía propone una matriz de seis dimensiones que un comité académico puede aplicar antes de cualquier compromiso.
+Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. Sirve para documentar preguntas y respuestas; no sustituye una decisión institucional.
 {{< /lead >}}
 
-## Por qué evaluar antes de adoptar
+## De dónde sale esta matriz
 
-Tres razones que justifican un proceso formal de evaluación antes de incorporar una herramienta de IA al ecosistema institucional:
+La Academic Senate for California Community Colleges (ASCCC) propone preguntas sobre uso ético, efecto pedagógico, usabilidad y sostenibilidad. La rúbrica de McMaster University publicada por eCampusOntario revisa función, accesibilidad, privacidad y aspectos pedagógicos, éticos y ambientales.
 
-- **Reversión costosa.** Una vez que una plataforma se integra a las prácticas docentes, retirarla genera fricción significativa. La evaluación previa reduce la probabilidad de adoptar lo equivocado.
-- **Asimetría informativa.** Las empresas que ofrecen herramientas controlan la mayor parte de la información sobre sus productos. Sin evaluación independiente, la institución compra una narrativa de marketing.
-- **Responsabilidad institucional.** Cuando la institución provee una herramienta, asume corresponsabilidad sobre lo que esa herramienta hace con datos y procesos pedagógicos. Evaluarla es parte de esa responsabilidad.
+Esta guía **adapta y simplifica** ambos recursos para una universidad pública mexicana. Las seis dimensiones y la secuencia de trabajo que siguen son una síntesis editorial del sitio, no una reproducción literal ni un procedimiento obligatorio atribuido a esas organizaciones.
 
-Marcos internacionales como el de eCampus Ontario (2024) y el de la ASCCC (Academic Senate for California Community Colleges, 2024) ofrecen rúbricas que esta guía adapta y simplifica para el contexto de una universidad pública mexicana.
+eCampusOntario presenta su rúbrica como una ayuda informal para conversar y decidir. También recomienda **consultar al centro o unidad local de enseñanza y aprendizaje y al área de tecnología o TI**. Por eso una respuesta favorable en esta matriz no equivale a autorización para contratar, integrar o exigir una herramienta.
 
 ## Seis dimensiones de evaluación
 
-Cada herramienta se evalúa con seis dimensiones, cada una con tres a cinco criterios específicos. Las dimensiones no son independientes: una herramienta puede ser excelente en capacidad y deficiente en privacidad, y la decisión final pondera el conjunto según el uso previsto.
+Las dimensiones se revisan en conjunto. Una herramienta puede resolver bien una tarea y fallar en privacidad; otra puede proteger datos, pero excluir a personas que usan tecnologías de asistencia. Cada respuesta debe indicar la fuente consultada y lo que aún no se conoce.
 
 ### 1. Privacidad y tratamiento de datos
 
-| Criterio | Pregunta operativa |
+| Criterio | Pregunta concreta |
 |---|---|
-| Política de retención | ¿Cuánto tiempo conserva los datos del usuario? ¿Hay opción de no retención? |
-| Uso para entrenamiento | ¿Las conversaciones se usan para entrenar modelos futuros? ¿Hay opción de no entrenar? |
-| Localización del procesamiento | ¿Dónde se procesan los datos? ¿Hay traspaso a jurisdicciones con protección débil? |
-| Cumplimiento normativo | ¿Cumple con la Ley Federal de Protección de Datos Personales y, en su caso, con FERPA, GDPR? |
-| Acuerdos institucionales | ¿Hay términos contractuales auditables para uso institucional, distintos de los de consumo? |
+| Política de retención | ¿Qué datos conserva, durante cuánto tiempo y cómo se solicita su eliminación? |
+| Uso para entrenamiento | ¿Usa conversaciones, archivos o respuestas para entrenar modelos? ¿Se puede impedir? |
+| Localización y transferencia | ¿Dónde procesa los datos y a qué jurisdicciones los transfiere? |
+| Contrato institucional | ¿Existe un contrato distinto de los términos de consumo? ¿Permite auditoría, salida y borrado? |
+| Personas y grupos afectados | ¿Qué estudiantes, docentes u otras personas entregarían datos aunque no usen directamente la herramienta? |
 
-### 2. Aporte pedagógico
+No deben usarse datos personales, trabajos identificables ni información estudiantil real durante una revisión preliminar.
 
-| Criterio | Pregunta operativa |
+### 2. Aporte al aprendizaje y supervisión humana
+
+| Criterio | Pregunta concreta |
 |---|---|
-| Alineación con objetivos | ¿La herramienta sostiene aprendizajes que la institución valora, o solo facilita producción? |
-| Soporte al pensamiento crítico | ¿La herramienta promueve evaluación de salidas o invita a la aceptación pasiva? |
-| Diversidad disciplinar | ¿Sirve a varias disciplinas o solo a una? |
-| Compatibilidad con metodologías activas | ¿Se articula con ABP, aula invertida, evaluación formativa? |
+| Resultado de aprendizaje | ¿Qué conocimiento, decisión o habilidad ayuda a practicar y cómo se comprobará? |
+| Acción de la persona | ¿La herramienta permite comparar, corregir, explicar o decidir, o solo produce una respuesta terminada? |
+| Supervisión humana | ¿Quién revisa salidas, errores y consecuencias antes de usarlas con estudiantes? |
+| Diversidad disciplinar | ¿La calidad cambia entre idiomas, disciplinas, tipos de texto o tareas? |
+| Dependencia | ¿La actividad sigue teniendo sentido si la herramienta falla, cambia de precio o deja de estar disponible? |
 
-### 3. Equidad de acceso
+Una demostración del proveedor no prueba que una herramienta mejore resultados de aprendizaje. Hace falta una prueba situada y una revisión humana de lo que realmente ocurre.
 
-| Criterio | Pregunta operativa |
+### 3. Equidad y accesibilidad
+
+| Criterio | Pregunta concreta |
 |---|---|
-| Costo para estudiantes | ¿La versión gratuita es suficiente para uso académico, o exige pago? |
-| Accesibilidad técnica | ¿Funciona en dispositivos de gama media-baja con conexiones modestas? |
-| Accesibilidad universal | ¿Cumple con lectores de pantalla, subtítulos, alternativas multimodales? |
-| Disponibilidad geográfica | ¿Es accesible desde México sin restricciones, sin requerir tarjeta internacional? |
+| Costo | ¿La versión disponible para todas las personas permite realizar la misma actividad? |
+| Acceso técnico | ¿Funciona en dispositivos de gama media-baja y conexiones modestas? |
+| Accesibilidad universal | ¿Es compatible con lectores de pantalla, navegación por teclado, subtítulos y alternativas multimodales? |
+| Disponibilidad geográfica | ¿Funciona desde México sin tarjeta internacional ni restricciones inesperadas? |
+| Grupos afectados | ¿A quién excluye o impone más trabajo, y qué alternativa equivalente se ofrecerá? |
 
 ### 4. Funcionalidad y calidad
 
-| Criterio | Pregunta operativa |
+| Criterio | Pregunta concreta |
 |---|---|
-| Capacidad para la tarea | ¿Resuelve la tarea pedagógica concreta con calidad suficiente? |
-| Fiabilidad y disponibilidad | ¿Tiene caídas frecuentes? ¿Tiempos de respuesta razonables? |
-| Soporte de español | ¿Funciona en español con calidad comparable al inglés? |
-| Interoperabilidad | ¿Se integra con Workspace, Moodle u otros sistemas institucionales? |
+| Capacidad para la tarea | ¿Resuelve la tarea concreta con calidad suficiente y bajo qué condiciones? |
+| Fiabilidad | ¿Qué errores aparecen de forma repetida? ¿Cómo se registraron y compararon? |
+| Español y contexto local | ¿Mantiene calidad en español y reconoce el contexto disciplinar e institucional? |
+| Interoperabilidad | ¿La integración con Moodle, Workspace u otros sistemas exige compartir más datos? |
+| Exportación y salida | ¿Se pueden recuperar trabajos, configuraciones y registros en formatos utilizables? |
 
 ### 5. Ética y transparencia
 
-| Criterio | Pregunta operativa |
+| Criterio | Pregunta concreta |
 |---|---|
-| Sesgos documentados | ¿La empresa publica auditorías de sesgos del modelo? |
-| Explicabilidad | ¿El usuario puede entender cómo la herramienta llegó a una salida? |
-| Política de uso responsable | ¿La empresa publica límites éticos del uso del producto? |
-| Sostenibilidad ambiental | ¿Hay datos sobre el costo ambiental del entrenamiento y operación del modelo? |
+| Sesgos documentados | ¿El proveedor publica evaluaciones de sesgo pertinentes para las personas afectadas? |
+| Límites explicados | ¿Docentes y estudiantes pueden saber qué hace la herramienta, qué no hace y cuándo puede fallar? |
+| Responsabilidad | ¿Quién recibe una reclamación y quién puede detener el uso si aparece un daño? |
+| Uso proporcional | ¿La cantidad y sensibilidad de los datos solicitados son necesarias para la tarea? |
+| Transparencia institucional | ¿Las personas saben cuándo interviene IA y qué alternativa pueden elegir? |
 
 ### 6. Sostenibilidad operativa e institucional
 
-| Criterio | Pregunta operativa |
+| Criterio | Pregunta concreta |
 |---|---|
-| Soporte técnico | ¿Hay canal de soporte dedicado, en español, con tiempos de respuesta razonables? |
-| Continuidad del producto | ¿La empresa tiene historial de mantener productos a lo largo del tiempo o de discontinuarlos? |
-| Comunidad de usuarios | ¿Hay foros, recursos compartidos, prácticas documentadas de otras universidades? |
-| Riesgo de bloqueo (lock-in) | ¿Cambiar a otra herramienta exige rehacer integraciones costosas? |
+| Soporte | ¿Hay un canal de soporte, en qué idioma y con qué tiempos de respuesta? |
+| Continuidad | ¿Qué ocurrirá si el proveedor cambia funciones, licencia, precio o disponibilidad? |
+| Bloqueo (*lock-in*) | ¿Cambiar de herramienta exige rehacer integraciones o perder información? |
+| Revisión periódica | ¿Quién revisará privacidad, accesibilidad, utilidad y contrato, y con qué frecuencia? |
+| Sostenibilidad ambiental | ¿El proveedor informa consumo o medidas ambientales que permitan comparar opciones? |
 
-## Cómo se aplica el marco
+## Cómo usar la matriz
 
-La evaluación es un proceso colectivo, no un formulario individual. La práctica recomendada por los marcos internacionales (ASCCC, 2024; eCampus Ontario, 2024) sigue cuatro pasos:
+La siguiente secuencia es una **propuesta local revisable**. No se atribuye como procedimiento completo a ASCCC o eCampusOntario.
 
-### Paso 1 — Conformar comité con perfiles diversos
+{{< proceso >}}
+  {{< paso titulo="Define el uso y las personas afectadas" >}}
+Escribe qué tarea se quiere apoyar, qué resultado de aprendizaje se revisará, quién usaría la herramienta, quién quedaría afectado por sus datos y qué alternativa existiría. Sin esa definición no hay una base común para responder la matriz.
+  {{< /paso >}}
+  {{< paso titulo="Reúne información verificable" >}}
+Consulta documentación del proveedor, política de privacidad, condiciones contractuales, reportes técnicos y experiencias de otras instituciones. Marca cada respuesta como confirmada, parcial, desconocida o no aplicable. No conviertas una afirmación comercial en un dato confirmado.
+  {{< /paso >}}
+  {{< paso titulo="Emite una decisión preliminar" >}}
+Resume fortalezas, riesgos y preguntas pendientes. La **decisión final no es la suma de las calificaciones**: una falla crítica de privacidad o accesibilidad puede ser suficiente para detener el proceso, aunque otras dimensiones obtengan una valoración alta.
+  {{< /paso >}}
+  {{< paso titulo="Realiza una prueba controlada, si procede" >}}
+Si la revisión preliminar lo permite, prueba la herramienta con datos ficticios o anonimizados, una tarea delimitada, personas informadas y una alternativa equivalente. Revisa resultados de aprendizaje, errores, carga, accesibilidad y supervisión humana. Un piloto no autoriza por sí solo un uso general.
+  {{< /paso >}}
+  {{< paso titulo="Envía la decisión a la instancia competente" >}}
+La autorización institucional corresponde a las áreas con responsabilidad académica, tecnológica, jurídica, de privacidad, accesibilidad o contratación, según el uso previsto. El registro debe indicar qué se autoriza, para quién, durante cuánto tiempo, con qué límites y cuándo se revisará.
+  {{< /paso >}}
+{{< /proceso >}}
 
-Mínimo cuatro perfiles: un docente con experiencia en la disciplina donde se usaría la herramienta, un especialista en TI con conocimiento de privacidad, un coordinador académico, y al menos un estudiante representativo de los usuarios futuros. Sin diversidad de perfiles, la evaluación replica los sesgos del comité.
+## Decisiones posibles
 
-### Paso 2 — Aplicar la matriz a candidatos comparables
+- **No continuar:** hay un riesgo inaceptable o información indispensable que el proveedor no entrega.
+- **Revisar después:** faltan respuestas concretas o una alternativa accesible.
+- **Probar de manera controlada:** las condiciones permiten observar el uso sin comprometer datos ni convertirlo en requisito.
+- **Autorizar con límites:** la instancia competente establece población, finalidad, datos permitidos, responsables y fecha de revisión.
 
-No se evalúa una herramienta aislada; se comparan al menos dos opciones que cubren el mismo uso. Esto evita la trampa de adoptar lo único disponible cuando podría haber alternativas mejores.
-
-### Paso 3 — Documentar las fundamentaciones
-
-Cada calificación en la matriz se acompaña de una breve justificación con fuentes (sitio del proveedor, documentación técnica, prácticas reportadas en otras universidades). Sin fundamentación, la matriz se vuelve opinión disfrazada.
-
-### Paso 4 — Decidir y publicar el dictamen
-
-La decisión final no es la suma de las calificaciones sino el juicio del comité ponderando las dimensiones según el uso previsto. El dictamen se publica internamente con justificación, para que decisiones futuras puedan rastrear el criterio y revisarlo cuando proceda.
-
-## Tres errores frecuentes
-
-Reportes de comités universitarios que aplicaron este tipo de evaluación señalan errores recurrentes:
-
-- **Sobrevaluar funcionalidad sobre privacidad.** Una herramienta espectacular en capacidad pero opaca en datos no es una buena adopción institucional.
-- **Confundir adopción con compromiso.** Adoptar una herramienta debería incluir una cláusula de revisión periódica; sin esa cláusula, la decisión se vuelve permanente sin querer.
-- **Saltarse la consulta a estudiantes.** Una herramienta que se adopta sin escuchar a los usuarios futuros suele tener problemas de aceptación que la evaluación habría detectado.
+Ninguna de estas decisiones es permanente. Un cambio de modelo, contrato, privacidad, accesibilidad o precio obliga a revisar el análisis.
 
 ## Lecturas relacionadas
 
-El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) ofrece la matriz de criterios técnicos aplicada a los modelos comerciales más usados; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen los principios que esta guía operacionaliza; la [comparativa pedagógica de LLMs](/recursos/comparativa-llm-pedagogica/) cubre la dimensión de aporte pedagógico para los modelos generativos de uso general.
+El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) permite localizar alternativas; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) ayudan a discutir límites institucionales; la [comparativa pedagógica de LLM](/recursos/comparativa-llm-pedagogica/) revisa usos de modelos generativos. Ninguna de esas páginas reemplaza la verificación del proveedor y del uso concreto.
 
 ## Referencias
 
 Academic Senate for California Community Colleges. (2024). *Evaluating artificial intelligence (AI) tools in an academic setting*. ASCCC. https://asccc.org/evaluating-ai-tools
 
-eCampus Ontario. (2024). *Rubric for evaluating AI tools: Fundamental criteria*. https://ecampusontario.pressbooks.pub/app/uploads/sites/3696/2024/02/Rubric-for-AI-Tool-Evaluation-Fundamental.pdf
-
-EDUCAUSE. (2024). *AI literacy in teaching and learning: Executive summary*. https://www.educause.edu/content/2024/ai-literacy-in-teaching-and-learning/executive-summary
-
-UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+McMaster University & eCampusOntario. (2024). *Evaluating AI tools*. https://ecampusontario.pressbooks.pub/mcmasterpracticalaiguide/chapter/evaluating-ai-tools/

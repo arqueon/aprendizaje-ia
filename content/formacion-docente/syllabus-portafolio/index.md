@@ -16,7 +16,7 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-weight: 8
+weight: 16
 ---
 
 {{< lead >}}
@@ -148,8 +148,9 @@ Los profesores del siglo XXI no son expertos en tecnología sino "expertos en h�
 
 Este perfil del profesor moderno es indispensable para liderar la [transformación pedagógica y digital]({{< ref "formacion-docente/transformacion-pedagogica-digital" >}}), ya que son los profesores quienes, desde el aula, implementarán las metodologías activas, integrarán la tecnología de manera significativa y guiarán a los estudiantes.
 
-## Referencias
+{{< referencias >}}
 
 - Bowen, R.S. (2017). *Understanding by Design*. Vanderbilt University Center for Teaching.
 - Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
 - Wiggins, G., & McTighe, J. (2005). *Understanding By Design* (2nd ed., 2nd Expanded).
+{{< /referencias >}}

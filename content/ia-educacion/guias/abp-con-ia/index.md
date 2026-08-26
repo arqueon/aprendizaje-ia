@@ -144,8 +144,8 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 
 ## Lecturas relacionadas
 
-- Para el marco teórico de la co-creación persona-IA, ver la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
-- Para una [implementación concreta documentada paso a paso](/laboratorio/practicas/abp-con-ia/) — caso real de un proyecto colaborativo en aula.
+- Para observar cómo una persona evalúa sugerencias y conserva la dirección del trabajo, ver la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/).
+- Para una [plantilla de proyecto de 14 semanas](/laboratorio/practicas/abp-con-ia/) — actividad propuesta para planificar un semestre completo con calendario, entregas y ponderación.
 - Los principios de [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) aplican directamente a la fase de iteración.
 
 ## Recursos adicionales
@@ -153,9 +153,11 @@ Como docente, también puedes usar la IA para preparar tu ABP utilizando la téc
 - [PBLWorks — What is PBL?](https://www.pblworks.org/what-is-pbl) — Marco de referencia del Buck Institute para ABP
 - [UNESCO — AI competencies for educators](https://www.unesco.org/en/digital-education/ai-future-learning) — Competencias de IA para educadores
 
-## Referencias
+{{< referencias >}}
 
 - Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia*. University of Minnesota Press.
 - Krajcik, J. S., & Shin, N. (2014). Project-based learning. En R. K. Sawyer (Ed.), *The Cambridge handbook of the learning sciences* (2.ª ed., pp. 275–297). Cambridge University Press.
 - Lam, S. F., Cheng, R. W., & Choy, H. C. (2010). School support and teacher motivation to implement project-based learning. *Learning and Instruction*, *20*(6), 487–497. https://doi.org/10.1016/j.learninstruc.2009.07.003
 - Thomas, J. W. (2000). *A review of research on project-based learning*. Autodesk Foundation.
+
+{{< /referencias >}}

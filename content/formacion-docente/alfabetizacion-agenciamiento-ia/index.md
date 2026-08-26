@@ -53,7 +53,7 @@ La alfabetización digital tradicional enseña a usar las herramientas. La alfab
 
 La habitual disociación entre la alfabetización operativa y la alfabetización crítica resulta adecuada para muchos artefactos digitales: aprendo a hacer funcionar Word y aprendo qué intereses son los que sostienen al producto. Para el caso de la IA generativa esa dupla de alfabetizaciones nos dejaría un vacío.
 
-La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acontece a lo largo de la interacción: cómo mantener un diálogo con la IA donde el humano sostiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— es la que la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) describe en términos teóricos y que aquí se traduce en marco formativo.
+La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acontece a lo largo de la interacción: cómo mantener un diálogo con la IA donde el humano sostiene la dirección epistémica, evalúa cada salida, decide qué aceptar, qué descartar y qué transformar. Esa competencia procesual —la **co-creación**— aparece en un caso trabajado en la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) y aquí se traduce en marco formativo.
 
 A continuación se presenta un esquema que resume las tres literacidades, detallando lo que cada una desarrolla y cómo se construye:
 
@@ -174,9 +174,9 @@ Las otras dos áreas —**ética de la IA** y **fundamentos y aplicaciones**— 
 
 ## Lecturas relacionadas
 
-La [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el marco conceptual; el ensayo del blog sobre [la co-creación persona-IA](/blog/agenciamiento-humano-ia/) sostiene la posición filosófica; la [alfabetización digital](/formacion-docente/alfabetizacion/) cubre el nivel previo del que parte esta competencia; la [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) cubre la dimensión epistémica complementaria.
+La [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) muestra, mediante un caso, cómo la persona conserva la dirección del proceso; el ensayo del blog sobre [la co-creación persona-IA](/blog/agenciamiento-humano-ia/) sostiene la posición filosófica; la [alfabetización digital](/formacion-docente/alfabetizacion/) cubre el nivel previo del que parte esta competencia; la [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) cubre la dimensión epistémica complementaria.
 
-## Referencias
+{{< referencias >}}
 
 Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trans.). University of Minnesota Press. (Trabajo original publicado en 1980).
 
@@ -189,3 +189,4 @@ UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unes
 Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
 
 Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.
+{{< /referencias >}}

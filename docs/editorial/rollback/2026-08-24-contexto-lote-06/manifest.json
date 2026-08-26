@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "lot": "contexto-lote-06",
+  "created": "2026-08-24",
+  "purpose": "Copia exacta previa a la aplicación editorial con VoBo de Rubén (2026-08-24). Restaurar copiando cada archivo de vuelta a su ruta original.",
+  "pre_edit_copies": [
+    {
+      "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
+      "sha256": "38b1e3b64c6bbdadec86e506a2d48daf4f934c02e12afef44f0308142127e029",
+      "bytes": 15836
+    },
+    {
+      "path": "content/recursos/glosario/modelo-samr/index.md",
+      "sha256": "4e744ce3fceb971a76679139e501f9191731502c8d11c90fdb60781b01371ee2",
+      "bytes": 1807
+    },
+    {
+      "path": "content/about.md",
+      "sha256": "91d94ddd37594ac5f1f152c01ceadccd5716bb5a0a6a8e9c4151d22d8ee795aa",
+      "bytes": 3538
+    },
+    {
+      "path": "content/blog/experiencias-docentes-ia-aula/index.md",
+      "sha256": "33e2fbf712cd7842db879318f2d14968761f21e7bcdcebace1026cbd25d32edb",
+      "bytes": 7168
+    },
+    {
+      "path": "content/blog/experiencias-docentes-ia-aula/featured.webp",
+      "sha256": "ba847a5d83c5683105ec1a3c30bc9f7815c7401e575236b4bebf77a84e350423",
+      "bytes": 337535
+    },
+    {
+      "path": "content/laboratorio/experiencias/_index.md",
+      "sha256": "d292ab6b38c51c3dd844863f68a75014984800e3531b38c87f370af3f8e54812",
+      "bytes": 1776
+    },
+    {
+      "path": "content/laboratorio/experiencias/featured.png",
+      "sha256": "03303444f65a8d96266836460abf82f890d01e9328e0ac8ab1226661444e1211",
+      "bytes": 609688
+    },
+    {
+      "path": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+      "sha256": "8cf6a028633d41c8a412ba739c63144f962fa1b85c3b5947cbaa7e50d714c7c8",
+      "bytes": 7575
+    },
+    {
+      "path": "content/_index.md",
+      "sha256": "7a01a2e6e0d09c1aaf69e54f3c1c982343e522761e18d4a6711bf17337387c21",
+      "bytes": 3495
+    },
+    {
+      "path": "content/ia-educacion/rutas/_index.md",
+      "sha256": "61bf5d7760109d2cb1653612fa8ee83e75eacbee0e0110d322922d228a617767",
+      "bytes": 3140
+    },
+    {
+      "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
+      "sha256": "96976b5f7e17e42b2cb52f82a80508da7733910536ea09f92a857bb320f9475e",
+      "bytes": 15819
+    },
+    {
+      "path": "content/licencia/index.md",
+      "sha256": "dfc458ee1dc184c7ff56acce46157aae3da32194a9b77ea0ebf5514a3adc56da",
+      "bytes": 5413
+    },
+    {
+      "path": "content/laboratorio/_index.md",
+      "sha256": "a34c3745c45dbbab7144c66228a571b4f60376095e955337dd90175306f5964a",
+      "bytes": 2163
+    },
+    {
+      "path": "content/formacion-docente/redes/index.md",
+      "sha256": "eff0016f4d4cecb404fc39240424e4dd57f603b6fc4de70e93620e05fb95a797",
+      "bytes": 3351,
+      "note": "referencia entrante al hub de experiencias no censada por el manifiesto de investigación; corregida como saneamiento mínimo"
+    },
+    {
+      "path": "content/laboratorio/integracion-ia/_index.md",
+      "sha256": "538df95c8c888ecf9a326472d55620d389e36aeaef385d58a53152f0783936ff",
+      "bytes": 2059,
+      "note": "referencia entrante al hub de experiencias no censada por el manifiesto de investigación; corregida como saneamiento mínimo"
+    }
+  ],
+  "publication_authorized": false
+}

@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://eric.ed.gov/?id=EJ1044018",
+      "title": "The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "This article describes the ICAP framework that defines cognitive engagement activities on the basis of students' overt behaviors and proposes that engagement behaviors can be categorized and differentiated into one of four modes: \"Interactive,\" \"Constructive,\" \"Active,\" and \"Passive.\"",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://fctl.ucf.edu/teaching-resources/course-design/backward-design",
+      "title": "Backward Design — University of Central Florida",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "In practice, backward design involves three stages:",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "1. Identifying outcomes 2. Determining the acceptable evidence to support those outcomes 3. Planning corresponding instruction, tasks, and experiences.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://research.monash.edu/en/publications/authentic-assessment-from-panacea-to-criticality",
+      "title": "Authentic assessment: from panacea to criticality",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Despite literature supporting its potential benefits, there is limited evidence on the relationship between authentic assessment and these challenges.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "We argue that authenticity should be considered as a set of aspirational principles within a broader pedagogical framework.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://dro.deakin.edu.au/articles/journal_contribution/Developing_evaluative_judgement_for_a_time_of_generative_artificial_intelligence/25720845",
+      "title": "Developing evaluative judgement for a time of generative artificial intelligence",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Developing evaluative judgement for a time of generative artificial intelligence",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Publication URL http://dx.doi.org/10.1080/02602938.2024.2335321",
+          "added": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}

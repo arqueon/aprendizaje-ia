@@ -1,0 +1,151 @@
+--- antes/content/ia-educacion/guias/_index.md
++++ borrador/content/ia-educacion/guias/_index.md
+@@ -1,6 +1,6 @@
+ ---
+ title: "Guías prácticas de IA"
+-description: "Guías de uso, tutoriales y recursos paso a paso para integrar herramientas de IA en la docencia universitaria."
++description: "Puntos de entrada para estudiar, revisar una actividad, comprobar información, evaluar y proteger datos al trabajar con IA."
+ weight: 1
+ showHero: true
+ heroStyle: "big"
+@@ -10,7 +10,21 @@
+ showCards: true
+ cardView: true
+ areas: ["ia"]
+-summary: "Guías prácticas y tutoriales para integrar herramientas de inteligencia artificial en la docencia universitaria."
++summary: "Elige una guía según lo que necesitas hacer: estudiar, enseñar, comprobar, evaluar o cuidar información."
+ ---
+ 
+-Guías y tutoriales prácticos para comenzar a usar herramientas de inteligencia artificial en el aula: diseño de prompts pedagógicos, uso de asistentes de IA para retroalimentación, generación de materiales didácticos y más.
++{{< lead >}}
++Estas guías sirven cuando ya tienes una tarea concreta: revisar un borrador, preparar una actividad, comprobar una afirmación, dar retroalimentación o decidir qué información puede entrar en una herramienta. No necesitas recorrerlas en orden.
++{{< /lead >}}
++
++## Empieza por lo que necesitas resolver
++
++- **Si estudias y vas a entregar un trabajo:** [compara una sugerencia con tu borrador y conserva una decisión que puedas explicar](estudiantes/).
++- **Si enseñas y tienes una actividad próxima:** [revisa una instrucción real y deja una versión ajustada](profesorado/).
++- **Si necesitas diseñar una actividad completa:** [parte de lo que hará el grupo, decide cuándo aparece la ayuda y define cómo revisar el aprendizaje](aprendizaje-hibrido-activo-disenar-actividad/).
++- **Si vas a dar retroalimentación o revisar avances:** [elige qué puede apoyar la IA y qué debe decidir la persona docente](evaluacion-formativa-ia/).
++- **Si una respuesta incluye un dato importante:** [comprueba la afirmación antes de repetirla o usarla](../practicas/comprobar-afirmacion/).
++- **Si trabajarás con información de otras personas:** [revisa primero qué datos debes retirar o mantener fuera de la herramienta](privacidad-datos-ia/).
++- **Si necesitas pedir una tarea delimitada a un modelo:** [escribe una instrucción, prueba el resultado y corrígela según el caso](ingenieria-de-prompts-para-docentes/).
++
++Las tarjetas siguientes reúnen todas las guías. Cada una debe indicar para quién sirve, con qué material se empieza, qué se hará y qué conviene conservar al terminar.
+--- antes/content/ia-educacion/rutas/_index.md
++++ borrador/content/ia-educacion/rutas/_index.md
+@@ -1,7 +1,7 @@
+ ---
+-title: "Rutas por audiencia"
+-description: "Recorridos progresivos para estudiar, enseñar y coordinar procesos educativos con inteligencia artificial."
+-summary: "Puntos de entrada que reúnen contenidos del sitio según la responsabilidad y la decisión que una persona necesita tomar."
++title: "Rutas por responsabilidad"
++description: "Compara tres recorridos para estudiar o enseñar, coordinar procesos docentes o preparar decisiones institucionales sobre IA."
++summary: "Elige una ruta según la decisión que te corresponde tomar, el material con el que cuentas y lo que necesitas dejar listo."
+ weight: 2
+ showHero: true
+ heroStyle: "background"
+@@ -13,15 +13,22 @@
+ ---
+ 
+ {{< lead >}}
+-Una ruta no sustituye las guías ni intenta explicar todos los conceptos en una sola página.
+-Ordena un recorrido inicial según la responsabilidad de quien lo consulta y conduce hacia
+-contenidos cada vez más específicos.
++La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas puede sostener la institución. Compara los tres recorridos antes de elegir.
+ {{< /lead >}}
++
++## Qué cambia entre las rutas
++
++| Si necesitas… | Empiezas con… | Harás… | Conservarás… | Comprobarás… |
++|---|---|---|---|---|
++| [Estudiar o enseñar con IA](/ia-educacion/constelaciones/empezar-con-ia/) | Un borrador, una actividad o una decisión próxima. | Comparar una ayuda, volver a los datos o materiales y explicar qué aceptas, modificas o descartas. | La versión inicial, la comprobación decisiva, la versión revisada y una razón breve. | Que puedes explicar la decisión sin volver a la herramienta. |
++| [Coordinar procesos docentes](/ia-educacion/rutas/coordinacion-academica/) | Una muestra de asignaturas, evaluaciones, problemas de acceso y necesidades docentes. | Delimitar un piloto, acordar reglas comunes, acompañar al profesorado y revisar lo ocurrido. | El alcance, responsables, acuerdos, cambios realizados y decisión de cierre. | Si conviene sostener, modificar, ampliar o detener el piloto. |
++| [Preparar una decisión institucional](/ia-educacion/rutas/decision-institucional-ia/) | Iniciativas dispersas, capacidades disponibles, riesgos, costos y responsabilidades por confirmar. | Definir alcance, distribuir decisiones, fijar condiciones y priorizar pocas iniciativas. | Un mandato revisable, responsables, requisitos, portafolio inicial y fecha de revisión. | Si la institución puede sostener la decisión sin trasladar riesgos a docentes y estudiantes. |
++{.udgia-table--comparison .udgia-table--row-headers caption="Comparación de las tres rutas según la responsabilidad y la decisión esperada"}
+ 
+ ## Elige un punto de entrada
+ 
+ {{< cards >}}
+-  {{< card link="/ia-educacion/constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Una introducción general para estudiantes y docentes que comienzan a usar IA con propósitos de aprendizaje." >}}
+-  {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Una ruta operativa para jefaturas, programas de licenciatura y posgrado, y coordinaciones del SEMS." >}}
+-  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Dirijo decisiones institucionales" description="Un marco ejecutivo para alinear propósito, gobernanza, capacidades, tecnología, recursos y evidencia." >}}
++  {{< card link="/ia-educacion/constelaciones/empezar-con-ia/" title="Estudio o enseño" description="Prueba una ayuda sobre un borrador o una actividad, comprueba el punto decisivo y explica qué conservas o cambias." >}}
++  {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Coordino procesos docentes" description="Delimita un piloto, acuerda reglas de programa, acompaña al profesorado y decide qué hacer después de revisar los resultados." >}}
++  {{< card link="/ia-educacion/rutas/decision-institucional-ia/" title="Preparo decisiones institucionales" description="Define alcance, responsabilidades, condiciones y prioridades antes de autorizar o ampliar una iniciativa." >}}
+ {{< /cards >}}
+--- antes/content/laboratorio/_index.md
++++ borrador/content/laboratorio/_index.md
+@@ -1,7 +1,7 @@
+ ---
+ title: "Laboratorio de innovación docente"
+-description: "Espacio experimental para el diseño y documentación de prácticas pedagógicas innovadoras con inteligencia artificial."
+-summary: "Experimenta, diseña y documenta estrategias de enseñanza que integran IA para transformar el aprendizaje."
++description: "Actividades adaptables, relatos de implementación y flujos de trabajo para probar usos de IA en la docencia universitaria."
++summary: "Elige entre adaptar una actividad, aprender de una implementación documentada o preparar un flujo de trabajo docente."
+ weight: 2
+ showHero: true
+ heroStyle: "big"
+@@ -11,11 +11,19 @@
+ ---
+ 
+ {{< lead >}}
+-Un espacio para explorar, probar y documentar prácticas pedagógicas que integran inteligencia artificial. Cada entrada es una experiencia real con contexto, proceso y reflexión.
++Entra al Laboratorio cuando necesites preparar una prueba acotada: adaptar una actividad para tu grupo, revisar qué ocurrió en una implementación documentada o decidir en qué pasos de un flujo docente puede ayudar la IA. Cada página debe declarar si presenta una propuesta, un piloto o una experiencia documentada.
+ {{< /lead >}}
+ 
++## Elige según lo que vas a hacer
++
++- **Adaptar una actividad:** parte de una asignatura, grupo y material real; modifica la secuencia y deja claro cómo revisarás el trabajo del estudiantado.
++- **Aprender de una implementación:** revisa quién participó, cuándo ocurrió, qué cambió durante la aplicación y qué materiales respaldan los resultados declarados.
++- **Preparar un flujo docente:** distribuye los pasos entre docente, estudiantes y herramienta; marca dónde permanece la decisión humana.
++
++Al terminar, conserva la versión inicial, los cambios que hiciste, los datos que decidiste no recopilar y la forma en que revisarás si la prueba conviene para tu contexto.
++
+ {{< cards >}}
+-  {{< card link="practicas/" title="Prácticas pedagógicas" icon="flask" color="#0ea5e9" description="Prácticas documentadas con objetivos, actividades, evaluación y resultados observados." >}}
+-  {{< card link="experiencias/" title="Experiencias docentes" icon="star" color="#0284c7" description="Relatos y reflexiones de docentes que han experimentado con IA en sus aulas." >}}
+-  {{< card link="integracion-ia/" title="Integración de IA" icon="robot" color="#0369a1" description="Estrategias específicas de integración de herramientas de IA en el diseño didáctico." >}}
++  {{< card link="practicas/" title="Prácticas pedagógicas" icon="flask" color="#0ea5e9" description="Actividades para adaptar. Cada ficha debe indicar si es propuesta, piloto o práctica documentada." >}}
++  {{< card link="experiencias/" title="Experiencias docentes" icon="star" color="#0284c7" description="Relatos de aplicación con contexto, cambios durante el curso, resultados respaldados y límites de lo observado." >}}
++  {{< card link="integracion-ia/" title="Integración de IA" icon="robot" color="#0369a1" description="Flujos, protocolos y diagramas para decidir qué hace cada persona y en qué pasos puede intervenir una herramienta." >}}
+ {{< /cards >}}
+--- antes/content/laboratorio/practicas/_index.md
++++ borrador/content/laboratorio/practicas/_index.md
+@@ -1,7 +1,7 @@
+ ---
+ title: "Prácticas pedagógicas"
+-description: "Colección de prácticas docentes innovadoras que integran inteligencia artificial en el diseño de experiencias de aprendizaje y evaluación."
+-summary: "Explora prácticas documentadas por docentes que han integrado IA en sus aulas: actividades, instrumentos de evaluación y reflexiones sobre sus resultados."
++description: "Actividades con IA para adaptar a una asignatura, con indicación de su estado: propuesta, piloto o práctica documentada."
++summary: "Elige una actividad, revisa en qué estado se encuentra y adáptala a un grupo y material concretos antes de aplicarla."
+ weight: 1
+ showBreadcrumbs: true
+ showSummary: true
+@@ -10,4 +10,25 @@
+ groupByYear: false
+ ---
+ 
+-Cada práctica documenta una experiencia real de integración de IA en el aula: qué se hizo, cómo se evaluó y qué se aprendió en el proceso.
++{{< lead >}}
++Esta colección reúne actividades en distintos estados. No supongas que una página describe una aplicación real solo porque incluye una secuencia o resultados. Antes de reutilizarla, comprueba qué se hizo realmente, qué sigue siendo una propuesta y qué materiales respaldan las afirmaciones.
++{{< /lead >}}
++
++## Cómo leer el estado de una práctica
++
++| Estado | Qué debe mostrar la página | Qué puedes concluir |
++|---|---|---|
++| **Propuesta** | Grupo previsto, material inicial, pasos, forma de revisión, alternativa sin IA y riesgos. | Puedes adaptar el diseño; todavía no hay resultados de aplicación. |
++| **Piloto** | Lo anterior, más fecha, grupo, cambios durante la prueba y materiales conservados. | Puedes aprender de una aplicación acotada, sin generalizar sus resultados. |
++| **Documentada** | Contexto identificable, método, materiales, límites y procedencia de los resultados. | Puedes contrastar la experiencia con tu contexto y decidir qué conviene probar. |
++{.udgia-table--comparison .udgia-table--row-headers caption="Diferencias entre una actividad propuesta, un piloto y una práctica documentada"}
++
++## Antes de adaptar una actividad
++
++1. Elige una asignatura, un grupo y un material que ya utilices.
++2. Identifica qué acción necesita practicar el estudiantado.
++3. Decide en qué momento puede aparecer la ayuda y qué información no debe entrar en la herramienta.
++4. Conserva la versión inicial y el cambio que realices.
++5. Define qué revisarás para decidir si conviene repetir, modificar o detener la actividad.
++
++Las páginas de esta colección están en revisión para que su estado quede visible y sus afirmaciones puedan comprobarse. Mientras esa revisión termina, trata como propuesta cualquier práctica que no identifique claramente su aplicación y procedencia.

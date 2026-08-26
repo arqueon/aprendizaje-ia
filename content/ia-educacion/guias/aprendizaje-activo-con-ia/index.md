@@ -1,7 +1,9 @@
 ---
 title: "Aprendizaje activo con IA — diseño y ejecución de actividades"
 date: 2026-04-14
+lastmod: 2026-08-24
 draft: false
+aliases: ["/laboratorio/practicas/aprendizaje-activo-ia/"]
 description: "Guía para diseñar y ejecutar actividades de aprendizaje activo donde la IA interviene como co-diseñador para el docente y como interlocutor para el estudiante."
 summary: "La IA interviene en dos niveles del aprendizaje activo: ayuda al docente a diseñar actividades y al estudiante a ejecutarlas con retroalimentación inmediata."
 tags: ["aprendizaje activo", "diseño didáctico", "IA generativa", "actividades de aula", "retroalimentación"]
@@ -142,17 +144,13 @@ flowchart TD
 ## Lecturas relacionadas
 
 - La [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) complementa esta guía con instrumentos de retroalimentación iterativa.
-- Un [caso documentado en el aula](/laboratorio/practicas/aprendizaje-activo-ia/) muestra cómo se ejecutan estas actividades con un grupo real.
 - La [guía de ingeniería de prompts](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) ofrece el marco técnico para formular instrucciones a la IA.
 
-## Recursos adicionales
-
-- [CARL — Center for Active Learning](https://www.activelearning.university/) — Recursos sobre aprendizaje activo en educación superior
-- [Edutopia — Active Learning Strategies](https://www.edutopia.org/topic/active-learning) — Estrategias prácticas con evidencia
-
-## Referencias
+{{< referencias >}}
 
 - Bonwell, C. C., & Eison, J. A. (1991). *Active learning: Creating excitement in the classroom* (ASHE-ERIC Higher Education Report No. 1). George Washington University.
 - Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist*, *49*(4), 219–243. https://doi.org/10.1080/00461520.2014.965823
 - Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. *Proceedings of the National Academy of Sciences*, *111*(23), 8410–8415. https://doi.org/10.1073/pnas.1319030111
 - Prince, M. (2004). Does active learning work? A review of the research. *Journal of Engineering Education*, *93*(3), 223–231. https://doi.org/10.1002/j.2168-9830.2004.tb00809.x
+
+{{< /referencias >}}

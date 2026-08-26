@@ -1,9 +1,9 @@
 ---
-title: "Sal Khan: la IA en el aula podría ser el mayor cambio educativo de la historia"
+title: "Sal Khan presenta su visión de la IA como apoyo educativo"
 date: 2026-03-01
 draft: false
-description: "Sal Khan, fundador de Khan Academy, explica cómo la IA puede actuar como tutor personal para cada estudiante y liberar al docente para lo que importa."
-summary: "Una charla TED que replantea el rol del docente en la era de la IA: no como transmisor de contenido, sino como guía del aprendizaje profundo."
+description: "Charla TED de 2023 en la que Sal Khan presenta Khanmigo y argumenta a favor de tutores y asistentes docentes con IA."
+summary: "Una fuente primaria para analizar las promesas, demostraciones y límites del discurso de Khan Academy sobre IA educativa."
 tags: ["TED", "tutor IA", "Khan Academy", "rol docente", "personalización"]
 categories: ["video"]
 areas: ["ia"]
@@ -26,21 +26,35 @@ videoIdioma: "en"
 
 {{< youtubeLite id="hJP5GqnTrNo" label="Sal Khan: How AI could save (not destroy) education" >}}
 
-**La pregunta que este video ayuda a responder:** si la IA puede actuar como tutor personal de cada estudiante, ¿qué pasa con el papel del docente?
+Esta charla ayuda a examinar una propuesta concreta: usar IA como tutor para estudiantes y como asistente para docentes. No demuestra por sí sola que esa propuesta produzca los resultados que promete.
 
-## De qué trata
+## Qué presenta
 
-Khan presenta la visión detrás de Khanmigo, el tutor con IA de Khan Academy. Argumenta que la IA puede dar a cada estudiante algo que antes solo tenían los privilegiados: un tutor paciente, disponible y adaptado a su ritmo.
+En TED2023, Sal Khan explica la visión detrás de Khanmigo, el sistema con IA de Khan Academy. Relaciona la tutoría individual con mejoras de aprendizaje, muestra conversaciones del producto y describe tareas que una IA podría apoyar dentro y fuera del aula.
 
-La charla incluye demostraciones en vivo y una discusión honesta sobre los riesgos y las condiciones necesarias para que esto funcione bien.
+La charla es una **fuente primaria**: permite conocer el argumento de Khan Academy de voz de su fundador y director ejecutivo. También muestra el producto de la organización que él dirige, por lo que **no es una evaluación independiente** de Khanmigo ni de la tutoría con IA.
 
-## Por qué lo recomendamos
+## Cómo usarla
 
-Es un buen contrapeso a los discursos catastrofistas sobre la IA en educación. Khan no niega los riesgos, pero ofrece una visión constructiva y basada en experiencia real. Útil para abrir conversaciones con docentes escépticos o para motivar a quienes ya están interesados.
+Antes de verla, elige una pregunta: ¿qué tarea se delega a la IA?, ¿qué conserva el docente?, ¿qué datos necesita el sistema? Durante la charla, anota una afirmación y la demostración que Khan usa para sostenerla.
 
-## Momentos clave
+Después, separa tres niveles:
 
-- **2:10** — Por qué la tutoría uno a uno cambia los resultados de aprendizaje (el experimento de Bloom)
-- **6:45** — Demostración de Khanmigo como tutor socrático
-- **11:20** — El rol del docente cuando la IA maneja la instrucción directa
-- **13:50** — Riesgos que Khan reconoce abiertamente
+- lo que Khan afirma que la IA podría hacer;
+- lo que la demostración permite observar;
+- la información que haría falta para saber si funciona con estudiantes reales y en otros contextos.
+
+## Momentos para localizar el argumento
+
+- **0:57** — Khan introduce el problema de las “dos sigmas” de Benjamin Bloom como punto de partida.
+- **4:24** — presenta la idea de un tutor con IA disponible para cada estudiante.
+- **5:00** — comienza la demostración de Khanmigo.
+- **8:42** — muestra un uso relacionado con comprensión lectora.
+
+Las marcas corresponden a los capítulos publicados por TED en YouTube. La referencia a Bloom es una premisa del argumento; no prueba que Khanmigo reproduzca los efectos de una tutoría humana individual.
+
+## Qué conservar después de verla
+
+Escribe una tabla con dos columnas: “afirmación de la charla” e “información necesaria para comprobarla”. El ejercicio sirve si puedes distinguir la visión del presentador, la demostración del producto y la evidencia que todavía falta.
+
+Para contrastar la ficha con su fuente, consulta la [página oficial de la charla en TED](https://www.ted.com/talks/sal_khan_how_ai_could_save_not_destroy_education).

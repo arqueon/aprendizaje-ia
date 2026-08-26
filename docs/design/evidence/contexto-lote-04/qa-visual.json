@@ -1,0 +1,178 @@
+{
+  "pages": 12,
+  "aliases": 3,
+  "failures": [],
+  "results": [
+    {
+      "name": "hub",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Recursos externos seleccionados · Aprendizaje Digital e IA",
+      "heading": "Recursos externos seleccionados",
+      "textLength": 3605,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "comunidades",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Redes y espacios para compartir prácticas docentes con IA · Aprendizaje Digital e IA",
+      "heading": "Redes y espacios para compartir prácticas docentes con IA",
+      "textLength": 5892,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "syllabus",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Políticas de IA para el syllabus: ejemplos internacionales · Aprendizaje Digital e IA",
+      "heading": "Políticas de IA para el syllabus: ejemplos internacionales",
+      "textLength": 6114,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "unesco-portal",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Inteligencia artificial en la educación — UNESCO · Aprendizaje Digital e IA",
+      "heading": "Inteligencia artificial en la educación — UNESCO",
+      "textLength": 1356,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "ocde",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Digital Education Outlook 2026 — OCDE · Aprendizaje Digital e IA",
+      "heading": "Digital Education Outlook 2026 — OCDE",
+      "textLength": 1701,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "unesco-marco",
+      "viewport": "desktop",
+      "status": 200,
+      "title": "Marco de competencias de IA para docentes — UNESCO · Aprendizaje Digital e IA",
+      "heading": "Marco de competencias de IA para docentes — UNESCO",
+      "textLength": 1546,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "hub",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Recursos externos seleccionados · Aprendizaje Digital e IA",
+      "heading": "Recursos externos seleccionados",
+      "textLength": 3605,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "comunidades",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Redes y espacios para compartir prácticas docentes con IA · Aprendizaje Digital e IA",
+      "heading": "Redes y espacios para compartir prácticas docentes con IA",
+      "textLength": 5526,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "syllabus",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Políticas de IA para el syllabus: ejemplos internacionales · Aprendizaje Digital e IA",
+      "heading": "Políticas de IA para el syllabus: ejemplos internacionales",
+      "textLength": 5733,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "unesco-portal",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Inteligencia artificial en la educación — UNESCO · Aprendizaje Digital e IA",
+      "heading": "Inteligencia artificial en la educación — UNESCO",
+      "textLength": 1356,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "ocde",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Digital Education Outlook 2026 — OCDE · Aprendizaje Digital e IA",
+      "heading": "Digital Education Outlook 2026 — OCDE",
+      "textLength": 1701,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "unesco-marco",
+      "viewport": "mobile",
+      "status": 200,
+      "title": "Marco de competencias de IA para docentes — UNESCO · Aprendizaje Digital e IA",
+      "heading": "Marco de competencias de IA para docentes — UNESCO",
+      "textLength": 1546,
+      "overflow": false,
+      "pendingImages": [],
+      "brokenImages": [],
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "alias": "recursos/externas/",
+      "expected": "/recursos/links/",
+      "actual": "/recursos/links/"
+    },
+    {
+      "alias": "recursos/externas/comunidades-practica-docente-ia/",
+      "expected": "/recursos/links/comunidades-practica-docente-ia/",
+      "actual": "/recursos/links/comunidades-practica-docente-ia/"
+    },
+    {
+      "alias": "recursos/externas/syllabus-internacionales-ia/",
+      "expected": "/recursos/links/syllabus-internacionales-ia/",
+      "actual": "/recursos/links/syllabus-internacionales-ia/"
+    }
+  ]
+}

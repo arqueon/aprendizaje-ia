@@ -16,7 +16,7 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-weight: 1
+weight: 8
 ---
 
 {{< lead >}}
@@ -131,9 +131,10 @@ El éxito de esta transformación depende de toda la comunidad universitaria y, 
   {{< card link="/formacion-docente/taxonomia-bloom-diseno-inverso/" title="Bloom y Diseño Inverso" img="/formacion-docente/taxonomia-bloom-diseno-inverso/featured.png" icon="sitemap" color="#6f1e2a" description="Alineación de objetivos, evaluación y actividades." >}}
 {{< /cards >}}
 
-## Referencias
+{{< referencias >}}
 
 - Kaplan-Rakowski, R., Grotewold, K., Hartwick, P., & Papin, K. (2023). Generative AI and Teachers' Perspectives on Its Implementation in Education. *Journal of Interactive Learning Research*, *34*(2), 313–338.
 - Miyagawa, S., & Perdue, C. (2021). What Will Remain? *Inside Higher Ed*.
 - Teich, A.G. (2022). A New Lens: Viewing Institutional Success as Student Success. *Fierce Education*.
 - Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
+{{< /referencias >}}

@@ -2,6 +2,7 @@
 title: "Investigar con IA sin perder el rigor"
 date: 2026-08-11
 draft: false
+weight: 8
 description: "Ruta para decidir dónde puede ayudar la IA en una investigación y qué comprobaciones, datos y responsabilidades no deben delegarse."
 summary: "Pregunta, busca, lee, analiza y escribe con apoyo de IA conservando fuentes reales, confidencialidad, trazabilidad y responsabilidad humana."
 showHero: false
@@ -43,11 +44,23 @@ Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia qu
 
 ## Cinco movimientos
 
-1. **Delimita:** conserva una pregunta, propósito y criterio propios.
-2. **Protege:** retira datos personales, manuscritos confidenciales e información que no tienes autorización para compartir.
-3. **Rastrea:** localiza cada fuente fuera de la conversación y registra DOI, autor, título y versión.
-4. **Contrasta:** compara la salida con el artículo, conjunto de datos, protocolo o documentación original.
-5. **Declara:** explica herramienta, propósito, partes afectadas, comprobaciones y responsabilidad humana.
+{{< proceso >}}
+{{< paso titulo="Delimita" >}}
+Conserva una pregunta, propósito y criterio propios.
+{{< /paso >}}
+{{< paso titulo="Protege" >}}
+Retira datos personales, manuscritos confidenciales e información que no tienes autorización para compartir.
+{{< /paso >}}
+{{< paso titulo="Rastrea" >}}
+Localiza cada fuente fuera de la conversación y registra DOI, autor, título y versión.
+{{< /paso >}}
+{{< paso titulo="Contrasta" >}}
+Compara la salida con el artículo, conjunto de datos, protocolo o documentación original.
+{{< /paso >}}
+{{< paso titulo="Declara" >}}
+Explica herramienta, propósito, partes afectadas, comprobaciones y responsabilidad humana.
+{{< /paso >}}
+{{< /proceso >}}
 
 ## Qué obtendrás
 
@@ -57,6 +70,6 @@ Al recorrer las páginas conectadas tendrás una ficha de decisión, una comprob
 
 No cargues datos de participantes, manuscritos recibidos para revisión, expedientes, información institucional reservada o material de terceros en un servicio que no haya sido aprobado para ese uso. Si no puedes establecer qué conserva el proveedor, trabaja con datos ficticios, anonimizados de forma segura o sin IA.
 
-## Recapitulación
-
+{{< parallevar titulo="Para conservar el rigor" >}}
 Investigar con IA no consiste en pedir una respuesta final. Consiste en repartir tareas sin ceder la pregunta, la selección de evidencia, la interpretación ni la responsabilidad por lo publicado.
+{{< /parallevar >}}

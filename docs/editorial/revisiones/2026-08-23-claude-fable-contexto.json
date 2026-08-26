@@ -1,0 +1,466 @@
+{
+  "fecha": "2026-08-23",
+  "alcance": "Segunda lectura editorial independiente de las 26 candidatas del inventario docs/editorial/inventarios/2026-08-23-contexto/auditoria-contexto.json, con verificación de fuentes, páginas hijas de los índices y contraste con data/editorial/context-audit-decisions.json y los tres informes de subagentes.",
+  "candidatas": [
+    {
+      "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
+      "role": "practica",
+      "decision": "quitar",
+      "confidence": "alta",
+      "issue_types": [
+        "contradiccion-de-estado",
+        "afirmaciones-sin-procedencia",
+        "privacidad",
+        "material-con-marcadores"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L49–54: el aviso declara «prototipo de escenario… no el reporte de una implementación ya observada».",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L149–156: afirma «Después de implementar esta práctica durante un semestre», un 72% y una «primera implementación», incompatible con el aviso.",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L5: la descripción del front matter la presenta como «Práctica documentada».",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L104 y L118: exige entregar el «log de la conversación con IA», en tensión con minimización de datos."
+      ],
+      "reason": "La contradicción entre el estado declarado (prototipo, L49–54 y ecosistema.estado_evidencia L27) y los resultados afirmados (L149–156) impide saber qué es la página; la descripción pública además la vende como práctica documentada. Cuarentena reversible hasta resolver la contradicción; la secuencia de portafolio (L83–128) es aprovechable como escenario. Coincide con decisions.json y con el método. La bibliografía general (L164–169) no sustenta la implementación local."
+    },
+    {
+      "path": "content/laboratorio/practicas/abp-con-ia/index.md",
+      "role": "practica",
+      "decision": "quitar",
+      "confidence": "alta",
+      "issue_types": [
+        "afirmaciones-sin-procedencia",
+        "material-inicial-ausente",
+        "privacidad"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/abp-con-ia/index.md L27: declara un grupo de 28 estudiantes de cuarto semestre sin curso, docente, fecha ni institución.",
+        "content/laboratorio/practicas/abp-con-ia/index.md L107–111: «En la primera implementación, se observó que…» sin fuente independiente.",
+        "content/laboratorio/practicas/abp-con-ia/index.md L57–59: cada equipo «selecciona un problema del entorno local» y entrega «log de interacciones», pero no se muestra ningún caso inicial y se piden logs completos."
+      ],
+      "reason": "Se presenta como «práctica documentada» (L5, L22) y reporta observaciones de una implementación que ninguna fuente del repositorio respalda, según la verificación de la auditoría de piezas preexistentes. Las referencias de L115–119 son bibliografía general de ABP y no prueban la implementación local. Cuarentena reversible o conversión honesta a escenario, retirando resultados y revisando la entrega de logs. Coincide con decisions.json y los tres informes."
+    },
+    {
+      "path": "content/laboratorio/practicas/aprendizaje-activo-ia/index.md",
+      "role": "practica",
+      "decision": "quitar",
+      "confidence": "alta",
+      "issue_types": [
+        "afirmaciones-sin-procedencia",
+        "material-inicial-ausente",
+        "duplicacion-parcial"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/aprendizaje-activo-ia/index.md L27: declara grupo de 35 estudiantes, semestre y sesiones de 90 minutos sin procedencia.",
+        "content/laboratorio/practicas/aprendizaje-activo-ia/index.md L54, L66 y L77: el docente «genera» el caso, el escenario y las preguntas minutos antes de clase, pero ninguno de esos materiales centrales se muestra.",
+        "content/laboratorio/practicas/aprendizaje-activo-ia/index.md L107–111: «Observaciones tras las tres sesiones» con hallazgos específicos sin fuente independiente."
+      ],
+      "reason": "El lead (L22) promete «resultados observables» y la sección de resultados relata observaciones concretas que no pueden verificarse. Además, quien quiera replicarla debe inventar el caso, los roles y las preguntas porque solo se describen los pasos para generarlos. Cuarentena reversible; si se conserva, convertir en escenario con materiales visibles y resolver el solape con la guía de aprendizaje activo (L117). Coincide con decisions.json."
+    },
+    {
+      "path": "content/laboratorio/practicas/debate-socratico-con-ia/index.md",
+      "role": "practica",
+      "decision": "quitar",
+      "confidence": "alta",
+      "issue_types": [
+        "afirmaciones-sin-procedencia",
+        "privacidad",
+        "material-inicial-ausente"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/debate-socratico-con-ia/index.md L85: «En la primera aplicación (grupo piloto, n=32), el 78%… mayor profundidad argumentativa en comparación con el semestre anterior», sin método ni fuente.",
+        "content/laboratorio/practicas/debate-socratico-con-ia/index.md L54: «Documenta el intercambio completo», y L58: «La interacción con la IA es evidencia pública, no privada».",
+        "content/laboratorio/practicas/debate-socratico-con-ia/index.md L29: grupo de 32 estudiantes de Filosofía declarado sin procedencia."
+      ],
+      "reason": "Afirma un piloto con n, porcentaje y comparación intersemestral que no tiene respaldo verificable, y convierte la conversación completa con la IA en entrega pública obligatoria, en conflicto con minimización de datos. Cuarentena reversible; como escenario tendría que retirar cifras y sustituir el intercambio completo por notas de decisión. Las dos referencias (L91–92) son bibliografía general y no prueban el piloto. Coincide con decisions.json."
+    },
+    {
+      "path": "content/blog/_index.md",
+      "role": "indice",
+      "decision": "conservar",
+      "confidence": "alta",
+      "issue_types": [],
+      "citations": [
+        "content/blog/_index.md L16–22: explica qué es el espacio, la extensión (700–1,200 palabras) y que cada pieza incluye al menos dos referencias APA verificables.",
+        "content/blog/_index.md L24–31: distingue explícitamente un post de una guía o un artículo (tono, brevedad, posición, apertura al desacuerdo).",
+        "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md, content/blog/rol-docente-era-ia/index.md y las otras cuatro entradas: todas contienen sección «## Referencias», de modo que la promesa del índice se cumple en los destinos."
+      ],
+      "reason": "Índice que dice quién debería entrar (quien busca reflexión, no instrucciones), qué encontrará y cómo se distingue de otras secciones; verifiqué que sus seis entradas cumplen la promesa de referencias. Las señales ausentes del detector (situación, acciones) pertenecen a la plantilla de actividad y no aplican a un índice editorial."
+    },
+    {
+      "path": "content/formacion-docente/_index.md",
+      "role": "indice",
+      "decision": "conservar",
+      "confidence": "alta",
+      "issue_types": [
+        "identidad-visual-heredada-menor"
+      ],
+      "citations": [
+        "content/formacion-docente/_index.md L14–16: identifica a docentes en desarrollo continuo y anticipa recursos, rutas y conexiones.",
+        "content/formacion-docente/_index.md L18–29: diez tarjetas con títulos y descripciones que permiten distinguir cada destino (híbrido, activo, Bloom, SAMR/ICAP, evaluación, syllabus, alfabetización, formación continua, redes)."
+      ],
+      "reason": "El hub cumple su función: audiencia reconocible, destinos diferenciados y descripciones que permiten elegir según una necesidad formativa. El «cuerpo muy breve» del detector es falso positivo: el contenido navegable está en las tarjetas. Ajuste menor no bloqueante: los colores de tarjeta (L19–28) usan la paleta azul/violeta previa a la identidad C."
+    },
+    {
+      "path": "content/ia-educacion/_index.md",
+      "role": "indice",
+      "decision": "conservar",
+      "confidence": "media",
+      "issue_types": [
+        "descripciones-de-ruta-abstractas-menor"
+      ],
+      "citations": [
+        "content/ia-educacion/_index.md L14–18: el lead dice a quién sirve (estudiantes y docentes) y el recorrido de introducción a materiales especializados.",
+        "content/ia-educacion/_index.md L24–33: selector por responsabilidad con tres destinos existentes y distinguibles («Estudio o enseño» resuelve al slug empezar-con-ia de content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L3).",
+        "content/ia-educacion/_index.md L37–44: segunda navegación por tema con cuatro destinos diferenciados."
+      ],
+      "reason": "Resuelve dos entradas distintas (responsabilidad y tema) sin confundirlas, y comprobé que los tres destinos de ruta existen. Las descripciones de las rutas de coordinación y dirección (L31–32) siguen siendo abstractas («acuerdos, pilotos, gobernanza») y admiten concreción, pero eso es ajuste menor, no falta de función. Desacuerdo parcial con la auditoría de piezas preexistentes: su recomendación de «cambiar o retirar el bloque Elige tu ruta» apunta a la portada (content/_index.md), que no está entre las 26; en esta sección los destinos se distinguen y funcionan."
+    },
+    {
+      "path": "content/ia-educacion/guias/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "navegacion-deficiente",
+        "promesa-desalineada-con-destinos",
+        "audiencia-reducida"
+      ],
+      "citations": [
+        "content/ia-educacion/guias/_index.md L16: el único párrafo del cuerpo anuncia «guías y tutoriales prácticos… en el aula» sin decir quién elige cada guía ni ante qué situación.",
+        "content/ia-educacion/guias/_index.md L2–3: título y descripción reducen la colección a «docencia universitaria», pero el listado real (content/ia-educacion/guias/) incluye estudiantes/, lineamientos-eticos-ia/, privacidad-datos-ia/ y agenciamiento-humano-ia/, que no son tutoriales de herramientas ni exclusivos de docentes."
+      ],
+      "reason": "La colección tiene doce guías de naturaleza heterogénea (tutoriales, marcos éticos, rutas por audiencia) y el índice ni anticipa esa variedad ni ofrece un criterio de elección; la ruta para estudiantes queda invisible bajo una promesa centrada en docencia. Función recuperable como índice: necesita entrada por audiencia o necesidad y distinción de destinos. Coincide con el informe 0."
+    },
+    {
+      "path": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "role": "practica",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "material-inicial-ausente",
+        "rol-editorial-impreciso"
+      ],
+      "citations": [
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L39–49: la plantilla es una tabla de preguntas por completar; L42 pregunta «¿Qué idea, borrador, método o criterio ya tenías?» pero la página nunca muestra un ejemplo.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L14: content_type la clasifica como práctica, aunque su cuerpo es una plantilla.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L55–57: sí define un criterio de comprobación claro, lo que hace la función recuperable."
+      ],
+      "reason": "El método de auditoría exige que una plantilla muestre al menos un ejemplo completado (metodo-auditoria L28); aquí todas las celdas son preguntas y nadie puede ver cómo luce una nota terminada. Los límites de privacidad (L51–53) y el criterio de avance (L55–57) son sólidos. Debe añadir un caso breve completado o reclasificarse explícitamente como plantilla de apoyo. Desacuerdo con el informe 0, que la conserva por «brevedad funcional»; coincido con decisions.json."
+    },
+    {
+      "path": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "role": "practica",
+      "decision": "conservar",
+      "confidence": "alta",
+      "issue_types": [],
+      "citations": [
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L37–39: muestra el material inicial exacto (afirmación del 30%) y el momento de uso («antes de repetir el número»).",
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L43–46: cuatro acciones ordenadas y una decisión final con cinco salidas posibles.",
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L48–54: define el producto que se conserva y una alternativa equivalente sin IA."
+      ],
+      "reason": "Práctica breve pero completa: material visible, momento, acciones, producto y regla de decisión que admite «queda pendiente» como resultado válido. La señal «quién» del detector es falso positivo: el front matter (L15) declara audiencias y la situación es reconocible sin nombrar una persona. Coinciden decisions.json y el informe 0; solo cabe el ajuste menor de nombrar quién y cuándo en el cuerpo."
+    },
+    {
+      "path": "content/ia-educacion/rutas/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "duplicacion",
+        "promesa-incumplida",
+        "navegacion-deficiente"
+      ],
+      "citations": [
+        "content/ia-educacion/rutas/_index.md L23–27: presenta exactamente las mismas tres entradas que el selector de la página superior, con descripciones de una línea.",
+        "content/ia-educacion/_index.md L29–33 y L35: la sección madre ya contiene el mismo selector y enlaza aquí prometiendo «Compara las tres rutas y sus alcances», comparación que esta página no entrega.",
+        "content/ia-educacion/rutas/_index.md L15–19: el lead define bien qué es una ruta, señal de función recuperable."
+      ],
+      "reason": "Hoy duplica el selector superior sin aportar la comparación prometida: no distingue audiencia, decisión, alcance, punto de entrada ni resultado de cada ruta. No conviene quitarla porque agrupa las rutas hijas reales (coordinacion-academica/, decision-institucional-ia/) y el enlace «compara» ya apunta aquí; debe convertirse en una comparación efectiva. Coincide con el informe 0."
+    },
+    {
+      "path": "content/laboratorio/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "promesa-editorial-inexacta",
+        "contradiccion-con-destinos",
+        "seccion-hija-vacia"
+      ],
+      "citations": [
+        "content/laboratorio/_index.md L13–15: promete que «cada entrada es una experiencia real con contexto, proceso y reflexión».",
+        "content/laboratorio/_index.md L18: la tarjeta de prácticas promete «resultados observados», pero content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L49–54 se declara prototipo y aula-invertida/ es una explicación metodológica.",
+        "content/laboratorio/experiencias/: la rama solo contiene _index.md; la tarjeta de L19 promete «relatos y reflexiones de docentes» que no existen todavía."
+      ],
+      "reason": "La promesa de experiencias reales contradice el contenido verificable: las prácticas con resultados carecen de procedencia (y esta lectura propone su cuarentena), una es prototipo declarado y la rama de experiencias está vacía. La arquitectura de tres rutas es útil y recuperable; el texto debe describir honestamente qué hay (diseños, escenarios, estrategias) y qué decisión resuelve cada rama. Coincide con el informe 1 y añade la evidencia de la rama vacía."
+    },
+    {
+      "path": "content/laboratorio/practicas/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "promesa-editorial-inexacta",
+        "estado-de-validacion-ambiguo"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/_index.md L3–4: describe «prácticas documentadas por docentes que ya integraron IA en sus aulas» con «reflexiones sobre sus resultados».",
+        "content/laboratorio/practicas/_index.md L13: «Cada práctica documenta una experiencia real de integración de IA en el aula».",
+        "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L49–54 y content/laboratorio/practicas/aula-invertida/index.md: entre los seis destinos hay un prototipo declarado y una guía metodológica, no experiencias reales."
+      ],
+      "reason": "El índice afirma dos veces que toda la colección son experiencias reales documentadas, cuando ninguna de las seis piezas tiene procedencia verificada, una se declara prototipo y otra funciona como guía. Tras la cuarentena propuesta, la promesa quedaría aún más desalineada. Debe distinguir práctica propuesta, pilotada y documentada, y presentar la ruta como selección/adaptación de actividades. Coincide con el informe 1."
+    },
+    {
+      "path": "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
+      "role": "practica",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "situacion-incompleta",
+        "dependencia-de-servicios",
+        "privacidad",
+        "comprobacion-mejorable",
+        "contexto-oculto-por-hero"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L27–29: «Estudiantes de Ciencias Sociales o Humanidades» sin curso, momento, duración ni modalidad de las fases.",
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L41: sí muestra dos prompts iniciales reutilizables, material de partida real.",
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L51–53 y L67–72: pide capturas de pantalla en al menos tres servicios sin protocolo de privacidad ni registro de versión, y la rúbrica pondera 20% la apariencia de la infografía sin definir cómo se comprueba la calidad del análisis."
+      ],
+      "reason": "A diferencia de las cuatro prácticas en cuarentena, esta es honesta: no afirma implementación ni resultados. Tiene prompts, secuencia, producto y rúbrica; le faltan momento y duración, una alternativa reproducible sin tres cuentas, criterios de comprobación del razonamiento y, según la auditoría previa, el hero desplaza el título a ~1,212 px. Función claramente recuperable con cambios sustantivos. Coinciden decisions.json y los informes."
+    },
+    {
+      "path": "content/observatorio/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "promesa-desalineada-con-destinos",
+        "audiencia-no-explicita"
+      ],
+      "citations": [
+        "content/observatorio/_index.md L18–20: las tarjetas distinguen estudios (datos empíricos), guías (orientaciones) y documentación («repositorio de buenas prácticas documentadas»).",
+        "content/observatorio/documentacion/: los destinos reales de esa tarjeta son monitoreo-publicaciones-ia-educativa/, monitoreo-herramientas-emergentes/ y redes-investigacion-vinculacion/, no buenas prácticas documentadas.",
+        "content/observatorio/estudios/_index.md L17–27: la rama de «datos empíricos» incluye un ensayo teórico y una reseña editorial."
+      ],
+      "reason": "La estructura de tres ramas es correcta y distinguible en abstracto, pero dos de las tres tarjetas prometen contenidos que sus ramas no contienen: «buenas prácticas documentadas» donde hay monitoreo y redes, y «datos empíricos» donde conviven ensayo y reseña. Además no dice a quién sirve cada ruta ni para qué decisión. Ajuste de descripciones y públicos, conservando el hub. Coincide con el informe 1, con la evidencia adicional del inventario real de documentación."
+    },
+    {
+      "path": "content/observatorio/documentacion/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "promesa-incumplida",
+        "desalineacion-con-destinos"
+      ],
+      "citations": [
+        "content/observatorio/documentacion/_index.md L16–18: promete «experiencias significativas de docentes UdeG y de otras instituciones, capturadas con plantillas comparables».",
+        "content/observatorio/documentacion/_index.md L20–22: promete «materiales paso a paso para replicar estrategias ya validadas: rúbricas, prompts, secuencias didácticas y plantillas de syllabus».",
+        "content/observatorio/documentacion/: los únicos destinos existentes son monitoreo-publicaciones-ia-educativa/, monitoreo-herramientas-emergentes/ y redes-investigacion-vinculacion/; no existe ningún caso documentado ni guía de implementación."
+      ],
+      "reason": "Las dos secciones prometidas («Casos documentados» y «Guías de implementación») no tienen ningún destino real: todo el contenido efectivo es monitoreo y redes. Quien entre buscando rúbricas, prompts o casos UdeG no encontrará nada de eso. La separación conceptual frente a estudios y guías (L14) es válida y la rama tiene contenido propio, así que la función es recuperable reescribiendo la portada para describir lo que hay o creando los contenidos prometidos. Coincide con el informe 1."
+    },
+    {
+      "path": "content/observatorio/estudios/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "tipos-de-evidencia-mezclados",
+        "afirmacion-sin-criterio",
+        "listado-incompleto"
+      ],
+      "citations": [
+        "content/observatorio/estudios/_index.md L13: califica sin criterio la aportación UdeG como «una muestra significativa de 6,578 universitarios».",
+        "content/observatorio/estudios/_index.md L17–27: agrupa bajo «Estudios recientes» una encuesta empírica, un ensayo filosófico (Simondon) y la reseña de un editorial, sin declarar el tipo de evidencia de cada pieza.",
+        "content/observatorio/estudios/: existen además creatividad-humana-ia/ y paradoja-descarga-cognitiva/, que el listado curado del índice omite."
+      ],
+      "reason": "El índice mezcla tipos de evidencia sin avisarlo, usa «significativa» en un sentido que sugiere respaldo estadístico inexistente y su curaduría manual está desactualizada: omite dos de los cinco estudios publicados en la rama. Debe tipificar cada entrada (encuesta, ensayo, reseña), sustituir la afirmación de significancia por una descripción verificable y completar o automatizar el listado. Coincide con el informe 1; el listado incompleto es evidencia nueva de esta lectura."
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-dec-2026.md",
+      "role": "articulo",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "metodologia-ausente",
+        "inferencia-sin-sustento",
+        "referencia-incompleta",
+        "fecha-ambigua"
+      ],
+      "citations": [
+        "content/observatorio/estudios/encuesta-dec-2026.md L10: da tamaño de muestra, instituciones y aportación UdeG, pero en ninguna parte hay fechas de levantamiento, método de muestreo ni referencia bibliográfica completa.",
+        "content/observatorio/estudios/encuesta-dec-2026.md L75: concluye que «los resultados permiten lecturas con peso propio» para la UdeG a partir del mero tamaño de su aportación, sin presentar análisis desagregados ni diseño muestral.",
+        "content/observatorio/estudios/encuesta-dec-2026.md L90–97: incrusta y enlaza el PDF completo, lo que preserva el acceso a la fuente primaria."
+      ],
+      "reason": "La ficha tiene procedencia identificable (DEC, Tec de Monterrey, IFE), fecha de página y la fuente primaria adjunta, así que no debe quitarse. Pero infiere lecturas institucionales «con peso propio» solo del volumen de participantes —exactamente el tipo de afirmación local que la consigna pide no aceptar sin sustento— y carece de método, límites y referencia APA completa. Cambio localizado: acotar la inferencia UdeG, añadir metodología, fechas y referencia. Coincide con el informe 1."
+    },
+    {
+      "path": "content/recursos/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "fragmentacion",
+        "rama-omitida"
+      ],
+      "citations": [
+        "content/recursos/_index.md L17–22: el hub enlaza artículos, videos, links y glosario, y L28–32 los tres recursos institucionales, pero ninguna tarjeta conduce a la rama existente /recursos/externas/.",
+        "content/recursos/_index.md L20: la tarjeta de «Links relevantes» promete «herramientas, guías y repositorios externos», el mismo alcance que content/recursos/externas/_index.md L36–39 reclama para sus bloques temáticos."
+      ],
+      "reason": "El hub funciona para lo que muestra (audiencia docente clara, destinos descritos), pero deja huérfana la rama externas/ mientras su tarjeta de links promete exactamente ese contenido. Es un problema de fragmentación y navegación, no de falta de contexto de la página en sí; se resuelve junto con la consolidación externas→links. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/articulos/_index.md",
+      "role": "indice",
+      "decision": "conservar",
+      "confidence": "alta",
+      "issue_types": [],
+      "citations": [
+        "content/recursos/articulos/_index.md L3–4 y L13: promete fichas con datos bibliográficos, abstract y justificación de la recomendación.",
+        "content/recursos/articulos/: los siete destinos existentes (Ajjawi/Bearman, DEC, Wang/Zhang, UNAM, Selwyn, feedback GenAI, Cormier) son fichas bibliográficas que materializan esa estructura."
+      ],
+      "reason": "Promesa editorial breve pero exacta, verificada contra los destinos reales: cada ficha entrega lo que el índice anuncia. La brevedad es legítima en un índice y las señales ausentes del detector (situación, acciones, lenguaje directo) son falsos positivos de la plantilla de actividad. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/externas/_index.md",
+      "role": "indice",
+      "decision": "quitar",
+      "confidence": "media",
+      "issue_types": [
+        "duplicacion-parcial",
+        "fragmentacion",
+        "promesa-incumplida",
+        "rama-huerfana"
+      ],
+      "citations": [
+        "content/recursos/externas/_index.md L34–39: promete cuatro bloques temáticos (organismos, comunidades, syllabus, herramientas), pero la rama solo contiene comunidades-practica-docente-ia/ y syllabus-internacionales-ia/.",
+        "content/recursos/links/_index.md L3–4 y content/recursos/_index.md L20: el destino canónico de recursos externos ya anunciado desde el hub es /links/, con el mismo alcance declarado.",
+        "content/recursos/_index.md L17–32: el hub de recursos no enlaza esta rama, que queda fuera de la navegación principal."
+      ],
+      "reason": "Quitar la rama como entrada autónoma de la vista pública —de forma reversible y sin borrar sus dos curadurías, que deben migrar a /links/ con alias—. Duplica el rol que el hub ya asigna a links, promete el doble de bloques de los que contiene y ni siquiera está enlazada desde su sección madre: es fragmentación estructural, no falta de contexto interno (sus criterios de curaduría L26–32 están bien escritos). Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/glosario/agentes-de-ia/index.md",
+      "role": "glosario",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "ejemplo-actual-ausente",
+        "imprecision-conceptual",
+        "obsolescencia-parcial"
+      ],
+      "citations": [
+        "content/recursos/glosario/agentes-de-ia/index.md L13: la definición (percibir, decidir en pasos, ejecutar con herramientas) es funcional, pero presenta al agente como «evolución» necesariamente autónoma del modelo generativo.",
+        "content/recursos/glosario/agentes-de-ia/index.md L15: el único ejemplo educativo es una predicción categórica en futuro («Actuarán como tutores persistentes… transformará la dinámica»), no un caso actual verificable ni una indicación de cuándo importa el término."
+      ],
+      "reason": "Según el criterio de glosario (definición, ejemplo actual, cuándo importa, relaciones), la entrada carece de ejemplo presente y de situación de uso: todo su contexto educativo es especulación futura, y omite grados de agencia, permisos y supervisión humana, que hoy son la distinción operativa relevante para docentes. Definición recuperable con un ejemplo de flujo docente concreto y relaciones con tutor-inteligente/ e ia-generativa/. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/glosario/aprendizaje-digital/index.md",
+      "role": "glosario",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "imprecision-conceptual",
+        "ejemplo-ausente",
+        "relaciones-genericas"
+      ],
+      "citations": [
+        "content/recursos/glosario/aprendizaje-digital/index.md L15: «El verdadero aprendizaje digital… experiencias hiper-personalizadas» reduce el concepto a interactividad, datos y adaptación algorítmica y lo formula de modo normativo.",
+        "content/recursos/glosario/aprendizaje-digital/index.md L17: la única relación es un enlace genérico a la sección /ia-educacion/, no a los términos vecinos (aprendizaje-hibrido/, modelo-samr/) que el propio glosario contiene."
+      ],
+      "reason": "El contraste con «subir un PDF» (L15) es útil, pero falta un ejemplo cotidiano positivo, no dice cuándo importa la distinción para un docente y sus relaciones no aprovechan las entradas hermanas del glosario. El índice del glosario promete definición operativa, origen y referencia interna aplicada (glosario/_index.md L19), y esta entrada no cumple ese estándar. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/glosario/ingenieria-de-prompts/index.md",
+      "role": "glosario",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "imprecision-conceptual",
+        "ejemplo-ausente",
+        "relacion-incorrecta"
+      ],
+      "citations": [
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L15: afirma que la práctica transforma al usuario «limitando las alucinaciones del sistema y forzando resultados», garantías que el prompting no puede ofrecer, y convierte contexto, rol, formato y evaluación en requisitos universales.",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md L17: relaciona el término únicamente con /observatorio/, mientras existe content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md, el destino interno pertinente que no se enlaza."
+      ],
+      "reason": "La definición base se entiende, pero sobrepromete efectos («limitar alucinaciones», «forzar resultados»), no muestra ningún ejemplo de prompt pese a definir la práctica de escribirlos, y su única relación apunta a una sección genérica en lugar de la guía específica del sitio. Cambios localizados: moderar afirmaciones, añadir un ejemplo breve y corregir la relación. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/links/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "media",
+      "issue_types": [
+        "fragmentacion",
+        "alcance-indistinguible"
+      ],
+      "citations": [
+        "content/recursos/links/_index.md L3–4 y L13: anuncia «herramientas, guías, repositorios y sitios» externos con criterio pedagógico, alcance idéntico al que reclama content/recursos/externas/_index.md L17–22.",
+        "content/recursos/links/: sus tres fichas existentes (UNESCO, OCDE, AI for Education toolkit) sí cumplen la promesa de explicar por qué y para quién sirve cada recurso."
+      ],
+      "reason": "Las fichas hijas funcionan; el problema es estructural: el alcance declarado es indistinguible del de la rama externas/, y si esa rama se retira, este índice debe asumir explícitamente las curadurías temáticas migradas y explicar la diferencia entre ficha individual y curaduría. Cambio de alcance y texto, no de función. Coincide con el informe 2."
+    },
+    {
+      "path": "content/recursos/videos/_index.md",
+      "role": "indice",
+      "decision": "cambiar",
+      "confidence": "alta",
+      "issue_types": [
+        "promesa-desalineada-con-destinos",
+        "enlaces-sin-destino",
+        "desalineacion-de-tipo"
+      ],
+      "citations": [
+        "content/recursos/videos/_index.md L13: promete que cada entrada «incluye un resumen, los momentos clave y por qué lo recomendamos».",
+        "content/recursos/videos/learn-prompting-curso-completo.md L23 y L30: la entrada es «un libro abierto y un curso en línea» cuyo videoUrl es un sitio web, no un video reseñable con momentos clave.",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md L37 y L43: dos de las cinco fuentes carecen de destino reproducible («[Buscar en YouTube: IGNITE Capacitaciones IA docentes]» y «URL: Consultar canal institucional de UDGplus»)."
+      ],
+      "reason": "La promesa del índice solo la cumple la ficha de Sal Khan: otra entrada es un curso/libro web y la curaduría de tutoriales agrupa canales, con dos referencias que obligan al lector a buscar por su cuenta. Debe redefinirse la sección como recursos audiovisuales con destinos verificables, o mover lo no audiovisual a /links/ y completar las URLs. Coincide con el informe 2."
+    }
+  ],
+  "totales": {
+    "conservar": 5,
+    "cambiar": 16,
+    "quitar": 5,
+    "total": 26
+  },
+  "desacuerdos": [
+    {
+      "path": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
+      "contra": "subagent-summary-0 (conservar)",
+      "posicion": "cambiar, coincidiendo con data/editorial/context-audit-decisions.json",
+      "explicacion": "El informe 0 acepta la brevedad como funcional, pero el método (2026-08-23-metodo-auditoria-contexto-total.md L28) exige que una plantilla muestre al menos un ejemplo completado; la tabla de L39–49 es íntegramente preguntas y L42 pide un punto de partida que nunca se muestra, además de que el front matter (L14) la clasifica como práctica siendo plantilla."
+    },
+    {
+      "path": "content/ia-educacion/_index.md",
+      "contra": "recomendación de 2026-08-23-auditoria-contexto-piezas-preexistentes.md sobre el bloque «Elige tu ruta» (desacuerdo parcial)",
+      "posicion": "conservar",
+      "explicacion": "Aquella recomendación de cambiar o retirar el bloque se refiere a la portada (content/_index.md), que no está entre las 26 candidatas. En esta sección verifiqué que los tres destinos existen (el slug empezar-con-ia resuelve a constelaciones/cocreacion-evaluacion/index.md L3) y se distinguen; las descripciones de coordinación y dirección solo necesitan concreción menor."
+    },
+    {
+      "path": "content/blog/_index.md, content/formacion-docente/_index.md, content/recursos/articulos/_index.md",
+      "contra": "prioridad media del detector automático",
+      "posicion": "conservar los tres",
+      "explicacion": "Coincido con los informes 0 y 2 y en contra de la señal automática: las señales ausentes (situación, acciones, lenguaje directo, cuerpo breve) provienen de la plantilla de actividad y no aplican a índices cuya promesa se cumple en sus destinos, cosa que verifiqué página por página."
+    }
+  ],
+  "falsos_positivos_detector": [
+    "Señales «situacion», «acciones» y «lenguaje_directo» aplicadas a índices (blog/_index.md, formacion-docente/_index.md, recursos/articulos/_index.md, recursos/links/_index.md): un índice no ejecuta acciones; su evaluación correcta es promesa contra destinos. En blog, formación docente y artículos la promesa se cumple y no hay defecto.",
+    "«quien» ausente en ia-educacion/practicas/comprobar-afirmacion/index.md: el front matter L15 declara las audiencias y el momento de uso es reconocible en L39; no se requiere una persona nombrada.",
+    "«material-con-marcadores-sin-completar» en laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md L79: los corchetes [pegar rúbrica del docente] y [Pegar texto] son huecos intencionales del prompt que el estudiante debe rellenar, no contenido inacabado; la razón real de la cuarentena es la contradicción de estado L49–54 contra L149–156, no los marcadores.",
+    "«lenguaje_directo» ausente en ia-educacion/practicas/bitacora-cocreacion/index.md: el lenguaje es directo (segunda persona, frases cortas); el defecto real es la ausencia de un ejemplo completado, que el detector no mide.",
+    "«cuerpo-muy-breve» en formacion-docente/_index.md y recursos/videos/_index.md: la brevedad del cuerpo no es el problema; en formación docente no hay defecto y en videos el defecto es la desalineación entre promesa y tipo de contenido de los destinos."
+  ],
+  "secuencia_prioritaria": [
+    "1. Con VoBo, poner en cuarentena reversible las cuatro prácticas del laboratorio con afirmaciones sin procedencia o estado contradictorio (evaluacion-formativa-asistida-ia, abp-con-ia, aprendizaje-activo-ia, debate-socratico-con-ia), conservando las fuentes para su conversión futura a escenarios.",
+    "2. Inmediatamente después, reescribir laboratorio/_index.md y laboratorio/practicas/_index.md para que dejen de prometer «experiencias reales documentadas con resultados observados» y declaren el estado real de cada pieza (propuesta, prototipo, documentada), incluyendo la rama experiencias/ vacía.",
+    "3. Corregir la capa de procedencia del Observatorio: acotar la inferencia UdeG y añadir método y referencia en encuesta-dec-2026.md; tipificar la evidencia, retirar «muestra significativa» y completar el listado en estudios/_index.md; alinear documentacion/_index.md (y la tarjeta correspondiente de observatorio/_index.md) con sus destinos reales de monitoreo y redes.",
+    "4. Consolidar recursos externos: retirar la rama externas/ de la vista pública migrando sus dos curadurías a links/ con alias, actualizar recursos/_index.md y links/_index.md, y corregir videos/ (URLs reproducibles o reubicación de lo no audiovisual).",
+    "5. Reparar la navegación de IA en Educación: reescribir guias/_index.md con entrada por audiencia o necesidad, y convertir rutas/_index.md en la comparación real que promete el enlace de la sección madre.",
+    "6. Cambios de pieza individual: completar analisis-critico-de-sesgos-en-ia (momento, duración, protocolo de capturas, comprobación del análisis, hero), añadir un ejemplo completado o reclasificar bitacora-cocreacion, y precisar las tres entradas de glosario (ejemplo actual y relaciones en agentes-de-ia, ejemplo y relaciones en aprendizaje-digital, moderar garantías y corregir relación en ingenieria-de-prompts).",
+    "7. Ajustes menores no bloqueantes en las conservadas (concreción de las descripciones de ruta en ia-educacion/_index.md, quién/cuándo en comprobar-afirmacion, paleta heredada en formacion-docente), y reejecución de inventarios, enlaces y build antes de proponer publicación."
+  ]
+}

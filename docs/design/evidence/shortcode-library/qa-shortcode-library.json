@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "status": "pass",
+  "startedAt": "2026-08-26T06:35:33.309Z",
+  "finishedAt": "2026-08-26T06:35:43.283Z",
+  "scope": "local-only-not-published-no-content-propagation",
+  "static": {
+    "manifest": "data/editorial/shortcode-library.json",
+    "templates": 23,
+    "categoryCounts": {
+      "global": 5,
+      "compound": 8,
+      "specific": 9,
+      "retirable": 1
+    },
+    "profiles": 7,
+    "tokens": 26,
+    "themeDependencies": 8,
+    "invalidFixturesRejected": [
+      {
+        "name": "paso-suelto",
+        "expectedError": "solo puede usarse dentro de proceso",
+        "status": "rejected"
+      },
+      {
+        "name": "pliegue-suelto",
+        "expectedError": "solo puede usarse dentro de acordeon",
+        "status": "rejected"
+      },
+      {
+        "name": "pestana-suelta",
+        "expectedError": "solo puede usarse dentro de pestanas",
+        "status": "rejected"
+      },
+      {
+        "name": "pestanas-unica",
+        "expectedError": "requiere al menos dos pestana",
+        "status": "rejected"
+      },
+      {
+        "name": "figura-ausente",
+        "expectedError": "no existe el recurso",
+        "status": "rejected"
+      },
+      {
+        "name": "card-sin-link",
+        "expectedError": "link es obligatorio",
+        "status": "rejected"
+      },
+      {
+        "name": "card-tall-invalido",
+        "expectedError": "tall debe ser true o false",
+        "status": "rejected"
+      },
+      {
+        "name": "referencias-duplicadas",
+        "expectedError": "sólo admite una instancia por página",
+        "status": "rejected"
+      }
+    ],
+    "fullBuild": {
+      "status": "pass"
+    }
+  },
+  "runtime": {
+    "baseURL": "http://127.0.0.1:42784/",
+    "fixture": "tests/fixtures/shortcode-library/content",
+    "inspections": [
+      {
+        "scenario": "desktop-light",
+        "viewport": {
+          "width": 1280,
+          "height": 900
+        },
+        "mode": "light",
+        "wallMs": 657,
+        "screenshot": "desktop-light.webp",
+        "screenshotBytes": 83556,
+        "width": 1280,
+        "scrollWidth": 1280,
+        "dark": false,
+        "expectedDark": false,
+        "forcedColors": false,
+        "expectedForcedColors": false,
+        "components": {
+          "idea": 1,
+          "practica": 1,
+          "parallevar": 1,
+          "acordeon": 1,
+          "pliegue": 2,
+          "proceso": 1,
+          "paso": 2,
+          "pestanas": 1,
+          "pestana": 2,
+          "cards": 1,
+          "card": 2,
+          "figura": 1,
+          "referencias": 1
+        },
+        "tokens": {
+          "--alm-space-xs": "0.4rem",
+          "--alm-radius-md": "0.85rem",
+          "--alm-inset-inline": "clamp(0.95rem, 2vw, 1.25rem)",
+          "--alm-control-min": "2.75rem",
+          "--udg-c-primary": "#34508c"
+        },
+        "labelsResolve": true,
+        "regionsNamed": true,
+        "duplicateReferenceIds": [],
+        "mainText": "Fixture de la biblioteca global\n\nEsta página reúne los componentes globales en un contexto mínimo. No forma parte del contenido público del sitio.\n\nIDEA VERIFICABLE\nUna decisión de diseño se vuelve reutilizable cuando conserva su sentido fuera de la página donde nació.\nPRÁCTICA BREVE\nCompara el componente con el texto que lo rodea y anota qué relación ayuda a comprender.\nPARA LLEVAR\nLa forma visual refuerza una función editorial; no sustituye la explicación.\n¿El contenido existe sin JavaScript?\nSí. El cuerpo usa details y summary nativos.\n¿Qué ocurre al imprimir?\nExplicar\nPresentar la relación en lenguaje común antes del resumen visual.\nComprobar\nRevisar el render, el teclado, el contraste y la impresión.\nDesde la autoría\nLa API debe decir qué parámetros son obligatorios y qué anidamiento admite.\nDesde la lectura\nVolver al inicio\n\nTarjeta con imagen e icono decorativos.\n\nIr a referencias\n\nTarjeta sin color editorial explícito.\n\nExplicar\nrelación y límite\nComponer\nHTML semántico\nVerificar\nrender y fallback\nLa misma relación se compone de manera horizontal y vertical según el ancho disponible.\nReferencias\nContrato local de la biblioteca de componentes, versión 1.\n↑",
+        "brokenImages": [],
+        "cookies": "",
+        "localStorageKeys": [
+          "appearance"
+        ],
+        "printFallbackVisible": false,
+        "keyboard": {
+          "acordeon": "opened-with-space",
+          "pestanas": "opened-with-space"
+        },
+        "axe": [],
+        "externalRequests": 0,
+        "httpWrites": 0,
+        "consoleErrors": 0
+      },
+      {
+        "scenario": "mobile-dark",
+        "viewport": {
+          "width": 360,
+          "height": 800
+        },
+        "mode": "dark",
+        "wallMs": 602,
+        "screenshot": "mobile-dark.webp",
+        "screenshotBytes": 75102,
+        "width": 360,
+        "scrollWidth": 360,
+        "dark": true,
+        "expectedDark": true,
+        "forcedColors": false,
+        "expectedForcedColors": false,
+        "components": {
+          "idea": 1,
+          "practica": 1,
+          "parallevar": 1,
+          "acordeon": 1,
+          "pliegue": 2,
+          "proceso": 1,
+          "paso": 2,
+          "pestanas": 1,
+          "pestana": 2,
+          "cards": 1,
+          "card": 2,
+          "figura": 1,
+          "referencias": 1
+        },
+        "tokens": {
+          "--alm-space-xs": "0.4rem",
+          "--alm-radius-md": "0.85rem",
+          "--alm-inset-inline": "clamp(0.95rem, 2vw, 1.25rem)",
+          "--alm-control-min": "2.75rem",
+          "--udg-c-primary": "#8ba3d6"
+        },
+        "labelsResolve": true,
+        "regionsNamed": true,
+        "duplicateReferenceIds": [],
+        "mainText": "Fixture de la biblioteca global\n\nEsta página reúne los componentes globales en un contexto mínimo. No forma parte del contenido público del sitio.\n\nIDEA VERIFICABLE\nUna decisión de diseño se vuelve reutilizable cuando conserva su sentido fuera de la página donde nació.\nPRÁCTICA BREVE\nCompara el componente con el texto que lo rodea y anota qué relación ayuda a comprender.\nPARA LLEVAR\nLa forma visual refuerza una función editorial; no sustituye la explicación.\n¿El contenido existe sin JavaScript?\nSí. El cuerpo usa details y summary nativos.\n¿Qué ocurre al imprimir?\nExplicar\nPresentar la relación en lenguaje común antes del resumen visual.\nComprobar\nRevisar el render, el teclado, el contraste y la impresión.\nDesde la autoría\nLa API debe decir qué parámetros son obligatorios y qué anidamiento admite.\nDesde la lectura\nVolver al inicio\n\nTarjeta con imagen e icono decorativos.\n\nIr a referencias\n\nTarjeta sin color editorial explícito.\n\nExplicar\nrelación y límite\nComponer\nHTML semántico\nVerificar\nrender y fallback\nLa misma relación se compone de manera horizontal y vertical según el ancho disponible.\nReferencias\nContrato local de la biblioteca de componentes, versión 1.\n↑",
+        "brokenImages": [],
+        "cookies": "",
+        "localStorageKeys": [
+          "appearance"
+        ],
+        "printFallbackVisible": false,
+        "keyboard": {
+          "acordeon": "opened-with-space",
+          "pestanas": "opened-with-space"
+        },
+        "axe": [],
+        "externalRequests": 0,
+        "httpWrites": 0,
+        "consoleErrors": 0
+      },
+      {
+        "scenario": "forced-colors",
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "mode": "light",
+        "wallMs": 584,
+        "screenshot": "forced-colors.webp",
+        "screenshotBytes": 87348,
+        "width": 1024,
+        "scrollWidth": 1024,
+        "dark": false,
+        "expectedDark": false,
+        "forcedColors": true,
+        "expectedForcedColors": true,
+        "components": {
+          "idea": 1,
+          "practica": 1,
+          "parallevar": 1,
+          "acordeon": 1,
+          "pliegue": 2,
+          "proceso": 1,
+          "paso": 2,
+          "pestanas": 1,
+          "pestana": 2,
+          "cards": 1,
+          "card": 2,
+          "figura": 1,
+          "referencias": 1
+        },
+        "tokens": {
+          "--alm-space-xs": "0.4rem",
+          "--alm-radius-md": "0.85rem",
+          "--alm-inset-inline": "clamp(0.95rem, 2vw, 1.25rem)",
+          "--alm-control-min": "2.75rem",
+          "--udg-c-primary": "#34508c"
+        },
+        "labelsResolve": true,
+        "regionsNamed": true,
+        "duplicateReferenceIds": [],
+        "mainText": "Fixture de la biblioteca global\n\nEsta página reúne los componentes globales en un contexto mínimo. No forma parte del contenido público del sitio.\n\nIDEA VERIFICABLE\nUna decisión de diseño se vuelve reutilizable cuando conserva su sentido fuera de la página donde nació.\nPRÁCTICA BREVE\nCompara el componente con el texto que lo rodea y anota qué relación ayuda a comprender.\nPARA LLEVAR\nLa forma visual refuerza una función editorial; no sustituye la explicación.\n¿El contenido existe sin JavaScript?\nSí. El cuerpo usa details y summary nativos.\n¿Qué ocurre al imprimir?\nExplicar\nPresentar la relación en lenguaje común antes del resumen visual.\nComprobar\nRevisar el render, el teclado, el contraste y la impresión.\nDesde la autoría\nLa API debe decir qué parámetros son obligatorios y qué anidamiento admite.\nDesde la lectura\nVolver al inicio\n\nTarjeta con imagen e icono decorativos.\n\nIr a referencias\n\nTarjeta sin color editorial explícito.\n\nExplicar\nrelación y límite\nComponer\nHTML semántico\nVerificar\nrender y fallback\nLa misma relación se compone de manera horizontal y vertical según el ancho disponible.\nReferencias\nContrato local de la biblioteca de componentes, versión 1.\n↑",
+        "brokenImages": [],
+        "cookies": "",
+        "localStorageKeys": [
+          "appearance"
+        ],
+        "printFallbackVisible": false,
+        "keyboard": {
+          "acordeon": "opened-with-space",
+          "pestanas": "opened-with-space"
+        },
+        "axe": [],
+        "externalRequests": 0,
+        "httpWrites": 0,
+        "consoleErrors": 0
+      }
+    ],
+    "print": {
+      "printBodies": [
+        {
+          "text": "¿El contenido existe sin JavaScript?\n  Sí. El cuerpo usa details y summary nativos.",
+          "display": "block",
+          "height": 55.09375
+        },
+        {
+          "text": "¿Qué ocurre al imprimir?\n  Los paneles cerrados se muestran para conservar la lectura completa.",
+          "display": "block",
+          "height": 54.59375
+        },
+        {
+          "text": "Desde la autoría\n        La API debe decir qué parámetros son obligatorios y qué anidamiento admite.",
+          "display": "block",
+          "height": 85.296875
+        },
+        {
+          "text": "Desde la lectura\n        El significado debe permanecer disponible en móvil, impresión y ausencia de script.",
+          "display": "block",
+          "height": 84.296875
+        }
+      ],
+      "headerDisplay": "none",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "screenshot": "print.webp",
+      "screenshotBytes": 68180
+    },
+    "referencesRerender": {
+      "status": "pass",
+      "wallMs": 4021,
+      "source": "temporary-copy"
+    },
+    "warnings": [
+      "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
+      "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
+      "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
+      "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead.",
+      "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead."
+    ],
+    "unexpectedWarnings": [],
+    "serverOutputTail": "m/nunocoracao/blowfish/v2/package.json, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/_vendor/github.com/nunocoracao/blowfish/v2/static, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/_vendor/github.com/nunocoracao/blowfish/v2/tailwind.config.js, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/archetypes, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/assets/{css,figures,images}, ... and 5 more\nWatching for config changes in /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/hugo.toml, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/_vendor/github.com/nunocoracao/blowfish/v2/config.toml, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/_vendor/github.com/nunocoracao/blowfish/v2/config/_default, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/go.mod\nStart building sites … \nhugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │  12 \n Paginator pages  │   0 \n Non-page files   │   2 \n Static files     │ 722 \n Processed images │   0 \n Aliases          │   1 \n Cleaned          │   0 \n\nBuilt in 59 ms\nEnvironment: \"development\"\nServing pages from memory\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1) \nPress Ctrl+C to stop\n\nChange detected, rebuilding site (#1).\n2026-08-26 00:35:39.589 -0600\nSource changed /componentes/index.md\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1)\nTotal in 5 ms\n",
+    "summary": {
+      "renders": 3,
+      "keyboardChecks": 6,
+      "axeBlockingViolations": 0,
+      "externalRequests": 0,
+      "httpWrites": 0,
+      "consoleErrors": 0
+    }
+  },
+  "gates": {
+    "commit": false,
+    "push": false,
+    "publication": false,
+    "deployment": false,
+    "moodle": false,
+    "hermes": false
+  }
+}

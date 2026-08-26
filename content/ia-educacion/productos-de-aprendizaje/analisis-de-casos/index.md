@@ -170,8 +170,8 @@ disciplinares o casos global-local.
 - Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — comparte la rúbrica de proceso y la lógica argumentativa.
 - Guía pedagógica: [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
 
-## Fuente de esta guía
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guía Interactiva de Análisis de Casos (Global-Local)**
-elaborada con apoyo de IA generativa (6 fases), integrando el marco Bloom y la
-rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

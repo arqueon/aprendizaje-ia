@@ -1,1 +1,17 @@
-<li><span class="alm-paso-titulo">{{ .Get "titulo" }}</span>{{ .Inner | markdownify }}</li>
+{{- if not .Parent -}}
+  {{- errorf "Shortcode paso: solo puede usarse dentro de proceso en %s" .Position -}}
+{{- else if ne .Parent.Name "proceso" -}}
+  {{- errorf "Shortcode paso: requiere proceso como padre; recibió %q en %s" .Parent.Name .Position -}}
+{{- end -}}
+{{- $title := strings.TrimSpace (.Get "titulo" | default "") -}}
+{{- if not $title -}}
+  {{- errorf "Shortcode paso: titulo es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode paso: requiere contenido en %s" .Position -}}
+{{- end -}}
+<li data-udgia-component="paso">
+  <span class="alm-paso-titulo">{{ $title }}</span>
+  {{- $inner | markdownify -}}
+</li>

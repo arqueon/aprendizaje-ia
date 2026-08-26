@@ -1,1 +1,13 @@
-<aside class="alm-parallevar"><span class="alm-kicker">Para llevar</span>{{ .Inner | markdownify }}</aside>
+{{- $title := .Get "titulo" | default "Para llevar" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode parallevar: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- $titleID := printf "alm-parallevar-%d" .Ordinal -}}
+<aside
+  class="alm-parallevar alm-componente"
+  aria-labelledby="{{ $titleID }}"
+  data-udgia-component="parallevar">
+  <span class="alm-kicker" id="{{ $titleID }}">{{ $title }}</span>
+  {{- $inner | markdownify -}}
+</aside>

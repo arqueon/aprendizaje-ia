@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-23",
+  "status": "pre-edit rollback",
+  "files": [
+    {
+      "path": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
+      "sha256": "dacc2bce3ae02800327ffddd65aa9ce32c7f605f8aa6fcc299922f0ae210d868",
+      "bytes": 5053
+    },
+    {
+      "path": "content/recursos/videos/sal-khan-ia-educacion.md",
+      "sha256": "c528d16f16134acdb857d58e3d1133141e4ed69deae2a42d34e1a79755327cf9",
+      "bytes": 2103
+    },
+    {
+      "path": "content/recursos/glosario/_index.md",
+      "sha256": "1a56f61fd5f5f3b7f054aca00138fd0e9a29ae5bd8495065e79d645433437aa5",
+      "bytes": 1890
+    },
+    {
+      "path": "content/recursos/glosario/agentes-de-ia/index.md",
+      "sha256": "c2e8d3664e23037b19c73c79ef378d13d308b5e29cbfc68c4565563bae6b33e5",
+      "bytes": 1541
+    }
+  ]
+}

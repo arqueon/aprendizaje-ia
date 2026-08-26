@@ -103,7 +103,7 @@ Sobre la base del panorama internacional, tres orientaciones operativas:
 
 El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) sostiene los principios; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) ofrecen las decisiones operativas; la [política de IA UdeG](/recursos/politica-ia-udeg/) traduce ambos al contexto institucional propio.
 
-## Referencias
+{{< referencias >}}
 
 Jiang, F. (2025). Exploring the effectiveness of institutional policies and regulations for generative AI usage in higher education. *Higher Education Quarterly*. https://doi.org/10.1111/hequ.70054
 
@@ -112,3 +112,5 @@ Russell Group. (2023). *Russell Group principles on the use of generative AI too
 Thesify AI. (2025). *Generative AI policies at the world's top universities: October 2025 update*. Thesify. https://www.thesify.ai/blog/gen-ai-policies-update-2025
 
 Wilson, T. D. (2025). The development of policies on generative artificial intelligence in UK universities. *Library and Information Research*. https://doi.org/10.1177/03400352251333796
+
+{{< /referencias >}}

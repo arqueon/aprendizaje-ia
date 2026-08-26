@@ -1,15 +1,14 @@
 ---
-title: "Tutoriales de herramientas IA para docentes (curaduría)"
+title: "Fuentes audiovisuales para docentes: curaduría verificada"
 date: 2026-04-26
 draft: false
-description: "Curaduría comentada de canales y series de tutoriales en YouTube sobre herramientas de IA aplicadas al trabajo docente, ordenados por idioma y nivel."
-summary: "Cinco fuentes de video con calidad sostenida para docentes que prefieren aprender por video antes que por texto. Selección con criterio pedagógico, no por popularidad."
+description: "Tres destinos comprobables con videos, webinars o cursos sobre IA para docentes, indicando idioma, alcance y forma de uso."
+summary: "Elige una sola fuente según el tema que necesitas estudiar y prueba una idea sobre un material de tu asignatura."
 tags: ["tutoriales", "videos", "YouTube", "herramientas IA", "formación docente"]
 categories: ["video"]
 areas: ["ia", "digital", "formacion"]
-
 showHero: false
-showTableOfContents: false
+showTableOfContents: true
 showReadingTime: false
 showDate: true
 showTaxonomies: true
@@ -17,59 +16,54 @@ showRelatedContent: true
 showBreadcrumbs: true
 showSummary: true
 showAuthor: false
-
-videoCanal: "Múltiples"
-videoIdioma: "es / en"
+resourceType: "curaduría de fuentes audiovisuales"
+resourceLanguage: "en"
 ---
 
 {{< alert icon="link" cardColor="#e0f2fe" >}}
-Curaduría de fuentes externas — los enlaces se abren en una nueva pestaña.
+Los tres destinos de esta página fueron comprobados el 23 de agosto de 2026. Se abren en sitios externos.
 {{< /alert >}}
 
-**Sobre la curaduría:** Esta página recoge cinco canales o series de YouTube útiles para docentes que prefieren aprender por video. La selección no se hizo por popularidad sino por dos criterios: pertinencia pedagógica (no solo demostración técnica) y mantenimiento sostenido (no canales abandonados después de un mes). Las opciones se ordenan por idioma y nivel, no por preferencia.
+{{< lead >}}
+Usa esta curaduría cuando prefieras aprender mediante demostraciones o sesiones grabadas. Elige una fuente por vez, empieza con una pregunta de tu asignatura y termina con una prueba sobre un material propio.
+{{< /lead >}}
 
-## En español
+## Tres fuentes con destino comprobable
 
-### IGNITE Capacitaciones (Latinoamérica)
+### AI for Education
 
-Canal del programa IGNITE para docentes hispanohablantes con enfoque específico en integración de IA en aula. Los tutoriales son cortos (10-15 minutos) y prácticos. Útil para docentes que están empezando.
+- **Formato:** biblioteca de webinars, grabaciones y recursos para docentes.
+- **Idioma:** inglés.
+- **Alcance:** alfabetización en IA, evaluación, reglas institucionales y adopción responsable; buena parte del material parte de contextos escolares, por lo que hay que revisar qué puede trasladarse a educación superior.
+- **Úsala cuando:** necesites comparar enfoques para una conversación docente o una formación interna.
+- **Destino:** [AI for Education](https://www.aiforeducation.io/).
 
-URL: [Buscar en YouTube: IGNITE Capacitaciones IA docentes]
+### Prompt Engineering, canal de YouTube
 
-### UDGplus + Google AI (UdeG)
+- **Formato:** canal con explicaciones y demostraciones sobre modelos, instrucciones y herramientas.
+- **Idioma:** inglés.
+- **Alcance:** más técnico que pedagógico. Los videos sobre herramientas pueden quedar desactualizados; revisa la fecha y la interfaz antes de usarlos en una clase.
+- **Úsalo cuando:** necesites entender una función antes de decidir si tiene sentido pedagógico.
+- **Destino:** [Prompt Engineering en YouTube](https://www.youtube.com/@engineerprompt).
 
-Serie de talleres grabados desde marzo de 2026 dentro del programa institucional. Material que la propia UdeG produjo para sus docentes; cubre integración de Gemini con Workspace for Education en contextos de aula real. La articulación con la oferta institucional lo hace especialmente pertinente para docentes UdeG.
+### Code.org / CodeAI: AI 101 for Educators
 
-URL: Consultar canal institucional de UDGplus
+- **Formato:** curso gratuito de cinco módulos y series de video.
+- **Idioma:** inglés.
+- **Alcance:** está diseñado principalmente para profesorado escolar. Los módulos sobre funcionamiento, sesgo, privacidad y revisión de respuestas pueden adaptarse a formación universitaria; los ejemplos de nivel escolar no deben copiarse sin ajuste.
+- **Úsalo cuando:** necesites una secuencia introductoria sobre cómo funciona la IA y qué revisar antes de llevarla al aula.
+- **Destino:** [AI 101 for Educators](https://code.org/en-US/professional-learning/artificial-intelligence-101).
 
-## En inglés
+## Cómo trabajar con una fuente
 
-### AI for Education (canal y newsletter)
+1. Escribe una pregunta concreta antes de abrir el recurso.
+2. Elige un video, webinar o módulo que responda a esa pregunta.
+3. Anota el minuto o apartado donde aparece la idea que quieres probar.
+4. Prueba esa idea sobre una actividad, texto o tabla que ya utilices.
+5. Conserva el antes y el después, y anota qué revisarás con tu grupo.
 
-Canal mantenido por especialistas en formación docente con IA. Series específicas sobre evaluación con IA, diseño de actividades y casos de aula. Calidad sostenida durante más de dos años.
-
-URL: [AI for Education](https://www.aiforeducation.io)
-
-### EngineerPrompt (Muhammad)
-
-Canal de YouTube mantenido por un AI/ML Expert con doctorado y reconocimiento Google Developer Expert. Foco más técnico que pedagógico, útil para docentes que quieren entender cómo funcionan los modelos antes de usarlos.
-
-URL: [EngineerPrompt en YouTube](https://www.youtube.com/@engineerprompt)
-
-### TeachAI (Code.org Foundation)
-
-Iniciativa con material en video sobre integración de IA en educación K-12 y, parcialmente, en educación superior. La calidad varía pero las series sobre marcos éticos y aprendizaje en grupos pequeños son sólidas.
-
-URL: [TeachAI](https://www.teachai.org)
-
-## Cómo aprovechar el video sin perderse
-
-Tres orientaciones operativas para que el aprendizaje por video sea efectivo:
-
-- **Una serie a la vez.** Saltar entre canales sin completar una serie produce dispersión. Mejor terminar una y evaluar antes de empezar la siguiente.
-- **Tomar notas operativas, no aspiracionales.** Lo útil no es lo que el video promete, sino lo que el docente puede implementar mañana en su asignatura.
-- **Probar cada técnica en una tarea propia.** El aprendizaje se consolida cuando se traduce a la práctica. Sin práctica, el video es entretenimiento informado.
+No basta con terminar una lista de reproducción. La fuente sirve si te permite explicar qué cambiaste, qué no trasladarás a tu contexto y cómo comprobarás la decisión.
 
 ## Lecturas relacionadas
 
-El [video de Sal Khan](/recursos/videos/sal-khan-ia-educacion/) ofrece la perspectiva sobre el rol del docente en la era de IA; el [curso completo de Learn Prompting](/recursos/videos/learn-prompting-curso-completo/) cubre la dimensión técnica de la ingeniería de prompts; la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) ofrece una versión escrita adaptada al contexto pedagógico.
+La [charla de Sal Khan](/recursos/videos/sal-khan-ia-educacion/) sirve para abrir una conversación sobre tutoría y rol docente. La [guía de Learn Prompting](/recursos/videos/learn-prompting-curso-completo/) permite practicar el diseño de instrucciones. Para una versión situada en la docencia universitaria, consulta la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/).

@@ -3,7 +3,7 @@ title: "Redes y comunidades"
 date: 2026-03-17
 description: "Comunidades de práctica, redes docentes y espacios de intercambio para el aprendizaje colaborativo sobre tecnología educativa e IA."
 summary: "El aprendizaje docente más duradero ocurre en comunidad: por qué importan las redes de práctica y cómo se sostienen."
-weight: 3
+weight: 18
 showHero: true
 showBreadcrumbs: true
 showSummary: true
@@ -34,8 +34,16 @@ Las comunidades funcionan porque cubren tres necesidades que ningún curso forma
 
 ## Cómo participar sin saturarse
 
-La participación sostenida en redes requiere disciplina, no entusiasmo. Conviene seleccionar pocas comunidades donde la interacción sea efectivamente útil y descartar el resto. Una rutina semanal corta —30 minutos para revisar lo que se compartió, una intervención propia al mes— suele rendir más que la presencia compulsiva en muchas redes.
+La participación sostenida en redes requiere disciplina, no entusiasmo. Conviene seleccionar pocas comunidades donde la interacción sea efectivamente útil y descartar el resto.
+
+{{< practica titulo="Una rutina sostenible" >}}
+Treinta minutos a la semana para revisar lo que se compartió y una intervención propia al mes suelen rendir más que la presencia compulsiva en muchas redes. Si al cabo de un mes una comunidad no ha aportado un caso, una plantilla o una objeción utilizable, conviene dejarla.
+{{< /practica >}}
 
 ## Lecturas relacionadas
 
-La participación en redes se nutre de lo que el docente ya documenta de su propia práctica. Por eso conviene articular esta sección con [experiencias documentadas en aula](/laboratorio/experiencias/) y con la [formación continua](/formacion-docente/formacion-continua/) que sostiene la actualización temática.
+La participación en redes se nutre de lo que el docente ya documenta de su propia práctica. Por eso conviene articular esta sección con la [documentación de la propia práctica](/observatorio/guias/documentacion-buenas-practicas-ia/) y con la [formación continua](/formacion-docente/formacion-continua/) que sostiene la actualización temática.
+
+{{< referencias >}}
+- Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
+{{< /referencias >}}

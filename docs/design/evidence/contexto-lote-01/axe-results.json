@@ -1,0 +1,50 @@
+[
+  {
+    "name": "guias",
+    "mode": "desktop",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "rutas",
+    "mode": "desktop",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "laboratorio",
+    "mode": "desktop",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "practicas",
+    "mode": "desktop",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "guias",
+    "mode": "mobile",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "rutas",
+    "mode": "mobile",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "laboratorio",
+    "mode": "mobile",
+    "status": 200,
+    "violations": []
+  },
+  {
+    "name": "practicas",
+    "mode": "mobile",
+    "status": 200,
+    "violations": []
+  }
+]

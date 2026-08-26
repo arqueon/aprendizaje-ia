@@ -1,0 +1,21 @@
+{
+  "snapshot_date": "2026-08-23",
+  "files": [
+    {
+      "path": "content/ia-educacion/guias/_index.md",
+      "sha256": "a002c3a02171194e69f056ee57878437e4620d2e6fdd35a561b3ddfcebe957f1"
+    },
+    {
+      "path": "content/ia-educacion/rutas/_index.md",
+      "sha256": "ab31593c50c775ffe2a58ebec73b40f7e8867821c79a0cd4109ea975791dcf05"
+    },
+    {
+      "path": "content/laboratorio/_index.md",
+      "sha256": "643d0dc949e6ef5f2d66f5dd884bf0b55fe1cf8003a75d7250e8ed91ad26b154"
+    },
+    {
+      "path": "content/laboratorio/practicas/_index.md",
+      "sha256": "3f0525ef524bcffc68ff6dad9e89ff460aaf49895f0dc4579c4d99bec6c3eb64"
+    }
+  ]
+}

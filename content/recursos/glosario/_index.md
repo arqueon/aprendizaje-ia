@@ -1,7 +1,7 @@
 ---
 title: "Glosario de términos"
-description: "Definiciones breves y conceptos clave sobre el cruce entre pedagogía, aprendizaje digital e inteligencia artificial."
-summary: "Vocabulario operativo del sitio: 20 entradas que sirven de referencia rápida para los artículos del resto de la sección."
+description: "Definiciones breves para reconocer cómo usa el sitio conceptos de pedagogía, aprendizaje digital e inteligencia artificial."
+summary: "20 entradas para aclarar un término, distinguirlo de conceptos cercanos y volver al texto donde aparece."
 date: 2026-04-26
 weight: 6
 layout: "list"
@@ -16,16 +16,30 @@ cascade:
   showHero: true
 ---
 
-Cada entrada explica un concepto en 100 a 200 palabras: la definición operativa que se usa a lo largo del sitio, su origen y al menos una referencia interna donde se aplica. No reemplaza la lectura de los artículos largos —donde los conceptos se discuten con sus tensiones y matices—, sino que ofrece un anclaje rápido para volver al texto principal sin perder el hilo.
+Si enseñas, estudias o diseñas materiales, abre este glosario cuando un término interrumpa la lectura o cuando necesites distinguir dos conceptos parecidos. Cada entrada ofrece una definición breve según el uso que recibe en el sitio. Algunas añaden un ejemplo, una diferencia útil o una lectura relacionada.
+
+Las entradas no reemplazan las guías y artículos largos. Su función es resolver una duda puntual y ayudarte a volver al texto principal.
 
 ## Cómo está organizado
 
-Las entradas se agrupan por tres ejes que también funcionan como filtro de la taxonomía `areas` del sitio:
+Las veinte entradas se agrupan en tres ejes:
 
-- **Conceptos pedagógicos** — aprendizaje activo, aprendizaje basado en problemas, aula invertida, taxonomía de Bloom, diseño inverso, evaluación auténtica, pensamiento crítico, descarga cognitiva, aprendizaje transformativo.
-- **Conceptos digitales y de modalidad** — aprendizaje digital, aprendizaje híbrido, modelo SAMR.
-- **Conceptos de IA y ética** — IA generativa, agentes de IA, tutor inteligente, ingeniería de prompts, alfabetización en IA, sesgo algorítmico, integridad académica.
+- **Pedagogía:** aprendizaje activo, aprendizaje basado en problemas, aula invertida, taxonomía de Bloom, diseño inverso, evaluación auténtica, pensamiento crítico, descarga cognitiva, ganancia cognitiva y aprendizaje transformativo.
+- **Aprendizaje digital y modalidades:** aprendizaje digital, aprendizaje híbrido y modelo SAMR.
+- **IA y ética:** IA generativa, agentes de IA, tutor inteligente, ingeniería de prompts, alfabetización en IA, sesgo algorítmico e integridad académica.
 
-## Cómo usarlo
+## Cómo usar una entrada
 
-El glosario se actualiza junto con los artículos. Cada vez que un artículo introduce un término nuevo o lo redefine, la entrada del glosario se ajusta para reflejarlo. Si encuentras una contradicción entre un artículo y su entrada, gana el artículo: el glosario está pensado como puerta de entrada, no como autoridad.
+{{< proceso >}}
+  {{< paso titulo="Lee la definición situada" >}}
+  Revisa la definición y el ejemplo o contraste, cuando exista.
+  {{< /paso >}}
+  {{< paso titulo="Contrasta el sentido" >}}
+  Comprueba si el término se usa con el mismo sentido en el artículo del que vienes.
+  {{< /paso >}}
+  {{< paso titulo="Vuelve al contexto amplio" >}}
+  Sigue la referencia relacionada si tu decisión necesita contexto, límites o un procedimiento completo.
+  {{< /paso >}}
+{{< /proceso >}}
+
+Si una entrada contradice un artículo, no elijas automáticamente el texto más largo. Revisa la fecha, las fuentes y el contexto de cada página, y señala la contradicción para corregirla. El glosario se actualiza junto con los artículos, pero una definición breve también puede quedar desactualizada.

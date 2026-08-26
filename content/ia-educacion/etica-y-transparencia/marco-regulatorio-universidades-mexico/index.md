@@ -88,7 +88,7 @@ Las [sugerencias para una política de IA en la UdeG](/recursos/politica-ia-udeg
 
 El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) dialoga con este panorama regulatorio; los [lineamientos UNESCO](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrecen el contraste internacional; las [sugerencias éticas](/ia-educacion/guias/lineamientos-eticos-ia/) llevan ambos a decisiones de aula.
 
-## Referencias
+{{< referencias >}}
 
 ANUIES. (2024). *Inteligencia artificial en la educación superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*. Asociación Nacional de Universidades e Instituciones de Educación Superior. https://www.anuies.mx
 
@@ -97,3 +97,5 @@ Comité ANUIES-TIC. (2024). *Gobernanza de la inteligencia artificial en la educ
 Cámara de Diputados. (2021). *Ley General de Educación Superior*. Diario Oficial de la Federación. https://www.diputados.gob.mx/LeyesBiblio/pdf/LGES_200421.pdf
 
 UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+
+{{< /referencias >}}

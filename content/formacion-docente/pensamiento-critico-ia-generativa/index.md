@@ -8,7 +8,7 @@ tags: ["pensamiento crítico", "IA generativa", "alfabetización", "diseño did�
 categories: ["guia"]
 areas: ["pedagogia", "ia", "formacion"]
 
-weight: 11
+weight: 14
 showHero: true
 heroStyle: "background"
 showBreadcrumbs: true
@@ -30,7 +30,9 @@ La AAC&U (2009) define el pensamiento crítico como *"un hábito mental caracter
 
 Investigaciones recientes muestran que el efecto de la IA sobre el pensamiento crítico no es lineal. Lee et al. (2025) reportan que el uso intensivo de IA generativa entre profesionales se asocia con una reducción del esfuerzo cognitivo en tareas donde los modelos producen respuestas confiables, lo que llaman *cognitive offloading*. Pero estudios más recientes en educación superior matizan ese hallazgo: cuando los estudiantes desarrollan competencia en el uso de IA, el pensamiento crítico se fortalece, no se erosiona (Wang et al., 2025; Daniel & Roca, 2025). El factor diferencial no es la herramienta sino la mediación pedagógica que la rodea.
 
+{{< idea titulo="Dónde se decide el efecto" >}}
 Lo que esto significa para el aula es directo: si la IA llega sin rediseño didáctico, los estudiantes terminan delegando juicio al modelo. Si llega acompañada de tareas que obligan a evaluar la salida, comparar con otras fuentes y documentar decisiones, el efecto se invierte.
+{{< /idea >}}
 
 ## Cuatro disposiciones que la IA pone a prueba
 
@@ -51,7 +53,7 @@ En lugar de pedir una sola respuesta, pedir dos respuestas opuestas a la IA y ex
 
 ### 2. Activar el abogado del diablo
 
-Una práctica que ya está documentada en la sección de [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/) muestra cómo usar al modelo para anticipar contra-argumentos a la propia postura. El estudiante no recibe respuestas; recibe objeciones que tiene que responder.
+Una actividad propuesta en la sección de [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/) muestra cómo usar al modelo para anticipar contra-argumentos a la propia postura. El estudiante no recibe respuestas; recibe objeciones que tiene que responder.
 
 ### 3. Trazabilidad obligatoria
 
@@ -65,11 +67,13 @@ Al final de una unidad, pedir al estudiante que revise sus propias interacciones
 
 Los indicadores de que un estudiante está desarrollando pensamiento crítico en presencia de IA son comportamentales, no discursivos. Conviene mirarlos con calma:
 
+{{< practica titulo="Qué mirar en las entregas" >}}
 - Repregunta cuando una salida le suena bien pero no le suena justa.
 - Distingue entre lo que la IA "sabe" y lo que la IA infiere.
 - Reformula prompts cuando la primera respuesta es vaga o tendenciosa.
 - Cita la IA explícitamente, sin maquillarla como propia, y sin disculparse por usarla.
 - Detecta cuándo la IA se equivocó, sin esperar a que el docente lo señale.
+{{< /practica >}}
 
 Cuando estos comportamientos aparecen en evaluaciones consecutivas, la disposición se está volviendo hábito.
 
@@ -77,8 +81,7 @@ Cuando estos comportamientos aparecen en evaluaciones consecutivas, la disposici
 
 Para el lado normativo, ver los [principios de alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/). Para el lado práctico, las [prácticas documentadas de análisis de sesgos](/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/) ofrecen un caso de aula completo. La entrada de glosario sobre [pensamiento crítico](/recursos/glosario/pensamiento-critico/) sintetiza la definición operativa.
 
-## Referencias
-
+{{< referencias >}}
 Association of American Colleges and Universities. (2009). *Critical thinking VALUE rubric*. AAC&U. https://www.aacu.org/value/rubrics/value-rubrics-critical-thinking
 
 Daniel, B., & Roca, S. (2025). Can generative AI revolutionise academic skills development in higher education? A systematic literature review. *European Journal of Education*. https://doi.org/10.1111/ejed.70036
@@ -88,3 +91,4 @@ Lee, H. P., Sarkar, A., Tankelevitch, L., Drosos, I., Rintel, S., Banks, R., & W
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 
 Wang, J., Liu, Y., & Chen, X. (2025). The chain mediating role of critical thinking and AI self-efficacy in GenAI usage competence and engineering students' creativity. *Scientific Reports*, 15. https://doi.org/10.1038/s41598-025-21132-0
+{{< /referencias >}}

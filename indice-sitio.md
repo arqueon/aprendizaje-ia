@@ -92,7 +92,7 @@ Sección prioritaria del sitio.
 
 - [ ] Estudios, encuestas y hallazgos (hub) — `observatorio/estudios/_index.md`
 - [ ] Creatividad humana e inteligencia artificial: más allá del antropocentrismo — `observatorio/estudios/creatividad-humana-ia/`
-- [ ] Encuesta DEC 2026 — IA en educación superior — `observatorio/estudios/encuesta-dec-2026.md`
+- [ ] Encuesta DEC 2026 — IA en educación superior — `observatorio/estudios/encuesta-dec-2026/`
 - [ ] Habitar la IA: técnica, cultura y aprendizaje con Simondon — `observatorio/estudios/habitar-ia-simondon/`
 - [ ] La paradoja de la descarga cognitiva en el aprendizaje — `observatorio/estudios/paradoja-descarga-cognitiva/`
 
@@ -134,20 +134,16 @@ Sección prioritaria del sitio.
 - [ ] Sal Khan: la IA en el aula podría ser el mayor cambio educativo de la historia — `recursos/videos/sal-khan-ia-educacion.md`
 - [ ] Tutoriales de herramientas IA para docentes (curaduría) — `recursos/videos/tutoriales-herramientas-ia-docentes.md`
 
-### 4.3 Links relevantes — `recursos/links/`
+### 4.3 Recursos externos seleccionados — `recursos/links/`
 
-- [ ] Links relevantes (hub) — `recursos/links/_index.md`
-- [ ] AI for Education Toolkit — UNESCO — `recursos/links/ai-for-education-toolkit.md`
+- [ ] Recursos externos seleccionados (hub) — `recursos/links/_index.md`
+- [ ] Inteligencia artificial en la educación — UNESCO — `recursos/links/ai-for-education-toolkit/`
 - [ ] Digital Education Outlook 2026 — OCDE — `recursos/links/ocde-ia-educacion/`
 - [ ] Marco de competencias de IA para docentes — UNESCO — `recursos/links/unesco-marco-competencias-docentes-ia/`
+- [ ] Redes y espacios para compartir prácticas docentes con IA — `recursos/links/comunidades-practica-docente-ia/`
+- [ ] Políticas de IA para el syllabus: ejemplos internacionales — `recursos/links/syllabus-internacionales-ia/`
 
-### 4.4 Recursos externos — `recursos/externas/`
-
-- [ ] Recursos externos (hub) — `recursos/externas/_index.md`
-- [ ] Comunidades de práctica docente con IA — `recursos/externas/comunidades-practica-docente-ia/`
-- [ ] Syllabus universitarios con IA: ejemplos internacionales — `recursos/externas/syllabus-internacionales-ia/`
-
-### 4.5 Recursos institucionales — `recursos/institucionales/`
+### 4.4 Recursos institucionales — `recursos/institucionales/`
 
 - [ ] Recursos institucionales para IA en educación — `recursos/institucionales/`
 

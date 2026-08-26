@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo realizar un trabajo de metrología con apoyo formativo de IAG, evaluando fuentes de incertidumbre, patrones de error y coherencia del reporte de medición."
 summary: "Metrología con IAG: fuentes de incertidumbre según GUM, lectura de patrones de error sistemático/aleatorio y coherencia entre incertidumbre, trazabilidad y resolución. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Dos manos miden un anillo con calibrador junto a un micrómetro, bloques patrón y piezas repetidas."
 tags: ["producto-aprendizaje", "bloom-4", "rubrica-iag", "ingeniería", "metrología", "incertidumbre", "calidad"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -133,7 +134,8 @@ medición, metrología dimensional o eléctrica.
 - Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — uso de mediciones para caracterización.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del resultado.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

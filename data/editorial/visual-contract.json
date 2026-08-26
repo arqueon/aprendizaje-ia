@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "effectiveDate": "2026-08-23",
+  "policy": {
+    "ownFeaturedRequired": true,
+    "heroVisibleByDefault": true,
+    "cardsShowDestinationFeatured": true,
+    "visualRequiredInEveryPublicPage": true,
+    "svgRequiredInEveryActivity": true,
+    "svgExceptionRequiresJustification": true,
+    "svgReusePreferredBeforeNew": true,
+    "interactionPreference": "H5P o HTML solo cuando habilita observación, comparación, decisión o práctica significativa; no como adorno."
+  },
+  "temporaryFallback": "images/featured/default-almagre.svg",
+  "missingFeatured": [
+    "about.md",
+    "ia-educacion/investigacion/index.md",
+    "ia-educacion/orientaciones/index.md",
+    "ia-educacion/practicas/bitacora-cocreacion/index.md",
+    "ia-educacion/practicas/comprobar-afirmacion/index.md",
+    "laboratorio/h5p-runtime/index.md",
+    "licencia/index.md",
+    "recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+    "recursos/glosario/ganancia-cognitiva/index.md",
+    "recursos/videos/learn-prompting-curso-completo.md",
+    "recursos/videos/sal-khan-ia-educacion.md",
+    "recursos/videos/tutoriales-herramientas-ia-docentes.md"
+  ],
+  "hiddenHero": [
+    "formacion-docente/aprendizaje-activo/index.md",
+    "formacion-docente/aprendizaje-hibrido/index.md",
+    "formacion-docente/modelos-samr-icap/index.md",
+    "formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+    "ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
+    "ia-educacion/guias/agenciamiento-humano-ia/index.md",
+    "ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md",
+    "ia-educacion/guias/estudiantes/index.md",
+    "ia-educacion/guias/privacidad-datos-ia/index.md",
+    "ia-educacion/investigacion/index.md",
+    "ia-educacion/orientaciones/index.md",
+    "ia-educacion/practicas/bitacora-cocreacion/index.md",
+    "ia-educacion/practicas/comprobar-afirmacion/index.md",
+    "recursos/glosario/modelo-samr/index.md",
+    "recursos/glosario/taxonomia-de-bloom/index.md",
+    "recursos/videos/learn-prompting-curso-completo.md",
+    "recursos/videos/sal-khan-ia-educacion.md",
+    "recursos/videos/tutoriales-herramientas-ia-docentes.md"
+  ],
+  "note": "Deuda heredada con reducción obligatoria. Una página resuelta debe eliminarse de esta lista en el mismo cambio; no se permiten entradas nuevas."
+}

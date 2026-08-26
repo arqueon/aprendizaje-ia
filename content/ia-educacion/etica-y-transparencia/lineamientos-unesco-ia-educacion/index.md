@@ -86,10 +86,12 @@ Ningún documento UNESCO se aplica sin mediación local. Para una universidad p�
 
 El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) traduce los principios UNESCO al contexto mexicano y universitario; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) operacionalizan las decisiones cotidianas. La pieza sobre [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) detalla el principio que más cuesta operar.
 
-## Referencias
+{{< referencias >}}
 
 UNESCO. (2021). *Recommendation on the ethics of artificial intelligence*. UNESCO. https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence
 
 UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
 
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
+
+{{< /referencias >}}

@@ -172,18 +172,10 @@
       <section class="w-full grid gap-4 sm:grid-cols-2" aria-label="Conexiones recomendadas">
         {{- range first $limit $manual -}}
           {{- $label := index $labels .relation | default (humanize .relation) -}}
-          <article data-connection-source="curated" class="rounded-lg border border-neutral-300 dark:border-neutral-700 p-5 bg-neutral-50 dark:bg-neutral-800">
-            <p class="text-sm font-semibold text-primary-700 dark:text-primary-300 mb-2">{{ $label }}</p>
-            <h3 class="text-lg font-bold mt-0 mb-2"><a href="{{ .page.RelPermalink }}">{{ .page.LinkTitle }}</a></h3>
-            {{ with .reason }}<p class="text-sm mb-0">{{ . }}</p>{{ else }}{{ with .page.Params.summary }}<p class="text-sm mb-0">{{ . }}</p>{{ end }}{{ end }}
-          </article>
+          {{- partial "udgia/connection-card.html" (dict "page" .page "label" $label "reason" .reason "source" "curated") -}}
         {{- end -}}
         {{- range $automatic -}}
-          <article data-connection-source="automatic-explained" data-connection-criterion="{{ .criterion }}" class="rounded-lg border border-neutral-300 dark:border-neutral-700 p-5 bg-neutral-50 dark:bg-neutral-800">
-            <p class="text-sm font-semibold text-primary-700 dark:text-primary-300 mb-2">{{ .label }}</p>
-            <h3 class="text-lg font-bold mt-0 mb-2"><a href="{{ .page.RelPermalink }}">{{ .page.LinkTitle }}</a></h3>
-            <p class="text-sm mb-0">{{ .reason }}</p>
-          </article>
+          {{- partial "udgia/connection-card.html" (dict "page" .page "label" .label "reason" .reason "source" "automatic-explained" "criterion" .criterion) -}}
         {{- end -}}
       </section>
     </aside>

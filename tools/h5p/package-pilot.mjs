@@ -38,6 +38,10 @@ function compareNames(left, right) {
   return Buffer.compare(Buffer.from(left, "utf8"), Buffer.from(right, "utf8"));
 }
 
+function isSyncBackupName(name) {
+  return /^\..+\.~[a-f0-9]+$/i.test(name);
+}
+
 function isWithin(parent, candidate) {
   const relative = path.relative(parent, candidate);
   return relative !== "" && !relative.startsWith("..") && !path.isAbsolute(relative);
@@ -88,6 +92,7 @@ async function walk(directory, base = directory) {
   const entries = await readdir(directory, { withFileTypes: true });
   const files = [];
   for (const entry of entries.sort((a, b) => compareNames(a.name, b.name))) {
+    if (isSyncBackupName(entry.name)) continue;
     const absolute = path.join(directory, entry.name);
     const relative = path.relative(base, absolute).split(path.sep).join("/");
     const stats = await lstat(absolute);

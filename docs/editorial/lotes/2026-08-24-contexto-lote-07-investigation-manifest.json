@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "lot": "2026-08-24-contexto-lote-07",
+  "generated_at": "2026-08-24T09:41:25-06:00",
+  "status": "ready-for-vobo",
+  "baseline": {
+    "active_sources": 164,
+    "active_decisions": {
+      "conservar": 11,
+      "cambiar": 34,
+      "quitar": 0
+    },
+    "pending": 119,
+    "under_review": 5,
+    "unread_after_classification": 114,
+    "excluded_concurrent_sources": [
+      "content/formacion-docente/diseno-inverso-cocreacion-ia/_index.md",
+      "content/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/index.md"
+    ]
+  },
+  "source_files": [
+    {
+      "path": "content/formacion-docente/aprendizaje-activo/index.md",
+      "sha256": "e6eaf31e25ed2de87055135a12c8a44f6681dde1e948e6c7893b50ee493c5b84"
+    },
+    {
+      "path": "content/formacion-docente/modelos-samr-icap/index.md",
+      "sha256": "16dd45705c91bdc21af46ed3548917168165990daf103dbaf4618836ff9a5d1b"
+    },
+    {
+      "path": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "sha256": "38ee6824ff47f883b2b3a4208c2ee472af1aaab044fa6fdc216e023319711287"
+    },
+    {
+      "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+      "sha256": "2bd57d238b4ccd4354edd4baa21f7646073627732cfa017d26025115aba1a022"
+    },
+    {
+      "path": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+      "sha256": "e5a1afb70171d14c48f6796c028ee9ad2f510b19d2b57f92a2b9a3399e2d110a"
+    }
+  ],
+  "dependency_files": [
+    {
+      "path": "content/formacion-docente/_index.md",
+      "sha256": "aa2d0a33a72f8d1523aa7f70850dcf950d1974fd58b174c6bf448ddd5d32418e"
+    },
+    {
+      "path": "content/recursos/comparativa-llm-pedagogica/index.md",
+      "sha256": "dc83e097be14f992995489f0041aa04629d178a0b260f864dab28d1deac32603"
+    }
+  ],
+  "proposed_decisions": {
+    "content/formacion-docente/aprendizaje-activo/index.md": "cambiar",
+    "content/formacion-docente/modelos-samr-icap/index.md": "cambiar",
+    "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md": "conservar",
+    "content/formacion-docente/evaluacion-retroalimentacion/index.md": "cambiar",
+    "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md": "cambiar"
+  },
+  "route_plan": {
+    "remove": [],
+    "aliases": [],
+    "preserve_routes": [
+      "/formacion-docente/aprendizaje-activo/",
+      "/formacion-docente/modelos-samr-icap/",
+      "/formacion-docente/taxonomia-bloom-diseno-inverso/",
+      "/formacion-docente/evaluacion-retroalimentacion/",
+      "/formacion-docente/taller-diseno-actividades-ia-backward/"
+    ]
+  },
+  "artifacts": {
+    "report": {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-diseno-actividades.md",
+      "sha256": "d7ca6e0d94902c169daa2b574cda9860ce0e4dbeeafe147d333f1b4ab07c054b"
+    },
+    "citation_ledger": {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-citations.json",
+      "sha256": "547235cadcf3f5cbb0a466227fc04401cc492d5972a88effc98ee333b726da38"
+    },
+    "incoming_reference_census": {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-07-incoming-references.json",
+      "sha256": "6a80a22c84cdbf0b6dfccfe6e92b0f96481d6adb490e8376882466a28cb6286a"
+    },
+    "independent_review": {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-sonnet-contexto-lote-07.json",
+      "sha256": "3025b8dccded15d4b3664f1b722dde1c6a24d91620818aa0211b823330c732ef"
+    },
+    "fable_api_error": {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-07-api-error.json",
+      "sha256": "f2e417f54021af287c33e7f3d22ae86ca6cdcbccedf783d3a8ddebcb4fa09411"
+    }
+  },
+  "gates": {
+    "source_and_dependency_hashes": "verified-local-7-of-7",
+    "citations": "verified-evidence-7-cited-sources-9-ledger-sources-duplicate-landings-1-and-3-uncited",
+    "independent_review": "approve-5-of-5-claude-sonnet-5",
+    "vobo": "pending",
+    "source_edits_applied": false,
+    "publication_authorized": false,
+    "fable_review": "blocked-api-429-not-counted"
+  },
+  "production_changed": false,
+  "reviews": {
+    "fable": {
+      "status": "api_error_429_before_file_read",
+      "counts_as_review": false,
+      "artifact": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-07-api-error.json"
+    },
+    "sonnet": {
+      "model": "claude-sonnet-5",
+      "verdict": "approve",
+      "checks_passed": 5,
+      "checks_total": 5,
+      "blocking_issues": [],
+      "required_changes": [],
+      "artifact": "docs/editorial/revisiones/2026-08-24-claude-sonnet-contexto-lote-07.json",
+      "minor_traceability_improvements_applied": [
+        "CAT sample and optional participation quote attached to source 8",
+        "SAMR critical review DOI registered as source 9"
+      ]
+    }
+  }
+}

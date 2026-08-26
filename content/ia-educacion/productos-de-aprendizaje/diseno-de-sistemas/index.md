@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo abordar el diseño de un sistema con apoyo formativo de IAG, evaluando arquitecturas de referencia, trade-offs y subsistemas críticos no considerados."
 summary: "Diseño de sistemas con IAG: arquitecturas de referencia, evaluación de trade-offs e identificación de subsistemas o interfaces críticas. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Dos manos comparan dos arquitecturas modulares e inspeccionan la interfaz crítica entre sus componentes."
 tags: ["producto-aprendizaje", "bloom-6", "rubrica-iag", "ingeniería", "innovación", "diseño-de-sistemas", "arquitectura"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -138,7 +139,8 @@ estructural.
 - Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre que precede al diseño.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del diseño.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

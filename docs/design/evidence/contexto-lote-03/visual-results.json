@@ -1,0 +1,157 @@
+{
+  "pages": 10,
+  "failures": 0,
+  "out": "/tmp/aprendizaje-ia-contexto-lote-03-visual",
+  "results": [
+    {
+      "name": "observatorio",
+      "viewport": "desktop",
+      "status": 200,
+      "layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/observatorio-desktop.png",
+      "failures": []
+    },
+    {
+      "name": "observatorio",
+      "viewport": "mobile",
+      "status": 200,
+      "layout": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/observatorio-mobile.png",
+      "failures": []
+    },
+    {
+      "name": "documentacion",
+      "viewport": "desktop",
+      "status": 200,
+      "layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/documentacion-desktop.png",
+      "failures": []
+    },
+    {
+      "name": "documentacion",
+      "viewport": "mobile",
+      "status": 200,
+      "layout": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/documentacion-mobile.png",
+      "failures": []
+    },
+    {
+      "name": "estudios",
+      "viewport": "desktop",
+      "status": 200,
+      "layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/estudios-desktop.png",
+      "failures": []
+    },
+    {
+      "name": "estudios",
+      "viewport": "mobile",
+      "status": 200,
+      "layout": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/estudios-mobile.png",
+      "failures": []
+    },
+    {
+      "name": "encuesta-dec",
+      "viewport": "desktop",
+      "status": 200,
+      "layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/encuesta-dec-desktop.png",
+      "failures": []
+    },
+    {
+      "name": "encuesta-dec",
+      "viewport": "mobile",
+      "status": 200,
+      "layout": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/encuesta-dec-mobile.png",
+      "failures": []
+    },
+    {
+      "name": "evaluacion-ia",
+      "viewport": "desktop",
+      "status": 200,
+      "layout": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/evaluacion-ia-desktop.png",
+      "failures": []
+    },
+    {
+      "name": "evaluacion-ia",
+      "viewport": "mobile",
+      "status": 200,
+      "layout": {
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "brokenImages": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "axe": [],
+      "screenshot": "/tmp/aprendizaje-ia-contexto-lote-03-visual/evaluacion-ia-mobile.png",
+      "failures": []
+    }
+  ]
+}

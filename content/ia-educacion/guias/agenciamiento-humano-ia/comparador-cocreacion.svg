@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1200" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Una sugerencia todavía no es una decisión</title>
+  <desc id="desc">Dos sugerencias plausibles reciben decisiones distintas. La primera se transforma para conservar una condición de validez. La segunda se comprueba con una fuente antes de revisar el argumento. La persona conserva el criterio y la responsabilidad.</desc>
+  <style>
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.primary{fill:#34508c}.olive{fill:#536326}.pale{fill:#efe7d7}.t1{font:700 42px Lora,Georgia,serif}.t2{font:700 31px Lora,Georgia,serif}.body{font:400 28px Inter,Arial,sans-serif}.small{font:600 24px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+  </style>
+  <rect class="bg" width="640" height="800"/>
+  <text class="ink t1" x="320" y="54" text-anchor="middle">Una sugerencia todavía</text>
+  <text class="ink t1" x="320" y="100" text-anchor="middle">no es una decisión</text>
+  <text class="muted body" x="320" y="138" text-anchor="middle">Compara cambio, criterio y evidencia.</text>
+
+  <g transform="translate(40 172)">
+    <rect class="paper" width="560" height="220" rx="24"/>
+    <circle class="primary" cx="50" cy="50" r="27"/>
+    <text class="white t2" x="50" y="61" text-anchor="middle">A</text>
+    <text class="ink t2" x="94" y="59">Acorta el texto</text>
+    <text class="ink body" x="28" y="112">La versión fluye, pero borra una condición.</text>
+    <rect class="pale" x="28" y="139" width="205" height="53" rx="14"/>
+    <text class="primary small" x="130" y="173" text-anchor="middle">TRANSFORMAR</text>
+    <text class="olive small" x="260" y="173">Propósito + condición</text>
+  </g>
+
+  <g transform="translate(40 426)">
+    <rect class="paper" width="560" height="220" rx="24"/>
+    <circle class="olive" cx="50" cy="50" r="27"/>
+    <text class="white t2" x="50" y="61" text-anchor="middle">B</text>
+    <text class="ink t2" x="94" y="59">Cuestiona un supuesto</text>
+    <text class="ink body" x="28" y="112">La objeción puede cambiar el argumento.</text>
+    <rect class="pale" x="28" y="139" width="205" height="53" rx="14"/>
+    <text class="olive small" x="130" y="173" text-anchor="middle">COMPROBAR</text>
+    <text class="olive small" x="260" y="173">Fuente + contexto</text>
+  </g>
+
+  <rect class="pale" x="40" y="680" width="560" height="80" rx="20" stroke="#34508c" stroke-width="2"/>
+  <text class="primary small" x="320" y="715" text-anchor="middle">La persona conserva pregunta y criterio</text>
+  <text class="ink body" x="320" y="746" text-anchor="middle">y responde por la versión final.</text>
+</svg>

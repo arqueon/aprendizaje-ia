@@ -1,0 +1,203 @@
+--- rollback/content/recursos/glosario/ganancia-cognitiva/index.md
++++ current/content/recursos/glosario/ganancia-cognitiva/index.md
+@@ -22,7 +22,7 @@
+   - relation: aplica
+     page: /ia-educacion/practicas/comprobar-afirmacion/
+     reason: "Usa la comprobación para convertir una respuesta rápida en aprendizaje transferible."
+-summary: "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo."
++summary: "Mejora observable en lo que una persona entiende, cuestiona o puede explicar después de trabajar con IA."
+ ecosistema:
+   id: outcome.ganancia-cognitiva
+   titulo: "Ganancia cognitiva"
+@@ -48,14 +48,45 @@
+   responsable:
+     rol: "Coordinación editorial IA-docencia"
+     proxima_revision: 2026-10-27
+-description: "Reverso de la descarga cognitiva: cuando la interacción con la IA, bien orientada, activa el razonamiento en lugar de sustituirlo."
++description: "Mejora observable en lo que una persona entiende, cuestiona o puede explicar después de trabajar con IA."
+ ---
+ 
+-La **ganancia cognitiva** es el reverso de la [descarga cognitiva](/recursos/glosario/descarga-cognitiva/): el efecto que produce la interacción con la IA generativa cuando está **bien orientada**. En lugar de transferir el esfuerzo intelectual al sistema, la interacción introduce formulaciones inesperadas, contraejemplos y conexiones que obligan a la persona a revisar, precisar o abandonar sus supuestos previos.
++En este sitio llamamos **ganancia cognitiva** a una mejora que la persona puede mostrar en su razonamiento después de trabajar con IA. Puede consistir en detectar un supuesto, corregir una explicación, conectar ideas o formular una pregunta más precisa. Obtener una respuesta más rápida o mejor redactada no basta.
+ 
+-Es en esos **desplazamientos** —y no en la obtención rápida de un resultado— donde se produce conocimiento genuino, y donde la IA deja de ser un atajo de razonamiento para volverse un interlocutor que **activa** el pensamiento en lugar de sustituirlo (Nasr et al., 2025).
++La diferencia con la [descarga cognitiva](/recursos/glosario/descarga-cognitiva/) está en quién conserva el trabajo de juzgar. Si la persona acepta la respuesta sin examinarla, la IA sustituye parte del esfuerzo. Si la respuesta le sirve para contrastar, verificar y revisar su propia explicación, puede haber una ganancia cognitiva. **No es automática**: depende de la tarea, de los conocimientos de la persona, de la orientación docente y de cómo se use la respuesta.
+ 
+-La ganancia cognitiva no es automática: depende de que la persona conserve la dirección del proceso y sostenga un **ciclo iterativo** —formular preguntas, leer críticamente lo que el sistema devuelve, descartar y reformular—, cuya calidad descansa en el juicio de quien lo conduce y no en el modelo (Ji et al., 2025). Por eso es inseparable de la [co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) y se hace visible al documentar el proceso, no solo el producto.
++## Ejemplo
++
++Por ejemplo, una estudiante parte de un borrador donde afirma que una política pública tuvo un único efecto. Pide a la IA un contraargumento, pero no lo copia. Contrasta la respuesta con el texto del curso, verifica una referencia y descubre que su afirmación era demasiado general. Después reescribe el párrafo y anota qué cambió y por qué.
++
++El texto final puede ser más claro, pero la mejora importante es otra: la estudiante puede explicar el supuesto que corrigió y defender la nueva versión sin depender de la conversación con la IA.
++
++## Qué hacer para buscarla
++
++1. Conserva el borrador, cálculo, explicación o pregunta inicial.
++2. Pide una objeción, un caso contrario o una explicación alternativa.
++3. Contrasta la respuesta con el material del curso y con lo que ya sabes.
++4. Verifica las afirmaciones y referencias necesarias.
++5. Reescribe con tus palabras y registra qué cambió en tu razonamiento.
++
++## Cómo comprobarla
++
++No evalúes solo el acabado del texto. Comprueba si la persona puede:
++
++- señalar una idea que mantuvo, corrigió o descartó;
++- explicar qué información justificó el cambio;
++- responder una pregunta nueva o aplicar la explicación a otro caso;
++- defender la versión revisada sin pedir a la IA que responda por ella.
++
++Si solo cambió la redacción, no hay evidencia suficiente de ganancia cognitiva.
++
++## Qué permiten afirmar los estudios citados
++
++Ji et al. (2025) realizaron un cuasiexperimento de **ocho semanas** con **36 estudiantes** de un solo curso STEM orientado al emprendimiento. El grupo con aprendizaje colaborativo apoyado por ChatGPT reunió a 21 estudiantes y el grupo de comparación, a 15. Los autores informaron que el primer grupo superó al segundo en rendimiento de aprendizaje, conciencia sobre IA y la medida de carga cognitiva; en cambio, el **grupo sin ChatGPT obtuvo mejor resultado en pensamiento crítico**. Esta formulación conserva el contraste reportado sin atribuir a la carga cognitiva una dirección que el resumen no especifica. El estudio describe una intervención concreta y no demuestra que cualquier conversación con IA produzca la misma mejora.
++
++Nasr et al. (2025) reunieron una encuesta de **40 estudiantes**, analizaron **seis conversaciones** con ChatGPT y realizaron **dos entrevistas**. La encuesta fue favorable en las fases iniciales de exploración e integración, pero neutral en la resolución. Las dos entrevistas guiadas mostraron recorridos más completos. El tamaño y el diseño del estudio permiten distinguir un uso pasivo de otro más reflexivo, pero no establecer un efecto universal.
++
++Por tanto, “ganancia cognitiva” es una síntesis editorial para nombrar un cambio que debe observarse y comprobarse en cada actividad. No es un resultado que pueda atribuirse a la herramienta por sí sola.
+ 
+ **Relacionado con:** [Descarga cognitiva](/recursos/glosario/descarga-cognitiva/) · [La paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) · [Co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/)
+ 
+--- rollback/tools/audit-hugo-content.mjs
++++ current/tools/audit-hugo-content.mjs
+@@ -1,5 +1,6 @@
+ import fs from 'node:fs';
+ import path from 'node:path';
++import { auditGlossaryIndex } from './lib/glossary-index.mjs';
+ 
+ const root = process.cwd();
+ const contentRoot = path.join(root, 'content');
+@@ -305,6 +306,17 @@
+   const declared = Number(value.match(/\b(\d+)\b/)?.[1] ?? Number.NaN);
+   return { ...check, declared, matches: declared === check.actual };
+ });
++const glossaryIndexDocument = documents.find((document) => (
++  document.relativePath === 'recursos/glosario/_index.md'
++));
++const glossaryEntryTitles = documents
++  .filter((document) => /^recursos\/glosario\/[^/]+\/index\.md$/.test(document.relativePath))
++  .map((document) => document.metadata.title)
++  .filter(Boolean);
++const glossaryIndexCheck = auditGlossaryIndex(
++  glossaryIndexDocument?.body ?? '',
++  glossaryEntryTitles,
++);
+ 
+ const report = {
+   snapshot_date: snapshotDate,
+@@ -350,6 +362,7 @@
+   duplicate_titles: duplicateTitles,
+   possible_overlaps: similarities.slice(0, 50),
+   declared_count_checks: declaredCountChecks,
++  glossary_index_check: glossaryIndexCheck,
+   orphan_featured_assets: orphanFeaturedAssets,
+   pages,
+ };
+@@ -393,6 +406,15 @@
+       failures.push(`${check.path}: declara ${check.declared} y contiene ${check.actual}`);
+     }
+   }
++  if (!report.glossary_index_check.matches) {
++    const check = report.glossary_index_check;
++    failures.push([
++      'recursos/glosario/_index.md no coincide con sus entradas',
++      `faltan: ${check.missing.join('|') || 'ninguna'}`,
++      `desconocidas: ${check.unknown.join('|') || 'ninguna'}`,
++      `repetidas: ${check.duplicates.join('|') || 'ninguna'}`,
++    ].join('; '));
++  }
+   if (failures.length > 0) {
+     console.error(`Inventario desactualizado o inválido: ${failures.join(', ')}`);
+     process.exit(1);
+--- rollback/package.json
++++ current/package.json
+@@ -18,6 +18,7 @@
+     "qa:routes-tables": "node tools/qa-routes-tables.mjs",
+     "content:inventory": "node tools/audit-hugo-content.mjs",
+     "qa:content-inventory": "node tools/audit-hugo-content.mjs --check",
++    "qa:glossary-index": "node --test tools/qa-glossary-index.test.mjs",
+     "content:learning-audit": "node tools/audit-learning-materials.mjs",
+     "qa:learning-audit": "node tools/audit-learning-materials.mjs --check",
+     "content:context-audit": "node tools/audit-context-clarity.mjs",
+--- /dev/null
++++ current/tools/lib/glossary-index.mjs
+@@ -0,0 +1,42 @@
++const normalize = (value) => String(value)
++  .normalize('NFD')
++  .replace(/\p{Diacritic}/gu, '')
++  .toLowerCase()
++  .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
++  .replace(/[”“"'`*_]/g, '')
++  .replace(/[.。]\s*$/u, '')
++  .replace(/\s+/g, ' ')
++  .trim();
++
++export function auditGlossaryIndex(body, entryTitles) {
++  const section = String(body).match(/##\s+Cómo está organizado\s*\n([\s\S]*?)(?=\n##\s|$)/i)?.[1] ?? '';
++  const listed = [...section.matchAll(/^-\s+\*\*[^*]+:\*\*\s*(.+)$/gm)]
++    .flatMap((match) => match[1]
++      .replace(/[.。]\s*$/u, '')
++      .replace(/\s+(?:y|e)\s+([^,]+)$/i, ', $1')
++      .split(',')
++      .map((value) => value.trim())
++      .filter(Boolean));
++  const expectedByKey = new Map(entryTitles.map((title) => [normalize(title), title]));
++  const listedKeys = listed.map(normalize);
++  const counts = new Map();
++  for (const key of listedKeys) counts.set(key, (counts.get(key) ?? 0) + 1);
++  const missing = [...expectedByKey]
++    .filter(([key]) => !counts.has(key))
++    .map(([, title]) => title)
++    .sort((a, b) => a.localeCompare(b, 'es'));
++  const unknown = listed
++    .filter((title, index) => !expectedByKey.has(listedKeys[index]))
++    .sort((a, b) => a.localeCompare(b, 'es'));
++  const duplicates = [...counts]
++    .filter(([, count]) => count > 1)
++    .map(([key]) => expectedByKey.get(key) ?? listed[listedKeys.indexOf(key)])
++    .sort((a, b) => a.localeCompare(b, 'es'));
++  return {
++    listed,
++    missing,
++    unknown,
++    duplicates,
++    matches: missing.length === 0 && unknown.length === 0 && duplicates.length === 0,
++  };
++}
+--- /dev/null
++++ current/tools/qa-glossary-index.test.mjs
+@@ -0,0 +1,33 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import path from 'node:path';
++import { fileURLToPath } from 'node:url';
++import { auditGlossaryIndex } from './lib/glossary-index.mjs';
++
++const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
++
++test('detecta una entrada existente que no aparece en los ejes del índice', () => {
++  const body = `## Cómo está organizado\n\n- **Primer eje:** Uno y Dos\n- **Segundo eje:** Tres\n`;
++  const result = auditGlossaryIndex(body, ['Uno', 'Dos', 'Tres', 'Cuatro']);
++  assert.deepEqual(result.missing, ['Cuatro']);
++  assert.deepEqual(result.unknown, []);
++  assert.equal(result.matches, false);
++});
++
++test('el índice real enumera una vez cada entrada existente', () => {
++  const indexPath = path.join(root, 'content/recursos/glosario/_index.md');
++  const glossaryPath = path.dirname(indexPath);
++  const titles = fs.readdirSync(glossaryPath, { withFileTypes: true })
++    .filter((entry) => entry.isDirectory())
++    .map((entry) => path.join(glossaryPath, entry.name, 'index.md'))
++    .filter(fs.existsSync)
++    .map((entryPath) => fs.readFileSync(entryPath, 'utf8').match(/^title:\s*["']?(.+?)["']?\s*$/m)?.[1])
++    .filter(Boolean);
++  const result = auditGlossaryIndex(fs.readFileSync(indexPath, 'utf8'), titles);
++  assert.deepEqual(result.missing, []);
++  assert.deepEqual(result.unknown, []);
++  assert.deepEqual(result.duplicates, []);
++  assert.equal(result.listed.length, titles.length);
++  assert.equal(result.matches, true);
++});

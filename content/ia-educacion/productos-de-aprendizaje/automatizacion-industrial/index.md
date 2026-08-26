@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo diseñar una solución de automatización industrial con apoyo formativo de IAG, evaluando la arquitectura de control, la seguridad operacional y las pruebas de aceptación."
 summary: "Automatización industrial con IAG: arquitecturas de control (PLC, DCS, SCADA), selección de sensores y actuadores, seguridad operacional y pruebas FAT/SAT. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Dos estudiantes prueban sensores y un segmento de seguridad en una línea automatizada de laboratorio."
 tags: ["producto-aprendizaje", "bloom-6", "rubrica-iag", "ingeniería", "innovación", "automatización", "control-industrial"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -139,7 +140,8 @@ proyectos integradores con instrumentación de procesos.
 - Producto cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — base teórica de la lógica de control.
 - Producto cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — integración con TI.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

@@ -1,0 +1,53 @@
+{
+  "lot": "contexto-lote-03",
+  "focused": {
+    "checks": 32,
+    "failures": 0
+  },
+  "inventory": {
+    "documents": 168,
+    "broken_internal_links": 0
+  },
+  "human_review": {
+    "conservar": 9,
+    "cambiar": 28,
+    "quitar": 5,
+    "pendiente": 126
+  },
+  "learning_audit": "168/168",
+  "direct_language": "PASS",
+  "visual_contract": {
+    "pages": 143,
+    "cards_with_image": 500
+  },
+  "hugo": {
+    "pages": 944,
+    "static_files": 1436,
+    "processed_images": 251
+  },
+  "visual": {
+    "views": 10,
+    "failures": 0,
+    "axe_wcag_aa_violations": 0,
+    "console_errors": 0,
+    "broken_images": 0,
+    "horizontal_overflow": 0
+  },
+  "fable": {
+    "coverage": "6/6",
+    "original_overall": "ajustar",
+    "required_changes": 2,
+    "unresolved_required_changes": 0,
+    "blocking_issues": 0,
+    "contradictions": 0,
+    "unsupported_or_overstated_claims": 0
+  },
+  "routes_http_200": 5,
+  "production_changed": false,
+  "approval_required": false,
+  "approval": {
+    "approved_by": "Rubén",
+    "approved_at": "2026-08-24T00:58:03-06:00",
+    "scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+  }
+}

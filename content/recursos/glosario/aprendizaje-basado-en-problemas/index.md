@@ -7,6 +7,7 @@ categories: ["metodologia"]
 areas: ["pedagogia"]
 showHero: true
 summary: "Metodología centrada en el estudiante estructurada en torno a la resolución de problemas abiertos."
+description: "Metodología centrada en el estudiante estructurada en torno a la resolución de problemas abiertos."
 ---
 
 El **aprendizaje basado en problemas (ABP)** es una metodología didáctica de inmersión en la que el aprendizaje es impulsado por el intento de resolver problemas abiertos, mal estructurados y anclados en el mundo real, sin que exista una única "respuesta correcta" predefinida.

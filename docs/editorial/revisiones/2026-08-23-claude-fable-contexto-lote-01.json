@@ -1,0 +1,74 @@
+{
+  "items": [
+    {
+      "path": "content/ia-educacion/guias/_index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/ia-educacion/guias/_index.md L16-18: el lead sitúa la colección en tareas reconocibles («revisar un borrador, preparar una actividad, comprobar una afirmación, dar retroalimentación o decidir qué información puede entrar en una herramienta») y aclara que no se recorre en orden.",
+        "content/ia-educacion/guias/_index.md L20-28: cada entrada dice quién entra y cuándo («Si estudias y vas a entregar un trabajo», «Si enseñas y tienes una actividad próxima»), con qué material se empieza («tu borrador», «una instrucción real») y acciones observables (comparar, revisar, comprobar, escribir y probar una instrucción).",
+        "content/ia-educacion/guias/_index.md L22-23: indica qué se conserva («conserva una decisión que puedas explicar», «deja una versión ajustada»), que a la vez funciona como comprobación de la decisión.",
+        "content/ia-educacion/guias/_index.md L30: formula la promesa sobre las tarjetas en modo normativo («Cada una debe indicar…»), sin afirmar que todas ya lo cumplen.",
+        "content/ia-educacion/guias/estudiantes/index.md y content/ia-educacion/guias/profesorado/index.md: existen y respaldan la doble audiencia; los siete destinos enlazados en L22-28 (incluido ../practicas/comprobar-afirmacion/) existen en content/.",
+        "data/editorial/context-audit-decisions.json L231-244: el borrador resuelve exactamente las objeciones registradas (audiencia reducida a docencia y falta de entrada por necesidad)."
+      ],
+      "reason": "El índice cumple las nueve señales en la proporción que el método fija para una portada: situación antes de las tarjetas, entradas por audiencia y necesidad que incluyen a estudiantes, material inicial y acciones por destino, indicación de qué se conserva, promesa formulada como requisito y no como hecho, todos los enlaces con destino existente y lenguaje cotidiano. Corrige la descontextualización y la reducción de audiencia señaladas en la auditoría.",
+      "required_changes": []
+    },
+    {
+      "path": "content/ia-educacion/rutas/_index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/ia-educacion/rutas/_index.md L15-17: el lead abre con una situación reconocible por responsabilidad (estudiante que comprueba antes de entregar, coordinación que acuerda un piloto, dirección que decide qué sostener).",
+        "content/ia-educacion/rutas/_index.md L21-26: la tabla entrega la comparación que la auditoría pedía, con columnas explícitas de material inicial («Empiezas con…»), acciones («Harás…»), lo que se conserva («Conservarás…») y cómo revisar la decisión («Comprobarás…») para las tres rutas.",
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L2-5: el destino /ia-educacion/constelaciones/empezar-con-ia/ resuelve porque la página fija slug \"empezar-con-ia\" con alias de la ruta anterior; no hay enlace roto.",
+        "content/ia-educacion/rutas/coordinacion-academica/index.md L5-6: la hija promete «acuerdos de programa, formación docente, pilotos y revisión con evidencias», que coincide con la fila y tarjeta de coordinación (L24 y L32).",
+        "content/ia-educacion/rutas/decision-institucional-ia/index.md L6 y L55-59: la hija entrega «un mandato institucional acotado, revisable» y se declara «marco de trabajo adaptable, no una política vigente», coherente con la fila L25 y sin presentar la propuesta como experiencia comprobada.",
+        "data/editorial/context-audit-decisions.json L246-259: la objeción era duplicar el selector superior sin comparación; el borrador sustituye la duplicación por la tabla comparativa."
+      ],
+      "reason": "El borrador entrega la comparación prometida que antes faltaba: para cada ruta muestra situación, quién decide, material de partida, acciones, lo que se conserva y la comprobación final. Las promesas de la tabla coinciden con los resúmenes y alcances declarados de las tres páginas destino, el enlace a empezar-con-ia resuelve vía slug, y el lenguaje es directo pese a la densidad de las celdas.",
+      "required_changes": []
+    },
+    {
+      "path": "content/laboratorio/_index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/laboratorio/_index.md L13-15: el lead sitúa la entrada («cuando necesites preparar una prueba acotada») y retira la promesa anterior de que toda entrada es experiencia real, exigiendo en su lugar que «cada página debe declarar si presenta una propuesta, un piloto o una experiencia documentada».",
+        "content/laboratorio/_index.md L19-21: define quién y con qué empieza («parte de una asignatura, grupo y material real») y acciones observables (modificar la secuencia, revisar quién participó y cuándo, distribuir pasos, marcar dónde permanece la decisión humana).",
+        "content/laboratorio/_index.md L23: dice qué se conserva (versión inicial, cambios, datos no recopilados) y cómo revisar «si la prueba conviene para tu contexto».",
+        "content/laboratorio/_index.md L26-28: las tres tarjetas describen destinos existentes (practicas/, experiencias/, integracion-ia/) en modo condicionado («debe indicar si es propuesta, piloto o práctica documentada»), no como hechos consumados.",
+        "content/laboratorio/experiencias/_index.md L24-30 y content/laboratorio/integracion-ia/_index.md L26-29: la estructura anunciada por las tarjetas coincide con lo que las portadas hijas declaran ofrecer.",
+        "data/editorial/context-audit-decisions.json L278-292: el borrador atiende la promesa editorial inexacta y la utilidad decisional no explícita al distinguir los tres usos (adaptar, aprender de una implementación, preparar un flujo)."
+      ],
+      "reason": "El borrador retira la afirmación de que cada entrada es una experiencia real, define la situación de entrada, el material de partida, acciones, lo que se conserva y la comprobación, y condiciona las promesas de las tarjetas a la declaración de estado de cada página. La audiencia docente queda reconocible por «tu grupo» y «el trabajo del estudiantado». Nota menor no bloqueante: la rama experiencias/ aún no contiene relatos publicados, pero la tarjeta describe el estándar que la portada hija ya declara, y este lote no modifica páginas hijas.",
+      "required_changes": []
+    },
+    {
+      "path": "content/laboratorio/practicas/_index.md",
+      "decision": "aprobar-borrador",
+      "citations": [
+        "content/laboratorio/practicas/_index.md L13-15: el lead sitúa al lector antes de reutilizar una actividad y advierte explícitamente «No supongas que una página describe una aplicación real solo porque incluye una secuencia o resultados».",
+        "content/laboratorio/practicas/_index.md L19-24: la tabla distingue propuesta, piloto y práctica documentada, con lo que cada estado debe mostrar y qué puede concluirse, incluida la cautela de no generalizar un piloto.",
+        "content/laboratorio/practicas/_index.md L28-32: lista acciones observables con material propio («un material que ya utilices»), qué información no debe entrar en la herramienta, qué se conserva (versión inicial y cambio) y cómo revisar la decisión (repetir, modificar o detener).",
+        "content/laboratorio/practicas/_index.md L34: la advertencia transitoria «trata como propuesta cualquier práctica que no identifique claramente su aplicación y procedencia» alinea la promesa del índice con el estado real de las hijas.",
+        "data/editorial/context-audit-decisions.json L93-105, L154-166 y L168-181: varias hijas (abp-con-ia, debate-socratico-con-ia, evaluacion-formativa-asistida-ia) afirman implementaciones sin procedencia y están propuestas para cuarentena; el índice ya no las presenta como experiencias reales con resultados.",
+        "docs/editorial/lotes/2026-08-23-contexto-lote-01-indices.md L37-41: los tres cambios comprometidos para este índice están presentes en el borrador."
+      ],
+      "reason": "El índice deja de presentar la colección como aplicaciones reales con resultados y sustituye esa promesa por una tipología verificable de estados más una advertencia transitoria que cubre el desfase con las hijas aún en revisión. Cumple situación, audiencia implícita clara (quien adapta una actividad a su asignatura), material inicial, acciones, conservación, comprobación y lenguaje directo.",
+      "required_changes": []
+    }
+  ],
+  "totals": {
+    "aprobar-borrador": 4,
+    "ajustar-borrador": 0,
+    "total": 4
+  },
+  "_execution": {
+    "wrapper_subtype": "success",
+    "models": [
+      "claude-haiku-4-5-20251001",
+      "claude-fable-5"
+    ],
+    "num_turns": 18,
+    "stop_reason": "end_turn"
+  }
+}

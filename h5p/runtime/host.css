@@ -38,7 +38,7 @@
 .udg-h5p__title {
   margin: 0;
   color: var(--h5p-ink);
-  font: 750 clamp(1.25rem, 3vw, 1.75rem)/1.15 Piazzolla, Georgia, serif;
+  font: 750 clamp(1.25rem, 3vw, 1.75rem)/1.15 Newsreader, Georgia, "Iowan Old Style", serif;
 }
 
 .udg-h5p__description {
@@ -125,6 +125,10 @@
 .udg-h5p__fallback-body {
   max-width: 72ch;
   padding-top: 0.75rem;
+}
+
+.udg-h5p__fallback-body :where(h2, h3, h4, h5, h6, strong, th) {
+  color: var(--h5p-ink);
 }
 
 .udg-h5p__noscript {

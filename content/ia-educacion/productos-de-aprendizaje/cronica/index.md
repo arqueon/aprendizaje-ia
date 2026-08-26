@@ -148,7 +148,8 @@ creativa, testimonial o de no ficción narrativa.
 - Producto cercano: [Reseña con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/resena" >}}) — emite juicio en lugar de narrar.
 - Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método que puede alimentar la crónica.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

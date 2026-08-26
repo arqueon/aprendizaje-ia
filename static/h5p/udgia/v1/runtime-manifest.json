@@ -104,7 +104,7 @@
       "reportingIsEnabled": false
     }
   },
-  "totalBytes": 9943325,
+  "totalBytes": 9944168,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -368,13 +368,13 @@
     },
     {
       "path": "host.css",
-      "bytes": 3243,
-      "sha256": "14b473b3cce91d5e61bf16ec5ccdbd3dbe4001eab06fde3fd5c8015c532d1224"
+      "bytes": 3356,
+      "sha256": "b2b8ba747258c0e20f2fa4ef62fc04ca85c202998315ea0bb5da66eb87469ff1"
     },
     {
       "path": "host.js",
-      "bytes": 5326,
-      "sha256": "b9dc9da21597f0c6daf971bba31cd3b0aa4a4c667b75c744fa84a27d0df76836"
+      "bytes": 6053,
+      "sha256": "4e6563c308d7a485a83e26ad93b5eac5aad2b035830cd2dd65378c1a2812dec0"
     },
     {
       "path": "libraries/FontAwesome-4.5/fontawesome-webfont.eot",
@@ -3508,8 +3508,8 @@
     },
     {
       "path": "themes/udg-c.css",
-      "bytes": 3175,
-      "sha256": "746f87c44a0a7b601e4b5b9210c54a0b0c222bf9d61f56bc7ad38e5bec037469"
+      "bytes": 3178,
+      "sha256": "427becba0673045a11af8ba81a754c584ad6bcabab8834969357075a0f37fe89"
     }
   ]
 }

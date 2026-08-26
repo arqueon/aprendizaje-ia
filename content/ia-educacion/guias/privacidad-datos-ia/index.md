@@ -47,6 +47,6 @@ Copiar un texto a una IA también es compartir información con un servicio exte
 
 Describe la estructura sin copiar el contenido, crea un ejemplo ficticio, trabaja localmente con una herramienta aprobada o realiza la tarea sin IA. La alternativa debe permitir el mismo aprendizaje o decisión.
 
-## Qué conservar
-
+{{< parallevar titulo="Qué conservar" >}}
 Anota qué herramienta consideraste, qué información excluiste y qué alternativa elegiste. Esa nota protege a otras personas y permite revisar la decisión más tarde.
+{{< /parallevar >}}

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 790" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">ICAP distingue cuatro maneras observables de implicarse con el conocimiento</title>
+  <desc id="desc">Cuatro columnas muestran los modos pasivo, activo, constructivo e interactivo. Pasivo significa recibir; activo, manipular lo dado; constructivo, generar una idea o explicación propia; interactivo, construir recíprocamente con otras personas. Cada columna incluye ejemplos con inteligencia artificial. Una nota aclara que conversar con una IA puede apoyar trabajo constructivo, mientras que el modo interactivo del marco original requiere aportaciones recíprocas entre personas.</desc>
+  <style>
+    .font{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:var(--udg-c-ink, #18223c)}.muted{fill:var(--udg-c-muted, #525d70)}.paper{fill:var(--udg-c-surface, #ffffff)}.warm{fill:var(--udg-c-surface-alt, #ece9e1)}.olive{fill:var(--udg-c-good-tint, #eceddc)}.rose{fill:var(--udg-c-primary-tint, #e7ecf7)}.blue{fill:var(--udg-c-surface-alt, #ece9e1)}.gold{fill:var(--udg-c-warning-tint, #f4e6d8)}.line{stroke:var(--udg-c-ink, #18223c)}.primary{fill:var(--udg-c-primary, #34508c)}.good{fill:var(--udg-c-good, #536326)}
+  </style>
+  <g class="font">
+    <rect width="1280" height="790" class="paper"/>
+    <text x="640" y="42" text-anchor="middle" font-size="28" font-weight="700" class="ink">ICAP distingue cuatro maneras de implicarse con el conocimiento</text>
+    <text x="640" y="72" text-anchor="middle" font-size="17" class="muted">El modo se reconoce por lo que hace la persona, no por la herramienta ni por la intención del docente.</text>
+
+    <path d="M82 120 L1195 120" fill="none" class="line" stroke-width="2"/>
+    <path d="M1178 110 L1195 120 L1178 130" fill="none" class="line" stroke-width="2"/>
+    <text x="640" y="108" text-anchor="middle" font-size="15" font-weight="700" class="ink">En actividades comparables, aumenta la elaboración que la persona aporta</text>
+
+    <rect x="42" y="150" width="275" height="470" rx="8" class="warm line" stroke-width="1.5"/>
+    <text x="180" y="190" text-anchor="middle" font-size="25" font-weight="700" class="ink">Pasivo</text>
+    <text x="180" y="220" text-anchor="middle" font-size="19" font-weight="700" class="primary">Recibe</text>
+    <text x="180" y="252" text-anchor="middle" font-size="16" class="ink">Escucha, lee u observa.</text>
+    <text x="180" y="278" text-anchor="middle" font-size="16" class="ink">No necesita modificar lo recibido.</text>
+    <line x1="70" y1="306" x2="289" y2="306" class="line" stroke-width="1"/>
+    <text x="68" y="338" font-size="16" font-weight="700" class="ink">Ejemplo sin IA</text>
+    <text x="68" y="366" font-size="15.5" class="ink">Escuchar una explicación</text>
+    <text x="68" y="389" font-size="15.5" class="ink">sin una tarea posterior.</text>
+    <text x="68" y="432" font-size="16" font-weight="700" class="primary">Con IA</text>
+    <text x="68" y="460" font-size="15.5" class="ink">Pedir una respuesta y</text>
+    <text x="68" y="483" font-size="15.5" class="ink">aceptarla tal como llega.</text>
+    <text x="180" y="578" text-anchor="middle" font-size="14" class="muted">La persona recibe contenido.</text>
+
+    <rect x="348" y="150" width="275" height="470" rx="8" class="blue line" stroke-width="1.5"/>
+    <text x="486" y="190" text-anchor="middle" font-size="25" font-weight="700" class="ink">Activo</text>
+    <text x="486" y="220" text-anchor="middle" font-size="19" font-weight="700" class="primary">Manipula lo dado</text>
+    <text x="486" y="252" text-anchor="middle" font-size="16" class="ink">Selecciona, subraya, ordena</text>
+    <text x="486" y="278" text-anchor="middle" font-size="16" class="ink">o mueve información existente.</text>
+    <line x1="376" y1="306" x2="595" y2="306" class="line" stroke-width="1"/>
+    <text x="374" y="338" font-size="16" font-weight="700" class="ink">Ejemplo sin IA</text>
+    <text x="374" y="366" font-size="15.5" class="ink">Ordenar conceptos dados</text>
+    <text x="374" y="389" font-size="15.5" class="ink">en categorías ya definidas.</text>
+    <text x="374" y="432" font-size="16" font-weight="700" class="primary">Con IA</text>
+    <text x="374" y="460" font-size="15.5" class="ink">Marcar afirmaciones de una</text>
+    <text x="374" y="483" font-size="15.5" class="ink">respuesta para revisarlas luego.</text>
+    <text x="486" y="578" text-anchor="middle" font-size="14" class="muted">Hay acción, pero aún no una idea nueva.</text>
+
+    <rect x="654" y="150" width="275" height="470" rx="8" class="olive line" stroke-width="1.5"/>
+    <text x="792" y="190" text-anchor="middle" font-size="25" font-weight="700" class="good">Constructivo</text>
+    <text x="792" y="220" text-anchor="middle" font-size="19" font-weight="700" class="good">Genera algo propio</text>
+    <text x="792" y="252" text-anchor="middle" font-size="16" class="ink">Explica, infiere, compara,</text>
+    <text x="792" y="278" text-anchor="middle" font-size="16" class="ink">formula o crea una representación.</text>
+    <line x1="682" y1="306" x2="901" y2="306" class="line" stroke-width="1"/>
+    <text x="680" y="338" font-size="16" font-weight="700" class="ink">Ejemplo sin IA</text>
+    <text x="680" y="366" font-size="15.5" class="ink">Explicar por qué dos fuentes</text>
+    <text x="680" y="389" font-size="15.5" class="ink">llegan a conclusiones distintas.</text>
+    <text x="680" y="432" font-size="16" font-weight="700" class="primary">Con IA</text>
+    <text x="680" y="460" font-size="15.5" class="ink">Contrastar una respuesta, verificarla</text>
+    <text x="680" y="483" font-size="15.5" class="ink">y producir una explicación propia.</text>
+    <text x="792" y="578" text-anchor="middle" font-size="14" class="good">La persona añade relaciones no dadas.</text>
+
+    <rect x="960" y="150" width="278" height="470" rx="8" class="rose line" stroke-width="1.5"/>
+    <text x="1099" y="190" text-anchor="middle" font-size="25" font-weight="700" class="primary">Interactivo</text>
+    <text x="1099" y="220" text-anchor="middle" font-size="19" font-weight="700" class="primary">Co-construye con personas</text>
+    <text x="1099" y="252" text-anchor="middle" font-size="16" class="ink">Aporta, pregunta, responde</text>
+    <text x="1099" y="278" text-anchor="middle" font-size="16" class="ink">y modifica ideas con otras personas.</text>
+    <line x1="988" y1="306" x2="1210" y2="306" class="line" stroke-width="1"/>
+    <text x="986" y="338" font-size="16" font-weight="700" class="ink">Ejemplo sin IA</text>
+    <text x="986" y="366" font-size="15.5" class="ink">Dos pares discuten sus criterios</text>
+    <text x="986" y="389" font-size="15.5" class="ink">y elaboran una decisión común.</text>
+    <text x="986" y="432" font-size="16" font-weight="700" class="primary">Con IA</text>
+    <text x="986" y="460" font-size="15.5" class="ink">La IA aporta una objeción; los pares</text>
+    <text x="986" y="483" font-size="15.5" class="ink">la verifican y revisan juntos.</text>
+    <text x="1099" y="578" text-anchor="middle" font-size="14" class="primary">La reciprocidad humana es indispensable.</text>
+
+    <rect x="90" y="655" width="1100" height="98" rx="7" class="gold line" stroke-width="1.4"/>
+    <text x="640" y="687" text-anchor="middle" font-size="18" font-weight="700" class="ink">La hipótesis ICAP propone: interactivo &gt; constructivo &gt; activo &gt; pasivo.</text>
+    <text x="640" y="716" text-anchor="middle" font-size="16" class="ink">No es una garantía automática. Una conversación con IA puede sostener trabajo constructivo;</text>
+    <text x="640" y="740" text-anchor="middle" font-size="16" class="ink">el modo interactivo del marco original requiere que varias personas transformen recíprocamente sus ideas.</text>
+  </g>
+</svg>

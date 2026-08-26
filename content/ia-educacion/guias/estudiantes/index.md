@@ -71,5 +71,4 @@ completarás cuatro pasos; puedes guardar voluntariamente el borrador y continua
   a la conversación o a la herramienta.
 - Marco: consulta el [estatus y alcance de la propuesta de Orientaciones](../../orientaciones/).
 
-El programa acompañado de alfabetización crítica está en diseño. Esta página no promete matrícula
-ni enlaza un curso que todavía no tiene destino público autorizado.
+El programa acompañado de alfabetización crítica está en diseño; esta página no ofrece matrícula.

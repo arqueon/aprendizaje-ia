@@ -95,7 +95,7 @@ Tres formas concretas de capitalizar el monitoreo:
 
 ## Lecturas relacionadas
 
-La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el monitoreo del lado de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) detalla cómo capitalizar lo monitoreado dentro del sitio; la curaduría de [comunidades de práctica docente con IA](/recursos/externas/comunidades-practica-docente-ia/) ofrece el lado social del monitoreo.
+La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el seguimiento de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) explica cómo registrar lo encontrado dentro del sitio; la curaduría de [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) permite seguir conversaciones profesionales.
 
 ## Referencias
 

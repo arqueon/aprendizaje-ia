@@ -2,7 +2,7 @@
 title: "Tendencias y políticas"
 description: "Panorama de tendencias globales, políticas institucionales y documentos regulatorios sobre el uso de IA en educación superior."
 summary: "Adónde mira el ecosistema: políticas universitarias, reportes internacionales, debates emergentes y posicionamientos institucionales."
-weight: 4
+weight: 5
 showHero: true
 heroStyle: "background"
 showBreadcrumbs: true

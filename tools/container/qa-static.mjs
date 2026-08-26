@@ -189,7 +189,7 @@ try {
 
     const homepage = await readFile(indexPath, "utf8");
     const interactiveGuide = await readFile(
-      path.join(mounted, "ia-educacion/guias/agenciamiento-humano-ia/index.html"),
+      path.join(mounted, "ia-educacion/guias/evaluacion-formativa-ia/index.html"),
       "utf8",
     );
     const expectedPrefix = scenario.mount ? `/${scenario.mount}/` : "/";

@@ -1,10 +1,23 @@
-{{ $link := .Get "link" }}
-{{ $title := .Get "title" }}
+{{- if and .Parent (ne .Parent.Name "cards") -}}
+  {{- errorf "Shortcode card: requiere cards como padre; recibió %q en %s" .Parent.Name .Position -}}
+{{- end -}}
+{{ $link := strings.TrimSpace (.Get "link" | default "") }}
+{{ $title := strings.TrimSpace (.Get "title" | default "") }}
+{{- if not $link -}}
+  {{- errorf "Shortcode card: link es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- if not $title -}}
+  {{- errorf "Shortcode card: title es obligatorio en %s" .Position -}}
+{{- end -}}
 {{ $icon := .Get "icon" }}
 {{ $description := .Get "description" }}
 {{ $img := .Get "img" }}
 {{ $color := .Get "color" | default "" }}
-{{ $tall := eq (.Get "tall" | default "false") "true" }}
+{{ $tallParam := .Get "tall" | default "false" }}
+{{- if not (in (slice "true" "false") $tallParam) -}}
+  {{- errorf "Shortcode card: tall debe ser true o false; recibió %q en %s" $tallParam .Position -}}
+{{- end -}}
+{{ $tall := eq $tallParam "true" }}
 
 {{/* Geometry: short cards crop the image (cover, 6rem); tall cards show it whole (contain, 20rem).
      Icon badge sits on the seam between image and content area, so its top depends on
@@ -21,75 +34,89 @@
   {{ $url = printf "%s%s" .Page.RelPermalink $link }}
 {{ end }}
 
-{{/* Icon colors */}}
-{{ $iconBg := "var(--primary-100)" }}{{ $iconColor := "var(--primary-600)" }}
-{{ if $color }}
-  {{ $iconBg = printf "%s22" $color }}
-  {{ $iconColor = $color }}
+{{/* Resolve one image for every card. Explicit img= wins; otherwise use the
+     linked internal page, the current page for anchors, and finally the
+     documented global fallback. */}}
+{{ $imgSrc := "" }}
+{{ if $img }}
+  {{ $imgSrc = $img }}
+  {{ if hasPrefix $img "http" }}
+    {{/* keep as-is */}}
+  {{ else if hasPrefix $img "/" }}
+    {{ $imgSrc = strings.TrimPrefix "/" $img | relURL }}
+  {{ else }}
+    {{ $imgSrc = printf "%s%s" .Page.RelPermalink $img }}
+  {{ end }}
 {{ else }}
-  {{/* Default theme-aware colors if no specific color is provided */}}
-  <style>
-    .card-icon-default { background-color: #f7e5e2; color: #7f1820; }
-  </style>
+  {{ $targetPage := false }}
+  {{ if hasPrefix $link "#" }}
+    {{ $targetPage = .Page }}
+  {{ else }}
+    {{ $targetRef := index (strings.Split $link "#") 0 }}
+    {{ $targetRef = index (strings.Split $targetRef "?") 0 }}
+    {{ if hasPrefix $targetRef "/" }}
+      {{ $targetPage = site.GetPage $targetRef }}
+    {{ else }}
+      {{ $targetPage = .Page.GetPage $targetRef }}
+      {{ if not $targetPage }}{{ $targetPage = site.GetPage $targetRef }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ with $targetPage }}
+    {{ $imgSrc = partial "udgia/featured-url.html" . }}
+  {{ end }}
+  {{ if not $imgSrc }}
+    {{ $imgSrc = site.Params.defaultFeaturedImage | relURL }}
+  {{ end }}
 {{ end }}
+{{ $hasImage := ne $imgSrc "" }}
 
-<div class="relative group">
+<article class="alm-card relative group" data-udgia-card data-udgia-component="card">
   <div class="card-bg h-full border border-neutral-200 dark:border-neutral-700 hover:border-primary-400 dark:hover:border-primary-500 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col"
        style="overflow:visible;">
 
     {{/* ── Image ── */}}
-    {{ if $img }}
-      {{ $imgSrc := $img }}
-      {{/* Resolve relative paths against the current page (so Page Bundle resources work),
-           site-root paths against baseURL, and external URLs as-is. */}}
-      {{ if hasPrefix $img "http" }}
-        {{/* keep as-is */}}
-      {{ else if hasPrefix $img "/" }}
-        {{ $imgSrc = strings.TrimPrefix "/" $img | relURL }}
-      {{ else }}
-        {{ $imgSrc = printf "%s%s" .Page.RelPermalink $img }}
-      {{ end }}
-      <div style="width:100%;height:{{ $imgHeight }};overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;{{ if $tall }}background-color:#f5f3ee;{{ end }}">
-        <img src="{{ $imgSrc }}" alt="{{ $title }}" class="nozoom"
+    {{ if $hasImage }}
+      <div style="width:100%;height:{{ $imgHeight }};overflow:hidden;border-radius:.75rem .75rem 0 0;flex-shrink:0;{{ if $tall }}background-color:var(--udg-c-paper);{{ end }}">
+        <img src="{{ $imgSrc }}" alt="" class="nozoom" data-udgia-card-image
              style="width:100%;height:100%;object-fit:{{ $imgFit }};display:block;margin:0;transition:transform .3s;">
       </div>
 
       {{/* Icon badge sits on the seam between image and content area */}}
       {{ if $icon }}
-      <div class="card-icon-ring {{ if not $color }}card-icon-default{{ end }} group-hover:scale-110 transition-transform duration-200"
+      <div class="card-icon-ring {{ if $color }}card-icon-explicit{{ else }}card-icon-default{{ end }} group-hover:scale-110 transition-transform duration-200"
            style="position:absolute;top:{{ $iconTop }};left:50%;transform:translateX(-50%);
                   width:2.75rem;height:2.75rem;border-radius:50%;
-                  {{ if $color }}background-color:{{ $iconBg }};color:{{ $iconColor }};{{ end }}
+                  {{ if $color }}--udgia-card-accent:{{ $color }};{{ end }}
                   display:flex;align-items:center;justify-content:center;z-index:10;">
-        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;"></i>
+        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;" aria-hidden="true"></i>
       </div>
       {{ end }}
     {{ end }}
 
     {{/* ── Content ── */}}
     <div class="flex flex-col items-center text-center flex-1"
-         style="padding:{{ if and $img $icon }}2.1rem{{ else if $img }}1rem{{ else }}.875rem{{ end }} 1rem .875rem 1rem;">
+         style="padding:{{ if and $hasImage $icon }}2.1rem{{ else if $hasImage }}1rem{{ else }}.875rem{{ end }} 1rem .875rem 1rem;">
 
       {{/* Icon without image */}}
-      {{ if and $icon (not $img) }}
-      <div class="group-hover:scale-110 {{ if not $color }}card-icon-default{{ end }} transition-transform duration-200"
+      {{ if and $icon (not $hasImage) }}
+      <div class="group-hover:scale-110 {{ if $color }}card-icon-explicit{{ else }}card-icon-default{{ end }} transition-transform duration-200"
            style="width:2.5rem;height:2.5rem;border-radius:50%;flex-shrink:0;margin-bottom:.5rem;
                   display:flex;align-items:center;justify-content:center;
-                  {{ if $color }}background-color:{{ $iconBg }};color:{{ $iconColor }};{{ end }}">
-        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;"></i>
+                  {{ if $color }}--udgia-card-accent:{{ $color }};{{ end }}">
+        <i class="fas fa-{{ $icon }}" style="font-size:.95rem;" aria-hidden="true"></i>
       </div>
       {{ end }}
 
-      <h5 class="text-base font-bold mb-1">
+      <h3 class="text-base font-bold mb-1">
         <a href="{{ $url }}"
            class="after:absolute after:inset-0 after:content-[''] text-inherit no-underline hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
           {{ $title }}
         </a>
-      </h5>
+      </h3>
       {{ if $description }}
       <p class="text-sm text-neutral-600 dark:text-neutral-400 leading-snug">{{ $description }}</p>
       {{ end }}
 
     </div>
   </div>
-</div>
+</article>

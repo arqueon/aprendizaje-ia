@@ -1,0 +1,393 @@
+{
+  "lot": "contexto-lote-04",
+  "date": "2026-08-24",
+  "status": "borrador-verificado-listo-para-vobo-especifico",
+  "production_changed": false,
+  "baseline": {
+    "active_documents_before": 168,
+    "active_documents_after": 167,
+    "human_read_before": 42,
+    "human_read_after": 46,
+    "pending_before": 126,
+    "pending_after": 121
+  },
+  "decisions_after": {
+    "conservar": 11,
+    "cambiar": 31,
+    "quitar": 4,
+    "pendiente": 121
+  },
+  "canonical_hub": "/recursos/links/",
+  "retired_active_hub": {
+    "source": "content/recursos/externas/_index.md",
+    "quarantine": "docs/editorial/cuarentena/2026-08-24-contexto-lote-04/content/recursos/externas/_index.md",
+    "redirect": "/recursos/links/"
+  },
+  "migrations": [
+    {
+      "from": "content/recursos/externas/comunidades-practica-docente-ia/index.md",
+      "to": "content/recursos/links/comunidades-practica-docente-ia/index.md",
+      "alias": "/recursos/externas/comunidades-practica-docente-ia/"
+    },
+    {
+      "from": "content/recursos/externas/syllabus-internacionales-ia/index.md",
+      "to": "content/recursos/links/syllabus-internacionales-ia/index.md",
+      "alias": "/recursos/externas/syllabus-internacionales-ia/"
+    },
+    {
+      "from": "content/recursos/links/ai-for-education-toolkit.md",
+      "to": "content/recursos/links/ai-for-education-toolkit/index.md",
+      "public_url_unchanged": "/recursos/links/ai-for-education-toolkit/"
+    }
+  ],
+  "aliases": {
+    "/recursos/externas/": "/recursos/links/",
+    "/recursos/externas/comunidades-practica-docente-ia/": "/recursos/links/comunidades-practica-docente-ia/",
+    "/recursos/externas/syllabus-internacionales-ia/": "/recursos/links/syllabus-internacionales-ia/"
+  },
+  "active_files": [
+    {
+      "path": "content/recursos/links/_index.md",
+      "sha256": "2cc5ca65005c473e1cdcea6d40a9c68d4fe2bb13c8a83942126eae1450d7c59b",
+      "bytes": 2657
+    },
+    {
+      "path": "content/recursos/links/featured.webp",
+      "sha256": "44775fcdf2455b165f3dc20d1eeafdaa2a26bd419b791ab75909b5dd13c472de",
+      "bytes": 133512
+    },
+    {
+      "path": "content/recursos/links/comunidades-practica-docente-ia/index.md",
+      "sha256": "4ef3258b1fcf9e915bef0d46a041387da85302589c1eae9d94f490d43cd3b3b8",
+      "bytes": 6808
+    },
+    {
+      "path": "content/recursos/links/comunidades-practica-docente-ia/featured.webp",
+      "sha256": "cf11b3998c0f1e56cf9d91e51e3e5a5e946f77d60d22bb71ca686963408f1503",
+      "bytes": 51062
+    },
+    {
+      "path": "content/recursos/links/syllabus-internacionales-ia/index.md",
+      "sha256": "7d00b584f2517248627837de0fbd9569f2b1e89935e399d86a99b993052952c9",
+      "bytes": 6993
+    },
+    {
+      "path": "content/recursos/links/syllabus-internacionales-ia/featured.webp",
+      "sha256": "4bc3f811f48e34d444a1c4fd110555ecb9427f6830b6c9bfdf277b6f70c831b7",
+      "bytes": 66580
+    },
+    {
+      "path": "content/recursos/links/ai-for-education-toolkit/index.md",
+      "sha256": "3dbcabd0447acae22a07c96c29809b87dec3c91b503a8dbf72f4dbbb65f0a26d",
+      "bytes": 2322
+    },
+    {
+      "path": "content/recursos/links/ai-for-education-toolkit/featured.webp",
+      "sha256": "3577565cfe140f6726ca77eb8c33ace79deb92fdd2afc5700dc88c488636ef31",
+      "bytes": 31102
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/index.md",
+      "sha256": "4415ba5fe03752567a8ef1b51b3488b421d8dafe39c1ab2b160d21a005f4e6d5",
+      "bytes": 2814
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/featured.webp",
+      "sha256": "751d800db8ac942d3eefe02a0b1dedb93311862dcbb3ad695bea935014310a55",
+      "bytes": 440704
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+      "sha256": "0610720497a59ed5b1ba9dde15b5da00d9712af4b336b7158d54d323d2adb002",
+      "bytes": 2672
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/featured.webp",
+      "sha256": "b66bd18c5ffeb7af79b90452b604ef148a64a0b0942c46935c92356d40277a8f",
+      "bytes": 574056
+    }
+  ],
+  "hidden_recovery_files": [
+    {
+      "path": "content/recursos/externas/._index.md.~230406ea",
+      "sha256": "99bfa521fe6895c09a5a70f530610bda5ecd0ad365ae5d550f223ccea49b96ed",
+      "bytes": 1969,
+      "current_sha256": "99bfa521fe6895c09a5a70f530610bda5ecd0ad365ae5d550f223ccea49b96ed",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/externas/.featured.png.~4847faba",
+      "sha256": "9efd9bb03a61a721f8d6f514cedee9f10b6adb52da42af9bece35adc2f3c7b16",
+      "bytes": 575313,
+      "current_sha256": "9efd9bb03a61a721f8d6f514cedee9f10b6adb52da42af9bece35adc2f3c7b16",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/.featured.webp.~1269796a",
+      "sha256": "cf11b3998c0f1e56cf9d91e51e3e5a5e946f77d60d22bb71ca686963408f1503",
+      "bytes": 51062,
+      "current_sha256": "cf11b3998c0f1e56cf9d91e51e3e5a5e946f77d60d22bb71ca686963408f1503",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/externas/comunidades-practica-docente-ia/.index.md.~3a8f21d4",
+      "sha256": "5c72908a6ef95f31d6fa71e2ddbe983af99896e0af75a38aa7d6b5db78985d76",
+      "bytes": 6838,
+      "current_sha256": "5c72908a6ef95f31d6fa71e2ddbe983af99896e0af75a38aa7d6b5db78985d76",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/.featured.webp.~5f3b934d",
+      "sha256": "4bc3f811f48e34d444a1c4fd110555ecb9427f6830b6c9bfdf277b6f70c831b7",
+      "bytes": 66580,
+      "current_sha256": "4bc3f811f48e34d444a1c4fd110555ecb9427f6830b6c9bfdf277b6f70c831b7",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/externas/syllabus-internacionales-ia/.index.md.~2b4e5bcf",
+      "sha256": "0668bbcbab196683336d92fb4ea73c75c4e783000c5a5e27ad1aeddf740851f8",
+      "bytes": 6838,
+      "current_sha256": "0668bbcbab196683336d92fb4ea73c75c4e783000c5a5e27ad1aeddf740851f8",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/._index.md.~21af91dd",
+      "sha256": "28905268ee418da46a842f0b09f65edb80769b286782f20f34e29c67c165bb53",
+      "bytes": 533,
+      "current_sha256": "28905268ee418da46a842f0b09f65edb80769b286782f20f34e29c67c165bb53",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/.ai-for-education-toolkit.md.~36de8417",
+      "sha256": "90c6d3b4492442baf24bf605f7766f7085884342416de28050c519da8691d5e0",
+      "bytes": 1433,
+      "current_sha256": "90c6d3b4492442baf24bf605f7766f7085884342416de28050c519da8691d5e0",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/.featured.webp.~7d38a25",
+      "sha256": "44775fcdf2455b165f3dc20d1eeafdaa2a26bd419b791ab75909b5dd13c472de",
+      "bytes": 133512,
+      "current_sha256": "44775fcdf2455b165f3dc20d1eeafdaa2a26bd419b791ab75909b5dd13c472de",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/.featured.webp.~224997f1",
+      "sha256": "751d800db8ac942d3eefe02a0b1dedb93311862dcbb3ad695bea935014310a55",
+      "bytes": 440704,
+      "current_sha256": "751d800db8ac942d3eefe02a0b1dedb93311862dcbb3ad695bea935014310a55",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/ocde-ia-educacion/.index.md.~4baff8b7",
+      "sha256": "f4895782faf5a321555b08c19c7abb4c21627df7cc9ce718714c84ab77a440a2",
+      "bytes": 2743,
+      "current_sha256": "f4895782faf5a321555b08c19c7abb4c21627df7cc9ce718714c84ab77a440a2",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/.featured.webp.~5a39821e",
+      "sha256": "b66bd18c5ffeb7af79b90452b604ef148a64a0b0942c46935c92356d40277a8f",
+      "bytes": 574056,
+      "current_sha256": "b66bd18c5ffeb7af79b90452b604ef148a64a0b0942c46935c92356d40277a8f",
+      "unchanged": true
+    },
+    {
+      "path": "content/recursos/links/unesco-marco-competencias-docentes-ia/.index.md.~29075121",
+      "sha256": "2b7d1c59d0a565cc7041af89f127ec29ce1263513117f60eaa82761d9aa82efb",
+      "bytes": 2751,
+      "current_sha256": "2b7d1c59d0a565cc7041af89f127ec29ce1263513117f60eaa82761d9aa82efb",
+      "unchanged": true
+    }
+  ],
+  "primary_source_corrections": [
+    {
+      "file": "content/recursos/links/ocde-ia-educacion/index.md",
+      "before": "41 % de docentes en países OCDE usa IA en su enseñanza",
+      "after": "37 % de docentes de secundaria baja usó IA para su trabajo en 2024",
+      "source": "https://www.oecd.org/en/publications/oecd-digital-education-outlook-2026_062a7394-en.html"
+    },
+    {
+      "file": "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md",
+      "before": "la primera referencia global",
+      "after": "una referencia global",
+      "source": "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
+    }
+  ],
+  "external_link_verification": {
+    "direct_200": [
+      "https://khipu.ai/khipux-about/khipux-2025-2026/",
+      "https://learnworkecosystemlibrary.com/framework/",
+      "https://oue.fas.harvard.edu/ai-guidance"
+    ],
+    "search_reference_confirmed_access_automation_limited": [
+      "https://anuies-tic2.anuies.mx/inteligencia-artificial/",
+      "https://russellgroup.ac.uk/news/new-principles-on-use-of-ai-in-education/"
+    ],
+    "doi_redirect_confirmed_direct_page_extracted": "https://doi.org/10.1787/dd5140e4-en"
+  },
+  "qa": {
+    "focused_green": {
+      "checks": 61,
+      "failures": 0
+    },
+    "inventory": {
+      "documents": 167,
+      "broken_internal_links": 0
+    },
+    "context": {
+      "documents": 167,
+      "candidates": 14
+    },
+    "learning": {
+      "documents": 167
+    },
+    "visual_contract": {
+      "governed_pages": 143,
+      "cards_with_image": 499
+    },
+    "visual_focal": {
+      "views": 12,
+      "aliases": 3,
+      "failures": 0,
+      "axe_a_aa_violations": 0,
+      "server": "static final build"
+    },
+    "hugo_build": {
+      "pages": 942,
+      "paginator_pages": 65,
+      "non_page_files": 206,
+      "static_files": 1436,
+      "processed_images": 254,
+      "aliases": 404
+    },
+    "known_warnings": [
+      "languageCode deprecated",
+      "Blowfish 2.97 compatibility declared through Hugo 0.154.5; local Hugo 0.165.0"
+    ]
+  },
+  "independent_review": {
+    "artifact": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-04.json",
+    "coverage": {
+      "active": 6,
+      "active_read": 6,
+      "rollback_read": 5,
+      "controls_read": 4
+    },
+    "editorial_verdict": "aprobar",
+    "technical_verdict": "aprobar",
+    "blocking_issues": 0,
+    "required_changes": 0,
+    "reconciled_minor_observations": [
+      "UNESCO target named precisely",
+      "privacy and personal data restored to hub",
+      "orphan references removed",
+      "OCDE and UNESCO alert voice normalized"
+    ],
+    "retained_nonblocking_decisions": [
+      "historical toolkit slug preserves public URL",
+      "editorial featured image contains readable text",
+      "curaduria taxonomy is semantically accurate",
+      "hidden Nextcloud recoveries remain intact"
+    ]
+  },
+  "evidence": [
+    {
+      "path": "docs/design/evidence/contexto-lote-04/comunidades-desktop.png",
+      "sha256": "02a18ae47fd68ae5b273735c0ed7b77cbff5f94f64d5375b6e0ea460b1b30d77",
+      "bytes": 676508
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/comunidades-mobile.png",
+      "sha256": "88c645463310fd30a4efb0f1e35088d579c9f40fd763683ce93d020e70a87aac",
+      "bytes": 606167
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/contact-sheet-desktop.jpg",
+      "sha256": "3929563cefe566c3e4d0baebfed2f2c9d0c689bcfbff7cef4191ad2ccc6b6792",
+      "bytes": 313591
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/contact-sheet-mobile.jpg",
+      "sha256": "74ed869e5ce818079881310c140214fe942383859aa7405298dedfcf19751bb0",
+      "bytes": 508510
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/hub-desktop.png",
+      "sha256": "470401a8ea0560f8459ee0b1b13119db74d96513a8f437bbaf6398e7cab7202c",
+      "bytes": 1533757
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/hub-mobile.png",
+      "sha256": "ae6cdac492d5c68161073daba06a9c796d54371cd01deac131051607e079ab7c",
+      "bytes": 928842
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/ocde-desktop.png",
+      "sha256": "7f0c72922aabbe15bfbe71f00583da12395c7686258f518b73fe2846d3470e6d",
+      "bytes": 225167
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/ocde-mobile.png",
+      "sha256": "aa8a273fde191d9311312f8fc6dc19d1b24b04e421a59a94ab3b893480cd0c79",
+      "bytes": 227444
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/qa-visual.json",
+      "sha256": "f6aa7feb10ccc0e5c2fb662581a07c838c6225e270a59721a3e060f334b5995d",
+      "bytes": 5536
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/syllabus-desktop.png",
+      "sha256": "811e45a2435d9abb3d8f6d6e25811ea252878966be3d6e3e5c38868a5a2e101c",
+      "bytes": 694708
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/syllabus-mobile.png",
+      "sha256": "624ff0f7dfe7cb76bc867383dbe15f891e1e60a149692317b724c76e1b83bf3a",
+      "bytes": 626945
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/unesco-marco-desktop.png",
+      "sha256": "3d4ceeffd77a143bbfb4caa1ba371c0732546b73954ef57c1ac09410ae8cebb1",
+      "bytes": 210829
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/unesco-marco-mobile.png",
+      "sha256": "4b5c25142a7d61b14570ee28d5111ce8a5ff97c8ca6f8a870fd0a4e4eb8adc87",
+      "bytes": 214453
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/unesco-portal-desktop.png",
+      "sha256": "c6574b8e28bba9f7caef5b17d5e5f064ad7fb9562fa6d552443f0ad334c0f60a",
+      "bytes": 172810
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-04/unesco-portal-mobile.png",
+      "sha256": "1f8907b0cfcd17bbe9e514563b8a114e8d2f1294173f58c7ce8c471a8749a9c1",
+      "bytes": 178604
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-04.diff",
+      "sha256": "1f79087d77060d41d370c83beaf239175e986146c15541f8e2170bf166c02475",
+      "bytes": 61237
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-04-recursos-externos.md",
+      "sha256": "262abcdda243f5f988313eb32ac33121a185dec8cef77de5267113c1c10e6543",
+      "bytes": 8144
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-04.json",
+      "sha256": "4096295186677bcba83abba9cf420aea4126c9612071416092abd146f80bde39",
+      "bytes": 9894
+    },
+    {
+      "path": "docs/editorial/rollback/2026-08-24-contexto-lote-04/manifest.json",
+      "sha256": "b9d34d40034ba8c86af607919c19e81f04487f312a4ca245fa3504738d5a84a4",
+      "bytes": 6668
+    }
+  ]
+}

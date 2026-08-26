@@ -1,0 +1,1848 @@
+[
+  {
+    "name": "guias",
+    "mode": "desktop",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/guias-desktop.png",
+    "consoleErrors": [],
+    "title": "Guías prácticas de IA · Aprendizaje Digital e IA",
+    "h1": "Guías prácticas de IA",
+    "h2": [
+      "Empieza por lo que necesitas resolver\n#",
+      "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+      "Antes de compartir: protege datos y trabajos al usar IA",
+      "Laboratorio guiado para decidir antes de entregar",
+      "Diseñar actividades y observar el aprendizaje",
+      "Conservar la dirección del trabajo con IA",
+      "Aprendizaje rizomático con IA",
+      "Integración curricular de IA en programas existentes",
+      "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
+      "Aprendizaje basado en proyectos (ABP) con IA",
+      "Evaluación formativa con IA — ciclos de retroalimentación iterativa"
+    ],
+    "mainText": "IA en educación/\nGuías prácticas de IA\nEstas guías sirven cuando ya tienes una tarea concreta: revisar un borrador, preparar una actividad, comprobar una afirmación, dar retroalimentación o decidir qué información puede entrar en una herramienta. No necesitas recorrerlas en orden.\nEmpieza por lo que necesitas resolver\n#\nSi estudias y vas a entregar un trabajo: compara una sugerencia con tu borrador y conserva una decisión que puedas explicar.\nSi enseñas y tienes una actividad próxima: revisa una instrucción real y deja una versión ajustada.\nSi necesitas diseñar una actividad completa: parte de lo que hará el grupo, decide cuándo aparece la ayuda y define cómo revisar el aprendizaje.\nSi vas a dar retroalimentación o revisar avances: elige qué puede apoyar la IA y qué debe decidir la persona docente.\nSi una respuesta incluye un dato importante: comprueba la afirmación antes de repetirla o usarla.\nSi trabajarás con información de otras personas: revisa primero qué datos debes retirar o mantener fuera de la herramienta.\nSi necesitas pedir una tarea delimitada a un modelo: escribe una instrucción, prueba el resultado y corrígela según el caso.\n\nLas tarjetas siguientes reúnen todas las guías. Cada una debe indicar para quién sirve, con qué material se empieza, qué se hará y qué conviene conservar al terminar.\n\nAprendizaje híbrido y activo: Diseñar una actividad, paso a paso\n13 de agosto de 2026\n·\n40 mins\nIa\nPedagogia\nFormacion\nDigital\nGuia\n#Aprendizaje Híbrido\n#Aprendizaje-Activo\n#Diseño Inverso\n#Bloom\n#Icap\n#Co-Creación Con IA\nMétodo paso a paso, ejemplos disciplinares, patrones transferibles, lista de cotejo y plantilla para diseñar actividades híbridas y activas con o sin IA.\nAntes de compartir: protege datos y trabajos al usar IA\n11 de agosto de 2026\n·\n1 min\nDistingue información pública, controlada, sensible y confidencial antes de copiarla a una herramienta de IA.\nLaboratorio guiado para decidir antes de entregar\n3 de agosto de 2026\n·\n2 mins\nParte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender.\nDiseñar actividades y observar el aprendizaje\n3 de agosto de 2026\n·\n4 mins\nRevisa una actividad propia, encuentra la primera parte que ",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "IA en educación",
+        "href": "/ia-educacion/"
+      },
+      {
+        "text": "#",
+        "href": "#empieza-por-lo-que-necesitas-resolver"
+      },
+      {
+        "text": "compara una sugerencia con tu borrador y conserva una decisión que puedas explicar",
+        "href": "/ia-educacion/guias/estudiantes/"
+      },
+      {
+        "text": "revisa una instrucción real y deja una versión ajustada",
+        "href": "/ia-educacion/guias/profesorado/"
+      },
+      {
+        "text": "parte de lo que hará el grupo, decide cuándo aparece la ayuda y define cómo revisar el aprendizaje",
+        "href": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/"
+      },
+      {
+        "text": "elige qué puede apoyar la IA y qué debe decidir la persona docente",
+        "href": "/ia-educacion/guias/evaluacion-formativa-ia/"
+      },
+      {
+        "text": "comprueba la afirmación antes de repetirla o usarla",
+        "href": "/ia-educacion/practicas/comprobar-afirmacion/"
+      },
+      {
+        "text": "revisa primero qué datos debes retirar o mantener fuera de la herramienta",
+        "href": "/ia-educacion/guias/privacidad-datos-ia/"
+      },
+      {
+        "text": "escribe una instrucción, prueba el resultado y corrígela según el caso",
+        "href": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/"
+      },
+      {
+        "text": "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+        "href": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Aprendizaje Híbrido",
+        "href": "/tags/aprendizaje-h%C3%ADbrido/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Diseño Inverso",
+        "href": "/tags/dise%C3%B1o-inverso/"
+      },
+      {
+        "text": "#Bloom",
+        "href": "/tags/bloom/"
+      },
+      {
+        "text": "#Icap",
+        "href": "/tags/icap/"
+      },
+      {
+        "text": "#Co-Creación Con IA",
+        "href": "/tags/co-creaci%C3%B3n-con-ia/"
+      },
+      {
+        "text": "Antes de compartir: protege datos y trabajos al usar IA",
+        "href": "/ia-educacion/guias/privacidad-datos-ia/"
+      },
+      {
+        "text": "Laboratorio guiado para decidir antes de entregar",
+        "href": "/ia-educacion/guias/estudiantes/"
+      },
+      {
+        "text": "Diseñar actividades y observar el aprendizaje",
+        "href": "/ia-educacion/guias/profesorado/"
+      },
+      {
+        "text": "Conservar la dirección del trabajo con IA",
+        "href": "/ia-educacion/guias/agenciamiento-humano-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Agenciamiento (Ensamblaje)",
+        "href": "/tags/agenciamiento-ensamblaje/"
+      },
+      {
+        "text": "#Deleuze",
+        "href": "/tags/deleuze/"
+      },
+      {
+        "text": "#Guattari",
+        "href": "/tags/guattari/"
+      },
+      {
+        "text": "#Rizoma",
+        "href": "/tags/rizoma/"
+      },
+      {
+        "text": "#Co-Producción",
+        "href": "/tags/co-producci%C3%B3n/"
+      },
+      {
+        "text": "#Marco-Conceptual",
+        "href": "/tags/marco-conceptual/"
+      },
+      {
+        "text": "Aprendizaje rizomático con IA",
+        "href": "/ia-educacion/guias/aprendizaje-rizomatico-ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Aprendizaje Rizomático",
+        "href": "/tags/aprendizaje-rizom%C3%A1tico/"
+      },
+      {
+        "text": "#Cormier",
+        "href": "/tags/cormier/"
+      },
+      {
+        "text": "#Deleuze",
+        "href": "/tags/deleuze/"
+      },
+      {
+        "text": "#Exploración",
+        "href": "/tags/exploraci%C3%B3n/"
+      },
+      {
+        "text": "#Currículo Abierto",
+        "href": "/tags/curr%C3%ADculo-abierto/"
+      },
+      {
+        "text": "Integración curricular de IA en programas existentes",
+        "href": "/ia-educacion/guias/integracion-curricular-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Integración Curricular",
+        "href": "/tags/integraci%C3%B3n-curricular/"
+      },
+      {
+        "text": "#Perfil De Egreso",
+        "href": "/tags/perfil-de-egreso/"
+      },
+      {
+        "text": "#Rediseño De Evaluación",
+        "href": "/tags/redise%C3%B1o-de-evaluaci%C3%B3n/"
+      },
+      {
+        "text": "#Syllabus",
+        "href": "/tags/syllabus/"
+      },
+      {
+        "text": "#Competencias",
+        "href": "/tags/competencias/"
+      },
+      {
+        "text": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
+        "href": "/ia-educacion/guias/lineamientos-eticos-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Etica",
+        "href": "/areas/etica/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Ética",
+        "href": "/tags/%C3%A9tica/"
+      },
+      {
+        "text": "#Sugerencias",
+        "href": "/tags/sugerencias/"
+      },
+      {
+        "text": "#Criterios",
+        "href": "/tags/criterios/"
+      },
+      {
+        "text": "#Integridad Académica",
+        "href": "/tags/integridad-acad%C3%A9mica/"
+      },
+      {
+        "text": "#Transparencia",
+        "href": "/tags/transparencia/"
+      },
+      {
+        "text": "Aprendizaje basado en proyectos (ABP) con IA",
+        "href": "/ia-educacion/guias/abp-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Abp",
+        "href": "/tags/abp/"
+      },
+      {
+        "text": "#Metodología",
+        "href": "/tags/metodolog%C3%ADa/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Agenciamiento (Ensamblaje)",
+        "href": "/tags/agenciamiento-ensamblaje/"
+      },
+      {
+        "text": "#Trabajo Colaborativo",
+        "href": "/tags/trabajo-colaborativo/"
+      },
+      {
+        "text": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+        "href": "/ia-educacion/guias/evaluacion-formativa-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Evaluacion",
+        "href": "/areas/evaluacion/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Retroalimentación",
+        "href": "/tags/retroalimentaci%C3%B3n/"
+      },
+      {
+        "text": "#Ia-Generativa",
+        "href": "/tags/ia-generativa/"
+      },
+      {
+        "text": "#Portafolios",
+        "href": "/tags/portafolios/"
+      },
+      {
+        "text": "#Rúbricas",
+        "href": "/tags/r%C3%BAbricas/"
+      },
+      {
+        "text": "1",
+        "href": "/ia-educacion/guias/"
+      },
+      {
+        "text": "2",
+        "href": "/ia-educacion/guias/page/2/"
+      },
+      {
+        "text": "→",
+        "href": "/ia-educacion/guias/page/2/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "rutas",
+    "mode": "desktop",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/rutas-desktop.png",
+    "consoleErrors": [],
+    "title": "Rutas por responsabilidad · Aprendizaje Digital e IA",
+    "h1": "Rutas por responsabilidad",
+    "h2": [
+      "Qué cambia entre las rutas\n#",
+      "Elige un punto de entrada\n#",
+      "Decidir institucionalmente sobre IA en la docencia",
+      "Coordinar la IA en los procesos docentes"
+    ],
+    "mainText": "IA en educación/\nRutas por responsabilidad\nLa misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas puede sostener la institución. Compara los tres recorridos antes de elegir.\nQué cambia entre las rutas\n#\nComparación de las tres rutas según la responsabilidad y la decisión esperada\nSi necesitas…\tEmpiezas con…\tHarás…\tConservarás…\tComprobarás…\nEstudiar o enseñar con IA\tUn borrador, una actividad o una decisión próxima.\tComparar una ayuda, volver a los datos o materiales y explicar qué aceptas, modificas o descartas.\tLa versión inicial, la comprobación decisiva, la versión revisada y una razón breve.\tQue puedes explicar la decisión sin volver a la herramienta.\nCoordinar procesos docentes\tUna muestra de asignaturas, evaluaciones, problemas de acceso y necesidades docentes.\tDelimitar un piloto, acordar reglas comunes, acompañar al profesorado y revisar lo ocurrido.\tEl alcance, responsables, acuerdos, cambios realizados y decisión de cierre.\tSi conviene sostener, modificar, ampliar o detener el piloto.\nPreparar una decisión institucional\tIniciativas dispersas, capacidades disponibles, riesgos, costos y responsabilidades por confirmar.\tDefinir alcance, distribuir decisiones, fijar condiciones y priorizar pocas iniciativas.\tUn mandato revisable, responsables, requisitos, portafolio inicial y fecha de revisión.\tSi la institución puede sostener la decisión sin trasladar riesgos a docentes y estudiantes.\nElige un punto de entrada\n#\nEstudio o enseño\n\nPrueba una ayuda sobre un borrador o una actividad, comprueba el punto decisivo y explica qué conservas o cambias.\n\nCoordino procesos docentes\n\nDelimita un piloto, acuerda reglas de programa, acompaña al profesorado y decide qué hacer después de revisar los resultados.\n\nPreparo decisiones institucionales\n\nDefine alcance, responsabilidades, condiciones y prioridades antes de autorizar o ampliar una iniciativa.\n\nDecidir institucionalmente sobre IA en la docencia\n28 de julio de 2026\n·\n8 mins\nIa\nPedagogia\nDigital\nFormacion\nMarco-Ejecutivo\n#Gobernanza Ins",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "IA en educación",
+        "href": "/ia-educacion/"
+      },
+      {
+        "text": "#",
+        "href": "#qu%c3%a9-cambia-entre-las-rutas"
+      },
+      {
+        "text": "Estudiar o enseñar con IA",
+        "href": "/ia-educacion/constelaciones/empezar-con-ia/"
+      },
+      {
+        "text": "Coordinar procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Preparar una decisión institucional",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "#",
+        "href": "#elige-un-punto-de-entrada"
+      },
+      {
+        "text": "Estudio o enseño",
+        "href": "/ia-educacion/constelaciones/empezar-con-ia/"
+      },
+      {
+        "text": "Coordino procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Preparo decisiones institucionales",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "Decidir institucionalmente sobre IA en la docencia",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Marco-Ejecutivo",
+        "href": "/categories/marco-ejecutivo/"
+      },
+      {
+        "text": "#Gobernanza Institucional",
+        "href": "/tags/gobernanza-institucional/"
+      },
+      {
+        "text": "#Estrategia Universitaria",
+        "href": "/tags/estrategia-universitaria/"
+      },
+      {
+        "text": "#Inteligencia Artificial",
+        "href": "/tags/inteligencia-artificial/"
+      },
+      {
+        "text": "#Soberanía Tecnológica",
+        "href": "/tags/soberan%C3%ADa-tecnol%C3%B3gica/"
+      },
+      {
+        "text": "#Formación Docente",
+        "href": "/tags/formaci%C3%B3n-docente/"
+      },
+      {
+        "text": "#Evaluación",
+        "href": "/tags/evaluaci%C3%B3n/"
+      },
+      {
+        "text": "Coordinar la IA en los procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Ruta-De-Aprendizaje",
+        "href": "/categories/ruta-de-aprendizaje/"
+      },
+      {
+        "text": "#Coordinación Académica",
+        "href": "/tags/coordinaci%C3%B3n-acad%C3%A9mica/"
+      },
+      {
+        "text": "#Procesos Docentes",
+        "href": "/tags/procesos-docentes/"
+      },
+      {
+        "text": "#Integración Curricular",
+        "href": "/tags/integraci%C3%B3n-curricular/"
+      },
+      {
+        "text": "#Formación Docente",
+        "href": "/tags/formaci%C3%B3n-docente/"
+      },
+      {
+        "text": "#Evaluación",
+        "href": "/tags/evaluaci%C3%B3n/"
+      },
+      {
+        "text": "#SEMS",
+        "href": "/tags/sems/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "laboratorio",
+    "mode": "desktop",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/laboratorio-desktop.png",
+    "consoleErrors": [],
+    "title": "Laboratorio de innovación docente · Aprendizaje Digital e IA",
+    "h1": "Laboratorio de innovación docente",
+    "h2": [
+      "Elige según lo que vas a hacer\n#",
+      "Integración de IA en los aprendizajes",
+      "Experiencias docentes",
+      "Prácticas pedagógicas"
+    ],
+    "mainText": "Laboratorio de innovación docente\nEntra al Laboratorio cuando necesites preparar una prueba acotada: adaptar una actividad para tu grupo, revisar qué ocurrió en una implementación documentada o decidir en qué pasos de un flujo docente puede ayudar la IA. Cada página debe declarar si presenta una propuesta, un piloto o una experiencia documentada.\nElige según lo que vas a hacer\n#\nAdaptar una actividad: parte de una asignatura, grupo y material real; modifica la secuencia y deja claro cómo revisarás el trabajo del estudiantado.\nAprender de una implementación: revisa quién participó, cuándo ocurrió, qué cambió durante la aplicación y qué materiales respaldan los resultados declarados.\nPreparar un flujo docente: distribuye los pasos entre docente, estudiantes y herramienta; marca dónde permanece la decisión humana.\n\nAl terminar, conserva la versión inicial, los cambios que hiciste, los datos que decidiste no recopilar y la forma en que revisarás si la prueba conviene para tu contexto.\n\nPrácticas pedagógicas\n\nActividades para adaptar. Cada ficha debe indicar si es propuesta, piloto o práctica documentada.\n\nExperiencias docentes\n\nRelatos de aplicación con contexto, cambios durante el curso, resultados respaldados y límites de lo observado.\n\nIntegración de IA\n\nFlujos, protocolos y diagramas para decidir qué hace cada persona y en qué pasos puede intervenir una herramienta.\n\nIntegración de IA en los aprendizajes\n26 de abril de 2026\n·\n1 min\nIa\nPedagogia\nDigital\nCómo articular IA con la planeación de clase: flujos, protocolos y diagramas de proceso para docentes.\nExperiencias docentes\n26 de abril de 2026\n·\n1 min\nIa\nPedagogia\nDigital\nCasos vividos, no idealizados: lo que funcionó, lo que falló y lo que se aprendió.\nPrácticas pedagógicas\n14 de abril de 2026\n·\n2 mins\nElige una actividad, revisa en qué estado se encuentra y adáptala a un grupo y material concretos antes de aplicarla.\n↑",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "#",
+        "href": "#elige-seg%c3%ban-lo-que-vas-a-hacer"
+      },
+      {
+        "text": "Prácticas pedagógicas",
+        "href": "/laboratorio/practicas/"
+      },
+      {
+        "text": "Experiencias docentes",
+        "href": "/laboratorio/experiencias/"
+      },
+      {
+        "text": "Integración de IA",
+        "href": "/laboratorio/integracion-ia/"
+      },
+      {
+        "text": "Integración de IA en los aprendizajes",
+        "href": "/laboratorio/integracion-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Experiencias docentes",
+        "href": "/laboratorio/experiencias/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Prácticas pedagógicas",
+        "href": "/laboratorio/practicas/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "practicas",
+    "mode": "desktop",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/practicas-desktop.png",
+    "consoleErrors": [],
+    "title": "Prácticas pedagógicas · Aprendizaje Digital e IA",
+    "h1": "Prácticas pedagógicas",
+    "h2": [
+      "Cómo leer el estado de una práctica\n#",
+      "Antes de adaptar una actividad\n#",
+      "Evaluación formativa asistida por IA — portafolios iterativos",
+      "Aprendizaje activo con IA — actividades diseñadas y ejecutadas con IA",
+      "ABP con IA — proyecto colaborativo documentado",
+      "Aula invertida (flipped classroom)",
+      "Análisis crítico de sesgos en la IA",
+      "Debate socrático con IA como interlocutor"
+    ],
+    "mainText": "Laboratorio de innovación docente/\nPrácticas pedagógicas\nEsta colección reúne actividades en distintos estados. No supongas que una página describe una aplicación real solo porque incluye una secuencia o resultados. Antes de reutilizarla, comprueba qué se hizo realmente, qué sigue siendo una propuesta y qué materiales respaldan las afirmaciones.\nCómo leer el estado de una práctica\n#\nDiferencias entre una actividad propuesta, un piloto y una práctica documentada\nEstado\tQué debe mostrar la página\tQué puedes concluir\nPropuesta\tGrupo previsto, material inicial, pasos, forma de revisión, alternativa sin IA y riesgos.\tPuedes adaptar el diseño; todavía no hay resultados de aplicación.\nPiloto\tLo anterior, más fecha, grupo, cambios durante la prueba y materiales conservados.\tPuedes aprender de una aplicación acotada, sin generalizar sus resultados.\nDocumentada\tContexto identificable, método, materiales, límites y procedencia de los resultados.\tPuedes contrastar la experiencia con tu contexto y decidir qué conviene probar.\nAntes de adaptar una actividad\n#\nElige una asignatura, un grupo y un material que ya utilices.\nIdentifica qué acción necesita practicar el estudiantado.\nDecide en qué momento puede aparecer la ayuda y qué información no debe entrar en la herramienta.\nConserva la versión inicial y el cambio que realices.\nDefine qué revisarás para decidir si conviene repetir, modificar o detener la actividad.\n\nLas páginas de esta colección están en revisión para que su estado quede visible y sus afirmaciones puedan comprobarse. Mientras esa revisión termina, trata como propuesta cualquier práctica que no identifique claramente su aplicación y procedencia.\n\nEvaluación formativa asistida por IA — portafolios iterativos\n14 de abril de 2026\n·\n6 mins\nIa\nEvaluacion\nPedagogia\nPractica-Pedagogica\n#Evaluación Formativa\n#Portafolios\n#Retroalimentación Iterativa\n#Claude\n#Gemini\n#Licenciatura\n#Híbrida\n#Rúbrica\nUn sistema de portafolios donde cada texto pasa por tres versiones con retroalimentación de IA. Lo que se evalúa no es el producto final sino las decisiones que el estudiante tomó en cada iteración.\nAprendizaje activo con IA — actividades diseñadas y ejecutadas con IA\n14 de abr",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "Laboratorio de innovación docente",
+        "href": "/laboratorio/"
+      },
+      {
+        "text": "#",
+        "href": "#c%c3%b3mo-leer-el-estado-de-una-pr%c3%a1ctica"
+      },
+      {
+        "text": "#",
+        "href": "#antes-de-adaptar-una-actividad"
+      },
+      {
+        "text": "Evaluación formativa asistida por IA — portafolios iterativos",
+        "href": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Evaluacion",
+        "href": "/areas/evaluacion/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Portafolios",
+        "href": "/tags/portafolios/"
+      },
+      {
+        "text": "#Retroalimentación Iterativa",
+        "href": "/tags/retroalimentaci%C3%B3n-iterativa/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "#Rúbrica",
+        "href": "/tags/r%C3%BAbrica/"
+      },
+      {
+        "text": "Aprendizaje activo con IA — actividades diseñadas y ejecutadas con IA",
+        "href": "/laboratorio/practicas/aprendizaje-activo-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Think-Pair-Share",
+        "href": "/tags/think-pair-share/"
+      },
+      {
+        "text": "#Estudio De Caso",
+        "href": "/tags/estudio-de-caso/"
+      },
+      {
+        "text": "#Simulación",
+        "href": "/tags/simulaci%C3%B3n/"
+      },
+      {
+        "text": "#Deepseek",
+        "href": "/tags/deepseek/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Presencial",
+        "href": "/tags/presencial/"
+      },
+      {
+        "text": "ABP con IA — proyecto colaborativo documentado",
+        "href": "/laboratorio/practicas/abp-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Abp",
+        "href": "/tags/abp/"
+      },
+      {
+        "text": "#Proyecto Colaborativo",
+        "href": "/tags/proyecto-colaborativo/"
+      },
+      {
+        "text": "#Ia-Generativa",
+        "href": "/tags/ia-generativa/"
+      },
+      {
+        "text": "#Trabajo en Equipo",
+        "href": "/tags/trabajo-en-equipo/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "Aula invertida (flipped classroom)",
+        "href": "/laboratorio/practicas/aula-invertida/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Flipped-Classroom",
+        "href": "/tags/flipped-classroom/"
+      },
+      {
+        "text": "#Aula-Invertida",
+        "href": "/tags/aula-invertida/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Aprendizaje-Hibrido",
+        "href": "/tags/aprendizaje-hibrido/"
+      },
+      {
+        "text": "#Ejercicios-Interactivos",
+        "href": "/tags/ejercicios-interactivos/"
+      },
+      {
+        "text": "Análisis crítico de sesgos en la IA",
+        "href": "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Pensamiento Crítico",
+        "href": "/tags/pensamiento-cr%C3%ADtico/"
+      },
+      {
+        "text": "#Ética",
+        "href": "/tags/%C3%A9tica/"
+      },
+      {
+        "text": "#Sesgos",
+        "href": "/tags/sesgos/"
+      },
+      {
+        "text": "#Alfabetización Digital",
+        "href": "/tags/alfabetizaci%C3%B3n-digital/"
+      },
+      {
+        "text": "#ChatGPT",
+        "href": "/tags/chatgpt/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "Debate socrático con IA como interlocutor",
+        "href": "/laboratorio/practicas/debate-socratico-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Argumentación",
+        "href": "/tags/argumentaci%C3%B3n/"
+      },
+      {
+        "text": "#Debate",
+        "href": "/tags/debate/"
+      },
+      {
+        "text": "#Pensamiento Crítico",
+        "href": "/tags/pensamiento-cr%C3%ADtico/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Presencial",
+        "href": "/tags/presencial/"
+      },
+      {
+        "text": "#Rúbrica Analítica",
+        "href": "/tags/r%C3%BAbrica-anal%C3%ADtica/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "guias",
+    "mode": "mobile",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/guias-mobile.png",
+    "consoleErrors": [],
+    "title": "Guías prácticas de IA · Aprendizaje Digital e IA",
+    "h1": "Guías prácticas de IA",
+    "h2": [
+      "Empieza por lo que necesitas resolver\n#",
+      "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+      "Antes de compartir: protege datos y trabajos al usar IA",
+      "Laboratorio guiado para decidir antes de entregar",
+      "Diseñar actividades y observar el aprendizaje",
+      "Conservar la dirección del trabajo con IA",
+      "Aprendizaje rizomático con IA",
+      "Integración curricular de IA en programas existentes",
+      "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
+      "Aprendizaje basado en proyectos (ABP) con IA",
+      "Evaluación formativa con IA — ciclos de retroalimentación iterativa"
+    ],
+    "mainText": "IA en educación/\nGuías prácticas de IA\nEstas guías sirven cuando ya tienes una tarea concreta: revisar un borrador, preparar una actividad, comprobar una afirmación, dar retroalimentación o decidir qué información puede entrar en una herramienta. No necesitas recorrerlas en orden.\nEmpieza por lo que necesitas resolver\n#\nSi estudias y vas a entregar un trabajo: compara una sugerencia con tu borrador y conserva una decisión que puedas explicar.\nSi enseñas y tienes una actividad próxima: revisa una instrucción real y deja una versión ajustada.\nSi necesitas diseñar una actividad completa: parte de lo que hará el grupo, decide cuándo aparece la ayuda y define cómo revisar el aprendizaje.\nSi vas a dar retroalimentación o revisar avances: elige qué puede apoyar la IA y qué debe decidir la persona docente.\nSi una respuesta incluye un dato importante: comprueba la afirmación antes de repetirla o usarla.\nSi trabajarás con información de otras personas: revisa primero qué datos debes retirar o mantener fuera de la herramienta.\nSi necesitas pedir una tarea delimitada a un modelo: escribe una instrucción, prueba el resultado y corrígela según el caso.\n\nLas tarjetas siguientes reúnen todas las guías. Cada una debe indicar para quién sirve, con qué material se empieza, qué se hará y qué conviene conservar al terminar.\n\nAprendizaje híbrido y activo: Diseñar una actividad, paso a paso\n13 de agosto de 2026\n·\n40 mins\nIa\nPedagogia\nFormacion\nDigital\nGuia\n#Aprendizaje Híbrido\n#Aprendizaje-Activo\n#Diseño Inverso\n#Bloom\n#Icap\n#Co-Creación Con IA\nMétodo paso a paso, ejemplos disciplinares, patrones transferibles, lista de cotejo y plantilla para diseñar actividades híbridas y activas con o sin IA.\nAntes de compartir: protege datos y trabajos al usar IA\n11 de agosto de 2026\n·\n1 min\nDistingue información pública, controlada, sensible y confidencial antes de copiarla a una herramienta de IA.\nLaboratorio guiado para decidir antes de entregar\n3 de agosto de 2026\n·\n2 mins\nParte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender.\nDiseñar actividades y observar el aprendizaje\n3 de agosto de 2026\n·\n4 mins\nRevisa una actividad propia, encuentra la primera parte que ",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "IA en educación",
+        "href": "/ia-educacion/"
+      },
+      {
+        "text": "#",
+        "href": "#empieza-por-lo-que-necesitas-resolver"
+      },
+      {
+        "text": "compara una sugerencia con tu borrador y conserva una decisión que puedas explicar",
+        "href": "/ia-educacion/guias/estudiantes/"
+      },
+      {
+        "text": "revisa una instrucción real y deja una versión ajustada",
+        "href": "/ia-educacion/guias/profesorado/"
+      },
+      {
+        "text": "parte de lo que hará el grupo, decide cuándo aparece la ayuda y define cómo revisar el aprendizaje",
+        "href": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/"
+      },
+      {
+        "text": "elige qué puede apoyar la IA y qué debe decidir la persona docente",
+        "href": "/ia-educacion/guias/evaluacion-formativa-ia/"
+      },
+      {
+        "text": "comprueba la afirmación antes de repetirla o usarla",
+        "href": "/ia-educacion/practicas/comprobar-afirmacion/"
+      },
+      {
+        "text": "revisa primero qué datos debes retirar o mantener fuera de la herramienta",
+        "href": "/ia-educacion/guias/privacidad-datos-ia/"
+      },
+      {
+        "text": "escribe una instrucción, prueba el resultado y corrígela según el caso",
+        "href": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/"
+      },
+      {
+        "text": "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
+        "href": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Aprendizaje Híbrido",
+        "href": "/tags/aprendizaje-h%C3%ADbrido/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Diseño Inverso",
+        "href": "/tags/dise%C3%B1o-inverso/"
+      },
+      {
+        "text": "#Bloom",
+        "href": "/tags/bloom/"
+      },
+      {
+        "text": "#Icap",
+        "href": "/tags/icap/"
+      },
+      {
+        "text": "#Co-Creación Con IA",
+        "href": "/tags/co-creaci%C3%B3n-con-ia/"
+      },
+      {
+        "text": "Antes de compartir: protege datos y trabajos al usar IA",
+        "href": "/ia-educacion/guias/privacidad-datos-ia/"
+      },
+      {
+        "text": "Laboratorio guiado para decidir antes de entregar",
+        "href": "/ia-educacion/guias/estudiantes/"
+      },
+      {
+        "text": "Diseñar actividades y observar el aprendizaje",
+        "href": "/ia-educacion/guias/profesorado/"
+      },
+      {
+        "text": "Conservar la dirección del trabajo con IA",
+        "href": "/ia-educacion/guias/agenciamiento-humano-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Agenciamiento (Ensamblaje)",
+        "href": "/tags/agenciamiento-ensamblaje/"
+      },
+      {
+        "text": "#Deleuze",
+        "href": "/tags/deleuze/"
+      },
+      {
+        "text": "#Guattari",
+        "href": "/tags/guattari/"
+      },
+      {
+        "text": "#Rizoma",
+        "href": "/tags/rizoma/"
+      },
+      {
+        "text": "#Co-Producción",
+        "href": "/tags/co-producci%C3%B3n/"
+      },
+      {
+        "text": "#Marco-Conceptual",
+        "href": "/tags/marco-conceptual/"
+      },
+      {
+        "text": "Aprendizaje rizomático con IA",
+        "href": "/ia-educacion/guias/aprendizaje-rizomatico-ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Aprendizaje Rizomático",
+        "href": "/tags/aprendizaje-rizom%C3%A1tico/"
+      },
+      {
+        "text": "#Cormier",
+        "href": "/tags/cormier/"
+      },
+      {
+        "text": "#Deleuze",
+        "href": "/tags/deleuze/"
+      },
+      {
+        "text": "#Exploración",
+        "href": "/tags/exploraci%C3%B3n/"
+      },
+      {
+        "text": "#Currículo Abierto",
+        "href": "/tags/curr%C3%ADculo-abierto/"
+      },
+      {
+        "text": "Integración curricular de IA en programas existentes",
+        "href": "/ia-educacion/guias/integracion-curricular-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Integración Curricular",
+        "href": "/tags/integraci%C3%B3n-curricular/"
+      },
+      {
+        "text": "#Perfil De Egreso",
+        "href": "/tags/perfil-de-egreso/"
+      },
+      {
+        "text": "#Rediseño De Evaluación",
+        "href": "/tags/redise%C3%B1o-de-evaluaci%C3%B3n/"
+      },
+      {
+        "text": "#Syllabus",
+        "href": "/tags/syllabus/"
+      },
+      {
+        "text": "#Competencias",
+        "href": "/tags/competencias/"
+      },
+      {
+        "text": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
+        "href": "/ia-educacion/guias/lineamientos-eticos-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Etica",
+        "href": "/areas/etica/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Ética",
+        "href": "/tags/%C3%A9tica/"
+      },
+      {
+        "text": "#Sugerencias",
+        "href": "/tags/sugerencias/"
+      },
+      {
+        "text": "#Criterios",
+        "href": "/tags/criterios/"
+      },
+      {
+        "text": "#Integridad Académica",
+        "href": "/tags/integridad-acad%C3%A9mica/"
+      },
+      {
+        "text": "#Transparencia",
+        "href": "/tags/transparencia/"
+      },
+      {
+        "text": "Aprendizaje basado en proyectos (ABP) con IA",
+        "href": "/ia-educacion/guias/abp-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Abp",
+        "href": "/tags/abp/"
+      },
+      {
+        "text": "#Metodología",
+        "href": "/tags/metodolog%C3%ADa/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Agenciamiento (Ensamblaje)",
+        "href": "/tags/agenciamiento-ensamblaje/"
+      },
+      {
+        "text": "#Trabajo Colaborativo",
+        "href": "/tags/trabajo-colaborativo/"
+      },
+      {
+        "text": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+        "href": "/ia-educacion/guias/evaluacion-formativa-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Evaluacion",
+        "href": "/areas/evaluacion/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Guia",
+        "href": "/categories/guia/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Retroalimentación",
+        "href": "/tags/retroalimentaci%C3%B3n/"
+      },
+      {
+        "text": "#Ia-Generativa",
+        "href": "/tags/ia-generativa/"
+      },
+      {
+        "text": "#Portafolios",
+        "href": "/tags/portafolios/"
+      },
+      {
+        "text": "#Rúbricas",
+        "href": "/tags/r%C3%BAbricas/"
+      },
+      {
+        "text": "1",
+        "href": "/ia-educacion/guias/"
+      },
+      {
+        "text": "2",
+        "href": "/ia-educacion/guias/page/2/"
+      },
+      {
+        "text": "→",
+        "href": "/ia-educacion/guias/page/2/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "rutas",
+    "mode": "mobile",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/rutas-mobile.png",
+    "consoleErrors": [],
+    "title": "Rutas por responsabilidad · Aprendizaje Digital e IA",
+    "h1": "Rutas por responsabilidad",
+    "h2": [
+      "Qué cambia entre las rutas\n#",
+      "Elige un punto de entrada\n#",
+      "Decidir institucionalmente sobre IA en la docencia",
+      "Coordinar la IA en los procesos docentes"
+    ],
+    "mainText": "IA en educación/\nRutas por responsabilidad\nLa misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas puede sostener la institución. Compara los tres recorridos antes de elegir.\nQué cambia entre las rutas\n#\n\nDesliza horizontalmente para consultar todas las columnas.\n\nComparación de las tres rutas según la responsabilidad y la decisión esperada\nSi necesitas…\tEmpiezas con…\tHarás…\tConservarás…\tComprobarás…\nEstudiar o enseñar con IA\tUn borrador, una actividad o una decisión próxima.\tComparar una ayuda, volver a los datos o materiales y explicar qué aceptas, modificas o descartas.\tLa versión inicial, la comprobación decisiva, la versión revisada y una razón breve.\tQue puedes explicar la decisión sin volver a la herramienta.\nCoordinar procesos docentes\tUna muestra de asignaturas, evaluaciones, problemas de acceso y necesidades docentes.\tDelimitar un piloto, acordar reglas comunes, acompañar al profesorado y revisar lo ocurrido.\tEl alcance, responsables, acuerdos, cambios realizados y decisión de cierre.\tSi conviene sostener, modificar, ampliar o detener el piloto.\nPreparar una decisión institucional\tIniciativas dispersas, capacidades disponibles, riesgos, costos y responsabilidades por confirmar.\tDefinir alcance, distribuir decisiones, fijar condiciones y priorizar pocas iniciativas.\tUn mandato revisable, responsables, requisitos, portafolio inicial y fecha de revisión.\tSi la institución puede sostener la decisión sin trasladar riesgos a docentes y estudiantes.\nElige un punto de entrada\n#\nEstudio o enseño\n\nPrueba una ayuda sobre un borrador o una actividad, comprueba el punto decisivo y explica qué conservas o cambias.\n\nCoordino procesos docentes\n\nDelimita un piloto, acuerda reglas de programa, acompaña al profesorado y decide qué hacer después de revisar los resultados.\n\nPreparo decisiones institucionales\n\nDefine alcance, responsabilidades, condiciones y prioridades antes de autorizar o ampliar una iniciativa.\n\nDecidir institucionalmente sobre IA en la docencia\n28 de julio de 2026\n·\n8 mins\nI",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "IA en educación",
+        "href": "/ia-educacion/"
+      },
+      {
+        "text": "#",
+        "href": "#qu%c3%a9-cambia-entre-las-rutas"
+      },
+      {
+        "text": "Estudiar o enseñar con IA",
+        "href": "/ia-educacion/constelaciones/empezar-con-ia/"
+      },
+      {
+        "text": "Coordinar procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Preparar una decisión institucional",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "#",
+        "href": "#elige-un-punto-de-entrada"
+      },
+      {
+        "text": "Estudio o enseño",
+        "href": "/ia-educacion/constelaciones/empezar-con-ia/"
+      },
+      {
+        "text": "Coordino procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Preparo decisiones institucionales",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "Decidir institucionalmente sobre IA en la docencia",
+        "href": "/ia-educacion/rutas/decision-institucional-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Marco-Ejecutivo",
+        "href": "/categories/marco-ejecutivo/"
+      },
+      {
+        "text": "#Gobernanza Institucional",
+        "href": "/tags/gobernanza-institucional/"
+      },
+      {
+        "text": "#Estrategia Universitaria",
+        "href": "/tags/estrategia-universitaria/"
+      },
+      {
+        "text": "#Inteligencia Artificial",
+        "href": "/tags/inteligencia-artificial/"
+      },
+      {
+        "text": "#Soberanía Tecnológica",
+        "href": "/tags/soberan%C3%ADa-tecnol%C3%B3gica/"
+      },
+      {
+        "text": "#Formación Docente",
+        "href": "/tags/formaci%C3%B3n-docente/"
+      },
+      {
+        "text": "#Evaluación",
+        "href": "/tags/evaluaci%C3%B3n/"
+      },
+      {
+        "text": "Coordinar la IA en los procesos docentes",
+        "href": "/ia-educacion/rutas/coordinacion-academica/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Ruta-De-Aprendizaje",
+        "href": "/categories/ruta-de-aprendizaje/"
+      },
+      {
+        "text": "#Coordinación Académica",
+        "href": "/tags/coordinaci%C3%B3n-acad%C3%A9mica/"
+      },
+      {
+        "text": "#Procesos Docentes",
+        "href": "/tags/procesos-docentes/"
+      },
+      {
+        "text": "#Integración Curricular",
+        "href": "/tags/integraci%C3%B3n-curricular/"
+      },
+      {
+        "text": "#Formación Docente",
+        "href": "/tags/formaci%C3%B3n-docente/"
+      },
+      {
+        "text": "#Evaluación",
+        "href": "/tags/evaluaci%C3%B3n/"
+      },
+      {
+        "text": "#SEMS",
+        "href": "/tags/sems/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "laboratorio",
+    "mode": "mobile",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/laboratorio-mobile.png",
+    "consoleErrors": [],
+    "title": "Laboratorio de innovación docente · Aprendizaje Digital e IA",
+    "h1": "Laboratorio de innovación docente",
+    "h2": [
+      "Elige según lo que vas a hacer\n#",
+      "Integración de IA en los aprendizajes",
+      "Experiencias docentes",
+      "Prácticas pedagógicas"
+    ],
+    "mainText": "Laboratorio de innovación docente\nEntra al Laboratorio cuando necesites preparar una prueba acotada: adaptar una actividad para tu grupo, revisar qué ocurrió en una implementación documentada o decidir en qué pasos de un flujo docente puede ayudar la IA. Cada página debe declarar si presenta una propuesta, un piloto o una experiencia documentada.\nElige según lo que vas a hacer\n#\nAdaptar una actividad: parte de una asignatura, grupo y material real; modifica la secuencia y deja claro cómo revisarás el trabajo del estudiantado.\nAprender de una implementación: revisa quién participó, cuándo ocurrió, qué cambió durante la aplicación y qué materiales respaldan los resultados declarados.\nPreparar un flujo docente: distribuye los pasos entre docente, estudiantes y herramienta; marca dónde permanece la decisión humana.\n\nAl terminar, conserva la versión inicial, los cambios que hiciste, los datos que decidiste no recopilar y la forma en que revisarás si la prueba conviene para tu contexto.\n\nPrácticas pedagógicas\n\nActividades para adaptar. Cada ficha debe indicar si es propuesta, piloto o práctica documentada.\n\nExperiencias docentes\n\nRelatos de aplicación con contexto, cambios durante el curso, resultados respaldados y límites de lo observado.\n\nIntegración de IA\n\nFlujos, protocolos y diagramas para decidir qué hace cada persona y en qué pasos puede intervenir una herramienta.\n\nIntegración de IA en los aprendizajes\n26 de abril de 2026\n·\n1 min\nIa\nPedagogia\nDigital\nCómo articular IA con la planeación de clase: flujos, protocolos y diagramas de proceso para docentes.\nExperiencias docentes\n26 de abril de 2026\n·\n1 min\nIa\nPedagogia\nDigital\nCasos vividos, no idealizados: lo que funcionó, lo que falló y lo que se aprendió.\nPrácticas pedagógicas\n14 de abril de 2026\n·\n2 mins\nElige una actividad, revisa en qué estado se encuentra y adáptala a un grupo y material concretos antes de aplicarla.\n↑",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "#",
+        "href": "#elige-seg%c3%ban-lo-que-vas-a-hacer"
+      },
+      {
+        "text": "Prácticas pedagógicas",
+        "href": "/laboratorio/practicas/"
+      },
+      {
+        "text": "Experiencias docentes",
+        "href": "/laboratorio/experiencias/"
+      },
+      {
+        "text": "Integración de IA",
+        "href": "/laboratorio/integracion-ia/"
+      },
+      {
+        "text": "Integración de IA en los aprendizajes",
+        "href": "/laboratorio/integracion-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Experiencias docentes",
+        "href": "/laboratorio/experiencias/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Digital",
+        "href": "/areas/digital/"
+      },
+      {
+        "text": "Prácticas pedagógicas",
+        "href": "/laboratorio/practicas/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  },
+  {
+    "name": "practicas",
+    "mode": "mobile",
+    "status": 200,
+    "screenshot": "/tmp/aprendizaje-ia-contexto-lote-01-visual/practicas-mobile.png",
+    "consoleErrors": [],
+    "title": "Prácticas pedagógicas · Aprendizaje Digital e IA",
+    "h1": "Prácticas pedagógicas",
+    "h2": [
+      "Cómo leer el estado de una práctica\n#",
+      "Antes de adaptar una actividad\n#",
+      "Evaluación formativa asistida por IA — portafolios iterativos",
+      "Aprendizaje activo con IA — actividades diseñadas y ejecutadas con IA",
+      "ABP con IA — proyecto colaborativo documentado",
+      "Aula invertida (flipped classroom)",
+      "Análisis crítico de sesgos en la IA",
+      "Debate socrático con IA como interlocutor"
+    ],
+    "mainText": "Laboratorio de innovación docente/\nPrácticas pedagógicas\nEsta colección reúne actividades en distintos estados. No supongas que una página describe una aplicación real solo porque incluye una secuencia o resultados. Antes de reutilizarla, comprueba qué se hizo realmente, qué sigue siendo una propuesta y qué materiales respaldan las afirmaciones.\nCómo leer el estado de una práctica\n#\n\nDesliza horizontalmente para consultar todas las columnas.\n\nDiferencias entre una actividad propuesta, un piloto y una práctica documentada\nEstado\tQué debe mostrar la página\tQué puedes concluir\nPropuesta\tGrupo previsto, material inicial, pasos, forma de revisión, alternativa sin IA y riesgos.\tPuedes adaptar el diseño; todavía no hay resultados de aplicación.\nPiloto\tLo anterior, más fecha, grupo, cambios durante la prueba y materiales conservados.\tPuedes aprender de una aplicación acotada, sin generalizar sus resultados.\nDocumentada\tContexto identificable, método, materiales, límites y procedencia de los resultados.\tPuedes contrastar la experiencia con tu contexto y decidir qué conviene probar.\nAntes de adaptar una actividad\n#\nElige una asignatura, un grupo y un material que ya utilices.\nIdentifica qué acción necesita practicar el estudiantado.\nDecide en qué momento puede aparecer la ayuda y qué información no debe entrar en la herramienta.\nConserva la versión inicial y el cambio que realices.\nDefine qué revisarás para decidir si conviene repetir, modificar o detener la actividad.\n\nLas páginas de esta colección están en revisión para que su estado quede visible y sus afirmaciones puedan comprobarse. Mientras esa revisión termina, trata como propuesta cualquier práctica que no identifique claramente su aplicación y procedencia.\n\nEvaluación formativa asistida por IA — portafolios iterativos\n14 de abril de 2026\n·\n6 mins\nIa\nEvaluacion\nPedagogia\nPractica-Pedagogica\n#Evaluación Formativa\n#Portafolios\n#Retroalimentación Iterativa\n#Claude\n#Gemini\n#Licenciatura\n#Híbrida\n#Rúbrica\nUn sistema de portafolios donde cada texto pasa por tres versiones con retroalimentación de IA. Lo que se evalúa no es el producto final sino las decisiones que el estudiante tomó en cada iteración.\nAprendizaje activo",
+    "horizontalOverflow": false,
+    "visibleLinks": [
+      {
+        "text": "Laboratorio de innovación docente",
+        "href": "/laboratorio/"
+      },
+      {
+        "text": "#",
+        "href": "#c%c3%b3mo-leer-el-estado-de-una-pr%c3%a1ctica"
+      },
+      {
+        "text": "#",
+        "href": "#antes-de-adaptar-una-actividad"
+      },
+      {
+        "text": "Evaluación formativa asistida por IA — portafolios iterativos",
+        "href": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Evaluacion",
+        "href": "/areas/evaluacion/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Evaluación Formativa",
+        "href": "/tags/evaluaci%C3%B3n-formativa/"
+      },
+      {
+        "text": "#Portafolios",
+        "href": "/tags/portafolios/"
+      },
+      {
+        "text": "#Retroalimentación Iterativa",
+        "href": "/tags/retroalimentaci%C3%B3n-iterativa/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "#Rúbrica",
+        "href": "/tags/r%C3%BAbrica/"
+      },
+      {
+        "text": "Aprendizaje activo con IA — actividades diseñadas y ejecutadas con IA",
+        "href": "/laboratorio/practicas/aprendizaje-activo-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Think-Pair-Share",
+        "href": "/tags/think-pair-share/"
+      },
+      {
+        "text": "#Estudio De Caso",
+        "href": "/tags/estudio-de-caso/"
+      },
+      {
+        "text": "#Simulación",
+        "href": "/tags/simulaci%C3%B3n/"
+      },
+      {
+        "text": "#Deepseek",
+        "href": "/tags/deepseek/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Presencial",
+        "href": "/tags/presencial/"
+      },
+      {
+        "text": "ABP con IA — proyecto colaborativo documentado",
+        "href": "/laboratorio/practicas/abp-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Abp",
+        "href": "/tags/abp/"
+      },
+      {
+        "text": "#Proyecto Colaborativo",
+        "href": "/tags/proyecto-colaborativo/"
+      },
+      {
+        "text": "#Ia-Generativa",
+        "href": "/tags/ia-generativa/"
+      },
+      {
+        "text": "#Trabajo en Equipo",
+        "href": "/tags/trabajo-en-equipo/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "Aula invertida (flipped classroom)",
+        "href": "/laboratorio/practicas/aula-invertida/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Formacion",
+        "href": "/areas/formacion/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Flipped-Classroom",
+        "href": "/tags/flipped-classroom/"
+      },
+      {
+        "text": "#Aula-Invertida",
+        "href": "/tags/aula-invertida/"
+      },
+      {
+        "text": "#Aprendizaje-Activo",
+        "href": "/tags/aprendizaje-activo/"
+      },
+      {
+        "text": "#Aprendizaje-Hibrido",
+        "href": "/tags/aprendizaje-hibrido/"
+      },
+      {
+        "text": "#Ejercicios-Interactivos",
+        "href": "/tags/ejercicios-interactivos/"
+      },
+      {
+        "text": "Análisis crítico de sesgos en la IA",
+        "href": "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Pensamiento Crítico",
+        "href": "/tags/pensamiento-cr%C3%ADtico/"
+      },
+      {
+        "text": "#Ética",
+        "href": "/tags/%C3%A9tica/"
+      },
+      {
+        "text": "#Sesgos",
+        "href": "/tags/sesgos/"
+      },
+      {
+        "text": "#Alfabetización Digital",
+        "href": "/tags/alfabetizaci%C3%B3n-digital/"
+      },
+      {
+        "text": "#ChatGPT",
+        "href": "/tags/chatgpt/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Híbrida",
+        "href": "/tags/h%C3%ADbrida/"
+      },
+      {
+        "text": "Debate socrático con IA como interlocutor",
+        "href": "/laboratorio/practicas/debate-socratico-con-ia/"
+      },
+      {
+        "text": "Ia",
+        "href": "/areas/ia/"
+      },
+      {
+        "text": "Pedagogia",
+        "href": "/areas/pedagogia/"
+      },
+      {
+        "text": "Practica-Pedagogica",
+        "href": "/categories/practica-pedagogica/"
+      },
+      {
+        "text": "#Argumentación",
+        "href": "/tags/argumentaci%C3%B3n/"
+      },
+      {
+        "text": "#Debate",
+        "href": "/tags/debate/"
+      },
+      {
+        "text": "#Pensamiento Crítico",
+        "href": "/tags/pensamiento-cr%C3%ADtico/"
+      },
+      {
+        "text": "#Gemini",
+        "href": "/tags/gemini/"
+      },
+      {
+        "text": "#Claude",
+        "href": "/tags/claude/"
+      },
+      {
+        "text": "#Licenciatura",
+        "href": "/tags/licenciatura/"
+      },
+      {
+        "text": "#Presencial",
+        "href": "/tags/presencial/"
+      },
+      {
+        "text": "#Rúbrica Analítica",
+        "href": "/tags/r%C3%BAbrica-anal%C3%ADtica/"
+      },
+      {
+        "text": "↑",
+        "href": "#the-top"
+      }
+    ]
+  }
+]

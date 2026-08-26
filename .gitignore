@@ -20,6 +20,9 @@ Thumbs.db
 # Antigravity CLI session state
 .antigravitycli/
 
+# Contexto efímero entregado a agentes; nunca es memoria duradera
+/.agent-context/
+
 # Backup files
 *.bak
 

@@ -3,7 +3,7 @@ title: "Alfabetización digital"
 date: 2026-03-17
 description: "El marco de tres niveles — operativa, crítica y co-creación — para entender qué significa estar alfabetizado en un entorno donde la IA forma parte del trabajo intelectual cotidiano."
 summary: "Tres niveles de literacidad para la formación docente en el entorno digital: operativa, crítica y co-creación, su progresión y sus implicaciones pedagógicas."
-weight: 1
+weight: 10
 showHero: true
 showBreadcrumbs: true
 showSummary: true
@@ -43,7 +43,9 @@ flowchart LR
 | **2 — Crítica** | Entender el sistema que produce las salidas | Detectar sesgos, cuestionar quién diseña y con qué datos, comprender la IA como modo de ordenamiento |
 | **3 — Co-creación** | Sostener el acoplamiento sin perder la dirección | Mantener la dirección epistémica, descartar salidas que no sirven, saber cuándo no usar la IA |
 
-Los tres niveles no son etapas excluyentes: cada uno supone el anterior y el aprendizaje en un nivel siempre retroalimenta a los otros. Lo que la progresión señala es dónde se concentra la competencia todavía ausente.
+{{< idea titulo="La progresión no es una escalera" >}}
+Los tres niveles no son etapas excluyentes: cada uno supone el anterior y el aprendizaje en un nivel siempre retroalimenta a los otros. Lo que la progresión señala es dónde se concentra la competencia todavía ausente, no un orden obligatorio de capacitación.
+{{< /idea >}}
 
 Cada nivel tiene su propia infografía con los cinco principios clave que lo definen:
 
@@ -86,7 +88,7 @@ La competencia de co-creación implica:
 - Documentar el proceso de co-creación como evidencia del trabajo intelectual.
 - Saber cuándo **no** usar la IA: cuando el esfuerzo sin asistencia es lo que produce el aprendizaje.
 
-Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. El [marco sobre co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) ofrece el sustento conceptual.
+Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. La [guía sobre co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) muestra, mediante un caso, cómo la persona conserva la dirección del proceso.
 
 ## Lo que los tres niveles comparten
 
@@ -94,7 +96,7 @@ Ningún nivel se desarrolla solo leyendo. Los tres exigen práctica guiada, retr
 
 La [entrada de glosario sobre alfabetización en IA](/recursos/glosario/alfabetizacion-ia/) sintetiza el marco conceptual. Para profundizar en la formación del profesorado, la [sección de formación docente](/formacion-docente/) ofrece guías y talleres organizados por competencia.
 
-## Referencias
+{{< referencias >}}
 
 - Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
 - Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
@@ -102,3 +104,4 @@ La [entrada de glosario sobre alfabetización en IA](/recursos/glosario/alfabeti
 - UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 - Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802
 - Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.
+{{< /referencias >}}

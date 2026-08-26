@@ -16,7 +16,7 @@ showSummary: true
 showTaxonomies: true
 showRelatedContent: true
 showAuthor: false
-weight: 1
+weight: 11
 ---
 
 {{< lead >}}
@@ -74,8 +74,9 @@ La alfabetización operativa es el primer nivel del marco de tres literacidades 
 
 La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa y por qué los tres niveles son acumulativos.
 
-## Referencias
+{{< referencias >}}
 
 - Mollick, E. (2023). Assigning AI: Seven approaches for students. *Wharton Working Papers*.
 - SchoolAI. (2025). Teaching AI literacy in the classroom: Strategies for educators. https://schoolai.com/blog/ai-literacy-english-class
 - UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
+{{< /referencias >}}

@@ -17,6 +17,13 @@ import axe from "axe-core";
 import { chromium } from "playwright-core";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const playwrightChromium = chromium.executablePath();
+const chromiumBinary = process.env.CHROMIUM_PATH ||
+  ((await stat("/usr/bin/chromium").catch(() => null))
+    ? "/usr/bin/chromium"
+    : (await stat(playwrightChromium).catch(() => null))
+      ? playwrightChromium
+      : "");
 const evidenceDir = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(root, "docs/design/evidence/udgia-015");
@@ -78,7 +85,11 @@ async function startServer(siteRoot, mountPath = "") {
       response.writeHead(200);
       await pipeline(createReadStream(file), response);
     } catch {
-      response.writeHead(404).end("Not found");
+      if (!response.headersSent) {
+        response.writeHead(404).end("Not found");
+      } else {
+        response.destroy();
+      }
     }
   });
   await new Promise((resolve, reject) => {
@@ -335,12 +346,13 @@ try {
     mounts: h5pCalls.stdout.trim().split("\n").filter(Boolean).length
   };
   assert(
-    h5pBaseline.catalogContents === 9 && h5pBaseline.pages === 7 && h5pBaseline.mounts === 10,
+    h5pBaseline.catalogContents === 9 && h5pBaseline.pages === 5 && h5pBaseline.mounts === 7,
     `deriva H5P ${JSON.stringify(h5pBaseline)}`
   );
 
+  assert(chromiumBinary, "No se encontró Chromium");
   browser = await chromium.launch({
-    executablePath: process.env.CHROMIUM_PATH || "/usr/bin/chromium",
+    executablePath: chromiumBinary,
     headless: true,
     args: ["--no-sandbox"]
   });

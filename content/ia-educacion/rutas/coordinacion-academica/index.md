@@ -59,9 +59,9 @@ vigentes.
 ## Para quién es esta ruta
 
 {{< cards >}}
-  {{< card link="#jefaturas-de-departamento-y-academias" title="Jefaturas y academias" icon="users-gear" color="#b12028" description="Necesito acompañar al profesorado, ordenar criterios disciplinares y revisar evaluaciones sin uniformar todas las asignaturas." >}}
-  {{< card link="#coordinaciones-de-licenciatura-y-posgrado" title="Licenciatura y posgrado" icon="diagram-project" color="#18223c" description="Necesito articular el perfil de egreso, la progresión entre materias y las expectativas de uso de IA del programa." >}}
-  {{< card link="#coordinaciones-y-equipos-del-sems" title="SEMS" icon="school" color="#565f75" description="Necesito una implementación gradual, apropiada para el nivel formativo y coherente entre escuelas, academias y asignaturas." >}}
+  {{< card link="#jefaturas-de-departamento-y-academias" title="Jefaturas y academias" icon="users-gear" description="Necesito acompañar al profesorado, ordenar criterios disciplinares y revisar evaluaciones sin uniformar todas las asignaturas." >}}
+  {{< card link="#coordinaciones-de-licenciatura-y-posgrado" title="Licenciatura y posgrado" icon="diagram-project" description="Necesito articular el perfil de egreso, la progresión entre materias y las expectativas de uso de IA del programa." >}}
+  {{< card link="#coordinaciones-y-equipos-del-sems" title="SEMS" icon="school" description="Necesito una implementación gradual, apropiada para el nivel formativo y coherente entre escuelas, academias y asignaturas." >}}
 {{< /cards >}}
 
 El punto común es concreto. El profesorado debe saber qué puede decidir, qué apoyo recibirá,
@@ -273,8 +273,8 @@ esperado, no un reglamento.
 ## Continúa según la decisión que necesitas tomar
 
 {{< cards >}}
-  {{< card link="/ia-educacion/guias/integracion-curricular-ia/" title="Mapear el programa" icon="table-cells" color="#18223c" description="Relaciona perfil de egreso, competencias, asignaturas y evaluaciones afectadas." >}}
-  {{< card link="/ia-educacion/guias/lineamientos-eticos-ia/" title="Acordar criterios" icon="scale-balanced" color="#b12028" description="Traduce transparencia, equidad, privacidad y revisión a decisiones operativas." >}}
-  {{< card link="/ia-educacion/guias/evaluacion-formativa-ia/" title="Rediseñar evaluación" icon="arrows-rotate" color="#565f75" description="Conserva evidencias del proceso sin reemplazar la calidad del producto final." >}}
-  {{< card link="/formacion-docente/taller-diseno-actividades-ia-backward/" title="Acompañar al profesorado" icon="person-chalkboard" color="#687653" description="Aplica un taller replicable a actividades y evaluaciones reales del programa." >}}
+  {{< card link="/ia-educacion/guias/integracion-curricular-ia/" title="Mapear el programa" icon="table-cells" description="Relaciona perfil de egreso, competencias, asignaturas y evaluaciones afectadas." >}}
+  {{< card link="/ia-educacion/guias/lineamientos-eticos-ia/" title="Acordar criterios" icon="scale-balanced" description="Traduce transparencia, equidad, privacidad y revisión a decisiones operativas." >}}
+  {{< card link="/ia-educacion/guias/evaluacion-formativa-ia/" title="Rediseñar evaluación" icon="arrows-rotate" description="Conserva evidencias del proceso sin reemplazar la calidad del producto final." >}}
+  {{< card link="/formacion-docente/taller-diseno-actividades-ia-backward/" title="Acompañar al profesorado" icon="person-chalkboard" description="Aplica un taller replicable a actividades y evaluaciones reales del programa." >}}
 {{< /cards >}}

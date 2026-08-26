@@ -1,0 +1,17 @@
+{
+  "initial_red": {
+    "checks": 11,
+    "failures": 11
+  },
+  "test_correction": "case-insensitive comparison for Elige solo",
+  "fable_red": {
+    "checks": 12,
+    "failures": [
+      "glossary taxonomy omits ganancia cognitiva from its 20-entry list"
+    ]
+  },
+  "final_green": {
+    "checks": 12,
+    "failures": 0
+  }
+}

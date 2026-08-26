@@ -1,0 +1,4 @@
+interface:
+  display_name: "Redacción editorial"
+  short_description: "Prosa rigurosa con revisión por etapas"
+  default_prompt: "Usa $redaccion-editorial para convertir este material en un texto completo, argumentado y revisado."

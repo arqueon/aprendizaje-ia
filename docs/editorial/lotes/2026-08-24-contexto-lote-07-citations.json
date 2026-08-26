@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://education.asu.edu/lcl/publications/chi-m-t-h-wylie-r-2014-icap-framework-linking-cognitive-engagement-active-learning",
+      "title": "ASU — The ICAP Framework",
+      "accessed": "2026-08-24"
+    },
+    {
+      "id": 2,
+      "url": "https://scholars.georgiasouthern.edu/en/publications/the-substitution-augmentation-modification-redefinition-samr-mode",
+      "title": "Hamilton et al. — Critical Review of SAMR",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "We focus on the absence of context, its hierarchical structure, and the emphasis placed on product over process and conclude with suggestions to guide educators’ and researchers’ technology integration efforts.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://eric.ed.gov/?id=EJ1127694",
+      "title": "ERIC — Classroom Assessment Techniques",
+      "accessed": "2026-08-24"
+    },
+    {
+      "id": 4,
+      "url": "https://assess.ucr.edu/sites/default/files/2019-02/blackwiliam_1998.pdf",
+      "title": "Black & Wiliam — Assessment and Classroom Learning",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "which provide information to be used as feedback to modify the",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "teaching and learning activities in which they are engaged.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://ascd.org/el/articles/the-fundamentals-of-backward-planning",
+      "title": "ASCD — The Fundamentals of Backward Planning",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "1. Identify Desired Learning Results",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "2. Determine Acceptable Evidence",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "3. Plan Learning Experiences and Instruction",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://eric.ed.gov/?id=EJ1438704",
+      "title": "ERIC — Developing Evaluative Judgement for a Time of Generative AI",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "We propose three foci: (1) developing evaluative judgement of generative AI outputs; (2) developing evaluative judgement of generative AI processes; and (3) generative AI assessment of student evaluative judgements.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://education.asu.edu/sites/g/files/litvpz656/files/lcl/chiwylie2014icap_2.pdf",
+      "title": "Chi & Wylie 2014 — ICAP full text",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "This article describes the ICAP framework that defines cognitive engagement activities on the basis of students’ overt behaviors and proposes that engagement behaviors can be categorized and differentiated into one of four modes: Interactive, Constructive, Active, and Passive.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "However, asking students to carry out a behavior does not guarantee that the expected behavior will actually be carried out in the intended way.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "We do not restrict who the partners can be, provided that the criteria are met.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "computer agent responds in a content-relevant way",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://files.eric.ed.gov/fulltext/EJ1127694.pdf",
+      "title": "Holbeck, Bergquist & Lees 2014 — CAT full text",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Classroom Assessment Techniques (CATs) have been used in traditional university classrooms as a strategy to check for student understanding (Angelo & Cross, 1993).",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "This brief and small-scale study carries implications for future research.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "For the purposes of this study, the information was retrieved from four online University Success classes. The number of participants totaled 96. Of these 96 students, 39 participated in the optional Misconception/Preconception Check CAT or 40.625% of the total population. The others chose not to participate.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://doi.org/10.1007/s11528-016-0091-y",
+      "title": "Hamilton, Rosenberg & Akcaoglu 2016 — DOI record",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Hamilton, E.R., Rosenberg, J.M. & Akcaoglu, M. The Substitution Augmentation Modification Redefinition (SAMR) Model: a Critical Review and Suggestions for its Use. TechTrends 60, 433–441 (2016). https://doi.org/10.1007/s11528-016-0091-y",
+          "added": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}

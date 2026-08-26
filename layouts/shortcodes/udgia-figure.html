@@ -1,14 +1,15 @@
 {{- $id := .Get "id" -}}
-{{- $src := .Get "src" -}}
 {{- $meta := index hugo.Data.udgia_figures $id -}}
 {{- if not $meta -}}
   {{- errorf "udgia-figure: no existe metadata para %q en %s" $id .Position -}}
 {{- end -}}
-{{- $resource := .Page.Resources.GetMatch $src -}}
+{{- $src := .Get "src" | default $meta.src -}}
+{{- $isShared := eq ($meta.storage | default "page-bundle") "shared" -}}
+{{- $resource := cond $isShared (resources.Get $src) (.Page.Resources.GetMatch $src) -}}
 {{- if not $resource -}}
   {{- errorf "udgia-figure: no existe el recurso %q en %s" $src .Position -}}
 {{- end -}}
-{{- $mobileResource := .Page.Resources.GetMatch $meta.src_mobile -}}
+{{- $mobileResource := cond $isShared (resources.Get $meta.src_mobile) (.Page.Resources.GetMatch $meta.src_mobile) -}}
 {{- if not $mobileResource -}}
   {{- errorf "udgia-figure: no existe la variante móvil %q en %s" $meta.src_mobile .Position -}}
 {{- end -}}
@@ -16,6 +17,8 @@
   class="udgia-figure"
   id="{{ $id }}"
   data-source-id="{{ $id }}"
+  data-storage="{{ $meta.storage | default "page-bundle" }}"
+  data-reuse-key="{{ $meta.reuse_key | default $id }}"
   data-source-version="{{ $meta.source_version }}"
   data-source-revision="{{ $meta.source_revision | default "legacy-import" }}"
   data-source-sha256="{{ $meta.source_sha256 }}"

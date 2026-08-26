@@ -5,12 +5,41 @@
   const styleURL = script?.src ? new URL("host.css", script.src).href : "";
   const components = new Map();
 
-  if (styleURL && !document.querySelector(`link[data-udg-h5p-host="${styleURL}"]`)) {
-    const link = document.createElement("link");
-    link.rel = "stylesheet";
-    link.href = styleURL;
-    link.dataset.udgH5pHost = styleURL;
-    document.head.append(link);
+  if (styleURL) {
+    let link = document.querySelector(`link[data-udg-h5p-host="${styleURL}"]`);
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = styleURL;
+      link.dataset.udgH5pHost = styleURL;
+    }
+    if (!link.dataset.udgH5pHostState) {
+      link.dataset.udgH5pHostState = "loading";
+      link.addEventListener(
+        "load",
+        () => {
+          link.dataset.udgH5pHostState = "loaded";
+        },
+        { once: true }
+      );
+      link.addEventListener(
+        "error",
+        () => {
+          link.dataset.udgH5pHostState = "error";
+        },
+        { once: true }
+      );
+      if (link.sheet) {
+        try {
+          if (link.sheet.cssRules.length > 0) {
+            link.dataset.udgH5pHostState = "loaded";
+          }
+        } catch {
+          // La carga o el origen todavía no permiten consultar el CSSOM.
+        }
+      }
+    }
+    if (!link.isConnected) document.head.append(link);
   }
 
   const setStatus = (component, state, message) => {

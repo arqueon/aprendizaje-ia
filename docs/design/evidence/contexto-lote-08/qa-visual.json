@@ -1,0 +1,106 @@
+{
+  "pages": 10,
+  "failures": [],
+  "results": [
+    {
+      "name": "aprendizaje-activo",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Aprendizaje activo",
+      "textLength": 1502,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "diseno-inverso",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Diseño inverso",
+      "textLength": 1391,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "taxonomia-bloom",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Taxonomía de Bloom",
+      "textLength": 1538,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "modelo-samr",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Modelo SAMR",
+      "textLength": 1742,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-autentica",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Evaluación auténtica",
+      "textLength": 2185,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "aprendizaje-activo",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Aprendizaje activo",
+      "textLength": 1510,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "diseno-inverso",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Diseño inverso",
+      "textLength": 1373,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "taxonomia-bloom",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Taxonomía de Bloom",
+      "textLength": 1546,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "modelo-samr",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Modelo SAMR",
+      "textLength": 1749,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-autentica",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Evaluación auténtica",
+      "textLength": 2192,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-09",
+  "approved_by": "Rubén",
+  "approved_at": "2026-08-24T17:31:56-06:00",
+  "authorization": "borrador reversible y QA; no publicación",
+  "publication_authorized": false,
+  "production_changed": false,
+  "proposal": {
+    "conservar": 0,
+    "cambiar": 5,
+    "quitar": 0
+  },
+  "baseline": {
+    "active_sources": 164,
+    "applied_decisions": 58,
+    "pending": 106
+  },
+  "files": [
+    {
+      "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/blog/ia-generativa-evaluacion-autentica/index.md",
+      "sha256_before": "3a48258410bf31378d37d4b1d88aabb4775335a849e4333dc40db5c33f1d9934",
+      "bytes_before": 6732
+    },
+    {
+      "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+      "sha256_before": "b0edcdcd35abb6eb70c7db76c5fc3288d4729fa2f8c801d782a6adc2fae1647e",
+      "bytes_before": 2799
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+      "sha256_before": "4d1eaeebfa9c60f5747bafb98fe901a06cfc0f6315fc7f7ba4a2ba1812715ecf",
+      "bytes_before": 13145
+    },
+    {
+      "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+      "sha256_before": "5cbea1e457199a355d484f0922bf8755ffafabe21174bdb4dbc6c9c17b2f2197",
+      "bytes_before": 15769
+    },
+    {
+      "path": "content/recursos/glosario/integridad-academica/index.md",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/content/recursos/glosario/integridad-academica/index.md",
+      "sha256_before": "28b911bfcf7520d76e89a50bbeff6bb3ef445cb013ac307eb92fc9a65a1990e0",
+      "bytes_before": 1268
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-09/sources/data/editorial/context-audit-decisions.json",
+      "sha256_before": "0952d6771bd913c33ab4e997207919d5fb5e75059a49aacd4f322e0b6d3d2932",
+      "bytes_before": 78738
+    }
+  ]
+}

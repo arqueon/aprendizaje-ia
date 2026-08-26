@@ -9,7 +9,6 @@ categories: ["link"]
 areas: ["ia", "formacion"]
 
 layout: "simple"
-externalUrl: "https://www.unesco.org/en/articles/ai-competency-framework-teachers"
 showDate: true
 showReadingTime: false
 showTableOfContents: false
@@ -23,11 +22,11 @@ idioma: "en"
 tipoRecurso: "Marco de referencia institucional"
 ---
 
-{{< alert icon="link" cardColor="#e0f2fe" >}}
+{{< alert icon="link" type="info" >}}
 Recurso externo — se abre en una nueva pestaña.
 {{< /alert >}}
 
-**Por qué lo compartimos:** En septiembre de 2024, UNESCO publicó la primera referencia global sobre las competencias de IA que necesita un docente (UNESCO, 2024). El marco va más allá del "saber usar la herramienta" y articula cinco áreas que se sostienen entre sí: una mentalidad humanista centrada en agencia y responsabilidad social; ética del uso de IA; fundamentos y aplicaciones; pedagogía con IA; e IA para el desarrollo profesional propio. Cada área se gradúa en tres niveles de progresión (adquirir, profundizar, crear), lo que permite a una institución diseñar programas de formación docente sin partir de cero.
+**Por qué se comparte:** En 2024, UNESCO publicó este marco como una referencia global para definir las competencias de IA que necesita un docente (UNESCO, 2024). El documento articula cinco áreas: una mentalidad humanista centrada en agencia y responsabilidad social; ética del uso de IA; fundamentos y aplicaciones; pedagogía con IA; e IA para el desarrollo profesional propio. Cada área se organiza en tres niveles de progresión (adquirir, profundizar, crear), lo que permite a una institución diseñar programas de formación docente sin partir de cero.
 
 **Para quién es útil:** Coordinaciones académicas que diseñan diplomados o programas de actualización; equipos de innovación educativa que necesitan un lenguaje común para hablar de competencias docentes en IA; docentes que quieran autoevaluar dónde están y a qué nivel apuntar.
 

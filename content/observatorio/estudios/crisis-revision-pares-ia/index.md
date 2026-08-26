@@ -7,6 +7,7 @@ categories: ["estudio"]
 areas: ["ia", "evaluacion"]
 summary: "Reseña del editorial de la Fuerza de Tarea de IA de Organization Science: 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural."
 showHero: true
+description: "Reseña del editorial de la Fuerza de Tarea de IA de Organization Science: 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural."
 ---
 
 {{< lead >}}

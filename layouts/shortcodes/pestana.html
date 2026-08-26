@@ -1,3 +1,14 @@
-{{- with .Parent -}}
-  {{- .Scratch.Add "tabs" (slice (dict "titulo" ($.Get "titulo") "cuerpo" ($.Inner | markdownify))) -}}
+{{- if not .Parent -}}
+  {{- errorf "Shortcode pestana: solo puede usarse dentro de pestanas en %s" .Position -}}
+{{- else if ne .Parent.Name "pestanas" -}}
+  {{- errorf "Shortcode pestana: requiere pestanas como padre; recibió %q en %s" .Parent.Name .Position -}}
 {{- end -}}
+{{- $title := strings.TrimSpace (.Get "titulo" | default "") -}}
+{{- if not $title -}}
+  {{- errorf "Shortcode pestana: titulo es obligatorio en %s" .Position -}}
+{{- end -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode pestana: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- .Parent.Scratch.Add "tabs" (slice (dict "titulo" $title "cuerpo" ($inner | markdownify))) -}}

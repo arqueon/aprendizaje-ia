@@ -2,9 +2,9 @@
 title: "Generative AI as an enabler of student feedback engagement"
 date: 2026-04-26
 draft: false
-description: "Marco que articula IA generativa con el ciclo de retroalimentación formativa de Carless y Hattie, identificando dónde la IA aporta y dónde no debe sustituir al docente."
-summary: "Un artículo de 2025 que ofrece el marco operativo más sólido publicado hasta la fecha sobre cómo articular IA generativa con prácticas de retroalimentación formativa basadas en evidencia."
-tags: ["evaluación formativa", "retroalimentación", "Carless", "Hattie", "feedback engagement"]
+description: "Artículo conceptual de Zhan, Boud, Dawson y Yan sobre cómo la IA generativa puede intervenir en la obtención, el procesamiento y el uso de retroalimentación."
+summary: "Un marco tentativo para analizar cómo las posibilidades y los límites de la IA generativa interactúan con la alfabetización en retroalimentación del estudiantado."
+tags: ["evaluación formativa", "retroalimentación", "feedback literacy", "autorregulación", "IA generativa"]
 categories: ["articulo"]
 areas: ["evaluacion", "ia", "pedagogia"]
 showHero: true
@@ -18,26 +18,62 @@ showBreadcrumbs: true
 showSummary: true
 showAuthor: false
 
-articuloAutores: "Tsai, Y.-S., Bohndick, C., Pardo, A., & Lipnevich, A. A."
+articuloAutores: "Ying Zhan, David Boud, Phillip Dawson, & Zi Yan"
 articuloAnio: "2025"
-articuloFuente: "Higher Education Research & Development"
+articuloFuente: "Higher Education Research & Development, 44(5), 1289–1304"
 articuloDOI: "10.1080/07294360.2025.2476513"
 articuloUrl: "https://doi.org/10.1080/07294360.2025.2476513"
 articuloAccesoAbierto: true
 idioma: "en"
-tipoDocumento: "Artículo"
+tipoDocumento: "Artículo conceptual"
 ---
 
 {{< recurso-info >}}
 
-## Abstract
+## Qué propone el artículo
 
-Dar retroalimentación útil a decenas de estudiantes cada semana es de las tareas más pesadas del oficio; ¿puede la IA ayudar sin deshumanizarla? El artículo propone un marco que articula la IA generativa con el ciclo de retroalimentación formativa documentado por Carless y otros autores. Los autores identifican la *paradoja del feedback*: una práctica con sólido respaldo teórico que rara vez funciona en aulas universitarias por restricciones contextuales (clases numerosas, tiempo limitado, carga docente). Sostienen que la IA generativa puede ayudar a sortear esas restricciones, pero solo si se integra con criterios pedagógicos definidos: la IA aporta escala y disponibilidad; el docente aporta juicio disciplinar y contextualización. El marco resultante tiene seis dimensiones operativas que pueden usarse para diseñar ciclos de retroalimentación con IA en cursos universitarios reales.
+*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phillip Dawson y Zi Yan no presentan una prueba de eficacia ni comparan intervenciones. Proponen un **marco conceptual tentativo** que debe seguir siendo provisional mientras cambian las herramientas y se acumula investigación empírica.
 
-## Por qué lo compartimos
+El punto de partida es una dificultad conocida: entregar comentarios no garantiza que una persona los comprenda ni que cambie su trabajo. El marco relaciona tres componentes:
 
-Es uno de los pocos artículos publicados que articula la IA generativa con la literatura clásica de evaluación formativa (Hattie & Timperley, 2007; Carless), en lugar de tratarla como fenómeno aparte. Esto importa porque la mayor parte de los estudios sobre IA en evaluación o ignoran el conocimiento previo del campo o lo invocan superficialmente. Tsai et al. lo integran de forma rigurosa y proponen un marco accionable —que puede llevarse a la práctica—. Para coordinaciones académicas que diseñan rúbricas o instrumentos de evaluación con IA, este artículo es un punto de partida sustantivo.
+1. las posibilidades y restricciones del entorno de retroalimentación;
+2. las capacidades de la persona para solicitar, juzgar y utilizar comentarios;
+3. las acciones que realiza antes, durante y después de trabajar con ellos.
 
-## Relación con nuestro contexto
+## Seis posibilidades, no seis dimensiones validadas
 
-El marco conecta directamente con la [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) y con la [práctica documentada de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) que sostiene este sitio. Para docentes que ya implementan ciclos formativos y quieren afinarlos con IA, las seis dimensiones del marco ofrecen criterios para revisar lo propio. La pieza de Bearman et al. (2023) ya disponible en este repositorio y este artículo de 2025 funcionan bien como par: una sostiene los principios de evaluación auténtica, la otra los traduce al ciclo formativo concreto.
+El artículo recupera seis **posibilidades educativas** (*affordances*) atribuidas a la IA generativa: interactividad, reducción de ansiedad, autenticidad comunicativa, centralidad del estudiante, práctica repetida y disponibilidad ubicua. Estas posibilidades pueden facilitar conversaciones adaptables y repetidas, pero no constituyen seis dimensiones empíricamente validadas del marco.
+
+Los autores también señalan restricciones: información sesgada o engañosa, plagio, dependencia tecnológica y respuestas que parecen convincentes sin ser adecuadas para la tarea. Por eso la disponibilidad de una herramienta no sustituye la capacidad de formular una solicitud precisa, valorar la respuesta y decidir qué hacer con ella.
+
+## Dos estructuras que conviene distinguir
+
+El texto organiza la interacción con la retroalimentación en tres etapas, una clasificación tomada de **Malecka, Boud y Carless**:
+
+- **obtención (*feedback eliciting*):** reconocer qué ayuda se necesita y solicitar comentarios vinculados con la tarea y sus criterios;
+- **procesamiento (*feedback processing*):** interpretar la información, contrastarla y juzgar su calidad;
+- **actuación (*feedback enacting*):** decidir qué modificar y comprobar si el cambio mejora el trabajo.
+
+A la vez, adapta el ciclo de autorregulación de **Zimmerman** mediante **anticipación (*feedback forethought*)**, **control (*feedback control*)** y **retrospectiva (*feedback retrospect*)**. El artículo reúne aportes de distintas líneas sobre alfabetización en retroalimentación, juicio evaluativo y autorregulación para proponer una relación propia entre esas etapas.
+
+## Cómo usarlo sin exagerar su alcance
+
+Esta ficha sirve para formular preguntas de diseño, no para afirmar que la IA mejora por sí sola la retroalimentación:
+
+- ¿qué comentarios necesita solicitar la persona y con qué criterios?;
+- ¿cómo comprobará si una respuesta es pertinente, sesgada o incorrecta?;
+- ¿qué cambio hará y cómo revisará su efecto?;
+- ¿qué datos no deben compartirse con la herramienta?;
+- ¿cuándo hace falta intervención de una persona docente?
+
+El marco depende del contexto, de la alfabetización en retroalimentación y del modo en que se use la herramienta. El artículo no prueba una mejora causal ni establece una secuencia universal.
+
+## Relación con este sitio
+
+La [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) explica cómo usar comentarios para modificar enseñanza y aprendizaje. La [actividad de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) ofrece una práctica concreta. Esta ficha aporta el marco para revisar qué hace la persona al **obtener, procesar y usar** retroalimentación; no sustituye esas páginas ni debe fusionarse con ellas.
+
+## Referencia y acceso
+
+> Zhan, Y., Boud, D., Dawson, P., & Yan, Z. (2025). Generative artificial intelligence as an enabler of student feedback engagement: a framework. *Higher Education Research & Development, 44*(5), 1289–1304. https://doi.org/10.1080/07294360.2025.2476513
+
+El artículo se publicó con licencia **CC BY-NC-ND 4.0**. Además del [registro del editor](https://doi.org/10.1080/07294360.2025.2476513), puede consultarse la [copia abierta preservada por UTS](https://opus.lib.uts.edu.au/bitstream/10453/189210/2/1796243.pdf).

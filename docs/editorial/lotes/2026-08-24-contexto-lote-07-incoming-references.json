@@ -1,0 +1,221 @@
+{
+  "generated_at": "2026-08-24T09:31:41-06:00",
+  "method": "coincidencia de ruta absoluta, relref/ref y card relativa; censo informativo, sin cambios",
+  "targets": {
+    "content/formacion-docente/aprendizaje-activo/index.md": [
+      {
+        "path": "content/formacion-docente/_index.md",
+        "line": 21,
+        "text": "{{< card link=\"aprendizaje-activo/\" title=\"Aprendizaje activo\" icon=\"hand-sparkles\" color=\"#34508c\" description=\"Estrategias y técnicas para que los estudiantes participen activamente en su proceso de aprendizaje.\" >}}"
+      },
+      {
+        "path": "content/formacion-docente/aprendizaje-hibrido/index.md",
+        "line": 152,
+        "text": "activa una experiencia de aprendizaje]({{< relref \"formacion-docente/aprendizaje-activo\" >}})."
+      },
+      {
+        "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+        "line": 23,
+        "text": "Un estudiante recibe su borrador devuelto con comentarios sobre qué mejorar, y una semana después entrega la versión final con la que se gana la calificación. La primera devolución es evaluación formativa; la segunda, sumativa. Entre ambas, los procesos de eva"
+      },
+      {
+        "path": "content/formacion-docente/syllabus-portafolio/index.md",
+        "line": 28,
+        "text": "En el syllabus se plasman de manera estructurada todos los temas, objetivos generales de aprendizaje y las actividades de [aprendizaje activo]({{< ref \"formacion-docente/aprendizaje-activo\" >}}). El [diseño inverso]({{< ref \"formacion-docente/taxonomia-bloom-d"
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 79,
+        "text": "- [Ver más sobre este elemento]({{< ref \"formacion-docente/aprendizaje-activo\" >}})"
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 127,
+        "text": "{{< card link=\"/formacion-docente/aprendizaje-activo/\" title=\"Aprendizaje Activo\" img=\"/formacion-docente/aprendizaje-activo/featured.png\" icon=\"users\" color=\"#914411\" description=\"Involucrar a los estudiantes en la construcción de su aprendizaje.\" >}}"
+      },
+      {
+        "path": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+        "line": 154,
+        "text": "aprendizaje]({{< relref \"formacion-docente/aprendizaje-activo\" >}})."
+      },
+      {
+        "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "line": 63,
+        "text": "- **Diseño de actividades** que integren la IA de manera que promueva el [aprendizaje activo]({{< ref \"formacion-docente/aprendizaje-activo\" >}}) y no solo la obtención de respuestas."
+      },
+      {
+        "path": "content/laboratorio/practicas/aula-invertida/index.md",
+        "line": 28,
+        "text": "Antes de la clase los estudiantes revisan en línea las lecciones, ya sean por escrito o grabadas en video, responden cuestionarios o realizan tareas de repaso e integración. Es dentro del aula —sea física o virtual (Meet, Zoom)— donde se realizan actividades g"
+      }
+    ],
+    "content/formacion-docente/modelos-samr-icap/index.md": [
+      {
+        "path": "content/formacion-docente/_index.md",
+        "line": 23,
+        "text": "{{< card link=\"modelos-samr-icap/\" title=\"Modelos SAMR e ICAP\" icon=\"diagram-project\" color=\"#34508c\" description=\"Marcos de referencia para integrar tecnología en el aula de manera efectiva y evaluar el nivel de engagement.\" >}}"
+      },
+      {
+        "path": "content/formacion-docente/aprendizaje-hibrido/index.md",
+        "line": 150,
+        "text": "preguntas distintas sobre una misma actividad]({{< relref \"formacion-docente/modelos-samr-icap\" >}})."
+      },
+      {
+        "path": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+        "line": 118,
+        "text": "sobre una misma actividad]({{< relref \"formacion-docente/modelos-samr-icap\" >}})."
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 109,
+        "text": "- El **[modelo SAMR]({{< ref \"formacion-docente/modelos-samr-icap\" >}})** (sustitución, aumento, modificación, redefinición) permite evaluar en qué nivel se está usando la tecnología y orientar su uso hacia la transformación del aprendizaje."
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 110,
+        "text": "- El **[modelo ICAP]({{< ref \"formacion-docente/modelos-samr-icap\" >}})** (pasivo, activo, constructivo, interactivo) vincula los niveles de compromiso cognitivo de los estudiantes con los resultados educativos."
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 130,
+        "text": "{{< card link=\"/formacion-docente/modelos-samr-icap/\" title=\"Modelos SAMR e ICAP\" img=\"/formacion-docente/modelos-samr-icap/featured.png\" icon=\"layer-group\" color=\"#7f1820\" description=\"Marcos para la integración tecnológica y cognitiva.\" >}}"
+      },
+      {
+        "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "line": 80,
+        "text": "- El [modelo SAMR]({{< ref \"formacion-docente/modelos-samr-icap\" >}}) permite distinguir si la IA se usa como mera sustitución (por ejemplo, un chatbot que reemplaza una búsqueda en Google) o como redefinición (actividades previamente imposibles, como la perso"
+      },
+      {
+        "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "line": 81,
+        "text": "- El [modelo ICAP]({{< ref \"formacion-docente/modelos-samr-icap\" >}}) ayuda a evaluar si las actividades mediadas por IA logran que los estudiantes lleguen al nivel interactivo y constructivo, o se quedan en un uso pasivo."
+      },
+      {
+        "path": "content/recursos/glosario/modelo-samr/index.md",
+        "line": 25,
+        "text": "Para aplicar SAMR junto con una lente sobre la conducta cognitiva, continúa con [Dos preguntas distintas sobre una misma actividad]({{< relref \"formacion-docente/modelos-samr-icap\" >}})."
+      }
+    ],
+    "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md": [
+      {
+        "path": "content/formacion-docente/_index.md",
+        "line": 22,
+        "text": "{{< card link=\"taxonomia-bloom-diseno-inverso/\" title=\"Taxonomía de Bloom y diseño inverso\" icon=\"layer-group\" color=\"#34508c\" description=\"Niveles cognitivos para diseñar actividades y el enfoque backward design para planear experiencias de aprendizaje.\" >}}"
+      },
+      {
+        "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+        "line": 107,
+        "text": "La evaluación y retroalimentación están directamente vinculadas al [diseño inverso de aprendizajes]({{< ref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}}). En el diseño inverso, el segundo paso (después de definir los objetivos) es determinar cómo se "
+      },
+      {
+        "path": "content/formacion-docente/modelos-samr-icap/index.md",
+        "line": 117,
+        "text": "observar]({{< relref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}})."
+      },
+      {
+        "path": "content/formacion-docente/syllabus-portafolio/index.md",
+        "line": 28,
+        "text": "En el syllabus se plasman de manera estructurada todos los temas, objetivos generales de aprendizaje y las actividades de [aprendizaje activo]({{< ref \"formacion-docente/aprendizaje-activo\" >}}). El [diseño inverso]({{< ref \"formacion-docente/taxonomia-bloom-d"
+      },
+      {
+        "path": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+        "line": 39,
+        "text": "El marco se articula con la [guía sobre taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/), que sostiene los fundamentos teóricos. El taller los traduce a producción individual."
+      },
+      {
+        "path": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+        "line": 154,
+        "text": "La [guía sobre taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/) sostiene el marco metodológico; la [guía sobre integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/) extiende el ejercicio del talle"
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 112,
+        "text": "Ambos modelos se relacionan con la [taxonomía de Bloom]({{< ref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}}), proporcionando un esquema coherente para diseñar actividades que transiten de la memorización hacia la creación y el análisis."
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 131,
+        "text": "{{< card link=\"/formacion-docente/taxonomia-bloom-diseno-inverso/\" title=\"Bloom y Diseño Inverso\" img=\"/formacion-docente/taxonomia-bloom-diseno-inverso/featured.png\" icon=\"sitemap\" color=\"#6f1e2a\" description=\"Alineación de objetivos, evaluación y actividades"
+      },
+      {
+        "path": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+        "line": 38,
+        "text": "El [diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/) se potencia: el docente parte de las competencias que busca desarrollar y la IA genera materiales alineados."
+      },
+      {
+        "path": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
+        "line": 81,
+        "text": "La IA genera una secuencia de preguntas que va de la comprensión literal a la evaluación crítica, siguiendo la [taxonomía de Bloom](/formacion-docente/taxonomia-bloom-diseno-inverso/)."
+      },
+      {
+        "path": "content/ia-educacion/guias/profesorado/index.md",
+        "line": 116,
+        "text": "- Profundiza: [parte de lo que quieres observar](../../../formacion-docente/taxonomia-bloom-diseno-inverso/) para decidir qué hará el grupo, qué entregará y qué ayuda podrá recibir."
+      },
+      {
+        "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "line": 82,
+        "text": "- La [taxonomía de Bloom]({{< ref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}}) orienta el diseño de actividades con IA para que los estudiantes alcancen niveles cognitivos superiores (analizar, evaluar, crear) y no solo recordar o entender."
+      },
+      {
+        "path": "content/laboratorio/practicas/aula-invertida/index.md",
+        "line": 83,
+        "text": "El aula invertida reconfigura la relación con la [taxonomía de Bloom]({{< ref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}}). En el modelo tradicional, el tiempo presencial se dedica a los niveles inferiores (recordar, entender) mediante conferencias "
+      },
+      {
+        "path": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
+        "line": 94,
+        "text": "Para los criterios pedagógicos generales que respaldan la rúbrica, ver [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) y [taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/). Para casos ya docume"
+      },
+      {
+        "path": "content/recursos/glosario/taxonomia-de-bloom/index.md",
+        "line": 20,
+        "text": "Para diseñar una actividad completa, continúa con [Partir de lo que quieres observar]({{< relref \"formacion-docente/taxonomia-bloom-diseno-inverso\" >}}). La guía conecta propósito, evidencia, experiencia y asistencia, y muestra por qué un verbo aislado no dete"
+      }
+    ],
+    "content/formacion-docente/evaluacion-retroalimentacion/index.md": [
+      {
+        "path": "content/formacion-docente/_index.md",
+        "line": 24,
+        "text": "{{< card link=\"evaluacion-retroalimentacion/\" title=\"Evaluación y retroalimentación\" icon=\"clipboard-check\" color=\"#565f75\" description=\"Evaluación formativa y sumativa, técnicas CAT y estrategias de retroalimentación para el aprendizaje activo.\" >}}"
+      },
+      {
+        "path": "content/formacion-docente/syllabus-portafolio/index.md",
+        "line": 94,
+        "text": "Criterios de [evaluación]({{< ref \"formacion-docente/evaluacion-retroalimentacion\" >}}) claros para el estudiante y rúbricas aplicables."
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 85,
+        "text": "- [Ver más sobre este elemento]({{< ref \"formacion-docente/evaluacion-retroalimentacion\" >}})"
+      },
+      {
+        "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+        "line": 128,
+        "text": "{{< card link=\"/formacion-docente/evaluacion-retroalimentacion/\" title=\"Evaluación y Retroalimentación\" img=\"/formacion-docente/evaluacion-retroalimentacion/featured.png\" icon=\"comments\" color=\"#8b2635\" description=\"Métricas, instrumentos y técnicas formativas"
+      },
+      {
+        "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "line": 45,
+        "text": "Estas herramientas complementan, pero no sustituyen, la [evaluación y retroalimentación]({{< ref \"formacion-docente/evaluacion-retroalimentacion\" >}}) del profesor y de los pares."
+      },
+      {
+        "path": "content/laboratorio/practicas/aula-invertida/index.md",
+        "line": 79,
+        "text": "Este esquema promueve la innovación y el desarrollo del pensamiento crítico. Las actividades de [evaluación y retroalimentación]({{< ref \"formacion-docente/evaluacion-retroalimentacion\" >}}) son necesarias en cada fase para que el estudiante se dé cuenta de có"
+      }
+    ],
+    "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md": [
+      {
+        "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
+        "line": 183,
+        "text": "El [taller de diseño de actividades con IA](/formacion-docente/taller-diseno-actividades-ia-backward/)"
+      },
+      {
+        "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
+        "line": 279,
+        "text": "{{< card link=\"/formacion-docente/taller-diseno-actividades-ia-backward/\" title=\"Acompañar al profesorado\" icon=\"person-chalkboard\" color=\"#687653\" description=\"Aplica un taller replicable a actividades y evaluaciones reales del programa.\" >}}"
+      }
+    ]
+  }
+}

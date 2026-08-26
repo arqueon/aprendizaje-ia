@@ -82,7 +82,7 @@ El análisis fsQCA identifica varias configuraciones distintas de variables que 
 
 El estudio ofrece una agenda concreta para el rediseño didáctico que conecta directamente con varias líneas que ya estamos trabajando en el sitio:
 
-**Encuadrar la actividad como alianza, no como uso de herramienta.** La diferencia es lingüística pero también estructural: las consignas que dicen "usa ChatGPT para…" producen consumo pasivo; las que dicen "trabaja con la IA para…, contrasta con…, justifica por qué su salida no responde a…" producen partnership. Nuestra práctica de [Debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}) ya opera en ese registro y los hallazgos de Wang y Zhang explican por qué funciona.
+**Encuadrar la actividad como alianza, no como uso de herramienta.** La diferencia es lingüística pero también estructural: las consignas que dicen "usa ChatGPT para…" producen consumo pasivo; las que dicen "trabaja con la IA para…, contrasta con…, justifica por qué su salida no responde a…" producen partnership. Nuestra actividad propuesta de [debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}) está diseñada en ese registro y los hallazgos de Wang y Zhang explican por qué ese encuadre puede funcionar.
 
 **Diseñar evaluaciones que premien el proceso de la alianza, no solo el producto.** Esto refuerza los nuevos marcos expuestos en [la nueva era de la evaluación del DEC]({{< ref "/recursos/articulos/next-era-assessment-dec" >}}): si el aprendizaje transformador emerge de la calidad del partnership, la evaluación tiene que mirar precisamente eso — cómo se distribuyeron las tareas, qué decisiones de delegación se tomaron, qué se verificó y por qué.
 

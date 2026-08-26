@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "lot": "2026-08-24-contexto-lote-07",
+  "created_at": "2026-08-24T12:09:36-06:00",
+  "authorization": "VoBo lote 7 de Rubén para borrador reversible y QA",
+  "publication_authorized": false,
+  "files": [
+    {
+      "path": "content/formacion-docente/aprendizaje-activo/index.md",
+      "sha256": "e6eaf31e25ed2de87055135a12c8a44f6681dde1e948e6c7893b50ee493c5b84",
+      "bytes": 6378
+    },
+    {
+      "path": "content/formacion-docente/modelos-samr-icap/index.md",
+      "sha256": "16dd45705c91bdc21af46ed3548917168165990daf103dbaf4618836ff9a5d1b",
+      "bytes": 7100
+    },
+    {
+      "path": "content/formacion-docente/taxonomia-bloom-diseno-inverso/index.md",
+      "sha256": "38ee6824ff47f883b2b3a4208c2ee472af1aaab044fa6fdc216e023319711287",
+      "bytes": 7009
+    },
+    {
+      "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
+      "sha256": "2bd57d238b4ccd4354edd4baa21f7646073627732cfa017d26025115aba1a022",
+      "bytes": 7339
+    },
+    {
+      "path": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
+      "sha256": "e5a1afb70171d14c48f6796c028ee9ad2f510b19d2b57f92a2b9a3399e2d110a",
+      "bytes": 12089
+    },
+    {
+      "path": "content/formacion-docente/_index.md",
+      "sha256": "aa2d0a33a72f8d1523aa7f70850dcf950d1974fd58b174c6bf448ddd5d32418e",
+      "bytes": 3076
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "e336aa16842ba6d5cac61e5d3b84bfc3e1865362fb2a3235b36320f39e410768",
+      "bytes": 59692
+    }
+  ],
+  "restore": "Copiar cada archivo desde este directorio a la misma ruta relativa en la raíz del proyecto."
+}

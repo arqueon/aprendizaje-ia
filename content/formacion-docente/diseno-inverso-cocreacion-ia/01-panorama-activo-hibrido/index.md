@@ -15,12 +15,12 @@ tags: ["aprendizaje activo", "aprendizaje híbrido", "ICAP", "agencia docente"]
 ---
 
 {{< lead >}}
-La educación superior enfrenta hoy demandas inéditas: formar personas capaces de aprender de manera autónoma, transferir conocimientos a contextos cambiantes y colaborar en entornos digitales. El aprendizaje activo e híbrido responde a esos retos colocando al estudiantado en el centro y aprovechando estratégicamente la tecnología y la presencialidad.
+En una misma asignatura, una persona puede escuchar una exposición, comparar dos explicaciones, construir una propuesta con otras personas o justificar una decisión. También puede alternar momentos presenciales y en línea. Esta lección ayuda a distinguir esas dos decisiones: qué trabajo cognitivo realiza el estudiantado y cómo se conectan los espacios y los tiempos de la experiencia.
 {{< /lead >}}
 
 En esta lección conocerás los fundamentos y el valor del aprendizaje activo e híbrido. Al finalizar podrás:
 
-- **Comprender los conceptos clave** que distinguen actividad de activismo.
+- **Distinguir la actividad cognitiva** del mero movimiento o uso de tecnología.
 - **Identificar beneficios y desafíos** con respaldo en la evidencia.
 - **Reconocer el rol docente y tecnológico** en estos enfoques.
 - **Analizar tendencias actuales** de la educación superior.
@@ -29,55 +29,35 @@ En esta lección conocerás los fundamentos y el valor del aprendizaje activo e 
 
 El aprendizaje activo implica mucho más que mover al estudiantado o incorporar tecnología: se trata de promover una participación cognitiva profunda, donde quienes aprenden manipulan, generan y aplican ideas en lugar de solo recibir información. Por su parte, el aprendizaje híbrido no consiste simplemente en mezclar actividades presenciales y virtuales, sino en distribuir de manera estratégica cada experiencia en el canal que mejor la potencie. Ambos enfoques requieren un diseño intencional que priorice la interacción significativa y la transferencia de conocimientos.
 
-{{< practica titulo="Tarjetas de repaso · versión H5P en preparación" >}}
-Revisa cada tarjeta para afianzar los conceptos y distinguir ejemplos reales de falsos amigos.
-{{< /practica >}}
-
-{{< tarjetas >}}
-{{< pliegue titulo="Aprendizaje activo" >}}
-Estrategia donde el estudiantado participa activamente en la construcción de su conocimiento, más allá de recibir información.
-{{< /pliegue >}}
-{{< pliegue titulo="Aprendizaje híbrido" >}}
-Modelo que combina experiencias presenciales y virtuales, asignando cada actividad al canal más adecuado para su propósito.
-{{< /pliegue >}}
-{{< pliegue titulo="¿Ver un video en casa?" >}}
-No es aprendizaje activo a menos que se acompañe de predicción, análisis o aplicación.
-{{< /pliegue >}}
-{{< pliegue titulo="Debate estructurado en clase" >}}
-Ejemplo claro de aprendizaje activo e híbrido cuando integra participación presencial y recursos digitales.
-{{< /pliegue >}}
-{{< pliegue titulo="¿Tomar notas?" >}}
-No es aprendizaje activo si solo se copia información sin manipularla o cuestionarla.
-{{< /pliegue >}}
-{{< /tarjetas >}}
+{{< curso-interactivo id="l01-h5p-01" >}}
 
 ## ICAP: gradiente de compromiso cognitivo
 
-El marco ICAP clasifica la participación del estudiantado en cuatro modos: **pasivo** (recibe información), **activo** (manipula o selecciona material), **constructivo** (genera ideas nuevas) e **interactivo** (co-construye en diálogo). Cada escalón implica mayor compromiso cognitivo y mejores resultados de aprendizaje (Chi y Wylie, 2014). Este modelo ayuda a diseñar actividades que realmente promuevan el pensamiento profundo y la colaboración significativa.
+El marco ICAP clasifica la participación del estudiantado en cuatro modos: **pasivo** (recibe información), **activo** (manipula o selecciona material), **constructivo** (genera ideas nuevas) e **interactivo** (co-construye en diálogo). Chi y Wylie (2014) proponen que, en actividades comparables y bien diseñadas, los modos constructivo e interactivo suelen ofrecer mejores condiciones para aprender que la recepción pasiva. Es una hipótesis de diseño, no una garantía: un grupo reunido no co-construye si una persona resuelve y las demás copian.
 
-{{< figura src="figura-icap.svg" caption="Fuente: sistema de figuras de *Orientaciones UdeG* (a partir de Chi y Wylie, 2014); re-skin a identidad v2 — registro en catálogo del ecosistema pendiente." >}}
+{{< figura src="figura-icap.svg" movil="figura-icap-mobile.svg" caption="Adaptación visual del marco ICAP de Chi y Wylie (2014). La descripción anterior ofrece el recorrido textual equivalente." >}}
 
 ## Beneficios: ¿qué dice la evidencia?
 
 Explora los principales beneficios respaldados por la investigación. Cada sección resume hallazgos clave.
 
 {{< acordeon >}}
-{{< pliegue titulo="Mejoras en desempeño académico" abierto="true" >}}
-Los meta-análisis muestran que las metodologías activas e híbridas mejoran significativamente el rendimiento académico frente a la enseñanza tradicional, con ganancias medias-altas en los resultados de aprendizaje cuando se implementan estrategias activas con uso intencional de IA (Wu y Yu, 2023; Wu et al., 2026).
+{{< pliegue titulo="Mejoras observadas en aprendizaje activo" abierto="true" >}}
+Un metaanálisis de cursos universitarios de ciencias, ingeniería y matemáticas encontró mejores resultados con estrategias de aprendizaje activo que con la exposición tradicional (Freeman et al., 2014). El hallazgo está delimitado por las disciplinas y las actividades estudiadas: no demuestra que cualquier dinámica presentada como activa produzca el mismo efecto.
 {{< /pliegue >}}
 {{< pliegue titulo="Reducción de brechas de equidad" >}}
-El aprendizaje activo contribuye a cerrar brechas de desempeño entre grupos estudiantiles, beneficiando especialmente a quienes provienen de contextos subrepresentados. La evidencia indica que estas metodologías promueven una mayor inclusión en el acceso y aprovechamiento del aprendizaje.
+El diseño activo puede hacer visibles las dificultades durante la práctica y abrir oportunidades de apoyo antes de la evaluación final. Ese potencial no vuelve equitativa una actividad por sí solo: también hay que revisar acceso, tiempos, instrucciones, participación y alternativas para quien no pueda usar una herramienta.
 {{< /pliegue >}}
 {{< pliegue titulo="Preparación para el mundo digital" >}}
-Las actividades activas e híbridas desarrollan competencias clave para el siglo XXI: colaboración, pensamiento crítico y adaptación a entornos digitales, esenciales para la inserción profesional y la participación ciudadana (Patiño et al., 2023).
+Las actividades activas pueden pedir colaboración, contraste y toma de decisiones en lugar de limitarse a consumir información. Patiño et al. (2023) documentan dos casos de educación abierta orientados al pensamiento complejo; su contribución ayuda a analizar posibilidades, no a formular una regla universal para todas las asignaturas.
 {{< /pliegue >}}
 {{< pliegue titulo="Mayor retención y transferencia" >}}
-El compromiso cognitivo profundo favorece la retención a largo plazo y la capacidad de aplicar lo aprendido en contextos nuevos. La transferencia es un indicador central de la efectividad de estas estrategias.
+Explicar, aplicar y contrastar obligan a trabajar con el conocimiento de una manera distinta a releerlo. Para saber si ese trabajo favoreció la transferencia, hace falta observar si la persona puede usar lo aprendido en una situación nueva; la participación visible durante una actividad no basta como evidencia.
 {{< /pliegue >}}
 {{< /acordeon >}}
 
 {{< idea >}}
-El aprendizaje activo no es una moda docente: es la opción con mejor respaldo empírico para mejorar el aprendizaje y la equidad.
+Llamar «activa» a una actividad no garantiza su calidad. Conviene describir qué hará la persona con el conocimiento y qué evidencia permitirá reconocer el aprendizaje.
 {{< /idea >}}
 
 ## Retos, oportunidades y estrategias
@@ -91,9 +71,9 @@ Uno de los retos más frecuentes es la **resistencia al cambio**, tanto del prof
 Además, las brechas de acceso a tecnología, la diversidad de experiencias previas y las limitaciones de tiempo y recursos institucionales pueden dificultar la adopción de enfoques activos e híbridos.
 {{< /pestana >}}
 {{< pestana titulo="Oportunidades emergentes" >}}
-La integración de inteligencia artificial y herramientas digitales abre posibilidades para **personalizar el aprendizaje**, facilitar la colaboración y ampliar el acceso a recursos educativos.
+La integración de inteligencia artificial y herramientas digitales puede ofrecer variaciones, preguntas o apoyos delimitados, facilitar la colaboración y ampliar el acceso a ciertos recursos.
 
-La diversidad estudiantil y la flexibilidad de los modelos híbridos permiten diseñar experiencias más inclusivas, adaptadas a distintos estilos y ritmos.
+La diversidad estudiantil y la flexibilidad de los modelos híbridos permiten ajustar tiempos, canales y apoyos a distintas circunstancias, siempre que existan alternativas accesibles.
 {{< /pestana >}}
 {{< pestana titulo="Estrategias para superarlos" >}}
 La **formación docente continua** y el **diseño inverso** son claves para superar los retos: permiten planificar actividades alineadas con resultados claros y adaptadas al contexto.
@@ -104,7 +84,7 @@ Implementar políticas de equidad, asegurar la accesibilidad y fomentar una cult
 
 ## Agencia docente y el papel de la tecnología
 
-En el aprendizaje activo e híbrido, la agencia docente cobra un nuevo protagonismo. El profesorado no solo selecciona herramientas o métodos: **lidera el diseño, la adaptación y la validación** de experiencias de aprendizaje. La tecnología —incluida la IA— se convierte en aliada estratégica, siempre bajo la dirección y el juicio profesional de quien enseña (Mollick y Mollick, 2022).
+En el aprendizaje activo e híbrido, la agencia docente se observa en las decisiones. El profesorado no solo selecciona herramientas o métodos: **define el propósito, diseña, adapta y revisa** la experiencia. La IA puede ofrecer preguntas, variantes o comentarios delimitados, como en las propuestas de Mollick y Mollick (2022); el juicio sobre su pertinencia sigue correspondiendo a quien enseña.
 
 El rol del profesorado evoluciona así de transmisor de información a diseñador y facilitador de experiencias significativas:
 
@@ -119,39 +99,29 @@ La planificación parte de resultados de aprendizaje claros y evidencia de calid
 Crear condiciones para que el estudiantado interactúe, colabore y construya conocimiento, promoviendo la reflexión y el pensamiento crítico.
 {{< /paso >}}
 {{< paso titulo="Integrar tecnología con criterio" >}}
-La tecnología potencia la interacción, la personalización y la accesibilidad, siempre con criterios pedagógicos y éticos.
+La tecnología puede facilitar interacción, variaciones y formatos accesibles cuando se comprueba con el grupo y existe una alternativa viable.
 {{< /paso >}}
 {{< paso titulo="Evaluar y ajustar continuamente" >}}
 La mejora es constante: se recogen evidencias, se analizan resultados y se ajustan las estrategias para maximizar el aprendizaje.
 {{< /paso >}}
 {{< /proceso >}}
 
-{{< practica titulo="Autoevaluación · versión H5P en preparación" >}}
-**¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?**
-
-- Adoptar una nueva herramienta digital sin modificar la secuencia didáctica.
-- Diseñar actividades alineadas con resultados de aprendizaje y ajustar estrategias según el grupo.
-- Permitir que la IA decida los criterios de evaluación sin supervisión.
-- Repetir la misma clase magistral en formato presencial y virtual.
-{{< /practica >}}
-
-{{< pliegue titulo="Ver respuesta y por qué" >}}
-La segunda: **diseñar actividades alineadas y ajustar según el grupo**. La agencia docente está en el diseño y la adaptación con juicio profesional — no en adoptar herramientas sin cambiar la secuencia, delegar criterios a la IA sin supervisión, ni duplicar la clase magistral en dos canales.
-{{< /pliegue >}}
+{{< curso-interactivo id="l01-h5p-02" >}}
 
 {{< parallevar >}}
 1. Activo ≠ movimiento y tecnología: es compromiso cognitivo — manipular, generar, co-construir.
 2. Híbrido ≠ repartir el temario en dos canales: cada actividad va al espacio que mejor la potencia.
-3. La evidencia respalda mejoras en desempeño, equidad, competencias digitales y transferencia.
+3. La evidencia respalda mejoras en ciertos contextos, pero cada diseño debe comprobar aprendizaje, acceso y transferencia.
 4. La agencia docente dirige; la IA y la tecnología asisten bajo criterio pedagógico.
 {{< /parallevar >}}
 
-En la siguiente lección exploraremos el **diseño inverso** como metodología para planear actividades alineadas, efectivas y transferibles — la base para integrar la IA de forma estratégica en el aula.
+En la siguiente lección examinaremos el **diseño inverso** como una forma de relacionar resultados, evidencias y actividades antes de elegir herramientas. Esa relación ofrece un punto de partida para decidir si la IA aporta algo y bajo qué condiciones.
 
 {{< referencias >}}
 - Chi, M. T. H., y Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist, 49*(4), 219–243. <https://doi.org/10.1080/00461520.2014.965823>
 - Mollick, E. R., y Mollick, L. (2022). *New modes of learning enabled by AI chatbots: Three methods and assignments* (SSRN Scholarly Paper 4300783). <https://doi.org/10.2139/ssrn.4300783>
 - Patiño, A., Ramírez-Montoya, M. S., y Buenestado-Fernández, M. (2023). Active learning and education 4.0 for complex thinking training: Analysis of two case studies in open education. *Smart Learning Environments, 10*(1), 8. <https://doi.org/10.1186/s40561-023-00229-x>
-- Wu, R., y Yu, Z. (2023). Do AI chatbots improve students' learning outcomes? Evidence from a meta-analysis. *British Journal of Educational Technology, 55*(1). <https://doi.org/10.1111/bjet.13334>
-- Wu, X., Zhu, P., Zhang, J., Yin, M., y Wang, Y. (2026). ChatGPT's impact on student learning outcomes: A meta-analysis of 35 experimental studies. *Humanities and Social Sciences Communications, 13*, 684. <https://doi.org/10.1057/s41599-026-07019-z>
+- Freeman, S., et al. (2014). Active learning increases student performance in science, engineering, and mathematics. *Proceedings of the National Academy of Sciences, 111*(23), 8410–8415. <https://doi.org/10.1073/pnas.1319030111>
 {{< /referencias >}}
+
+{{< curso-navegacion anterior="" siguiente="02-introduccion-diseno-inverso" >}}

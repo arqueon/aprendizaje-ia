@@ -1,0 +1,353 @@
+{
+  "schema": "context-lot-application-manifest-v1",
+  "lot": "10",
+  "generated_at": "2026-08-24",
+  "status": "closed-reversible-draft-unpublished",
+  "authorization": {
+    "approved_by": "Rubén",
+    "approved_at": "2026-08-24T19:33:57-06:00",
+    "scope": "borrador reversible y QA; no publicación",
+    "publication_authorized": false
+  },
+  "classification": {
+    "active_sources": 164,
+    "total_ledger_records": 69,
+    "active_decisions": 67,
+    "pending_active_sources": 97,
+    "by_decision": {
+      "conservar": 15,
+      "cambiar": 52,
+      "quitar": 0
+    },
+    "historical_records_outside_active_tree": 2
+  },
+  "rollback": {
+    "manifest": "docs/editorial/rollback/2026-08-24-contexto-lote-10/manifest.json",
+    "checks": [
+      {
+        "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+        "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+        "sha256_before": "742d82427ea02bee43a038a96f1c8e019119293e647ec5dc7de465313d259bb2",
+        "verified": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+        "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+        "sha256_before": "2bfefcae6f5efa80e91267c655b1e5a5ccc7aeb10183f97b7e55da02175e36eb",
+        "verified": true
+      },
+      {
+        "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
+        "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/recursos/articulos/next-era-assessment-dec/index.md",
+        "sha256_before": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+        "verified": true
+      },
+      {
+        "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+        "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+        "sha256_before": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+        "verified": true
+      },
+      {
+        "path": "data/editorial/context-audit-decisions.json",
+        "rollback_path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/sources/data/editorial/context-audit-decisions.json",
+        "sha256_before": "d6cb460f8be133b95a74a0444522b8aac38c864443b70621f94b8aa792d4d235",
+        "verified": true
+      }
+    ],
+    "all_verified": true
+  },
+  "bundle_preservation": {
+    "files_checked": 24,
+    "mismatches": [],
+    "all_preserved": true,
+    "files": [
+      {
+        "path": "content/recursos/articulos/genai-feedback-engagement-2025/.featured.webp.~5bd8f5f5",
+        "sha256": "3caea1c4c5d2f8a8aaf95912fd86940810960ce315937ce8c9d086ba68649702",
+        "bytes": 38730,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/genai-feedback-engagement-2025/.index.md.~5c31242e",
+        "sha256": "08357572e101a50f68db8a69ab59a077828accc2e9f713438297a50cbb32ed83",
+        "bytes": 3443,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/genai-feedback-engagement-2025/featured.webp",
+        "sha256": "3caea1c4c5d2f8a8aaf95912fd86940810960ce315937ce8c9d086ba68649702",
+        "bytes": 38730,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf.~2eaa0623",
+        "sha256": "57c6025413b47c54b704b4e5913a2a8634dcbda4e6310697fbdbf5d6bb1c409e",
+        "bytes": 1197372,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf.~5aeffb74",
+        "sha256": "31e0c55ce88bba93393c8300ff0f1342693866019f140853017f5f71da65292f",
+        "bytes": 1484985,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf.~659ab95",
+        "sha256": "6a4322ddf969ed4ef68bb00eb3502b398733d70292281bdab65a9808c642f218",
+        "bytes": 1253313,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-bachillerato.png.~19a6c78f",
+        "sha256": "39132bae403ce35a62a40884e66e5bea1e6cc1db19fe6a6acbc277448afa7244",
+        "bytes": 1091154,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-licenciatura.png.~685296d2",
+        "sha256": "8d80dd9705f3a681efb7584375d7d6e9a37797f0c62120c9302933c7c592a915",
+        "bytes": 940500,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.cover-posgrado.png.~34f87196",
+        "sha256": "e23a96658aa3d3ee2ad1ad9e70ad1da039950d81b45d518dbfe24d1784d9a0f8",
+        "bytes": 1273491,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.featured.svg.~3ed70766",
+        "sha256": "13f42e466dfc586a1d5b8de0eaac67ad16531eac2a1105a7a43dae7e6a120576",
+        "bytes": 6641,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/.index.md.~68997a3",
+        "sha256": "33678becf7802838a0acdb3b0f2f81224537bfa3f5e4a81a5b2492407e5cc168",
+        "bytes": 14799,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_BACHILLERATO_UNAM.pdf",
+        "sha256": "57c6025413b47c54b704b4e5913a2a8634dcbda4e6310697fbdbf5d6bb1c409e",
+        "bytes": 1197372,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_LICENCIATURA_UNAM.pdf",
+        "sha256": "31e0c55ce88bba93393c8300ff0f1342693866019f140853017f5f71da65292f",
+        "bytes": 1484985,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/GUIA_USO_IAGEN_EVALUACION_POSGRADO_UNAM.pdf",
+        "sha256": "6a4322ddf969ed4ef68bb00eb3502b398733d70292281bdab65a9808c642f218",
+        "bytes": 1253313,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-bachillerato.png",
+        "sha256": "39132bae403ce35a62a40884e66e5bea1e6cc1db19fe6a6acbc277448afa7244",
+        "bytes": 1091154,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-licenciatura.png",
+        "sha256": "8d80dd9705f3a681efb7584375d7d6e9a37797f0c62120c9302933c7c592a915",
+        "bytes": 940500,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/cover-posgrado.png",
+        "sha256": "e23a96658aa3d3ee2ad1ad9e70ad1da039950d81b45d518dbfe24d1784d9a0f8",
+        "bytes": 1273491,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/featured.svg",
+        "sha256": "13f42e466dfc586a1d5b8de0eaac67ad16531eac2a1105a7a43dae7e6a120576",
+        "bytes": 6641,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/next-era-assessment-dec/.featured.png.~595d4461",
+        "sha256": "0408f7cc6f2fa8c5ff4354da84022882c5ba0f5b001915dc44013ecd6742395e",
+        "bytes": 571821,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/next-era-assessment-dec/.index.md.~13b01e13",
+        "sha256": "e6f0e2418eb210dd391f51898594addd9ba1709f5379eb3fa474bf62fcf793de",
+        "bytes": 2967,
+        "preserved": true
+      },
+      {
+        "path": "content/recursos/articulos/next-era-assessment-dec/featured.png",
+        "sha256": "0408f7cc6f2fa8c5ff4354da84022882c5ba0f5b001915dc44013ecd6742395e",
+        "bytes": 571821,
+        "preserved": true
+      },
+      {
+        "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/.featured.webp.~35e22075",
+        "sha256": "b11019f0593e46133c2c407799cb08909f913d2b4e69ef23035f7e3b84e4e3b8",
+        "bytes": 33222,
+        "preserved": true
+      },
+      {
+        "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/.index.md.~1c4f4c0f",
+        "sha256": "e50f14c5b31f6aad80816392961b26cb93720da96ef8f870a3de30beae0dbe2e",
+        "bytes": 8971,
+        "preserved": true
+      },
+      {
+        "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/featured.webp",
+        "sha256": "b11019f0593e46133c2c407799cb08909f913d2b4e69ef23035f7e3b84e4e3b8",
+        "bytes": 33222,
+        "preserved": true
+      }
+    ]
+  },
+  "applied_files": [
+    {
+      "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+      "sha256": "31bb6939a8c6135cf3aa01efacc95d06ea273073d83ff36d0486dc618405d317",
+      "bytes": 5539
+    },
+    {
+      "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+      "sha256": "57246adb79af991b4a4233801f47c6566d3e3120072df385aa620720b1ec503c",
+      "bytes": 11003
+    },
+    {
+      "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
+      "sha256": "8940f1aaa8ca061b44720bcbfa6529b382dda8e25319f052d9fc598175a45222",
+      "bytes": 4840
+    },
+    {
+      "path": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
+      "sha256": "422a9577f37dd861d49905cc28de11ef6fed4fae1a46fbebe98edaf4c553cf83",
+      "bytes": 9816
+    },
+    {
+      "path": "data/editorial/context-audit-decisions.json",
+      "sha256": "89e3ec0fc9aba71d2f862cc1b58ee0cbec5261e23035a20a49aaf5d306910851",
+      "bytes": 92467
+    },
+    {
+      "path": "tools/qa-contexto-lote-10.tmp.mjs",
+      "sha256": "22c0ba8ad0704f43f6658eaa27916030d43c1e64c291380cf04365447033031c",
+      "bytes": 9805
+    },
+    {
+      "path": "tools/qa-contexto-lote-10-visual.tmp.mjs",
+      "sha256": "494fcef7ff7adb868f8e5974388fb0f5dc38c0d95b6d9dd0205e37bb169aaa12",
+      "bytes": 5333
+    },
+    {
+      "path": "tools/l10-coldread.tmp.mjs",
+      "sha256": "8d137c8dd38bb871da7600be5cd5b4e37cae6fa555f25d385e6c571cd8beb791",
+      "bytes": 1180
+    },
+    {
+      "path": "docs/editorial/rollback/2026-08-24-contexto-lote-10/manifest.json",
+      "sha256": "e892d69440bd8917494aa28a73085ba25f4b0b858224930691fd648b2c312b64",
+      "bytes": 2236
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-10-registro-aplicacion.md",
+      "sha256": "09b2d98adc1a4a5178baf946c2c34a97eba24f863ba914f65687e6e6906afc8f",
+      "bytes": 5940
+    },
+    {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-10-applied-link-map.json",
+      "sha256": "7864d10325ae32fc0314d84b1a9b5142c0341d11b65cecdf6aac548391498a37",
+      "bytes": 7215
+    },
+    {
+      "path": "docs/editorial/revisiones/2026-08-24-segunda-lectura-aplicada-contexto-lote-10.md",
+      "sha256": "deda315642bba4c647398b7f7972b78de3bfe46258a569e55fa345a23be8f55e",
+      "bytes": 3903
+    },
+    {
+      "path": "docs/design/evidence/contexto-lote-10/qa-visual.json",
+      "sha256": "6eab067462d8e609259e86e70a3962ec0b82b46546def32f2b06fc21ed49f6e8",
+      "bytes": 2422
+    }
+  ],
+  "qa": {
+    "tdd_initial_red": "49 failures / 87",
+    "second_review_red": "2 failures / 87",
+    "focused_final": "PASS 87/87",
+    "context_audit": "PASS; 164 sources; 11 candidates",
+    "content_inventory": "PASS; 164 documents; 0 broken internal links",
+    "routes_tables": "PASS",
+    "glossary_index": "PASS 2/2",
+    "direct_language": "PASS",
+    "hugo_build": {
+      "pages": 922,
+      "paginator_pages": 64,
+      "non_page_files": 213,
+      "static_files": 1436,
+      "processed_images": 268,
+      "aliases": 398
+    },
+    "visual": {
+      "pages": 8,
+      "failures": []
+    },
+    "cold_read_routes": 4
+  },
+  "known_global_debt": {
+    "qa:visual-contract": 1,
+    "qa:learning-audit": 1,
+    "qa:activity-svg-contract": 1,
+    "qa:udgia-figures": 1,
+    "qa:udgia-figures-route": 0,
+    "gates_relaxed": false
+  },
+  "applied_link_map": "docs/editorial/lotes/2026-08-24-contexto-lote-10-applied-link-map.json",
+  "applied_review": "docs/editorial/revisiones/2026-08-24-segunda-lectura-aplicada-contexto-lote-10.md",
+  "production": {
+    "changed": false,
+    "checks": [
+      {
+        "id": "zhan",
+        "url": "https://arqueon.github.io/aprendizaje-ia/recursos/articulos/genai-feedback-engagement-2025/",
+        "http_status": 200,
+        "new_text_present": false,
+        "old_text_present": true,
+        "sha256_html": "0a02a5654d3c9902ee10a25647e9199ba8c1be80e40056fc5a747e49b205e5ba"
+      },
+      {
+        "id": "unam",
+        "url": "https://arqueon.github.io/aprendizaje-ia/recursos/articulos/guias-iagen-evaluacion-unam/",
+        "http_status": 200,
+        "new_text_present": false,
+        "old_text_present": true,
+        "sha256_html": "bee2702b8f41ba85ae1e0dda4604a1a6221db71620d408d2297273bf73d356e6"
+      },
+      {
+        "id": "dec",
+        "url": "https://arqueon.github.io/aprendizaje-ia/recursos/articulos/next-era-assessment-dec/",
+        "http_status": 200,
+        "new_text_present": false,
+        "old_text_present": true,
+        "sha256_html": "c4e2d8cc4fe4deaa1975f7f3a286223ccf1e9a137fc8e3cd6764aed089443dee"
+      },
+      {
+        "id": "tools",
+        "url": "https://arqueon.github.io/aprendizaje-ia/observatorio/guias/evaluacion-herramientas-ia-educativas/",
+        "http_status": 200,
+        "new_text_present": false,
+        "old_text_present": true,
+        "sha256_html": "b9a4e08be3db01750707af67aabd57592a623854f01078e013f13fd36e166703"
+      }
+    ],
+    "all_old_and_not_new": true
+  },
+  "publication": {
+    "performed": false,
+    "authorized": false
+  }
+}

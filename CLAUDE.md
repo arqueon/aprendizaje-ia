@@ -1,3 +1,5 @@
+@AGENTS.md
+
 # Contexto del proyecto: Aprendizaje Digital e IA (UDGplus)
 
 ## Qué es este sitio

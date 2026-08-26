@@ -57,12 +57,10 @@ Educar en la era de la IA no es enseñar a usar herramientas ni preparar a los e
 
 ## Lecturas relacionadas
 
-La [guía sobre el agenciamiento persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; la [práctica de ABP con IA](/laboratorio/practicas/abp-con-ia/) muestra el agenciamiento operativo en aula; el [post sobre el rol del docente](/blog/rol-docente-era-ia/) sostiene una redefinición operativa del oficio.
+La [guía sobre el agenciamiento persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) trabaja un caso para distinguir una sugerencia de una decisión y conservar la dirección del trabajo; la [plantilla de ABP con IA](/laboratorio/practicas/abp-con-ia/) propone cómo llevar ese agenciamiento al aula; el [post sobre el rol del docente](/blog/rol-docente-era-ia/) sostiene una redefinición operativa del oficio.
 
 ## Referencias
 
 Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trans.). University of Minnesota Press. (Trabajo original publicado en 1980).
 
 Latour, B. (2005). *Reassembling the social: An introduction to actor-network-theory*. Oxford University Press.
-
-Selwyn, N. (2024). Constructing the future of education: Generative AI and the imagined order of teaching. *Learning, Media and Technology*, 49(2), 121–135. https://doi.org/10.1080/17439884.2024.2336517

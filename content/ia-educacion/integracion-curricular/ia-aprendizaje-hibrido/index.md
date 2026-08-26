@@ -81,7 +81,8 @@ La integración de la IA debe evaluarse con los mismos marcos que se aplican a c
 - El [modelo ICAP]({{< ref "formacion-docente/modelos-samr-icap" >}}) ayuda a evaluar si las actividades mediadas por IA logran que los estudiantes lleguen al nivel interactivo y constructivo, o se quedan en un uso pasivo.
 - La [taxonomía de Bloom]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) orienta el diseño de actividades con IA para que los estudiantes alcancen niveles cognitivos superiores (analizar, evaluar, crear) y no solo recordar o entender.
 
-## Referencias
+{{< referencias >}}
 
 - Kaplan-Rakowski, R., Grotewold, K., Hartwick, P., & Papin, K. (2023). Generative AI and Teachers' Perspectives on Its Implementation in Education. *Journal of Interactive Learning Research*, *34*(2), 313–338.
-- Universidad de Guadalajara. (2022). *Aprendizaje Híbrido y Activo para el Éxito Estudiantil*. Documento institucional de circulación interna, sin versión pública disponible; se cita como antecedente del marco institucional de aprendizaje híbrido.
+
+{{< /referencias >}}

@@ -1,3 +1,12 @@
-<section class="w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3" style="overflow:visible;">
-    {{ .Inner }}
+{{- $label := .Get "etiqueta" | default "Enlaces relacionados" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode cards: requiere al menos un card en %s" .Position -}}
+{{- end -}}
+<section
+  class="alm-cards w-full grid gap-6 sm:grid-cols-2 md:grid-cols-3"
+  style="overflow:visible;"
+  aria-label="{{ $label }}"
+  data-udgia-component="cards">
+    {{- $inner | safeHTML -}}
 </section>

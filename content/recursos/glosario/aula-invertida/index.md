@@ -7,6 +7,7 @@ categories: ["metodologia"]
 areas: ["digital", "pedagogia"]
 showHero: true
 summary: "Modelo pedagógico que invierte la enseñanza tradicional transfiriendo la instrucción fuera del aula para dedicar el tiempo presencial a actividades prácticas."
+description: "Modelo pedagógico que invierte la enseñanza tradicional transfiriendo la instrucción fuera del aula para dedicar el tiempo presencial a actividades prácticas."
 ---
 
 El **aula invertida** (o *flipped classroom*) es un enfoque pedagógico en el que la instrucción directa se desplaza del espacio de aprendizaje grupal al espacio de aprendizaje individual. El resultado es que el espacio grupal se transforma en un ambiente de aprendizaje dinámico e interactivo.

@@ -37,7 +37,7 @@ Hay tres funciones donde la IA, en su estado actual, no es sustituto y probablem
 
 La **lectura del grupo** es la primera. Un docente con experiencia detecta en una clase cuándo el grupo está perdido, cuándo está aburrido, cuándo está fingiendo entender y cuándo realmente está pensando. Esa lectura no se reduce a métricas; integra señales sutiles que ningún sistema de seguimiento captura sin convertir el aula en un espacio de vigilancia. La IA puede medir mucho, pero no puede leer un silencio en un grupo.
 
-El **acompañamiento del aprendiz** es la segunda. Acompañar a un estudiante implica reconocer su trayectoria personal, anticipar dificultades específicas, sostener la motivación cuando flaquea y celebrar avances que la rúbrica no captura. Estas funciones son intersubjetivas: requieren un humano que se interese genuinamente por el desarrollo de otro humano. La IA puede simular interés, pero la simulación no produce el mismo efecto educativo (Selwyn, 2024).
+El **acompañamiento del aprendiz** es la segunda. Acompañar a un estudiante implica reconocer su trayectoria personal, anticipar dificultades específicas, sostener la motivación cuando flaquea y celebrar avances que la rúbrica no captura. Un sistema puede producir expresiones que parecen interés, pero no tiene una trayectoria compartida con el grupo ni asume la responsabilidad del cuidado educativo. Esta diferencia importa porque traducir procesos educativos cualitativos a lo que una máquina puede modelar implica pérdidas (Selwyn, 2024).
 
 La **toma de decisiones éticas en zonas grises** es la tercera. Cuando un estudiante atraviesa una crisis personal y entrega tarde, cuando dos estudiantes presentan trabajos similares y hay que decidir si fue colaboración o copia, cuando un grupo plantea una objeción sustantiva al diseño del curso —en estas decisiones, el juicio humano no es opcional: es el único válido.
 
@@ -59,12 +59,12 @@ Esa redefinición no es romántica ni triunfalista. Es lo que el oficio exige ho
 
 ## Lecturas relacionadas
 
-La [co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) profundiza el marco conceptual; el [pensamiento crítico ante la IA generativa](/formacion-docente/pensamiento-critico-ia-generativa/) opera la dimensión cognitiva; las [competencias digitales con IA para estudiantes](/formacion-docente/competencias-digitales-ia-estudiantes/) cubren el lado del aprendiz.
+La [co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) muestra, mediante un caso, cómo distinguir una sugerencia de una decisión y conservar la dirección del trabajo; el [pensamiento crítico ante la IA generativa](/formacion-docente/pensamiento-critico-ia-generativa/) opera la dimensión cognitiva; las [competencias digitales con IA para estudiantes](/formacion-docente/competencias-digitales-ia-estudiantes/) cubren el lado del aprendiz.
 
 ## Referencias
 
 Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 
-Selwyn, N. (2024). Constructing the future of education: Generative AI and the imagined order of teaching. *Learning, Media and Technology*, 49(2), 121–135. https://doi.org/10.1080/17439884.2024.2336517
+Selwyn, N. (2024). On the limits of artificial intelligence (AI) in education. *Nordisk Tidsskrift for Pedagogikk og Kritikk, 10*(1), 3–14. https://doi.org/10.23865/ntpk.v10.6062
 
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers

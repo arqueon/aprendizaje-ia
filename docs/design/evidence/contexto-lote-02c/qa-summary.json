@@ -1,0 +1,78 @@
+{
+  "focal": {
+    "red_initial": {
+      "checks": 12,
+      "failures": 11
+    },
+    "green_initial": {
+      "checks": 12,
+      "failures": 0
+    },
+    "red_source_precision": {
+      "checks": 16,
+      "failures": 4
+    },
+    "green_final": {
+      "checks": 16,
+      "failures": 0
+    }
+  },
+  "glossary_index_tdd": {
+    "red": "ERR_MODULE_NOT_FOUND: tools/lib/glossary-index.mjs",
+    "intermediate": {
+      "tests": 2,
+      "passed": 1,
+      "failed": 1,
+      "cause": "conjunción final e"
+    },
+    "green": {
+      "tests": 2,
+      "passed": 2,
+      "failed": 0
+    }
+  },
+  "second_read": {
+    "coverage": "6/6",
+    "editorial": "aprobar",
+    "technical": "aprobar",
+    "mandatory_changes": 0,
+    "blocking_issues": 0,
+    "reconciliation": "observación sobre carga cognitiva verificada con DOI y ERIC; precisión factual aplicada"
+  },
+  "integrated": {
+    "documents": 168,
+    "broken_internal_links": 0,
+    "context_candidates": 18,
+    "manual": {
+      "conservar": 9,
+      "cambiar": 28,
+      "quitar": 5,
+      "pendiente": 126
+    },
+    "learning_audit": "168/168",
+    "visual_contract": "143 páginas / 498 cards",
+    "routes_tables": "PASS",
+    "direct_language": "PASS",
+    "hugo_pages": 944,
+    "static_files": 1436
+  },
+  "visual": {
+    "views": 2,
+    "failures": 0,
+    "axe": "0 A/AA",
+    "overflow": 0,
+    "console_errors": 0,
+    "human_read": "sin solapamientos, cortes ni espacios anómalos; cards apiladas en móvil"
+  },
+  "sources_checked": [
+    {
+      "doi": "10.1109/TLT.2025.3554584",
+      "secondary_record": "ERIC EJ1469066",
+      "use": "36 estudiantes, ocho semanas, grupos 21/15; contraste completo incluido"
+    },
+    {
+      "doi": "10.3390/educsci15091198",
+      "use": "40 encuestas, seis conversaciones, dos entrevistas; brecha de resolución"
+    }
+  ]
+}

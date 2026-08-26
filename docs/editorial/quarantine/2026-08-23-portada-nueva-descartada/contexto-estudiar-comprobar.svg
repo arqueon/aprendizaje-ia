@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" role="img" aria-labelledby="title desc">
+  <title id="title">Usar IA para estudiar y comprobar</title>
+  <desc id="desc">Un primer intento recibe ayuda sobre una parte y termina en una respuesta comprobada.</desc>
+  <metadata>Original UDG+ Aprendizaje Digital e IA; versión 1, 2026-08-23; CC BY-SA 4.0.</metadata>
+  <rect width="640" height="320" rx="24" fill="#f5f3ee"/>
+  <path d="M0 24Q0 0 24 0h592q24 0 24 24v52H0Z" fill="#176477"/>
+  <text x="32" y="49" fill="#fffdf8" font-family="system-ui,sans-serif" font-size="24" font-weight="700">Estudiar con IA</text>
+  <g transform="translate(36 116)">
+    <rect width="154" height="126" rx="16" fill="#fffdf8" stroke="#17213a" stroke-width="4"/>
+    <text x="77" y="35" text-anchor="middle" fill="#17213a" font-family="system-ui,sans-serif" font-size="17" font-weight="700">Primer intento</text>
+    <path d="M25 59h104M25 80h87M25 101h96" stroke="#8b8f97" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M210 178h42" stroke="#176477" stroke-width="8" stroke-linecap="round"/><path d="m239 159 22 19-22 19" fill="none" stroke="#176477" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(273 116)">
+    <path d="M15 0h130a15 15 0 0 1 15 15v76a15 15 0 0 1-15 15H80l-27 20 6-20H15A15 15 0 0 1 0 91V15A15 15 0 0 1 15 0Z" fill="#e4f0f2" stroke="#176477" stroke-width="4"/>
+    <text x="80" y="42" text-anchor="middle" fill="#17213a" font-family="system-ui,sans-serif" font-size="18" font-weight="700">Ayuda sobre</text>
+    <text x="80" y="68" text-anchor="middle" fill="#17213a" font-family="system-ui,sans-serif" font-size="18" font-weight="700">una parte</text>
+  </g>
+  <path d="M451 178h42" stroke="#176477" stroke-width="8" stroke-linecap="round"/><path d="m480 159 22 19-22 19" fill="none" stroke="#176477" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(514 116)">
+    <circle cx="45" cy="48" r="38" fill="#eef2df" stroke="#536326" stroke-width="5"/>
+    <path d="m26 49 14 14 26-32" fill="none" stroke="#536326" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="45" y="108" text-anchor="middle" fill="#17213a" font-family="system-ui,sans-serif" font-size="17" font-weight="700">Comprueba</text>
+  </g>
+</svg>

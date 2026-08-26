@@ -146,7 +146,8 @@ demostrable.
 - Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica.
 - Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — soporte cuantitativo del prototipo.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
-y la rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

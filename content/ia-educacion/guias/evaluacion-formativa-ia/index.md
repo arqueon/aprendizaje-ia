@@ -2,8 +2,8 @@
 title: "Evaluación formativa con IA — ciclos de retroalimentación iterativa"
 date: 2026-04-14
 draft: false
-description: "Guía para diseñar sistemas de evaluación formativa donde la IA ofrece retroalimentación iterativa sobre procesos de aprendizaje, no sobre productos finales."
-summary: "Cómo usar la IA para construir ciclos de retroalimentación que evalúen el proceso de aprendizaje del estudiante, no solo su entregable final."
+description: "Guía para diseñar ciclos donde la evidencia y la retroalimentación se usan para ajustar enseñanza y aprendizaje con supervisión humana."
+summary: "Cómo integrar retroalimentación con IA en ciclos proporcionales que incluyen criterios, revisión, comprobación y cuidado de datos."
 tags: ["evaluación formativa", "retroalimentación", "IA generativa", "portafolios", "rúbricas"]
 categories: ["guia"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -60,10 +60,10 @@ ecosistema:
 ---
 
 {{< lead >}}
-La evaluación formativa no califica: retroalimenta. La IA permite escalar esta práctica a grupos grandes sin sacrificar la calidad del diálogo. Esta guía presenta un marco para diseñar ciclos de evaluación donde la IA comenta, el estudiante revisa, y el docente supervisa el proceso completo.
+Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía propone ciclos donde la IA ofrece una primera retroalimentación, el estudiante la contrasta y actúa, y el docente supervisa y comprueba qué aprendizaje ocurrió.
 {{< /lead >}}
 
-## La premisa: evaluar procesos, no productos
+## La premisa: evaluar procesos, no solo productos
 
 {{< alert icon="scale-balanced" type="info" >}}
 **Dos decisiones distintas:** la evaluación formativa describe la función de la
@@ -72,16 +72,16 @@ describe **qué evidencias** se valoran —versiones, verificaciones y decisione
 producto final—. Pueden combinarse, pero no son sinónimos.
 {{< /alert >}}
 
-La diferencia entre evaluación sumativa y formativa no es de grado sino de función. La evaluación sumativa clasifica ("aprobado / reprobado"); la formativa retroalimenta ("aquí hay una debilidad en tu argumento, revisa esta sección"). Son herramientas distintas para propósitos distintos (Black & Wiliam, 1998).
+La diferencia entre evaluación sumativa y formativa es de **uso**, no de instrumento. Una evidencia se usa formativamente cuando permite decidir qué debe revisarse, qué apoyo necesita una persona o qué conviene cambiar en la enseñanza. Se usa sumativamente cuando contribuye a certificar o comunicar un nivel alcanzado. Un borrador calificado puede generar una acción posterior y cumplir una función formativa; una observación sin calificación puede dejar de serlo si nadie la usa (Black & Wiliam, 1998).
 
-La IA tiene un rol natural en la evaluación formativa porque puede:
+Una herramienta generativa puede apoyar el ciclo porque puede:
 
-- Ofrecer retroalimentación detallada sobre borradores en minutos
-- Sostener múltiples ciclos de revisión sin fatiga
-- Adaptar el nivel de detalle al progreso del estudiante
-- Documentar la evolución del trabajo a lo largo de las iteraciones
+- producir comentarios rápidos y detallados sobre un borrador;
+- contrastar el texto con criterios explícitos;
+- proponer preguntas o contraejemplos para una revisión;
+- ayudar a organizar diferencias entre versiones.
 
-Lo que la IA **no** puede hacer es decidir si el estudiante aprendió. Eso requiere juicio profesional del docente.
+Estas posibilidades no garantizan precisión, personalización ni comprensión del contexto. La evidencia disponible es heterogénea: una revisión de ocho estudios y 461 estudiantes encontró rapidez y detalle en comentarios de ChatGPT, pero mayor personalización y apoyo emocional en la retroalimentación humana. La supervisión humana sigue siendo necesaria para interpretar el contexto, detectar errores y decidir qué acción pedagógica corresponde (Guardia-Paniura et al., 2026).
 
 ## Arquitectura de un ciclo formativo con IA
 
@@ -89,17 +89,19 @@ Lo que la IA **no** puede hacer es decidir si el estudiante aprendió. Eso requi
 flowchart TD
     A[Estudiante produce borrador] --> B[IA ofrece retroalimentación]
     B --> C[Estudiante revisa y decide]
-    C --> D{¿Aceptó o rechazó la sugerencia?}
+    C --> D{¿Qué hizo con la sugerencia?}
     D -->|Aceptó| E[Documenta por qué]
-    D -->|Rechazó| F[Documenta por qué]
-    E --> G[Nuevo borrador]
-    F --> G
-    G --> H{¿Cumple criterios mínimos?}
-    H -->|No| B
-    H -->|Sí| I[Docente revisa el proceso completo]
+    D -->|Modificó| F[Documenta qué cambió y por qué]
+    D -->|Descartó| G[Documenta por qué]
+    E --> H[Nuevo borrador]
+    F --> H
+    G --> H
+    H --> I{¿Cumple criterios mínimos?}
+    I -->|No| B
+    I -->|Sí| J[Docente revisa el proceso completo]
 {{< /mermaid >}}
 
-El elemento crítico no es la retroalimentación de la IA sino la **decisión documentada del estudiante**: qué aceptó, qué rechazó y por qué. Ahí está la evidencia de aprendizaje.
+El elemento crítico no es el comentario de la IA, sino lo que ocurre después. Cada ciclo debe declarar un **criterio**, producir una **acción posterior** —revisar, verificar, pedir ayuda o explicar una aceptación, modificación o descarte— y añadir una **comprobación** que permita reconocer si cambió la comprensión o el trabajo. La decisión documentada del estudiante puede aportar evidencia, pero debe leerse junto con el producto y el propósito de la actividad.
 
 ## Cuatro instrumentos formativos con IA
 
@@ -121,8 +123,9 @@ vigilancia exhaustiva.
 
 La suficiencia depende de la tarea: no se pide lo mismo para una práctica breve que para un
 proyecto de alto impacto. Este ejercicio plantea una actividad de riesgo académico bajo y
-obliga a seleccionar, no a acumular. Es una práctica formativa: no genera una calificación,
-no registra el intento y no se entrega como evidencia.
+obliga a seleccionar, no a acumular. En este ejercicio de práctica, la selección no se califica,
+no registra el intento y no se entrega como evidencia; su función es preparar una decisión que
+pueda reutilizarse en una tarea real.
 
 {{< h5p id="evidencias-proceso-proporcion" load="manual" title="Elegir evidencia suficiente y proporcional" >}}
 ### Versión textual del caso
@@ -143,16 +146,16 @@ consultas y los detectores tampoco muestran por sí mismos qué aprendió la per
 
 ### 1. Portafolio iterativo
 
-El estudiante construye un portafolio donde cada pieza pasa por al menos tres versiones. La IA comenta cada versión; el estudiante decide qué incorporar.
+El estudiante conserva algunos momentos del trabajo para comparar el punto de partida, una revisión y el resultado. El número de versiones depende del propósito y la duración de la tarea; la IA puede intervenir en uno o varios momentos si las reglas lo permiten.
 
-**Estructura del portafolio:**
+**Ejemplo de estructura proporcional:**
 
 | Versión | Contenido | Evidencia requerida |
 |---------|-----------|-------------------|
-| V1 | Borrador inicial (sin IA) | Texto original del estudiante |
-| V2 | Revisión post-retroalimentación IA | Log de la conversación con la IA + decisiones tomadas |
-| V3 | Versión revisada por pares | Comentarios de compañeros + respuestas del autor |
-| Final | Versión definitiva | Reflexión sobre el proceso completo |
+| Punto de partida | Esquema, tesis o fragmento inicial | Fecha y criterio que se quiere trabajar |
+| Revisión | Versión posterior a una fuente de retroalimentación | Una o dos decisiones explicadas, sin exigir la conversación completa |
+| Contraste opcional | Revisión por pares, docente o herramienta | Comentario elegido y respuesta de quien escribe |
+| Cierre | Versión que se valorará | Comprobación breve de qué cambió y qué queda pendiente |
 
 **Ejemplo de prompt para retroalimentación con Claude:**
 
@@ -160,22 +163,23 @@ El estudiante construye un portafolio donde cada pieza pasa por al menos tres ve
 
 ### 2. Rúbricas asistidas por IA
 
-El docente diseña la rúbrica; la IA la aplica como primer filtro. El docente revisa la aplicación y ajusta.
+El docente diseña la rúbrica y puede usar una herramienta generativa para producir un borrador de retroalimentación. La herramienta también interpreta los criterios y puede aplicarlos de forma inconsistente; su salida debe contrastarse antes de llegar al estudiante o influir en una decisión de evaluación.
 
 **Protocolo:**
 
-1. El docente crea la rúbrica con criterios y niveles de desempeño
-2. El estudiante entrega su trabajo
-3. La IA evalúa el trabajo **usando la rúbrica del docente** (no sus propios criterios)
-4. El estudiante recibe la retroalimentación y revisa
-5. El docente verifica una muestra de las evaluaciones de la IA y hace la evaluación final
+1. El docente crea la rúbrica con criterios, niveles y ejemplos de interpretación.
+2. Antes de compartir textos, verifica la política institucional, la privacidad y la protección de datos del servicio.
+3. La herramienta contrasta un texto autorizado con la rúbrica y formula observaciones provisionales.
+4. Una persona revisa cada observación que se utilizará: comprueba evidencia, tono, sesgos y correspondencia con el criterio.
+5. El estudiante recibe los comentarios revisados, decide una acción posterior y explica qué cambió.
+6. El docente comprueba el aprendizaje con el producto, las decisiones y otra evidencia pertinente; no usa la salida automática como fundamento único de una calificación.
 
 **Ejemplo con Gemini:**
 
 > *Prompt:* Aquí tienes una rúbrica analítica con 4 criterios: claridad argumentativa, uso de evidencia, estructura lógica y originalidad del planteamiento. Cada criterio tiene 4 niveles (insuficiente, en desarrollo, competente, destacado). Evalúa el siguiente texto usando exclusivamente esta rúbrica. Para cada criterio indica el nivel, la justificación y una sugerencia concreta de mejora. [Pegar rúbrica y texto]
 
 {{< alert icon="triangle-exclamation" type="warning" >}}
-**La IA aplica la rúbrica; el docente decide la calificación.** La retroalimentación de la IA es formativa, no sumativa. El docente siempre tiene la última palabra sobre la evaluación del estudiante.
+**La rúbrica no elimina la interpretación.** Una herramienta puede omitir evidencia, inventar justificaciones o reproducir sesgos aun cuando reciba criterios explícitos. Solo deben entregarse comentarios revisados, y ninguna salida automática debe decidir por sí sola una calificación o una consecuencia académica.
 {{< /alert >}}
 
 ### 3. Bitácora de decisiones
@@ -197,25 +201,25 @@ El estudiante explica el propósito, las fuentes, los cambios y las decisiones c
 su trabajo sin depender de la IA. No se trata de repetir el producto final, sino de sostener
 por qué tomó determinadas decisiones y cómo verificó lo que incorporó.
 
-Una defensa breve puede combinar tres preguntas: qué cambió entre versiones, qué sugerencia
-descartó y qué evidencia respalda la decisión más importante.
+Una defensa breve puede combinar tres preguntas: qué cambió entre versiones, qué decisión
+tomó ante una sugerencia relevante y qué evidencia respalda la decisión más importante.
 
 ## Qué entrega el estudiante y qué evalúa el docente
 
-A diferencia del modelo tradicional donde solo se entrega un archivo final, en un ciclo formativo con IA el estudiante suele entregar un **paquete de evidencias** que consta de tres partes:
+Según el propósito y el riesgo de la tarea, el estudiante puede entregar un **paquete breve de evidencias**. No todas las actividades necesitan los mismos componentes; el docente selecciona solo los que permitan interpretar el aprendizaje:
 
-1. **El producto final:** La última versión de su trabajo.
-2. **El registro de iteraciones:** Un anexo o documento que muestra las versiones previas o la retroalimentación recibida por la IA.
-3. **La reflexión de toma de decisiones (Lo más importante):** Una justificación explícita de por qué aceptó o rechazó las sugerencias de la máquina durante el proceso de mejora.
+1. **El producto que se valorará:** la versión o actuación sobre la que se aplicarán los criterios.
+2. **Un punto de comparación:** un esquema, una versión previa o una verificación de fuentes, cuando resulte pertinente.
+3. **Una explicación de decisiones:** una nota breve sobre una aceptación, modificación o descarte relevante. No hace falta documentar cada interacción.
 
 Al momento de revisar este entregable, los criterios del docente deben cambiar de enfoque:
 
-| Lo que importa | Lo que no importa |
+| Lo que aporta al juicio | Lo que no basta por sí solo |
 |---|---|
 | Las decisiones del estudiante ante la retroalimentación | La cantidad de interacciones con la IA |
 | La evolución entre versiones | La calidad del prompt en sí mismo |
 | La reflexión sobre el proceso | El producto final aislado |
-| La capacidad de rechazar sugerencias con fundamento | La obediencia a la IA |
+| La capacidad de aceptar, modificar o descartar sugerencias con fundamento | La obediencia a la IA |
 
 ## Decide qué evidencia permite valorar aprendizaje
 
@@ -240,7 +244,7 @@ detector tampoco reconstruye qué aprendió la estudiante.
 
 ## Errores frecuentes
 
-1. **Usar la IA como calificadora final.** La IA retroalimenta; el docente califica. Mezclar ambas funciones compromete la confianza del estudiante en el proceso.
+1. **Delegar una decisión de calificación.** Un comentario automático puede orientar una revisión, pero no sustituye la interpretación del criterio, la evidencia del trabajo ni la responsabilidad docente.
 
 2. **No dar al estudiante criterios claros.** Si el estudiante no sabe qué se espera, la retroalimentación de la IA es ruido. La rúbrica o los criterios deben ser explícitos desde el inicio.
 
@@ -248,19 +252,27 @@ detector tampoco reconstruye qué aprendió la estudiante.
 
 4. **Asumir que la retroalimentación de la IA es siempre correcta.** La IA puede dar sugerencias equivocadas. Que el estudiante identifique errores en la retroalimentación de la IA es, en sí mismo, evidencia de aprendizaje.
 
+## Salvaguardas antes de usar un servicio externo
+
+- **Privacidad y protección de datos:** no pegar trabajos estudiantiles, nombres o información sensible sin base institucional y consentimiento aplicable. Usar fragmentos anonimizados o alternativas locales cuando corresponda.
+- **Sesgo y contexto:** comprobar si los comentarios penalizan variedades lingüísticas, enfoques disciplinares o formas de expresión que la herramienta interpreta de manera estrecha.
+- **Dependencia:** alternar fuentes de retroalimentación y pedir que el estudiante contraste la salida con criterios, pares, documentos o revisión docente.
+- **Carga de trabajo:** empezar con un ciclo y una evidencia breve. Automatizar comentarios que después requieren corregirse uno por uno puede aumentar, no reducir, la carga.
+- **Accesibilidad:** ofrecer una vía equivalente cuando la interfaz, el formato conversacional o la exposición oral introduce una barrera.
+
 ## Consejos pedagógicos
 
 {{< alert icon="lightbulb" type="info" >}}
-**Empieza con un solo ciclo.** No intentes implementar portafolios de 4 versiones desde el primer semestre. Añade un ciclo de retroalimentación IA a una tarea existente y observa el resultado antes de escalar.
+**Empieza con un solo ciclo.** Añade una oportunidad de retroalimentación a una tarea existente y comprueba si la revisión produce evidencia útil antes de ampliar el número de versiones o instrumentos.
 {{< /alert >}}
 
 {{< alert icon="lightbulb" type="info" >}}
-**Haz visible el rechazo.** Los momentos donde el estudiante decide que la IA está equivocada son los de mayor valor formativo. Asegúrate de incluir formatos o espacios en la entrega de la tarea (como una tabla de decisiones o una reflexión anexa) donde sea obligatorio para el alumno justificar por qué rechazó un consejo de la máquina.
+**Haz visibles decisiones relevantes.** Si el estudiante acepta, modifica o descarta una sugerencia importante, una nota breve puede mostrar el criterio usado. No debe inventar un rechazo ni conservar toda la conversación para cumplir el formato.
 {{< /alert >}}
 
 ## Relación con otras secciones del sitio
 
-- La [práctica de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) documenta una implementación concreta de estos principios
+- La [actividad propuesta de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) propone una aplicación de cuatro semanas de estos principios
 - La guía de [ABP con IA](/ia-educacion/guias/abp-con-ia/) usa la evaluación formativa en su fase de iteración
 - El [reporte global del DEC sobre la nueva era de la evaluación](/recursos/articulos/next-era-assessment-dec/) ofrece un catálogo de 14 metodologías directas.
 - Los principios de [alfabetización crítica en IA](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/) son relevantes para formar estudiantes que evalúen críticamente la retroalimentación de la IA
@@ -268,11 +280,13 @@ detector tampoco reconstruye qué aprendió la estudiante.
 ## Recursos adicionales
 
 - [Assessment for Learning — Dylan Wiliam](https://www.dylanwiliam.org/) — Investigación sobre evaluación formativa
-- [Formative Assessment in Practice (CPALMS)](https://www.cpalms.org/Public/ResourceCollection/Formative-Assessment) — Herramientas prácticas
 
-## Referencias
+{{< referencias >}}
 
 - Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education: Principles, Policy & Practice*, *5*(1), 7–74. https://doi.org/10.1080/0969595980050102
+- Guardia-Paniura, C. H., Cueva-Luza, T., Cruz-Carpio, F. M., Ito-Díaz, R. R., Apaza-Paco, D. V., Rosas-Rojas, N., Mamani-Mamani, B., Terrero-Pérez, Á., Yaedú, R. Y. F., & Peralta-Mamani, M. (2026). Human and AI-generated feedback in higher education: A systematic review of effectiveness and student perceptions. *Contemporary Educational Technology*, *18*(1), ep623. https://doi.org/10.30935/cedtech/17863
 - Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, *77*(1), 81–112. https://doi.org/10.3102/003465430298487
 - Nicol, D. J., & Macfarlane-Dick, D. (2006). Formative assessment and self-regulated learning: A model and seven principles of good feedback practice. *Studies in Higher Education*, *31*(2), 199–218. https://doi.org/10.1080/03075070600572090
 - Sadler, D. R. (1989). Formative assessment and the design of instructional systems. *Instructional Science*, *18*(2), 119–144. https://doi.org/10.1007/BF00117714
+
+{{< /referencias >}}

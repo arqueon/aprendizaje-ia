@@ -1,0 +1,888 @@
+{
+  "snapshot_date": "2026-08-23",
+  "decisions": {
+    "content/ia-educacion/guias/abp-con-ia/index.md": {
+      "decision": "conservar",
+      "reason": "Es una guía metodológica con varios ejemplos completos; contiene actores, materiales, acciones, resultados y comprobaciones. No debe evaluarse como una única actividad cerrada.",
+      "issue_types": [
+        "lenguaje-especializado-menor"
+      ],
+      "citations": [
+        "L44–50: el estudiante recibe un escenario, lo reformula, evalúa, modifica y decide qué variables conservar.",
+        "L84–98: muestra una hipótesis concreta y exige registrar cambios y justificación.",
+        "L102–104: la persona debe explicar y defender cada decisión."
+      ]
+    },
+    "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "El marco es útil, pero las actividades tipo no muestran siempre el caso inicial ni una comprobación final aplicable.",
+      "issue_types": [
+        "material-inicial-ausente",
+        "cierre-incompleto"
+      ],
+      "citations": [
+        "L69–75: se solicita generar un caso para estudiantes de administración, pero no se muestra el caso que recibirán.",
+        "L113–120: el protocolo pide criterios y recogida de evidencia sin ofrecer una comprobación final para los ejemplos."
+      ]
+    },
+    "content/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/index.md": {
+      "decision": "cambiar",
+      "reason": "El recurso extenso contiene actividades y patrones completos, pero la entrada no muestra de inmediato quién la usa, con qué llega ni qué ficha termina; el cuerpo debe auditarse mediante guide-body.txt.",
+      "issue_types": [
+        "entrada-descontextualizada",
+        "lenguaje-interno",
+        "contenido-delegado-a-componente"
+      ],
+      "citations": [
+        "index.md L22: el cuerpo visible en Markdown se delega a illustrated-guide.",
+        "guide-body.txt: contiene tres actividades completas, diez patrones y una lista de cotejo.",
+        "Render: el título empieza aproximadamente a 865 px en una ventana de 1440 × 900."
+      ]
+    },
+    "content/ia-educacion/guias/estudiantes/index.md": {
+      "decision": "conservar",
+      "reason": "Presenta persona, momento, duración, acciones, resultado y comprobación. Solo conviene añadir una vista previa menor del material enlazado.",
+      "issue_types": [
+        "material-enlazado-no-previsualizado"
+      ],
+      "citations": [
+        "L39–41: sitúa la decisión antes de entregar y fija una duración.",
+        "L46–57: presenta a Renata, las acciones y el antes/después que conservará.",
+        "L69–71: exige poder explicar la decisión sin volver a la herramienta."
+      ]
+    },
+    "content/ia-educacion/guias/profesorado/index.md": {
+      "decision": "conservar",
+      "reason": "La ruta preexistente tiene un borrador local completo con caso, material inicial, revisión de doce minutos, ficha final y comprobación por otra persona.",
+      "issue_types": [
+        "borrador-local-pendiente-de-revision"
+      ],
+      "citations": [
+        "L44–56: muestra el caso y la versión inicial de la actividad.",
+        "L60–70: fija cinco acciones y una ficha de cinco líneas.",
+        "L94–109: conserva antes, después y razón, y añade comprobación final."
+      ]
+    },
+    "content/ia-educacion/practicas/bitacora-cocreacion/index.md": {
+      "decision": "cambiar",
+      "reason": "La tabla, los límites de privacidad y la comprobación son útiles, pero la página no muestra un ejemplo completado y se clasifica como práctica aunque funciona como plantilla. Debe añadir un caso breve o declararse explícitamente plantilla de apoyo.",
+      "role": "práctica breve y plantilla de trazabilidad",
+      "issue_types": [
+        "material-inicial-ausente",
+        "rol-editorial-impreciso"
+      ],
+      "citations": [
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L39-49: la tabla contiene preguntas por completar, pero no muestra una nota terminada.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L51-53: Establece límites explícitos para no registrar datos personales, información confidencial ni transcripciones innecesarias.",
+        "content/ia-educacion/practicas/bitacora-cocreacion/index.md L55-57: Define un criterio comprobable: otra persona debe poder distinguir punto de partida, aporte, comprobación y decisión final."
+      ],
+      "review_source": "reconciliacion-humana-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/ia-educacion/practicas/comprobar-afirmacion/index.md": {
+      "decision": "conservar",
+      "reason": "Es una práctica breve pero completa: parte de material visible, sitúa el momento antes de repetir o usar una afirmación, define acciones, producto, fuente de comprobación y decisiones posibles, incluido dejar el asunto pendiente.",
+      "role": "práctica breve de verificación",
+      "issue_types": [],
+      "citations": [
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L33-40: Presenta la situación y un ejemplo inicial concreto: una afirmación porcentual que podría afectar una decisión.",
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L41-46: Indica cuatro acciones ordenadas: conservar la afirmación exacta, valorar su impacto, localizar evidencia externa y decidir.",
+        "content/ia-educacion/practicas/comprobar-afirmacion/index.md L48-54: Especifica el producto verificable y ofrece una alternativa equivalente sin IA."
+      ],
+      "review_source": "reconciliacion-humana-2026-08-23"
+    },
+    "content/laboratorio/practicas/abp-con-ia/index.md": {
+      "decision": "quitar",
+      "reason": "Poner en cuarentena pública hasta documentar la implementación o convertirla honestamente en escenario; no borrar la fuente.",
+      "issue_types": [
+        "procedencia-no-verificada",
+        "material-inicial-ausente",
+        "privacidad"
+      ],
+      "citations": [
+        "L27: declara un grupo de 28 estudiantes y un proyecto semestral sin identificar curso, docente, fecha o institución.",
+        "L57: cada equipo selecciona un problema local, pero no se muestra un caso o expediente inicial.",
+        "L107–113: afirma resultados de una primera implementación sin fuente independiente."
+      ]
+    },
+    "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "Tiene una base sólida —contexto, objetivos, secuencia, producto y evaluación—, pero aún no completa el arco de una práctica publicable como experiencia real. Debe declarar si es propuesta o implementación, operacionalizar la auditoría para que no confunda una respuesta aislada con comportamiento estable, incorporar seguridad y privacidad, y añadir recursos, tiempos, accesibilidad, resultados o una sección explícita de pilotaje pendiente.",
+      "role": "practica-pedagogica",
+      "issue_types": [
+        "arco_incompleto",
+        "estado_de_implementacion_ambiguo",
+        "metodologia_de_comparacion",
+        "privacidad",
+        "acceso_y_equidad",
+        "simplificacion_conceptual"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L27-42: Define audiencia, objetivo y uso comparativo de al menos tres modelos, pero reduce la explicación causal de los sesgos a los datos de entrenamiento.",
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L43-63: Incluye secuencia y producto final, pero pide capturas y comparación de modelos sin protocolo de privacidad, registro de versión/fecha, repetición o control de variabilidad.",
+        "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md L65-81: Aporta ponderaciones y referencias, pero el archivo termina sin resultados observados, reflexión de implementación, duración, recursos, adaptaciones ni plan ante acceso desigual."
+      ],
+      "review_source": "reconciliacion-humana-2026-08-23"
+    },
+    "content/laboratorio/practicas/aprendizaje-activo-ia/index.md": {
+      "decision": "quitar",
+      "reason": "Poner en cuarentena pública hasta documentar la implementación o convertirla en escenario. Los materiales centrales se generan, pero no se muestran, y se afirman observaciones sin procedencia independiente.",
+      "issue_types": [
+        "procedencia-no-verificada",
+        "material-inicial-ausente",
+        "duplicacion-parcial"
+      ],
+      "citations": [
+        "L27: declara grupo, semestre y sesiones sin procedencia.",
+        "L54, L66 y L77: el docente genera el caso, escenario y preguntas, pero no se muestran.",
+        "L107–113: reporta observaciones de tres sesiones sin fuente independiente."
+      ]
+    },
+    "content/laboratorio/practicas/aula-invertida/index.md": {
+      "decision": "cambiar",
+      "reason": "La explicación es recuperable, pero funciona como guía metodológica, no como práctica completa. Debe cambiar de rol y ubicación conservando alias.",
+      "issue_types": [
+        "rol-editorial-incorrecto",
+        "material-inicial-ausente",
+        "comprobacion-ausente"
+      ],
+      "citations": [
+        "L28 y L38–43: explican el ciclo antes, durante y después.",
+        "L47: ofrece un ejemplo semanal de estadística.",
+        "L79: menciona evaluación y retroalimentación sin criterios concretos para comprobar el ejercicio."
+      ]
+    },
+    "content/laboratorio/practicas/debate-socratico-con-ia/index.md": {
+      "decision": "quitar",
+      "reason": "Poner en cuarentena pública hasta documentar el piloto o convertirlo en escenario. También debe sustituir la entrega de la conversación completa por notas de decisión.",
+      "issue_types": [
+        "procedencia-no-verificada",
+        "material-inicial-ausente",
+        "privacidad"
+      ],
+      "citations": [
+        "L29: declara un grupo de 32 estudiantes de Filosofía sin procedencia.",
+        "L54: exige documentar el intercambio completo.",
+        "L85: afirma un piloto n=32, 78 % y mayor profundidad que el semestre anterior."
+      ]
+    },
+    "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md": {
+      "decision": "quitar",
+      "reason": "Poner en cuarentena pública hasta resolver la contradicción entre prototipo y práctica implementada; no borrar la secuencia aprovechable.",
+      "issue_types": [
+        "estado-contradictorio",
+        "procedencia-no-verificada",
+        "material-incompleto",
+        "privacidad"
+      ],
+      "citations": [
+        "L50–53: se declara prototipo y no reporte de una implementación.",
+        "L77–79: el prompt conserva [pegar rúbrica] y [Pegar texto].",
+        "L149–156: afirma una implementación semestral y resultados porcentuales."
+      ]
+    },
+    "content/blog/_index.md": {
+      "decision": "conservar",
+      "reason": "Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice.",
+      "role": "índice editorial y navegación",
+      "issue_types": [],
+      "citations": [
+        "content/blog/_index.md L16-22: Presenta el espacio como ensayos reflexivos sobre pedagogía universitaria e IA y explica qué encontrará el lector.",
+        "content/blog/_index.md L24-31: Distingue los posts de guías y artículos mediante tono, brevedad, posición y apertura al desacuerdo."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/formacion-docente/_index.md": {
+      "decision": "conservar",
+      "reason": "La audiencia, el propósito general y los destinos son reconocibles. Las tarjetas permiten elegir según una necesidad formativa concreta sin exigir que el índice desarrolle las actividades completas.",
+      "role": "hub de formación y navegación docente",
+      "issue_types": [],
+      "citations": [
+        "content/formacion-docente/_index.md L14-16: Identifica a docentes en proceso continuo de desarrollo digital y anticipa recursos, rutas y conexiones.",
+        "content/formacion-docente/_index.md L18-28: Ofrece destinos con títulos y descripciones diferenciados: aprendizaje híbrido, aprendizaje activo, diseño inverso, evaluación, alfabetización, formación continua y redes, entre otros."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/ia-educacion/_index.md": {
+      "decision": "conservar",
+      "reason": "Resuelve dos situaciones de navegación distintas —entrar por responsabilidad o explorar por tema— sin confundirlas. Cada ruta anticipa la decisión o alcance que atenderá.",
+      "role": "hub prioritario y selector de rutas",
+      "issue_types": [],
+      "citations": [
+        "content/ia-educacion/_index.md L14-18: Explica que la sección sirve a estudiantes y docentes y conduce desde una introducción hacia materiales especializados.",
+        "content/ia-educacion/_index.md L24-35: Organiza la entrada por responsabilidad y distingue estudiar o enseñar, coordinar procesos docentes y dirigir decisiones institucionales.",
+        "content/ia-educacion/_index.md L37-44: Añade una segunda navegación por tema, con destinos claramente diferenciados."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md": {
+      "decision": "conservar",
+      "reason": "Cumple el arco de una ruta: situación reconocible, audiencias diferenciadas, punto de partida, acciones, decisiones, evidencia y comprobación. También evita recopilar conversaciones completas y contempla privacidad, equidad de acceso y alternativa sin IA.",
+      "role": "ruta introductoria para estudiar o enseñar con IA",
+      "issue_types": [],
+      "citations": [
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L69-84: Abre con una situación completa: Renata debe decidir entre sugerencias de IA con consecuencias distintas para una conclusión.",
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L115-125: Formula cinco acciones observables desde el propósito y el primer intento hasta la comprobación y la decisión explicada.",
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L146-161: Contextualiza riesgo, privacidad, acceso y alternativa sin IA.",
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L163-178: La ruta para estudiantes especifica material inicial, comprobación, resultado y una prueba de reconstrucción del aprendizaje.",
+        "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md L183-200: La ruta docente identifica el momento de introducir la ayuda y la evidencia con la que se comprobará el desempeño."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/ia-educacion/guias/_index.md": {
+      "decision": "cambiar",
+      "reason": "Debe conservarse como índice, pero necesita una entrada por audiencia o necesidad —por ejemplo estudiar, diseñar una actividad, evaluar, comprobar o proteger datos— y una explicación breve de cómo se distinguen sus destinos. La formulación actual descontextualiza la colección y reduce indebidamente su audiencia a la docencia.",
+      "role": "índice de guías",
+      "issue_types": [
+        "navegación_deficiente",
+        "descontextualización"
+      ],
+      "citations": [
+        "content/ia-educacion/guias/_index.md L2-13: El título, la descripción y el resumen presentan genéricamente tutoriales para integrar herramientas en la docencia.",
+        "content/ia-educacion/guias/_index.md L15-16: El único texto visible enumera temas posibles, pero no explica quién debe elegir cada guía ni ante qué situación.",
+        "content/ia-educacion/guias/estudiantes/index.md L2-18: La colección incluye al menos una ruta dirigida específicamente a estudiantes, alcance que el índice centrado en docencia no anticipa."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-01",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-01.json",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T20:02:17-06:00",
+      "approval_scope": "lote-01-como-borrador; sin autorización de publicación ni retiro"
+    },
+    "content/ia-educacion/rutas/_index.md": {
+      "decision": "cambiar",
+      "reason": "No conviene quitarlo porque puede cumplir una función comparativa y agrupa las rutas hijas, pero actualmente duplica el selector de la página superior y no entrega la comparación prometida. Debe añadir diferencias de audiencia, decisión, alcance, punto de entrada y resultado esperado.",
+      "role": "índice comparativo de rutas por responsabilidad",
+      "issue_types": [
+        "duplicación",
+        "navegación_deficiente"
+      ],
+      "citations": [
+        "content/ia-educacion/rutas/_index.md L15-27: Define correctamente la función de una ruta, pero luego presenta solo las mismas tres entradas con descripciones breves.",
+        "content/ia-educacion/_index.md L24-33: La página superior ya contiene el mismo selector de tres rutas, organizado por responsabilidad.",
+        "content/ia-educacion/_index.md L35-35: El enlace hacia este índice promete comparar las tres rutas y sus alcances."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-01",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-01.json",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T20:02:17-06:00",
+      "approval_scope": "lote-01-como-borrador; sin autorización de publicación ni retiro"
+    },
+    "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "La pieza tiene fecha, procedencia y utilidad claras, por lo que no debe quitarse. Debe cambiarse para separar con mayor precisión las tesis de Liardi/Pearson de la síntesis editorial local, moderar afirmaciones absolutas y acompañar las recomendaciones de uso de IA con condiciones de validez, privacidad, acceso y revisión humana.",
+      "role": "articulo-de-tendencia-y-adaptacion",
+      "issue_types": [
+        "atribucion_de_afirmaciones",
+        "afirmaciones_absolutas",
+        "sustento_insuficiente",
+        "salvaguardas_de_uso"
+      ],
+      "citations": [
+        "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md L23-25: Identifica el briefing, la fecha de la fuente y declara que el texto es un resumen y adaptación al español.",
+        "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md L84-92: Presenta como hechos generales que la IA permite escalar retroalimentación antes imposible y que ninguna máquina puede reemplazar la mentoría, sin evidencia adicional ni delimitación de que se trata de la postura del entrevistado.",
+        "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md L123-136: Convierte el briefing en recomendaciones para docentes UdeG, incluida la generación de retroalimentación y rúbricas con IA, sin criterios de privacidad, verificación o supervisión."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_lot": "contexto-lote-03",
+      "draft_reason": "La página presenta la fuente como perspectiva institucional, declara la alianza DEC–Pearson y separa afirmaciones de Liardi de la lectura editorial. Añade privacidad, acceso, equidad, revisión humana y deslinde institucional.",
+      "draft_citations": [
+        "L27-L29: Caracteriza fuente, relación DEC–Pearson y autoría de la elaboración local.",
+        "L60-L62: Condiciona la retroalimentación a privacidad, acceso y revisión humana.",
+        "L66: Las decisiones locales no se presentan como postura oficial UdeG."
+      ],
+      "draft_updated_at": "2026-08-24",
+      "approval_required": false,
+      "second_review": "fable-6-de-6-ajustes-reconciliados",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-24T00:58:03-06:00",
+      "approval_scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/laboratorio/_index.md": {
+      "decision": "cambiar",
+      "reason": "La arquitectura de tres rutas es útil y debe conservarse, pero la promesa de que toda entrada es una experiencia real contradice la inclusión de estrategias y materiales de diseño. Conviene definir explícitamente quién entra al Laboratorio y qué decisión resuelve cada ruta: adoptar una práctica, aprender de una implementación real o diseñar un flujo de integración.",
+      "role": "hub-de-seccion",
+      "issue_types": [
+        "promesa_editorial_inexacta",
+        "audiencia_no_explicita",
+        "utilidad_decisional_no_explicita",
+        "fronteras_de_seccion"
+      ],
+      "citations": [
+        "content/laboratorio/_index.md L13-15: Promete que cada entrada es una experiencia real con contexto, proceso y reflexión.",
+        "content/laboratorio/_index.md L17-20: Ofrece tres destinos diferenciados nominalmente: prácticas, experiencias docentes e integración de IA."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-01",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-01.json",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T20:02:17-06:00",
+      "approval_scope": "lote-01-como-borrador; sin autorización de publicación ni retiro"
+    },
+    "content/laboratorio/practicas/_index.md": {
+      "decision": "cambiar",
+      "reason": "Es un índice necesario, pero presenta toda la colección como evidencia de implementaciones reales. Al menos una de las prácticas auditadas funciona como diseño replicable y no reporta ejecución ni resultados. Debe distinguir entre práctica propuesta, práctica pilotada y práctica documentada, e indicar que la ruta sirve para seleccionar o adaptar una actividad, no para consultar relatos de implementación.",
+      "role": "indice-de-coleccion-de-practicas",
+      "issue_types": [
+        "estado_de_validacion_ambiguo",
+        "promesa_editorial_inexacta",
+        "frontera_con_experiencias",
+        "utilidad_decisional_no_explicita"
+      ],
+      "citations": [
+        "content/laboratorio/practicas/_index.md L2-4: Describe la colección como prácticas documentadas por docentes que ya integraron IA en sus aulas y que incluyen resultados.",
+        "content/laboratorio/practicas/_index.md L8-13: Configura un listado de tarjetas y vuelve a afirmar que cada práctica es una experiencia real con evaluación y aprendizajes del proceso."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-01",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-01.json",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T20:02:17-06:00",
+      "approval_scope": "lote-01-como-borrador; sin autorización de publicación ni retiro"
+    },
+    "content/observatorio/_index.md": {
+      "decision": "cambiar",
+      "reason": "Los tres destinos se distinguen razonablemente y la página debe mantenerse como hub. Requiere cambio porque no identifica a sus públicos ni convierte las rutas en decisiones concretas: consultar evidencia para diagnóstico, escoger un método de evaluación/documentación o reutilizar materiales. También conviene evitar el solapamiento verbal entre “estudios de caso”, “buenas prácticas” y “documentación”.",
+      "role": "hub-de-observatorio",
+      "issue_types": [
+        "audiencia_no_explicita",
+        "utilidad_decisional_no_explicita",
+        "solapamiento_taxonomico"
+      ],
+      "citations": [
+        "content/observatorio/_index.md L13-15: Define de forma amplia el monitoreo de encuestas, estudios de caso, guías y documentación.",
+        "content/observatorio/_index.md L17-20: Distingue estudios como datos empíricos, guías como orientaciones metodológicas y documentación como repositorio operativo."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_lot": "contexto-lote-03",
+      "draft_reason": "Se identifica a docentes, coordinaciones e investigación, y cada ruta se vincula con una decisión distinta: examinar datos, elegir un método o seguir fuentes.",
+      "draft_citations": [
+        "L14: El hub identifica sus públicos sin exigir una actividad completa.",
+        "L17: Distingue estudios, guías y documentación por tipo de decisión y limita sus promesas."
+      ],
+      "draft_updated_at": "2026-08-24",
+      "approval_required": false,
+      "second_review": "fable-6-de-6-ajustes-reconciliados",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-24T00:58:03-06:00",
+      "approval_scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/observatorio/documentacion/_index.md": {
+      "decision": "cambiar",
+      "reason": "La separación conceptual respecto de estudios y marcos metodológicos es valiosa, pero la portada promete principalmente casos y guías de implementación, mientras la colección actual también contiene monitoreo de publicaciones, herramientas emergentes y redes de investigación. Debe alinear su descripción con los destinos reales y explicar cuándo consultar documentación en vez de prácticas del Laboratorio o guías del Observatorio.",
+      "role": "indice-de-repositorio-operativo",
+      "issue_types": [
+        "desalineacion_con_destinos",
+        "promesa_editorial_inexacta",
+        "frontera_con_laboratorio",
+        "arquitectura_de_informacion"
+      ],
+      "citations": [
+        "content/observatorio/documentacion/_index.md L14-14: Distingue esta rama de estudios y guías, y la dirige a docentes y coordinaciones que buscan materiales reutilizables.",
+        "content/observatorio/documentacion/_index.md L16-22: Promete casos documentados con plantillas comparables y guías paso a paso con rúbricas, prompts, secuencias y plantillas de syllabus."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_lot": "contexto-lote-03",
+      "draft_reason": "La portada se alinea con sus destinos reales —publicaciones, herramientas y redes— y explica su frontera con las guías metodológicas y el Laboratorio.",
+      "draft_citations": [
+        "L14: Define seguimiento documental y advierte que una mención no equivale a recomendación o eficacia.",
+        "L16: Distingue evaluación metodológica, práctica en Laboratorio y seguimiento previo."
+      ],
+      "draft_updated_at": "2026-08-24",
+      "approval_required": false,
+      "second_review": "fable-6-de-6-ajustes-reconciliados",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-24T00:58:03-06:00",
+      "approval_scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/observatorio/estudios/_index.md": {
+      "decision": "cambiar",
+      "reason": "El índice ofrece entradas útiles, pero su alcance editorial es ambiguo: reúne encuestas, ensayo conceptual y reseña de un editorial sin declarar tipos de evidencia, estado o utilidad de cada pieza. Debe sustituir “muestra significativa” por una descripción verificable y orientar al lector según busque datos, interpretación teórica o análisis de tendencias.",
+      "role": "indice-curado-de-estudios",
+      "issue_types": [
+        "alcance_editorial_ambiguo",
+        "tipos_de_evidencia_mezclados",
+        "afirmacion_de_significancia",
+        "audiencia_no_explicita",
+        "utilidad_decisional_no_explicita"
+      ],
+      "citations": [
+        "content/observatorio/estudios/_index.md L7-15: Presenta la sección como radiografía del ecosistema y califica sin criterio explícito como significativa la aportación UdeG de 6,578 participantes.",
+        "content/observatorio/estudios/_index.md L17-27: Mezcla bajo “estudios” un ensayo teórico y una reseña editorial junto con una encuesta empírica."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_lot": "contexto-lote-03",
+      "draft_reason": "La portada distingue encuesta, ensayo y reseña por el tipo de conocimiento que ofrecen; elimina la muestra “significativa” y limita las inferencias sobre UdeG.",
+      "draft_citations": [
+        "L7: Distingue datos declarados, interpretación conceptual y reconstrucción de argumentos.",
+        "L15: Reconoce participación UdeG, pero no atribuye porcentajes regionales ni representatividad local."
+      ],
+      "draft_updated_at": "2026-08-24",
+      "approval_required": false,
+      "second_review": "fable-6-de-6-ajustes-reconciliados",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-24T00:58:03-06:00",
+      "approval_scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/observatorio/estudios/encuesta-dec-2026/index.md": {
+      "decision": "cambiar",
+      "reason": "La fuente primaria está disponible y la ficha aporta visualizaciones y resumen, por lo que debe conservarse mediante revisión, no retirarse. Es necesario añadir referencia bibliográfica completa, fechas y método de levantamiento, tipo de muestra, límites de representatividad y alcance de los datos UdeG. El tamaño de la contribución institucional no basta para afirmar que existen resultados UdeG con “peso propio” si no se muestran análisis desagregados ni condiciones de muestreo.",
+      "role": "ficha-resumen-de-informe-externo",
+      "issue_types": [
+        "metodologia_ausente",
+        "representatividad",
+        "alcance_institucional_sobredimensionado",
+        "fecha_ambigua",
+        "referencia_bibliografica_incompleta"
+      ],
+      "citations": [
+        "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L2-10: La portada fecha la página y presenta tamaño, instituciones y participación UdeG, pero no distingue fecha de publicación, levantamiento ni actualización.",
+        "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L40-75: Calcula la aportación UdeG y concluye que los resultados permiten lecturas con peso propio, aunque no presenta estimaciones específicas UdeG ni diseño muestral que sustente esa inferencia.",
+        "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L79-88: Identifica al DEC y sus colaboradores y resume cuatro hallazgos regionales, pero no separa resultados del estudiantado y profesorado en todos los porcentajes ni explicita límites metodológicos.",
+        "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L90-97: Incrusta y enlaza el PDF completo, lo que preserva acceso a la fuente primaria local."
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_lot": "contexto-lote-03",
+      "draft_reason": "La ficha identifica autor, fecha y alcance regional; explica autoinforme y límites de selección, respuesta, ponderación y desglose institucional. Las antiguas gráficas UdeG sin fuente localizada salen del borrador activo y permanecen en rollback. El iframe que renderizaba negro se sustituye por accesos al PDF y a la página oficial.",
+      "draft_citations": [
+        "L8: Identifica publicación, colaboradores, 30,260 respuestas y 29 instituciones.",
+        "L10-L14: Limita inferencias UdeG y declara datos metodológicos no informados.",
+        "L43: Ofrece referencia corporativa y página oficial verificable."
+      ],
+      "draft_updated_at": "2026-08-24",
+      "approval_required": false,
+      "second_review": "fable-6-de-6-ajustes-reconciliados",
+      "publication_status": "sin-publicar",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-24T00:58:03-06:00",
+      "approval_scope": "lote-03-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/_index.md": {
+      "decision": "cambiar",
+      "reason": "Orienta correctamente al público docente y distingue artículos, videos, enlaces, glosario y documentos institucionales. Sin embargo, omite la rama /recursos/externas/, mientras la tarjeta de «Links relevantes» ya promete herramientas, guías y repositorios externos. Conviene resolver esa fragmentación: absorber las curadurías temáticas en /links/ o explicar y enlazar explícitamente la diferencia entre fichas individuales y curadurías comparativas.",
+      "role": "Hub principal de navegación de recursos",
+      "issue_types": [
+        "fragmentación"
+      ],
+      "citations": [
+        "content/recursos/_index.md:3-4",
+        "content/recursos/_index.md:13-21",
+        "content/recursos/_index.md:24-31",
+        "content/recursos/externas/_index.md:20-22"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/recursos/articulos/_index.md": {
+      "decision": "conservar",
+      "reason": "La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto.",
+      "role": "Índice de bibliografía comentada",
+      "issue_types": [],
+      "citations": [
+        "content/recursos/articulos/_index.md:2-4",
+        "content/recursos/articulos/_index.md:8-13",
+        "content/recursos/articulos/cormier-rhizomatic-education/index.md:31-37"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23"
+    },
+    "content/recursos/externas/_index.md": {
+      "decision": "quitar",
+      "reason": "Debe quitarse como rama autónoma, no eliminar sus dos curadurías. Su alcance —organismos, comunidades, syllabus y herramientas externas— se solapa con /recursos/links/, que ya es el destino externo anunciado desde el hub principal. Además, el índice promete cuatro bloques, pero la rama solo contiene curadurías de comunidades y syllabus. Se recomienda migrar esas piezas a /links/ o a una subsección suya, preservando alias o redirecciones para las rutas actuales.",
+      "role": "Hub paralelo de curadurías temáticas externas",
+      "issue_types": [
+        "fragmentación",
+        "duplicación_parcial",
+        "desajuste_de_inventario"
+      ],
+      "citations": [
+        "docs/editorial/rollback/2026-08-24-contexto-lote-04/content/recursos/externas/_index.md:16-39",
+        "content/recursos/links/_index.md:1-39"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_status": "retirado-en-borrador-con-alias",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "redirect_target": "/recursos/links/",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/glosario/agentes-de-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "La definición corregida en el lote 2 se conserva; el lote 02B añade relaciones con IA generativa y tutor inteligente para evitar atribuir capacidad de acción a cualquier modelo o sistema educativo.",
+      "issue_types": [
+        "relaciones-conceptuales-ausentes"
+      ],
+      "citations": [
+        "Nuevo párrafo: IA generativa produce contenido; un agente elige acciones y usa herramientas; tutor inteligente nombra una función educativa."
+      ],
+      "draft_status": "borrador-editorial-aprobado",
+      "publication_status": "sin-publicar",
+      "prior_approval": "lote-02 aprobado antes del enlace conceptual añadido en 02B",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02b.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:40:40-06:00",
+      "approval_scope": "lote-02b-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/glosario/aprendizaje-digital/index.md": {
+      "decision": "cambiar",
+      "reason": "La definición y el contraste con digitalizar un PDF son útiles, pero la expresión «verdadero aprendizaje digital» y el cierre en experiencias «hiper-personalizadas» reducen indebidamente el concepto a interactividad, datos y adaptación algorítmica. Faltan un ejemplo cotidiano, cuándo importa la distinción y relaciones más precisas con aprendizaje híbrido, diseño pedagógico y educación en línea. No es un problema de enlace roto ni de duplicación.",
+      "role": "Entrada de glosario sobre aprendizaje mediado por tecnología",
+      "issue_types": [
+        "falta_de_contexto",
+        "imprecisión_conceptual"
+      ],
+      "citations": [
+        "content/recursos/glosario/aprendizaje-digital/index.md:9-10",
+        "content/recursos/glosario/aprendizaje-digital/index.md:13",
+        "content/recursos/glosario/aprendizaje-digital/index.md:15-17"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/glosario/ingenieria-de-prompts/index.md": {
+      "decision": "cambiar",
+      "reason": "La definición básica se entiende, pero convierte contexto, rol, formato y evaluación en requisitos universales y afirma que el prompting «limita» alucinaciones y «fuerza» resultados, garantías que no puede ofrecer. También relaciona el término solo con el Observatorio, un destino demasiado general. Debe incluir un ejemplo breve, explicar cuándo basta una instrucción sencilla, distinguir prompting de contexto, recuperación y evaluación, y enlazar la guía específica para docentes.",
+      "role": "Entrada de glosario sobre diseño de instrucciones para IA generativa",
+      "issue_types": [
+        "obsolescencia",
+        "falta_de_contexto",
+        "imprecisión_conceptual"
+      ],
+      "citations": [
+        "content/recursos/glosario/ingenieria-de-prompts/index.md:9-10",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md:13-15",
+        "content/recursos/glosario/ingenieria-de-prompts/index.md:17"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/links/_index.md": {
+      "decision": "cambiar",
+      "reason": "El índice se convirtió en el único destino de recursos externos. Ahora distingue fichas individuales de curadurías temáticas, orienta la elección según la consulta y preserva la URL del hub retirado mediante alias.",
+      "role": "Hub canónico de recursos externos",
+      "issue_types": [
+        "fragmentación",
+        "duplicación_parcial",
+        "navegación"
+      ],
+      "citations": [
+        "content/recursos/links/_index.md:1-39"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/videos/_index.md": {
+      "decision": "cambiar",
+      "reason": "El índice promete videos con resumen, momentos clave y recomendación, algo que cumple la ficha de Sal Khan, pero no toda la colección: Learn Prompting es principalmente un libro y curso web, y la curaduría de tutoriales agrupa canales en lugar de reseñar un video. Esa curaduría contiene además un enlace Markdown sin destino y una instrucción textual sin URL. Conviene redefinir la sección como recursos audiovisuales y exigir destinos reproducibles, o mover los recursos no audiovisuales a /links/.",
+      "role": "Índice de recursos audiovisuales comentados",
+      "issue_types": [
+        "referencias_externas_incompletas",
+        "desalineación_de_tipo",
+        "fragmentación"
+      ],
+      "citations": [
+        "content/recursos/videos/_index.md:2-4",
+        "content/recursos/videos/_index.md:8-13",
+        "content/recursos/videos/learn-prompting-curso-completo.md:21-30",
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md:33-43"
+      ],
+      "review_source": "auditoria-paralela-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/videos/learn-prompting-curso-completo.md": {
+      "decision": "cambiar",
+      "reason": "La ficha estaba clasificada como video y afirmaba acceso completo y gratuito; el destino real es una guía web con cursos separados y condiciones que pueden variar. El borrador identifica el formato, enlaza destinos directos y propone una prueba verificable.",
+      "role": "ficha de guía web y cursos",
+      "issue_types": [
+        "desalineación_de_tipo",
+        "afirmación_de_acceso_por_verificar"
+      ],
+      "citations": [
+        "content/recursos/videos/learn-prompting-curso-completo.md:21-36 antes del lote 02: metadatos de video y descripción como libro/curso web."
+      ],
+      "review_source": "lote-contexto-02-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/videos/tutoriales-herramientas-ia-docentes.md": {
+      "decision": "cambiar",
+      "reason": "La curaduría declaraba cinco fuentes, pero dos carecían de una URL verificable y otras descripciones mezclaban sitio, canal y curso. El borrador conserva tres destinos comprobables, declara formato, idioma y límites, y retira del listado activo las referencias sin dirección.",
+      "role": "curaduría de fuentes audiovisuales",
+      "issue_types": [
+        "referencias_externas_incompletas",
+        "desalineación_de_tipo"
+      ],
+      "citations": [
+        "content/recursos/videos/tutoriales-herramientas-ia-docentes.md:33-43 antes del lote 02: enlace Markdown sin destino e instrucción textual sin URL."
+      ],
+      "review_source": "lote-contexto-02-2026-08-23",
+      "draft_lot": "2026-08-23-contexto-lote-02",
+      "draft_status": "borrador-editorial-aprobado",
+      "draft_report": "docs/editorial/lotes/2026-08-23-contexto-lote-02-piezas-breves.md",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:09:36-06:00",
+      "approval_scope": "lote-02-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/formacion-docente/diseno-inverso-cocreacion-ia/_index.md": {
+      "decision": "cambiar",
+      "reason": "Índice concurrente nuevo con función recuperable, pero anuncia doce lecciones cuando solo una está disponible y no explica qué trabajo conservará la persona al cursarlo. Se separa del lote 02B y no tiene VoBo.",
+      "issue_types": [
+        "procedencia-concurrente-nueva",
+        "recorrido-incompleto",
+        "resultado-ausente"
+      ],
+      "citations": [
+        "L15–18: promete un ciclo completo y una versión abierta del curso.",
+        "L20–28: anuncia doce lecciones, pero solo la primera está disponible.",
+        "L41–42: explica duración y mecánicas, no qué resultado conservará la persona."
+      ],
+      "draft_status": "concurrente-nueva-pendiente-de-lote",
+      "publication_status": "recibida-por-nextcloud-sin-aprobacion"
+    },
+    "content/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/index.md": {
+      "decision": "cambiar",
+      "reason": "Primera lección concurrente nueva con estructura aprovechable, pero mezcla beneficios de aprendizaje activo, híbrido e IA, formula conclusiones promocionales y cita evidencia de 2026 que requiere comprobación independiente. Se revisará fuera del lote 02B.",
+      "issue_types": [
+        "procedencia-concurrente-nueva",
+        "afirmaciones-de-evidencia-por-verificar",
+        "lenguaje-promocional"
+      ],
+      "citations": [
+        "L82–102: atribuye beneficios amplios y declara que el aprendizaje activo es la opción con mejor respaldo empírico.",
+        "L115–123: presenta personalización e inclusión como oportunidades generales sin condiciones verificables.",
+        "L173–178: incluye una meta-análisis de 2026 que requiere verificación de procedencia y alcance."
+      ],
+      "draft_status": "concurrente-nueva-pendiente-de-lote",
+      "publication_status": "recibida-por-nextcloud-sin-aprobacion"
+    },
+    "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md": {
+      "decision": "cambiar",
+      "reason": "La guía tenía una función útil, pero prometía resultados de alta calidad, presentaba seis componentes como esenciales y describía pedir razonamiento paso a paso como una obligación. El borrador 02B lo convierte en una lista flexible que parte de una tarea, material y comprobación.",
+      "issue_types": [
+        "garantia-exagerada",
+        "receta-universal",
+        "afirmacion-tecnica-imprecisa"
+      ],
+      "citations": [
+        "L27–36 anteriores: seis componentes declarados esenciales.",
+        "L61–63 anteriores: afirmaba que una frase obligaba a la IA a razonar.",
+        "Borrador 02B: distingue elementos opcionales, ejemplo revisable y comprobación posterior."
+      ],
+      "draft_status": "borrador-editorial-aprobado",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02b.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:40:40-06:00",
+      "approval_scope": "lote-02b-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/videos/sal-khan-ia-educacion.md": {
+      "decision": "cambiar",
+      "reason": "La ficha repetía una afirmación promocional en el título, recomendaba la charla sin declarar el interés de Khan Academy y usaba marcas temporales imprecisas. El borrador 02B la presenta como fuente primaria y separa visión, demostración y evidencia pendiente.",
+      "issue_types": [
+        "tono-promocional",
+        "interes-no-declarado",
+        "marcas-temporales-imprecisas"
+      ],
+      "citations": [
+        "Título anterior: “podría ser el mayor cambio educativo de la historia”.",
+        "L31–39 anteriores: describía la charla como experiencia real y contrapeso sin advertencia de fuente primaria.",
+        "Borrador 02B: identifica TED2023, la relación de Sal Khan con el producto y capítulos oficiales."
+      ],
+      "draft_status": "borrador-editorial-aprobado",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02b.json",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:40:40-06:00",
+      "approval_scope": "lote-02b-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/glosario/_index.md": {
+      "decision": "cambiar",
+      "reason": "El índice prometía explicar el origen de cada término y declaraba que el artículo largo debía prevalecer ante una contradicción. El borrador 02B limita la promesa a definición, ejemplo o contraste, nombra a quién le sirve y pide revisar fecha, fuentes y contexto.",
+      "issue_types": [
+        "promesa-no-cumplida",
+        "jerarquia-editorial-injustificada",
+        "audiencia-ambigua"
+      ],
+      "citations": [
+        "L19 anterior: prometía el origen de cada término.",
+        "L31 anterior: “gana el artículo”.",
+        "Borrador 02B: uso en tres pasos y protocolo para contradicciones."
+      ],
+      "draft_status": "borrador-editorial-aprobado",
+      "publication_status": "sin-publicar",
+      "draft_review": "docs/editorial/revisiones/2026-08-23-claude-fable-contexto-lote-02b.json",
+      "reconciliation": "Se añadió ganancia cognitiva al eje Pedagogía para reconciliar 20 entradas declaradas con 20 enumeradas.",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T22:40:40-06:00",
+      "approval_scope": "lote-02b-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/glosario/ganancia-cognitiva/index.md": {
+      "decision": "cambiar",
+      "reason": "La definición era recuperable, pero presentaba la ganancia cognitiva como efecto de una interacción bien orientada, usaba lenguaje abstracto y no ofrecía una situación ni una forma de comprobar el cambio en el razonamiento. El borrador 02C añade un ejemplo, acciones, comprobación y límites de los dos estudios.",
+      "issue_types": [
+        "lenguaje-abstracto",
+        "afirmacion-causal-excesiva",
+        "situacion-ausente",
+        "comprobacion-ausente",
+        "limites-de-evidencia-ausentes"
+      ],
+      "citations": [
+        "L54–56: define la mejora como observable, la distingue de una respuesta rápida y aclara que no es automática.",
+        "L60–70: ofrece un borrador inicial, contraste, verificación y reescritura como acciones observables.",
+        "L72–81: exige explicar y aplicar el cambio, no solo mejorar la redacción.",
+        "L83–89: limita la inferencia de los dos estudios y presenta el término como síntesis editorial."
+      ],
+      "draft_status": "borrador-editorial-aprobado",
+      "lot": "contexto-02c",
+      "second_read": {
+        "reviewer": "Claude Fable",
+        "coverage": "6/6",
+        "editorial": "aprobar",
+        "technical": "aprobar",
+        "mandatory_changes": 0,
+        "blocking_issues": 0
+      },
+      "source_reconciliation": "Se verificó la observación sobre carga cognitiva con el DOI y ERIC EJ1469066; el texto conserva el contraste completo y no infiere la dirección de la medida.",
+      "approved_by": "Rubén",
+      "approved_at": "2026-08-23T23:48:02-06:00",
+      "approval_scope": "lote-02c-como-borrador; sin autorización de publicación ni retiro de rutas"
+    },
+    "content/recursos/links/comunidades-practica-docente-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "La función de localizar conversaciones profesionales se conserva, pero la página dejó de llamar comunidades activas a seis destinos heterogéneos. Ahora diferencia redes, programas, catálogos, seminarios, principios e informes y declara las condiciones de participación.",
+      "role": "Curaduría temática de redes y puntos de entrada",
+      "issue_types": [
+        "atribución_imprecisa",
+        "tipos_de_fuente_mezclados",
+        "vigencia"
+      ],
+      "citations": [
+        "content/recursos/links/comunidades-practica-docente-ia/index.md:21-94"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/links/syllabus-internacionales-ia/index.md": {
+      "decision": "cambiar",
+      "reason": "La página conserva cinco fuentes útiles, pero ya no las presenta como cinco syllabus completos ni atribuye efectos sin respaldo. Distingue orientaciones, políticas de curso, informe y revisión secundaria, y aclara que la propuesta local no es política oficial de la UdeG.",
+      "role": "Curaduría temática de políticas de IA para syllabus",
+      "issue_types": [
+        "alcance_sobredimensionado",
+        "atribución_imprecisa",
+        "afirmación_sin_fuente"
+      ],
+      "citations": [
+        "content/recursos/links/syllabus-internacionales-ia/index.md:21-105"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/links/ai-for-education-toolkit/index.md": {
+      "decision": "cambiar",
+      "reason": "El título anterior prometía un toolkit específico, pero la URL abre el portal temático general de UNESCO. La ficha ahora identifica el tipo real de recurso, explica cómo usarlo y advierte que el portal no sustituye la cita de una publicación concreta.",
+      "role": "Ficha individual de portal temático institucional",
+      "issue_types": [
+        "título_inexacto",
+        "tipo_de_fuente_impreciso",
+        "imagen_faltante"
+      ],
+      "citations": [
+        "content/recursos/links/ai-for-education-toolkit/index.md:1-41"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/links/ocde-ia-educacion/index.md": {
+      "decision": "conservar",
+      "reason": "La ficha identifica un informe concreto de la OCDE y conserva su función. Se corrigió el dato TALIS: la fuente primaria informa 37 % de docentes de secundaria baja que usaron IA para su trabajo en 2024, no 41 % de todo el profesorado en su enseñanza; la página declara ahora ese límite.",
+      "role": "Ficha individual de informe institucional",
+      "issue_types": [],
+      "citations": [
+        "content/recursos/links/ocde-ia-educacion/index.md:1-40"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    },
+    "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md": {
+      "decision": "conservar",
+      "reason": "La ficha identifica el marco UNESCO de 2024 y conserva su función. Se sustituyó “la primera referencia global”, que la fuente no sostiene, por “una referencia global”, formulación usada por UNESCO.",
+      "role": "Ficha individual de marco institucional",
+      "issue_types": [],
+      "citations": [
+        "content/recursos/links/unesco-marco-competencias-docentes-ia/index.md:1-40"
+      ],
+      "review_source": "contexto-lote-04-2026-08-24",
+      "draft_status": "borrador-revisado-pendiente-vobo",
+      "draft_updated_at": "2026-08-24T01:00:00-06:00",
+      "production_status": "sin-publicar",
+      "approval_scope": "lote-04-como-borrador; pendiente de VoBo; sin publicación ni retirada en producción"
+    }
+  }
+}

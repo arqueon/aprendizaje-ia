@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "lot": "contexto-lote-06",
+  "generated_at": "2026-08-24T04:16:39-06:00",
+  "status": "ready-for-vobo",
+  "production_changed": false,
+  "scope": {
+    "sources": 6,
+    "dependencies": 5,
+    "question": "classify six pre-existing pages by editorial function and evidence"
+  },
+  "source_files": [
+    {
+      "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
+      "sha256": "38b1e3b64c6bbdadec86e506a2d48daf4f934c02e12afef44f0308142127e029"
+    },
+    {
+      "path": "content/recursos/glosario/modelo-samr/index.md",
+      "sha256": "4e744ce3fceb971a76679139e501f9191731502c8d11c90fdb60781b01371ee2"
+    },
+    {
+      "path": "content/about.md",
+      "sha256": "91d94ddd37594ac5f1f152c01ceadccd5716bb5a0a6a8e9c4151d22d8ee795aa"
+    },
+    {
+      "path": "content/blog/experiencias-docentes-ia-aula/index.md",
+      "sha256": "33e2fbf712cd7842db879318f2d14968761f21e7bcdcebace1026cbd25d32edb"
+    },
+    {
+      "path": "content/laboratorio/experiencias/_index.md",
+      "sha256": "d292ab6b38c51c3dd844863f68a75014984800e3531b38c87f370af3f8e54812"
+    },
+    {
+      "path": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
+      "sha256": "8cf6a028633d41c8a412ba739c63144f962fa1b85c3b5947cbaa7e50d714c7c8"
+    }
+  ],
+  "dependency_files": [
+    {
+      "path": "content/_index.md",
+      "sha256": "7a01a2e6e0d09c1aaf69e54f3c1c982343e522761e18d4a6711bf17337387c21"
+    },
+    {
+      "path": "content/ia-educacion/rutas/_index.md",
+      "sha256": "61bf5d7760109d2cb1653612fa8ee83e75eacbee0e0110d322922d228a617767"
+    },
+    {
+      "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
+      "sha256": "96976b5f7e17e42b2cb52f82a80508da7733910536ea09f92a857bb320f9475e"
+    },
+    {
+      "path": "content/licencia/index.md",
+      "sha256": "dfc458ee1dc184c7ff56acce46157aae3da32194a9b77ea0ebf5514a3adc56da"
+    },
+    {
+      "path": "content/laboratorio/_index.md",
+      "sha256": "a34c3745c45dbbab7144c66228a571b4f60376095e955337dd90175306f5964a"
+    }
+  ],
+  "proposed_decisions": {
+    "conservar": [
+      "content/ia-educacion/rutas/coordinacion-academica/index.md"
+    ],
+    "cambiar": [
+      "content/recursos/glosario/modelo-samr/index.md",
+      "content/about.md",
+      "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md"
+    ],
+    "quitar_cuarentena": [
+      "content/blog/experiencias-docentes-ia-aula/index.md",
+      "content/laboratorio/experiencias/_index.md"
+    ]
+  },
+  "route_plan": {
+    "alias_target": "/laboratorio/",
+    "aliases": [
+      "/blog/experiencias-docentes-ia-aula/",
+      "/laboratorio/experiencias/"
+    ],
+    "dependency_edit": "content/laboratorio/_index.md removes the empty experiences card and unsupported documented-experiences promise"
+  },
+  "continuity": {
+    "samr": "conceptual limits already present in the unpublished local lot 02A draft; lot 06 changes references only"
+  },
+  "artifacts": {
+    "report": {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-06-seis-fuentes-riesgo.md",
+      "sha256": "e868a559f4083009c669221eb8cb81a66e8b47c0834d63413b67913afa56e11a"
+    },
+    "citation_ledger": {
+      "path": "docs/editorial/lotes/2026-08-24-contexto-lote-06-citations.json",
+      "sha256": "3b933bffe7157d93034a71c497b28ae192f9722f195efc1f0850defa57643b46"
+    },
+    "initial_review": {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-06.json",
+      "sha256": "c6b2bbe965121aa035078db3e1b7755f642a8d6cff416c4250476bd3bad3792e",
+      "verdict": "adjust",
+      "blocking_issues": 2,
+      "required_changes": 6
+    },
+    "reconciliation_review": {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-06-reconciliacion.json",
+      "sha256": "7a514b9027c75dd3e332e93ffbb34f38fae026c031c5e76a3f96f0c4cbe25e23",
+      "verdict": "adjust",
+      "checks_passed": 7,
+      "checks_total": 8,
+      "blocking_issues": 1,
+      "required_changes": 4
+    },
+    "final_review": {
+      "path": "docs/editorial/revisiones/2026-08-24-claude-fable-contexto-lote-06-final.json",
+      "sha256": "34bd27d1a8a5e989d21a0a3e83779300d4c965df1fd690b921a1b47ffda8fa6d",
+      "verdict": "approve",
+      "checks_passed": 4,
+      "checks_total": 4,
+      "blocking_issues": 0,
+      "required_changes": 0
+    }
+  },
+  "gates": {
+    "source_and_dependency_hashes": "verified-local-11-of-11",
+    "citations": "evidence-ok with expected warning: registered live SAMR source [1] is uncited because the server refused connections; archived source [8] carries the evidence",
+    "source_edits_applied": false,
+    "publication_authorized": false,
+    "independent_review": "approve-final-4-of-4"
+  }
+}

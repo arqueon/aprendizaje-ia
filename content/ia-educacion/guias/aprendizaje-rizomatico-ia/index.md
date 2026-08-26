@@ -85,12 +85,14 @@ Reconocer estas condiciones evita aplicar la lógica donde produce más confusi�
 
 ## Lecturas relacionadas
 
-El [post sobre el rizoma digital](/blog/rizoma-digital-aprender-sin-mapa/) ofrece la versión ensayística del marco; la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) sostiene la lectura deleuziana; la [guía sobre aprendizaje activo con IA](/ia-educacion/guias/aprendizaje-activo-con-ia/) cubre alternativas más estructuradas.
+El [post sobre el rizoma digital](/blog/rizoma-digital-aprender-sin-mapa/) ofrece la versión ensayística del marco; la [guía sobre la co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) muestra en un caso cómo conservar la dirección del trabajo; la [guía sobre aprendizaje activo con IA](/ia-educacion/guias/aprendizaje-activo-con-ia/) cubre alternativas más estructuradas.
 
-## Referencias
+{{< referencias >}}
 
 Cormier, D. (2008). Rhizomatic education: Community as curriculum. *Innovate: Journal of Online Education*, 4(5), 1–6. https://www.learntechlib.org/p/104239/
 
 Deleuze, G., & Guattari, F. (1987). *A thousand plateaus: Capitalism and schizophrenia* (B. Massumi, Trans.). University of Minnesota Press. (Trabajo original publicado en 1980).
 
 Mackness, J., Bell, F., & Funes, M. (2016). The rhizome: A problematic metaphor for teaching and learning in a MOOC. *Australasian Journal of Educational Technology*, 32(1), 78–91. https://doi.org/10.14742/ajet.2486
+
+{{< /referencias >}}

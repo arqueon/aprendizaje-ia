@@ -74,10 +74,12 @@ Las cinco prácticas no son neutrales. Tres tensiones aparecen con frecuencia:
 
 El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) sostiene los principios; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) detallan las decisiones operativas; la [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) opera el anexo de uso. La entrada de glosario sobre [integridad académica](/recursos/glosario/integridad-academica/) sintetiza la norma de fondo.
 
-## Referencias
+{{< referencias >}}
 
 Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 
 UNESCO. (2021). *Recommendation on the ethics of artificial intelligence*. UNESCO. https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence
 
 UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
+
+{{< /referencias >}}

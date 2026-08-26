@@ -1,0 +1,103 @@
+{
+  "is_error": false,
+  "duration_api_ms": 113693,
+  "num_turns": 9,
+  "stop_reason": "end_turn",
+  "session_id": "2b3850c7-fb54-4011-9acd-c35bcdc07957",
+  "total_cost_usd": 1.915047,
+  "usage": {
+    "input_tokens": 10,
+    "cache_creation_input_tokens": 66744,
+    "cache_read_input_tokens": 156332,
+    "output_tokens": 8443,
+    "output_tokens_details": {
+      "thinking_tokens": 4614
+    },
+    "server_tool_use": {
+      "web_search_requests": 0,
+      "web_fetch_requests": 0
+    },
+    "service_tier": "standard",
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 66744,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "inference_geo": "not_available",
+    "iterations": [
+      {
+        "input_tokens": 2,
+        "output_tokens": 4415,
+        "cache_read_input_tokens": 48841,
+        "cache_creation_input_tokens": 4841,
+        "cache_creation": {
+          "ephemeral_5m_input_tokens": 0,
+          "ephemeral_1h_input_tokens": 4841
+        },
+        "type": "message"
+      }
+    ],
+    "speed": "standard"
+  },
+  "modelUsage": {
+    "claude-haiku-4-5-20251001": {
+      "inputTokens": 1475,
+      "outputTokens": 22,
+      "cacheReadInputTokens": 0,
+      "cacheCreationInputTokens": 0,
+      "webSearchRequests": 0,
+      "costUSD": 0.001585,
+      "contextWindow": 200000,
+      "maxOutputTokens": 32000,
+      "canonicalModel": "claude-haiku-4-5",
+      "provider": "firstParty"
+    },
+    "claude-fable-5": {
+      "inputTokens": 10,
+      "outputTokens": 8443,
+      "cacheReadInputTokens": 156332,
+      "cacheCreationInputTokens": 66744,
+      "webSearchRequests": 0,
+      "costUSD": 1.913462,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 64000,
+      "canonicalModel": "claude-fable-5",
+      "provider": "firstParty"
+    }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "{\n  \"summary\": {\n    \"expected\": 4,\n    \"received\": 4,\n    \"approve\": 3,\n    \"adjust\": 1,\n    \"block\": 0,\n    \"ready_for_human_review\": false\n  },\n  \"pages\": [\n    {\n      \"path\": \"content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md\",\n      \"decision\": \"aprobar-borrador\",\n      \"function_clear\": true,\n      \"situation_clear\": true,\n      \"starting_material_clear\": true,\n      \"actions_clear\": true,\n      \"result_clear\": true,\n      \"final_check_clear\": true,\n      \"mandatory_changes\": [],\n      \"non_blocking_notes\": [\n        \"La frase «Estos elementos son una lista de comprobación, no una plantilla obligatoria» y el cierre «Elige solo los elementos que la tarea necesita» eliminan de forma efectiva la promesa de que seis componentes producen siempre prompts de alta calidad; no queda rastro de la afirmación sobre que pedir «paso a paso» obliga al modelo a razonar.\",\n        \"El ejemplo del ciclo del agua explica por qué la segunda versión es mejor («No es mejor por ser larga. Es más fácil de revisar…»), lo que refuerza el criterio del lote sin presentar la estructura como universal.\",\n        \"La guía no enlaza a la entrada del glosario «ingeniería de prompts» que ya existe en content/recursos/glosario/ingenieria-de-prompts/; añadir ese enlace interno sería coherente con el resto del sitio, pero no es exigible en este lote.\"\n      ],\n      \"reason\": \"Cumple los objetivos del lote: parte de una situación docente real, identifica material de partida, acciones, resultado («una versión revisada que puedes explicar, adaptar y comprobar») y comprobación final; los seis elementos se presentan como opcionales y no aparece ninguna de las palabras vetadas.\"\n    },\n    {\n      \"path\": \"content/recursos/videos/sal-khan-ia-educacion.md\",\n      \"decision\": \"aprobar-borrador\",\n      \"function_clear\": true,\n      \"situation_clear\": true,\n      \"starting_material_clear\": true,\n      \"actions_clear\": true,\n      \"result_clear\": true,\n      \"final_check_clear\": true,\n      \"mandatory_changes\": [],\n      \"non_blocking_notes\": [\n        \"El atributo label del shortcode youtubeLite conserva el título original en inglés «How AI could save (not destroy) education»; es admisible porque identifica la fuente tal como se publicó y el título de la ficha ya es descriptivo, pero conviene confirmarlo en la revisión humana.\",\n        \"La palabra «producto» aparece dos veces («muestra el producto de la organización que él dirige», «la demostración del producto»); aquí se usa en sentido literal comercial, no como jerga de entregable, y de hecho sostiene la advertencia de interés, por lo que no infringe el criterio léxico.\",\n        \"Las marcas de tiempo (0:57, 4:24, 5:00, 8:42) se declaran tomadas de los capítulos publicados por TED en YouTube; sin acceso web esta lectura no puede reverificarlas, se aceptan sobre la base del expediente del lote.\"\n      ],\n      \"reason\": \"El título ya no repite la afirmación promocional, la charla se declara explícitamente «fuente primaria» que «no es una evaluación independiente», y la ficha separa con claridad lo que Khan afirma, lo que la demostración permite observar y la información que falta; la función de ficha de video se conserva con acciones antes, durante y después del visionado y una comprobación final verificable.\"\n    },\n    {\n      \"path\": \"content/recursos/glosario/_index.md\",\n      \"decision\": \"ajustar-borrador\",\n      \"function_clear\": true,\n      \"situation_clear\": true,\n      \"starting_material_clear\": true,\n      \"actions_clear\": true,\n      \"result_clear\": true,\n      \"final_check_clear\": true,\n      \"mandatory_changes\": [\n        {\n          \"quote\": \"**Pedagogía:** aprendizaje activo, aprendizaje basado en problemas, aula invertida, taxonomía de Bloom, diseño inverso, evaluación auténtica, pensamiento crítico, descarga cognitiva y aprendizaje transformativo.\",\n          \"problem\": \"El índice anuncia «Las veinte entradas se agrupan en tres ejes», pero la enumeración solo suma diecinueve: falta «ganancia cognitiva», que existe como entrada publicable en content/recursos/glosario/ganancia-cognitiva/ con areas: pedagogia. El conteo y la lista se contradicen en la misma sección.\",\n          \"replacement\": \"**Pedagogía:** aprendizaje activo, aprendizaje basado en problemas, aula invertida, taxonomía de Bloom, diseño inverso, evaluación auténtica, pensamiento crítico, descarga cognitiva, ganancia cognitiva y aprendizaje transformativo.\"\n        }\n      ],\n      \"non_blocking_notes\": [\n        \"La promesa quedó bien acotada: «Cada entrada ofrece una definición breve según el uso que recibe en el sitio. Algunas añaden un ejemplo, una diferencia útil o una lectura relacionada» ya no compromete el origen de cada término.\",\n        \"El párrafo sobre contradicciones («no elijas automáticamente el texto más largo. Revisa la fecha, las fuentes y el contexto») resuelve correctamente el objetivo de no declarar ganador al artículo largo.\"\n      ],\n      \"reason\": \"Cumple todos los objetivos editoriales del lote, pero contiene una contradicción factual interna entre el conteo de veinte entradas y la enumeración de diecinueve; hasta corregirla, el índice describe mal su propio contenido.\"\n    },\n    {\n      \"path\": \"content/recursos/glosario/agentes-de-ia/index.md\",\n      \"decision\": \"aprobar-borrador\",\n      \"function_clear\": true,\n      \"situation_clear\": true,\n      \"starting_material_clear\": true,\n      \"actions_clear\": true,\n      \"result_clear\": true,\n      \"final_check_clear\": true,\n      \"mandatory_changes\": [],\n      \"non_blocking_notes\": [\n        \"Los tres enlaces internos (/recursos/glosario/ia-generativa/, /recursos/glosario/tutor-inteligente/ y /ia-educacion/guias/privacidad-datos-ia/) apuntan a page bundles que existen en el árbol de contenido; verificado con el listado de rutas, sin crear rutas nuevas.\"\n      ],\n      \"reason\": \"La entrada distingue con precisión los tres conceptos mediante enlaces internos existentes («La IA generativa produce respuestas o contenido; un agente añade la posibilidad de elegir acciones…»), matiza la autonomía («El término no implica autonomía total») y ofrece una comprobación práctica antes de autorizar permisos; conserva la función de definición.\"\n    }\n  ],\n  \"cross_page_findings\": [\n    \"Las cuatro fuentes aplican de forma consistente la separación entre afirmación, demostración y comprobación: la guía la pide al revisar respuestas, la ficha la exige al ver la charla y el glosario la aplica ante contradicciones; no hay mensajes cruzados que se desmientan entre sí.\",\n    \"El índice del glosario enumera entradas a mano mientras el número «20» se conserva por contrato con el inventario automático; cualquier alta o baja futura de entradas volverá a desincronizar conteo y enumeración si no se revisan juntos.\"\n  ],\n  \"out_of_scope_findings\": [\n    \"La entrada content/recursos/glosario/ganancia-cognitiva/index.md (fuera del lote) contrasta con la promesa del índice de «definición breve»: usa lenguaje denso («desplazamientos», «dirección del proceso», «producto») y un bloque de metadatos de ecosistema extenso; revisarla en un lote propio, no en el 02B.\",\n    \"Las dos páginas concurrentes bajo content/formacion-docente/diseno-inverso-cocreacion-ia/ quedan sin juzgar conforme a la instrucción del lote; ya están registradas en el expediente con decisión «cambiar» y sin VoBo.\"\n  ]\n}",
+  "ttft_ms": 2644,
+  "ttft_stream_ms": 1658,
+  "time_to_request_ms": 25,
+  "type": "result",
+  "duration_ms": 112675,
+  "uuid": "c26906bd-a6f9-475b-b8e5-7258f808d739",
+  "_reconciliation": {
+    "date": "2026-08-23",
+    "original_summary": {
+      "expected": 4,
+      "received": 4,
+      "approve": 3,
+      "adjust": 1,
+      "block": 0,
+      "ready_for_human_review": false
+    },
+    "corrected_path": "content/recursos/glosario/_index.md",
+    "mandatory_change_applied": "Se añadió “ganancia cognitiva” al eje Pedagogía; la enumeración ahora suma las 20 entradas declaradas.",
+    "test_added": "La compuerta focal exige que el índice enumere ganancia cognitiva.",
+    "final_test": {
+      "checks": 12,
+      "failures": 0
+    },
+    "final_status": "ready_for_human_review",
+    "out_of_scope": [
+      "Revisar la entrada ganancia-cognitiva por lenguaje denso en un lote posterior.",
+      "Evitar a futuro que el conteo y la enumeración manual del glosario se desincronicen."
+    ]
+  }
+}

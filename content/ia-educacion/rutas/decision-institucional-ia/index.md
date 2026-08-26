@@ -316,8 +316,8 @@ información faltante y responsables para preparar una decisión competente.
 ## Continúa según la decisión que necesitas preparar
 
 {{< cards >}}
-  {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Organizar pilotos académicos" icon="people-group" color="#18223c" description="Convierte el marco común en acuerdos, acompañamiento y evidencia dentro de programas, academias y SEMS." >}}
-  {{< card link="/ia-educacion/guias/integracion-curricular-ia/" title="Mapear el impacto curricular" icon="table-cells" color="#b12028" description="Relaciona perfil de egreso, competencias, asignaturas y evaluaciones antes de escalar." >}}
-  {{< card link="/ia-educacion/guias/lineamientos-eticos-ia/" title="Preparar salvaguardas" icon="scale-balanced" color="#565f75" description="Traduce transparencia, privacidad, equidad y revisión a decisiones operativas." >}}
-  {{< card link="/ia-educacion/tendencias/politicas-institucionales-universidades/" title="Comparar marcos institucionales" icon="landmark" color="#687653" description="Revisa patrones de gobernanza y los límites de una política uniforme." >}}
+  {{< card link="/ia-educacion/rutas/coordinacion-academica/" title="Organizar pilotos académicos" icon="people-group" description="Convierte el marco común en acuerdos, acompañamiento y evidencia dentro de programas, academias y SEMS." >}}
+  {{< card link="/ia-educacion/guias/integracion-curricular-ia/" title="Mapear el impacto curricular" icon="table-cells" description="Relaciona perfil de egreso, competencias, asignaturas y evaluaciones antes de escalar." >}}
+  {{< card link="/ia-educacion/guias/lineamientos-eticos-ia/" title="Preparar salvaguardas" icon="scale-balanced" description="Traduce transparencia, privacidad, equidad y revisión a decisiones operativas." >}}
+  {{< card link="/ia-educacion/tendencias/politicas-institucionales-universidades/" title="Comparar marcos institucionales" icon="landmark" description="Revisa patrones de gobernanza y los límites de una política uniforme." >}}
 {{< /cards >}}

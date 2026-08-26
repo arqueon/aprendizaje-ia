@@ -114,7 +114,7 @@ Un protocolo operativo para integrar el tratamiento de sesgos en una asignatura 
 
 Los sesgos algorítmicos son un problema estructural que no se corrige desde el aula. Pero el aula sí puede decidir si los reproduce silenciosamente o los convierte en objeto de aprendizaje. Selwyn (2022) advierte que la adopción acrítica de IA en educación tiende a reforzar desigualdades existentes antes que a corregirlas; esa advertencia aplica aquí. La diferencia entre una universidad que integra IA con rigor y una que la adopta por moda se mide, entre otros criterios, por cómo trata esta distinción. Un egresado que sabe detectar, documentar y discutir el sesgo de un modelo está mejor equipado para la vida profesional que uno que usa la herramienta confiadamente.
 
-## Referencias
+{{< referencias >}}
 
 - Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610–623. https://doi.org/10.1145/3442188.3445922
 - Birhane, A. (2021). Algorithmic injustice: A relational ethics approach. *Patterns*, 2(2), 100205. https://doi.org/10.1016/j.patter.2021.100205
@@ -126,3 +126,5 @@ Los sesgos algorítmicos son un problema estructural que no se corrige desde el 
 - Selwyn, N. (2022). The future of AI and education: Some cautionary notes. *European Journal of Education*, 57(4), 620–631. https://doi.org/10.1111/ejed.12532
 - UNESCO. (2023). *Guidance for generative AI in education and research*. United Nations Educational, Scientific and Cultural Organization. https://doi.org/10.54675/EWZM9535
 - World Bank. (2024). *Unlocking the potential of generative AI in education: Opportunities, risks, and policy priorities*. World Bank Group. https://documents1.worldbank.org/curated/en/099734306182493324/pdf/IDU152823b13109c514ebd19c241a289470b6902.pdf
+
+{{< /referencias >}}

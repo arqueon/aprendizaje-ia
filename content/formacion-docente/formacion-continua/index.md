@@ -3,7 +3,7 @@ title: "Formación continua"
 date: 2026-03-17
 description: "Cursos, talleres, rutas de aprendizaje y programas de actualización docente para el aprendizaje digital y la integración de IA."
 summary: "La formación docente como proceso, no como evento: oferta UDGplus, recursos externos seleccionados y rutas para sostener la actualización."
-weight: 2
+weight: 17
 showHero: true
 showBreadcrumbs: true
 showSummary: true
@@ -32,7 +32,7 @@ La Universidad de Guadalajara mantiene oferta de formación docente que articula
 
 ## Recursos externos seleccionados
 
-Cuando la oferta interna no cubre un tema o un nivel de profundidad, vale la pena recurrir a [recursos externos seleccionados con criterio pedagógico](/recursos/externas/), particularmente los marcos de UNESCO y OCDE para integración de IA en educación.
+Cuando la oferta interna no cubre un tema o un nivel de profundidad, vale la pena consultar los [recursos externos seleccionados](/recursos/links/), en particular los marcos de UNESCO y los informes de la OCDE sobre IA y educación.
 
 ## Cómo sostener la práctica
 

@@ -153,7 +153,8 @@ requieran recolección directa de datos.
 - Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método específico que puede formar parte del diseño.
 - Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — etapa de comunicación del informe.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
-y la rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

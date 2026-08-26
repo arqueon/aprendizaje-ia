@@ -4,6 +4,7 @@ date: 2026-05-11
 draft: false
 description: "Cómo conducir una investigación aplicada con apoyo formativo de IAG, evaluando la pertinencia de la modalidad, el estado del arte, los supuestos del contexto y los riesgos de transferencia."
 summary: "Investigación aplicada con IAG: modalidades (I+D, transferencia, investigación-acción), brechas técnicas en el estado del arte, supuestos sobre el contexto y riesgos de transferencia. Progresión de prompts por nivel Bloom y rúbrica de proceso."
+featured_alt: "Un prototipo cruza del laboratorio hacia un contexto productivo mientras las muestras regresan para verificar sus supuestos."
 tags: ["producto-aprendizaje", "bloom-5", "rubrica-iag", "investigación", "ingeniería", "investigación-aplicada", "transferencia"]
 categories: ["producto-aprendizaje"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -142,7 +143,8 @@ tesis aplicadas.
 - Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — versión empírica social.
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — encuadre analítico cercano.
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Marco UdeG (`Guia_IAG_Educacion_Superior_FINAL`) + redacción de prompts
-nivelados a Bloom específicamente para este producto.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

@@ -1,0 +1,126 @@
+{
+  "pages": 12,
+  "failures": [],
+  "results": [
+    {
+      "name": "formacion-docente",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Formación docente",
+      "textLength": 5632,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "aprendizaje-activo",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Qué hace activa una experiencia de aprendizaje",
+      "textLength": 6306,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "samr-icap",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Dos preguntas distintas sobre una misma actividad",
+      "textLength": 7563,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "bloom-diseno-inverso",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Partir de lo que quieres observar",
+      "textLength": 6251,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-retroalimentacion",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Evaluación y retroalimentación en el aprendizaje activo",
+      "textLength": 11014,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "taller-backward",
+      "viewport": "desktop",
+      "status": 200,
+      "heading": "Taller: Diseño de actividades con IA (backward design)",
+      "textLength": 13011,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "formacion-docente",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Formación docente",
+      "textLength": 5632,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "aprendizaje-activo",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Qué hace activa una experiencia de aprendizaje",
+      "textLength": 6081,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "samr-icap",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Dos preguntas distintas sobre una misma actividad",
+      "textLength": 7332,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "bloom-diseno-inverso",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Partir de lo que quieres observar",
+      "textLength": 6048,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "evaluacion-retroalimentacion",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Evaluación y retroalimentación en el aprendizaje activo",
+      "textLength": 10569,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    },
+    {
+      "name": "taller-backward",
+      "viewport": "mobile",
+      "status": 200,
+      "heading": "Taller: Diseño de actividades con IA (backward design)",
+      "textLength": 12784,
+      "overflow": false,
+      "consoleErrors": [],
+      "axeViolations": 0
+    }
+  ]
+}

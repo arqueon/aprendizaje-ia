@@ -92,9 +92,9 @@ Evaluar el proceso **no significa dejar de evaluar el ensayo final**. Significa 
 ## Elige tu ruta
 
 {{< cards >}}
-  {{< card link="#ruta-estudiante" title="Soy estudiante" icon="pen-nib" color="#34508c" description="Sigue las siete etapas, conserva las evidencias mínimas y decide qué hacer con cada sugerencia de la IA." >}}
-  {{< card link="#ruta-docente" title="Soy docente" icon="chalkboard-user" color="#565f75" description="Define la política de uso, distribuye los puntos de control y evalúa proceso y producto con criterios distintos." >}}
-  {{< card link="#la-ruta-completa" title="Ver la ruta completa" icon="route" color="#34508c" description="Recorre el proceso común: preparar, escribir, interrogar, revisar y defender." >}}
+  {{< card link="#ruta-estudiante" title="Soy estudiante" icon="pen-nib" description="Sigue las siete etapas, conserva las evidencias mínimas y decide qué hacer con cada sugerencia de la IA." >}}
+  {{< card link="#ruta-docente" title="Soy docente" icon="chalkboard-user" description="Define la política de uso, distribuye los puntos de control y evalúa proceso y producto con criterios distintos." >}}
+  {{< card link="#la-ruta-completa" title="Ver la ruta completa" icon="route" description="Recorre el proceso común: preparar, escribir, interrogar, revisar y defender." >}}
 {{< /cards >}}
 
 ## La ruta completa
@@ -131,9 +131,9 @@ flowchart LR
 La secuencia desarrolla tres literacidades de manera progresiva:
 
 {{< cards >}}
-  {{< card link="/formacion-docente/alfabetizacion-operativa/" title="Operativa" icon="keyboard" color="#34508c" description="Encuadrar una tarea, dar contexto y formular restricciones útiles." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Crítica" icon="magnifying-glass" color="#914411" description="Verificar fuentes, detectar errores y discutir las respuestas del modelo." >}}
-  {{< card link="/formacion-docente/alfabetizacion-co-creacion/" title="Co-creación y autoría" icon="fingerprint" color="#34508c" description="Decidir, transformar, documentar y conservar una voz reconocible." >}}
+  {{< card link="/formacion-docente/alfabetizacion-operativa/" title="Operativa" icon="keyboard" description="Encuadrar una tarea, dar contexto y formular restricciones útiles." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Crítica" icon="magnifying-glass" description="Verificar fuentes, detectar errores y discutir las respuestas del modelo." >}}
+  {{< card link="/formacion-docente/alfabetizacion-co-creacion/" title="Co-creación y autoría" icon="fingerprint" description="Decidir, transformar, documentar y conservar una voz reconocible." >}}
 {{< /cards >}}
 
 ## Siete etapas para construir el ensayo
@@ -435,10 +435,10 @@ Todos parten de trabajo previo del estudiante y contienen una restricción expl�
 ## Riesgos y salvaguardas
 
 {{< cards >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/" title="Sustitución de autoría" icon="user-lock" color="#991c25" description="Se previene con un borrador previo, decisiones visibles y defensa del razonamiento." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Fuentes inexistentes" icon="link-slash" color="#914411" description="Toda referencia se localiza y comprueba fuera de la respuesta del modelo." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/" title="Deriva del criterio" icon="compass" color="#34508c" description="La tesis nace del estudiante y cada sugerencia puede aceptarse, adaptarse o rechazarse." >}}
-  {{< card link="/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/" title="Pérdida de voz" icon="fingerprint" color="#565f75" description="La comparación entre versiones permite detectar una edición que uniforma el estilo." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/" title="Sustitución de autoría" icon="user-lock" description="Se previene con un borrador previo, decisiones visibles y defensa del razonamiento." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/" title="Fuentes inexistentes" icon="link-slash" description="Toda referencia se localiza y comprueba fuera de la respuesta del modelo." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/" title="Deriva del criterio" icon="compass" description="La tesis nace del estudiante y cada sugerencia puede aceptarse, adaptarse o rechazarse." >}}
+  {{< card link="/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/" title="Pérdida de voz" icon="fingerprint" description="La comparación entre versiones permite detectar una edición que uniforma el estilo." >}}
 {{< /cards >}}
 
 ## Preguntas frecuentes del docente
@@ -495,10 +495,10 @@ La conversación parte del portafolio: sin versiones tempranas ni decisiones doc
 
 - [Evaluación formativa con IA: ciclos de retroalimentación iterativa]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}).
 - [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
-- [Debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}).
+- Actividad propuesta: [debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}).
 - [Transparencia algorítmica en el aula]({{< ref "/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula" >}}).
 
-## Referencias
+{{< referencias >}}
 
 - Bearman, M., Fawns, T., & Dawson, P. (2025). Authentic assessment: from panacea to criticality. *Assessment & Evaluation in Higher Education*, *50*(3), 396–408. <https://doi.org/10.1080/02602938.2024.2404634>
 - Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, *5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
@@ -508,3 +508,5 @@ La conversación parte del portafolio: sin versiones tempranas ni decisiones doc
 - Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, *77*(1), 81–112. <https://doi.org/10.3102/003465430298487>
 - Nicol, D. J., & Macfarlane-Dick, D. (2006). Formative assessment and self-regulated learning. *Studies in Higher Education*, *31*(2), 199–218. <https://doi.org/10.1080/03075070600572090>
 - UNESCO — Holmes, W., & Miao, F. (2023). *Guidance for generative AI in education and research*. <https://unesdoc.unesco.org/ark:/48223/pf0000386693>
+
+{{< /referencias >}}

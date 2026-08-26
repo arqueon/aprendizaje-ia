@@ -2,8 +2,8 @@
 title: "Ingeniería de prompts para docentes"
 date: 2026-03-17
 draft: false
-description: "Guía práctica para diseñar instrucciones efectivas que conviertan a la IA en un aliado pedagógico."
-summary: "Aprende a estructurar tus peticiones a la IA integrando los seis componentes clave para obtener resultados de alta calidad en el diseño de tus clases."
+description: "Guía para dar a una IA una tarea docente, el material necesario y una forma concreta de revisar la respuesta."
+summary: "Parte de una tarea real, añade solo el contexto que haga falta y comprueba la respuesta antes de usarla en clase."
 tags: ["prompts", "diseño didáctico", "IA generativa", "ingeniería de prompts"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
@@ -17,62 +17,71 @@ showSummary: true
 ---
 
 {{< lead >}}
-La calidad de la respuesta de una IA no depende solo de la herramienta, sino de la claridad y estructura de tu instrucción. En esta guía, aprenderás a hablarle a la IA con intención pedagógica.
+Tienes un objetivo de aprendizaje, un texto o una actividad que quieres revisar con IA. Esta guía te ayuda a explicar la tarea, entregar el material necesario y decidir si la respuesta sirve. No necesitas usar una fórmula completa cada vez.
 {{< /lead >}}
 
-## ¿Qué es un prompt?
+## Empieza por la tarea, no por la herramienta
 
-Un *prompt* es simplemente la instrucción o conjunto de palabras que le das a una IA para que realice una tarea. La "ingeniería" de prompts no es más que el arte de ser específico, estructurado y dar contexto.
+Antes de escribir, reúne tres cosas:
 
-## Los seis componentes de un prompt efectivo
+1. el material de partida, como un objetivo, un tema, una lectura o una actividad;
+2. la tarea que quieres delegar, por ejemplo proponer variantes o detectar un punto confuso;
+3. una forma de revisar el resultado, como duración, correspondencia con el objetivo o lenguaje apropiado para el grupo.
 
-Para obtener resultados de alta calidad, consistentes y aplicables en el diseño de clases, la estructura básica (como decirle a la IA "actúa como X y haz Y") no es suficiente. Un prompt profesional, como los que se encuentran en nuestro [repositorio de prompts]({{< ref "/recursos/repositorio-prompts-docentes" >}}), se construye con seis componentes esenciales:
+No incluyas nombres, conversaciones completas, calificaciones ni otros datos personales. Si la tarea depende de esa información, reemplázala por un caso ficticio o elimina los datos que permitan reconocer a alguien.
 
-1. **Rol:** La identidad o perspectiva que debe asumir la IA (ej. "Actúa como diseñador instruccional", "Asume el rol de tutor socrático").
-2. **Contexto:** Las condiciones específicas del entorno educativo (asignatura, nivel, semestre, tamaño del grupo). Esto evita respuestas genéricas.
-3. **Insumos:** La materia prima sobre la que trabajará la IA. Puede ser un objetivo de aprendizaje, el temario, los criterios de una rúbrica o un texto escrito por un estudiante.
-4. **Encargo:** La instrucción precisa y detallada de lo que debe hacer paso a paso (ej. "Propón tres variantes de actividad", "Identifica dos oportunidades de mejora").
-5. **Restricciones:** Los límites explícitos sobre lo que la IA *no* debe hacer. Fundamental para evitar sesgos, alucinaciones o usurpación del rol docente (ej. "No califiques ni asignes nota", "No propongas actividades que se resuelvan con un solo prompt").
-6. **Formato de salida:** Cómo debe presentarse la respuesta para ser útil inmediatamente (ej. "Tabla con cuatro columnas", "Texto corrido en primera persona", "Lista de viñetas").
+## Qué es un prompt
 
----
+Un *prompt* es la instrucción y el material que das a una IA para realizar una tarea. Puede ser una frase breve o una petición con varias partes. La longitud no garantiza una buena respuesta: el prompt debe contener lo que la tarea necesita y nada más.
 
-### Ejemplo de un prompt pobre vs. uno estructurado
+## Seis elementos que puedes combinar
 
-**❌ Prompt Pobre:**
-> "Hazme una actividad sobre el ciclo del agua."
+Estos elementos son una lista de comprobación, no una plantilla obligatoria. Para una tarea sencilla pueden bastar la tarea y el formato. Para una tarea delicada conviene añadir material, contexto y límites. Elige solo los elementos que la tarea necesita.
 
-**✅ Prompt Estructurado (6 componentes):**
-> <span style="color: #10b981;">**[Rol]**</span> Actúa como un experto en diseño instruccional para educación superior.
-> <span style="color: #10b981;">**[Contexto]**</span> Asignatura: Ciencias Ambientales, 1er semestre de licenciatura. Grupo de 40 estudiantes.
-> <span style="color: #10b981;">**[Insumos]**</span> Objetivo de aprendizaje: "Analizar las fases del ciclo del agua y su impacto en microclimas locales".
-> <span style="color: #10b981;">**[Encargo]**</span> Diseña una actividad de aprendizaje activo de 50 minutos. Desarrolla la consigna, el producto esperado y los criterios de evaluación.
-> <span style="color: #10b981;">**[Restricciones]**</span> Evita actividades basadas únicamente en exposición magistral. No incluyas cuestionarios de opción múltiple.
-> <span style="color: #10b981;">**[Formato de salida]**</span> Entrégame la propuesta en formato Markdown, separando cada sección, y usa una tabla para los criterios de evaluación.
+1. **Tarea:** qué debe hacer la IA. Usa una acción observable: comparar, resumir, proponer, señalar o reescribir.
+2. **Material de partida:** el texto, objetivo, tabla o fragmento sobre el que debe trabajar. Pide que avise cuando falte información en vez de inventarla.
+3. **Contexto:** para quién es la propuesta y en qué situación se usará. Incluye nivel, asignatura o duración solo si cambian la respuesta.
+4. **Límites:** qué debe evitar. Por ejemplo: no asignar una calificación, no inventar fuentes o no usar datos personales.
+5. **Formato:** cómo quieres leer o comparar la respuesta: lista breve, tabla, párrafos o campos definidos.
+6. **Perspectiva:** un rol puede orientar el vocabulario o el foco, pero no convierte la respuesta en asesoría experta. Úsalo solo cuando aporte algo concreto.
 
----
+## Ejemplo con material real
 
-## Técnicas avanzadas
+Material de partida:
 
-### 1. Few-Shot Prompting (Dar ejemplos)
-La IA aprende mejor si le das un ejemplo de lo que buscas.
-*Ejemplo:* "Aquí tienes un ejemplo de cómo redacto mis objetivos: [Ejemplo]. Ahora redacta 3 objetivos para el tema X siguiendo ese mismo estilo."
+> Objetivo: analizar las fases del ciclo del agua y relacionarlas con microclimas locales.
 
-### 2. Chain of Thought (Pedir que piense paso a paso)
-Obliga a la IA a razonar antes de dar la respuesta final. 
-*Añade al final:* "Antes de darme la respuesta, analiza paso a paso los requisitos pedagógicos."
+Petición inicial:
 
-## Consejos pedagógicos
+> Propón una actividad sobre el ciclo del agua.
 
-{{< alert icon="lightbulb" type="info" >}}
-**Itera, no te conformes:** Si la primera respuesta no es perfecta, no la descartes. Pídele: "Me gusta el punto 2, pero profundiza más en la parte práctica" o "Usa un lenguaje menos técnico".
-{{< /alert >}}
+Versión que permite revisar mejor la respuesta:
 
-{{< alert icon="triangle-exclamation" type="danger" >}}
-**Verifica siempre:** La IA puede alucinar datos o bibliografía inexistente. Tu rol como experto en la materia es validar cada pieza de contenido generado.
-{{< /alert >}}
+> Con base únicamente en este objetivo, propón dos actividades de 50 minutos para un grupo de primer semestre: “analizar las fases del ciclo del agua y relacionarlas con microclimas locales”. Para cada actividad indica qué hará el grupo, qué información necesitará y cómo comprobará la relación con un caso local. Evita cuestionarios de opción múltiple. Presenta las dos alternativas en una tabla. Si el objetivo no aporta información suficiente, señala qué dato falta en vez de completarlo por tu cuenta.
 
-## Recursos adicionales
+La segunda versión no es mejor por ser larga. Es más fácil de revisar porque identifica el material, la acción, los límites y la forma de comparar las alternativas.
 
-- [PromptingGuide.ai (Inglés)](https://www.promptingguide.ai/es) - La guía más completa de la industria.
-- [IA para Docentes (UNESCO)](https://unesdoc.unesco.org/ark:/48223/pf0000385146_spa) - Orientaciones sobre el uso de IA en la educación superior.
+{{< practica titulo="Revisa la respuesta antes de usarla" >}}
+
+1. Comprueba que cada propuesta use el objetivo entregado y no otro parecido.
+2. Marca datos, fuentes o condiciones que la IA haya añadido sin respaldo.
+3. Descarta las opciones que no caben en el tiempo o los recursos disponibles.
+4. Adapta el lenguaje y las decisiones pedagógicas; la respuesta no sustituye tu conocimiento del grupo.
+5. Conserva el prompt y anota qué cambiaste si piensas reutilizarlo.
+
+El resultado útil no es la primera respuesta de la IA. Es una versión revisada que puedes explicar, adaptar y comprobar antes de llevarla al aula.
+{{< /practica >}}
+
+## Recursos para tareas más complejas
+
+- **Dar ejemplos:** incluye uno o dos ejemplos cuando importe reproducir una estructura, un tono o una forma de respuesta. El ejemplo debe parecerse a la tarea real.
+- **Dividir el trabajo:** si la petición mezcla análisis, diseño y revisión, haz cada etapa por separado. Revisa una salida antes de usarla en la etapa siguiente.
+- **Pedir una comprobación breve:** solicita que la respuesta indique qué partes provienen del material entregado, qué supuestos añadió y qué debería verificar una persona.
+- **Probar y comparar:** ejecuta el mismo caso con una versión anterior y otra revisada del prompt. Decide con una lista corta de señales observables; no te quedes con la respuesta que solo suena más convincente.
+
+{{< referencias titulo="Lecturas para contrastar" >}}
+
+- [Prompt engineering, OpenAI](https://platform.openai.com/docs/guides/prompt-engineering) — documentación de un proveedor; útil para instrucciones, ejemplos y formatos.
+- [Prompt engineering overview, Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview) — propone definir primero qué cuenta como éxito y cómo se comprobará.
+- [Guidance for generative AI in education and research, UNESCO](https://unesdoc.unesco.org/ark:/48223/pf0000386693) — orientaciones de 2023 sobre validación ética, privacidad y diseño pedagógico, disponibles en varios idiomas.
+{{< /referencias >}}

@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://github.com/arqueon/aprendizaje-ia/commit/80496da95880fc8a072604771bdcbc9200d24047",
+      "title": "Commit: archetypes y estructura de contenido por tipo (4 marzo 2026)",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "16 files changed",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://github.com/arqueon/aprendizaje-ia/commit/6421c3ce5640040a12a33f820e314cacaa1ee69f",
+      "title": "Commit: new content guides and practices (14 abril 2026)",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "22 files changed",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://api.github.com/repos/arqueon/aprendizaje-ia/commits/80496da95880fc8a072604771bdcbc9200d24047",
+      "title": "GitHub API — commit 80496da",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Post de ejemplo para cada tipo de contenido",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Co-Authored-By: Claude Sonnet 4.6",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://api.github.com/repos/arqueon/aprendizaje-ia/commits/6421c3ce5640040a12a33f820e314cacaa1ee69f",
+      "title": "GitHub API — commit 6421c3c",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "feat: add new content guides and practices, remove deprecated blog and lab files, and update project documentation.",
+          "added": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}

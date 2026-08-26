@@ -147,9 +147,10 @@ diseño, administración, servicio social, prácticas profesionales.
 
 - Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — comparte la lógica de alternativas/criterios sin construir solución.
 - Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — etapa posterior del mismo flujo.
-- Práctica del Laboratorio: [ABP con IA]({{< ref "/laboratorio/practicas/abp-con-ia" >}}).
+- Plantilla propuesta del Laboratorio: [ABP con IA]({{< ref "/laboratorio/practicas/abp-con-ia" >}}).
 
-## Fuente
+{{< referencias titulo="Procedencia editorial" >}}
 
-Adaptado de la **Guia_IAG_Educacion_Superior_FINAL** (UdeG), integrando Bloom
-y la rúbrica IAG unificada del sitio.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+
+{{< /referencias >}}

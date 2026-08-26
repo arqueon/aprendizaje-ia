@@ -2,8 +2,8 @@
 title: "Plagio y autenticidad académica en la era de la IA"
 date: 2026-04-22
 draft: false
-description: "La noción tradicional de plagio no alcanza para describir la co-producción con IA. Propuesta para desplazar el foco del producto a la trazabilidad del proceso y a la autoría documentada."
-summary: "Del plagio como copia al post-plagio como opacidad: autenticidad académica definida por trazabilidad, no por ausencia de asistencia."
+description: "Cómo distinguir uso permitido, atribución, evidencia de aprendizaje y procedimientos justos cuando interviene IA generativa."
+summary: "La integridad con IA depende de reglas comprensibles, declaración, atribución, responsabilidad y evidencia proporcional; ningún detector reconstruye por sí solo la autoría."
 tags: ["plagio", "integridad-academica", "autenticidad", "trazabilidad", "autoria"]
 categories: ["guia"]
 areas: ["ia", "evaluacion", "pedagogia"]
@@ -21,107 +21,98 @@ weight: 3
 ---
 
 {{< lead >}}
-El concepto de plagio se construyó para un régimen de autoría individual donde el producto textual era la evidencia principal del trabajo intelectual. La IA generativa ha vuelto insuficiente ese encuadre. Esta guía propone desplazar el foco del producto hacia la **trazabilidad del proceso**, y redefinir la autenticidad académica como autoría documentada, no como ausencia de asistencia.
+La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entregado y evidencia proporcional del aprendizaje. Este marco orienta el diseño de aula; no sustituye los procedimientos institucionales.
 {{< /lead >}}
 
-## Por qué la noción tradicional no alcanza
+## Qué cambia y qué permanece
 
-El plagio, tal como se definió en los manuales académicos del siglo XX, describe una operación nítida: copiar un texto ajeno y presentarlo como propio. La asistencia con IA generativa no encaja en esa definición. El estudiante que trabaja con Claude Opus 4.6 o DeepSeek-V3.1 no copia un texto preexistente; produce uno nuevo en diálogo con un modelo que sintetiza datos de entrenamiento sin que exista una fuente identificable. La operación no es "copia con ocultamiento" sino "co-producción sin declaración".
+El plagio sigue nombrando prácticas relevantes: presentar como propia una aportación ajena, ocultar una fuente o reutilizar material en contra de las reglas acordadas. La IA complica el análisis porque una salida generada no siempre reproduce una fuente identificable y porque su uso puede abarcar desde corrección lingüística hasta producción sustantiva de argumentos.
 
-Eaton (2023) propuso llamar a esta situación **post-plagio**: un régimen donde la frontera entre autoría humana y asistencia técnica se difumina, y la pregunta central deja de ser "¿quién escribió esto?" para volverse "¿qué parte del proceso es rastreable?". La consecuencia práctica es doble. Primero, los detectores automáticos de IA pierden utilidad como árbitros. Segundo, la evaluación académica necesita evidencia distinta a la que históricamente recolectó.
+Por eso la pregunta no puede ser solamente “¿intervino una IA?”. También hay que preguntar:
 
-Bearman et al. (2024) documentan el mismo desplazamiento desde la teoría de la evaluación: el juicio evaluativo — la capacidad del estudiante de valorar su propio trabajo y el de otros — es el objeto formativo que la IA vuelve más necesario y simultáneamente más difícil de evaluar si el docente solo mira el producto final.
+- ¿qué usos permitía o restringía la actividad?;
+- ¿qué debía declararse y atribuirse?;
+- ¿qué decisiones tomó la persona?;
+- ¿qué aprendizaje puede demostrar?;
+- ¿qué procedimiento permite revisar una duda sin invertir la carga de la prueba?
 
-## Del producto a la trazabilidad
+Sarah Elaine Eaton (2023) propone **postplagiarism** como un marco para pensar ética e integridad cuando tecnologías avanzadas no pueden separarse con facilidad de la producción humana. Su planteamiento conserva la responsabilidad: quien entrega un trabajo responde por su calidad y credibilidad. También conserva la atribución como práctica de reconocimiento y cuidado del conocimiento, y sostiene que debe ser posible demostrar el aprendizaje propio. El artículo no establece una técnica única de trazabilidad ni una lista obligatoria de evidencias.
 
-Si la autenticidad ya no puede inferirse del producto, debe derivarse del proceso. La evidencia relevante se mueve hacia cuatro artefactos:
+Perkins (2023) aborda el problema desde las reglas de integridad académica. Su conclusión es más acotada: usar una herramienta de IA no constituye por sí mismo una falta; importa si el uso contradice las políticas aplicables o si no se declara cuando las reglas exigen hacerlo. No ofrece una definición general de autenticidad basada en bitácoras o conversaciones orales.
 
-- **La bitácora de prompts**, donde el estudiante registra las consultas hechas al modelo y las respuestas recibidas.
-- **El diario de decisiones**, donde documenta qué sugerencias aceptó, cuáles descartó y por qué.
-- **Las versiones sucesivas del trabajo**, con fechas que evidencien el ritmo del proceso.
-- **La declaración de uso**, con modelo, versión y extensión del empleo, en la portada del entregable.
+## Del producto aislado a un conjunto proporcional de evidencias
 
-Ninguno de estos artefactos es nuevo en la pedagogía universitaria. El portafolio iterativo, el versionado y la memoria de proceso existen desde hace décadas en la enseñanza de la escritura y en el diseño. La novedad es que dejan de ser una pedagogía optativa para volverse la evidencia primaria de autenticidad (Dawson, 2020).
+Un producto final puede ser insuficiente para reconocer cómo se aprendió, pero acumular rastros tampoco resuelve el problema. La evidencia debe corresponder al propósito y al riesgo de la actividad.
 
-{{< mermaid >}}
-flowchart LR
-    A[Consulta al modelo] --> B[Respuesta del modelo]
-    B --> C{Decisión del estudiante}
-    C -->|Acepta| D[Incorpora con ajustes]
-    C -->|Rechaza| E[Documenta por qué]
-    D --> F[Nueva versión del trabajo]
-    E --> F
-    F --> G[Entrega + bitácora + declaración]
-{{< /mermaid >}}
+| Evidencia posible | Qué puede mostrar | Qué exige cuidar |
+|---|---|---|
+| Esquema o tesis inicial | Punto de partida y decisiones de enfoque | No convertir todo borrador en entregable permanente |
+| Dos versiones comparadas | Cambios relevantes y uso de retroalimentación | Explicar qué cambió, no premiar la cantidad de versiones |
+| Nota de decisiones | Razones para aceptar, modificar o rechazar una sugerencia | Ofrecer formatos accesibles y breves |
+| Declaración de uso | Herramienta, finalidad y alcance declarados | Pedir solo la información prevista en las reglas |
+| Explicación escrita u oral | Capacidad de sostener fuentes, criterios y decisiones | Proporcionar alternativas por accesibilidad, idioma o ansiedad |
+| Verificación de fuentes | Contraste entre una salida y documentos confiables | No exponer datos o textos privados a servicios externos |
 
-El foco evaluativo se desplaza del nodo final (la entrega) al recorrido completo (las aristas del flujo). El producto sigue evaluándose, pero ya no en aislamiento.
+Estas opciones pueden combinarse. Una práctica breve quizá necesite una declaración y dos decisiones explicadas; un proyecto de alto impacto puede requerir versiones y una conversación. La carga debe ser razonable para estudiantes y docentes. La privacidad importa: no se deben exigir conversaciones completas, historiales de navegación o datos personales si una evidencia menos intrusiva responde la misma pregunta.
 
-## Autenticidad como categoría procesual
+Bearman et al. (2024) ofrecen un criterio para seleccionar evidencia: desarrollar **juicio evaluativo** sobre la calidad de productos, procesos y decisiones. Lo importante no es registrar cada interacción, sino que el estudiante pueda reconocer criterios, contrastar una salida y hacerse responsable de lo que incorpora.
 
-Perkins (2023) define la autenticidad académica en la era de la IA como la correspondencia entre lo que el estudiante declara haber hecho y lo que efectivamente puede explicar y reconstruir. Un trabajo es auténtico si el estudiante puede dar cuenta de sus decisiones en una conversación oral posterior. Un trabajo inauténtico es aquel cuyo autor nominal no puede reconstruir su propio razonamiento.
+## Qué sabemos sobre detectores de texto generado
 
-Esta definición tiene tres consecuencias operativas.
+Los detectores estiman patrones estadísticos; no observan quién escribió un texto ni reconstruyen cómo se produjo. Sus resultados dependen de herramientas, idiomas, corpus, versiones de modelos y transformaciones posteriores.
 
-La primera: la **evaluación dialogada** recupera centralidad. Diez minutos de conversación con el estudiante sobre cómo llegó a su conclusión ofrecen evidencia de autenticidad que ningún detector automatizado iguala.
+Liang et al. (2023) evaluaron **siete detectores** sobre **91 ensayos TOEFL** escritos por personas y compararon el resultado con **88 ensayos** estadounidenses de octavo grado. La tasa media de falsos positivos del corpus TOEFL fue **61.3 %**. Esa cifra describe ese estudio y esas herramientas; no puede trasladarse a toda escritura multilingüe ni a detectores posteriores.
 
-La segunda: el **conocimiento del dominio** sigue siendo el mejor antídoto contra el uso opaco. Un estudiante que entiende la materia articula sus decisiones de consulta al modelo con criterio; uno que no la entiende delega sin discriminar. La asistencia con IA no sustituye el aprendizaje; amplifica lo que ya hay.
+Weber-Wulff et al. (2023) encontraron que las herramientas evaluadas no alcanzaban precisión y fiabilidad suficientes, y que la edición, traducción o paráfrasis reducían su desempeño. Por ello, un detector **nunca debe funcionar como prueba única** ni como evidencia autónoma de una falta. Puede, a lo sumo, originar una pregunta que debe revisarse con fuentes, reglas, trabajo previo y posibilidad de respuesta.
 
-La tercera: la **cohesión del proceso** importa tanto como la calidad del producto. Un trabajo brillante sin bitácora, sin versiones y sin capacidad de explicación oral es, bajo este marco, menos auténtico que un trabajo modesto con evidencia completa del recorrido.
+## Tres escenarios hipotéticos para ordenar el criterio
 
-## Los detectores de IA no resuelven el problema
+Los siguientes son **casos hipotéticos**. No anticipan una resolución disciplinaria: muestran qué preguntas faltan antes de decidir.
 
-Los detectores automáticos (GPTZero, Turnitin AI Detection, Copyleaks y similares) prometen identificar texto generado por modelos. La evidencia acumulada en los últimos dos años muestra tres problemas sistemáticos (Fleckenstein et al., 2024; Weber-Wulff et al., 2023):
+### Caso 1. Edición lingüística declarada
 
-- **Falsos positivos asimétricos**: los textos escritos por estudiantes cuya primera lengua no es el inglés son clasificados con más frecuencia como generados por IA, incluso cuando no lo son. Liang et al. (2023) mostraron tasas de error superiores al 60 % en ensayos de estudiantes no anglófonos.
-- **Falsos negativos triviales**: pequeñas ediciones manuales o reescrituras con Claude hacen que un texto previamente detectado como generado pase como humano.
-- **Opacidad del criterio**: los detectores no explican por qué clasificaron un texto como generado, por lo que su veredicto no es debatible en un procedimiento académico serio.
+Una estudiante usa una herramienta generativa para reformular transiciones. Las reglas permiten asistencia de estilo si se declara; los argumentos y las fuentes son suyos.
 
-Adoptar un detector como autoridad en un procedimiento de integridad académica traslada la carga de la prueba a un algoritmo opaco y sesgado contra los estudiantes más vulnerables. El marco propuesto aquí prescinde del detector y desplaza la evaluación a la trazabilidad declarada y verificable.
+**Preguntas relevantes:** ¿la declaración describe el alcance real?, ¿la estudiante puede explicar y revisar las decisiones?, ¿la asistencia respeta las reglas de la actividad? Si las respuestas son afirmativas, el uso puede ser compatible con integridad académica. No hace falta exigir toda la conversación para demostrarlo.
 
-## Tres casos para ordenar el criterio
+### Caso 2. Puntaje alto de un detector
 
-### Caso 1. Co-redacción asistida declarada
+Un ensayo recibe un puntaje de 87 % en un detector. El estudiante conserva esquemas y versiones, explica sus fuentes y puede responder por el texto.
 
-Una estudiante usa Gemini 2.5 Pro para reformular párrafos de transición en un ensayo de metodología. Declara el uso en la portada, entrega bitácora con los prompts y decisiones, y puede explicar oralmente cada elección de reformulación. El modelo nunca redactó los argumentos; redactó conectores entre argumentos que la estudiante escribió.
+**Preguntas relevantes:** ¿qué herramienta produjo el puntaje?, ¿qué tasa de error tiene para este idioma y género?, ¿existe evidencia independiente de una infracción? El porcentaje no basta para acusar ni desplaza la carga de la prueba al estudiante.
 
-Resolución: no hay problema de autenticidad. La estudiante es autora del argumento y del criterio de edición; la IA fue un asistente de estilo declarado. Esta situación es indistinguible, en términos éticos, del trabajo con un servicio humano de edición, con la diferencia de que la IA deja trazabilidad completa.
+### Caso 3. Traducción asistida
 
-### Caso 2. Falso positivo del detector
+Un estudiante redacta un texto y usa IA para traducirlo. La actividad no había explicado si ese uso estaba permitido o debía declararse.
 
-Un estudiante entrega un ensayo que el detector institucional clasifica como 87 % generado por IA. El estudiante presenta la bitácora de versiones, explica el proceso de redacción en una conversación oral y muestra los documentos de trabajo. Su primera lengua no es el inglés y el ensayo está redactado en un registro académico formal.
+**Preguntas relevantes:** ¿qué aprendizaje pretendía valorar la actividad?, ¿la traducción era parte de ese aprendizaje?, ¿qué regla estaba disponible antes de entregar?, ¿puede ofrecerse una política clara para el siguiente ciclo? Sin una regla previa, no corresponde inventar retroactivamente una prohibición universal.
 
-Resolución: el detector no es evidencia suficiente para sostener una acusación. La bitácora, las versiones y la capacidad de explicación oral son evidencia más confiable que el puntaje del detector (Weber-Wulff et al., 2023). El procedimiento de integridad académica debe prever esta asimetría de evidencias.
+## Acuerdo de aula y procedimiento en cuatro pasos
 
-### Caso 3. Traducción al español con IA
+Cotton et al. (2024) recomiendan instrucciones claras y revisar el diseño de evaluación. No afirman que la falta de acuerdos sea la primera causa de todos los conflictos. A partir de esa recomendación puede construirse este procedimiento adaptable:
 
-Un estudiante redacta su ensayo en inglés y lo traduce al español con DeepSeek-V3.1 para entregarlo. Declara el uso. La cuestión: ¿es plagio?
+1. **Explicar las reglas antes de trabajar.** Señalar usos permitidos, restringidos y sujetos a declaración. Incluir ejemplos y una vía para preguntar.
+2. **Elegir evidencia proporcional.** Seleccionar una o dos opciones que respondan al aprendizaje buscado; evitar historiales completos por defecto.
+3. **Usar la evidencia para aprender.** La declaración o la versión previa debe conducir a retroalimentación, revisión o explicación, no funcionar solo como control.
+4. **Establecer un procedimiento de duda.** Revisar la regla aplicable, comunicar la evidencia disponible, escuchar al estudiante y permitir respuesta o apelación conforme a la normativa institucional. Un detector no reemplaza ninguna de estas etapas.
 
-Resolución: no lo es si la declaración es explícita y el contenido argumentativo es suyo. Es, en rigor, una forma de asistencia lingüística equivalente a usar un diccionario bilingüe, solo que mucho más potente. El criterio docente puede admitirlo, prohibirlo o exigir entrega bilingüe, pero esa decisión corresponde al diseño de la asignatura, no a una categoría universal de plagio.
-
-## Protocolo de aula en cuatro pasos
-
-Un protocolo operativo para implementar este marco en una asignatura universitaria.
-
-1. **Acuerdo inicial**. En la primera sesión, el docente declara qué usos de IA permite, cuáles exige que se declaren y cuáles excluye. El acuerdo queda en el syllabus y el estudiante lo firma. Cotton et al. (2024) muestran que la ausencia de acuerdos explícitos es la primera causa de conflictos sobre integridad.
-2. **Instrumentos obligatorios**. La bitácora de prompts, las versiones sucesivas y la declaración de uso son parte del entregable, no anexos optativos. Se evalúan con peso específico en la rúbrica.
-3. **Evaluación dialogada**. Al cierre de cada entrega de alto peso, el docente conversa diez minutos con cada estudiante sobre su proceso. La conversación produce una nota adicional y constituye la evidencia principal de autenticidad.
-4. **Procedimiento en caso de duda**. Si el docente sospecha opacidad, convoca al estudiante a una conversación extendida basada en la bitácora. El detector automático, si se usa, es referencia secundaria y nunca prueba única.
+La conversación puede ser útil, pero su duración y formato dependen de la tarea. Puede sustituirse por una explicación escrita, una revisión comentada o una comparación de fuentes cuando esas opciones producen evidencia equivalente y reducen barreras de accesibilidad.
 
 ## Conexiones con el resto del sitio
 
-El desplazamiento hacia la evidencia procesual se operativiza en la [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}), que describe ciclos de retroalimentación iterativa compatibles con este marco. La capacidad de diálogo crítico con el modelo que la evaluación dialogada evalúa se cultiva con la [práctica de análisis crítico de sesgos]({{< ref "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia" >}}) y con la [alfabetización crítica en IA]({{< ref "/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia" >}}). El marco ético institucional que sostiene estas decisiones está formulado en la guía de [marco ético para el uso de IA en educación superior]({{< ref "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior" >}}).
+La [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}) explica cómo usar evidencia para ajustar enseñanza y aprendizaje. La [práctica de análisis crítico de sesgos]({{< ref "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia" >}}) y la [alfabetización crítica en IA]({{< ref "/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia" >}}) ayudan a evaluar salidas y límites. El [marco ético para el uso de IA en educación superior]({{< ref "/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior" >}}) sitúa estas decisiones en responsabilidades institucionales.
 
-## Cierre
+{{< parallevar titulo="Para una decisión justa" >}}
+La integridad académica no se resuelve prohibiendo toda asistencia ni sustituyendo el juicio por un porcentaje. Requiere reglas anteriores a la entrega, atribución y declaración cuando correspondan, oportunidades razonables para demostrar aprendizaje y procedimientos que permitan revisar una duda. La evidencia de proceso puede ayudar, siempre que sea proporcional, accesible y respetuosa de la privacidad.
+{{< /parallevar >}}
 
-Plagio dejó de ser una categoría útil para lo que hoy ocurre en el aula. La autenticidad académica, en cambio, sí lo es: describe una propiedad del proceso (trazabilidad y capacidad de reconstrucción) que se puede diseñar, documentar y evaluar. El desplazamiento del producto al proceso no relaja la exigencia; la vuelve pertinente al contexto actual. La universidad que aplica ese desplazamiento con seriedad produce estudiantes que saben trabajar con IA sin perder el hilo de su propio razonamiento.
-
-## Referencias
+{{< referencias >}}
 
 - Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 - Cotton, D. R. E., Cotton, P. A., & Shipway, J. R. (2024). Chatting and cheating: Ensuring academic integrity in the era of ChatGPT. *Innovations in Education and Teaching International*, 61(2), 228–239. https://doi.org/10.1080/14703297.2023.2190148
-- Dawson, P. (2020). *Defending assessment security in a digital world: Preventing e-cheating and supporting academic integrity in higher education*. Routledge. https://doi.org/10.4324/9780429324178
 - Eaton, S. E. (2023). Postplagiarism: Transdisciplinary ethics and integrity in the age of artificial intelligence and neurotechnology. *International Journal for Educational Integrity*, 19, 23. https://doi.org/10.1007/s40979-023-00144-1
-- Fleckenstein, J., Meyer, J., Jansen, T., Keller, S. D., Köller, O., & Möller, J. (2024). Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays. *Computers and Education: Artificial Intelligence*, 6, 100209. https://doi.org/10.1016/j.caeai.2024.100209
 - Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English writers. *Patterns*, 4(7), 100779. https://doi.org/10.1016/j.patter.2023.100779
 - Perkins, M. (2023). Academic integrity considerations of AI large language models in the post-pandemic era: ChatGPT and beyond. *Journal of University Teaching and Learning Practice*, 20(2), 07. https://doi.org/10.53761/1.20.02.07
 - Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). Testing of detection tools for AI-generated text. *International Journal for Educational Integrity*, 19, 26. https://doi.org/10.1007/s40979-023-00146-z
+
+{{< /referencias >}}

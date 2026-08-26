@@ -1,1 +1,13 @@
-<aside class="alm-idea"><span class="alm-kicker">{{ .Get "titulo" | default "Idea clave" }}</span>{{ .Inner | markdownify }}</aside>
+{{- $title := .Get "titulo" | default "Idea clave" -}}
+{{- $inner := strings.TrimSpace .Inner -}}
+{{- if not $inner -}}
+  {{- errorf "Shortcode idea: requiere contenido en %s" .Position -}}
+{{- end -}}
+{{- $titleID := printf "alm-idea-%d" .Ordinal -}}
+<aside
+  class="alm-idea alm-componente"
+  aria-labelledby="{{ $titleID }}"
+  data-udgia-component="idea">
+  <span class="alm-kicker" id="{{ $titleID }}">{{ $title }}</span>
+  {{- $inner | markdownify -}}
+</aside>

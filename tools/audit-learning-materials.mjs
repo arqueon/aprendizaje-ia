@@ -5,30 +5,30 @@ import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const contentRoot = path.join(root, "content");
-const snapshotDate = "2026-08-02";
-const outputDir = path.join(
-  root,
-  "docs",
-  "editorial",
-  "inventarios",
-  "2026-08-02-udgia-021",
+const sharedFiguresRoot = path.join(root, "assets", "figures");
+const snapshotDate = process.env.UDGIA_SNAPSHOT_DATE || "2026-08-23";
+const outputDir = path.resolve(
+  process.env.UDGIA_LEARNING_INVENTORY_DIR
+    || path.join(root, "docs", "editorial", "inventarios", `${snapshotDate}-udgia-021`),
 );
-const baseInventoryPath = path.join(
-  root,
-  "docs",
-  "editorial",
-  "inventarios",
-  "2026-07-28-hugo",
-  "inventario-hugo.json",
+const baseInventoryPath = path.resolve(
+  process.env.UDGIA_BASE_INVENTORY
+    || path.join(
+      root,
+      "docs",
+      "editorial",
+      "inventarios",
+      `${snapshotDate}-hugo`,
+      "inventario-hugo.json",
+    ),
 );
 const courseInventoryPath = path.resolve(
   process.env.UDGIA_COURSE_INVENTORY
     || path.join(
       root,
-      "..",
-      "alfabetizacion_en_ia",
-      "docs",
-      "auditoria-hugo-curso-inventario.json",
+      "data",
+      "editorial",
+      "learning-course-classifications.json",
     ),
 );
 const checkMode = process.argv.includes("--check");
@@ -305,7 +305,7 @@ const visualReferencePages = new Set([
   "ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
   "observatorio/documentacion/redes-investigacion-vinculacion/index.md",
   "recursos/articulos/genai-feedback-engagement-2025/index.md",
-  "recursos/externas/comunidades-practica-docente-ia/index.md",
+  "recursos/links/comunidades-practica-docente-ia/index.md",
 ]);
 
 function visualReview(page, featuredCandidates, hasExplanatoryVisual) {
@@ -392,13 +392,18 @@ if (baseInventory.pages.length !== courseInventory.pages.length) {
   throw new Error("Los inventarios de Hugo y curso no tienen el mismo número de piezas.");
 }
 
-const assetFiles = walk(contentRoot).filter((file) => assetPattern.test(file));
+const assetFiles = [
+  ...walk(contentRoot),
+  ...(fs.existsSync(sharedFiguresRoot) ? walk(sharedFiguresRoot) : []),
+].filter((file) => assetPattern.test(file));
 const assetRecords = assetFiles.map((file) => {
   const bytes = fs.readFileSync(file);
   const detectedFormat = detectedImageFormat(bytes);
   const dimensions = imageDimensions(bytes, detectedFormat);
   return {
-    path: path.relative(contentRoot, file),
+    path: file.startsWith(`${contentRoot}${path.sep}`)
+      ? path.relative(contentRoot, file)
+      : path.relative(root, file),
     extension: path.extname(file).slice(1).toLowerCase(),
     detectedFormat,
     extensionMatchesFormat: path.extname(file).slice(1).toLowerCase().replace("jpg", "jpeg") === detectedFormat,
@@ -623,12 +628,15 @@ const report = {
   schemaVersion: 1,
   id: "UDGIA-021",
   snapshotDate,
-  sourceRevision: "40b83d9ceb7f11722f857bcc8dadc357cebda0f4",
+  sourceRevision: process.env.UDGIA_SOURCE_REVISION || null,
+  sourceState: process.env.UDGIA_SOURCE_REVISION
+    ? "revision-git-declarada"
+    : "mirror-sin-metadatos-git",
   scope: "Inventario narrativo, didáctico, visual, interactivo, organizativo y de integración del sitio Hugo.",
   methodNote: "Las señales automáticas priorizan revisión; no sustituyen lectura editorial, evaluación disciplinar ni lector en frío.",
   sources: {
     baseInventory: path.relative(root, baseInventoryPath),
-    courseInventory: courseInventoryPath,
+    courseInventory: path.relative(root, courseInventoryPath),
     orientationAuthority: "IAorientacionesUdG.md, revisión 1cb38d9b7486cb4f931de6d3657cf120e89ea4c1",
     teacherGuide: "profesorado/guia-docente-actividades-evaluacion-ia.md",
     studentGuideSamples: "estudiantes/muestras/*.md",

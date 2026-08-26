@@ -1,0 +1,384 @@
+--- antes/content/ia-educacion/practicas/bitacora-cocreacion/index.md
++++ borrador/content/ia-educacion/practicas/bitacora-cocreacion/index.md
+@@ -1,9 +1,9 @@
+ ---
+-title: "Bitácora breve de co-creación persona–IA"
++title: "Bitácora breve para registrar decisiones con IA"
+ date: 2026-08-11
+ draft: false
+-description: "Plantilla para documentar propósito, aportes, fuentes, descartes, cambios y responsabilidad durante un trabajo con IA."
+-summary: "Deja visible cómo cambió el trabajo, qué decidió la persona y qué necesita comprobarse todavía."
++description: "Plantilla con un ejemplo completo para registrar qué cambió, qué se descartó y qué se comprobó durante un trabajo con IA."
++summary: "Conserva las decisiones que cambiaron tu trabajo sin entregar la conversación completa ni datos privados."
+ showHero: false
+ showBreadcrumbs: true
+ showSummary: true
+@@ -11,7 +11,7 @@
+ showReadingTime: true
+ showAuthor: false
+ showRelatedContent: true
+-content_type: practica
++content_type: plantilla
+ audiences: [estudiante, profesorado, investigacion]
+ intentions: [practicar, documentar, evaluar]
+ topics: [cocreacion, trazabilidad, integridad-academica]
+@@ -31,27 +31,53 @@
+ ---
+ 
+ {{< lead >}}
+-Una conversación completa no explica por sí sola qué aprendiste. Esta bitácora conserva las decisiones que cambiaron el trabajo sin obligarte a entregar datos privados ni páginas de transcripción.
++Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo.
+ {{< /lead >}}
+ 
+-## Plantilla
++Esta página no informa una aplicación ya realizada. Ofrece una plantilla de apoyo y un ejemplo ficticio para mostrar cuánto detalle basta.
++
++## Cómo usarla
++
++1. Conserva la versión que tenías antes de consultar la herramienta.
++2. Registra solo la sugerencia que influyó en tu trabajo, no toda la conversación.
++3. Anota qué comprobaste fuera de la herramienta.
++4. Explica qué aceptaste, cambiaste o descartaste.
++5. Guarda la versión revisada junto con esta nota breve.
++
++## Ejemplo completado
++
++Una estudiante prepara una introducción de 250 palabras sobre islas de calor urbanas. Pide a una herramienta que señale una comparación ausente. La tabla muestra cómo podría registrar esa decisión sin copiar la conversación:
+ 
+ | Momento | Nota breve |
+ |---|---|
+-| Propósito inicial | ¿Qué intentabas comprender, crear o decidir? |
+-| Punto de partida | ¿Qué idea, borrador, método o criterio ya tenías? |
+-| Ayuda solicitada | ¿Qué tarea delimitada pediste a la IA? |
+-| Aporte útil | ¿Qué pregunta, alternativa o señal cambió tu atención? |
+-| Descarte | ¿Qué no aceptaste y por qué? |
+-| Comprobación | ¿Qué fuente, dato, prueba o persona consultaste? |
+-| Transformación | ¿Qué cambiaste con criterio propio? |
+-| Pendiente | ¿Qué incertidumbre permanece? |
+-| Declaración | Herramienta, propósito, partes afectadas y responsabilidad humana. |
++| Qué quería resolver | Explicar por qué dos zonas cercanas pueden registrar temperaturas distintas. |
++| Punto de partida | Un borrador que mencionaba asfalto y arbolado, pero no comparaba ambos lugares. |
++| Ayuda solicitada | Pedí que identificara una comparación necesaria, sin reescribir el texto. |
++| Aporte útil | Sugirió comparar superficie pavimentada, sombra y hora de medición. |
++| Descarte | No usé una cifra de cinco grados porque la respuesta no indicó de dónde provenía. |
++| Comprobación | Volví al conjunto de datos de la actividad y a la lectura asignada; ambos permitían comparar sombra y superficie, pero no respaldaban esa cifra. |
++| Cambio realizado | Añadí una comparación entre los dos lugares y limité la conclusión a los datos disponibles. |
++| Pendiente | Revisar si las mediciones corresponden a la misma hora del día. |
++| Declaración | Usé una herramienta de IA para detectar una comparación ausente. Comprobé la sugerencia con los materiales de la actividad y redacté la versión final. |
++
++## Plantilla vacía
++
++| Momento | Nota breve |
++|---|---|
++| Qué querías resolver | Nombra la pregunta o dificultad concreta. |
++| Punto de partida | Identifica la idea, borrador, método o decisión que ya tenías. |
++| Ayuda solicitada | Copia o resume la tarea delimitada que pediste. |
++| Aporte útil | Anota la pregunta, alternativa o señal que cambió tu atención. |
++| Descarte | Explica qué no aceptaste y por qué. |
++| Comprobación | Indica la fuente, dato, prueba o persona que consultaste. |
++| Cambio realizado | Describe qué modificaste con decisión propia. |
++| Pendiente | Señala qué duda permanece. |
++| Declaración | Nombra la herramienta, la tarea pedida, las partes afectadas y quién asumió la decisión final. |
+ 
+ ## Qué no registrar
+ 
+-No copies datos personales, información confidencial ni transcripciones completas si no son necesarias. Describe la decisión y conserva por separado solo la evidencia autorizada.
++No copies datos personales, información confidencial ni transcripciones completas si no son necesarias. Describe la decisión y guarda por separado únicamente los materiales que tienes autorización para conservar.
+ 
+-## Criterio de avance
++## Cómo comprobar si la nota sirve
+ 
+-La bitácora sirve cuando otra persona puede distinguir tu punto de partida, el aporte de la IA, la comprobación y tu decisión final. No se evalúa por cantidad de prompts.
++Dásela a otra persona junto con las dos versiones del trabajo. La nota sirve si puede distinguir el punto de partida, la sugerencia que influyó, la comprobación realizada y la decisión final sin leer la conversación completa. No se evalúa por cantidad de mensajes enviados a la herramienta.
+--- antes/content/recursos/glosario/agentes-de-ia/index.md
++++ borrador/content/recursos/glosario/agentes-de-ia/index.md
+@@ -6,10 +6,16 @@
+ categories: ["concepto"]
+ areas: ["ia"]
+ showHero: true
+-summary: "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos."
+-description: "Sistemas algorítmicos autónomos capaces de percibir, decidir y ejecutar acciones orientadas a objetivos."
++summary: "Sistemas que pueden elegir y encadenar acciones con herramientas para cumplir una tarea delimitada."
++description: "Qué distingue a un agente de una respuesta aislada o de un flujo con pasos fijos."
+ ---
+ 
+-Un **agente de IA** (*AI agent*) representa una evolución sobre los modelos generativos puros. Mientras que un modelo de lenguaje clásico responde a un comando aislado, un agente posee la arquitectura para percibir su entorno (digital), tomar decisiones lógicas en pasos secuenciales y ejecutar acciones mediante el uso de herramientas externas para alcanzar una meta compleja.
++Un **agente de IA** es un sistema en el que un modelo puede elegir y encadenar acciones, consultar información y usar herramientas para cumplir una tarea delimitada. El término no implica autonomía total. Algunos sistemas solo siguen un flujo fijado por sus responsables; otros deciden qué paso dar después según lo que encuentran.
+ 
+-En el sector educativo, el despliegue de agentes autónomos transformará la dinámica de asistencia. Actuarán como *tutores persistentes* capaces de evaluar el progreso a lo largo de un semestre, interconectar los resultados de diversas materias e intervenir proactivamente sugiriendo rutas de recuperación (ver [aprendizaje digital](/recursos/glosario/aprendizaje-digital/)).
++Por ejemplo, un agente de apoyo bibliográfico podría buscar tres fuentes, extraer sus datos y preparar una tabla. La persona responsable tendría que aprobar las fuentes antes de incorporarlas a una bibliografía compartida. Dar acceso al catálogo no equivale a autorizar cambios en él.
++
++La distinción importa cuando se asignan permisos. Antes de autorizar un agente, revisa qué herramientas puede abrir, qué datos recibirá, qué acciones necesitan aprobación, cuánto tiempo puede operar y qué registro dejará. Para una tarea breve y predecible suele bastar una instrucción o un flujo fijo.
++
++**Relacionado con:** [Privacidad y protección de datos al usar IA](/ia-educacion/guias/privacidad-datos-ia/)
++
++**Para contrastar:** [Building effective agents, Anthropic](https://www.anthropic.com/engineering/building-effective-agents)
+--- antes/content/recursos/glosario/aprendizaje-digital/index.md
++++ borrador/content/recursos/glosario/aprendizaje-digital/index.md
+@@ -6,12 +6,16 @@
+ categories: ["concepto"]
+ areas: ["digital", "pedagogia"]
+ showHero: true
+-summary: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
+-description: "Integración de tecnologías y algoritmos para facilitar o transformar la experiencia educativa."
++summary: "Aprender y enseñar con apoyo de tecnologías y recursos digitales, dentro o fuera de un aula en línea."
++description: "Uso educativo de tecnologías digitales para estudiar, enseñar, comunicarse, practicar o revisar avances."
+ ---
+ 
+-El **aprendizaje digital** (*digital learning*) engloba cualquier práctica educativa que dependa de forma sustantiva del uso de la tecnología para instruir, evaluar o gestionar el ecosistema formativo.
++Cuando una clase depende de una plataforma, una simulación, un documento compartido o una herramienta de comunicación, hablamos de **aprendizaje digital** si ese recurso interviene de manera significativa en lo que el grupo hace para aprender. Puede ocurrir en un curso presencial, híbrido o en línea. La tecnología puede servir para acceder a materiales, colaborar, practicar, recibir comentarios o revisar avances.
+ 
+-No debe confundirse con la simple digitalización de formatos analógicos (ej. subir un PDF a un repositorio). El verdadero aprendizaje digital aprovecha las capacidades intrínsecas de las herramientas computacionales —como la recolección de datos, la interactividad y la adaptación algorítmica— para crear experiencias hiper-personalizadas.
++Subir un PDF a una plataforma puede formar parte de una actividad, pero el archivo por sí solo no explica qué hará el grupo. Por ejemplo, una actividad digital puede pedir que dos estudiantes comparen sus anotaciones sobre un texto, revisen una afirmación con las fuentes disponibles y dejen una versión corregida. Lo importante es la acción que la tecnología permite o facilita, no que todo sea interactivo, automático o personalizado.
+ 
+-**Relacionado con:** [IA y Educación](/ia-educacion/)
++La expresión tampoco significa que una herramienta mejore el aprendizaje por sí misma. Hay que revisar acceso, privacidad, carga de trabajo y relación con lo que se espera aprender.
++
++**Relacionado con:** [Diseñar una actividad de aprendizaje híbrido y activo](/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/)
++
++**Para contrastar:** [Digital learning, UNESCO](https://www.unesco.org/en/query-list/d/digital-learning)
+--- antes/content/recursos/glosario/ingenieria-de-prompts/index.md
++++ borrador/content/recursos/glosario/ingenieria-de-prompts/index.md
+@@ -6,12 +6,16 @@
+ categories: ["concepto"]
+ areas: ["ia"]
+ showHero: true
+-summary: "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje."
+-description: "El diseño sistemático y estructurado de instrucciones para optimizar las respuestas de los modelos de lenguaje."
++summary: "Práctica de escribir, probar y corregir instrucciones para que una herramienta de IA realice una tarea delimitada."
++description: "Cuándo basta una instrucción breve y cuándo conviene añadir contexto, ejemplos, límites o un formato de respuesta."
+ ---
+ 
+-La **ingeniería de *prompts*** (o parametrización de instrucciones) es la práctica de diseñar, estructurar y refinar los comandos de entrada que se proporcionan a un sistema de inteligencia artificial generativa.
++Cuando una docente o un estudiante necesita que una herramienta de IA realice una tarea delimitada, puede recurrir a la **ingeniería de prompts**, o diseño de instrucciones: escribir, probar y corregir lo que se pide. Para una tarea sencilla puede bastar una frase directa: “Resume este párrafo en dos oraciones sin añadir datos”. Una tarea más compleja puede necesitar el texto inicial, la audiencia, límites, ejemplos o un formato de respuesta.
+ 
+-A diferencia de una simple consulta en un motor de búsqueda, la ingeniería de *prompts* requiere establecer un contexto explícito, un rol definido para el sistema, restricciones de formato y parámetros de evaluación. En entornos educativos, enseñar esta habilidad es crucial: transforma al usuario de un consumidor pasivo a un director activo del flujo de información, limitando las *alucinaciones* del sistema y forzando resultados adaptados a objetivos pedagógicos específicos.
++Por ejemplo: “Compara esta introducción con los tres puntos de la rúbrica. Señala una omisión y explica dónde la detectaste. No reescribas el texto”. La respuesta todavía debe revisarse contra la introducción y la rúbrica.
+ 
+-**Relacionado con:** [Observatorio de IA](/observatorio/)
++Una instrucción clara puede reducir respuestas irrelevantes, pero no garantiza exactitud ni elimina información inventada. Tampoco sustituye el acceso a fuentes, la recuperación de documentos o la comprobación final. Si el resultado falla porque falta información, hay que añadir el material necesario; si falla porque la afirmación es falsa, hay que contrastarla fuera de la herramienta.
++
++**Relacionado con:** [Ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/)
++
++**Para practicar:** [Consejos básicos de Learn Prompting](https://learnprompting.org/docs/basics/ai_prompt_tips)
+--- antes/content/recursos/videos/_index.md
++++ borrador/content/recursos/videos/_index.md
+@@ -1,7 +1,7 @@
+ ---
+-title: "Videos"
+-description: "Videos seleccionados sobre pedagogía con IA, evaluación innovadora y tecnología educativa para docentes universitarios."
+-summary: "Conferencias, tutoriales y conversaciones en video sobre el uso de IA en la educación superior."
++title: "Videos y cursos abiertos"
++description: "Charlas, series audiovisuales y cursos web para estudiar un uso educativo de la IA y llevar una decisión concreta a una asignatura."
++summary: "Elige una charla, una serie o una guía web según el tiempo disponible y lo que necesitas revisar."
+ weight: 2
+ showBreadcrumbs: true
+ showSummary: true
+@@ -10,4 +10,14 @@
+ groupByYear: false
+ ---
+ 
+-Videos seleccionados que vale la pena ver. Cada uno incluye un resumen, los momentos clave y por qué lo recomendamos.
++{{< lead >}}
++Entra a esta colección cuando, como docente o estudiante, quieras estudiar un tema mediante una charla, una serie audiovisual o un curso web. La ruta conserva el nombre `/videos/` para no romper enlaces anteriores, pero cada ficha debe identificar su formato real y ofrecer un destino directo.
++{{< /lead >}}
++
++## Elige según lo que necesitas hacer
++
++- **Abrir una conversación con docentes:** empieza con la charla de Sal Khan y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto.
++- **Estudiar cómo escribir instrucciones para IA:** usa la guía introductoria de Learn Prompting y prueba una técnica sobre una tarea propia.
++- **Comparar fuentes audiovisuales:** consulta la curaduría verificada y elige una sola serie según idioma, nivel y tema.
++
++Antes de terminar, conserva la referencia exacta, la idea que decidiste probar, el cambio que hiciste sobre un material propio y la forma en que revisarás si funcionó. Una ficha no debe presentarse como video cuando en realidad enlaza a un curso, una guía o una colección de recursos.
+--- antes/content/recursos/videos/learn-prompting-curso-completo.md
++++ borrador/content/recursos/videos/learn-prompting-curso-completo.md
+@@ -1,15 +1,14 @@
+ ---
+-title: "Learn Prompting: curso completo de ingeniería de prompts"
++title: "Learn Prompting: guía introductoria y cursos"
+ date: 2026-04-26
+ draft: false
+-description: "Recurso abierto y gratuito que cubre la ingeniería de prompts desde lo básico hasta técnicas avanzadas, con enfoque pedagógico y ejemplos transferibles al aula universitaria."
+-summary: "Una de las referencias más completas y abiertas sobre ingeniería de prompts. Útil para docentes que quieran formación sostenida sin pagar suscripciones."
+-tags: ["prompts", "ingeniería de prompts", "curso abierto", "formación docente"]
+-categories: ["video"]
++description: "Guía web sobre instrucciones para IA, con explicaciones y ejemplos que pueden probarse sobre una tarea propia."
++summary: "Úsala para pasar de una instrucción breve a una versión revisada y comprobar qué información mejoró la respuesta."
++tags: ["prompts", "ingeniería de prompts", "curso web", "formación docente"]
++categories: ["link"]
+ areas: ["ia", "formacion"]
+-
+ showHero: false
+-showTableOfContents: false
++showTableOfContents: true
+ showReadingTime: false
+ showDate: true
+ showTaxonomies: true
+@@ -17,28 +16,39 @@
+ showBreadcrumbs: true
+ showSummary: true
+ showAuthor: false
+-
+-videoCanal: "Learn Prompting"
+-videoIdioma: "en (subtítulos en español disponibles)"
+-videoUrl: "https://learnprompting.org/"
++resourceType: "guía web y cursos"
++resourceLanguage: "en"
++resourceUrl: "https://learnprompting.org/docs"
+ ---
+ 
+ {{< alert icon="link" cardColor="#e0f2fe" >}}
+-Recurso externo — se abre en una nueva pestaña.
++[Abre la guía introductoria de Learn Prompting](https://learnprompting.org/docs). Es un recurso externo en inglés.
+ {{< /alert >}}
+ 
+-**Sobre el recurso:** *Learn Prompting* es un libro abierto y un curso en línea, mantenido por Sander Schulhoff y un equipo de colaboradores. Cubre la ingeniería de prompts desde nociones básicas (estructura de un prompt, contexto, ejemplos) hasta técnicas avanzadas (chain-of-thought, autoconsistencia, ReAct, prompts adversariales). El material se publica como repositorio abierto y se actualiza regularmente conforme aparecen nuevas técnicas.
++## Qué es
+ 
+-**Por qué lo compartimos:** Es probablemente la fuente más completa y libre disponible sobre el tema. La diferencia con cursos comerciales es relevante: *Learn Prompting* mantiene su material accesible sin paywall y trata la ingeniería de prompts con rigor académico, no como receta de marketing. Para un docente que quiere formación sostenida sin comprometerse con un proveedor comercial, este es el punto de partida.
++*Learn Prompting* mantiene una guía web sobre IA generativa y diseño de instrucciones. La parte introductoria explica cómo escribir una petición clara, probar variantes, añadir contexto y usar ejemplos cuando una instrucción por sí sola no basta. El sitio también ofrece cursos y certificaciones separados; sus condiciones de acceso pueden cambiar y deben comprobarse antes de recomendar una ruta completa.
+ 
+-**Para quién es útil:** Docentes que ya completaron una introducción básica a IA generativa y quieren profundizar; coordinaciones académicas que diseñan formaciones internas y necesitan material de referencia con licencia abierta; estudiantes universitarios avanzados con interés en el tema.
++No es un video único. Se conserva en esta colección porque combina explicaciones, ejemplos y cursos que pueden acompañar la formación docente. La ficha identifica el formato para no confundirlo con la charla de Sal Khan ni con una serie de YouTube.
+ 
+-**Cómo se articula con el sitio:** El material complementa la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/), que opera como introducción adaptada al contexto pedagógico. Para profundizar en técnicas avanzadas, *Learn Prompting* es el siguiente paso natural.
++## Para quién sirve
+ 
+-**Otras opciones a considerar:** El curso *ChatGPT Prompt Engineering for Developers* de DeepLearning.AI con Isa Fulford y Andrew Ng (1.5 horas, gratuito) ofrece una introducción más breve pero igualmente sólida. Está disponible en [DeepLearning.AI](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
++Puede servir a docentes y estudiantes que ya tienen una tarea concreta y quieren observar cómo cambia una respuesta al modificar la instrucción. Para una introducción situada en el trabajo docente conviene empezar por la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/).
+ 
+-## Referencias
++## Prueba breve
+ 
+-DeepLearning.AI. (2024). *ChatGPT prompt engineering for developers* [Online course]. https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
++1. Elige un párrafo, una tabla o una pregunta que ya utilices.
++2. Escribe una instrucción breve y conserva la primera respuesta.
++3. Añade solo la información que la tarea realmente necesita: el material inicial, la audiencia, un límite o un ejemplo.
++4. Compara ambas respuestas contra el material original.
++5. Anota qué cambio ayudó y qué afirmación todavía debes comprobar.
+ 
+-Schulhoff, S. (2024). *Learn Prompting* [Online textbook and course]. https://learnprompting.org/
++La prueba sirve si puedes explicar por qué la segunda instrucción fue más útil. Una respuesta más larga o segura no es necesariamente mejor.
++
++## Acceso comprobado
++
++- [Guía introductoria](https://learnprompting.org/docs)
++- [Consejos básicos para escribir mejores instrucciones](https://learnprompting.org/docs/basics/ai_prompt_tips)
++- [Curso de introducción a la ingeniería de prompts](https://learnprompting.org/courses/introduction_to_prompt_engineering)
++
++Enlaces revisados el 23 de agosto de 2026.
+--- antes/content/recursos/videos/tutoriales-herramientas-ia-docentes.md
++++ borrador/content/recursos/videos/tutoriales-herramientas-ia-docentes.md
+@@ -1,15 +1,14 @@
+ ---
+-title: "Tutoriales de herramientas IA para docentes (curaduría)"
++title: "Fuentes audiovisuales para docentes: curaduría verificada"
+ date: 2026-04-26
+ draft: false
+-description: "Curaduría comentada de canales y series de tutoriales en YouTube sobre herramientas de IA aplicadas al trabajo docente, ordenados por idioma y nivel."
+-summary: "Cinco fuentes de video con calidad sostenida para docentes que prefieren aprender por video antes que por texto. Selección con criterio pedagógico, no por popularidad."
++description: "Tres destinos comprobables con videos, webinars o cursos sobre IA para docentes, indicando idioma, alcance y forma de uso."
++summary: "Elige una sola fuente según el tema que necesitas estudiar y prueba una idea sobre un material de tu asignatura."
+ tags: ["tutoriales", "videos", "YouTube", "herramientas IA", "formación docente"]
+ categories: ["video"]
+ areas: ["ia", "digital", "formacion"]
+-
+ showHero: false
+-showTableOfContents: false
++showTableOfContents: true
+ showReadingTime: false
+ showDate: true
+ showTaxonomies: true
+@@ -17,59 +16,54 @@
+ showBreadcrumbs: true
+ showSummary: true
+ showAuthor: false
+-
+-videoCanal: "Múltiples"
+-videoIdioma: "es / en"
++resourceType: "curaduría de fuentes audiovisuales"
++resourceLanguage: "en"
+ ---
+ 
+ {{< alert icon="link" cardColor="#e0f2fe" >}}
+-Curaduría de fuentes externas — los enlaces se abren en una nueva pestaña.
++Los tres destinos de esta página fueron comprobados el 23 de agosto de 2026. Se abren en sitios externos.
+ {{< /alert >}}
+ 
+-**Sobre la curaduría:** Esta página recoge cinco canales o series de YouTube útiles para docentes que prefieren aprender por video. La selección no se hizo por popularidad sino por dos criterios: pertinencia pedagógica (no solo demostración técnica) y mantenimiento sostenido (no canales abandonados después de un mes). Las opciones se ordenan por idioma y nivel, no por preferencia.
++{{< lead >}}
++Usa esta curaduría cuando prefieras aprender mediante demostraciones o sesiones grabadas. Elige una fuente por vez, empieza con una pregunta de tu asignatura y termina con una prueba sobre un material propio.
++{{< /lead >}}
+ 
+-## En español
++## Tres fuentes con destino comprobable
+ 
+-### IGNITE Capacitaciones (Latinoamérica)
++### AI for Education
+ 
+-Canal del programa IGNITE para docentes hispanohablantes con enfoque específico en integración de IA en aula. Los tutoriales son cortos (10-15 minutos) y prácticos. Útil para docentes que están empezando.
++- **Formato:** biblioteca de webinars, grabaciones y recursos para docentes.
++- **Idioma:** inglés.
++- **Alcance:** alfabetización en IA, evaluación, reglas institucionales y adopción responsable; buena parte del material parte de contextos escolares, por lo que hay que revisar qué puede trasladarse a educación superior.
++- **Úsala cuando:** necesites comparar enfoques para una conversación docente o una formación interna.
++- **Destino:** [AI for Education](https://www.aiforeducation.io/).
+ 
+-URL: [Buscar en YouTube: IGNITE Capacitaciones IA docentes]
++### Prompt Engineering, canal de YouTube
+ 
+-### UDGplus + Google AI (UdeG)
++- **Formato:** canal con explicaciones y demostraciones sobre modelos, instrucciones y herramientas.
++- **Idioma:** inglés.
++- **Alcance:** más técnico que pedagógico. Los videos sobre herramientas pueden quedar desactualizados; revisa la fecha y la interfaz antes de usarlos en una clase.
++- **Úsalo cuando:** necesites entender una función antes de decidir si tiene sentido pedagógico.
++- **Destino:** [Prompt Engineering en YouTube](https://www.youtube.com/@engineerprompt).
+ 
+-Serie de talleres grabados desde marzo de 2026 dentro del programa institucional. Material que la propia UdeG produjo para sus docentes; cubre integración de Gemini con Workspace for Education en contextos de aula real. La articulación con la oferta institucional lo hace especialmente pertinente para docentes UdeG.
++### Code.org / CodeAI: AI 101 for Educators
+ 
+-URL: Consultar canal institucional de UDGplus
++- **Formato:** curso gratuito de cinco módulos y series de video.
++- **Idioma:** inglés.
++- **Alcance:** está diseñado principalmente para profesorado escolar. Los módulos sobre funcionamiento, sesgo, privacidad y revisión de respuestas pueden adaptarse a formación universitaria; los ejemplos de nivel escolar no deben copiarse sin ajuste.
++- **Úsalo cuando:** necesites una secuencia introductoria sobre cómo funciona la IA y qué revisar antes de llevarla al aula.
++- **Destino:** [AI 101 for Educators](https://code.org/en-US/professional-learning/artificial-intelligence-101).
+ 
+-## En inglés
++## Cómo trabajar con una fuente
+ 
+-### AI for Education (canal y newsletter)
++1. Escribe una pregunta concreta antes de abrir el recurso.
++2. Elige un video, webinar o módulo que responda a esa pregunta.
++3. Anota el minuto o apartado donde aparece la idea que quieres probar.
++4. Prueba esa idea sobre una actividad, texto o tabla que ya utilices.
++5. Conserva el antes y el después, y anota qué revisarás con tu grupo.
+ 
+-Canal mantenido por especialistas en formación docente con IA. Series específicas sobre evaluación con IA, diseño de actividades y casos de aula. Calidad sostenida durante más de dos años.
+-
+-URL: [AI for Education](https://www.aiforeducation.io)
+-
+-### EngineerPrompt (Muhammad)
+-
+-Canal de YouTube mantenido por un AI/ML Expert con doctorado y reconocimiento Google Developer Expert. Foco más técnico que pedagógico, útil para docentes que quieren entender cómo funcionan los modelos antes de usarlos.
+-
+-URL: [EngineerPrompt en YouTube](https://www.youtube.com/@engineerprompt)
+-
+-### TeachAI (Code.org Foundation)
+-
+-Iniciativa con material en video sobre integración de IA en educación K-12 y, parcialmente, en educación superior. La calidad varía pero las series sobre marcos éticos y aprendizaje en grupos pequeños son sólidas.
+-
+-URL: [TeachAI](https://www.teachai.org)
+-
+-## Cómo aprovechar el video sin perderse
+-
+-Tres orientaciones operativas para que el aprendizaje por video sea efectivo:
+-
+-- **Una serie a la vez.** Saltar entre canales sin completar una serie produce dispersión. Mejor terminar una y evaluar antes de empezar la siguiente.
+-- **Tomar notas operativas, no aspiracionales.** Lo útil no es lo que el video promete, sino lo que el docente puede implementar mañana en su asignatura.
+-- **Probar cada técnica en una tarea propia.** El aprendizaje se consolida cuando se traduce a la práctica. Sin práctica, el video es entretenimiento informado.
++No basta con terminar una lista de reproducción. La fuente sirve si te permite explicar qué cambiaste, qué no trasladarás a tu contexto y cómo comprobarás la decisión.
+ 
+ ## Lecturas relacionadas
+ 
+-El [video de Sal Khan](/recursos/videos/sal-khan-ia-educacion/) ofrece la perspectiva sobre el rol del docente en la era de IA; el [curso completo de Learn Prompting](/recursos/videos/learn-prompting-curso-completo/) cubre la dimensión técnica de la ingeniería de prompts; la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/) ofrece una versión escrita adaptada al contexto pedagógico.
++La [charla de Sal Khan](/recursos/videos/sal-khan-ia-educacion/) sirve para abrir una conversación sobre tutoría y rol docente. La [guía de Learn Prompting](/recursos/videos/learn-prompting-curso-completo/) permite practicar el diseño de instrucciones. Para una versión situada en la docencia universitaria, consulta la [guía de ingeniería de prompts para docentes](/ia-educacion/guias/ingenieria-de-prompts-para-docentes/).

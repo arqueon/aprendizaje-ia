@@ -7,6 +7,7 @@ categories: ["concepto"]
 areas: ["ia"]
 showHero: true
 summary: "Sistemas algorítmicos capaces de generar contenido original a partir de patrones."
+description: "Sistemas algorítmicos capaces de generar contenido original a partir de patrones."
 ---
 
 La **IA generativa** se refiere a una subcategoría de la inteligencia artificial basada en modelos fundacionales (como los LLMs) que están entrenados en grandes corpus de datos. Su principal característica es la capacidad de producir nuevo texto, imágenes, código o estructuras lógicas que imitan la producción humana.

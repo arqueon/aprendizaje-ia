@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://opus.lib.uts.edu.au/rest/bitstreams/9d8f6ee7-5fbf-438a-9125-0414e1e2b866/retrieve",
+      "title": "From authentic assessment to authenticity in assessment",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "possibilities for assessment. These are (1) psychological authenticity; (2) ontological fidelity; and (3) practice theory perspectives.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Published online: 19 Oct 2023.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://research.monash.edu/en/publications/authentic-assessment-from-panacea-to-criticality",
+      "title": "Authentic assessment: from panacea to criticality",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Despite literature supporting its potential benefits, there is limited evidence on the relationship between authentic assessment and these challenges.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10382961",
+      "title": "GPT detectors are biased against non-native English writers",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "they incorrectly labeled more than half of the TOEFL essays as \"AI-generated\" (average false-positive rate: 61.3%).",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "In our study, we evaluated the performance of seven widely used GPT detectors on 91 TOEFL (Test of English as a Foreign Language) essays from a Chinese forum and 88 US eighth-grade essays from the Hewlett Foundation’s ASAP dataset.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "While the detectors accurately classified the US student essays, they incorrectly labeled more than half of the TOEFL essays as \"AI-generated\" (average false-positive rate: 61.3%).",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://link.springer.com/article/10.1007/s40979-023-00146-z",
+      "title": "Testing of detection tools for AI-generated text",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "The researchers conclude that the available detection tools are neither accurate nor reliable and have a main bias towards classifying the output as human-written rather than detecting AI-generated text.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://assess.ucr.edu/sites/default/files/2019-02/blackwiliam_1998.pdf",
+      "title": "Assessment and Classroom Learning",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Several studies show firm evidence that innovations designed to strengthen the frequent feedback that students receive about their learning yield substantial learning gains.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "be interpreted as encompassing all those activities undertaken by teachers, and/or by their students, which provide information to be used as feedback to modify the",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "teaching and learning activities in which they are engaged.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://link.springer.com/article/10.1007/s40979-023-00144-1",
+      "title": "Postplagiarism",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "To extend this argument to educational contexts, students remain responsible for the quality and credibility of the work they submit for assessment.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "If students cannot demonstrate their own learning, then there may be reason to question whether academic integrity has been violated.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Citing, referencing, and attribution remain important skills.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Attribution, on the other hand, is about knowing others’ work, being able to speak to it accurately, and showing respect for others’ contributions.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://files.eric.ed.gov/fulltext/EJ1382355.pdf",
+      "title": "Academic integrity considerations of AI LLMs",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "we conclude that it is not the student use of any AI tools that defines whether plagiarism or a breach of academic integrity has occurred, but whether any use is made clear by the student.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://pearl.plymouth.ac.uk/cgi/viewcontent.cgi?article=1310&context=bms-research",
+      "title": "Chatting and cheating repository copy",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "Firstly, academic staff can provide clear and detailed instructions to students regarding how to structure their assignments.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "Whatever happens on the technology side, this should serve as a wake-up call to university staff to think very carefully about the design of their assessments and ways to ensure that academic dishonesty is clearly explained to students and minimised.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://www.cedtech.net/download/human-and-ai-generated-feedback-in-higher-education-a-systematic-review-of-effectiveness-and-student-17863.pdf",
+      "title": "Human and AI-generated feedback systematic review PDF",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "This review included 8 studies with 461 students. ChatGPT feedback was detailed and rapid, while human feedback was valued for its personalization and emotional support.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "However, human supervision is essential to ensure feedback is nuanced and contextually appropriate.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://www.academicintegrity.org/aws/ICAI/pt/sp/values",
+      "title": "ICAI Fundamental Values",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "The International Center for Academic Integrity defines academic integrity as a commitment, even in the face of adversity, to six fundamental values: honesty, trust, fairness, respect, responsibility, and courage.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://figshare.com/articles/journal_contribution/Developing_evaluative_judgement_for_a_time_of_generative_artificial_intelligence/25720845",
+      "title": "Developing evaluative judgement for a time of generative artificial intelligence",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "We propose three foci: (1) developing evaluative judgement of genera-\ntive AI outputs; (2) developing evaluative judgement of generative AI\nprocesses; and (3) generative AI assessment of student evaluative judge-\nments.",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "The relationship between evaluative judgement and generative AI is more than just the application of human judgement to machine outputs. We have a collective responsibility, as educators and learners, to ensure that humans do not relinquish their roles as arbiters of quality.",
+          "added": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://api.crossref.org/works/10.1080/02602938.2023.2271193",
+      "title": "Crossref record: From authentic assessment to authenticity in assessment",
+      "accessed": "2026-08-24",
+      "quotes": [
+        {
+          "text": "\"published-print\": {\n    \"date-parts\": [\n      [\n        2024,\n        5,\n        18\n      ]\n    ]\n  }",
+          "added": "2026-08-24"
+        },
+        {
+          "text": "\"volume\": \"49\",\n  \"issue\": \"4\",\n  \"page\": \"499-510\"",
+          "added": "2026-08-24"
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 ---
-title: "ABP con IA — proyecto colaborativo documentado"
+title: "Plantilla de proyecto ABP con IA para 14 semanas"
 date: 2026-04-14
+lastmod: 2026-08-24
 draft: false
-description: "Práctica documentada de aprendizaje basado en proyectos donde equipos de estudiantes usan IA en cada fase: definición del problema, investigación, iteración y presentación."
-summary: "Un proyecto donde los estudiantes investigan un problema real usando IA como interlocutor en cada fase, documentando sus decisiones y descartando lo que la IA propone sin fundamento."
+description: "Plantilla propuesta de aprendizaje basado en proyectos donde equipos de estudiantes usan IA en cada fase: definición del problema, investigación, iteración y presentación."
+summary: "Una plantilla semestral para que equipos investiguen un problema real usando IA como interlocutor en cada fase, documentando sus decisiones y descartando lo que la IA propone sin fundamento. Es una propuesta para adaptar, no el reporte de una implementación."
 tags: ["ABP", "proyecto colaborativo", "IA generativa", "trabajo en equipo", "Gemini", "Claude", "licenciatura", "híbrida"]
 categories: ["practica-pedagogica"]
 areas: ["ia", "pedagogia"]
@@ -19,14 +20,28 @@ asignatura: "Multidisciplinar — adaptable a cualquier licenciatura"
 ---
 
 {{< lead >}}
-¿Qué ocurre cuando un equipo de estudiantes enfrenta un problema complejo y tiene acceso a IA como interlocutor durante todo el proceso? Esta práctica documenta un proyecto de ABP donde la IA no da respuestas: genera preguntas, desafía hipótesis y obliga a los estudiantes a justificar cada decisión.
+¿Qué ocurre cuando un equipo de estudiantes enfrenta un problema complejo y tiene acceso a IA como interlocutor durante todo el proceso? Esta plantilla propone un proyecto de ABP donde la IA no da respuestas: genera preguntas, desafía hipótesis y obliga a los estudiantes a justificar cada decisión.
 {{< /lead >}}
 
-## Contexto
+{{< alert icon="flask" type="warning" >}}
+**Estado: actividad propuesta.** Esta página es una plantilla para planificar un semestre,
+no el reporte de una implementación observada. No existe todavía un expediente docente
+—curso, grupo, fecha, materiales aplicados, resultados— que la respalde como caso real.
+Quien la aplique deberá definir sus propias condiciones y documentar lo que ocurra antes
+de presentarla como práctica implementada.
+{{< /alert >}}
 
-Grupo de 28 estudiantes de cuarto semestre, modalidad híbrida. La asignatura requiere un proyecto integrador semestral vinculado con un problema real del entorno local. Históricamente, los estudiantes tienden a copiar soluciones genéricas de internet sin adaptar al contexto.
+## Condiciones que el docente debe definir
 
-La incorporación de IA busca resolver dos problemas: (1) la falta de profundidad en la investigación y (2) la ausencia de iteración sobre los productos intermedios.
+La plantilla asume una asignatura con proyecto integrador semestral de unas 14 semanas, en cualquier modalidad. Antes de aplicarla conviene fijar por escrito:
+
+- el tamaño del grupo y de los equipos, y cómo se conformarán;
+- el tipo de problema del entorno local que se aceptará como punto de partida;
+- qué herramientas de IA están disponibles para todo el estudiantado, sin costo que excluya a nadie;
+- qué datos pueden compartirse con esas herramientas y cuáles no;
+- cómo se archivará la evidencia del proceso (bitácoras, versiones, decisiones).
+
+La plantilla está pensada para dos problemas frecuentes en proyectos integradores: la falta de profundidad en la investigación y la ausencia de iteración sobre los productos intermedios.
 
 ## Objetivo pedagógico
 
@@ -36,6 +51,18 @@ Desarrollar la capacidad de investigar, analizar y proponer soluciones a un prob
 - Usar IA para contrastar hipótesis sin delegar el juicio
 - Documentar el proceso de co-producción persona-IA con trazabilidad
 - Defender decisiones ante un panel evaluador justificando qué aceptó y qué rechazó de la IA
+
+## Problema inicial de ejemplo
+
+Para probar el calendario sin pedir al docente que invente el caso, la plantilla incluye un problema de arranque adaptable:
+
+> **Acceso al agua en una colonia periurbana.** La colonia recibe agua por tandeo dos días
+> por semana. El equipo debe caracterizar el problema (¿cuántas viviendas, qué fuentes
+> alternativas, qué costos asume cada hogar?), formular una hipótesis sobre el factor que
+> más agrava la situación y proponer una intervención viable a escala de colonia,
+> justificada con evidencia verificada.
+
+Cualquier problema local sirve si cumple tres condiciones: tiene datos públicos consultables, admite más de una explicación plausible y permite proponer una intervención acotada. El equipo debe reformular el problema con sus propias variables; el ejemplo solo fija el punto de partida.
 
 ## Cómo se integra la IA
 
@@ -54,9 +81,9 @@ Los equipos usan al menos dos modelos de IA distintos (Gemini + Claude, o DeepSe
 {{< timeline >}}
 
 {{< timelineItem icon="map" header="Semana 1–2 — Definición del problema" subheader="Trabajo en equipo + IA" >}}
-Cada equipo selecciona un problema del entorno local. Usa IA para generar variantes del problema con mayor complejidad. El equipo decide cuál adoptar y documenta por qué descartó las alternativas.
+Cada equipo selecciona un problema del entorno local (o adapta el problema de ejemplo). Usa IA para generar variantes del problema con mayor complejidad. El equipo decide cuál adoptar y documenta por qué descartó las alternativas.
 
-<strong>Entregable:</strong> Documento de definición del problema (2 páginas) + log de interacciones con la IA.
+<strong>Entregable:</strong> Documento de definición del problema (2 páginas) + bitácora breve de fuentes, decisiones y cambios.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="magnifying-glass" header="Semana 3–5 — Investigación" subheader="Trabajo autónomo con verificación cruzada" >}}
@@ -78,7 +105,7 @@ Los equipos desarrollan su propuesta de solución en tres iteraciones. Cada vers
 {{< /timelineItem >}}
 
 {{< timelineItem icon="presentation-screen" header="Semana 13–14 — Presentación y defensa" subheader="Panel evaluador" >}}
-Cada equipo presenta su proyecto ante un panel formado por el docente, un evaluador externo (cuando sea posible) y estudiantes de otros equipos. El panel puede preguntar sobre cualquier decisión documentada en los logs.
+Cada equipo presenta su proyecto ante un panel formado por el docente, un evaluador externo (cuando sea posible) y estudiantes de otros equipos. El panel puede preguntar sobre cualquier decisión registrada en la bitácora.
 
 <strong>Entregable:</strong> Presentación + portafolio completo del proceso + reflexión individual.
 {{< /timelineItem >}}
@@ -102,18 +129,31 @@ Se usa una combinación de evaluación formativa (durante el proceso) y evaluaci
 **El portafolio de proceso vale más que el producto.** El 60% de la evaluación se concentra en el proceso (investigación, iteración, documentación). Esto incentiva que los estudiantes se centren en aprender, no en entregar un documento bonito generado por IA.
 {{< /alert >}}
 
-## Resultados y reflexión
+## Alternativa sin IA
 
-En la primera implementación, se observó que:
+La misma estructura funciona sin herramientas generativas: las variantes del problema se construyen en discusión de equipo con preguntas guía del docente; la síntesis de fuentes se hace por reparto de lecturas y fichas; el contraste de hipótesis se realiza con revisión entre pares asignados como «abogados del diablo»; y las iteraciones reciben retroalimentación en asesorías docentes calendarizadas. Ofrecer esta ruta permite participar a quien no puede o no quiere usar IA, y sirve como grupo de comparación informal si el docente quiere observar diferencias.
 
-- Los equipos que usaron dos modelos de IA distintos generaron hipótesis con mayor matiz que los que usaron solo uno
-- El requisito de verificación de fuentes eliminó el problema de las referencias inventadas por la IA
-- La documentación de logs de interacción funcionó como mecanismo natural de transparencia: los estudiantes se sintieron más cómodos mostrando cómo usaron la IA cuando el marco lo normaliza
+## Riesgos y condiciones de aplicación
 
-**Área de mejora:** algunos equipos usaron la IA de forma superficial en las primeras semanas (preguntas genéricas, aceptación acrítica de respuestas). Se añadió una sesión de modelado donde el docente muestra qué es un diálogo productivo con IA y qué es uno superficial.
+- **Exposición de datos.** Los problemas locales pueden involucrar información de personas o comunidades; ningún dato personal debe pegarse en una herramienta de IA.
+- **Delegación del análisis.** Si los entregables no exigen justificar qué se aceptó y qué se rechazó, los equipos tienden a adoptar la salida de la IA sin juicio propio.
+- **Referencias inventadas.** Toda fuente sugerida por la IA debe verificarse en bases de datos antes de entrar a la matriz de evidencia; la matriz existe para eso.
+- **Acceso desigual.** Si no todo el estudiantado dispone de las mismas herramientas, el docente debe garantizar una vía equivalente (herramientas gratuitas o la alternativa sin IA).
+
+## Preguntas de revisión tras aplicar la propuesta
+
+Quien aplique esta plantilla puede convertirla en práctica documentada respondiendo, con evidencia:
+
+- ¿Qué produjo el uso de dos modelos distintos frente a uno solo?
+- ¿La verificación obligatoria de fuentes evitó referencias inventadas? ¿Cuántas se detectaron?
+- ¿La bitácora de decisiones funcionó como mecanismo de transparencia o se llenó por trámite?
+- ¿Qué equipos usaron la IA de forma superficial y qué ajuste de encuadre lo corrigió?
+- ¿Qué cambiaría en el calendario, las entregas o la ponderación para la siguiente aplicación?
 
 ## Referencias
 
 - Barrows, H. S. (1996). Problem-based learning in medicine and beyond: A brief overview. *New Directions for Teaching and Learning*, *1996*(68), 3–12. https://doi.org/10.1002/tl.37219966804
 - Krajcik, J. S., & Shin, N. (2014). Project-based learning. En R. K. Sawyer (Ed.), *The Cambridge handbook of the learning sciences* (2.ª ed., pp. 275–297). Cambridge University Press.
 - Loyens, S. M. M., Magda, J., & Rikers, R. M. J. P. (2008). Self-directed learning in problem-based learning and its relationships with self-regulated learning. *Educational Psychology Review*, *20*(4), 411–427. https://doi.org/10.1007/s10648-008-9082-7
+
+Las referencias respaldan el método ABP general, no esta plantilla en particular: ninguna de ellas evaluó esta secuencia con IA.

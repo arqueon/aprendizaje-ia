@@ -77,7 +77,7 @@ El rediseño se concentra en cuatro tipos de cambios:
 - **De homogéneo a contextualizado** — sustituir consignas genéricas por consignas que requieran contexto local que la IA no conoce.
 - **De respuesta única a defensa oral** — añadir momentos de defensa donde el estudiante explique sus decisiones frente a un evaluador.
 
-La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece el método operativo y la [práctica de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) un caso documentado.
+La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece el método operativo y la [actividad propuesta de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) una secuencia adaptable para aplicarlo.
 
 ## Paso 5 — Articular syllabus, rúbricas y tutorías
 
@@ -113,7 +113,7 @@ Una integración curricular bien hecha se observa con cinco indicadores que conv
 
 El [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) sostiene los principios; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) los traducen a decisiones concretas; la [guía de evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) opera el paso 4.
 
-## Referencias
+{{< referencias >}}
 
 Bearman, M., Tai, J., Dawson, P., Boud, D., & Ajjawi, R. (2024). Developing evaluative judgement for a time of generative artificial intelligence. *Assessment & Evaluation in Higher Education*, 49(6), 893–905. https://doi.org/10.1080/02602938.2024.2335321
 
@@ -124,3 +124,5 @@ Southworth, J., Migliaccio, K., Glover, J., Glover, J. N., Reed, D., McCarty, C.
 University of Sydney. (2025). *Navigating AI in higher education: Tasks ahead for 2025 and 2026*. Teaching@Sydney. https://educational-innovation.sydney.edu.au/teaching@sydney/navigating-ai-in-higher-education-tasks-ahead-for-2025-and-2026/
 
 UNESCO. (2024). *AI competency framework for students*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-students
+
+{{< /referencias >}}

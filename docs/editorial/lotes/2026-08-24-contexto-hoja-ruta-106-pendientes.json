@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-08-24",
+  "basis": "triage por función editorial, ruta y familia conceptual; no equivale a decisión humana ni autoriza edición",
+  "active_sources": 164,
+  "active_decisions": 58,
+  "pending_sources": 106,
+  "lots": [
+    {
+      "lot": "09",
+      "title": "Autenticidad, integridad y evaluación",
+      "count": 5,
+      "paths": [
+        "content/blog/ia-generativa-evaluacion-autentica/index.md",
+        "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
+        "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
+        "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
+        "content/recursos/glosario/integridad-academica/index.md"
+      ]
+    },
+    {
+      "lot": "10",
+      "title": "Evidencia y recursos para evaluar con IA",
+      "count": 4,
+      "paths": [
+        "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
+        "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
+        "content/recursos/articulos/next-era-assessment-dec/index.md",
+        "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md"
+      ]
+    },
+    {
+      "lot": "11",
+      "title": "Agenciamiento, cocreación y alianzas pedagógicas",
+      "count": 6,
+      "paths": [
+        "content/blog/agenciamiento-humano-ia/index.md",
+        "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
+        "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
+        "content/formacion-docente/alfabetizacion-co-creacion/index.md",
+        "content/formacion-docente/alfabetizacion-operativa/index.md",
+        "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md"
+      ]
+    },
+    {
+      "lot": "12",
+      "title": "Alfabetización y pensamiento crítico",
+      "count": 6,
+      "paths": [
+        "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
+        "content/formacion-docente/alfabetizacion/index.md",
+        "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
+        "content/formacion-docente/mapa-literacidades-ia/index.md",
+        "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
+        "content/recursos/glosario/alfabetizacion-ia/index.md"
+      ]
+    },
+    {
+      "lot": "13",
+      "title": "Aprendizaje híbrido e integración curricular",
+      "count": 6,
+      "paths": [
+        "content/formacion-docente/aprendizaje-hibrido/index.md",
+        "content/ia-educacion/integracion-curricular/_index.md",
+        "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
+        "content/ia-educacion/guias/integracion-curricular-ia/index.md",
+        "content/ia-educacion/que-es-la-educacion-digital/index.md",
+        "content/recursos/glosario/aprendizaje-hibrido/index.md"
+      ]
+    },
+    {
+      "lot": "14",
+      "title": "Aprendizaje rizomático y transformación pedagógica",
+      "count": 5,
+      "paths": [
+        "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
+        "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
+        "content/recursos/articulos/cormier-rhizomatic-education/index.md",
+        "content/recursos/glosario/aprendizaje-transformativo/index.md",
+        "content/formacion-docente/transformacion-pedagogica-digital/index.md"
+      ]
+    },
+    {
+      "lot": "15",
+      "title": "Rol docente, formación continua y redes",
+      "count": 4,
+      "paths": [
+        "content/blog/rol-docente-era-ia/index.md",
+        "content/formacion-docente/formacion-continua/index.md",
+        "content/formacion-docente/redes/index.md",
+        "content/formacion-docente/syllabus-portafolio/index.md"
+      ]
+    },
+    {
+      "lot": "16",
+      "title": "Ética, regulación y política institucional",
+      "count": 8,
+      "paths": [
+        "content/ia-educacion/etica-y-transparencia/_index.md",
+        "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
+        "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
+        "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
+        "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
+        "content/ia-educacion/guias/privacidad-datos-ia/index.md",
+        "content/recursos/politica-ia-udeg/index.md",
+        "content/recursos/institucionales/index.md"
+      ]
+    },
+    {
+      "lot": "17",
+      "title": "Sesgo, transparencia y límites críticos",
+      "count": 5,
+      "paths": [
+        "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
+        "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
+        "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
+        "content/recursos/glosario/sesgo-algoritmico/index.md",
+        "content/recursos/articulos/selwyn-limites-ia-educacion/index.md"
+      ]
+    },
+    {
+      "lot": "18",
+      "title": "Tendencias y decisión institucional",
+      "count": 4,
+      "paths": [
+        "content/ia-educacion/tendencias/_index.md",
+        "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
+        "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
+        "content/ia-educacion/rutas/decision-institucional-ia/index.md"
+      ]
+    },
+    {
+      "lot": "19",
+      "title": "Investigación y estudios del Observatorio",
+      "count": 6,
+      "paths": [
+        "content/ia-educacion/investigacion/index.md",
+        "content/observatorio/estudios/creatividad-humana-ia/index.md",
+        "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
+        "content/observatorio/estudios/habitar-ia-simondon/index.md",
+        "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
+        "content/recursos/glosario/descarga-cognitiva/index.md"
+      ]
+    },
+    {
+      "lot": "20",
+      "title": "Documentación, monitoreo y buenas prácticas",
+      "count": 5,
+      "paths": [
+        "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
+        "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
+        "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
+        "content/observatorio/guias/_index.md",
+        "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md"
+      ]
+    },
+    {
+      "lot": "21",
+      "title": "Herramientas, flujos y runtime",
+      "count": 6,
+      "paths": [
+        "content/recursos/catalogo-herramientas-ia/index.md",
+        "content/recursos/comparativa-llm-pedagogica/index.md",
+        "content/recursos/repositorio-prompts-docentes/index.md",
+        "content/laboratorio/h5p-runtime/index.md",
+        "content/laboratorio/integracion-ia/_index.md",
+        "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md"
+      ]
+    },
+    {
+      "lot": "22",
+      "title": "Portada, orientaciones y licencia",
+      "count": 3,
+      "paths": [
+        "content/_index.md",
+        "content/ia-educacion/orientaciones/index.md",
+        "content/licencia/index.md"
+      ]
+    },
+    {
+      "lot": "23",
+      "title": "Glosario pedagógico restante",
+      "count": 5,
+      "paths": [
+        "content/recursos/glosario/aprendizaje-basado-en-problemas/index.md",
+        "content/recursos/glosario/aula-invertida/index.md",
+        "content/recursos/glosario/pensamiento-critico/index.md",
+        "content/recursos/glosario/ia-generativa/index.md",
+        "content/recursos/glosario/tutor-inteligente/index.md"
+      ]
+    },
+    {
+      "lot": "24",
+      "title": "Productos escritos y orales",
+      "count": 8,
+      "paths": [
+        "content/ia-educacion/productos-de-aprendizaje/articulo/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/cronica/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/ensayo/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/monografia/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/nota/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/resena/index.md"
+      ]
+    },
+    {
+      "lot": "25",
+      "title": "Productos de análisis e investigación",
+      "count": 6,
+      "paths": [
+        "content/ia-educacion/productos-de-aprendizaje/analisis-de-casos/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md"
+      ]
+    },
+    {
+      "lot": "26",
+      "title": "Productos técnicos y de sistemas A",
+      "count": 7,
+      "paths": [
+        "content/ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/programacion/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+      ]
+    },
+    {
+      "lot": "27",
+      "title": "Productos técnicos y de sistemas B",
+      "count": 7,
+      "paths": [
+        "content/ia-educacion/productos-de-aprendizaje/_index.md",
+        "content/ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
+        "content/ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
+      ]
+    }
+  ],
+  "verification": {
+    "assigned": 106,
+    "unique": 106,
+    "duplicates": 0,
+    "unassigned": 0
+  }
+}
