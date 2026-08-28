@@ -32,7 +32,9 @@
     </div>
 
   {{- else if or (eq $fallback.type "single-choice") (eq $fallback.type "multiple-response") }}
+    {{- if and $fallback.question (ne (trim $fallback.question " ") (trim $entry.title " ")) }}
     <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    {{- end }}
     <ol class="alm-curso-interactivo__options">
       {{- range $fallback.options }}
         <li>{{ .text }}</li>
@@ -48,22 +50,26 @@
           </li>
         {{- end }}
       </ul>
-      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
-      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackCorrect }}<p><strong>Si tu respuesta fue la esperada:</strong> {{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p><strong>Si no lo fue:</strong> {{ . }}</p>{{ end }}
     </details>
 
   {{- else if eq $fallback.type "fill-blank" }}
+    {{- if and $fallback.question (ne (trim $fallback.question " ") (trim $entry.title " ")) }}
     <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    {{- end }}
     <p class="alm-curso-interactivo__write">Escribe tu respuesta en tus notas antes de abrir la solución.</p>
     <details class="alm-curso-interactivo__solution">
       <summary>Ver respuesta y explicación</summary>
       <p><strong>Respuesta esperada:</strong> {{ delimit $fallback.answers ", " }}</p>
-      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
-      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackCorrect }}<p><strong>Si tu respuesta fue la esperada:</strong> {{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p><strong>Si no lo fue:</strong> {{ . }}</p>{{ end }}
     </details>
 
   {{- else if eq $fallback.type "matching" }}
+    {{- if and $fallback.question (ne (trim $fallback.question " ") (trim $entry.title " ")) }}
     <p class="alm-curso-interactivo__question">{{ $fallback.question }}</p>
+    {{- end }}
     <div class="alm-curso-interactivo__attempt">
       <p><strong>Conceptos o momentos:</strong></p>
       <ol>
@@ -83,8 +89,8 @@
           <dd>{{ .match }}</dd>
         {{- end }}
       </dl>
-      {{- with $fallback.feedbackCorrect }}<p>{{ . }}</p>{{ end }}
-      {{- with $fallback.feedbackIncorrect }}<p>{{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackCorrect }}<p><strong>Si tu respuesta fue la esperada:</strong> {{ . }}</p>{{ end }}
+      {{- with $fallback.feedbackIncorrect }}<p><strong>Si no lo fue:</strong> {{ . }}</p>{{ end }}
     </details>
 
   {{- else if eq $fallback.type "sorting" }}
