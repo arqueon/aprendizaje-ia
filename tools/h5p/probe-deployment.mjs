@@ -1049,7 +1049,10 @@ try {
       cachePolicy: "mutable"
     },
     {
-      path: "fonts/piazzolla-variable.woff2",
+      // Newsreader sustituyo a Piazzolla en el redisenno Almagre (f41f795,
+      // 2026-08-23). Esta sonda siguio exigiendo la fuente retirada y hacia
+      // fallar verify-deployment en cada push a main desde entonces.
+      path: "fonts/newsreader-variable.woff2",
       contentType: /^font\/woff2\b/i,
       cachePolicy: "neutral"
     }

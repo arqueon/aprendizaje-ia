@@ -15,7 +15,10 @@ compatible con la paleta C. No nombran una segunda dirección visual.
 - ningún selector de apariencia;
 - ninguna respuesta a `prefers-color-scheme`;
 - ninguna preferencia `appearance=dark` heredada de visitas anteriores;
-- tipografías autoalojadas: Piazzolla, Inter y Archivo Narrow;
+- tipografías autoalojadas: Newsreader, Inter y Archivo Narrow. **Nota 2026-08-28:** este
+  documento describe la identidad C original; Piazzolla fue sustituida por Newsreader en el
+  rediseño Almagre (`f41f795`, 2026-08-23) y ya no se sirve. Los hashes de Piazzolla que
+  aparecen abajo son históricos;
 - los SVG y Mermaid modificados usan únicamente roles C con redundancia de trazo y texto;
 - foco visible, contraste, movimiento reducido, `forced-colors` e impresión se conservan;
 - los H5P futuros recibirán los mismos tokens mediante su tema interior;
@@ -41,7 +44,8 @@ compatible con la paleta C. No nombran una segunda dirección visual.
 
 Las fuentes se publican como WOFF2 variables y se acompañan de sus licencias:
 
-- Piazzolla — SIL Open Font License 1.1;
+- ~~Piazzolla~~ (retirada 2026-08-23) — SIL Open Font License 1.1;
+- Newsreader — SIL Open Font License 1.1;
 - Inter — SIL Open Font License 1.1;
 - Archivo Narrow — SIL Open Font License 1.1.
 

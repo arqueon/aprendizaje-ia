@@ -54,7 +54,7 @@ La tipografía se autoaloja:
 
 | Función | Familia |
 |---|---|
-| Jerarquía editorial | Piazzolla |
+| Jerarquía editorial | ~~Piazzolla~~ → **Newsreader** (sustituida en `f41f795`, 2026-08-23) |
 | Lectura continua | Inter |
 | Navegación, etiquetas y datos | Archivo Narrow |
 
@@ -110,7 +110,10 @@ con `start_url` y `scope` relativos, fondo papel C e iconos resolubles bajo la s
 | Consola | cero errores y cero excepciones |
 | GitHub Pages bajo `/aprendizaje-ia/` | matriz completa aprobada |
 
-La automatización reproducible vive en `tools/qa-single-theme.mjs`.
+~~La automatización reproducible vive en `tools/qa-single-theme.mjs`.~~ **Retirada el
+2026-08-28**: su premisa de apariencia única dejó de ser cierta con el rediseño Almagre.
+Ver `docs/design/RETIRO-qa-single-theme.md`. La apariencia la cubren ahora `qa:routes-tables`,
+`qa:course-rise`, `qa:shortcode-library` y `qa:h5p`, todas en CI.
 
 ## Revisión independiente
 
