@@ -175,8 +175,15 @@ function routeFromURL(value, baseURL) {
   return url.pathname.slice(basePath.length).replace(/^\/+/, "");
 }
 
-async function inspectEntry(browser, baseURL, route, viewport, scenario, name) {
-  const context = await browser.newContext({ viewport, reducedMotion: "reduce" });
+async function inspectEntry(browser, baseURL, route, viewport, scenario, name, appearance = "light") {
+  // Hasta 2026-08-28 esta comprobacion solo se ejecutaba en claro, de modo que el
+  // modo oscuro introducido en agosto nunca paso por axe ni por contraste.
+  const context = await browser.newContext({ viewport, reducedMotion: "reduce", colorScheme: appearance });
+  if (appearance === "dark") {
+    await context.addInitScript(() => {
+      try { localStorage.setItem("appearance", "dark"); } catch {}
+    });
+  }
   const externalRequests = [];
   const writes = [];
   const consoleErrors = [];
@@ -220,6 +227,18 @@ async function inspectEntry(browser, baseURL, route, viewport, scenario, name) {
       h5p: document.querySelectorAll("[data-udg-h5p]").length
     };
   });
+  // La apariencia debe ser observable, o la pasada oscura no seria falsable:
+  // un contexto que no llegara a activar html.dark daria exactamente los mismos
+  // resultados que el claro y pasaria sin comprobar nada.
+  const effectiveAppearance = await page.evaluate(() => ({
+    dark: document.documentElement.classList.contains("dark"),
+    colorScheme: getComputedStyle(document.documentElement).colorScheme,
+    bodyBackground: getComputedStyle(document.body).backgroundColor
+  }));
+  assert(
+    effectiveAppearance.dark === (appearance === "dark"),
+    `${scenario} ${name}: apariencia solicitada ${appearance} pero html.dark=${effectiveAppearance.dark}`
+  );
   assert(snapshot.heading === "Elige tu ruta", `${scenario} ${name}: falta el encabezado`);
   assert(
     snapshot.routeLinks.every((count) => count === 1),
@@ -247,11 +266,24 @@ async function inspectEntry(browser, baseURL, route, viewport, scenario, name) {
     await chooser.screenshot({ path: path.join(evidenceDir, `rutas-${name}.png`) });
   }
   await context.close();
-  return { ...snapshot, axeSeriousCritical, externalRequests, writes, consoleErrors };
+  return {
+    ...snapshot,
+    appearance,
+    effectiveAppearance,
+    axeSeriousCritical,
+    externalRequests,
+    writes,
+    consoleErrors
+  };
 }
 
-async function inspectTable(browser, baseURL, route, viewport, scenario, name, selector) {
-  const context = await browser.newContext({ viewport, reducedMotion: "reduce" });
+async function inspectTable(browser, baseURL, route, viewport, scenario, name, selector, appearance = "light") {
+  const context = await browser.newContext({ viewport, reducedMotion: "reduce", colorScheme: appearance });
+  if (appearance === "dark") {
+    await context.addInitScript(() => {
+      try { localStorage.setItem("appearance", "dark"); } catch {}
+    });
+  }
   const page = await context.newPage();
   const response = await page.goto(new URL(route, baseURL).href, { waitUntil: "networkidle" });
   assert(response?.status() === 200, `${scenario} ${name}: HTTP ${response?.status()}`);
@@ -392,6 +424,26 @@ try {
         scenario.name,
         "ia-mobile"
       );
+      // Pasada oscura: axe, contraste, overflow y enlaces en la apariencia que el
+      // redisenno de agosto introdujo y que ninguna comprobacion ejercitaba.
+      const homeDesktopDark = await inspectEntry(
+        browser,
+        server.baseURL,
+        "",
+        { width: 1440, height: 1000 },
+        scenario.name,
+        "inicio-desktop-dark",
+        "dark"
+      );
+      const iaMobileDark = await inspectEntry(
+        browser,
+        server.baseURL,
+        "ia-educacion/",
+        { width: 375, height: 812 },
+        scenario.name,
+        "ia-mobile-dark",
+        "dark"
+      );
       const comparisonMobile = await inspectTable(
         browser,
         server.baseURL,
@@ -450,7 +502,9 @@ try {
         matrixDesktop,
         automaticEssayTables: essayResponse.count,
         automaticEssayTableIdsUnique: essayResponse.uniqueIds === essayResponse.count,
-        preservedExecutiveTables: decisionResponse
+        preservedExecutiveTables: decisionResponse,
+        homeDesktopDark,
+        iaMobileDark
       };
     } finally {
       await server.close();

@@ -98,7 +98,8 @@ Por ello esta versión:
 ## Presentación
 
 El host y la actividad usan papel, tinta marina, almagre, olivo y los roles semánticos de
-la identidad C. Dentro del iframe se cargan Piazzolla e Inter autoalojadas, se reasignan
+la identidad C. Dentro del iframe se cargan Newsreader e Inter autoalojadas (Piazzolla se
+retiró el 2026-08-23), se reasignan
 las variables del tema H5P, se conserva foco visible y se respeta
 `prefers-reduced-motion`. La fixture combina texto, un esquema SVG, control y
 retroalimentación estilizada.

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-28T17:58:07.469Z",
+  "checkedAt": "2026-08-28T20:25:28.038Z",
   "h5pBaseline": {
     "catalogContents": 39,
     "pages": 18,
@@ -24,6 +24,12 @@
           1
         ],
         "h5p": 0,
+        "appearance": "light",
+        "effectiveAppearance": {
+          "dark": false,
+          "colorScheme": "light",
+          "bodyBackground": "rgb(245, 243, 238)"
+        },
         "axeSeriousCritical": [],
         "externalRequests": [],
         "writes": [],
@@ -39,6 +45,12 @@
           1
         ],
         "h5p": 0,
+        "appearance": "light",
+        "effectiveAppearance": {
+          "dark": false,
+          "colorScheme": "light",
+          "bodyBackground": "rgb(245, 243, 238)"
+        },
         "axeSeriousCritical": [],
         "externalRequests": [],
         "writes": [],
@@ -88,7 +100,49 @@
       },
       "automaticEssayTables": 8,
       "automaticEssayTableIdsUnique": true,
-      "preservedExecutiveTables": 2
+      "preservedExecutiveTables": 2,
+      "homeDesktopDark": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "appearance": "dark",
+        "effectiveAppearance": {
+          "dark": true,
+          "colorScheme": "dark",
+          "bodyBackground": "rgb(19, 28, 49)"
+        },
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "iaMobileDark": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "appearance": "dark",
+        "effectiveAppearance": {
+          "dark": true,
+          "colorScheme": "dark",
+          "bodyBackground": "rgb(19, 28, 49)"
+        },
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      }
     },
     "subpath": {
       "hugo": {
@@ -106,6 +160,12 @@
           1
         ],
         "h5p": 0,
+        "appearance": "light",
+        "effectiveAppearance": {
+          "dark": false,
+          "colorScheme": "light",
+          "bodyBackground": "rgb(245, 243, 238)"
+        },
         "axeSeriousCritical": [],
         "externalRequests": [],
         "writes": [],
@@ -121,6 +181,12 @@
           1
         ],
         "h5p": 0,
+        "appearance": "light",
+        "effectiveAppearance": {
+          "dark": false,
+          "colorScheme": "light",
+          "bodyBackground": "rgb(245, 243, 238)"
+        },
         "axeSeriousCritical": [],
         "externalRequests": [],
         "writes": [],
@@ -170,7 +236,49 @@
       },
       "automaticEssayTables": 8,
       "automaticEssayTableIdsUnique": true,
-      "preservedExecutiveTables": 2
+      "preservedExecutiveTables": 2,
+      "homeDesktopDark": {
+        "pageWidth": 1440,
+        "pageScrollWidth": 1440,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "appearance": "dark",
+        "effectiveAppearance": {
+          "dark": true,
+          "colorScheme": "dark",
+          "bodyBackground": "rgb(19, 28, 49)"
+        },
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      },
+      "iaMobileDark": {
+        "pageWidth": 375,
+        "pageScrollWidth": 375,
+        "heading": "Elige tu ruta",
+        "routeLinks": [
+          1,
+          1,
+          1
+        ],
+        "h5p": 0,
+        "appearance": "dark",
+        "effectiveAppearance": {
+          "dark": true,
+          "colorScheme": "dark",
+          "bodyBackground": "rgb(19, 28, 49)"
+        },
+        "axeSeriousCritical": [],
+        "externalRequests": [],
+        "writes": [],
+        "consoleErrors": []
+      }
     }
   }
 }
