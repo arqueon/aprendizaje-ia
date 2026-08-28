@@ -46,7 +46,7 @@ content/
   `assets/css/custom.css` (`:root` claro, `html.dark` oscuro); acento primario **añil**
   (`#34508c` claro / `#8ba3d6` oscuro), rojo almagre reservado a `--udg-c-risk`.
   Titulares en **Newsreader** peso ~500 (Piazzolla retirada)
-- Taxonomías: `tags`, `categories`, `areas` (ia, evaluacion, pedagogia, digital, formacion)
+- Taxonomías: `tags`, `categories`, `areas` (ia, evaluacion, pedagogia, digital, formacion, etica)
 - `mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]`
 - Homepage: `showRecent = true`, `showRecentItems = 6`, `cardView = true`
 
@@ -121,7 +121,8 @@ del proyecto — este archivo solo guarda reglas estables. Verificar el contenid
 2. **Iconos en `card` shortcode son Font Awesome** — el shortcode es custom, no usa iconos Blowfish
 3. **`_vendor/` nunca se commitea** — está en .gitignore; el tema se descarga vía Go modules en CI
 4. **Deploy automático** al pushear a `main` — confirmar antes de cambios estructurales grandes
-5. **Taxonomía `areas`** en todo contenido nuevo: ia, evaluacion, pedagogia, digital, formacion
+5. **Taxonomía `areas`** en todo contenido nuevo: ia, evaluacion, pedagogia, digital, formacion,
+   etica — `etica` se incorporó en la auditoría de 2026-04-26 y se documenta aquí en 2026-08-27
 6. **Identidad C en gráficos nuevos o modificados** — usar solo las familias de la
    identidad (añil, tinta, ocre, almagre, oliva sobre papel/noche) según la tabla de
    secciones. Los SVG servidos vía `<img>` no reciben las variables CSS de la página:

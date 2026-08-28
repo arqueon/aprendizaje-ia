@@ -1,5 +1,5 @@
 baseURL = '/'
-languageCode = 'es'
+locale = 'es'
 title = 'Aprendizaje Digital e IA'
 theme = 'github.com/nunocoracao/blowfish/v2'
 
@@ -49,7 +49,7 @@ enableSearch = true
 showMermaid = true
 logo = "images/udg-logo.svg"
 defaultFeaturedImage = "images/featured/default-almagre.svg"
-mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente"]
+mainSections = ["ia-educacion", "laboratorio", "observatorio", "recursos", "formacion-docente", "blog"]
 
 [params.header]
   layout = "fixed-fill-blur"
@@ -132,6 +132,12 @@ name = "Formación Docente"
 url = "/formacion-docente/"
 weight = 40
 
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 50
 
 [[menu.main]]
 identifier = "about"
