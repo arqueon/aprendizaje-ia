@@ -345,8 +345,11 @@ try {
     pages: contentFiles.stdout.trim().split("\n").filter(Boolean).length,
     mounts: h5pCalls.stdout.trim().split("\n").filter(Boolean).length
   };
+  // Línea base actualizada 2026-08-27 por UDGIA-022: 9 objetos + 30 prácticas del curso
+  // promovidas a H5P.MultiChoice; 5 páginas + las 13 lecciones; 7 montajes + 30.
+  // Sigue siendo una guarda de deriva: cualquier alta o baja no intencionada la rompe.
   assert(
-    h5pBaseline.catalogContents === 9 && h5pBaseline.pages === 5 && h5pBaseline.mounts === 7,
+    h5pBaseline.catalogContents === 39 && h5pBaseline.pages === 18 && h5pBaseline.mounts === 37,
     `deriva H5P ${JSON.stringify(h5pBaseline)}`
   );
 

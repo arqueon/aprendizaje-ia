@@ -53,6 +53,44 @@ function assert(condition, message) {
   if (!condition) throw new Error(message);
 }
 
+
+// El tema llega como módulo Go y `_vendor/` no se commitea (CLAUDE.md convención 3),
+// así que hay que resolverlo donde Hugo lo deja: la caché de módulos. Se acepta
+// `_vendor/` si alguien lo ha materializado en local, pero no se exige.
+async function resolveThemeShortcodeRoots() {
+  const modulePath = "github.com/nunocoracao/blowfish/v2";
+  const goMod = await readFile(path.join(root, "go.mod"), "utf8").catch(() => "");
+  const version = goMod.match(
+    new RegExp(`${modulePath.replace(/[./]/g, "\\$&")}\\s+(v[\\w.+-]+)`),
+  )?.[1];
+  const home = process.env.HOME || "";
+  const hugoCache =
+    process.env.HUGO_CACHEDIR || (home ? path.join(home, ".cache", "hugo_cache") : "");
+  const goPath = process.env.GOPATH || (home ? path.join(home, "go") : "");
+
+  const candidates = [path.join(root, "_vendor", modulePath, "layouts", "shortcodes")];
+  if (version) {
+    const versioned = `${modulePath}@${version}`;
+    if (hugoCache) {
+      candidates.push(
+        path.join(
+          hugoCache, "modules", "filecache", "modules", "pkg", "mod",
+          versioned, "layouts", "shortcodes",
+        ),
+      );
+    }
+    if (goPath) {
+      candidates.push(path.join(goPath, "pkg", "mod", versioned, "layouts", "shortcodes"));
+    }
+  }
+
+  const roots = [];
+  for (const dir of candidates) {
+    if (await stat(dir).catch(() => null)) roots.push(dir);
+  }
+  return roots;
+}
+
 function sorted(items) {
   return [...items].sort((left, right) => left.localeCompare(right));
 }
@@ -211,13 +249,17 @@ async function staticChecks() {
     assert(manifest.components[component.replacement.split("/")[0]], `${name}: reemplazo inexistente`);
   }
 
+  const themeShortcodeRoots = await resolveThemeShortcodeRoots();
+  assert(
+    themeShortcodeRoots.length,
+    "no se localizó el tema Blowfish: ejecuta `hugo mod get` o define HUGO_CACHEDIR",
+  );
   for (const name of Object.keys(manifest.themeDependencies)) {
-    const templatePath = path.join(
-      root,
-      "_vendor/github.com/nunocoracao/blowfish/v2/layouts/shortcodes",
-      `${name}.html`,
-    );
-    assert(await stat(templatePath).catch(() => null), `${name}: dependencia de tema ausente`);
+    const found = [];
+    for (const dir of themeShortcodeRoots) {
+      if (await stat(path.join(dir, `${name}.html`)).catch(() => null)) found.push(dir);
+    }
+    assert(found.length, `${name}: dependencia de tema ausente`);
   }
 
   const invalid = [];

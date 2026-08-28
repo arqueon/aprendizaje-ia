@@ -116,10 +116,12 @@ async function udgia007GovernanceAudit() {
   );
   const results = {};
 
+  // Revisado 2026-08-27: UDGIA-022 añadió 30 objetos del curso al catálogo. Este QA
+  // gobierna los nueve de UDGIA-010, así que comprueba que sigan presentes e íntegros,
+  // no que el catálogo no contenga nada más.
   assert(
-    Object.keys(catalog.contents || {}).length === governedIDs.length &&
-      governedIDs.every((id) => catalog.contents?.[id]),
-    "UDGIA-010: el catálogo no contiene exactamente los nueve H5P gobernados"
+    governedIDs.every((id) => catalog.contents?.[id]),
+    "UDGIA-010: falta alguno de los nueve H5P gobernados en el catálogo"
   );
   assert(
     authorizationEvidence.includes("Fecha de decisión: 2026-07-28") &&
