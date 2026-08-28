@@ -60,6 +60,11 @@ jobs:
           cache: npm
       - name: Install Node.js dependencies
         run: npm ci --ignore-scripts
+      # qa-routes-tables.mjs invoca `rg` para inventariar montajes H5P. La
+      # dependencia nunca se declaro porque esa comprobacion no habia corrido
+      # jamas en CI; el runner de ubuntu-latest no trae ripgrep.
+      - name: Install ripgrep
+        run: sudo apt-get update && sudo apt-get install -y ripgrep
 
       # Nivel 0 — sin Hugo ni navegador. Segundos.
       - name: Contratos de publicacion y de workflow
