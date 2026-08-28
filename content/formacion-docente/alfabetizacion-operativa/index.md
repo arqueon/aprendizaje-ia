@@ -76,7 +76,7 @@ La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/
 
 {{< referencias >}}
 
-- Mollick, E. (2023). Assigning AI: Seven approaches for students. *Wharton Working Papers*.
+- Mollick, E. R., & Mollick, L. (2023). Assigning AI: Seven approaches for students, with prompts. *The Wharton School Research Paper*. https://doi.org/10.2139/ssrn.4475995
 - SchoolAI. (2025). Teaching AI literacy in the classroom: Strategies for educators. https://schoolai.com/blog/ai-literacy-english-class
 - UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 {{< /referencias >}}

@@ -139,6 +139,6 @@ Para profundizar en la **progresión formativa** de la co-creación —detectar,
 
 - Lodge, J.M., & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. University of Technology Sydney.
 - Meshi, A. (2024). GPT-ME: A human-AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques*, *7*(4), 55:1–55:8. https://doi.org/10.1145/3664214
-- Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*(11). https://doi.org/10.1186/s41239-026-00585-x
-- Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. *arXiv preprint*.
+- Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*, artículo 11. https://doi.org/10.1186/s41239-026-00585-x
+- Yang, S., & Ma, R. (2026). Towards a typology of epistemic relationships in human–AI interaction. *Information Research*, *31*(iConf). https://doi.org/10.47989/ir31iconf64143
 {{< /referencias >}}

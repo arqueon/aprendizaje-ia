@@ -186,7 +186,5 @@ Rousell, D., & Sinclair, M. P. (2025). Desiring-futures in education policy: Ass
 
 UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 
-Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.
-
-Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.
+Wenger, E. (1998). *Communities of practice: Learning, meaning, and identity*. Cambridge University Press.- Yang, S., & Ma, R. (2026). Towards a typology of epistemic relationships in human–AI interaction. *Information Research*, *31*(iConf). https://doi.org/10.47989/ir31iconf64143
 {{< /referencias >}}

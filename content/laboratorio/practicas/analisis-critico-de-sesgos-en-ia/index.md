@@ -78,4 +78,4 @@ Cada equipo crea una infografía que resume los sesgos encontrados y ofrece 3 co
 ## Referencias
 
 - Noble, S. U. (2018). *Algorithms of Oppression*. NYU Press.
-- Bender, E. M., et al. (2021). *On the Dangers of Stochastic Parrots*. ACM Conference on Fairness, Accountability, and Transparency.
+- Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency*, 610-623. https://doi.org/10.1145/3442188.3445922

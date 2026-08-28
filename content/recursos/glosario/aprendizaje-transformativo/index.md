@@ -18,5 +18,5 @@ En el contexto de la inteligencia artificial, se ha demostrado empíricamente qu
 
 ## Referencias
 
-- Wang, J., & Zhang, Y. (2026). Strategic AI integration and transformative learning in higher education. *Computers & Education*, 215, 105020.
+- Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*, artículo 11. https://doi.org/10.1186/s41239-026-00585-x
 

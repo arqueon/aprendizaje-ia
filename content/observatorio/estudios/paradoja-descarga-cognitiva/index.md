@@ -57,26 +57,32 @@ El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes inter
 
 A diferencia del postulado clásico que vincula el esfuerzo manual directo con el aprendizaje, los resultados indicaron que tanto la vigilancia como la delegación predicen de forma independiente el aprendizaje transformativo. Este tipo de aprendizaje se caracteriza por la revaluación de presunciones y una modificación estructural en la comprensión del sujeto de estudio (Wang & Zhang, 2026). 
 
-## La curva en U de la descarga cognitiva
+## El umbral de la descarga estratégica
 
-{{< mermaid >}}
-%%{init: { "themeVariables": { "xyChart": {"plotColorPalette": "#b12028"} } } }%%
-xychart-beta
-    title "Impacto de la descarga cognitiva en el aprendizaje"
-    x-axis "Nivel de delegación a la IA" ["Zona 1: Ninguna", "Zona 2: Dispersa", "Zona 3: Estratégica"]
-    y-axis "Profundidad del aprendizaje" 0 --> 100
-    line [60, 30, 95]
-{{< /mermaid >}}
+La relación entre delegar en la IA y la profundidad del aprendizaje no es lineal, pero
+tampoco es una simple gradación. Wang y Zhang (2026) describen un **efecto de umbral**: la
+descarga cognitiva favorece el aprendizaje transformativo sólo cuando es *estratégica* y
+supera cierto nivel, porque es entonces cuando libera recursos mentales suficientes para la
+reflexión de orden superior. Por debajo de ese punto, la delegación fragmentaria puede
+resultar contraproducente: el usuario retiene la mayor parte del trabajo y añade encima el
+coste de coordinar y evaluar respuestas sueltas.
 
-La relación entre la delegación a la IA y la profundidad del aprendizaje no es lineal. Wang y Zhang (2026) identificaron una progresión en forma de "U" que divide el comportamiento del usuario en tres zonas de interacción:
+Conviene precisar el alcance del estudio antes de extraer consecuencias. Es un diseño mixto
+sobre 912 participantes en China, Europa y Estados Unidos, que combina modelado de
+ecuaciones estructurales, análisis de importancia–desempeño (IPMA), análisis cualitativo
+comparativo difuso (fsQCA) y entrevistas semiestructuradas. Sus autores no proponen una
+curva con tramos delimitados ni ofrecen valores que permitan situar a una persona concreta
+en un punto de la escala: lo que sostienen es que existe un umbral y que la orientación a la
+eficiencia, lejos de ser una barrera, amplifica tanto la vigilancia como la delegación.
 
-*   **Zona 1 (Sin descarga):** El individuo asume la totalidad de la carga cognitiva operativa. El aprendizaje ocurre, pero se encuentra limitado por la capacidad de procesamiento de la persona, dejando un margen mínimo para la reflexión de orden superior.
-*   **Zona 2 (Descarga dispersa):** Ocurre un uso fragmentado de la IA para correcciones menores o revisiones superficiales. Representa el nivel más bajo de desempeño, dado que el usuario retiene la mayor parte de la carga de trabajo mientras suma el costo cognitivo de coordinar y evaluar respuestas aisladas del sistema.
-*   **Zona 3 (Descarga estratégica y comprometida):** El individuo delega categorías íntegras de trabajo sustantivo (por ejemplo, organización de bases de datos o síntesis literaria completa). Esto genera ahorros cognitivos significativos que se reinvierten en actividades que la IA no puede realizar, como la construcción de argumentos originales o el cuestionamiento de marcos teóricos.
+La consecuencia pedagógica es más modesta de lo que sugeriría un gráfico: no hay una dosis
+óptima de delegación que pueda prescribirse, sino una diferencia cualitativa entre delegar
+categorías completas de trabajo operativo —conservando la dirección del proceso— y esparcir
+la delegación en retoques que no liberan capacidad para nada.
 
 ## Principios para la integración productiva
 
-Para evitar el declive cognitivo documentado en la Zona 2 y alcanzar los beneficios de la Zona 3, el diseño de experiencias de [aprendizaje continuo](/formacion-docente/) y el [análisis crítico de estas tecnologías](/observatorio/) requieren estructurar de manera deliberada el uso de los sistemas automatizados.
+Para evitar la delegación fragmentaria y alcanzar los beneficios de la descarga estratégica, el diseño de experiencias de [aprendizaje continuo](/formacion-docente/) y el [análisis crítico de estas tecnologías](/observatorio/) requieren estructurar de manera deliberada el uso de los sistemas automatizados.
 
 De la investigación se desprenden principios rectores para el diseño de actividades apoyadas en IA:
 
@@ -85,11 +91,11 @@ De la investigación se desprenden principios rectores para el diseño de activi
 3.  **Vigilancia integrada:** La evaluación continua de las afirmaciones generadas por la IA debe ser un hábito estructural en el flujo de trabajo.
 4.  **Generación humana primaria:** El usuario debe producir la conceptualización inicial. Permita que la IA actúe como un agente de revisión o contraste únicamente después del esfuerzo de recuperación de información por parte del individuo (Karpicke & Blunt, 2011; Slamecka & Graf, 1978).
 5.  **Identificación, no resolución de errores:** La IA debe utilizarse para señalar inconsistencias, requiriendo que el estudiante recupere e integre la corrección por cuenta propia (Bjork, 1994).
-6.  **Evaluación autónoma:** La validación de la competencia debe realizarse en instancias libres de asistencia algorítmica para evitar medir la capacidad del sistema en lugar de la del individuo (Xu et al., 2026).
+6.  **Evaluación autónoma:** La validación de la competencia debe realizarse en instancias libres de asistencia algorítmica para evitar medir la capacidad del sistema en lugar de la del individuo (Bastani et al., 2025).
 
 ## Precauciones para un uso crítico
 
-Para promover el uso crítico y aprovechar la ventaja cognitiva de la IA sin incurrir en el déficit documentado en la Zona 2, resulta esencial diseñar mecanismos de fricción intelectual. El riesgo principal surge cuando el usuario asume un rol de receptor pasivo y delega sin criterio, lo que atrofia la capacidad de análisis.
+Para promover el uso crítico y aprovechar la ventaja cognitiva de la IA sin caer en la delegación fragmentaria descrita arriba, resulta esencial diseñar mecanismos de fricción intelectual. El riesgo principal surge cuando el usuario asume un rol de receptor pasivo y delega sin criterio, lo que atrofia la capacidad de análisis.
 
 Para mitigar este efecto, los diseños instruccionales deben forzar a que el individuo estructure el esquema conceptual primario antes de interactuar con el sistema algorítmico. Adicionalmente, la identificación de sesgos y la verificación de afirmaciones deben integrarse como requisitos dentro del flujo de trabajo. Esta estructura garantiza que la reducción de carga operativa se traduzca efectivamente en un nivel superior de reflexión, evitando que el tiempo ahorrado se diluya en la mera gestión superficial de la herramienta.
 
@@ -102,16 +108,15 @@ Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025)
 
 Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. En J. Metcalfe & A. Shimamura (Eds.), *Metacognition: Knowing about knowing* (pp. 185-205). MIT Press.
 
-Gerlich, M. (2025). The impact of artificial intelligence reliance on critical thinking capabilities in digital-native cohorts. *Journal of Applied Cognitive Science*, *12*(1), 45-61.
+Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies*, *15*(1), 6. https://doi.org/10.3390/soc15010006
 
 Karpicke, J. D., & Blunt, J. R. (2011). Retrieval practice produces more learning than elaborative studying with concept mapping. *Science*, *331*(6018), 772-775.
 
 Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. *Scientific Reports, 15*, 17458. https://doi.org/10.1038/s41598-025-97652-6
 
-Kosmyna, N., et al. (2025). Neural correlates of cognitive debt in generative AI writing assistance: An EEG study. *Neuroscience of Education*, *8*(2), 210-225.
+Kosmyna, N., Hauptmann, E., Yuan, Y. T., Situ, J., Liao, X., Beresnitzky, A. V., Braunstein, I., & Maes, P. (2025). *Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing task* (arXiv:2506.08872). arXiv. https://arxiv.org/abs/2506.08872
 
 Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. *Journal of Experimental Psychology: Human Learning and Memory*, *4*(6), 592-604.
 
-Wang, Y., & Zhang, X. (2026). The cognitive offloading paradox: How partnership orientation and strategic delegation foster transformative learning with generative AI. *International Journal of Educational Technology in Higher Education*, *23*(1), Artículo 14.
+Wang, S., & Zhang, H. (2026). Pedagogical partnerships with generative AI in higher education: how dual cognitive pathways paradoxically enable transformative learning. *International Journal of Educational Technology in Higher Education*, *23*, artículo 11. https://doi.org/10.1186/s41239-026-00585-x
 
-Xu, L., et al. (2026). Measuring the capability gap: A meta-analysis of assisted versus independent performance in AI-supported assessment. *Assessment & Evaluation in Higher Education*, *51*(2), 150-168.
