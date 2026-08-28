@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": false,
+      "text": "<div>Crítica al ajustar el prompt, de cocreación al contrastar fuentes y operativa al adaptar la propuesta con la IA.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Intercambia las funciones: ajustar la solicitud es operativo, contrastar fuentes es crítico y adaptar con la IA corresponde a la cocreación.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>De cocreación al ajustar el prompt, crítica al contrastar fuentes y de cocreación al adaptar la propuesta con la IA.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Contrastar fuentes sí pertenece a la literacidad crítica, pero ajustar la solicitud es operativo y adaptar la propuesta corresponde a la cocreación.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Operativa al ajustar el prompt, operativa al contrastar fuentes y crítica al adaptar la propuesta con la IA.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Contrastar fuentes no es solo una acción operativa, y adaptar una propuesta con la IA exige dirigir la cocreación.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": true,
+      "text": "<div>Operativa al ajustar el prompt, crítica al contrastar fuentes y de cocreación al adaptar la propuesta con la IA.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Distingue el manejo técnico, la revisión crítica y la dirección de la cocreación.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una respuesta más útil; después contrasta la información con fuentes confiables; finalmente adapta la propuesta junto con la IA para que se ajuste al contexto del grupo y a criterios éticos. ¿Qué opción identifica correctamente la literacidad predominante en cada acción?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Identifica correctamente la dimensión técnica, la evaluativa y la colaborativa ética de cada acción."
+    }
+  ]
+}

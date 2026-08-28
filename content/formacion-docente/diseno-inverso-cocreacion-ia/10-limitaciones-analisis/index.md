@@ -261,7 +261,9 @@ Revisa cada tarjeta para distinguir entre una reflexión auténtica y una respue
 
 {{< curso-interactivo id="l10-h5p-02" >}}
 
+{{< h5p id="curso-l10-h5p-03" load="manual" >}}
 {{< curso-interactivo id="l10-h5p-03" >}}
+{{< /h5p >}}
 
 {{< idea >}}
 Reconocer los límites de nuestro análisis no es señal de debilidad, sino de rigor intelectual y apertura al aprendizaje continuo.

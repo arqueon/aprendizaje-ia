@@ -209,7 +209,9 @@ La transparencia en los cambios promueve un ambiente de aprendizaje colaborativo
 
 {{< /acordeon >}}
 
+{{< h5p id="curso-l12-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l12-h5p-02" >}}
+{{< /h5p >}}
 
 ## La IA como apoyo en el análisis y la mejora
 

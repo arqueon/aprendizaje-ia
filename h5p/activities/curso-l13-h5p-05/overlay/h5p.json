@@ -1,0 +1,24 @@
+{
+  "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cercana al ejercicio profesional. ¿Qué opción corresponde a una evidencia auténtica?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

@@ -174,7 +174,9 @@ Cada fase prepara parte del trabajo de la siguiente. La revisión final deberá 
 
 {{< /pestanas >}}
 
+{{< h5p id="curso-l02-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l02-h5p-02" >}}
+{{< /h5p >}}
 
 {{< idea >}}
 El diseño inverso no es una receta, sino una brújula: cada decisión de planeación debe poder trazarse hasta el aprendizaje que se busca lograr.

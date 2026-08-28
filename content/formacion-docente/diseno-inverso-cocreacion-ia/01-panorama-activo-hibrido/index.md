@@ -106,7 +106,9 @@ La mejora es constante: se recogen evidencias, se analizan resultados y se ajust
 {{< /paso >}}
 {{< /proceso >}}
 
+{{< h5p id="curso-l01-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l01-h5p-02" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. Activo ≠ movimiento y tecnología: es compromiso cognitivo — manipular, generar, co-construir.

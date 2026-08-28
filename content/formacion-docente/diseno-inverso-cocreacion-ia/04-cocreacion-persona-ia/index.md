@@ -183,7 +183,9 @@ Meshi (2024) propone la imagen del ensamblaje cognitivo humano–IA y Bearman, R
 
 {{< /acordeon >}}
 
+{{< h5p id="curso-l04-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l04-h5p-02" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. La IA puede proponer variantes, preguntas u objeciones; no fija el propósito ni responde por el resultado.

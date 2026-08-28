@@ -1,0 +1,24 @@
+{
+  "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuentes académicas y luego trabaja con la IA para diseñar una actividad adaptada a su grupo. ¿Qué conjunto de literacidades está aplicando?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

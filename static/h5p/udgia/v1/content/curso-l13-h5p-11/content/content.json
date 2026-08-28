@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": true,
+      "text": "<div>Mantiene la supervisión del proceso y valida críticamente las propuestas antes de usarlas.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Dirigir implica supervisar, contrastar y decidir antes de usar una propuesta.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Usa la IA para corregir el formato del documento antes de compartirlo.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Corregir el formato es una tarea operativa; no demuestra revisión del contenido ni de la decisión pedagógica.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Acepta la propuesta completa de la IA para ahorrar tiempo en la planificación.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Aceptar la propuesta completa cede la decisión principal a la herramienta.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Mejora el prompt inicial para que la IA entregue una actividad más detallada.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Mejorar la solicitud puede producir más detalle, pero no sustituye la comprobación ni la decisión.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuentes confiables y decide qué partes adaptar antes de implementarlas. ¿Qué acción describe mejor que la docente está dirigiendo la interacción con la IA?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Dirigir implica conservar el control del proceso, revisar los resultados de la IA y decidir de forma fundamentada qué se utiliza."
+    }
+  ]
+}

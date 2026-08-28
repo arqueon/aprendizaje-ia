@@ -199,7 +199,9 @@ La siguiente lección lleva esa adaptación al diseño docente y muestra dónde 
 
 {{< /acordeon >}}
 
+{{< h5p id="curso-l03-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l03-h5p-02" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. La literacidad operativa permite usar la herramienta, pero no basta para juzgarla.

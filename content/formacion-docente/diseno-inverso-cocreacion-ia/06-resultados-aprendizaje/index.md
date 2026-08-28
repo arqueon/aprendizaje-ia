@@ -359,7 +359,9 @@ Tip: Considera toda propuesta de IA como un borrador hasta tu validación final.
 
 {{< /acordeon >}}
 
+{{< h5p id="curso-l06-h5p-03" load="manual" >}}
 {{< curso-interactivo id="l06-h5p-03" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. Un tema no es todavía un resultado de aprendizaje.

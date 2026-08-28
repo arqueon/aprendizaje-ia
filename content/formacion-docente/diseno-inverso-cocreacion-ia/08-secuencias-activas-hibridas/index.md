@@ -191,7 +191,9 @@ Consulta a las y los estudiantes sobre sus necesidades y ajusta en función de s
 
 **Escenario de actividad híbrida inclusiva.** Imagina una actividad donde se ofrecen materiales en distintos formatos, se indica la carga de trabajo estimada y existe un plan de respaldo ante fallas técnicas. Esas decisiones atienden algunas barreras previsibles. Para saber si la alternativa resultó equivalente todavía hace falta comprobarla con el grupo y revisar quién pudo participar, con qué carga y con qué apoyos.
 
+{{< h5p id="curso-l08-h5p-03" load="manual" >}}
 {{< curso-interactivo id="l08-h5p-03" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. Híbrido describe cómo se conectan espacios y tiempos; activo describe qué hace la persona con el conocimiento.

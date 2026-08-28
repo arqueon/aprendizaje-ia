@@ -372,7 +372,9 @@ Valida y ajusta toda propuesta antes de implementarla, documentando el proceso d
 
 {{< /acordeon >}}
 
+{{< h5p id="curso-l07-h5p-03" load="manual" >}}
 {{< curso-interactivo id="l07-h5p-03" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. La evidencia debe corresponder al desempeño que el resultado pide observar.
