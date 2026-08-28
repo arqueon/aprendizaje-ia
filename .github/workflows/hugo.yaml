@@ -7,6 +7,11 @@ on:
   push:
     branches:
       - main
+  # Puerta pre-merge: hasta 2026-08-28 no existia ningun disparador de
+  # pull_request, de modo que nada se comprobaba antes de integrar.
+  pull_request:
+    branches:
+      - main
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -28,8 +33,80 @@ defaults:
     shell: bash
 
 jobs:
+  # Puerta de calidad. Hasta 2026-08-28 solo 5 de las 33 comprobaciones del
+  # repositorio corrian automaticamente, y 19 no corrian en ningun workflow.
+  # Eso permitio que qa-single-theme.mjs quedara meses afirmando lo contrario
+  # de lo implementado sin que nadie lo notara.
+  quality:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.164.0
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install Node.js dependencies
+        run: npm ci --ignore-scripts
+
+      # Nivel 0 — sin Hugo ni navegador. Segundos.
+      - name: Contratos de publicacion y de workflow
+        run: |
+          npm run qa:container-publication
+          npm run qa:container-workflow
+      - name: Pruebas unitarias de indices y clasificaciones
+        run: |
+          npm run qa:glossary-index
+          npm run qa:learning-classifications
+
+      # Nivel 1 — requieren Hugo, sin navegador.
+      - name: Contratos editoriales y de inventario
+        run: |
+          npm run qa:content-inventory
+          npm run qa:context-audit
+          npm run qa:learning-audit
+      - name: Contratos visuales y de lenguaje
+        run: |
+          npm run qa:visual-contract
+          npm run qa:activity-svg-contract
+          npm run qa:udgia-figures
+          npm run qa:direct-language
+
+      # Nivel 2 — requieren Hugo y Chromium.
+      - name: Install Chromium
+        run: npx playwright-core install --with-deps chromium
+      - name: QA sistemica de rutas y tablas
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-015-qa
+        run: npm run qa:routes-tables
+      - name: QA de figuras, biblioteca de shortcodes y curso
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-quality
+        run: |
+          npm run qa:udgia-figures-route
+          npm run qa:shortcode-library
+          npm run qa:course-rise
+      - name: QA del piloto H5P
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-h5p-pilot
+        run: npm run qa:h5p:pilot
+
   # Build job
   build:
+    needs: quality
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.164.0
