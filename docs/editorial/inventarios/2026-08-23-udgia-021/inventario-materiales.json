@@ -17,7 +17,7 @@
     "documents": 182,
     "pages": 153,
     "sections": 29,
-    "words": 142470,
+    "words": 142488,
     "assets": 222,
     "assetBytes": 50073137,
     "exactDuplicateAssetGroups": 3,
@@ -1813,7 +1813,7 @@
       "title": "Principios de la alfabetización crítica en inteligencia artificial",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 669,
+      "words": 675,
       "metadata": {
         "description": true,
         "summary": true,
@@ -18388,7 +18388,7 @@
       "title": "Descarga cognitiva",
       "kind": "page",
       "section": "recursos",
-      "words": 190,
+      "words": 196,
       "metadata": {
         "description": true,
         "summary": true,
@@ -21598,7 +21598,7 @@
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "kind": "page",
       "section": "observatorio",
-      "words": 1362,
+      "words": 1368,
       "metadata": {
         "description": true,
         "summary": true,

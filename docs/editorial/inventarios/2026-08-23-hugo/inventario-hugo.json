@@ -5,7 +5,7 @@
     "markdown": 182,
     "pages": 153,
     "sections": 29,
-    "words": 142470,
+    "words": 142488,
     "assets": 222,
     "content_assets": 220,
     "shared_figure_assets": 2,
@@ -84,7 +84,7 @@
     "ia-educacion": {
       "pages": 59,
       "sections": 7,
-      "words": 61282,
+      "words": 61288,
       "featured": 61,
       "svg": 19,
       "h5p": 3,
@@ -117,7 +117,7 @@
     "observatorio": {
       "pages": 10,
       "sections": 4,
-      "words": 11161,
+      "words": 11167,
       "featured": 14,
       "svg": 5,
       "h5p": 0,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 40,
       "sections": 5,
-      "words": 18260,
+      "words": 18266,
       "featured": 43,
       "svg": 1,
       "h5p": 0,
@@ -3740,10 +3740,10 @@
         "ia",
         "pedagogia"
       ],
-      "words": 669,
+      "words": 675,
       "heading_count": 1,
       "h2_count": 1,
-      "external_url_count": 4,
+      "external_url_count": 5,
       "citation_signals": 7,
       "reference_heading": false,
       "internal_link_count": 3,
@@ -8191,10 +8191,10 @@
       "areas": [
         "ia"
       ],
-      "words": 1362,
+      "words": 1368,
       "heading_count": 5,
       "h2_count": 5,
-      "external_url_count": 5,
+      "external_url_count": 6,
       "citation_signals": 8,
       "reference_heading": true,
       "internal_link_count": 3,
@@ -9333,10 +9333,10 @@
       "areas": [
         "pedagogia"
       ],
-      "words": 190,
+      "words": 196,
       "heading_count": 1,
       "h2_count": 1,
-      "external_url_count": 1,
+      "external_url_count": 2,
       "citation_signals": 1,
       "reference_heading": true,
       "internal_link_count": 5,

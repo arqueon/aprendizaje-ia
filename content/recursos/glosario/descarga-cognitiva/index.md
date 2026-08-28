@@ -20,5 +20,5 @@ Cuando, en cambio, esa capacidad liberada no se reinvierte y la persona se limit
 
 ## Referencias
 
-- Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies*, *15*(1), 6. https://doi.org/10.3390/soc15010006
+- Gerlich, M. (2025). AI tools in society: Impacts on cognitive offloading and the future of critical thinking. *Societies*, *15*(1), 6. https://doi.org/10.3390/soc15010006 [Corrección publicada: *Societies*, *15*(9), 252. https://doi.org/10.3390/soc15090252]
 

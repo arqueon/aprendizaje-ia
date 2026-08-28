@@ -4476,7 +4476,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
       "title": "Principios de la alfabetización crítica en inteligencia artificial",
       "role": "pagina",
-      "words": 635,
+      "words": 643,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10786,7 +10786,7 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1372,
+      "words": 1380,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -12556,7 +12556,7 @@
       "path": "content/recursos/glosario/descarga-cognitiva/index.md",
       "title": "Descarga cognitiva",
       "role": "recurso",
-      "words": 190,
+      "words": 198,
       "dependencies": [],
       "signals": {
         "situacion": {
