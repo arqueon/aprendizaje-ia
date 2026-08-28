@@ -17,15 +17,15 @@
     "documents": 182,
     "pages": 153,
     "sections": 29,
-    "words": 142311,
+    "words": 142470,
     "assets": 222,
-    "assetBytes": 50054766,
+    "assetBytes": 50073137,
     "exactDuplicateAssetGroups": 3,
     "exactDuplicateAssetFiles": 17,
-    "h5pCatalogEntries": 9,
-    "curricularH5PEntries": 8,
+    "h5pCatalogEntries": 39,
+    "curricularH5PEntries": 38,
     "governedFigures": 10,
-    "pagesWithH5P": 5,
+    "pagesWithH5P": 18,
     "pagesWithGovernedFigures": 10,
     "pagesWithExplicitOrientationReference": 0,
     "pagesWithExplicitGuideReference": 0,
@@ -111,10 +111,10 @@
       "L5-navegacion-y-material-fuera-del-recorrido": 34
     },
     "interactionCandidates": {
-      "auditar-y-mediar-h5p-existente": 5,
+      "auditar-y-mediar-h5p-existente": 18,
       "comparador-de-versiones": 4,
       "ejemplo-anotado-o-comparador": 26,
-      "escenario-de-decision-con-consecuencias": 53,
+      "escenario-de-decision-con-consecuencias": 40,
       "recorrido-guiado": 1,
       "sin-interaccion-obligatoria": 93
     }
@@ -355,6 +355,156 @@
       "id": "objetivos-bloom-udgplus",
       "title": "Constructor de objetivos de aprendizaje UDGPlus",
       "mainLibrary": "H5P.BloomObjectiveBuilder"
+    },
+    {
+      "id": "curso-l01-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l02-h5p-02",
+      "title": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l03-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l04-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l05-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l06-h5p-03",
+      "title": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l07-h5p-03",
+      "title": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en ",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l08-h5p-03",
+      "title": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l09-h5p-02",
+      "title": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que l",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l10-h5p-03",
+      "title": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el anál",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l11-h5p-04",
+      "title": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l12-h5p-02",
+      "title": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-01",
+      "title": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-02",
+      "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuente",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-03",
+      "title": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experi",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-04",
+      "title": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-05",
+      "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cer",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-06",
+      "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte ",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-07",
+      "title": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-08",
+      "title": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones ",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-09",
+      "title": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una res",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-10",
+      "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma má",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-11",
+      "title": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuente",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-14",
+      "title": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más funda",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-15",
+      "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-16",
+      "title": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herra",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-17",
+      "title": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos d",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-18",
+      "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer pregun",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-19",
+      "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, ",
+      "mainLibrary": "H5P.MultiChoice"
+    },
+    {
+      "id": "curso-l13-h5p-25",
+      "title": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+      "mainLibrary": "H5P.MultiChoice"
     }
   ],
   "standardsBaseline": {
@@ -551,7 +701,7 @@
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 764,
+      "words": 768,
       "metadata": {
         "description": true,
         "summary": true,
@@ -1174,7 +1324,7 @@
       "title": "Alfabetización en co-creación: aprender a co-producir con IA",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1996,
+      "words": 2000,
       "metadata": {
         "description": true,
         "summary": true,
@@ -3049,7 +3199,7 @@
       "title": "Principios de la alfabetización operativa en inteligencia artificial",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 506,
+      "words": 514,
       "metadata": {
         "description": true,
         "summary": true,
@@ -3370,7 +3520,7 @@
       "title": "Autoevaluación final sin calificación",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 157,
+      "words": 229,
       "metadata": {
         "description": true,
         "summary": true,
@@ -3466,11 +3616,30 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l13-h5p-01",
+          "curso-l13-h5p-02",
+          "curso-l13-h5p-03",
+          "curso-l13-h5p-04",
+          "curso-l13-h5p-05",
+          "curso-l13-h5p-06",
+          "curso-l13-h5p-07",
+          "curso-l13-h5p-08",
+          "curso-l13-h5p-09",
+          "curso-l13-h5p-10",
+          "curso-l13-h5p-11",
+          "curso-l13-h5p-14",
+          "curso-l13-h5p-15",
+          "curso-l13-h5p-16",
+          "curso-l13-h5p-17",
+          "curso-l13-h5p-18",
+          "curso-l13-h5p-19",
+          "curso-l13-h5p-25"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -3656,7 +3825,7 @@
       "title": "Alfabetización digital",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1211,
+      "words": 1214,
       "metadata": {
         "description": true,
         "summary": true,
@@ -3817,7 +3986,7 @@
       "title": "Las tres literacidades en IA — mapa visual",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 838,
+      "words": 842,
       "metadata": {
         "description": true,
         "summary": true,
@@ -4100,7 +4269,7 @@
       "title": "Literacidades para el uso de IA",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1548,
+      "words": 1552,
       "metadata": {
         "description": true,
         "summary": true,
@@ -4241,11 +4410,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l03-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -4721,7 +4892,7 @@
       "title": "Análisis de casos",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1750,
+      "words": 1754,
       "metadata": {
         "description": true,
         "summary": true,
@@ -4862,11 +5033,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l09-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -4891,7 +5064,7 @@
       "title": "Evaluación, retroalimentación y mejora continua",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1706,
+      "words": 1710,
       "metadata": {
         "description": true,
         "summary": true,
@@ -5034,11 +5207,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l12-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -5544,7 +5719,7 @@
       "title": "Análisis crítico de sesgos en la IA",
       "kind": "page",
       "section": "laboratorio",
-      "words": 389,
+      "words": 405,
       "metadata": {
         "description": true,
         "summary": true,
@@ -5843,7 +6018,7 @@
       "title": "Panorama del aprendizaje activo e híbrido",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1096,
+      "words": 1100,
       "metadata": {
         "description": true,
         "summary": true,
@@ -5986,11 +6161,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l01-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6015,7 +6192,7 @@
       "title": "Introducción al diseño inverso",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1365,
+      "words": 1369,
       "metadata": {
         "description": true,
         "summary": true,
@@ -6156,11 +6333,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l02-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6185,7 +6364,7 @@
       "title": "Cocreación persona–IA en el diseño docente",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1460,
+      "words": 1464,
       "metadata": {
         "description": true,
         "summary": true,
@@ -6326,11 +6505,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l04-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6355,7 +6536,7 @@
       "title": "Delimitación del contexto y diagnóstico inicial",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1788,
+      "words": 1792,
       "metadata": {
         "description": true,
         "summary": true,
@@ -6496,11 +6677,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l05-h5p-02"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6525,7 +6708,7 @@
       "title": "Formulación de resultados de aprendizaje observables",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 2111,
+      "words": 2115,
       "metadata": {
         "description": true,
         "summary": true,
@@ -6658,11 +6841,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l06-h5p-03"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6687,7 +6872,7 @@
       "title": "Determinación de evidencias y criterios de calidad",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 2338,
+      "words": 2342,
       "metadata": {
         "description": true,
         "summary": true,
@@ -6830,11 +7015,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l07-h5p-03"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -6859,7 +7046,7 @@
       "title": "Limitaciones del análisis",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1852,
+      "words": 1856,
       "metadata": {
         "description": true,
         "summary": true,
@@ -7001,11 +7188,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l10-h5p-03"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -7030,7 +7219,7 @@
       "title": "Priorizar intervenciones con evidencia",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1479,
+      "words": 1483,
       "metadata": {
         "description": true,
         "summary": true,
@@ -7161,11 +7350,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l11-h5p-04"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -9624,7 +9815,7 @@
       "title": "Diseño de secuencias activas e híbridas",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1539,
+      "words": 1543,
       "metadata": {
         "description": true,
         "summary": true,
@@ -9763,11 +9954,13 @@
         }
       },
       "interactive": {
-        "currentH5PIDs": [],
+        "currentH5PIDs": [
+          "curso-l08-h5p-03"
+        ],
         "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+          "type": "auditar-y-mediar-h5p-existente",
+          "technology": "H5P ya gobernado",
+          "reason": "Conservar la interacción solo si la prosa previa, el fallback y la función didáctica son equivalentes."
         },
         "priority": "media"
       },
@@ -15845,7 +16038,7 @@
       "title": "Aprendizaje transformativo",
       "kind": "page",
       "section": "recursos",
-      "words": 132,
+      "words": 145,
       "metadata": {
         "description": true,
         "summary": true,
@@ -18195,7 +18388,7 @@
       "title": "Descarga cognitiva",
       "kind": "page",
       "section": "recursos",
-      "words": 195,
+      "words": 190,
       "metadata": {
         "description": true,
         "summary": true,
@@ -21400,6 +21593,177 @@
       }
     },
     {
+      "path": "observatorio/estudios/paradoja-descarga-cognitiva/index.md",
+      "route": "/observatorio/estudios/paradoja-descarga-cognitiva/",
+      "title": "La paradoja de la descarga cognitiva en el aprendizaje",
+      "kind": "page",
+      "section": "observatorio",
+      "words": 1362,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 4,
+        "categories": 1,
+        "areas": 1
+      },
+      "course": {
+        "role": "referencia-opcional",
+        "action": "conservar-fuera-del-recorrido-obligatorio",
+        "modules": [],
+        "routes": [
+          "estudiantado",
+          "profesorado"
+        ],
+        "reason": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 3,
+        "flags": {
+          "entrada_reconocible": true,
+          "pregunta_motriz": false,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": true
+        }
+      },
+      "didactic": {
+        "status": "parcial",
+        "signalCount": 5,
+        "flags": {
+          "audiencia_explicita": false,
+          "proposito_o_resultado": false,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": true,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": true,
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "sin-alerta-automatica",
+        "reviewFlags": [],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "diseno-activo-hibrido",
+            "orientations": [
+              "§4.2–4.6",
+              "§8.1–8.5"
+            ],
+            "guides": [
+              "Guía docente, primera, segunda y quinta partes"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "figura-gobernada",
+        "featured": true,
+        "localAssets": [
+          "disociacion-desempeno-aprendizaje-mobile.svg",
+          "disociacion-desempeno-aprendizaje.svg",
+          "featured.webp"
+        ],
+        "featuredCandidates": [
+          "featured.webp"
+        ],
+        "svgAssets": 2,
+        "accessibleSVG": 2,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [
+          "udgia-f04-disociacion"
+        ],
+        "review": {
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "sin-interaccion-obligatoria",
+          "technology": "Ninguna",
+          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
+        },
+        "priority": "baja-o-no-necesaria"
+      },
+      "organization": {
+        "internalLinks": 3,
+        "crossSectionLinks": 2,
+        "needs": [
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L4-referencias-observatorio-y-vigencia",
+        "priorityScore": 2
+      }
+    },
+    {
       "path": "recursos/articulos/cormier-rhizomatic-education/index.md",
       "route": "/recursos/articulos/cormier-rhizomatic-education/",
       "title": "Rhizomatic education: community as curriculum — Cormier",
@@ -21874,7 +22238,7 @@
       "title": "Alianzas pedagógicas con IA generativa — Wang & Zhang (2026)",
       "kind": "page",
       "section": "recursos",
-      "words": 1086,
+      "words": 1087,
       "metadata": {
         "description": true,
         "summary": true,
@@ -23229,177 +23593,6 @@
       "editorial": {
         "lot": "L4-referencias-observatorio-y-vigencia",
         "priorityScore": 1
-      }
-    },
-    {
-      "path": "observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-      "route": "/observatorio/estudios/paradoja-descarga-cognitiva/",
-      "title": "La paradoja de la descarga cognitiva en el aprendizaje",
-      "kind": "page",
-      "section": "observatorio",
-      "words": 1386,
-      "metadata": {
-        "description": true,
-        "summary": true,
-        "tags": 4,
-        "categories": 1,
-        "areas": 1
-      },
-      "course": {
-        "role": "referencia-opcional",
-        "action": "conservar-fuera-del-recorrido-obligatorio",
-        "modules": [],
-        "routes": [
-          "estudiantado",
-          "profesorado"
-        ],
-        "reason": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
-      },
-      "narrative": {
-        "status": "parcial",
-        "signalCount": 4,
-        "flags": {
-          "entrada_reconocible": true,
-          "pregunta_motriz": false,
-          "ejemplo_desarrollado": true,
-          "contraste_o_limite": true,
-          "recapitulacion": false,
-          "transicion_explicita": true
-        }
-      },
-      "didactic": {
-        "status": "parcial",
-        "signalCount": 6,
-        "flags": {
-          "audiencia_explicita": false,
-          "proposito_o_resultado": false,
-          "accion_o_practica": true,
-          "ejemplo_trabajado": true,
-          "evidencia_o_producto": true,
-          "criterio_de_avance": true,
-          "apoyo_o_alternativa": true,
-          "retroalimentacion_o_reflexion": true,
-          "tiempo_estimado": false
-        }
-      },
-      "consistency": {
-        "reviewBand": "sin-alerta-automatica",
-        "reviewFlags": [],
-        "explicitOrientationReference": false,
-        "explicitGuideReference": false,
-        "relations": [
-          {
-            "id": "verificacion-y-fuentes",
-            "orientations": [
-              "§2.2",
-              "§4.4",
-              "§5.3",
-              "§9.1"
-            ],
-            "guides": [
-              "Guía docente, cuarta parte",
-              "Estudiantes: Todavía no la entrego"
-            ]
-          },
-          {
-            "id": "agenciamiento-y-cocreacion",
-            "orientations": [
-              "§3.2",
-              "§4.3",
-              "§4.4"
-            ],
-            "guides": [
-              "Guía docente, segunda parte",
-              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
-            ]
-          },
-          {
-            "id": "aprendizaje-y-evaluacion-del-proceso",
-            "orientations": [
-              "§2.2",
-              "§5.1–5.4"
-            ],
-            "guides": [
-              "Guía docente, primera y cuarta partes"
-            ]
-          },
-          {
-            "id": "etica-contexto-y-cuidados",
-            "orientations": [
-              "§6.1–6.5",
-              "§9.2",
-              "§10.4–10.5"
-            ],
-            "guides": [
-              "Guía docente, tercera parte",
-              "Estudiantes: Cuando el contexto cambia la decisión"
-            ]
-          },
-          {
-            "id": "diseno-activo-hibrido",
-            "orientations": [
-              "§4.2–4.6",
-              "§8.1–8.5"
-            ],
-            "guides": [
-              "Guía docente, primera, segunda y quinta partes"
-            ]
-          },
-          {
-            "id": "decision-institucional-y-tecnologia",
-            "orientations": [
-              "§7–§11"
-            ],
-            "guides": [
-              "Guía docente, alcance y procedencia"
-            ]
-          }
-        ]
-      },
-      "visual": {
-        "status": "figura-gobernada",
-        "featured": true,
-        "localAssets": [
-          "disociacion-desempeno-aprendizaje-mobile.svg",
-          "disociacion-desempeno-aprendizaje.svg",
-          "featured.webp"
-        ],
-        "featuredCandidates": [
-          "featured.webp"
-        ],
-        "svgAssets": 2,
-        "accessibleSVG": 2,
-        "inlineImages": 0,
-        "missingAlt": 0,
-        "governedFigureIDs": [
-          "udgia-f04-disociacion"
-        ],
-        "review": {
-          "decision": "reencuadrar-o-sustituir-tras-lectura",
-          "family": "ilustracion-mixta",
-          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
-        }
-      },
-      "interactive": {
-        "currentH5PIDs": [],
-        "candidate": {
-          "type": "sin-interaccion-obligatoria",
-          "technology": "Ninguna",
-          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
-        },
-        "priority": "baja-o-no-necesaria"
-      },
-      "organization": {
-        "internalLinks": 3,
-        "crossSectionLinks": 2,
-        "needs": [
-          "vincular-orientaciones",
-          "vincular-guia-por-audiencia"
-        ]
-      },
-      "editorial": {
-        "lot": "L4-referencias-observatorio-y-vigencia",
-        "priorityScore": 0
       }
     },
     {
@@ -26846,7 +27039,7 @@
       "title": "Acerca del proyecto",
       "kind": "page",
       "section": "about.md",
-      "words": 645,
+      "words": 660,
       "metadata": {
         "description": true,
         "summary": true,
@@ -26990,8 +27183,8 @@
         "priority": "baja-o-no-necesaria"
       },
       "organization": {
-        "internalLinks": 8,
-        "crossSectionLinks": 8,
+        "internalLinks": 9,
+        "crossSectionLinks": 9,
         "needs": [
           "vincular-orientaciones",
           "vincular-guia-por-audiencia"

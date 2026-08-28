@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-26T05:18:47.665Z",
+  "checkedAt": "2026-08-28T06:54:53.431Z",
   "h5pBaseline": {
-    "catalogContents": 9,
-    "pages": 5,
-    "mounts": 7
+    "catalogContents": 39,
+    "pages": 18,
+    "mounts": 37
   },
   "scenarios": {
     "root": {
       "hugo": {
         "pages": 934,
-        "warnings": 4,
+        "warnings": 3,
         "unexpectedWarnings": []
       },
       "homeDesktop": {
@@ -93,7 +93,7 @@
     "subpath": {
       "hugo": {
         "pages": 934,
-        "warnings": 4,
+        "warnings": 3,
         "unexpectedWarnings": []
       },
       "homeDesktop": {

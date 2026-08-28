@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-08-23T20:11:13.139Z",
+  "generated": "2026-08-28T06:55:27.852Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
@@ -67,7 +67,6 @@
   },
   "hugo": {
     "warnings": [
-      "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
       "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
       "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
       "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
@@ -80,17 +79,131 @@
       "h5pCount": 0,
       "studentRoute": true,
       "teacherRoute": true,
-      "dark": false,
-      "colorScheme": "light"
+      "dark": true,
+      "colorScheme": "dark"
     },
     "activities": [
       {
         "id": "cocreacion-versiones-slider",
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 868,
+        "fallbackContrast": {
+          "minimum": 6.25,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(167, 176, 196)",
+              "background": "rgb(33, 45, 76)",
+              "ratio": 6.25
+            },
+            {
+              "element": "th",
+              "foreground": "rgb(26, 37, 64)",
+              "background": "rgb(236, 238, 233)",
+              "ratio": 13
+            },
+            {
+              "element": "th",
+              "foreground": "rgb(26, 37, 64)",
+              "background": "rgb(236, 238, 233)",
+              "ratio": 13
+            },
+            {
+              "element": "th",
+              "foreground": "rgb(26, 37, 64)",
+              "background": "rgb(236, 238, 233)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(0.116235, 0.161412, 0.275451)",
+              "ratio": 17.96
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(0.116235, 0.161412, 0.275451)",
+              "ratio": 17.96
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(0.116235, 0.161412, 0.275451)",
+              "ratio": 17.96
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "td",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(26, 37, 64)",
+              "ratio": 13
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -99,9 +212,105 @@
         "id": "direccion-epistemica-hotspots",
         "path": "formacion-docente/alfabetizacion-co-creacion/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 495,
+        "fallbackContrast": {
+          "minimum": 11.26,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -110,9 +319,75 @@
         "id": "evidencias-proceso-proporcion",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 2,
+          "appliedMountCount": 2
+        },
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 737,
+        "fallbackContrast": {
+          "minimum": 11.26,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -121,9 +396,69 @@
         "id": "evaluacion-proceso-decision",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 2,
+          "appliedMountCount": 2
+        },
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 551,
+        "fallbackContrast": {
+          "minimum": 11.26,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -132,9 +467,93 @@
         "id": "cocreacion-evaluacion-recorrido",
         "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "width": 375,
         "scrollWidth": 375,
         "fallbackLength": 545,
+        "fallbackContrast": {
+          "minimum": 11.26,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
         "contentLicense": "CC BY-SA 4.0",
         "licenseStatus": "authorized-project-editorial",
         "publicationAuthorized": "true"
@@ -147,6 +566,13 @@
         "id": "cocreacion-versiones-slider",
         "path": "ia-educacion/productos-de-aprendizaje/ensayo/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "height": 469,
         "inner": {
           "width": 762,
@@ -189,6 +615,13 @@
         "id": "direccion-epistemica-hotspots",
         "path": "formacion-docente/alfabetizacion-co-creacion/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "height": 428,
         "inner": {
           "width": 762,
@@ -221,6 +654,13 @@
         "id": "evidencias-proceso-proporcion",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 2,
+          "appliedMountCount": 2
+        },
         "height": 1007,
         "inner": {
           "width": 762,
@@ -273,13 +713,13 @@
           "fixedHeaderPresent": true,
           "fixedHeader": {
             "top": 0,
-            "bottom": 88,
+            "bottom": 89,
             "width": 1280,
-            "height": 88
+            "height": 89
           },
           "section": {
-            "top": 104.46875,
-            "bottom": 1660.375,
+            "top": 105.46875,
+            "bottom": 1661.375,
             "width": 764,
             "height": 1555.90625
           },
@@ -308,6 +748,13 @@
         "id": "evaluacion-proceso-decision",
         "path": "ia-educacion/guias/evaluacion-formativa-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 2,
+          "appliedMountCount": 2
+        },
         "height": 889,
         "inner": {
           "width": 762,
@@ -341,6 +788,13 @@
         "id": "cocreacion-evaluacion-recorrido",
         "path": "formacion-docente/alfabetizacion-agenciamiento-ia/",
         "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
         "height": 413,
         "inner": {
           "width": 734,

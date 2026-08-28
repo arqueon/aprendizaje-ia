@@ -5,16 +5,16 @@
     "markdown": 182,
     "pages": 153,
     "sections": 29,
-    "words": 142311,
+    "words": 142470,
     "assets": 222,
     "content_assets": 220,
     "shared_figure_assets": 2,
     "pages_with_featured": 164,
     "pages_with_svg": 16,
     "pages_with_tables": 67,
-    "pages_with_mermaid": 16,
-    "pages_with_h5p": 5,
-    "pages_with_any_interaction": 6,
+    "pages_with_mermaid": 15,
+    "pages_with_h5p": 18,
+    "pages_with_any_interaction": 19,
     "body_lt90": 1,
     "body_lt250": 26,
     "body_gt2800": 1,
@@ -40,7 +40,7 @@
     "about.md": {
       "pages": 1,
       "sections": 0,
-      "words": 645,
+      "words": 660,
       "featured": 0,
       "svg": 0,
       "h5p": 0,
@@ -73,10 +73,10 @@
     "formacion-docente": {
       "pages": 30,
       "sections": 2,
-      "words": 38657,
+      "words": 38800,
       "featured": 32,
       "svg": 7,
-      "h5p": 2,
+      "h5p": 32,
       "tables": 8,
       "weak_lt250": 1,
       "missing_refs_with_citations": 16
@@ -95,7 +95,7 @@
     "laboratorio": {
       "pages": 7,
       "sections": 3,
-      "words": 7015,
+      "words": 7031,
       "featured": 9,
       "svg": 0,
       "h5p": 2,
@@ -117,7 +117,7 @@
     "observatorio": {
       "pages": 10,
       "sections": 4,
-      "words": 11185,
+      "words": 11161,
       "featured": 14,
       "svg": 5,
       "h5p": 0,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 40,
       "sections": 5,
-      "words": 18251,
+      "words": 18260,
       "featured": 43,
       "svg": 1,
       "h5p": 0,
@@ -1172,13 +1172,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 645,
+      "words": 660,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 2,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 8,
+      "internal_link_count": 9,
       "broken_internal_links": [],
       "visual": {
         "featured": false,
@@ -1194,7 +1194,7 @@
           "lead"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "featured",
         "svg-diagrama"
@@ -1786,10 +1786,10 @@
         "digital",
         "ia"
       ],
-      "words": 1211,
+      "words": 1214,
       "heading_count": 5,
       "h2_count": 5,
-      "external_url_count": 5,
+      "external_url_count": 6,
       "citation_signals": 2,
       "reference_heading": false,
       "internal_link_count": 14,
@@ -1842,10 +1842,10 @@
         "ia",
         "formacion"
       ],
-      "words": 1996,
+      "words": 2000,
       "heading_count": 10,
       "h2_count": 6,
-      "external_url_count": 3,
+      "external_url_count": 4,
       "citation_signals": 1,
       "reference_heading": false,
       "internal_link_count": 11,
@@ -1899,10 +1899,10 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 764,
+      "words": 768,
       "heading_count": 3,
       "h2_count": 2,
-      "external_url_count": 2,
+      "external_url_count": 3,
       "citation_signals": 6,
       "reference_heading": false,
       "internal_link_count": 4,
@@ -1959,10 +1959,10 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 506,
+      "words": 514,
       "heading_count": 1,
       "h2_count": 1,
-      "external_url_count": 2,
+      "external_url_count": 3,
       "citation_signals": 0,
       "reference_heading": false,
       "internal_link_count": 5,
@@ -2181,7 +2181,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1096,
+      "words": 1100,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 4,
@@ -2197,13 +2197,14 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
           "figura",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2218,7 +2219,7 @@
       "decision": "conservar",
       "needs": [
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2244,7 +2245,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1365,
+      "words": 1369,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 0,
@@ -2260,12 +2261,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2281,7 +2283,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata"
+        "fallback-verificar"
       ]
     },
     {
@@ -2306,7 +2308,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1548,
+      "words": 1552,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 3,
@@ -2322,12 +2324,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2343,7 +2346,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2369,7 +2372,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1460,
+      "words": 1464,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -2385,12 +2388,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2406,7 +2410,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata"
+        "fallback-verificar"
       ]
     },
     {
@@ -2431,7 +2435,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1788,
+      "words": 1792,
       "heading_count": 10,
       "h2_count": 10,
       "external_url_count": 0,
@@ -2447,12 +2451,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2468,7 +2473,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata"
+        "fallback-verificar"
       ]
     },
     {
@@ -2493,7 +2498,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 2111,
+      "words": 2115,
       "heading_count": 12,
       "h2_count": 12,
       "external_url_count": 0,
@@ -2509,12 +2514,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2530,7 +2536,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata"
+        "fallback-verificar"
       ]
     },
     {
@@ -2555,7 +2561,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 2338,
+      "words": 2342,
       "heading_count": 14,
       "h2_count": 14,
       "external_url_count": 3,
@@ -2571,12 +2577,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2592,7 +2599,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2618,7 +2625,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1539,
+      "words": 1543,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 1,
@@ -2634,12 +2641,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2655,7 +2663,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata"
+        "fallback-verificar"
       ]
     },
     {
@@ -2680,7 +2688,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1750,
+      "words": 1754,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 1,
@@ -2696,12 +2704,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2717,7 +2726,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2743,7 +2752,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1852,
+      "words": 1856,
       "heading_count": 10,
       "h2_count": 10,
       "external_url_count": 2,
@@ -2759,12 +2768,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2780,7 +2790,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2806,7 +2816,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1479,
+      "words": 1483,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 1,
@@ -2822,12 +2832,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2843,7 +2854,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2869,7 +2880,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1706,
+      "words": 1710,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 3,
@@ -2885,12 +2896,13 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead",
           "parallevar",
@@ -2906,7 +2918,7 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -2932,7 +2944,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 157,
+      "words": 229,
       "heading_count": 0,
       "h2_count": 0,
       "external_url_count": 0,
@@ -2948,17 +2960,20 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 18,
         "iframe_count": 0,
         "shortcode_names": [
           "curso-interactivo",
           "curso-navegacion",
+          "h5p",
           "idea",
           "lead"
         ]
       },
       "decision": "fusionar-o-ampliar",
-      "needs": []
+      "needs": [
+        "fallback-verificar"
+      ]
     },
     {
       "path": "formacion-docente/diseno-inverso-cocreacion-ia/_index.md",
@@ -3143,10 +3158,10 @@
         "ia",
         "formacion"
       ],
-      "words": 838,
+      "words": 842,
       "heading_count": 6,
       "h2_count": 6,
-      "external_url_count": 5,
+      "external_url_count": 6,
       "citation_signals": 0,
       "reference_heading": false,
       "internal_link_count": 8,
@@ -7436,10 +7451,10 @@
         "ia",
         "pedagogia"
       ],
-      "words": 389,
+      "words": 405,
       "heading_count": 6,
       "h2_count": 6,
-      "external_url_count": 0,
+      "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": true,
       "internal_link_count": 0,
@@ -8176,10 +8191,10 @@
       "areas": [
         "ia"
       ],
-      "words": 1386,
+      "words": 1362,
       "heading_count": 5,
       "h2_count": 5,
-      "external_url_count": 2,
+      "external_url_count": 5,
       "citation_signals": 8,
       "reference_heading": true,
       "internal_link_count": 3,
@@ -8190,12 +8205,11 @@
         "inline_image_count": 0,
         "svg_count": 2,
         "table_count": 1,
-        "mermaid_count": 1,
+        "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "mermaid",
           "udgia-figure"
         ]
       },
@@ -8709,7 +8723,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1086,
+      "words": 1087,
       "heading_count": 11,
       "h2_count": 7,
       "external_url_count": 1,
@@ -9230,10 +9244,10 @@
       "areas": [
         "pedagogia"
       ],
-      "words": 132,
+      "words": 145,
       "heading_count": 1,
       "h2_count": 1,
-      "external_url_count": 0,
+      "external_url_count": 1,
       "citation_signals": 1,
       "reference_heading": true,
       "internal_link_count": 2,
@@ -9319,10 +9333,10 @@
       "areas": [
         "pedagogia"
       ],
-      "words": 195,
+      "words": 190,
       "heading_count": 1,
       "h2_count": 1,
-      "external_url_count": 0,
+      "external_url_count": 1,
       "citation_signals": 1,
       "reference_heading": true,
       "internal_link_count": 5,
