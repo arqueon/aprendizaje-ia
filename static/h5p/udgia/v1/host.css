@@ -1,28 +1,48 @@
+/* Los tokens siguen la Identidad C: acento añil, almagre reservado a riesgo
+   (CLAUDE.md convención 6). El bloque html.dark refleja assets/css/custom.css. */
 .udg-h5p {
   --h5p-paper: #f5f3ee;
   --h5p-surface: #ffffff;
   --h5p-ink: #18223c;
   --h5p-muted: #525d70;
   --h5p-line: #c9c5bb;
-  --h5p-primary: #b12028;
-  --h5p-primary-strong: #7f1820;
-  --h5p-primary-tint: #f7e5e2;
+  --h5p-primary: #34508c;
+  --h5p-primary-strong: #20325a;
+  --h5p-primary-tint: #e7ecf7;
   --h5p-good: #536326;
   --h5p-good-tint: #eceddc;
   --h5p-risk: #8b2635;
+  --h5p-risk-tint: #f8e7ea;
+  --h5p-on-primary: #ffffff;
   margin-block: 2rem;
   overflow: clip;
   color: var(--h5p-ink);
   background: var(--h5p-surface);
   border: 1px solid var(--h5p-line);
   border-radius: 14px;
-  box-shadow: 0 16px 42px rgb(24 34 60 / 10%);
+  box-shadow: 0 16px 42px color-mix(in srgb, var(--h5p-ink) 10%, transparent);
+}
+
+html.dark .udg-h5p {
+  --h5p-paper: #131c31;
+  --h5p-surface: #1a2540;
+  --h5p-ink: #eceee9;
+  --h5p-muted: #a7b0c4;
+  --h5p-line: #34405f;
+  --h5p-primary: #8ba3d6;
+  --h5p-primary-strong: #b3c4e6;
+  --h5p-primary-tint: #243352;
+  --h5p-good: #b9c47a;
+  --h5p-good-tint: #2b331f;
+  --h5p-risk: #d98b8f;
+  --h5p-risk-tint: #40222a;
+  --h5p-on-primary: #131c31;
 }
 
 .udg-h5p__header {
   padding: clamp(1rem, 3vw, 1.5rem);
   background:
-    linear-gradient(115deg, rgb(177 32 40 / 8%), transparent 48%),
+    linear-gradient(115deg, color-mix(in srgb, var(--h5p-primary) 12%, transparent), transparent 48%),
     var(--h5p-paper);
   border-bottom: 1px solid var(--h5p-line);
 }
@@ -58,7 +78,7 @@
 .udg-h5p__button {
   min-height: 44px;
   padding: 0.65rem 1rem;
-  color: #ffffff;
+  color: var(--h5p-on-primary);
   background: var(--h5p-primary);
   border: 2px solid var(--h5p-primary);
   border-radius: 8px;
@@ -135,8 +155,8 @@
   margin: 0;
   padding: 0.8rem 1rem;
   color: var(--h5p-risk);
-  background: #f8e7ea;
-  border-top: 1px solid #eabfc7;
+  background: var(--h5p-risk-tint);
+  border-top: 1px solid color-mix(in srgb, var(--h5p-risk) 45%, transparent);
   font-weight: 700;
 }
 

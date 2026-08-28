@@ -4,6 +4,26 @@
   const query = new URLSearchParams(window.location.search);
   const contentID = query.get("content") || "";
   const instance = query.get("instance") || "";
+  let appearance = query.get("appearance") === "dark" ? "dark" : "light";
+  const paintAppearance = (target) => {
+    try {
+      target?.documentElement?.classList.toggle("dark", appearance === "dark");
+    } catch {
+      // Documento anidado aún no navegable; se repinta en la siguiente medición.
+    }
+  };
+  // El reproductor H5P crea su propio iframe anidado, que tampoco hereda la clase.
+  const paintNested = () => {
+    for (const frame of document.querySelectorAll("iframe")) {
+      paintAppearance(frame.contentDocument);
+    }
+  };
+  const applyAppearance = (value) => {
+    appearance = value === "dark" ? "dark" : "light";
+    paintAppearance(document);
+    paintNested();
+  };
+  applyAppearance(appearance);
   const status = document.getElementById("status");
   const container = document.getElementById("h5p-container");
   let observer;
@@ -51,6 +71,7 @@
         frame.title = nestedFrameTitle;
         nestedDocument.title = nestedFrameTitle;
         improveNestedAccessibility(nestedDocument);
+        paintAppearance(nestedDocument);
         const contentRoot = nestedDocument.querySelector(".h5p-content");
         const measurableChildren = [
           ...(contentRoot?.children?.length ? contentRoot.children : nestedDocument.body.children)
@@ -103,6 +124,13 @@
       event.data.instance === instance
     ) {
       sendHeight();
+    }
+    if (
+      event.origin === window.location.origin &&
+      event.data?.type === "udg-h5p-appearance" &&
+      event.data.instance === instance
+    ) {
+      applyAppearance(event.data.appearance);
     }
   });
 
