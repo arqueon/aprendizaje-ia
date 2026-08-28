@@ -3,10 +3,31 @@
   <desc id="desc">Versión vertical de una matriz conceptual original. Cuatro criterios orientan la deliberación: propósito de aprendizaje, salvaguardas y responsabilidad, capacidad para sostener, y evidencia y revisión. Su análisis conjunto conduce a priorizar y pilotar, preparar condiciones, reformular o no priorizar por ahora.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional. Síntesis original del marco UDGIA.</metadata>
   <style>
+    .fig-canvas { fill:#f5f3ee; }
     .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}.risk{fill:#8b2635}
     .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.bg-warn{fill:#f4e6d8}.bg-risk{fill:#f8e7ea}
     .st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-axis{stroke:#18223c}.st-warn{stroke:#914411}.st-risk{stroke:#8b2635}
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
+       ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
+       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+    @media (prefers-color-scheme: dark) {
+      .fig-canvas { fill:#131c31; }
+      .f-ink, .ink { fill:#eceee9; }
+      .f-muted, .muted { fill:#a7b0c4; }
+      .f-primary, .primary { fill:#8ba3d6; }
+      .f-good, .good { fill:#b9c47a; }
+      .f-risk, .risk { fill:#d98b8f; }
+      .bg-primary { fill:#243352; } .bg-good { fill:#2b331f; } .bg-risk { fill:#40222a; }
+      .bg-neutral { fill:#212d4c; } .bg-warn { fill:#3a2c17; }
+      .st-primary { stroke:#8ba3d6; } .st-good { stroke:#b9c47a; } .st-risk { stroke:#d98b8f; }
+      .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
+    }
   </style>
+  <rect class="fig-canvas" x="0" y="0" width="420" height="1230"/>
+
   <g class="tk">
     <text x="210" y="34" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Priorización responsable UDGIA</text>
     <text x="210" y="58" text-anchor="middle" font-size="14.5" class="muted">Cuatro preguntas antes de ampliar una iniciativa</text>
