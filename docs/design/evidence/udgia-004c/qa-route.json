@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-23T19:36:06.955Z",
+  "checkedAt": "2026-08-28T06:58:07.115Z",
   "routePath": "ia-educacion/rutas/coordinacion-academica/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
-    "pages": 935,
+    "pages": 934,
     "warnings": [
-      "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
       "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
       "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
       "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
@@ -56,14 +55,14 @@
       "/ia-educacion/rutas/decision-institucional-ia/"
     ],
     "hero": {
-      "source": "http://127.0.0.1:44629/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "source": "http://127.0.0.1:40107/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
       "width": 1024,
       "height": 576,
       "naturalWidth": 1200,
       "naturalHeight": 675
     },
     "introductoryHero": {
-      "source": "http://127.0.0.1:44629/ia-educacion/constelaciones/empezar-con-ia/cinco-movimientos-ayuda.svg",
+      "source": "http://127.0.0.1:40107/figures/cinco-movimientos-ayuda.svg",
       "width": 655,
       "height": 355,
       "naturalWidth": 1200,
@@ -206,14 +205,14 @@
       "/ia-educacion/rutas/decision-institucional-ia/"
     ],
     "hero": {
-      "source": "http://127.0.0.1:44629/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "source": "http://127.0.0.1:40107/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
       "width": 327,
       "height": 184,
       "naturalWidth": 1200,
       "naturalHeight": 675
     },
     "introductoryHero": {
-      "source": "http://127.0.0.1:44629/ia-educacion/constelaciones/empezar-con-ia/cinco-movimientos-ayuda-mobile.svg",
+      "source": "http://127.0.0.1:40107/figures/cinco-movimientos-ayuda-mobile.svg",
       "width": 286,
       "height": 433,
       "naturalWidth": 640,

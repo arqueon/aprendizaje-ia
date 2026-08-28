@@ -67,6 +67,21 @@
     component.frameHost.replaceChildren();
   };
 
+  const currentAppearance = () =>
+    document.documentElement.classList.contains("dark") ? "dark" : "light";
+
+  const sendAppearance = (component) => {
+    if (!component.frame?.contentWindow) return;
+    component.frame.contentWindow.postMessage(
+      {
+        type: "udg-h5p-appearance",
+        instance: component.instance,
+        appearance: currentAppearance()
+      },
+      window.location.origin
+    );
+  };
+
   const load = (component) => {
     if (component.frame || component.root.dataset.state === "loading") return;
 
@@ -84,7 +99,9 @@
       frame.allow = "fullscreen";
       frame.allowFullscreen = true;
     }
-    frame.src = component.embedURL;
+    const embedURL = new URL(component.embedURL, window.location.href);
+    embedURL.searchParams.set("appearance", currentAppearance());
+    frame.src = `${embedURL.pathname}${embedURL.search}`;
     component.frame = frame;
     component.frameHost.append(frame);
 
@@ -154,12 +171,22 @@
         { type: "udg-h5p-request-height", instance: component.instance },
         window.location.origin
       );
+      sendAppearance(component);
     } else if (event.data.type === "udg-h5p-height") {
       const height = Math.max(280, Math.min(6000, Number(event.data.height) || 0));
       component.frame.style.height = `${Math.ceil(height)}px`;
     } else if (event.data.type === "udg-h5p-error") {
       fail(component, "No fue posible iniciar la actividad. Usa la versión accesible.");
     }
+  });
+
+  // El sitio conmuta añadiendo/quitando `dark` en <html>. Las clases no cruzan la
+  // frontera del iframe, así que hay que retransmitir cada cambio.
+  new MutationObserver(() => {
+    for (const component of components.values()) sendAppearance(component);
+  }).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["class"]
   });
 
   window.addEventListener("beforeprint", () => {

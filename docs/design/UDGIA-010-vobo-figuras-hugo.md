@@ -43,3 +43,47 @@ La evidencia de las 36 combinaciones de ruta, base y viewport está en
 No se modificaron `data/h5p`, `static/h5p`, los paquetes H5P, workflows ni despliegues. No se
 realizó push. La licencia y autorización cubren la publicación editorial del proyecto y no
 convierten las figuras en política, norma o dictamen institucional.
+
+---
+
+## Enmienda 2026-08-27 · Apariencia clara y oscura
+
+Este visto bueno se otorgó sobre derechos, procedencia, checksums, alternativa textual,
+ausencia de recursos externos y axe. **No contemplaba la apariencia**, porque cuando se
+emitió el sitio tenía una sola. El rediseño Almagre de agosto de 2026 (`f41f795`)
+introdujo dos, y la auditoría integral del 27 de agosto encontró que dieciséis variantes
+quedaban ilegibles en modo oscuro: servidas mediante `img`, sin lienzo opaco y con tinta
+`#18223c` fija, daban 1.04:1 sobre la superficie nocturna `#1a2540`.
+
+### Qué se corrigió
+
+Las dieciséis variantes de las ocho figuras afectadas —F1, F3, F4, F7, F8, F9, F11 y F17—
+recibieron dos cambios: un rectángulo de lienzo opaco que cubre el `viewBox` completo, y un
+bloque `@media (prefers-color-scheme: dark)` que redefine las clases de token a la rampa
+nocturna. Se cubren los dos juegos de nombres en uso, `.f-ink` en escritorio y `.ink` en
+las variantes móviles. F5 y F18 ya traían fondo propio y no se tocaron.
+
+### Verificación de la enmienda
+
+Medición sobre render real, no cálculo sobre los hexadecimales declarados: las 32
+combinaciones de figura y apariencia se rindieron en Chromium con `colorScheme` claro y
+oscuro, dimensionando cada imagen a su `viewBox` para evitar el aplastamiento del tamaño
+natural por defecto. **Las 32 superan 4.5:1** — 14.21 a 14.38 en claro, 14.52 a 16.96 en
+oscuro. Los checksums de las dieciséis variantes se regeneraron en `data/udgia_figures.json`.
+
+### Límite conocido, y por qué se acepta
+
+Un SVG servido mediante `img` es un documento aislado: lee `prefers-color-scheme`, que es
+la preferencia del sistema operativo, pero **no puede ver la clase `html.dark`** con la que
+el sitio conmuta desde su selector. Con `autoSwitchAppearance = true` ambas señales
+coinciden mientras la persona no use el selector en contra de su sistema. Si lo hace, la
+figura se desincroniza — pero el lienzo opaco garantiza que **siga siendo legible** en
+cualquier caso: el peor escenario es un desajuste estético, no la pérdida de contenido que
+existía antes. La única solución sin ese matiz es inlinear las figuras, lo que exigiría
+renunciar a `picture`/`srcset` y resolver la variante móvil por media query.
+
+### Alcance de esta enmienda
+
+Amplía el criterio de visto bueno de las figuras UDGIA para incluir la apariencia en ambos
+modos. No modifica las decisiones editoriales, de derechos ni de procedencia del documento
+original, que siguen vigentes.

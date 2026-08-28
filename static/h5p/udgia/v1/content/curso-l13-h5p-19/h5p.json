@@ -1,0 +1,24 @@
+{
+  "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, en la sesión presencial, debata soluciones y aplique conceptos en equipos. ¿Qué característica clave del aprendizaje activo e híbrido se observa mejor en este diseño?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

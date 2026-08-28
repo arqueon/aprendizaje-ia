@@ -1,5 +1,27 @@
 #!/usr/bin/env node
 
+// ⚠ NO REEJECUTAR SIN LEER ESTO (verificado 2026-08-27)
+//
+// Este script SOBRESCRIBE data/h5p/course_candidates.json completo, pero ese
+// archivo ha divergido: contiene trabajo editorial posterior que el extractor
+// ya no sabe producir. Reejecutarlo hoy destruiría:
+//
+//   · reviewLessons (25 entradas) — no se emite aquí. Son los enlaces «Revisar
+//     la explicación» de la lección 13, el único mecanismo formativo real de esa
+//     página. Rompe qa-course-rise.mjs:127.
+//   · fallback.itemsPool en los 2 sorting — no se emite aquí. Sin él, el
+//     shortcode lista los elementos EN ORDEN DE SOLUCIÓN y revela la respuesta.
+//     Rompe qa-course-rise.mjs:189.
+//   · Las decisiones de libraryPolicies: aquí Blanks/DragText/SortParagraphs se
+//     declaran «deferred-library-not-governed» y Dialogcards «eligible», frente
+//     a «native-html-preferred» en el JSON versionado. Revierte 26 candidatos y
+//     rompe qa-course-rise.mjs:124, :125 y :207.
+//   · policy.nativeHtmlPreferredCount — la clave no se construye aquí.
+//
+// Antes de tocar nada: hacer el script no destructivo (fusionar en vez de
+// sobrescribir) o tratarlo como archivado. El ZIP fuente tampoco está
+// versionado, así que la extracción no es reproducible desde este repositorio.
+
 import { createHash } from "node:crypto";
 import { spawnSync } from "node:child_process";
 import {

@@ -1,0 +1,24 @@
+{
+  "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base en evidencia pertinente\". ¿Qué criterio está mejor derivado de ese resultado y permite evaluar la calidad del desempeño con claridad?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

@@ -772,7 +772,7 @@
       "path": "content/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
       "title": "Análisis crítico de sesgos en la IA",
       "role": "practica",
-      "words": 356,
+      "words": 375,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1248,7 +1248,7 @@
       "path": "content/about.md",
       "title": "Acerca del proyecto",
       "role": "pagina",
-      "words": 621,
+      "words": 635,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1279,7 +1279,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 58,
+            "line": 59,
             "text": "- **Citas APA 7 verificables.** Las afirmaciones factuales se acompañan de fuentes que el lector puede consultar. Cuando se detecta una afirmación sin respaldo suficiente, se corrige o se retira; la revisión editorial de este criterio está "
           }
         },
@@ -1287,7 +1287,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 55,
+            "line": 56,
             "text": "El contenido se redacta bajo cuatro criterios visibles:"
           }
         },
@@ -1307,7 +1307,7 @@
           "present": false,
           "evidence": {
             "source": "content/about.md",
-            "line": 58,
+            "line": 59,
             "text": "- **Citas APA 7 verificables.** Las afirmaciones factuales se acompañan de fuentes que el lector puede consultar. Cuando se detecta una afirmación sin respaldo suficiente, se corrige o se retira; la revisión editorial de este criterio está "
           }
         }
@@ -1819,7 +1819,7 @@
       "path": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
       "title": "Alfabetización en co-creación: aprender a co-producir con IA",
       "role": "pagina",
-      "words": 2001,
+      "words": 2004,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1899,7 +1899,7 @@
       "path": "content/formacion-docente/alfabetizacion-co-creacion/index.md",
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "role": "pagina",
-      "words": 721,
+      "words": 725,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1981,7 +1981,7 @@
       "path": "content/formacion-docente/alfabetizacion-operativa/index.md",
       "title": "Principios de la alfabetización operativa en inteligencia artificial",
       "role": "pagina",
-      "words": 465,
+      "words": 474,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2063,7 +2063,7 @@
       "path": "content/formacion-docente/alfabetizacion/index.md",
       "title": "Alfabetización digital",
       "role": "pagina",
-      "words": 1203,
+      "words": 1206,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -3421,7 +3421,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/index.md",
-            "line": 258,
+            "line": 260,
             "text": "Un registro útil reúne cuatro elementos: **cambio realizado**, **evidencia que lo motivó**, **resultado observado** y **decisión para la siguiente versión**. Si la IA propuso una modificación, añade qué aceptó, corrigió o descartó la person"
           }
         },
@@ -3675,7 +3675,7 @@
       "path": "content/formacion-docente/mapa-literacidades-ia/index.md",
       "title": "Las tres literacidades en IA — mapa visual",
       "role": "pagina",
-      "words": 786,
+      "words": 790,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -4476,7 +4476,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
       "title": "Principios de la alfabetización crítica en inteligencia artificial",
       "role": "pagina",
-      "words": 635,
+      "words": 643,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10786,7 +10786,7 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1396,
+      "words": 1380,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10814,12 +10814,8 @@
           }
         },
         "material_inicial": {
-          "present": true,
-          "evidence": {
-            "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 74,
-            "text": "*   **Zona 2 (Descarga dispersa):** Ocurre un uso fragmentado de la IA para correcciones menores o revisiones superficiales. Representa el nivel más bajo de desempeño, dado que el usuario retiene la mayor parte de la carga de trabajo mientr"
-          }
+          "present": false,
+          "evidence": null
         },
         "acciones": {
           "present": true,
@@ -11623,7 +11619,7 @@
       "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
       "title": "Alianzas pedagógicas con IA generativa — Wang & Zhang (2026)",
       "role": "recurso",
-      "words": 1465,
+      "words": 1467,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -12427,7 +12423,7 @@
       "path": "content/recursos/glosario/aprendizaje-transformativo/index.md",
       "title": "Aprendizaje transformativo",
       "role": "recurso",
-      "words": 130,
+      "words": 148,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -12560,7 +12556,7 @@
       "path": "content/recursos/glosario/descarga-cognitiva/index.md",
       "title": "Descarga cognitiva",
       "role": "recurso",
-      "words": 194,
+      "words": 198,
       "dependencies": [],
       "signals": {
         "situacion": {

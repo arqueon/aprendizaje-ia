@@ -1,0 +1,24 @@
+{
+  "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma más adecuada las restricciones, los recursos y las condiciones de equidad para diseñar una experiencia inclusiva?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

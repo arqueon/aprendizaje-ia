@@ -219,7 +219,9 @@ Revisa cada tarjeta y decide si el argumento presentado es fuerte o débil para 
 
 {{< curso-interactivo id="l11-h5p-03" >}}
 
+{{< h5p id="curso-l11-h5p-04" load="manual" >}}
 {{< curso-interactivo id="l11-h5p-04" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. Priorizar conecta necesidad, evidencia, cuidados y capacidad de implementación.

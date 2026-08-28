@@ -90,6 +90,396 @@
       "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
+    },
+    "curso-l01-h5p-02": {
+      "path": "curso-l01-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l02-h5p-02": {
+      "path": "curso-l02-h5p-02",
+      "title": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l03-h5p-02": {
+      "path": "curso-l03-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l04-h5p-02": {
+      "path": "curso-l04-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l05-h5p-02": {
+      "path": "curso-l05-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l06-h5p-03": {
+      "path": "curso-l06-h5p-03",
+      "title": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l07-h5p-03": {
+      "path": "curso-l07-h5p-03",
+      "title": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l08-h5p-03": {
+      "path": "curso-l08-h5p-03",
+      "title": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l09-h5p-02": {
+      "path": "curso-l09-h5p-02",
+      "title": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que l",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l10-h5p-03": {
+      "path": "curso-l10-h5p-03",
+      "title": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el anál",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l11-h5p-04": {
+      "path": "curso-l11-h5p-04",
+      "title": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l12-h5p-02": {
+      "path": "curso-l12-h5p-02",
+      "title": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-01": {
+      "path": "curso-l13-h5p-01",
+      "title": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-02": {
+      "path": "curso-l13-h5p-02",
+      "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuente",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-03": {
+      "path": "curso-l13-h5p-03",
+      "title": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experi",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-04": {
+      "path": "curso-l13-h5p-04",
+      "title": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-05": {
+      "path": "curso-l13-h5p-05",
+      "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cer",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-06": {
+      "path": "curso-l13-h5p-06",
+      "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-07": {
+      "path": "curso-l13-h5p-07",
+      "title": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-08": {
+      "path": "curso-l13-h5p-08",
+      "title": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-09": {
+      "path": "curso-l13-h5p-09",
+      "title": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una res",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-10": {
+      "path": "curso-l13-h5p-10",
+      "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma má",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-11": {
+      "path": "curso-l13-h5p-11",
+      "title": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuente",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-14": {
+      "path": "curso-l13-h5p-14",
+      "title": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más funda",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-15": {
+      "path": "curso-l13-h5p-15",
+      "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-16": {
+      "path": "curso-l13-h5p-16",
+      "title": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herra",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-17": {
+      "path": "curso-l13-h5p-17",
+      "title": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos d",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-18": {
+      "path": "curso-l13-h5p-18",
+      "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer pregun",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-19": {
+      "path": "curso-l13-h5p-19",
+      "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-25": {
+      "path": "curso-l13-h5p-25",
+      "title": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
     }
   }
 }

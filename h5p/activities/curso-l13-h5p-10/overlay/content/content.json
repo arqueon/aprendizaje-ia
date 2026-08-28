@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": true,
+      "text": "<div>Revisar conectividad, accesibilidad de materiales, horarios, herramientas disponibles y características del grupo antes de definir la actividad.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Considera acceso, tiempo, herramientas y características reales antes de decidir el formato.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Basarse en el contenido disciplinar y asumir que el mismo formato funcionará si el objetivo académico está bien definido.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Un objetivo claro no elimina las barreras de acceso, tiempo o accesibilidad.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Aplicar una única actividad sincrónica estándar para obtener información comparable de todo el grupo desde el inicio.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Una sola vía sincrónica puede excluir a quienes tienen restricciones de conectividad, accesibilidad u horario.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Elegir primero una herramienta innovadora y después ajustar las instrucciones según las reacciones del grupo.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Empezar por la herramienta desplaza el análisis previo que debe orientar el diseño.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma más adecuada las restricciones, los recursos y las condiciones de equidad para diseñar una experiencia inclusiva?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Esta acción integra de manera directa las restricciones, los recursos y las condiciones de equidad necesarias para diseñar una actividad inclusiva."
+    }
+  ]
+}

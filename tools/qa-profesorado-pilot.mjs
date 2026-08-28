@@ -2,7 +2,14 @@
 import { readFile, stat } from "node:fs/promises";
 import { chromium } from "playwright-core";
 
-const baseURL = process.env.BASE_URL || "http://100.107.89.3:1313";
+const baseURL = process.env.BASE_URL;
+if (!baseURL) {
+  process.stderr.write(
+    "FAIL: define BASE_URL con la URL del sitio servido (p. ej. BASE_URL=http://127.0.0.1:1313).\n" +
+      "No se codifican servidores locales en el repositorio (AGENTS.md).\n"
+  );
+  process.exit(1);
+}
 const route = "/ia-educacion/guias/profesorado/";
 const playwrightChromium = chromium.executablePath();
 const chromiumBinary = process.env.CHROMIUM_PATH ||

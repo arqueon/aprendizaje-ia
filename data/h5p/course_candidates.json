@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "courseId": "diseno-inverso-cocreacion-ia",
-  "status": "local-candidate-not-published",
+  "status": "local-candidates-resolved-udgia-022",
   "source": {
     "format": "Articulate Rise web export",
     "package": "diseno-inverso-y-cocreacion-con-ia-para-aprendizaje-activo-e-hibrido-raw-28ezk9aB.zip",
@@ -14,10 +14,11 @@
     "principle": "El componente más simple que conserva la intención pedagógica.",
     "access": "Abierto, sin cuenta, sin calificación y sin persistencia de intentos.",
     "publicationAuthorized": false,
-    "productionRule": "Solo las 30 prácticas de selección conservan candidatura H5P. Las demás permanecen en HTML nativo; ninguna decisión autoriza empaquetado, publicación, Moodle ni despliegue.",
-    "eligibleCount": 30,
+    "productionRule": "Las 30 prácticas de selección se promovieron a H5P.MultiChoice por UDGIA-022 (2026-08-27). Las 26 restantes permanecen en HTML nativo. La promoción no altera el acceso: sin cuenta, sin calificación y sin persistencia de intentos.",
+    "eligibleCount": 0,
     "deferredCount": 0,
-    "nativeHtmlPreferredCount": 26
+    "nativeHtmlPreferredCount": 26,
+    "promotedCount": 30
   },
   "libraryPolicies": {
     "H5P.Dialogcards": {
@@ -104,7 +105,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -143,6 +144,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l01-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l02-h5p-01": {
@@ -198,7 +206,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -237,6 +245,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l02-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l03-h5p-01": {
@@ -292,7 +307,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -331,6 +346,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l03-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l04-h5p-01": {
@@ -382,7 +404,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -421,6 +443,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l04-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l05-h5p-01": {
@@ -472,7 +501,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -511,6 +540,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l05-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l06-h5p-01": {
@@ -606,7 +642,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -645,6 +681,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l06-h5p-03",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l07-h5p-01": {
@@ -744,7 +787,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -783,6 +826,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l07-h5p-03",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l08-h5p-01": {
@@ -896,7 +946,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -935,6 +985,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l08-h5p-03",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l09-h5p-01": {
@@ -986,7 +1043,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1025,6 +1082,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l09-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l09-h5p-03": {
@@ -1164,7 +1228,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1203,6 +1267,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l10-h5p-03",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l11-h5p-01": {
@@ -1348,7 +1419,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1387,6 +1458,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l11-h5p-04",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l12-h5p-01": {
@@ -1442,7 +1520,7 @@
       "sourceFamily": "knowledgeCheck",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1481,6 +1559,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l12-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-01": {
@@ -1492,7 +1577,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1531,6 +1616,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-01",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-02": {
@@ -1542,7 +1634,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1581,6 +1673,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-02",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-03": {
@@ -1592,7 +1691,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1631,6 +1730,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-03",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-04": {
@@ -1642,7 +1748,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1681,6 +1787,13 @@
         ],
         "feedbackCorrect": "Es el orden habitual de este curso: activar, hacer e integrar. Puede adaptarse al contexto y no funciona como una receta rígida.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-04",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-05": {
@@ -1692,7 +1805,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1731,6 +1844,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-05",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-06": {
@@ -1742,7 +1862,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1781,6 +1901,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-06",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-07": {
@@ -1792,7 +1919,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1831,6 +1958,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-07",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-08": {
@@ -1842,7 +1976,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1881,6 +2015,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-08",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-09": {
@@ -1892,7 +2033,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1931,6 +2072,13 @@
         ],
         "feedbackCorrect": "Identifica correctamente la dimensión técnica, la evaluativa y la colaborativa ética de cada acción.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-09",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-10": {
@@ -1942,7 +2090,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -1981,6 +2129,13 @@
         ],
         "feedbackCorrect": "Esta acción integra de manera directa las restricciones, los recursos y las condiciones de equidad necesarias para diseñar una actividad inclusiva.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-10",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-11": {
@@ -1992,7 +2147,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2031,6 +2186,13 @@
         ],
         "feedbackCorrect": "Dirigir implica conservar el control del proceso, revisar los resultados de la IA y decidir de forma fundamentada qué se utiliza.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-11",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-12": {
@@ -2134,7 +2296,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2173,6 +2335,13 @@
         ],
         "feedbackCorrect": "Este es el conjunto de criterios clave para priorizar intervenciones de forma fundamentada y contextualizada.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-14",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-15": {
@@ -2184,7 +2353,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2223,6 +2392,13 @@
         ],
         "feedbackCorrect": "Es correcto porque convierte el resultado en un criterio observable, específico y evaluable en el producto del estudiante.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-15",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-16": {
@@ -2234,7 +2410,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2263,6 +2439,13 @@
         ],
         "feedbackCorrect": "Correcto respecto del modelo clásico: comienza por los resultados de aprendizaje. En este curso se añade antes una pregunta por el contexto del grupo.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-16",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-17": {
@@ -2274,7 +2457,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2313,6 +2496,13 @@
         ],
         "feedbackCorrect": "Esta acción mantiene la validación humana y reduce la delegación excesiva del juicio a la IA.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-17",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-18": {
@@ -2324,7 +2514,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2363,6 +2553,13 @@
         ],
         "feedbackCorrect": "Es correcto porque la IA funciona como apoyo para proponer instrumentos, mientras que la pertinencia final depende de la revisión docente basada en el contexto real.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-18",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-19": {
@@ -2374,7 +2571,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_RESPONSE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2413,6 +2610,13 @@
         ],
         "feedbackCorrect": "Describe con precisión la esencia del aprendizaje activo e híbrido en el escenario planteado.",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-19",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     },
     "l13-h5p-20": {
@@ -2574,7 +2778,7 @@
       "sourceFamily": "quiz",
       "sourceType": "MULTIPLE_CHOICE",
       "proposedLibrary": "H5P.MultiChoice",
-      "decision": "eligible-separate-production-gate",
+      "decision": "promoted-h5p-udgia-022",
       "rationale": "El catálogo publicado ya gobierna H5P.MultiChoice y su presentación formativa sin puntuación. Cada pregunta sigue necesitando paquete, QA y compuerta propios.",
       "catalogEvidence": [
         "direccion-epistemica-decidir-reformular",
@@ -2603,6 +2807,13 @@
         ],
         "feedbackCorrect": "",
         "feedbackIncorrect": ""
+      },
+      "promotion": {
+        "catalogID": "curso-l13-h5p-25",
+        "decision": "UDGIA-022",
+        "decisionDate": "2026-08-27",
+        "evidence": "h5p/AUTHORIZATION-UDGIA-022.md",
+        "note": "El respaldo HTML de este candidato pasa a ser la alternativa accesible del shortcode h5p; conserva publicationAuthorized false porque describe el respaldo, no el paquete publicado."
       }
     }
   },

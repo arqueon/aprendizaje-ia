@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": false,
+      "text": "<div>Hacer, activar e integrar.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Incluye las tres fases correctas, pero altera el orden al colocar la fase de trabajo antes de la preparación inicial.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Activar, integrar y hacer.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Menciona las fases correctas, pero ubica la integración antes del trabajo central de aplicación y construcción.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": true,
+      "text": "<div>Activar, hacer e integrar.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Es el orden correcto de las tres fases de una secuencia activa e híbrida.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Explorar, hacer e integrar.</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Usa un término relacionado con el inicio del aprendizaje, pero no corresponde al nombre formal de la primera fase.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Es el orden habitual de este curso: activar, hacer e integrar. Puede adaptarse al contexto y no funciona como una receta rígida."
+    }
+  ]
+}

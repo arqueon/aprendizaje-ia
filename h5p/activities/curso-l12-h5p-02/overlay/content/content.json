@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": false,
+      "text": "<div>Realizar ajustes sin datos</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Hacer cambios sin evidencia puede llevar a soluciones ineficaces o arbitrarias.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Dar retroalimentación solo al final</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "La retroalimentación tardía limita la oportunidad de mejora real.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Ignorar percepciones del grupo</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Desestimar la experiencia estudiantil debilita la pertinencia y equidad del diseño.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": true,
+      "text": "<div>Analizar datos de desempeño y ajustar de manera focalizada y documentada</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Correcto. La mejora continua requiere análisis sistemático y ajustes basados en evidencia, con registro transparente.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": ""
+    }
+  ]
+}

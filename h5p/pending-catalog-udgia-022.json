@@ -1,0 +1,1030 @@
+{
+  "_nota": "Entradas preparadas para promover 30 prácticas del curso a H5P.MultiChoice. NO aplicar hasta firmar h5p/AUTHORIZATION-UDGIA-022.md: publication-contract.mjs --mode public bloquea el despliegue del sitio ENTERO si algún objeto del catálogo queda sin autorizar, no sólo el objeto afectado.",
+  "_aplicar": "node h5p/apply-udgia-022.mjs   (fusiona ambas mitades y deja listo h5p:build)",
+  "_decision": "UDGIA-022",
+  "_objetos": 30,
+  "manifest_activities": {
+    "curso-l01-h5p-02": {
+      "package": "curso-l01-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l01-h5p-02/overlay"
+    },
+    "curso-l02-h5p-02": {
+      "package": "curso-l02-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l02-h5p-02/overlay"
+    },
+    "curso-l03-h5p-02": {
+      "package": "curso-l03-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l03-h5p-02/overlay"
+    },
+    "curso-l04-h5p-02": {
+      "package": "curso-l04-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l04-h5p-02/overlay"
+    },
+    "curso-l05-h5p-02": {
+      "package": "curso-l05-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l05-h5p-02/overlay"
+    },
+    "curso-l06-h5p-03": {
+      "package": "curso-l06-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l06-h5p-03/overlay"
+    },
+    "curso-l07-h5p-03": {
+      "package": "curso-l07-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l07-h5p-03/overlay"
+    },
+    "curso-l08-h5p-03": {
+      "package": "curso-l08-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l08-h5p-03/overlay"
+    },
+    "curso-l09-h5p-02": {
+      "package": "curso-l09-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l09-h5p-02/overlay"
+    },
+    "curso-l10-h5p-03": {
+      "package": "curso-l10-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l10-h5p-03/overlay"
+    },
+    "curso-l11-h5p-04": {
+      "package": "curso-l11-h5p-04-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l11-h5p-04/overlay"
+    },
+    "curso-l12-h5p-02": {
+      "package": "curso-l12-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l12-h5p-02/overlay"
+    },
+    "curso-l13-h5p-01": {
+      "package": "curso-l13-h5p-01-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-01/overlay"
+    },
+    "curso-l13-h5p-02": {
+      "package": "curso-l13-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-02/overlay"
+    },
+    "curso-l13-h5p-03": {
+      "package": "curso-l13-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-03/overlay"
+    },
+    "curso-l13-h5p-04": {
+      "package": "curso-l13-h5p-04-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-04/overlay"
+    },
+    "curso-l13-h5p-05": {
+      "package": "curso-l13-h5p-05-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-05/overlay"
+    },
+    "curso-l13-h5p-06": {
+      "package": "curso-l13-h5p-06-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-06/overlay"
+    },
+    "curso-l13-h5p-07": {
+      "package": "curso-l13-h5p-07-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-07/overlay"
+    },
+    "curso-l13-h5p-08": {
+      "package": "curso-l13-h5p-08-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-08/overlay"
+    },
+    "curso-l13-h5p-09": {
+      "package": "curso-l13-h5p-09-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-09/overlay"
+    },
+    "curso-l13-h5p-10": {
+      "package": "curso-l13-h5p-10-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-10/overlay"
+    },
+    "curso-l13-h5p-11": {
+      "package": "curso-l13-h5p-11-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-11/overlay"
+    },
+    "curso-l13-h5p-14": {
+      "package": "curso-l13-h5p-14-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-14/overlay"
+    },
+    "curso-l13-h5p-15": {
+      "package": "curso-l13-h5p-15-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-15/overlay"
+    },
+    "curso-l13-h5p-16": {
+      "package": "curso-l13-h5p-16-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-16/overlay"
+    },
+    "curso-l13-h5p-17": {
+      "package": "curso-l13-h5p-17-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-17/overlay"
+    },
+    "curso-l13-h5p-18": {
+      "package": "curso-l13-h5p-18-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-18/overlay"
+    },
+    "curso-l13-h5p-19": {
+      "package": "curso-l13-h5p-19-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-19/overlay"
+    },
+    "curso-l13-h5p-25": {
+      "package": "curso-l13-h5p-25-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-25/overlay"
+    }
+  },
+  "contents": {
+    "curso-l01-h5p-02": {
+      "title": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+      "description": "Práctica formativa sin calificación de la lección 1 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l01-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l01-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l02-h5p-02": {
+      "title": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+      "description": "Práctica formativa sin calificación de la lección 2 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l02-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l02-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l03-h5p-02": {
+      "title": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+      "description": "Práctica formativa sin calificación de la lección 3 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l03-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l03-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l04-h5p-02": {
+      "title": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+      "description": "Práctica formativa sin calificación de la lección 4 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l04-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l04-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l05-h5p-02": {
+      "title": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+      "description": "Práctica formativa sin calificación de la lección 5 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l05-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l05-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l06-h5p-03": {
+      "title": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+      "description": "Práctica formativa sin calificación de la lección 6 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l06-h5p-03-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l06-h5p-03",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l07-h5p-03": {
+      "title": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en ",
+      "description": "Práctica formativa sin calificación de la lección 7 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l07-h5p-03-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l07-h5p-03",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l08-h5p-03": {
+      "title": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+      "description": "Práctica formativa sin calificación de la lección 8 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l08-h5p-03-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l08-h5p-03",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l09-h5p-02": {
+      "title": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que l",
+      "description": "Práctica formativa sin calificación de la lección 9 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l09-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l09-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l10-h5p-03": {
+      "title": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el anál",
+      "description": "Práctica formativa sin calificación de la lección 10 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l10-h5p-03-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l10-h5p-03",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l11-h5p-04": {
+      "title": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación",
+      "description": "Práctica formativa sin calificación de la lección 11 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l11-h5p-04-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l11-h5p-04",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l12-h5p-02": {
+      "title": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+      "description": "Práctica formativa sin calificación de la lección 12 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l12-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l12-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-01": {
+      "title": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-01-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-01",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-02": {
+      "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuente",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-02-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-02",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-03": {
+      "title": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experi",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-03-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-03",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-04": {
+      "title": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-04-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-04",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-05": {
+      "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cer",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-05-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-05",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-06": {
+      "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte ",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-06-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-06",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-07": {
+      "title": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-07-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-07",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-08": {
+      "title": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones ",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-08-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-08",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-09": {
+      "title": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una res",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-09-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-09",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-10": {
+      "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma má",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-10-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-10",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-11": {
+      "title": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuente",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-11-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-11",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-14": {
+      "title": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más funda",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-14-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-14",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-15": {
+      "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-15-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-15",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-16": {
+      "title": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herra",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-16-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-16",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-17": {
+      "title": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos d",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-17-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-17",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-18": {
+      "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer pregun",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-18-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-18",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-19": {
+      "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, ",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-19-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-19",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-25": {
+      "title": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+      "description": "Práctica formativa sin calificación de la lección 13 del curso «Diseño inverso y cocreación con IA».",
+      "source": "h5p/packages/curso-l13-h5p-25-1.0.0.h5p",
+      "sourceSha256": "PENDIENTE-BUILD",
+      "mainLibrary": "H5P.MultiChoice",
+      "majorVersion": 1,
+      "minorVersion": 16,
+      "contentLicense": "CC BY-SA 4.0",
+      "licenseStatus": "project-original-pending-publication-gate",
+      "publicationAuthorized": false,
+      "libraryLicense": "MIT",
+      "provenance": {
+        "kind": "original",
+        "author": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+        "source": "data/h5p/course_candidates.json#l13-h5p-25",
+        "repository": "https://github.com/arqueon/aprendizaje-ia"
+      },
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    }
+  }
+}

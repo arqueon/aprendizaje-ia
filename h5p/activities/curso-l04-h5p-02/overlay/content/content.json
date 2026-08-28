@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": false,
+      "text": "<div>La IA diseña toda la actividad y se usa sin revisión humana</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Esta opción omite la validación humana, lo que puede comprometer la calidad y la pertinencia del diseño.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": true,
+      "text": "<div>El docente revisa y valida cada propuesta de la IA, documentando el proceso</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "¡Correcto! La cocreación efectiva requiere revisión, validación y documentación por parte del docente.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>El docente acepta la primera propuesta de la IA sin cambios</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Aceptar sin revisión puede llevar a errores y pérdida de agencia profesional.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Se utiliza la IA solo para generar materiales, sin definir objetivos ni criterios</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Usar la IA sin objetivos claros ni criterios definidos limita la alineación y el valor educativo.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 0,
+      "to": 100,
+      "feedback": ""
+    }
+  ]
+}

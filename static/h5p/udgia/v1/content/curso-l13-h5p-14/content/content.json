@@ -1,0 +1,81 @@
+{
+  "answers": [
+    {
+      "correct": true,
+      "text": "<div>Pertinencia, viabilidad, impacto potencial, evidencia y equidad</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Integra la relación con el diagnóstico, la posibilidad de implementación, el efecto esperado, el respaldo y la equidad.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Innovación, rapidez, creatividad y facilidad de ejecución</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "La novedad o la rapidez pueden influir, pero no muestran por sí solas pertinencia, evidencia ni equidad.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Diagnóstico, presupuesto, calendario y aceptación institucional</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "Son condiciones relevantes, pero no bastan para comparar el impacto, la evidencia y la equidad de las alternativas.",
+        "notChosenFeedback": ""
+      }
+    },
+    {
+      "correct": false,
+      "text": "<div>Novedad, preferencia del equipo, rapidez y visibilidad de la propuesta</div>",
+      "tipsAndFeedback": {
+        "tip": "",
+        "chosenFeedback": "La novedad y la preferencia del equipo no sustituyen criterios vinculados al diagnóstico, la evidencia y las condiciones de implementación.",
+        "notChosenFeedback": ""
+      }
+    }
+  ],
+  "UI": {
+    "showSolutionButton": "Mostrar solución",
+    "tryAgainButton": "Intentar de nuevo",
+    "checkAnswerButton": "Comprobar",
+    "tipsLabel": "Mostrar pista",
+    "scoreBarLabel": "Obtuviste :num de :total puntos",
+    "tipAvailable": "Hay una pista disponible",
+    "feedbackAvailable": "Hay retroalimentación disponible",
+    "readFeedback": "Leer retroalimentación",
+    "wrongAnswer": "Respuesta incorrecta",
+    "correctAnswer": "Respuesta correcta",
+    "shouldCheck": "Debía seleccionarse",
+    "shouldNotCheck": "No debía seleccionarse",
+    "noInput": "Selecciona al menos una respuesta antes de ver la solución",
+    "submitAnswerButton": "Enviar",
+    "a11yCheck": "Comprobar las respuestas. Se marcarán como correctas, incorrectas o sin responder.",
+    "a11yShowSolution": "Mostrar la solución correcta.",
+    "a11yRetry": "Reiniciar la actividad e intentarla de nuevo."
+  },
+  "question": "<p>En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más fundamentada?</p>",
+  "behaviour": {
+    "enableRetry": true,
+    "enableSolutionsButton": true,
+    "singlePoint": true,
+    "randomAnswers": true,
+    "showSolutionsRequiresInput": true,
+    "type": "single",
+    "confirmCheckDialog": false,
+    "confirmRetryDialog": false,
+    "autoCheck": false,
+    "passPercentage": 100,
+    "showScorePoints": false,
+    "enableCheckButton": true
+  },
+  "overallFeedback": [
+    {
+      "from": 100,
+      "to": 100,
+      "feedback": "Este es el conjunto de criterios clave para priorizar intervenciones de forma fundamentada y contextualizada."
+    }
+  ]
+}

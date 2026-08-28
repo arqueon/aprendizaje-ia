@@ -3,9 +3,30 @@
   <desc id="desc">Versión vertical de siete principios: formación antes que regulación, transparencia, evaluación del proceso, equidad, responsabilidad distribuida, autonomía institucional y revisión periódica. Son criterios revisables para decidir con contexto.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
+    .fig-canvas { fill:#f5f3ee; }
     .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}
     .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-axis{stroke:#18223c}
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
+       ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
+       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+    @media (prefers-color-scheme: dark) {
+      .fig-canvas { fill:#131c31; }
+      .f-ink, .ink { fill:#eceee9; }
+      .f-muted, .muted { fill:#a7b0c4; }
+      .f-primary, .primary { fill:#8ba3d6; }
+      .f-good, .good { fill:#b9c47a; }
+      .f-risk, .risk { fill:#d98b8f; }
+      .bg-primary { fill:#243352; } .bg-good { fill:#2b331f; } .bg-risk { fill:#40222a; }
+      .bg-neutral { fill:#212d4c; } .bg-warn { fill:#3a2c17; }
+      .st-primary { stroke:#8ba3d6; } .st-good { stroke:#b9c47a; } .st-risk { stroke:#d98b8f; }
+      .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
+    }
   </style>
+  <rect class="fig-canvas" x="0" y="0" width="420" height="1040"/>
+
   <g class="tk">
     <rect x="25" y="24" width="370" height="92" rx="5" class="bg-primary st-primary" stroke-width="1.7"/>
     <text x="210" y="60" text-anchor="middle" font-size="20" font-weight="bold" class="primary">Uso pedagógico responsable</text>

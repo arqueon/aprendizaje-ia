@@ -588,12 +588,15 @@ async function functionalCase(browser, server, label, viewport) {
   }));
   assert(layout.scrollWidth <= layout.width, `${label}: overflow horizontal ${layout.scrollWidth}/${layout.width}`);
   assert(layout.dark && layout.colorScheme.includes("dark"), `${label}: el documento padre perdió la apariencia oscura solicitada`);
+  // Revocado 2026-08-27: el runtime ya no conserva apariencia clara fija. Desde el
+  // rediseño Almagre el sitio tiene dos apariencias y el H5P debe seguir la del
+  // documento padre (host.js -> embed.js, mensaje `udg-h5p-appearance`).
   assert(
-    !runtimeAppearance.dark &&
-      runtimeAppearance.metaColorScheme === "light" &&
-      !contentAppearance.dark &&
-      contentAppearance.colorScheme.includes("light"),
-    `${label}: el runtime dejó de conservar su apariencia clara ${JSON.stringify({ runtimeAppearance, contentAppearance })}`
+    runtimeAppearance.dark &&
+      runtimeAppearance.metaColorScheme === "light dark" &&
+      contentAppearance.dark &&
+      contentAppearance.colorScheme.includes("dark"),
+    `${label}: el runtime no adoptó la apariencia oscura del documento padre ${JSON.stringify({ runtimeAppearance, contentAppearance })}`
   );
   assert(
     ["0s", "0.001ms"].includes(layout.iframeTransition),
@@ -995,7 +998,7 @@ try {
       cspEnforced: true,
       rootAndSubpath: true,
       reducedMotion: true,
-      noDarkVariant: true,
+      appearanceFollowsHost: true,
       noTelemetryGradesOrPersistence: true,
       axeSeriousOrCritical: axe.seriousOrCritical
     }

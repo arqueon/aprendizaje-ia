@@ -103,5 +103,5 @@ La [entrada de glosario sobre alfabetización en IA](/recursos/glosario/alfabeti
 - Rousell, D., & Sinclair, M. P. (2025). Desiring-futures in education policy: Assemblage theory, artificial intelligence, and UNESCO's futures of education. *Educational Review*, *77*(6), 1754–1777. https://doi.org/10.1080/00131911.2024.2362176
 - UNESCO. (2024). *AI competency framework for teachers*. UNESCO. https://www.unesco.org/en/articles/ai-competency-framework-teachers
 - Vallès-Peris, N., & Pareto, J. (2025). Artificial intelligence as a mode of ordering: Automated-decision making in primary care. *Information, Communication & Society*, *28*(11), 2015–2033. https://doi.org/10.1080/1369118X.2024.2406802
-- Yang, S., & Ma, R. (2025). Classifying epistemic relationships in human-AI interaction: An exploratory approach. arXiv preprint.
+- Yang, S., & Ma, R. (2026). Towards a typology of epistemic relationships in human–AI interaction. *Information Research*, *31*(iConf). https://doi.org/10.47989/ir31iconf64143
 {{< /referencias >}}

@@ -8,7 +8,6 @@
       "version": "hugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z",
       "pages": 934,
       "warnings": [
-        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
         "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
         "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
@@ -19,7 +18,6 @@
       "version": "hugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z",
       "pages": 934,
       "warnings": [
-        "WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.",
         "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
         "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
         "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
@@ -39,8 +37,8 @@
         "reason": "Evitar H5PUserUUID persistente cuando una biblioteca forma eventos xAPI internos."
       }
     },
-    "totalBytes": 9943441,
-    "files": 681,
+    "totalBytes": 10084820,
+    "files": 771,
     "contents": [
       "runtime-probe",
       "cocreacion-versiones-slider",
@@ -50,7 +48,37 @@
       "evaluacion-proceso-decision",
       "evidencias-proceso-proporcion",
       "cocreacion-evaluacion-recorrido",
-      "objetivos-bloom-udgplus"
+      "objetivos-bloom-udgplus",
+      "curso-l01-h5p-02",
+      "curso-l02-h5p-02",
+      "curso-l03-h5p-02",
+      "curso-l04-h5p-02",
+      "curso-l05-h5p-02",
+      "curso-l06-h5p-03",
+      "curso-l07-h5p-03",
+      "curso-l08-h5p-03",
+      "curso-l09-h5p-02",
+      "curso-l10-h5p-03",
+      "curso-l11-h5p-04",
+      "curso-l12-h5p-02",
+      "curso-l13-h5p-01",
+      "curso-l13-h5p-02",
+      "curso-l13-h5p-03",
+      "curso-l13-h5p-04",
+      "curso-l13-h5p-05",
+      "curso-l13-h5p-06",
+      "curso-l13-h5p-07",
+      "curso-l13-h5p-08",
+      "curso-l13-h5p-09",
+      "curso-l13-h5p-10",
+      "curso-l13-h5p-11",
+      "curso-l13-h5p-14",
+      "curso-l13-h5p-15",
+      "curso-l13-h5p-16",
+      "curso-l13-h5p-17",
+      "curso-l13-h5p-18",
+      "curso-l13-h5p-19",
+      "curso-l13-h5p-25"
     ]
   },
   "security": {
@@ -109,7 +137,7 @@
         "/h5p/udgia/v1/host.js",
         "/h5p/udgia/v1/host.css"
       ],
-      "firstHeight": 474,
+      "firstHeight": 473,
       "feedbackText": "Comprobación correcta: el feedback se anunció dentro del iframe y el estado no se guardó fuera de esta sesión.",
       "expandedHeight": 585,
       "collapsedHeight": 445,
@@ -185,8 +213,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-375.jpg",
-        "bytes": 164996,
-        "sha256": "f7bd1c3ab7a980c55f268019b40284f212d926191527b7fe00989aeba6acea2c"
+        "bytes": 157844,
+        "sha256": "3880c88bfc925bb6631716e1c55f39254c11c2abf0bb84aa4ea9815f866410a7"
       }
     },
     {
@@ -276,8 +304,8 @@
       },
       "screenshot": {
         "path": "docs/design/evidence/udgia-003/h5p-1280.jpg",
-        "bytes": 217758,
-        "sha256": "2c6b280b4a554a6655eb15c7ea98964ff775878eb1b09433bbd90343385167c3"
+        "bytes": 206783,
+        "sha256": "89f04f577cb90d673aac08cfb773527d64ff3e9200627fb833967538505e0b54"
       }
     }
   ],
@@ -364,7 +392,7 @@
     "cspEnforced": true,
     "rootAndSubpath": true,
     "reducedMotion": true,
-    "noDarkVariant": true,
+    "appearanceFollowsHost": true,
     "noTelemetryGradesOrPersistence": true,
     "axeSeriousOrCritical": 0
   }

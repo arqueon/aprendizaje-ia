@@ -167,7 +167,9 @@ Propón una medida prioritaria y justifica tu elección utilizando evidencia con
 Este método te permite fundamentar tus decisiones, comunicar hallazgos con claridad y contribuir a la toma de decisiones informadas en contextos reales.
 {{< /idea >}}
 
+{{< h5p id="curso-l09-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l09-h5p-02" >}}
+{{< /h5p >}}
 
 ## IA disciplinar: generación y validación de casos
 

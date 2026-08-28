@@ -21,30 +21,30 @@
   --h-ink: #18223c;
   --h-muted: #525d70;
   --h-line: #c9c5bb;
-  --h-primary: #b12028;
-  --h-primary-strong: #7f1820;
-  --h-primary-tint: #f7e5e2;
+  --h-primary: #34508c;
+  --h-primary-strong: #20325a;
+  --h-primary-tint: #e7ecf7;
   --h-good: #536326;
   --h-good-tint: #eceddc;
   --h-warning: #914411;
   --h-risk: #8b2635;
-  --h-focus: #b12028;
+  --h-focus: #34508c;
   --h-font-display: Newsreader, Georgia, "Iowan Old Style", "Times New Roman", serif;
   --h-font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --h5p-theme-main-cta-base: #b12028;
-  --h5p-theme-main-cta-light: #c73238;
-  --h5p-theme-main-cta-dark: #7f1820;
+  --h5p-theme-main-cta-base: #34508c;
+  --h5p-theme-main-cta-light: #4a67a6;
+  --h5p-theme-main-cta-dark: #20325a;
   --h5p-theme-secondary-cta-base: #ece9e1;
   --h5p-theme-secondary-cta-light: #f5f3ee;
   --h5p-theme-secondary-cta-dark: #c9c5bb;
   --h5p-theme-secondary-contrast-cta: #18223c;
-  --h5p-theme-secondary-contrast-cta-hover: #7f1820;
+  --h5p-theme-secondary-contrast-cta-hover: #20325a;
   --h5p-theme-alternative-base: #ece9e1;
   --h5p-theme-alternative-light: #f5f3ee;
   --h5p-theme-alternative-dark: #c9c5bb;
   --h5p-theme-alternative-darker: #aaa69d;
   --h5p-theme-background: #f5f3ee;
-  --h5p-theme-focus: #b12028;
+  --h5p-theme-focus: #34508c;
   --h5p-theme-contrast-cta: #ffffff;
   --h5p-theme-contrast-cta-white: #ffffff;
   --h5p-theme-text-primary: #18223c;
@@ -66,6 +66,57 @@
   --h5p-theme-feedback-neutral-third: #f2d5b6;
 }
 
+/* Apariencia oscura. El host propaga la clase `dark` al documento del iframe
+   (h5p/runtime/host.js -> embed.js). Espejo de html.dark en assets/css/custom.css. */
+html.dark {
+  --h-bg: #131c31;
+  --h-surface: #1a2540;
+  --h-surface-alt: #212d4c;
+  --h-ink: #eceee9;
+  --h-muted: #a7b0c4;
+  --h-line: #34405f;
+  --h-primary: #8ba3d6;
+  --h-primary-strong: #b3c4e6;
+  --h-primary-tint: #243352;
+  --h-good: #b9c47a;
+  --h-good-tint: #2b331f;
+  --h-warning: #d49a55;
+  --h-risk: #d98b8f;
+  --h-focus: #8ba3d6;
+  --h5p-theme-main-cta-base: #8ba3d6;
+  --h5p-theme-main-cta-light: #b3c4e6;
+  --h5p-theme-main-cta-dark: #5f79b0;
+  --h5p-theme-secondary-cta-base: #212d4c;
+  --h5p-theme-secondary-cta-light: #2a3960;
+  --h5p-theme-secondary-cta-dark: #34405f;
+  --h5p-theme-secondary-contrast-cta: #eceee9;
+  --h5p-theme-secondary-contrast-cta-hover: #b3c4e6;
+  --h5p-theme-alternative-base: #212d4c;
+  --h5p-theme-alternative-light: #2a3960;
+  --h5p-theme-alternative-dark: #34405f;
+  --h5p-theme-alternative-darker: #46527a;
+  --h5p-theme-background: #131c31;
+  --h5p-theme-focus: #8ba3d6;
+  --h5p-theme-contrast-cta: #131c31;
+  --h5p-theme-contrast-cta-white: #131c31;
+  --h5p-theme-text-primary: #eceee9;
+  --h5p-theme-text-secondary: #c4cbd8;
+  --h5p-theme-text-third: #a7b0c4;
+  --h5p-theme-ui-base: #1a2540;
+  --h5p-theme-stroke-1: #34405f;
+  --h5p-theme-stroke-2: #2a3960;
+  --h5p-theme-stroke-3: #212d4c;
+  --h5p-theme-feedback-correct-main: #b9c47a;
+  --h5p-theme-feedback-correct-secondary: #2b331f;
+  --h5p-theme-feedback-correct-third: #3b4529;
+  --h5p-theme-feedback-incorrect-main: #d98b8f;
+  --h5p-theme-feedback-incorrect-secondary: #40222a;
+  --h5p-theme-feedback-incorrect-third: #552d37;
+  --h5p-theme-feedback-neutral-main: #d49a55;
+  --h5p-theme-feedback-neutral-secondary: #3a2c17;
+  --h5p-theme-feedback-neutral-third: #4d3a1e;
+}
+
 html,
 body,
 .h5p-content,
@@ -74,6 +125,13 @@ body,
   background: var(--h-bg);
   font-family: var(--h-font-body);
   color-scheme: light;
+}
+
+html.dark,
+html.dark body,
+html.dark .h5p-content,
+html.dark .h5p-container {
+  color-scheme: dark;
 }
 
 .h5p-content {

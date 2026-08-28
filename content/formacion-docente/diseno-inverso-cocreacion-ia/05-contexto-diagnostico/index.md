@@ -275,7 +275,9 @@ Recuerda que toda propuesta generada por IA es un borrador hasta su validación 
 
 {{< /pestanas >}}
 
+{{< h5p id="curso-l05-h5p-02" load="manual" >}}
 {{< curso-interactivo id="l05-h5p-02" >}}
+{{< /h5p >}}
 
 {{< parallevar >}}
 1. El contexto incluye saberes previos, modalidad, tiempo, recursos, accesibilidad y restricciones.

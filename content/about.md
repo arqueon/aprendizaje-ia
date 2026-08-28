@@ -42,13 +42,14 @@ Algunas piezas publicadas anteriormente se retiraron del sitio activo y están e
 
 ## Cómo está organizado
 
-El sitio se estructura en cinco secciones temáticas principales:
+El sitio se estructura en seis secciones temáticas principales:
 
 - [IA en educación](/ia-educacion/) — guías prácticas, integración curricular, ética y tendencias. Sección prioritaria del sitio.
 - [Laboratorio de innovación docente](/laboratorio/) — actividades propuestas para adaptar y flujos de integración de IA.
 - [Observatorio de IA y pedagogía digital](/observatorio/) — estudios, guías metodológicas y documentación de buenas prácticas.
 - [Recursos y herramientas](/recursos/) — artículos, videos, links curados, recursos institucionales y un [glosario de términos](/recursos/glosario/).
 - [Formación docente](/formacion-docente/) — alfabetización digital, formación continua y redes de práctica.
+- [Blog](/blog/) — ensayos breves sobre el cruce entre pedagogía universitaria, aprendizaje digital e IA.
 
 ## Principios editoriales
 

@@ -102,9 +102,399 @@
       "presentationAdapter": null,
       "fullScreen": false,
       "reportingIsEnabled": false
+    },
+    "curso-l01-h5p-02": {
+      "path": "curso-l01-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la agencia docente en un entorno híbrido?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l02-h5p-02": {
+      "path": "curso-l02-h5p-02",
+      "title": "¿Cuál de las siguientes opciones refleja mejor la lógica del diseño inverso?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l03-h5p-02": {
+      "path": "curso-l03-h5p-02",
+      "title": "¿Cuál de las siguientes acciones refleja mejor la literacidad de cocreación con IA?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l04-h5p-02": {
+      "path": "curso-l04-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa mejor una cocreación efectiva entre persona e IA en el diseño docente?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l05-h5p-02": {
+      "path": "curso-l05-h5p-02",
+      "title": "¿Cuál de las siguientes acciones representa un uso apropiado de la IA en el diagnóstico inicial?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l06-h5p-03": {
+      "path": "curso-l06-h5p-03",
+      "title": "¿Cuál de las siguientes opciones representa un resultado de aprendizaje observable, alineado y bien calibrado?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l07-h5p-03": {
+      "path": "curso-l07-h5p-03",
+      "title": "¿Cuál de las siguientes evidencias sería la más robusta y alineada para evaluar la justificación de una intervención en ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l08-h5p-03": {
+      "path": "curso-l08-h5p-03",
+      "title": "¿Cuál de las siguientes afirmaciones refleja mejor una secuencia activa e híbrida bien diseñada?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l09-h5p-02": {
+      "path": "curso-l09-h5p-02",
+      "title": "Al analizar dos comunidades frente a la misma amenaza, ¿qué factor explica mejor por qué una enfrenta mayor riesgo que l",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l10-h5p-03": {
+      "path": "curso-l10-h5p-03",
+      "title": "¿Cuál de las siguientes acciones representa mejor una integración efectiva de la reflexión sobre limitaciones en el anál",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l11-h5p-04": {
+      "path": "curso-l11-h5p-04",
+      "title": "Al priorizar intervenciones en un contexto complejo, ¿cuál de las siguientes acciones representa mejor una justificación",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l12-h5p-02": {
+      "path": "curso-l12-h5p-02",
+      "title": "¿Qué elemento es fundamental para una mejora continua efectiva en el diseño de actividades?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-01": {
+      "path": "curso-l13-h5p-01",
+      "title": "¿Cuál opción identifica correctamente los cuatro componentes del riesgo?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-02": {
+      "path": "curso-l13-h5p-02",
+      "title": "Una docente usa IA en su curso de tres maneras: formula prompts para resumir textos, contrasta las respuestas con fuente",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-03": {
+      "path": "curso-l13-h5p-03",
+      "title": "En un curso universitario híbrido, una profesora detecta que su grupo tiene niveles distintos de acceso digital y experi",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-04": {
+      "path": "curso-l13-h5p-04",
+      "title": "Según el recorrido habitual de esta lección, ¿qué secuencia organiza una experiencia activa e híbrida?",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-05": {
+      "path": "curso-l13-h5p-05",
+      "title": "Un docente quiere evaluar si el estudiantado puede aplicar criterios de verificación de información en una situación cer",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-06": {
+      "path": "curso-l13-h5p-06",
+      "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-07": {
+      "path": "curso-l13-h5p-07",
+      "title": "Un docente quiere aumentar el nivel de actividad cognitiva en una secuencia híbrida. ¿Qué actividad corresponde al nivel",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-08": {
+      "path": "curso-l13-h5p-08",
+      "title": "Una docente quiere redactar un resultado de aprendizaje observable para una actividad. ¿Cuál de las siguientes opciones ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-09": {
+      "path": "curso-l13-h5p-09",
+      "title": "Una docente usa una herramienta de IA para planear una actividad de clase. Primero ajusta el prompt para obtener una res",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-10": {
+      "path": "curso-l13-h5p-10",
+      "title": "Al planear una actividad virtual sincrónica para un grupo universitario diverso, ¿qué acción permite evaluar de forma má",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-11": {
+      "path": "curso-l13-h5p-11",
+      "title": "Una docente utiliza IA para proponer una actividad de clase. Revisa las sugerencias, contrasta la información con fuente",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-14": {
+      "path": "curso-l13-h5p-14",
+      "title": "En un contexto con recursos limitados, ¿qué conjunto de criterios permite priorizar una intervención de manera más funda",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-15": {
+      "path": "curso-l13-h5p-15",
+      "title": "Estás diseñando una rúbrica para evaluar el resultado de aprendizaje: \"El estudiante justifica una intervención con base",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-16": {
+      "path": "curso-l13-h5p-16",
+      "title": "El diseño inverso inicia con la definición de los resultados de aprendizaje deseados antes de elegir actividades o herra",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-17": {
+      "path": "curso-l13-h5p-17",
+      "title": "Un docente usa IA para diseñar una actividad y acepta sus propuestas sin revisarlas ni contrastarlas con los objetivos d",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-18": {
+      "path": "curso-l13-h5p-18",
+      "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer pregun",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-19": {
+      "path": "curso-l13-h5p-19",
+      "title": "Una docente universitaria rediseña una unidad para que el estudiantado analice un caso en línea antes de clase y luego, ",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
+    },
+    "curso-l13-h5p-25": {
+      "path": "curso-l13-h5p-25",
+      "title": "Utilizar verbos como explicar, aplicar o analizar ayuda a que un resultado de aprendizaje sea observable y evaluable.",
+      "mainLibrary": "H5P.MultiChoice",
+      "adapter": "multi-choice.css",
+      "presentationAdapter": {
+        "policy": "formative-no-score",
+        "css": "formative-no-score.css",
+        "js": "formative-no-score.js"
+      },
+      "fullScreen": false,
+      "reportingIsEnabled": false
     }
   },
-  "totalBytes": 9944168,
+  "totalBytes": 10084820,
   "files": [
     {
       "path": "adapters/bloom-objective-builder.css",
@@ -232,6 +622,456 @@
       "sha256": "45d83d1d953088fbd6b20f4ef050385453872375005a06e1f47555500830dc03"
     },
     {
+      "path": "content/curso-l01-h5p-02/content/content.json",
+      "bytes": 2891,
+      "sha256": "6905dd8cbf28a740f863020671ab7be4150cdd389bc6c72805304f38eccaae1e"
+    },
+    {
+      "path": "content/curso-l01-h5p-02/h5p.json",
+      "bytes": 552,
+      "sha256": "3dfc088c80b9ff2d5f6a95e4445474215f9f74c8d2dc3ee863fb111b7e62951c"
+    },
+    {
+      "path": "content/curso-l01-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "c85bd279c9f07d3819226676e64276ec8fc5dfff42507c5b37b29c0ccbdc1fc9"
+    },
+    {
+      "path": "content/curso-l02-h5p-02/content/content.json",
+      "bytes": 3033,
+      "sha256": "cd8b386157d3faff81b2d6fce82a75ea0fe7d39cde957352fe3dcbd2e82cde37"
+    },
+    {
+      "path": "content/curso-l02-h5p-02/h5p.json",
+      "bytes": 541,
+      "sha256": "4aec4152375337d17c6b57a6b3df67f62b330674b35e74bd6cebde8422cdc864"
+    },
+    {
+      "path": "content/curso-l02-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "46ae689ff37accef820778f9b949750f0226c52be5ca46493d2b75365e10f6ad"
+    },
+    {
+      "path": "content/curso-l03-h5p-02/content/content.json",
+      "bytes": 2957,
+      "sha256": "3b7d506599951e72c7e30a59d69564ad3e6ae3b0020696fc0a58aff7eae7880d"
+    },
+    {
+      "path": "content/curso-l03-h5p-02/h5p.json",
+      "bytes": 547,
+      "sha256": "b19972a98956fd3ebd0019ad7f6339ac1d18aa4f830de358e5c489aa867cda70"
+    },
+    {
+      "path": "content/curso-l03-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "3138d827a5931d40e0826dcaf88b7d12a28e15e868d8d50ac2a012caccf66fe6"
+    },
+    {
+      "path": "content/curso-l04-h5p-02/content/content.json",
+      "bytes": 2936,
+      "sha256": "2e26636ccfa8f404b3ef80ff4c2e5053a9209050f1a9280246cf4e0f063aafda"
+    },
+    {
+      "path": "content/curso-l04-h5p-02/h5p.json",
+      "bytes": 579,
+      "sha256": "b019b2cc2446ead5dbf188e90a065cc24d6ac5b30fc93d60af5158eedf44d52d"
+    },
+    {
+      "path": "content/curso-l04-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "82e578b97f3104c3944b4f66607d5e6da7be457e82ddd0e42a91af0aa5d775ad"
+    },
+    {
+      "path": "content/curso-l05-h5p-02/content/content.json",
+      "bytes": 2944,
+      "sha256": "d8ddc867cc6afad6d7e567978937fadff1058401cdaffdabed2db37d7af258ac"
+    },
+    {
+      "path": "content/curso-l05-h5p-02/h5p.json",
+      "bytes": 560,
+      "sha256": "7e2ea0ca8fc89819575646474e6194e63d865e2435eb4ab86f7586e3549a34e7"
+    },
+    {
+      "path": "content/curso-l05-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "6da29142cf26d49564311f51438beff4df2f6e3feb944e24e8a4d910ae609494"
+    },
+    {
+      "path": "content/curso-l06-h5p-03/content/content.json",
+      "bytes": 2988,
+      "sha256": "5fa431f960606581da71ccbed0953aaebf1344f8263fe3ff424a14ad67248d78"
+    },
+    {
+      "path": "content/curso-l06-h5p-03/h5p.json",
+      "bytes": 573,
+      "sha256": "396096e82f53e8dec6ba3a74783182293b076c9ce3fd7c09806393c05fc66cc1"
+    },
+    {
+      "path": "content/curso-l06-h5p-03/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "65ca1673db8111e2bceeec936c48a1bc1fc3155b6276b21aa0424c01b9b7c1df"
+    },
+    {
+      "path": "content/curso-l07-h5p-03/content/content.json",
+      "bytes": 3109,
+      "sha256": "8a4656c6cfb2c6ade75cc1c21e78815417ce324803d0c6fc7544e9dfc02b5c20"
+    },
+    {
+      "path": "content/curso-l07-h5p-03/h5p.json",
+      "bytes": 606,
+      "sha256": "28ee020d8742cfa947b703246c68b44be051a74ece9b80962f0a02fec6f26932"
+    },
+    {
+      "path": "content/curso-l07-h5p-03/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "8f1f48933f7906d9d016179b5cb1483283f8411bae2262f820484bbc2c442ec4"
+    },
+    {
+      "path": "content/curso-l08-h5p-03/content/content.json",
+      "bytes": 3242,
+      "sha256": "12b5909f9dfb52b7f0f431fc1bb43b63db3139be91e761a61527d76187522d99"
+    },
+    {
+      "path": "content/curso-l08-h5p-03/h5p.json",
+      "bytes": 561,
+      "sha256": "6f8ba329337bbc24cc5d960ec9286fb6262f86382fa429491cf74da37359474c"
+    },
+    {
+      "path": "content/curso-l08-h5p-03/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "e92341cb27abc1c053a50affbd68e5669b1fdbbcdaaa8a35088506f2c00b2b35"
+    },
+    {
+      "path": "content/curso-l09-h5p-02/content/content.json",
+      "bytes": 2868,
+      "sha256": "7c48701efbeb3587fdba356b41f2d37e4330f8b44085005b9fe388f2ac1c123c"
+    },
+    {
+      "path": "content/curso-l09-h5p-02/h5p.json",
+      "bytes": 591,
+      "sha256": "976d9666f57effc77b388457c85c357541eeda1b8e1cf32574557ee13a321b9f"
+    },
+    {
+      "path": "content/curso-l09-h5p-02/LICENSE-content.txt",
+      "bytes": 281,
+      "sha256": "8fd6b6082bad0edbe4c31f00483ae24caf1cc23e13eb958c527ad557d6ecf920"
+    },
+    {
+      "path": "content/curso-l10-h5p-03/content/content.json",
+      "bytes": 3068,
+      "sha256": "9db41038daab42206f9b8df0f647c93d921ce325afea625b8e290a8de70cf9bb"
+    },
+    {
+      "path": "content/curso-l10-h5p-03/h5p.json",
+      "bytes": 602,
+      "sha256": "c0e61266ebdc81319016c6f224bc13fbd61aa60843903ddc331d196fb57cdd93"
+    },
+    {
+      "path": "content/curso-l10-h5p-03/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "61605f860e6a4a6e3c54385ad601db9a13b0168ff1c4157e512c578d83f01f97"
+    },
+    {
+      "path": "content/curso-l11-h5p-04/content/content.json",
+      "bytes": 3165,
+      "sha256": "23e4bc99e1dc49120165dce73c08192ead564b0ee4d5ef788b7888d5a09f428f"
+    },
+    {
+      "path": "content/curso-l11-h5p-04/h5p.json",
+      "bytes": 611,
+      "sha256": "4ba9a91023ce1a2b574208ec984333b2dd06ee8b69113fab6b82b20c2aac735c"
+    },
+    {
+      "path": "content/curso-l11-h5p-04/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "483c34c2b647c9162e6d2f20527ea2487212eefb059c65ebc291d5ac5c8ce104"
+    },
+    {
+      "path": "content/curso-l12-h5p-02/content/content.json",
+      "bytes": 2759,
+      "sha256": "452095c2d971498a69c86e5f817e171f0946518c72610412ae1174552c8d0464"
+    },
+    {
+      "path": "content/curso-l12-h5p-02/h5p.json",
+      "bytes": 555,
+      "sha256": "30b33d9c43a323eb9d982860db0b3d2b8929ab069c61e53d640186ee2d28e68a"
+    },
+    {
+      "path": "content/curso-l12-h5p-02/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "3c8ebc3650cc339dff76f29f272719a7168b8b6e3a0952786afa60f4744e1c4a"
+    },
+    {
+      "path": "content/curso-l13-h5p-01/content/content.json",
+      "bytes": 2931,
+      "sha256": "c1c10898a365f6b0d8d15ff3c2454ebe60280cbe6993e015c92ccbc18f31a8f7"
+    },
+    {
+      "path": "content/curso-l13-h5p-01/h5p.json",
+      "bytes": 536,
+      "sha256": "3c5f52c2b395dd535ca7da2fba0c16b4cfd9343f1e364e835bf2eb4cb6dcef33"
+    },
+    {
+      "path": "content/curso-l13-h5p-01/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "135cfff8768a9abd3b472763d286ab3666ec3cacf8419422519990f1d9d2b337"
+    },
+    {
+      "path": "content/curso-l13-h5p-02/content/content.json",
+      "bytes": 3394,
+      "sha256": "58b8621abb9685b68ec30e71ad88477a3ebb27317601fa3589c9f5c510b9a366"
+    },
+    {
+      "path": "content/curso-l13-h5p-02/h5p.json",
+      "bytes": 719,
+      "sha256": "669e412e126543d48a84729ff6962685af5a37a6ae532ce2c21f8108312637be"
+    },
+    {
+      "path": "content/curso-l13-h5p-02/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "dd2f05a61612adbf5f05d5a3631eec34c38f89a50663b54f80a608a532e423ae"
+    },
+    {
+      "path": "content/curso-l13-h5p-03/content/content.json",
+      "bytes": 3573,
+      "sha256": "ea317f89852ef0e3ccfb7a4a3b2720499f85f1898669f9f501bda465f7ecda5c"
+    },
+    {
+      "path": "content/curso-l13-h5p-03/h5p.json",
+      "bytes": 798,
+      "sha256": "76da73291c3df9d5c7ddbcac36065be5a8cf38d6a7c6de0fc4843b756be996c2"
+    },
+    {
+      "path": "content/curso-l13-h5p-03/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "82e176f31e77b33201e776ff63779fe0982f002263144f405027a85c122e650b"
+    },
+    {
+      "path": "content/curso-l13-h5p-04/content/content.json",
+      "bytes": 2915,
+      "sha256": "26a184b91bb58f4fb05766964f6c65dc4379b362f16bcd596813f2c55671f311"
+    },
+    {
+      "path": "content/curso-l13-h5p-04/h5p.json",
+      "bytes": 568,
+      "sha256": "ac0dbf73e84a8e37f31cfe1b7c1873f4538cb491fff417ee796a91d2507c62e5"
+    },
+    {
+      "path": "content/curso-l13-h5p-04/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "8cb063fcd019042d175c82538e7fc0654bc8be975c1cf47dabc5c03a8cb2eb75"
+    },
+    {
+      "path": "content/curso-l13-h5p-05/content/content.json",
+      "bytes": 3211,
+      "sha256": "0166fee2c8b7d69be2878d76e3ad859b5ce0590b08c6e2f2fc130d6f36c57d25"
+    },
+    {
+      "path": "content/curso-l13-h5p-05/h5p.json",
+      "bytes": 669,
+      "sha256": "af340450c5d7747419253f1531021bcde188e34e3205d21a0b1ced18af7852d2"
+    },
+    {
+      "path": "content/curso-l13-h5p-05/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "f78f929a0baf6d1eba893034522cf0e23ce14afc1d62973b36cee97dc24e92a8"
+    },
+    {
+      "path": "content/curso-l13-h5p-06/content/content.json",
+      "bytes": 3445,
+      "sha256": "2b82bc55dcc0f4e46625eeff8029ca4d6981da6db847d54e3e6cc0893116959b"
+    },
+    {
+      "path": "content/curso-l13-h5p-06/h5p.json",
+      "bytes": 724,
+      "sha256": "27d2a403473c73e199b59e9bdfc8e12402fbd69bc07e9c6c4f6ff69c02319d0d"
+    },
+    {
+      "path": "content/curso-l13-h5p-06/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "8483ae8ee16c7f472f32cf8fd4d59956bc69097b9f53d6021266a4146e73a67d"
+    },
+    {
+      "path": "content/curso-l13-h5p-07/content/content.json",
+      "bytes": 3175,
+      "sha256": "dc0c1c88091b8654ac4caa9d814a00d6f77a9a24dbcd19bb2515c348aa56bbe7"
+    },
+    {
+      "path": "content/curso-l13-h5p-07/h5p.json",
+      "bytes": 613,
+      "sha256": "e2c195ce1cb7e081e4ad97573118fb159fe57764cb9f28dd4dde7c337a488f36"
+    },
+    {
+      "path": "content/curso-l13-h5p-07/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "8cdcc1d531869a550cdc06fbbe7e26708b286fd3d8dc65f31f1ba3106347dbd7"
+    },
+    {
+      "path": "content/curso-l13-h5p-08/content/content.json",
+      "bytes": 3519,
+      "sha256": "dd8561db4862416fc2656f3e45b8e1fe8cde440406655a1e089d298b17b077a3"
+    },
+    {
+      "path": "content/curso-l13-h5p-08/h5p.json",
+      "bytes": 670,
+      "sha256": "203d1a233b29901dda63f5c0b9fd1a5d6bfa52e7e5d0dc39f1d4d44263ef41c2"
+    },
+    {
+      "path": "content/curso-l13-h5p-08/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "2bc71346de9dbfa2d1a5cb9cd2d50cb8472bcc543499c7063f4faa6dd90db8ec"
+    },
+    {
+      "path": "content/curso-l13-h5p-09/content/content.json",
+      "bytes": 3601,
+      "sha256": "ce914222cd4ff955bfd74d7a0560c368103807701794b3ddf2dfa8506410c566"
+    },
+    {
+      "path": "content/curso-l13-h5p-09/h5p.json",
+      "bytes": 854,
+      "sha256": "3d41596b66eaf886dd7493b0bdf49b239ee51a72a23e6fa22585ff1ce8296b72"
+    },
+    {
+      "path": "content/curso-l13-h5p-09/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "6ad2c66d0a5031217075b4bd9590597debacdff63aaa01e173bb7c4203e35241"
+    },
+    {
+      "path": "content/curso-l13-h5p-10/content/content.json",
+      "bytes": 3406,
+      "sha256": "91020c94e73f542d80ea8394ace824a014ba2c679164789d5b232f3dbbd24e4d"
+    },
+    {
+      "path": "content/curso-l13-h5p-10/h5p.json",
+      "bytes": 698,
+      "sha256": "0527a141dd192baaaeffe416476838a37d9da68f2d2078a8a7761c19b4cdffa1"
+    },
+    {
+      "path": "content/curso-l13-h5p-10/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "4a8475d4fb9a64b23796ebb07fc812bc3fe62d191beba2f233f4f867c0c1da36"
+    },
+    {
+      "path": "content/curso-l13-h5p-11/content/content.json",
+      "bytes": 3243,
+      "sha256": "c6df412416a3d35e2d11d2943ae075ff749032ea9c037218de6a3083f2e463a8"
+    },
+    {
+      "path": "content/curso-l13-h5p-11/h5p.json",
+      "bytes": 737,
+      "sha256": "bd0137ca26272f6358eee0edff23cd2c02f1118131ba843bab99878ccd2d4a8b"
+    },
+    {
+      "path": "content/curso-l13-h5p-11/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "73f6cfc76c0d9c5ce94a97b7a99b3245f047b51d3ce76b67419d78c8dfe08140"
+    },
+    {
+      "path": "content/curso-l13-h5p-14/content/content.json",
+      "bytes": 3134,
+      "sha256": "5c17335d5f0ab4e58d52a1ce447ab76e4c380c18912eb15cf4cb5a231aa0d386"
+    },
+    {
+      "path": "content/curso-l13-h5p-14/h5p.json",
+      "bytes": 593,
+      "sha256": "36fc5914924a7ccaf752b332a0ff6483ff6c1478eee0e9f27d7d91a7f74e74b5"
+    },
+    {
+      "path": "content/curso-l13-h5p-14/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "008ee319fe54df361024a7bd3015aac00105edc17308b312a2ae82d0edcfdd5a"
+    },
+    {
+      "path": "content/curso-l13-h5p-15/content/content.json",
+      "bytes": 3335,
+      "sha256": "c0b65774d0f1b049d3b564178c41e2aabdea18bbf0f0f5c901aa0fa8167698f0"
+    },
+    {
+      "path": "content/curso-l13-h5p-15/h5p.json",
+      "bytes": 725,
+      "sha256": "0241cf52638d179dbbf3b75f77014faa2fab3317cd4fee8b3c02536a83fc388c"
+    },
+    {
+      "path": "content/curso-l13-h5p-15/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "60c8b4eda76f4445da909f2bac36a0ace7903e7918c39e58bba21b6042f5ba6a"
+    },
+    {
+      "path": "content/curso-l13-h5p-16/content/content.json",
+      "bytes": 2432,
+      "sha256": "eb829db7644a5467d1da155dc37ee5bc8885778570f6f174ecb7953f3369c992"
+    },
+    {
+      "path": "content/curso-l13-h5p-16/h5p.json",
+      "bytes": 591,
+      "sha256": "5ae87dcda24748b9198a5e53fc9274224f10d08a5e2520c5f3d470c281a1b8bf"
+    },
+    {
+      "path": "content/curso-l13-h5p-16/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "a6924f73afa1dba917e26e43588b591408188a1387ffd5bb03d51760fb353e9f"
+    },
+    {
+      "path": "content/curso-l13-h5p-17/content/content.json",
+      "bytes": 3205,
+      "sha256": "85cb14d78e7af0bbcb6f761b0a3792831e92a2bbb4d43a6ddbe13b0513be952b"
+    },
+    {
+      "path": "content/curso-l13-h5p-17/h5p.json",
+      "bytes": 682,
+      "sha256": "3f279452c1ae870af5cb17fbe779bcf12f95aad4c04df8f6a2454daed9a0005f"
+    },
+    {
+      "path": "content/curso-l13-h5p-17/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "566e199816ff7f9f75512d95c3873caf88e0aa7774c4ae83bf0db7cafc08fb01"
+    },
+    {
+      "path": "content/curso-l13-h5p-18/content/content.json",
+      "bytes": 3355,
+      "sha256": "d14d47f61492e6f119b76bba70012eed9831848cfc5f4ea566bf35e03b5f840c"
+    },
+    {
+      "path": "content/curso-l13-h5p-18/h5p.json",
+      "bytes": 783,
+      "sha256": "3aeb9d1d0bf0c3ec65f719b3c0bdad97022801f69524ef6b66093495ba0fc730"
+    },
+    {
+      "path": "content/curso-l13-h5p-18/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "649593d785149c48a6623a76a6159d8fbaea90132898f07a7b177dbb4b924190"
+    },
+    {
+      "path": "content/curso-l13-h5p-19/content/content.json",
+      "bytes": 3365,
+      "sha256": "5d1c544c4354ae71d4979f5edef63b67f6a8c4f6c26170baed67e42824f3609a"
+    },
+    {
+      "path": "content/curso-l13-h5p-19/h5p.json",
+      "bytes": 755,
+      "sha256": "17cbd5fceb657587d7d42adfd587e81854708bf50ac80660ab5ba364c7836a26"
+    },
+    {
+      "path": "content/curso-l13-h5p-19/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "146e838c8c58f05d4c89222e8a5dfa567790782d8b47c584df2a66bffe1f92c3"
+    },
+    {
+      "path": "content/curso-l13-h5p-25/content/content.json",
+      "bytes": 2301,
+      "sha256": "e38642cecec9ad8762e16163db3256f55ebc40495fc0908ca52ed602d3a0b677"
+    },
+    {
+      "path": "content/curso-l13-h5p-25/h5p.json",
+      "bytes": 578,
+      "sha256": "f84c7e436400c41df4e257daa24509ce0d92f517d0811e73e74ca7f25a3a3675"
+    },
+    {
+      "path": "content/curso-l13-h5p-25/LICENSE-content.txt",
+      "bytes": 282,
+      "sha256": "708d424fac20eb9a95ca1947a1dfcf395ebca4fa65ad1558b49f6f0307ea5191"
+    },
+    {
       "path": "content/direccion-epistemica-decidir-reformular/content/content.json",
       "bytes": 6258,
       "sha256": "6e97417f8db16c2d7fa8d0e1cb17f9efc74c731bdd75225efdc85a640bd0df8b"
@@ -348,8 +1188,8 @@
     },
     {
       "path": "content-index.json",
-      "bytes": 3223,
-      "sha256": "37a1c8e5a4782024354e61abbe145d7cd6756a96fa3f847b056750ecaec08486"
+      "bytes": 18122,
+      "sha256": "eca4bdb4408191e91ee2610d29a847a28187252ad031743a3568c98287634d5b"
     },
     {
       "path": "embed.css",
@@ -358,23 +1198,23 @@
     },
     {
       "path": "embed.html",
-      "bytes": 1003,
-      "sha256": "2be503e26c3cf237a02a2212718215535ca932cd5522b33e46822efd9b6178f7"
+      "bytes": 1008,
+      "sha256": "c0165ee932f442b197c3ce57fa53fff151bf85850030bfff2972ace9f30cff81"
     },
     {
       "path": "embed.js",
-      "bytes": 6414,
-      "sha256": "59c3fce2f58615f06868c47efae0eaca8a7dd1bbe343c1bc14e5b7e816701aa1"
+      "bytes": 7389,
+      "sha256": "b9508ab895aa22a3523a7aa8aed9ce4c114c16e092f1d397e7d722d6c6e452c7"
     },
     {
       "path": "host.css",
-      "bytes": 3356,
-      "sha256": "b2b8ba747258c0e20f2fa4ef62fc04ca85c202998315ea0bb5da66eb87469ff1"
+      "bytes": 4079,
+      "sha256": "5974d744274c4f456c4543af4b73f9d71f4752078ae86bd6691d2c6455082461"
     },
     {
       "path": "host.js",
-      "bytes": 6053,
-      "sha256": "4e6563c308d7a485a83e26ad93b5eac5aad2b035830cd2dd65378c1a2812dec0"
+      "bytes": 7029,
+      "sha256": "2f35cfa678b7223f098a6699c0757745abfdb07dde9abf4ff0a134ea2edb0030"
     },
     {
       "path": "libraries/FontAwesome-4.5/fontawesome-webfont.eot",
@@ -3508,8 +4348,8 @@
     },
     {
       "path": "themes/udg-c.css",
-      "bytes": 3178,
-      "sha256": "427becba0673045a11af8ba81a754c584ad6bcabab8834969357075a0f37fe89"
+      "bytes": 5130,
+      "sha256": "030c2db00c19880048a5a0f5da0754dc9b59a8685fb70c414c5725813fd38c64"
     }
   ]
 }

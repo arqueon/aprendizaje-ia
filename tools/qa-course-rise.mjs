@@ -120,7 +120,11 @@ async function staticChecks() {
   assert(catalog.source.h5pCandidateCount === 56, "recuento de decisiones de origen incorrecto");
   assert(catalog.source.sha256 === sourceHash, "hash de la fuente Rise inesperado");
   assert(catalog.policy.publicationAuthorized === false, "la publicación no está autorizada");
-  assert(catalog.policy.eligibleCount === 30, "deben existir 30 candidaturas H5P elegibles");
+  // Revisado 2026-08-27 (UDGIA-022): las 30 candidaturas elegibles se promovieron a
+  // H5P.MultiChoice real, así que ya no quedan pendientes. La guarda se mantiene sobre el
+  // recuento resuelto: cualquier alta o baja inesperada la rompe igual que antes.
+  assert(catalog.policy.promotedCount === 30, "deben constar 30 candidaturas promovidas a H5P");
+  assert(catalog.policy.eligibleCount === 0, "no deben quedar candidaturas H5P sin resolver");
   assert(catalog.policy.deferredCount === 0, "no deben quedar candidaturas diferidas");
   assert(catalog.policy.nativeHtmlPreferredCount === 26, "deben existir 26 prácticas HTML preferidas");
   assert(
@@ -193,7 +197,21 @@ async function staticChecks() {
     } else {
       assert(false, `${id}: tipo de fallback no reconocido ${entry.fallback.type}`);
     }
-    if (entry.decision.startsWith("eligible")) {
+    if (entry.decision === "promoted-h5p-udgia-022") {
+      // Promovida: debe existir el objeto en el catálogo de producción, gobernar la
+      // biblioteca propuesta y conservar el respaldo como alternativa accesible.
+      const promoted = production.contents[entry.promotion?.catalogID];
+      assert(promoted, `${id}: promovida sin objeto en el catálogo`);
+      assert(
+        promoted.mainLibrary === entry.proposedLibrary,
+        `${id}: el objeto promovido no gobierna ${entry.proposedLibrary}`,
+      );
+      assert(
+        promoted.reportingIsEnabled === false &&
+          promoted.presentationAdapter?.policy === "formative-no-score",
+        `${id}: la promoción no conserva el carácter formativo sin puntuación`,
+      );
+    } else if (entry.decision.startsWith("eligible")) {
       assert(entry.catalogEvidence.length > 0, `${id}: falta evidencia de catálogo`);
       for (const evidenceId of entry.catalogEvidence) {
         const evidence = production.contents[evidenceId];
@@ -257,6 +275,7 @@ async function staticChecks() {
     candidates: {
       total: candidates.length,
       eligible: catalog.policy.eligibleCount,
+      promoted: catalog.policy.promotedCount,
       deferred: catalog.policy.deferredCount,
       nativeHtmlPreferred: catalog.policy.nativeHtmlPreferredCount,
       libraries: Object.fromEntries(
@@ -273,7 +292,7 @@ async function staticChecks() {
       course: "CC BY-SA 4.0",
       publicationAuthorized: false,
       interactiveEntriesChecked: candidates.length,
-      h5pCandidateEntriesChecked: catalog.policy.eligibleCount,
+      h5pCandidateEntriesChecked: catalog.policy.promotedCount,
       featuredFilesChecked: pages.length,
       originalAdaptationsChecked: 2,
       distinctFeaturedHashes: coverHashes.length,
@@ -348,6 +367,12 @@ async function inspectRoute(browser, route, scenario) {
       ),
       resources: resources.length,
       h5pRuntimeRequests: resources.filter((entry) => entry.name.includes("/h5p/udgia/")).length,
+      // El host es el único recurso H5P admisible en carga inicial: con load="manual"
+      // ni el embed ni el contenido deben pedirse hasta que la persona lo abra.
+      h5pHostRequests: resources.filter((entry) => /\/h5p\/udgia\/[^?]*host\.(js|css)/.test(entry.name)).length,
+      h5pEagerContentRequests: resources.filter(
+        (entry) => entry.name.includes("/h5p/udgia/") && /embed\.html|\/content\/|libraries/.test(entry.name),
+      ).length,
       iframes: document.querySelectorAll("main iframe").length,
       activities: document.querySelectorAll("[data-course-interactive]").length,
       publicationFlags: [...document.querySelectorAll("[data-course-interactive]")]
@@ -362,10 +387,19 @@ async function inspectRoute(browser, route, scenario) {
   assert(snapshot.scrollWidth <= snapshot.width + 1, `${scenario.name} ${route}: overflow horizontal`);
   assert(snapshot.htmlBytes < 650_000, `${scenario.name} ${route}: HTML excesivo ${snapshot.htmlBytes}`);
   assert(snapshot.resourceBytes < 2_000_000, `${scenario.name} ${route}: recursos excesivos ${snapshot.resourceBytes}`);
-  assert(snapshot.h5pRuntimeRequests === 0, `${scenario.name} ${route}: carga el runtime H5P`);
+  // Revisado 2026-08-27 (UDGIA-022): las 30 prácticas de selección se promovieron a
+  // H5P.MultiChoice real, de modo que el host sí se carga. Lo que sigue prohibido es que
+  // el contenido se descargue sin interacción: todas declaran load="manual".
+  assert(
+    snapshot.h5pEagerContentRequests === 0,
+    `${scenario.name} ${route}: el contenido H5P se cargó sin interacción (${snapshot.h5pEagerContentRequests})`,
+  );
   assert(snapshot.iframes === 0, `${scenario.name} ${route}: iframe inesperado`);
   assert(snapshot.activities === expectedActivities, `${scenario.name} ${route}: prácticas ${snapshot.activities}/${expectedActivities}`);
-  assert(snapshot.publicationFlags.every((value) => value === "false"), `${scenario.name} ${route}: bandera de publicación incorrecta`);
+  assert(
+    snapshot.publicationFlags.every((value) => value === "false"),
+    `${scenario.name} ${route}: bandera de publicación incorrecta`,
+  );
   assert(snapshot.dark === (scenario.mode === "dark"), `${scenario.name} ${route}: apariencia incorrecta`);
   assert(snapshot.cookies === "", `${scenario.name} ${route}: cookie inesperada`);
   assert(snapshot.localStorageKeys.every((key) => key === "appearance"), `${scenario.name} ${route}: persistencia inesperada ${snapshot.localStorageKeys}`);

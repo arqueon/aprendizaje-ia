@@ -1,0 +1,24 @@
+{
+  "title": "Una docente diseña una actividad híbrida en la que parte del grupo participará en un debate en tiempo real y otra parte tendrá acceso diferido por limitaciones de conectividad. ¿Qué decisión de diseño responde mejor al criterio de equidad y accesibilidad?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}

@@ -53,6 +53,216 @@
     "objetivos-bloom-udgplus": {
       "package": "objetivos-bloom-udgplus-1.0.0.h5p",
       "sourceRoot": "h5p/activities/objetivos-bloom-udgplus/package"
+    },
+    "curso-l01-h5p-02": {
+      "package": "curso-l01-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l01-h5p-02/overlay"
+    },
+    "curso-l02-h5p-02": {
+      "package": "curso-l02-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l02-h5p-02/overlay"
+    },
+    "curso-l03-h5p-02": {
+      "package": "curso-l03-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l03-h5p-02/overlay"
+    },
+    "curso-l04-h5p-02": {
+      "package": "curso-l04-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l04-h5p-02/overlay"
+    },
+    "curso-l05-h5p-02": {
+      "package": "curso-l05-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l05-h5p-02/overlay"
+    },
+    "curso-l06-h5p-03": {
+      "package": "curso-l06-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l06-h5p-03/overlay"
+    },
+    "curso-l07-h5p-03": {
+      "package": "curso-l07-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l07-h5p-03/overlay"
+    },
+    "curso-l08-h5p-03": {
+      "package": "curso-l08-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l08-h5p-03/overlay"
+    },
+    "curso-l09-h5p-02": {
+      "package": "curso-l09-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l09-h5p-02/overlay"
+    },
+    "curso-l10-h5p-03": {
+      "package": "curso-l10-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l10-h5p-03/overlay"
+    },
+    "curso-l11-h5p-04": {
+      "package": "curso-l11-h5p-04-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l11-h5p-04/overlay"
+    },
+    "curso-l12-h5p-02": {
+      "package": "curso-l12-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l12-h5p-02/overlay"
+    },
+    "curso-l13-h5p-01": {
+      "package": "curso-l13-h5p-01-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-01/overlay"
+    },
+    "curso-l13-h5p-02": {
+      "package": "curso-l13-h5p-02-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-02/overlay"
+    },
+    "curso-l13-h5p-03": {
+      "package": "curso-l13-h5p-03-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-03/overlay"
+    },
+    "curso-l13-h5p-04": {
+      "package": "curso-l13-h5p-04-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-04/overlay"
+    },
+    "curso-l13-h5p-05": {
+      "package": "curso-l13-h5p-05-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-05/overlay"
+    },
+    "curso-l13-h5p-06": {
+      "package": "curso-l13-h5p-06-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-06/overlay"
+    },
+    "curso-l13-h5p-07": {
+      "package": "curso-l13-h5p-07-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-07/overlay"
+    },
+    "curso-l13-h5p-08": {
+      "package": "curso-l13-h5p-08-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-08/overlay"
+    },
+    "curso-l13-h5p-09": {
+      "package": "curso-l13-h5p-09-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-09/overlay"
+    },
+    "curso-l13-h5p-10": {
+      "package": "curso-l13-h5p-10-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-10/overlay"
+    },
+    "curso-l13-h5p-11": {
+      "package": "curso-l13-h5p-11-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-11/overlay"
+    },
+    "curso-l13-h5p-14": {
+      "package": "curso-l13-h5p-14-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-14/overlay"
+    },
+    "curso-l13-h5p-15": {
+      "package": "curso-l13-h5p-15-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-15/overlay"
+    },
+    "curso-l13-h5p-16": {
+      "package": "curso-l13-h5p-16-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-16/overlay"
+    },
+    "curso-l13-h5p-17": {
+      "package": "curso-l13-h5p-17-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-17/overlay"
+    },
+    "curso-l13-h5p-18": {
+      "package": "curso-l13-h5p-18-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-18/overlay"
+    },
+    "curso-l13-h5p-19": {
+      "package": "curso-l13-h5p-19-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-19/overlay"
+    },
+    "curso-l13-h5p-25": {
+      "package": "curso-l13-h5p-25-1.0.0.h5p",
+      "template": "h5p/templates/official/multi-choice.h5p",
+      "templateSha256": "1c60785f1e9b6630b30d4e9bcc4b7ec1c8976f05bf50c41ddbb25e59fd2c8fdb",
+      "templateSource": "https://api.h5p.org/v1/content-types/H5P.MultiChoice",
+      "overlay": "h5p/activities/curso-l13-h5p-25/overlay"
     }
   }
 }

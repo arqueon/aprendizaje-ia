@@ -143,9 +143,12 @@ body {
   background: var(--udg-c-primary-tint);
 }
 
+/* El trazo lleva !important para sobrevivir a los reset del tema. El offset NO:
+   los componentes con `overflow: hidden` (figura, pestañas, pliegue, curso)
+   definen su propio anillo interior y deben poder ganar por especificidad. */
 :focus-visible {
   outline: 3px solid var(--udg-c-primary) !important;
-  outline-offset: 3px !important;
+  outline-offset: 3px;
 }
 
 header.z-10,

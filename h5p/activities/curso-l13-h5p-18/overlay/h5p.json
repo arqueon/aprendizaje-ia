@@ -1,0 +1,24 @@
+{
+  "title": "Una docente quiere preparar un diagnóstico inicial para una nueva unidad. Usa una herramienta de IA para proponer preguntas y formatos accesibles, y luego revisa esas propuestas con base en las características reales de su grupo antes de aplicarlas. ¿Qué acción refleja mejor un uso adecuado de la IA en este proceso?",
+  "language": "es",
+  "defaultLanguage": "es",
+  "license": "CC BY-SA",
+  "licenseVersion": "4.0",
+  "authors": [
+    {
+      "name": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+      "role": "Author"
+    }
+  ],
+  "mainLibrary": "H5P.MultiChoice",
+  "embedTypes": [
+    "div"
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "H5P.MultiChoice",
+      "majorVersion": "1",
+      "minorVersion": "16"
+    }
+  ]
+}
