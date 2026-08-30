@@ -33,7 +33,9 @@ const governedActivityPages = [
   {
     id: "direccion-epistemica-decidir-reformular",
     path: "ia-educacion/guias/agenciamiento-humano-ia/",
-    integrated: false
+    // Integrado en la ola 1 (2026-08-30): el gate del ledger 2026-08-23
+    // (canonicalizacion de la guia) quedo cumplido.
+    integrated: true
   },
   {
     id: "evidencias-proceso-proporcion",
@@ -83,7 +85,7 @@ const udgia007Activities = {
   "direccion-epistemica-decidir-reformular": {
     page: "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
     requiredTerms: ["criterio", "verificar", "decidir", "reformular"],
-    integrated: false
+    integrated: true
   },
   "evidencias-proceso-proporcion": {
     page: "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",

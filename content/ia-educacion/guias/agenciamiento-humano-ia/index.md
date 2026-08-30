@@ -130,7 +130,7 @@ que la actividad pretendía desarrollar.
 
 El siguiente ejercicio pone a prueba esa distinción con un caso breve: una explicación
 convincente con dos afirmaciones sin respaldo. Las cinco rutas de respuesta son plausibles;
-solo una conserva la dirección epistémica completa. El ejercicio no se califica ni registra el
+solo una conserva la dirección epistémica completa. El ejercicio no se califica y no registra el
 intento: su función es ensayar la decisión antes de enfrentarla en un trabajo real.
 
 {{< h5p id="direccion-epistemica-decidir-reformular" load="manual" title="Decidir, contrastar y reformular" >}}
