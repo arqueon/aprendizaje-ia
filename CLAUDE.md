@@ -16,26 +16,32 @@ Sitio web estático para **UDGplus / Universidad de Guadalajara** que comparte b
 content/
 ├── ia-educacion/          ← PRIORITARIA (peso 1, primera en menú)
 │   ├── guias/
+│   ├── rutas/
+│   ├── constelaciones/
+│   ├── practicas/
+│   ├── productos-de-aprendizaje/
 │   ├── integracion-curricular/
 │   ├── etica-y-transparencia/
-│   └── tendencias/
+│   ├── tendencias/
+│   └── (páginas sueltas: orientaciones, investigacion, que-es-la-educacion-digital)
 ├── laboratorio/
 │   ├── practicas/         ← cardView: true
-│   ├── experiencias/
-│   └── integracion-ia/
+│   ├── integracion-ia/
+│   └── h5p-runtime/       (experiencias/ retirada)
 ├── observatorio/
 │   ├── estudios/
 │   ├── guias/
 │   └── documentacion/
 ├── recursos/
-│   ├── articulos/         ← cardView: true
-│   ├── videos/            ← cardView: true
-│   └── links/             ← cardView: true
-├── formacion-docente/
-│   ├── alfabetizacion/
-│   ├── formacion-continua/
-│   └── redes/
-└── blog/
+│   ├── articulos/ videos/ links/   ← cardView: true
+│   ├── glosario/
+│   ├── institucionales/
+│   └── (páginas sueltas: catálogo, comparativa LLM, política IA, prompts…)
+├── formacion-docente/     ← páginas sueltas (alfabetizacion, formacion-continua, redes
+│   │                        ya no son subsecciones sino page bundles individuales)
+│   └── diseno-inverso-cocreacion-ia/   ← curso de 13 lecciones
+├── blog/                  ← en el menú principal
+└── areas/                 ← páginas de la taxonomía areas
 ```
 
 ## Configuración clave (hugo.toml)
@@ -87,7 +93,6 @@ el mismo mapa. Asignación por sección (mantener en gráficos nuevos):
 | Shortcode                    | Dónde                                             |
 | ---------------------------- | ------------------------------------------------- |
 | `recurso-info` (custom)      | Artículos en recursos (automatiza metadata)       |
-| `chart`                      | Observatorio (visualización de datos interactiva) |
 | `cards` / `card` (custom FA) | Homepage y secciones principales                  |
 | `lead`                       | Intro de todas las secciones                      |
 | `typeit`                     | ia-educacion/_index.md                            |
@@ -99,7 +104,32 @@ el mismo mapa. Asignación por sección (mantener en gráficos nuevos):
 
 ## Shortcodes disponibles (no usados aún)
 
-`tabs` (contenido por audiencia), `gallery` (evidencias Laboratorio), `carousel`, `figure`, `badge`, `list`, `article`, `video`, `github`
+`chart` (sin ningún uso en contenido), `tabs` (contenido por audiencia), `gallery` (evidencias Laboratorio), `carousel`, `figure`, `badge`, `list`, `article`, `video`, `github`
+
+## Criterios de figuras e interactivos (P1–P7, I1–I3)
+
+Varas aprobadas para toda figura (P) e interactivo (I) nuevo o modificado:
+
+- **P1** — dibujar el mecanismo, no una lista dibujada.
+- **P2** — legible a 375px de ancho.
+- **P3** — equivalencia textual real (no un alt decorativo).
+- **P4** — autonomía de apariencia: SVG vía `<img>` lleva lienzo propio y funciona en dark;
+  SVG inline usa los tokens CSS de la página.
+- **P5** — familia cromática de su sección (ver tabla de identidad C).
+- **P6** — oportunidad: la figura aparece donde la explicación la necesita.
+- **P7** — no duplicar la tabla: si una tabla ya lo muestra, la figura no lo repite.
+- **I1** — el interactivo exige un acto real del usuario (decidir, comparar, escribir).
+- **I2** — retroalimentación contingente a la respuesta, sin calificación.
+- **I3** — fallback textual equivalente completo (el shortcode `h5p` lo exige no vacío).
+
+## Criterios de equilibrio de contenidos
+
+- **≥4 hijas por subsección**; con menos, fusionar con otra subsección.
+- **≥1 interactivo por subsección de guías** antes de añadir el interactivo n+1 al curso.
+- **Hub**: mínimo 150 palabras de prosa + enlaces a todas sus hijas.
+- **Vocabulario de formatos cerrado** (~10 formatos; hoy en uso: guia, practica, ruta,
+  plantilla, producto, concepto, evidencia, entrada, más curso/lección y glosario): no
+  inventar formatos nuevos sin decisión editorial.
 
 ## QA sistémica
 
