@@ -128,6 +128,39 @@ a un apoyo externo. Esa descarga puede ser útil en tareas rutinarias; se vuelve
 educativo cuando sustituye precisamente la comparación, la comprobación o la argumentación
 que la actividad pretendía desarrollar.
 
+El siguiente ejercicio pone a prueba esa distinción con un caso breve: una explicación
+convincente con dos afirmaciones sin respaldo. Las cinco rutas de respuesta son plausibles;
+solo una conserva la dirección epistémica completa. El ejercicio no se califica ni registra el
+intento: su función es ensayar la decisión antes de enfrentarla en un trabajo real.
+
+{{< h5p id="direccion-epistemica-decidir-reformular" load="manual" title="Decidir, contrastar y reformular" >}}
+### Versión textual del ejercicio
+
+Una IA propone una explicación clara sobre un problema de tu disciplina, pero dos afirmaciones
+no están respaldadas por las fuentes citadas. ¿Qué ruta permite conservar la dirección
+epistémica y convertir el hallazgo en una mejor iteración?
+
+- **Explicitar el criterio → verificar las afirmaciones en las fuentes → decidir qué conservar
+  o rechazar y por qué → reformular la pregunta y el texto.** Esta es la ruta que conserva la
+  dirección epistémica: el criterio orienta el contraste, el contraste informa una decisión y
+  la decisión transforma la siguiente iteración.
+- **Corregir el estilo de la respuesta → conservar sus ideas centrales → añadir las referencias
+  sugeridas al final.** No resuelve el problema de fondo: las afirmaciones siguen sin
+  contrastarse y las referencias no se validan; una respuesta más pulida no es necesariamente
+  una respuesta mejor fundada.
+- **Consultar a tres sistemas → elegir la respuesta que más se repita → reformularla con
+  palabras propias.** La coincidencia entre sistemas no sustituye una fuente ni un criterio
+  disciplinar: una mayoría de respuestas puede repetir el mismo error.
+- **Pedir a la IA que evalúe su propia respuesta → aceptar sus correcciones → entregar el
+  resultado con una nota de uso.** La revisión automática puede aportar pistas, pero delegarle
+  también el juicio final mantiene el criterio fuera de la persona; documentar el uso no basta
+  si la decisión sigue delegada.
+- **Guardar la conversación completa → seleccionar el fragmento más convincente → explicar que
+  la IA ayudó a producirlo.** El registro muestra qué ocurrió, pero no demuestra contraste ni
+  explica con qué razones se aceptó o rechazó una propuesta: trazabilidad y dirección
+  epistémica se relacionan, pero no son equivalentes.
+{{< /h5p >}}
+
 ## Qué permite afirmar la evidencia
 
 Dos estudios recientes respaldan esta cautela, aunque no establecen una regla universal. En

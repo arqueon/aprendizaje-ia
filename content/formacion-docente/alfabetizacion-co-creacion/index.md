@@ -126,6 +126,43 @@ Elige una decisión que ya realizas con soltura y otra que necesitas hacer visib
 próximo trabajo.
 {{< /h5p >}}
 
+## Vuelve sobre los cuatro conceptos
+
+Los principios anteriores se apoyan en cuatro conceptos que conviene poder explicar con
+palabras propias: co-creación, dirección epistémica, trazabilidad y ganancia cognitiva. Las
+tarjetas siguientes los repasan en forma de pregunta y respuesta; úsalas después de leer la
+explicación, no en su lugar. Lo que importa no es memorizar cada definición aislada, sino
+reconocer cómo se relacionan entre sí.
+
+{{< h5p id="cocreacion-conceptos-cards" load="manual" title="Conceptos para co-crear con dirección" >}}
+### Las cuatro tarjetas en forma de texto
+
+**¿Co-crear con IA equivale a delegar?** — **Co-creación** significa distribuir tareas sin
+distribuir por igual la responsabilidad. La IA puede proponer alternativas, detectar una
+inconsistencia o comentar un borrador; la persona define el propósito, comprueba los aportes y
+decide qué entra al trabajo. Si el sistema produce el texto y la persona solo lo entrega, hubo
+delegación; si la respuesta obliga a contrastar, revisar y justificar una elección, puede haber
+co-creación.
+
+**¿Qué conserva la persona cuando usa IA?** — **Dirección epistémica** es la capacidad de
+orientar qué se intenta conocer y qué cuenta como una respuesta adecuada. Se observa cuando la
+persona formula la pregunta, reconoce lo que no sabe, contrasta afirmaciones y decide con qué
+razones sostendrá una conclusión. No equivale a controlar cada operación de la herramienta:
+significa conservar el rumbo intelectual del proceso.
+
+**¿Qué hace visible el proceso sin entregar todo el chat?** — **Trazabilidad** es conservar
+evidencias suficientes para reconstruir cómo cambió el trabajo. Un primer esquema, una tabla de
+fuentes y dos decisiones de revisión suelen decir más sobre el aprendizaje que una conversación
+completa con la herramienta. La evidencia debe ser proporcional a la tarea: permite comprender
+el proceso sin convertirlo en vigilancia.
+
+**¿Qué distingue aprendizaje de simple aceleración?** — **Ganancia cognitiva** es aquello que
+la persona ahora comprende o sabe hacer y puede usar fuera de la conversación con la IA. Puede
+ser una distinción conceptual, un criterio para verificar fuentes o una estrategia de revisión.
+La rapidez no demuestra aprendizaje: una señal más fuerte es que la persona pueda explicar su
+decisión y transferir el criterio a un caso nuevo.
+{{< /h5p >}}
+
 ## Cómo se relaciona con las otras dos literacidades
 
 La alfabetización para la co-creación es el tercer nivel del marco; supone los anteriores y los integra. No se aprende por exposición ni con talleres puntuales: exige práctica supervisada, retroalimentación y reflexión sostenida. Las otras dos:
