@@ -7,6 +7,7 @@ lastmod: 2026-08-23
 draft: false
 description: "Una práctica para comprobar si lo que quieres que el grupo aprenda coincide con lo que hará, entregará y revisará antes de decidir cómo usar IA."
 summary: "Revisa una actividad propia, encuentra la primera parte que no coincide y escribe un cambio concreto con alternativa sin IA."
+areas: ["ia", "formacion"]
 showHero: true
 heroStyle: "big"
 showBreadcrumbs: true

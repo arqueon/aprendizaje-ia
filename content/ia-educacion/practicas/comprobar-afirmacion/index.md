@@ -4,6 +4,7 @@ date: 2026-08-11
 draft: false
 description: "Práctica para identificar la afirmación decisiva de una salida de IA, localizar evidencia y decidir qué conservar."
 summary: "No compruebes todo a la vez: localiza el punto que cambiaría tu conclusión y contrástalo con una fuente pertinente."
+areas: ["ia", "pedagogia"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true

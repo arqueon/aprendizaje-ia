@@ -7,6 +7,7 @@ draft: false
 weight: 9
 description: "Estatus, alcance y rutas de consulta de una propuesta académica para orientar decisiones sobre IA y aprendizaje."
 summary: "Qué propone el documento, qué autoridad tiene hoy y cómo continuar hacia una explicación o una práctica por audiencia."
+areas: ["ia", "pedagogia"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true

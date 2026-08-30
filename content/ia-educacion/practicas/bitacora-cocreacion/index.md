@@ -4,6 +4,7 @@ date: 2026-08-11
 draft: false
 description: "Plantilla con un ejemplo completo para registrar qué cambió, qué se descartó y qué se comprobó durante un trabajo con IA."
 summary: "Conserva las decisiones que cambiaron tu trabajo sin entregar la conversación completa ni datos privados."
+areas: ["ia", "pedagogia"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true
