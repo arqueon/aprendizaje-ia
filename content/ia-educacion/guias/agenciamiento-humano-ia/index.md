@@ -79,7 +79,10 @@ acompañamiento antes de incorporar una respuesta generada.
 
 La figura no muestra una ruta correcta por color ni una calificación. Muestra que un mismo
 aporte puede recibir tratamientos distintos. La pregunta útil no es “¿la IA ayudó?”, sino
-“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”.
+“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”. Este mismo
+contraste puede recorrerse de forma interactiva: la actividad
+[Compara dos sugerencias](../../../actividades/comparar-sugerencias/) pone delante un borrador
+y dos ayudas, y pide decidir qué hacer con cada una antes de mostrar qué cambia en el texto.
 
 ## Co-crear no significa repartir la responsabilidad
 
@@ -124,6 +127,39 @@ comprender, explicar o transferir. La **descarga cognitiva** consiste en traslad
 a un apoyo externo. Esa descarga puede ser útil en tareas rutinarias; se vuelve un problema
 educativo cuando sustituye precisamente la comparación, la comprobación o la argumentación
 que la actividad pretendía desarrollar.
+
+El siguiente ejercicio pone a prueba esa distinción con un caso breve: una explicación
+convincente con dos afirmaciones sin respaldo. Las cinco rutas de respuesta son plausibles;
+solo una conserva la dirección epistémica completa. El ejercicio no se califica y no registra el
+intento: su función es ensayar la decisión antes de enfrentarla en un trabajo real.
+
+{{< h5p id="direccion-epistemica-decidir-reformular" load="manual" title="Decidir, contrastar y reformular" >}}
+### Versión textual del ejercicio
+
+Una IA propone una explicación clara sobre un problema de tu disciplina, pero dos afirmaciones
+no están respaldadas por las fuentes citadas. ¿Qué ruta permite conservar la dirección
+epistémica y convertir el hallazgo en una mejor iteración?
+
+- **Explicitar el criterio → verificar las afirmaciones en las fuentes → decidir qué conservar
+  o rechazar y por qué → reformular la pregunta y el texto.** Esta es la ruta que conserva la
+  dirección epistémica: el criterio orienta el contraste, el contraste informa una decisión y
+  la decisión transforma la siguiente iteración.
+- **Corregir el estilo de la respuesta → conservar sus ideas centrales → añadir las referencias
+  sugeridas al final.** No resuelve el problema de fondo: las afirmaciones siguen sin
+  contrastarse y las referencias no se validan; una respuesta más pulida no es necesariamente
+  una respuesta mejor fundada.
+- **Consultar a tres sistemas → elegir la respuesta que más se repita → reformularla con
+  palabras propias.** La coincidencia entre sistemas no sustituye una fuente ni un criterio
+  disciplinar: una mayoría de respuestas puede repetir el mismo error.
+- **Pedir a la IA que evalúe su propia respuesta → aceptar sus correcciones → entregar el
+  resultado con una nota de uso.** La revisión automática puede aportar pistas, pero delegarle
+  también el juicio final mantiene el criterio fuera de la persona; documentar el uso no basta
+  si la decisión sigue delegada.
+- **Guardar la conversación completa → seleccionar el fragmento más convincente → explicar que
+  la IA ayudó a producirlo.** El registro muestra qué ocurrió, pero no demuestra contraste ni
+  explica con qué razones se aceptó o rechazó una propuesta: trazabilidad y dirección
+  epistémica se relacionan, pero no son equivalentes.
+{{< /h5p >}}
 
 ## Qué permite afirmar la evidencia
 

@@ -7,6 +7,7 @@ draft: false
 weight: 9
 description: "Estatus, alcance y rutas de consulta de una propuesta académica para orientar decisiones sobre IA y aprendizaje."
 summary: "Qué propone el documento, qué autoridad tiene hoy y cómo continuar hacia una explicación o una práctica por audiencia."
+areas: ["ia", "pedagogia"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true
@@ -46,7 +47,10 @@ Ante esas situaciones, propone mirar al menos cinco relaciones:
 
 No ofrece una lista universal de herramientas ni una fórmula que sustituya el juicio docente o
 disciplinar. Los criterios necesitan ajustarse a la actividad, la población y las consecuencias
-de cada decisión.
+de cada decisión. Tampoco operan en el vacío: cada decisión sobre IA ocurre dentro de un
+ecosistema de educación digital con modalidades y grados de mediación tecnológica muy distintos
+entre sí; la página [¿Qué es la educación digital?](../que-es-la-educacion-digital/) ordena ese
+panorama y define los términos que estas Orientaciones dan por supuestos.
 
 ## Formas de continuar
 

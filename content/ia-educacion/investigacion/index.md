@@ -5,6 +5,7 @@ draft: false
 weight: 8
 description: "Ruta para decidir dónde puede ayudar la IA en una investigación y qué comprobaciones, datos y responsabilidades no deben delegarse."
 summary: "Pregunta, busca, lee, analiza y escribe con apoyo de IA conservando fuentes reales, confidencialidad, trazabilidad y responsabilidad humana."
+areas: ["ia", "pedagogia"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true

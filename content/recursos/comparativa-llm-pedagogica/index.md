@@ -1,6 +1,7 @@
 ---
 title: "Comparativa pedagógica de LLMs: qué usar para qué tarea"
 date: 2026-04-26
+lastmod: 2026-08-30
 draft: false
 description: "Matriz cruzada entre tipos de tarea pedagógica y modelos de lenguaje, con recomendaciones operativas para docentes universitarios."
 summary: "El catálogo institucional evalúa modelos por privacidad y costo. Esta comparativa los evalúa por aporte a tareas pedagógicas concretas: planeación, retroalimentación, debate, análisis crítico."
@@ -21,6 +22,8 @@ showAuthor: false
 {{< lead >}}
 "¿Qué modelo uso para esta tarea?" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta pieza ofrece la otra mirada, con criterios pedagógicos y no de mercado: cuál modelo recomendar según la tarea pedagógica concreta. La selección no se reduce al modelo más capaz sino al que sostiene mejor el tipo de pensamiento que se quiere desarrollar en el estudiante.
 {{< /lead >}}
+
+*Corte de la información: abril de 2026 (pruebas de uso y literatura consultada). Próxima revisión prevista: octubre de 2026, junto con el ciclo semestral del catálogo de herramientas.*
 
 ## Cómo leer esta comparativa
 

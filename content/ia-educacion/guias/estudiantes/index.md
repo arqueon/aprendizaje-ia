@@ -6,6 +6,7 @@ date: 2026-08-03
 draft: false
 description: "Una práctica para comparar dos sugerencias, comprobar el punto decisivo y explicar qué cambia en un borrador."
 summary: "Parte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender."
+areas: ["ia", "formacion"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true

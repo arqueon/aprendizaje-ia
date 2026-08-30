@@ -4,6 +4,7 @@ date: 2026-08-11
 draft: false
 description: "Guía breve para decidir qué información no debe cargarse a un sistema generativo y qué alternativa permite continuar."
 summary: "Distingue información pública, controlada, sensible y confidencial antes de copiarla a una herramienta de IA."
+areas: ["ia", "etica"]
 showHero: false
 showBreadcrumbs: true
 showSummary: true

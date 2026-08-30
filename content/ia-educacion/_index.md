@@ -37,6 +37,7 @@ después enlaza las guías, prácticas y marcos que necesita.
 ## Explora por tema
 
 {{< cards >}}
+  {{< card link="que-es-la-educacion-digital/" title="¿Qué es la educación digital?" icon="book-open" description="El concepto, la taxonomía de modalidades y los términos que el resto de la sección da por supuestos." >}}
   {{< card link="/formacion-docente/diseno-inverso-cocreacion-ia/" title="Curso: diseño inverso y cocreación con IA" icon="route" description="Trece lecciones abiertas para diseñar, practicar y revisar una actividad con decisiones docentes explícitas." >}}
   {{< card link="guias/" title="Guías prácticas" icon="map" description="Tutoriales y recursos paso a paso para usar herramientas de IA en la docencia." >}}
   {{< card link="integracion-curricular/" title="Integración curricular" icon="puzzle-piece" description="Estrategias para rediseñar asignaturas y actividades integrando IA de forma intencional." >}}

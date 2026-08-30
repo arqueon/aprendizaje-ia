@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classification-source",
   "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
   "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
-  "expectedPageCount": 182,
+  "expectedPageCount": 183,
   "deliberateAdditions": [
     "areas/digital/_index.md",
     "areas/etica/_index.md",
@@ -815,6 +815,14 @@
         "comun"
       ],
       "razon": "Presenta una propuesta académica y su estatus; debe mantener visible que no constituye todavía postura institucional oficial."
+    },
+    {
+      "path": "ia-educacion/practicas/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
     },
     {
       "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",

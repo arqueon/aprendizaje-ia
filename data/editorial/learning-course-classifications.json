@@ -3,9 +3,9 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "5d98f89dc82db2f6772110912f996e5a209c4fc7d210304ca9ac0062c4736d42",
+  "sourceInventorySha256": "b15002bb2b161fd8b10d477c18b4d194038c46bc7e6dade785a86cbbda2ab515",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
-  "classificationSourceSha256": "ec2fc3a29f5514306044b51769bf3245b2dbf681c0d718c8aed87998a8d81911",
+  "classificationSourceSha256": "910735cb680270659f67cdfc93c556e2835285aed8d78e6570a076ccb408bded",
   "regeneratedBy": "npm run content:learning-classifications",
   "provenance": {
     "method": "Cruce por ruta exacta entre el inventario Hugo y la fuente clasificatoria canónica local.",
@@ -31,20 +31,20 @@
       "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
     ]
   },
-  "classifiedPageCount": 182,
+  "classifiedPageCount": 183,
   "classificationCounts": {
     "apoyo-candidato": 38,
     "banco-de-practicas": 12,
     "banco-ejemplos-disciplinarios": 27,
     "fuera-del-recorrido-inicial": 5,
-    "navegacion": 29,
+    "navegacion": 30,
     "nucleo-candidato": 10,
     "referencia-en-cuarentena": 3,
     "referencia-opcional": 58
   },
   "actionCounts": {
     "conservar-como-entorno-o-demostracion": 2,
-    "conservar-como-navegacion": 28,
+    "conservar-como-navegacion": 29,
     "conservar-como-profundizacion": 7,
     "conservar-fuera-del-recorrido-obligatorio": 26,
     "fusionar-o-desduplicar": 5,
@@ -289,7 +289,7 @@
       "route": "/formacion-docente/alfabetizacion-co-creacion/",
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "kind": "page",
-      "words": 768,
+      "words": 1107,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "fusionar-o-desduplicar",
       "modulos_posibles": [
@@ -383,7 +383,7 @@
       "route": "/formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/",
       "title": "Introducción al diseño inverso",
       "kind": "page",
-      "words": 1369,
+      "words": 1371,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -710,7 +710,7 @@
       "route": "/formacion-docente/transformacion-pedagogica-digital/",
       "title": "La transformación pedagógica y digital en la UdeG",
       "kind": "page",
-      "words": 1176,
+      "words": 1220,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -726,7 +726,7 @@
       "route": "/ia-educacion/",
       "title": "IA en educación",
       "kind": "section",
-      "words": 111,
+      "words": 113,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -754,7 +754,7 @@
       "route": "/ia-educacion/etica-y-transparencia/",
       "title": "Ética y transparencia en el uso de IA",
       "kind": "section",
-      "words": 123,
+      "words": 478,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -782,7 +782,7 @@
       "route": "/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/",
       "title": "Síntesis de los lineamientos UNESCO para IA en educación",
       "kind": "page",
-      "words": 867,
+      "words": 898,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -815,7 +815,7 @@
       "route": "/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/",
       "title": "Marco regulatorio de IA en universidades mexicanas",
       "kind": "page",
-      "words": 1004,
+      "words": 1036,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -910,7 +910,7 @@
       "route": "/ia-educacion/guias/agenciamiento-humano-ia/",
       "title": "Conservar la dirección del trabajo con IA",
       "kind": "page",
-      "words": 1597,
+      "words": 1978,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -1131,7 +1131,7 @@
       "route": "/ia-educacion/orientaciones/",
       "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
       "kind": "page",
-      "words": 297,
+      "words": 346,
       "rol_en_el_curso": "referencia-en-cuarentena",
       "accion_editorial": "conservar-como-profundizacion",
       "modulos_posibles": [],
@@ -1139,6 +1139,18 @@
         "comun"
       ],
       "razon": "Presenta una propuesta académica y su estatus; debe mantener visible que no constituye todavía postura institucional oficial."
+    },
+    {
+      "path": "ia-educacion/practicas/_index.md",
+      "route": "/ia-educacion/practicas/",
+      "title": "Prácticas con IA",
+      "kind": "section",
+      "words": 301,
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
     },
     {
       "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
@@ -2282,7 +2294,7 @@
       "route": "/recursos/catalogo-herramientas-ia/",
       "title": "Catálogo de herramientas IA para educación universitaria",
       "kind": "page",
-      "words": 1739,
+      "words": 1768,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
@@ -2297,7 +2309,7 @@
       "route": "/recursos/comparativa-llm-pedagogica/",
       "title": "Comparativa pedagógica de LLMs: qué usar para qué tarea",
       "kind": "page",
-      "words": 854,
+      "words": 882,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],

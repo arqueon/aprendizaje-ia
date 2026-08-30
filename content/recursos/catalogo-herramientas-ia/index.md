@@ -1,6 +1,7 @@
 ---
 title: "Catálogo de herramientas IA para educación universitaria"
 date: 2026-04-22
+lastmod: 2026-08-30
 draft: false
 description: "Matriz comparativa de modelos generativos y herramientas educativas específicas con criterios de privacidad, acceso, capacidad, costo y soporte institucional para docentes universitarios."
 summary: "Comparación operativa de Claude, Gemini, DeepSeek, Kimi y Qwen, más herramientas educativas específicas, con guía de decisión según uso pedagógico."
@@ -23,6 +24,8 @@ weight: 3
 {{< lead >}}
 El mercado de herramientas de IA para educación cambia cada semestre. Este catálogo ofrece una matriz estable de criterios de evaluación y una foto comparativa, con el compromiso explícito de revisarse cada seis meses.
 {{< /lead >}}
+
+*Corte de la información: abril de 2026 (foto comparativa). El compromiso de revisión semestral declarado en esta página vence en octubre de 2026: esa es la próxima revisión prevista.*
 
 ## Cómo leer este catálogo
 
