@@ -377,11 +377,12 @@ try {
     pages: contentFiles.stdout.trim().split("\n").filter(Boolean).length,
     mounts: h5pCalls.stdout.trim().split("\n").filter(Boolean).length
   };
-  // Línea base actualizada 2026-08-27 por UDGIA-022: 9 objetos + 30 prácticas del curso
-  // promovidas a H5P.MultiChoice; 5 páginas + las 13 lecciones; 7 montajes + 30.
+  // Línea base 2026-08-30 (ola 1): la colocación de los dos objetos autorizados sin
+  // anfitrión añade 2 montajes y 1 página nueva con H5P (agenciamiento-humano-ia).
+  // Historial: 2026-08-27 UDGIA-022 dejó 39/18/37; antes 9/5/7.
   // Sigue siendo una guarda de deriva: cualquier alta o baja no intencionada la rompe.
   assert(
-    h5pBaseline.catalogContents === 39 && h5pBaseline.pages === 18 && h5pBaseline.mounts === 37,
+    h5pBaseline.catalogContents === 39 && h5pBaseline.pages === 19 && h5pBaseline.mounts === 39,
     `deriva H5P ${JSON.stringify(h5pBaseline)}`
   );
 
