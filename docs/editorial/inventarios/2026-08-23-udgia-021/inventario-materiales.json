@@ -17,7 +17,7 @@
     "documents": 183,
     "pages": 153,
     "sections": 30,
-    "words": 144080,
+    "words": 144081,
     "assets": 223,
     "assetBytes": 50076570,
     "exactDuplicateAssetGroups": 4,
@@ -1199,7 +1199,7 @@
       "title": "Conservar la dirección del trabajo con IA",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 1977,
+      "words": 1978,
       "metadata": {
         "description": true,
         "summary": true,
