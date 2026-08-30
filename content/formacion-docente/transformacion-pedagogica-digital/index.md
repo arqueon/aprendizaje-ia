@@ -41,7 +41,7 @@ Una encuesta realizada en los centros universitarios y el Sistema de Educación 
 
 ![Opiniones sobre las modalidades presencial, en línea y el aprendizaje híbrido en la Red Universitaria](img/encuesta-red-universitaria.svg "Encuesta sobre modalidades en la Red Universitaria — Universidad de Guadalajara, 2022")
 
-**Recorrido en texto:** ante la pregunta de si los programas podrían cursarse combinando lo presencial y lo en línea, la respuesta es un consenso amplio (~85 %); la opción cien por ciento en línea divide (~40 %, y varía según la disciplina); y solo una minoría (~15 %) considera obligatoria la presencialidad estricta. La lectura: la comunidad docente ve el híbrido como el camino viable, no el en línea total.
+**Recorrido en texto:** ante la pregunta de si los programas podrían cursarse combinando lo presencial y lo en línea, la respuesta es un consenso amplio (~85 %); la opción cien por ciento en línea divide (~40 %, y varía según la disciplina); y solo una minoría (~15 %) considera obligatoria la presencialidad estricta. La lectura: la comunidad docente ve el híbrido como el camino viable, no el en línea total. Cuando la discusión distingue entre presencialidad enriquecida, modalidades híbridas y formación totalmente en línea, conviene precisar de qué se está hablando: la página [¿Qué es la educación digital?]({{< ref "ia-educacion/que-es-la-educacion-digital" >}}) ordena esa taxonomía de modalidades y los términos que este marco da por supuestos.
 
 ## ¿Por qué una transformación pedagógica y digital?
 
