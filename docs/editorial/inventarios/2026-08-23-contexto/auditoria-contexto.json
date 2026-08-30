@@ -19,17 +19,17 @@
     }
   },
   "totals": {
-    "documents": 182,
+    "documents": 183,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
       "media": 15,
-      "baja": 167
+      "baja": 168
     },
     "by_role": {
       "articulo": 13,
       "guia": 14,
-      "navegacion": 29,
+      "navegacion": 30,
       "pagina": 76,
       "practica": 7,
       "recurso": 40,
@@ -39,7 +39,7 @@
       "conservar": 21,
       "cambiar": 52,
       "quitar": 0,
-      "pendiente": 109
+      "pendiente": 110
     },
     "candidate_manual_pending": 0,
     "flagged_implementation_claims": 0,
@@ -597,7 +597,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 39,
+            "line": 40,
             "text": "Una IA afirma que una intervención mejoró el aprendizaje un 30%. Antes de repetir el número, pregunta: ¿qué estudio lo midió, contra qué comparación, en qué población y durante cuánto tiempo? Si no aparece una fuente verificable, el porcent"
           }
         },
@@ -609,7 +609,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 39,
+            "line": 40,
             "text": "Una IA afirma que una intervención mejoró el aprendizaje un 30%. Antes de repetir el número, pregunta: ¿qué estudio lo midió, contra qué comparación, en qué población y durante cuánto tiempo? Si no aparece una fuente verificable, el porcent"
           }
         },
@@ -617,7 +617,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 39,
+            "line": 40,
             "text": "Una IA afirma que una intervención mejoró el aprendizaje un 30%. Antes de repetir el número, pregunta: ¿qué estudio lo midió, contra qué comparación, en qué población y durante cuánto tiempo? Si no aparece una fuente verificable, el porcent"
           }
         },
@@ -625,7 +625,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 44,
+            "line": 45,
             "text": "2. Explica qué cambiaría si fuera falsa o estuviera incompleta."
           }
         },
@@ -633,7 +633,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 49,
+            "line": 50,
             "text": "Conserva la afirmación, el enlace o identificador de la fuente, el pasaje relevante, la fecha de consulta y una frase de decisión. Si no encuentras evidencia suficiente, decir “queda pendiente” es un resultado válido."
           }
         },
@@ -641,7 +641,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 39,
+            "line": 40,
             "text": "Una IA afirma que una intervención mejoró el aprendizaje un 30%. Antes de repetir el número, pregunta: ¿qué estudio lo midió, contra qué comparación, en qué población y durante cuánto tiempo? Si no aparece una fuente verificable, el porcent"
           }
         },
@@ -649,7 +649,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/comprobar-afirmacion/index.md",
-            "line": 44,
+            "line": 45,
             "text": "2. Explica qué cambiaría si fuera falsa o estuviera incompleta."
           }
         }
@@ -1899,7 +1899,7 @@
       "path": "content/formacion-docente/alfabetizacion-co-creacion/index.md",
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "role": "pagina",
-      "words": 725,
+      "words": 1068,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2615,7 +2615,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/index.md",
-            "line": 94,
+            "line": 96,
             "text": "En cambio, cuando el resultado es claro, cada actividad tiene un propósito y se conecta con los objetivos."
           }
         },
@@ -4245,12 +4245,16 @@
       "path": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
       "title": "La transformación pedagógica y digital en la UdeG",
       "role": "pagina",
-      "words": 1078,
+      "words": 1120,
       "dependencies": [],
       "signals": {
         "situacion": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/transformacion-pedagogica-digital/index.md",
+            "line": 44,
+            "text": "**Recorrido en texto:** ante la pregunta de si los programas podrían cursarse combinando lo presencial y lo en línea, la respuesta es un consenso amplio (~85 %); la opción cien por ciento en línea divide (~40 %, y varía según la disciplina)"
+          }
         },
         "quien": {
           "present": true,
@@ -4309,9 +4313,7 @@
           }
         }
       },
-      "missing_expected_signals": [
-        "situacion"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -4409,36 +4411,44 @@
       "path": "content/ia-educacion/etica-y-transparencia/_index.md",
       "title": "Ética y transparencia en el uso de IA",
       "role": "navegacion",
-      "words": 124,
+      "words": 446,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 22,
-            "text": "Orientaciones sobre cuándo y cómo usar herramientas de IA en trabajos académicos, cómo citar el uso de IA y qué se considera uso inadecuado en cada contexto disciplinar."
+            "line": 17,
+            "text": "Conviene recorrer esta sección en tres niveles. El primero es conceptual: antes de decidir si un uso concreto de IA es aceptable, ayuda tener criterios con los que examinarlo. Los [cuatro criterios éticos para educación superior](marco-etic"
           }
         },
         "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 18,
-            "text": "- **No a la IA como sustituto del pensamiento**: la IA amplifica capacidades, no reemplaza el juicio crítico del docente o del estudiante."
+            "line": 14,
+            "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         },
-        "momento_entorno": {
-          "present": false,
-          "evidence": null
-        },
         "material_inicial": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/_index.md",
+            "line": 39,
+            "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
+          }
         },
         "acciones": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/_index.md",
+            "line": 39,
+            "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
+          }
         },
         "resultado": {
           "present": false,
@@ -4448,21 +4458,21 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 16,
-            "text": "- **Priorizar el criterio humano** en la producción científica y la práctica educativa."
+            "line": 14,
+            "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         },
         "lenguaje_directo": {
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 16,
-            "text": "- **Priorizar el criterio humano** en la producción científica y la práctica educativa."
+            "line": 14,
+            "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         }
       },
       "missing_expected_signals": [
-        "acciones",
+        "quien",
         "lenguaje_directo"
       ],
       "risk_flags": [],
@@ -4554,14 +4564,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
       "title": "Síntesis de los lineamientos UNESCO para IA en educación",
       "role": "pagina",
-      "words": 868,
+      "words": 899,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 44,
+            "line": 47,
             "text": "- **La rendición de cuentas no se delega al algoritmo.** Cuando un sistema de IA toma una decisión, alguien humano debe poder responder por ella."
           }
         },
@@ -4569,7 +4579,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 33,
+            "line": 36,
             "text": "| Marco de competencias de IA para docentes (2024) | Competencias profesionales | Programas de formación docente |"
           }
         },
@@ -4577,7 +4587,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 22,
+            "line": 23,
             "text": "La UNESCO mantiene tres documentos de referencia para IA en educación que conviene conocer en conjunto: la *Recomendación sobre la ética de la IA* (2021), la *Guía sobre IA generativa en educación e investigación* (2023, actualización vigen"
           }
         },
@@ -4585,7 +4595,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 53,
+            "line": 56,
             "text": "1. **Regulación de proveedores de IA generativa**, con énfasis en privacidad de datos y validación pedagógica."
           }
         },
@@ -4593,7 +4603,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 45,
+            "line": 48,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         },
@@ -4601,7 +4611,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 59,
+            "line": 62,
             "text": "7. **Reflexión internacional sobre las implicaciones a largo plazo** del cambio en cómo se produce conocimiento."
           }
         },
@@ -4609,15 +4619,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 43,
-            "text": "- **La supervisión humana no es opcional.** Los sistemas de IA deben mantener mecanismos de revisión humana sobre sus decisiones, especialmente en contextos sensibles como la educación."
+            "line": 26,
+            "text": "*Corte de la información: agosto de 2026; la versión más reciente considerada de la Guía sobre IA generativa es la actualización de enero de 2026. Próxima revisión prevista: febrero de 2027.*"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 45,
+            "line": 48,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         }
@@ -4714,14 +4724,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
       "title": "Marco regulatorio de IA en universidades mexicanas",
       "role": "pagina",
-      "words": 998,
+      "words": 1030,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 75,
+            "line": 78,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4729,7 +4739,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 26,
+            "line": 29,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4737,7 +4747,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 75,
+            "line": 78,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4745,7 +4755,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 26,
+            "line": 29,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4753,7 +4763,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 35,
+            "line": 38,
             "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
           }
         },
@@ -4761,7 +4771,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 41,
+            "line": 44,
             "text": "- ***Inteligencia Artificial en la Educación Superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*** (ANUIES, 2024). Informe nacional con once capítulos que abordan dimensiones fundamentales: brechas digitales, es"
           }
         },
@@ -4769,15 +4779,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 35,
-            "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
+            "line": 26,
+            "text": "*Corte de la información: agosto de 2026. El panorama regulatorio descrito —incluida la ausencia de una ley federal específica— corresponde a esa fecha. Próxima revisión prevista: febrero de 2027.*"
           }
         },
         "lenguaje_directo": {
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 35,
+            "line": 38,
             "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
           }
         }
@@ -5219,7 +5229,7 @@
       "path": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
       "title": "Conservar la dirección del trabajo con IA",
       "role": "guia",
-      "words": 1570,
+      "words": 1938,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5565,7 +5575,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 40,
+            "line": 41,
             "text": "permite la evidencia. Este laboratorio te ayuda a decidir antes de entregar. Puedes recorrer el"
           }
         },
@@ -5573,7 +5583,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 64,
+            "line": 65,
             "text": "sugerencias preparadas por una persona o tomadas de dos versiones anteriores. Con un texto propio"
           }
         },
@@ -5581,7 +5591,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 40,
+            "line": 41,
             "text": "permite la evidencia. Este laboratorio te ayuda a decidir antes de entregar. Puedes recorrer el"
           }
         },
@@ -5589,7 +5599,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 41,
+            "line": 42,
             "text": "ejemplo en 5–10 minutos o trabajar con un texto propio en aproximadamente 25–35 minutos."
           }
         },
@@ -5597,7 +5607,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 50,
+            "line": 51,
             "text": "La actividad no decide por Renata. Le pide anotar qué cambia, qué consecuencia tendría, qué dato"
           }
         },
@@ -5605,7 +5615,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 53,
+            "line": 54,
             "text": "## Qué obtendrás"
           }
         },
@@ -5613,7 +5623,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 55,
+            "line": 56,
             "text": "Al terminar tendrás un fragmento antes y después de la revisión y dos notas breves de decisión. El"
           }
         },
@@ -5621,7 +5631,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 50,
+            "line": 51,
             "text": "La actividad no decide por Renata. Le pide anotar qué cambia, qué consecuencia tendría, qué dato"
           }
         }
@@ -5989,7 +5999,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Copiar un texto a una IA también es compartir información con un servicio externo. Antes de hacerlo, pregunta de quién son los datos, qué permiso tienes y qué daño produciría perder el control sobre ellos."
           }
         },
@@ -6001,7 +6011,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Copiar un texto a una IA también es compartir información con un servicio externo. Antes de hacerlo, pregunta de quién son los datos, qué permiso tienes y qué daño produciría perder el control sobre ellos."
           }
         },
@@ -6009,7 +6019,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Copiar un texto a una IA también es compartir información con un servicio externo. Antes de hacerlo, pregunta de quién son los datos, qué permiso tienes y qué daño produciría perder el control sobre ellos."
           }
         },
@@ -6017,7 +6027,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 41,
+            "line": 42,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6025,7 +6035,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 41,
+            "line": 42,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6033,7 +6043,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 44,
+            "line": 45,
             "text": "| Confidencial | Manuscritos en revisión, expedientes, secretos, datos bajo convenio. | No cargar en servicios generativos públicos. |"
           }
         },
@@ -6041,7 +6051,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 41,
+            "line": 42,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         }
@@ -6067,7 +6077,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 41,
+            "line": 42,
             "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
           }
         },
@@ -6075,7 +6085,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 41,
+            "line": 42,
             "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
           }
         },
@@ -6083,7 +6093,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 41,
+            "line": 42,
             "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
           }
         },
@@ -6091,7 +6101,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 44,
+            "line": 45,
             "text": "## Un caso reconocible"
           }
         },
@@ -6099,7 +6109,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 46,
+            "line": 47,
             "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
           }
         },
@@ -6107,7 +6117,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 46,
+            "line": 47,
             "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
           }
         },
@@ -6115,7 +6125,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 68,
+            "line": 69,
             "text": "5. **Limita la ayuda.** ¿Qué apoyo puede recibir sin dejar que otra persona o herramienta haga la parte que quieres observar?"
           }
         },
@@ -6123,7 +6133,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 46,
+            "line": 47,
             "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
           }
         }
@@ -6302,7 +6312,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 43,
+            "line": 44,
             "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
           }
         },
@@ -6310,7 +6320,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 67,
+            "line": 68,
             "text": "Al recorrer las páginas conectadas tendrás una ficha de decisión, una comprobación reproducible y una bitácora breve. No certifican la calidad de la investigación: hacen visible qué debe revisar una persona competente en el campo."
           }
         },
@@ -6318,7 +6328,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 43,
+            "line": 44,
             "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
           }
         },
@@ -6326,7 +6336,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 38,
+            "line": 39,
             "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
           }
         },
@@ -6334,7 +6344,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 38,
+            "line": 39,
             "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
           }
         },
@@ -6342,7 +6352,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 38,
+            "line": 39,
             "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
           }
         },
@@ -6350,7 +6360,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 43,
+            "line": 44,
             "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
           }
         },
@@ -6358,7 +6368,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 38,
+            "line": 39,
             "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
           }
         }
@@ -6375,14 +6385,14 @@
       "path": "content/ia-educacion/orientaciones/index.md",
       "title": "Propuesta de Orientaciones para el uso pedagógico de la IA",
       "role": "pagina",
-      "words": 284,
+      "words": 332,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 19,
+            "line": 20,
             "text": "Estas Orientaciones reúnen criterios para decidir cuándo una ayuda de inteligencia artificial"
           }
         },
@@ -6390,7 +6400,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 47,
+            "line": 48,
             "text": "No ofrece una lista universal de herramientas ni una fórmula que sustituya el juicio docente o"
           }
         },
@@ -6402,7 +6412,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 34,
+            "line": 35,
             "text": "La propuesta parte de situaciones educativas reconocibles: una respuesta convincente que no está"
           }
         },
@@ -6410,7 +6420,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 24,
+            "line": 25,
             "text": "El documento es una **propuesta académica en revisión**. No se presenta como política,"
           }
         },
@@ -6418,7 +6428,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 28,
+            "line": 29,
             "text": "Mientras conserva este estatus, el sitio puede desarrollar sus criterios y mostrar cómo se"
           }
         },
@@ -6426,7 +6436,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 19,
+            "line": 20,
             "text": "Estas Orientaciones reúnen criterios para decidir cuándo una ayuda de inteligencia artificial"
           }
         },
@@ -6434,7 +6444,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/orientaciones/index.md",
-            "line": 41,
+            "line": 42,
             "text": "1. el propósito de aprendizaje y la ayuda que se solicita;"
           }
         }
@@ -6442,6 +6452,86 @@
       "missing_expected_signals": [
         "lenguaje_directo"
       ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/ia-educacion/practicas/_index.md",
+      "title": "Prácticas con IA",
+      "role": "navegacion",
+      "words": 294,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 16,
+            "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 23,
+            "text": "Ambas piezas declaran su estado de evidencia: son propuestas y prototipos de escenario, no casos implementados con expediente verificable. Ese estatus no las vuelve provisionales en lo conceptual —cada una explica en qué se apoya—, pero sí "
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 21,
+            "text": "Por ahora la sección contiene dos piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de se"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 16,
+            "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 16,
+            "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 16,
+            "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 19,
+            "text": "La diferencia con una [guía](/ia-educacion/guias/) está en el alcance. Una guía acompaña una tarea completa —diseñar una actividad, revisar un borrador, dar retroalimentación— y por eso desarrolla criterios, alternativas y decisiones a lo l"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/_index.md",
+            "line": 16,
+            "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
+          }
+        }
+      },
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -6460,7 +6550,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo."
           }
         },
@@ -6468,7 +6558,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 50,
+            "line": 51,
             "text": "Una estudiante prepara una introducción de 250 palabras sobre islas de calor urbanas. Pide a una herramienta que señale una comparación ausente. La tabla muestra cómo podría registrar esa decisión sin copiar la conversación:"
           }
         },
@@ -6476,7 +6566,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 41,
+            "line": 42,
             "text": "1. Conserva la versión que tenías antes de consultar la herramienta."
           }
         },
@@ -6484,7 +6574,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo."
           }
         },
@@ -6492,7 +6582,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo."
           }
         },
@@ -6500,7 +6590,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 41,
+            "line": 42,
             "text": "1. Conserva la versión que tenías antes de consultar la herramienta."
           }
         },
@@ -6508,7 +6598,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 83,
+            "line": 84,
             "text": "Dásela a otra persona junto con las dos versiones del trabajo. La nota sirve si puede distinguir el punto de partida, la sugerencia que influyó, la comprobación realizada y la decisión final sin leer la conversación completa. No se evalúa p"
           }
         },
@@ -6516,7 +6606,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/bitacora-cocreacion/index.md",
-            "line": 34,
+            "line": 35,
             "text": "Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo."
           }
         }
@@ -8781,7 +8871,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 13,
+            "line": 14,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -8789,7 +8879,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 13,
+            "line": 14,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -8797,7 +8887,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 13,
+            "line": 14,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -8805,7 +8895,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 13,
+            "line": 14,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -8813,7 +8903,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 71,
+            "line": 72,
             "text": "La disonancia semántica en la práctica académica suele derivar del uso de \"e-learning\" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corpo"
           }
         },
@@ -8821,7 +8911,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 48,
+            "line": 49,
             "text": "<p class=\"mt-2 mb-0\">La educación digital desplaza el foco del \"entregable final\" hacia las decisiones epistémicas y los procesos. Evaluamos cómo el estudiante llega a una respuesta, exigiendo un diseño donde la tecnología juega el papel de"
           }
         },
@@ -8829,7 +8919,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 79,
+            "line": 80,
             "text": "1. **Grado de presencialidad:** Evalúa la dependencia del proceso formativo respecto a la co-ubicación en el campus. No se mide en horas de asiento, sino en la centralidad del espacio físico para la validación del aprendizaje."
           }
         },
@@ -8837,7 +8927,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 71,
+            "line": 72,
             "text": "La disonancia semántica en la práctica académica suele derivar del uso de \"e-learning\" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corpo"
           }
         }
@@ -11769,14 +11859,14 @@
       "path": "content/recursos/catalogo-herramientas-ia/index.md",
       "title": "Catálogo de herramientas IA para educación universitaria",
       "role": "recurso",
-      "words": 1677,
+      "words": 1706,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 87,
+            "line": 90,
             "text": "El criterio pedagógico relevante no es cuál tiene más funciones, sino cuál permite que el estudiante vea y apruebe cada sugerencia antes de aplicarla. Las herramientas que reescriben párrafos enteros sin intervención diluyen la autoría."
           }
         },
@@ -11784,7 +11874,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 33,
+            "line": 36,
             "text": "La segunda es la **foto comparativa**: la aplicación de esos criterios a los modelos y herramientas disponibles en abril de 2026. Esa foto tiene fecha de caducidad. La revisión formal se hace cada seis meses; entre revisiones, el docente qu"
           }
         },
@@ -11792,7 +11882,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 24,
+            "line": 25,
             "text": "El mercado de herramientas de IA para educación cambia cada semestre. Este catálogo ofrece una matriz estable de criterios de evaluación y una foto comparativa, con el compromiso explícito de revisarse cada seis meses."
           }
         },
@@ -11800,7 +11890,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 41,
+            "line": 44,
             "text": "### Privacidad y tratamiento de datos"
           }
         },
@@ -11808,7 +11898,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 112,
+            "line": 115,
             "text": "Pregunta si hay datos personales de estudiantes o datos sensibles, como salud, identidad o procesos disciplinarios. Si la respuesta es sí en alguno, el criterio de privacidad descarta herramientas sin acuerdo institucional."
           }
         },
@@ -11816,7 +11906,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 53,
+            "line": 56,
             "text": "### Capacidad y calidad del resultado"
           }
         },
@@ -11824,7 +11914,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 24,
+            "line": 25,
             "text": "El mercado de herramientas de IA para educación cambia cada semestre. Este catálogo ofrece una matriz estable de criterios de evaluación y una foto comparativa, con el compromiso explícito de revisarse cada seis meses."
           }
         },
@@ -11832,7 +11922,7 @@
           "present": false,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 31,
+            "line": 34,
             "text": "La primera es la **matriz de criterios**: los cinco ejes con los que se evalúa cualquier herramienta de IA para uso académico. Esa matriz es estable, no depende de qué producto esté de moda."
           }
         }
@@ -11851,14 +11941,14 @@
       "path": "content/recursos/comparativa-llm-pedagogica/index.md",
       "title": "Comparativa pedagógica de LLMs: qué usar para qué tarea",
       "role": "recurso",
-      "words": 848,
+      "words": 876,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 22,
+            "line": 23,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -11866,7 +11956,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 22,
+            "line": 23,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -11874,7 +11964,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 22,
+            "line": 23,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -11882,7 +11972,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 22,
+            "line": 23,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -11890,7 +11980,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 67,
+            "line": 70,
             "text": "Leer trabajo estudiantil y producir comentarios formativos requiere captar matices argumentativos. Claude muestra el mejor desempeño en literatura comparable (Tsai et al., 2025): identifica problemas estructurales sin perder el respeto al t"
           }
         },
@@ -11898,7 +11988,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 63,
+            "line": 66,
             "text": "Crear ejercicios o escenarios para clase es una tarea donde la diversidad y la pertinencia disciplinar pesan más que la profundidad. Gemini destaca por la integración con Google Workspace, que facilita generar variantes y exportar directame"
           }
         },
@@ -11906,7 +11996,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 22,
+            "line": 23,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },

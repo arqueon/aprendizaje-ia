@@ -2,19 +2,19 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 182,
+    "markdown": 183,
     "pages": 153,
-    "sections": 29,
-    "words": 142488,
-    "assets": 222,
-    "content_assets": 220,
+    "sections": 30,
+    "words": 144080,
+    "assets": 223,
+    "content_assets": 221,
     "shared_figure_assets": 2,
     "pages_with_featured": 164,
-    "pages_with_svg": 16,
+    "pages_with_svg": 17,
     "pages_with_tables": 67,
     "pages_with_mermaid": 15,
-    "pages_with_h5p": 18,
-    "pages_with_any_interaction": 19,
+    "pages_with_h5p": 19,
+    "pages_with_any_interaction": 20,
     "body_lt90": 1,
     "body_lt250": 26,
     "body_gt2800": 1,
@@ -73,21 +73,21 @@
     "formacion-docente": {
       "pages": 30,
       "sections": 2,
-      "words": 38800,
+      "words": 39185,
       "featured": 32,
-      "svg": 7,
-      "h5p": 32,
+      "svg": 8,
+      "h5p": 33,
       "tables": 8,
       "weak_lt250": 1,
       "missing_refs_with_citations": 16
     },
     "ia-educacion": {
       "pages": 59,
-      "sections": 7,
-      "words": 61288,
+      "sections": 8,
+      "words": 62438,
       "featured": 61,
       "svg": 19,
-      "h5p": 3,
+      "h5p": 4,
       "tables": 119,
       "weak_lt250": 3,
       "missing_refs_with_citations": 13
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 40,
       "sections": 5,
-      "words": 18266,
+      "words": 18323,
       "featured": 43,
       "svg": 1,
       "h5p": 0,
@@ -517,12 +517,12 @@
       "video": 2
     },
     "areas": {
-      "ia": 132,
-      "pedagogia": 117,
-      "digital": 33,
-      "formacion": 54,
+      "ia": 141,
+      "pedagogia": 123,
+      "digital": 34,
+      "formacion": 56,
       "evaluacion": 50,
-      "etica": 11
+      "etica": 12
     },
     "tag_variant_collisions": [
       {
@@ -1899,9 +1899,9 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 768,
-      "heading_count": 3,
-      "h2_count": 2,
+      "words": 1107,
+      "heading_count": 5,
+      "h2_count": 3,
       "external_url_count": 3,
       "citation_signals": 6,
       "reference_heading": false,
@@ -1915,7 +1915,7 @@
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 1,
+        "h5p_count": 2,
         "iframe_count": 0,
         "shortcode_names": [
           "h5p",
@@ -2245,7 +2245,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1369,
+      "words": 1371,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 0,
@@ -2255,9 +2255,9 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
-        "svg_count": 0,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
@@ -2267,6 +2267,7 @@
           "acordeon",
           "curso-interactivo",
           "curso-navegacion",
+          "figura",
           "h5p",
           "idea",
           "lead",
@@ -2281,7 +2282,6 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama",
         "tabla-sintesis",
         "fallback-verificar"
       ]
@@ -3544,7 +3544,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1176,
+      "words": 1220,
       "heading_count": 8,
       "h2_count": 7,
       "external_url_count": 0,
@@ -3595,13 +3595,13 @@
       "areas": [
         "ia"
       ],
-      "words": 111,
+      "words": 113,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 9,
+      "internal_link_count": 10,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -3693,13 +3693,13 @@
         "ia",
         "etica"
       ],
-      "words": 123,
+      "words": 478,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 17,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -3711,7 +3711,11 @@
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
-        "shortcode_names": []
+        "shortcode_names": [
+          "card",
+          "cards",
+          "lead"
+        ]
       },
       "decision": "actualizar",
       "needs": []
@@ -3796,7 +3800,7 @@
         "etica",
         "formacion"
       ],
-      "words": 867,
+      "words": 898,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -3906,7 +3910,7 @@
         "ia",
         "etica"
       ],
-      "words": 1004,
+      "words": 1036,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 4,
@@ -4224,13 +4228,13 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1597,
-      "heading_count": 9,
+      "words": 1977,
+      "heading_count": 10,
       "h2_count": 9,
       "external_url_count": 2,
       "citation_signals": 2,
       "reference_heading": false,
-      "internal_link_count": 1,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4240,9 +4244,10 @@
         "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
-        "h5p_count": 0,
+        "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
+          "h5p",
           "referencias",
           "relref",
           "udgia-figure"
@@ -4250,7 +4255,7 @@
       },
       "decision": "conservar",
       "needs": [
-        "interaccion-candidata",
+        "fallback-verificar",
         "procedencia"
       ]
     },
@@ -4427,7 +4432,10 @@
       "summary": "Parte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "formacion"
+      ],
       "words": 308,
       "heading_count": 3,
       "h2_count": 3,
@@ -4687,7 +4695,10 @@
       "summary": "Distingue información pública, controlada, sensible y confidencial antes de copiarla a una herramienta de IA.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "etica"
+      ],
       "words": 194,
       "heading_count": 2,
       "h2_count": 2,
@@ -4726,7 +4737,10 @@
       "summary": "Revisa una actividad propia, encuentra la primera parte que no coincide y escribe un cambio concreto con alternativa sin IA.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "formacion"
+      ],
       "words": 832,
       "heading_count": 5,
       "h2_count": 5,
@@ -4864,7 +4878,10 @@
       "summary": "Pregunta, busca, lee, analiza y escribe con apoyo de IA conservando fuentes reales, confidencialidad, trazabilidad y responsabilidad humana.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
       "words": 305,
       "heading_count": 4,
       "h2_count": 4,
@@ -4907,14 +4924,17 @@
       "summary": "Qué propone el documento, qué autoridad tiene hoy y cómo continuar hacia una explicación o una práctica por audiencia.",
       "tags": [],
       "categories": [],
-      "areas": [],
-      "words": 297,
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 346,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 3,
+      "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
         "featured": false,
@@ -4937,6 +4957,47 @@
       ]
     },
     {
+      "path": "ia-educacion/practicas/_index.md",
+      "route": "/ia-educacion/practicas/",
+      "kind": "section",
+      "section": "ia-educacion",
+      "title": "Prácticas con IA",
+      "date": "",
+      "draft": false,
+      "description": "Ejercicios delimitados y plantillas para actuar en una situación concreta de trabajo con IA: comprobar una afirmación decisiva o registrar las decisiones de una cocreación.",
+      "summary": "Ejercicios breves y plantillas para una situación concreta: comprobar la afirmación que cambia tu decisión o registrar lo que decidiste durante un trabajo con IA.",
+      "tags": [],
+      "categories": [],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 301,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": false,
+        "local_asset_count": 0,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": []
+    },
+    {
       "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
       "route": "/ia-educacion/practicas/bitacora-cocreacion/",
       "kind": "page",
@@ -4948,7 +5009,10 @@
       "summary": "Conserva las decisiones que cambiaron tu trabajo sin entregar la conversación completa ni datos privados.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
       "words": 488,
       "heading_count": 3,
       "h2_count": 3,
@@ -4990,7 +5054,10 @@
       "summary": "No compruebes todo a la vez: localiza el punto que cambiaría tu conclusión y contrástalo con una fuente pertinente.",
       "tags": [],
       "categories": [],
-      "areas": [],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
       "words": 176,
       "heading_count": 1,
       "h2_count": 1,
@@ -6696,7 +6763,11 @@
         "concepto",
         "modalidad-educativa"
       ],
-      "areas": [],
+      "areas": [
+        "ia",
+        "digital",
+        "pedagogia"
+      ],
       "words": 2162,
       "heading_count": 7,
       "h2_count": 2,
@@ -8831,7 +8902,7 @@
         "formacion",
         "digital"
       ],
-      "words": 1739,
+      "words": 1768,
       "heading_count": 17,
       "h2_count": 8,
       "external_url_count": 5,
@@ -8888,7 +8959,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 854,
+      "words": 882,
       "heading_count": 13,
       "h2_count": 7,
       "external_url_count": 2,

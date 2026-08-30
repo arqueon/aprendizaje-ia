@@ -1,13 +1,13 @@
 # Barrido de claridad y contexto — 2026-08-23
 
-Este barrido cubre **182 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
+Este barrido cubre **183 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
 
 ## Totales
 
 - urgente: 0
 - alta: 0
 - media: 15
-- baja: 167
+- baja: 168
 - afirmaciones de implementación por verificar: 0
 - estados contradictorios: 0
 - prácticas cuyo material inicial necesita revisión: 1
@@ -18,7 +18,7 @@ Este barrido cubre **182 fuentes Markdown**. Sus prioridades son señales para r
 - conservar: 21
 - cambiar: 52
 - quitar o poner en cuarentena: 0
-- pendientes: 109
+- pendientes: 110
 
 ## Cola automática
 
