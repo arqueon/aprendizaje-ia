@@ -1,6 +1,7 @@
 ---
 title: "Síntesis de los lineamientos UNESCO para IA en educación"
 date: 2026-04-26
+lastmod: 2026-08-30
 draft: false
 description: "Resumen aplicable a la práctica docente universitaria de los dos documentos UNESCO de referencia: la guía sobre IA generativa (2023, actualizada 2026) y el marco de competencias docentes (2024)."
 summary: "Lo esencial de los lineamientos UNESCO sobre IA en educación, traducido a decisiones operativas para docentes y coordinaciones académicas."
@@ -21,6 +22,8 @@ showAuthor: false
 {{< lead >}}
 La UNESCO mantiene tres documentos de referencia para IA en educación que conviene conocer en conjunto: la *Recomendación sobre la ética de la IA* (2021), la *Guía sobre IA generativa en educación e investigación* (2023, actualización vigente de enero 2026) y el *Marco de competencias de IA para docentes* (2024). Esta síntesis condensa lo que cada uno aporta y cómo se traducen al aula universitaria.
 {{< /lead >}}
+
+*Corte de la información: agosto de 2026; la versión más reciente considerada de la Guía sobre IA generativa es la actualización de enero de 2026. Próxima revisión prevista: febrero de 2027.*
 
 ## Tres documentos, tres niveles de operación
 

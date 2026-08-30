@@ -1,6 +1,7 @@
 ---
 title: "Marco regulatorio de IA en universidades mexicanas"
 date: 2026-04-26
+lastmod: 2026-08-30
 draft: false
 description: "Panorama del marco regulatorio mexicano sobre IA en educación superior: documentos ANUIES, estructura institucional y orientaciones para universidades públicas."
 summary: "Lo que existe y lo que aún no existe en regulación de IA universitaria en México: ANUIES, GIAES, observatorio interinstitucional y vacíos pendientes."
@@ -22,6 +23,8 @@ showAuthor: false
 México no tiene aún una ley federal específica sobre IA en educación superior, pero sí cuenta con un marco institucional emergente articulado por ANUIES y un conjunto de documentos de referencia que las universidades públicas y privadas están utilizando como base para sus políticas internas. Esta guía sintetiza ese marco y señala lo que aún falta.
 {{< /lead >}}
 
+*Corte de la información: agosto de 2026. El panorama regulatorio descrito —incluida la ausencia de una ley federal específica— corresponde a esa fecha. Próxima revisión prevista: febrero de 2027.*
+
 {{< alert "circle-info" >}}
 **Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje-IA es una red rizomática de reflexión docente; cualquier decisión normativa institucional pasa por sus cauces oficiales.
 {{< /alert >}}
@@ -30,7 +33,7 @@ México no tiene aún una ley federal específica sobre IA en educación superio
 
 El marco regulatorio mexicano sobre IA en educación superior se construye en tres niveles institucionales que conviene diferenciar:
 
-- **Federal.** No existe a la fecha una ley federal específica sobre IA en educación. Las disposiciones aplicables provienen de marcos generales: la Ley General de Educación, la Ley General de Educación Superior (2021), la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, y la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados.
+- **Federal.** No existe, al corte de agosto de 2026, una ley federal específica sobre IA en educación. Las disposiciones aplicables provienen de marcos generales: la Ley General de Educación, la Ley General de Educación Superior (2021), la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, y la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados.
 - **Asociativo nacional.** ANUIES (Asociación Nacional de Universidades e Instituciones de Educación Superior) opera como articulador del trabajo entre universidades a través del Comité ANUIES-TIC, el Grupo de IA en Educación Superior (GIAES) creado en 2024 y el Observatorio Interinstitucional de IA en Educación Superior.
 - **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio.
 
