@@ -29,6 +29,8 @@ Para aprovechar al máximo esta lección, revisa los objetivos y aprendizajes cl
 
 El diseño inverso, también conocido como *backward design*, cambia el orden habitual de la planeación: en lugar de comenzar por el contenido o las herramientas, parte de los resultados de aprendizaje deseados. Primero se define qué se espera que la persona logre, luego qué evidencia permitiría reconocer ese logro y, finalmente, qué experiencias podrían prepararla. Este orden ayuda a detectar elementos desconectados, pero no sustituye la revisión del contexto ni garantiza por sí solo una buena actividad.
 
+{{< figura src="cadena-diseno-inverso.svg" caption="Una cadena revisable conecta propósito, evidencia, experiencia y asistencia. La ruptura señalada muestra el desajuste típico que el diseño inverso ayuda a detectar: pedir *analizar* y evaluar solo reconocimiento." >}}
+
 En este curso añadimos una pregunta previa por el contexto, las características del grupo y los recursos disponibles. Los siete pasos siguientes desarrollan una secuencia práctica propia del recorrido; amplían las tres etapas generales de Wiggins y McTighe (2005) y pueden adaptarse.
 
 {{< proceso >}}

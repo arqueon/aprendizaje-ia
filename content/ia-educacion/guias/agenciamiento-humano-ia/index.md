@@ -79,7 +79,10 @@ acompañamiento antes de incorporar una respuesta generada.
 
 La figura no muestra una ruta correcta por color ni una calificación. Muestra que un mismo
 aporte puede recibir tratamientos distintos. La pregunta útil no es “¿la IA ayudó?”, sino
-“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”.
+“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”. Este mismo
+contraste puede recorrerse de forma interactiva: la actividad
+[Compara dos sugerencias](../../../actividades/comparar-sugerencias/) pone delante un borrador
+y dos ayudas, y pide decidir qué hacer con cada una antes de mostrar qué cambia en el texto.
 
 ## Co-crear no significa repartir la responsabilidad
 
