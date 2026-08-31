@@ -37,6 +37,10 @@ tipo de desempeño que se moviliza; no reemplaza el juicio docente ni convierte
 la secuencia en una escalera rígida.
 {{< /idea >}}
 
+## Por dónde entrar
+
+Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escritura e IA; el [proyecto](proyecto/) y el [prototipo](prototipo/) muestran cómo se evalúa el trabajo largo por iteraciones justificadas; la [programación](programacion/) ilustra el caso donde la IA ya produce código que funciona y la pregunta se desplaza a si quien entrega puede leerlo, depurarlo y explicarlo; y el [mapa conceptual](mapa-conceptual/) es el ejemplo breve para ver la estructura de las fichas en cinco minutos. Desde cualquiera de ellas, las demás se leen igual: cambia el producto, no el método.
+
 ## Productos
 
 A continuación encontrarás nuestro catálogo de productos de aprendizaje. Cada tarjeta detalla las características principales de la actividad, indicando qué nivel de la taxonomía de Bloom moviliza, a qué grupo de competencias pertenece y en qué áreas disciplinares se aplica mejor.

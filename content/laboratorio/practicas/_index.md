@@ -23,6 +23,10 @@ Esta colección reúne actividades en distintos estados. No supongas que una pá
 | **Documentada** | Contexto identificable, método, materiales, límites y procedencia de los resultados. | Puedes contrastar la experiencia con tu contexto y decidir qué conviene probar. |
 {.udgia-table--comparison .udgia-table--row-headers caption="Diferencias entre una actividad propuesta, un piloto y una práctica documentada"}
 
+## Por dónde entrar
+
+Para un primer recorrido, conviene elegir por el tamaño del compromiso. Si buscas una actividad acotada que pueda probarse en una o dos sesiones, revisa el [debate socrático con IA](debate-socratico-con-ia/) o el [análisis crítico de sesgos](analisis-critico-de-sesgos-en-ia/), que además conecta con la [sección de ética](/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/). Si tu interés es rediseñar la evaluación continua de un curso, el [portafolio iterativo con retroalimentación de IA](evaluacion-formativa-asistida-ia/) propone un ciclo completo. Y si planeas una intervención de semestre entero, la [plantilla de proyecto ABP para 14 semanas](abp-con-ia/) y el [aula invertida](aula-invertida/) trabajan a esa escala. En todos los casos aplica la regla de arriba: verifica primero el estado de la práctica y decide qué puedes concluir de ella.
+
 ## Antes de adaptar una actividad
 
 {{< proceso >}}
