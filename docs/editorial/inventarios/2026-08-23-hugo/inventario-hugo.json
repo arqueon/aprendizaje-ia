@@ -5,7 +5,7 @@
     "markdown": 183,
     "pages": 153,
     "sections": 30,
-    "words": 144081,
+    "words": 144014,
     "assets": 223,
     "content_assets": 221,
     "shared_figure_assets": 2,
@@ -84,11 +84,11 @@
     "ia-educacion": {
       "pages": 59,
       "sections": 8,
-      "words": 62439,
+      "words": 62357,
       "featured": 61,
       "svg": 19,
       "h5p": 4,
-      "tables": 119,
+      "tables": 118,
       "weak_lt250": 3,
       "missing_refs_with_citations": 13
     },
@@ -117,7 +117,7 @@
     "observatorio": {
       "pages": 10,
       "sections": 4,
-      "words": 11167,
+      "words": 11182,
       "featured": 14,
       "svg": 5,
       "h5p": 0,
@@ -3647,7 +3647,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1519,
+      "words": 1552,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -4486,7 +4486,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2262,
+      "words": 2242,
       "heading_count": 17,
       "h2_count": 11,
       "external_url_count": 6,
@@ -4652,7 +4652,7 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1573,
+      "words": 1507,
       "heading_count": 27,
       "h2_count": 7,
       "external_url_count": 4,
@@ -6866,7 +6866,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1696,
+      "words": 1686,
       "heading_count": 15,
       "h2_count": 12,
       "external_url_count": 0,
@@ -6924,7 +6924,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1534,
+      "words": 1578,
       "heading_count": 11,
       "h2_count": 11,
       "external_url_count": 0,
@@ -7020,7 +7020,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 892,
+      "words": 913,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 3,
@@ -7046,7 +7046,9 @@
         ]
       },
       "decision": "conservar",
-      "needs": []
+      "needs": [
+        "interaccion-candidata"
+      ]
     },
     {
       "path": "ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
@@ -7180,7 +7182,7 @@
         "ia",
         "etica"
       ],
-      "words": 1201,
+      "words": 1117,
       "heading_count": 10,
       "h2_count": 7,
       "external_url_count": 4,
@@ -7193,7 +7195,7 @@
         "local_asset_count": 3,
         "inline_image_count": 0,
         "svg_count": 2,
-        "table_count": 2,
+        "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -8262,7 +8264,7 @@
       "areas": [
         "ia"
       ],
-      "words": 1368,
+      "words": 1383,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 6,

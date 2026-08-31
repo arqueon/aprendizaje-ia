@@ -4325,7 +4325,7 @@
       "path": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
       "title": "Empezar con IA para aprender y enseñar",
       "role": "ruta",
-      "words": 1495,
+      "words": 1528,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5654,7 +5654,7 @@
       "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
       "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
       "role": "guia",
-      "words": 2180,
+      "words": 2161,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5910,7 +5910,7 @@
       "path": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "role": "guia",
-      "words": 1567,
+      "words": 1502,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5941,8 +5941,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 39,
-            "text": "| Principio rector | Pregunta de revisión | Decisión que ayuda a orientar |"
+            "line": 46,
+            "text": "| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. |"
           }
         },
         "acciones": {
@@ -5957,8 +5957,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 43,
-            "text": "| Evaluación del proceso. | ¿La actividad permite observar decisiones, revisiones y criterios? | La evaluación valora el recorrido además del resultado final. |"
+            "line": 65,
+            "text": "Cuando la IA se permite, una práctica útil es pedir un anexo con prompts utilizados, salidas obtenidas y decisiones tomadas. Si la rúbrica evalúa el anexo con peso similar al entregable, la transparencia se vuelve parte del aprendizaje. Sin"
           }
         },
         "comprobacion": {
@@ -5973,8 +5973,8 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 47,
-            "text": "| Revisión periódica. | ¿La decisión tiene evidencia, responsable y fecha de revisión? | El criterio puede modificarse cuando cambian las prácticas o las condiciones. |"
+            "line": 39,
+            "text": "| Criterio de decisión | Qué cuida |"
           }
         }
       },
@@ -9031,7 +9031,7 @@
       "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
       "title": "Coordinar la IA en los procesos docentes",
       "role": "ruta",
-      "words": 1612,
+      "words": 1602,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9078,8 +9078,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/coordinacion-academica/index.md",
-            "line": 89,
-            "text": "| Etapa | Pregunta que organiza el trabajo | Resultado esperado |"
+            "line": 127,
+            "text": "**Ficha de alcance:** una página con propósito, alcance, responsables, calendario, recursos"
           }
         },
         "comprobacion": {
@@ -9116,7 +9116,7 @@
       "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "role": "ruta",
-      "words": 1476,
+      "words": 1521,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9269,7 +9269,7 @@
       "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
       "title": "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",
       "role": "pagina",
-      "words": 876,
+      "words": 898,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9292,7 +9292,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 60,
+            "line": 66,
             "text": "La posibilidad de generar comentarios rápidos no convierte una herramienta en evaluador. Antes de usar IA para retroalimentar trabajos, el equipo docente debe definir qué datos pueden procesarse, evitar información personal o confidencial y"
           }
         },
@@ -9526,7 +9526,7 @@
       "path": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
       "title": "Políticas institucionales de IA en universidades",
       "role": "pagina",
-      "words": 1181,
+      "words": 1101,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9582,15 +9582,17 @@
           }
         },
         "lenguaje_directo": {
-          "present": true,
+          "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 22,
-            "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
+            "line": 90,
+            "text": "- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma con criterio APA 7 ahorra confusiones."
           }
         }
       },
-      "missing_expected_signals": [],
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -10876,15 +10878,15 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1380,
+      "words": 1395,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 41,
-            "text": "Con salvaguardas, el andamiaje mitigó la pérdida observada cuando la IA entregaba soluciones."
+            "line": 48,
+            "text": "cuando la asistencia se retira (Bastani et al., 2025). En otro contexto, un tutor diseñado"
           }
         },
         "quien": {
@@ -10892,7 +10894,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 37,
-            "text": "| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |"
+            "text": "| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esf"
           }
         },
         "momento_entorno": {
@@ -10900,7 +10902,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 35,
-            "text": "| Condición | Durante la práctica | Al retirar la IA |"
+            "text": "| Condición | Durante la práctica con IA | Al evaluar sin IA |"
           }
         },
         "material_inicial": {
@@ -10920,14 +10922,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 37,
-            "text": "| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |"
+            "text": "| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esf"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 56,
+            "line": 54,
             "text": "El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes interactúan con la IA cuando la conceptualizan como un colaborador intelectual en lugar de una herramienta pasiva. Esta perspectiva, denominada \"orientación de asociaci"
           }
         },
