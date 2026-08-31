@@ -2,21 +2,21 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 183,
-    "pages": 153,
+    "markdown": 196,
+    "pages": 166,
     "sections": 30,
-    "words": 144081,
-    "assets": 223,
-    "content_assets": 221,
+    "words": 147056,
+    "assets": 236,
+    "content_assets": 234,
     "shared_figure_assets": 2,
-    "pages_with_featured": 164,
-    "pages_with_svg": 17,
+    "pages_with_featured": 177,
+    "pages_with_svg": 30,
     "pages_with_tables": 67,
     "pages_with_mermaid": 15,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
     "body_lt90": 1,
-    "body_lt250": 26,
+    "body_lt250": 38,
     "body_gt2800": 1,
     "missing_description": 0,
     "missing_summary": 6,
@@ -82,11 +82,11 @@
       "missing_refs_with_citations": 16
     },
     "ia-educacion": {
-      "pages": 59,
+      "pages": 60,
       "sections": 8,
-      "words": 62439,
-      "featured": 61,
-      "svg": 19,
+      "words": 63380,
+      "featured": 62,
+      "svg": 20,
       "h5p": 4,
       "tables": 119,
       "weak_lt250": 3,
@@ -126,21 +126,21 @@
       "missing_refs_with_citations": 2
     },
     "recursos": {
-      "pages": 40,
+      "pages": 52,
       "sections": 5,
-      "words": 18323,
-      "featured": 43,
-      "svg": 1,
+      "words": 20357,
+      "featured": 55,
+      "svg": 13,
       "h5p": 0,
       "tables": 3,
-      "weak_lt250": 21,
+      "weak_lt250": 33,
       "missing_refs_with_citations": 0
     }
   },
   "taxonomy": {
     "tags": {
-      "agenciamiento": 4,
-      "Deleuze": 6,
+      "agenciamiento": 6,
+      "Deleuze": 7,
       "filosofía de la técnica": 2,
       "co-producción": 2,
       "alfabetización IA": 1,
@@ -159,7 +159,7 @@
       "futuro de la docencia": 1,
       "alfabetizacion": 1,
       "literacidad": 5,
-      "co-creación": 5,
+      "co-creación": 8,
       "pensamiento-critico": 4,
       "alfabetización": 3,
       "competencia digital": 1,
@@ -182,7 +182,7 @@
       "DigComp": 1,
       "UNESCO": 4,
       "estudiantes": 1,
-      "aprendizaje activo": 16,
+      "aprendizaje activo": 18,
       "aprendizaje híbrido": 4,
       "ICAP": 2,
       "agencia docente": 1,
@@ -203,8 +203,8 @@
       "tecnologia-educativa": 1,
       "integracion-tecnologica": 1,
       "engagement": 1,
-      "pensamiento crítico": 6,
-      "evaluación": 8,
+      "pensamiento crítico": 7,
+      "evaluación": 9,
       "syllabus": 3,
       "portafolio": 1,
       "planeacion-didactica": 1,
@@ -235,23 +235,23 @@
       "marco-etico": 1,
       "politica-educativa": 1,
       "docencia-universitaria": 1,
-      "gobernanza": 4,
+      "gobernanza": 5,
       "ANUIES": 1,
       "regulación": 1,
       "México": 1,
       "política educativa": 2,
       "marco institucional": 1,
-      "plagio": 1,
+      "plagio": 2,
       "integridad-academica": 1,
       "autenticidad": 1,
       "trazabilidad": 1,
       "autoria": 1,
       "sesgos-ia": 1,
-      "equidad": 3,
+      "equidad": 4,
       "justicia-epistemica": 1,
       "auditoria": 1,
       "transparencia": 2,
-      "ética": 8,
+      "ética": 11,
       "explicabilidad": 1,
       "rendición de cuentas": 1,
       "prácticas docentes": 1,
@@ -259,8 +259,8 @@
       "metodología": 4,
       "agenciamiento (ensamblaje)": 1,
       "trabajo colaborativo": 1,
-      "Guattari": 1,
-      "dirección epistémica": 1,
+      "Guattari": 2,
+      "dirección epistémica": 2,
       "actividades de aula": 1,
       "retroalimentación": 3,
       "Bloom": 1,
@@ -276,7 +276,7 @@
       "rediseño de evaluación": 1,
       "sugerencias": 1,
       "criterios": 1,
-      "integridad académica": 3,
+      "integridad académica": 5,
       "inteligencia-artificial": 1,
       "personalizacion": 1,
       "tutoria-inteligente": 1,
@@ -391,7 +391,7 @@
       "Claude": 4,
       "licenciatura": 3,
       "híbrida": 2,
-      "sesgos": 2,
+      "sesgos": 3,
       "alfabetización digital": 2,
       "ChatGPT": 1,
       "Licenciatura": 2,
@@ -459,13 +459,26 @@
       "tareas docentes": 1,
       "tecnología": 3,
       "educación digital": 1,
+      "conocimiento local": 2,
+      "metacognición": 1,
+      "descarga cognitiva": 1,
+      "dependencia": 1,
       "diseño-inverso": 1,
       "diseño curricular": 1,
       "planificación": 1,
+      "práctica": 1,
+      "diseño de actividades": 1,
+      "política institucional": 1,
+      "decisiones": 1,
       "tecnología-educativa": 1,
       "integración-tecnológica": 1,
+      "soberanía": 2,
+      "infraestructura": 1,
+      "decisiones institucionales": 2,
       "taxonomía": 1,
+      "proceso": 1,
       "tutor IA": 2,
+      "proveedores": 1,
       "recursos-institucionales": 1,
       "politica-ia": 2,
       "herramientas": 1,
@@ -502,7 +515,7 @@
       "ruta-de-aprendizaje": 2,
       "ia-en-educacion": 1,
       "producto-aprendizaje": 28,
-      "concepto": 18,
+      "concepto": 30,
       "modalidad-educativa": 1,
       "marco-ejecutivo": 1,
       "tendencia": 4,
@@ -517,12 +530,12 @@
       "video": 2
     },
     "areas": {
-      "ia": 141,
-      "pedagogia": 123,
-      "digital": 34,
+      "ia": 154,
+      "pedagogia": 128,
+      "digital": 35,
       "formacion": 56,
-      "evaluacion": 50,
-      "etica": 12
+      "evaluacion": 51,
+      "etica": 19
     },
     "tag_variant_collisions": [
       {
@@ -1081,8 +1094,8 @@
     {
       "path": "recursos/glosario/_index.md",
       "field": "summary",
-      "actual": 20,
-      "declared": 20,
+      "actual": 32,
+      "declared": 32,
       "matches": true
     }
   ],
@@ -1107,7 +1120,19 @@
       "ingeniería de prompts",
       "alfabetización en IA",
       "sesgo algorítmico",
-      "integridad académica"
+      "integridad académica",
+      "trazabilidad",
+      "pos-plagio",
+      "colonización cognitiva",
+      "justicia epistémica",
+      "co-creación persona-IA",
+      "agenciamiento persona-IA",
+      "dirección epistémica",
+      "esfuerzo productivo",
+      "deriva metacognitiva",
+      "gobernanza distribuida",
+      "soberanía tecnológica",
+      "dependencia de proveedor (vendor lock-in)"
     ],
     "missing": [],
     "unknown": [],
@@ -4964,21 +4989,21 @@
       "title": "Prácticas con IA",
       "date": "",
       "draft": false,
-      "description": "Ejercicios delimitados y plantillas para actuar en una situación concreta de trabajo con IA: comprobar una afirmación decisiva o registrar las decisiones de una cocreación.",
-      "summary": "Ejercicios breves y plantillas para una situación concreta: comprobar la afirmación que cambia tu decisión o registrar lo que decidiste durante un trabajo con IA.",
+      "description": "Ejercicios delimitados y plantillas para actuar en una situación concreta de trabajo con IA: comprobar una afirmación decisiva, registrar las decisiones de una cocreación o declarar el uso al cerrar un trabajo.",
+      "summary": "Ejercicios breves y plantillas para una situación concreta: comprobar la afirmación que cambia tu decisión, registrar lo que decidiste durante un trabajo con IA o declararlo al entregar.",
       "tags": [],
       "categories": [],
       "areas": [
         "ia",
         "pedagogia"
       ],
-      "words": 301,
+      "words": 354,
       "heading_count": 0,
       "h2_count": 0,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 3,
+      "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
         "featured": false,
@@ -5084,6 +5109,50 @@
       "decision": "fusionar-o-ampliar",
       "needs": [
         "featured"
+      ]
+    },
+    {
+      "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+      "route": "/ia-educacion/practicas/declaracion-proporcional-uso/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Declaración proporcional de uso de IA",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Plantilla en dos versiones para declarar qué apoyo dio la IA y qué decidió la persona, con el detalle proporcional al peso de la tarea.",
+      "summary": "Declara siempre el uso de IA, pero con la extensión que la tarea merece: una línea cuando el apoyo fue acotado, una relación completa cuando el trabajo lo exige.",
+      "tags": [],
+      "categories": [],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 888,
+      "heading_count": 7,
+      "h2_count": 7,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead",
+          "parallevar"
+        ]
+      },
+      "decision": "actualizar",
+      "needs": [
+        "tabla-sintesis"
       ]
     },
     {
@@ -8995,7 +9064,7 @@
       "date": "2026-04-26",
       "draft": false,
       "description": "Definiciones breves para reconocer cómo usa el sitio conceptos de pedagogía, aprendizaje digital e inteligencia artificial.",
-      "summary": "20 entradas para aclarar un término, distinguirlo de conceptos cercanos y volver al texto donde aparece.",
+      "summary": "32 entradas para aclarar un término, distinguirlo de conceptos cercanos y volver al texto donde aparece.",
       "tags": [],
       "categories": [],
       "areas": [
@@ -9003,13 +9072,13 @@
         "ia",
         "digital"
       ],
-      "words": 247,
+      "words": 314,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 1,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -9027,6 +9096,52 @@
         ]
       },
       "decision": "actualizar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/agenciamiento-persona-ia/index.md",
+      "route": "/recursos/glosario/agenciamiento-persona-ia/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Agenciamiento persona-IA",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Configuración completa en la que ocurre el trabajo con IA: la persona, la herramienta, la actividad, las fuentes, los criterios y las condiciones institucionales.",
+      "summary": "Configuración completa en la que ocurre el trabajo con IA: la persona, la herramienta, la actividad, las fuentes, los criterios y las condiciones institucionales.",
+      "tags": [
+        "agenciamiento",
+        "Deleuze",
+        "Guattari",
+        "co-creación"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 163,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
       "needs": []
     },
     {
@@ -9384,6 +9499,141 @@
       "needs": []
     },
     {
+      "path": "recursos/glosario/cocreacion-persona-ia/index.md",
+      "route": "/recursos/glosario/cocreacion-persona-ia/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Co-creación persona-IA",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Trabajo en el que la respuesta de la IA entra en un ciclo intelectual dirigido por la persona, que la interroga, la contrasta y decide qué hacer con ella.",
+      "summary": "Trabajo en el que la respuesta de la IA entra en un ciclo intelectual dirigido por la persona, que la interroga, la contrasta y decide qué hacer con ella.",
+      "tags": [
+        "co-creación",
+        "agenciamiento",
+        "aprendizaje activo"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 164,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 6,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/colonizacion-cognitiva/index.md",
+      "route": "/recursos/glosario/colonizacion-cognitiva/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Colonización cognitiva",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Riesgo de adoptar como universales las categorías y valores incorporados en sistemas construidos en otros contextos, desplazando saberes y formas locales de comprender.",
+      "summary": "Riesgo de adoptar como universales las categorías y valores incorporados en sistemas construidos en otros contextos, desplazando saberes y formas locales de comprender.",
+      "tags": [
+        "ética",
+        "sesgos",
+        "conocimiento local"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 180,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 6,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/deriva-metacognitiva/index.md",
+      "route": "/recursos/glosario/deriva-metacognitiva/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Deriva metacognitiva",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar en la IA.",
+      "summary": "Pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar en la IA.",
+      "tags": [
+        "metacognición",
+        "descarga cognitiva",
+        "dependencia"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 168,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
       "path": "recursos/glosario/descarga-cognitiva/index.md",
       "route": "/recursos/glosario/descarga-cognitiva/",
       "kind": "page",
@@ -9417,6 +9667,51 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/direccion-epistemica/index.md",
+      "route": "/recursos/glosario/direccion-epistemica/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Dirección epistémica",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Capacidad de conservar el propósito, comprobar lo recibido y responder por el resultado al trabajar con IA.",
+      "summary": "Capacidad de conservar el propósito, comprobar lo recibido y responder por el resultado al trabajar con IA.",
+      "tags": [
+        "co-creación",
+        "dirección epistémica",
+        "pensamiento crítico"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 164,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 7,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
@@ -9470,6 +9765,51 @@
         "shortcode_names": [
           "relref"
         ]
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/esfuerzo-productivo/index.md",
+      "route": "/recursos/glosario/esfuerzo-productivo/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Esfuerzo productivo",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Dificultad que forma una capacidad, distinta de la dificultad que solo frustra; protegerlo decide cuándo introducir una ayuda de IA.",
+      "summary": "Dificultad que forma una capacidad, distinta de la dificultad que solo frustra; protegerlo decide cuándo introducir una ayuda de IA.",
+      "tags": [
+        "aprendizaje activo",
+        "práctica",
+        "diseño de actividades"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "pedagogia"
+      ],
+      "words": 166,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
       },
       "decision": "fusionar-o-ampliar",
       "needs": []
@@ -9568,6 +9908,51 @@
         "featured",
         "svg-diagrama"
       ]
+    },
+    {
+      "path": "recursos/glosario/gobernanza-distribuida/index.md",
+      "route": "/recursos/glosario/gobernanza-distribuida/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Gobernanza distribuida",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información para tomarla: institución, programa o curso.",
+      "summary": "Manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información para tomarla: institución, programa o curso.",
+      "tags": [
+        "gobernanza",
+        "política institucional",
+        "decisiones"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 162,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 4,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
     },
     {
       "path": "recursos/glosario/ia-generativa/index.md",
@@ -9700,6 +10085,51 @@
       "needs": []
     },
     {
+      "path": "recursos/glosario/justicia-epistemica/index.md",
+      "route": "/recursos/glosario/justicia-epistemica/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Justicia epistémica",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Derecho a producir y validar conocimiento desde el propio contexto, sin que los sistemas adoptados lo desplacen.",
+      "summary": "Derecho a producir y validar conocimiento desde el propio contexto, sin que los sistemas adoptados lo desplacen.",
+      "tags": [
+        "ética",
+        "equidad",
+        "conocimiento local"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 163,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 7,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
       "path": "recursos/glosario/modelo-samr/index.md",
       "route": "/recursos/glosario/modelo-samr/",
       "kind": "page",
@@ -9790,6 +10220,51 @@
       "needs": []
     },
     {
+      "path": "recursos/glosario/pos-plagio/index.md",
+      "route": "/recursos/glosario/pos-plagio/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Pos-plagio",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Expresión que reconoce que las definiciones tradicionales de plagio no describen por sí solas los trabajos en los que interviene IA.",
+      "summary": "Expresión que reconoce que las definiciones tradicionales de plagio no describen por sí solas los trabajos en los que interviene IA.",
+      "tags": [
+        "integridad académica",
+        "plagio",
+        "ética"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 164,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
       "path": "recursos/glosario/sesgo-algoritmico/index.md",
       "route": "/recursos/glosario/sesgo-algoritmico/",
       "kind": "page",
@@ -9824,6 +10299,51 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/soberania-tecnologica/index.md",
+      "route": "/recursos/glosario/soberania-tecnologica/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Soberanía tecnológica",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Capacidad de una institución para conservar opciones sobre las tecnologías que adopta: recuperar sus datos, cambiar de servicio y evitar dependencias que comprometan su misión.",
+      "summary": "Capacidad de una institución para conservar opciones sobre las tecnologías que adopta: recuperar sus datos, cambiar de servicio y evitar dependencias que comprometan su misión.",
+      "tags": [
+        "soberanía",
+        "infraestructura",
+        "decisiones institucionales"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 157,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
@@ -9882,6 +10402,52 @@
       "needs": []
     },
     {
+      "path": "recursos/glosario/trazabilidad/index.md",
+      "route": "/recursos/glosario/trazabilidad/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Trazabilidad",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Posibilidad de reconstruir y mostrar cómo se produjo un trabajo, incluido el papel que tuvo la IA.",
+      "summary": "Posibilidad de reconstruir y mostrar cómo se produjo un trabajo, incluido el papel que tuvo la IA.",
+      "tags": [
+        "integridad académica",
+        "proceso",
+        "evaluación"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "etica",
+        "evaluacion"
+      ],
+      "words": 157,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 6,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
       "path": "recursos/glosario/tutor-inteligente/index.md",
       "route": "/recursos/glosario/tutor-inteligente/",
       "kind": "page",
@@ -9915,6 +10481,51 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "fusionar-o-ampliar",
+      "needs": []
+    },
+    {
+      "path": "recursos/glosario/vendor-lock-in/index.md",
+      "route": "/recursos/glosario/vendor-lock-in/",
+      "kind": "page",
+      "section": "recursos",
+      "title": "Dependencia de proveedor (vendor lock-in)",
+      "date": "2026-08-30",
+      "draft": false,
+      "description": "Situación en la que cambiar de servicio se vuelve impracticable por el costo de migrar o por la imposibilidad de recuperar datos y trabajo acumulado.",
+      "summary": "Situación en la que cambiar de servicio se vuelve impracticable por el costo de migrar o por la imposibilidad de recuperar datos y trabajo acumulado.",
+      "tags": [
+        "soberanía",
+        "proveedores",
+        "decisiones institucionales"
+      ],
+      "categories": [
+        "concepto"
+      ],
+      "areas": [
+        "ia",
+        "digital"
+      ],
+      "words": 159,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
