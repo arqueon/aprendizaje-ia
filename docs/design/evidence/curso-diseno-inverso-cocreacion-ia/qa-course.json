@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "status": "pass",
-  "startedAt": "2026-08-28T20:25:48.037Z",
-  "finishedAt": "2026-08-28T20:26:45.183Z",
+  "startedAt": "2026-08-31T13:00:46.656Z",
+  "finishedAt": "2026-08-31T13:01:43.348Z",
   "scope": "local-only-not-published",
   "static": {
     "lessons": 13,
-    "words": 24085,
+    "words": 24118,
     "native": {
       "accordion": 23,
       "tabs": 19,
@@ -59,7 +59,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/",
         "scenario": "desktop-light",
-        "wallMs": 741,
+        "wallMs": 1291,
         "title": "Diseño inverso y cocreación con IA · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -87,7 +87,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/",
         "scenario": "desktop-light",
-        "wallMs": 737,
+        "wallMs": 721,
         "title": "Panorama del aprendizaje activo e híbrido · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -118,13 +118,13 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/",
         "scenario": "desktop-light",
-        "wallMs": 680,
+        "wallMs": 711,
         "title": "Introducción al diseño inverso · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
-        "htmlBytes": 64522,
-        "resourceBytes": 1390057,
-        "resources": 21,
+        "htmlBytes": 68455,
+        "resourceBytes": 1430765,
+        "resources": 22,
         "h5pRuntimeRequests": 2,
         "h5pHostRequests": 2,
         "h5pEagerContentRequests": 0,
@@ -149,7 +149,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/",
         "scenario": "desktop-light",
-        "wallMs": 643,
+        "wallMs": 678,
         "title": "Literacidades para el uso de IA · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -180,7 +180,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/04-cocreacion-persona-ia/",
         "scenario": "desktop-light",
-        "wallMs": 646,
+        "wallMs": 729,
         "title": "Cocreación persona–IA en el diseño docente · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -211,7 +211,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/",
         "scenario": "desktop-light",
-        "wallMs": 672,
+        "wallMs": 683,
         "title": "Delimitación del contexto y diagnóstico inicial · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -242,7 +242,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/",
         "scenario": "desktop-light",
-        "wallMs": 661,
+        "wallMs": 638,
         "title": "Formulación de resultados de aprendizaje observables · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -274,7 +274,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/",
         "scenario": "desktop-light",
-        "wallMs": 650,
+        "wallMs": 646,
         "title": "Determinación de evidencias y criterios de calidad · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -306,7 +306,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/",
         "scenario": "desktop-light",
-        "wallMs": 671,
+        "wallMs": 638,
         "title": "Diseño de secuencias activas e híbridas · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -338,7 +338,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/",
         "scenario": "desktop-light",
-        "wallMs": 640,
+        "wallMs": 649,
         "title": "Análisis de casos · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -370,7 +370,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/10-limitaciones-analisis/",
         "scenario": "desktop-light",
-        "wallMs": 681,
+        "wallMs": 664,
         "title": "Limitaciones del análisis · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -402,7 +402,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/",
         "scenario": "desktop-light",
-        "wallMs": 645,
+        "wallMs": 647,
         "title": "Priorizar intervenciones con evidencia · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -435,7 +435,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/",
         "scenario": "desktop-light",
-        "wallMs": 652,
+        "wallMs": 678,
         "title": "Evaluación, retroalimentación y mejora continua · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -466,7 +466,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/",
         "scenario": "desktop-light",
-        "wallMs": 743,
+        "wallMs": 716,
         "title": "Autoevaluación final sin calificación · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -520,7 +520,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/",
         "scenario": "mobile-dark",
-        "wallMs": 656,
+        "wallMs": 647,
         "title": "Diseño inverso y cocreación con IA · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -548,7 +548,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/",
         "scenario": "mobile-dark",
-        "wallMs": 639,
+        "wallMs": 637,
         "title": "Panorama del aprendizaje activo e híbrido · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -579,13 +579,13 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/",
         "scenario": "mobile-dark",
-        "wallMs": 641,
+        "wallMs": 700,
         "title": "Introducción al diseño inverso · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
-        "htmlBytes": 64524,
-        "resourceBytes": 1390057,
-        "resources": 21,
+        "htmlBytes": 68457,
+        "resourceBytes": 1430765,
+        "resources": 22,
         "h5pRuntimeRequests": 2,
         "h5pHostRequests": 2,
         "h5pEagerContentRequests": 0,
@@ -610,7 +610,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/",
         "scenario": "mobile-dark",
-        "wallMs": 659,
+        "wallMs": 635,
         "title": "Literacidades para el uso de IA · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -641,7 +641,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/04-cocreacion-persona-ia/",
         "scenario": "mobile-dark",
-        "wallMs": 680,
+        "wallMs": 664,
         "title": "Cocreación persona–IA en el diseño docente · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -672,7 +672,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/",
         "scenario": "mobile-dark",
-        "wallMs": 652,
+        "wallMs": 634,
         "title": "Delimitación del contexto y diagnóstico inicial · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -703,7 +703,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/",
         "scenario": "mobile-dark",
-        "wallMs": 640,
+        "wallMs": 669,
         "title": "Formulación de resultados de aprendizaje observables · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -735,7 +735,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/",
         "scenario": "mobile-dark",
-        "wallMs": 665,
+        "wallMs": 638,
         "title": "Determinación de evidencias y criterios de calidad · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -767,7 +767,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/",
         "scenario": "mobile-dark",
-        "wallMs": 665,
+        "wallMs": 661,
         "title": "Diseño de secuencias activas e híbridas · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -799,7 +799,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/",
         "scenario": "mobile-dark",
-        "wallMs": 664,
+        "wallMs": 666,
         "title": "Análisis de casos · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -831,7 +831,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/10-limitaciones-analisis/",
         "scenario": "mobile-dark",
-        "wallMs": 657,
+        "wallMs": 669,
         "title": "Limitaciones del análisis · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -863,7 +863,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/",
         "scenario": "mobile-dark",
-        "wallMs": 670,
+        "wallMs": 636,
         "title": "Priorizar intervenciones con evidencia · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -896,7 +896,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/",
         "scenario": "mobile-dark",
-        "wallMs": 637,
+        "wallMs": 669,
         "title": "Evaluación, retroalimentación y mejora continua · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -927,7 +927,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/",
         "scenario": "mobile-dark",
-        "wallMs": 709,
+        "wallMs": 710,
         "title": "Autoevaluación final sin calificación · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -981,7 +981,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/",
         "scenario": "desktop-dark",
-        "wallMs": 651,
+        "wallMs": 660,
         "title": "Diseño inverso y cocreación con IA · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -1009,7 +1009,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/",
         "scenario": "desktop-dark",
-        "wallMs": 663,
+        "wallMs": 658,
         "title": "Formulación de resultados de aprendizaje observables · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -1041,7 +1041,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/",
         "scenario": "desktop-dark",
-        "wallMs": 730,
+        "wallMs": 709,
         "title": "Autoevaluación final sin calificación · Aprendizaje Digital e IA",
         "width": 1440,
         "scrollWidth": 1440,
@@ -1095,7 +1095,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/",
         "scenario": "mobile-light",
-        "wallMs": 666,
+        "wallMs": 650,
         "title": "Diseño inverso y cocreación con IA · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -1123,7 +1123,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/",
         "scenario": "mobile-light",
-        "wallMs": 636,
+        "wallMs": 662,
         "title": "Formulación de resultados de aprendizaje observables · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -1155,7 +1155,7 @@
       {
         "route": "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/",
         "scenario": "mobile-light",
-        "wallMs": 770,
+        "wallMs": 673,
         "title": "Autoevaluación final sin calificación · Aprendizaje Digital e IA",
         "width": 390,
         "scrollWidth": 390,
@@ -1229,7 +1229,7 @@
       "consoleErrors": 0,
       "maxHtmlBytes": 143398,
       "maxResourceBytes": 1618183,
-      "maxWallMs": 770
+      "maxWallMs": 1291
     },
     "hugoWarnings": [
       "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
@@ -1237,7 +1237,7 @@
       "WARN  deprecated: .Site.Data was deprecated in Hugo v0.156.0 and will be removed in a future release. Use hugo.Data instead."
     ],
     "unexpectedHugoWarnings": [],
-    "serverOutputTail": "Watching for changes in /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/archetypes, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/assets/{css,figures,images}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/content/{areas,blog,formacion-docente,ia-educacion,laboratorio,...}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/data/{editorial,h5p}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/layouts/{_default,_markup,partials,shortcodes}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/package.json, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/static/{actividades,descargas,files,fonts,h5p,...}\nWatching for config changes in /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/hugo.toml, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/qa-wt/go.mod\nStart building sites … \nhugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │ 934 \n Paginator pages  │  74 \n Non-page files   │ 225 \n Static files     │ 812 \n Processed images │ 292 \n Aliases          │ 398 \n Cleaned          │   0 \n\nBuilt in 628 ms\nEnvironment: \"development\"\nServing pages from memory\nWeb Server is available at http://127.0.0.1:42783/ (bind address 127.0.0.1) \nPress Ctrl+C to stop\n"
+    "serverOutputTail": "Watching for changes in /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/archetypes, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/assets/{css,figures,images}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/content/{areas,blog,formacion-docente,ia-educacion,laboratorio,...}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/data/{editorial,h5p}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/layouts/{_default,_markup,partials,shortcodes}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/package.json, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/static/{actividades,descargas,files,fonts,h5p,...}\nWatching for config changes in /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/hugo.toml, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/ola3-visual/go.mod\nStart building sites … \nhugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │ 997 \n Paginator pages  │  86 \n Non-page files   │ 232 \n Static files     │ 812 \n Processed images │ 292 \n Aliases          │ 421 \n Cleaned          │   0 \n\nBuilt in 665 ms\nEnvironment: \"development\"\nServing pages from memory\nWeb Server is available at http://127.0.0.1:42783/ (bind address 127.0.0.1) \nPress Ctrl+C to stop\n"
   },
   "gates": {
     "commit": false,

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generated": "2026-08-28T20:25:09.135Z",
+  "generated": "2026-08-31T13:01:48.737Z",
   "introPage": "ia-educacion/constelaciones/empezar-con-ia/",
   "activityPages": [
     {
@@ -11,6 +11,11 @@
     {
       "id": "direccion-epistemica-hotspots",
       "path": "formacion-docente/alfabetizacion-co-creacion/",
+      "integrated": true
+    },
+    {
+      "id": "direccion-epistemica-decidir-reformular",
+      "path": "ia-educacion/guias/agenciamiento-humano-ia/",
       "integrated": true
     },
     {
@@ -32,19 +37,19 @@
   "expectedIDs": [
     "cocreacion-versiones-slider",
     "direccion-epistemica-hotspots",
+    "direccion-epistemica-decidir-reformular",
     "evidencias-proceso-proporcion",
     "evaluacion-proceso-decision",
     "cocreacion-evaluacion-recorrido"
   ],
   "preparedIDs": [
-    "direccion-epistemica-decidir-reformular",
     "cocreacion-conceptos-cards",
     "objetivos-bloom-udgplus"
   ],
   "udgia007Governance": {
     "direccion-epistemica-decidir-reformular": {
       "page": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-      "integrated": false,
+      "integrated": true,
       "contentLicense": "CC BY-SA 4.0",
       "licenseStatus": "authorized-project-editorial",
       "publicationAuthorized": true,
@@ -216,8 +221,8 @@
           "ready": true,
           "path": "/h5p/udgia/v1/host.css",
           "cssRuleCount": 24,
-          "mountCount": 1,
-          "appliedMountCount": 1
+          "mountCount": 2,
+          "appliedMountCount": 2
         },
         "width": 375,
         "scrollWidth": 375,
@@ -305,6 +310,113 @@
             },
             {
               "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            }
+          ]
+        },
+        "contentLicense": "CC BY-SA 4.0",
+        "licenseStatus": "authorized-project-editorial",
+        "publicationAuthorized": "true"
+      },
+      {
+        "id": "direccion-epistemica-decidir-reformular",
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
+        "width": 375,
+        "scrollWidth": 375,
+        "fallbackLength": 1740,
+        "fallbackContrast": {
+          "minimum": 11.26,
+          "samples": [
+            {
+              "element": "summary",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "div",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "h3",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "p",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "li",
+              "foreground": "rgb(236, 238, 233)",
+              "background": "rgb(43, 51, 31)",
+              "ratio": 11.26
+            },
+            {
+              "element": "strong",
               "foreground": "rgb(236, 238, 233)",
               "background": "rgb(43, 51, 31)",
               "ratio": 11.26
@@ -619,8 +731,8 @@
           "ready": true,
           "path": "/h5p/udgia/v1/host.css",
           "cssRuleCount": 24,
-          "mountCount": 1,
-          "appliedMountCount": 1
+          "mountCount": 2,
+          "appliedMountCount": 2
         },
         "height": 428,
         "inner": {
@@ -649,6 +761,100 @@
         "formativeDecision": null,
         "overlapAudit": null,
         "storage": null
+      },
+      {
+        "id": "direccion-epistemica-decidir-reformular",
+        "path": "ia-educacion/guias/agenciamiento-humano-ia/",
+        "integrated": true,
+        "hostStyles": {
+          "ready": true,
+          "path": "/h5p/udgia/v1/host.css",
+          "cssRuleCount": 24,
+          "mountCount": 1,
+          "appliedMountCount": 1
+        },
+        "height": 1021,
+        "inner": {
+          "width": 745,
+          "scrollWidth": 745,
+          "height": 1021,
+          "scrollHeight": 1021,
+          "imageCount": 1,
+          "errorText": []
+        },
+        "visual": {
+          "viewportWidth": 745,
+          "visibleImages": [
+            {
+              "width": 745,
+              "height": 419.0625,
+              "ratio": 1.7777777777777777
+            }
+          ],
+          "checks": {
+            "answerCountIsFive": true,
+            "answersStyled": true,
+            "imageReadable": true,
+            "scenarioVisible": true
+          }
+        },
+        "violations": [],
+        "formativeDecision": {
+          "wrongFeedbackVerified": true,
+          "correctFeedbackVerified": true,
+          "scoreLanguageAbsent": true,
+          "scorebarAbsent": {
+            "afterWrongAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            },
+            "afterCorrectAnswer": {
+              "nodeCount": 0,
+              "visibleClassCount": 0,
+              "visibleCount": 0,
+              "scoreLanguagePresent": false
+            }
+          }
+        },
+        "overlapAudit": {
+          "scrollX": 0,
+          "viewportWidth": 1280,
+          "pageScrollWidth": 1280,
+          "fixedHeaderPresent": true,
+          "fixedHeader": {
+            "top": 0,
+            "bottom": 89,
+            "width": 1280,
+            "height": 89
+          },
+          "section": {
+            "top": 105.484375,
+            "bottom": 1675.390625,
+            "width": 747.015625,
+            "height": 1569.90625
+          },
+          "overlapsAtActivityEntry": false,
+          "sectionScreenshotFixedHeaderHidden": true,
+          "viewportScreenshot": "direccion-epistemica-decidir-reformular-viewport.png"
+        },
+        "storage": {
+          "before": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          },
+          "after": {
+            "localStorage": [],
+            "sessionStorage": [],
+            "indexedDB": [],
+            "cacheStorage": [],
+            "serviceWorkers": []
+          }
+        }
       },
       {
         "id": "evidencias-proceso-proporcion",

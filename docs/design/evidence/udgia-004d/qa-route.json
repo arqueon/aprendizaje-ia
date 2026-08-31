@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-31T12:53:55.816Z",
+  "checkedAt": "2026-08-31T13:02:21.228Z",
   "routePath": "ia-educacion/rutas/decision-institucional-ia/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
-    "pages": 975,
+    "pages": 997,
     "warnings": [
       "WARN  Module \"github.com/nunocoracao/blowfish/v2\" is not compatible with this Hugo version: 0.141.0/0.154.5 extended; run \"hugo mod graph\" for more information.",
       "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead.",
