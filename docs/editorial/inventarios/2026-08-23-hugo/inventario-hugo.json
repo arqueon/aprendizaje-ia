@@ -5,7 +5,7 @@
     "markdown": 196,
     "pages": 166,
     "sections": 30,
-    "words": 148169,
+    "words": 152945,
     "assets": 236,
     "content_assets": 234,
     "shared_figure_assets": 2,
@@ -84,11 +84,11 @@
     "ia-educacion": {
       "pages": 60,
       "sections": 8,
-      "words": 64104,
+      "words": 68880,
       "featured": 62,
       "svg": 20,
       "h5p": 4,
-      "tables": 118,
+      "tables": 115,
       "weak_lt250": 3,
       "missing_refs_with_citations": 13
     },
@@ -873,11 +873,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
-      "score": 0.42,
-      "a": "ia-educacion/productos-de-aprendizaje/prototipo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.417,
       "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
@@ -969,11 +964,6 @@
     },
     {
       "score": 0.369,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-casos/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
-      "score": 0.369,
       "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
     },
@@ -1043,11 +1033,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
     },
     {
-      "score": 0.361,
-      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.36,
       "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
@@ -1068,11 +1053,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
-      "score": 0.358,
-      "a": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.357,
       "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
@@ -1081,6 +1061,26 @@
       "score": 0.357,
       "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.355,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
+    },
+    {
+      "score": 0.355,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+    },
+    {
+      "score": 0.354,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.354,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
     }
   ],
   "declared_count_checks": [
@@ -6110,8 +6110,8 @@
       "title": "Mapa conceptual con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo construir un mapa conceptual con apoyo formativo de IAG, evaluando la jerarquización, las relaciones explícitas y la crítica del propio mapa.",
-      "summary": "Mapa conceptual con IAG: identificación de conceptos clave, jerarquización, mapeo de relaciones y autocrítica del mapa. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo construir un mapa conceptual en dos versiones —una propia y una contrastada con IAG— y evaluar las decisiones de jerarquía y relación que lo hacen evidencia de comprensión.",
+      "summary": "Un mapa conceptual muestra cómo entiende alguien un tema: qué selecciona, qué subordina y qué conecta. Esta guía propone construirlo en dos versiones, usar la IAG como contraste y valorar el recorrido con un ejemplo trabajado completo.",
       "tags": [
         "producto-aprendizaje",
         "bloom-4",
@@ -6128,9 +6128,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 831,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2139,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6141,7 +6141,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6157,7 +6157,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6464,8 +6465,8 @@
       "title": "Presentación con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo preparar una presentación universitaria con apoyo formativo de IAG, evaluando la estructura del discurso, la elección de ejemplos y la anticipación de preguntas.",
-      "summary": "Presentación oral con IAG: estructura del discurso, ejemplos y analogías, jerarquización del mensaje y autocrítica de la exposición. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo preparar una presentación universitaria con IAG como público crítico, evaluando la jerarquización del mensaje, los recortes justificados y el manejo de preguntas.",
+      "summary": "Diez minutos frente a un grupo obligan a decidir qué decir, qué recortar y qué pregunta anticipar. Esta guía recorre la preparación desde el guion propio hasta el ensayo con público crítico, con un ejemplo trabajado completo y una rúbrica adaptada a la exposición oral.",
       "tags": [
         "producto-aprendizaje",
         "bloom-6",
@@ -6482,9 +6483,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 851,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2151,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6495,7 +6496,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6511,7 +6512,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6641,8 +6643,8 @@
       "title": "Proyecto con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo diseñar y gestionar un proyecto académico con apoyo formativo de IAG, evaluando el proceso de planeación, decisión y validación de viabilidad.",
-      "summary": "Proyecto académico (ABP) con IAG: encuadre, exploración de alternativas, selección con criterios y validación de viabilidad. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo diseñar un proyecto académico (ABP) con IAG como sparring de alternativas y viabilidad, evaluando la cadena de decisiones con un ejemplo trabajado de ocho semanas.",
+      "summary": "Un proyecto no es la propuesta del último día sino la cadena de decisiones que la produjo. Esta guía recorre encuadre, divergencia, decisión con criterios y validación de viabilidad, con un equipo de ejemplo y la matriz de decisión como evidencia central.",
       "tags": [
         "producto-aprendizaje",
         "bloom-6",
@@ -6660,9 +6662,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 903,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2195,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6673,7 +6675,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6993,8 +6995,8 @@
         "digital",
         "formacion"
       ],
-      "words": 1664,
-      "heading_count": 11,
+      "words": 2540,
+      "heading_count": 12,
       "h2_count": 11,
       "external_url_count": 0,
       "citation_signals": 0,
@@ -7012,10 +7014,12 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "acordeon",
           "alert",
           "card",
           "cards",
           "lead",
+          "pliegue",
           "udgia-figure"
         ]
       },
