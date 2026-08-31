@@ -1,14 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Trama editorial del ecosistema de aprendizaje digital e IA</title>
-  <desc id="desc">Composición abstracta almagre con rutas, nodos y capas que representa una página cuya imagen específica está pendiente.</desc>
-  <rect width="1200" height="675" fill="#f5f3ee"/>
-  <path d="M0 520C170 430 270 580 430 488S720 318 890 398s190 94 310 38v239H0Z" fill="#e7d8c8"/>
-  <path d="M0 438c145-60 246-8 346-68s188-178 342-132 220 158 512 52" fill="none" stroke="#34508c" stroke-width="18" stroke-linecap="round"/>
-  <path d="M74 136h366c92 0 114 112 210 112h420" fill="none" stroke="#536326" stroke-width="10" stroke-linecap="round" stroke-dasharray="1 30"/>
-  <g fill="#f5f3ee" stroke="#34508c" stroke-width="12">
-    <circle cx="170" cy="438" r="54"/><circle cx="482" cy="326" r="46"/><circle cx="736" cy="282" r="58"/><circle cx="1018" cy="360" r="48"/>
+  <desc id="desc">Composición abstracta en familia almagre sobre base nocturna: una ruta con nodos conectados atraviesa capas superpuestas, en representación de una página cuya imagen específica está pendiente.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#360b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="42%" cy="48%" r="55%">
+      <stop offset="0%" stop-color="#cc615f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#cc615f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#glow)"/>
+
+  <!-- Retícula sutil -->
+  <g stroke="#cc615f" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="169" x2="1200" y2="169"/><line x1="0" y1="338" x2="1200" y2="338"/>
+    <line x1="0" y1="506" x2="1200" y2="506"/>
+    <line x1="300" y1="0" x2="300" y2="675"/><line x1="600" y1="0" x2="600" y2="675"/>
+    <line x1="900" y1="0" x2="900" y2="675"/>
   </g>
-  <g fill="#536326">
-    <circle cx="170" cy="438" r="16"/><circle cx="482" cy="326" r="14"/><circle cx="736" cy="282" r="18"/><circle cx="1018" cy="360" r="15"/>
+
+  <!-- Capas del paisaje -->
+  <path d="M0 560 C 190 470 300 610 470 520 S 760 350 940 430 s 160 90 260 40 V 675 H 0 Z"
+        fill="#7f1820" fill-opacity="0.30"/>
+  <path d="M0 620 C 230 560 420 640 640 580 S 1010 500 1200 560 V 675 H 0 Z"
+        fill="#991c25" fill-opacity="0.28"/>
+
+  <!-- Ruta principal con nodos -->
+  <path d="M 90 470 C 240 400 330 462 452 350 S 640 176 810 260 s 210 118 310 66"
+        fill="none" stroke="#b12028" stroke-opacity="0.75" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 74 140 H 430 c 92 0 116 116 212 116 h 430"
+        fill="none" stroke="#cc615f" stroke-opacity="0.55" stroke-width="8"
+        stroke-linecap="round" stroke-dasharray="1 30"/>
+
+  <g fill="#360b0f" stroke="#df9591" stroke-opacity="0.85" stroke-width="10">
+    <circle cx="180" cy="432" r="52"/>
+    <circle cx="482" cy="322" r="44"/>
+    <circle cx="740" cy="240" r="56"/>
+    <circle cx="1020" cy="316" r="46"/>
   </g>
+  <g fill="#efc6c2" fill-opacity="0.85">
+    <circle cx="180" cy="432" r="15"/>
+    <circle cx="482" cy="322" r="13"/>
+    <circle cx="740" cy="240" r="17"/>
+    <circle cx="1020" cy="316" r="14"/>
+  </g>
+
+  <!-- Puntos flotantes -->
+  <g fill="#df9591" fill-opacity="0.35">
+    <circle cx="140" cy="220" r="4"/><circle cx="330" cy="120" r="3"/>
+    <circle cx="620" cy="90" r="4"/><circle cx="950" cy="130" r="3"/>
+    <circle cx="1100" cy="200" r="4"/><circle cx="880" cy="520" r="3"/>
+    <circle cx="1130" cy="470" r="3"/>
+  </g>
+
+  <rect width="1200" height="675" fill="url(#ov)"/>
 </svg>

@@ -19,18 +19,18 @@
     }
   },
   "totals": {
-    "documents": 196,
+    "documents": 200,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
-      "media": 15,
-      "baja": 181
+      "media": 13,
+      "baja": 187
     },
     "by_role": {
-      "articulo": 13,
+      "articulo": 15,
       "guia": 14,
       "navegacion": 30,
-      "pagina": 76,
+      "pagina": 78,
       "practica": 8,
       "recurso": 52,
       "ruta": 3
@@ -39,7 +39,7 @@
       "conservar": 21,
       "cambiar": 52,
       "quitar": 0,
-      "pendiente": 123
+      "pendiente": 127
     },
     "candidate_manual_pending": 0,
     "flagged_implementation_claims": 0,
@@ -436,73 +436,6 @@
       "manual_issue_types": [],
       "manual_citations": [
         "L2-3: el título Pedagogía y la descripción identifican el área en el listado automático."
-      ]
-    },
-    {
-      "path": "content/blog/_index.md",
-      "title": "Blog",
-      "role": "navegacion",
-      "words": 150,
-      "dependencies": [],
-      "signals": {
-        "situacion": {
-          "present": false,
-          "evidence": null
-        },
-        "quien": {
-          "present": true,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 17,
-            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
-          }
-        },
-        "momento_entorno": {
-          "present": false,
-          "evidence": null
-        },
-        "material_inicial": {
-          "present": false,
-          "evidence": null
-        },
-        "acciones": {
-          "present": false,
-          "evidence": null
-        },
-        "resultado": {
-          "present": false,
-          "evidence": null
-        },
-        "comprobacion": {
-          "present": true,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 17,
-            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
-          }
-        },
-        "lenguaje_directo": {
-          "present": false,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 24,
-            "text": "## Criterio editorial"
-          }
-        }
-      },
-      "missing_expected_signals": [
-        "situacion",
-        "acciones",
-        "lenguaje_directo"
-      ],
-      "risk_flags": [],
-      "automatic_priority": "media",
-      "manual_decision": "conservar",
-      "manual_reason": "Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice.",
-      "manual_issue_types": [],
-      "manual_citations": [
-        "content/blog/_index.md L16-22: Presenta el espacio como ensayos reflexivos sobre pedagogía universitaria e IA y explica qué encontrará el lector.",
-        "content/blog/_index.md L24-31: Distingue los posts de guías y artículos mediante tono, brevedad, posición y apertura al desacuerdo."
       ]
     },
     {
@@ -1104,81 +1037,6 @@
       ]
     },
     {
-      "path": "content/recursos/articulos/_index.md",
-      "title": "Artículos y documentos",
-      "role": "navegacion",
-      "words": 17,
-      "dependencies": [],
-      "signals": {
-        "situacion": {
-          "present": false,
-          "evidence": null
-        },
-        "quien": {
-          "present": false,
-          "evidence": null
-        },
-        "momento_entorno": {
-          "present": false,
-          "evidence": null
-        },
-        "material_inicial": {
-          "present": true,
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 13,
-            "text": "Artículos académicos, informes y documentos clave. Cada ficha incluye datos bibliográficos, abstract y por qué lo recomendamos."
-          }
-        },
-        "acciones": {
-          "present": false,
-          "evidence": null
-        },
-        "resultado": {
-          "present": true,
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 13,
-            "text": "Artículos académicos, informes y documentos clave. Cada ficha incluye datos bibliográficos, abstract y por qué lo recomendamos."
-          }
-        },
-        "comprobacion": {
-          "present": false,
-          "evidence": null
-        },
-        "lenguaje_directo": {
-          "present": false,
-          "evidence": null
-        }
-      },
-      "missing_expected_signals": [
-        "situacion",
-        "quien",
-        "acciones",
-        "lenguaje_directo"
-      ],
-      "risk_flags": [
-        {
-          "id": "cuerpo-muy-breve",
-          "note": "La brevedad activa revisión, pero no decide por sí sola que la página deba quitarse.",
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 11,
-            "text": "17 palabras visibles/auditables"
-          }
-        }
-      ],
-      "automatic_priority": "media",
-      "manual_decision": "conservar",
-      "manual_reason": "La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto.",
-      "manual_issue_types": [],
-      "manual_citations": [
-        "content/recursos/articulos/_index.md:2-4",
-        "content/recursos/articulos/_index.md:8-13",
-        "content/recursos/articulos/cormier-rhizomatic-education/index.md:31-37"
-      ]
-    },
-    {
       "path": "content/_index.md",
       "title": "Aprendizaje digital e IA",
       "role": "navegacion",
@@ -1327,6 +1185,83 @@
       "manual_citations": [
         "Expediente lote 06 L61–65: la actividad oficial de UDGPlus no bastaba para afirmar prioridad institucional general ni publicación oficial.",
         "Registro de aplicación L25–29 y segunda lectura check lote06-conservar-y-cambiar: versión reescrita sin prioridad general y con estatuto explícito."
+      ]
+    },
+    {
+      "path": "content/blog/_index.md",
+      "title": "Blog",
+      "role": "navegacion",
+      "words": 296,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 17,
+            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 17,
+            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "conservar",
+      "manual_reason": "Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice.",
+      "manual_issue_types": [],
+      "manual_citations": [
+        "content/blog/_index.md L16-22: Presenta el espacio como ensayos reflexivos sobre pedagogía universitaria e IA y explica qué encontrará el lector.",
+        "content/blog/_index.md L24-31: Distingue los posts de guías y artículos mediante tono, brevedad, posición y apertura al desacuerdo."
       ]
     },
     {
@@ -1482,6 +1417,86 @@
       "missing_expected_signals": [
         "lenguaje_directo"
       ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/blog/asimetria-de-la-transparencia/index.md",
+      "title": "La asimetría de la transparencia",
+      "role": "articulo",
+      "words": 892,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        }
+      },
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -3514,6 +3529,86 @@
       "manual_citations": []
     },
     {
+      "path": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "role": "pagina",
+      "words": 1161,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 47,
+            "text": "El debate público sobre IA y honestidad académica se ha concentrado en un solo escenario —el estudiante que entrega como propio un texto generado— y eso ha dejado sin nombre los dilemas de quien enseña. Conviene nombrarlos, porque ninguno s"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 43,
+            "text": "Los marcos ya existen y no hace falta repetirlos aquí: los [cuatro criterios éticos para educación superior](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) dan el vocabulario conceptual, y los [lineamientos UNESCO]("
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
       "path": "content/formacion-docente/evaluacion-retroalimentacion/index.md",
       "title": "Evaluación y retroalimentación en el aprendizaje activo",
       "role": "pagina",
@@ -4411,7 +4506,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/_index.md",
       "title": "Ética y transparencia en el uso de IA",
       "role": "navegacion",
-      "words": 446,
+      "words": 479,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -4438,7 +4533,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 39,
+            "line": 40,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4446,7 +4541,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 39,
+            "line": 40,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4547,6 +4642,88 @@
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
             "line": 38,
             "text": "- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia y alucinaciones."
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
+      "role": "pagina",
+      "words": 1333,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 19,
+            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 28,
+            "text": "Dentro de esa huella, la dimensión hídrica es la más opaca. Un estudio dedicado específicamente al agua estimó que entrenar un modelo grande puede evaporar cientos de miles de litros de agua dulce, un costo que los proveedores rara vez repo"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 19,
+            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 26,
+            "text": "Lo mejor documentado es que la IA generativa tiene una base material considerable. Entrenar y utilizar estos sistemas consume energía y agua y genera emisiones asociadas a los centros de datos donde operan; la investigación sobre esa infrae"
           }
         }
       },
@@ -4806,7 +4983,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
       "title": "Plagio y autenticidad académica en la era de la IA",
       "role": "pagina",
-      "words": 1438,
+      "words": 1569,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5845,7 +6022,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El primer paso es un ejercicio de claustro: revisar el perfil de egreso del programa con el equipo docente y marcar, competencia por competencia, su nivel de afectación por la IA generativa. Tres categorías son suficientes:"
           }
         },
@@ -5869,7 +6046,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 61,
+            "line": 63,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         },
@@ -5877,7 +6054,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 53,
+            "line": 55,
             "text": "- **Alta vulnerabilidad** — la evaluación se resuelve en menos de cinco minutos con un modelo gratuito, sin que el resultado revele si el estudiante aprendió."
           }
         },
@@ -5885,7 +6062,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 41,
+            "line": 43,
             "text": "| **Transformación profunda** | La competencia cambia de naturaleza con IA. | Rediseño completo de cómo se desarrolla y evalúa. |"
           }
         },
@@ -5893,7 +6070,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 61,
+            "line": 63,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         }
@@ -5910,7 +6087,7 @@
       "path": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "role": "guia",
-      "words": 1832,
+      "words": 1876,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5989,7 +6166,7 @@
       "path": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
       "title": "Antes de compartir: protege datos y trabajos al usar IA",
       "role": "guia",
-      "words": 183,
+      "words": 881,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -6001,8 +6178,12 @@
           }
         },
         "quien": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
+            "line": 40,
+            "text": "La ventana de un chatbot se parece a un procesador de texto, y ese parecido engaña. Lo que escribes en un documento local se queda en tu equipo; lo que pegas en un servicio generativo comercial viaja a servidores de una empresa externa, que"
+          }
         },
         "momento_entorno": {
           "present": true,
@@ -6024,7 +6205,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6032,7 +6213,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6040,22 +6221,20 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 45,
-            "text": "| Confidencial | Manuscritos en revisión, expedientes, secretos, datos bajo convenio. | No cargar en servicios generativos públicos. |"
+            "line": 44,
+            "text": "**El trabajo de una estudiante.** Un docente pega un ensayo en un chatbot para pedirle retroalimentación y ganar tiempo. El propósito es legítimo; el problema es que ese texto no le pertenece: contiene el trabajo intelectual no publicado de"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         }
       },
-      "missing_expected_signals": [
-        "quien"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -6707,12 +6886,16 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/_index.md",
       "title": "Productos de aprendizaje con IAG",
       "role": "navegacion",
-      "words": 253,
+      "words": 376,
       "dependencies": [],
       "signals": {
         "situacion": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
+          }
         },
         "quien": {
           "present": true,
@@ -6723,8 +6906,12 @@
           }
         },
         "momento_entorno": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
+          }
         },
         "material_inicial": {
           "present": true,
@@ -6738,8 +6925,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
-            "line": 44,
-            "text": "Cada ficha señala además el riesgo de que la IA sustituya el esfuerzo que la actividad pretende formar. Usa ese indicador como una pregunta de diseño, no como una clasificación automática: revisa qué debe hacer la persona, qué evidencia con"
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
           }
         },
         "resultado": {
@@ -6768,7 +6955,6 @@
         }
       },
       "missing_expected_signals": [
-        "situacion",
         "lenguaje_directo"
       ],
       "risk_flags": [],
@@ -7974,77 +8160,75 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
       "title": "Mapa conceptual con IAG",
       "role": "pagina",
-      "words": 788,
+      "words": 2091,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 101,
-            "text": "| Mapa v1 (sin IAG) | obligatoria | Borrador fechado antes de consultar IAG |"
+            "line": 42,
+            "text": "segunda es la **jerarquía**: ¿qué concepto abarca a cuáles, qué es un caso particular, qué"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 31,
-            "text": "Un mapa conceptual es la radiografía de cómo el estudiante entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si lo arma la IAG, deja de ser radiografía. Aquí evaluamos las decisiones de jerarquía y conexión."
+            "line": 32,
+            "text": "Un mapa conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si el mapa lo arma la IAG, la radiografía muestra el conocimiento del modelo, no el del estudiante. Esta guía prop"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 101,
-            "text": "| Mapa v1 (sin IAG) | obligatoria | Borrador fechado antes de consultar IAG |"
+            "line": 69,
+            "text": "contrastar el v1 con la IAG y con las fuentes del curso: cada cambio —un concepto añadido,"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 51,
-            "text": "| Nivel Bloom | Movimiento del mapa | Qué hace el estudiante | Prompt sugerido |"
+            "line": 42,
+            "text": "segunda es la **jerarquía**: ¿qué concepto abarca a cuáles, qué es un caso particular, qué"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar **(dominante)** | Jerarquización | Decide qué es general, qué subordinado y qué transversal | _\"¿Qué relaciones jerárquicas existen entre estos conceptos: [lista]?\"_ |"
+            "line": 64,
+            "text": "De esa idea sale el diseño de la actividad: el estudiante no entrega un mapa, entrega dos"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 31,
-            "text": "Un mapa conceptual es la radiografía de cómo el estudiante entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si lo arma la IAG, deja de ser radiografía. Aquí evaluamos las decisiones de jerarquía y conexión."
+            "line": 32,
+            "text": "Un mapa conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si el mapa lo arma la IAG, la radiografía muestra el conocimiento del modelo, no el del estudiante. Esta guía prop"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 68,
-            "text": "para no olvidar conceptos clave de la disciplina, pero filtra con criterio."
+            "line": 84,
+            "text": "lista con un criterio explícito: qué vio en el curso, qué exige la consigna, qué cabe en el"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 37,
-            "text": "explícitas entre ellos. Es a la vez instrumento de estudio, evidencia de"
+            "line": 64,
+            "text": "De esa idea sale el diseño de la actividad: el estudiante no entrega un mapa, entrega dos"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -8460,71 +8644,71 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
       "title": "Presentación con IAG",
       "role": "pagina",
-      "words": 806,
+      "words": 2101,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 119,
-            "text": "el guion debe existir antes de las diapositivas."
+            "line": 67,
+            "text": "antes de que el modelo opine."
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 38,
+            "text": "casi cualquier curso universitario incluye una exposición individual o en equipo. Y tiene"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 35,
+            "text": "## Diez minutos obligan a elegir"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 51,
+            "text": "El uso formativo invierte los papeles. El estudiante escribe primero su guion —con su"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 51,
+            "text": "El uso formativo invierte los papeles. El estudiante escribe primero su guion —con su"
           }
         }
       },
@@ -8702,77 +8886,75 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
       "title": "Proyecto con IAG",
       "role": "pagina",
-      "words": 855,
+      "words": 2143,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 68,
-            "text": "El estudiante delimita el problema, los entregables y las restricciones"
+            "line": 32,
+            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que la produjo. Qué problema atacar, qué alternativas considerar, con qué criterios elegir y contra qué realidad validar. La IAG puede ampliar el horizonte d"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 31,
-            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que el estudiante tomó sobre qué construir, por qué esa alternativa y bajo qué criterios. La IAG puede ampliar el horizonte de opciones; lo que no puede hace"
+            "line": 50,
+            "text": "restricción real del contexto, y sobre todo no contiene ninguna decisión del equipo. El"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 95,
-            "text": "justificación puede generarse en minutos. Las evidencias clave son la matriz"
+            "line": 37,
+            "text": "Cuando un curso trabaja por proyectos, el documento final —el plan, el prototipo"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 51,
-            "text": "| Nivel Bloom | Movimiento del proyecto | Qué hace el estudiante | Prompt sugerido |"
+            "line": 56,
+            "text": "huecos en la viabilidad. Cada aporte es material para una decisión que el equipo toma y"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 54,
-            "text": "| 4 — Analizar | Exploración de alternativas | Genera y compara opciones distintas entre sí | _\"¿Qué alternativas de solución existen y cómo se comparan?\"_ |"
+            "line": 57,
+            "text": "documenta. En términos de Bloom, el producto recorre los niveles 3 a 6 —aplicar un encuadre,"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 103,
-            "text": "| Matriz alternativas × criterios | obligatoria | Tabla anterior al párrafo de justificación |"
+            "line": 47,
+            "text": "Aquí está el problema con la IAG, y también su oportunidad. Un modelo generativo produce en"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 31,
-            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que el estudiante tomó sobre qué construir, por qué esa alternativa y bajo qué criterios. La IAG puede ampliar el horizonte de opciones; lo que no puede hace"
+            "line": 32,
+            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que la produjo. Qué problema atacar, qué alternativas considerar, con qué criterios elegir y contra qué realidad validar. La IAG puede ampliar el horizonte d"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 37,
-            "text": "de una propuesta concreta: un plan, un producto, un servicio o una"
+            "line": 57,
+            "text": "documenta. En términos de Bloom, el producto recorre los niveles 3 a 6 —aplicar un encuadre,"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -9193,14 +9375,14 @@
       "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "role": "ruta",
-      "words": 1606,
+      "words": 2450,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 58,
+            "line": 59,
             "text": "instancias que tengan atribuciones y a documentar qué debe confirmarse antes de actuar."
           }
         },
@@ -9208,7 +9390,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 92,
+            "line": 93,
             "text": "- qué proceso docente, formativo o institucional se quiere mejorar;"
           }
         },
@@ -9216,7 +9398,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 58,
+            "line": 59,
             "text": "instancias que tengan atribuciones y a documentar qué debe confirmarse antes de actuar."
           }
         },
@@ -9224,7 +9406,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 76,
+            "line": 77,
             "text": "responsabilidades; personas y equidad; datos, tecnología e infraestructura; portafolio y"
           }
         },
@@ -9232,7 +9414,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 70,
+            "line": 71,
             "text": "aprendizaje lo requieran, pero con responsabilidades, salvaguardas y rutas de consulta"
           }
         },
@@ -9240,7 +9422,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 68,
+            "line": 69,
             "text": "El resultado buscado tampoco es uniformar las asignaturas. Es construir un marco común para"
           }
         },
@@ -9248,7 +9430,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 50,
+            "line": 51,
             "text": "iniciativa avanza por separado, la universidad acumula costos, riesgos y criterios"
           }
         },
@@ -9256,7 +9438,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 75,
+            "line": 76,
             "text": "![Mapa ejecutivo de seis decisiones conectadas: propósito y alcance; gobernanza y"
           }
         }
@@ -9983,7 +10165,7 @@
       "path": "content/laboratorio/practicas/_index.md",
       "title": "Prácticas pedagógicas",
       "role": "navegacion",
-      "words": 244,
+      "words": 360,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10027,8 +10209,12 @@
           }
         },
         "resultado": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/laboratorio/practicas/_index.md",
+            "line": 28,
+            "text": "Para un primer recorrido, conviene elegir por el tamaño del compromiso. Si buscas una actividad acotada que pueda probarse en una o dos sesiones, revisa el [debate socrático con IA](debate-socratico-con-ia/) o el [análisis crítico de sesgos"
+          }
         },
         "comprobacion": {
           "present": true,
@@ -10552,7 +10738,7 @@
       "path": "content/observatorio/estudios/_index.md",
       "title": "Estudios, encuestas y hallazgos",
       "role": "navegacion",
-      "words": 293,
+      "words": 363,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10596,14 +10782,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/_index.md",
             "line": 17,
-            "text": "El Digital Education Council reunió respuestas de estudiantes y profesorado de 29 instituciones. La Universidad de Guadalajara figura entre las instituciones participantes, pero el informe público no publica resultados desagregados por univ"
+            "text": "La SEP y la ANUIES levantaron el primer censo nacional sobre usos y percepciones de la IA generativa, con respuestas de más de 1.5 millones de estudiantes y 163 mil docentes de 2,900 instituciones. La ficha presenta las cifras con su proced"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/_index.md",
-            "line": 27,
+            "line": 33,
             "text": "### Más, no mejor: IA, incentivos y revisión por pares"
           }
         },
@@ -10789,7 +10975,7 @@
       "path": "content/observatorio/estudios/encuesta-dec-2026/index.md",
       "title": "Encuesta DEC 2026 — IA en educación superior",
       "role": "articulo",
-      "words": 559,
+      "words": 624,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10845,13 +11031,16 @@
           }
         },
         "lenguaje_directo": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
+            "line": 12,
+            "text": "La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales "
+          }
         }
       },
       "missing_expected_signals": [
-        "quien",
-        "lenguaje_directo"
+        "quien"
       ],
       "risk_flags": [],
       "automatic_priority": "baja",
@@ -10870,6 +11059,86 @@
         "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L79-88: Identifica al DEC y sus colaboradores y resume cuatro hallazgos regionales, pero no separa resultados del estudiantado y profesorado en todos los porcentajes ni explicita límites metodológicos.",
         "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L90-97: Incrusta y enlaza el PDF completo, lo que preserva acceso a la fuente primaria local."
       ]
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+      "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
+      "role": "articulo",
+      "words": 1245,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 16,
+            "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 42,
+            "text": "Para una academia o una coordinación, la recomendación razonable no es adoptar los porcentajes sino las preguntas que generan. Antes de acordar reglas, conviene averiguar si la propia comunidad conoce la normativa aplicable, qué usos declar"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 16,
+            "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 14,
+            "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 28,
+            "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 14,
+            "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 36,
+            "text": "Como interpretación, el resultado más incómodo no es el porcentaje de uso sino el cruce entre tres cifras: uso cotidiano arriba del 60%, tres cuartas partes que desconocen la normativa de su institución y menos de la mitad del profesorado r"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 28,
+            "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/observatorio/estudios/habitar-ia-simondon/index.md",
@@ -11346,6 +11615,89 @@
         "content/recursos/_index.md:13-21",
         "content/recursos/_index.md:24-31",
         "content/recursos/externas/_index.md:20-22"
+      ]
+    },
+    {
+      "path": "content/recursos/articulos/_index.md",
+      "title": "Artículos y documentos",
+      "role": "navegacion",
+      "words": 348,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 19,
+            "text": "No coleccionamos todo lo que se publica sobre IA en educación —nadie puede—. Una lectura entra a esta colección cuando cumple tres condiciones: sostiene sus afirmaciones con un método o una fuente identificable, aporta algo que las demás fi"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 19,
+            "text": "No coleccionamos todo lo que se publica sobre IA en educación —nadie puede—. Una lectura entra a esta colección cuando cumple tres condiciones: sostiene sus afirmaciones con un método o una fuente identificable, aporta algo que las demás fi"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 14,
+            "text": "Fichas de lectura sobre artículos académicos, informes y documentos de referencia. No pretenden reemplazar la lectura del original: te ayudan a decidir en minutos si esa lectura vale tu tiempo y con qué pregunta conviene entrar a ella."
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 14,
+            "text": "Fichas de lectura sobre artículos académicos, informes y documentos de referencia. No pretenden reemplazar la lectura del original: te ayudan a decidir en minutos si esa lectura vale tu tiempo y con qué pregunta conviene entrar a ella."
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 21,
+            "text": "## Cómo leer una ficha"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 17,
+            "text": "## Criterio de curaduría"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 17,
+            "text": "## Criterio de curaduría"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "acciones",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "conservar",
+      "manual_reason": "La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto.",
+      "manual_issue_types": [],
+      "manual_citations": [
+        "content/recursos/articulos/_index.md:2-4",
+        "content/recursos/articulos/_index.md:8-13",
+        "content/recursos/articulos/cormier-rhizomatic-education/index.md:31-37"
       ]
     },
     {
@@ -14084,7 +14436,7 @@
       "path": "content/recursos/glosario/soberania-tecnologica/index.md",
       "title": "Soberanía tecnológica",
       "role": "recurso",
-      "words": 155,
+      "words": 204,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -14100,8 +14452,12 @@
           "evidence": null
         },
         "momento_entorno": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 17,
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
+          }
         },
         "material_inicial": {
           "present": true,
@@ -14124,12 +14480,16 @@
           "evidence": {
             "source": "content/recursos/glosario/soberania-tecnologica/index.md",
             "line": 17,
-            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
           }
         },
         "lenguaje_directo": {
           "present": false,
-          "evidence": null
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 17,
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
+          }
         }
       },
       "missing_expected_signals": [
@@ -14951,7 +15311,7 @@
       "path": "content/recursos/politica-ia-udeg/index.md",
       "title": "Sugerencias y criterios para pensar una política de IA en la UdeG",
       "role": "recurso",
-      "words": 2138,
+      "words": 2187,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -15113,7 +15473,7 @@
       "path": "content/recursos/videos/_index.md",
       "title": "Videos y cursos abiertos",
       "role": "navegacion",
-      "words": 150,
+      "words": 230,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -15145,7 +15505,7 @@
           "evidence": {
             "source": "content/recursos/videos/_index.md",
             "line": 21,
-            "text": "Empieza con la charla de Sal Khan y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto."
+            "text": "Empieza con la [charla de Sal Khan](sal-khan-ia-educacion/) y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto."
           }
         },
         "acciones": {

@@ -1,13 +1,13 @@
 # Barrido de claridad y contexto — 2026-08-23
 
-Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
+Este barrido cubre **200 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
 
 ## Totales
 
 - urgente: 0
 - alta: 0
-- media: 15
-- baja: 181
+- media: 13
+- baja: 187
 - afirmaciones de implementación por verificar: 0
 - estados contradictorios: 0
 - prácticas cuyo material inicial necesita revisión: 1
@@ -18,7 +18,7 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 - conservar: 21
 - cambiar: 52
 - quitar o poner en cuarentena: 0
-- pendientes: 123
+- pendientes: 127
 
 ## Cola automática
 
@@ -30,7 +30,6 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 | media | navegacion | `content/areas/formacion/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
 | media | navegacion | `content/areas/ia/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
 | media | navegacion | `content/areas/pedagogia/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
-| media | navegacion | `content/blog/_index.md` | situacion, acciones, lenguaje_directo | — |
 | media | navegacion | `content/ia-educacion/_index.md` | situacion, quien | cuerpo-muy-breve |
 | media | practica | `content/ia-educacion/practicas/comprobar-afirmacion/index.md` | quien | — |
 | media | practica | `content/laboratorio/practicas/abp-con-ia/index.md` | lenguaje_directo | material-central-se-genera-pero-no-se-muestra |
@@ -38,7 +37,6 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 | media | practica | `content/laboratorio/practicas/debate-socratico-con-ia/index.md` | — | solicita-conversacion-completa |
 | media | navegacion | `content/observatorio/_index.md` | situacion, quien, lenguaje_directo | — |
 | media | navegacion | `content/observatorio/documentacion/_index.md` | quien, acciones, lenguaje_directo | — |
-| media | navegacion | `content/recursos/articulos/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
 
 ## Decisiones humanas registradas por ruta
 
@@ -50,7 +48,6 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 | conservar | `content/areas/formacion/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |
 | conservar | `content/areas/ia/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |
 | conservar | `content/areas/pedagogia/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |
-| conservar | `content/blog/_index.md` | — | Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice. |
 | conservar | `content/ia-educacion/_index.md` | — | Resuelve dos situaciones de navegación distintas —entrar por responsabilidad o explorar por tema— sin confundirlas. Cada ruta anticipa la decisión o alcance que atenderá. |
 | conservar | `content/ia-educacion/practicas/comprobar-afirmacion/index.md` | — | Es una práctica breve pero completa: parte de material visible, sitúa el momento antes de repetir o usar una afirmación, define acciones, producto, fuente de comprobación y decisiones posibles, incluido dejar el asunto pendiente. |
 | cambiar | `content/laboratorio/practicas/abp-con-ia/index.md` | procedencia-no-verificada, material-inicial-ausente, privacidad | Convertida honestamente en escenario (lote 05, 2026-08-24): reescrita como plantilla de proyecto de 14 semanas con estado declarado de actividad propuesta, problema inicial de ejemplo, alternativa sin IA, riesgos y preguntas de revisión. Se retiraron el grupo de 28 estudiantes y los resultados sin procedencia. |
@@ -58,8 +55,8 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 | cambiar | `content/laboratorio/practicas/debate-socratico-con-ia/index.md` | procedencia-no-verificada, material-inicial-ausente, privacidad | Convertida honestamente en escenario (lote 05, 2026-08-24): reescrita como actividad propuesta con tesis de ejemplo, descriptores de rúbrica, dos objeciones seleccionadas en lugar de la conversación completa y alternativa sin IA. Se retiraron el grupo de 32, el 78 % y la comparación con otro semestre. |
 | cambiar | `content/observatorio/_index.md` | audiencia_no_explicita, utilidad_decisional_no_explicita, solapamiento_taxonomico | Los tres destinos se distinguen razonablemente y la página debe mantenerse como hub. Requiere cambio porque no identifica a sus públicos ni convierte las rutas en decisiones concretas: consultar evidencia para diagnóstico, escoger un método de evaluación/documentación o reutilizar materiales. También conviene evitar el solapamiento verbal entre “estudios de caso”, “buenas prácticas” y “documentación”. |
 | cambiar | `content/observatorio/documentacion/_index.md` | desalineacion_con_destinos, promesa_editorial_inexacta, frontera_con_laboratorio, arquitectura_de_informacion | La separación conceptual respecto de estudios y marcos metodológicos es valiosa, pero la portada promete principalmente casos y guías de implementación, mientras la colección actual también contiene monitoreo de publicaciones, herramientas emergentes y redes de investigación. Debe alinear su descripción con los destinos reales y explicar cuándo consultar documentación en vez de prácticas del Laboratorio o guías del Observatorio. |
-| conservar | `content/recursos/articulos/_index.md` | — | La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto. |
 | cambiar | `content/about.md` | alcance-institucional-no-verificado, promesa-editorial-inexacta, autoría-imprecisa | Se retiraron la prioridad institucional general y las promesas de prácticas propias documentadas que las fuentes disponibles no sostenían; la página declara autoría, relación con UDGPlus, alcance verificable y que no es un canal oficial. |
+| conservar | `content/blog/_index.md` | — | Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice. |
 | cambiar | `content/blog/ia-generativa-evaluacion-autentica/index.md` | absolutos-no-sustentados, atribucion-excesiva, receta-universal | Se sustituyeron absolutos y la falsa respuesta institucional única por una explicación multidimensional de autenticidad y decisiones de rediseño situadas según propósito, riesgo, accesibilidad y carga. |
 | conservar | `content/formacion-docente/_index.md` | — | La audiencia, el propósito general y los destinos son reconocibles. Las tarjetas permiten elegir según una necesidad formativa concreta sin exigir que el índice desarrolle las actividades completas. |
 | cambiar | `content/formacion-docente/aprendizaje-activo/index.md` | atribucion-conceptual-inexacta | Se conservó la función canónica y se corrigió una atribución demasiado restrictiva de ICAP: una interfaz conversacional no demuestra interacción, pero el marco original admite un agente computacional bajo condiciones de pertinencia, construcción y turnos. |
@@ -92,6 +89,7 @@ Este barrido cubre **196 fuentes Markdown**. Sus prioridades son señales para r
 | cambiar | `content/observatorio/estudios/encuesta-dec-2026/index.md` | metodologia_ausente, representatividad, alcance_institucional_sobredimensionado, fecha_ambigua, referencia_bibliografica_incompleta | La fuente primaria está disponible y la ficha aporta visualizaciones y resumen, por lo que debe conservarse mediante revisión, no retirarse. Es necesario añadir referencia bibliográfica completa, fechas y método de levantamiento, tipo de muestra, límites de representatividad y alcance de los datos UdeG. El tamaño de la contribución institucional no basta para afirmar que existen resultados UdeG con “peso propio” si no se muestran análisis desagregados ni condiciones de muestreo. |
 | cambiar | `content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md` | atribucion-excesiva, procedimiento-no-respaldado, anecdota-sin-fuente, gobernanza-insuficiente | Conserva la matriz de seis dimensiones como adaptación del sitio, retira pasos y relatos atribuidos sin fuente, y separa revisión preliminar, prueba controlada y autorización institucional. |
 | cambiar | `content/recursos/_index.md` | fragmentación | Orienta correctamente al público docente y distingue artículos, videos, enlaces, glosario y documentos institucionales. Sin embargo, omite la rama /recursos/externas/, mientras la tarjeta de «Links relevantes» ya promete herramientas, guías y repositorios externos. Conviene resolver esa fragmentación: absorber las curadurías temáticas en /links/ o explicar y enlazar explícitamente la diferencia entre fichas individuales y curadurías comparativas. |
+| conservar | `content/recursos/articulos/_index.md` | — | La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto. |
 | cambiar | `content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md` | metadato-acceso-incorrecto, fecha-bibliografica-imprecisa, alcance-tematico-excesivo | Se corrigieron el acceso abierto, licencia, fechas y datos bibliográficos; la ficha distingue las tres perspectivas del artículo y presenta la IA como un problema de aplicación, no como su objeto principal. |
 | cambiar | `content/recursos/articulos/genai-feedback-engagement-2025/index.md` | autoria-incorrecta, alcance-sobredimensionado, marcos-conflados, licencia-omitida | Corrige la autoría y presenta el trabajo de Zhan et al. como marco conceptual tentativo; separa seis posibilidades, etapas de interacción y ciclo de autorregulación, y declara límites y licencia. |
 | cambiar | `content/recursos/articulos/guias-iagen-evaluacion-unam/index.md` | primacia-no-demostrada, marcos-homogeneizados, metadatos-imprecisos, atribucion-editorial | Conserva tres PDF oficiales y distingue lo específico de bachillerato, licenciatura y posgrado; elimina primacías no demostradas, corrige páginas y atribuciones, y mantiene licencia, anclas, iframes y descargas. |

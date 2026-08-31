@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classification-source",
   "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
   "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
-  "expectedPageCount": 196,
+  "expectedPageCount": 200,
   "deliberateAdditions": [
     "areas/digital/_index.md",
     "areas/etica/_index.md",
@@ -118,6 +118,17 @@
         "profesorado"
       ],
       "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Ensayo de opinion sobre la transparencia asimetrica en la declaracion de uso de IA; aporta debate, no debe ampliar la carga obligatoria del curso."
     },
     {
       "path": "blog/ia-generativa-evaluacion-autentica/index.md",
@@ -385,6 +396,16 @@
       "razon": "Índice local de un curso abierto en WIP: organiza sus lecciones y no equivale a aprobación para un recorrido."
     },
     {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Guia que aterriza la etica del uso docente de IA en decisiones de preparacion de clase y en el modelado ante el grupo; complementa los marcos sin duplicarlos."
+    },
+    {
       "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
@@ -544,6 +565,18 @@
         "comun"
       ],
       "razon": "Da el marco critico para examinar sistemas y practicas, con mediacion narrativa antes del vocabulario especializado."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta el criterio de proporcionalidad y la dimension ambiental como insumo etico; debe vincularse con una decision concreta antes de entrar al recorrido."
     },
     {
       "path": "ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
@@ -1524,6 +1557,17 @@
     },
     {
       "path": "observatorio/estudios/encuesta-dec-2026/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/encuesta-eniag-mexico/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],

@@ -2,7 +2,22 @@
   <title id="title">Una sugerencia todavía no es una decisión</title>
   <desc id="desc">Dos sugerencias plausibles reciben decisiones distintas. La primera se transforma para conservar una condición de validez. La segunda se comprueba con una fuente antes de revisar el argumento. La persona conserva el criterio y la responsabilidad.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.primary{fill:#34508c}.olive{fill:#536326}.pale{fill:#efe7d7}.t1{font:700 42px Lora,Georgia,serif}.t2{font:700 31px Lora,Georgia,serif}.body{font:400 28px Inter,Arial,sans-serif}.small{font:600 24px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.primary{fill:#34508c}.olive{fill:#536326}.pale{fill:#efe7d7}.t1{font:700 42px Lora,Georgia,serif}.t2{font:700 31px Lora,Georgia,serif}.body{font:400 28px Inter,Arial,sans-serif}.small{font:600 24px Inter,Arial,sans-serif}.white{fill:#fffaf1}.marco{stroke:#34508c}
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, solo la preferencia del sistema; el lienzo opaco
+       garantiza legibilidad en cualquier caso. Ver CLAUDE.md convencion 6. */
+    @media (prefers-color-scheme: dark) {
+      .bg{fill:#131c31}
+      .ink{fill:#eceee9}
+      .muted{fill:#a7b0c4}
+      .paper{fill:#1a2540;stroke:#34405f}
+      .primary{fill:#8ba3d6}
+      .olive{fill:#b9c47a}
+      .pale{fill:#212d4c}
+      .white{fill:#131c31}
+      .marco{stroke:#8ba3d6}
+    }
   </style>
   <rect class="bg" width="640" height="800"/>
   <text class="ink t1" x="320" y="54" text-anchor="middle">Una sugerencia todavía</text>
@@ -31,7 +46,7 @@
     <text class="olive small" x="260" y="173">Fuente + contexto</text>
   </g>
 
-  <rect class="pale" x="40" y="680" width="560" height="80" rx="20" stroke="#34508c" stroke-width="2"/>
+  <rect class="pale marco" x="40" y="680" width="560" height="80" rx="20" stroke-width="2"/>
   <text class="primary small" x="320" y="715" text-anchor="middle">La persona conserva pregunta y criterio</text>
   <text class="ink body" x="320" y="746" text-anchor="middle">y responde por la versión final.</text>
 </svg>

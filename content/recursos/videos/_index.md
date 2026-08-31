@@ -18,15 +18,17 @@ Entra a esta colección cuando, como docente o estudiante, quieras estudiar un t
 
 {{< pestanas etiqueta="Rutas para elegir un recurso" >}}
   {{< pestana titulo="Abrir una conversación docente" >}}
-  Empieza con la charla de Sal Khan y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto.
+  Empieza con la [charla de Sal Khan](sal-khan-ia-educacion/) y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto.
   {{< /pestana >}}
   {{< pestana titulo="Practicar instrucciones para IA" >}}
-  Usa la guía introductoria de Learn Prompting y prueba una técnica sobre una tarea propia.
+  Usa la [guía introductoria de Learn Prompting](learn-prompting-curso-completo/) y prueba una técnica sobre una tarea propia.
   {{< /pestana >}}
   {{< pestana titulo="Comparar fuentes audiovisuales" >}}
-  Consulta la curaduría verificada y elige una sola serie según idioma, nivel y tema.
+  Consulta la [curaduría verificada](tutoriales-herramientas-ia-docentes/) y elige una sola serie según idioma, nivel y tema.
   {{< /pestana >}}
 {{< /pestanas >}}
+
+Las tres fichas cubren necesidades distintas y se leen en minutos: la [charla de Sal Khan](sal-khan-ia-educacion/) sirve para discutir una visión optimista con argumentos y no con impresiones; [Learn Prompting](learn-prompting-curso-completo/) es la referencia práctica cuando quieres mejorar tus instrucciones sin inscribirte a nada; y la [curaduría de fuentes audiovisuales](tutoriales-herramientas-ia-docentes/) reúne series y canales verificados cuando buscas material para recomendar a un grupo. Cada ficha declara su formato real, su idioma y su destino, para que decidas antes de hacer clic.
 
 {{< practica titulo="Registra lo que probaste" >}}
 Antes de terminar, conserva la referencia exacta, la idea que decidiste probar, el cambio que hiciste sobre un material propio y la forma en que revisarás si funcionó. Una ficha no debe presentarse como video cuando en realidad enlaza a un curso, una guía o una colección de recursos.

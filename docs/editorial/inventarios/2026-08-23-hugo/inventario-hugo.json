@@ -2,26 +2,26 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 196,
-    "pages": 166,
+    "markdown": 200,
+    "pages": 170,
     "sections": 30,
-    "words": 148169,
-    "assets": 236,
-    "content_assets": 234,
+    "words": 159570,
+    "assets": 229,
+    "content_assets": 227,
     "shared_figure_assets": 2,
-    "pages_with_featured": 177,
-    "pages_with_svg": 30,
+    "pages_with_featured": 181,
+    "pages_with_svg": 35,
     "pages_with_tables": 67,
-    "pages_with_mermaid": 15,
+    "pages_with_mermaid": 16,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
     "body_lt90": 1,
-    "body_lt250": 38,
+    "body_lt250": 37,
     "body_gt2800": 1,
     "missing_description": 0,
     "missing_summary": 6,
     "missing_date_pages": 0,
-    "citation_without_reference_heading": 31,
+    "citation_without_reference_heading": 32,
     "legacy_glossary_link_occurrences": 0,
     "broken_internal_link_occurrences": 0
   },
@@ -60,42 +60,42 @@
       "missing_refs_with_citations": 0
     },
     "blog": {
-      "pages": 5,
+      "pages": 6,
       "sections": 1,
-      "words": 4604,
-      "featured": 5,
-      "svg": 0,
+      "words": 5639,
+      "featured": 6,
+      "svg": 1,
       "h5p": 0,
       "tables": 0,
       "weak_lt250": 0,
       "missing_refs_with_citations": 0
     },
     "formacion-docente": {
-      "pages": 30,
+      "pages": 31,
       "sections": 2,
-      "words": 39185,
-      "featured": 32,
-      "svg": 8,
+      "words": 40352,
+      "featured": 33,
+      "svg": 9,
       "h5p": 33,
       "tables": 8,
       "weak_lt250": 1,
       "missing_refs_with_citations": 16
     },
     "ia-educacion": {
-      "pages": 60,
+      "pages": 61,
       "sections": 8,
-      "words": 64104,
-      "featured": 62,
-      "svg": 20,
+      "words": 71268,
+      "featured": 63,
+      "svg": 23,
       "h5p": 4,
-      "tables": 118,
-      "weak_lt250": 3,
-      "missing_refs_with_citations": 13
+      "tables": 115,
+      "weak_lt250": 2,
+      "missing_refs_with_citations": 14
     },
     "laboratorio": {
       "pages": 7,
       "sections": 3,
-      "words": 7031,
+      "words": 7153,
       "featured": 9,
       "svg": 0,
       "h5p": 2,
@@ -115,10 +115,10 @@
       "missing_refs_with_citations": 0
     },
     "observatorio": {
-      "pages": 10,
+      "pages": 11,
       "sections": 4,
-      "words": 11214,
-      "featured": 14,
+      "words": 12601,
+      "featured": 15,
       "svg": 5,
       "h5p": 0,
       "tables": 14,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 52,
       "sections": 5,
-      "words": 20699,
+      "words": 21225,
       "featured": 55,
       "svg": 13,
       "h5p": 0,
@@ -147,6 +147,10 @@
       "currículo": 2,
       "competencias": 2,
       "diseño didáctico": 5,
+      "transparencia": 4,
+      "declaración de uso": 2,
+      "integridad académica": 6,
+      "cultura institucional": 1,
       "evaluación auténtica": 4,
       "evaluación formativa": 5,
       "IA generativa": 16,
@@ -189,6 +193,9 @@
       "diseño inverso": 14,
       "cocreación": 13,
       "curso abierto": 13,
+      "ética profesional": 1,
+      "formación docente": 7,
+      "modelado": 2,
       "evaluacion": 1,
       "retroalimentacion": 2,
       "evaluacion-formativa": 2,
@@ -212,7 +219,6 @@
       "diseno-curricular": 1,
       "taller": 1,
       "backward design": 1,
-      "formación docente": 5,
       "rúbricas": 2,
       "taxonomia-bloom": 1,
       "diseno-inverso": 1,
@@ -226,9 +232,13 @@
       "introducción a la IA": 1,
       "aprendizaje": 7,
       "docencia": 1,
-      "alfabetización en IA": 2,
+      "alfabetización en IA": 3,
       "cognitive-offloading": 1,
       "etica-ia": 2,
+      "huella ambiental": 1,
+      "proporcionalidad": 1,
+      "sostenibilidad": 1,
+      "decisiones tecnológicas": 1,
       "lineamientos": 1,
       "política internacional": 1,
       "marco de competencias": 1,
@@ -238,8 +248,8 @@
       "gobernanza": 5,
       "ANUIES": 1,
       "regulación": 1,
-      "México": 1,
-      "política educativa": 2,
+      "México": 2,
+      "política educativa": 3,
       "marco institucional": 1,
       "plagio": 2,
       "integridad-academica": 1,
@@ -250,7 +260,6 @@
       "equidad": 4,
       "justicia-epistemica": 1,
       "auditoria": 1,
-      "transparencia": 2,
       "ética": 11,
       "explicabilidad": 1,
       "rendición de cuentas": 1,
@@ -276,7 +285,6 @@
       "rediseño de evaluación": 1,
       "sugerencias": 1,
       "criterios": 1,
-      "integridad académica": 5,
       "inteligencia-artificial": 1,
       "personalizacion": 1,
       "tutoria-inteligente": 1,
@@ -333,7 +341,6 @@
       "metrología": 1,
       "incertidumbre": 1,
       "calidad": 1,
-      "modelado": 1,
       "matemática-aplicada": 1,
       "monografia": 1,
       "bloom-2": 1,
@@ -421,6 +428,8 @@
       "publicación académica": 1,
       "incentivos": 1,
       "calidad científica": 1,
+      "encuesta nacional": 1,
+      "adopción de IA": 1,
       "cultura digital": 1,
       "mundoambiente": 1,
       "Simondon": 1,
@@ -507,9 +516,9 @@
       "herramientas IA": 1
     },
     "categories": {
-      "opinion": 5,
+      "opinion": 6,
       "marco-conceptual": 5,
-      "guia": 22,
+      "guia": 24,
       "metodologia-pedagogica": 6,
       "marco-institucional": 1,
       "ruta-de-aprendizaje": 2,
@@ -521,7 +530,7 @@
       "tendencia": 4,
       "practica-pedagogica": 5,
       "recurso-institucional": 7,
-      "estudio": 4,
+      "estudio": 5,
       "articulo": 7,
       "metodologia": 3,
       "recursos": 1,
@@ -530,12 +539,12 @@
       "video": 2
     },
     "areas": {
-      "ia": 154,
+      "ia": 157,
       "pedagogia": 128,
       "digital": 35,
-      "formacion": 56,
-      "evaluacion": 51,
-      "etica": 19
+      "etica": 23,
+      "formacion": 58,
+      "evaluacion": 51
     },
     "tag_variant_collisions": [
       {
@@ -543,6 +552,13 @@
         "variants": [
           "alfabetización IA",
           "alfabetizacion-ia"
+        ]
+      },
+      {
+        "canonical": "integridad academica",
+        "variants": [
+          "integridad académica",
+          "integridad-academica"
         ]
       },
       {
@@ -709,13 +725,6 @@
         ]
       },
       {
-        "canonical": "integridad academica",
-        "variants": [
-          "integridad-academica",
-          "integridad académica"
-        ]
-      },
-      {
         "canonical": "autoria",
         "variants": [
           "autoria",
@@ -873,11 +882,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
-      "score": 0.42,
-      "a": "ia-educacion/productos-de-aprendizaje/prototipo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.417,
       "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
@@ -969,11 +973,6 @@
     },
     {
       "score": 0.369,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-casos/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
-      "score": 0.369,
       "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
     },
@@ -1043,11 +1042,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
     },
     {
-      "score": 0.361,
-      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.36,
       "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
@@ -1068,11 +1062,6 @@
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
-      "score": 0.358,
-      "a": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/proyecto/index.md"
-    },
-    {
       "score": 0.357,
       "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
@@ -1081,6 +1070,26 @@
       "score": 0.357,
       "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.355,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
+    },
+    {
+      "score": 0.355,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+    },
+    {
+      "score": 0.354,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.354,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
     }
   ],
   "declared_count_checks": [
@@ -1456,15 +1465,16 @@
       "areas": [
         "ia",
         "pedagogia",
-        "digital"
+        "digital",
+        "etica"
       ],
-      "words": 157,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 308,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": false,
@@ -1583,6 +1593,56 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
+        "tabla-sintesis"
+      ]
+    },
+    {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "route": "/blog/asimetria-de-la-transparencia/",
+      "kind": "page",
+      "section": "blog",
+      "title": "La asimetría de la transparencia",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Pedimos al estudiantado que declare su uso de IA mientras instituciones y profesorado rara vez declaran el suyo. Este ensayo examina esa asimetría y argumenta qué exigiría una cultura de transparencia simétrica.",
+      "summary": "La declaración de uso de IA se ha vuelto obligación de quien es evaluado y cortesía opcional de quien evalúa. Mientras esa asimetría persista, la transparencia funcionará como control y no como norma compartida.",
+      "tags": [
+        "transparencia",
+        "declaración de uso",
+        "integridad académica",
+        "cultura institucional"
+      ],
+      "categories": [
+        "opinion"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 884,
+      "heading_count": 1,
+      "h2_count": 1,
+      "external_url_count": 3,
+      "citation_signals": 0,
+      "reference_heading": true,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
         "tabla-sintesis"
       ]
     },
@@ -3055,6 +3115,59 @@
       ]
     },
     {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "route": "/formacion-docente/etica-profesional-docente-ia/",
+      "kind": "page",
+      "section": "formacion-docente",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Los dilemas éticos del profesorado que prepara clase con IA no son los del alumnado: qué decides al usar estas herramientas, qué modela tu práctica ante el grupo y cómo se enseña la transparencia con el propio ejemplo.",
+      "summary": "La ética del uso docente de IA no se resuelve conociendo marcos: se ejerce en decisiones de preparación de clase que el grupo observa y aprende. Tres dilemas reales y una forma de enseñarla sin declararla tema.",
+      "tags": [
+        "ética profesional",
+        "formación docente",
+        "transparencia",
+        "declaración de uso",
+        "modelado"
+      ],
+      "categories": [
+        "guia"
+      ],
+      "areas": [
+        "formacion",
+        "etica"
+      ],
+      "words": 1167,
+      "heading_count": 4,
+      "h2_count": 4,
+      "external_url_count": 2,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 9,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead",
+          "referencias"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis",
+        "interaccion-candidata"
+      ]
+    },
+    {
       "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
       "route": "/formacion-docente/evaluacion-retroalimentacion/",
       "kind": "page",
@@ -3718,13 +3831,13 @@
         "ia",
         "etica"
       ],
-      "words": 478,
+      "words": 514,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 17,
+      "internal_link_count": 19,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -3743,7 +3856,9 @@
         ]
       },
       "decision": "actualizar",
-      "needs": []
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
@@ -3798,6 +3913,59 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
+        "procedencia"
+      ]
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "route": "/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Qué se sabe y qué no se sabe sobre la huella ambiental de la IA generativa, y cómo el criterio de proporcionalidad —ajustar la herramienta al tamaño real de la tarea— permite decidir en el aula y en la institución sin catastrofismo ni negación.",
+      "summary": "La pregunta ambiental que cabe en una decisión docente: ¿hace falta un modelo grande para esta tarea? Qué sabemos de la huella energética e hídrica de la IA, qué sigue opaco y qué decisión razonable puede tomarse hoy.",
+      "tags": [
+        "huella ambiental",
+        "proporcionalidad",
+        "sostenibilidad",
+        "decisiones tecnológicas",
+        "alfabetización en IA"
+      ],
+      "categories": [
+        "guia"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 1314,
+      "heading_count": 4,
+      "h2_count": 4,
+      "external_url_count": 7,
+      "citation_signals": 7,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis",
+        "interaccion-candidata",
         "procedencia"
       ]
     },
@@ -3992,7 +4160,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1454,
+      "words": 1617,
       "heading_count": 9,
       "h2_count": 6,
       "external_url_count": 6,
@@ -4006,12 +4174,13 @@
         "inline_image_count": 0,
         "svg_count": 0,
         "table_count": 1,
-        "mermaid_count": 0,
+        "mermaid_count": 1,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "lead",
+          "mermaid",
           "parallevar",
           "ref",
           "referencias"
@@ -4019,7 +4188,6 @@
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
         "interaccion-candidata"
       ]
     },
@@ -4622,7 +4790,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1276,
+      "words": 1278,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 5,
@@ -4632,22 +4800,22 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
+        "svg_count": 2,
         "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "figura",
           "lead",
           "referencias"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
         "interaccion-candidata",
         "procedencia"
       ]
@@ -4677,13 +4845,13 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1842,
+      "words": 1887,
       "heading_count": 27,
       "h2_count": 7,
       "external_url_count": 4,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4724,13 +4892,13 @@
         "ia",
         "etica"
       ],
-      "words": 194,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 894,
+      "heading_count": 4,
+      "h2_count": 4,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4747,8 +4915,10 @@
           "parallevar"
         ]
       },
-      "decision": "fusionar-o-ampliar",
-      "needs": []
+      "decision": "actualizar",
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "ia-educacion/guias/profesorado/index.md",
@@ -5179,13 +5349,13 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 257,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 385,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -6110,8 +6280,8 @@
       "title": "Mapa conceptual con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo construir un mapa conceptual con apoyo formativo de IAG, evaluando la jerarquización, las relaciones explícitas y la crítica del propio mapa.",
-      "summary": "Mapa conceptual con IAG: identificación de conceptos clave, jerarquización, mapeo de relaciones y autocrítica del mapa. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo construir un mapa conceptual en dos versiones —una propia y una contrastada con IAG— y evaluar las decisiones de jerarquía y relación que lo hacen evidencia de comprensión.",
+      "summary": "Un mapa conceptual muestra cómo entiende alguien un tema: qué selecciona, qué subordina y qué conecta. Esta guía propone construirlo en dos versiones, usar la IAG como contraste y valorar el recorrido con un ejemplo trabajado completo.",
       "tags": [
         "producto-aprendizaje",
         "bloom-4",
@@ -6128,9 +6298,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 831,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2139,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6141,7 +6311,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6157,7 +6327,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6464,8 +6635,8 @@
       "title": "Presentación con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo preparar una presentación universitaria con apoyo formativo de IAG, evaluando la estructura del discurso, la elección de ejemplos y la anticipación de preguntas.",
-      "summary": "Presentación oral con IAG: estructura del discurso, ejemplos y analogías, jerarquización del mensaje y autocrítica de la exposición. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo preparar una presentación universitaria con IAG como público crítico, evaluando la jerarquización del mensaje, los recortes justificados y el manejo de preguntas.",
+      "summary": "Diez minutos frente a un grupo obligan a decidir qué decir, qué recortar y qué pregunta anticipar. Esta guía recorre la preparación desde el guion propio hasta el ensayo con público crítico, con un ejemplo trabajado completo y una rúbrica adaptada a la exposición oral.",
       "tags": [
         "producto-aprendizaje",
         "bloom-6",
@@ -6482,9 +6653,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 851,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2151,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6495,7 +6666,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6511,7 +6682,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6641,8 +6813,8 @@
       "title": "Proyecto con IAG",
       "date": "2026-05-11",
       "draft": false,
-      "description": "Cómo diseñar y gestionar un proyecto académico con apoyo formativo de IAG, evaluando el proceso de planeación, decisión y validación de viabilidad.",
-      "summary": "Proyecto académico (ABP) con IAG: encuadre, exploración de alternativas, selección con criterios y validación de viabilidad. Progresión de prompts por nivel Bloom y rúbrica de proceso.",
+      "description": "Cómo diseñar un proyecto académico (ABP) con IAG como sparring de alternativas y viabilidad, evaluando la cadena de decisiones con un ejemplo trabajado de ocho semanas.",
+      "summary": "Un proyecto no es la propuesta del último día sino la cadena de decisiones que la produjo. Esta guía recorre encuadre, divergencia, decisión con criterios y validación de viabilidad, con un equipo de ejemplo y la matriz de decisión como evidencia central.",
       "tags": [
         "producto-aprendizaje",
         "bloom-6",
@@ -6660,9 +6832,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 903,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 2195,
+      "heading_count": 8,
+      "h2_count": 8,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -6673,7 +6845,7 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 3,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
@@ -6993,8 +7165,8 @@
         "digital",
         "formacion"
       ],
-      "words": 1664,
-      "heading_count": 11,
+      "words": 2540,
+      "heading_count": 12,
       "h2_count": 11,
       "external_url_count": 0,
       "citation_signals": 0,
@@ -7012,10 +7184,12 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "acordeon",
           "alert",
           "card",
           "cards",
           "lead",
+          "pliegue",
           "udgia-figure"
         ]
       },
@@ -7480,13 +7654,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 273,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 395,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8079,13 +8253,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 303,
-      "heading_count": 4,
+      "words": 377,
+      "heading_count": 5,
       "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 3,
+      "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8226,13 +8400,13 @@
         "evaluacion",
         "digital"
       ],
-      "words": 566,
+      "words": 633,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 1,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8252,6 +8426,55 @@
       "decision": "actualizar",
       "needs": [
         "svg-diagrama"
+      ]
+    },
+    {
+      "path": "observatorio/estudios/encuesta-eniag-mexico/index.md",
+      "route": "/observatorio/estudios/encuesta-eniag-mexico/",
+      "kind": "page",
+      "section": "observatorio",
+      "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Qué midió el primer censo nacional sobre IA generativa en la educación superior de México, qué cifras reporta, con qué límites deben leerse y qué preguntas dejan abiertas para una universidad concreta.",
+      "summary": "Lectura metodológica del primer censo nacional sobre IA generativa en la educación superior mexicana: uso extendido, normativa desconocida, demanda masiva de formación y datos que ninguna institución debe trasladar a su comunidad sin diagnóstico propio.",
+      "tags": [
+        "encuesta nacional",
+        "adopción de IA",
+        "formación docente",
+        "política educativa",
+        "México"
+      ],
+      "categories": [
+        "estudio"
+      ],
+      "areas": [
+        "ia",
+        "formacion"
+      ],
+      "words": 1246,
+      "heading_count": 5,
+      "h2_count": 5,
+      "external_url_count": 2,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 4,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis"
       ]
     },
     {
@@ -8289,9 +8512,9 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 4,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 3,
+        "svg_count": 2,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,
@@ -8561,13 +8784,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 17,
-      "heading_count": 0,
-      "h2_count": 0,
+      "words": 357,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8579,7 +8802,9 @@
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
-        "shortcode_names": []
+        "shortcode_names": [
+          "lead"
+        ]
       },
       "decision": "actualizar",
       "needs": []
@@ -10333,13 +10558,13 @@
         "ia",
         "etica"
       ],
-      "words": 157,
+      "words": 207,
       "heading_count": 0,
       "h2_count": 0,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 5,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -10902,13 +11127,13 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 2143,
+      "words": 2193,
       "heading_count": 17,
       "h2_count": 7,
       "external_url_count": 8,
       "citation_signals": 6,
       "reference_heading": true,
-      "internal_link_count": 2,
+      "internal_link_count": 3,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -11001,13 +11226,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 174,
+      "words": 260,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,

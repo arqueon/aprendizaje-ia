@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-28T20:25:28.038Z",
+  "checkedAt": "2026-08-31T12:59:13.340Z",
   "h5pBaseline": {
     "catalogContents": 39,
-    "pages": 18,
-    "mounts": 37
+    "pages": 19,
+    "mounts": 39
   },
   "scenarios": {
     "root": {
       "hugo": {
-        "pages": 934,
+        "pages": 997,
         "warnings": 3,
         "unexpectedWarnings": []
       },
@@ -85,9 +85,9 @@
         "overflowX": "auto",
         "role": "region",
         "tabindex": "0",
-        "ariaLabel": "Tabla: De habilitar condiciones a integrar la IA en el diseño educativo",
+        "ariaLabel": "Tabla: De tener IA disponible a integrarla con propósito",
         "hintDisplay": "none",
-        "caption": "De habilitar condiciones a integrar la IA en el diseño educativo",
+        "caption": "De tener IA disponible a integrarla con propósito",
         "columnHeaders": 3,
         "rowHeaders": 3,
         "headerColor": "rgb(255, 255, 255)",
@@ -146,7 +146,7 @@
     },
     "subpath": {
       "hugo": {
-        "pages": 934,
+        "pages": 997,
         "warnings": 3,
         "unexpectedWarnings": []
       },
@@ -221,9 +221,9 @@
         "overflowX": "auto",
         "role": "region",
         "tabindex": "0",
-        "ariaLabel": "Tabla: De habilitar condiciones a integrar la IA en el diseño educativo",
+        "ariaLabel": "Tabla: De tener IA disponible a integrarla con propósito",
         "hintDisplay": "none",
-        "caption": "De habilitar condiciones a integrar la IA en el diseño educativo",
+        "caption": "De tener IA disponible a integrarla con propósito",
         "columnHeaders": 3,
         "rowHeaders": 3,
         "headerColor": "rgb(255, 255, 255)",

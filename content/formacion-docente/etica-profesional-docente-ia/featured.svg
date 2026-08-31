@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#141c10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="42%" cy="48%" r="50%">
+      <stop offset="0%" stop-color="#aab86a" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#aab86a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#aab86a" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <!-- documento del docente, con su línea de declaración -->
+  <g fill="#68762f" fill-opacity="0.28" stroke="#8b9a4a" stroke-opacity="0.6" stroke-width="2.5">
+    <rect x="200" y="140" width="300" height="350" rx="10"/>
+  </g>
+  <g stroke="#c6d093" stroke-opacity="0.4" stroke-width="3" stroke-linecap="round">
+    <line x1="235" y1="200" x2="465" y2="200"/><line x1="235" y1="236" x2="450" y2="236"/>
+    <line x1="235" y1="272" x2="465" y2="272"/><line x1="235" y1="308" x2="430" y2="308"/>
+    <line x1="235" y1="344" x2="455" y2="344"/>
+  </g>
+  <rect x="230" y="410" width="240" height="30" rx="6" fill="#aab86a" fill-opacity="0.6"/>
+  <!-- eco en el grupo: tarjetas pequeñas que repiten la franja declarada -->
+  <g fill="#68762f" fill-opacity="0.18" stroke="#8b9a4a" stroke-opacity="0.45" stroke-width="2">
+    <rect x="700" y="130" width="150" height="130" rx="8"/>
+    <rect x="890" y="130" width="150" height="130" rx="8"/>
+    <rect x="700" y="300" width="150" height="130" rx="8"/>
+    <rect x="890" y="300" width="150" height="130" rx="8"/>
+  </g>
+  <g stroke="#c6d093" stroke-opacity="0.3" stroke-width="2.5" stroke-linecap="round">
+    <line x1="722" y1="165" x2="828" y2="165"/><line x1="722" y1="190" x2="815" y2="190"/>
+    <line x1="912" y1="165" x2="1018" y2="165"/><line x1="912" y1="190" x2="1005" y2="190"/>
+    <line x1="722" y1="335" x2="828" y2="335"/><line x1="722" y1="360" x2="815" y2="360"/>
+    <line x1="912" y1="335" x2="1018" y2="335"/><line x1="912" y1="360" x2="1005" y2="360"/>
+  </g>
+  <g fill="#aab86a" fill-opacity="0.5">
+    <rect x="722" y="222" width="106" height="14" rx="4"/>
+    <rect x="912" y="222" width="106" height="14" rx="4"/>
+    <rect x="722" y="392" width="106" height="14" rx="4"/>
+    <rect x="912" y="392" width="106" height="14" rx="4"/>
+  </g>
+  <!-- lo que se modela se transmite -->
+  <g stroke="#d5ddab" stroke-opacity="0.55" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 520 315 h 140"/><polyline points="640,293 662,315 640,337"/>
+  </g>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

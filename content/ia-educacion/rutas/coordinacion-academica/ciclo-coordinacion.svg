@@ -13,6 +13,35 @@
       .node{stroke-width:4}
       .inverse{fill:#fff}
       .inverse-muted{fill:#f5f3ee}
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, solo la preferencia del sistema; el lienzo opaco
+       garantiza legibilidad en cualquier caso. Ver CLAUDE.md convencion 6. */
+      @media (prefers-color-scheme: dark) {
+        rect[fill="#f5f3ee"]{fill:#131c31}
+        rect[fill="#e7ecf7"]{fill:#243352}
+        rect[fill="#ece9e1"]{fill:#212d4c}
+        rect[fill="#eceddc"]{fill:#2b331f}
+        rect[fill="#b06a1f"]{fill:#3a2c17}
+        rect[fill="#18223c"]{fill:#eceee9}
+        circle[fill="#34508c"]{fill:#8ba3d6}
+        circle[fill="#18223c"]{fill:#eceee9}
+        circle[fill="#536326"]{fill:#b9c47a}
+        circle[fill="#914411"]{fill:#d49a55}
+        circle[fill="#f5f3ee"]{fill:#131c31}
+        [stroke="#34508c"]{stroke:#8ba3d6}
+        [stroke="#18223c"]{stroke:#eceee9}
+        [stroke="#536326"]{stroke:#b9c47a}
+        [stroke="#914411"]{stroke:#d49a55}
+        path[fill="#536326"]{fill:#b9c47a}
+        text[fill="#fff"]{fill:#131c31}
+        text[fill="#18223c"]{fill:#eceee9}
+        .label{fill:#eceee9}
+        .detail{fill:#a7b0c4}
+        .connector{stroke:#b9c47a}
+        .inverse{fill:#131c31}
+        .inverse-muted{fill:#26314f}
+      }
     </style>
   </defs>
 

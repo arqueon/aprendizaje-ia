@@ -98,7 +98,7 @@ Cada criterio institucional gana solidez cuando tiene un responsable y una fecha
 
 ### 11. Garantizar acceso institucional a al menos un modelo
 
-Cuando el uso de IA queda librado al modelo gratuito que cada estudiante consiga, la equidad se rompe en el primer mes. La provisión institucional —aunque sea con cuotas limitadas— resulta clave para que los criterios pedagógicos se sostengan.
+Cuando el uso de IA queda librado al modelo gratuito que cada estudiante consiga, la equidad se rompe en el primer mes. La provisión institucional —aunque sea con cuotas limitadas— resulta clave para que los criterios pedagógicos se sostengan. Al elegir qué proveer, conviene sumar la pregunta de proporcionalidad: si las tareas del curso no necesitan un modelo grande, una opción más ligera puede resolver la misma necesidad con menos costo económico y ambiental, como desarrolla la guía de [costos ecológicos y proporcionalidad](/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/).
 
 ### 12. Articular la formación docente con la rotación de la oferta
 
