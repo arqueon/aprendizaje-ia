@@ -87,3 +87,30 @@ renunciar a `picture`/`srcset` y resolver la variante móvil por media query.
 Amplía el criterio de visto bueno de las figuras UDGIA para incluir la apariencia en ambos
 modos. No modifica las decisiones editoriales, de derechos ni de procedencia del documento
 original, que siguen vigentes.
+
+---
+
+## Enmienda 2026-08-30 · Resincronización con la generación v0.12 de la autoridad
+
+El documento de orientaciones consolidó su versión 0.12 (revisión `abbcafc0b1f2832238153417b0bb917eb6b4a24e`),
+que reescribió con lenguaje humanizado siete de las figuras compartidas con el sitio. Esta
+enmienda registra la resincronización de la distribución Hugo con esa generación:
+
+- **Siete figuras refrescadas** — F1, F3, F4, F8, F9, F11 y F17 toman íntegro el contenido
+  nuevo de la autoridad (título, descripción, textos y estructura) y conservan el patrón de
+  apariencia del sitio: identidad C, lienzo opaco `fig-canvas` y bloque
+  `@media (prefers-color-scheme: dark)` de la enmienda del 27 de agosto. Las variantes
+  móviles son recomposiciones verticales nuevas del contenido v0.12.
+- **F18 sustituida** — los «Cinco movimientos para probar una ayuda» (Generated Output de
+  Napkin AI adaptado) se retiran; los sustituye la rutina de seis pasos
+  `rutina-direccion-epistemica` de la autoridad, publicada como síntesis original del
+  proyecto bajo `CC BY-SA 4.0` con la atribución estándar. La procedencia Napkin deja de
+  aplicar a la figura vigente; su registro histórico permanece en el historial del repositorio.
+- **F7 sin cambios** — la autoridad no modificó `dialogo-ia-aprendizaje-activo` (byte-idéntica
+  en ambas revisiones). F5 quedó fuera del alcance de esta ola y conserva su anclaje previo.
+- El manifiesto `data/udgia_figures.json`, la QA `qa:udgia-figures` y el registro
+  `udgia-ecosystem.json` quedan anclados por figura a la revisión y checksums vigentes.
+
+**Estado:** pendiente de visto bueno visual del responsable sobre las variantes nuevas.
+Los criterios de derechos, procedencia y autorización editorial del visto bueno original y
+de la enmienda de apariencia del 2026-08-27 siguen vigentes y no se modifican aquí.
