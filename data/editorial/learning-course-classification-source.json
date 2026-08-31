@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classification-source",
   "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
   "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
-  "expectedPageCount": 198,
+  "expectedPageCount": 200,
   "deliberateAdditions": [
     "areas/digital/_index.md",
     "areas/etica/_index.md",
