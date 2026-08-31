@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-28T20:27:00.902Z",
+  "checkedAt": "2026-08-31T01:43:18.715Z",
   "totals": {
-    "pages": 153,
-    "ownFeatured": 141,
+    "pages": 166,
+    "ownFeatured": 154,
     "missingFeatured": 12,
-    "hiddenHero": 18,
-    "cards": 554,
+    "hiddenHero": 19,
+    "cards": 607,
     "cardsWithoutImage": 0,
-    "cardShortcodeSources": 95,
-    "cardShortcodes": 240,
-    "cardShortcodesWithImage": 240
+    "cardShortcodeSources": 103,
+    "cardShortcodes": 265,
+    "cardShortcodesWithImage": 265
   },
   "unexpected": {
     "missingFeatured": [],
@@ -49,6 +49,7 @@
       "ia-educacion/orientaciones/index.md",
       "ia-educacion/practicas/bitacora-cocreacion/index.md",
       "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
       "recursos/glosario/modelo-samr/index.md",
       "recursos/glosario/taxonomia-de-bloom/index.md",
       "recursos/videos/learn-prompting-curso-completo.md",
