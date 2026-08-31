@@ -5,7 +5,7 @@
     "markdown": 196,
     "pages": 166,
     "sections": 30,
-    "words": 147045,
+    "words": 148009,
     "assets": 236,
     "content_assets": 234,
     "shared_figure_assets": 2,
@@ -84,7 +84,7 @@
     "ia-educacion": {
       "pages": 60,
       "sections": 8,
-      "words": 63354,
+      "words": 63944,
       "featured": 62,
       "svg": 20,
       "h5p": 4,
@@ -117,7 +117,7 @@
     "observatorio": {
       "pages": 10,
       "sections": 4,
-      "words": 11182,
+      "words": 11214,
       "featured": 14,
       "svg": 5,
       "h5p": 0,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 52,
       "sections": 5,
-      "words": 20357,
+      "words": 20699,
       "featured": 55,
       "svg": 13,
       "h5p": 0,
@@ -3672,7 +3672,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1552,
+      "words": 1613,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -4238,7 +4238,7 @@
       "date": "2026-08-03",
       "draft": false,
       "description": "Un caso para distinguir una sugerencia de una decisión y comprender la co-creación sin trasladar la responsabilidad a la herramienta.",
-      "summary": "Formula, contrasta, decide y conserva un rastro breve de los cambios que puedes sostener.",
+      "summary": "Formula, contrasta, decide y responde: conserva un rastro breve de los cambios que puedes sostener.",
       "tags": [
         "agenciamiento",
         "Deleuze",
@@ -4253,7 +4253,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 2034,
+      "words": 2106,
       "heading_count": 10,
       "h2_count": 9,
       "external_url_count": 2,
@@ -4511,7 +4511,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2242,
+      "words": 2291,
       "heading_count": 17,
       "h2_count": 11,
       "external_url_count": 6,
@@ -4677,13 +4677,13 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1507,
+      "words": 1783,
       "heading_count": 27,
       "h2_count": 7,
       "external_url_count": 4,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 8,
+      "internal_link_count": 10,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4907,7 +4907,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 305,
+      "words": 309,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -6993,7 +6993,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1578,
+      "words": 1657,
       "heading_count": 11,
       "h2_count": 11,
       "external_url_count": 0,
@@ -7251,7 +7251,7 @@
         "ia",
         "etica"
       ],
-      "words": 1117,
+      "words": 1166,
       "heading_count": 10,
       "h2_count": 7,
       "external_url_count": 4,
@@ -8333,7 +8333,7 @@
       "areas": [
         "ia"
       ],
-      "words": 1383,
+      "words": 1415,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 6,
@@ -10902,13 +10902,13 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 1801,
+      "words": 2143,
       "heading_count": 17,
       "h2_count": 7,
       "external_url_count": 8,
       "citation_signals": 6,
       "reference_heading": true,
-      "internal_link_count": 0,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
