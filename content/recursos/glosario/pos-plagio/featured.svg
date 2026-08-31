@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#360b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="46%">
+      <stop offset="0%" stop-color="#cc615f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#cc615f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#cc615f" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <g fill="#b12028" fill-opacity="0.22" stroke="#cc615f" stroke-opacity="0.5" stroke-width="2.5">
+    <rect x="470" y="150" width="260" height="330" rx="8"/>
+  </g>
+  <g stroke="#df9591" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round">
+    <line x1="505" y1="215" x2="695" y2="215"/><line x1="505" y1="250" x2="680" y2="250"/>
+    <line x1="505" y1="285" x2="695" y2="285"/><line x1="505" y1="320" x2="660" y2="320"/>
+  </g>
+  <rect x="495" y="365" width="210" height="60" rx="6" fill="#7f1820" fill-opacity="0.45" stroke="#df9591" stroke-opacity="0.55" stroke-width="2"/>
+  <g stroke="#efc6c2" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round">
+    <line x1="515" y1="385" x2="640" y2="385"/><line x1="515" y1="405" x2="600" y2="405"/>
+  </g>
+  <path d="M 720 430 l 16 18 l 30 -34" stroke="#efc6c2" stroke-opacity="0.7" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

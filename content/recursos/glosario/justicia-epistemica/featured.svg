@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#360b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="46%">
+      <stop offset="0%" stop-color="#cc615f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#cc615f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#cc615f" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <g stroke="#df9591" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round">
+    <line x1="600" y1="180" x2="600" y2="460"/>
+    <line x1="410" y1="230" x2="790" y2="230"/>
+    <line x1="500" y1="460" x2="700" y2="460"/>
+  </g>
+  <g stroke="#cc615f" stroke-opacity="0.5" stroke-width="3" fill="none">
+    <line x1="410" y1="230" x2="360" y2="340"/><line x1="410" y1="230" x2="460" y2="340"/>
+    <line x1="790" y1="230" x2="740" y2="340"/><line x1="790" y1="230" x2="840" y2="340"/>
+    <path d="M 350 340 A 62 62 0 0 0 470 340" stroke="#b12028" stroke-opacity="0.6" stroke-width="4"/>
+    <path d="M 730 340 A 62 62 0 0 0 850 340" stroke="#b12028" stroke-opacity="0.6" stroke-width="4"/>
+  </g>
+  <circle cx="600" cy="180" r="12" fill="#b12028" fill-opacity="0.6" stroke="#efc6c2" stroke-opacity="0.5" stroke-width="2"/>
+  <circle cx="410" cy="310" r="8" fill="#efc6c2" fill-opacity="0.5"/>
+  <circle cx="790" cy="310" r="8" fill="#efc6c2" fill-opacity="0.5"/>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

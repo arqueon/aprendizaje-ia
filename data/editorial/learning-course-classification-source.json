@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classification-source",
   "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
   "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
-  "expectedPageCount": 183,
+  "expectedPageCount": 196,
   "deliberateAdditions": [
     "areas/digital/_index.md",
     "areas/etica/_index.md",
@@ -843,6 +843,16 @@
         "comun"
       ],
       "razon": "Práctica focalizada de verificación: localizar la afirmación decisiva, contrastarla y decidir qué conservar."
+    },
+    {
+      "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Plantilla en dos versiones para declarar el apoyo de IA con detalle proporcional a la tarea, sin exigir la conversacion completa."
     },
     {
       "path": "ia-educacion/productos-de-aprendizaje/_index.md",
@@ -1700,6 +1710,17 @@
       "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
     },
     {
+      "path": "recursos/glosario/agenciamiento-persona-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/agentes-de-ia/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
@@ -1790,7 +1811,51 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/cocreacion-persona-ia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/colonizacion-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/deriva-metacognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/descarga-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/direccion-epistemica/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -1813,6 +1878,17 @@
       "razon": "Puede servir como consulta breve despues de un ejemplo completo."
     },
     {
+      "path": "recursos/glosario/esfuerzo-productivo/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/evaluacion-autentica/index.md",
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
@@ -1828,6 +1904,17 @@
     },
     {
       "path": "recursos/glosario/ganancia-cognitiva/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/gobernanza-distribuida/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -1871,6 +1958,17 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/justicia-epistemica/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/modelo-samr/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
@@ -1893,7 +1991,29 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/pos-plagio/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/sesgo-algoritmico/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/soberania-tecnologica/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -1916,7 +2036,29 @@
       "razon": "Presenta niveles secuenciales y desplaza la evaluacion a la cuspide por la IA; no debe enlazarse hasta corregirse o integrarse a una pagina principal."
     },
     {
+      "path": "recursos/glosario/trazabilidad/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/tutor-inteligente/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/vendor-lock-in/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
