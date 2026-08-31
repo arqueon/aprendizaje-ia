@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "7291267f57d81b47592f5aa4e0a452af7b06b07d58c4279004cfcfd1e10b9433",
+  "sourceInventorySha256": "03e58ec8d25808cf6d83767ed274456c4dc448cfa8d28f60ed5c790379864267",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "d38e986481485f422974a7cd8004afc3f6a978403dac385318349a6e7fb53491",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -738,7 +738,7 @@
       "route": "/ia-educacion/constelaciones/empezar-con-ia/",
       "title": "Empezar con IA para aprender y enseñar",
       "kind": "page",
-      "words": 1613,
+      "words": 1620,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [

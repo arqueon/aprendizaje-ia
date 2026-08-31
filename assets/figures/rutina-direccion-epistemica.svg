@@ -50,8 +50,8 @@
     <text x="78" y="157" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">1</text>
     <text x="165" y="154" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Posición inicial</text>
     <text x="70" y="184" font-size="12" class="f-muted">¿Qué pienso antes de consultar?</text>
-    <text x="70" y="204" font-size="12" class="f-muted">¿Con qué criterio lo juzgaré?</text>
-    <text x="70" y="232" font-size="11.5" font-weight="bold" class="f-good">Se conserva: idea y criterio</text>
+    <text x="70" y="204" font-size="12" class="f-muted">¿Cómo voy a juzgar lo que reciba?</text>
+    <text x="70" y="232" font-size="11.5" font-weight="bold" class="f-good">Se conservan: la idea y el juicio propio</text>
 
     <line x1="288" y1="190" x2="315" y2="190" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
 

@@ -5,12 +5,13 @@ const root = process.cwd();
 const targets = [
   'content/_index.md',
   'content/ia-educacion/guias/profesorado/index.md',
-  'assets/figures/cinco-movimientos-ayuda.svg',
-  'assets/figures/cinco-movimientos-ayuda-mobile.svg',
+  'assets/figures/rutina-direccion-epistemica.svg',
+  'assets/figures/rutina-direccion-epistemica-mobile.svg',
 ];
 const scopedTargets = [{
   relative: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md',
-  start: '## Cinco movimientos para probar una ayuda',
+  // Ola 2 (2026-08-30): el bloque gobernado pasó a la rutina de seis pasos.
+  start: '## Seis pasos para probar una ayuda',
   end: '## La misma ayuda cambia según el contexto',
 }];
 const abstractTerms = /\b(consignas?|huellas?|insumos?|artefactos?|productos?|evidencias?|criterios?|propósitos?|alineación|staging)\b/giu;

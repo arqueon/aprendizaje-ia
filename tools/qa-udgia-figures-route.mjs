@@ -61,11 +61,13 @@ const routes = [{
   fallbackRows: 4,
 }, {
   route: 'ia-educacion/constelaciones/empezar-con-ia/',
-  id: 'udgia-f18-cinco-movimientos',
-  mobileSvg: 'cinco-movimientos-ayuda-mobile.svg',
-  fallbackItems: 5,
-  editorialState: 'local-napkin',
-  notice: 'Publicación autorizada por Rubén el 2026-08-13',
+  // Ola 2 (2026-08-30): f18 sustituida por la rutina canónica de seis pasos
+  // derivada de la autoridad v0.12; la procedencia Napkin quedó retirada.
+  id: 'udgia-f18-rutina-seis-pasos',
+  mobileSvg: 'rutina-direccion-epistemica-mobile.svg',
+  fallbackItems: 6,
+  editorialState: 'original-synthesis',
+  notice: 'Resincronización aprobada con la Ola 2 el 2026-08-30',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,

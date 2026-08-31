@@ -188,7 +188,7 @@
     "source_version": "0.12-consolidado-con-original",
     "source_revision": "abbcafc0b1f2832238153417b0bb917eb6b4a24e",
     "source_sha256": "0f6700fef02695a84e1a7d032de29b9ae42733230e3d0d55b49cbab6cce3fe87",
-    "variant_sha256": "7150e3791bd919ddb30ed3babaa0fe115d1738e40adc28d1b5af1869f24924cc",
+    "variant_sha256": "aae916ec43dbf7f36ccdf5d7fd92ff0bb2378333731db7b099cc5a28f64fca59",
     "storage": "shared",
     "src": "figures/rutina-direccion-epistemica.svg",
     "src_mobile": "figures/rutina-direccion-epistemica-mobile.svg",
@@ -199,7 +199,7 @@
       "talleres de co-creación",
       "materiales descargables"
     ],
-    "mobile_variant_sha256": "5d6747206effc0fa9f883df1119fb56ec04b5a03cf791ee6806c52c42dac604c",
+    "mobile_variant_sha256": "46eef59bd66e51ca0dd072079b8736fee4ac5f0dcf7c63017c990ad152852b02",
     "adaptation": "hugo-ola2-identidad-c",
     "provenance_kind": "original-synthesis",
     "source_basis": "Rutina M3 del documento de orientaciones (síntesis generalizable)",

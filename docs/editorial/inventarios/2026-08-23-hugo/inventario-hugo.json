@@ -5,7 +5,7 @@
     "markdown": 196,
     "pages": 166,
     "sections": 30,
-    "words": 148009,
+    "words": 148016,
     "assets": 236,
     "content_assets": 234,
     "shared_figure_assets": 2,
@@ -84,7 +84,7 @@
     "ia-educacion": {
       "pages": 60,
       "sections": 8,
-      "words": 63944,
+      "words": 63951,
       "featured": 62,
       "svg": 20,
       "h5p": 4,
@@ -3672,7 +3672,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1613,
+      "words": 1620,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,

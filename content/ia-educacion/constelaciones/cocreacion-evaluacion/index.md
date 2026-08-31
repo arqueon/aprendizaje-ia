@@ -114,7 +114,7 @@ que explique por qué cambió la conclusión.
 
 ## Seis pasos para probar una ayuda
 
-1. **Expresa una posición inicial.** Antes de consultar, escribe qué piensas y con qué criterio
+1. **Expresa una posición inicial.** Antes de consultar, escribe qué piensas y cómo vas a juzgar lo que recibas
    juzgarás una respuesta. No necesita ser correcta: necesita ser tuya, para que después puedas
    ver qué cambió.
 2. **Delimita el apoyo.** Decide qué puede aportar la herramienta —una objeción, un caso
@@ -134,7 +134,7 @@ esquema siguiente ayuda a ver cómo cada uno prepara el siguiente y qué queda, 
 responsabilidad de la persona.
 
 {{< udgia-figure id="udgia-f18-rutina-seis-pasos" >}}
-1. **Posición inicial:** escribe qué piensas antes de consultar y con qué criterio lo juzgarás. Se conserva tu idea y tu criterio.
+1. **Posición inicial:** escribe qué piensas antes de consultar y cómo vas a juzgar lo que recibas. Se conservan tu idea y tu juicio propio.
 2. **Delimitar el apoyo:** decide qué puede aportar la IA y qué decisión no delegarás. Se conservan la ayuda y su límite.
 3. **Comprobar:** identifica la afirmación central y la fuente original que la sostiene. Se conservan la fuente y la revisión.
 4. **Decidir:** determina qué conservas, corriges o descartas, y qué razón sostiene la decisión. Se conserva la decisión explicada.
