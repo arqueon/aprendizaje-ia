@@ -99,7 +99,7 @@ el mismo mapa. Asignación por sección (mantener en gráficos nuevos):
 | `timeline` + `timelineItem`  | Prácticas del laboratorio                         |
 | `keywordList` + `keyword`    | Herramientas en prácticas                         |
 | `alert`                      | Notas pedagógicas importantes                     |
-| `mermaid`                    | Diagramas (homepage)                              |
+| `mermaid`                    | Diagramas (guías, recursos; ya no en homepage)    |
 | `youtubeLite`                | Videos                                            |
 
 ## Shortcodes disponibles (no usados aún)
