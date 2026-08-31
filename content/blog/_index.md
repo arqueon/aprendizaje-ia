@@ -10,7 +10,7 @@ showBreadcrumbs: true
 showSummary: true
 showCards: true
 cardView: true
-areas: ["ia", "pedagogia", "digital"]
+areas: ["ia", "pedagogia", "digital", "etica"]
 ---
 
 {{< lead >}}
@@ -20,6 +20,10 @@ Espacio de ensayos breves donde se discuten temas que no caben en una guía oper
 ## Qué encontrarás aquí
 
 Posts editoriales de entre 700 y 1,200 palabras, escritos para sostener una discusión sin pretender cerrarla. Cada pieza incluye al menos dos referencias APA 7 verificables y enlaces internos a guías y prácticas del sitio que profundizan los conceptos abordados.
+
+## Por dónde entrar
+
+Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente-era-ia/), que separa lo que la IA asume de lo que no puede asumir. Si el debate que te ocupa es la evaluación, [IA generativa y evaluación auténtica](ia-generativa-evaluacion-autentica/) discute qué evidencia sigue valiendo cuando generar texto es trivial, y [la asimetría de la transparencia](asimetria-de-la-transparencia/) examina por qué exigimos declarar al estudiantado lo que instituciones y profesorado no declaran. Para el fondo conceptual están [el agenciamiento persona-IA](agenciamiento-humano-ia/) y [el rizoma digital](rizoma-digital-aprender-sin-mapa/), que traen a Deleuze y a Cormier a la conversación, y [aprender con IA vs aprender sobre IA](aprender-con-ia-vs-aprender-sobre-ia/), que desmonta una confusión frecuente en los marcos curriculares.
 
 ## Criterio editorial
 

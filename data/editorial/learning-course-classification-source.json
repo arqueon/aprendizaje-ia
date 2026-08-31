@@ -120,6 +120,17 @@
       "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
     },
     {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Ensayo de opinion sobre la transparencia asimetrica en la declaracion de uso de IA; aporta debate, no debe ampliar la carga obligatoria del curso."
+    },
+    {
       "path": "blog/ia-generativa-evaluacion-autentica/index.md",
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
@@ -383,6 +394,16 @@
         "profesorado"
       ],
       "razon": "Índice local de un curso abierto en WIP: organiza sus lecciones y no equivale a aprobación para un recorrido."
+    },
+    {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Guia que aterriza la etica del uso docente de IA en decisiones de preparacion de clase y en el modelado ante el grupo; complementa los marcos sin duplicarlos."
     },
     {
       "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
