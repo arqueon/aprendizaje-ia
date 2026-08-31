@@ -3,9 +3,9 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "2f25b32b65a0f8045c3e300d5bff09666a4f66bbb14f8b4ec8a6ebe236e18fdb",
+  "sourceInventorySha256": "aaac89d8871d8ad475a54133caafa03238a4061160ef1f7feadb8ce8628fc925",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
-  "classificationSourceSha256": "910735cb680270659f67cdfc93c556e2835285aed8d78e6570a076ccb408bded",
+  "classificationSourceSha256": "d38e986481485f422974a7cd8004afc3f6a978403dac385318349a6e7fb53491",
   "regeneratedBy": "npm run content:learning-classifications",
   "provenance": {
     "method": "Cruce por ruta exacta entre el inventario Hugo y la fuente clasificatoria canónica local.",
@@ -31,16 +31,16 @@
       "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
     ]
   },
-  "classifiedPageCount": 183,
+  "classifiedPageCount": 196,
   "classificationCounts": {
     "apoyo-candidato": 38,
-    "banco-de-practicas": 12,
+    "banco-de-practicas": 13,
     "banco-ejemplos-disciplinarios": 27,
     "fuera-del-recorrido-inicial": 5,
     "navegacion": 30,
     "nucleo-candidato": 10,
     "referencia-en-cuarentena": 3,
-    "referencia-opcional": 58
+    "referencia-opcional": 70
   },
   "actionCounts": {
     "conservar-como-entorno-o-demostracion": 2,
@@ -51,9 +51,9 @@
     "no-incorporar-al-curso": 3,
     "preservar-como-ejemplo-no-obligatorio": 27,
     "reescribir-antes-de-enlazar": 6,
-    "reutilizar-con-ajustes": 22,
+    "reutilizar-con-ajustes": 23,
     "revisar-contra-bloom-e-icap": 7,
-    "revisar-en-fase-editorial": 41,
+    "revisar-en-fase-editorial": 53,
     "verificar-vigencia-antes-de-enlazar": 8
   },
   "pages": [
@@ -1145,7 +1145,7 @@
       "route": "/ia-educacion/practicas/",
       "title": "Prácticas con IA",
       "kind": "section",
-      "words": 301,
+      "words": 354,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -1179,6 +1179,20 @@
         "comun"
       ],
       "razon": "Práctica focalizada de verificación: localizar la afirmación decisiva, contrastarla y decidir qué conservar."
+    },
+    {
+      "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+      "route": "/ia-educacion/practicas/declaracion-proporcional-uso/",
+      "title": "Declaración proporcional de uso de IA",
+      "kind": "page",
+      "words": 888,
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Plantilla en dos versiones para declarar el apoyo de IA con detalle proporcional a la tarea, sin exigir la conversacion completa."
     },
     {
       "path": "ia-educacion/productos-de-aprendizaje/_index.md",
@@ -2324,12 +2338,27 @@
       "route": "/recursos/glosario/",
       "title": "Glosario de términos",
       "kind": "section",
-      "words": 247,
+      "words": 314,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
       "rutas": [],
       "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "recursos/glosario/agenciamiento-persona-ia/index.md",
+      "route": "/recursos/glosario/agenciamiento-persona-ia/",
+      "title": "Agenciamiento persona-IA",
+      "kind": "page",
+      "words": 163,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
       "path": "recursos/glosario/agentes-de-ia/index.md",
@@ -2454,11 +2483,71 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/cocreacion-persona-ia/index.md",
+      "route": "/recursos/glosario/cocreacion-persona-ia/",
+      "title": "Co-creación persona-IA",
+      "kind": "page",
+      "words": 164,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/colonizacion-cognitiva/index.md",
+      "route": "/recursos/glosario/colonizacion-cognitiva/",
+      "title": "Colonización cognitiva",
+      "kind": "page",
+      "words": 180,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/deriva-metacognitiva/index.md",
+      "route": "/recursos/glosario/deriva-metacognitiva/",
+      "title": "Deriva metacognitiva",
+      "kind": "page",
+      "words": 168,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/descarga-cognitiva/index.md",
       "route": "/recursos/glosario/descarga-cognitiva/",
       "title": "Descarga cognitiva",
       "kind": "page",
       "words": 196,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/direccion-epistemica/index.md",
+      "route": "/recursos/glosario/direccion-epistemica/",
+      "title": "Dirección epistémica",
+      "kind": "page",
+      "words": 164,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -2485,6 +2574,21 @@
       "razon": "Puede servir como consulta breve despues de un ejemplo completo."
     },
     {
+      "path": "recursos/glosario/esfuerzo-productivo/index.md",
+      "route": "/recursos/glosario/esfuerzo-productivo/",
+      "title": "Esfuerzo productivo",
+      "kind": "page",
+      "words": 166,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/evaluacion-autentica/index.md",
       "route": "/recursos/glosario/evaluacion-autentica/",
       "title": "Evaluación auténtica",
@@ -2508,6 +2612,21 @@
       "title": "Ganancia cognitiva",
       "kind": "page",
       "words": 662,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/gobernanza-distribuida/index.md",
+      "route": "/recursos/glosario/gobernanza-distribuida/",
+      "title": "Gobernanza distribuida",
+      "kind": "page",
+      "words": 162,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -2563,6 +2682,21 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/justicia-epistemica/index.md",
+      "route": "/recursos/glosario/justicia-epistemica/",
+      "title": "Justicia epistémica",
+      "kind": "page",
+      "words": 163,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/modelo-samr/index.md",
       "route": "/recursos/glosario/modelo-samr/",
       "title": "Modelo SAMR",
@@ -2593,11 +2727,41 @@
       "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
     },
     {
+      "path": "recursos/glosario/pos-plagio/index.md",
+      "route": "/recursos/glosario/pos-plagio/",
+      "title": "Pos-plagio",
+      "kind": "page",
+      "words": 164,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/sesgo-algoritmico/index.md",
       "route": "/recursos/glosario/sesgo-algoritmico/",
       "title": "Sesgo algorítmico",
       "kind": "page",
       "words": 140,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/soberania-tecnologica/index.md",
+      "route": "/recursos/glosario/soberania-tecnologica/",
+      "title": "Soberanía tecnológica",
+      "kind": "page",
+      "words": 157,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -2624,11 +2788,41 @@
       "razon": "Presenta niveles secuenciales y desplaza la evaluacion a la cuspide por la IA; no debe enlazarse hasta corregirse o integrarse a una pagina principal."
     },
     {
+      "path": "recursos/glosario/trazabilidad/index.md",
+      "route": "/recursos/glosario/trazabilidad/",
+      "title": "Trazabilidad",
+      "kind": "page",
+      "words": 157,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
       "path": "recursos/glosario/tutor-inteligente/index.md",
       "route": "/recursos/glosario/tutor-inteligente/",
       "title": "Tutor inteligente",
       "kind": "page",
       "words": 131,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Sirve para consulta posterior; una definicion aislada no reemplaza la explicacion dentro de la actividad."
+    },
+    {
+      "path": "recursos/glosario/vendor-lock-in/index.md",
+      "route": "/recursos/glosario/vendor-lock-in/",
+      "title": "Dependencia de proveedor (vendor lock-in)",
+      "kind": "page",
+      "words": 159,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
