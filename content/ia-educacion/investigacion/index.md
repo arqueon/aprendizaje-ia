@@ -43,7 +43,7 @@ Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código 
 
 Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **redactar** o **revisar**. Una misma herramienta puede ser apropiada en una etapa e inadecuada en otra.
 
-## Cinco movimientos
+## Cinco cuidados al investigar con IA
 
 {{< proceso >}}
 {{< paso titulo="Delimita" >}}
