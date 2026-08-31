@@ -1,6 +1,7 @@
 ---
 title: "Decidir institucionalmente sobre IA en la docencia"
 date: 2026-07-28
+lastmod: 2026-08-31
 draft: false
 description: "Marco ejecutivo para que la alta dirección universitaria alinee propósito, gobernanza, capacidades, tecnología, recursos y evidencia al decidir sobre IA en la docencia."
 summary: "Seis decisiones para convertir iniciativas dispersas en un mandato institucional acotado, revisable y con responsabilidades claras."
@@ -39,7 +40,7 @@ ecosistema:
     - tipo: continua
       destino: route.coordinacion-academica-operativa
   reutilizacion: [orientaciones, hugo, moodle, curso-amplio]
-  accesibilidad: "El mapa ejecutivo tiene una descripción textual equivalente; las seis decisiones, preguntas y productos permanecen disponibles como encabezados, listas y tabla."
+  accesibilidad: "El mapa ejecutivo tiene una descripción textual equivalente; las seis decisiones, preguntas y productos permanecen disponibles como encabezados, listas y tabla, y el bloque de aplicación usa pliegues nativos que se leen completos en impresión y con lector de pantalla."
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-28
@@ -249,6 +250,97 @@ que produce ese cruce.
     </tbody>
   </table>
 </div>
+
+### Aplica las cuatro preguntas a tu iniciativa
+
+Hasta aquí, las cuatro preguntas describen un método. Para que produzcan una orientación
+hay que aplicarlas a una iniciativa concreta: un piloto de retroalimentación automática que
+un centro quiere ampliar, una licencia institucional en evaluación, un asistente para
+trámites escolares. Elige una iniciativa real de tu portafolio y recorre las cuatro
+preguntas en orden. En cada una, despliega la respuesta que más se parezca a la tuya y
+anota si la pregunta queda sólida o débil, junto con lo que la orientación pide preparar.
+Al final, la lectura conjunta de las cuatro anotaciones produce la orientación provisional.
+
+{{< acordeon etiqueta="Las cuatro preguntas aplicadas a una iniciativa" >}}
+{{< pliegue titulo="Pregunta 1 · ¿Qué necesidad educativa atiende y para quién?" >}}
+**«Queremos incorporar IA porque el entorno lo exige.»** La iniciativa todavía no tiene una
+necesidad nombrada: el punto de partida es una tecnología, no un problema. Si tu respuesta
+se parece a esta, escribe antes de continuar una línea que diga qué proceso educativo
+concreto se quiere mejorar y para qué población; mientras esa línea no pueda escribirse,
+marca la pregunta como débil.
+
+**«Tenemos una herramienta disponible y buscamos dónde aplicarla.»** La decisión está atada
+al proveedor. Aplica la pregunta de control del propósito: si la herramienta desapareciera
+mañana, ¿qué problema seguiría en pie? Prepara una declaración de propósito y alcance —la
+primera de las seis decisiones— antes de continuar, y marca la pregunta como débil mientras
+no exista.
+
+**«Queremos atender un problema identificado, por ejemplo la retroalimentación tardía en
+cursos numerosos de primer ingreso.»** La necesidad está nombrada. Deja escrito qué
+aprendizaje o proceso debería mejorar y quiénes participarían: con eso la pregunta queda
+sólida y puedes pasar a la siguiente.
+{{< /pliegue >}}
+{{< pliegue titulo="Pregunta 2 · ¿Qué cuidados y responsabilidades exige?" >}}
+**«Es solo un piloto; los riesgos se verán sobre la marcha.»** Un piloto también procesa
+datos, condiciona aprendizajes y crea expectativas. Si tu respuesta se parece a esta,
+prepara antes de continuar las salvaguardas mínimas: qué datos no entrarán al sistema, qué
+alternativa equivalente tendrá quien no quiera o no pueda usarlo y quién responderá si algo
+falla. Marca la pregunta como débil mientras falte alguna.
+
+**«Identificamos los posibles daños, hay una persona responsable con nombre y existe una
+alternativa sin IA.»** La pregunta queda sólida. Conserva ese registro: será parte de la
+evidencia cuando llegue la fecha de revisión.
+
+**«Los cuidados dependen de condiciones que no controlamos, como los términos del proveedor
+o dictámenes pendientes.»** La pregunta no puede responderse en el nivel de la iniciativa.
+Escala los requisitos a la decisión sobre datos, tecnología e infraestructura y no amplíes
+la iniciativa hasta tener respuesta: una salvaguarda que depende de otro nivel no está
+preparada todavía.
+{{< /pliegue >}}
+{{< pliegue titulo="Pregunta 3 · ¿Hay capacidad real para sostenerla?" >}}
+**«Se sostiene por el entusiasmo de una persona o de un equipo pequeño.»** Eso es capacidad
+prestada, no instalada: cuando esa persona cambie de proyecto, la iniciativa cae. Antes de
+ampliar, prepara relevos: tiempo reconocido en las cargas de trabajo, formación para más
+personas y un soporte formal. Marca la pregunta como débil mientras dependa de nombres
+propios.
+
+**«Hay presupuesto para adquirir, pero no para acompañar.»** La compra sin acompañamiento
+traslada el costo a docentes y estudiantes en forma de trabajo invisible. Presupuesta la
+formación, el soporte y el tiempo de rediseño antes de continuar; hasta entonces, la
+pregunta queda débil.
+
+**«Existen tiempo asignado, soporte, formación e infraestructura previstos para todo el
+ciclo.»** La pregunta queda sólida. Documenta quién sostiene el trabajo cotidiano y qué
+pasa si esa capacidad se reduce a la mitad: esa nota servirá en la revisión.
+{{< /pliegue >}}
+{{< pliegue titulo="Pregunta 4 · ¿Puede probarse, revisarse y detenerse?" >}}
+**«Sabremos si funciona cuando veamos cuánta gente la usa.»** El uso no demuestra mejora.
+Si tu respuesta se parece a esta, acuerda antes de probar qué se observará, en qué fecha se
+revisará y qué resultado obligaría a detener. Mientras ese acuerdo no exista por escrito,
+marca la pregunta como débil.
+
+**«Tenemos definido qué observar, una fecha de revisión y una condición de detención.»** La
+pregunta queda sólida: la iniciativa puede probarse en una escala pequeña sin convertirse en
+un hecho consumado.
+
+**«Una vez iniciada, sería muy difícil detenerla.»** Un contrato plurianual o una
+integración profunda con sistemas críticos convierten la prueba en compromiso. Esta es la
+señal de alerta mayor del recorrido: negocia la reversibilidad —condiciones de salida,
+exportación de datos, alternativa de continuidad— antes de empezar, no después.
+{{< /pliegue >}}
+{{< /acordeon >}}
+
+La regla de decisión es conjunta: ninguna pregunta decide por sí sola, y la respuesta más
+débil marca el paso previo. Si las cuatro quedaron sólidas, la iniciativa puede probarse en
+pequeño, con su fecha de revisión ya acordada. Si la débil fue la necesidad, lo que procede
+es reformular antes de invertir en cuidados o capacidad: preparar condiciones para una
+iniciativa sin propósito solo la vuelve más cara. Si la necesidad es sólida pero fallaron
+los cuidados o la capacidad, la orientación es preparar condiciones y volver a recorrer las
+preguntas cuando estén listas. Y si varias respuestas quedaron débiles a la vez, o los
+posibles daños superan el aporte esperado, conviene esperar por ahora, dejando escrito qué
+tendría que cambiar para reabrir la conversación. El resultado es una orientación
+provisional para preparar la decisión, no la decisión misma: los dictámenes y revisiones de
+las demás secciones siguen siendo necesarios.
 
 Cada iniciativa del portafolio debe tener responsable, población, costo, dependencia,
 salvaguarda, resultado observable, evidencia y fecha de revisión. El número de herramientas
