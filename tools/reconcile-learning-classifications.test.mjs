@@ -22,10 +22,10 @@ function checkDerived(outputPath) {
   });
 }
 
-test('la fuente canónica cubre 198 rutas y conserva las 18 altas deliberadas', () => {
+test('la fuente canónica cubre 200 rutas y conserva las 18 altas deliberadas', () => {
   const source = JSON.parse(readFileSync(sourcePath, 'utf8'));
-  assert.equal(source.expectedPageCount, 198);
-  assert.equal(source.pages.length, 198);
+  assert.equal(source.expectedPageCount, 200);
+  assert.equal(source.pages.length, 200);
   assert.equal(source.deliberateAdditions.length, 18);
   assert.equal(new Set(source.deliberateAdditions).size, 18);
   const classifiedPaths = new Set(source.pages.map(({ path: pagePath }) => pagePath));
