@@ -38,15 +38,15 @@ Las veinte sugerencias también pueden leerse contra un segundo referente: los s
 Los siete criterios rodean una misma decisión —cómo usar IA para apoyar el aprendizaje— y
 se revisan a partir de la experiencia:
 
-| Criterio de decisión | Qué cuida |
-|---|---|
-| Enseñar antes de exigir. | No exigir lo que no se enseñó. |
-| Explicar cómo se utilizó. | Estudiantado y profesorado describen los apoyos relevantes. |
-| Mirar también el recorrido. | Conocer una decisión y cómo se comprobó. |
-| Ofrecer opciones de acceso. | Que la actividad no cree desventajas. |
-| Aclarar quién responde. | Cada ámbito explica sus decisiones. |
-| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. |
-| Volver a revisar. | Actualizar los acuerdos a partir de la experiencia y de los nuevos casos. |
+| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |
+|---|---|---|
+| Enseñar antes de exigir. | No exigir lo que no se enseñó. | ¿Qué se enseñó antes de pedirlo? |
+| Explicar cómo se utilizó. | Estudiantado y profesorado describen los apoyos relevantes. | ¿Qué apoyo conviene describir y con cuánto detalle? |
+| Mirar también el recorrido. | Conocer una decisión y cómo se comprobó. | ¿Qué muestra breve del proceso puede pedirse? |
+| Ofrecer opciones de acceso. | Que la actividad no cree desventajas. | ¿Quién podría quedar fuera y qué alternativa tiene? |
+| Aclarar quién responde. | Cada ámbito explica sus decisiones. | ¿Quién toma esta decisión y quién la revisa? |
+| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. | ¿Qué pasaría si hubiera que cambiar de herramienta? |
+| Volver a revisar. | Actualizar los acuerdos a partir de la experiencia y de los nuevos casos. | ¿Cuándo y con qué información se revisará el acuerdo? |
 
 Los criterios se consideran juntos y ayudan a decidir con contexto; ninguno decide por sí
 solo ni sustituye el análisis pedagógico, ético, normativo o disciplinar de cada caso.

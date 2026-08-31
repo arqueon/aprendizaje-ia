@@ -113,12 +113,12 @@ decisión y cómo se comprobó, en lugar de intentar adivinar si intervino una h
 Las cuatro maneras convergen en comprender el recorrido: qué se preguntó, qué se descartó,
 qué se transformó y por qué:
 
-| Manera de conocer | Qué permite comprender |
-|---|---|
-| Versiones sucesivas. | Comparar qué cambió y qué provocó el cambio. |
-| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. |
-| Conversación sobre el trabajo. | La persona explica una elección y responde una pregunta. |
-| Criterios explícitos. | El grupo sabe qué se observará; el profesorado conserva el juicio. |
+| Manera de conocer | Qué permite comprender | Cómo se recoge sin vigilar |
+|---|---|---|
+| Versiones sucesivas. | Comparar qué cambió y qué provocó el cambio. | Dos o tres cortes del trabajo bastan; no hace falta el historial completo. |
+| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. | Un párrafo breve de la propia persona, dentro del trabajo o junto a él. |
+| Conversación sobre el trabajo. | La persona explica una elección y responde una pregunta. | Unos minutos de intercambio en clase o en tutoría. |
+| Criterios explícitos. | El grupo sabe qué se observará; el profesorado conserva el juicio. | Se comparten antes de la actividad, no después. |
 
 Cada actividad puede elegir la muestra más pequeña que todavía ayude a interpretar el
 aprendizaje. Comprender una decisión aporta más que intentar detectar una herramienta.

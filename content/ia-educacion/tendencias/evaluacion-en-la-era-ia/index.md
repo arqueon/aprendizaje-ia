@@ -50,12 +50,12 @@ decisiones y cómo se comprobaron las respuestas. Añadir una muestra del recorr
 preguntó, qué se descartó, qué se transformó y por qué— ayuda a comprender el aprendizaje sin
 intentar adivinar si se usó IA:
 
-| Muestra posible | Qué permite comprender |
-|---|---|
-| Versiones sucesivas. | Qué cambió entre una versión y otra, y qué provocó el cambio. |
-| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. |
-| Conversación breve. | Una elección explicada por la propia persona. |
-| Criterios explícitos. | Qué se observará y con qué juicio se valorará. |
+| Muestra posible | Qué permite comprender | Qué no exige |
+|---|---|---|
+| Versiones sucesivas. | Qué cambió entre una versión y otra, y qué provocó el cambio. | Entregar todo el historial de trabajo. |
+| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. | Compartir la conversación completa con la herramienta. |
+| Conversación breve. | Una elección explicada por la propia persona. | Un interrogatorio ni una sospecha previa. |
+| Criterios explícitos. | Qué se observará y con qué juicio se valorará. | Vigilancia: anuncia el juicio en lugar de perseguir la falta. |
 
 Las cuatro muestras pueden adaptarse a cada disciplina. Una muestra breve puede explicar una
 decisión importante; no hace falta guardar cada clic ni toda la conversación con la herramienta.

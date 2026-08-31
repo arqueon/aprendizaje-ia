@@ -192,12 +192,12 @@ combinación orienta si se prueba, se preparan condiciones, se reformula o se es
 {{< udgia-figure id="udgia-f17-priorizacion" src="matriz-priorizacion.svg" >}}
 Antes de ampliar una iniciativa de IA, la figura propone considerar juntas cuatro preguntas:
 
-| Pregunta | Qué conviene tener claro antes de continuar |
-|---|---|
-| Necesidad educativa: ¿qué se quiere mejorar y para quién? | El aprendizaje esperado y las personas involucradas; si la necesidad no está clara, se reformula. |
-| Cuidados y responsabilidad: ¿protege aprendizaje, acceso, datos y decisiones humanas? | Los posibles daños, otra opción disponible y quién responderá; si faltan cuidados, se preparan primero. |
-| Capacidad para sostener: ¿hay personas, tiempo, infraestructura y apoyo? | Los recursos y quién sostendrá el trabajo cotidiano; si falta capacidad, se prepara antes de ampliar. |
-| Prueba y aprendizaje: ¿puede probarse, revisarse y detenerse? | Qué se observará, cuándo y qué haría detenerse; con revisión acordada, se prueba y aprende. |
+| Pregunta | Qué conviene tener claro antes de continuar | Si la respuesta es débil |
+|---|---|---|
+| Necesidad educativa: ¿qué se quiere mejorar y para quién? | El aprendizaje esperado y las personas involucradas. | Se reformula la iniciativa antes de seguir. |
+| Cuidados y responsabilidad: ¿protege aprendizaje, acceso, datos y decisiones humanas? | Los posibles daños, otra opción disponible y quién responderá. | Se preparan los cuidados antes de continuar. |
+| Capacidad para sostener: ¿hay personas, tiempo, infraestructura y apoyo? | Los recursos y quién sostendrá el trabajo cotidiano. | Se fortalece la capacidad antes de ampliar. |
+| Prueba y aprendizaje: ¿puede probarse, revisarse y detenerse? | Qué se observará, cuándo y qué haría detenerse. | Se acuerda la revisión y solo entonces se prueba. |
 
 Las cuatro respuestas, consideradas juntas, abren cuatro orientaciones:
 

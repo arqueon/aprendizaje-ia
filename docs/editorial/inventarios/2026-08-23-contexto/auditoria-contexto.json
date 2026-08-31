@@ -5229,7 +5229,7 @@
       "path": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
       "title": "Conservar la dirección del trabajo con IA",
       "role": "guia",
-      "words": 2072,
+      "words": 2076,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5654,7 +5654,7 @@
       "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
       "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
       "role": "guia",
-      "words": 2210,
+      "words": 2259,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5910,7 +5910,7 @@
       "path": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "role": "guia",
-      "words": 1774,
+      "words": 1832,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5941,8 +5941,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 48,
-            "text": "| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. |"
+            "line": 41,
+            "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         },
         "acciones": {
@@ -5970,7 +5970,7 @@
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
             "line": 41,
-            "text": "| Criterio de decisión | Qué cuida |"
+            "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         }
       },
@@ -9193,7 +9193,7 @@
       "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "role": "ruta",
-      "words": 1600,
+      "words": 1606,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9346,7 +9346,7 @@
       "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
       "title": "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",
       "role": "pagina",
-      "words": 898,
+      "words": 930,
       "dependencies": [],
       "signals": {
         "situacion": {

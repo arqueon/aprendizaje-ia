@@ -17,7 +17,7 @@
     "documents": 196,
     "pages": 166,
     "sections": 30,
-    "words": 148016,
+    "words": 148169,
     "assets": 236,
     "assetBytes": 50119782,
     "exactDuplicateAssetGroups": 4,
@@ -1199,7 +1199,7 @@
       "title": "Conservar la dirección del trabajo con IA",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 2106,
+      "words": 2110,
       "metadata": {
         "description": true,
         "summary": true,
@@ -9317,7 +9317,7 @@
       "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 2291,
+      "words": 2341,
       "metadata": {
         "description": true,
         "summary": true,
@@ -9497,7 +9497,7 @@
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 1783,
+      "words": 1842,
       "metadata": {
         "description": true,
         "summary": true,
@@ -17446,7 +17446,7 @@
       "title": "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 913,
+      "words": 946,
       "metadata": {
         "description": true,
         "summary": true,
@@ -20621,7 +20621,7 @@
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 1657,
+      "words": 1664,
       "metadata": {
         "description": true,
         "summary": true,

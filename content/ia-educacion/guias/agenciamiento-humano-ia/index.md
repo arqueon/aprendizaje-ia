@@ -124,10 +124,10 @@ La persona y la IA aportan cosas distintas al trabajo conjunto: la IA propone va
 señales; la persona conserva el juicio y el propósito. El recorrido —formular, contrastar,
 decidir y responder— gira alrededor de una pregunta: ¿quién comprueba y decide?
 
-| Decisión de la persona | Desenlace |
-|---|---|
-| Comprueba la respuesta y toma la decisión. | **La IA ayuda a pensar:** una objeción o un ejemplo inesperado obliga a revisar las propias ideas antes de aceptar una respuesta. |
-| Acepta la respuesta sin revisar. | **La IA sustituye el pensamiento:** la respuesta se copia o se valida sin comprenderla ni comprobarla, y la persona deja de practicar. |
+| Decisión de la persona | Qué ocurre con la respuesta | Desenlace |
+|---|---|---|
+| Comprueba la respuesta y toma la decisión. | Una objeción o un ejemplo inesperado obliga a revisar las propias ideas antes de aceptarla. | **La IA ayuda a pensar.** |
+| Acepta la respuesta sin revisar. | La respuesta se copia o se valida sin comprenderla ni comprobarla. | **La IA sustituye el pensamiento**, y la persona deja de practicar. |
 
 La decisión sigue siendo humana: conservarla convierte el trabajo conjunto en aprendizaje;
 cederla convierte la ayuda en sustitución.
