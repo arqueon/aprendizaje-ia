@@ -99,22 +99,22 @@ content/ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md,Gesti�
 content/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md,Integración de sistemas con IAG,pagina,659,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md,Investigación aplicada con IAG,pagina,756,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md,Investigación de campo con IAG,pagina,882,baja,lenguaje_directo,,pendiente,,
-content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md,Mapa conceptual con IAG,pagina,788,baja,lenguaje_directo,,pendiente,,
+content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md,Mapa conceptual con IAG,pagina,2091,baja,,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/metrologia/index.md,Metrología con IAG,pagina,657,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md,Modelado matemático con IAG,pagina,785,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/monografia/index.md,Monografía con IAG,pagina,944,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/nota/index.md,Nota con IAG,pagina,774,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md,Planos técnicos con IAG,pagina,755,baja,,,pendiente,,
-content/ia-educacion/productos-de-aprendizaje/presentacion/index.md,Presentación con IAG,pagina,806,baja,,,pendiente,,
+content/ia-educacion/productos-de-aprendizaje/presentacion/index.md,Presentación con IAG,pagina,2101,baja,,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/programacion/index.md,Programación con IAG,pagina,873,baja,,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/prototipo/index.md,Prototipo con IAG,pagina,779,baja,lenguaje_directo,,pendiente,,
-content/ia-educacion/productos-de-aprendizaje/proyecto/index.md,Proyecto con IAG,pagina,855,baja,lenguaje_directo,,pendiente,,
+content/ia-educacion/productos-de-aprendizaje/proyecto/index.md,Proyecto con IAG,pagina,2143,baja,,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md,Reporte técnico con IAG,pagina,812,baja,situacion|lenguaje_directo,,pendiente,,
 content/ia-educacion/productos-de-aprendizaje/resena/index.md,Reseña con IAG,pagina,821,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/que-es-la-educacion-digital/index.md,¿Qué es la educación digital?,pagina,2116,baja,,,pendiente,,
 content/ia-educacion/rutas/_index.md,Rutas por responsabilidad,navegacion,227,baja,,,cambiar,duplicación|navegación_deficiente,"No conviene quitarlo porque puede cumplir una función comparativa y agrupa las rutas hijas, pero actualmente duplica el selector de la página superior y no entrega la comparación prometida. Debe añadir diferencias de audiencia, decisión, alcance, punto de entrada y resultado esperado."
 content/ia-educacion/rutas/coordinacion-academica/index.md,Coordinar la IA en los procesos docentes,ruta,1602,baja,lenguaje_directo,,conservar,,"La ruta ya se declara prototipo-escenario, presenta un ejemplo hipotético y ofrece responsables, calendario, materiales, productos y criterios para decidir la continuidad de un piloto; no atribuye resultados observados."
-content/ia-educacion/rutas/decision-institucional-ia/index.md,Decidir institucionalmente sobre IA en la docencia,ruta,1606,baja,lenguaje_directo,,pendiente,,
+content/ia-educacion/rutas/decision-institucional-ia/index.md,Decidir institucionalmente sobre IA en la docencia,ruta,2450,baja,lenguaje_directo,,pendiente,,
 content/ia-educacion/tendencias/_index.md,Tendencias y políticas,navegacion,211,baja,acciones|lenguaje_directo,,pendiente,,
 content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md,"Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",pagina,930,baja,,,cambiar,atribucion_de_afirmaciones|afirmaciones_absolutas|sustento_insuficiente|salvaguardas_de_uso,"La pieza tiene fecha, procedencia y utilidad claras, por lo que no debe quitarse. Debe cambiarse para separar con mayor precisión las tesis de Liardi/Pearson de la síntesis editorial local, moderar afirmaciones absolutas y acompañar las recomendaciones de uso de IA con condiciones de validez, privacidad, acceso y revisión humana."
 content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md,IA en tutorías y mentoría estudiantil,pagina,1186,baja,lenguaje_directo,,cambiar,generalizacion-de-estudio|fecha-incorrecta|cifras-no-documentadas|transferencia-no-demostrada,"Se corrigió la fecha de Brookings, se acotó el ensayo a dos lecciones y un tutor con andamiaje experto, se retiraron cifras y comparaciones sin procedencia y se presentaron los riesgos como decisiones de diseño, no efectos inevitables."

@@ -8056,77 +8056,75 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
       "title": "Mapa conceptual con IAG",
       "role": "pagina",
-      "words": 788,
+      "words": 2091,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 101,
-            "text": "| Mapa v1 (sin IAG) | obligatoria | Borrador fechado antes de consultar IAG |"
+            "line": 42,
+            "text": "segunda es la **jerarquía**: ¿qué concepto abarca a cuáles, qué es un caso particular, qué"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 31,
-            "text": "Un mapa conceptual es la radiografía de cómo el estudiante entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si lo arma la IAG, deja de ser radiografía. Aquí evaluamos las decisiones de jerarquía y conexión."
+            "line": 32,
+            "text": "Un mapa conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si el mapa lo arma la IAG, la radiografía muestra el conocimiento del modelo, no el del estudiante. Esta guía prop"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 101,
-            "text": "| Mapa v1 (sin IAG) | obligatoria | Borrador fechado antes de consultar IAG |"
+            "line": 69,
+            "text": "contrastar el v1 con la IAG y con las fuentes del curso: cada cambio —un concepto añadido,"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 51,
-            "text": "| Nivel Bloom | Movimiento del mapa | Qué hace el estudiante | Prompt sugerido |"
+            "line": 42,
+            "text": "segunda es la **jerarquía**: ¿qué concepto abarca a cuáles, qué es un caso particular, qué"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar **(dominante)** | Jerarquización | Decide qué es general, qué subordinado y qué transversal | _\"¿Qué relaciones jerárquicas existen entre estos conceptos: [lista]?\"_ |"
+            "line": 64,
+            "text": "De esa idea sale el diseño de la actividad: el estudiante no entrega un mapa, entrega dos"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 31,
-            "text": "Un mapa conceptual es la radiografía de cómo el estudiante entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si lo arma la IAG, deja de ser radiografía. Aquí evaluamos las decisiones de jerarquía y conexión."
+            "line": 32,
+            "text": "Un mapa conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si el mapa lo arma la IAG, la radiografía muestra el conocimiento del modelo, no el del estudiante. Esta guía prop"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 68,
-            "text": "para no olvidar conceptos clave de la disciplina, pero filtra con criterio."
+            "line": 84,
+            "text": "lista con un criterio explícito: qué vio en el curso, qué exige la consigna, qué cabe en el"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/mapa-conceptual/index.md",
-            "line": 37,
-            "text": "explícitas entre ellos. Es a la vez instrumento de estudio, evidencia de"
+            "line": 64,
+            "text": "De esa idea sale el diseño de la actividad: el estudiante no entrega un mapa, entrega dos"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -8542,71 +8540,71 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
       "title": "Presentación con IAG",
       "role": "pagina",
-      "words": 806,
+      "words": 2101,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 119,
-            "text": "el guion debe existir antes de las diapositivas."
+            "line": 67,
+            "text": "antes de que el modelo opine."
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 38,
+            "text": "casi cualquier curso universitario incluye una exposición individual o en equipo. Y tiene"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 35,
+            "text": "## Diez minutos obligan a elegir"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 51,
+            "text": "El uso formativo invierte los papeles. El estudiante escribe primero su guion —con su"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 31,
-            "text": "Una presentación no se evalúa por la calidad de las diapositivas sino por la claridad con la que el estudiante decidió qué jerarquizar, qué ejemplo usar y qué pregunta del público anticipar. La IAG ayuda a estructurar y a anticipar; lo que "
+            "line": 32,
+            "text": "Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el inte"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/presentacion/index.md",
-            "line": 55,
-            "text": "| 4 — Analizar | Jerarquización del mensaje | Decide qué va primero, qué se desarrolla y qué se reserva | _\"De esta lista de ideas [lista], ¿cuáles son principales, cuáles secundarias y cuáles puedo omitir para 10 minutos?\"_ |"
+            "line": 51,
+            "text": "El uso formativo invierte los papeles. El estudiante escribe primero su guion —con su"
           }
         }
       },
@@ -8784,77 +8782,75 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
       "title": "Proyecto con IAG",
       "role": "pagina",
-      "words": 855,
+      "words": 2143,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 68,
-            "text": "El estudiante delimita el problema, los entregables y las restricciones"
+            "line": 32,
+            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que la produjo. Qué problema atacar, qué alternativas considerar, con qué criterios elegir y contra qué realidad validar. La IAG puede ampliar el horizonte d"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 31,
-            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que el estudiante tomó sobre qué construir, por qué esa alternativa y bajo qué criterios. La IAG puede ampliar el horizonte de opciones; lo que no puede hace"
+            "line": 50,
+            "text": "restricción real del contexto, y sobre todo no contiene ninguna decisión del equipo. El"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 95,
-            "text": "justificación puede generarse en minutos. Las evidencias clave son la matriz"
+            "line": 37,
+            "text": "Cuando un curso trabaja por proyectos, el documento final —el plan, el prototipo"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 51,
-            "text": "| Nivel Bloom | Movimiento del proyecto | Qué hace el estudiante | Prompt sugerido |"
+            "line": 56,
+            "text": "huecos en la viabilidad. Cada aporte es material para una decisión que el equipo toma y"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 54,
-            "text": "| 4 — Analizar | Exploración de alternativas | Genera y compara opciones distintas entre sí | _\"¿Qué alternativas de solución existen y cómo se comparan?\"_ |"
+            "line": 57,
+            "text": "documenta. En términos de Bloom, el producto recorre los niveles 3 a 6 —aplicar un encuadre,"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 103,
-            "text": "| Matriz alternativas × criterios | obligatoria | Tabla anterior al párrafo de justificación |"
+            "line": 47,
+            "text": "Aquí está el problema con la IAG, y también su oportunidad. Un modelo generativo produce en"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 31,
-            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que el estudiante tomó sobre qué construir, por qué esa alternativa y bajo qué criterios. La IAG puede ampliar el horizonte de opciones; lo que no puede hace"
+            "line": 32,
+            "text": "Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que la produjo. Qué problema atacar, qué alternativas considerar, con qué criterios elegir y contra qué realidad validar. La IAG puede ampliar el horizonte d"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/proyecto/index.md",
-            "line": 37,
-            "text": "de una propuesta concreta: un plan, un producto, un servicio o una"
+            "line": 57,
+            "text": "documenta. En términos de Bloom, el producto recorre los niveles 3 a 6 —aplicar un encuadre,"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -9275,14 +9271,14 @@
       "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "role": "ruta",
-      "words": 1606,
+      "words": 2450,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 58,
+            "line": 59,
             "text": "instancias que tengan atribuciones y a documentar qué debe confirmarse antes de actuar."
           }
         },
@@ -9290,7 +9286,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 92,
+            "line": 93,
             "text": "- qué proceso docente, formativo o institucional se quiere mejorar;"
           }
         },
@@ -9298,7 +9294,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 58,
+            "line": 59,
             "text": "instancias que tengan atribuciones y a documentar qué debe confirmarse antes de actuar."
           }
         },
@@ -9306,7 +9302,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 76,
+            "line": 77,
             "text": "responsabilidades; personas y equidad; datos, tecnología e infraestructura; portafolio y"
           }
         },
@@ -9314,7 +9310,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 70,
+            "line": 71,
             "text": "aprendizaje lo requieran, pero con responsabilidades, salvaguardas y rutas de consulta"
           }
         },
@@ -9322,7 +9318,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 68,
+            "line": 69,
             "text": "El resultado buscado tampoco es uniformar las asignaturas. Es construir un marco común para"
           }
         },
@@ -9330,7 +9326,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 50,
+            "line": 51,
             "text": "iniciativa avanza por separado, la universidad acumula costos, riesgos y criterios"
           }
         },
@@ -9338,7 +9334,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
-            "line": 75,
+            "line": 76,
             "text": "![Mapa ejecutivo de seis decisiones conectadas: propósito y alcance; gobernanza y"
           }
         }
