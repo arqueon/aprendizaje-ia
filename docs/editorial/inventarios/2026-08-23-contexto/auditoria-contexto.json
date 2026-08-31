@@ -19,18 +19,18 @@
     }
   },
   "totals": {
-    "documents": 196,
+    "documents": 198,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
       "media": 15,
-      "baja": 181
+      "baja": 183
     },
     "by_role": {
-      "articulo": 13,
+      "articulo": 14,
       "guia": 14,
       "navegacion": 30,
-      "pagina": 76,
+      "pagina": 77,
       "practica": 8,
       "recurso": 52,
       "ruta": 3
@@ -39,7 +39,7 @@
       "conservar": 21,
       "cambiar": 52,
       "quitar": 0,
-      "pendiente": 123
+      "pendiente": 125
     },
     "candidate_manual_pending": 0,
     "flagged_implementation_claims": 0,
@@ -4411,7 +4411,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/_index.md",
       "title": "Ética y transparencia en el uso de IA",
       "role": "navegacion",
-      "words": 446,
+      "words": 479,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -4438,7 +4438,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 39,
+            "line": 40,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4446,7 +4446,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 39,
+            "line": 40,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4547,6 +4547,88 @@
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
             "line": 38,
             "text": "- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia y alucinaciones."
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
+      "role": "pagina",
+      "words": 1333,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 19,
+            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 22,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 28,
+            "text": "Dentro de esa huella, la dimensión hídrica es la más opaca. Un estudio dedicado específicamente al agua estimó que entrenar un modelo grande puede evaporar cientos de miles de litros de agua dulce, un costo que los proveedores rara vez repo"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 19,
+            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+            "line": 26,
+            "text": "Lo mejor documentado es que la IA generativa tiene una base material considerable. Entrenar y utilizar estos sistemas consume energía y agua y genera emisiones asociadas a los centros de datos donde operan; la investigación sobre esa infrae"
           }
         }
       },
@@ -5910,7 +5992,7 @@
       "path": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "role": "guia",
-      "words": 1832,
+      "words": 1876,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10552,7 +10634,7 @@
       "path": "content/observatorio/estudios/_index.md",
       "title": "Estudios, encuestas y hallazgos",
       "role": "navegacion",
-      "words": 293,
+      "words": 363,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10596,14 +10678,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/_index.md",
             "line": 17,
-            "text": "El Digital Education Council reunió respuestas de estudiantes y profesorado de 29 instituciones. La Universidad de Guadalajara figura entre las instituciones participantes, pero el informe público no publica resultados desagregados por univ"
+            "text": "La SEP y la ANUIES levantaron el primer censo nacional sobre usos y percepciones de la IA generativa, con respuestas de más de 1.5 millones de estudiantes y 163 mil docentes de 2,900 instituciones. La ficha presenta las cifras con su proced"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/_index.md",
-            "line": 27,
+            "line": 33,
             "text": "### Más, no mejor: IA, incentivos y revisión por pares"
           }
         },
@@ -10789,7 +10871,7 @@
       "path": "content/observatorio/estudios/encuesta-dec-2026/index.md",
       "title": "Encuesta DEC 2026 — IA en educación superior",
       "role": "articulo",
-      "words": 559,
+      "words": 624,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10845,13 +10927,16 @@
           }
         },
         "lenguaje_directo": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
+            "line": 12,
+            "text": "La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales "
+          }
         }
       },
       "missing_expected_signals": [
-        "quien",
-        "lenguaje_directo"
+        "quien"
       ],
       "risk_flags": [],
       "automatic_priority": "baja",
@@ -10870,6 +10955,86 @@
         "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L79-88: Identifica al DEC y sus colaboradores y resume cuatro hallazgos regionales, pero no separa resultados del estudiantado y profesorado en todos los porcentajes ni explicita límites metodológicos.",
         "docs/editorial/rollback/2026-08-23-contexto-lote-03/content/observatorio/estudios/encuesta-dec-2026.md L90-97: Incrusta y enlaza el PDF completo, lo que preserva acceso a la fuente primaria local."
       ]
+    },
+    {
+      "path": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+      "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
+      "role": "articulo",
+      "words": 1245,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 16,
+            "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 42,
+            "text": "Para una academia o una coordinación, la recomendación razonable no es adoptar los porcentajes sino las preguntas que generan. Antes de acordar reglas, conviene averiguar si la propia comunidad conoce la normativa aplicable, qué usos declar"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 16,
+            "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 14,
+            "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 28,
+            "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 14,
+            "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 36,
+            "text": "Como interpretación, el resultado más incómodo no es el porcentaje de uso sino el cruce entre tres cifras: uso cotidiano arriba del 60%, tres cuartas partes que desconocen la normativa de su institución y menos de la mitad del profesorado r"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
+            "line": 28,
+            "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/observatorio/estudios/habitar-ia-simondon/index.md",
@@ -14084,7 +14249,7 @@
       "path": "content/recursos/glosario/soberania-tecnologica/index.md",
       "title": "Soberanía tecnológica",
       "role": "recurso",
-      "words": 155,
+      "words": 204,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -14100,8 +14265,12 @@
           "evidence": null
         },
         "momento_entorno": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 17,
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
+          }
         },
         "material_inicial": {
           "present": true,
@@ -14124,12 +14293,16 @@
           "evidence": {
             "source": "content/recursos/glosario/soberania-tecnologica/index.md",
             "line": 17,
-            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
           }
         },
         "lenguaje_directo": {
           "present": false,
-          "evidence": null
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 17,
+            "text": "Conservar opciones también incluye la escala de lo que se adopta: antes de contratar el servicio más grande disponible cabe preguntar si el beneficio justifica sus recursos y su costo ambiental, un criterio que la guía de [costos ecológicos"
+          }
         }
       },
       "missing_expected_signals": [
@@ -14951,7 +15124,7 @@
       "path": "content/recursos/politica-ia-udeg/index.md",
       "title": "Sugerencias y criterios para pensar una política de IA en la UdeG",
       "role": "recurso",
-      "words": 2138,
+      "words": 2187,
       "dependencies": [],
       "signals": {
         "situacion": {

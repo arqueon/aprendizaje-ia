@@ -2,15 +2,15 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 196,
-    "pages": 166,
+    "markdown": 198,
+    "pages": 168,
     "sections": 30,
-    "words": 148169,
-    "assets": 236,
-    "content_assets": 234,
+    "words": 151051,
+    "assets": 238,
+    "content_assets": 236,
     "shared_figure_assets": 2,
-    "pages_with_featured": 177,
-    "pages_with_svg": 30,
+    "pages_with_featured": 179,
+    "pages_with_svg": 32,
     "pages_with_tables": 67,
     "pages_with_mermaid": 15,
     "pages_with_h5p": 19,
@@ -21,7 +21,7 @@
     "missing_description": 0,
     "missing_summary": 6,
     "missing_date_pages": 0,
-    "citation_without_reference_heading": 31,
+    "citation_without_reference_heading": 32,
     "legacy_glossary_link_occurrences": 0,
     "broken_internal_link_occurrences": 0
   },
@@ -82,15 +82,15 @@
       "missing_refs_with_citations": 16
     },
     "ia-educacion": {
-      "pages": 60,
+      "pages": 61,
       "sections": 8,
-      "words": 64104,
-      "featured": 62,
-      "svg": 20,
+      "words": 65499,
+      "featured": 63,
+      "svg": 21,
       "h5p": 4,
       "tables": 118,
       "weak_lt250": 3,
-      "missing_refs_with_citations": 13
+      "missing_refs_with_citations": 14
     },
     "laboratorio": {
       "pages": 7,
@@ -115,11 +115,11 @@
       "missing_refs_with_citations": 0
     },
     "observatorio": {
-      "pages": 10,
+      "pages": 11,
       "sections": 4,
-      "words": 11214,
-      "featured": 14,
-      "svg": 5,
+      "words": 12601,
+      "featured": 15,
+      "svg": 6,
       "h5p": 0,
       "tables": 14,
       "weak_lt250": 0,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 52,
       "sections": 5,
-      "words": 20699,
+      "words": 20799,
       "featured": 55,
       "svg": 13,
       "h5p": 0,
@@ -212,7 +212,7 @@
       "diseno-curricular": 1,
       "taller": 1,
       "backward design": 1,
-      "formación docente": 5,
+      "formación docente": 6,
       "rúbricas": 2,
       "taxonomia-bloom": 1,
       "diseno-inverso": 1,
@@ -226,9 +226,13 @@
       "introducción a la IA": 1,
       "aprendizaje": 7,
       "docencia": 1,
-      "alfabetización en IA": 2,
+      "alfabetización en IA": 3,
       "cognitive-offloading": 1,
       "etica-ia": 2,
+      "huella ambiental": 1,
+      "proporcionalidad": 1,
+      "sostenibilidad": 1,
+      "decisiones tecnológicas": 1,
       "lineamientos": 1,
       "política internacional": 1,
       "marco de competencias": 1,
@@ -238,8 +242,8 @@
       "gobernanza": 5,
       "ANUIES": 1,
       "regulación": 1,
-      "México": 1,
-      "política educativa": 2,
+      "México": 2,
+      "política educativa": 3,
       "marco institucional": 1,
       "plagio": 2,
       "integridad-academica": 1,
@@ -421,6 +425,8 @@
       "publicación académica": 1,
       "incentivos": 1,
       "calidad científica": 1,
+      "encuesta nacional": 1,
+      "adopción de IA": 1,
       "cultura digital": 1,
       "mundoambiente": 1,
       "Simondon": 1,
@@ -509,7 +515,7 @@
     "categories": {
       "opinion": 5,
       "marco-conceptual": 5,
-      "guia": 22,
+      "guia": 23,
       "metodologia-pedagogica": 6,
       "marco-institucional": 1,
       "ruta-de-aprendizaje": 2,
@@ -521,7 +527,7 @@
       "tendencia": 4,
       "practica-pedagogica": 5,
       "recurso-institucional": 7,
-      "estudio": 4,
+      "estudio": 5,
       "articulo": 7,
       "metodologia": 3,
       "recursos": 1,
@@ -530,12 +536,12 @@
       "video": 2
     },
     "areas": {
-      "ia": 154,
+      "ia": 156,
       "pedagogia": 128,
       "digital": 35,
-      "formacion": 56,
+      "formacion": 57,
       "evaluacion": 51,
-      "etica": 19
+      "etica": 20
     },
     "tag_variant_collisions": [
       {
@@ -3718,13 +3724,13 @@
         "ia",
         "etica"
       ],
-      "words": 478,
+      "words": 514,
       "heading_count": 2,
       "h2_count": 2,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 17,
+      "internal_link_count": 19,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -3743,7 +3749,9 @@
         ]
       },
       "decision": "actualizar",
-      "needs": []
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
@@ -3798,6 +3806,59 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
+        "procedencia"
+      ]
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "route": "/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/",
+      "kind": "page",
+      "section": "ia-educacion",
+      "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Qué se sabe y qué no se sabe sobre la huella ambiental de la IA generativa, y cómo el criterio de proporcionalidad —ajustar la herramienta al tamaño real de la tarea— permite decidir en el aula y en la institución sin catastrofismo ni negación.",
+      "summary": "La pregunta ambiental que cabe en una decisión docente: ¿hace falta un modelo grande para esta tarea? Qué sabemos de la huella energética e hídrica de la IA, qué sigue opaco y qué decisión razonable puede tomarse hoy.",
+      "tags": [
+        "huella ambiental",
+        "proporcionalidad",
+        "sostenibilidad",
+        "decisiones tecnológicas",
+        "alfabetización en IA"
+      ],
+      "categories": [
+        "guia"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 1314,
+      "heading_count": 4,
+      "h2_count": 4,
+      "external_url_count": 7,
+      "citation_signals": 7,
+      "reference_heading": false,
+      "internal_link_count": 5,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis",
+        "interaccion-candidata",
         "procedencia"
       ]
     },
@@ -4677,13 +4738,13 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1842,
+      "words": 1887,
       "heading_count": 27,
       "h2_count": 7,
       "external_url_count": 4,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8079,13 +8140,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 303,
-      "heading_count": 4,
+      "words": 377,
+      "heading_count": 5,
       "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 3,
+      "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8226,13 +8287,13 @@
         "evaluacion",
         "digital"
       ],
-      "words": 566,
+      "words": 633,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 1,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8252,6 +8313,55 @@
       "decision": "actualizar",
       "needs": [
         "svg-diagrama"
+      ]
+    },
+    {
+      "path": "observatorio/estudios/encuesta-eniag-mexico/index.md",
+      "route": "/observatorio/estudios/encuesta-eniag-mexico/",
+      "kind": "page",
+      "section": "observatorio",
+      "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Qué midió el primer censo nacional sobre IA generativa en la educación superior de México, qué cifras reporta, con qué límites deben leerse y qué preguntas dejan abiertas para una universidad concreta.",
+      "summary": "Lectura metodológica del primer censo nacional sobre IA generativa en la educación superior mexicana: uso extendido, normativa desconocida, demanda masiva de formación y datos que ninguna institución debe trasladar a su comunidad sin diagnóstico propio.",
+      "tags": [
+        "encuesta nacional",
+        "adopción de IA",
+        "formación docente",
+        "política educativa",
+        "México"
+      ],
+      "categories": [
+        "estudio"
+      ],
+      "areas": [
+        "ia",
+        "formacion"
+      ],
+      "words": 1246,
+      "heading_count": 5,
+      "h2_count": 5,
+      "external_url_count": 2,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 4,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis"
       ]
     },
     {
@@ -10333,13 +10443,13 @@
         "ia",
         "etica"
       ],
-      "words": 157,
+      "words": 207,
       "heading_count": 0,
       "h2_count": 0,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 5,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -10902,13 +11012,13 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 2143,
+      "words": 2193,
       "heading_count": 17,
       "h2_count": 7,
       "external_url_count": 8,
       "citation_signals": 6,
       "reference_heading": true,
-      "internal_link_count": 2,
+      "internal_link_count": 3,
       "broken_internal_links": [],
       "visual": {
         "featured": true,

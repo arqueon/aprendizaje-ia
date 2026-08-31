@@ -3,9 +3,9 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "5ecaabdc8209c760cdd5d309b5b8a0b42bad7a4a215adce9f5aaca5d7593bb1b",
+  "sourceInventorySha256": "3f8899afedb3d07198e150a6c6516adc3e3b8eb59e81a0f2df322fa36b9cc291",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
-  "classificationSourceSha256": "d38e986481485f422974a7cd8004afc3f6a978403dac385318349a6e7fb53491",
+  "classificationSourceSha256": "34f3a4063d2efe303ba72a3bfcca314b91978fb19c06d831d2d7d568da7cc843",
   "regeneratedBy": "npm run content:learning-classifications",
   "provenance": {
     "method": "Cruce por ruta exacta entre el inventario Hugo y la fuente clasificatoria canónica local.",
@@ -31,29 +31,29 @@
       "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
     ]
   },
-  "classifiedPageCount": 196,
+  "classifiedPageCount": 198,
   "classificationCounts": {
-    "apoyo-candidato": 38,
+    "apoyo-candidato": 39,
     "banco-de-practicas": 13,
     "banco-ejemplos-disciplinarios": 27,
     "fuera-del-recorrido-inicial": 5,
     "navegacion": 30,
     "nucleo-candidato": 10,
     "referencia-en-cuarentena": 3,
-    "referencia-opcional": 70
+    "referencia-opcional": 71
   },
   "actionCounts": {
     "conservar-como-entorno-o-demostracion": 2,
     "conservar-como-navegacion": 29,
     "conservar-como-profundizacion": 7,
-    "conservar-fuera-del-recorrido-obligatorio": 26,
+    "conservar-fuera-del-recorrido-obligatorio": 27,
     "fusionar-o-desduplicar": 5,
     "no-incorporar-al-curso": 3,
     "preservar-como-ejemplo-no-obligatorio": 27,
     "reescribir-antes-de-enlazar": 6,
     "reutilizar-con-ajustes": 23,
     "revisar-contra-bloom-e-icap": 7,
-    "revisar-en-fase-editorial": 53,
+    "revisar-en-fase-editorial": 54,
     "verificar-vigencia-antes-de-enlazar": 8
   },
   "pages": [
@@ -754,7 +754,7 @@
       "route": "/ia-educacion/etica-y-transparencia/",
       "title": "Ética y transparencia en el uso de IA",
       "kind": "section",
-      "words": 478,
+      "words": 514,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -776,6 +776,22 @@
         "comun"
       ],
       "razon": "Da el marco critico para examinar sistemas y practicas, con mediacion narrativa antes del vocabulario especializado."
+    },
+    {
+      "path": "ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
+      "route": "/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/",
+      "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
+      "kind": "page",
+      "words": 1314,
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M2"
+      ],
+      "rutas": [
+        "comun"
+      ],
+      "razon": "Aporta el criterio de proporcionalidad y la dimension ambiental como insumo etico; debe vincularse con una decision concreta antes de entrar al recorrido."
     },
     {
       "path": "ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
@@ -1044,7 +1060,7 @@
       "route": "/ia-educacion/guias/lineamientos-eticos-ia/",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "kind": "page",
-      "words": 1842,
+      "words": 1887,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -2049,7 +2065,7 @@
       "route": "/observatorio/estudios/",
       "title": "Estudios, encuestas y hallazgos",
       "kind": "section",
-      "words": 303,
+      "words": 377,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -2091,7 +2107,22 @@
       "route": "/observatorio/estudios/encuesta-dec-2026/",
       "title": "Encuesta DEC 2026 — IA en educación superior",
       "kind": "page",
-      "words": 566,
+      "words": 633,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "observatorio/estudios/encuesta-eniag-mexico/index.md",
+      "route": "/observatorio/estudios/encuesta-eniag-mexico/",
+      "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
+      "kind": "page",
+      "words": 1246,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
@@ -2761,7 +2792,7 @@
       "route": "/recursos/glosario/soberania-tecnologica/",
       "title": "Soberanía tecnológica",
       "kind": "page",
-      "words": 157,
+      "words": 207,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [],
@@ -2939,7 +2970,7 @@
       "route": "/recursos/politica-ia-udeg/",
       "title": "Sugerencias y criterios para pensar una política de IA en la UdeG",
       "kind": "page",
-      "words": 2143,
+      "words": 2193,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
