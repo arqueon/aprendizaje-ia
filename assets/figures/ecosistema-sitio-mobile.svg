@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1120" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Un ecosistema para la práctica docente</title>
+  <desc id="desc">Versión vertical: dentro de un marco de uso responsable e integración al currículo,
+    la práctica docente recorre cinco momentos en ciclo —orientarse en IA en Educación, experimentar
+    en el Laboratorio, comprender en el Observatorio, equiparse en Recursos y desarrollarse en
+    Formación Docente— y el recorrido puede volver a empezar; cada paso enriquece la práctica.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Material editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
+  <style>
+    .fig-canvas { fill:#f5f3ee; }
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; }
+    .bg-primary { fill:#e7ecf7; } .bg-neutral { fill:#ece9e1; }
+    .st-primary { stroke:#34508c; } .st-axis { stroke:#18223c; }
+    /* Familias de sección (identidad C): tinta, ocre, almagre, oliva */
+    .f-tinta { fill:#565f75; } .bg-tinta { fill:#e9ebf1; } .st-tinta { stroke:#656f85; }
+    .f-ocre { fill:#7c4a12; } .bg-ocre { fill:#f6e8d4; } .st-ocre { stroke:#b06a1f; }
+    .f-almagre { fill:#8b2635; } .bg-almagre { fill:#f8e7ea; } .st-almagre { stroke:#b12028; }
+    .f-oliva { fill:#536326; } .bg-oliva { fill:#eceddc; } .st-oliva { stroke:#68762f; }
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
+       ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
+       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+    @media (prefers-color-scheme: dark) {
+      .fig-canvas { fill:#131c31; }
+      .f-ink, .ink { fill:#eceee9; }
+      .f-muted, .muted { fill:#a7b0c4; }
+      .f-primary, .primary { fill:#8ba3d6; }
+      .bg-primary { fill:#243352; } .bg-neutral { fill:#212d4c; }
+      .st-primary { stroke:#8ba3d6; } .st-axis { stroke:#eceee9; }
+      .f-tinta { fill:#a3abc0; } .bg-tinta { fill:#232c44; } .st-tinta { stroke:#7e88a3; }
+      .f-ocre { fill:#dfb079; } .bg-ocre { fill:#3a2c17; } .st-ocre { stroke:#c98b43; }
+      .f-almagre { fill:#d98b8f; } .bg-almagre { fill:#40222a; } .st-almagre { stroke:#cc615f; }
+      .f-oliva { fill:#b9c47a; } .bg-oliva { fill:#2b331f; } .st-oliva { stroke:#96a14c; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow-m" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" class="f-ink"/>
+    </marker>
+  </defs>
+  <rect class="fig-canvas" x="0" y="0" width="420" height="1120"/>
+  <g class="tk-font">
+    <!-- encabezado -->
+    <rect x="16" y="18" width="388" height="78" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="210" y="52" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Un ecosistema para la práctica docente</text>
+    <text x="210" y="80" text-anchor="middle" font-size="11.5" class="f-ink">Cinco momentos en ciclo, dentro de dos compromisos</text>
+
+    <!-- capa transversal: marco de compromisos -->
+    <rect x="12" y="126" width="396" height="938" rx="10" fill="none" class="st-primary" stroke-width="2.2"/>
+    <rect x="58" y="113" width="304" height="26" rx="13" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="210" y="131" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-primary">Uso responsable · ética y transparencia</text>
+    <rect x="100" y="1051" width="220" height="26" rx="13" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="210" y="1069" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-primary">Integración al currículo</text>
+
+    <!-- la práctica -->
+    <rect x="40" y="152" width="340" height="84" rx="3" class="bg-primary st-primary" stroke-width="2"/>
+    <text x="210" y="182" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">Tu práctica docente</text>
+    <text x="210" y="204" text-anchor="middle" font-size="11.5" class="f-ink">Entra por cualquier momento;</text>
+    <text x="210" y="221" text-anchor="middle" font-size="11.5" class="f-ink">cada recorrido la enriquece</text>
+
+    <!-- estación 1: orientarse (añil) -->
+    <rect x="64" y="286" width="320" height="104" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="224" y="316" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">1 · Orientarse</text>
+    <text x="224" y="337" text-anchor="middle" font-size="10.5" letter-spacing="1" class="f-muted">IA EN EDUCACIÓN</text>
+    <text x="224" y="362" text-anchor="middle" font-size="12" class="f-ink">Guías y rutas para decidir con criterio</text>
+
+    <line x1="224" y1="396" x2="224" y2="426" class="st-axis" stroke-width="1.8" marker-end="url(#arrow-m)"/>
+
+    <!-- estación 2: experimentar (tinta) -->
+    <rect x="64" y="434" width="320" height="104" rx="3" class="bg-tinta st-tinta" stroke-width="1.6"/>
+    <text x="224" y="464" text-anchor="middle" font-size="15" font-weight="bold" class="f-tinta">2 · Experimentar</text>
+    <text x="224" y="485" text-anchor="middle" font-size="10.5" letter-spacing="1" class="f-muted">LABORATORIO</text>
+    <text x="224" y="510" text-anchor="middle" font-size="12" class="f-ink">Prueba prácticas reales en el aula</text>
+
+    <line x1="224" y1="544" x2="224" y2="574" class="st-axis" stroke-width="1.8" marker-end="url(#arrow-m)"/>
+
+    <!-- estación 3: comprender (ocre) -->
+    <rect x="64" y="582" width="320" height="104" rx="3" class="bg-ocre st-ocre" stroke-width="1.6"/>
+    <text x="224" y="612" text-anchor="middle" font-size="15" font-weight="bold" class="f-ocre">3 · Comprender</text>
+    <text x="224" y="633" text-anchor="middle" font-size="10.5" letter-spacing="1" class="f-muted">OBSERVATORIO</text>
+    <text x="224" y="658" text-anchor="middle" font-size="12" class="f-ink">Analiza evidencia y tendencias</text>
+
+    <line x1="224" y1="692" x2="224" y2="722" class="st-axis" stroke-width="1.8" marker-end="url(#arrow-m)"/>
+
+    <!-- estación 4: equiparse (almagre) -->
+    <rect x="64" y="730" width="320" height="104" rx="3" class="bg-almagre st-almagre" stroke-width="1.6"/>
+    <text x="224" y="760" text-anchor="middle" font-size="15" font-weight="bold" class="f-almagre">4 · Equiparse</text>
+    <text x="224" y="781" text-anchor="middle" font-size="10.5" letter-spacing="1" class="f-muted">RECURSOS</text>
+    <text x="224" y="806" text-anchor="middle" font-size="12" class="f-ink">Materiales y herramientas listos</text>
+
+    <line x1="224" y1="840" x2="224" y2="870" class="st-axis" stroke-width="1.8" marker-end="url(#arrow-m)"/>
+
+    <!-- estación 5: desarrollarse (oliva) -->
+    <rect x="64" y="878" width="320" height="104" rx="3" class="bg-oliva st-oliva" stroke-width="1.6"/>
+    <text x="224" y="908" text-anchor="middle" font-size="15" font-weight="bold" class="f-oliva">5 · Desarrollarse</text>
+    <text x="224" y="929" text-anchor="middle" font-size="10.5" letter-spacing="1" class="f-muted">FORMACIÓN DOCENTE</text>
+    <text x="224" y="954" text-anchor="middle" font-size="12" class="f-ink">Capacidad para sostener el cambio</text>
+
+    <!-- retorno del ciclo -->
+    <path d="M 60,930 H 38 V 338 H 56" fill="none" class="st-axis" stroke-width="1.8" marker-end="url(#arrow-m)"/>
+  </g>
+</svg>

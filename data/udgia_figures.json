@@ -210,5 +210,32 @@
     "institutional_policy_status": "not-an-institutional-ruling",
     "notice": "Sustituye desde 2026-08-30 a los cinco movimientos de la generación anterior; síntesis generalizable de la rutina M3 que no afirma validación institucional del prototipo.",
     "publication_authorized": true
+  },
+  "udgia-f19-ecosistema-sitio": {
+    "title": "Un ecosistema para la práctica docente",
+    "alt": "Ciclo del ecosistema: dentro de un marco de uso responsable e integración al currículo, la práctica docente recorre cinco momentos —orientarse en IA en Educación, experimentar en el Laboratorio, comprender en el Observatorio, equiparse en Recursos y desarrollarse en Formación Docente— y puede volver a empezar; cada recorrido la enriquece.",
+    "caption": "Cada sección del sitio es un momento del ciclo; los dos compromisos del marco acompañan cualquier recorrido.",
+    "source_version": "sitio",
+    "source_revision": "71cf02bae7037a9d71dd36fdf61264702a761708",
+    "source_sha256": "37b7ad716bb24b9fb5d3b9807e9e672620a2240119cd3219eea883b3b1e6d6cc",
+    "variant_sha256": "37b7ad716bb24b9fb5d3b9807e9e672620a2240119cd3219eea883b3b1e6d6cc",
+    "storage": "shared",
+    "src": "figures/ecosistema-sitio.svg",
+    "src_mobile": "figures/ecosistema-sitio-mobile.svg",
+    "reuse_key": "ecosistema-sitio",
+    "reusable_contexts": [
+      "presentaciones del proyecto",
+      "materiales de difusión docente"
+    ],
+    "mobile_variant_sha256": "f54fdfb049a9ed90c4c5e5370dfa74530334cf834be9702d9fce6ca250285d74",
+    "adaptation": "hugo-identidad-c",
+    "provenance_kind": "original-synthesis",
+    "source_basis": "Arquitectura de secciones del propio sitio (síntesis original, sin autoridad externa)",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+    "editorial_scope": "Material editorial del proyecto; no constituye un dictamen institucional.",
+    "authorization_scope": "project-editorial",
+    "institutional_policy_status": "not-an-institutional-ruling",
+    "publication_authorized": true
   }
 }
