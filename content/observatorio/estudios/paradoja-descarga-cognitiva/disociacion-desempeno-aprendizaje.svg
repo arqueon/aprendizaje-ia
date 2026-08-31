@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">La disociación entre desempeño y aprendizaje: el efecto muleta y su mitigación</title>
-  <desc id="desc">Dos paneles esquemáticos. En el izquierdo, acceso sin orientación pedagógica: durante la práctica
-    con IA el desempeño sube muy por encima del grupo de control, pero al evaluar sin IA cae por debajo
-    de quienes nunca la usaron; es el efecto muleta. En el derecho, una asistencia que ofrece pistas en lugar de soluciones
-    que dosifica pistas en lugar de soluciones: el desempeño sube durante la práctica y, al evaluar sin IA,
-    la caída frente al grupo de control se mitiga. La leyenda central concluye que la diferencia no es solo
-    el modelo, sino el método.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">¿Qué queda cuando se retira la IA? La misma herramienta con o sin orientación pedagógica</title>
+  <desc id="desc">Gráfica de un solo panel con dos momentos, la práctica con IA y la evaluación sin IA.
+    Una línea discontinua horizontal marca el nivel del grupo que practicó sin IA. Durante la práctica,
+    los dos grupos que usan IA rinden por encima de esa referencia. En la evaluación sin IA se separan.
+    El grupo sin orientación pedagógica, al que la IA entregaba la solución completa, cae por debajo
+    del grupo que nunca la usó; es el efecto muleta. El grupo con orientación pedagógica, al que la IA
+    daba pistas dosificadas, termina al nivel del grupo que practicó sin IA y conserva lo aprendido.
+    La diferencia no está en el modelo, está en el método.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
@@ -17,86 +18,69 @@
     .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
     .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
     .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
+    .dot-ink { fill:#18223c; } .dot-risk { fill:#8b2635; } .dot-good { fill:#536326; }
 
     /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
        clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
        ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
-       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
-       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6. */
     @media (prefers-color-scheme: dark) {
       .fig-canvas { fill:#131c31; }
-      .f-ink, .ink { fill:#eceee9; }
-      .f-muted, .muted { fill:#a7b0c4; }
-      .f-primary, .primary { fill:#8ba3d6; }
-      .f-good, .good { fill:#b9c47a; }
-      .f-risk, .risk { fill:#d98b8f; }
+      .f-ink { fill:#eceee9; }
+      .f-muted { fill:#a7b0c4; }
+      .f-primary { fill:#8ba3d6; }
+      .f-good { fill:#b9c47a; }
+      .f-risk { fill:#d98b8f; }
       .bg-primary { fill:#243352; } .bg-good { fill:#2b331f; } .bg-risk { fill:#40222a; }
       .bg-neutral { fill:#212d4c; } .bg-warn { fill:#3a2c17; }
       .st-primary { stroke:#8ba3d6; } .st-good { stroke:#b9c47a; } .st-risk { stroke:#d98b8f; }
-      .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
+      .st-warn { stroke:#caa06a; } .st-axis { stroke:#eceee9; }
+      .dot-ink { fill:#eceee9; } .dot-risk { fill:#d98b8f; } .dot-good { fill:#b9c47a; }
     }
   </style>
 
-  <rect class="fig-canvas" x="0" y="0" width="880" height="500"/>
+  <rect class="fig-canvas" x="0" y="0" width="880" height="520"/>
   <g class="tk-font">
-    <!-- ===== Panel izquierdo: la herramienta entrega la solución ===== -->
-    <rect x="40" y="40" width="380" height="330" rx="2" class="bg-risk st-risk" stroke-width="1.5" fill-opacity="0.35"/>
-    <text x="230" y="70" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-risk">Acceso sin orientación pedagógica</text>
-    <text x="230" y="89" text-anchor="middle" font-size="12" class="f-muted">La IA entrega la solución</text>
+    <!-- ===== Título ===== -->
+    <text x="440" y="40" text-anchor="middle" font-size="18" font-weight="bold" class="f-ink">¿Qué queda cuando se retira la IA?</text>
+    <text x="440" y="61" text-anchor="middle" font-size="13" class="f-muted">La misma herramienta produce resultados opuestos con o sin orientación pedagógica</text>
 
-    <!-- ejes -->
-    <line x1="85" y1="330" x2="395" y2="330" class="st-axis" stroke-width="1.3"/>
-    <line x1="85" y1="330" x2="85" y2="110" class="st-axis" stroke-width="1.3"/>
-    <text x="78" y="225" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink" transform="rotate(-90 70 225)">Desempeño</text>
-    <text x="165" y="350" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">Práctica con IA</text>
-    <text x="330" y="350" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">Evaluación sin IA</text>
+    <!-- ===== Ejes ===== -->
+    <line x1="150" y1="400" x2="740" y2="400" class="st-axis" stroke-width="1.4"/>
+    <line x1="150" y1="400" x2="150" y2="100" class="st-axis" stroke-width="1.4"/>
+    <text x="128" y="250" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink" transform="rotate(-90 128 250)">Desempeño</text>
+    <text x="280" y="424" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">Durante la práctica con IA</text>
+    <text x="610" y="424" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">En la evaluación sin IA</text>
 
-    <!-- control (línea discontinua) -->
-    <line x1="165" y1="245" x2="330" y2="245" class="st-axis" stroke-width="2" stroke-dasharray="6 5"/>
-    <circle cx="165" cy="245" r="4.5" class="f-ink"/>
-    <circle cx="330" cy="245" r="4.5" class="f-ink"/>
+    <!-- ===== Referencia: grupo que practicó sin IA ===== -->
+    <line x1="280" y1="300" x2="610" y2="300" class="st-axis" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="280" cy="300" r="4.5" class="dot-ink"/>
+    <circle cx="610" cy="300" r="4.5" class="dot-ink"/>
+    <text x="268" y="304" text-anchor="end" font-size="12" class="f-muted">Grupo que practicó sin IA</text>
 
-    <!-- con IA -->
-    <line x1="165" y1="140" x2="330" y2="290" class="st-risk" stroke-width="2.6"/>
-    <circle cx="165" cy="140" r="5" class="f-risk"/>
-    <circle cx="330" cy="290" r="5" class="f-risk"/>
-    <text x="172" y="132" font-size="11.5" class="f-risk">Rinde más mientras la usa</text>
-    <text x="330" y="312" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-risk">Queda por debajo</text>
+    <!-- ===== Sin orientación pedagógica (la IA entrega la solución) ===== -->
+    <line x1="280" y1="148" x2="610" y2="352" class="st-risk" stroke-width="2.8"/>
+    <circle cx="280" cy="148" r="5.5" class="dot-risk"/>
+    <circle cx="610" cy="352" r="5.5" class="dot-risk"/>
+    <text x="268" y="152" text-anchor="end" font-size="12" class="f-risk">La IA entrega la solución completa</text>
+    <text x="626" y="348" font-size="13.5" font-weight="bold" class="f-risk">Sin orientación pedagógica</text>
+    <text x="626" y="365" font-size="12" class="f-risk">queda por debajo del grupo sin IA</text>
+    <text x="626" y="381" font-size="12" class="f-muted">(efecto muleta)</text>
 
-    <text x="230" y="395" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-risk">Efecto muleta</text>
-    <text x="230" y="412" text-anchor="middle" font-size="11.5" class="f-muted">La herramienta sustituyó el esfuerzo</text>
+    <!-- ===== Con orientación pedagógica (pistas dosificadas) ===== -->
+    <line x1="280" y1="176" x2="610" y2="300" class="st-good" stroke-width="2.8"/>
+    <circle cx="280" cy="176" r="5.5" class="dot-good"/>
+    <circle cx="610" cy="300" r="8" fill="none" class="st-good" stroke-width="2.8"/>
+    <text x="268" y="180" text-anchor="end" font-size="12" class="f-good">La IA da pistas dosificadas</text>
+    <text x="626" y="288" font-size="13.5" font-weight="bold" class="f-good">Con orientación pedagógica</text>
+    <text x="626" y="305" font-size="12" class="f-good">conserva lo aprendido, al nivel</text>
+    <text x="626" y="321" font-size="12" class="f-good">del grupo que practicó sin IA</text>
 
-    <!-- ===== Panel derecho: con andamiaje ===== -->
-    <rect x="460" y="40" width="380" height="330" rx="2" class="bg-good st-good" stroke-width="1.5" fill-opacity="0.35"/>
-    <text x="650" y="70" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Con pistas en lugar de soluciones</text>
-    <text x="650" y="89" text-anchor="middle" font-size="12" class="f-muted">Pistas dosificadas, no soluciones</text>
+    <!-- ===== Nota sobre la práctica ===== -->
+    <text x="280" y="118" text-anchor="middle" font-size="12" font-style="italic" class="f-muted">Con IA, ambos grupos rinden más durante la práctica</text>
 
-    <!-- ejes -->
-    <line x1="505" y1="330" x2="815" y2="330" class="st-axis" stroke-width="1.3"/>
-    <line x1="505" y1="330" x2="505" y2="110" class="st-axis" stroke-width="1.3"/>
-    <text x="498" y="225" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink" transform="rotate(-90 490 225)">Desempeño</text>
-    <text x="585" y="350" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">Práctica con IA</text>
-    <text x="750" y="350" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-ink">Evaluación sin IA</text>
-
-    <!-- control -->
-    <line x1="585" y1="245" x2="750" y2="245" class="st-axis" stroke-width="2" stroke-dasharray="6 5"/>
-    <circle cx="585" cy="245" r="4.5" class="f-ink"/>
-    <circle cx="750" cy="245" r="4.5" class="f-ink"/>
-
-    <!-- con IA andamiada -->
-    <line x1="585" y1="130" x2="750" y2="245" class="st-good" stroke-width="2.6"/>
-    <circle cx="585" cy="130" r="5" class="f-good"/>
-    <circle cx="750" cy="245" r="5" class="f-good"/>
-    <text x="592" y="122" font-size="11.5" class="f-good">Gana más practicando</text>
-    <text x="750" y="228" text-anchor="middle" font-size="11.5" font-weight="bold" class="f-good">mitiga la caída</text>
-
-    <text x="650" y="395" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-good">El andamiaje protege el aprendizaje</text>
-    <text x="650" y="412" text-anchor="middle" font-size="11.5" class="f-muted">Las pistas redujeron la sustitución del esfuerzo</text>
-
-    <!-- ===== Leyenda y cierre ===== -->
-    <line x1="60" y1="432" x2="200" y2="432" class="st-axis" stroke-width="2.4" stroke-dasharray="6 5"/>
-    <text x="208" y="437" font-size="13" font-weight="bold" class="f-ink">Grupo de control sin IA</text>
-    <text x="440" y="468" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">La línea divisoria no es solo el modelo, es el método (§3.1)</text>
-    <text x="440" y="487" text-anchor="middle" font-size="11" class="f-muted">Esquema ilustrativo; la evidencia experimental se presenta en el apartado §3.1</text>
+    <!-- ===== Cierre ===== -->
+    <text x="440" y="470" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">La diferencia no está en el modelo, está en el método</text>
+    <text x="440" y="490" text-anchor="middle" font-size="11" class="f-muted">Esquema ilustrativo; la evidencia experimental se presenta en este estudio</text>
   </g>
 </svg>

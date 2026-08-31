@@ -12,7 +12,7 @@ const expectedEditorialScope = 'Material editorial del proyecto; no constituye u
 // refrescadas apuntan a la revisión nueva; F7 permanece anclada a su estado previo
 // porque es byte-idéntica en ambas revisiones.
 const canonicalSources = {
-  'udgia-f04-disociacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '6771ba63fb596874ea5110a6c093d9ff1321266f8dfafc8c1bb60e695f88fcfa', description: '2af7565fb04313fcb2fae4b15ff360d046280fe1844f475bba1d7ca07154780c' },
+  'udgia-f04-disociacion': { version: '0.13-actualizacion-2026', revision: 'cf9f89ba29d2c46c80ee05f50df63368c25c8f00', svg: '6de850dcb6c698e2637bc32d912c8b178f6b5ea5f3193b8fc9a5c32a0ea31d87', description: 'b836050c0e5ab5a9090a1399364e9567810a742842fd39205d839b47c56160d2' },
   'udgia-f05-cocreacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '30ced8f8c20517aa24dbd19741def0f2ad445f934a00b87e96808266ccec53ad', description: '411e3bc13e5923c135bf8a0d5e315457fef423061f69c999072500e4e178dfff' },
   'udgia-f09-instrumentos': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9d5739b03ad4aa83937a4621b48f929ad49b13835aa27919cf18150cffe8699d', description: '2489684c9482d1a3e7b5969af0517ac1323bc028c329def315307e35fd828f7a' },
   'udgia-f01-trayectoria': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9a4f1392fe9cd3bc022ec40c8dcbb4ff05c064acaefa2a10b17ddeeb0f0d6205', description: '99793eed38eb9c23f12853d14b52d79cda17f4e262bc30966c6b4f8a629ef67d' },
@@ -27,7 +27,7 @@ const targets = {
     page: 'content/observatorio/estudios/paradoja-descarga-cognitiva/index.md',
     svg: 'content/observatorio/estudios/paradoja-descarga-cognitiva/disociacion-desempeno-aprendizaje.svg',
     mobileSvg: 'content/observatorio/estudios/paradoja-descarga-cognitiva/disociacion-desempeno-aprendizaje-mobile.svg',
-    fallbackSignal: '| Condición |',
+    fallbackSignal: '| Grupo |',
   },
   'udgia-f05-cocreacion': {
     page: 'content/ia-educacion/guias/agenciamiento-humano-ia/index.md',

@@ -30,14 +30,15 @@ La integración de la inteligencia artificial (IA) en entornos educativos ha gen
 Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo depende de cómo se introduce la asistencia y de qué hace la persona con la capacidad mental liberada. Un experimento reciente permite observar ese contraste y su mitigación.
 
 {{< udgia-figure id="udgia-f04-disociacion" src="disociacion-desempeno-aprendizaje.svg" >}}
-El esquema compara dos condiciones:
+El esquema compara tres grupos:
 
-| Condición | Durante la práctica con IA | Al evaluar sin IA |
+| Grupo | Durante la práctica con IA | Al evaluar sin IA |
 |---|---|---|
-| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esfuerzo. |
-| Con pistas en lugar de soluciones | La asistencia dosifica pistas y el desempeño también sube. | La caída frente al grupo de control se mitiga: el andamiaje protege el aprendizaje. |
+| Sin orientación pedagógica (la IA entrega la solución completa) | El desempeño sube por encima del grupo que practica sin IA. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esfuerzo. |
+| Con orientación pedagógica (la IA da pistas dosificadas) | El desempeño también sube durante la práctica. | El rendimiento termina al nivel del grupo que practicó sin IA: el andamiaje protege el aprendizaje. |
+| Grupo que practicó sin IA | Nivel de referencia, marcado con línea discontinua. | Se mantiene en su nivel y permite leer los otros dos desenlaces. |
 
-La línea divisoria no es solo el modelo, es el método. Es un esquema ilustrativo: no
+La diferencia no está en el modelo, está en el método. Es un esquema ilustrativo: no
 representa una escala ni una medición única, sino el contraste que documenta la evidencia
 experimental presentada en este estudio.
 {{< /udgia-figure >}}
