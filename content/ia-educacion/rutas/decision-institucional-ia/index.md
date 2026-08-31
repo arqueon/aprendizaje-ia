@@ -183,11 +183,11 @@ licenciar o escalar.
 
 ## 5. Portafolio y recursos
 
-No todas las iniciativas de IA merecen crecer al mismo tiempo. Conviene valorar cada una por
-dos preguntas:
-
-1. ¿cuánto contribuye al propósito educativo e institucional?;
-2. ¿existe capacidad real para sostenerla de forma responsable?
+No todas las iniciativas de IA merecen crecer al mismo tiempo. Antes de ampliar una,
+conviene responder juntas cuatro preguntas: qué necesidad educativa atiende y para quién,
+qué cuidados protegen a las personas y sus datos, qué capacidad real existe para sostenerla
+y qué se observará para saber si aportó algo. Ninguna respuesta decide por sí sola; la
+combinación orienta si se prueba, se preparan condiciones, se reformula o se espera.
 
 {{< udgia-figure id="udgia-f17-priorizacion" src="matriz-priorizacion.svg" >}}
 Antes de ampliar una iniciativa de IA, la figura propone considerar juntas cuatro preguntas:
@@ -209,6 +209,11 @@ Las cuatro respuestas, consideradas juntas, abren cuatro orientaciones:
 La decisión surge de las cuatro respuestas, no de una sola. Las preguntas ayudan a conversar;
 no toman la decisión ni sustituyen las revisiones necesarias.
 {{< /udgia-figure >}}
+
+En el fondo, las cuatro preguntas combinan dos ejes que algunas metodologías de priorización
+usan de manera explícita: cuánto aporta la iniciativa al propósito educativo y cuánta
+capacidad real existe para sostenerla. La tabla siguiente resume las decisiones provisionales
+que produce ese cruce.
 
 <div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">
   <table>

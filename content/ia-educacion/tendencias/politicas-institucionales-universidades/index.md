@@ -44,6 +44,11 @@ Adoptado por el Russell Group de universidades británicas en 2023, con cinco pr
 
 Adoptado por algunas universidades europeas y por instituciones técnicas como MIT en sus aspectos de seguridad de información: políticas con reglas operativas explícitas sobre qué herramientas usar, qué datos subir, qué procedimientos seguir. Las ventajas: claridad operativa, baja ambigüedad. Las desventajas: envejecen rápido, requieren actualización frecuente, generan resistencia docente cuando son demasiado restrictivas.
 
+Los tres modelos reparten de maneras distintas una misma tarea: concretar acuerdos generales
+en decisiones de programa y de curso. Ese reparto puede representarse como ámbitos que
+desarrollan los mismos acuerdos con detalle creciente, donde la pregunta útil no es qué modelo
+adoptar, sino qué puede aclarar cada ámbito.
+
 {{< udgia-figure id="udgia-f11-politica-capas" src="politica-por-capas.svg" >}}
 La figura muestra cuatro ámbitos que desarrollan con detalle creciente los mismos acuerdos,
 asociados a tres niveles:
