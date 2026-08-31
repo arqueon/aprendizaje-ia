@@ -7,13 +7,13 @@ const metadata = JSON.parse(fs.readFileSync(path.join(root, 'data', 'udgia_figur
 const expectedAttribution = 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara';
 const expectedEditorialScope = 'Material editorial del proyecto; no constituye un dictamen institucional.';
 // Resincronización 2026-08-30: la autoridad IAorientaciones publicó la generación
-// v0.12 (revisión abbcafc) que reescribió siete de las figuras compartidas. El anclaje
-// pasa a ser por figura: las siete refrescadas apuntan a la revisión nueva; F5 y F7
-// permanecen ancladas a su estado verificado previo (F7 es byte-idéntica en ambas
-// revisiones; F5 quedó fuera del alcance de esta ola y se registra tal cual).
+// v0.12 (revisión abbcafc) que reescribió ocho de las figuras compartidas (F5 se sumó
+// por extensión del encargo el mismo día). El anclaje es por figura: las ocho
+// refrescadas apuntan a la revisión nueva; F7 permanece anclada a su estado previo
+// porque es byte-idéntica en ambas revisiones.
 const canonicalSources = {
   'udgia-f04-disociacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '6771ba63fb596874ea5110a6c093d9ff1321266f8dfafc8c1bb60e695f88fcfa', description: '2af7565fb04313fcb2fae4b15ff360d046280fe1844f475bba1d7ca07154780c' },
-  'udgia-f05-cocreacion': { version: '1.0.0-lote1', revision: '0331dfec00b47d2138641b0cdd3b6c8c56b9c345', svg: 'f776f624b7f9a7cedc54582651aaca62435ec7c38b05da69e0746f5f9959a0a1', description: '411e3bc13e5923c135bf8a0d5e315457fef423061f69c999072500e4e178dfff' },
+  'udgia-f05-cocreacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '30ced8f8c20517aa24dbd19741def0f2ad445f934a00b87e96808266ccec53ad', description: '411e3bc13e5923c135bf8a0d5e315457fef423061f69c999072500e4e178dfff' },
   'udgia-f09-instrumentos': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9d5739b03ad4aa83937a4621b48f929ad49b13835aa27919cf18150cffe8699d', description: '2489684c9482d1a3e7b5969af0517ac1323bc028c329def315307e35fd828f7a' },
   'udgia-f01-trayectoria': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9a4f1392fe9cd3bc022ec40c8dcbb4ff05c064acaefa2a10b17ddeeb0f0d6205', description: '99793eed38eb9c23f12853d14b52d79cda17f4e262bc30966c6b4f8a629ef67d' },
   'udgia-f03-principios': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '3b6fc4f00782e8ae9b0b8f2d6e69d8be87922c0ce9305cfc20d6400120576ae2', description: '7398313ba7b21439212613240bbe2ae03a3ea17914cd05023a634dadf23a4ef4' },

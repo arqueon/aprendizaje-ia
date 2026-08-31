@@ -113,7 +113,7 @@
   },
   "hugoFigureRegistry": {
    "authorityRevision": "abbcafc0b1f2832238153417b0bb917eb6b4a24e",
-   "meaning": "Revisión canónica registrada por las figuras distribuidas tras la resincronización con la generación v0.12 (2026-08-30); F5 y F7 conservan además su anclaje por figura en data/udgia_figures.json."
+   "meaning": "Revisión canónica registrada por las figuras distribuidas tras la resincronización con la generación v0.12 (2026-08-30, F5 incluida por extensión); F7 conserva su anclaje por figura en data/udgia_figures.json."
   }
  },
  "evidence": "docs/design/evidence/udgia-017/qa-ecosystem.json"

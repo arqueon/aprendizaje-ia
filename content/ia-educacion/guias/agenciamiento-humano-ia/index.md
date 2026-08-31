@@ -116,10 +116,17 @@ como sustituto de su juicio. La figura siguiente representa el ciclo —formular
 descartar y reformular— y dos desenlaces posibles, no dos efectos automáticos de la tecnología.
 
 {{< udgia-figure id="udgia-f05-cocreacion" src="cocreacion-dos-desenlaces.svg" >}}
-| Decisión de la persona | Interacción con IA | Consecuencia cognitiva |
-|---|---|---|
-| Conserva la dirección epistémica | Formula, evalúa, descarta y reformula con criterio propio | **Ganancia cognitiva posible:** aumenta lo que puede explicar, relacionar o transferir después de la interacción |
-| Cede la dirección epistémica | Acepta sugerencias sin contrastar supuestos ni explicar decisiones | **Riesgo de descarga cognitiva:** la salida sustituye parte del trabajo intelectual que se buscaba aprender |
+La persona y la IA aportan cosas distintas al trabajo conjunto: la IA propone variantes y
+señales; la persona conserva el juicio y el propósito. El recorrido —formular, contrastar,
+decidir y responder— gira alrededor de una pregunta: ¿quién comprueba y decide?
+
+| Decisión de la persona | Desenlace |
+|---|---|
+| Comprueba la respuesta y toma la decisión. | **La IA ayuda a pensar:** una objeción o un ejemplo inesperado obliga a revisar las propias ideas antes de aceptar una respuesta. |
+| Acepta la respuesta sin revisar. | **La IA sustituye el pensamiento:** la respuesta se copia o se valida sin comprenderla ni comprobarla, y la persona deja de practicar. |
+
+La decisión sigue siendo humana: conservarla convierte el trabajo conjunto en aprendizaje;
+cederla convierte la ayuda en sustitución.
 {{< /udgia-figure >}}
 
 Aquí, **ganancia cognitiva** significa que la interacción amplía lo que la persona puede

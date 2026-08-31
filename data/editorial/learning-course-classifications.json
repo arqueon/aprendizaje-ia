@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "8379bec695531b5bd4e7fdbd73d8aa64106b1f925c8ef9176f8cd700c9cb1db6",
+  "sourceInventorySha256": "2f25b32b65a0f8045c3e300d5bff09666a4f66bbb14f8b4ec8a6ebe236e18fdb",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "910735cb680270659f67cdfc93c556e2835285aed8d78e6570a076ccb408bded",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -910,7 +910,7 @@
       "route": "/ia-educacion/guias/agenciamiento-humano-ia/",
       "title": "Conservar la dirección del trabajo con IA",
       "kind": "page",
-      "words": 1978,
+      "words": 2034,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [

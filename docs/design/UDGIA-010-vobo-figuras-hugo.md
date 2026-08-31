@@ -96,7 +96,7 @@ El documento de orientaciones consolidó su versión 0.12 (revisión `abbcafc0b1
 que reescribió con lenguaje humanizado siete de las figuras compartidas con el sitio. Esta
 enmienda registra la resincronización de la distribución Hugo con esa generación:
 
-- **Siete figuras refrescadas** — F1, F3, F4, F8, F9, F11 y F17 toman íntegro el contenido
+- **Ocho figuras refrescadas** — F1, F3, F4, F5, F8, F9, F11 y F17 toman íntegro el contenido
   nuevo de la autoridad (título, descripción, textos y estructura) y conservan el patrón de
   apariencia del sitio: identidad C, lienzo opaco `fig-canvas` y bloque
   `@media (prefers-color-scheme: dark)` de la enmienda del 27 de agosto. Las variantes
@@ -107,7 +107,9 @@ enmienda registra la resincronización de la distribución Hugo con esa generaci
   proyecto bajo `CC BY-SA 4.0` con la atribución estándar. La procedencia Napkin deja de
   aplicar a la figura vigente; su registro histórico permanece en el historial del repositorio.
 - **F7 sin cambios** — la autoridad no modificó `dialogo-ia-aprendizaje-activo` (byte-idéntica
-  en ambas revisiones). F5 quedó fuera del alcance de esta ola y conserva su anclaje previo.
+  en ambas revisiones). F5 se incorporó a la ola por extensión del encargo del mismo día;
+  con su lienzo `fig-canvas` y su bloque oscuro queda saldada la deuda de apariencia que
+  arrastraba por traer solo fondo claro propio.
 - El manifiesto `data/udgia_figures.json`, la QA `qa:udgia-figures` y el registro
   `udgia-ecosystem.json` quedan anclados por figura a la revisión y checksums vigentes.
 
