@@ -31,6 +31,8 @@ La encuesta permite describir patrones agregados entre quienes respondieron en l
 
 La pregunta útil para una lectura institucional no es si un porcentaje regional representa automáticamente a la comunidad local, sino qué datos locales faltan para examinar acceso, usos, alfabetización, privacidad, equidad y prácticas de evaluación.
 
+Como contraste nacional, el [primer censo mexicano sobre IA generativa en educación superior](/observatorio/estudios/encuesta-eniag-mexico/) —levantado por la SEP y la ANUIES en 2,900 instituciones— documenta el mismo desfase entre adopción y formación con un universo mucho más amplio que el de esta encuesta. Leer ambas mediciones juntas ayuda a distinguir qué patrones se repiten entre universos distintos y cuáles podrían depender de quién respondió cada instrumento.
+
 ## Consulta del informe
 
 El documento completo puede abrirse o descargarse en formato PDF. Para comprobar procedencia, fecha y posibles actualizaciones, también está disponible la página oficial del Digital Education Council.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#2b1a06"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="46%" cy="52%" r="50%">
+      <stop offset="0%" stop-color="#d99a55" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d99a55" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#d99a55" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <!-- barras de una medición nacional: alturas desiguales sobre una línea base -->
+  <g>
+    <rect x="330" y="205" width="72" height="245" rx="8" fill="#b06a1f" fill-opacity="0.55"/>
+    <rect x="430" y="255" width="72" height="195" rx="8" fill="#b06a1f" fill-opacity="0.42"/>
+    <rect x="530" y="160" width="72" height="290" rx="8" fill="#d99a55" fill-opacity="0.6"/>
+    <rect x="630" y="330" width="72" height="120" rx="8" fill="#b06a1f" fill-opacity="0.35"/>
+    <rect x="730" y="285" width="72" height="165" rx="8" fill="#d99a55" fill-opacity="0.45"/>
+  </g>
+  <line x1="290" y1="452" x2="850" y2="452" stroke="#e8c497" stroke-opacity="0.6" stroke-width="4" stroke-linecap="round"/>
+  <!-- línea punteada: la formación va detrás de la adopción -->
+  <path d="M 330 430 C 470 420 560 390 640 380 C 720 370 790 372 838 368" fill="none" stroke="#e8c497" stroke-opacity="0.65" stroke-width="5" stroke-dasharray="2 14" stroke-linecap="round"/>
+  <circle cx="566" cy="130" r="16" fill="none" stroke="#e8c497" stroke-opacity="0.7" stroke-width="5"/>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>
