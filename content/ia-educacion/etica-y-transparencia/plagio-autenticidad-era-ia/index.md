@@ -96,6 +96,21 @@ Cotton et al. (2024) recomiendan instrucciones claras y revisar el diseño de ev
 3. **Usar la evidencia para aprender.** La declaración o la versión previa debe conducir a retroalimentación, revisión o explicación, no funcionar solo como control.
 4. **Establecer un procedimiento de duda.** Revisar la regla aplicable, comunicar la evidencia disponible, escuchar al estudiante y permitir respuesta o apelación conforme a la normativa institucional. Un detector no reemplaza ninguna de estas etapas.
 
+El procedimiento del punto 4 puede representarse como un flujo de decisiones. Ante una duda, la primera pregunta no es qué produjo el texto, sino qué regla estaba disponible y qué evidencia independiente existe:
+
+{{< mermaid >}}
+graph TD
+    A["Surge una duda sobre un trabajo"] --> B{"¿Había una regla previa aplicable?"}
+    B -- "No" --> C["No corresponde una sanción retroactiva:<br/>aclarar la regla para el siguiente ciclo"]
+    B -- "Sí" --> D["Revisar la regla y la evidencia disponible:<br/>declaración, versiones, fuentes, trabajo previo"]
+    D --> E{"¿Hay evidencia independiente<br/>además del detector?"}
+    E -- "No" --> F["El puntaje no basta como prueba:<br/>cerrar la duda sin acusación"]
+    E -- "Sí" --> G["Comunicar la evidencia y<br/>escuchar al estudiante"]
+    G --> H{"¿La explicación responde la duda?"}
+    H -- "Sí" --> I["Registrar el cierre y<br/>ofrecer retroalimentación"]
+    H -- "No" --> J["Canalizar conforme a la normativa,<br/>con derecho de respuesta y apelación"]
+{{< /mermaid >}}
+
 La conversación puede ser útil, pero su duración y formato dependen de la tarea. Puede sustituirse por una explicación escrita, una revisión comentada o una comparación de fuentes cuando esas opciones producen evidencia equivalente y reducen barreras de accesibilidad.
 
 ## Conexiones con el resto del sitio

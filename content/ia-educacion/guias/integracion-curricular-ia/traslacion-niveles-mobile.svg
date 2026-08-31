@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 1240" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">La integración se traslada del perfil de egreso al aula</title>
+  <desc id="desc">Versión vertical. En el perfil de egreso, una competencia marcada como transformación profunda se distingue de otra con ajuste necesario y de otra sin cambio inmediato. La competencia afectada se distribuye en tres asignaturas: una la introduce, otra la profundiza y otra la consolida. Cada asignatura ajustada hace visible la integración con sección de IA en el syllabus, criterio en la rúbrica y tutoría en semanas clave. Cada competencia afectada vive en al menos dos asignaturas y ninguna asignatura asume más de tres dimensiones nuevas.</desc>
+  <style>
+    .font{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}
+    .ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}
+    .paper{fill:var(--udg-c-surface,#ffffff)}.alt{fill:var(--udg-c-surface-alt,#ece9e1)}
+    .indigo{fill:var(--udg-c-primary-tint,#e7ecf7)}.olive{fill:var(--udg-c-good-tint,#eceddc)}
+    .warn{fill:var(--udg-c-warning-tint,#f4e6d8)}
+    .line{stroke:var(--udg-c-ink,#18223c)}.stp{stroke:var(--udg-c-primary,#34508c)}
+    .stg{stroke:var(--udg-c-good,#536326)}
+    .primary{fill:var(--udg-c-primary,#34508c)}.good{fill:var(--udg-c-good,#536326)}
+  </style>
+  <defs>
+    <marker id="mP" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" class="primary"/>
+    </marker>
+    <marker id="mG" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" class="good"/>
+    </marker>
+  </defs>
+  <g class="font">
+    <rect width="640" height="1240" class="paper"/>
+    <text x="320" y="44" text-anchor="middle" font-size="26" font-weight="700" class="ink">La integración se traslada</text>
+    <text x="320" y="76" text-anchor="middle" font-size="26" font-weight="700" class="ink">por niveles</text>
+
+    <!-- Nivel 1 -->
+    <rect x="30" y="104" width="580" height="300" rx="10" class="alt line" stroke-width="1.5"/>
+    <text x="320" y="140" text-anchor="middle" font-size="22" font-weight="700" class="ink">Perfil de egreso</text>
+
+    <rect x="56" y="162" width="528" height="76" rx="8" class="indigo stp" stroke-width="2.5"/>
+    <text x="76" y="192" font-size="17" font-weight="700" class="ink">Escritura técnica</text>
+    <text x="76" y="218" font-size="15" font-weight="700" class="primary">Transformación profunda</text>
+
+    <rect x="56" y="252" width="528" height="60" rx="8" class="warn line" stroke-width="1.3"/>
+    <text x="76" y="278" font-size="16" font-weight="700" class="ink">Análisis de datos</text>
+    <text x="76" y="300" font-size="14" class="muted">Ajuste necesario</text>
+
+    <rect x="56" y="326" width="528" height="60" rx="8" class="paper line" stroke-width="1.3" stroke-dasharray="5 5"/>
+    <text x="76" y="352" font-size="16" font-weight="700" class="muted">Atención humana presencial</text>
+    <text x="76" y="374" font-size="14" class="muted">Sin cambio inmediato</text>
+
+    <path d="M320 404 v40" fill="none" class="stp" stroke-width="3" marker-end="url(#mP)"/>
+    <text x="342" y="434" font-size="16" font-weight="700" class="primary">se distribuye</text>
+
+    <!-- Nivel 2 -->
+    <rect x="30" y="456" width="580" height="330" rx="10" class="alt line" stroke-width="1.5"/>
+    <text x="320" y="492" text-anchor="middle" font-size="22" font-weight="700" class="ink">Asignaturas del programa</text>
+
+    <rect x="56" y="514" width="528" height="60" rx="8" class="indigo stp" stroke-width="2"/>
+    <text x="76" y="540" font-size="16" font-weight="700" class="ink">Asignatura de 2.º semestre</text>
+    <text x="76" y="562" font-size="14" class="primary">introduce</text>
+
+    <rect x="56" y="588" width="528" height="60" rx="8" class="indigo stp" stroke-width="2"/>
+    <text x="76" y="614" font-size="16" font-weight="700" class="ink">Asignatura de 4.º semestre</text>
+    <text x="76" y="636" font-size="14" class="primary">profundiza</text>
+
+    <rect x="56" y="662" width="528" height="60" rx="8" class="indigo stp" stroke-width="2"/>
+    <text x="76" y="688" font-size="16" font-weight="700" class="ink">Asignatura de 6.º semestre</text>
+    <text x="76" y="710" font-size="14" class="primary">consolida</text>
+
+    <rect x="56" y="736" width="528" height="38" rx="8" class="paper line" stroke-width="1.2" stroke-dasharray="5 5"/>
+    <text x="76" y="761" font-size="14" class="muted">Otras asignaturas: sin cambios</text>
+
+    <path d="M320 786 v40" fill="none" class="stg" stroke-width="3" marker-end="url(#mG)"/>
+    <text x="342" y="816" font-size="16" font-weight="700" class="good">se hace visible</text>
+
+    <!-- Nivel 3 -->
+    <rect x="30" y="838" width="580" height="288" rx="10" class="alt line" stroke-width="1.5"/>
+    <text x="320" y="874" text-anchor="middle" font-size="22" font-weight="700" class="ink">Syllabus y rúbricas</text>
+
+    <rect x="56" y="896" width="528" height="60" rx="8" class="olive stg" stroke-width="1.6"/>
+    <text x="76" y="922" font-size="16" font-weight="700" class="ink">Sección de IA en el syllabus</text>
+    <text x="76" y="944" font-size="14" class="muted">usos permitidos, restringidos, prohibidos</text>
+
+    <rect x="56" y="970" width="528" height="60" rx="8" class="olive stg" stroke-width="1.6"/>
+    <text x="76" y="996" font-size="16" font-weight="700" class="ink">Criterio de IA en la rúbrica</text>
+    <text x="76" y="1018" font-size="14" class="muted">uso transparente y proceso documentado</text>
+
+    <rect x="56" y="1044" width="528" height="60" rx="8" class="olive stg" stroke-width="1.6"/>
+    <text x="76" y="1070" font-size="16" font-weight="700" class="ink">Tutoría en semanas clave</text>
+    <text x="76" y="1092" font-size="14" class="muted">dudas resueltas y criterios unificados</text>
+
+    <!-- Nota -->
+    <rect x="30" y="1146" width="580" height="72" rx="8" class="warn line" stroke-width="1.4"/>
+    <text x="320" y="1176" text-anchor="middle" font-size="15" font-weight="700" class="ink">Cada competencia afectada vive en al menos dos asignaturas;</text>
+    <text x="320" y="1200" text-anchor="middle" font-size="15" class="ink">ninguna asignatura asume más de tres dimensiones nuevas.</text>
+  </g>
+</svg>

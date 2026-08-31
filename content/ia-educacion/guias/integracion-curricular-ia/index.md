@@ -32,6 +32,8 @@ Antes de modificar un syllabus, conviene responder tres preguntas a nivel de pro
 
 Las respuestas se sintetizan en una página y se comparten con todo el claustro antes de pedir cambios en asignaturas concretas.
 
+{{< figura src="traslacion-niveles.svg" movil="traslacion-niveles-mobile.svg" caption="La integración recorre tres niveles: el claustro mapea las competencias afectadas del perfil (paso 1), la matriz las distribuye entre asignaturas (paso 3) y cada asignatura ajustada la hace visible en el syllabus y sus rúbricas (paso 5)." >}}
+
 ## Paso 1 — Mapear las competencias del perfil afectadas
 
 El primer paso es un ejercicio de claustro: revisar el perfil de egreso del programa con el equipo docente y marcar, competencia por competencia, su nivel de afectación por la IA generativa. Tres categorías son suficientes:
