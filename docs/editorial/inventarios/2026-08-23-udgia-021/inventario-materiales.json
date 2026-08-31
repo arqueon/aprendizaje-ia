@@ -14,12 +14,12 @@
     "studentGuideSamples": "estudiantes/muestras/*.md"
   },
   "totals": {
-    "documents": 196,
-    "pages": 166,
+    "documents": 198,
+    "pages": 168,
     "sections": 30,
-    "words": 148169,
-    "assets": 236,
-    "assetBytes": 50119782,
+    "words": 151747,
+    "assets": 238,
+    "assetBytes": 50125856,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
@@ -29,7 +29,7 @@
     "pagesWithGovernedFigures": 10,
     "pagesWithExplicitOrientationReference": 0,
     "pagesWithExplicitGuideReference": 0,
-    "pagesWithNoCrossSectionLinks": 80,
+    "pagesWithNoCrossSectionLinks": 79,
     "pagesWithMultipleFeaturedCandidates": 1,
     "animatedAssets": 1,
     "extensionFormatMismatches": 26
@@ -39,8 +39,8 @@
       "_index.md": 1,
       "about.md": 1,
       "areas": 6,
-      "blog": 6,
-      "formacion-docente": 32,
+      "blog": 7,
+      "formacion-docente": 33,
       "ia-educacion": 68,
       "laboratorio": 10,
       "licencia": 1,
@@ -48,20 +48,20 @@
       "recursos": 57
     },
     "byCourseRole": {
-      "apoyo-candidato": 38,
+      "apoyo-candidato": 39,
       "banco-de-practicas": 13,
       "banco-ejemplos-disciplinarios": 27,
       "fuera-del-recorrido-inicial": 5,
       "navegacion": 30,
       "nucleo-candidato": 10,
       "referencia-en-cuarentena": 3,
-      "referencia-opcional": 70
+      "referencia-opcional": 71
     },
     "byEditorialAction": {
       "conservar-como-entorno-o-demostracion": 2,
       "conservar-como-navegacion": 29,
-      "conservar-como-profundizacion": 7,
-      "conservar-fuera-del-recorrido-obligatorio": 26,
+      "conservar-como-profundizacion": 8,
+      "conservar-fuera-del-recorrido-obligatorio": 27,
       "fusionar-o-desduplicar": 5,
       "no-incorporar-al-curso": 3,
       "preservar-como-ejemplo-no-obligatorio": 27,
@@ -72,25 +72,25 @@
       "verificar-vigencia-antes-de-enlazar": 8
     },
     "byNarrativeStatus": {
-      "debil": 75,
-      "parcial": 114,
+      "debil": 72,
+      "parcial": 119,
       "robusto-candidato": 7
     },
     "byDidacticStatus": {
-      "debil": 25,
-      "parcial": 102,
-      "robusto-candidato": 69
+      "debil": 24,
+      "parcial": 104,
+      "robusto-candidato": 70
     },
     "byConsistencyBand": {
-      "revision-dirigida": 82,
+      "revision-dirigida": 83,
       "revision-prioritaria": 12,
-      "sin-alerta-automatica": 102
+      "sin-alerta-automatica": 103
     },
     "byVisualStatus": {
       "figura-gobernada": 10,
       "sin-visual": 17,
       "solo-imagen-de-portada": 131,
-      "visual-explicativo-candidato": 38
+      "visual-explicativo-candidato": 40
     },
     "byVisualDecision": {
       "conservar-como-referencia": 8,
@@ -98,43 +98,43 @@
       "evaluar-si-necesita-portada": 16,
       "no-requiere-portada-adicional": 2,
       "rediseñar-como-identidad-de-seccion": 20,
-      "reencuadrar-o-sustituir-tras-lectura": 70,
+      "reencuadrar-o-sustituir-tras-lectura": 72,
       "resolver-candidatos-y-sustituir": 1,
       "revisar-para-sustitucion-prioritaria": 20,
       "sustituir-por-sistema-de-iconos-o-retirar": 32
     },
     "byLot": {
       "L1-nucleo-riesgos-y-solapamientos": 17,
-      "L2-apoyos-y-practicas": 49,
+      "L2-apoyos-y-practicas": 50,
       "L3-ejemplos-disciplinares": 27,
-      "L4-referencias-observatorio-y-vigencia": 68,
+      "L4-referencias-observatorio-y-vigencia": 69,
       "L5-navegacion-y-material-fuera-del-recorrido": 35
     },
     "interactionCandidates": {
       "auditar-y-mediar-h5p-existente": 19,
       "comparador-de-versiones": 4,
       "ejemplo-anotado-o-comparador": 26,
-      "escenario-de-decision-con-consecuencias": 40,
+      "escenario-de-decision-con-consecuencias": 41,
       "recorrido-guiado": 1,
-      "sin-interaccion-obligatoria": 106
+      "sin-interaccion-obligatoria": 107
     }
   },
   "assets": {
     "byExtension": {
       "png": 32,
-      "svg": 57,
+      "svg": 59,
       "webp": 147
     },
     "byDetectedFormat": {
       "jpeg": 26,
       "png": 7,
-      "svg": 57,
+      "svg": 59,
       "webp": 146
     },
     "byAspect": {
       "cuadrada": 87,
       "horizontal-16x9-o-social": 88,
-      "sin-dimensiones": 57,
+      "sin-dimensiones": 59,
       "vertical": 4
     },
     "animated": [
@@ -2153,130 +2153,6 @@
       }
     },
     {
-      "path": "ia-educacion/guias/privacidad-datos-ia/index.md",
-      "route": "/ia-educacion/guias/privacidad-datos-ia/",
-      "title": "Antes de compartir: protege datos y trabajos al usar IA",
-      "kind": "page",
-      "section": "ia-educacion",
-      "words": 194,
-      "metadata": {
-        "description": true,
-        "summary": true,
-        "tags": 0,
-        "categories": 0,
-        "areas": 2
-      },
-      "course": {
-        "role": "nucleo-candidato",
-        "action": "reutilizar-con-ajustes",
-        "modules": [],
-        "routes": [
-          "comun"
-        ],
-        "reason": "Cuidado transversal y previo al uso de sistemas generativos; necesita continuidad visible hacia investigación y bitácora."
-      },
-      "narrative": {
-        "status": "debil",
-        "signalCount": 0,
-        "flags": {
-          "entrada_reconocible": false,
-          "pregunta_motriz": false,
-          "ejemplo_desarrollado": false,
-          "contraste_o_limite": false,
-          "recapitulacion": false,
-          "transicion_explicita": false
-        }
-      },
-      "didactic": {
-        "status": "parcial",
-        "signalCount": 3,
-        "flags": {
-          "audiencia_explicita": false,
-          "proposito_o_resultado": false,
-          "accion_o_practica": true,
-          "ejemplo_trabajado": false,
-          "evidencia_o_producto": false,
-          "criterio_de_avance": false,
-          "apoyo_o_alternativa": true,
-          "retroalimentacion_o_reflexion": true,
-          "tiempo_estimado": false
-        }
-      },
-      "consistency": {
-        "reviewBand": "sin-alerta-automatica",
-        "reviewFlags": [],
-        "explicitOrientationReference": false,
-        "explicitGuideReference": false,
-        "relations": [
-          {
-            "id": "aprendizaje-y-evaluacion-del-proceso",
-            "orientations": [
-              "§2.2",
-              "§5.1–5.4"
-            ],
-            "guides": [
-              "Guía docente, primera y cuarta partes"
-            ]
-          },
-          {
-            "id": "etica-contexto-y-cuidados",
-            "orientations": [
-              "§6.1–6.5",
-              "§9.2",
-              "§10.4–10.5"
-            ],
-            "guides": [
-              "Guía docente, tercera parte",
-              "Estudiantes: Cuando el contexto cambia la decisión"
-            ]
-          }
-        ]
-      },
-      "visual": {
-        "status": "solo-imagen-de-portada",
-        "featured": true,
-        "localAssets": [
-          "featured.webp"
-        ],
-        "featuredCandidates": [
-          "featured.webp"
-        ],
-        "svgAssets": 0,
-        "accessibleSVG": 0,
-        "inlineImages": 0,
-        "missingAlt": 0,
-        "governedFigureIDs": [],
-        "review": {
-          "decision": "reencuadrar-o-sustituir-tras-lectura",
-          "family": "ilustracion-mixta",
-          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
-        }
-      },
-      "interactive": {
-        "currentH5PIDs": [],
-        "candidate": {
-          "type": "escenario-de-decision-con-consecuencias",
-          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
-          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
-        },
-        "priority": "alta-si-apoya-la-tarea"
-      },
-      "organization": {
-        "internalLinks": 0,
-        "crossSectionLinks": 0,
-        "needs": [
-          "crear-enlaces-de-continuidad",
-          "conectar-entre-secciones",
-          "vincular-orientaciones",
-          "vincular-guia-por-audiencia"
-        ]
-      },
-      "editorial": {
-        "lot": "L1-nucleo-riesgos-y-solapamientos",
-        "priorityScore": 10
-      }
-    },
-    {
       "path": "formacion-docente/aprendizaje-hibrido/index.md",
       "route": "/formacion-docente/aprendizaje-hibrido/",
       "title": "Conectar momentos para que el aprendizaje avance",
@@ -3048,6 +2924,162 @@
       },
       "organization": {
         "internalLinks": 5,
+        "crossSectionLinks": 1,
+        "needs": [
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L1-nucleo-riesgos-y-solapamientos",
+        "priorityScore": 7
+      }
+    },
+    {
+      "path": "ia-educacion/guias/privacidad-datos-ia/index.md",
+      "route": "/ia-educacion/guias/privacidad-datos-ia/",
+      "title": "Antes de compartir: protege datos y trabajos al usar IA",
+      "kind": "page",
+      "section": "ia-educacion",
+      "words": 894,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 0,
+        "categories": 0,
+        "areas": 2
+      },
+      "course": {
+        "role": "nucleo-candidato",
+        "action": "reutilizar-con-ajustes",
+        "modules": [],
+        "routes": [
+          "comun"
+        ],
+        "reason": "Cuidado transversal y previo al uso de sistemas generativos; necesita continuidad visible hacia investigación y bitácora."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 3,
+        "flags": {
+          "entrada_reconocible": true,
+          "pregunta_motriz": false,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": true
+        }
+      },
+      "didactic": {
+        "status": "robusto-candidato",
+        "signalCount": 7,
+        "flags": {
+          "audiencia_explicita": true,
+          "proposito_o_resultado": true,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": true,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": true,
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "sin-alerta-automatica",
+        "reviewFlags": [],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "solo-imagen-de-portada",
+        "featured": true,
+        "localAssets": [
+          "featured.webp"
+        ],
+        "featuredCandidates": [
+          "featured.webp"
+        ],
+        "svgAssets": 0,
+        "accessibleSVG": 0,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [],
+        "review": {
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "escenario-de-decision-con-consecuencias",
+          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
+          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+        },
+        "priority": "alta-si-apoya-la-tarea"
+      },
+      "organization": {
+        "internalLinks": 2,
         "crossSectionLinks": 1,
         "needs": [
           "vincular-orientaciones",
@@ -10154,6 +10186,162 @@
         "needs": [
           "crear-enlaces-de-continuidad",
           "conectar-entre-secciones",
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L2-apoyos-y-practicas",
+        "priorityScore": 4
+      }
+    },
+    {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "route": "/formacion-docente/etica-profesional-docente-ia/",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "kind": "page",
+      "section": "formacion-docente",
+      "words": 1167,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 5,
+        "categories": 1,
+        "areas": 2
+      },
+      "course": {
+        "role": "apoyo-candidato",
+        "action": "conservar-como-profundizacion",
+        "modules": [],
+        "routes": [
+          "profesorado"
+        ],
+        "reason": "Guia que aterriza la etica del uso docente de IA en decisiones de preparacion de clase y en el modelado ante el grupo; complementa los marcos sin duplicarlos."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 3,
+        "flags": {
+          "entrada_reconocible": true,
+          "pregunta_motriz": false,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": true
+        }
+      },
+      "didactic": {
+        "status": "parcial",
+        "signalCount": 6,
+        "flags": {
+          "audiencia_explicita": true,
+          "proposito_o_resultado": false,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": true,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": true,
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "sin-alerta-automatica",
+        "reviewFlags": [],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "visual-explicativo-candidato",
+        "featured": true,
+        "localAssets": [
+          "featured.svg"
+        ],
+        "featuredCandidates": [
+          "featured.svg"
+        ],
+        "svgAssets": 1,
+        "accessibleSVG": 0,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [],
+        "review": {
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "escenario-de-decision-con-consecuencias",
+          "technology": "H5P.BranchingScenario o alternativa HTML accesible",
+          "reason": "Permite comparar rutas y justificar una decisión; no debe reducirse a acertar una opción."
+        },
+        "priority": "media"
+      },
+      "organization": {
+        "internalLinks": 9,
+        "crossSectionLinks": 7,
+        "needs": [
           "vincular-orientaciones",
           "vincular-guia-por-audiencia"
         ]
@@ -18193,6 +18381,166 @@
           "featured.webp"
         ],
         "svgAssets": 0,
+        "accessibleSVG": 0,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [],
+        "review": {
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "sin-interaccion-obligatoria",
+          "technology": "Ninguna",
+          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
+        },
+        "priority": "baja-o-no-necesaria"
+      },
+      "organization": {
+        "internalLinks": 3,
+        "crossSectionLinks": 2,
+        "needs": [
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L4-referencias-observatorio-y-vigencia",
+        "priorityScore": 4
+      }
+    },
+    {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "route": "/blog/asimetria-de-la-transparencia/",
+      "title": "La asimetría de la transparencia",
+      "kind": "page",
+      "section": "blog",
+      "words": 884,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 4,
+        "categories": 1,
+        "areas": 2
+      },
+      "course": {
+        "role": "referencia-opcional",
+        "action": "conservar-fuera-del-recorrido-obligatorio",
+        "modules": [],
+        "routes": [
+          "estudiantado",
+          "profesorado"
+        ],
+        "reason": "Ensayo de opinion sobre la transparencia asimetrica en la declaracion de uso de IA; aporta debate, no debe ampliar la carga obligatoria del curso."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 2,
+        "flags": {
+          "entrada_reconocible": false,
+          "pregunta_motriz": true,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": false
+        }
+      },
+      "didactic": {
+        "status": "parcial",
+        "signalCount": 5,
+        "flags": {
+          "audiencia_explicita": true,
+          "proposito_o_resultado": false,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": true,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": false,
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "revision-dirigida",
+        "reviewFlags": [
+          "deteccion-de-ia-requiere-mediacion",
+          "autoria-o-responsabilidad-de-la-ia-por-revisar"
+        ],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "visual-explicativo-candidato",
+        "featured": true,
+        "localAssets": [
+          "featured.svg"
+        ],
+        "featuredCandidates": [
+          "featured.svg"
+        ],
+        "svgAssets": 1,
         "accessibleSVG": 0,
         "inlineImages": 0,
         "missingAlt": 0,
@@ -26900,138 +27248,18 @@
       }
     },
     {
-      "path": "recursos/articulos/_index.md",
-      "route": "/recursos/articulos/",
-      "title": "Artículos y documentos",
-      "kind": "section",
-      "section": "recursos",
-      "words": 17,
-      "metadata": {
-        "description": true,
-        "summary": true,
-        "tags": 0,
-        "categories": 0,
-        "areas": 0
-      },
-      "course": {
-        "role": "navegacion",
-        "action": "conservar-como-navegacion",
-        "modules": [],
-        "routes": [],
-        "reason": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
-      },
-      "narrative": {
-        "status": "debil",
-        "signalCount": 0,
-        "flags": {
-          "entrada_reconocible": false,
-          "pregunta_motriz": false,
-          "ejemplo_desarrollado": false,
-          "contraste_o_limite": false,
-          "recapitulacion": false,
-          "transicion_explicita": false
-        }
-      },
-      "didactic": {
-        "status": "debil",
-        "signalCount": 0,
-        "flags": {
-          "audiencia_explicita": false,
-          "proposito_o_resultado": false,
-          "accion_o_practica": false,
-          "ejemplo_trabajado": false,
-          "evidencia_o_producto": false,
-          "criterio_de_avance": false,
-          "apoyo_o_alternativa": false,
-          "retroalimentacion_o_reflexion": false,
-          "tiempo_estimado": false
-        }
-      },
-      "consistency": {
-        "reviewBand": "sin-alerta-automatica",
-        "reviewFlags": [],
-        "explicitOrientationReference": false,
-        "explicitGuideReference": false,
-        "relations": [
-          {
-            "id": "aprendizaje-y-evaluacion-del-proceso",
-            "orientations": [
-              "§2.2",
-              "§5.1–5.4"
-            ],
-            "guides": [
-              "Guía docente, primera y cuarta partes"
-            ]
-          },
-          {
-            "id": "etica-contexto-y-cuidados",
-            "orientations": [
-              "§6.1–6.5",
-              "§9.2",
-              "§10.4–10.5"
-            ],
-            "guides": [
-              "Guía docente, tercera parte",
-              "Estudiantes: Cuando el contexto cambia la decisión"
-            ]
-          }
-        ]
-      },
-      "visual": {
-        "status": "solo-imagen-de-portada",
-        "featured": true,
-        "localAssets": [
-          "featured.webp"
-        ],
-        "featuredCandidates": [
-          "featured.webp"
-        ],
-        "svgAssets": 0,
-        "accessibleSVG": 0,
-        "inlineImages": 0,
-        "missingAlt": 0,
-        "governedFigureIDs": [],
-        "review": {
-          "decision": "rediseñar-como-identidad-de-seccion",
-          "family": "portada-generica-de-seccion",
-          "reason": "Las secciones necesitan una señal editorial estable, no otra variación de cerebro, red o interfaz luminosa."
-        }
-      },
-      "interactive": {
-        "currentH5PIDs": [],
-        "candidate": {
-          "type": "sin-interaccion-obligatoria",
-          "technology": "Ninguna",
-          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
-        },
-        "priority": "baja-o-no-necesaria"
-      },
-      "organization": {
-        "internalLinks": 0,
-        "crossSectionLinks": 0,
-        "needs": [
-          "vincular-orientaciones",
-          "vincular-guia-por-audiencia"
-        ]
-      },
-      "editorial": {
-        "lot": "L5-navegacion-y-material-fuera-del-recorrido",
-        "priorityScore": 6
-      }
-    },
-    {
       "path": "blog/_index.md",
       "route": "/blog/",
       "title": "Blog",
       "kind": "section",
       "section": "blog",
-      "words": 157,
+      "words": 308,
       "metadata": {
         "description": true,
         "summary": true,
         "tags": 0,
         "categories": 0,
-        "areas": 3
+        "areas": 4
       },
       "course": {
         "role": "navegacion",
@@ -27107,6 +27335,27 @@
             "guides": [
               "Guía docente, primera y cuarta partes"
             ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
           }
         ]
       },
@@ -27136,7 +27385,7 @@
         "priority": "baja-o-no-necesaria"
       },
       "organization": {
-        "internalLinks": 0,
+        "internalLinks": 6,
         "crossSectionLinks": 0,
         "needs": [
           "vincular-orientaciones",
@@ -28746,7 +28995,7 @@
       "title": "Videos y cursos abiertos",
       "kind": "section",
       "section": "recursos",
-      "words": 174,
+      "words": 260,
       "metadata": {
         "description": true,
         "summary": true,
@@ -28775,10 +29024,10 @@
       },
       "didactic": {
         "status": "parcial",
-        "signalCount": 3,
+        "signalCount": 4,
         "flags": {
           "audiencia_explicita": true,
-          "proposito_o_resultado": false,
+          "proposito_o_resultado": true,
           "accion_o_practica": true,
           "ejemplo_trabajado": false,
           "evidencia_o_producto": false,
@@ -28851,7 +29100,7 @@
         "priority": "baja-o-no-necesaria"
       },
       "organization": {
-        "internalLinks": 0,
+        "internalLinks": 6,
         "crossSectionLinks": 0,
         "needs": [
           "vincular-orientaciones",
@@ -29031,7 +29280,7 @@
       "title": "Productos de aprendizaje con IAG",
       "kind": "section",
       "section": "ia-educacion",
-      "words": 257,
+      "words": 385,
       "metadata": {
         "description": true,
         "summary": true,
@@ -29048,9 +29297,9 @@
       },
       "narrative": {
         "status": "parcial",
-        "signalCount": 2,
+        "signalCount": 3,
         "flags": {
-          "entrada_reconocible": false,
+          "entrada_reconocible": true,
           "pregunta_motriz": true,
           "ejemplo_desarrollado": false,
           "contraste_o_limite": false,
@@ -29145,7 +29394,7 @@
         "priority": "baja-o-no-necesaria"
       },
       "organization": {
-        "internalLinks": 0,
+        "internalLinks": 5,
         "crossSectionLinks": 0,
         "needs": [
           "vincular-orientaciones",
@@ -29314,161 +29563,6 @@
       "organization": {
         "internalLinks": 8,
         "crossSectionLinks": 8,
-        "needs": [
-          "vincular-orientaciones",
-          "vincular-guia-por-audiencia"
-        ]
-      },
-      "editorial": {
-        "lot": "L5-navegacion-y-material-fuera-del-recorrido",
-        "priorityScore": 3
-      }
-    },
-    {
-      "path": "laboratorio/practicas/_index.md",
-      "route": "/laboratorio/practicas/",
-      "title": "Prácticas pedagógicas",
-      "kind": "section",
-      "section": "laboratorio",
-      "words": 273,
-      "metadata": {
-        "description": true,
-        "summary": true,
-        "tags": 0,
-        "categories": 0,
-        "areas": 0
-      },
-      "course": {
-        "role": "navegacion",
-        "action": "conservar-como-navegacion",
-        "modules": [],
-        "routes": [],
-        "reason": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
-      },
-      "narrative": {
-        "status": "debil",
-        "signalCount": 1,
-        "flags": {
-          "entrada_reconocible": false,
-          "pregunta_motriz": false,
-          "ejemplo_desarrollado": false,
-          "contraste_o_limite": true,
-          "recapitulacion": false,
-          "transicion_explicita": false
-        }
-      },
-      "didactic": {
-        "status": "parcial",
-        "signalCount": 6,
-        "flags": {
-          "audiencia_explicita": false,
-          "proposito_o_resultado": true,
-          "accion_o_practica": true,
-          "ejemplo_trabajado": false,
-          "evidencia_o_producto": true,
-          "criterio_de_avance": true,
-          "apoyo_o_alternativa": true,
-          "retroalimentacion_o_reflexion": true,
-          "tiempo_estimado": false
-        }
-      },
-      "consistency": {
-        "reviewBand": "sin-alerta-automatica",
-        "reviewFlags": [],
-        "explicitOrientationReference": false,
-        "explicitGuideReference": false,
-        "relations": [
-          {
-            "id": "verificacion-y-fuentes",
-            "orientations": [
-              "§2.2",
-              "§4.4",
-              "§5.3",
-              "§9.1"
-            ],
-            "guides": [
-              "Guía docente, cuarta parte",
-              "Estudiantes: Todavía no la entrego"
-            ]
-          },
-          {
-            "id": "agenciamiento-y-cocreacion",
-            "orientations": [
-              "§3.2",
-              "§4.3",
-              "§4.4"
-            ],
-            "guides": [
-              "Guía docente, segunda parte",
-              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
-            ]
-          },
-          {
-            "id": "aprendizaje-y-evaluacion-del-proceso",
-            "orientations": [
-              "§2.2",
-              "§5.1–5.4"
-            ],
-            "guides": [
-              "Guía docente, primera y cuarta partes"
-            ]
-          },
-          {
-            "id": "etica-contexto-y-cuidados",
-            "orientations": [
-              "§6.1–6.5",
-              "§9.2",
-              "§10.4–10.5"
-            ],
-            "guides": [
-              "Guía docente, tercera parte",
-              "Estudiantes: Cuando el contexto cambia la decisión"
-            ]
-          },
-          {
-            "id": "diseno-activo-hibrido",
-            "orientations": [
-              "§4.2–4.6",
-              "§8.1–8.5"
-            ],
-            "guides": [
-              "Guía docente, primera, segunda y quinta partes"
-            ]
-          }
-        ]
-      },
-      "visual": {
-        "status": "solo-imagen-de-portada",
-        "featured": true,
-        "localAssets": [
-          "featured.webp"
-        ],
-        "featuredCandidates": [
-          "featured.webp"
-        ],
-        "svgAssets": 0,
-        "accessibleSVG": 0,
-        "inlineImages": 0,
-        "missingAlt": 0,
-        "governedFigureIDs": [],
-        "review": {
-          "decision": "rediseñar-como-identidad-de-seccion",
-          "family": "portada-generica-de-seccion",
-          "reason": "Las secciones necesitan una señal editorial estable, no otra variación de cerebro, red o interfaz luminosa."
-        }
-      },
-      "interactive": {
-        "currentH5PIDs": [],
-        "candidate": {
-          "type": "sin-interaccion-obligatoria",
-          "technology": "Ninguna",
-          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
-        },
-        "priority": "baja-o-no-necesaria"
-      },
-      "organization": {
-        "internalLinks": 0,
-        "crossSectionLinks": 0,
         "needs": [
           "vincular-orientaciones",
           "vincular-guia-por-audiencia"
@@ -29924,6 +30018,161 @@
       }
     },
     {
+      "path": "laboratorio/practicas/_index.md",
+      "route": "/laboratorio/practicas/",
+      "title": "Prácticas pedagógicas",
+      "kind": "section",
+      "section": "laboratorio",
+      "words": 395,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 0,
+        "categories": 0,
+        "areas": 0
+      },
+      "course": {
+        "role": "navegacion",
+        "action": "conservar-como-navegacion",
+        "modules": [],
+        "routes": [],
+        "reason": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 2,
+        "flags": {
+          "entrada_reconocible": true,
+          "pregunta_motriz": false,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": false
+        }
+      },
+      "didactic": {
+        "status": "parcial",
+        "signalCount": 5,
+        "flags": {
+          "audiencia_explicita": false,
+          "proposito_o_resultado": false,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": true,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": true,
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "sin-alerta-automatica",
+        "reviewFlags": [],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "diseno-activo-hibrido",
+            "orientations": [
+              "§4.2–4.6",
+              "§8.1–8.5"
+            ],
+            "guides": [
+              "Guía docente, primera, segunda y quinta partes"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "solo-imagen-de-portada",
+        "featured": true,
+        "localAssets": [
+          "featured.webp"
+        ],
+        "featuredCandidates": [
+          "featured.webp"
+        ],
+        "svgAssets": 0,
+        "accessibleSVG": 0,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [],
+        "review": {
+          "decision": "rediseñar-como-identidad-de-seccion",
+          "family": "portada-generica-de-seccion",
+          "reason": "Las secciones necesitan una señal editorial estable, no otra variación de cerebro, red o interfaz luminosa."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "sin-interaccion-obligatoria",
+          "technology": "Ninguna",
+          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
+        },
+        "priority": "baja-o-no-necesaria"
+      },
+      "organization": {
+        "internalLinks": 6,
+        "crossSectionLinks": 1,
+        "needs": [
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L5-navegacion-y-material-fuera-del-recorrido",
+        "priorityScore": 2
+      }
+    },
+    {
       "path": "observatorio/estudios/_index.md",
       "route": "/observatorio/estudios/",
       "title": "Estudios, encuestas y hallazgos",
@@ -30054,6 +30303,160 @@
       },
       "organization": {
         "internalLinks": 3,
+        "crossSectionLinks": 0,
+        "needs": [
+          "vincular-orientaciones",
+          "vincular-guia-por-audiencia"
+        ]
+      },
+      "editorial": {
+        "lot": "L5-navegacion-y-material-fuera-del-recorrido",
+        "priorityScore": 2
+      }
+    },
+    {
+      "path": "recursos/articulos/_index.md",
+      "route": "/recursos/articulos/",
+      "title": "Artículos y documentos",
+      "kind": "section",
+      "section": "recursos",
+      "words": 357,
+      "metadata": {
+        "description": true,
+        "summary": true,
+        "tags": 0,
+        "categories": 0,
+        "areas": 0
+      },
+      "course": {
+        "role": "navegacion",
+        "action": "conservar-como-navegacion",
+        "modules": [],
+        "routes": [],
+        "reason": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
+      },
+      "narrative": {
+        "status": "parcial",
+        "signalCount": 2,
+        "flags": {
+          "entrada_reconocible": true,
+          "pregunta_motriz": false,
+          "ejemplo_desarrollado": false,
+          "contraste_o_limite": true,
+          "recapitulacion": false,
+          "transicion_explicita": false
+        }
+      },
+      "didactic": {
+        "status": "parcial",
+        "signalCount": 3,
+        "flags": {
+          "audiencia_explicita": true,
+          "proposito_o_resultado": false,
+          "accion_o_practica": true,
+          "ejemplo_trabajado": false,
+          "evidencia_o_producto": false,
+          "criterio_de_avance": true,
+          "apoyo_o_alternativa": false,
+          "retroalimentacion_o_reflexion": false,
+          "tiempo_estimado": false
+        }
+      },
+      "consistency": {
+        "reviewBand": "sin-alerta-automatica",
+        "reviewFlags": [],
+        "explicitOrientationReference": false,
+        "explicitGuideReference": false,
+        "relations": [
+          {
+            "id": "verificacion-y-fuentes",
+            "orientations": [
+              "§2.2",
+              "§4.4",
+              "§5.3",
+              "§9.1"
+            ],
+            "guides": [
+              "Guía docente, cuarta parte",
+              "Estudiantes: Todavía no la entrego"
+            ]
+          },
+          {
+            "id": "agenciamiento-y-cocreacion",
+            "orientations": [
+              "§3.2",
+              "§4.3",
+              "§4.4"
+            ],
+            "guides": [
+              "Guía docente, segunda parte",
+              "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
+            ]
+          },
+          {
+            "id": "aprendizaje-y-evaluacion-del-proceso",
+            "orientations": [
+              "§2.2",
+              "§5.1–5.4"
+            ],
+            "guides": [
+              "Guía docente, primera y cuarta partes"
+            ]
+          },
+          {
+            "id": "etica-contexto-y-cuidados",
+            "orientations": [
+              "§6.1–6.5",
+              "§9.2",
+              "§10.4–10.5"
+            ],
+            "guides": [
+              "Guía docente, tercera parte",
+              "Estudiantes: Cuando el contexto cambia la decisión"
+            ]
+          },
+          {
+            "id": "decision-institucional-y-tecnologia",
+            "orientations": [
+              "§7–§11"
+            ],
+            "guides": [
+              "Guía docente, alcance y procedencia"
+            ]
+          }
+        ]
+      },
+      "visual": {
+        "status": "solo-imagen-de-portada",
+        "featured": true,
+        "localAssets": [
+          "featured.webp"
+        ],
+        "featuredCandidates": [
+          "featured.webp"
+        ],
+        "svgAssets": 0,
+        "accessibleSVG": 0,
+        "inlineImages": 0,
+        "missingAlt": 0,
+        "governedFigureIDs": [],
+        "review": {
+          "decision": "rediseñar-como-identidad-de-seccion",
+          "family": "portada-generica-de-seccion",
+          "reason": "Las secciones necesitan una señal editorial estable, no otra variación de cerebro, red o interfaz luminosa."
+        }
+      },
+      "interactive": {
+        "currentH5PIDs": [],
+        "candidate": {
+          "type": "sin-interaccion-obligatoria",
+          "technology": "Ninguna",
+          "reason": "La consulta o navegación no mejora por añadir interacción decorativa."
+        },
+        "priority": "baja-o-no-necesaria"
+      },
+      "organization": {
+        "internalLinks": 5,
         "crossSectionLinks": 0,
         "needs": [
           "vincular-orientaciones",

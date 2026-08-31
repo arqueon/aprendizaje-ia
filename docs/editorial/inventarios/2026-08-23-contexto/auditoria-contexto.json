@@ -19,18 +19,18 @@
     }
   },
   "totals": {
-    "documents": 196,
+    "documents": 198,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
-      "media": 15,
-      "baja": 181
+      "media": 13,
+      "baja": 185
     },
     "by_role": {
-      "articulo": 13,
+      "articulo": 14,
       "guia": 14,
       "navegacion": 30,
-      "pagina": 76,
+      "pagina": 77,
       "practica": 8,
       "recurso": 52,
       "ruta": 3
@@ -39,7 +39,7 @@
       "conservar": 21,
       "cambiar": 52,
       "quitar": 0,
-      "pendiente": 123
+      "pendiente": 125
     },
     "candidate_manual_pending": 0,
     "flagged_implementation_claims": 0,
@@ -436,73 +436,6 @@
       "manual_issue_types": [],
       "manual_citations": [
         "L2-3: el título Pedagogía y la descripción identifican el área en el listado automático."
-      ]
-    },
-    {
-      "path": "content/blog/_index.md",
-      "title": "Blog",
-      "role": "navegacion",
-      "words": 150,
-      "dependencies": [],
-      "signals": {
-        "situacion": {
-          "present": false,
-          "evidence": null
-        },
-        "quien": {
-          "present": true,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 17,
-            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
-          }
-        },
-        "momento_entorno": {
-          "present": false,
-          "evidence": null
-        },
-        "material_inicial": {
-          "present": false,
-          "evidence": null
-        },
-        "acciones": {
-          "present": false,
-          "evidence": null
-        },
-        "resultado": {
-          "present": false,
-          "evidence": null
-        },
-        "comprobacion": {
-          "present": true,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 17,
-            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
-          }
-        },
-        "lenguaje_directo": {
-          "present": false,
-          "evidence": {
-            "source": "content/blog/_index.md",
-            "line": 24,
-            "text": "## Criterio editorial"
-          }
-        }
-      },
-      "missing_expected_signals": [
-        "situacion",
-        "acciones",
-        "lenguaje_directo"
-      ],
-      "risk_flags": [],
-      "automatic_priority": "media",
-      "manual_decision": "conservar",
-      "manual_reason": "Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice.",
-      "manual_issue_types": [],
-      "manual_citations": [
-        "content/blog/_index.md L16-22: Presenta el espacio como ensayos reflexivos sobre pedagogía universitaria e IA y explica qué encontrará el lector.",
-        "content/blog/_index.md L24-31: Distingue los posts de guías y artículos mediante tono, brevedad, posición y apertura al desacuerdo."
       ]
     },
     {
@@ -1104,81 +1037,6 @@
       ]
     },
     {
-      "path": "content/recursos/articulos/_index.md",
-      "title": "Artículos y documentos",
-      "role": "navegacion",
-      "words": 17,
-      "dependencies": [],
-      "signals": {
-        "situacion": {
-          "present": false,
-          "evidence": null
-        },
-        "quien": {
-          "present": false,
-          "evidence": null
-        },
-        "momento_entorno": {
-          "present": false,
-          "evidence": null
-        },
-        "material_inicial": {
-          "present": true,
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 13,
-            "text": "Artículos académicos, informes y documentos clave. Cada ficha incluye datos bibliográficos, abstract y por qué lo recomendamos."
-          }
-        },
-        "acciones": {
-          "present": false,
-          "evidence": null
-        },
-        "resultado": {
-          "present": true,
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 13,
-            "text": "Artículos académicos, informes y documentos clave. Cada ficha incluye datos bibliográficos, abstract y por qué lo recomendamos."
-          }
-        },
-        "comprobacion": {
-          "present": false,
-          "evidence": null
-        },
-        "lenguaje_directo": {
-          "present": false,
-          "evidence": null
-        }
-      },
-      "missing_expected_signals": [
-        "situacion",
-        "quien",
-        "acciones",
-        "lenguaje_directo"
-      ],
-      "risk_flags": [
-        {
-          "id": "cuerpo-muy-breve",
-          "note": "La brevedad activa revisión, pero no decide por sí sola que la página deba quitarse.",
-          "evidence": {
-            "source": "content/recursos/articulos/_index.md",
-            "line": 11,
-            "text": "17 palabras visibles/auditables"
-          }
-        }
-      ],
-      "automatic_priority": "media",
-      "manual_decision": "conservar",
-      "manual_reason": "La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto.",
-      "manual_issue_types": [],
-      "manual_citations": [
-        "content/recursos/articulos/_index.md:2-4",
-        "content/recursos/articulos/_index.md:8-13",
-        "content/recursos/articulos/cormier-rhizomatic-education/index.md:31-37"
-      ]
-    },
-    {
       "path": "content/_index.md",
       "title": "Aprendizaje digital e IA",
       "role": "navegacion",
@@ -1327,6 +1185,83 @@
       "manual_citations": [
         "Expediente lote 06 L61–65: la actividad oficial de UDGPlus no bastaba para afirmar prioridad institucional general ni publicación oficial.",
         "Registro de aplicación L25–29 y segunda lectura check lote06-conservar-y-cambiar: versión reescrita sin prioridad general y con estatuto explícito."
+      ]
+    },
+    {
+      "path": "content/blog/_index.md",
+      "title": "Blog",
+      "role": "navegacion",
+      "words": 296,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 17,
+            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 17,
+            "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/blog/_index.md",
+            "line": 26,
+            "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "conservar",
+      "manual_reason": "Orienta adecuadamente a quien busca reflexión y debate, no instrucciones. Define con claridad el tipo de contenido y su diferencia respecto de otros destinos del sitio; su brevedad es legítima para un índice.",
+      "manual_issue_types": [],
+      "manual_citations": [
+        "content/blog/_index.md L16-22: Presenta el espacio como ensayos reflexivos sobre pedagogía universitaria e IA y explica qué encontrará el lector.",
+        "content/blog/_index.md L24-31: Distingue los posts de guías y artículos mediante tono, brevedad, posición y apertura al desacuerdo."
       ]
     },
     {
@@ -1482,6 +1417,86 @@
       "missing_expected_signals": [
         "lenguaje_directo"
       ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/blog/asimetria-de-la-transparencia/index.md",
+      "title": "La asimetría de la transparencia",
+      "role": "articulo",
+      "words": 892,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 24,
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/blog/asimetria-de-la-transparencia/index.md",
+            "line": 30,
+            "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
+          }
+        }
+      },
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -3506,6 +3521,86 @@
         "situacion",
         "quien"
       ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "role": "pagina",
+      "words": 1161,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 47,
+            "text": "El debate público sobre IA y honestidad académica se ha concentrado en un solo escenario —el estudiante que entrega como propio un texto generado— y eso ha dejado sin nombre los dilemas de quien enseña. Conviene nombrarlos, porque ninguno s"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 43,
+            "text": "Los marcos ya existen y no hace falta repetirlos aquí: los [cuatro criterios éticos para educación superior](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) dan el vocabulario conceptual, y los [lineamientos UNESCO]("
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
+            "line": 40,
+            "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
+          }
+        }
+      },
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -5989,7 +6084,7 @@
       "path": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
       "title": "Antes de compartir: protege datos y trabajos al usar IA",
       "role": "guia",
-      "words": 183,
+      "words": 881,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -6001,8 +6096,12 @@
           }
         },
         "quien": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
+            "line": 40,
+            "text": "La ventana de un chatbot se parece a un procesador de texto, y ese parecido engaña. Lo que escribes en un documento local se queda en tu equipo; lo que pegas en un servicio generativo comercial viaja a servidores de una empresa externa, que"
+          }
         },
         "momento_entorno": {
           "present": true,
@@ -6024,7 +6123,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6032,7 +6131,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         },
@@ -6040,22 +6139,20 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 45,
-            "text": "| Confidencial | Manuscritos en revisión, expedientes, secretos, datos bajo convenio. | No cargar en servicios generativos públicos. |"
+            "line": 44,
+            "text": "**El trabajo de una estudiante.** Un docente pega un ensayo en un chatbot para pedirle retroalimentación y ganar tiempo. El propósito es legítimo; el problema es que ese texto no le pertenece: contiene el trabajo intelectual no publicado de"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/privacidad-datos-ia/index.md",
-            "line": 42,
+            "line": 54,
             "text": "| Público | Material propio ya publicado y datos abiertos con licencia clara. | Puede usarse si se conserva atribución y se revisan las condiciones del servicio. |"
           }
         }
       },
-      "missing_expected_signals": [
-        "quien"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -6707,12 +6804,16 @@
       "path": "content/ia-educacion/productos-de-aprendizaje/_index.md",
       "title": "Productos de aprendizaje con IAG",
       "role": "navegacion",
-      "words": 253,
+      "words": 376,
       "dependencies": [],
       "signals": {
         "situacion": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
+          }
         },
         "quien": {
           "present": true,
@@ -6723,8 +6824,12 @@
           }
         },
         "momento_entorno": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
+          }
         },
         "material_inicial": {
           "present": true,
@@ -6738,8 +6843,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/productos-de-aprendizaje/_index.md",
-            "line": 44,
-            "text": "Cada ficha señala además el riesgo de que la IA sustituya el esfuerzo que la actividad pretende formar. Usa ese indicador como una pregunta de diseño, no como una clasificación automática: revisa qué debe hacer la persona, qué evidencia con"
+            "line": 42,
+            "text": "Si es tu primera visita, no leas el catálogo de corrido: entra por el producto que ya pides en tu asignatura y compara la ficha con lo que hoy evalúas. El [ensayo](ensayo/) es la puerta más transitada, porque concentra el debate sobre escri"
           }
         },
         "resultado": {
@@ -6768,7 +6873,6 @@
         }
       },
       "missing_expected_signals": [
-        "situacion",
         "lenguaje_directo"
       ],
       "risk_flags": [],
@@ -9983,7 +10087,7 @@
       "path": "content/laboratorio/practicas/_index.md",
       "title": "Prácticas pedagógicas",
       "role": "navegacion",
-      "words": 244,
+      "words": 360,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10027,8 +10131,12 @@
           }
         },
         "resultado": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/laboratorio/practicas/_index.md",
+            "line": 28,
+            "text": "Para un primer recorrido, conviene elegir por el tamaño del compromiso. Si buscas una actividad acotada que pueda probarse en una o dos sesiones, revisa el [debate socrático con IA](debate-socratico-con-ia/) o el [análisis crítico de sesgos"
+          }
         },
         "comprobacion": {
           "present": true,
@@ -11346,6 +11454,89 @@
         "content/recursos/_index.md:13-21",
         "content/recursos/_index.md:24-31",
         "content/recursos/externas/_index.md:20-22"
+      ]
+    },
+    {
+      "path": "content/recursos/articulos/_index.md",
+      "title": "Artículos y documentos",
+      "role": "navegacion",
+      "words": 348,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 19,
+            "text": "No coleccionamos todo lo que se publica sobre IA en educación —nadie puede—. Una lectura entra a esta colección cuando cumple tres condiciones: sostiene sus afirmaciones con un método o una fuente identificable, aporta algo que las demás fi"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 19,
+            "text": "No coleccionamos todo lo que se publica sobre IA en educación —nadie puede—. Una lectura entra a esta colección cuando cumple tres condiciones: sostiene sus afirmaciones con un método o una fuente identificable, aporta algo que las demás fi"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 14,
+            "text": "Fichas de lectura sobre artículos académicos, informes y documentos de referencia. No pretenden reemplazar la lectura del original: te ayudan a decidir en minutos si esa lectura vale tu tiempo y con qué pregunta conviene entrar a ella."
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 14,
+            "text": "Fichas de lectura sobre artículos académicos, informes y documentos de referencia. No pretenden reemplazar la lectura del original: te ayudan a decidir en minutos si esa lectura vale tu tiempo y con qué pregunta conviene entrar a ella."
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 21,
+            "text": "## Cómo leer una ficha"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 17,
+            "text": "## Criterio de curaduría"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/articulos/_index.md",
+            "line": 17,
+            "text": "## Criterio de curaduría"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "acciones",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "conservar",
+      "manual_reason": "La promesa editorial es clara: reúne artículos, informes y documentos, y explica que cada destino ofrece ficha bibliográfica, resumen y relevancia práctica. Los destinos revisados materializan esa estructura con información bibliográfica, abstract y justificación. Su brevedad es adecuada para un índice y no constituye falta de contexto.",
+      "manual_issue_types": [],
+      "manual_citations": [
+        "content/recursos/articulos/_index.md:2-4",
+        "content/recursos/articulos/_index.md:8-13",
+        "content/recursos/articulos/cormier-rhizomatic-education/index.md:31-37"
       ]
     },
     {
@@ -15113,7 +15304,7 @@
       "path": "content/recursos/videos/_index.md",
       "title": "Videos y cursos abiertos",
       "role": "navegacion",
-      "words": 150,
+      "words": 230,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -15145,7 +15336,7 @@
           "evidence": {
             "source": "content/recursos/videos/_index.md",
             "line": 21,
-            "text": "Empieza con la charla de Sal Khan y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto."
+            "text": "Empieza con la [charla de Sal Khan](sal-khan-ia-educacion/) y anota qué afirmación necesita comprobarse antes de trasladarla a tu contexto."
           }
         },
         "acciones": {

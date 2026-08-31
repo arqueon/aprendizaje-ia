@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-31T02:02:16.269Z",
+  "checkedAt": "2026-08-31T12:55:42.579Z",
   "totals": {
-    "pages": 166,
-    "ownFeatured": 154,
+    "pages": 168,
+    "ownFeatured": 156,
     "missingFeatured": 12,
     "hiddenHero": 19,
-    "cards": 607,
+    "cards": 616,
     "cardsWithoutImage": 0,
     "cardShortcodeSources": 103,
     "cardShortcodes": 265,

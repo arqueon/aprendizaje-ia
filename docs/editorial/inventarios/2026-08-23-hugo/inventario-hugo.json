@@ -2,21 +2,21 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 196,
-    "pages": 166,
+    "markdown": 198,
+    "pages": 168,
     "sections": 30,
-    "words": 148169,
-    "assets": 236,
-    "content_assets": 234,
+    "words": 151747,
+    "assets": 238,
+    "content_assets": 236,
     "shared_figure_assets": 2,
-    "pages_with_featured": 177,
-    "pages_with_svg": 30,
+    "pages_with_featured": 179,
+    "pages_with_svg": 32,
     "pages_with_tables": 67,
     "pages_with_mermaid": 15,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
     "body_lt90": 1,
-    "body_lt250": 38,
+    "body_lt250": 37,
     "body_gt2800": 1,
     "missing_description": 0,
     "missing_summary": 6,
@@ -60,22 +60,22 @@
       "missing_refs_with_citations": 0
     },
     "blog": {
-      "pages": 5,
+      "pages": 6,
       "sections": 1,
-      "words": 4604,
-      "featured": 5,
-      "svg": 0,
+      "words": 5639,
+      "featured": 6,
+      "svg": 1,
       "h5p": 0,
       "tables": 0,
       "weak_lt250": 0,
       "missing_refs_with_citations": 0
     },
     "formacion-docente": {
-      "pages": 30,
+      "pages": 31,
       "sections": 2,
-      "words": 39185,
-      "featured": 32,
-      "svg": 8,
+      "words": 40352,
+      "featured": 33,
+      "svg": 9,
       "h5p": 33,
       "tables": 8,
       "weak_lt250": 1,
@@ -84,18 +84,18 @@
     "ia-educacion": {
       "pages": 60,
       "sections": 8,
-      "words": 64104,
+      "words": 64932,
       "featured": 62,
       "svg": 20,
       "h5p": 4,
       "tables": 118,
-      "weak_lt250": 3,
+      "weak_lt250": 2,
       "missing_refs_with_citations": 13
     },
     "laboratorio": {
       "pages": 7,
       "sections": 3,
-      "words": 7031,
+      "words": 7153,
       "featured": 9,
       "svg": 0,
       "h5p": 2,
@@ -128,7 +128,7 @@
     "recursos": {
       "pages": 52,
       "sections": 5,
-      "words": 20699,
+      "words": 21125,
       "featured": 55,
       "svg": 13,
       "h5p": 0,
@@ -147,6 +147,10 @@
       "currículo": 2,
       "competencias": 2,
       "diseño didáctico": 5,
+      "transparencia": 4,
+      "declaración de uso": 2,
+      "integridad académica": 6,
+      "cultura institucional": 1,
       "evaluación auténtica": 4,
       "evaluación formativa": 5,
       "IA generativa": 16,
@@ -189,6 +193,9 @@
       "diseño inverso": 14,
       "cocreación": 13,
       "curso abierto": 13,
+      "ética profesional": 1,
+      "formación docente": 6,
+      "modelado": 2,
       "evaluacion": 1,
       "retroalimentacion": 2,
       "evaluacion-formativa": 2,
@@ -212,7 +219,6 @@
       "diseno-curricular": 1,
       "taller": 1,
       "backward design": 1,
-      "formación docente": 5,
       "rúbricas": 2,
       "taxonomia-bloom": 1,
       "diseno-inverso": 1,
@@ -250,7 +256,6 @@
       "equidad": 4,
       "justicia-epistemica": 1,
       "auditoria": 1,
-      "transparencia": 2,
       "ética": 11,
       "explicabilidad": 1,
       "rendición de cuentas": 1,
@@ -276,7 +281,6 @@
       "rediseño de evaluación": 1,
       "sugerencias": 1,
       "criterios": 1,
-      "integridad académica": 5,
       "inteligencia-artificial": 1,
       "personalizacion": 1,
       "tutoria-inteligente": 1,
@@ -333,7 +337,6 @@
       "metrología": 1,
       "incertidumbre": 1,
       "calidad": 1,
-      "modelado": 1,
       "matemática-aplicada": 1,
       "monografia": 1,
       "bloom-2": 1,
@@ -507,9 +510,9 @@
       "herramientas IA": 1
     },
     "categories": {
-      "opinion": 5,
+      "opinion": 6,
       "marco-conceptual": 5,
-      "guia": 22,
+      "guia": 23,
       "metodologia-pedagogica": 6,
       "marco-institucional": 1,
       "ruta-de-aprendizaje": 2,
@@ -530,12 +533,12 @@
       "video": 2
     },
     "areas": {
-      "ia": 154,
+      "ia": 155,
       "pedagogia": 128,
       "digital": 35,
-      "formacion": 56,
-      "evaluacion": 51,
-      "etica": 19
+      "etica": 22,
+      "formacion": 57,
+      "evaluacion": 51
     },
     "tag_variant_collisions": [
       {
@@ -543,6 +546,13 @@
         "variants": [
           "alfabetización IA",
           "alfabetizacion-ia"
+        ]
+      },
+      {
+        "canonical": "integridad academica",
+        "variants": [
+          "integridad académica",
+          "integridad-academica"
         ]
       },
       {
@@ -706,13 +716,6 @@
         "variants": [
           "marco institucional",
           "marco-institucional"
-        ]
-      },
-      {
-        "canonical": "integridad academica",
-        "variants": [
-          "integridad-academica",
-          "integridad académica"
         ]
       },
       {
@@ -1456,15 +1459,16 @@
       "areas": [
         "ia",
         "pedagogia",
-        "digital"
+        "digital",
+        "etica"
       ],
-      "words": 157,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 308,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": false,
@@ -1583,6 +1587,56 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
+        "tabla-sintesis"
+      ]
+    },
+    {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "route": "/blog/asimetria-de-la-transparencia/",
+      "kind": "page",
+      "section": "blog",
+      "title": "La asimetría de la transparencia",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Pedimos al estudiantado que declare su uso de IA mientras instituciones y profesorado rara vez declaran el suyo. Este ensayo examina esa asimetría y argumenta qué exigiría una cultura de transparencia simétrica.",
+      "summary": "La declaración de uso de IA se ha vuelto obligación de quien es evaluado y cortesía opcional de quien evalúa. Mientras esa asimetría persista, la transparencia funcionará como control y no como norma compartida.",
+      "tags": [
+        "transparencia",
+        "declaración de uso",
+        "integridad académica",
+        "cultura institucional"
+      ],
+      "categories": [
+        "opinion"
+      ],
+      "areas": [
+        "ia",
+        "etica"
+      ],
+      "words": 884,
+      "heading_count": 1,
+      "h2_count": 1,
+      "external_url_count": 3,
+      "citation_signals": 0,
+      "reference_heading": true,
+      "internal_link_count": 3,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
         "tabla-sintesis"
       ]
     },
@@ -3052,6 +3106,59 @@
       "decision": "actualizar",
       "needs": [
         "svg-diagrama"
+      ]
+    },
+    {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "route": "/formacion-docente/etica-profesional-docente-ia/",
+      "kind": "page",
+      "section": "formacion-docente",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "date": "2026-08-31",
+      "draft": false,
+      "description": "Los dilemas éticos del profesorado que prepara clase con IA no son los del alumnado: qué decides al usar estas herramientas, qué modela tu práctica ante el grupo y cómo se enseña la transparencia con el propio ejemplo.",
+      "summary": "La ética del uso docente de IA no se resuelve conociendo marcos: se ejerce en decisiones de preparación de clase que el grupo observa y aprende. Tres dilemas reales y una forma de enseñarla sin declararla tema.",
+      "tags": [
+        "ética profesional",
+        "formación docente",
+        "transparencia",
+        "declaración de uso",
+        "modelado"
+      ],
+      "categories": [
+        "guia"
+      ],
+      "areas": [
+        "formacion",
+        "etica"
+      ],
+      "words": 1167,
+      "heading_count": 4,
+      "h2_count": 4,
+      "external_url_count": 2,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 9,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 1,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "lead",
+          "referencias"
+        ]
+      },
+      "decision": "conservar",
+      "needs": [
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -4724,13 +4831,13 @@
         "ia",
         "etica"
       ],
-      "words": 194,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 894,
+      "heading_count": 4,
+      "h2_count": 4,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 2,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4747,8 +4854,10 @@
           "parallevar"
         ]
       },
-      "decision": "fusionar-o-ampliar",
-      "needs": []
+      "decision": "actualizar",
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "ia-educacion/guias/profesorado/index.md",
@@ -5179,13 +5288,13 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 257,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 385,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -7480,13 +7589,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 273,
-      "heading_count": 2,
-      "h2_count": 2,
+      "words": 395,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8561,13 +8670,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 17,
-      "heading_count": 0,
-      "h2_count": 0,
+      "words": 357,
+      "heading_count": 3,
+      "h2_count": 3,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -8579,7 +8688,9 @@
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
-        "shortcode_names": []
+        "shortcode_names": [
+          "lead"
+        ]
       },
       "decision": "actualizar",
       "needs": []
@@ -11001,13 +11112,13 @@
       "tags": [],
       "categories": [],
       "areas": [],
-      "words": 174,
+      "words": 260,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 6,
       "broken_internal_links": [],
       "visual": {
         "featured": true,

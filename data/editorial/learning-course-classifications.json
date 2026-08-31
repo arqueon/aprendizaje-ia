@@ -3,9 +3,9 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "5ecaabdc8209c760cdd5d309b5b8a0b42bad7a4a215adce9f5aaca5d7593bb1b",
+  "sourceInventorySha256": "c30d2f1fb19aa5f9c549e868fa68fdcf594ac447ec0e2a60e4ac9d19d0ef1b87",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
-  "classificationSourceSha256": "d38e986481485f422974a7cd8004afc3f6a978403dac385318349a6e7fb53491",
+  "classificationSourceSha256": "e5e1cc313df4bd935ffcee4fcdeba1aa3526eb12a0515c38620fcde7edb694af",
   "regeneratedBy": "npm run content:learning-classifications",
   "provenance": {
     "method": "Cruce por ruta exacta entre el inventario Hugo y la fuente clasificatoria canónica local.",
@@ -31,22 +31,22 @@
       "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
     ]
   },
-  "classifiedPageCount": 196,
+  "classifiedPageCount": 198,
   "classificationCounts": {
-    "apoyo-candidato": 38,
+    "apoyo-candidato": 39,
     "banco-de-practicas": 13,
     "banco-ejemplos-disciplinarios": 27,
     "fuera-del-recorrido-inicial": 5,
     "navegacion": 30,
     "nucleo-candidato": 10,
     "referencia-en-cuarentena": 3,
-    "referencia-opcional": 70
+    "referencia-opcional": 71
   },
   "actionCounts": {
     "conservar-como-entorno-o-demostracion": 2,
     "conservar-como-navegacion": 29,
-    "conservar-como-profundizacion": 7,
-    "conservar-fuera-del-recorrido-obligatorio": 26,
+    "conservar-como-profundizacion": 8,
+    "conservar-fuera-del-recorrido-obligatorio": 27,
     "fusionar-o-desduplicar": 5,
     "no-incorporar-al-curso": 3,
     "preservar-como-ejemplo-no-obligatorio": 27,
@@ -158,7 +158,7 @@
       "route": "/blog/",
       "title": "Blog",
       "kind": "section",
-      "words": 157,
+      "words": 308,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -194,6 +194,21 @@
         "profesorado"
       ],
       "razon": "Aporta contexto, opinion o seguimiento; no debe ampliar la carga obligatoria del curso."
+    },
+    {
+      "path": "blog/asimetria-de-la-transparencia/index.md",
+      "route": "/blog/asimetria-de-la-transparencia/",
+      "title": "La asimetría de la transparencia",
+      "kind": "page",
+      "words": 884,
+      "rol_en_el_curso": "referencia-opcional",
+      "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado",
+        "profesorado"
+      ],
+      "razon": "Ensayo de opinion sobre la transparencia asimetrica en la declaracion de uso de IA; aporta debate, no debe ampliar la carga obligatoria del curso."
     },
     {
       "path": "blog/ia-generativa-evaluacion-autentica/index.md",
@@ -559,6 +574,20 @@
         "profesorado"
       ],
       "razon": "Índice local de un curso abierto en WIP: organiza sus lecciones y no equivale a aprobación para un recorrido."
+    },
+    {
+      "path": "formacion-docente/etica-profesional-docente-ia/index.md",
+      "route": "/formacion-docente/etica-profesional-docente-ia/",
+      "title": "La dimensión ética del trabajo docente con IA",
+      "kind": "page",
+      "words": 1167,
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "conservar-como-profundizacion",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Guia que aterriza la etica del uso docente de IA en decisiones de preparacion de clase y en el modelado ante el grupo; complementa los marcos sin duplicarlos."
     },
     {
       "path": "formacion-docente/evaluacion-retroalimentacion/index.md",
@@ -1061,7 +1090,7 @@
       "route": "/ia-educacion/guias/privacidad-datos-ia/",
       "title": "Antes de compartir: protege datos y trabajos al usar IA",
       "kind": "page",
-      "words": 194,
+      "words": 894,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1199,7 +1228,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/",
       "title": "Productos de aprendizaje con IAG",
       "kind": "section",
-      "words": 257,
+      "words": 385,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -1871,7 +1900,7 @@
       "route": "/laboratorio/practicas/",
       "title": "Prácticas pedagógicas",
       "kind": "section",
-      "words": 273,
+      "words": 395,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -2190,7 +2219,7 @@
       "route": "/recursos/articulos/",
       "title": "Artículos y documentos",
       "kind": "section",
-      "words": 17,
+      "words": 357,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
@@ -2969,7 +2998,7 @@
       "route": "/recursos/videos/",
       "title": "Videos y cursos abiertos",
       "kind": "section",
-      "words": 174,
+      "words": 260,
       "rol_en_el_curso": "navegacion",
       "accion_editorial": "conservar-como-navegacion",
       "modulos_posibles": [],
