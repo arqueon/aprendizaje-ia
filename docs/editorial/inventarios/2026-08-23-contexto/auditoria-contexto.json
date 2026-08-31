@@ -4806,7 +4806,7 @@
       "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
       "title": "Plagio y autenticidad académica en la era de la IA",
       "role": "pagina",
-      "words": 1438,
+      "words": 1569,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5845,7 +5845,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El primer paso es un ejercicio de claustro: revisar el perfil de egreso del programa con el equipo docente y marcar, competencia por competencia, su nivel de afectación por la IA generativa. Tres categorías son suficientes:"
           }
         },
@@ -5869,7 +5869,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 61,
+            "line": 63,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         },
@@ -5877,7 +5877,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 53,
+            "line": 55,
             "text": "- **Alta vulnerabilidad** — la evaluación se resuelve en menos de cinco minutos con un modelo gratuito, sin que el resultado revele si el estudiante aprendió."
           }
         },
@@ -5885,7 +5885,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 41,
+            "line": 43,
             "text": "| **Transformación profunda** | La competencia cambia de naturaleza con IA. | Rediseño completo de cómo se desarrolla y evalúa. |"
           }
         },
@@ -5893,7 +5893,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 61,
+            "line": 63,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         }

@@ -5,14 +5,14 @@
     "markdown": 196,
     "pages": 166,
     "sections": 30,
-    "words": 148169,
-    "assets": 236,
-    "content_assets": 234,
+    "words": 148334,
+    "assets": 225,
+    "content_assets": 223,
     "shared_figure_assets": 2,
     "pages_with_featured": 177,
-    "pages_with_svg": 30,
+    "pages_with_svg": 31,
     "pages_with_tables": 67,
-    "pages_with_mermaid": 15,
+    "pages_with_mermaid": 16,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
     "body_lt90": 1,
@@ -84,9 +84,9 @@
     "ia-educacion": {
       "pages": 60,
       "sections": 8,
-      "words": 64104,
+      "words": 64269,
       "featured": 62,
-      "svg": 20,
+      "svg": 22,
       "h5p": 4,
       "tables": 118,
       "weak_lt250": 3,
@@ -119,7 +119,7 @@
       "sections": 4,
       "words": 11214,
       "featured": 14,
-      "svg": 5,
+      "svg": 4,
       "h5p": 0,
       "tables": 14,
       "weak_lt250": 0,
@@ -3992,7 +3992,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1454,
+      "words": 1617,
       "heading_count": 9,
       "h2_count": 6,
       "external_url_count": 6,
@@ -4006,12 +4006,13 @@
         "inline_image_count": 0,
         "svg_count": 0,
         "table_count": 1,
-        "mermaid_count": 0,
+        "mermaid_count": 1,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "lead",
+          "mermaid",
           "parallevar",
           "ref",
           "referencias"
@@ -4019,7 +4020,6 @@
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
         "interaccion-candidata"
       ]
     },
@@ -4622,7 +4622,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1276,
+      "words": 1278,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 5,
@@ -4632,22 +4632,22 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 0,
+        "svg_count": 2,
         "table_count": 1,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "figura",
           "lead",
           "referencias"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama",
         "interaccion-candidata",
         "procedencia"
       ]
@@ -8289,9 +8289,9 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 4,
+        "local_asset_count": 3,
         "inline_image_count": 0,
-        "svg_count": 3,
+        "svg_count": 2,
         "table_count": 0,
         "mermaid_count": 0,
         "chart_count": 0,

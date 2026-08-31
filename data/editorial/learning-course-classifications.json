@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "5ecaabdc8209c760cdd5d309b5b8a0b42bad7a4a215adce9f5aaca5d7593bb1b",
+  "sourceInventorySha256": "f73b301594117021f85e7d498311aa3aa9dfe3af4e504c2ff45822791f738129",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "d38e986481485f422974a7cd8004afc3f6a978403dac385318349a6e7fb53491",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -832,7 +832,7 @@
       "route": "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/",
       "title": "Plagio y autenticidad académica en la era de la IA",
       "kind": "page",
-      "words": 1454,
+      "words": 1617,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -1028,7 +1028,7 @@
       "route": "/ia-educacion/guias/integracion-curricular-ia/",
       "title": "Integración curricular de IA en programas existentes",
       "kind": "page",
-      "words": 1276,
+      "words": 1278,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
