@@ -107,6 +107,14 @@ jobs:
         env:
           EVIDENCE_DIR: ${{ runner.temp }}/udgia-h5p-pilot
         run: npm run qa:h5p:pilot
+      # Anadidas 2026-08-31: corrian solo en el job de build (push a main), de modo
+      # que un PR podia pasar la puerta y romper el despliegue — ocurrio con la Ola 2.
+      - name: QA de rutas editoriales de coordinacion y decision
+        env:
+          EVIDENCE_DIR: ${{ runner.temp }}/udgia-rutas-editoriales
+        run: |
+          npm run qa:coordinacion-route
+          npm run qa:decision-institucional-route
 
   # Build job
   build:

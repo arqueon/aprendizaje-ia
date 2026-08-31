@@ -279,7 +279,8 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     introductoryRoutePath,
     baseURL,
     `${name}: introducción`,
-    "#udgia-f18-cinco-movimientos img",
+    // Ola 2 (2026-08-30): f18 sustituida por la rutina de seis pasos.
+    "#udgia-f18-rutina-seis-pasos img",
     260
   );
 
