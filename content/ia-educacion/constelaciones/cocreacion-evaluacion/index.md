@@ -128,14 +128,15 @@ Estos movimientos no son cinco requisitos separados. El esquema siguiente ayuda 
 uno prepara el siguiente y mantiene la comprobación y la decisión bajo
 responsabilidad de la persona.
 
-{{< udgia-figure id="udgia-f18-cinco-movimientos" >}}
-1. **¿Qué necesitas hacer?:** di si necesitas comprender, enseñar o producir algo.
-2. **Primer intento:** escribe una explicación, pregunta o primera decisión antes de pedir una solución completa.
-3. **Ayuda sobre una parte:** pide una objeción, un caso contrario, una comparación o apoyo sobre una parte concreta.
-4. **Comprueba la respuesta:** vuelve a los datos, fuentes, reglas o ejemplos que pueden confirmar o debilitar la propuesta.
-5. **Decisión explicada:** conserva, transforma, descarta o deja pendiente el aporte y anota una razón breve.
+{{< udgia-figure id="udgia-f18-rutina-seis-pasos" >}}
+1. **Posición inicial:** escribe qué piensas antes de consultar y con qué criterio lo juzgarás. Se conserva tu idea y tu criterio.
+2. **Delimitar el apoyo:** decide qué puede aportar la IA y qué decisión no delegarás. Se conservan la ayuda y su límite.
+3. **Comprobar:** identifica la afirmación central y la fuente original que la sostiene. Se conservan la fuente y la revisión.
+4. **Decidir:** determina qué conservas, corriges o descartas, y qué razón sostiene la decisión. Se conserva la decisión explicada.
+5. **Comparar versiones:** observa qué cambió en tu razonamiento, qué permaneció y por qué. Se conservan el antes y el después.
+6. **Responder:** explica qué apoyo recibiste, qué comprobaste y qué faltó. Se conserva la explicación final.
 
-El recorrido no obliga a usar IA ni a seguir una secuencia rígida. La ayuda también puede provenir de una fuente, una persona o un ejemplo preparado por quien enseña. Lo importante es decir qué necesitas hacer, escribir algo propio, pedir ayuda sobre una parte, comprobar la respuesta y explicar tu decisión.
+La rutina no busca acumular capturas: permite observar qué pensó, comprobó y decidió la persona. La misma práctica puede realizarse con una respuesta de inteligencia artificial o con un caso preparado, fuentes o revisión humana: cambia la fuente de la ayuda, no las decisiones que se conservan.
 {{< /udgia-figure >}}
 
 La secuencia no convierte cada uso en una tarea larga. Sirve para reconocer qué parte no conviene

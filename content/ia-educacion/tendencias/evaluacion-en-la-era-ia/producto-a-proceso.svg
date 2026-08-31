@@ -1,11 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 470" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">El desplazamiento de la evaluación: del producto al proceso</title>
-  <desc id="desc">A la izquierda, evaluar solo el artefacto final deja opaco el uso de IA y puede mostrar
-    desempeño sin acreditar por sí solo aprendizaje. Una flecha conduce a evaluar también el proceso:
-    el recorrido de pensamiento, decisión y revisión, que aporta evidencia del juicio. Debajo, cuatro
-    instrumentos: portafolio iterativo, bitácora de decisiones, defensa oral y rúbricas asistidas.
-    La línea final indica que este desplazamiento contribuye a sostener la validez de los títulos y
-    la integridad mediante trazabilidad.</desc>
+  <title id="titulo">El producto final y las decisiones que llevaron a él</title>
+  <desc id="desc">Mirar solo el trabajo terminado puede ocultar decisiones importantes. Una versión
+    inicial, una nota sobre un cambio, una conversación breve o criterios claros ayudan a comprender
+    cómo pensó la persona. No es necesario guardar cada paso ni cada conversación con la herramienta.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
@@ -39,49 +36,48 @@
 
   <defs>
     <marker id="fB" markerWidth="11" markerHeight="11" refX="8" refY="4" orient="auto">
-      <path d="M0,0 L8,4 L0,8 Z" fill="#34508c"/>
+      <path d="M0,0 L8,4 L0,8 Z" class="f-primary"/>
     </marker>
   </defs>
+
   <rect class="fig-canvas" x="0" y="0" width="880" height="470"/>
-
-
   <g class="tk-font">
-    <!-- Evaluar el producto -->
+    <!-- Mirar solo el producto -->
     <rect x="55" y="70" width="300" height="150" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <text x="205" y="103" text-anchor="middle" font-size="16.5" font-weight="bold" class="f-ink">Evaluar el producto</text>
-    <text x="205" y="130" text-anchor="middle" font-size="12.5" class="f-muted">Solo el artefacto final</text>
-    <text x="205" y="148" text-anchor="middle" font-size="12.5" class="f-muted">Opaco al uso de la IA</text>
-    <text x="205" y="166" text-anchor="middle" font-size="12.5" class="f-muted">Puede mostrar desempeño sin</text>
-    <text x="205" y="182" text-anchor="middle" font-size="12.5" class="f-muted">acreditar por sí solo aprendizaje</text>
+    <text x="205" y="103" text-anchor="middle" font-size="16.5" font-weight="bold" class="f-ink">Mirar solo el producto final</text>
+    <text x="205" y="130" text-anchor="middle" font-size="12.5" class="f-muted">Permite conocer el resultado,</text>
+    <text x="205" y="148" text-anchor="middle" font-size="12.5" class="f-muted">pero puede ocultar quién tomó</text>
+    <text x="205" y="166" text-anchor="middle" font-size="12.5" class="f-muted">las decisiones y cómo se</text>
+    <text x="205" y="182" text-anchor="middle" font-size="12.5" class="f-muted">comprobaron las respuestas</text>
 
-    <!-- Flecha de desplazamiento -->
+    <!-- Ampliar la mirada -->
     <line x1="370" y1="145" x2="455" y2="145" class="st-primary" stroke-width="3.2" marker-end="url(#fB)"/>
-    <text x="415" y="125" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-primary">Desplazamiento</text>
+    <text x="415" y="125" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-primary">Añadir una muestra</text>
 
-    <!-- Evaluar el proceso -->
+    <!-- Mirar también el recorrido -->
     <rect x="475" y="50" width="350" height="190" rx="2" class="bg-primary st-primary" stroke-width="1.8"/>
-    <text x="650" y="86" text-anchor="middle" font-size="16.5" font-weight="bold" class="f-primary">Evaluar el proceso</text>
+    <text x="650" y="86" text-anchor="middle" font-size="16.5" font-weight="bold" class="f-primary">Mirar también el recorrido</text>
     <text x="650" y="113" text-anchor="middle" font-size="12.5" class="f-ink">El recorrido de pensamiento,</text>
     <text x="650" y="131" text-anchor="middle" font-size="12.5" class="f-ink">decisión y revisión</text>
     <text x="650" y="156" text-anchor="middle" font-size="12.5" class="f-muted">Qué se preguntó, qué se descartó,</text>
     <text x="650" y="173" text-anchor="middle" font-size="12.5" class="f-muted">qué se transformó y por qué</text>
-    <text x="650" y="198" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-good">Aporta evidencia de decisiones y criterios</text>
-    <text x="650" y="221" text-anchor="middle" font-size="12" class="f-muted">del acoplamiento persona-IA</text>
+    <text x="650" y="198" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-good">Ayuda a comprender el aprendizaje</text>
+    <text x="650" y="221" text-anchor="middle" font-size="12" class="f-muted">sin intentar adivinar si se usó IA</text>
 
-    <!-- Instrumentos -->
-    <text x="440" y="290" text-anchor="middle" font-size="13" font-weight="bold" class="f-ink">Instrumentos adaptables a cada disciplina</text>
+    <!-- Cuatro muestras posibles -->
+    <text x="440" y="290" text-anchor="middle" font-size="13" font-weight="bold" class="f-ink">Cuatro muestras que pueden adaptarse a cada disciplina</text>
     <rect x="55" y="305" width="185" height="44" rx="2" class="bg-good st-good" stroke-width="1.4"/>
-    <text x="147" y="332" text-anchor="middle" font-size="12.5" class="f-good">Portafolio iterativo</text>
+    <text x="147" y="332" text-anchor="middle" font-size="12.5" class="f-good">Versiones sucesivas</text>
     <rect x="255" y="305" width="185" height="44" rx="2" class="bg-good st-good" stroke-width="1.4"/>
-    <text x="347" y="332" text-anchor="middle" font-size="12.5" class="f-good">Bitácora de decisiones</text>
+    <text x="347" y="332" text-anchor="middle" font-size="12.5" class="f-good">Nota sobre una decisión</text>
     <rect x="455" y="305" width="170" height="44" rx="2" class="bg-good st-good" stroke-width="1.4"/>
-    <text x="540" y="332" text-anchor="middle" font-size="12.5" class="f-good">Defensa oral</text>
+    <text x="540" y="332" text-anchor="middle" font-size="12.5" class="f-good">Conversación breve</text>
     <rect x="640" y="305" width="185" height="44" rx="2" class="bg-good st-good" stroke-width="1.4"/>
-    <text x="732" y="332" text-anchor="middle" font-size="12.5" class="f-good">Rúbricas asistidas</text>
+    <text x="732" y="332" text-anchor="middle" font-size="12.5" class="f-good">Criterios explícitos</text>
 
     <!-- Cierre -->
     <rect x="55" y="385" width="770" height="50" rx="2" class="bg-warn st-warn" stroke-width="1.2"/>
-    <text x="440" y="406" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-ink">Contribuye a sostener la validez de los títulos y la integridad mediante trazabilidad</text>
-    <text x="440" y="424" text-anchor="middle" font-size="11.5" class="f-muted">La trazabilidad documenta decisiones sin convertirse en vigilancia exhaustiva</text>
+    <text x="440" y="406" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-ink">Una muestra breve puede explicar una decisión importante</text>
+    <text x="440" y="424" text-anchor="middle" font-size="11.5" class="f-muted">No hace falta guardar cada clic ni toda la conversación</text>
   </g>
 </svg>

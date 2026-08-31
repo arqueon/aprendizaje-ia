@@ -84,17 +84,17 @@ dependencia: qué se necesita, por qué afecta al piloto, quién debe consultarl
 se requiere una respuesta.
 
 {{< udgia-figure id="udgia-f01-trayectoria" src="trayectoria-habilitar-integrar.svg" >}}
-La trayectoria propone tres etapas que pueden solaparse y volver a revisarse:
+El recorrido distingue tres momentos que pueden solaparse y volver a revisarse:
 
-| Etapa | Pregunta que organiza el trabajo | Resultado esperado |
+| Etapa | Qué ocurre | Qué necesita |
 |---|---|---|
-| Habilitar. | ¿Con qué acceso, protección de datos e infraestructura se cuenta? | Se establecen condiciones básicas y responsables para experimentar. |
-| Capacitar. | ¿Qué capacidades necesitan docentes, estudiantes y equipos de apoyo? | Se desarrolla un uso crítico, situado y pedagógicamente informado. |
-| Integrar. | ¿Cómo cambia el diseño de actividades, evaluación y acompañamiento? | La IA deja de ser un añadido y se articula con propósitos de aprendizaje. |
-{.udgia-table--matrix .udgia-table--row-headers caption="De habilitar condiciones a integrar la IA en el diseño educativo"}
+| Ya está disponible. | La IA ya está presente y en uso cotidiano. | Reconocer que ese acceso, por sí solo, no garantiza aprendizaje. |
+| Aprender a utilizarla. | La comunidad comprende sus límites, comprueba sus respuestas y explica decisiones. | Formación que conecte acceso y criterio. |
+| Integrarla con propósito. | La IA se incorpora donde aporta, sin desplazar el aprendizaje. | Revisar lo que ocurre en la práctica. |
+{.udgia-table--matrix .udgia-table--row-headers caption="De tener IA disponible a integrarla con propósito"}
 
-La figura sintetiza una orientación, no una escala empírica ni un modelo de madurez
-obligatorio. Las etapas pueden coexistir y requieren ciclos periódicos de revisión.
+Las orientaciones se concentran en aprender, decidir e integrar. Son revisables a partir
+de la experiencia; no constituyen un reglamento cerrado.
 {{< /udgia-figure >}}
 
 ## El recorrido de un ciclo

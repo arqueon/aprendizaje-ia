@@ -106,17 +106,18 @@ El elemento crítico no es el comentario de la IA, sino lo que ocurre después. 
 ## Cuatro instrumentos formativos con IA
 
 {{< udgia-figure id="udgia-f09-instrumentos" src="instrumentos-evaluacion-proceso.svg" >}}
-Cuatro instrumentos complementarios convergen en la trazabilidad del trabajo:
+Las cuatro maneras convergen en comprender el recorrido: qué se preguntó, qué se descartó,
+qué se transformó y por qué:
 
-| Instrumento | Qué hace visible | Qué no demuestra por sí solo |
-|---|---|---|
-| Portafolio iterativo | La evolución entre versiones y la incorporación de retroalimentación. | No explica por sí mismo la razón de cada cambio. |
-| Bitácora de decisiones | Criterios, verificaciones, descartes y responsabilidades. | No demuestra por sí sola la calidad integral del producto final. |
-| Defensa oral | La capacidad de explicar y sostener el trabajo sin depender de la IA. | No reconstruye por sí sola todo el recorrido entre versiones. |
-| Rúbricas asistidas | Retroalimentación apoyada por IA, con calificación bajo juicio docente. | No aporta evidencia concreta si no se acompaña de artefactos. |
+| Manera de conocer | Qué permite comprender |
+|---|---|
+| Versiones sucesivas. | Comparar qué cambió y qué provocó el cambio. |
+| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. |
+| Conversación sobre el trabajo. | La persona explica una elección y responde una pregunta. |
+| Criterios explícitos. | El grupo sabe qué se observará; el profesorado conserva el juicio. |
 
-Una combinación proporcionada permite evaluar el juicio sin convertir la trazabilidad en
-vigilancia exhaustiva.
+Cada actividad puede elegir la muestra más pequeña que todavía ayude a interpretar el
+aprendizaje. Comprender una decisión aporta más que intentar detectar una herramienta.
 {{< /udgia-figure >}}
 
 ## Elige un paquete de evidencias proporcional

@@ -1,17 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Matriz UDGIA de priorización responsable</title>
-  <desc id="desc">Matriz conceptual original con cuatro criterios para deliberar antes de ampliar una iniciativa de inteligencia artificial: propósito de aprendizaje, salvaguardas y responsabilidad, capacidad para sostener, y evidencia y revisión. El análisis conjunto conduce a priorizar y pilotar, preparar condiciones, reformular o no priorizar por ahora.</desc>
+  <title id="titulo">Cuatro preguntas para decidir por dónde empezar</title>
+  <desc id="desc">Antes de ampliar una iniciativa se pregunta qué necesidad educativa atiende, qué cuidados
+    requiere, si existen personas y recursos para sostenerla, y cómo se aprenderá de una prueba. Las cuatro
+    respuestas se consideran juntas para probar en pequeño, preparar condiciones, reformular o esperar.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional. Síntesis original del marco UDGIA.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
     .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
     .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
     .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
     .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
-    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; }
-    .st-risk { stroke:#8b2635; } .st-warn { stroke:#914411; }
-    .st-axis { stroke:#18223c; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
 
     /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
        clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
@@ -31,65 +33,64 @@
       .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
     }
   </style>
+
   <rect class="fig-canvas" x="0" y="0" width="880" height="620"/>
-
-
   <g class="tk-font">
-    <text x="440" y="42" text-anchor="middle" font-size="22" font-weight="bold" class="f-ink">Matriz UDGIA de priorización responsable</text>
+    <text x="440" y="42" text-anchor="middle" font-size="22" font-weight="bold" class="f-ink">Cuatro preguntas para decidir por dónde empezar</text>
     <text x="440" y="66" text-anchor="middle" font-size="13.5" class="f-muted">Cuatro preguntas antes de ampliar una iniciativa de IA</text>
 
     <rect x="48" y="92" width="374" height="142" rx="4" class="bg-primary st-primary" stroke-width="1.7"/>
-    <text x="72" y="122" font-size="17" font-weight="bold" class="f-primary">1 · Propósito de aprendizaje</text>
-    <text x="72" y="150" font-size="13" font-weight="bold" class="f-ink">¿Qué problema formativo resuelve y para quién?</text>
-    <text x="72" y="178" font-size="12.5" class="f-muted">Evidencia mínima:</text>
-    <text x="72" y="198" font-size="12.5" class="f-muted">resultado esperado y población definidos.</text>
-    <text x="72" y="218" font-size="11.5" class="f-primary">Sin propósito claro → reformular.</text>
+    <text x="72" y="122" font-size="17" font-weight="bold" class="f-primary">1 · Necesidad educativa</text>
+    <text x="72" y="150" font-size="13" font-weight="bold" class="f-ink">¿Qué se quiere mejorar y para quién?</text>
+    <text x="72" y="178" font-size="12.5" class="f-muted">Antes de continuar conviene explicar:</text>
+    <text x="72" y="198" font-size="12.5" class="f-muted">el aprendizaje esperado y las personas involucradas.</text>
+    <text x="72" y="218" font-size="11.5" class="f-primary">Si la necesidad no está clara, se reformula.</text>
 
     <rect x="458" y="92" width="374" height="142" rx="4" class="bg-warn st-warn" stroke-width="1.7"/>
-    <text x="482" y="122" font-size="17" font-weight="bold" class="f-ink">2 · Salvaguardas y responsabilidad</text>
-    <text x="482" y="150" font-size="13" font-weight="bold" class="f-ink">¿Protege agencia, equidad, datos y juicio humano?</text>
-    <text x="482" y="178" font-size="12.5" class="f-muted">Evidencia mínima:</text>
-    <text x="482" y="198" font-size="12.5" class="f-muted">riesgos, alternativa y responsables identificados.</text>
-    <text x="482" y="218" font-size="11.5" class="f-risk">Sin salvaguardas → preparar condiciones.</text>
+    <text x="482" y="122" font-size="17" font-weight="bold" class="f-ink">2 · Cuidados y responsabilidad</text>
+    <text x="482" y="150" font-size="13" font-weight="bold" class="f-ink">¿Protege aprendizaje, acceso, datos y decisiones humanas?</text>
+    <text x="482" y="178" font-size="12.5" class="f-muted">Antes de continuar conviene identificar:</text>
+    <text x="482" y="198" font-size="12.5" class="f-muted">posibles daños, otra opción y quién responderá.</text>
+    <text x="482" y="218" font-size="11.5" class="f-risk">Si faltan cuidados, se preparan primero.</text>
 
     <rect x="48" y="256" width="374" height="142" rx="4" class="bg-neutral st-axis" stroke-width="1.5"/>
     <text x="72" y="286" font-size="17" font-weight="bold" class="f-ink">3 · Capacidad para sostener</text>
     <text x="72" y="314" font-size="13" font-weight="bold" class="f-ink">¿Hay personas, tiempo, infraestructura y apoyo?</text>
-    <text x="72" y="342" font-size="12.5" class="f-muted">Evidencia mínima:</text>
-    <text x="72" y="362" font-size="12.5" class="f-muted">recursos y responsable operativo confirmados.</text>
-    <text x="72" y="382" font-size="11.5" class="f-ink">Sin capacidad → preparar antes de ampliar.</text>
+    <text x="72" y="342" font-size="12.5" class="f-muted">Antes de continuar conviene confirmar:</text>
+    <text x="72" y="362" font-size="12.5" class="f-muted">los recursos y quién sostendrá el trabajo cotidiano.</text>
+    <text x="72" y="382" font-size="11.5" class="f-ink">Si falta capacidad, se prepara antes de ampliar.</text>
 
     <rect x="458" y="256" width="374" height="142" rx="4" class="bg-good st-good" stroke-width="1.7"/>
-    <text x="482" y="286" font-size="17" font-weight="bold" class="f-good">4 · Evidencia y revisión</text>
+    <text x="482" y="286" font-size="17" font-weight="bold" class="f-good">4 · Prueba y aprendizaje</text>
     <text x="482" y="314" font-size="13" font-weight="bold" class="f-ink">¿Puede probarse, revisarse y detenerse?</text>
-    <text x="482" y="342" font-size="12.5" class="f-muted">Evidencia mínima:</text>
-    <text x="482" y="362" font-size="12.5" class="f-muted">indicadores, fecha de revisión y criterio de salida.</text>
-    <text x="482" y="382" font-size="11.5" class="f-good">Con revisión → pilotar y aprender.</text>
+    <text x="482" y="342" font-size="12.5" class="f-muted">Antes de continuar conviene acordar:</text>
+    <text x="482" y="362" font-size="12.5" class="f-muted">qué se observará, cuándo y qué haría detenerse.</text>
+    <text x="482" y="382" font-size="11.5" class="f-good">Con revisión acordada, se prueba y aprende.</text>
 
     <line x1="440" y1="414" x2="440" y2="448" class="st-axis" stroke-width="1.5"/>
-    <text x="440" y="435" text-anchor="middle" font-size="12" font-weight="bold" class="f-ink">La orientación surge del conjunto, no de un criterio aislado</text>
+    <text x="440" y="435" text-anchor="middle" font-size="12" font-weight="bold" class="f-ink">La decisión surge de las cuatro respuestas, no de una sola</text>
 
     <rect x="48" y="462" width="190" height="82" rx="4" class="bg-good st-good" stroke-width="1.5"/>
-    <text x="143" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Priorizar y pilotar</text>
-    <text x="143" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Propósito, salvaguardas,</text>
-    <text x="143" y="532" text-anchor="middle" font-size="11.5" class="f-muted">capacidad y revisión definidos.</text>
+    <text x="143" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-good">Probar en pequeño</text>
+    <text x="143" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Necesidad, cuidados, recursos</text>
+    <text x="143" y="532" text-anchor="middle" font-size="11.5" class="f-muted">y revisión están definidos.</text>
 
     <rect x="246" y="462" width="190" height="82" rx="4" class="bg-warn st-warn" stroke-width="1.5"/>
     <text x="341" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-ink">Preparar condiciones</text>
     <text x="341" y="516" text-anchor="middle" font-size="11.5" class="f-muted">El propósito es sólido;</text>
-    <text x="341" y="532" text-anchor="middle" font-size="11.5" class="f-muted">faltan capacidad o salvaguardas.</text>
+    <text x="341" y="532" text-anchor="middle" font-size="11.5" class="f-muted">faltan recursos o cuidados.</text>
 
     <rect x="444" y="462" width="190" height="82" rx="4" class="bg-primary st-primary" stroke-width="1.5"/>
     <text x="539" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-primary">Reformular</text>
     <text x="539" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Problema, población o</text>
-    <text x="539" y="532" text-anchor="middle" font-size="11.5" class="f-muted">evidencia aún son ambiguos.</text>
+    <text x="539" y="532" text-anchor="middle" font-size="11.5" class="f-muted">aprendizaje aún no son claros.</text>
 
     <rect x="642" y="462" width="190" height="82" rx="4" class="bg-risk st-risk" stroke-width="1.5"/>
-    <text x="737" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-risk">No priorizar por ahora</text>
-    <text x="737" y="516" text-anchor="middle" font-size="11.5" class="f-muted">Aporte insuficiente o</text>
-    <text x="737" y="532" text-anchor="middle" font-size="11.5" class="f-muted">riesgos desproporcionados.</text>
+    <text x="737" y="492" text-anchor="middle" font-size="14.5" font-weight="bold" class="f-risk">Esperar por ahora</text>
+    <text x="737" y="516" text-anchor="middle" font-size="11.5" class="f-muted">El aporte es pequeño o</text>
+    <text x="737" y="532" text-anchor="middle" font-size="11.5" class="f-muted">los posibles daños son demasiado altos.</text>
 
     <rect x="48" y="566" width="784" height="34" rx="3" class="bg-neutral st-axis" stroke-width="1"/>
-    <text x="440" y="588" text-anchor="middle" font-size="12.5" class="f-ink">Herramienta deliberativa: no sustituye la evaluación pedagógica, ética, normativa, presupuestal o contextual</text>
+    <text x="440" y="588" text-anchor="middle" font-size="12.5" class="f-ink">Las preguntas ayudan a conversar; no toman la decisión ni sustituyen las revisiones necesarias</text>
   </g>
 </svg>

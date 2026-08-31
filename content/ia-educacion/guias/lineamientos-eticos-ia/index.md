@@ -33,21 +33,21 @@ El [marco ético para el uso de IA en educación superior](/ia-educacion/etica-y
 La separación es deliberada: los ejes cambian poco (soportan el ritmo de la tecnología); las sugerencias cambian con cada semestre, cuando aparecen modelos nuevos, casos de uso emergentes o tensiones que el semestre anterior no se observaron. Por eso esta guía está pensada para revisarse de forma periódica, no para fijarse.
 
 {{< udgia-figure id="udgia-f03-principios" src="principios-rectores.svg" >}}
-Los siete principios funcionan como preguntas de revisión, no como una lista de cumplimiento
-automático:
+Los siete criterios rodean una misma decisión —cómo usar IA para apoyar el aprendizaje— y
+se revisan a partir de la experiencia:
 
-| Principio rector | Pregunta de revisión | Decisión que ayuda a orientar |
-|---|---|---|
-| Formación antes que regulación. | ¿La comunidad aprendió la práctica que ahora se le exige? | La obligación se acompaña con formación y apoyo suficientes. |
-| Transparencia por defecto. | ¿Docentes y estudiantes declaran cuándo y para qué usan IA? | El uso se comunica como una práctica normal y bidireccional. |
-| Evaluación del proceso. | ¿La actividad permite observar decisiones, revisiones y criterios? | La evaluación valora el recorrido además del resultado final. |
-| Equidad de acceso. | ¿Existe una alternativa equivalente cuando el acceso es desigual? | La actividad evita convertir la disponibilidad tecnológica en una brecha. |
-| Responsabilidad distribuida. | ¿Cada nivel conoce las decisiones que le corresponde sostener? | La institución, el programa y la asignatura responden por su parte. |
-| Autonomía y soberanía institucional. | ¿Se conserva control sobre herramientas, datos y dependencias? | La decisión tecnológica mantiene alternativas y capacidad de salida. |
-| Revisión periódica. | ¿La decisión tiene evidencia, responsable y fecha de revisión? | El criterio puede modificarse cuando cambian las prácticas o las condiciones. |
+| Criterio de decisión | Qué cuida |
+|---|---|
+| Enseñar antes de exigir. | No exigir lo que no se enseñó. |
+| Explicar cómo se utilizó. | Estudiantado y profesorado describen los apoyos relevantes. |
+| Mirar también el recorrido. | Conocer una decisión y cómo se comprobó. |
+| Ofrecer opciones de acceso. | Que la actividad no cree desventajas. |
+| Aclarar quién responde. | Cada ámbito explica sus decisiones. |
+| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. |
+| Volver a revisar. | Actualizar los acuerdos a partir de la experiencia y de los nuevos casos. |
 
-Estos principios orientan la deliberación contextual. No sustituyen el análisis pedagógico,
-ético, normativo o disciplinar de cada caso.
+Los criterios se consideran juntos y ayudan a decidir con contexto; ninguno decide por sí
+solo ni sustituye el análisis pedagógico, ético, normativo o disciplinar de cada caso.
 {{< /udgia-figure >}}
 
 ## Para docentes

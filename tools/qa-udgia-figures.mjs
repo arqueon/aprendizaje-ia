@@ -6,17 +6,21 @@ const root = process.cwd();
 const metadata = JSON.parse(fs.readFileSync(path.join(root, 'data', 'udgia_figures.json'), 'utf8'));
 const expectedAttribution = 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara';
 const expectedEditorialScope = 'Material editorial del proyecto; no constituye un dictamen institucional.';
-const expectedSourceRevision = '0331dfec00b47d2138641b0cdd3b6c8c56b9c345';
-const canonicalHashes = {
-  'udgia-f04-disociacion': ['e2012a54bcaa009857db82be996d15fbf485f886643581106bef267b83a62aee', '2af7565fb04313fcb2fae4b15ff360d046280fe1844f475bba1d7ca07154780c'],
-  'udgia-f05-cocreacion': ['f776f624b7f9a7cedc54582651aaca62435ec7c38b05da69e0746f5f9959a0a1', '411e3bc13e5923c135bf8a0d5e315457fef423061f69c999072500e4e178dfff'],
-  'udgia-f09-instrumentos': ['e23a809a18d10f07102bfa12dea339cbad777510baef90ba62541ddd3017481b', '2489684c9482d1a3e7b5969af0517ac1323bc028c329def315307e35fd828f7a'],
-  'udgia-f01-trayectoria': ['9fe688222e3c59b9635e662a95b4f21b89cace8f5637d5324739a6e35726e60a', '99793eed38eb9c23f12853d14b52d79cda17f4e262bc30966c6b4f8a629ef67d'],
-  'udgia-f03-principios': ['ec2beec8ad8001de8ad103240e8efc2d48eca3777598812c480111bcda6c53a2', '7398313ba7b21439212613240bbe2ae03a3ea17914cd05023a634dadf23a4ef4'],
-  'udgia-f07-dialogo': ['31fa0ac382ef42bffcc4423c3ef26b1649821efdaebf1286d62c6de7be47ded8', '1504294f024b321ebb128aa5396e5f380495bddc4470526987790acc36944182'],
-  'udgia-f08-producto-proceso': ['6ecb3cc8e492adea7dbfcbf44551911b0949bb7c46b7f7cb9637b67b3500dfa8', 'd068d1fc6309cf6884bcf237d2eba24f5607af16a99af1c06c50fae33ae15233'],
-  'udgia-f11-politica-capas': ['a8241cf6e2f4c08176d2ee4f3a086ec465d309ce0d91001d26f85188bb796a4b', 'ee13639ce63eea7710f1a61c0a652f7ee865785441128022936a90145c81d1c6'],
-  'udgia-f17-priorizacion': ['3784efd69f1851f949a5c71a7d13f1c185a0849d973e85454229bd9e35075fb2', '9740094bac5bd1291f966a1a35967c8db60aaa5cb2c08663e52fa02892fff483'],
+// Resincronización 2026-08-30: la autoridad IAorientaciones publicó la generación
+// v0.12 (revisión abbcafc) que reescribió siete de las figuras compartidas. El anclaje
+// pasa a ser por figura: las siete refrescadas apuntan a la revisión nueva; F5 y F7
+// permanecen ancladas a su estado verificado previo (F7 es byte-idéntica en ambas
+// revisiones; F5 quedó fuera del alcance de esta ola y se registra tal cual).
+const canonicalSources = {
+  'udgia-f04-disociacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '6771ba63fb596874ea5110a6c093d9ff1321266f8dfafc8c1bb60e695f88fcfa', description: '2af7565fb04313fcb2fae4b15ff360d046280fe1844f475bba1d7ca07154780c' },
+  'udgia-f05-cocreacion': { version: '1.0.0-lote1', revision: '0331dfec00b47d2138641b0cdd3b6c8c56b9c345', svg: 'f776f624b7f9a7cedc54582651aaca62435ec7c38b05da69e0746f5f9959a0a1', description: '411e3bc13e5923c135bf8a0d5e315457fef423061f69c999072500e4e178dfff' },
+  'udgia-f09-instrumentos': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9d5739b03ad4aa83937a4621b48f929ad49b13835aa27919cf18150cffe8699d', description: '2489684c9482d1a3e7b5969af0517ac1323bc028c329def315307e35fd828f7a' },
+  'udgia-f01-trayectoria': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '9a4f1392fe9cd3bc022ec40c8dcbb4ff05c064acaefa2a10b17ddeeb0f0d6205', description: '99793eed38eb9c23f12853d14b52d79cda17f4e262bc30966c6b4f8a629ef67d' },
+  'udgia-f03-principios': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '3b6fc4f00782e8ae9b0b8f2d6e69d8be87922c0ce9305cfc20d6400120576ae2', description: '7398313ba7b21439212613240bbe2ae03a3ea17914cd05023a634dadf23a4ef4' },
+  'udgia-f07-dialogo': { version: '1.0.0-lote2', revision: '0331dfec00b47d2138641b0cdd3b6c8c56b9c345', svg: '31fa0ac382ef42bffcc4423c3ef26b1649821efdaebf1286d62c6de7be47ded8', description: '1504294f024b321ebb128aa5396e5f380495bddc4470526987790acc36944182' },
+  'udgia-f08-producto-proceso': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: 'd47ecd06a76a42d52d8bd1a60b2d459d6791f408f5379ca1ab646fd2f47cdbaf', description: 'd068d1fc6309cf6884bcf237d2eba24f5607af16a99af1c06c50fae33ae15233' },
+  'udgia-f11-politica-capas': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: 'c8ebc4b04c1e9212e0f8f34a817cd0420506e77aaaaf402672fcf7d33e85d234', description: 'ee13639ce63eea7710f1a61c0a652f7ee865785441128022936a90145c81d1c6' },
+  'udgia-f17-priorizacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '20e738aa1e3085ccb76207f5b45a921fbaeb0ae91682f417b5406f8685ed518f', description: '9740094bac5bd1291f966a1a35967c8db60aaa5cb2c08663e52fa02892fff483' },
 };
 const targets = {
   'udgia-f04-disociacion': {
@@ -35,7 +39,7 @@ const targets = {
     page: 'content/ia-educacion/guias/evaluacion-formativa-ia/index.md',
     svg: 'content/ia-educacion/guias/evaluacion-formativa-ia/instrumentos-evaluacion-proceso.svg',
     mobileSvg: 'content/ia-educacion/guias/evaluacion-formativa-ia/instrumentos-evaluacion-proceso-mobile.svg',
-    fallbackSignal: '| Instrumento |',
+    fallbackSignal: '| Manera de conocer |',
   },
   'udgia-f01-trayectoria': {
     page: 'content/ia-educacion/rutas/coordinacion-academica/index.md',
@@ -47,7 +51,7 @@ const targets = {
     page: 'content/ia-educacion/guias/lineamientos-eticos-ia/index.md',
     svg: 'content/ia-educacion/guias/lineamientos-eticos-ia/principios-rectores.svg',
     mobileSvg: 'content/ia-educacion/guias/lineamientos-eticos-ia/principios-rectores-mobile.svg',
-    fallbackSignal: '| Principio rector |',
+    fallbackSignal: '| Criterio de decisión |',
   },
   'udgia-f07-dialogo': {
     page: 'content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md',
@@ -59,27 +63,31 @@ const targets = {
     page: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md',
     svg: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/producto-a-proceso.svg',
     mobileSvg: 'content/ia-educacion/tendencias/evaluacion-en-la-era-ia/producto-a-proceso-mobile.svg',
-    fallbackSignal: '| Enfoque de evaluación |',
+    fallbackSignal: '| Muestra posible |',
   },
   'udgia-f11-politica-capas': {
     page: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md',
     svg: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/politica-por-capas.svg',
     mobileSvg: 'content/ia-educacion/tendencias/politicas-institucionales-universidades/politica-por-capas-mobile.svg',
-    fallbackSignal: '| Capa de la política |',
+    fallbackSignal: '| Ámbito |',
   },
   'udgia-f17-priorizacion': {
     page: 'content/ia-educacion/rutas/decision-institucional-ia/index.md',
     svg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg',
     mobileSvg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion-mobile.svg',
-    fallbackSignal: '| Criterio |',
+    fallbackSignal: '| Pregunta |',
   },
 };
 const localTargets = {
-  'udgia-f18-cinco-movimientos': {
+  // Resincronización 2026-08-30: la rutina de seis pasos de la autoridad (v0.12)
+  // sustituye conceptualmente a los «Cinco movimientos» generados con Napkin; la
+  // figura vigente ya no es Generated Output adaptado sino síntesis original del
+  // documento, y las guardas de procedencia describen ese estado nuevo.
+  'udgia-f18-rutina-seis-pasos': {
     page: 'content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md',
-    svg: 'assets/figures/cinco-movimientos-ayuda.svg',
-    mobileSvg: 'assets/figures/cinco-movimientos-ayuda-mobile.svg',
-    fallbackSignal: '1. **¿Qué necesitas hacer?:**',
+    svg: 'assets/figures/rutina-direccion-epistemica.svg',
+    mobileSvg: 'assets/figures/rutina-direccion-epistemica-mobile.svg',
+    fallbackSignal: '1. **Posición inicial:**',
   },
 };
 const failures = [];
@@ -123,12 +131,12 @@ for (const [id, target] of Object.entries(targets)) {
   ) {
     failures.push(`${id}: procedencia o alternativa incompleta`);
   }
-  const [canonicalSvgHash, canonicalDescriptionHash] = canonicalHashes[id];
+  const canonical = canonicalSources[id];
   if (
-    !/^1\.0\.0-lote[12]$/.test(meta.source_version)
-    || meta.source_revision !== expectedSourceRevision
-    || meta.source_sha256 !== canonicalSvgHash
-    || meta.description_sha256 !== canonicalDescriptionHash
+    meta.source_version !== canonical.version
+    || meta.source_revision !== canonical.revision
+    || meta.source_sha256 !== canonical.svg
+    || meta.description_sha256 !== canonical.description
   ) {
     failures.push(`${id}: revisión o checksum de descripción canónica`);
   }
@@ -173,23 +181,25 @@ for (const [id, target] of Object.entries(localTargets)) {
   if (mobileDigest !== meta.mobile_variant_sha256) failures.push(`${id}: checksum de variante móvil`);
   if (path.relative('assets', target.svg) !== meta.src) failures.push(`${id}: ruta de activo compartido`);
   if (path.relative('assets', target.mobileSvg) !== meta.src_mobile) failures.push(`${id}: ruta de variante móvil compartida`);
+  // La autoridad no publica archivo de descripción canónica para la rutina (f07a),
+  // por lo que la entrada no fija description_sha256; el resto de la procedencia
+  // queda anclada a la revisión v0.12 del documento.
   if (
     meta.storage !== 'shared'
-    || meta.reuse_key !== 'recorrido-probar-ayuda'
+    || meta.reuse_key !== 'rutina-direccion-epistemica'
     || !Array.isArray(meta.reusable_contexts)
     || meta.reusable_contexts.length < 2
-    || meta.source_version !== 'napkin-generated-output-selection-18'
-    || meta.source_revision !== '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
-    || meta.source_sha256 !== 'dcddac08e6f6b933136580ddb4a26a0473e8255d0f5898fb7589da5102d4a8c2'
-    || meta.description_sha256 !== 'f287592b50c4814ecd5661f4786372c90b350724d06976bdd804f70e228fb714'
-    || meta.license !== 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
-    || !meta.attribution?.includes('Generated Output de Napkin AI')
+    || meta.source_version !== '0.12-consolidado-con-original'
+    || meta.source_revision !== 'abbcafc0b1f2832238153417b0bb917eb6b4a24e'
+    || meta.source_sha256 !== '0f6700fef02695a84e1a7d032de29b9ae42733230e3d0d55b49cbab6cce3fe87'
+    || meta.license !== 'CC BY-SA 4.0'
+    || meta.attribution !== expectedAttribution
     || meta.editorial_scope !== expectedEditorialScope
     || meta.authorization_scope !== 'project-editorial'
     || meta.institutional_policy_status !== 'not-an-institutional-ruling'
-    || meta.provenance_kind !== 'napkin-generated-output-adapted'
+    || meta.provenance_kind !== 'original-synthesis'
     || meta.publication_authorized !== true
-    || !meta.notice?.includes('Publicación autorizada por Rubén')
+    || !meta.notice?.includes('Sustituye desde 2026-08-30')
   ) {
     failures.push(`${id}: procedencia o alcance local incompletos`);
   }
@@ -200,7 +210,7 @@ for (const [id, target] of Object.entries(localTargets)) {
       ['desc', /<desc\b/],
       ['aria-labelledby', /\baria-labelledby=/],
       ['viewBox', /\bviewBox=/],
-      ['procedencia Napkin', /<metadata>[^<]*Generated Output de Napkin AI[^<]*<\/metadata>/],
+      ['metadata de derechos', /<metadata\s+id=["']udgia-rights["'][^>]*>[^<]*Aprendizaje Digital e IA \(UDGPlus\), Universidad de Guadalajara[^<]*CC BY-SA 4\.0[^<]*no constituye dictamen ni política institucional\.[^<]*<\/metadata>/],
     ]) {
       if (!pattern.test(source)) failures.push(`${id} ${variant}: falta ${label}`);
     }
@@ -217,8 +227,16 @@ for (const [id, target] of Object.entries(localTargets)) {
 // source_sha256 conserva la síntesis canónica de procedencia; los hashes de
 // variante fijan por separado el re-skin vigente de Hugo y no tienen que ser
 // literalmente iguales después de una adaptación visual autorizada.
-if (!/\| Defensa oral \|/.test(fs.readFileSync(path.join(root, targets['udgia-f09-instrumentos'].page), 'utf8'))) {
-  failures.push('udgia-f09-instrumentos: faltan los cuatro instrumentos canónicos');
+// Resincronización 2026-08-30: la generación v0.12 sustituyó los cuatro instrumentos
+// (portafolio, bitácora, defensa oral, rúbricas) por cuatro maneras de conocer el
+// recorrido; la guarda pasa a exigir el conjunto canónico nuevo completo.
+{
+  const f09Page = fs.readFileSync(path.join(root, targets['udgia-f09-instrumentos'].page), 'utf8');
+  for (const muestra of ['| Versiones sucesivas. |', '| Nota sobre una decisión. |', '| Conversación sobre el trabajo. |', '| Criterios explícitos. |']) {
+    if (!f09Page.includes(muestra)) {
+      failures.push(`udgia-f09-instrumentos: falta la muestra canónica ${muestra}`);
+    }
+  }
 }
 const f17Bundle = [
   fs.readFileSync(path.join(root, targets['udgia-f17-priorizacion'].page), 'utf8'),

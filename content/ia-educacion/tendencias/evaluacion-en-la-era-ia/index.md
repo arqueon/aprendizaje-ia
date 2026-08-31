@@ -45,14 +45,20 @@ Liardi advierte además que el acceso desigual puede agravar diferencias entre e
 La propuesta puede traducirse en una decisión más acotada: conservar la entrega final y acompañarla con rastros proporcionados de las decisiones que importan. No hace falta registrar cada interacción. Conviene pedir únicamente aquello que permita reconstruir cómo la persona definió el problema, qué verificó, qué descartó y por qué sostuvo la versión final.
 
 {{< udgia-figure id="udgia-f08-producto-proceso" src="producto-a-proceso.svg" >}}
-El desplazamiento no elimina el producto final; lo acompaña con información seleccionada del proceso:
+Mirar solo el producto final permite conocer el resultado, pero puede ocultar quién tomó las
+decisiones y cómo se comprobaron las respuestas. Añadir una muestra del recorrido —qué se
+preguntó, qué se descartó, qué se transformó y por qué— ayuda a comprender el aprendizaje sin
+intentar adivinar si se usó IA:
 
-| Enfoque de evaluación | Qué se observa | Límite de la inferencia |
-|---|---|---|
-| Se evalúa la entrega aislada. | El desempeño visible en la versión final. | La entrega no acredita por sí sola cómo se aprendió ni quién tomó las decisiones. |
-| Se evalúan entrega y proceso. | Versiones, verificaciones, descartes y una defensa breve. | El conjunto aporta indicios del juicio ejercido, pero tampoco demuestra por sí solo aprendizaje transferible. |
+| Muestra posible | Qué permite comprender |
+|---|---|
+| Versiones sucesivas. | Qué cambió entre una versión y otra, y qué provocó el cambio. |
+| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. |
+| Conversación breve. | Una elección explicada por la propia persona. |
+| Criterios explícitos. | Qué se observará y con qué juicio se valorará. |
 
-Una bitácora de decisiones, una comparación entre versiones o una defensa oral pueden combinarse según la tarea. Pedir registros completos de conversación añadiría vigilancia y datos personales sin garantizar una inferencia mejor.
+Las cuatro muestras pueden adaptarse a cada disciplina. Una muestra breve puede explicar una
+decisión importante; no hace falta guardar cada clic ni toda la conversación con la herramienta.
 {{< /udgia-figure >}}
 
 ## Condiciones para usar IA en retroalimentación

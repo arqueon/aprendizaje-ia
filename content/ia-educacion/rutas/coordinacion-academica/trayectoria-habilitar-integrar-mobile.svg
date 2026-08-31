@@ -1,11 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 790" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">De habilitar a integrar</title>
-  <desc id="desc">Versión vertical de una trayectoria institucional posible en tres etapas: habilitar condiciones básicas, capacitar a la comunidad e integrar la IA al diseño educativo. Las etapas pueden solaparse y se revisan periódicamente.</desc>
+  <title id="titulo">De tener inteligencia artificial disponible a integrarla con propósito</title>
+  <desc id="desc">Versión vertical del recorrido en tres momentos: la inteligencia artificial ya está disponible y en uso; la comunidad aprende a comprenderla, comprobarla y explicar decisiones; y se integra con propósito donde aporta sin desplazar el aprendizaje. Las orientaciones apoyan ese recorrido y pueden revisarse con la experiencia.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
-    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}
-    .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-axis{stroke:#18223c}
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
 
     /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
        clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
@@ -27,40 +33,42 @@
   </style>
   <rect class="fig-canvas" x="0" y="0" width="420" height="790"/>
 
-  <g class="tk">
-    <text x="210" y="35" text-anchor="middle" font-size="19" font-weight="bold" class="ink">Trayectoria institucional posible</text>
-    <rect x="25" y="62" width="370" height="155" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <circle cx="62" cy="100" r="22" class="bg-primary st-primary" stroke-width="1.5"/>
-    <text x="62" y="107" text-anchor="middle" font-size="20" font-weight="bold" class="primary">1</text>
-    <text x="100" y="105" font-size="22" font-weight="bold" class="ink">Habilitar</text>
-    <text x="48" y="143" font-size="16" class="muted">La IA ya está presente y en uso cotidiano.</text>
-    <text x="48" y="170" font-size="16" class="muted">Asegurar acceso, protección de datos</text>
-    <text x="48" y="194" font-size="16" class="muted">e infraestructura para experimentar.</text>
-    <path d="M210 217v35" class="st-axis" stroke-width="2.5"/>
-    <path d="m202 243 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
+  <g class="tk-font">
+    <text x="210" y="38" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Una trayectoria institucional posible</text>
 
-    <rect x="25" y="258" width="370" height="155" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
-    <circle cx="62" cy="296" r="22" fill="#fff" class="st-primary" stroke-width="1.5"/>
-    <text x="62" y="303" text-anchor="middle" font-size="20" font-weight="bold" class="primary">2</text>
-    <text x="100" y="301" font-size="22" font-weight="bold" class="primary">Capacitar</text>
-    <text x="48" y="339" font-size="16" class="muted">Desarrollar competencias, criterios</text>
-    <text x="48" y="366" font-size="16" class="muted">y alfabetización en IA mediante</text>
-    <text x="48" y="390" font-size="16" class="muted">formación y acompañamiento.</text>
-    <path d="M210 413v35" class="st-axis" stroke-width="2.5"/>
-    <path d="m202 439 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
+    <rect x="25" y="64" width="370" height="150" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <circle cx="62" cy="102" r="22" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="62" y="109" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">1</text>
+    <text x="100" y="107" font-size="21" font-weight="bold" class="f-ink">Ya está disponible</text>
+    <text x="48" y="145" font-size="15.5" class="f-muted">La IA ya está presente y en uso cotidiano.</text>
+    <text x="48" y="169" font-size="15.5" class="f-muted">Este acceso, por sí solo,</text>
+    <text x="48" y="193" font-size="15.5" class="f-muted">no garantiza aprendizaje.</text>
+    <path d="M210 214v33" class="st-axis" stroke-width="2.5"/>
+    <path d="m202 238 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
 
-    <rect x="25" y="454" width="370" height="155" rx="5" class="bg-good st-good" stroke-width="1.7"/>
-    <circle cx="62" cy="492" r="22" fill="#fff" class="st-good" stroke-width="1.5"/>
-    <text x="62" y="499" text-anchor="middle" font-size="20" font-weight="bold" class="good">3</text>
-    <text x="100" y="497" font-size="22" font-weight="bold" class="good">Integrar</text>
-    <text x="48" y="535" font-size="16" class="muted">Articular la IA con los propósitos</text>
-    <text x="48" y="562" font-size="16" class="muted">de aprendizaje, el diseño, la evaluación</text>
-    <text x="48" y="586" font-size="16" class="muted">y el acompañamiento.</text>
+    <rect x="25" y="252" width="370" height="150" rx="5" class="bg-warn st-warn" stroke-width="1.5"/>
+    <circle cx="62" cy="290" r="22" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="62" y="297" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">2</text>
+    <text x="100" y="295" font-size="21" font-weight="bold" class="f-ink">Aprender a utilizarla</text>
+    <text x="48" y="333" font-size="15.5" class="f-muted">Comprender sus límites, comprobar sus</text>
+    <text x="48" y="357" font-size="15.5" class="f-muted">respuestas y explicar decisiones.</text>
+    <text x="48" y="381" font-size="15.5" class="f-muted">La formación conecta acceso y criterio.</text>
+    <path d="M210 402v33" class="st-axis" stroke-width="2.5"/>
+    <path d="m202 426 8 10 8-10" fill="none" class="st-axis" stroke-width="2.5"/>
 
-    <path d="M210 609v36" class="st-primary" stroke-width="2.5"/>
-    <rect x="25" y="645" width="370" height="112" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
-    <text x="210" y="681" text-anchor="middle" font-size="18" font-weight="bold" class="primary">Revisar y volver a decidir</text>
-    <text x="210" y="711" text-anchor="middle" font-size="15.5" class="muted">Las etapas pueden solaparse.</text>
-    <text x="210" y="735" text-anchor="middle" font-size="15.5" class="muted">No forman una escala obligatoria.</text>
+    <rect x="25" y="440" width="370" height="150" rx="5" class="bg-good st-good" stroke-width="1.7"/>
+    <circle cx="62" cy="478" r="22" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="62" y="485" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">3</text>
+    <text x="100" y="483" font-size="21" font-weight="bold" class="f-good">Integrarla con propósito</text>
+    <text x="48" y="521" font-size="15.5" class="f-muted">Incorporarla donde aporta,</text>
+    <text x="48" y="545" font-size="15.5" class="f-muted">sin desplazar el aprendizaje.</text>
+    <text x="48" y="569" font-size="15.5" class="f-muted">Revisar lo que ocurre en la práctica.</text>
+
+    <path d="M210 590v34" class="st-primary" stroke-width="2.5"/>
+    <rect x="25" y="624" width="370" height="140" rx="5" class="bg-primary st-primary" stroke-width="1.5"/>
+    <text x="210" y="658" text-anchor="middle" font-size="17" font-weight="bold" class="f-primary">Las orientaciones se concentran</text>
+    <text x="210" y="682" text-anchor="middle" font-size="17" font-weight="bold" class="f-primary">en aprender, decidir e integrar</text>
+    <text x="210" y="714" text-anchor="middle" font-size="15" class="f-muted">Son revisables a partir de la experiencia;</text>
+    <text x="210" y="738" text-anchor="middle" font-size="15" class="f-muted">no constituyen un reglamento cerrado.</text>
   </g>
 </svg>

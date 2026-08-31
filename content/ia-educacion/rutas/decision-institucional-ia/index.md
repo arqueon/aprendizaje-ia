@@ -190,28 +190,24 @@ dos preguntas:
 2. ¿existe capacidad real para sostenerla de forma responsable?
 
 {{< udgia-figure id="udgia-f17-priorizacion" src="matriz-priorizacion.svg" >}}
-La matriz examina una iniciativa mediante cuatro criterios del marco UDGIA:
+Antes de ampliar una iniciativa de IA, la figura propone considerar juntas cuatro preguntas:
 
-| Criterio | Pregunta de decisión | Evidencia mínima |
-|---|---|---|
-| Propósito de aprendizaje. | ¿Qué problema formativo resuelve y para quién? | Resultado esperado y población definidos. |
-| Salvaguardas. | ¿Protege agencia, equidad, datos y responsabilidad humana? | Riesgos, alternativa y responsables identificados. |
-| Capacidad para sostener. | ¿Existen personas, tiempo, infraestructura y acompañamiento? | Recursos y responsable operativo confirmados. |
-| Evidencia y revisión. | ¿Puede probarse a pequeña escala y revisarse? | Indicadores, fecha de revisión y criterio de salida. |
+| Pregunta | Qué conviene tener claro antes de continuar |
+|---|---|
+| Necesidad educativa: ¿qué se quiere mejorar y para quién? | El aprendizaje esperado y las personas involucradas; si la necesidad no está clara, se reformula. |
+| Cuidados y responsabilidad: ¿protege aprendizaje, acceso, datos y decisiones humanas? | Los posibles daños, otra opción disponible y quién responderá; si faltan cuidados, se preparan primero. |
+| Capacidad para sostener: ¿hay personas, tiempo, infraestructura y apoyo? | Los recursos y quién sostendrá el trabajo cotidiano; si falta capacidad, se prepara antes de ampliar. |
+| Prueba y aprendizaje: ¿puede probarse, revisarse y detenerse? | Qué se observará, cuándo y qué haría detenerse; con revisión acordada, se prueba y aprende. |
 
-El cruce de esos criterios abre cuatro orientaciones:
+Las cuatro respuestas, consideradas juntas, abren cuatro orientaciones:
 
-- **Priorizar y pilotar**, cuando propósito, salvaguardas, capacidad y revisión están
-  suficientemente definidos.
-- **Preparar condiciones**, cuando el propósito es sólido pero faltan capacidad o
-  salvaguardas.
-- **Reformular**, cuando el problema, la población o la evidencia esperada siguen siendo
-  ambiguos.
-- **No priorizar por ahora**, cuando la contribución es insuficiente o los riesgos y costos
-  resultan desproporcionados.
+- **Probar en pequeño**, cuando necesidad, cuidados, recursos y revisión están definidos.
+- **Preparar condiciones**, cuando el propósito es sólido pero faltan recursos o cuidados.
+- **Reformular**, cuando el problema, la población o el aprendizaje aún no son claros.
+- **Esperar por ahora**, cuando el aporte es pequeño o los posibles daños son demasiado altos.
 
-Es una síntesis original del marco UDGIA para apoyar deliberaciones. No sustituye la
-evaluación pedagógica, ética, normativa, presupuestal o contextual.
+La decisión surge de las cuatro respuestas, no de una sola. Las preguntas ayudan a conversar;
+no toman la decisión ni sustituyen las revisiones necesarias.
 {{< /udgia-figure >}}
 
 <div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">

@@ -1,9 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Instrumentos para evaluar el proceso</title>
-  <desc id="desc">Cuatro instrumentos, portafolio iterativo, bitácora de decisiones, defensa oral y rúbricas asistidas, se articulan alrededor de la trazabilidad, la validación y el juicio docente.</desc>
+  <title id="titulo">Cuatro maneras de conocer cómo se llegó al resultado</title>
+  <desc id="desc">Las versiones sucesivas, una nota sobre una decisión, una conversación breve y criterios
+    explícitos permiten comprender mejor el recorrido. Cada actividad puede elegir la muestra más pequeña
+    que todavía ayude a interpretar el aprendizaje.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
     .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
     .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
     .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
@@ -31,33 +34,32 @@
     }
   </style>
   <rect class="fig-canvas" x="0" y="0" width="880" height="500"/>
-
   <g class="tk-font">
     <rect x="320" y="185" width="240" height="110" rx="2" class="bg-primary st-primary" stroke-width="1.8"/>
-    <text x="440" y="220" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Trazabilidad del proceso</text>
+    <text x="440" y="220" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Comprender el recorrido</text>
     <text x="440" y="245" text-anchor="middle" font-size="12" class="f-muted">Qué se preguntó, qué se descartó,</text>
     <text x="440" y="262" text-anchor="middle" font-size="12" class="f-muted">qué se transformó y por qué</text>
-    <text x="440" y="282" text-anchor="middle" font-size="12" font-weight="bold" class="f-ink">Evidencia del juicio</text>
+    <text x="440" y="282" text-anchor="middle" font-size="12" font-weight="bold" class="f-ink">Una decisión que puede explicarse</text>
 
     <rect x="58" y="52" width="250" height="88" rx="2" class="bg-good st-good" stroke-width="1.5"/>
-    <text x="183" y="82" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">Portafolio iterativo</text>
-    <text x="183" y="106" text-anchor="middle" font-size="11.5" class="f-muted">Versiones sucesivas que muestran</text>
-    <text x="183" y="122" text-anchor="middle" font-size="11.5" class="f-muted">la evolución del pensamiento</text>
+    <text x="183" y="82" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">Versiones sucesivas</text>
+    <text x="183" y="106" text-anchor="middle" font-size="11.5" class="f-muted">Permiten comparar qué cambió</text>
+    <text x="183" y="122" text-anchor="middle" font-size="11.5" class="f-muted">y qué provocó el cambio</text>
 
     <rect x="572" y="52" width="250" height="88" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
-    <text x="697" y="82" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Bitácora de decisiones</text>
-    <text x="697" y="106" text-anchor="middle" font-size="11.5" class="f-muted">Registro de consultas, criterios,</text>
-    <text x="697" y="122" text-anchor="middle" font-size="11.5" class="f-muted">aceptaciones y descartes</text>
+    <text x="697" y="82" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Nota sobre una decisión</text>
+    <text x="697" y="106" text-anchor="middle" font-size="11.5" class="f-muted">Explica qué se aceptó, corrigió</text>
+    <text x="697" y="122" text-anchor="middle" font-size="11.5" class="f-muted">o descartó y por qué</text>
 
     <rect x="58" y="340" width="250" height="88" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <text x="183" y="370" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Defensa oral</text>
-    <text x="183" y="394" text-anchor="middle" font-size="11.5" class="f-muted">Explicar y sostener el trabajo</text>
-    <text x="183" y="410" text-anchor="middle" font-size="11.5" class="f-muted">sin depender de la IA</text>
+    <text x="183" y="370" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Conversación sobre el trabajo</text>
+    <text x="183" y="394" text-anchor="middle" font-size="11.5" class="f-muted">La persona explica una elección</text>
+    <text x="183" y="410" text-anchor="middle" font-size="11.5" class="f-muted">y responde una pregunta</text>
 
     <rect x="572" y="340" width="250" height="88" rx="2" class="bg-good st-good" stroke-width="1.5"/>
-    <text x="697" y="370" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">Rúbricas asistidas</text>
-    <text x="697" y="394" text-anchor="middle" font-size="11.5" class="f-muted">Retroalimentación con IA,</text>
-    <text x="697" y="410" text-anchor="middle" font-size="11.5" class="f-muted">calificación con juicio docente</text>
+    <text x="697" y="370" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">Criterios explícitos</text>
+    <text x="697" y="394" text-anchor="middle" font-size="11.5" class="f-muted">El grupo sabe qué se observará;</text>
+    <text x="697" y="410" text-anchor="middle" font-size="11.5" class="f-muted">el profesorado conserva el juicio</text>
 
     <g fill="none" stroke-width="1.5">
       <path d="M 308 118 L 355 185" class="st-good"/>
@@ -67,6 +69,6 @@
     </g>
 
     <rect x="222" y="455" width="436" height="30" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
-    <text x="440" y="475" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-primary">La integridad se sostiene en trazabilidad, no en detección (§5.4)</text>
+    <text x="440" y="475" text-anchor="middle" font-size="12.5" font-weight="bold" class="f-primary">Comprender una decisión aporta más que intentar detectar una herramienta</text>
   </g>
 </svg>

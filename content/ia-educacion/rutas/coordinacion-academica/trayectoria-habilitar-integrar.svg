@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">De habilitar a integrar: el propósito de estas orientaciones</title>
-  <desc id="desc">Tres etapas encadenadas. Primera: habilitar, la IA ya está presente y en uso.
-    Segunda: capacitar, desarrollar competencias, criterios y alfabetización. Tercera: integrar,
-    incorporación responsable a la vida académica. Una llave indica que este documento cubre el
-    paso de capacitar a integrar, y una banda inferior recuerda que son orientaciones revisables
-    con ciclo de revisión periódica, no un reglamento cerrado.</desc>
+  <title id="titulo">De tener inteligencia artificial disponible a integrarla con propósito</title>
+  <desc id="desc">La inteligencia artificial ya está disponible y se utiliza. Para incorporarla a la vida
+    académica hacen falta dos movimientos: aprender a comprenderla y revisarla, y decidir dónde aporta valor
+    sin desplazar el aprendizaje. Las orientaciones apoyan ese recorrido y pueden revisarse con la experiencia.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
@@ -38,47 +36,46 @@
 
   <defs>
     <marker id="flecha" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
-      <path d="M0,0 L7,3.5 L0,7 Z" fill="#18223c"/>
+      <path d="M0,0 L7,3.5 L0,7 Z" class="f-ink"/>
     </marker>
   </defs>
+
   <rect class="fig-canvas" x="0" y="0" width="880" height="360"/>
-
-
   <g class="tk-font">
-    <!-- Etapa 1: Habilitar -->
+    <!-- Etapa 1: ya está disponible -->
     <rect x="40" y="70" width="230" height="120" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <text x="155" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Habilitar</text>
+    <text x="155" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Ya está disponible</text>
     <text x="155" y="136" text-anchor="middle" font-size="13" class="f-muted">La IA ya está presente</text>
     <text x="155" y="154" text-anchor="middle" font-size="13" class="f-muted">y en uso cotidiano</text>
-    <text x="155" y="172" text-anchor="middle" font-size="13" class="f-muted">Acceso, datos e infraestructura</text>
+    <text x="155" y="172" text-anchor="middle" font-size="13" class="f-muted">Este acceso no garantiza aprendizaje</text>
 
     <!-- Flecha 1→2 -->
     <line x1="270" y1="130" x2="318" y2="130" class="st-axis" stroke-width="2" marker-end="url(#flecha)"/>
 
-    <!-- Etapa 2: Capacitar -->
+    <!-- Etapa 2: aprender a utilizarla -->
     <rect x="325" y="70" width="230" height="120" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
-    <text x="440" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Capacitar</text>
-    <text x="440" y="136" text-anchor="middle" font-size="13" class="f-muted">Competencias, criterios</text>
-    <text x="440" y="154" text-anchor="middle" font-size="13" class="f-muted">y alfabetización en IA</text>
-    <text x="440" y="172" text-anchor="middle" font-size="13" class="f-muted">Formación y acompañamiento</text>
+    <text x="440" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Aprender a utilizarla</text>
+    <text x="440" y="136" text-anchor="middle" font-size="13" class="f-muted">Comprender sus límites, comprobar</text>
+    <text x="440" y="154" text-anchor="middle" font-size="13" class="f-muted">sus respuestas y explicar decisiones</text>
+    <text x="440" y="172" text-anchor="middle" font-size="13" class="f-muted">La formación conecta acceso y criterio</text>
 
     <!-- Flecha 2→3 -->
     <line x1="555" y1="130" x2="603" y2="130" class="st-axis" stroke-width="2" marker-end="url(#flecha)"/>
 
-    <!-- Etapa 3: Integrar -->
+    <!-- Etapa 3: integrarla con propósito -->
     <rect x="610" y="70" width="230" height="120" rx="2" class="bg-good st-good" stroke-width="1.5"/>
-    <text x="725" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-good">Integrar</text>
-    <text x="725" y="136" text-anchor="middle" font-size="13" class="f-muted">Incorporación responsable</text>
-    <text x="725" y="154" text-anchor="middle" font-size="13" class="f-muted">a la vida académica</text>
-    <text x="725" y="172" text-anchor="middle" font-size="13" class="f-muted">Diseño, evaluación y revisión</text>
+    <text x="725" y="108" text-anchor="middle" font-size="19" font-weight="bold" class="f-good">Integrarla con propósito</text>
+    <text x="725" y="136" text-anchor="middle" font-size="13" class="f-muted">Incorporarla donde aporta</text>
+    <text x="725" y="154" text-anchor="middle" font-size="13" class="f-muted">sin desplazar el aprendizaje</text>
+    <text x="725" y="172" text-anchor="middle" font-size="13" class="f-muted">Revisar lo que ocurre en la práctica</text>
 
     <!-- Llave: alcance del documento -->
     <path d="M 325 215 L 325 232 L 840 232 L 840 215" fill="none" class="st-primary" stroke-width="2"/>
     <line x1="582" y1="232" x2="582" y2="247" class="st-primary" stroke-width="2"/>
-    <text x="582" y="268" text-anchor="middle" font-size="14" font-weight="bold" class="f-primary">Una trayectoria institucional posible</text>
+    <text x="582" y="268" text-anchor="middle" font-size="14" font-weight="bold" class="f-primary">Las orientaciones se concentran en aprender, decidir e integrar</text>
 
     <!-- Banda inferior -->
     <rect x="40" y="295" width="800" height="42" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
-    <text x="440" y="321" text-anchor="middle" font-size="13.5" class="f-primary">Las etapas pueden solaparse y requieren revisión periódica; no son un reglamento cerrado</text>
+    <text x="440" y="321" text-anchor="middle" font-size="13.5" class="f-primary">Son orientaciones revisables a partir de la experiencia; no constituyen un reglamento cerrado</text>
   </g>
 </svg>
