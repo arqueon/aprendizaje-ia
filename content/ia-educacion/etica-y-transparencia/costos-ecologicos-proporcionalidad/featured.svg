@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#131f3d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="46%" r="48%">
+      <stop offset="0%" stop-color="#8ba3d6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8ba3d6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#8ba3d6" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <!-- balanza de proporcionalidad: un círculo grande y uno pequeño sobre un fiel inclinado -->
+  <line x1="380" y1="360" x2="820" y2="290" stroke="#8ba3d6" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <line x1="600" y1="325" x2="600" y2="470" stroke="#8ba3d6" stroke-opacity="0.7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 520 470 L 680 470 L 650 500 L 550 500 Z" fill="#34508c" fill-opacity="0.5"/>
+  <circle cx="380" cy="280" r="86" fill="#34508c" fill-opacity="0.45" stroke="#8ba3d6" stroke-opacity="0.55" stroke-width="3"/>
+  <circle cx="820" cy="252" r="34" fill="#8ba3d6" fill-opacity="0.4" stroke="#8ba3d6" stroke-opacity="0.6" stroke-width="3"/>
+  <!-- gota: el costo hídrico que la interfaz no muestra -->
+  <path d="M 380 236 C 402 268 414 288 414 306 C 414 327 399 341 380 341 C 361 341 346 327 346 306 C 346 288 358 268 380 236 Z" fill="#0e1628" fill-opacity="0.55" stroke="#8ba3d6" stroke-opacity="0.7" stroke-width="4"/>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

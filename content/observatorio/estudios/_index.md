@@ -12,6 +12,12 @@ Si necesitas datos para delimitar un diagnóstico, revisa primero el método y l
 
 ## Estudios recientes
 
+### Censo nacional ENIAG: IA generativa en la educación superior mexicana
+
+La SEP y la ANUIES levantaron el primer censo nacional sobre usos y percepciones de la IA generativa, con respuestas de más de 1.5 millones de estudiantes y 163 mil docentes de 2,900 instituciones. La ficha presenta las cifras con su procedencia y recuerda el límite que la propia fuente exige: los porcentajes nacionales no describen a ninguna institución concreta.
+
+{{< card link="/observatorio/estudios/encuesta-eniag-mexico" title="Leer la ficha del censo nacional" icon="chart-column" >}}
+
 ### Encuesta DEC 2026: IA en educación superior en América Latina
 
 El Digital Education Council reunió respuestas de estudiantes y profesorado de 29 instituciones. La Universidad de Guadalajara figura entre las instituciones participantes, pero el informe público no publica resultados desagregados por universidad. Su inclusión permite reconocer participación institucional; no permite atribuir a la UdeG los porcentajes regionales ni afirmar representatividad local.
