@@ -1,106 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice" role="img" aria-labelledby="title desc">
+  <title id="title">Tres guías institucionales sobre IA generativa en evaluación</title>
+  <desc id="desc">Composición abstracta en familia almagre sobre base nocturna: tres documentos escalonados, uno por nivel educativo, acompañados de marcas de verificación que evocan la evaluación.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1e1b4b"/>
-      <stop offset="50%" stop-color="#312e81"/>
-      <stop offset="100%" stop-color="#4338ca"/>
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#360b0f"/>
     </linearGradient>
-    <linearGradient id="doc1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#0284c7" stop-opacity="0.7"/>
-    </linearGradient>
-    <linearGradient id="doc2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.9"/>
-      <stop offset="100%" stop-color="#d97706" stop-opacity="0.7"/>
-    </linearGradient>
-    <linearGradient id="doc3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.75"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#a5b4fc" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#a5b4fc" stop-opacity="0"/>
+    <radialGradient id="glow" cx="38%" cy="46%" r="52%">
+      <stop offset="0%" stop-color="#cc615f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#cc615f" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#c7d2fe" fill-opacity="0.18"/>
-    </pattern>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.4"/>
+    </linearGradient>
   </defs>
 
-  <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#dots)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
 
-  <!-- Soft ambient glows -->
-  <ellipse cx="200" cy="120" rx="320" ry="260" fill="url(#glow)"/>
-  <ellipse cx="1050" cy="520" rx="380" ry="300" fill="url(#glow)"/>
+  <!-- Retícula sutil -->
+  <g stroke="#cc615f" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/>
+    <line x1="300" y1="0" x2="300" y2="630"/><line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
 
-  <!-- Three stacked document cards (one per nivel) -->
-  <g transform="translate(280,150)">
-    <!-- Posgrado (back) -->
-    <g transform="translate(0,0) rotate(-9 320 200)">
-      <rect x="0" y="0" width="380" height="450" rx="22" fill="url(#doc3)" stroke="#a78bfa" stroke-width="2" stroke-opacity="0.5"/>
-      <rect x="40" y="60" width="220" height="14" rx="6" fill="#ffffff" fill-opacity="0.55"/>
-      <rect x="40" y="92" width="180" height="10" rx="5" fill="#ffffff" fill-opacity="0.4"/>
-      <rect x="40" y="140" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.25"/>
-      <rect x="40" y="158" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.25"/>
-      <rect x="40" y="176" width="290" height="6" rx="3" fill="#ffffff" fill-opacity="0.25"/>
-      <rect x="40" y="220" width="120" height="80" rx="8" fill="#ffffff" fill-opacity="0.2"/>
-      <rect x="180" y="220" width="160" height="80" rx="8" fill="#ffffff" fill-opacity="0.2"/>
-      <rect x="40" y="320" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.22"/>
-      <rect x="40" y="338" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.22"/>
-      <rect x="40" y="356" width="260" height="6" rx="3" fill="#ffffff" fill-opacity="0.22"/>
-    </g>
-
-    <!-- Licenciatura (middle) -->
-    <g transform="translate(120,40)">
-      <rect x="0" y="0" width="380" height="450" rx="22" fill="url(#doc2)" stroke="#fbbf24" stroke-width="2" stroke-opacity="0.5"/>
-      <rect x="40" y="60" width="240" height="14" rx="6" fill="#ffffff" fill-opacity="0.7"/>
-      <rect x="40" y="92" width="180" height="10" rx="5" fill="#ffffff" fill-opacity="0.55"/>
-      <rect x="40" y="140" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="40" y="158" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="40" y="176" width="290" height="6" rx="3" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="40" y="220" width="120" height="80" rx="8" fill="#ffffff" fill-opacity="0.28"/>
-      <rect x="180" y="220" width="160" height="80" rx="8" fill="#ffffff" fill-opacity="0.28"/>
-      <rect x="40" y="320" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="40" y="338" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="40" y="356" width="260" height="6" rx="3" fill="#ffffff" fill-opacity="0.3"/>
-    </g>
-
-    <!-- Bachillerato (front) -->
-    <g transform="translate(260,80) rotate(9 190 220)">
-      <rect x="0" y="0" width="380" height="450" rx="22" fill="url(#doc1)" stroke="#7dd3fc" stroke-width="2" stroke-opacity="0.6"/>
-      <rect x="40" y="60" width="220" height="14" rx="6" fill="#ffffff" fill-opacity="0.85"/>
-      <rect x="40" y="92" width="160" height="10" rx="5" fill="#ffffff" fill-opacity="0.7"/>
-      <rect x="40" y="140" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.45"/>
-      <rect x="40" y="158" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.45"/>
-      <rect x="40" y="176" width="290" height="6" rx="3" fill="#ffffff" fill-opacity="0.45"/>
-      <circle cx="100" cy="260" r="36" fill="#ffffff" fill-opacity="0.35"/>
-      <rect x="160" y="240" width="180" height="10" rx="5" fill="#ffffff" fill-opacity="0.4"/>
-      <rect x="160" y="260" width="160" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="160" y="278" width="170" height="8" rx="4" fill="#ffffff" fill-opacity="0.3"/>
-      <rect x="40" y="340" width="300" height="6" rx="3" fill="#ffffff" fill-opacity="0.4"/>
-      <rect x="40" y="358" width="280" height="6" rx="3" fill="#ffffff" fill-opacity="0.4"/>
-      <rect x="40" y="376" width="260" height="6" rx="3" fill="#ffffff" fill-opacity="0.4"/>
+  <!-- Tres documentos escalonados: bachillerato, licenciatura, posgrado -->
+  <!-- Documento posterior -->
+  <g transform="translate(300,150) rotate(-6 150 190)">
+    <rect x="0" y="0" width="300" height="380" rx="8" fill="#7f1820" fill-opacity="0.28" stroke="#cc615f" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="34" y1="0" x2="34" y2="380" stroke="#cc615f" stroke-opacity="0.30" stroke-width="2"/>
+    <g stroke="#df9591" stroke-opacity="0.22" stroke-width="4" stroke-linecap="round">
+      <line x1="62" y1="70" x2="240" y2="70"/><line x1="62" y1="104" x2="220" y2="104"/>
+      <line x1="62" y1="138" x2="232" y2="138"/><line x1="62" y1="172" x2="205" y2="172"/>
     </g>
   </g>
 
-  <!-- Subtle neural-network nodes (decorative) -->
-  <g opacity="0.55">
-    <circle cx="120" cy="500" r="5" fill="#c7d2fe"/>
-    <circle cx="180" cy="540" r="3" fill="#a5b4fc"/>
-    <circle cx="80" cy="420" r="4" fill="#a5b4fc"/>
-    <circle cx="160" cy="450" r="3" fill="#c7d2fe"/>
-    <line x1="120" y1="500" x2="180" y2="540" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
-    <line x1="120" y1="500" x2="80"  y2="420" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
-    <line x1="120" y1="500" x2="160" y2="450" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
-
-    <circle cx="1080" cy="160" r="5" fill="#c7d2fe"/>
-    <circle cx="1140" cy="200" r="3" fill="#a5b4fc"/>
-    <circle cx="1040" cy="100" r="4" fill="#a5b4fc"/>
-    <circle cx="1130" cy="120" r="3" fill="#c7d2fe"/>
-    <line x1="1080" y1="160" x2="1140" y2="200" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
-    <line x1="1080" y1="160" x2="1040" y2="100" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
-    <line x1="1080" y1="160" x2="1130" y2="120" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.45"/>
+  <!-- Documento medio -->
+  <g transform="translate(440,120)">
+    <rect x="0" y="0" width="310" height="400" rx="8" fill="#991c25" fill-opacity="0.32" stroke="#cc615f" stroke-opacity="0.48" stroke-width="2"/>
+    <line x1="36" y1="0" x2="36" y2="400" stroke="#cc615f" stroke-opacity="0.38" stroke-width="2"/>
+    <g stroke="#df9591" stroke-opacity="0.28" stroke-width="4" stroke-linecap="round">
+      <line x1="66" y1="66" x2="252" y2="66"/><line x1="66" y1="100" x2="230" y2="100"/>
+      <line x1="66" y1="134" x2="246" y2="134"/><line x1="66" y1="168" x2="214" y2="168"/>
+      <line x1="66" y1="202" x2="240" y2="202"/>
+    </g>
   </g>
+
+  <!-- Documento frontal -->
+  <g transform="translate(590,96) rotate(5 160 210)">
+    <rect x="0" y="0" width="320" height="420" rx="8" fill="#b12028" fill-opacity="0.34" stroke="#df9591" stroke-opacity="0.60" stroke-width="2.5"/>
+    <line x1="40" y1="0" x2="40" y2="420" stroke="#df9591" stroke-opacity="0.45" stroke-width="2"/>
+    <g stroke="#efc6c2" stroke-opacity="0.40" stroke-width="4" stroke-linecap="round">
+      <line x1="72" y1="64" x2="262" y2="64"/><line x1="72" y1="98" x2="238" y2="98"/>
+    </g>
+    <!-- Marcas de verificación: la evaluación como hilo común -->
+    <g fill="none" stroke="#efc6c2" stroke-opacity="0.55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M74 158 l14 16 26 -30"/>
+      <path d="M74 232 l14 16 26 -30"/>
+      <path d="M74 306 l14 16 26 -30"/>
+    </g>
+    <g stroke="#df9591" stroke-opacity="0.32" stroke-width="4" stroke-linecap="round">
+      <line x1="136" y1="152" x2="266" y2="152"/><line x1="136" y1="226" x2="252" y2="226"/>
+      <line x1="136" y1="300" x2="260" y2="300"/>
+    </g>
+  </g>
+
+  <!-- Trayectoria ascendente entre niveles -->
+  <path d="M 200 520 Q 420 470 620 400 T 1030 250" fill="none" stroke="#cc615f" stroke-opacity="0.35" stroke-width="2.5" stroke-dasharray="2 14" stroke-linecap="round"/>
+  <g fill="#df9591">
+    <circle cx="200" cy="520" r="7" fill-opacity="0.5"/>
+    <circle cx="620" cy="400" r="7" fill-opacity="0.6"/>
+    <circle cx="1030" cy="250" r="7" fill-opacity="0.7"/>
+  </g>
+
+  <!-- Puntos flotantes -->
+  <g fill="#df9591" fill-opacity="0.35">
+    <circle cx="130" cy="140" r="5"/><circle cx="200" cy="200" r="3"/>
+    <circle cx="90" cy="300" r="4"/><circle cx="1050" cy="120" r="4"/>
+    <circle cx="1110" cy="420" r="5"/><circle cx="1010" cy="500" r="3"/>
+    <circle cx="1140" cy="200" r="3"/>
+  </g>
+
+  <rect width="1200" height="630" fill="url(#ov)"/>
 </svg>
