@@ -3,7 +3,7 @@
     <style>
       .bg { fill: #f5f3ee; }
       .card-bg { fill: #ffffff; stroke: #c9c5bb; stroke-width: 1; rx: 12; }
-      .title { font-family: "Piazzolla", Georgia, "Times New Roman", serif; font-size: 20px; font-weight: bold; fill: #18223c; }
+      .title { font-family: "Newsreader", Georgia, "Times New Roman", serif; font-size: 20px; font-weight: bold; fill: #18223c; }
       .subtitle { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 14px; fill: #525d70; }
       .q-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #18223c; }
       .p-text { font-family: "Inter", "Segoe UI", Arial, sans-serif; font-size: 12px; fill: #525d70; }
@@ -14,7 +14,20 @@
       .bar-fill-1 { fill: #34508c; rx: 4; }
       .bar-fill-2 { fill: #536326; rx: 4; }
       .bar-fill-3 { fill: #914411; rx: 4; }
-      
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, solo la preferencia del sistema; el lienzo opaco
+       garantiza legibilidad en cualquier caso. Ver CLAUDE.md convencion 6. */
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #131c31; }
+        .card-bg { fill: #1a2540; stroke: #34405f; }
+        .title, .q-text { fill: #eceee9; }
+        .subtitle, .p-text { fill: #a7b0c4; }
+        .pct-1, .bar-fill-1 { fill: #8ba3d6; }
+        .pct-2, .bar-fill-2 { fill: #b9c47a; }
+        .pct-3, .bar-fill-3 { fill: #d49a55; }
+        .bar-bg { fill: #212d4c; }
+      }
     </style>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
       <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#18223c" flood-opacity="0.08" />

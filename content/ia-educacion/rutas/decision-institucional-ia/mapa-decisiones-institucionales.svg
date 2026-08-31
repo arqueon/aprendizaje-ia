@@ -6,10 +6,28 @@
       .paper { fill: #ece9e1; }
       .line { fill: none; stroke: #18223c; stroke-width: 5; stroke-linecap: round; }
       .node { stroke: #18223c; stroke-width: 4; }
-      .title { font: 700 36px Piazzolla, Georgia, serif; fill: #18223c; }
+      .title { font: 700 36px Newsreader, Georgia, serif; fill: #18223c; }
       .label { font: 700 27px Inter, Arial, sans-serif; fill: #18223c; }
       .small { font: 500 19px Inter, Arial, sans-serif; fill: #18223c; }
       .number { font: 800 30px Inter, Arial, sans-serif; fill: #ece9e1; }
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, solo la preferencia del sistema; el lienzo opaco
+       garantiza legibilidad en cualquier caso. Ver CLAUDE.md convencion 6. */
+      @media (prefers-color-scheme: dark) {
+        .paper { fill: #131c31; }
+        .line { stroke: #eceee9; }
+        .node { stroke: #34405f; }
+        .title, .label, .small { fill: #eceee9; }
+        .number { fill: #131c31; }
+        rect[fill="#f4e6d8"] { fill: #3a2c17; }
+        rect[fill="#eed3b4"] { fill: #46351a; }
+        rect[fill="#eceddc"] { fill: #2b331f; }
+        rect[fill="#e3e6ec"] { fill: #243352; }
+        circle[fill="#34508c"] { fill: #8ba3d6; }
+        circle[fill="#687653"], circle[fill="#536326"] { fill: #b9c47a; }
+        circle[fill="#b06a1f"] { fill: #d49a55; }
+      }
     </style>
     <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
       <feTurbulence baseFrequency=".8" numOctaves="2" seed="19" type="fractalNoise" result="noise"/>
