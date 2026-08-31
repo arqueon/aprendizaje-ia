@@ -88,6 +88,29 @@ const localTargets = {
     svg: 'assets/figures/rutina-direccion-epistemica.svg',
     mobileSvg: 'assets/figures/rutina-direccion-epistemica-mobile.svg',
     fallbackSignal: '1. **Posición inicial:**',
+    expects: {
+      reuseKey: 'rutina-direccion-epistemica',
+      sourceVersion: '0.12-consolidado-con-original',
+      sourceRevision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e',
+      sourceSha256: '0f6700fef02695a84e1a7d032de29b9ae42733230e3d0d55b49cbab6cce3fe87',
+      noticeIncludes: 'Sustituye desde 2026-08-30',
+    },
+  },
+  // Figura de identidad del homepage (2026-08-31): sustituye al mermaid inaugural.
+  // No deriva del documento de orientaciones: es síntesis original de la propia
+  // arquitectura del sitio, anclada a la revisión de main sobre la que se diseñó.
+  'udgia-f19-ecosistema-sitio': {
+    page: 'content/_index.md',
+    svg: 'assets/figures/ecosistema-sitio.svg',
+    mobileSvg: 'assets/figures/ecosistema-sitio-mobile.svg',
+    fallbackSignal: '1. **Orientarse (IA en Educación):**',
+    expects: {
+      reuseKey: 'ecosistema-sitio',
+      sourceVersion: 'sitio',
+      sourceRevision: '71cf02bae7037a9d71dd36fdf61264702a761708',
+      sourceSha256: '37b7ad716bb24b9fb5d3b9807e9e672620a2240119cd3219eea883b3b1e6d6cc',
+      noticeIncludes: null,
+    },
   },
 };
 const failures = [];
@@ -181,17 +204,18 @@ for (const [id, target] of Object.entries(localTargets)) {
   if (mobileDigest !== meta.mobile_variant_sha256) failures.push(`${id}: checksum de variante móvil`);
   if (path.relative('assets', target.svg) !== meta.src) failures.push(`${id}: ruta de activo compartido`);
   if (path.relative('assets', target.mobileSvg) !== meta.src_mobile) failures.push(`${id}: ruta de variante móvil compartida`);
-  // La autoridad no publica archivo de descripción canónica para la rutina (f07a),
-  // por lo que la entrada no fija description_sha256; el resto de la procedencia
-  // queda anclada a la revisión v0.12 del documento.
+  // Las figuras locales no publican archivo de descripción canónica, por lo que
+  // sus entradas no fijan description_sha256; el resto de la procedencia queda
+  // anclada por figura en `expects` (revisión de la autoridad para f18, revisión
+  // del propio sitio para f19).
   if (
     meta.storage !== 'shared'
-    || meta.reuse_key !== 'rutina-direccion-epistemica'
+    || meta.reuse_key !== target.expects.reuseKey
     || !Array.isArray(meta.reusable_contexts)
     || meta.reusable_contexts.length < 2
-    || meta.source_version !== '0.12-consolidado-con-original'
-    || meta.source_revision !== 'abbcafc0b1f2832238153417b0bb917eb6b4a24e'
-    || meta.source_sha256 !== '0f6700fef02695a84e1a7d032de29b9ae42733230e3d0d55b49cbab6cce3fe87'
+    || meta.source_version !== target.expects.sourceVersion
+    || meta.source_revision !== target.expects.sourceRevision
+    || meta.source_sha256 !== target.expects.sourceSha256
     || meta.license !== 'CC BY-SA 4.0'
     || meta.attribution !== expectedAttribution
     || meta.editorial_scope !== expectedEditorialScope
@@ -199,7 +223,9 @@ for (const [id, target] of Object.entries(localTargets)) {
     || meta.institutional_policy_status !== 'not-an-institutional-ruling'
     || meta.provenance_kind !== 'original-synthesis'
     || meta.publication_authorized !== true
-    || !meta.notice?.includes('Sustituye desde 2026-08-30')
+    || (target.expects.noticeIncludes
+      ? !meta.notice?.includes(target.expects.noticeIncludes)
+      : meta.notice !== undefined)
   ) {
     failures.push(`${id}: procedencia o alcance local incompletos`);
   }
@@ -273,4 +299,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`PASS: ${Object.keys(targets).length} figuras publicables y ${Object.keys(localTargets).length} figura local × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);
+console.log(`PASS: ${Object.keys(targets).length} figuras publicables y ${Object.keys(localTargets).length} figuras locales × 2 variantes, procedencia, fallback, checksums, semántica y cero recursos externos.`);

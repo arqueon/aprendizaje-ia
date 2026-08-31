@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "status": "PASS",
-  "checkedAt": "2026-08-31T13:02:16.381Z",
+  "checkedAt": "2026-08-31T16:27:13.321Z",
   "routePath": "ia-educacion/rutas/coordinacion-academica/",
   "routeIndexPath": "ia-educacion/rutas/",
   "hugo": {
@@ -55,14 +55,14 @@
       "/ia-educacion/rutas/decision-institucional-ia/"
     ],
     "hero": {
-      "source": "http://127.0.0.1:38947/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "source": "http://127.0.0.1:40021/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
       "width": 1024,
       "height": 576,
       "naturalWidth": 1200,
       "naturalHeight": 675
     },
     "introductoryHero": {
-      "source": "http://127.0.0.1:38947/figures/rutina-direccion-epistemica.svg",
+      "source": "http://127.0.0.1:40021/figures/rutina-direccion-epistemica.svg",
       "width": 655,
       "height": 506,
       "naturalWidth": 194,
@@ -205,14 +205,14 @@
       "/ia-educacion/rutas/decision-institucional-ia/"
     ],
     "hero": {
-      "source": "http://127.0.0.1:38947/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
+      "source": "http://127.0.0.1:40021/ia-educacion/rutas/coordinacion-academica/featured_hu_6079469c4651ccf9.webp",
       "width": 327,
       "height": 184,
       "naturalWidth": 1200,
       "naturalHeight": 675
     },
     "introductoryHero": {
-      "source": "http://127.0.0.1:38947/figures/rutina-direccion-epistemica-mobile.svg",
+      "source": "http://127.0.0.1:40021/figures/rutina-direccion-epistemica-mobile.svg",
       "width": 286,
       "height": 907,
       "naturalWidth": 47,

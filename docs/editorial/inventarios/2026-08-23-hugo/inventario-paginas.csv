@@ -1,5 +1,5 @@
 path,route,kind,section,title,date,words,heading_count,external_url_count,citation_signals,reference_heading,internal_link_count,broken_internal_links,featured,local_asset_count,inline_image_count,svg_count,table_count,mermaid_count,chart_count,h5p_count,iframe_count,decision,needs,tags,categories,areas
-_index.md,/,section,_index.md,Aprendizaje digital e IA,,199,2,0,0,false,9,,false,1,0,0,0,1,0,0,0,actualizar,,,,
+_index.md,/,section,_index.md,Aprendizaje digital e IA,,277,2,0,0,false,9,,false,1,0,0,0,0,0,0,0,actualizar,,,,
 about.md,/about/,page,about.md,Acerca del proyecto,2026-04-26,660,7,2,0,false,9,,false,1,0,0,0,0,0,0,0,conservar,featured|svg-diagrama,,,
 areas/digital/_index.md,/areas/digital/,section,areas,Aprendizaje digital,,0,0,0,0,false,0,,false,0,0,0,0,0,0,0,0,actualizar,,,,
 areas/etica/_index.md,/areas/etica/,section,areas,Ética,,0,0,0,0,false,0,,false,0,0,0,0,0,0,0,0,actualizar,,,,

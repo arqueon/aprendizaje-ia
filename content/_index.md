@@ -32,16 +32,14 @@ decisión que necesitas tomar, comienza por una de estas rutas:
 
 ## Ecosistema de aprendizaje
 
-{{< mermaid >}}
-graph TD
-  A[Docencia] -->|Transformada por| B(IA en Educación)
-  B --> C{Innovación Pedagógica}
-  C -->|Prácticas| D[Laboratorio]
-  C -->|Análisis| E[Observatorio]
-  C -->|Materiales| F[Recursos]
-  C -->|Desarrollo profesional| G[Formación Docente]
-  B -->|Ética y transparencia| H[Uso responsable]
-  B -->|Integración| I[Currículo]
-{{< /mermaid >}}
+{{< udgia-figure id="udgia-f19-ecosistema-sitio" >}}
+1. **Orientarse (IA en Educación):** guías y rutas para decidir cuándo y cómo integrar la IA.
+2. **Experimentar (Laboratorio):** prácticas reales probadas en el aula, con sus condiciones y sus resultados.
+3. **Comprender (Observatorio):** análisis de resultados y tendencias para leer el fenómeno con calma.
+4. **Equiparse (Recursos):** materiales y herramientas listos para usar.
+5. **Desarrollarse (Formación Docente):** capacidad propia para sostener el cambio en el tiempo.
 
-**Recorrido en texto:** la docencia se transforma al incorporar la IA en la educación; de ahí se desprenden cuatro caminos de innovación pedagógica —las prácticas del Laboratorio, el análisis del Observatorio, los materiales de Recursos y el desarrollo profesional de Formación docente— y dos compromisos transversales: el uso responsable (ética y transparencia) y la integración al currículo.
+El ciclo puede comenzar por cualquier momento; los dos compromisos del marco —el uso responsable y la integración al currículo— acompañan todo el recorrido.
+{{< /udgia-figure >}}
+
+**Recorrido en texto:** el ecosistema funciona como un ciclo que tu práctica docente puede recorrer completo o por partes: en IA en Educación te orientas con guías y rutas; en el Laboratorio experimentas prácticas reales; en el Observatorio comprendes los resultados y las tendencias; en Recursos te equipas con materiales listos para usar; en Formación Docente desarrollas la capacidad de sostener el cambio. El orden no es obligatorio —puedes entrar por cualquier momento— y todo el recorrido ocurre dentro de dos compromisos permanentes: el uso responsable (ética y transparencia) y la integración al currículo.

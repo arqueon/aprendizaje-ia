@@ -17,16 +17,16 @@
     "documents": 200,
     "pages": 170,
     "sections": 30,
-    "words": 159570,
-    "assets": 229,
-    "assetBytes": 48659637,
+    "words": 159648,
+    "assets": 231,
+    "assetBytes": 48675225,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
     "curricularH5PEntries": 38,
-    "governedFigures": 10,
+    "governedFigures": 11,
     "pagesWithH5P": 19,
-    "pagesWithGovernedFigures": 10,
+    "pagesWithGovernedFigures": 11,
     "pagesWithExplicitOrientationReference": 0,
     "pagesWithExplicitGuideReference": 0,
     "pagesWithNoCrossSectionLinks": 79,
@@ -87,10 +87,10 @@
       "sin-alerta-automatica": 105
     },
     "byVisualStatus": {
-      "figura-gobernada": 10,
+      "figura-gobernada": 11,
       "sin-visual": 17,
       "solo-imagen-de-portada": 129,
-      "visual-explicativo-candidato": 44
+      "visual-explicativo-candidato": 43
     },
     "byVisualDecision": {
       "conservar-como-referencia": 8,
@@ -122,19 +122,19 @@
   "assets": {
     "byExtension": {
       "png": 32,
-      "svg": 56,
+      "svg": 58,
       "webp": 141
     },
     "byDetectedFormat": {
       "jpeg": 26,
       "png": 7,
-      "svg": 56,
+      "svg": 58,
       "webp": 140
     },
     "byAspect": {
       "cuadrada": 82,
       "horizontal-16x9-o-social": 87,
-      "sin-dimensiones": 56,
+      "sin-dimensiones": 58,
       "vertical": 4
     },
     "animated": [
@@ -26382,7 +26382,7 @@
       "title": "Aprendizaje digital e IA",
       "kind": "section",
       "section": "_index.md",
-      "words": 199,
+      "words": 277,
       "metadata": {
         "description": true,
         "summary": true,
@@ -26476,7 +26476,7 @@
         ]
       },
       "visual": {
-        "status": "visual-explicativo-candidato",
+        "status": "figura-gobernada",
         "featured": false,
         "localAssets": [
           "about.webp"
@@ -26486,7 +26486,9 @@
         "accessibleSVG": 0,
         "inlineImages": 0,
         "missingAlt": 0,
-        "governedFigureIDs": [],
+        "governedFigureIDs": [
+          "udgia-f19-ecosistema-sitio"
+        ],
         "review": {
           "decision": "no-requiere-portada-adicional",
           "family": "sin-featured-local",

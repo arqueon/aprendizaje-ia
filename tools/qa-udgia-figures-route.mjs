@@ -79,6 +79,14 @@ const routes = [{
   // Ola 2 (2026-08-30): el aviso de alcance nuevo declara la sustitución de los
   // cinco movimientos y que la síntesis no afirma validación institucional.
   notice: 'no afirma validación institucional del prototipo',
+}, {
+  // 2026-08-31: el mermaid del homepage se sustituye por la figura de identidad
+  // del ecosistema (f19, síntesis original de la arquitectura del propio sitio).
+  route: '',
+  id: 'udgia-f19-ecosistema-sitio',
+  mobileSvg: 'ecosistema-sitio-mobile.svg',
+  fallbackItems: 5,
+  editorialState: 'original-synthesis',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
@@ -362,7 +370,7 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
     assert(broken.length === 0, `${route} ${name}: enlaces internos rotos ${broken.join(' | ')}`);
   }
 
-  const slug = route.split('/').filter(Boolean).at(-1);
+  const slug = route.split('/').filter(Boolean).at(-1) || 'inicio';
   await page.locator('.udgia-figure').screenshot({
     path: path.join(evidenceDir, `${slug}-${scenario}-${name}.png`),
   });
