@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#360b0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="46%">
+      <stop offset="0%" stop-color="#cc615f" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#cc615f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#cc615f" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <g fill="none" stroke-width="3">
+    <circle cx="520" cy="315" r="130" stroke="#df9591" stroke-opacity="0.55"/>
+    <circle cx="680" cy="315" r="130" stroke="#b12028" stroke-opacity="0.45" stroke-dasharray="10 8"/>
+  </g>
+  <path d="M 600 205 A 150 150 0 0 1 745 275" fill="none" stroke="#efc6c2" stroke-opacity="0.5" stroke-width="3"/>
+  <polygon points="745,275 720,262 738,244" fill="#efc6c2" fill-opacity="0.55"/>
+  <path d="M 600 425 A 150 150 0 0 1 455 355" fill="none" stroke="#efc6c2" stroke-opacity="0.5" stroke-width="3"/>
+  <polygon points="455,355 480,368 462,386" fill="#efc6c2" fill-opacity="0.55"/>
+  <circle cx="600" cy="315" r="14" fill="#cc615f" fill-opacity="0.6"/>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

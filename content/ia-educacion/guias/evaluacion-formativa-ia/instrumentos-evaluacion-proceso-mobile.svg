@@ -1,12 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 980" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Cuatro instrumentos para hacer visible el proceso</title>
-  <desc id="desc">Versión vertical. El portafolio iterativo, la bitácora de decisiones, la defensa oral y las rúbricas asistidas aportan evidencias complementarias. Los cuatro convergen en la trazabilidad del proceso y el juicio docente.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 1005" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Cuatro maneras de conocer cómo se llegó al resultado</title>
+  <desc id="desc">Versión vertical de las cuatro muestras que ayudan a comprender el recorrido: versiones sucesivas, una nota sobre una decisión, una conversación sobre el trabajo y criterios explícitos. Cada actividad puede elegir la muestra más pequeña que todavía ayude a interpretar el aprendizaje.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
-    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}
-    .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.bg-warn{fill:#f4e6d8}
-    .st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-warn{stroke:#914411}.st-axis{stroke:#18223c}
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
 
     /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
        clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
@@ -26,52 +31,48 @@
       .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
     }
   </style>
-  <rect class="fig-canvas" x="0" y="0" width="420" height="980"/>
+  <rect class="fig-canvas" x="0" y="0" width="420" height="1005"/>
 
-  <g class="tk">
-    <text x="210" y="36" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Cuatro instrumentos complementarios</text>
+  <g class="tk-font">
+    <text x="210" y="36" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">Cuatro maneras de conocer</text>
+    <text x="210" y="61" text-anchor="middle" font-size="19" font-weight="bold" class="f-ink">cómo se llegó al resultado</text>
 
-    <g transform="translate(25 62)">
-      <rect width="370" height="138" rx="5" class="bg-good st-good" stroke-width="1.7"/>
-      <text x="24" y="36" font-size="20" font-weight="bold" class="good">1 · Portafolio iterativo</text>
-      <text x="24" y="70" font-size="15.5" class="muted">Versiones sucesivas que muestran</text>
-      <text x="24" y="94" font-size="15.5" class="muted">la evolución del pensamiento.</text>
-      <text x="24" y="121" font-size="13.5" font-weight="bold" class="good">Hace visible: evolución.</text>
+    <rect x="25" y="84" width="370" height="150" rx="5" class="bg-primary st-primary" stroke-width="1.8"/>
+    <text x="210" y="119" text-anchor="middle" font-size="19" font-weight="bold" class="f-primary">Comprender el recorrido</text>
+    <text x="210" y="151" text-anchor="middle" font-size="15" class="f-muted">Qué se preguntó, qué se descartó,</text>
+    <text x="210" y="174" text-anchor="middle" font-size="15" class="f-muted">qué se transformó y por qué.</text>
+    <text x="210" y="206" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-ink">Una decisión que puede explicarse.</text>
+
+    <g transform="translate(25 260)">
+      <rect width="370" height="128" rx="5" class="bg-good st-good" stroke-width="1.6"/>
+      <text x="24" y="38" font-size="19" font-weight="bold" class="f-good">1 · Versiones sucesivas</text>
+      <text x="24" y="72" font-size="15.5" class="f-muted">Permiten comparar qué cambió</text>
+      <text x="24" y="96" font-size="15.5" class="f-muted">y qué provocó el cambio.</text>
+    </g>
+    <g transform="translate(25 404)">
+      <rect width="370" height="128" rx="5" class="bg-warn st-warn" stroke-width="1.6"/>
+      <text x="24" y="38" font-size="19" font-weight="bold" class="f-ink">2 · Nota sobre una decisión</text>
+      <text x="24" y="72" font-size="15.5" class="f-muted">Explica qué se aceptó, corrigió</text>
+      <text x="24" y="96" font-size="15.5" class="f-muted">o descartó, y por qué.</text>
+    </g>
+    <g transform="translate(25 548)">
+      <rect width="370" height="128" rx="5" class="bg-neutral st-axis" stroke-width="1.6"/>
+      <text x="24" y="38" font-size="19" font-weight="bold" class="f-ink">3 · Conversación sobre el trabajo</text>
+      <text x="24" y="72" font-size="15.5" class="f-muted">La persona explica una elección</text>
+      <text x="24" y="96" font-size="15.5" class="f-muted">y responde una pregunta.</text>
+    </g>
+    <g transform="translate(25 692)">
+      <rect width="370" height="128" rx="5" class="bg-good st-good" stroke-width="1.6"/>
+      <text x="24" y="38" font-size="19" font-weight="bold" class="f-good">4 · Criterios explícitos</text>
+      <text x="24" y="72" font-size="15.5" class="f-muted">El grupo sabe qué se observará;</text>
+      <text x="24" y="96" font-size="15.5" class="f-muted">el profesorado conserva el juicio.</text>
     </g>
 
-    <g transform="translate(25 220)">
-      <rect width="370" height="138" rx="5" class="bg-warn st-warn" stroke-width="1.7"/>
-      <text x="24" y="36" font-size="20" font-weight="bold" class="ink">2 · Bitácora de decisiones</text>
-      <text x="24" y="70" font-size="15.5" class="muted">Registra consultas, criterios,</text>
-      <text x="24" y="94" font-size="15.5" class="muted">aceptaciones y descartes.</text>
-      <text x="24" y="121" font-size="13.5" font-weight="bold" class="ink">Hace visible: razonamiento.</text>
-    </g>
+    <text x="210" y="856" text-anchor="middle" font-size="14.5" class="f-muted">Cada actividad puede elegir la muestra más pequeña</text>
+    <text x="210" y="878" text-anchor="middle" font-size="14.5" class="f-muted">que todavía ayude a interpretar el aprendizaje.</text>
 
-    <g transform="translate(25 378)">
-      <rect width="370" height="138" rx="5" class="bg-neutral st-axis" stroke-width="1.7"/>
-      <text x="24" y="36" font-size="20" font-weight="bold" class="ink">3 · Defensa oral</text>
-      <text x="24" y="70" font-size="15.5" class="muted">Explicar y sostener el trabajo</text>
-      <text x="24" y="94" font-size="15.5" class="muted">sin depender de la IA.</text>
-      <text x="24" y="121" font-size="13.5" font-weight="bold" class="ink">Hace visible: comprensión.</text>
-    </g>
-
-    <g transform="translate(25 536)">
-      <rect width="370" height="138" rx="5" class="bg-good st-good" stroke-width="1.7"/>
-      <text x="24" y="36" font-size="20" font-weight="bold" class="good">4 · Rúbricas asistidas</text>
-      <text x="24" y="70" font-size="15.5" class="muted">Retroalimentación con IA;</text>
-      <text x="24" y="94" font-size="15.5" class="muted">calificación con juicio docente.</text>
-      <text x="24" y="121" font-size="13.5" font-weight="bold" class="good">Hace visible: criterios.</text>
-    </g>
-
-    <path d="M210 674v34" class="st-axis" stroke-width="2"/>
-    <rect x="25" y="708" width="370" height="164" rx="5" class="bg-primary st-primary" stroke-width="1.9"/>
-    <text x="210" y="746" text-anchor="middle" font-size="20" font-weight="bold" class="primary">Trazabilidad del proceso</text>
-    <text x="210" y="782" text-anchor="middle" font-size="15.5" class="muted">Qué se preguntó, qué se descartó,</text>
-    <text x="210" y="806" text-anchor="middle" font-size="15.5" class="muted">qué se transformó y por qué.</text>
-    <text x="210" y="842" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Evidencia del juicio.</text>
-
-    <rect x="25" y="900" width="370" height="54" rx="5" class="bg-primary st-primary" stroke-width="1.3"/>
-    <text x="210" y="924" text-anchor="middle" font-size="14.5" font-weight="bold" class="primary">La integridad se sostiene en trazabilidad,</text>
-    <text x="210" y="945" text-anchor="middle" font-size="14.5" font-weight="bold" class="primary">no en detección.</text>
+    <rect x="25" y="900" width="370" height="80" rx="5" class="bg-primary st-primary" stroke-width="1.3"/>
+    <text x="210" y="933" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">Comprender una decisión aporta más</text>
+    <text x="210" y="957" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">que intentar detectar una herramienta.</text>
   </g>
 </svg>

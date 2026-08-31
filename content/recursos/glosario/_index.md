@@ -1,7 +1,7 @@
 ---
 title: "Glosario de términos"
 description: "Definiciones breves para reconocer cómo usa el sitio conceptos de pedagogía, aprendizaje digital e inteligencia artificial."
-summary: "20 entradas para aclarar un término, distinguirlo de conceptos cercanos y volver al texto donde aparece."
+summary: "32 entradas para aclarar un término, distinguirlo de conceptos cercanos y volver al texto donde aparece."
 date: 2026-04-26
 weight: 6
 layout: "list"
@@ -22,11 +22,15 @@ Las entradas no reemplazan las guías y artículos largos. Su función es resolv
 
 ## Cómo está organizado
 
-Las veinte entradas se agrupan en tres ejes:
+Las treinta y dos entradas se agrupan en cinco ejes:
 
 - **Pedagogía:** aprendizaje activo, aprendizaje basado en problemas, aula invertida, taxonomía de Bloom, diseño inverso, evaluación auténtica, pensamiento crítico, descarga cognitiva, ganancia cognitiva y aprendizaje transformativo.
 - **Aprendizaje digital y modalidades:** aprendizaje digital, aprendizaje híbrido y modelo SAMR.
-- **IA y ética:** IA generativa, agentes de IA, tutor inteligente, ingeniería de prompts, alfabetización en IA, sesgo algorítmico e integridad académica.
+- **IA y ética:** IA generativa, agentes de IA, tutor inteligente, ingeniería de prompts, alfabetización en IA, sesgo algorítmico, integridad académica, trazabilidad, pos-plagio, colonización cognitiva y justicia epistémica.
+- **Co-creación y dirección del trabajo:** co-creación persona-IA, agenciamiento persona-IA, dirección epistémica, esfuerzo productivo y deriva metacognitiva.
+- **Gobernanza y soberanía:** gobernanza distribuida, soberanía tecnológica y dependencia de proveedor (vendor lock-in).
+
+Una parte de las entradas adapta definiciones del glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión; cada una lo declara al final de su texto.
 
 ## Cómo usar una entrada
 

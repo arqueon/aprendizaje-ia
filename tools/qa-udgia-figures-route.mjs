@@ -10,6 +10,14 @@ import axe from 'axe-core';
 import { chromium } from 'playwright-core';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+// Fuente de verdad de procedencia por figura. Hasta la Ola 2 esta herramienta
+// fijaba revisión y versión en literales que caducaron con cada resincronización;
+// ahora compara el DOM publicado contra el registro, cuya propia deriva vigila
+// qa-udgia-figures con anclas fechadas.
+import { readFileSync } from 'node:fs';
+const figureRegistry = JSON.parse(
+  readFileSync(path.join(path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..'), 'data/udgia_figures.json'), 'utf8'),
+);
 const evidenceDir = process.env.EVIDENCE_DIR
   ? path.resolve(process.env.EVIDENCE_DIR)
   : path.join(tmpdir(), 'udgia008-hugo-evidence');
@@ -47,7 +55,8 @@ const routes = [{
   route: 'ia-educacion/tendencias/evaluacion-en-la-era-ia/',
   id: 'udgia-f08-producto-proceso',
   mobileSvg: 'producto-a-proceso-mobile.svg',
-  fallbackRows: 2,
+  // Ola 2 (2026-08-30): la figura v0.12 presenta cuatro muestras, no dos.
+  fallbackRows: 4,
 }, {
   route: 'ia-educacion/tendencias/politicas-institucionales-universidades/',
   id: 'udgia-f11-politica-capas',
@@ -61,11 +70,15 @@ const routes = [{
   fallbackRows: 4,
 }, {
   route: 'ia-educacion/constelaciones/empezar-con-ia/',
-  id: 'udgia-f18-cinco-movimientos',
-  mobileSvg: 'cinco-movimientos-ayuda-mobile.svg',
-  fallbackItems: 5,
-  editorialState: 'local-napkin',
-  notice: 'Publicación autorizada por Rubén el 2026-08-13',
+  // Ola 2 (2026-08-30): f18 sustituida por la rutina canónica de seis pasos
+  // derivada de la autoridad v0.12; la procedencia Napkin quedó retirada.
+  id: 'udgia-f18-rutina-seis-pasos',
+  mobileSvg: 'rutina-direccion-epistemica-mobile.svg',
+  fallbackItems: 6,
+  editorialState: 'original-synthesis',
+  // Ola 2 (2026-08-30): el aviso de alcance nuevo declara la sustitución de los
+  // cinco movimientos y que la síntesis no afirma validación institucional.
+  notice: 'no afirma validación institucional del prototipo',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
@@ -235,41 +248,28 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
     snapshot.sourceSha256 && snapshot.variantSha256 && snapshot.mobileVariantSha256,
     `${route} ${name}: checksums`,
   );
-  if (editorialState === 'local-napkin') {
+  {
+    const expected = figureRegistry[id];
+    assert(expected, `${route} ${name}: figura ${id} sin entrada en el registro`);
     assert(
-      snapshot.sourceVersion === 'napkin-generated-output-selection-18'
-        && snapshot.sourceRevision === '40b83d9ceb7f11722f857bcc8dadc357cebda0f4'
-        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
-      `${route} ${name}: revisión local Napkin`,
+      snapshot.sourceVersion === expected.source_version
+        && snapshot.sourceRevision === expected.source_revision
+        && (expected.description_sha256
+          ? snapshot.descriptionSha256 === expected.description_sha256
+          : true),
+      `${route} ${name}: la procedencia publicada no coincide con el registro`,
     );
-    assert(
-      snapshot.license === 'Generated Output de Napkin AI; uso sujeto a los términos aplicables de Napkin'
-        && snapshot.attribution.includes('Generated Output de Napkin AI')
-        && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
-        && snapshot.authorizationScope === 'project-editorial'
-        && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
-        && snapshot.provenanceKind === 'napkin-generated-output-adapted'
-        && snapshot.publicationAuthorized === 'true',
-      `${route} ${name}: estado editorial local`,
-    );
-  } else {
-    assert(
-      /^1\.0\.0-lote[12]$/.test(snapshot.sourceVersion)
-        && snapshot.sourceRevision === '0331dfec00b47d2138641b0cdd3b6c8c56b9c345'
-        && /^[a-f0-9]{64}$/.test(snapshot.descriptionSha256),
-      `${route} ${name}: revisión canónica`,
-    );
-    assert(
-      snapshot.license === 'CC BY-SA 4.0'
-        && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
+  }
+  assert(
+    snapshot.license === 'CC BY-SA 4.0'
+      && snapshot.attribution === 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara'
         && snapshot.editorialScope === 'Material editorial del proyecto; no constituye un dictamen institucional.'
         && snapshot.authorizationScope === 'project-editorial'
         && snapshot.institutionalPolicyStatus === 'not-an-institutional-ruling'
         && snapshot.provenanceKind === 'original-synthesis'
         && snapshot.publicationAuthorized === 'true',
-      `${route} ${name}: estado editorial`,
-    );
-  }
+    `${route} ${name}: estado editorial`,
+  );
   assert(
     snapshot.credit.includes(snapshot.attribution)
       && snapshot.credit.includes(snapshot.license)

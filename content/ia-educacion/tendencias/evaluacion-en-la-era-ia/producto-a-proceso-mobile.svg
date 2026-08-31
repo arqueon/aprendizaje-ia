@@ -1,11 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 920" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">El desplazamiento de la evaluación: del producto al proceso</title>
-  <desc id="desc">Versión vertical. Evaluar solo el producto final puede mostrar desempeño sin revelar cómo se aprendió. Evaluar también el proceso aporta evidencia de preguntas, descartes, transformaciones y decisiones mediante instrumentos adaptables.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 935" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">El producto final y las decisiones que llevaron a él</title>
+  <desc id="desc">Versión vertical: mirar solo el trabajo terminado puede ocultar decisiones importantes. Añadir una muestra del recorrido —versiones sucesivas, una nota sobre una decisión, una conversación breve o criterios explícitos— ayuda a comprender cómo pensó la persona, sin guardar cada paso ni cada conversación con la herramienta.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
-    .tk{font-family:'Archivo Narrow',Helvetica,Arial,sans-serif}.ink{fill:#18223c}.muted{fill:#525d70}.primary{fill:#34508c}.good{fill:#536326}
-    .bg-primary{fill:#e7ecf7}.bg-good{fill:#eceddc}.bg-neutral{fill:#ece9e1}.st-primary{stroke:#34508c}.st-good{stroke:#536326}.st-axis{stroke:#18223c}
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
 
     /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
        clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
@@ -25,49 +31,54 @@
       .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
     }
   </style>
-  <rect class="fig-canvas" x="0" y="0" width="420" height="920"/>
+  <rect class="fig-canvas" x="0" y="0" width="420" height="935"/>
 
-  <g class="tk">
-    <rect x="25" y="25" width="370" height="185" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <text x="210" y="64" text-anchor="middle" font-size="21" font-weight="bold" class="ink">Evaluar solo el producto</text>
-    <text x="210" y="101" text-anchor="middle" font-size="16" class="muted">Observa el artefacto final.</text>
-    <text x="210" y="129" text-anchor="middle" font-size="16" class="muted">Deja opaco el uso de la IA.</text>
-    <text x="210" y="157" text-anchor="middle" font-size="16" class="muted">Puede mostrar desempeño sin acreditar</text>
-    <text x="210" y="181" text-anchor="middle" font-size="16" class="muted">por sí solo cómo se aprendió.</text>
-    <path d="M210 210v48" class="st-primary" stroke-width="3"/>
-    <path d="m201 248 9 12 9-12" fill="none" class="st-primary" stroke-width="3"/>
-    <text x="210" y="287" text-anchor="middle" font-size="16" font-weight="bold" class="primary">Desplazar la atención</text>
+  <g class="tk-font">
+    <rect x="25" y="25" width="370" height="180" rx="5" class="bg-neutral st-axis" stroke-width="1.5"/>
+    <text x="210" y="64" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Mirar solo el producto final</text>
+    <text x="210" y="99" text-anchor="middle" font-size="15.5" class="f-muted">Permite conocer el resultado,</text>
+    <text x="210" y="123" text-anchor="middle" font-size="15.5" class="f-muted">pero puede ocultar quién tomó</text>
+    <text x="210" y="147" text-anchor="middle" font-size="15.5" class="f-muted">las decisiones y cómo se</text>
+    <text x="210" y="171" text-anchor="middle" font-size="15.5" class="f-muted">comprobaron las respuestas.</text>
+    <path d="M210 205v46" class="st-primary" stroke-width="3"/>
+    <path d="m201 241 9 12 9-12" fill="none" class="st-primary" stroke-width="3"/>
+    <text x="210" y="280" text-anchor="middle" font-size="16" font-weight="bold" class="f-primary">Añadir una muestra</text>
 
-    <rect x="25" y="310" width="370" height="210" rx="5" class="bg-primary st-primary" stroke-width="1.7"/>
-    <text x="210" y="350" text-anchor="middle" font-size="21" font-weight="bold" class="primary">Evaluar producto y proceso</text>
-    <text x="210" y="387" text-anchor="middle" font-size="16" class="ink">Observa el recorrido de pensamiento,</text>
-    <text x="210" y="413" text-anchor="middle" font-size="16" class="ink">decisión y revisión.</text>
-    <text x="210" y="451" text-anchor="middle" font-size="16" class="muted">Registra qué se preguntó, qué se descartó,</text>
-    <text x="210" y="477" text-anchor="middle" font-size="16" class="muted">qué se transformó y por qué.</text>
-    <text x="210" y="505" text-anchor="middle" font-size="16" font-weight="bold" class="good">Aporta evidencia de criterios y decisiones.</text>
+    <rect x="25" y="300" width="370" height="215" rx="5" class="bg-primary st-primary" stroke-width="1.7"/>
+    <text x="210" y="339" text-anchor="middle" font-size="20" font-weight="bold" class="f-primary">Mirar también el recorrido</text>
+    <text x="210" y="374" text-anchor="middle" font-size="15.5" class="f-ink">El recorrido de pensamiento,</text>
+    <text x="210" y="398" text-anchor="middle" font-size="15.5" class="f-ink">decisión y revisión.</text>
+    <text x="210" y="428" text-anchor="middle" font-size="15" class="f-muted">Qué se preguntó, qué se descartó,</text>
+    <text x="210" y="451" text-anchor="middle" font-size="15" class="f-muted">qué se transformó y por qué.</text>
+    <text x="210" y="481" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Ayuda a comprender el aprendizaje,</text>
+    <text x="210" y="503" text-anchor="middle" font-size="14.5" class="f-muted">sin intentar adivinar si se usó IA.</text>
 
-    <text x="210" y="567" text-anchor="middle" font-size="18" font-weight="bold" class="ink">Instrumentos adaptables</text>
-    <g transform="translate(25 590)">
-      <rect width="175" height="80" rx="4" class="bg-good st-good"/>
-      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="good">Portafolio</text>
-      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">iterativo.</text>
+    <text x="210" y="558" text-anchor="middle" font-size="16.5" font-weight="bold" class="f-ink">Cuatro muestras adaptables</text>
+    <text x="210" y="580" text-anchor="middle" font-size="14.5" class="f-muted">a cada disciplina</text>
+    <g transform="translate(25 598)">
+      <rect width="175" height="84" rx="4" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="87.5" y="37" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Versiones</text>
+      <text x="87.5" y="60" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">sucesivas</text>
     </g>
-    <g transform="translate(220 590)">
-      <rect width="175" height="80" rx="4" class="bg-good st-good"/>
-      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="good">Bitácora de</text>
-      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">decisiones.</text>
+    <g transform="translate(220 598)">
+      <rect width="175" height="84" rx="4" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="87.5" y="37" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Nota sobre</text>
+      <text x="87.5" y="60" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">una decisión</text>
     </g>
-    <g transform="translate(25 690)">
-      <rect width="175" height="80" rx="4" class="bg-neutral st-axis"/>
-      <text x="87.5" y="46" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Defensa oral.</text>
+    <g transform="translate(25 700)">
+      <rect width="175" height="84" rx="4" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="87.5" y="37" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Conversación</text>
+      <text x="87.5" y="60" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">breve</text>
     </g>
-    <g transform="translate(220 690)">
-      <rect width="175" height="80" rx="4" class="bg-neutral st-axis"/>
-      <text x="87.5" y="35" text-anchor="middle" font-size="16" font-weight="bold" class="ink">Rúbricas</text>
-      <text x="87.5" y="58" text-anchor="middle" font-size="15" class="muted">asistidas.</text>
+    <g transform="translate(220 700)">
+      <rect width="175" height="84" rx="4" class="bg-good st-good" stroke-width="1.4"/>
+      <text x="87.5" y="37" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">Criterios</text>
+      <text x="87.5" y="60" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-good">explícitos</text>
     </g>
-    <rect x="25" y="808" width="370" height="86" rx="5" class="bg-primary st-primary" stroke-width="1.4"/>
-    <text x="210" y="842" text-anchor="middle" font-size="16" font-weight="bold" class="primary">Trazabilidad sin vigilancia exhaustiva:</text>
-    <text x="210" y="870" text-anchor="middle" font-size="15.5" class="muted">documentar decisiones para sostener la validez.</text>
+
+    <rect x="25" y="812" width="370" height="94" rx="5" class="bg-warn st-warn" stroke-width="1.3"/>
+    <text x="210" y="846" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-ink">Una muestra breve puede explicar</text>
+    <text x="210" y="868" text-anchor="middle" font-size="15.5" font-weight="bold" class="f-ink">una decisión importante.</text>
+    <text x="210" y="892" text-anchor="middle" font-size="14" class="f-muted">No hace falta guardar cada clic ni toda la conversación.</text>
   </g>
 </svg>

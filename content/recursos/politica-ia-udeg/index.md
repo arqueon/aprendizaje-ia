@@ -38,47 +38,35 @@ El [marco ético para el uso de IA en educación superior]({{< ref "/ia-educacio
 
 ## Siete sugerencias mínimas
 
-Las sugerencias no son independientes. Se cruzan, se tensionan y se priorizan distinto según el ámbito. Su función es ofrecer un lenguaje común para que las discusiones colegiadas no empiecen cada vez desde cero.
+Las sugerencias no son independientes. Se cruzan, se tensionan y se priorizan distinto según el ámbito. Su función es ofrecer un lenguaje común para que las discusiones colegiadas no empiecen cada vez desde cero. Las siete retoman los criterios revisables de [la propuesta de Orientaciones](/ia-educacion/orientaciones/) —un documento de referencia, no una norma vigente— y los leen aquí en clave institucional: qué tendría que cuidar la UdeG si decidiera convertirlos en acuerdos propios.
 
-### 1. Transparencia por defecto
+### 1. Enseñar antes de exigir
 
-Una sugerencia robusta es que todo uso de IA en trabajo académico — estudiantil o docente — se declare. La declaración puede incluir modelo, versión y extensión del uso. Desde esta lectura, la ausencia de declaración, no el uso mismo, suele ser el problema a tratar (Eaton, 2023).
+No resulta razonable pedir un uso responsable de algo que no se ha enseñado a comprender y juzgar. Una política que abre con obligaciones —declarar, abstenerse, citar de cierta forma— sin ofrecer formación traslada a docentes y estudiantes el costo de descifrarla, y convierte cada zona gris en un riesgo personal. Por eso la formación no acompaña a la política: la precede. Un programa institucional con contenidos mínimos —cómo funciona la herramienta y dónde falla, cómo se comprueba una respuesta, cómo se diseña una actividad que la incluya o la excluya con razones— es la condición para que cualquier acuerdo posterior pueda cumplirse. La sección de [formación docente]({{< ref "/formacion-docente" >}}) del sitio ofrece una base posible.
 
-Este criterio implica que el docente también declare cuándo usa IA en materiales, retroalimentación o rúbricas. La transparencia funciona mejor cuando es bidireccional; si solo se le pide a los estudiantes, el criterio pierde fuerza moral.
+### 2. Explicar cómo se utilizó
 
-### 2. Formación previa a regulación
+Describir el apoyo de IA que recibió un trabajo puede tratarse como una explicación del proceso, no como una admisión de culpa (Eaton, 2023). Ese matiz cambia el diseño de la política. En lugar de una regla única del tipo «todo uso se declara con modelo, versión y extensión», conviene pedir una declaración proporcional: el detalle depende de la actividad y de sus posibles consecuencias. Una línea puede bastar en un ejercicio breve; un trabajo de titulación puede requerir una relación completa de apoyos, comprobaciones y decisiones. La [plantilla de declaración proporcional](/ia-educacion/practicas/declaracion-proporcional-uso/) muestra cómo se ve esa gradación en la práctica. La transparencia, además, funciona mejor cuando es bidireccional: el profesorado también explica cuándo interviene IA en sus materiales, retroalimentación o rúbricas. Si solo se le pide al estudiantado, el criterio pierde fuerza moral.
 
-Conviene no exigir uso responsable de lo que no se ha enseñado a usar. Una política institucional gana coherencia cuando viene acompañada de un programa de formación docente con contenidos mínimos: competencias de prompting, criterios de evaluación crítica de respuestas, detección de sesgos y diseño de actividades con IA. La sección de [formación docente]({{< ref "/formacion-docente" >}}) del sitio ofrece una base posible.
+### 3. Mirar también el recorrido
 
-Publicar una política sin plan de formación tiende a trasladar a los docentes el costo de descifrarla.
+Cuando un producto final puede generarse por completo con una herramienta, deja de mostrar quién comparó las fuentes, comprobó los datos y tomó las decisiones. Una política institucional puede respaldar diseños de evaluación que pidan, junto al producto, una muestra breve del recorrido: una versión inicial, una corrección con su razón, una comprobación explicada o una conversación sobre el trabajo (Bearman et al., 2024). No se trata de vigilar cada paso ni de acumular capturas, sino de conservar la información mínima para conversar sobre las decisiones que el producto oculta. Los procedimientos de integridad académica ganan legitimidad cuando reconocen estas evidencias y privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
 
-### 3. Evaluación del proceso, no solo del producto
+### 4. Ofrecer opciones de acceso
 
-Una política institucional puede respaldar diseños de evaluación que valoran el proceso de aprendizaje documentado: bitácoras de prompts, versiones sucesivas, reflexiones metacognitivas —sobre el propio pensamiento: cómo se aprendió— (Bearman et al., 2024). Los procedimientos de integridad académica suelen ganar legitimidad cuando reconocen estas evidencias y, cuando es posible, privilegian la evaluación dialogada sobre el juicio basado en detectores automáticos, cuyos sesgos y tasas de error están documentados (Weber-Wulff et al., 2023).
+Toda actividad o servicio que involucre IA necesita examinar costos, infraestructura, accesibilidad y alternativas, para que la herramienta no se convierta en barrera. En términos de política: la universidad provee acceso institucional a los modelos que las actividades formativas requieren, o diseña esas actividades para funcionar con herramientas gratuitas de desempeño comparable, y prevé una vía sin IA que permita el mismo aprendizaje cuando el acceso falte o la persona tenga razones para no usarla (World Bank, 2024). Resulta problemático que una asignatura obligue a una suscripción de pago que no todos los estudiantes pueden costear. Este criterio supone inversión institucional; sin ella, una política puede producir desigualdades en lugar de corregirlas.
 
-### 4. Equidad de acceso
+### 5. Aclarar quién responde
 
-Una sugerencia útil es que la universidad provea acceso institucional a los modelos que las actividades formativas requieren, o que diseñe esas actividades para funcionar con herramientas gratuitas de desempeño comparable. Resulta problemático que una asignatura obligue a una suscripción de pago que no todos los estudiantes pueden costear (World Bank, 2024).
+Las decisiones sobre IA pueden corresponder a personas, cursos, programas o instancias institucionales, y conviene repartirlas así: decide quien tiene la información y la competencia para hacerlo. Pero repartir no significa diluir. Cada nivel necesita poder explicar qué decide y quién revisa esa decisión: el estudiante responde por la autenticidad y comprensión de su trabajo; el docente, por el diseño y la comunicación de la actividad; el programa, por la traducción disciplinar y la formación previa; la institución, por la gobernanza general, los servicios y los datos (OECD, 2023). La distinción importa especialmente en procedimientos disciplinarios: no es lo mismo incumplir un acuerdo que fue enseñado y practicado que encontrarse ante una expectativa que nadie explicó.
 
-Este criterio supone inversión institucional. Sin ella, una política puede producir desigualdades en lugar de corregirlas.
+### 6. Conservar opciones sobre la tecnología
 
-### 5. Privacidad y protección de datos
+Una herramienta no se valora solo por sus funciones inmediatas. También importa la posibilidad de recuperar los datos, cambiar de servicio y evitar una dependencia difícil de revertir cuando cambien precios, términos o disponibilidad. Para una institución del tamaño de la UdeG, este criterio orienta el licenciamiento: términos de servicio auditables, garantías contractuales sobre qué ocurre con la información que el servicio recibe —los ensayos, exámenes e identificadores estudiantiles no deberían subirse a servicios de consumo sin base legal clara y consentimiento informado— y una estimación honesta del costo de salida antes de firmar. Un servicio conveniente hoy puede volverse una obligación mañana si nadie preguntó, a tiempo, cómo se saldría de él.
 
-Conviene que los datos estudiantiles — ensayos, exámenes, identificadores — no se suban a servicios de IA generativa sin base legal clara y consentimiento informado. Las herramientas adoptadas institucionalmente ganan en solidez cuando cumplen la normativa aplicable sobre protección de datos personales en México y ofrecen términos de servicio auditables.
+### 7. Volver a revisar
 
-Este criterio orienta qué modelos pueden usarse para qué operaciones. Calificar ensayos en un servicio de consumo sin garantías contractuales entra en tensión con el criterio, por conveniente que sea.
-
-### 6. Responsabilidad distribuida
-
-La responsabilidad por un uso inadecuado de IA puede distribuirse entre el estudiante (por la autenticidad de su trabajo), el docente (por el diseño instruccional), el programa (por la formación previa y los criterios de integridad) y la institución (por la gobernanza general). Idealmente, ningún nivel traslada su parte a otro (OECD, 2023).
-
-Este criterio importa especialmente en procedimientos disciplinarios: un estudiante que no fue formado en criterios de integridad no responde con la misma magnitud que uno que fue formado y eligió ignorar los acuerdos.
-
-### 7. Revisión periódica
-
-Una sugerencia clave es que la política se revise formalmente cada doce meses con un procedimiento definido. La revisión es más útil cuando se entiende como un ejercicio colegiado que integra nueva evidencia, casos ocurridos, cambios tecnológicos relevantes y ajustes a los instrumentos operativos, antes que como una actualización administrativa menor.
-
-Sin ciclo de revisión, los criterios tienden a volverse letra muerta cuando la realidad se mueve.
+Ningún acuerdo sobre IA nace terminado. Los modelos, los precios y las prácticas cambian más rápido que cualquier documento, y por eso la revisión formal y periódica no es mantenimiento: es parte constitutiva de la política. La revisión rinde más cuando se entiende como un ejercicio colegiado que integra los casos ocurridos, la evidencia nueva, los cambios tecnológicos relevantes y los ajustes al plan de formación —el ciclo se detalla más abajo—, antes que como una actualización administrativa menor. Sin ese ciclo, los criterios tienden a volverse letra muerta cuando la realidad se mueve.
 
 ## Gobernanza: quién decide qué
 
@@ -112,13 +100,13 @@ Una sugerencia se vuelve útil en lo cotidiano cuando se responde a siete pregun
 
 | Sugerencia | Pregunta operativa |
 | --- | --- |
-| Transparencia | ¿Qué se declara y cómo se documenta? |
-| Formación previa | ¿Qué se enseña antes de pedir? |
-| Proceso sobre producto | ¿Qué evidencia del proceso se pide y cómo se pondera? |
-| Equidad | ¿Qué se provee institucionalmente y qué se adapta? |
-| Privacidad | ¿Qué datos pueden subirse y a qué servicios? |
-| Responsabilidad | ¿Qué responde cada nivel en caso de conflicto? |
-| Revisión | ¿Cuándo y con qué evidencia se actualiza? |
+| Enseñar antes de exigir | ¿Qué se enseña antes de pedirlo? |
+| Explicar cómo se utilizó | ¿Qué conviene declarar y con cuánto detalle según la tarea? |
+| Mirar también el recorrido | ¿Qué muestra breve del proceso se pide y cómo se interpreta? |
+| Ofrecer opciones de acceso | ¿Qué se provee institucionalmente y qué alternativa existe? |
+| Aclarar quién responde | ¿Quién toma cada decisión y quién la revisa? |
+| Conservar opciones sobre la tecnología | ¿Qué datos pueden salir del servicio y qué costaría cambiarlo? |
+| Volver a revisar | ¿Cuándo y con qué evidencia se actualiza? |
 
 Esta tabla puede acompañar a cualquier conversación institucional como guía metodológica. Cada unidad académica que la retome puede responder las siete preguntas desde su contexto.
 

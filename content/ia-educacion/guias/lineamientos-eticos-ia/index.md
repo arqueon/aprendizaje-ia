@@ -32,22 +32,24 @@ El [marco ético para el uso de IA en educación superior](/ia-educacion/etica-y
 
 La separación es deliberada: los ejes cambian poco (soportan el ritmo de la tecnología); las sugerencias cambian con cada semestre, cuando aparecen modelos nuevos, casos de uso emergentes o tensiones que el semestre anterior no se observaron. Por eso esta guía está pensada para revisarse de forma periódica, no para fijarse.
 
+Las veinte sugerencias también pueden leerse contra un segundo referente: los siete criterios revisables que reúne [la propuesta de Orientaciones](/ia-educacion/orientaciones/) —enseñar antes de exigir, explicar cómo se utilizó, mirar también el recorrido, ofrecer opciones de acceso, aclarar quién responde, conservar opciones sobre la tecnología y volver a revisar—. No compiten con los ejes del marco ético: los ejes explican por qué importa una decisión; los criterios nombran qué conviene cuidar al tomarla. Cada sugerencia de esta guía concreta uno o varios de esos criterios en una decisión de aula, de programa o de estudio personal.
+
 {{< udgia-figure id="udgia-f03-principios" src="principios-rectores.svg" >}}
-Los siete principios funcionan como preguntas de revisión, no como una lista de cumplimiento
-automático:
+Los siete criterios rodean una misma decisión —cómo usar IA para apoyar el aprendizaje— y
+se revisan a partir de la experiencia:
 
-| Principio rector | Pregunta de revisión | Decisión que ayuda a orientar |
+| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |
 |---|---|---|
-| Formación antes que regulación. | ¿La comunidad aprendió la práctica que ahora se le exige? | La obligación se acompaña con formación y apoyo suficientes. |
-| Transparencia por defecto. | ¿Docentes y estudiantes declaran cuándo y para qué usan IA? | El uso se comunica como una práctica normal y bidireccional. |
-| Evaluación del proceso. | ¿La actividad permite observar decisiones, revisiones y criterios? | La evaluación valora el recorrido además del resultado final. |
-| Equidad de acceso. | ¿Existe una alternativa equivalente cuando el acceso es desigual? | La actividad evita convertir la disponibilidad tecnológica en una brecha. |
-| Responsabilidad distribuida. | ¿Cada nivel conoce las decisiones que le corresponde sostener? | La institución, el programa y la asignatura responden por su parte. |
-| Autonomía y soberanía institucional. | ¿Se conserva control sobre herramientas, datos y dependencias? | La decisión tecnológica mantiene alternativas y capacidad de salida. |
-| Revisión periódica. | ¿La decisión tiene evidencia, responsable y fecha de revisión? | El criterio puede modificarse cuando cambian las prácticas o las condiciones. |
+| Enseñar antes de exigir. | No exigir lo que no se enseñó. | ¿Qué se enseñó antes de pedirlo? |
+| Explicar cómo se utilizó. | Estudiantado y profesorado describen los apoyos relevantes. | ¿Qué apoyo conviene describir y con cuánto detalle? |
+| Mirar también el recorrido. | Conocer una decisión y cómo se comprobó. | ¿Qué muestra breve del proceso puede pedirse? |
+| Ofrecer opciones de acceso. | Que la actividad no cree desventajas. | ¿Quién podría quedar fuera y qué alternativa tiene? |
+| Aclarar quién responde. | Cada ámbito explica sus decisiones. | ¿Quién toma esta decisión y quién la revisa? |
+| Conservar opciones. | Poder recuperar datos y cambiar de herramienta. | ¿Qué pasaría si hubiera que cambiar de herramienta? |
+| Volver a revisar. | Actualizar los acuerdos a partir de la experiencia y de los nuevos casos. | ¿Cuándo y con qué información se revisará el acuerdo? |
 
-Estos principios orientan la deliberación contextual. No sustituyen el análisis pedagógico,
-ético, normativo o disciplinar de cada caso.
+Los criterios se consideran juntos y ayudan a decidir con contexto; ninguno decide por sí
+solo ni sustituye el análisis pedagógico, ético, normativo o disciplinar de cada caso.
 {{< /udgia-figure >}}
 
 ## Para docentes
@@ -58,11 +60,11 @@ El silencio sobre IA en el syllabus suele ser la fuente más frecuente de confli
 
 ### 2. Diferenciar entre tareas con IA permitida, restringida y prohibida
 
-No todas las tareas de un curso necesitan la misma regla. La diferenciación —explícita en cada consigna— ayuda a proteger la integridad académica sin volver al docente un policía digital. La [guía sobre plagio y autenticidad académica en la era de la IA](/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/) ofrece tipologías de tareas según permisividad.
+No todas las tareas de un curso necesitan la misma regla, porque la IA no juega el mismo papel en todas. En unas realizaría justamente la práctica que la tarea busca formar; en otras ofrece una ayuda útil después de un primer intento propio; en otras no cambia el aprendizaje que se evalúa. La tricotomía permitida–restringida–prohibida traduce esas tres situaciones al lenguaje del syllabus, consigna por consigna, y ayuda a proteger la integridad académica sin volver al docente un policía digital. La [guía sobre plagio y autenticidad académica en la era de la IA](/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/) ofrece tipologías de tareas según permisividad.
 
 ### 3. Pedir documentación del proceso, no solo del producto
 
-Cuando la IA se permite, una práctica útil es pedir un anexo con prompts utilizados, salidas obtenidas y decisiones tomadas. Si la rúbrica evalúa el anexo con peso similar al entregable, la transparencia se vuelve parte del aprendizaje. Sin esto, la transparencia tiende a quedar en la consigna y no llegar al aula.
+Cuando la IA se permite, una práctica útil es pedir una muestra breve del recorrido: qué se preguntó, qué se aceptó, corrigió o descartó y por qué. La muestra es proporcional a la tarea —una nota puede bastar en una práctica breve; un proyecto mayor admite versiones y comprobaciones—, no un expediente de cada interacción. Si la rúbrica la reconoce con un peso visible, la transparencia se vuelve parte del aprendizaje; sin eso, tiende a quedar en la consigna y no llegar al aula.
 
 ### 4. Evitar pedir tareas que el modelo resuelve trivialmente
 
@@ -92,7 +94,7 @@ Sin un acuerdo de programa, los docentes tienden a operar en silos y los estudia
 
 ### 10. Asignar responsabilidad explícita de actualización
 
-Cada criterio institucional gana solidez cuando tiene un responsable y una fecha de revisión. Sin esto, las decisiones envejecen y se vuelven letra muerta. Las [sugerencias para una política de IA en la UdeG](/recursos/politica-ia-udeg/) proponen un ciclo de revisión semestral.
+Cada criterio institucional gana solidez cuando tiene un responsable y una fecha de revisión. Sin esto, las decisiones envejecen y se vuelven letra muerta. Las [sugerencias para una política de IA en la UdeG](/recursos/politica-ia-udeg/) proponen un ciclo formal de revisión anual.
 
 ### 11. Garantizar acceso institucional a al menos un modelo
 
@@ -114,15 +116,15 @@ La diferencia entre un acuerdo escrito y un acuerdo aplicado se vuelve visible a
 
 ### 15. Citar el uso de IA con la misma honestidad que cualquier fuente
 
-El criterio base es la transparencia: si la IA contribuyó, conviene declararlo. Las formas de hacerlo varían según disciplina, pero la omisión sigue siendo la opción menos defendible. La entrada de [integridad académica](/recursos/glosario/integridad-academica/) sintetiza criterios de citación.
+El criterio base es la transparencia: si la IA contribuyó, conviene declararlo. Declarar no funciona como una confesión, sino como parte de explicar cómo se hizo el trabajo, y el detalle es proporcional a la tarea: una línea puede bastar en un ejercicio breve; un trabajo con consecuencias pide relatar apoyos, comprobaciones y decisiones. La [plantilla de declaración proporcional](/ia-educacion/practicas/declaracion-proporcional-uso/) ofrece dos versiones según el peso de la tarea y la entrada de [integridad académica](/recursos/glosario/integridad-academica/) sintetiza criterios de citación. La omisión sigue siendo la opción menos defendible.
 
 ### 16. No subir información personal de terceros sin consentimiento
 
 Subir un trabajo de un compañero, una transcripción de una entrevista no autorizada o datos de un proyecto institucional a un modelo comercial constituye una transgresión de privacidad, aunque sea para "mejorar" el texto.
 
-### 17. Verificar al menos una fuente externa por cada afirmación factual
+### 17. Verificar al menos una afirmación central contra una fuente original
 
-Los modelos generan referencias falsas con confianza. La consulta a una base de datos académica, un artículo o un libro físico funciona como mejor defensa contra la propagación de citas inventadas.
+Los modelos generan referencias falsas con confianza. Antes que intentar comprobar cada frase —un estándar que nadie sostiene en la práctica—, conviene identificar la afirmación de la que depende la conclusión y contrastarla con una fuente original o con evidencia disciplinar pertinente: una base de datos académica, un artículo, un libro. Si esa afirmación central no se sostiene, el resto del texto necesita revisarse; si se sostiene, la comprobación deja un rastro que se puede explicar.
 
 ### 18. Documentar el propio proceso de uso de IA
 

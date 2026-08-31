@@ -61,7 +61,7 @@ A continuación se presenta un esquema que resume las tres literacidades, detall
 | --------------- | -------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------- |
 | **Operativa**   | Dominio en el uso de la IA: formulación de instrucciones y su integración en el trabajo diario                             | A través de una práctica guiada y progresiva                                                                      | Recordar · Comprender · Aplicar |
 | **Crítica**     | Comprensión de los sistemas, incluyendo sus sesgos y efectos; capacidad de discernimiento y verificación de resultados     | Mediante lectura lateral, análisis del sesgo algorítmico, y desarrollo de conciencia sociotécnica y ética         | Analizar · Evaluar              |
-| **Co-creación** | Mantener el acoplamiento mientras se preserva la dirección epistémica, y decidir cuándo no emplear la IA                  | A través de un ciclo iterativo supervisado (formular, evaluar, descartar, reformular) y documentación del proceso | **Crear** (cúspide)             |
+| **Co-creación** | Mantener el acoplamiento mientras se preserva la dirección epistémica, y decidir cuándo no emplear la IA                  | A través de un ciclo iterativo supervisado (formular, contrastar, decidir, responder) y documentación del proceso | **Crear** (cúspide)             |
 
 Estas literacidades no son etapas independientes sino una progresión acumulativa: cada una
 se apoya en las anteriores. La [taxonomía de

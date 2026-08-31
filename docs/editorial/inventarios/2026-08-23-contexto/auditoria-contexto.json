@@ -19,27 +19,27 @@
     }
   },
   "totals": {
-    "documents": 183,
+    "documents": 196,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
       "media": 15,
-      "baja": 168
+      "baja": 181
     },
     "by_role": {
       "articulo": 13,
       "guia": 14,
       "navegacion": 30,
       "pagina": 76,
-      "practica": 7,
-      "recurso": 40,
+      "practica": 8,
+      "recurso": 52,
       "ruta": 3
     },
     "by_manual_decision": {
       "conservar": 21,
       "cambiar": 52,
       "quitar": 0,
-      "pendiente": 110
+      "pendiente": 123
     },
     "candidate_manual_pending": 0,
     "flagged_implementation_claims": 0,
@@ -4325,7 +4325,7 @@
       "path": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
       "title": "Empezar con IA para aprender y enseñar",
       "role": "ruta",
-      "words": 1495,
+      "words": 1596,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5229,7 +5229,7 @@
       "path": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
       "title": "Conservar la dirección del trabajo con IA",
       "role": "guia",
-      "words": 1939,
+      "words": 2076,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5245,15 +5245,15 @@
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
             "line": 60,
-            "text": "la persona conserva cuatro movimientos que no conviene esconder:"
+            "text": "la persona conserva cuatro acciones que no conviene esconder:"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 76,
-            "text": "acompañamiento antes de incorporar una respuesta generada."
+            "line": 63,
+            "text": "características tendría una aportación útil, antes de pedir una respuesta;"
           }
         },
         "material_inicial": {
@@ -5277,15 +5277,15 @@
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
             "line": 60,
-            "text": "la persona conserva cuatro movimientos que no conviene esconder:"
+            "text": "la persona conserva cuatro acciones que no conviene esconder:"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 63,
-            "text": "2. **evalúa** la propuesta frente al propósito y a fuentes pertinentes;"
+            "line": 64,
+            "text": "2. **contrasta**: comprueba la propuesta con algo que no proviene de la propia respuesta —una"
           }
         },
         "lenguaje_directo": {
@@ -5654,7 +5654,7 @@
       "path": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
       "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
       "role": "guia",
-      "words": 2180,
+      "words": 2259,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5910,7 +5910,7 @@
       "path": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "role": "guia",
-      "words": 1567,
+      "words": 1832,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5925,8 +5925,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 61,
-            "text": "No todas las tareas de un curso necesitan la misma regla. La diferenciación —explícita en cada consigna— ayuda a proteger la integridad académica sin volver al docente un policía digital. La [guía sobre plagio y autenticidad académica en la"
+            "line": 63,
+            "text": "No todas las tareas de un curso necesitan la misma regla, porque la IA no juega el mismo papel en todas. En unas realizaría justamente la práctica que la tarea busca formar; en otras ofrece una ayuda útil después de un primer intento propio"
           }
         },
         "momento_entorno": {
@@ -5941,8 +5941,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 39,
-            "text": "| Principio rector | Pregunta de revisión | Decisión que ayuda a orientar |"
+            "line": 41,
+            "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         },
         "acciones": {
@@ -5954,12 +5954,8 @@
           }
         },
         "resultado": {
-          "present": true,
-          "evidence": {
-            "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 43,
-            "text": "| Evaluación del proceso. | ¿La actividad permite observar decisiones, revisiones y criterios? | La evaluación valora el recorrido además del resultado final. |"
-          }
+          "present": false,
+          "evidence": null
         },
         "comprobacion": {
           "present": true,
@@ -5973,12 +5969,13 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 47,
-            "text": "| Revisión periódica. | ¿La decisión tiene evidencia, responsable y fecha de revisión? | El criterio puede modificarse cuando cambian las prácticas o las condiciones. |"
+            "line": 41,
+            "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         }
       },
       "missing_expected_signals": [
+        "resultado",
         "lenguaje_directo"
       ],
       "risk_flags": [],
@@ -6305,7 +6302,7 @@
       "path": "content/ia-educacion/investigacion/index.md",
       "title": "Investigar con IA sin perder el rigor",
       "role": "pagina",
-      "words": 277,
+      "words": 281,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -6463,7 +6460,7 @@
       "path": "content/ia-educacion/practicas/_index.md",
       "title": "Prácticas con IA",
       "role": "navegacion",
-      "words": 294,
+      "words": 346,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -6478,8 +6475,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 23,
-            "text": "Ambas piezas declaran su estado de evidencia: son propuestas y prototipos de escenario, no casos implementados con expediente verificable. Ese estatus no las vuelve provisionales en lo conceptual —cada una explica en qué se apoya—, pero sí "
+            "line": 21,
+            "text": "Por ahora la sección contiene tres piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de s"
           }
         },
         "momento_entorno": {
@@ -6487,7 +6484,7 @@
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
             "line": 21,
-            "text": "Por ahora la sección contiene dos piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de se"
+            "text": "Por ahora la sección contiene tres piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de s"
           }
         },
         "material_inicial": {
@@ -6625,6 +6622,86 @@
         "content/ia-educacion/practicas/bitacora-cocreacion/index.md L51-53: Establece límites explícitos para no registrar datos personales, información confidencial ni transcripciones innecesarias.",
         "content/ia-educacion/practicas/bitacora-cocreacion/index.md L55-57: Define un criterio comprobable: otra persona debe poder distinguir punto de partida, aporte, comprobación y decisión final."
       ]
+    },
+    {
+      "path": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+      "title": "Declaración proporcional de uso de IA",
+      "role": "practica",
+      "words": 872,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 44,
+            "text": "Que sea **proporcional** significa que su extensión se ajusta al peso de la tarea. Esto no contradice el principio de que todo uso relevante se declara: la proporcionalidad no regula *si* se declara, sino *cuánto detalle* hace falta. Una de"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 42,
+            "text": "Una declaración de uso describe el papel que tuvo la IA en un trabajo: para qué se consultó, qué aportó, qué se comprobó y qué quedó bajo decisión de la persona. Bien planteada, no funciona como confesión ni como trámite defensivo; funciona"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 44,
+            "text": "Que sea **proporcional** significa que su extensión se ajusta al peso de la tarea. Esto no contradice el principio de que todo uso relevante se declara: la proporcionalidad no regula *si* se declara, sino *cuánto detalle* hace falta. Una de"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 35,
+            "text": "Usa esta plantilla al cerrar un trabajo en el que intervino una IA. La pregunta que responde no es «¿usaste IA?», sino «¿qué apoyo dio, qué comprobaste y qué decidiste tú?» — con la extensión que la tarea merece."
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 44,
+            "text": "Que sea **proporcional** significa que su extensión se ajusta al peso de la tarea. Esto no contradice el principio de que todo uso relevante se declara: la proporcionalidad no regula *si* se declara, sino *cuánto detalle* hace falta. Una de"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 67,
+            "text": "> La responsabilidad sobre el resultado es mía."
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 52,
+            "text": "- el uso de IA forma parte de lo que la actividad evalúa;"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+            "line": 44,
+            "text": "Que sea **proporcional** significa que su extensión se ajusta al peso de la tarea. Esto no contradice el principio de que todo uso relevante se declara: la proporcionalidad no regula *si* se declara, sino *cuánto detalle* hace falta. Una de"
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/ia-educacion/productos-de-aprendizaje/_index.md",
@@ -9031,7 +9108,7 @@
       "path": "content/ia-educacion/rutas/coordinacion-academica/index.md",
       "title": "Coordinar la IA en los procesos docentes",
       "role": "ruta",
-      "words": 1612,
+      "words": 1602,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9078,8 +9155,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/coordinacion-academica/index.md",
-            "line": 89,
-            "text": "| Etapa | Pregunta que organiza el trabajo | Resultado esperado |"
+            "line": 127,
+            "text": "**Ficha de alcance:** una página con propósito, alcance, responsables, calendario, recursos"
           }
         },
         "comprobacion": {
@@ -9116,7 +9193,7 @@
       "path": "content/ia-educacion/rutas/decision-institucional-ia/index.md",
       "title": "Decidir institucionalmente sobre IA en la docencia",
       "role": "ruta",
-      "words": 1476,
+      "words": 1606,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9269,7 +9346,7 @@
       "path": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
       "title": "Regar las plantas, no solo construir cercas: repensar la evaluación en la era de la IA",
       "role": "pagina",
-      "words": 876,
+      "words": 930,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9292,7 +9369,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 60,
+            "line": 66,
             "text": "La posibilidad de generar comentarios rápidos no convierte una herramienta en evaluador. Antes de usar IA para retroalimentar trabajos, el equipo docente debe definir qué datos pueden procesarse, evitar información personal o confidencial y"
           }
         },
@@ -9526,7 +9603,7 @@
       "path": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
       "title": "Políticas institucionales de IA en universidades",
       "role": "pagina",
-      "words": 1181,
+      "words": 1150,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -9582,15 +9659,17 @@
           }
         },
         "lenguaje_directo": {
-          "present": true,
+          "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 22,
-            "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
+            "line": 95,
+            "text": "- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma con criterio APA 7 ahorra confusiones."
           }
         }
       },
-      "missing_expected_signals": [],
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -10876,23 +10955,23 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1380,
+      "words": 1427,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 41,
-            "text": "Con salvaguardas, el andamiaje mitigó la pérdida observada cuando la IA entregaba soluciones."
+            "line": 30,
+            "text": "Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 37,
-            "text": "| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |"
+            "line": 30,
+            "text": "Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo"
           }
         },
         "momento_entorno": {
@@ -10900,7 +10979,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 35,
-            "text": "| Condición | Durante la práctica | Al retirar la IA |"
+            "text": "| Condición | Durante la práctica con IA | Al evaluar sin IA |"
           }
         },
         "material_inicial": {
@@ -10920,14 +10999,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 37,
-            "text": "| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |"
+            "text": "| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esf"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 56,
+            "line": 54,
             "text": "El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes interactúan con la IA cuando la conceptualizan como un colaborador intelectual en lugar de una herramienta pasiva. Esta perspectiva, denominada \"orientación de asociaci"
           }
         },
@@ -12019,7 +12098,7 @@
       "path": "content/recursos/glosario/_index.md",
       "title": "Glosario de términos",
       "role": "navegacion",
-      "words": 228,
+      "words": 298,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -12031,8 +12110,12 @@
           }
         },
         "quien": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/_index.md",
+            "line": 30,
+            "text": "- **Co-creación y dirección del trabajo:** co-creación persona-IA, agenciamiento persona-IA, dirección epistémica, esfuerzo productivo y deriva metacognitiva."
+          }
         },
         "momento_entorno": {
           "present": true,
@@ -12054,7 +12137,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/glosario/_index.md",
-            "line": 35,
+            "line": 39,
             "text": "Revisa la definición y el ejemplo o contraste, cuando exista."
           }
         },
@@ -12074,14 +12157,12 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/glosario/_index.md",
-            "line": 35,
+            "line": 39,
             "text": "Revisa la definición y el ejemplo o contraste, cuando exista."
           }
         }
       },
-      "missing_expected_signals": [
-        "quien"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "cambiar",
@@ -12096,6 +12177,69 @@
         "L31 anterior: “gana el artículo”.",
         "Borrador 02B: uso en tres pasos y protocolo para contradicciones."
       ]
+    },
+    {
+      "path": "content/recursos/glosario/agenciamiento-persona-ia/index.md",
+      "title": "Agenciamiento persona-IA",
+      "role": "recurso",
+      "words": 167,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": false,
+          "evidence": null
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/agenciamiento-persona-ia/index.md",
+            "line": 13,
+            "text": "El **agenciamiento persona-IA** nombra la configuración completa en la que ocurre un trabajo con inteligencia artificial. No se reduce al par persona-herramienta: incluye la actividad que se realiza, las fuentes disponibles, los criterios c"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/agenciamiento-persona-ia/index.md",
+            "line": 13,
+            "text": "El **agenciamiento persona-IA** nombra la configuración completa en la que ocurre un trabajo con inteligencia artificial. No se reduce al par persona-herramienta: incluye la actividad que se realiza, las fuentes disponibles, los criterios c"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/glosario/agenciamiento-persona-ia/index.md",
+            "line": 13,
+            "text": "El **agenciamiento persona-IA** nombra la configuración completa en la que ocurre un trabajo con inteligencia artificial. No se reduce al par persona-herramienta: incluye la actividad que se realiza, las fuentes disponibles, los criterios c"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "situacion",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/recursos/glosario/agentes-de-ia/index.md",
@@ -12643,6 +12787,223 @@
       "manual_citations": []
     },
     {
+      "path": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+      "title": "Co-creación persona-IA",
+      "role": "recurso",
+      "words": 165,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 13,
+            "text": "Hay **co-creación persona-IA** cuando la respuesta de un sistema no se copia ni se entrega tal cual, sino que entra en un ciclo intelectual dirigido por la persona: ella la interroga, la contrasta con otras fuentes, decide qué conservar o d"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 13,
+            "text": "Hay **co-creación persona-IA** cuando la respuesta de un sistema no se copia ni se entrega tal cual, sino que entra en un ciclo intelectual dirigido por la persona: ella la interroga, la contrasta con otras fuentes, decide qué conservar o d"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 15,
+            "text": "El término no convierte a la IA en coautora en el sentido humano ni le transfiere responsabilidad alguna. Describe una relación de trabajo, no un reparto de méritos: la herramienta introduce posibilidades y la persona conserva la [dirección"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 13,
+            "text": "Hay **co-creación persona-IA** cuando la respuesta de un sistema no se copia ni se entrega tal cual, sino que entra en un ciclo intelectual dirigido por la persona: ella la interroga, la contrasta con otras fuentes, decide qué conservar o d"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 13,
+            "text": "Hay **co-creación persona-IA** cuando la respuesta de un sistema no se copia ni se entrega tal cual, sino que entra en un ciclo intelectual dirigido por la persona: ella la interroga, la contrasta con otras fuentes, decide qué conservar o d"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/cocreacion-persona-ia/index.md",
+            "line": 13,
+            "text": "Hay **co-creación persona-IA** cuando la respuesta de un sistema no se copia ni se entrega tal cual, sino que entra en un ciclo intelectual dirigido por la persona: ella la interroga, la contrasta con otras fuentes, decide qué conservar o d"
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+      "title": "Colonización cognitiva",
+      "role": "recurso",
+      "words": 176,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+            "line": 15,
+            "text": "El riesgo no está en usar esas herramientas, sino en dejar de notar lo que imponen. Si una comunidad acepta sus categorías como si fueran neutrales, puede ir desplazando sus propias formas de nombrar, investigar y comprender. La pregunta pr"
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+            "line": 15,
+            "text": "El riesgo no está en usar esas herramientas, sino en dejar de notar lo que imponen. Si una comunidad acepta sus categorías como si fueran neutrales, puede ir desplazando sus propias formas de nombrar, investigar y comprender. La pregunta pr"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+            "line": 15,
+            "text": "El riesgo no está en usar esas herramientas, sino en dejar de notar lo que imponen. Si una comunidad acepta sus categorías como si fueran neutrales, puede ir desplazando sus propias formas de nombrar, investigar y comprender. La pregunta pr"
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+            "line": 15,
+            "text": "El riesgo no está en usar esas herramientas, sino en dejar de notar lo que imponen. Si una comunidad acepta sus categorías como si fueran neutrales, puede ir desplazando sus propias formas de nombrar, investigar y comprender. La pregunta pr"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/glosario/colonizacion-cognitiva/index.md",
+            "line": 15,
+            "text": "El riesgo no está en usar esas herramientas, sino en dejar de notar lo que imponen. Si una comunidad acepta sus categorías como si fueran neutrales, puede ir desplazando sus propias formas de nombrar, investigar y comprender. La pregunta pr"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "quien",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/recursos/glosario/deriva-metacognitiva/index.md",
+      "title": "Deriva metacognitiva",
+      "role": "recurso",
+      "words": 165,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": false,
+          "evidence": null
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/deriva-metacognitiva/index.md",
+            "line": 13,
+            "text": "La **deriva metacognitiva** es la pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar tareas en una IA. Lo característico no es la delegación en sí, sino su invisibilidad: la persona conserva una imagen optimis"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/deriva-metacognitiva/index.md",
+            "line": 13,
+            "text": "La **deriva metacognitiva** es la pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar tareas en una IA. Lo característico no es la delegación en sí, sino su invisibilidad: la persona conserva una imagen optimis"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/deriva-metacognitiva/index.md",
+            "line": 13,
+            "text": "La **deriva metacognitiva** es la pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar tareas en una IA. Lo característico no es la delegación en sí, sino su invisibilidad: la persona conserva una imagen optimis"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/deriva-metacognitiva/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/deriva-metacognitiva/index.md",
+            "line": 13,
+            "text": "La **deriva metacognitiva** es la pérdida gradual de la capacidad de notar cuánto se ha dejado de pensar al delegar tareas en una IA. Lo característico no es la delegación en sí, sino su invisibilidad: la persona conserva una imagen optimis"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "situacion"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
       "path": "content/recursos/glosario/descarga-cognitiva/index.md",
       "title": "Descarga cognitiva",
       "role": "recurso",
@@ -12705,6 +13066,78 @@
       "missing_expected_signals": [
         "lenguaje_directo"
       ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/recursos/glosario/direccion-epistemica/index.md",
+      "title": "Dirección epistémica",
+      "role": "recurso",
+      "words": 162,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 13,
+            "text": "La **dirección epistémica** es la capacidad de conservar el rumbo intelectual de un trabajo cuando interviene una IA: mantener el propósito, comprobar lo que la herramienta entrega, tomar las decisiones importantes y responder por el result"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 15,
+            "text": "El concepto no mide cuánta IA se usó, sino quién condujo el proceso. Una persona puede apoyarse mucho en una herramienta y conservar la dirección, si formuló lo que buscaba, contrastó las respuestas y puede explicar por qué aceptó, modificó"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 13,
+            "text": "La **dirección epistémica** es la capacidad de conservar el rumbo intelectual de un trabajo cuando interviene una IA: mantener el propósito, comprobar lo que la herramienta entrega, tomar las decisiones importantes y responder por el result"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 13,
+            "text": "La **dirección epistémica** es la capacidad de conservar el rumbo intelectual de un trabajo cuando interviene una IA: mantener el propósito, comprobar lo que la herramienta entrega, tomar las decisiones importantes y responder por el result"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 15,
+            "text": "El concepto no mide cuánta IA se usó, sino quién condujo el proceso. Una persona puede apoyarse mucho en una herramienta y conservar la dirección, si formuló lo que buscaba, contrastó las respuestas y puede explicar por qué aceptó, modificó"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/direccion-epistemica/index.md",
+            "line": 13,
+            "text": "La **dirección epistémica** es la capacidad de conservar el rumbo intelectual de un trabajo cuando interviene una IA: mantener el propósito, comprobar lo que la herramienta entrega, tomar las decisiones importantes y responder por el result"
+          }
+        }
+      },
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -12788,6 +13221,80 @@
         "Antes L21: afirmaba valor particular con IA y competencias profundas sin fuente ni límite.",
         "Ahora: resultados, evidencia y experiencias quedan atribuidos, delimitados y conectados con la guía canónica."
       ]
+    },
+    {
+      "path": "content/recursos/glosario/esfuerzo-productivo/index.md",
+      "title": "Esfuerzo productivo",
+      "role": "recurso",
+      "words": 163,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 13,
+            "text": "El **esfuerzo productivo** es la dificultad que forma una capacidad, a diferencia de la dificultad que solo frustra o hace perder tiempo. Redactar un primer borrador torpe, equivocarse en un cálculo y encontrar el error, o intentar una trad"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 15,
+            "text": "El concepto ordena una de las decisiones centrales del trabajo con IA: cuándo introducir la ayuda. Proteger el esfuerzo productivo significa dejar que la persona practique la operación que necesita aprender antes de ofrecerle una herramient"
+          }
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 13,
+            "text": "El **esfuerzo productivo** es la dificultad que forma una capacidad, a diferencia de la dificultad que solo frustra o hace perder tiempo. Redactar un primer borrador torpe, equivocarse en un cálculo y encontrar el error, o intentar una trad"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 13,
+            "text": "El **esfuerzo productivo** es la dificultad que forma una capacidad, a diferencia de la dificultad que solo frustra o hace perder tiempo. Redactar un primer borrador torpe, equivocarse en un cálculo y encontrar el error, o intentar una trad"
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/glosario/esfuerzo-productivo/index.md",
+            "line": 15,
+            "text": "El concepto ordena una de las decisiones centrales del trabajo con IA: cuándo introducir la ayuda. Proteger el esfuerzo productivo significa dejar que la persona practique la operación que necesita aprender antes de ofrecerle una herramient"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/recursos/glosario/evaluacion-autentica/index.md",
@@ -12953,6 +13460,76 @@
         "L72–81: exige explicar y aplicar el cambio, no solo mejorar la redacción.",
         "L83–89: limita la inferencia de los dos estudios y presenta el término como síntesis editorial."
       ]
+    },
+    {
+      "path": "content/recursos/glosario/gobernanza-distribuida/index.md",
+      "title": "Gobernanza distribuida",
+      "role": "recurso",
+      "words": 160,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/gobernanza-distribuida/index.md",
+            "line": 15,
+            "text": "La alternativa sería un reglamento central que intentara prever todos los casos, con el riesgo conocido de quedar obsoleto o de prohibir en abstracto lo que una actividad concreta necesita. Distribuir no significa diluir: el modelo exige co"
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/gobernanza-distribuida/index.md",
+            "line": 13,
+            "text": "La **gobernanza distribuida** es una manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información y capacidad para tomarla. La institución define condiciones generales —privacidad, contratación de servicio"
+          }
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/gobernanza-distribuida/index.md",
+            "line": 13,
+            "text": "La **gobernanza distribuida** es una manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información y capacidad para tomarla. La institución define condiciones generales —privacidad, contratación de servicio"
+          }
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/gobernanza-distribuida/index.md",
+            "line": 13,
+            "text": "La **gobernanza distribuida** es una manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información y capacidad para tomarla. La institución define condiciones generales —privacidad, contratación de servicio"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/gobernanza-distribuida/index.md",
+            "line": 13,
+            "text": "La **gobernanza distribuida** es una manera de organizar las decisiones sobre IA que asigna cada una al ámbito con mejor información y capacidad para tomarla. La institución define condiciones generales —privacidad, contratación de servicio"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "quien"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
     },
     {
       "path": "content/recursos/glosario/ia-generativa/index.md",
@@ -13176,6 +13753,65 @@
       ]
     },
     {
+      "path": "content/recursos/glosario/justicia-epistemica/index.md",
+      "title": "Justicia epistémica",
+      "role": "recurso",
+      "words": 158,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/justicia-epistemica/index.md",
+            "line": 13,
+            "text": "La **justicia epistémica** es el derecho de una comunidad a producir y validar conocimiento desde su propio contexto: con sus lenguas, sus problemas, sus fuentes y sus criterios de lo que cuenta como saber legítimo. Se lesiona cuando las he"
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/justicia-epistemica/index.md",
+            "line": 13,
+            "text": "La **justicia epistémica** es el derecho de una comunidad a producir y validar conocimiento desde su propio contexto: con sus lenguas, sus problemas, sus fuentes y sus criterios de lo que cuenta como saber legítimo. Se lesiona cuando las he"
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": null
+        }
+      },
+      "missing_expected_signals": [
+        "quien",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
       "path": "content/recursos/glosario/modelo-samr/index.md",
       "title": "Modelo SAMR",
       "role": "recurso",
@@ -13301,6 +13937,84 @@
       "manual_citations": []
     },
     {
+      "path": "content/recursos/glosario/pos-plagio/index.md",
+      "title": "Pos-plagio",
+      "role": "recurso",
+      "words": 162,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 13,
+            "text": "**Pos-plagio** es la expresión que utilizan algunos estudios para reconocer que las definiciones tradicionales de plagio —copiar palabras ajenas sin atribución— ya no describen por sí solas todos los trabajos en los que interviene una IA. U"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 15,
+            "text": "El término no anuncia el fin de la integridad, sino un desplazamiento del foco: en lugar de preguntar únicamente si hubo copia, propone preguntar si la persona fue transparente sobre el apoyo recibido, si comprende lo que presenta y si pued"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 13,
+            "text": "**Pos-plagio** es la expresión que utilizan algunos estudios para reconocer que las definiciones tradicionales de plagio —copiar palabras ajenas sin atribución— ya no describen por sí solas todos los trabajos en los que interviene una IA. U"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 15,
+            "text": "El término no anuncia el fin de la integridad, sino un desplazamiento del foco: en lugar de preguntar únicamente si hubo copia, propone preguntar si la persona fue transparente sobre el apoyo recibido, si comprende lo que presenta y si pued"
+          }
+        },
+        "resultado": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 15,
+            "text": "El término no anuncia el fin de la integridad, sino un desplazamiento del foco: en lugar de preguntar únicamente si hubo copia, propone preguntar si la persona fue transparente sobre el apoyo recibido, si comprende lo que presenta y si pued"
+          }
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": {
+            "source": "content/recursos/glosario/pos-plagio/index.md",
+            "line": 15,
+            "text": "El término no anuncia el fin de la integridad, sino un desplazamiento del foco: en lugar de preguntar únicamente si hubo copia, propone preguntar si la persona fue transparente sobre el apoyo recibido, si comprende lo que presenta y si pued"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
       "path": "content/recursos/glosario/sesgo-algoritmico/index.md",
       "title": "Sesgo algorítmico",
       "role": "recurso",
@@ -13357,6 +14071,69 @@
         }
       },
       "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/recursos/glosario/soberania-tecnologica/index.md",
+      "title": "Soberanía tecnológica",
+      "role": "recurso",
+      "words": 155,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 15,
+            "text": "Una parte de esa capacidad es la soberanía de datos: saber qué información de la comunidad se procesa fuera, dónde, bajo qué garantías y cómo se recupera o elimina. Otra parte es la resiliencia: mantener las funciones importantes cuando un "
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 13,
+            "text": "La **soberanía tecnológica** es la capacidad de una institución para conservar opciones sobre las tecnologías que adopta: poder recuperar sus datos, cambiar de servicio, revisar condiciones y evitar dependencias que comprometan su misión. N"
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/soberania-tecnologica/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": null
+        }
+      },
+      "missing_expected_signals": [
+        "quien",
         "lenguaje_directo"
       ],
       "risk_flags": [],
@@ -13433,6 +14210,78 @@
       ]
     },
     {
+      "path": "content/recursos/glosario/trazabilidad/index.md",
+      "title": "Trazabilidad",
+      "role": "recurso",
+      "words": 154,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 13,
+            "text": "La **trazabilidad** es la posibilidad de reconstruir y mostrar cómo se produjo un trabajo: qué versiones existieron, qué decisiones se tomaron y qué papel tuvo la IA en cada momento. Cuando el proceso es trazable, docente y estudiante puede"
+          }
+        },
+        "quien": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 13,
+            "text": "La **trazabilidad** es la posibilidad de reconstruir y mostrar cómo se produjo un trabajo: qué versiones existieron, qué decisiones se tomaron y qué papel tuvo la IA en cada momento. Cuando el proceso es trazable, docente y estudiante puede"
+          }
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 15,
+            "text": "Trazable no significa vigilado. No hace falta guardar cada conversación con una herramienta ni registrar cada tecla: basta una nota breve donde la persona explica qué ayuda pidió, qué comprobó fuera de la herramienta y qué conservó o descar"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 15,
+            "text": "Trazable no significa vigilado. No hace falta guardar cada conversación con una herramienta ni registrar cada tecla: basta una nota breve donde la persona explica qué ayuda pidió, qué comprobó fuera de la herramienta y qué conservó o descar"
+          }
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 17,
+            "text": "Esta definición adapta el glosario de [las Orientaciones](/ia-educacion/orientaciones/), una propuesta académica todavía en revisión."
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/trazabilidad/index.md",
+            "line": 15,
+            "text": "Trazable no significa vigilado. No hace falta guardar cada conversación con una herramienta ni registrar cada tecla: basta una nota breve donde la persona explica qué ayuda pidió, qué comprobó fuera de la herramienta y qué conservó o descar"
+          }
+        }
+      },
+      "missing_expected_signals": [],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
       "path": "content/recursos/glosario/tutor-inteligente/index.md",
       "title": "Tutor inteligente",
       "role": "recurso",
@@ -13491,6 +14340,80 @@
       "missing_expected_signals": [
         "situacion",
         "lenguaje_directo"
+      ],
+      "risk_flags": [],
+      "automatic_priority": "baja",
+      "manual_decision": "pendiente",
+      "manual_reason": "",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/recursos/glosario/vendor-lock-in/index.md",
+      "title": "Dependencia de proveedor (vendor lock-in)",
+      "role": "recurso",
+      "words": 159,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 13,
+            "text": "La **dependencia de proveedor** (*vendor lock-in*) es la situación en la que cambiar de servicio se vuelve impracticable: los datos y el trabajo acumulado no pueden recuperarse en un formato utilizable, o el costo de migrar —en dinero, tiem"
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 15,
+            "text": "Para evitarla, conviene comparar opciones con al menos cuatro criterios antes de adoptar una herramienta: portabilidad (¿pueden exportarse datos y contenidos en formatos abiertos?), transparencia (¿se conocen las condiciones y sus cambios?)"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 13,
+            "text": "La **dependencia de proveedor** (*vendor lock-in*) es la situación en la que cambiar de servicio se vuelve impracticable: los datos y el trabajo acumulado no pueden recuperarse en un formato utilizable, o el costo de migrar —en dinero, tiem"
+          }
+        },
+        "acciones": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 13,
+            "text": "La **dependencia de proveedor** (*vendor lock-in*) es la situación en la que cambiar de servicio se vuelve impracticable: los datos y el trabajo acumulado no pueden recuperarse en un formato utilizable, o el costo de migrar —en dinero, tiem"
+          }
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 15,
+            "text": "Para evitarla, conviene comparar opciones con al menos cuatro criterios antes de adoptar una herramienta: portabilidad (¿pueden exportarse datos y contenidos en formatos abiertos?), transparencia (¿se conocen las condiciones y sus cambios?)"
+          }
+        },
+        "lenguaje_directo": {
+          "present": true,
+          "evidence": {
+            "source": "content/recursos/glosario/vendor-lock-in/index.md",
+            "line": 13,
+            "text": "La **dependencia de proveedor** (*vendor lock-in*) es la situación en la que cambiar de servicio se vuelve impracticable: los datos y el trabajo acumulado no pueden recuperarse en un formato utilizable, o el costo de migrar —en dinero, tiem"
+          }
+        }
+      },
+      "missing_expected_signals": [
+        "quien"
       ],
       "risk_flags": [],
       "automatic_priority": "baja",
@@ -14028,15 +14951,15 @@
       "path": "content/recursos/politica-ia-udeg/index.md",
       "title": "Sugerencias y criterios para pensar una política de IA en la UdeG",
       "role": "recurso",
-      "words": 1802,
+      "words": 2138,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 45,
-            "text": "Una sugerencia robusta es que todo uso de IA en trabajo académico — estudiantil o docente — se declare. La declaración puede incluir modelo, versión y extensión del uso. Desde esta lectura, la ausencia de declaración, no el uso mismo, suele"
+            "line": 43,
+            "text": "### 1. Enseñar antes de exigir"
           }
         },
         "quien": {
@@ -14067,15 +14990,15 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 83,
-            "text": "## Gobernanza: quién decide qué"
+            "line": 45,
+            "text": "No resulta razonable pedir un uso responsable de algo que no se ha enseñado a comprender y juzgar. Una política que abre con obligaciones —declarar, abstenerse, citar de cierta forma— sin ofrecer formación traslada a docentes y estudiantes "
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 123,
+            "line": 111,
             "text": "Esta tabla puede acompañar a cualquier conversación institucional como guía metodológica. Cada unidad académica que la retome puede responder las siete preguntas desde su contexto."
           }
         },
@@ -14088,17 +15011,15 @@
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 28,
-            "text": "**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para alimentar conversaciones colegiadas, no normativa institucional. Aprendizaje-IA funciona como una red rizomática —sin centro ni jerarquía: cualquier do"
+            "line": 45,
+            "text": "No resulta razonable pedir un uso responsable de algo que no se ha enseñado a comprender y juzgar. Una política que abre con obligaciones —declarar, abstenerse, citar de cierta forma— sin ofrecer formación traslada a docentes y estudiantes "
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",

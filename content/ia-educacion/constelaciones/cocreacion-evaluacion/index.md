@@ -112,34 +112,40 @@ que explique por qué cambió la conclusión.
 | Ordenar información o comparar versiones. | Verificar fuentes, cuidar datos y explicar tus decisiones. |
 {.udgia-table--comparison .udgia-table--row-headers caption="Qué puede aportar la IA y qué responsabilidad conserva la persona"}
 
-## Cinco movimientos para probar una ayuda
+## Seis pasos para probar una ayuda
 
-1. **Di qué necesitas hacer.** ¿Necesitas comprender, enseñar o producir algo?
-2. **Haz un primer intento.** Escribe una explicación, una pregunta o una primera decisión antes de pedir
-   una solución completa.
-3. **Pide ayuda sobre una parte.** Pide una objeción, un caso contrario, una comparación o un
-   comentario sobre una parte concreta.
-4. **Comprueba la respuesta.** Vuelve a los datos, fuentes, reglas o ejemplos que pueden
-   confirmar o debilitar la propuesta.
-5. **Decide y explica.** Conserva, transforma, descarta o deja pendiente el aporte y anota una
-   razón breve.
+1. **Expresa una posición inicial.** Antes de consultar, escribe qué piensas y cómo vas a juzgar lo que recibas
+   juzgarás una respuesta. No necesita ser correcta: necesita ser tuya, para que después puedas
+   ver qué cambió.
+2. **Delimita el apoyo.** Decide qué puede aportar la herramienta —una objeción, un caso
+   contrario, un comentario sobre una parte concreta— y qué decisión no vas a delegar.
+3. **Comprueba.** Elige al menos la afirmación central de la respuesta, aquella de la que
+   depende tu conclusión, y vuelve a los datos, fuentes o ejemplos que pueden confirmarla o
+   debilitarla.
+4. **Decide.** Conserva, corrige, transforma o descarta el aporte, y anota la razón en una
+   frase.
+5. **Compara.** Pon lado a lado tu versión inicial y la revisada: qué cambió en tu
+   razonamiento y qué permaneció.
+6. **Responde por el resultado.** Explica qué apoyo recibiste, qué comprobaste y qué límite
+   reconoces todavía.
 
-Estos movimientos no son cinco requisitos separados. El esquema siguiente ayuda a ver cómo cada
-uno prepara el siguiente y mantiene la comprobación y la decisión bajo
+Estos pasos no son seis requisitos separados ni convierten cada consulta en un trámite. El
+esquema siguiente ayuda a ver cómo cada uno prepara el siguiente y qué queda, en todos, bajo
 responsabilidad de la persona.
 
-{{< udgia-figure id="udgia-f18-cinco-movimientos" >}}
-1. **¿Qué necesitas hacer?:** di si necesitas comprender, enseñar o producir algo.
-2. **Primer intento:** escribe una explicación, pregunta o primera decisión antes de pedir una solución completa.
-3. **Ayuda sobre una parte:** pide una objeción, un caso contrario, una comparación o apoyo sobre una parte concreta.
-4. **Comprueba la respuesta:** vuelve a los datos, fuentes, reglas o ejemplos que pueden confirmar o debilitar la propuesta.
-5. **Decisión explicada:** conserva, transforma, descarta o deja pendiente el aporte y anota una razón breve.
+{{< udgia-figure id="udgia-f18-rutina-seis-pasos" >}}
+1. **Posición inicial:** escribe qué piensas antes de consultar y cómo vas a juzgar lo que recibas. Se conservan tu idea y tu juicio propio.
+2. **Delimitar el apoyo:** decide qué puede aportar la IA y qué decisión no delegarás. Se conservan la ayuda y su límite.
+3. **Comprobar:** identifica la afirmación central y la fuente original que la sostiene. Se conservan la fuente y la revisión.
+4. **Decidir:** determina qué conservas, corriges o descartas, y qué razón sostiene la decisión. Se conserva la decisión explicada.
+5. **Comparar versiones:** observa qué cambió en tu razonamiento, qué permaneció y por qué. Se conservan el antes y el después.
+6. **Responder:** explica qué apoyo recibiste, qué comprobaste y qué faltó. Se conserva la explicación final.
 
-El recorrido no obliga a usar IA ni a seguir una secuencia rígida. La ayuda también puede provenir de una fuente, una persona o un ejemplo preparado por quien enseña. Lo importante es decir qué necesitas hacer, escribir algo propio, pedir ayuda sobre una parte, comprobar la respuesta y explicar tu decisión.
+La rutina no busca acumular capturas: permite observar qué pensó, comprobó y decidió la persona. La misma práctica puede realizarse con una respuesta de inteligencia artificial o con un caso preparado, fuentes o revisión humana: cambia la fuente de la ayuda, no las decisiones que se conservan.
 {{< /udgia-figure >}}
 
 La secuencia no convierte cada uso en una tarea larga. Sirve para reconocer qué parte no conviene
-delegar. Si todavía no puedes formular un primer intento, quizá necesites una explicación o un
+delegar. Si todavía no puedes expresar una posición inicial, quizá necesites una explicación o un
 ejemplo antes de consultar la herramienta. Si ya dominas la tarea, una objeción puede ayudarte a
 profundizar sin ocupar tu decisión.
 
@@ -223,9 +229,10 @@ evidencia y la decisión que hacen tuyo el recorrido.
 ## De dónde vienen estos criterios y cómo continuar
 
 La [propuesta de Orientaciones](../../orientaciones/) reúne el marco del que provienen estos
-criterios. No es una política institucional vigente. Aquí se traduce en acciones: hacer un primer
-intento protege el trabajo de aprendizaje, volver a los datos permite verificar, retirar
-información sensible cuida la privacidad y explicar una razón deja una decisión revisable.
+criterios. No es una política institucional vigente. Aquí se traduce en acciones: expresar una
+posición inicial protege el trabajo de aprendizaje, comprobar una afirmación central permite
+verificar, retirar información sensible cuida la privacidad y responder por el resultado deja
+una decisión revisable.
 
 No necesitas recorrer todo el sitio en orden:
 

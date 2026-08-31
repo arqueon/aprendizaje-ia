@@ -3,7 +3,7 @@ title: "Conservar la dirección del trabajo con IA"
 date: "2026-08-03"
 draft: false
 description: "Un caso para distinguir una sugerencia de una decisión y comprender la co-creación sin trasladar la responsabilidad a la herramienta."
-summary: "Formula, contrasta, decide y conserva un rastro breve de los cambios que puedes sostener."
+summary: "Formula, contrasta, decide y responde: conserva un rastro breve de los cambios que puedes sostener."
 tags: ["agenciamiento", "Deleuze", "Guattari", "co-creación", "dirección epistémica"]
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
@@ -57,18 +57,22 @@ con una herramienta en obediencia.
 
 Un sistema puede proponer una formulación, una pregunta, una objeción o una manera distinta de
 organizar el material. La contribución puede influir de verdad en el recorrido. Sin embargo,
-la persona conserva cuatro movimientos que no conviene esconder:
+la persona conserva cuatro acciones que no conviene esconder:
 
-1. **formula** la pregunta y reconoce qué problema intenta resolver;
-2. **evalúa** la propuesta frente al propósito y a fuentes pertinentes;
-3. **descarta o conserva** cada aporte con un criterio explícito;
-4. **reformula** su trabajo y explica la decisión que tomó.
+1. **formula**: aclara qué intenta comprender o producir, qué límites tiene la tarea y qué
+   características tendría una aportación útil, antes de pedir una respuesta;
+2. **contrasta**: comprueba la propuesta con algo que no proviene de la propia respuesta —una
+   fuente, conocimiento disciplinar, el contexto de la tarea u otra perspectiva—;
+3. **decide**: conserva, transforma o descarta cada aporte por una razón que puede explicarse;
+4. **responde**: se hace cargo del resultado y puede reconstruir el recorrido —qué aportó la
+   herramienta, qué se comprobó y qué decisiones fueron humanas—.
 
-Renata no acepta la primera sugerencia porque “suena mejor”. Compara la versión con la
-consigna y observa que la condición eliminada era necesaria. Conserva una frase más breve, pero
+Renata no acepta la primera sugerencia porque “suena mejor”. La contrasta con la consigna y
+observa que la condición eliminada era necesaria. Conserva una frase más breve, pero
 restituye la condición con sus propias palabras. En la segunda sugerencia no copia la
 objeción: consulta la fuente que ya estaba usando, encuentra que el contexto sí cambia la
-interpretación y reescribe su explicación.
+interpretación y reescribe su explicación. Al final puede responder por ambas decisiones sin
+volver a la conversación.
 
 Este recorrido supone que Renata ya puede reconocer la idea central y una condición de
 validez. Cuando una persona todavía no puede hacerlo, pedirle que “verifique” por su cuenta no
@@ -112,14 +116,21 @@ a la estudiante como simple operadora.
 La **dirección epistémica** es la capacidad de decidir qué cuenta como una respuesta
 pertinente y fundada: qué pregunta se intenta resolver, qué evidencia se acepta y qué versión
 puede sostenerse. La conserva Renata cuando usa la respuesta como material para pensar y no
-como sustituto de su juicio. La figura siguiente representa el ciclo —formular, evaluar,
-descartar y reformular— y dos desenlaces posibles, no dos efectos automáticos de la tecnología.
+como sustituto de su juicio. La figura siguiente representa el ciclo —formular, contrastar,
+decidir y responder— y dos desenlaces posibles, no dos efectos automáticos de la tecnología.
 
 {{< udgia-figure id="udgia-f05-cocreacion" src="cocreacion-dos-desenlaces.svg" >}}
-| Decisión de la persona | Interacción con IA | Consecuencia cognitiva |
+La persona y la IA aportan cosas distintas al trabajo conjunto: la IA propone variantes y
+señales; la persona conserva el juicio y el propósito. El recorrido —formular, contrastar,
+decidir y responder— gira alrededor de una pregunta: ¿quién comprueba y decide?
+
+| Decisión de la persona | Qué ocurre con la respuesta | Desenlace |
 |---|---|---|
-| Conserva la dirección epistémica | Formula, evalúa, descarta y reformula con criterio propio | **Ganancia cognitiva posible:** aumenta lo que puede explicar, relacionar o transferir después de la interacción |
-| Cede la dirección epistémica | Acepta sugerencias sin contrastar supuestos ni explicar decisiones | **Riesgo de descarga cognitiva:** la salida sustituye parte del trabajo intelectual que se buscaba aprender |
+| Comprueba la respuesta y toma la decisión. | Una objeción o un ejemplo inesperado obliga a revisar las propias ideas antes de aceptarla. | **La IA ayuda a pensar.** |
+| Acepta la respuesta sin revisar. | La respuesta se copia o se valida sin comprenderla ni comprobarla. | **La IA sustituye el pensamiento**, y la persona deja de practicar. |
+
+La decisión sigue siendo humana: conservarla convierte el trabajo conjunto en aprendizaje;
+cederla convierte la ayuda en sustitución.
 {{< /udgia-figure >}}
 
 Aquí, **ganancia cognitiva** significa que la interacción amplía lo que la persona puede
@@ -203,19 +214,19 @@ al propósito y a las condiciones reales.
 
 ## Cuatro preguntas para conservar la dirección
 
-Estas preguntas recorren los mismos cuatro movimientos de la guía y de la figura:
+Estas preguntas recorren las mismas cuatro acciones de la guía y de la figura:
 
-1. **Formular:** ¿qué problema intentaba resolver antes de pedir ayuda?
-2. **Evaluar:** ¿qué cambió y qué fuente, criterio o ejemplo permite comprobarlo?
-3. **Descartar o conservar:** ¿qué aporte no se sostiene y cuál conviene mantener o transformar?
-4. **Reformular:** ¿cómo quedará mi versión y por qué puedo responder por esa decisión?
+1. **Formular:** ¿qué intentaba comprender o producir antes de pedir ayuda, y con qué límites?
+2. **Contrastar:** ¿qué fuente, criterio o ejemplo —externo a la respuesta— permite comprobarla?
+3. **Decidir:** ¿qué aporte no se sostiene y cuál conviene conservar o transformar, por qué razón?
+4. **Responder:** ¿puedo reconstruir el recorrido y hacerme cargo de la versión final?
 
 ## De dónde viene este criterio
 
 [La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia del que proviene este criterio;
 todavía no es una norma institucional vigente. En esta página se vuelve una secuencia de
-acciones: distinguir qué aportó la herramienta, comprobar cómo influyó y conservar la
-responsabilidad por la decisión. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lo traduce en una comparación
+cuatro acciones —formular, contrastar, decidir y responder— que distingue qué aportó la
+herramienta, comprueba cómo influyó y conserva la responsabilidad por la decisión. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lo traduce en una comparación
 anotada y una conclusión revisada que hacen visible un cambio significativo sin delegar la
 explicación final.
 

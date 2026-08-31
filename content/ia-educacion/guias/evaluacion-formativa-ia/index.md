@@ -53,7 +53,7 @@ ecosistema:
     - tipo: requiere
       destino: pattern.direccion-epistemica
   reutilizacion: [orientaciones, hugo, moodle, curso-amplio]
-  accesibilidad: "El ciclo visual se explica paso a paso y los instrumentos se ofrecen como tablas y listas."
+  accesibilidad: "El ciclo visual se explica paso a paso y las maneras de conocer el recorrido se ofrecen como tablas y listas."
   responsable:
     rol: "Coordinación editorial IA-docencia"
     proxima_revision: 2026-10-27
@@ -103,20 +103,25 @@ flowchart TD
 
 El elemento crítico no es el comentario de la IA, sino lo que ocurre después. Cada ciclo debe declarar un **criterio**, producir una **acción posterior** —revisar, verificar, pedir ayuda o explicar una aceptación, modificación o descarte— y añadir una **comprobación** que permita reconocer si cambió la comprensión o el trabajo. La decisión documentada del estudiante puede aportar evidencia, pero debe leerse junto con el producto y el propósito de la actividad.
 
-## Cuatro instrumentos formativos con IA
+## Cuatro maneras de conocer cómo se llegó al resultado
+
+Cada actividad puede elegir una muestra distinta del recorrido; no hace falta usar las cuatro
+a la vez ni convertirlas en un expediente. Lo que comparten es el propósito: conocer una
+decisión y cómo se comprobó, en lugar de intentar adivinar si intervino una herramienta.
 
 {{< udgia-figure id="udgia-f09-instrumentos" src="instrumentos-evaluacion-proceso.svg" >}}
-Cuatro instrumentos complementarios convergen en la trazabilidad del trabajo:
+Las cuatro maneras convergen en comprender el recorrido: qué se preguntó, qué se descartó,
+qué se transformó y por qué:
 
-| Instrumento | Qué hace visible | Qué no demuestra por sí solo |
+| Manera de conocer | Qué permite comprender | Cómo se recoge sin vigilar |
 |---|---|---|
-| Portafolio iterativo | La evolución entre versiones y la incorporación de retroalimentación. | No explica por sí mismo la razón de cada cambio. |
-| Bitácora de decisiones | Criterios, verificaciones, descartes y responsabilidades. | No demuestra por sí sola la calidad integral del producto final. |
-| Defensa oral | La capacidad de explicar y sostener el trabajo sin depender de la IA. | No reconstruye por sí sola todo el recorrido entre versiones. |
-| Rúbricas asistidas | Retroalimentación apoyada por IA, con calificación bajo juicio docente. | No aporta evidencia concreta si no se acompaña de artefactos. |
+| Versiones sucesivas. | Comparar qué cambió y qué provocó el cambio. | Dos o tres cortes del trabajo bastan; no hace falta el historial completo. |
+| Nota sobre una decisión. | Qué se aceptó, corrigió o descartó, y por qué. | Un párrafo breve de la propia persona, dentro del trabajo o junto a él. |
+| Conversación sobre el trabajo. | La persona explica una elección y responde una pregunta. | Unos minutos de intercambio en clase o en tutoría. |
+| Criterios explícitos. | El grupo sabe qué se observará; el profesorado conserva el juicio. | Se comparten antes de la actividad, no después. |
 
-Una combinación proporcionada permite evaluar el juicio sin convertir la trazabilidad en
-vigilancia exhaustiva.
+Cada actividad puede elegir la muestra más pequeña que todavía ayude a interpretar el
+aprendizaje. Comprender una decisión aporta más que intentar detectar una herramienta.
 {{< /udgia-figure >}}
 
 ## Elige un paquete de evidencias proporcional
@@ -263,7 +268,7 @@ detector tampoco reconstruye qué aprendió la estudiante.
 ## Consejos pedagógicos
 
 {{< alert icon="lightbulb" type="info" >}}
-**Empieza con un solo ciclo.** Añade una oportunidad de retroalimentación a una tarea existente y comprueba si la revisión produce evidencia útil antes de ampliar el número de versiones o instrumentos.
+**Empieza con un solo ciclo.** Añade una oportunidad de retroalimentación a una tarea existente y comprueba si la revisión produce evidencia útil antes de ampliar el número de versiones o muestras.
 {{< /alert >}}
 
 {{< alert icon="lightbulb" type="info" >}}

@@ -10,10 +10,10 @@
     "circulation": "Los SVG se catalogan para reutilización en guías, prácticas, cards, materiales descargables y otros contextos compatibles sin duplicar la fuente canónica."
   },
   "baseline": {
-    "totalActivities": 12,
+    "totalActivities": 13,
     "integrated": 1,
     "temporaryDebt": 11,
-    "exceptions": 0,
+    "exceptions": 1,
     "note": "La deuda heredada solo puede disminuir. Una actividad nueva debe integrar una figura catalogada o registrar una excepción aprobada y justificada en el mismo cambio."
   },
   "activities": [
@@ -38,8 +38,8 @@
     {
       "path": "ia-educacion/guias/estudiantes/index.md",
       "status": "reuse-planned",
-      "figureId": "udgia-f18-cinco-movimientos",
-      "rationale": "El laboratorio estudiantil sigue el mismo recorrido de propósito, intento, ayuda delimitada, comprobación y decisión; debe reutilizar la fuente compartida."
+      "figureId": "udgia-f18-rutina-seis-pasos",
+      "rationale": "El laboratorio estudiantil sigue el mismo recorrido de posición inicial, apoyo delimitado, comprobación, decisión, comparación y explicación; debe reutilizar la rutina compartida de seis pasos."
     },
     {
       "path": "ia-educacion/guias/profesorado/index.md",
@@ -51,13 +51,20 @@
       "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
       "status": "reuse-planned",
       "figureId": "udgia-f05-cocreacion",
-      "rationale": "La bitácora documenta el ciclo de formular, evaluar, descartar y reformular; la figura de co-creación ya expresa ese proceso y evita una copia redundante."
+      "rationale": "La bitácora documenta el ciclo de formular, contrastar, decidir y responder; la figura de co-creación ya expresa ese proceso y evita una copia redundante."
+    },
+    {
+      "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
+      "status": "exception",
+      "justification": "La pieza es una plantilla copiable derivada del instrumento 02 de las Orientaciones: su contenido operativo es el bloque de declaración con ejemplo resuelto, y una figura duplicaría la tabla que la propia página ofrece (criterio P7 del proyecto).",
+      "approvedBy": "Rubén García (responsable del proyecto), Ola 2",
+      "approvedOn": "2026-08-30"
     },
     {
       "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
       "status": "reuse-planned",
-      "figureId": "udgia-f18-cinco-movimientos",
-      "rationale": "La práctica desarrolla especialmente el cuarto movimiento, pero gana claridad al conservar el recorrido completo y señalar dónde ocurre la comprobación decisiva."
+      "figureId": "udgia-f18-rutina-seis-pasos",
+      "rationale": "La práctica desarrolla especialmente el paso de comprobación, pero gana claridad al conservar la rutina completa de seis pasos y señalar dónde ocurre la comprobación decisiva."
     },
     {
       "path": "laboratorio/practicas/abp-con-ia/index.md",

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1628"/>
+      <stop offset="100%" stop-color="#101a33"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="48%" r="46%">
+      <stop offset="0%" stop-color="#7b93c5" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#7b93c5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ov" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1628" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0e1628" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#7b93c5" stroke-opacity="0.06" stroke-width="1">
+    <line x1="0" y1="157" x2="1200" y2="157"/><line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="472" x2="1200" y2="472"/><line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/><line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  <g fill="#34508c" fill-opacity="0.25" stroke="#5c7ab4" stroke-opacity="0.55" stroke-width="2.5">
+    <rect x="350" y="150" width="240" height="330" rx="8"/>
+    <rect x="640" y="150" width="240" height="330" rx="8"/>
+  </g>
+  <g stroke="#9db2d8" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round">
+    <line x1="380" y1="210" x2="560" y2="210"/><line x1="380" y1="243" x2="545" y2="243"/>
+    <line x1="380" y1="276" x2="560" y2="276"/><line x1="380" y1="309" x2="530" y2="309"/>
+    <line x1="670" y1="210" x2="850" y2="210"/><line x1="670" y1="243" x2="835" y2="243"/>
+    <line x1="670" y1="276" x2="850" y2="276"/><line x1="670" y1="309" x2="820" y2="309"/>
+  </g>
+  <rect x="370" y="420" width="200" height="26" rx="5" fill="#7b93c5" fill-opacity="0.5"/>
+  <g fill="#c3cfe9" fill-opacity="0.55">
+    <rect x="660" y="352" width="200" height="22" rx="5"/>
+    <rect x="660" y="386" width="200" height="22" rx="5"/>
+    <rect x="660" y="420" width="200" height="22" rx="5"/>
+  </g>
+  <g stroke="#c3cfe9" stroke-opacity="0.5" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M 470 520 h 260"/><polyline points="708,498 730,520 708,542"/>
+  </g>
+  <rect width="1200" height="630" fill="url(#ov)"/>
+</svg>

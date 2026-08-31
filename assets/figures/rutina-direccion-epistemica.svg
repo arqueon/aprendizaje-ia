@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 680" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Seis pasos para conservar las decisiones importantes</title>
+  <desc id="desc">La persona comienza con una posición propia, delimita la ayuda, comprueba una afirmación,
+    decide qué cambiar, compara sus versiones y explica el resultado. La misma práctica puede realizarse
+    con una respuesta de inteligencia artificial o con un caso preparado, fuentes o revisión humana.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Esquema de trabajo para revisión; no constituye dictamen ni política institucional.</metadata>
+  <style>
+    .fig-canvas { fill:#f5f3ee; }
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
+       ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
+       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+    @media (prefers-color-scheme: dark) {
+      .fig-canvas { fill:#131c31; }
+      .f-ink, .ink { fill:#eceee9; }
+      .f-muted, .muted { fill:#a7b0c4; }
+      .f-primary, .primary { fill:#8ba3d6; }
+      .f-good, .good { fill:#b9c47a; }
+      .f-risk, .risk { fill:#d98b8f; }
+      .bg-primary { fill:#243352; } .bg-good { fill:#2b331f; } .bg-risk { fill:#40222a; }
+      .bg-neutral { fill:#212d4c; } .bg-warn { fill:#3a2c17; }
+      .st-primary { stroke:#8ba3d6; } .st-good { stroke:#b9c47a; } .st-risk { stroke:#d98b8f; }
+      .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
+    }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" class="f-ink"/>
+    </marker>
+  </defs>
+  <rect class="fig-canvas" x="0" y="0" width="880" height="680"/>
+  <g class="tk-font">
+    <rect x="50" y="28" width="780" height="62" rx="3" class="bg-primary st-primary" stroke-width="1.6"/>
+    <text x="440" y="54" text-anchor="middle" font-size="18" font-weight="bold" class="f-primary">Seis pasos para comprender una decisión</text>
+    <text x="440" y="76" text-anchor="middle" font-size="12.5" class="f-ink">No busca acumular capturas: permite observar qué pensó, comprobó y decidió la persona</text>
+
+    <!-- fila superior -->
+    <rect x="50" y="125" width="230" height="130" rx="3" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <circle cx="78" cy="151" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="78" y="157" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">1</text>
+    <text x="165" y="154" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Posición inicial</text>
+    <text x="70" y="184" font-size="12" class="f-muted">¿Qué pienso antes de consultar?</text>
+    <text x="70" y="204" font-size="12" class="f-muted">¿Cómo voy a juzgar lo que reciba?</text>
+    <text x="70" y="232" font-size="11.5" font-weight="bold" class="f-good">Se conservan: la idea y el juicio propio</text>
+
+    <line x1="288" y1="190" x2="315" y2="190" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <rect x="325" y="125" width="230" height="130" rx="3" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <circle cx="353" cy="151" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="353" y="157" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">2</text>
+    <text x="440" y="154" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Delimitar el apoyo</text>
+    <text x="345" y="184" font-size="12" class="f-muted">¿Qué puede aportar la IA?</text>
+    <text x="345" y="204" font-size="12" class="f-muted">¿Qué decisión no delegaré?</text>
+    <text x="345" y="232" font-size="11.5" font-weight="bold" class="f-good">Se conserva: ayuda y límite</text>
+
+    <line x1="563" y1="190" x2="590" y2="190" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <rect x="600" y="125" width="230" height="130" rx="3" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <circle cx="628" cy="151" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="628" y="157" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">3</text>
+    <text x="715" y="154" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Comprobar</text>
+    <text x="620" y="184" font-size="12" class="f-muted">¿Qué afirmación es central?</text>
+    <text x="620" y="204" font-size="12" class="f-muted">¿Qué fuente original la sostiene?</text>
+    <text x="620" y="232" font-size="11.5" font-weight="bold" class="f-good">Se conserva: fuente y revisión</text>
+
+    <!-- conector de retorno -->
+    <path d="M 715 263 L 715 293 L 165 293 L 165 318" fill="none" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <!-- fila inferior -->
+    <rect x="50" y="328" width="230" height="130" rx="3" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <circle cx="78" cy="354" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="78" y="360" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">4</text>
+    <text x="165" y="357" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Decidir</text>
+    <text x="70" y="387" font-size="12" class="f-muted">¿Qué conservo, corrijo o descarto?</text>
+    <text x="70" y="407" font-size="12" class="f-muted">¿Qué razón sostiene la decisión?</text>
+    <text x="70" y="435" font-size="11.5" font-weight="bold" class="f-good">Se conserva: decisión explicada</text>
+
+    <line x1="288" y1="393" x2="315" y2="393" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <rect x="325" y="328" width="230" height="130" rx="3" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <circle cx="353" cy="354" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="353" y="360" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">5</text>
+    <text x="440" y="357" text-anchor="middle" font-size="15" font-weight="bold" class="f-ink">Comparar versiones</text>
+    <text x="345" y="387" font-size="12" class="f-muted">¿Qué cambió en mi razonamiento?</text>
+    <text x="345" y="407" font-size="12" class="f-muted">¿Qué permaneció y por qué?</text>
+    <text x="345" y="435" font-size="11.5" font-weight="bold" class="f-good">Se conserva: antes y después</text>
+
+    <line x1="563" y1="393" x2="590" y2="393" class="st-axis" stroke-width="1.8" marker-end="url(#arrow)"/>
+
+    <rect x="600" y="328" width="230" height="130" rx="3" class="bg-good st-good" stroke-width="1.6"/>
+    <circle cx="628" cy="354" r="17" class="bg-primary st-primary" stroke-width="1.4"/>
+    <text x="628" y="360" text-anchor="middle" font-size="15" font-weight="bold" class="f-primary">6</text>
+    <text x="715" y="357" text-anchor="middle" font-size="15" font-weight="bold" class="f-good">Responder</text>
+    <text x="620" y="387" font-size="12" class="f-muted">¿Qué apoyo recibí?</text>
+    <text x="620" y="407" font-size="12" class="f-muted">¿Qué comprobé y qué faltó?</text>
+    <text x="620" y="435" font-size="11.5" font-weight="bold" class="f-good">Se conserva: explicación final</text>
+
+    <!-- equivalencia -->
+    <rect x="50" y="500" width="780" height="142" rx="3" class="bg-warn st-risk" stroke-width="1.3"/>
+    <text x="440" y="528" text-anchor="middle" font-size="15" font-weight="bold" class="f-risk">Dos maneras de realizar el mismo aprendizaje</text>
+    <rect x="85" y="550" width="310" height="64" rx="3" class="bg-primary st-primary" stroke-width="1.2"/>
+    <text x="240" y="575" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-primary">Opción con IA</text>
+    <text x="240" y="597" text-anchor="middle" font-size="11.5" class="f-ink">Respuesta del sistema como objeto de contraste</text>
+    <rect x="485" y="550" width="310" height="64" rx="3" class="bg-good st-good" stroke-width="1.2"/>
+    <text x="640" y="575" text-anchor="middle" font-size="13.5" font-weight="bold" class="f-good">Opción sin IA</text>
+    <text x="640" y="597" text-anchor="middle" font-size="11.5" class="f-ink">Caso simulado, fuentes preparadas o revisión humana</text>
+  </g>
+</svg>

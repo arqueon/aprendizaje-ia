@@ -1,10 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 540" role="img" aria-labelledby="titulo desc">
-  <title id="titulo">Modelo conceptual de política por capas y gobernanza distribuida</title>
-  <desc id="desc">Cuatro capas apiladas que se concretan sucesivamente: principios institucionales,
-    políticas institucionales, guía disciplinar y expectativas de curso. A la derecha, llaves que
-    agrupan las capas en los tres niveles de la gobernanza distribuida: institucional, de programa
-    o centro universitario y de asignatura. Es un modelo conceptual y orientativo: no describe
-    normativa vigente ni distribuye competencias jurídicas.</desc>
+  <title id="titulo">De la institución al curso: qué puede aclarar cada ámbito</title>
+  <desc id="desc">Las decisiones generales de la institución necesitan explicarse con mayor detalle en los
+    programas y en cada curso. La institución puede acordar principios, herramientas y cuidados; los programas
+    los adaptan a su disciplina; y cada curso explica al grupo qué se espera. El esquema no representa normas vigentes.</desc>
   <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
   <style>
     .fig-canvas { fill:#f5f3ee; }
@@ -38,62 +36,61 @@
 
   <defs>
     <marker id="fC" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
-      <path d="M0,0 L6,3 L0,6 Z" fill="#18223c"/>
+      <path d="M0,0 L6,3 L0,6 Z" class="f-ink"/>
     </marker>
   </defs>
+
   <rect class="fig-canvas" x="0" y="0" width="880" height="540"/>
-
-
   <g class="tk-font">
     <!-- Capa 1 -->
     <rect x="70" y="40" width="560" height="78" rx="2" class="bg-primary st-primary" stroke-width="1.8"/>
-    <text x="95" y="66" font-size="16" font-weight="bold" class="f-primary">1 · Principios</text>
-    <text x="95" y="87" font-size="11.5" class="f-muted">Integridad del aprendizaje, responsabilidad humana,</text>
-    <text x="95" y="103" font-size="11.5" class="f-muted">transparencia, equidad, datos, autonomía</text>
+    <text x="95" y="66" font-size="16" font-weight="bold" class="f-primary">1 · Acuerdos generales</text>
+    <text x="95" y="87" font-size="11.5" class="f-muted">Qué aprendizaje se protege, cómo se cuida a las personas</text>
+    <text x="95" y="103" font-size="11.5" class="f-muted">y quién responde por las decisiones institucionales</text>
 
     <line x1="350" y1="118" x2="350" y2="138" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
 
     <!-- Capa 2 -->
     <rect x="100" y="144" width="530" height="78" rx="2" class="bg-neutral st-axis" stroke-width="1.5"/>
-    <text x="125" y="176" font-size="16" font-weight="bold" class="f-ink">2 · Políticas institucionales</text>
-    <text x="125" y="200" font-size="12" class="f-muted">Licenciamiento de herramientas, privacidad, marco de integridad</text>
+    <text x="125" y="176" font-size="16" font-weight="bold" class="f-ink">2 · Decisiones de la institución</text>
+    <text x="125" y="200" font-size="12" class="f-muted">Herramientas autorizadas, privacidad, apoyo y formas de revisión</text>
 
     <line x1="365" y1="222" x2="365" y2="242" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
 
     <!-- Capa 3 -->
     <rect x="130" y="248" width="500" height="78" rx="2" class="bg-warn st-warn" stroke-width="1.5"/>
-    <text x="155" y="280" font-size="16" font-weight="bold" class="f-ink">3 · Guía disciplinar</text>
-    <text x="155" y="304" font-size="12" class="f-muted">Programas y academias adaptan los lineamientos a cada campo</text>
+    <text x="155" y="280" font-size="16" font-weight="bold" class="f-ink">3 · Acuerdos del programa o disciplina</text>
+    <text x="155" y="304" font-size="12" class="f-muted">Las academias explican cómo se aplican los acuerdos en su campo</text>
 
     <line x1="380" y1="326" x2="380" y2="346" class="st-axis" stroke-width="1.6" marker-end="url(#fC)"/>
 
     <!-- Capa 4 -->
     <rect x="160" y="352" width="470" height="78" rx="2" class="bg-good st-good" stroke-width="1.5"/>
-    <text x="185" y="378" font-size="16" font-weight="bold" class="f-good">4 · Expectativas de curso</text>
-    <text x="185" y="399" font-size="11.5" class="f-muted">El syllabus fija qué se permite, qué se declara,</text>
-    <text x="185" y="415" font-size="11.5" class="f-muted">qué se excluye y cómo se evalúa</text>
+    <text x="185" y="378" font-size="16" font-weight="bold" class="f-good">4 · Explicación para cada curso</text>
+    <text x="185" y="399" font-size="11.5" class="f-muted">La actividad aclara qué puede hacer la IA, qué hará</text>
+    <text x="185" y="415" font-size="11.5" class="f-muted">la persona y cómo se revisará el aprendizaje</text>
 
-    <!-- Llaves de gobernanza distribuida -->
+    <!-- Ámbitos que pueden sostener las decisiones -->
     <path d="M 650 44 L 665 44 L 665 218 L 680 218" fill="none" class="st-axis" stroke-width="1.8" transform="translate(0,0)"/>
     <path d="M 650 218 L 665 218" fill="none" class="st-axis" stroke-width="1.8"/>
     <text x="690" y="118" font-size="13" font-weight="bold" class="f-ink">Nivel institucional</text>
-    <text x="690" y="136" font-size="11.5" class="f-muted">Principios, revisión,</text>
-    <text x="690" y="151" font-size="11.5" class="f-muted">licencias, privacidad</text>
+    <text x="690" y="136" font-size="11.5" class="f-muted">Acuerdos, herramientas,</text>
+    <text x="690" y="151" font-size="11.5" class="f-muted">privacidad y revisión</text>
 
     <path d="M 650 252 L 665 252 L 665 322 L 650 322" fill="none" class="st-axis" stroke-width="1.8"/>
     <text x="690" y="283" font-size="13" font-weight="bold" class="f-ink">Nivel de programa</text>
-    <text x="690" y="300" font-size="11.5" class="f-muted">Traducción disciplinar,</text>
-    <text x="690" y="315" font-size="11.5" class="f-muted">formación de su ámbito</text>
+    <text x="690" y="300" font-size="11.5" class="f-muted">Adaptación a la disciplina</text>
+    <text x="690" y="315" font-size="11.5" class="f-muted">y apoyo a su comunidad</text>
 
     <path d="M 650 356 L 665 356 L 665 426 L 650 426" fill="none" class="st-axis" stroke-width="1.8"/>
     <text x="690" y="387" font-size="13" font-weight="bold" class="f-ink">Nivel de asignatura</text>
-    <text x="690" y="402" font-size="11.5" class="f-muted">El docente decide</text>
-    <text x="690" y="417" font-size="11.5" class="f-muted">dentro de los criterios</text>
-    <text x="690" y="432" font-size="11.5" class="f-muted">del programa</text>
+    <text x="690" y="402" font-size="11.5" class="f-muted">La persona docente explica</text>
+    <text x="690" y="417" font-size="11.5" class="f-muted">la actividad dentro de los</text>
+    <text x="690" y="432" font-size="11.5" class="f-muted">acuerdos aplicables</text>
 
     <!-- Banda final -->
     <rect x="70" y="462" width="740" height="56" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
-    <text x="440" y="485" text-anchor="middle" font-size="13" font-weight="bold" class="f-primary">Modelo conceptual: cada capa concreta la anterior (§7.2)</text>
-    <text x="440" y="505" text-anchor="middle" font-size="11.5" class="f-primary">No establece normativa vigente ni distribuye competencias jurídicas</text>
+    <text x="440" y="485" text-anchor="middle" font-size="13" font-weight="bold" class="f-primary">Cada ámbito desarrolla con más detalle los acuerdos anteriores</text>
+    <text x="440" y="505" text-anchor="middle" font-size="11.5" class="f-primary">Es un ejemplo para conversar; no representa normas ni autoridades ya definidas</text>
   </g>
 </svg>

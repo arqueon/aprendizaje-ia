@@ -27,21 +27,19 @@ description: "Un análisis empírico sobre cómo la delegación estratégica de 
 
 La integración de la inteligencia artificial (IA) en entornos educativos ha generado preocupación respecto al fenómeno de la "descarga cognitiva". Este término refiere a la transferencia de trabajo mental hacia sistemas automatizados. Investigaciones iniciales apuntaron a que el uso frecuente de herramientas de IA correlacionaba con una reducción en la capacidad de pensamiento crítico, afectando principalmente a usuarios jóvenes (Gerlich, 2025). Estudios neurométricos confirmaron una menor participación neuronal en individuos que delegaban tareas de redacción a sistemas de IA, observando una posterior incapacidad para recordar la información producida (Kosmyna et al., 2025). 
 
-Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. La diferencia entre un efecto positivo o negativo depende enteramente de la asignación de la capacidad mental liberada.
+Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo depende de cómo se introduce la asistencia y de qué hace la persona con la capacidad mental liberada. Un experimento reciente permite observar ese contraste y su mitigación.
 
 {{< udgia-figure id="udgia-f04-disociacion" src="disociacion-desempeno-aprendizaje.svg" >}}
 El esquema compara dos condiciones:
 
-| Condición | Durante la práctica | Al retirar la IA |
+| Condición | Durante la práctica con IA | Al evaluar sin IA |
 |---|---|---|
-| Sin salvaguardas | La IA entrega soluciones y eleva el desempeño asistido. | El rendimiento cae por debajo del grupo que trabajó sin IA. |
-| Con salvaguardas | La IA dosifica pistas y conserva trabajo cognitivo en la persona. | El rendimiento regresa aproximadamente al nivel del grupo de control. |
+| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esfuerzo. |
+| Con pistas en lugar de soluciones | La asistencia dosifica pistas y el desempeño también sube. | La caída frente al grupo de control se mitiga: el andamiaje protege el aprendizaje. |
 
-Sin salvaguardas, la asistencia sustituyó el esfuerzo que debía producir aprendizaje.
-Con salvaguardas, el andamiaje mitigó la pérdida observada cuando la IA entregaba soluciones.
-
-Es un esquema conceptual: no representa una escala ni una medición única. Sintetiza el
-contraste entre asistencia irrestricta y asistencia diseñada pedagógicamente.
+La línea divisoria no es solo el modelo, es el método. Es un esquema ilustrativo: no
+representa una escala ni una medición única, sino el contraste que documenta la evidencia
+experimental presentada en este estudio.
 {{< /udgia-figure >}}
 
 El experimento sintetizado en el diagrama no prueba que toda asistencia produzca uno
