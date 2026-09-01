@@ -25,7 +25,7 @@ const routes = [{
   route: 'observatorio/estudios/paradoja-descarga-cognitiva/',
   id: 'udgia-f04-disociacion',
   mobileSvg: 'disociacion-desempeno-aprendizaje-mobile.svg',
-  fallbackRows: 2,
+  fallbackRows: 3,
 }, {
   route: 'ia-educacion/guias/agenciamiento-humano-ia/',
   id: 'udgia-f05-cocreacion',

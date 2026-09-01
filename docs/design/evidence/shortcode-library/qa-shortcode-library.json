@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "pass",
-  "startedAt": "2026-08-31T16:22:57.516Z",
-  "finishedAt": "2026-08-31T16:23:06.424Z",
+  "startedAt": "2026-09-01T00:27:35.998Z",
+  "finishedAt": "2026-09-01T00:27:45.024Z",
   "scope": "local-only-not-published-no-content-propagation",
   "static": {
     "manifest": "data/editorial/shortcode-library.json",
@@ -73,7 +73,7 @@
           "height": 900
         },
         "mode": "light",
-        "wallMs": 738,
+        "wallMs": 714,
         "screenshot": "desktop-light.webp",
         "screenshotBytes": 83462,
         "width": 1280,
@@ -130,7 +130,7 @@
           "height": 800
         },
         "mode": "dark",
-        "wallMs": 670,
+        "wallMs": 658,
         "screenshot": "mobile-dark.webp",
         "screenshotBytes": 75070,
         "width": 360,
@@ -187,7 +187,7 @@
           "height": 768
         },
         "mode": "light",
-        "wallMs": 657,
+        "wallMs": 660,
         "screenshot": "forced-colors.webp",
         "screenshotBytes": 87334,
         "width": 1024,
@@ -265,11 +265,11 @@
       "width": 1280,
       "scrollWidth": 1280,
       "screenshot": "print.webp",
-      "screenshotBytes": 68162
+      "screenshotBytes": 68154
     },
     "referencesRerender": {
       "status": "pass",
-      "wallMs": 503,
+      "wallMs": 502,
       "source": "temporary-copy"
     },
     "warnings": [
@@ -279,7 +279,7 @@
       "WARN  deprecated: .Site.LanguageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use .Site.Language.Locale instead."
     ],
     "unexpectedWarnings": [],
-    "serverOutputTail": "7646-4acc-8d32-23841f000748/scratchpad/wt-figura/layouts/{_default,_markup,partials,shortcodes}, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/wt-figura/package.json, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/wt-figura/static/{actividades,descargas,files,fonts,h5p,...}, /tmp/udgia-shortcodes-runtime-lXT3H8/content/componentes\nWatching for config changes in /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/wt-figura/hugo.toml, /tmp/claude-1000/-home-ruben-Nextcloud-Projects-ia-aprendizaje-ia/735edf40-7646-4acc-8d32-23841f000748/scratchpad/wt-figura/go.mod\nStart building sites … \nhugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │  12 \n Paginator pages  │   0 \n Non-page files   │   2 \n Static files     │ 812 \n Processed images │   0 \n Aliases          │   1 \n Cleaned          │   0 \n\nBuilt in 124 ms\nEnvironment: \"development\"\nServing pages from memory\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1) \nPress Ctrl+C to stop\n\nChange detected, rebuilding site (#1).\n2026-08-31 10:23:05.938 -0600\nSource changed /componentes/index.md\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1)\nTotal in 10 ms\n",
+    "serverOutputTail": "Watching for changes in /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/archetypes, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/assets/{css,figures,images}, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/data/{editorial,h5p}, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/layouts/{_default,_markup,partials,shortcodes}, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/package.json, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/static/{actividades,descargas,files,fonts,h5p,...}, /tmp/udgia-shortcodes-runtime-QADziJ/content/componentes\nWatching for config changes in /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/hugo.toml, /home/ruben/Nextcloud/Projects/ia/aprendizaje-ia/go.mod\nStart building sites … \nhugo v0.165.0-03c86a30507dca866afcb96eca0690438611913a+extended+withdeploy linux/amd64 BuildDate=2026-08-13T08:08:52Z\n\n\n                  │ EN  \n──────────────────┼─────\n Pages            │  12 \n Paginator pages  │   0 \n Non-page files   │   2 \n Static files     │ 812 \n Processed images │   0 \n Aliases          │   1 \n Cleaned          │   0 \n\nBuilt in 102 ms\nEnvironment: \"development\"\nServing pages from memory\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1) \nPress Ctrl+C to stop\n\nChange detected, rebuilding site (#1).\n2026-08-31 18:27:44.675 -0600\nSource changed /componentes/index.md\nWeb Server is available at http://127.0.0.1:42784/ (bind address 127.0.0.1)\nTotal in 22 ms\n",
     "summary": {
       "renders": 3,
       "keyboardChecks": 6,
