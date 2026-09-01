@@ -5,7 +5,7 @@
     "markdown": 200,
     "pages": 170,
     "sections": 30,
-    "words": 159648,
+    "words": 159674,
     "assets": 231,
     "content_assets": 227,
     "shared_figure_assets": 4,
@@ -117,7 +117,7 @@
     "observatorio": {
       "pages": 11,
       "sections": 4,
-      "words": 12601,
+      "words": 12627,
       "featured": 15,
       "svg": 5,
       "h5p": 0,
@@ -8556,7 +8556,7 @@
       "areas": [
         "ia"
       ],
-      "words": 1415,
+      "words": 1441,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 6,

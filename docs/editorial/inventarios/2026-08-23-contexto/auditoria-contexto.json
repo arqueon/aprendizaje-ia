@@ -11230,7 +11230,7 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1427,
+      "words": 1453,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -11254,7 +11254,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 35,
-            "text": "| Condición | Durante la práctica con IA | Al evaluar sin IA |"
+            "text": "| Grupo | Durante la práctica con IA | Al evaluar sin IA |"
           }
         },
         "material_inicial": {
@@ -11266,7 +11266,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 33,
-            "text": "El esquema compara dos condiciones:"
+            "text": "El esquema compara tres grupos:"
           }
         },
         "resultado": {
@@ -11274,14 +11274,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 37,
-            "text": "| Acceso sin orientación pedagógica | La IA entrega la solución y el desempeño sube muy por encima del grupo de control. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó el esf"
+            "text": "| Sin orientación pedagógica (la IA entrega la solución completa) | El desempeño sube por encima del grupo que practica sin IA. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 54,
+            "line": 55,
             "text": "El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes interactúan con la IA cuando la conceptualizan como un colaborador intelectual en lugar de una herramienta pasiva. Esta perspectiva, denominada \"orientación de asociaci"
           }
         },
@@ -11290,7 +11290,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
             "line": 33,
-            "text": "El esquema compara dos condiciones:"
+            "text": "El esquema compara tres grupos:"
           }
         }
       },

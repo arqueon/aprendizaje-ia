@@ -17,9 +17,9 @@
     "documents": 200,
     "pages": 170,
     "sections": 30,
-    "words": 159648,
+    "words": 159674,
     "assets": 231,
-    "assetBytes": 48675225,
+    "assetBytes": 48673324,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
@@ -23360,7 +23360,7 @@
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "kind": "page",
       "section": "observatorio",
-      "words": 1415,
+      "words": 1441,
       "metadata": {
         "description": true,
         "summary": true,
@@ -23380,9 +23380,9 @@
       },
       "narrative": {
         "status": "parcial",
-        "signalCount": 3,
+        "signalCount": 2,
         "flags": {
-          "entrada_reconocible": true,
+          "entrada_reconocible": false,
           "pregunta_motriz": false,
           "ejemplo_desarrollado": false,
           "contraste_o_limite": true,
