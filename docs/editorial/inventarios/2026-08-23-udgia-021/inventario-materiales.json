@@ -19,7 +19,7 @@
     "sections": 31,
     "words": 159877,
     "assets": 239,
-    "assetBytes": 48830113,
+    "assetBytes": 48829630,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
@@ -23578,7 +23578,7 @@
           "featured.webp"
         ],
         "svgAssets": 2,
-        "accessibleSVG": 0,
+        "accessibleSVG": 2,
         "inlineImages": 0,
         "missingAlt": 0,
         "governedFigureIDs": [],
