@@ -4060,15 +4060,15 @@
       "path": "content/formacion-docente/modelos-samr-icap/index.md",
       "title": "Dos preguntas distintas sobre una misma actividad",
       "role": "pagina",
-      "words": 1047,
+      "words": 1068,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/modelos-samr-icap/index.md",
-            "line": 53,
-            "text": "## El mismo caso produce diagnósticos diferentes"
+            "line": 51,
+            "text": "Las dos figuras usan el mismo caso a propósito y no se colocan como pisos de una escalera:"
           }
         },
         "quien": {
@@ -4091,7 +4091,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/modelos-samr-icap/index.md",
-            "line": 45,
+            "line": 47,
             "text": "lectura pasiva, una clasificación, una explicación constructiva o una colaboración real."
           }
         },
@@ -4115,7 +4115,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/modelos-samr-icap/index.md",
-            "line": 90,
+            "line": 93,
             "text": "La revisión crítica de Hamilton, Rosenberg y Akcaoglu advierte tres límites: SAMR suele omitir"
           }
         },

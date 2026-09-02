@@ -17,9 +17,9 @@
     "documents": 203,
     "pages": 172,
     "sections": 31,
-    "words": 159854,
-    "assets": 236,
-    "assetBytes": 48813292,
+    "words": 159877,
+    "assets": 239,
+    "assetBytes": 48830113,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
@@ -74,8 +74,8 @@
     },
     "byNarrativeStatus": {
       "debil": 74,
-      "parcial": 123,
-      "robusto-candidato": 6
+      "parcial": 122,
+      "robusto-candidato": 7
     },
     "byDidacticStatus": {
       "debil": 26,
@@ -124,19 +124,19 @@
   "assets": {
     "byExtension": {
       "png": 32,
-      "svg": 60,
+      "svg": 63,
       "webp": 144
     },
     "byDetectedFormat": {
       "jpeg": 26,
       "png": 7,
-      "svg": 60,
+      "svg": 63,
       "webp": 143
     },
     "byAspect": {
       "cuadrada": 82,
       "horizontal-16x9-o-social": 90,
-      "sin-dimensiones": 60,
+      "sin-dimensiones": 63,
       "vertical": 4
     },
     "animated": [
@@ -866,7 +866,7 @@
       "title": "Dos preguntas distintas sobre una misma actividad",
       "kind": "page",
       "section": "formacion-docente",
-      "words": 1027,
+      "words": 1050,
       "metadata": {
         "description": true,
         "summary": true,
@@ -886,23 +886,23 @@
         "reason": "ICAP es central, pero los ejemplos confunden colaboracion con interactividad y se afirma una correspondencia directa SAMR-Bloom."
       },
       "narrative": {
-        "status": "parcial",
-        "signalCount": 4,
+        "status": "robusto-candidato",
+        "signalCount": 5,
         "flags": {
           "entrada_reconocible": true,
           "pregunta_motriz": true,
           "ejemplo_desarrollado": true,
           "contraste_o_limite": true,
           "recapitulacion": false,
-          "transicion_explicita": false
+          "transicion_explicita": true
         }
       },
       "didactic": {
         "status": "robusto-candidato",
-        "signalCount": 7,
+        "signalCount": 8,
         "flags": {
           "audiencia_explicita": true,
-          "proposito_o_resultado": false,
+          "proposito_o_resultado": true,
           "accion_o_practica": true,
           "ejemplo_trabajado": true,
           "evidencia_o_producto": true,
@@ -993,14 +993,17 @@
         "status": "visual-explicativo-candidato",
         "featured": true,
         "localAssets": [
-          "dos-lentes-samr-icap.svg",
-          "featured.png"
+          "featured.png",
+          "icap-que-hizo-con-las-ideas-mobile.svg",
+          "icap-que-hizo-con-las-ideas.svg",
+          "samr-que-cambio-en-la-tarea-mobile.svg",
+          "samr-que-cambio-en-la-tarea.svg"
         ],
         "featuredCandidates": [
           "featured.png"
         ],
-        "svgAssets": 1,
-        "accessibleSVG": 1,
+        "svgAssets": 4,
+        "accessibleSVG": 4,
         "inlineImages": 0,
         "missingAlt": 0,
         "governedFigureIDs": [],

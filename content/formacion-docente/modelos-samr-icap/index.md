@@ -39,15 +39,18 @@ forma antes no viable o no comparable. Esa descripción no es una calificación 
 Un cambio pequeño puede ser suficiente; uno espectacular puede añadir carga sin mejorar el
 aprendizaje.
 
+{{< figura src="samr-que-cambio-en-la-tarea.svg" movil="samr-que-cambio-en-la-tarea-mobile.svg" caption="SAMR con un mismo caso, comentar un texto en clase, en cuatro peldaños: en cada uno se comprueba lo mismo, la tarea antes y después. Subir de peldaño no dice nada sobre lo que la persona hizo con las ideas." >}}
+
 El marco ICAP observa conductas relacionadas con el conocimiento: recibir información,
 manipular lo dado, generar una explicación propia o construir una comprensión en reciprocidad
 con otras personas. Tampoco califica la herramienta. La misma plataforma puede sostener una
 lectura pasiva, una clasificación, una explicación constructiva o una colaboración real.
 
-{{< figura src="dos-lentes-samr-icap.svg" caption="Dos lentes independientes sobre la misma actividad: SAMR pregunta qué cambió en la tarea; ICAP, qué produjo la persona con las ideas. Los párrafos anteriores describen ambas lentes por separado." >}}
+{{< figura src="icap-que-hizo-con-las-ideas.svg" movil="icap-que-hizo-con-las-ideas-mobile.svg" caption="ICAP con el mismo caso en sus cuatro modos (pasivo, activo, constructivo e interactivo), sin escalera: se reconocen por el producto visible. La misma herramienta sirve para las cuatro; si no hay producto, no se sabe qué hizo la persona con las ideas." >}}
 
-El diagrama evita colocar ambas lentes como pisos de una escalera. Sus categorías no se
-corresponden nivel por nivel. Cambiar mucho una tarea no garantiza una conducta cognitiva más
+Las dos figuras usan el mismo caso a propósito y no se colocan como pisos de una escalera:
+no hay correspondencia automática entre los peldaños de SAMR y las conductas de ICAP. Sus
+categorías no se corresponden nivel por nivel. Cambiar mucho una tarea no garantiza una conducta cognitiva más
 elaborada, y una explicación profunda puede ocurrir con medios sencillos.
 
 ## El mismo caso produce diagnósticos diferentes

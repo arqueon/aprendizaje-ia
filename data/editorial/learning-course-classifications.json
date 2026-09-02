@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "b859daf0f56ca2127d870e8f1156c2d15600906b88517e7a93c7f8e183f76fd6",
+  "sourceInventorySha256": "9d9ec6dbfd0ce65dcf218a1d195d7ef310bc0fa322f6e135bfa81390c5634d78",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "f5e806e9a4df9f35b687678663fa21eafd6f7bea2180464b1158d74d371c9577",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -683,7 +683,7 @@
       "route": "/formacion-docente/modelos-samr-icap/",
       "title": "Dos preguntas distintas sobre una misma actividad",
       "kind": "page",
-      "words": 1027,
+      "words": 1050,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
