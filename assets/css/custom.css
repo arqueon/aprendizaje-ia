@@ -1400,3 +1400,27 @@ html.dark .prose .alm-boton { color: var(--udg-c-paper); }
   .prose .alm-actividad__paso { break-inside: avoid; border-color: #999; }
   .prose .alm-actividad textarea, .prose .alm-actividad input[type="text"] { border-color: #999; }
 }
+
+/* ---------- Contrato de instrucción (2026-09-02) ----------
+   Cinco líneas al inicio de guías, prácticas y actividades: para quién, qué harás,
+   qué tendrás, cuánto tarda, dónde está el ejemplo. */
+.prose .alm-contrato {
+  border-left: 4px solid var(--udg-c-primary);
+  background: var(--udg-c-surface);
+  border-radius: 0 var(--alm-radius-md) var(--alm-radius-md) 0;
+  padding: var(--alm-space-md) var(--alm-inset-inline);
+  margin-block: var(--alm-space-lg) var(--alm-space-xl);
+}
+.prose .alm-contrato__lista { margin: 0; display: grid; gap: 0.45rem; }
+.prose .alm-contrato__lista > div { display: grid; grid-template-columns: 11rem 1fr; gap: 0.6rem; align-items: baseline; }
+@media (max-width: 47.999rem) { .prose .alm-contrato__lista > div { grid-template-columns: 1fr; gap: 0.1rem; } }
+.prose .alm-contrato dt {
+  font-family: var(--udg-c-font-label);
+  font-size: 0.78rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--udg-c-primary);
+}
+.prose .alm-contrato dd { margin: 0; color: var(--udg-c-ink); }
+.prose .alm-contrato dd p { margin: 0; }

@@ -1,0 +1,49 @@
+# Contrato de instrucción para guías, prácticas y actividades
+
+**Fecha:** 2026-09-02 · **Origen:** lectura humana de Rubén sobre las guías y actividades del
+piloto L1 («las instrucciones y la explicación son vagas y generales; no queda claro qué se debe
+hacer ni qué se obtiene»). · **Estado:** regla en prueba sobre cuatro páginas modelo; se extiende
+al resto tras el VoBo.
+
+## Diagnóstico
+
+Los textos estaban escritos desde el método, no desde la persona que los lee: hablaban de
+«propósito», «evidencia» o «alineación», y de lo que el problema *no* es, antes de decir qué va a
+hacer alguien y qué se lleva al final. La pauta de redacción pública comprensible ya lo prohíbe,
+pero ninguna guarda lo medía: `qa:direct-language` sólo revisaba cinco piezas y una lista corta de
+sustantivos.
+
+## La regla
+
+Toda guía, práctica o actividad empieza con el shortcode `contrato`, que obliga a cinco líneas:
+
+| Línea | Qué debe decir | Prueba de que está bien |
+|---|---|---|
+| Para quién | La persona y su situación, no un rol abstracto | Alguien puede decir «soy yo» o «no soy yo» |
+| Qué vas a hacer | Verbo concreto + objeto + con qué | Se puede empezar sin leer nada más |
+| Qué tendrás al terminar | La cosa, nombrada, con un ejemplo entre paréntesis | Se puede imaginar la hoja o el archivo final |
+| Cuánto tarda | Minutos, con y sin ejemplo | — |
+| Antes de pedirte nada | Dónde está el ejemplo resuelto | El ejemplo aparece ANTES del primer campo o paso |
+
+Y tres prohibiciones en todo el cuerpo:
+
+1. Ninguna frase del tipo «el problema no es…», «no se trata de…», «no es X ni Y»: se dice lo que
+   sí pasa, con el caso delante.
+2. Ningún sustantivo de marco (propósito, evidencia, alineación, criterio, artefacto, insumo,
+   consigna, huella) sin su ejemplo en la misma oración.
+3. Ningún párrafo que no responda a «¿y yo qué hago con esto?». Si sólo explica el método, se
+   corta o se convierte en un paso.
+
+## Cómo se verifica
+
+`qa:direct-language` comprueba, en las páginas gobernadas: que el shortcode `contrato` esté
+presente y antes del primer encabezado de segundo nivel; que las cinco líneas existan y la tercera
+contenga un ejemplo (paréntesis o comillas); que no aparezcan las negaciones prohibidas; y que los
+sustantivos de marco no aparezcan sin ejemplo. La lista de páginas gobernadas crece por lotes:
+primero las cuatro modelo (guía y actividad de estudiantes, guía y actividad de profesorado),
+después el resto de guías, prácticas y actividades.
+
+## Páginas modelo (lote 0, para VoBo)
+
+- `content/ia-educacion/guias/estudiantes/index.md` y `layouts/shortcodes/actividad-b2.html`
+- `content/ia-educacion/guias/profesorado/index.md` y `layouts/shortcodes/actividad-m6.html`

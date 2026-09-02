@@ -3,14 +3,14 @@
        voluntario en el dispositivo. Ficha: docs/editorial/UDGIA-023-ficha-reescritura-b2-m6.md */ -}}
 <div class="alm-actividad alm-componente" data-udgia-component="actividad" data-actividad="b2" id="actividad-b2">
 
-<p class="alm-actividad__promesa">Pega un párrafo tuyo y dos cambios que te propusieron (una IA, un compañero, tu profesora). Sales con el párrafo revisado y una razón por cada cambio. Tarda entre diez y veinte minutos. No califica ni envía nada.</p>
+{{ partial "udgia/contrato.html" (dict "quien" `Estudiantes con un texto propio y dos cambios propuestos por una IA, por un compañero o por quien imparte la materia.` "haras" `Con cada cambio respondes una sola pregunta (si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir?) y eliges: lo acepto, lo cambio o lo dejo pendiente. Luego escribes tu párrafo revisado.` "tendras" `Una hoja con tu párrafo original, tu párrafo revisado y dos líneas de decisión (por ejemplo: «Cambio 1: lo cambié porque quitaba la fecha y el lugar»). La puedes imprimir, entregar o enseñar a quien te propuso los cambios. Nada se califica ni se envía.` "tarda" `Cinco a diez minutos con el ejemplo; quince a veinticinco con tu texto.` "ejemplo" `Primero verás el caso de Renata ya resuelto; después harás lo mismo con tu texto.`) }}
 
 <section class="alm-actividad__paso" aria-labelledby="b2-p1">
 <span class="alm-kicker">Primero · Mira el ejemplo</span>
-<h2 id="b2-p1">El párrafo de Renata y los dos cambios que le propusieron</h2>
+<h2 id="b2-p1">Así lo resolvió Renata con su párrafo</h2>
 <p>Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Este es su párrafo:</p>
 <blockquote class="alm-actividad__texto">La muestra tomada junto al puente no superó el límite permitido. Este resultado describe ese punto y ese día; no alcanza para afirmar que todo el arroyo sea seguro.</blockquote>
-<p>Pidió a una IA que le señalara una conclusión posible y un dato por comprobar. Recibió dos cambios. Así los decidió:</p>
+<p>Pidió a una IA que le señalara una conclusión posible y un dato por comprobar. Recibió dos cambios. Con cada uno se hizo la misma pregunta: <strong>si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir?</strong> Así decidió:</p>
 <div class="alm-actividad__tarjetas">
   <article class="alm-actividad__tarjeta">
     <span class="alm-actividad__etiqueta">Cambio 1</span>
@@ -25,14 +25,14 @@
     <p class="alm-actividad__razon">Tengo que ver en el registro de campo si llovió. Hasta entonces no cambio nada.</p>
   </article>
 </div>
-<p>Fíjate en la pregunta que Renata se hizo con cada cambio: <strong>si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir?</strong> Con eso basta para decidir.</p>
+<p>Su hoja final tiene el párrafo original, el párrafo revisado (el mismo, más corto) y dos líneas: «Cambio 1: lo cambié porque quitaba el lugar y la fecha. Cambio 2: pendiente, tengo que ver si llovió». Eso es exactamente lo que vas a producir tú en los dos pasos siguientes.</p>
 </section>
 
 <form class="alm-actividad__formulario" id="b2-form" autocomplete="off">
 <section class="alm-actividad__paso" aria-labelledby="b2-p2">
 <span class="alm-kicker">Segundo · Ahora el tuyo</span>
-<h2 id="b2-p2">Tu párrafo y los dos cambios que te propusieron</h2>
-<p class="alm-actividad__ayuda">¿Prefieres practicar primero con el caso de Renata? <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de Renata</button></p>
+<h2 id="b2-p2">Pega tu párrafo y decide con cada cambio</h2>
+<p class="alm-actividad__ayuda">Si no tienes un texto a la mano, practica con el caso de Renata: <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de Renata</button></p>
 
 <div class="alm-campo">
   <label for="b2-parrafo">Tu párrafo</label>
@@ -66,8 +66,8 @@
 
 <section class="alm-actividad__paso" aria-labelledby="b2-p3">
 <span class="alm-kicker">Tercero · Tu párrafo revisado</span>
-<h2 id="b2-p3">Escribe la versión que conservas</h2>
-<p>Aplica lo que decidiste. Si dejaste algo pendiente, escribe el párrafo como está y anota qué vas a comprobar.</p>
+<h2 id="b2-p3">Escribe tu párrafo revisado y mira tu nota de decisión</h2>
+<p>Copia tu párrafo y cambia sólo lo que decidiste cambiar. Si dejaste un cambio pendiente, deja el párrafo como estaba en esa parte: la nota de abajo ya dice qué vas a comprobar.</p>
 <div class="alm-campo">
   <label for="b2-revisado">Párrafo revisado</label>
   <textarea id="b2-revisado" name="revisado" rows="4" placeholder="Empieza copiando tu párrafo y cambia sólo lo que decidiste cambiar."></textarea>
@@ -79,7 +79,7 @@
     <li data-nota="1">Cambio 1: <em>sin decidir todavía.</em></li>
     <li data-nota="2">Cambio 2: <em>sin decidir todavía.</em></li>
   </ol>
-  <p class="alm-actividad__ayuda">Esta nota es lo que puedes entregar junto con el texto, o enseñar a quien te propuso los cambios.</p>
+  <p class="alm-actividad__ayuda">Estas dos líneas se escriben solas con lo que marcaste arriba. Junto con tu párrafo revisado, son la hoja que entregas o enseñas a quien te propuso los cambios.</p>
 </div>
 <div class="alm-actividad__acciones">
   <button type="button" class="alm-boton" data-accion="imprimir">Imprimir o guardar como PDF</button>

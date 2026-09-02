@@ -124,7 +124,7 @@
     },
     {
       "path": "content/actividades/comparar-sugerencias/index.md",
-      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "title": "Decide qué hacer con dos cambios que te proponen a tu texto",
       "role": "pagina",
       "words": 0,
       "dependencies": [],
@@ -186,7 +186,7 @@
     },
     {
       "path": "content/actividades/revisar-actividad/index.md",
-      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "title": "Revisa una actividad tuya en tres frases: lo que pides, lo que practican, lo que entregan",
       "role": "pagina",
       "words": 70,
       "dependencies": [],
@@ -5955,9 +5955,9 @@
     },
     {
       "path": "content/ia-educacion/guias/estudiantes/index.md",
-      "title": "Laboratorio guiado para decidir antes de entregar",
+      "title": "Antes de entregar: decide qué hacer con los cambios que te proponen",
       "role": "guia",
-      "words": 313,
+      "words": 514,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5965,68 +5965,64 @@
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
             "line": 41,
-            "text": "permite la evidencia. Este laboratorio te ayuda a decidir antes de entregar. Puedes recorrer el"
+            "text": "## El caso de Renata, ya resuelto"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 66,
-            "text": "sugerencias preparadas por una persona o tomadas de dos versiones anteriores. Con un texto propio"
+            "line": 56,
+            "text": "1. **Pega tu párrafo** tal como lo tienes ahora. Si quieres, anota quién te propuso los cambios (una IA, una compañera, tu profesor)."
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 41,
-            "text": "permite la evidencia. Este laboratorio te ayuda a decidir antes de entregar. Puedes recorrer el"
+            "line": 50,
+            "text": "2. **«Aclara si llovió antes del muestreo, porque la lluvia pudo cambiar la concentración».** Ese cambio no toca lo que Renata quería decir, pero le pide un dato que no tiene a la mano. **Decisión: lo dejo pendiente** hasta ver el registro "
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 42,
-            "text": "ejemplo en 5–10 minutos o trabajar con un texto propio en aproximadamente 25–35 minutos."
+            "line": 41,
+            "text": "## El caso de Renata, ya resuelto"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 51,
-            "text": "La actividad no decide por Renata. Con cada cambio se hace una sola pregunta: si lo acepto, ¿mi"
+            "line": 43,
+            "text": "Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Su párrafo dice:"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 55,
-            "text": "## Qué obtendrás"
+            "line": 43,
+            "text": "Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Su párrafo dice:"
           }
         },
         "comprobacion": {
+          "present": false,
+          "evidence": null
+        },
+        "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 57,
-            "text": "Al terminar tendrás un fragmento antes y después de la revisión y dos notas breves de decisión. El"
-          }
-        },
-        "lenguaje_directo": {
-          "present": false,
-          "evidence": {
-            "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 40,
-            "text": "Una sugerencia puede sonar bien y aun así alejar tu trabajo del propósito o afirmar más de lo que"
+            "line": 43,
+            "text": "Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Su párrafo dice:"
           }
         }
       },
       "missing_expected_signals": [
-        "lenguaje_directo"
+        "comprobacion"
       ],
       "risk_flags": [],
       "automatic_priority": "baja",
@@ -6458,64 +6454,64 @@
     },
     {
       "path": "content/ia-educacion/guias/profesorado/index.md",
-      "title": "Diseñar actividades y observar el aprendizaje",
+      "title": "Revisa una actividad tuya: lo que pides, lo que practican y lo que entregan",
       "role": "guia",
-      "words": 826,
+      "words": 877,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 42,
-            "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
+            "line": 43,
+            "text": "## El caso de una docente, ya resuelto"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 42,
-            "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
+            "line": 43,
+            "text": "## El caso de una docente, ya resuelto"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 42,
-            "text": "Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herram"
+            "line": 45,
+            "text": "Una docente de primer semestre quiere que su grupo **compare dos fuentes y diga cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple: «¿Cuál fuente es mejor?»."
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 45,
-            "text": "## Un caso reconocible"
+            "line": 43,
+            "text": "## El caso de una docente, ya resuelto"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 47,
-            "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
+            "line": 45,
+            "text": "Una docente de primer semestre quiere que su grupo **compare dos fuentes y diga cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple: «¿Cuál fuente es mejor?»."
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 47,
-            "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
+            "line": 45,
+            "text": "Una docente de primer semestre quiere que su grupo **compare dos fuentes y diga cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple: «¿Cuál fuente es mejor?»."
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 69,
+            "line": 67,
             "text": "5. **Limita la ayuda.** ¿Qué apoyo puede recibir sin dejar que otra persona o herramienta haga la parte que quieres observar?"
           }
         },
@@ -6523,8 +6519,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/profesorado/index.md",
-            "line": 47,
-            "text": "Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple."
+            "line": 45,
+            "text": "Una docente de primer semestre quiere que su grupo **compare dos fuentes y diga cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple: «¿Cuál fuente es mejor?»."
           }
         }
       },

@@ -4,11 +4,11 @@
        el guardado voluntario. Ficha: docs/editorial/UDGIA-023-ficha-reescritura-b2-m6.md */ -}}
 <div class="alm-actividad alm-componente" data-udgia-component="actividad" data-actividad="m6" id="actividad-m6">
 
-<p class="alm-actividad__promesa">Describes una actividad tuya en tres frases y ves en qué punto se rompe: pides una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita. Tarda unos doce minutos. No califica ni envía nada.</p>
+{{ partial "udgia/contrato.html" (dict "quien" `Profesorado con una actividad ya en uso que quiere comprobar si el grupo hace de verdad lo que la actividad anuncia.` "haras" `Escribes tu actividad en tres frases (qué pides, qué practican, qué entregan), lees las tres seguidas y marcas cuál no encaja con las otras dos. La herramienta no interpreta tu texto: la decisión es tuya. Después reescribes la instrucción.` "tendras" `Tu instrucción reescrita con su antes, su después y una razón de una línea (por ejemplo: «Antes: elige cuál fuente es mejor. Después: escribe cinco líneas que citen las dos fuentes y digan cuál sostiene mejor la afirmación. Razón: con una opción marcada no veo si compararon»). Se puede imprimir; nada se califica ni se envía.` "tarda" `Unos doce minutos con una actividad tuya; cinco si sólo recorres el caso.` "ejemplo" `Primero verás el caso de una docente ya resuelto, en tres tarjetas; después harás lo mismo con tu actividad.`) }}
 
 <section class="alm-actividad__paso" aria-labelledby="m6-p1">
 <span class="alm-kicker">Primero · Mira el ejemplo</span>
-<h2 id="m6-p1">Una docente prepara la clase de la semana próxima</h2>
+<h2 id="m6-p1">Así lo resolvió una docente con su actividad</h2>
 <p>Quiere que su grupo de primer semestre compare dos fuentes sobre un problema de agua. La instrucción que tenía escrita decía: <q>Lee dos resúmenes y elige cuál fuente es mejor. Puedes usar IA para ayudarte</q>. Puesta en tres frases, la actividad se ve así:</p>
 <div class="alm-actividad__tarjetas alm-actividad__tarjetas--tres">
   <article class="alm-actividad__tarjeta">
@@ -32,8 +32,9 @@
 <form class="alm-actividad__formulario" id="m6-form" autocomplete="off">
 <section class="alm-actividad__paso" aria-labelledby="m6-p2">
 <span class="alm-kicker">Segundo · Ahora la tuya</span>
-<h2 id="m6-p2">Tu actividad en tres frases</h2>
-<p class="alm-actividad__ayuda">¿Prefieres ver cómo se llena? <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de las dos fuentes</button></p>
+<h2 id="m6-p2">Escribe tu actividad en tres frases y marca dónde se rompe</h2>
+<p>Escribe en cada caja lo que pasa de verdad en tu actividad, no lo que te gustaría que pasara. Si dudas, empieza por «Entregan»: es lo único que puedes mirar.</p>
+<p class="alm-actividad__ayuda">Si prefieres ver una llena antes: <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de las dos fuentes</button></p>
 <div class="alm-campo">
   <label for="m6-pido">Pido: ¿qué quieres que aprendan a hacer?</label>
   <textarea id="m6-pido" name="pido" rows="2" placeholder="Escríbelo como algo que podrías ver en un trabajo. Por ejemplo: que comparen dos fuentes y expliquen cuál sostiene mejor la afirmación."></textarea>
@@ -71,7 +72,8 @@
 
 <section class="alm-actividad__paso" aria-labelledby="m6-p3">
 <span class="alm-kicker">Tercero · Un cambio para probar</span>
-<h2 id="m6-p3">Reescribe la instrucción</h2>
+<h2 id="m6-p3">Reescribe la instrucción con el cambio que te sugiere tu ruptura</h2>
+<p>Abre la sugerencia que corresponde a la frase que marcaste (si usaste el guion, ya está abierta) y escribe la instrucción nueva tal como la leerá el grupo. Tu frase de «Pido» aparece como el antes.</p>
 <div class="alm-actividad__sugerencias" id="m6-sugerencias">
   <details class="alm-actividad__sugerencia" data-sugerencia="pido"><summary>Si lo que no encaja es <strong>Pido</strong></summary><p>Escribe lo que pides como algo que podrías ver en la entrega. «Que entiendan» o «que reflexionen» no se ve; «que comparen y digan cuál sostiene mejor la afirmación» sí.</p></details>
   <details class="alm-actividad__sugerencia" data-sugerencia="practican"><summary>Si lo que no encaja es <strong>Practican</strong></summary><p>Haz que practiquen exactamente lo que van a entregar, aunque sea en pequeño: si van a entregar una comparación, que comparen dos frases en clase antes.</p></details>
