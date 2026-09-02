@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">ICAP: qué hizo la persona con las ideas, con el mismo caso en sus cuatro modos</title>
+  <desc id="desc">El mismo caso, comentar un texto en clase, visto desde lo que hace la persona con las ideas, en los cuatro modos de ICAP en tarjetas iguales sin escalera ni flechas. Pasivo, recibe: lee los comentarios de otros; producto visible, ninguno o un recuerdo. Activo, ordena: clasifica los comentarios por tema; producto visible, una lista o un esquema. Constructivo, genera: escribe una objeción propia con su razón; producto visible, una idea que no estaba en el texto. Interactivo, construye con otros: responde a un comentario ajeno y llegan a una versión común; producto visible, una explicación que ninguno tenía antes. Debajo, la advertencia: la misma herramienta sirve para las cuatro conductas; lo que las distingue es el producto.</desc>
+  <style>
+    .fig-canvas{fill:var(--udg-c-surface-alt,#ece9e1)}
+    .paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5}
+    .ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}
+    .good{fill:var(--udg-c-good,#536326)}.good-tint{fill:var(--udg-c-good-tint,#eceddc)}
+    .st-line{fill:none;stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5;stroke-dasharray:4 5}
+    .t1{font:600 26px Newsreader,Georgia,serif}.t2{font:700 14px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.4px}
+    .t3{font:600 15.5px Newsreader,Georgia,serif}.body{font:400 15px Inter,Arial,sans-serif}.small{font:600 13px Inter,Arial,sans-serif}
+  </style>
+  <rect class="fig-canvas" width="960" height="470"/>
+  <text class="ink t1" x="480" y="44" text-anchor="middle">ICAP pregunta qué hizo la persona con las ideas</text>
+  <text class="muted body" x="480" y="70" text-anchor="middle">El mismo caso, comentar un texto en clase, en los cuatro modos de ICAP. No es una escalera: se reconocen por el producto.</text>
+
+  <g transform="translate(40 110)">
+    <rect class="paper" width="210" height="240" rx="10"/>
+    <rect class="good-tint" x="0" y="0" width="210" height="34" rx="10"/><rect class="good-tint" x="0" y="20" width="210" height="14"/>
+    <text class="good t2" x="14" y="23">P · PASIVO</text>
+    <text class="ink t3" x="14" y="62">Recibe: lee los</text>
+    <text class="ink t3" x="14" y="82">comentarios de otros.</text>
+    <text class="muted small" x="14" y="150">PRODUCTO VISIBLE</text>
+    <text class="ink body" x="14" y="174">Ninguno, o lo que</text>
+    <text class="ink body" x="14" y="194">recuerda después.</text>
+  </g>
+  <g transform="translate(265 110)">
+    <rect class="paper" width="210" height="240" rx="10"/>
+    <rect class="good-tint" x="0" y="0" width="210" height="34" rx="10"/><rect class="good-tint" x="0" y="20" width="210" height="14"/>
+    <text class="good t2" x="14" y="23">A · ACTIVO</text>
+    <text class="ink t3" x="14" y="62">Ordena: clasifica los</text>
+    <text class="ink t3" x="14" y="82">comentarios por tema.</text>
+    <text class="muted small" x="14" y="150">PRODUCTO VISIBLE</text>
+    <text class="ink body" x="14" y="174">Una lista o un esquema</text>
+    <text class="ink body" x="14" y="194">con lo que ya estaba.</text>
+  </g>
+  <g transform="translate(490 110)">
+    <rect class="paper" width="210" height="240" rx="10"/>
+    <rect class="good-tint" x="0" y="0" width="210" height="34" rx="10"/><rect class="good-tint" x="0" y="20" width="210" height="14"/>
+    <text class="good t2" x="14" y="23">C · CONSTRUCTIVO</text>
+    <text class="ink t3" x="14" y="62">Genera: escribe una</text>
+    <text class="ink t3" x="14" y="82">objeción propia</text>
+    <text class="ink t3" x="14" y="102">con su razón.</text>
+    <text class="muted small" x="14" y="150">PRODUCTO VISIBLE</text>
+    <text class="ink body" x="14" y="174">Una idea que no estaba</text>
+    <text class="ink body" x="14" y="194">en el texto ni en</text>
+    <text class="ink body" x="14" y="214">los comentarios.</text>
+  </g>
+  <g transform="translate(715 110)">
+    <rect class="paper" width="210" height="240" rx="10"/>
+    <rect class="good-tint" x="0" y="0" width="210" height="34" rx="10"/><rect class="good-tint" x="0" y="20" width="210" height="14"/>
+    <text class="good t2" x="14" y="23">I · INTERACTIVO</text>
+    <text class="ink t3" x="14" y="62">Construye con otros:</text>
+    <text class="ink t3" x="14" y="82">responde a otro y</text>
+    <text class="ink t3" x="14" y="102">llegan a una versión</text>
+    <text class="ink t3" x="14" y="122">común.</text>
+    <text class="muted small" x="14" y="150">PRODUCTO VISIBLE</text>
+    <text class="ink body" x="14" y="174">Una explicación que</text>
+    <text class="ink body" x="14" y="194">ninguno de los dos</text>
+    <text class="ink body" x="14" y="214">tenía antes.</text>
+  </g>
+  <path class="st-line" d="M40 385h885"/>
+  <text class="good small" x="40" y="415">EVIDENCIA · la misma herramienta (el documento compartido) sirve para los cuatro modos.</text>
+  <text class="muted body" x="40" y="441">Lo que las distingue es el producto: si no hay producto, no se puede saber qué hizo la persona con las ideas.</text>
+</svg>

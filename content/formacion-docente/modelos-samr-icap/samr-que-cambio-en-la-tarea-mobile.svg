@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 900" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">SAMR: qué cambió en la tarea, con un mismo caso en cuatro peldaños</title>
+  <desc id="desc">Versión vertical. El caso de comentar un texto en clase recorre cuatro peldaños: sustituir (el comentario se escribe en un documento; la tarea es la misma), aumentar (el documento es compartido y el comentario recibe respuestas), modificar (dos equipos comentan el mismo texto y se responden en tiempo real) y redefinir (lectores de otra universidad discuten los comentarios en un foro; la tarea no existía sin la red). En cada peldaño se comprueba lo mismo: comparar la tarea antes y después.</desc>
+  <style>
+    .fig-canvas{fill:var(--udg-c-surface-alt,#ece9e1)}
+    .paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5}
+    .ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}
+    .primary{fill:var(--udg-c-primary,#34508c)}.primary-tint{fill:var(--udg-c-primary-tint,#e7ecf7)}
+    .st-line{fill:none;stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5;stroke-dasharray:4 5}
+    .t1{font:600 21px Newsreader,Georgia,serif}.t2{font:700 13px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.2px}
+    .t3{font:600 15px Newsreader,Georgia,serif}.body{font:400 14px Inter,Arial,sans-serif}.small{font:600 12.5px Inter,Arial,sans-serif}
+  </style>
+  <rect class="fig-canvas" width="420" height="900"/>
+  <text class="ink t1" x="210" y="36" text-anchor="middle">SAMR: qué cambió en la tarea</text>
+  <text class="muted body" x="210" y="58" text-anchor="middle">Un mismo caso: comentar un texto en clase.</text>
+  <g transform="translate(24 80)">
+    <rect class="paper" width="372" height="120" rx="9"/><rect class="primary-tint" width="372" height="30" rx="9"/><rect class="primary-tint" y="18" width="372" height="12"/>
+    <text class="primary t2" x="14" y="20">S · SUSTITUIR</text>
+    <text class="ink t3" x="14" y="56">El comentario se escribe en un documento.</text>
+    <text class="muted body" x="14" y="82">Antes: en papel.</text>
+    <text class="muted body" x="14" y="102">La tarea es la misma.</text>
+  </g>
+  <g transform="translate(24 214)">
+    <rect class="paper" width="372" height="140" rx="9"/><rect class="primary-tint" width="372" height="30" rx="9"/><rect class="primary-tint" y="18" width="372" height="12"/>
+    <text class="primary t2" x="14" y="20">A · AUMENTAR</text>
+    <text class="ink t3" x="14" y="56">El documento es compartido y el</text>
+    <text class="ink t3" x="14" y="76">comentario recibe respuestas.</text>
+    <text class="muted body" x="14" y="102">Antes: nadie respondía.</text>
+    <text class="muted body" x="14" y="122">La tarea gana una función.</text>
+  </g>
+  <g transform="translate(24 368)">
+    <rect class="paper" width="372" height="160" rx="9"/><rect class="primary-tint" width="372" height="30" rx="9"/><rect class="primary-tint" y="18" width="372" height="12"/>
+    <text class="primary t2" x="14" y="20">M · MODIFICAR</text>
+    <text class="ink t3" x="14" y="56">Dos equipos comentan el mismo texto</text>
+    <text class="ink t3" x="14" y="76">y se responden en tiempo real.</text>
+    <text class="muted body" x="14" y="102">Antes: cada quien comentaba por separado.</text>
+    <text class="muted body" x="14" y="122">La tarea cambia de forma:</text>
+    <text class="muted body" x="14" y="142">ahora hay que responder.</text>
+  </g>
+  <g transform="translate(24 542)">
+    <rect class="paper" width="372" height="160" rx="9"/><rect class="primary-tint" width="372" height="30" rx="9"/><rect class="primary-tint" y="18" width="372" height="12"/>
+    <text class="primary t2" x="14" y="20">R · REDEFINIR</text>
+    <text class="ink t3" x="14" y="56">Lectores de otra universidad discuten</text>
+    <text class="ink t3" x="14" y="76">los comentarios en un foro.</text>
+    <text class="muted body" x="14" y="102">Antes: no existía una tarea así.</text>
+    <text class="muted body" x="14" y="122">La tarea no era posible</text>
+    <text class="muted body" x="14" y="142">sin la red.</text>
+  </g>
+  <path class="st-line" d="M24 730h372"/>
+  <text class="primary small" x="24" y="760">EVIDENCIA · en cada peldaño se comprueba lo mismo:</text>
+  <text class="primary small" x="24" y="778">compara la tarea antes y después.</text>
+  <text class="muted body" x="24" y="810">Subir de peldaño no dice nada sobre lo que la</text>
+  <text class="muted body" x="24" y="830">persona hizo con las ideas: para eso está ICAP.</text>
+</svg>
