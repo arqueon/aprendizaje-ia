@@ -18,10 +18,10 @@
     "pages": 172,
     "sections": 31,
     "words": 159877,
-    "assets": 239,
-    "assetBytes": 38279306,
-    "exactDuplicateAssetGroups": 4,
-    "exactDuplicateAssetFiles": 19,
+    "assets": 238,
+    "assetBytes": 26524885,
+    "exactDuplicateAssetGroups": 2,
+    "exactDuplicateAssetFiles": 15,
     "h5pCatalogEntries": 39,
     "curricularH5PEntries": 38,
     "governedFigures": 12,
@@ -30,9 +30,9 @@
     "pagesWithExplicitOrientationReference": 0,
     "pagesWithExplicitGuideReference": 0,
     "pagesWithNoCrossSectionLinks": 81,
-    "pagesWithMultipleFeaturedCandidates": 1,
-    "animatedAssets": 1,
-    "extensionFormatMismatches": 15
+    "pagesWithMultipleFeaturedCandidates": 0,
+    "animatedAssets": 0,
+    "extensionFormatMismatches": 6
   },
   "distribution": {
     "bySection": {
@@ -99,9 +99,8 @@
       "evaluar-si-necesita-portada": 16,
       "no-requiere-portada-adicional": 2,
       "rediseñar-como-identidad-de-seccion": 21,
-      "reencuadrar-o-sustituir-tras-lectura": 87,
-      "resolver-candidatos-y-sustituir": 1,
-      "revisar-para-sustitucion-prioritaria": 9,
+      "reencuadrar-o-sustituir-tras-lectura": 95,
+      "revisar-para-sustitucion-prioritaria": 2,
       "sustituir-por-sistema-de-iconos-o-retirar": 32
     },
     "byLot": {
@@ -123,43 +122,26 @@
   },
   "assets": {
     "byExtension": {
-      "png": 21,
+      "png": 11,
       "svg": 63,
-      "webp": 155
+      "webp": 164
     },
     "byDetectedFormat": {
-      "jpeg": 15,
-      "png": 7,
+      "jpeg": 6,
+      "png": 6,
       "svg": 63,
-      "webp": 154
+      "webp": 163
     },
     "byAspect": {
-      "cuadrada": 62,
-      "horizontal-16x9-o-social": 110,
+      "cuadrada": 33,
+      "horizontal-16x9-o-social": 138,
       "sin-dimensiones": 63,
       "vertical": 4
     },
-    "animated": [
-      "laboratorio/featured.webp"
-    ],
+    "animated": [],
     "extensionFormatMismatches": [
       {
-        "path": "ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "ia-educacion/que-es-la-educacion-digital/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
         "path": "ia-educacion/que-es-la-educacion-digital/img/educacion-digital-concepto.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "ia-educacion/tendencias/evaluacion-en-la-era-ia/featured.png",
         "extension": "png",
         "detectedFormat": "jpeg"
       },
@@ -169,42 +151,12 @@
         "detectedFormat": "jpeg"
       },
       {
-        "path": "laboratorio/practicas/abp-con-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
         "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/featured.png",
         "extension": "png",
         "detectedFormat": "jpeg"
       },
       {
-        "path": "laboratorio/practicas/aula-invertida/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "laboratorio/practicas/debate-socratico-con-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
         "path": "observatorio/estudios/creatividad-humana-ia/creatividad-ia.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "observatorio/estudios/creatividad-humana-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "recursos/articulos/next-era-assessment-dec/featured.png",
         "extension": "png",
         "detectedFormat": "jpeg"
       },
@@ -245,22 +197,6 @@
         "paths": [
           "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/cadena-diseno-inverso.svg",
           "formacion-docente/taxonomia-bloom-diseno-inverso/cadena-diseno-inverso.svg"
-        ]
-      },
-      {
-        "sha256": "6e9ab43c44b1f6513bcdc1142c061075c043ef842d2e4da140e8a546a48ae7c6",
-        "bytes": 834720,
-        "paths": [
-          "ia-educacion/que-es-la-educacion-digital/featured.png",
-          "ia-educacion/que-es-la-educacion-digital/img/educacion-digital-concepto.png"
-        ]
-      },
-      {
-        "sha256": "6be6352863d8ff4c42edee521dbde7abf942776d4b6b86be32d87a89e98626e0",
-        "bytes": 1016353,
-        "paths": [
-          "observatorio/estudios/creatividad-humana-ia/creatividad-ia.png",
-          "observatorio/estudios/creatividad-humana-ia/featured.png"
         ]
       }
     ]
@@ -611,10 +547,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -622,9 +558,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -10187,10 +10123,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -10198,9 +10134,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -10958,11 +10894,9 @@
         "status": "visual-explicativo-candidato",
         "featured": true,
         "localAssets": [
-          "featured.png",
           "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png",
           "featured.webp"
         ],
         "svgAssets": 0,
@@ -10971,9 +10905,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "resolver-candidatos-y-sustituir",
-          "family": "portada-ambigua",
-          "reason": "El bundle contiene más de un featured y mezcla estilos; Hugo no debería depender del orden de selección."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -11118,10 +11052,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -11129,9 +11063,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -11600,10 +11534,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -11611,9 +11545,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -17998,12 +17932,12 @@
         "status": "figura-gobernada",
         "featured": true,
         "localAssets": [
-          "featured.png",
+          "featured.webp",
           "producto-a-proceso-mobile.svg",
           "producto-a-proceso.svg"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 2,
         "accessibleSVG": 2,
@@ -23045,10 +22979,10 @@
         "featured": true,
         "localAssets": [
           "creatividad-ia.png",
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -23056,9 +22990,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -24157,10 +24091,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -24168,9 +24102,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -24312,10 +24246,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -24323,9 +24257,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -31412,10 +31346,10 @@
         "status": "visual-explicativo-candidato",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,

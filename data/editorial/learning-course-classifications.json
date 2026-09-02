@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "9d9ec6dbfd0ce65dcf218a1d195d7ef310bc0fa322f6e135bfa81390c5634d78",
+  "sourceInventorySha256": "356998f8acacc48cc1a4134a5cbeb171217ec901fb3b37b2f99300774ef40d59",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "f5e806e9a4df9f35b687678663fa21eafd6f7bea2180464b1158d74d371c9577",
   "regeneratedBy": "npm run content:learning-classifications",
