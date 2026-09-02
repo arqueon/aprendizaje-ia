@@ -9,7 +9,6 @@ categories: ["opinion"]
 areas: ["pedagogia", "ia", "digital"]
 
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: false

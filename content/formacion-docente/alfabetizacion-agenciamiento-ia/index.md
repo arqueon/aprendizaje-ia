@@ -10,7 +10,6 @@ areas: ["digital", "ia", "formacion"]
 
 weight: 13
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

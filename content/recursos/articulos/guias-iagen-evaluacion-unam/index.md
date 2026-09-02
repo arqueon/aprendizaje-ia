@@ -8,7 +8,6 @@ tags: ["UNAM", "IA generativa", "evaluación", "guía institucional", "bachiller
 categories: ["articulo"]
 areas: ["ia", "evaluacion", "pedagogia", "formacion"]
 showHero: true
-heroStyle: "background"
 
 layout: "simple"
 showDate: true

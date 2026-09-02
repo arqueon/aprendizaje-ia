@@ -5,7 +5,6 @@ summary: "Posts editoriales del Programa de Aprendizaje Digital UDGplus: reflexi
 date: 2026-04-26
 weight: 7
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

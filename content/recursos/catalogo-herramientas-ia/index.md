@@ -10,7 +10,6 @@ categories: ["recurso-institucional"]
 areas: ["ia", "formacion", "digital"]
 
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

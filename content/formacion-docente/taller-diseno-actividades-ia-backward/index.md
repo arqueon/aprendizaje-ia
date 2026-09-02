@@ -11,7 +11,6 @@ lastmod: 2026-08-24
 
 weight: 6
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

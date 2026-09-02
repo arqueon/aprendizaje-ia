@@ -4,7 +4,6 @@ description: "Ejercicios delimitados y plantillas para actuar en una situación 
 summary: "Ejercicios breves y plantillas para una situación concreta: comprobar la afirmación que cambia tu decisión, registrar lo que decidiste durante un trabajo con IA o declararlo al entregar."
 weight: 7
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

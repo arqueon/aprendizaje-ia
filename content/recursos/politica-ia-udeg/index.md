@@ -9,7 +9,6 @@ categories: ["recurso-institucional"]
 areas: ["ia", "formacion", "pedagogia"]
 
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

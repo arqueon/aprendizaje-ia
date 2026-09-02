@@ -10,7 +10,6 @@ areas: ["pedagogia", "ia", "digital"]
 
 weight: 13
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

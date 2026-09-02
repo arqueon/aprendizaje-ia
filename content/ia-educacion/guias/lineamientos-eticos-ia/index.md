@@ -10,7 +10,6 @@ areas: ["ia", "etica", "pedagogia"]
 
 weight: 9
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

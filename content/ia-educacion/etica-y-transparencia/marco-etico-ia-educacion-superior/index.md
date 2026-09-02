@@ -9,7 +9,6 @@ categories: ["guia"]
 areas: ["ia", "pedagogia", "formacion"]
 
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

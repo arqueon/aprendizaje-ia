@@ -5,7 +5,6 @@ summary: "Cómo articular IA con la planeación de clase: flujos, protocolos y d
 date: 2026-04-26
 weight: 3
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

@@ -161,14 +161,16 @@ header {
   border-bottom: 1px solid var(--udg-c-line) !important;
 }
 
-.single_hero_background {
-  background-color: color-mix(in srgb, var(--udg-c-paper) 82%, transparent) !important;
-}
-
+/* Portada visible en la página (2026-09-02): el héroe pasa de «background» (lavado al
+   82 %, invisible) a «basic»/«big». Las portadas anchas (16:9 y 1200×630) se muestran
+   completas; las cuadradas heredadas se recortan a una banda de 580 px hasta que el
+   barrido las rehaga. */
 article > figure:first-child > img.single_hero_round {
+  width: 100%;
   height: auto;
-  max-height: none;
-  object-fit: contain;
+  max-height: 580px;
+  object-fit: cover;
+  object-position: center 40%;
 }
 
 /* UDGIA-006 · Figuras compartidas desde Orientaciones.
@@ -1193,12 +1195,6 @@ html.dark .card-icon-explicit {
   border-top: 1px solid var(--udg-c-line);
   font-size: 0.85rem;
   color: var(--udg-c-muted);
-}
-
-/* Hero estilo background en modo oscuro: el lavado de papel al 82% se volvía
-   tinta-sobre-tinta y ocultaba la imagen; en oscuro se baja la opacidad. */
-html.dark .single_hero_background {
-  background-color: color-mix(in srgb, var(--udg-c-paper) 55%, transparent) !important;
 }
 
 /* figura con variante móvil: escritorio ≥640px, móvil debajo */

@@ -5,7 +5,6 @@ summary: "Documentos de referencia metodológica: cómo evaluar herramientas IA,
 date: 2026-04-26
 weight: 2
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

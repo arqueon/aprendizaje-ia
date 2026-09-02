@@ -10,7 +10,6 @@ areas: ["ia", "pedagogia"]
 
 weight: 2
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

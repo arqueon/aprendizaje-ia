@@ -3,7 +3,6 @@ title: "Ética y transparencia en el uso de IA"
 description: "Disposiciones, directrices y marcos para el uso ético, transparente e íntegro de la IA en la docencia y la investigación."
 weight: 4
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 areas: ["ia", "etica"]

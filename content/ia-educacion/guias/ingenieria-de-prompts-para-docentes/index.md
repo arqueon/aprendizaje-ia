@@ -8,7 +8,6 @@ tags: ["prompts", "diseño didáctico", "IA generativa", "ingeniería de prompts
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

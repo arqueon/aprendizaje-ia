@@ -8,7 +8,6 @@ tags: ["agenciamiento", "Deleuze", "Guattari", "co-creación", "dirección epist
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: false
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true
