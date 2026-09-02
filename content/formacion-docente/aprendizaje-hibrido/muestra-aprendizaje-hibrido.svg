@@ -2,7 +2,7 @@
   <title id="title">Cada momento usa y transforma lo anterior</title>
   <desc id="desc">Tres momentos conectados. Antes se intenta y se produce un borrador con preguntas. Durante el encuentro se contrasta ese borrador y se producen criterios y objeciones. Después se revisa y explica, produciendo una versión final con razones. Si las personas no coinciden en horario, un contraste diferido conserva la misma decisión y evidencia.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:3}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.line{fill:none;stroke:#536326;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.dash{fill:none;stroke:#a8202a;stroke-width:4;stroke-dasharray:10 11}.t1{font:700 54px Lora,Georgia,serif}.t2{font:700 34px Lora,Georgia,serif}.t3{font:700 28px Inter,Arial,sans-serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 21px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+    .bg{fill:var(--udg-c-surface-alt,#ece9e1)}.ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}.paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:3}.red{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.olive{fill:var(--udg-c-good,#536326)}.ochre{fill:var(--udg-c-warning,#914411)}.line{fill:none;stroke:var(--udg-c-good,#536326);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.dash{fill:none;stroke:var(--udg-c-warning,#914411);stroke-width:4;stroke-dasharray:10 11}.t1{font:700 54px Newsreader,Georgia,serif}.t2{font:700 34px Newsreader,Georgia,serif}.t3{font:700 28px Inter,Arial,sans-serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 21px Inter,Arial,sans-serif}.white{fill:var(--udg-c-surface,#ffffff)}
   </style>
   <rect class="bg" width="1600" height="900"/>
   <text class="ink t1" x="800" y="82" text-anchor="middle">Cada momento usa y transforma lo anterior</text>
@@ -11,12 +11,12 @@
   <g transform="translate(90 208)">
     <rect class="paper" width="390" height="390" rx="28"/>
     <circle class="red" cx="70" cy="70" r="36"/>
-    <path d="M54 70h32M70 54v32" stroke="#fffaf1" stroke-width="6" stroke-linecap="round"/>
+    <path d="M54 70h32M70 54v32" style="stroke:var(--udg-c-surface,#ffffff)" stroke-width="6" stroke-linecap="round"/>
     <text class="ink t2" x="124" y="80">Antes</text>
     <text class="red t3" x="46" y="150">Intentar</text>
     <text class="ink body" x="46" y="204">La persona formula una</text>
     <text class="ink body" x="46" y="240">primera explicación.</text>
-    <line x1="46" x2="344" y1="280" y2="280" stroke="#d5c8b2" stroke-width="3"/>
+    <line x1="46" x2="344" y1="280" y2="280" style="stroke:var(--udg-c-line,#c9c5bb)" stroke-width="3"/>
     <text class="olive small" x="46" y="324">Produce</text>
     <text class="ink body" x="46" y="360">Borrador y preguntas</text>
   </g>
@@ -24,12 +24,12 @@
   <g transform="translate(605 208)">
     <rect class="paper" width="390" height="390" rx="28"/>
     <circle class="olive" cx="70" cy="70" r="36"/>
-    <path d="M51 64h38M51 76h26" stroke="#fffaf1" stroke-width="6" stroke-linecap="round"/>
+    <path d="M51 64h38M51 76h26" style="stroke:var(--udg-c-surface,#ffffff)" stroke-width="6" stroke-linecap="round"/>
     <text class="ink t2" x="124" y="80">Encuentro</text>
     <text class="olive t3" x="46" y="150">Contrastar</text>
     <text class="ink body" x="46" y="204">Se comparan razones,</text>
     <text class="ink body" x="46" y="240">fuentes y alternativas.</text>
-    <line x1="46" x2="344" y1="280" y2="280" stroke="#d5c8b2" stroke-width="3"/>
+    <line x1="46" x2="344" y1="280" y2="280" style="stroke:var(--udg-c-line,#c9c5bb)" stroke-width="3"/>
     <text class="olive small" x="46" y="324">Produce</text>
     <text class="ink body" x="46" y="360">Criterios y objeciones</text>
   </g>
@@ -37,12 +37,12 @@
   <g transform="translate(1120 208)">
     <rect class="paper" width="390" height="390" rx="28"/>
     <circle class="ochre" cx="70" cy="70" r="36"/>
-    <path d="M52 72l12 12 26-30" fill="none" stroke="#fffaf1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M52 72l12 12 26-30" fill="none" style="stroke:var(--udg-c-surface,#ffffff)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
     <text class="ink t2" x="124" y="80">Después</text>
     <text class="ochre t3" x="46" y="150">Revisar y explicar</text>
     <text class="ink body" x="46" y="204">La persona transforma el</text>
     <text class="ink body" x="46" y="240">borrador y justifica.</text>
-    <line x1="46" x2="344" y1="280" y2="280" stroke="#d5c8b2" stroke-width="3"/>
+    <line x1="46" x2="344" y1="280" y2="280" style="stroke:var(--udg-c-line,#c9c5bb)" stroke-width="3"/>
     <text class="olive small" x="46" y="324">Produce</text>
     <text class="ink body" x="46" y="360">Versión y razones</text>
   </g>
@@ -55,9 +55,9 @@
   <text class="olive small" x="1048" y="375" text-anchor="middle">lleva decisiones</text>
 
   <g transform="translate(190 676)">
-    <rect x="0" y="0" width="1220" height="132" rx="24" fill="#efe7d7" stroke="#a8202a" stroke-width="3"/>
+    <rect x="0" y="0" width="1220" height="132" rx="24" style="fill:var(--udg-c-warning-tint,#f4e6d8);stroke:var(--udg-c-warning,#914411)" stroke-width="3"/>
     <path class="dash" d="M42 72h140"/>
-    <text class="red t3" x="214" y="43">Si las personas no coinciden en horario</text>
+    <text class="ochre t3" x="214" y="43">Si las personas no coinciden en horario</text>
     <text class="ink body" x="214" y="78">El contraste puede realizarse de manera diferida;</text>
     <text class="ink body" x="214" y="108">conserva la misma decisión y evidencia.</text>
   </g>

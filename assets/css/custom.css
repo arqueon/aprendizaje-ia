@@ -1207,3 +1207,12 @@ html.dark .single_hero_background {
   .prose .alm-figura .alm-figura-escritorio { display: none; }
   .prose .alm-figura .alm-figura-movil { display: block; }
 }
+
+/* Figuras UDGIA en línea (antes <img> + <picture>): el SVG incrustado sigue al tema
+   del sitio vía html.dark; la variante móvil se muestra bajo 48rem, como hacía <picture>. */
+.prose .udgia-figure__inline > svg { display: block; width: 100%; height: auto; }
+.prose .udgia-figure__inline--movil { display: none; }
+@media (max-width: 47.999rem) {
+  .prose .udgia-figure__inline--escritorio { display: none; }
+  .prose .udgia-figure__inline--movil { display: block; }
+}

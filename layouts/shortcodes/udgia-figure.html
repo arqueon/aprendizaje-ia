@@ -17,6 +17,7 @@
   class="udgia-figure"
   id="{{ $id }}"
   data-source-id="{{ $id }}"
+  data-alt="{{ $meta.alt }}"
   data-storage="{{ $meta.storage | default "page-bundle" }}"
   data-reuse-key="{{ $meta.reuse_key | default $id }}"
   data-source-version="{{ $meta.source_version }}"
@@ -42,15 +43,26 @@
       class="udgia-figure__image-link"
       href="{{ $resource.RelPermalink }}"
       aria-label="Abrir {{ $meta.title }} en tamaño completo">
-      <picture>
-        <source media="(max-width: 47.999rem)" srcset="{{ $mobileResource.RelPermalink }}">
-        <img
-          class="udgia-figure__image nozoom"
-          src="{{ $resource.RelPermalink }}"
-          alt="{{ $meta.alt }}"
-          loading="lazy"
-          decoding="async">
-      </picture>
+      {{- /* Ambas variantes se incrustan en línea (no como <img>): un SVG servido como
+           imagen es un documento aislado que sólo ve prefers-color-scheme, así que el
+           selector claro/oscuro del sitio no le llegaba. En línea, el bloque
+           @media (prefers-color-scheme: dark) del SVG pasa a ser html.dark { … }
+           (anidamiento CSS) y sigue al tema elegido. Los id se prefijan por variante
+           para que marcadores y aria-labelledby no choquen entre las dos copias. */ -}}
+      {{- $desk := $resource.Content -}}
+      {{- $desk = replace $desk "@media (prefers-color-scheme: dark)" "html.dark" -}}
+      {{- $desk = replace $desk `aria-labelledby="titulo desc"` (printf `aria-labelledby="%s-d-titulo %s-d-desc"` $id $id) -}}
+      {{- $desk = replace $desk `id="` (printf `id="%s-d-` $id) -}}
+      {{- $desk = replace $desk `url(#` (printf `url(#%s-d-` $id) -}}
+      {{- $desk = replace $desk `href="#` (printf `href="#%s-d-` $id) -}}
+      {{- $mob := $mobileResource.Content -}}
+      {{- $mob = replace $mob "@media (prefers-color-scheme: dark)" "html.dark" -}}
+      {{- $mob = replace $mob `aria-labelledby="titulo desc"` (printf `aria-labelledby="%s-m-titulo %s-m-desc"` $id $id) -}}
+      {{- $mob = replace $mob `id="` (printf `id="%s-m-` $id) -}}
+      {{- $mob = replace $mob `url(#` (printf `url(#%s-m-` $id) -}}
+      {{- $mob = replace $mob `href="#` (printf `href="#%s-m-` $id) -}}
+      <div class="udgia-figure__image udgia-figure__inline udgia-figure__inline--escritorio" data-variant="escritorio">{{ $desk | safeHTML }}</div>
+      <div class="udgia-figure__image udgia-figure__inline udgia-figure__inline--movil" data-variant="movil" data-srcset="{{ $mobileResource.RelPermalink }}">{{ $mob | safeHTML }}</div>
     </a>
   </div>
   <figcaption class="udgia-figure__caption">

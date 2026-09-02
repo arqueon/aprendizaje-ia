@@ -133,26 +133,29 @@ async function inspectEditorialHero(
   });
   assert(response?.status() === 200, `${label}: la página no respondió HTTP 200`);
 
-  const hero = page.locator(selector);
+  const hero = page.locator(selector).locator("visible=true").first();
   await hero.waitFor({ state: "attached", timeout: 15000 });
   await hero.scrollIntoViewIfNeeded();
   await hero.waitFor({ state: "visible", timeout: 15000 });
   await page.waitForFunction(
     (imageSelector) => {
-      const image = document.querySelector(imageSelector);
-      return image?.complete && image.naturalWidth > 0;
+      return [...document.querySelectorAll(imageSelector)].some((image) => {
+        if (image instanceof SVGSVGElement) return image.getBoundingClientRect().width > 0;
+        return image.complete && image.naturalWidth > 0;
+      });
     },
     selector,
     { timeout: 15000 }
   );
   const geometry = await hero.evaluate((image) => {
     const box = image.getBoundingClientRect();
+    const isSvg = image instanceof SVGSVGElement;
     return {
-      source: image.currentSrc,
+      source: isSvg ? `inline:${image.getAttribute("aria-labelledby") || ""}` : image.currentSrc,
       width: Math.round(box.width),
       height: Math.round(box.height),
-      naturalWidth: image.naturalWidth,
-      naturalHeight: image.naturalHeight
+      naturalWidth: isSvg ? image.viewBox.baseVal.width : image.naturalWidth,
+      naturalHeight: isSvg ? image.viewBox.baseVal.height : image.naturalHeight
     };
   });
   const renderedRatio = geometry.width / geometry.height;
@@ -280,7 +283,8 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     baseURL,
     `${name}: introducción`,
     // Ola 2 (2026-08-30): f18 sustituida por la rutina de seis pasos.
-    "#udgia-f18-rutina-seis-pasos img",
+    // 2026-09-01: la figura se incrusta en línea; se inspecciona el SVG visible.
+    "#udgia-f18-rutina-seis-pasos .udgia-figure__inline > svg",
     260
   );
 

@@ -190,9 +190,13 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
   const figureLocator = page.locator('.udgia-figure');
   await figureLocator.scrollIntoViewIfNeeded();
   await page.evaluate(() => window.scrollBy(0, -80));
+  // 2026-09-01: las figuras se incrustan en línea (siguen a html.dark); se espera al
+  // SVG de la variante visible, no a una <img>.
   await page.waitForFunction(() => {
-    const image = document.querySelector('.udgia-figure img');
-    return image?.complete && image.naturalWidth > 0;
+    const inline = [...document.querySelectorAll('.udgia-figure .udgia-figure__inline')]
+      .find((el) => getComputedStyle(el).display !== 'none');
+    const svg = inline?.querySelector('svg');
+    return Boolean(svg) && svg.getBoundingClientRect().width > 0;
   });
   await figureLocator.locator('details').evaluate((details) => {
     details.open = true;
@@ -200,10 +204,12 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
 
   const snapshot = await page.evaluate(() => {
     const figure = document.querySelector('.udgia-figure');
-    const image = figure?.querySelector('img');
+    const inline = [...(figure?.querySelectorAll('.udgia-figure__inline') || [])]
+      .find((el) => getComputedStyle(el).display !== 'none');
+    const image = inline?.querySelector('svg');
+    const mobileInline = figure?.querySelector('.udgia-figure__inline--movil');
     const viewport = figure?.querySelector('.udgia-figure__viewport');
     const details = figure?.querySelector('details');
-    const source = figure?.querySelector('picture source');
     const hint = figure?.querySelector('.udgia-figure__mobile-hint');
     const table = details?.querySelector('table');
     const toc = document.querySelector('#TableOfContents');
@@ -228,12 +234,14 @@ async function inspect(browser, baseURL, target, viewport, name, scenario) {
       credit: figure?.querySelector('.udgia-figure__credit')?.textContent?.trim() || '',
       scope: figure?.querySelector('.udgia-figure__scope')?.textContent?.trim() || '',
       notice: figure?.querySelector('.udgia-figure__notice')?.textContent?.trim() || '',
-      alt: image?.getAttribute('alt') || '',
-      imageComplete: image?.complete || false,
-      naturalWidth: image?.naturalWidth || 0,
+      alt: figure?.dataset.alt || '',
+      imageComplete: Boolean(image),
+      naturalWidth: Number(image?.viewBox?.baseVal?.width) || 0,
       renderedWidth: image?.getBoundingClientRect().width || 0,
-      currentSrc: image?.currentSrc || '',
-      mobileSrcset: source?.getAttribute('srcset') || '',
+      currentSrc: inline?.dataset.variant === 'movil'
+        ? (mobileInline?.dataset.srcset || '')
+        : (figure?.querySelector('a[href$=".svg"]')?.getAttribute('href') || ''),
+      mobileSrcset: mobileInline?.dataset.srcset || '',
       figureWidth: figure?.getBoundingClientRect().width || 0,
       figureRight: figure?.getBoundingClientRect().right || 0,
       tocLeft: toc?.getBoundingClientRect().left || 0,

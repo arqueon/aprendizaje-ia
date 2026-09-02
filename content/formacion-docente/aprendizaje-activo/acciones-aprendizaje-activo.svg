@@ -2,7 +2,7 @@
   <title id="title">La acción se reconoce por lo que produce la persona</title>
   <desc id="desc">Cuatro tarjetas no jerárquicas muestran el mismo caso. Recibir es leer una explicación; manipular es ordenar lo dado; generar es explicar con una razón; co-construir es responderse entre personas y crear una explicación común.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.blue{fill:#202d49}.pale{fill:#efe7d7}.t1{font:700 40px Lora,Georgia,serif}.t2{font:700 28px Lora,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+    .bg{fill:var(--udg-c-surface-alt,#ece9e1)}.ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}.paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:2}.red{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.olive{fill:var(--udg-c-good,#536326)}.ochre{fill:var(--udg-c-warning,#914411)}.blue{fill:var(--udg-c-ink,#18223c)}.pale{fill:var(--udg-c-primary-tint,#e7ecf7)}.t1{font:700 40px Newsreader,Georgia,serif}.t2{font:700 28px Newsreader,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:var(--udg-c-surface,#ffffff)}
   </style>
   <rect class="bg" width="640" height="800"/>
   <text class="ink t1" x="320" y="52" text-anchor="middle">La acción se reconoce</text>
@@ -43,6 +43,6 @@
   </g>
 
   <rect class="pale" x="34" y="676" width="572" height="82" rx="20"/>
-  <text class="red small" x="320" y="710" text-anchor="middle">No es una escalera ni una etiqueta de estudiante.</text>
+  <text class="risk small" x="320" y="710" text-anchor="middle">No es una escalera ni una etiqueta de estudiante.</text>
   <text class="ink body" x="320" y="742" text-anchor="middle">La consigna y la evidencia muestran la conducta.</text>
 </svg>

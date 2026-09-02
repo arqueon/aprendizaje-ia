@@ -2,7 +2,7 @@
   <title id="title">Dos lentes independientes sobre la misma actividad</title>
   <desc id="desc">SAMR pregunta qué cambió en la tarea por la tecnología. ICAP pregunta qué produjo la persona con las ideas. Los diagnósticos se sostienen con evidencias diferentes y no se alinean por niveles.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.pale{fill:#efe7d7}.t1{font:700 42px Lora,Georgia,serif}.t2{font:700 31px Lora,Georgia,serif}.body{font:400 27px Inter,Arial,sans-serif}.small{font:600 23px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+    .bg{fill:var(--udg-c-surface-alt,#ece9e1)}.ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}.paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:2}.red{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.olive{fill:var(--udg-c-good,#536326)}.pale{fill:var(--udg-c-primary-tint,#e7ecf7)}.t1{font:700 42px Newsreader,Georgia,serif}.t2{font:700 31px Newsreader,Georgia,serif}.body{font:400 27px Inter,Arial,sans-serif}.small{font:600 23px Inter,Arial,sans-serif}.white{fill:var(--udg-c-surface,#ffffff)}
   </style>
   <rect class="bg" width="640" height="800"/>
   <text class="ink t1" x="320" y="54" text-anchor="middle">Dos lentes independientes</text>
@@ -33,6 +33,6 @@
   </g>
 
   <rect class="pale" x="50" y="730" width="540" height="48" rx="15"/>
-  <text class="red small" x="320" y="762" text-anchor="middle">No hay correspondencia automática entre niveles.</text>
+  <text class="risk small" x="320" y="762" text-anchor="middle">No hay correspondencia automática entre niveles.</text>
 </svg>
 

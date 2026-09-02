@@ -282,7 +282,7 @@ const shortcode = fs.readFileSync(path.join(root, 'layouts', 'shortcodes', 'udgi
 for (const signal of ['--udgia-figure-width', 'scroll-margin-top', '@media print', ':focus-visible']) {
   if (!css.includes(signal)) failures.push(`CSS: falta ${signal}`);
 }
-for (const signal of ['tabindex="0"', '<picture>', 'srcset=', '.Inner', 'data-mobile-variant-sha256', 'data-storage=', 'data-reuse-key=', 'resources.Get', 'hugo.Data']) {
+for (const signal of ['tabindex="0"', 'udgia-figure__inline--movil', 'html.dark', '$resource.Content', '.Inner', 'data-mobile-variant-sha256', 'data-storage=', 'data-reuse-key=', 'resources.Get', 'hugo.Data']) {
   if (!shortcode.includes(signal)) failures.push(`shortcode: falta ${signal}`);
 }
 for (const signal of ['data-attribution=', 'data-editorial-scope=', 'data-authorization-scope=', 'data-institutional-policy-status=', 'data-provenance-kind=', 'udgia-figure__credit', 'udgia-figure__scope', 'udgia-figure__notice']) {

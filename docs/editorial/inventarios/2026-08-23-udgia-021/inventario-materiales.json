@@ -19,7 +19,7 @@
     "sections": 30,
     "words": 159674,
     "assets": 231,
-    "assetBytes": 48673324,
+    "assetBytes": 48675225,
     "exactDuplicateAssetGroups": 4,
     "exactDuplicateAssetFiles": 19,
     "h5pCatalogEntries": 39,
@@ -293,8 +293,8 @@
         ]
       },
       {
-        "sha256": "fee968e75e7af76120c165e1d770419d27078b5273173cb14992eb49f2f7a2a9",
-        "bytes": 3433,
+        "sha256": "c0768eede3a069cd8d619cfe127f7cdf33b27f03949987506938398133ff5e95",
+        "bytes": 3751,
         "paths": [
           "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/cadena-diseno-inverso.svg",
           "formacion-docente/taxonomia-bloom-diseno-inverso/cadena-diseno-inverso.svg"
