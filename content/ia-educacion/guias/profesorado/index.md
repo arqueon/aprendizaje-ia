@@ -114,6 +114,7 @@ No se trata de usar más tecnología ni de convertir cada actividad en un proyec
 
 ## Cómo continuar
 
+- Practica con una actividad tuya: [Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?](../../../actividades/revisar-actividad/) te lleva en doce minutos de tres frases a una instrucción reescrita.
 - Antes: [sitúa la decisión mediante el caso de entrada](../../constelaciones/empezar-con-ia/).
 - Profundiza: [parte de lo que quieres observar](../../../formacion-docente/taxonomia-bloom-diseno-inverso/) para decidir qué hará el grupo, qué entregará y qué ayuda podrá recibir.
 - Revisa el trabajo durante el proceso: [evaluación formativa con IA](../evaluacion-formativa-ia/).

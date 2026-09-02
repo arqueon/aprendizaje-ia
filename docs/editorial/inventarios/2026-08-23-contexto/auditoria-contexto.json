@@ -19,24 +19,24 @@
     }
   },
   "totals": {
-    "documents": 200,
+    "documents": 203,
     "by_priority": {
       "urgente": 0,
       "alta": 0,
-      "media": 13,
+      "media": 16,
       "baja": 187
     },
     "by_role": {
       "articulo": 15,
       "guia": 14,
-      "navegacion": 30,
-      "pagina": 78,
+      "navegacion": 31,
+      "pagina": 80,
       "practica": 8,
       "recurso": 52,
       "ruta": 3
     },
     "by_manual_decision": {
-      "conservar": 21,
+      "conservar": 24,
       "cambiar": 52,
       "quitar": 0,
       "pendiente": 127
@@ -48,6 +48,212 @@
     "practices_missing_checkable_close": 0
   },
   "pages": [
+    {
+      "path": "content/actividades/_index.md",
+      "title": "Actividades",
+      "role": "navegacion",
+      "words": 43,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": true,
+          "evidence": {
+            "source": "content/actividades/_index.md",
+            "line": 18,
+            "text": "Cada actividad empieza con un caso ya resuelto y después te pide hacer lo mismo con un caso tuyo. No califican ni envían nada: lo que escribes se queda en tu pantalla, y sólo se guarda en tu dispositivo si tú lo pides."
+          }
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/actividades/_index.md",
+            "line": 18,
+            "text": "Cada actividad empieza con un caso ya resuelto y después te pide hacer lo mismo con un caso tuyo. No califican ni envían nada: lo que escribes se queda en tu pantalla, y sólo se guarda en tu dispositivo si tú lo pides."
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/actividades/_index.md",
+            "line": 18,
+            "text": "Cada actividad empieza con un caso ya resuelto y después te pide hacer lo mismo con un caso tuyo. No califican ni envían nada: lo que escribes se queda en tu pantalla, y sólo se guarda en tu dispositivo si tú lo pides."
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": false,
+          "evidence": null
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": null
+        }
+      },
+      "missing_expected_signals": [
+        "quien",
+        "acciones",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [
+        {
+          "id": "cuerpo-muy-breve",
+          "note": "La brevedad activa revisión, pero no decide por sí sola que la página deba quitarse.",
+          "evidence": {
+            "source": "content/actividades/_index.md",
+            "line": 16,
+            "text": "43 palabras visibles/auditables"
+          }
+        }
+      ],
+      "automatic_priority": "media",
+      "manual_decision": "conservar",
+      "manual_reason": "Portada breve de sección: explica qué son las actividades, que empiezan por un caso resuelto y que no envían datos.",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/actividades/comparar-sugerencias/index.md",
+      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "role": "pagina",
+      "words": 0,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": false,
+          "evidence": null
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": false,
+          "evidence": null
+        },
+        "material_inicial": {
+          "present": false,
+          "evidence": null
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": false,
+          "evidence": null
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": null
+        }
+      },
+      "missing_expected_signals": [
+        "situacion",
+        "quien",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [
+        {
+          "id": "cuerpo-muy-breve",
+          "note": "La brevedad activa revisión, pero no decide por sí sola que la página deba quitarse.",
+          "evidence": {
+            "source": "content/actividades/comparar-sugerencias/index.md",
+            "line": 14,
+            "text": "0 palabras visibles/auditables"
+          }
+        }
+      ],
+      "automatic_priority": "media",
+      "manual_decision": "conservar",
+      "manual_reason": "La actividad empieza con el caso completo de Renata resuelto (párrafo, dos cambios, decisión y razón) antes de pedir nada; el marco (co-creación) se nombra al final con enlace.",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
+    {
+      "path": "content/actividades/revisar-actividad/index.md",
+      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "role": "pagina",
+      "words": 70,
+      "dependencies": [],
+      "signals": {
+        "situacion": {
+          "present": false,
+          "evidence": null
+        },
+        "quien": {
+          "present": false,
+          "evidence": null
+        },
+        "momento_entorno": {
+          "present": true,
+          "evidence": {
+            "source": "content/actividades/revisar-actividad/index.md",
+            "line": 19,
+            "text": "| Practican | Leen un resumen de cada fuente. | Comparan dos frases de cada fuente en clase y piden objeciones a la IA. |"
+          }
+        },
+        "material_inicial": {
+          "present": true,
+          "evidence": {
+            "source": "content/actividades/revisar-actividad/index.md",
+            "line": 16,
+            "text": "| Frase | Versión inicial | Instrucción reescrita |"
+          }
+        },
+        "acciones": {
+          "present": false,
+          "evidence": null
+        },
+        "resultado": {
+          "present": false,
+          "evidence": null
+        },
+        "comprobacion": {
+          "present": false,
+          "evidence": null
+        },
+        "lenguaje_directo": {
+          "present": false,
+          "evidence": null
+        }
+      },
+      "missing_expected_signals": [
+        "situacion",
+        "quien",
+        "lenguaje_directo"
+      ],
+      "risk_flags": [
+        {
+          "id": "cuerpo-muy-breve",
+          "note": "La brevedad activa revisión, pero no decide por sí sola que la página deba quitarse.",
+          "evidence": {
+            "source": "content/actividades/revisar-actividad/index.md",
+            "line": 12,
+            "text": "70 palabras visibles/auditables"
+          }
+        }
+      ],
+      "automatic_priority": "media",
+      "manual_decision": "conservar",
+      "manual_reason": "La actividad empieza con el caso de la docente de primer semestre ya resuelto en tres frases y una ruptura marcada; el marco (alineación) se nombra al final con enlace.",
+      "manual_issue_types": [],
+      "manual_citations": []
+    },
     {
       "path": "content/areas/digital/_index.md",
       "title": "Aprendizaje digital",
@@ -5751,7 +5957,7 @@
       "path": "content/ia-educacion/guias/estudiantes/index.md",
       "title": "Laboratorio guiado para decidir antes de entregar",
       "role": "guia",
-      "words": 293,
+      "words": 313,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -5766,7 +5972,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 65,
+            "line": 66,
             "text": "sugerencias preparadas por una persona o tomadas de dos versiones anteriores. Con un texto propio"
           }
         },
@@ -5791,14 +5997,14 @@
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
             "line": 51,
-            "text": "La actividad no decide por Renata. Le pide anotar qué cambia, qué consecuencia tendría, qué dato"
+            "text": "La actividad no decide por Renata. Con cada cambio se hace una sola pregunta: si lo acepto, ¿mi"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 54,
+            "line": 55,
             "text": "## Qué obtendrás"
           }
         },
@@ -5806,20 +6012,22 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 56,
+            "line": 57,
             "text": "Al terminar tendrás un fragmento antes y después de la revisión y dos notas breves de decisión. El"
           }
         },
         "lenguaje_directo": {
-          "present": true,
+          "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/estudiantes/index.md",
-            "line": 51,
-            "text": "La actividad no decide por Renata. Le pide anotar qué cambia, qué consecuencia tendría, qué dato"
+            "line": 40,
+            "text": "Una sugerencia puede sonar bien y aun así alejar tu trabajo del propósito o afirmar más de lo que"
           }
         }
       },
-      "missing_expected_signals": [],
+      "missing_expected_signals": [
+        "lenguaje_directo"
+      ],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "conservar",
@@ -6252,7 +6460,7 @@
       "path": "content/ia-educacion/guias/profesorado/index.md",
       "title": "Diseñar actividades y observar el aprendizaje",
       "role": "guia",
-      "words": 797,
+      "words": 826,
       "dependencies": [],
       "signals": {
         "situacion": {

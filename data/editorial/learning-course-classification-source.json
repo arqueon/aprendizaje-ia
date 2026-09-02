@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classification-source",
   "authority": "Clasificación editorial local versionada; no activa cursos o métodos retirados ni equivale a aprobación institucional.",
   "method": "Una entrada explícita por ruta activa; el inventario Hugo aporta únicamente ruta renderizada, título, tipo y conteo de palabras.",
-  "expectedPageCount": 200,
+  "expectedPageCount": 203,
   "deliberateAdditions": [
     "areas/digital/_index.md",
     "areas/etica/_index.md",
@@ -40,6 +40,34 @@
       "modulos_posibles": [],
       "rutas": [],
       "razon": "No se identifico una funcion directa en la secuencia de resultados y evidencias."
+    },
+    {
+      "path": "actividades/_index.md",
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Portada de la sección de actividades; organiza el acceso y no constituye por sí sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "actividades/comparar-sugerencias/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado"
+      ],
+      "razon": "Actividad B2 reescrita (UDGIA-023): decidir qué hacer con dos cambios propuestos a un párrafo propio y terminar con el párrafo revisado y una razón por cambio; sin envío de datos ni cuenta."
+    },
+    {
+      "path": "actividades/revisar-actividad/index.md",
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Actividad M6 reescrita (UDGIA-023): describir una actividad propia en tres frases (pido, practican, entregan), marcar a mano dónde se rompe y reescribir la instrucción con su razón."
     },
     {
       "path": "areas/digital/_index.md",
@@ -172,18 +200,6 @@
       "razon": "Organiza el sitio; no constituye por si sola una actividad ni una evidencia del curso."
     },
     {
-      "path": "formacion-docente/alfabetizacion/index.md",
-      "rol_en_el_curso": "apoyo-candidato",
-      "accion_editorial": "revisar-en-fase-editorial",
-      "modulos_posibles": [
-        "M5"
-      ],
-      "rutas": [
-        "profesorado"
-      ],
-      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
-    },
-    {
       "path": "formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "fusionar-o-desduplicar",
@@ -209,6 +225,18 @@
     },
     {
       "path": "formacion-docente/alfabetizacion-operativa/index.md",
+      "rol_en_el_curso": "apoyo-candidato",
+      "accion_editorial": "revisar-en-fase-editorial",
+      "modulos_posibles": [
+        "M5"
+      ],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Puede apoyar el diseno docente; su incorporacion depende de una relacion explicita con el resultado y la evidencia."
+    },
+    {
+      "path": "formacion-docente/alfabetizacion/index.md",
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [

@@ -26,7 +26,7 @@ const reportPath = path.join(evidenceRoot, "qa-shortcode-library.json");
 const port = Number(process.env.QA_SHORTCODE_LIBRARY_PORT || 42784);
 const baseURL = `http://127.0.0.1:${port}/`;
 const expectedCategories = new Set(["global", "compound", "specific", "retirable"]);
-const expectedCategoryCounts = { global: 5, compound: 8, specific: 9, retirable: 1 };
+const expectedCategoryCounts = { global: 5, compound: 8, specific: 11, retirable: 1 };
 const expectedRendered = {
   idea: 1,
   practica: 1,

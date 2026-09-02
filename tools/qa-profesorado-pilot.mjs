@@ -59,15 +59,15 @@ try {
     throw new Error(`Cards incompletas: ${cardsWithImage}/${cardCount} con imagen.`);
   }
 
-  const retiredReferences = page.locator(
-    'iframe[src*="actividades/revisar-actividad"], a[href*="actividades/revisar-actividad"]'
-  );
-  if ((await retiredReferences.count()) !== 0) {
-    throw new Error("La guía todavía enlaza o embebe la actividad retirada.");
-  }
-  const retiredRoute = await page.request.get(`${baseURL}/actividades/revisar-actividad/`);
-  if (retiredRoute.status() !== 404) {
-    throw new Error(`La actividad retirada continúa publicada: HTTP ${retiredRoute.status()}.`);
+  // 2026-09-02 (UDGIA-023): la actividad vuelve en versión nueva como página del sitio;
+  // la guía la enlaza (nunca la embebe) y la ruta responde 200.
+  const embeds = page.locator('iframe[src*="actividades/revisar-actividad"]');
+  if ((await embeds.count()) !== 0) throw new Error("La guía embebe la actividad en vez de enlazarla.");
+  const activityLinks = page.locator('a[href*="actividades/revisar-actividad"]');
+  if ((await activityLinks.count()) < 1) throw new Error("La guía no enlaza la actividad de profesorado.");
+  const activityRoute = await page.request.get(`${baseURL}/actividades/revisar-actividad/`);
+  if (activityRoute.status() !== 200) {
+    throw new Error(`La actividad de profesorado no responde: HTTP ${activityRoute.status()}.`);
   }
 
   await page.addScriptTag({ content: await readFile("node_modules/axe-core/axe.min.js", "utf8") });
@@ -82,7 +82,7 @@ try {
   if (consoleErrors.length) throw new Error(`Errores de consola: ${JSON.stringify(consoleErrors)}`);
 
   process.stdout.write(
-    `PASS profesorado-pilot: featured visible, ${cardCount} cards ilustradas, actividad retirada y axe AA.\n`
+    `PASS profesorado-pilot: featured visible, ${cardCount} cards ilustradas, actividad enlazada y axe AA.\n`
   );
 } finally {
   await browser.close();

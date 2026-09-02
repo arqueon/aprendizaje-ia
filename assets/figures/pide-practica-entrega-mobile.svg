@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 880" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Lo que pide, lo que practican, lo que entregan: dónde se rompe una actividad</title>
+  <desc id="desc">Versión vertical. Tres tarjetas del caso inicial (pido: comparar dos fuentes y explicar cuál sostiene mejor la afirmación; practican: leen un resumen de cada fuente; entregan: eligen una opción de una lista, marcada como ruptura porque no hizo falta comparar) y, debajo, la versión reescrita en la que practican comparando dos frases y entregan cinco líneas que citan las dos fuentes.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Material editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
+  <style>
+    .fig-canvas{fill:var(--udg-c-surface-alt,#ece9e1)}
+    .paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5}
+    .paper-rota{fill:var(--udg-c-risk-tint,#f8e7ea);stroke:var(--udg-c-risk,#8b2635);stroke-width:2}
+    .paper-bien{fill:var(--udg-c-good-tint,#eceddc);stroke:var(--udg-c-good,#536326);stroke-width:1.5}
+    .ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}
+    .primary{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.good{fill:var(--udg-c-good,#536326)}
+    .st-primary{fill:none;stroke:var(--udg-c-primary,#34508c);stroke-width:2.5;stroke-linecap:round}
+    .st-good{fill:none;stroke:var(--udg-c-good,#536326);stroke-width:2.5;stroke-linecap:round}
+    .t1{font:600 21px Newsreader,Georgia,serif}.t2{font:700 13px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.2px}
+    .body{font:400 15px Inter,Arial,sans-serif}.small{font:600 13px Inter,Arial,sans-serif}.fila{font:700 12px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.2px}
+  </style>
+  <rect class="fig-canvas" width="420" height="880"/>
+  <text class="ink t1" x="210" y="36" text-anchor="middle">Dónde se rompe una actividad</text>
+  <text class="muted body" x="210" y="60" text-anchor="middle">Caso: comparar dos fuentes sobre un problema de agua.</text>
+
+  <text class="risk fila" x="24" y="94">VERSIÓN INICIAL</text>
+  <g transform="translate(24 104)">
+    <rect class="paper" width="372" height="74" rx="9"/>
+    <text class="primary t2" x="14" y="24">PIDO</text>
+    <text class="ink body" x="14" y="46">Que comparen dos fuentes y expliquen</text>
+    <text class="ink body" x="14" y="64">cuál sostiene mejor la afirmación.</text>
+  </g>
+  <path class="st-primary" d="M210 182v14"/><path class="primary" d="M210 202l-6-9h12z"/>
+  <g transform="translate(24 206)">
+    <rect class="paper" width="372" height="56" rx="9"/>
+    <text class="primary t2" x="14" y="24">PRACTICAN</text>
+    <text class="ink body" x="14" y="46">Leen un resumen de cada fuente.</text>
+  </g>
+  <path class="st-primary" d="M210 266v14"/><path class="primary" d="M210 286l-6-9h12z"/>
+  <g transform="translate(24 290)">
+    <rect class="paper-rota" width="372" height="92" rx="9"/>
+    <text class="risk t2" x="14" y="24">ENTREGAN</text>
+    <text class="ink body" x="14" y="46">Eligen una opción de una lista.</text>
+    <text class="risk small" x="14" y="70">Aquí se rompe: para entregar</text>
+    <text class="risk small" x="14" y="86">no hizo falta comparar.</text>
+  </g>
+
+  <path class="st-good" d="M210 392v40"/><path class="good" d="M210 438l-6-9h12z"/>
+  <text class="good small" x="222" y="418">cambia sólo la entrega</text>
+
+  <text class="good fila" x="24" y="470">INSTRUCCIÓN REESCRITA</text>
+  <g transform="translate(24 480)">
+    <rect class="paper" width="372" height="74" rx="9"/>
+    <text class="primary t2" x="14" y="24">PIDO</text>
+    <text class="ink body" x="14" y="46">Que comparen dos fuentes y expliquen</text>
+    <text class="ink body" x="14" y="64">cuál sostiene mejor la afirmación.</text>
+  </g>
+  <path class="st-primary" d="M210 558v14"/><path class="primary" d="M210 578l-6-9h12z"/>
+  <g transform="translate(24 582)">
+    <rect class="paper" width="372" height="74" rx="9"/>
+    <text class="primary t2" x="14" y="24">PRACTICAN</text>
+    <text class="ink body" x="14" y="46">Comparan dos frases de cada fuente</text>
+    <text class="ink body" x="14" y="64">en clase y piden objeciones a la IA.</text>
+  </g>
+  <path class="st-primary" d="M210 660v14"/><path class="primary" d="M210 680l-6-9h12z"/>
+  <g transform="translate(24 684)">
+    <rect class="paper-bien" width="372" height="110" rx="9"/>
+    <text class="good t2" x="14" y="24">ENTREGAN</text>
+    <text class="ink body" x="14" y="46">Cinco líneas que citan las dos fuentes</text>
+    <text class="ink body" x="14" y="64">y dicen cuál sostiene mejor y por qué.</text>
+    <text class="good small" x="14" y="94">Ahora se ve la comparación.</text>
+  </g>
+  <text class="muted small" x="210" y="830" text-anchor="middle">Si se puede acertar sin hacer lo que pediste,</text>
+  <text class="muted small" x="210" y="848" text-anchor="middle">la actividad no muestra ese aprendizaje.</text>
+</svg>

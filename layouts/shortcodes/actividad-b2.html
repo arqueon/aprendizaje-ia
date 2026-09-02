@@ -1,0 +1,163 @@
+{{- /* Actividad B2 · Dos cambios para tu texto. HTML nativo: funciona sin JavaScript como hoja
+       de trabajo; el guion sólo añade el ejemplo prellenado, el párrafo revisado y el guardado
+       voluntario en el dispositivo. Ficha: docs/editorial/UDGIA-023-ficha-reescritura-b2-m6.md */ -}}
+<div class="alm-actividad alm-componente" data-udgia-component="actividad" data-actividad="b2" id="actividad-b2">
+
+<p class="alm-actividad__promesa">Pega un párrafo tuyo y dos cambios que te propusieron (una IA, un compañero, tu profesora). Sales con el párrafo revisado y una razón por cada cambio. Tarda entre diez y veinte minutos. No califica ni envía nada.</p>
+
+<section class="alm-actividad__paso" aria-labelledby="b2-p1">
+<span class="alm-kicker">Primero · Mira el ejemplo</span>
+<h2 id="b2-p1">El párrafo de Renata y los dos cambios que le propusieron</h2>
+<p>Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Este es su párrafo:</p>
+<blockquote class="alm-actividad__texto">La muestra tomada junto al puente no superó el límite permitido. Este resultado describe ese punto y ese día; no alcanza para afirmar que todo el arroyo sea seguro.</blockquote>
+<p>Pidió a una IA que le señalara una conclusión posible y un dato por comprobar. Recibió dos cambios. Así los decidió:</p>
+<div class="alm-actividad__tarjetas">
+  <article class="alm-actividad__tarjeta">
+    <span class="alm-actividad__etiqueta">Cambio 1</span>
+    <p class="alm-actividad__texto">«La muestra demuestra que el agua del arroyo es segura».</p>
+    <p class="alm-actividad__decision alm-actividad__decision--cambio">Lo cambio</p>
+    <p class="alm-actividad__razon">Quita el lugar y la fecha. Si lo acepto, el informe diría más de lo que medimos.</p>
+  </article>
+  <article class="alm-actividad__tarjeta">
+    <span class="alm-actividad__etiqueta">Cambio 2</span>
+    <p class="alm-actividad__texto">«Aclara si llovió antes del muestreo, porque la lluvia pudo cambiar la concentración».</p>
+    <p class="alm-actividad__decision alm-actividad__decision--pendiente">Lo dejo pendiente</p>
+    <p class="alm-actividad__razon">Tengo que ver en el registro de campo si llovió. Hasta entonces no cambio nada.</p>
+  </article>
+</div>
+<p>Fíjate en la pregunta que Renata se hizo con cada cambio: <strong>si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir?</strong> Con eso basta para decidir.</p>
+</section>
+
+<form class="alm-actividad__formulario" id="b2-form" autocomplete="off">
+<section class="alm-actividad__paso" aria-labelledby="b2-p2">
+<span class="alm-kicker">Segundo · Ahora el tuyo</span>
+<h2 id="b2-p2">Tu párrafo y los dos cambios que te propusieron</h2>
+<p class="alm-actividad__ayuda">¿Prefieres practicar primero con el caso de Renata? <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de Renata</button></p>
+
+<div class="alm-campo">
+  <label for="b2-parrafo">Tu párrafo</label>
+  <textarea id="b2-parrafo" name="parrafo" rows="4" placeholder="Pega aquí el párrafo tal como lo tienes ahora."></textarea>
+</div>
+<div class="alm-campo">
+  <label for="b2-origen">¿Quién propuso los cambios? <span class="alm-campo__opcional">(opcional)</span></label>
+  <input id="b2-origen" name="origen" type="text" placeholder="Por ejemplo: una IA a la que pedí una conclusión y un dato por comprobar; o mi compañera de equipo.">
+</div>
+
+{{- range $i := slice 1 2 }}
+<fieldset class="alm-actividad__cambio">
+  <legend>Cambio {{ $i }}</legend>
+  <div class="alm-campo">
+    <label for="b2-cambio{{ $i }}">Qué te propusieron</label>
+    <textarea id="b2-cambio{{ $i }}" name="cambio{{ $i }}" rows="2" placeholder="Copia el cambio tal como te lo propusieron."></textarea>
+  </div>
+  <p class="alm-actividad__pregunta">Si lo aceptas, ¿tu párrafo sigue diciendo lo que tú querías decir?</p>
+  <div class="alm-opciones" role="radiogroup" aria-label="Qué haces con el cambio {{ $i }}">
+    <label class="alm-opcion"><input type="radio" name="decision{{ $i }}" value="acepto"> Lo acepto</label>
+    <label class="alm-opcion"><input type="radio" name="decision{{ $i }}" value="cambio"> Lo cambio</label>
+    <label class="alm-opcion"><input type="radio" name="decision{{ $i }}" value="pendiente"> Lo dejo pendiente</label>
+  </div>
+  <div class="alm-campo">
+    <label for="b2-razon{{ $i }}">Tu razón, en una línea</label>
+    <input id="b2-razon{{ $i }}" name="razon{{ $i }}" type="text" placeholder="Por ejemplo: quita la fecha y el informe diría más de lo que medimos.">
+  </div>
+</fieldset>
+{{- end }}
+</section>
+
+<section class="alm-actividad__paso" aria-labelledby="b2-p3">
+<span class="alm-kicker">Tercero · Tu párrafo revisado</span>
+<h2 id="b2-p3">Escribe la versión que conservas</h2>
+<p>Aplica lo que decidiste. Si dejaste algo pendiente, escribe el párrafo como está y anota qué vas a comprobar.</p>
+<div class="alm-campo">
+  <label for="b2-revisado">Párrafo revisado</label>
+  <textarea id="b2-revisado" name="revisado" rows="4" placeholder="Empieza copiando tu párrafo y cambia sólo lo que decidiste cambiar."></textarea>
+  <p class="alm-actividad__ayuda"><button type="button" class="alm-boton alm-boton--secundario" data-accion="copiar-parrafo">Copiar mi párrafo original aquí</button></p>
+</div>
+<div class="alm-actividad__nota" id="b2-nota" aria-live="polite">
+  <span class="alm-actividad__etiqueta">Tu nota de decisión</span>
+  <ol class="alm-actividad__nota-lista">
+    <li data-nota="1">Cambio 1: <em>sin decidir todavía.</em></li>
+    <li data-nota="2">Cambio 2: <em>sin decidir todavía.</em></li>
+  </ol>
+  <p class="alm-actividad__ayuda">Esta nota es lo que puedes entregar junto con el texto, o enseñar a quien te propuso los cambios.</p>
+</div>
+<div class="alm-actividad__acciones">
+  <button type="button" class="alm-boton" data-accion="imprimir">Imprimir o guardar como PDF</button>
+  <button type="button" class="alm-boton alm-boton--secundario" data-accion="guardar">Guardar en este dispositivo</button>
+  <button type="button" class="alm-boton alm-boton--secundario" data-accion="borrar">Borrar lo guardado</button>
+  <span class="alm-actividad__estado" role="status" aria-live="polite"></span>
+</div>
+<p class="alm-actividad__ayuda">Nada sale de tu pantalla. Sólo se guarda en este dispositivo si pulsas «Guardar», y puedes borrarlo cuando quieras.</p>
+</section>
+</form>
+
+<p class="alm-actividad__cierre">Esta forma de trabajar (tú decides qué hacer con lo que propone una IA u otra persona) se llama co-creación. <a href="{{ "ia-educacion/guias/agenciamiento-humano-ia/" | relURL }}">Aquí se explica con el caso completo de Renata</a>. Para volver: <a href="{{ "ia-educacion/guias/estudiantes/" | relURL }}">guía para estudiantes</a>.</p>
+</div>
+
+<script>
+(function () {
+  var raiz = document.getElementById('actividad-b2');
+  if (!raiz) return;
+  var form = raiz.querySelector('#b2-form');
+  var CLAVE = 'udgia-actividad-b2';
+  var TEXTOS = { acepto: 'lo acepto', cambio: 'lo cambio', pendiente: 'lo dejo pendiente' };
+  var ejemplo = {
+    parrafo: 'La muestra tomada junto al puente no superó el límite permitido. Este resultado describe ese punto y ese día; no alcanza para afirmar que todo el arroyo sea seguro.',
+    origen: 'Una IA a la que pedí una conclusión posible y un dato por comprobar.',
+    cambio1: '«La muestra demuestra que el agua del arroyo es segura».',
+    decision1: 'cambio',
+    razon1: 'Quita el lugar y la fecha; el informe diría más de lo que medimos.',
+    cambio2: '«Aclara si llovió antes del muestreo, porque la lluvia pudo cambiar la concentración».',
+    decision2: 'pendiente',
+    razon2: 'Tengo que ver en el registro de campo si llovió.',
+    revisado: ''
+  };
+  function campo(nombre) { return form.elements[nombre]; }
+  function valor(nombre) {
+    var el = campo(nombre);
+    if (!el) return '';
+    if (el.length !== undefined && !el.tagName) { var m = form.querySelector('[name="' + nombre + '"]:checked'); return m ? m.value : ''; }
+    return el.value || '';
+  }
+  function leer() {
+    var d = {};
+    ['parrafo','origen','cambio1','decision1','razon1','cambio2','decision2','razon2','revisado'].forEach(function (n) { d[n] = valor(n); });
+    return d;
+  }
+  function escribir(d) {
+    Object.keys(d).forEach(function (n) {
+      if (n.indexOf('decision') === 0) {
+        var r = form.querySelector('[name="' + n + '"][value="' + d[n] + '"]');
+        if (r) r.checked = true;
+      } else if (campo(n)) { campo(n).value = d[n] || ''; }
+    });
+    nota();
+  }
+  function nota() {
+    [1, 2].forEach(function (i) {
+      var li = raiz.querySelector('[data-nota="' + i + '"]');
+      var dec = valor('decision' + i), razon = valor('razon' + i).trim();
+      if (!dec) { li.innerHTML = 'Cambio ' + i + ': <em>sin decidir todavía.</em>'; return; }
+      li.textContent = 'Cambio ' + i + ': ' + TEXTOS[dec] + (razon ? '. ' + razon : '.');
+    });
+  }
+  function estado(msg) { var s = raiz.querySelector('.alm-actividad__estado'); s.textContent = msg; setTimeout(function () { if (s.textContent === msg) s.textContent = ''; }, 4000); }
+  form.addEventListener('input', nota);
+  form.addEventListener('change', nota);
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
+  raiz.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-accion]'); if (!b) return;
+    var a = b.getAttribute('data-accion');
+    if (a === 'ejemplo') { escribir(ejemplo); estado('Ejemplo cargado. Cambia lo que quieras.'); campo('parrafo').focus(); }
+    if (a === 'copiar-parrafo') { campo('revisado').value = valor('parrafo'); campo('revisado').focus(); }
+    if (a === 'imprimir') { window.print(); }
+    if (a === 'guardar') { try { localStorage.setItem(CLAVE, JSON.stringify(leer())); estado('Guardado en este dispositivo.'); } catch (err) { estado('Este navegador no permite guardar aquí.'); } }
+    if (a === 'borrar') { try { localStorage.removeItem(CLAVE); } catch (err) {} form.reset(); nota(); estado('Borrado.'); }
+  });
+  try {
+    var previo = localStorage.getItem(CLAVE);
+    if (previo) { escribir(JSON.parse(previo)); estado('Recuperé lo que guardaste en este dispositivo.'); }
+  } catch (err) {}
+  nota();
+})();
+</script>

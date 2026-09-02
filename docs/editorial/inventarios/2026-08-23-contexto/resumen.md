@@ -1,12 +1,12 @@
 # Barrido de claridad y contexto — 2026-08-23
 
-Este barrido cubre **200 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
+Este barrido cubre **203 fuentes Markdown**. Sus prioridades son señales para revisión humana, no órdenes de retiro.
 
 ## Totales
 
 - urgente: 0
 - alta: 0
-- media: 13
+- media: 16
 - baja: 187
 - afirmaciones de implementación por verificar: 0
 - estados contradictorios: 0
@@ -15,7 +15,7 @@ Este barrido cubre **200 fuentes Markdown**. Sus prioridades son señales para r
 
 ## Decisiones humanas registradas
 
-- conservar: 21
+- conservar: 24
 - cambiar: 52
 - quitar o poner en cuarentena: 0
 - pendientes: 127
@@ -24,6 +24,9 @@ Este barrido cubre **200 fuentes Markdown**. Sus prioridades son señales para r
 
 | Prioridad | Rol | Ruta | Señales faltantes | Riesgos |
 |---|---|---|---|---|
+| media | navegacion | `content/actividades/_index.md` | quien, acciones, lenguaje_directo | cuerpo-muy-breve |
+| media | pagina | `content/actividades/comparar-sugerencias/index.md` | situacion, quien, lenguaje_directo | cuerpo-muy-breve |
+| media | pagina | `content/actividades/revisar-actividad/index.md` | situacion, quien, lenguaje_directo | cuerpo-muy-breve |
 | media | navegacion | `content/areas/digital/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
 | media | navegacion | `content/areas/etica/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
 | media | navegacion | `content/areas/evaluacion/_index.md` | situacion, quien, acciones, lenguaje_directo | cuerpo-muy-breve |
@@ -42,6 +45,9 @@ Este barrido cubre **200 fuentes Markdown**. Sus prioridades son señales para r
 
 | Decisión | Ruta | Tipos de problema | Razón |
 |---|---|---|---|
+| conservar | `content/actividades/_index.md` | — | Portada breve de sección: explica qué son las actividades, que empiezan por un caso resuelto y que no envían datos. |
+| conservar | `content/actividades/comparar-sugerencias/index.md` | — | La actividad empieza con el caso completo de Renata resuelto (párrafo, dos cambios, decisión y razón) antes de pedir nada; el marco (co-creación) se nombra al final con enlace. |
+| conservar | `content/actividades/revisar-actividad/index.md` | — | La actividad empieza con el caso de la docente de primer semestre ya resuelto en tres frases y una ruptura marcada; el marco (alineación) se nombra al final con enlace. |
 | conservar | `content/areas/digital/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |
 | conservar | `content/areas/etica/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |
 | conservar | `content/areas/evaluacion/_index.md` | — | Es una página de término taxonómico: su función es titular y describir el listado automático de contenidos, no desarrollar una actividad independiente. |

@@ -48,8 +48,9 @@ Renata escribió una conclusión provisional sobre una muestra de agua. Pidió a
 una posible conclusión y un dato por comprobar. Recibió dos sugerencias: una amplía lo que afirma
 el texto; la otra señala que la lluvia reciente podría cambiar la interpretación.
 
-La actividad no decide por Renata. Le pide anotar qué cambia, qué consecuencia tendría, qué dato
-necesita comprobar y si conviene conservar, modificar, descartar o dejar pendiente cada propuesta.
+La actividad no decide por Renata. Con cada cambio se hace una sola pregunta: si lo acepto, ¿mi
+párrafo sigue diciendo lo que yo quería decir? Y responde con tres botones: lo acepto, lo cambio o
+lo dejo pendiente, con una razón en una línea.
 
 ## Qué obtendrás
 
@@ -57,13 +58,13 @@ Al terminar tendrás un fragmento antes y después de la revisión y dos notas b
 resultado no prueba por sí solo que el texto sea correcto: deja visible qué comprobaste y por qué
 elegiste cambiarlo o conservarlo.
 
-[Abrir la actividad “Compara dos sugerencias”](../../../actividades/comparar-sugerencias/)
+[Abrir la actividad “Dos cambios para tu texto: ¿cuál aceptas?”](../../../actividades/comparar-sugerencias/)
 {.udgia-action-link}
 
 La actividad funciona con teclado, incluye una hoja completa sin JavaScript y puede imprimirse.
 No envía respuestas ni exige una cuenta de IA. Puedes realizar el mismo aprendizaje con
 sugerencias preparadas por una persona o tomadas de dos versiones anteriores. Con un texto propio
-completarás cuatro pasos; puedes guardar voluntariamente el borrador y continuar en otro momento.
+completarás tres pasos; puedes guardar voluntariamente el borrador y continuar en otro momento.
 
 ## Antes y después
 

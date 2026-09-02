@@ -2,24 +2,24 @@
   "snapshot_date": "2026-08-23",
   "root": ".",
   "totals": {
-    "markdown": 200,
-    "pages": 170,
-    "sections": 30,
-    "words": 159674,
-    "assets": 231,
-    "content_assets": 227,
-    "shared_figure_assets": 4,
-    "pages_with_featured": 181,
+    "markdown": 203,
+    "pages": 172,
+    "sections": 31,
+    "words": 159854,
+    "assets": 236,
+    "content_assets": 230,
+    "shared_figure_assets": 6,
+    "pages_with_featured": 184,
     "pages_with_svg": 35,
-    "pages_with_tables": 67,
+    "pages_with_tables": 68,
     "pages_with_mermaid": 15,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
-    "body_lt90": 1,
-    "body_lt250": 37,
+    "body_lt90": 3,
+    "body_lt250": 39,
     "body_gt2800": 1,
     "missing_description": 0,
-    "missing_summary": 6,
+    "missing_summary": 7,
     "missing_date_pages": 0,
     "citation_without_reference_heading": 32,
     "legacy_glossary_link_occurrences": 0,
@@ -46,6 +46,17 @@
       "h5p": 0,
       "tables": 0,
       "weak_lt250": 0,
+      "missing_refs_with_citations": 0
+    },
+    "actividades": {
+      "pages": 2,
+      "sections": 1,
+      "words": 126,
+      "featured": 3,
+      "svg": 0,
+      "h5p": 0,
+      "tables": 1,
+      "weak_lt250": 2,
       "missing_refs_with_citations": 0
     },
     "areas": {
@@ -84,7 +95,7 @@
     "ia-educacion": {
       "pages": 61,
       "sections": 8,
-      "words": 71268,
+      "words": 71322,
       "featured": 63,
       "svg": 23,
       "h5p": 4,
@@ -139,6 +150,13 @@
   },
   "taxonomy": {
     "tags": {
+      "actividad": 2,
+      "estudiantes": 2,
+      "co-creacion": 1,
+      "revision-de-textos": 1,
+      "profesorado": 1,
+      "diseno-inverso": 2,
+      "alineacion": 1,
       "agenciamiento": 6,
       "Deleuze": 7,
       "filosofía de la técnica": 2,
@@ -185,7 +203,6 @@
       "competencias digitales": 1,
       "DigComp": 1,
       "UNESCO": 4,
-      "estudiantes": 1,
       "aprendizaje activo": 18,
       "aprendizaje híbrido": 4,
       "ICAP": 2,
@@ -221,7 +238,6 @@
       "backward design": 1,
       "rúbricas": 2,
       "taxonomia-bloom": 1,
-      "diseno-inverso": 1,
       "backward-design": 1,
       "objetivos-aprendizaje": 1,
       "niveles-cognitivos": 2,
@@ -539,14 +555,29 @@
       "video": 2
     },
     "areas": {
-      "ia": 157,
-      "pedagogia": 128,
+      "ia": 158,
+      "formacion": 59,
+      "pedagogia": 129,
+      "evaluacion": 52,
       "digital": 35,
-      "etica": 23,
-      "formacion": 58,
-      "evaluacion": 51
+      "etica": 23
     },
     "tag_variant_collisions": [
+      {
+        "canonical": "co creacion",
+        "variants": [
+          "co-creacion",
+          "co-creación"
+        ]
+      },
+      {
+        "canonical": "diseno inverso",
+        "variants": [
+          "diseno-inverso",
+          "diseño inverso",
+          "diseño-inverso"
+        ]
+      },
       {
         "canonical": "alfabetizacion ia",
         "variants": [
@@ -644,14 +675,6 @@
         "variants": [
           "ICAP",
           "icap"
-        ]
-      },
-      {
-        "canonical": "diseno inverso",
-        "variants": [
-          "diseño inverso",
-          "diseno-inverso",
-          "diseño-inverso"
         ]
       },
       {
@@ -1233,6 +1256,135 @@
         "featured",
         "svg-diagrama"
       ]
+    },
+    {
+      "path": "actividades/_index.md",
+      "route": "/actividades/",
+      "kind": "section",
+      "section": "actividades",
+      "title": "Actividades",
+      "date": "",
+      "draft": false,
+      "description": "Actividades breves para decidir con criterio antes de entregar o de dar una instrucción; funcionan sin cuenta, sin enviar datos y sin JavaScript.",
+      "summary": "",
+      "tags": [],
+      "categories": [],
+      "areas": [],
+      "words": 43,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": []
+      },
+      "decision": "actualizar",
+      "needs": []
+    },
+    {
+      "path": "actividades/comparar-sugerencias/index.md",
+      "route": "/actividades/comparar-sugerencias/",
+      "kind": "page",
+      "section": "actividades",
+      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "date": "2026-09-02",
+      "draft": false,
+      "description": "Pega un párrafo tuyo y dos cambios que te propusieron (una IA, un compañero, tu profesora). Sales con el párrafo revisado y una razón por cada cambio.",
+      "summary": "Actividad para estudiantes: decide qué hacer con dos cambios propuestos a tu texto y termina con el párrafo revisado y una razón por cada decisión.",
+      "tags": [
+        "actividad",
+        "estudiantes",
+        "co-creacion",
+        "revision-de-textos"
+      ],
+      "categories": [],
+      "areas": [
+        "ia",
+        "formacion"
+      ],
+      "words": 2,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 0,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "actividad-b2"
+        ]
+      },
+      "decision": "archivar-o-fusionar",
+      "needs": []
+    },
+    {
+      "path": "actividades/revisar-actividad/index.md",
+      "route": "/actividades/revisar-actividad/",
+      "kind": "page",
+      "section": "actividades",
+      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "date": "2026-09-02",
+      "draft": false,
+      "description": "Describe una actividad tuya en tres frases y mira en qué punto se rompe: piden una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita.",
+      "summary": "Actividad para profesorado: tres frases sobre una actividad propia, una ruptura marcada a mano y una instrucción reescrita con su razón.",
+      "tags": [
+        "actividad",
+        "profesorado",
+        "diseno-inverso",
+        "alineacion"
+      ],
+      "categories": [],
+      "areas": [
+        "pedagogia",
+        "evaluacion"
+      ],
+      "words": 81,
+      "heading_count": 0,
+      "h2_count": 0,
+      "external_url_count": 0,
+      "citation_signals": 0,
+      "reference_heading": false,
+      "internal_link_count": 0,
+      "broken_internal_links": [],
+      "visual": {
+        "featured": true,
+        "local_asset_count": 1,
+        "inline_image_count": 0,
+        "svg_count": 0,
+        "table_count": 1,
+        "mermaid_count": 0,
+        "chart_count": 0,
+        "h5p_count": 0,
+        "iframe_count": 0,
+        "shortcode_names": [
+          "actividad-m6",
+          "udgia-figure"
+        ]
+      },
+      "decision": "archivar-o-fusionar",
+      "needs": []
     },
     {
       "path": "areas/digital/_index.md",
@@ -4629,7 +4781,7 @@
         "ia",
         "formacion"
       ],
-      "words": 308,
+      "words": 329,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -4936,13 +5088,13 @@
         "ia",
         "formacion"
       ],
-      "words": 832,
+      "words": 865,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 4,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,

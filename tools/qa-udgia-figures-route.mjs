@@ -87,6 +87,13 @@ const routes = [{
   mobileSvg: 'ecosistema-sitio-mobile.svg',
   fallbackItems: 5,
   editorialState: 'original-synthesis',
+}, {
+  route: 'actividades/revisar-actividad/',
+  // UDGIA-023 (2026-09-02): figura de la actividad M6 reescrita.
+  id: 'udgia-f20-pide-practica-entrega',
+  mobileSvg: 'pide-practica-entrega-mobile.svg',
+  fallbackRows: 3,
+  editorialState: 'original-synthesis',
 }];
 const knownWarningPatterns = [
   /project config key languageCode was deprecated/,
