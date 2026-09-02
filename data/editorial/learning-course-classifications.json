@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "6604ff9715f363ea5bfc9a89b9ee8d0c1fd3b05a3060081249aac4bed2de257c",
+  "sourceInventorySha256": "2f9e403fde0b8f79a4d9dc53b7d0d76d9869633e7154697e9ed8442cd74c4bd7",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "f5e806e9a4df9f35b687678663fa21eafd6f7bea2180464b1158d74d371c9577",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -1075,7 +1075,7 @@
       "route": "/ia-educacion/guias/evaluacion-formativa-ia/",
       "title": "Añade a una tarea tuya un ciclo de retroalimentación con IA que puedas revisar",
       "kind": "page",
-      "words": 2830,
+      "words": 2831,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
