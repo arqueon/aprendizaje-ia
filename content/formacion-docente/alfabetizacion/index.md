@@ -14,15 +14,15 @@ tags: ["alfabetizacion", "literacidad", "co-creación", "pensamiento-critico"]
 categories: ["marco-conceptual"]
 ---
 
-{{< lead >}}
-Estar alfabetizado digitalmente ya no es saber usar herramientas. Exige comprender el ecosistema en el que operan y aprender a co-crear con la IA sin ceder la dirección epistémica del proceso —el control de qué se acepta, qué se descarta y hacia dónde va el trabajo—. Este marco organiza esa competencia en tres niveles acumulativos: operativa, crítica y co-creación.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ya usan IA, o que tienen que decidir qué formación pedir o dar en su departamento, y quieren saber qué significa hoy «saber usar» estas herramientas." haras="Vas a entender que hay tres cosas distintas que aprender con la IA: manejarla, entender qué hay detrás de lo que devuelve y trabajar con ella sin ceder las decisiones. Y por qué van en ese orden y se acumulan." tendras="Una pregunta para ubicarte a ti o a tu grupo («¿sé pedir, sé desconfiar o sé decidir qué acepto y por qué?») y el enlace al nivel que te falta, con sus cinco principios." tarda="Ocho a diez minutos de lectura." ejemplo="Empieza con Andrés, docente de química, que escribe buenos prompts y aun así no sabe qué pasa con los datos de su grupo ni cuándo dejar de aceptar lo que el modelo propone; su caso abre la primera sección." >}}
 
 ## Por qué hacen falta tres niveles
 
-La llegada de la IA generativa hizo insuficiente la alfabetización entendida como manejo de plataformas. Un docente puede formular prompts con soltura y aun así no estar equipado para evaluar qué hace el sistema con los datos de sus estudiantes, ni para sostener una interacción donde su juicio conduzca el proceso en lugar de seguirlo.
+Andrés da química general y usa IA desde hace un año: sus instrucciones son precisas, obtiene problemas resueltos y rúbricas en minutos. Un día sube a la herramienta la lista de calificaciones de su grupo para que le sugiera a quién apoyar, y no se le ocurre preguntarse a dónde van esos datos. Otro día acepta una rúbrica generada porque «se ve profesional», aunque evalúa cosas que no enseñó. Andrés sabe usar herramientas; lo que le falta es entender qué hace el sistema con lo que le da y sostener una conversación donde su juicio conduzca el proceso en lugar de seguirlo. Estar alfabetizado digitalmente hoy exige esas tres cosas: manejar la herramienta, comprender el ecosistema en el que opera y co-crear con la IA conservando el control de qué se acepta, qué se descarta y hacia dónde va el trabajo. Este marco organiza esa competencia en tres niveles acumulativos: operativa, crítica y co-creación. Úsalo para ubicar en cuál estás tú o tu grupo, y para elegir la formación que te falta.
 
-La razón de fondo es que la IA no es un artefacto neutro. Es, en términos de Vallès-Peris y Pareto (2025), un **modo de ordenamiento**: estructura decisiones, produce jerarquías y distribuye la agencia de maneras que no se ven en la interfaz. La literacidad crítica hace visible ese ordenamiento. La literacidad de co-creación enseña a interactuar con él sin ser absorbido.
+La llegada de la IA generativa hizo insuficiente la alfabetización entendida como manejo de plataformas: el caso de Andrés es común.
+
+La razón de fondo es que la IA ordena el trabajo de quien la usa (decide qué va primero en un resumen, qué desaparece, qué tono suena «correcto»). Es, en términos de Vallès-Peris y Pareto (2025), un **modo de ordenamiento**: estructura decisiones, produce jerarquías y distribuye la agencia de maneras que no se ven en la interfaz. La literacidad crítica hace visible ese ordenamiento. La literacidad de co-creación enseña a interactuar con él sin ser absorbido.
 
 {{< mermaid >}}
 flowchart LR
@@ -53,7 +53,7 @@ Cada nivel tiene su propia infografía con los cinco principios clave que lo def
 - **[Principios de la alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/)** — discernimiento, conciencia sociotécnica, agencia, uso selectivo y adaptabilidad contextual.
 - **[Principios de la alfabetización para la co-creación](/formacion-docente/alfabetizacion-co-creacion/)** — reconocer el acoplamiento, conservar la dirección epistémica, sostener el ciclo iterativo, documentar el proceso y cultivar la ganancia cognitiva.
 
-Para una **vista panorámica** del marco completo —diagrama, principios, alineación con Bloom y programa formativo—, ver el [mapa visual de las tres literacidades](/formacion-docente/mapa-literacidades-ia/).
+Para una **vista panorámica** del marco completo —diagrama, principios, correspondencia con Bloom y programa formativo—, ver el [mapa visual de las tres literacidades](/formacion-docente/mapa-literacidades-ia/).
 
 ## Nivel 1 — Operativa
 
@@ -83,16 +83,16 @@ Meshi (2024) describe este acoplamiento como un **ensamblaje cognitivo** (*cogni
 
 La competencia de co-creación implica:
 
-- Reformular instrucciones hasta que el resultado cumpla el criterio propio, no el estándar del modelo.
-- Descartar salidas plausibles que no sirven al propósito docente.
-- Documentar el proceso de co-creación como evidencia del trabajo intelectual.
+- Reformular instrucciones hasta que el resultado cumpla lo que tú pediste (por ejemplo, «tres causas, no diez»), no lo que el modelo suele dar.
+- Descartar salidas plausibles que no sirven a lo que querías enseñar (por ejemplo, un resumen correcto cuando querías un texto con un error para discutirlo).
+- Documentar el proceso de co-creación como muestra del trabajo intelectual («qué pedí, qué descarté, qué cambié»).
 - Saber cuándo **no** usar la IA: cuando el esfuerzo sin asistencia es lo que produce el aprendizaje.
 
 Los [cinco principios de la co-creación](/formacion-docente/alfabetizacion-co-creacion/) sintetizan esta capa. La [guía sobre alfabetización en co-creación](/formacion-docente/alfabetizacion-agenciamiento-ia/) desarrolla la progresión formativa en tres sub-niveles con indicadores observables. La [guía sobre co-creación persona-IA](/ia-educacion/guias/agenciamiento-humano-ia/) muestra, mediante un caso, cómo la persona conserva la dirección del proceso.
 
 ## Lo que los tres niveles comparten
 
-Ningún nivel se desarrolla solo leyendo. Los tres exigen práctica guiada, retroalimentación y tiempo protegido. Un docente con años de uso operativo puede no haber desarrollado el nivel crítico, y alguien con capacidad crítica sólida puede no haber entrenado la co-creación.
+Los tres niveles se desarrollan con práctica guiada, retroalimentación y tiempo protegido; leer sirve para saber qué buscar. Un docente con años de uso operativo, como Andrés, puede no haber desarrollado el nivel crítico, y alguien con capacidad crítica sólida puede no haber entrenado la co-creación. Si diriges formación docente, esa es la pregunta que conviene hacer antes de programar otro taller de prompts: ¿qué nivel le falta a este grupo?
 
 La [entrada de glosario sobre alfabetización en IA](/recursos/glosario/alfabetizacion-ia/) sintetiza el marco conceptual. Para profundizar en la formación del profesorado, la [sección de formación docente](/formacion-docente/) ofrece guías y talleres organizados por competencia.
 

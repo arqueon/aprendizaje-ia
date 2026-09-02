@@ -27,28 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una reseña se mide por la solidez del juicio: qué se valora, con qué argumentos y bajo qué criterios. La IAG puede ofrecer lecturas alternativas y objeciones al juicio propio; el juicio mismo no se delega.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de literatura, cine, artes o filosofía que piden una reseña (de una novela del programa, de un documental, de una exposición) y reciben textos correctos que resumen la obra y cierran con «es muy recomendable», sin un juicio que se pueda discutir." haras="Una estudiante de segundo semestre ve el documental que la profesora asignó, toma notas esa misma noche y escribe una primera tesis sin IA: «el documental conmueve porque esconde la voz de quienes contradicen a la protagonista». Después pide a la IA interpretaciones distintas de tres elementos que anotó (el montaje, las entrevistas cortadas, el silencio final) y le pide tres objeciones serias a su tesis. En la reseña final responde a cada objeción o la acepta con argumento. Entrega la reseña, las notas de la noche del visionado y la tesis versión 1. La IA entra en las fases 3 y 4, como par crítico; el juicio es de ella." tendras="Dos prompts copiables y una regla de revisión: «cada objeción de la IA aparece contestada o aceptada en el texto final, con un argumento sacado de la obra (una escena, una página, un plano)»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a la obra de tu curso." ejemplo="Empieza con la estudiante que reseña el documental, en el primer párrafo, y vuelve a ella en las fases y en las salvaguardas." >}}
+
+Una profesora de análisis cinematográfico pide una reseña de un documental sobre una
+defensora del agua. Recibe veinte textos que cuentan la trama y terminan con «es una
+película necesaria». Una de sus estudiantes hace otra cosa: anota esa misma noche qué
+la incomodó, escribe una tesis propia («conmueve porque esconde a quienes contradicen a
+la protagonista») y sólo después abre la IA para pedirle lecturas distintas y
+objeciones. Una reseña se mide por la solidez del juicio: qué se valora, con qué
+argumentos y contra qué se compara (otras obras del género, lo que la obra promete). La
+IA puede ofrecer lecturas alternativas y objeciones; el juicio mismo lo firma la
+estudiante.
 
 ## Qué es y para qué sirve
 
 Una **reseña** es un texto que describe brevemente una obra (libro,
 película, exposición, evento, software) y emite un **juicio crítico
 fundamentado** sobre ella. Combina descripción objetiva, análisis y
-valoración argumentada. No es resumen ni recomendación: es ejercicio de
-juicio.
+valoración argumentada. Va más allá del resumen y de la recomendación: es
+un ejercicio de juicio que otra persona puede discutir.
 
-**Uso formativo de la IAG en este producto:** ofrecer interpretaciones
-plausibles distintas a la del estudiante y objetar el juicio propio con
-argumentos. La IAG es un par crítico; el juicio sigue siendo del
+**Dónde entra la IA en este tipo de trabajo:** ofrece interpretaciones
+plausibles distintas a la de la estudiante (por ejemplo, que el silencio
+final es un homenaje y no una omisión) y objeta el juicio propio con
+argumentos. La IA es un par crítico; el juicio sigue siendo de la
 estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **4 y 5** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **4 y 5** de la taxonomía de Bloom, con
 nivel dominante **5 — Evaluar** (la emisión de un juicio crítico
-fundamentado).
+fundamentado). Para ti, la tabla es un banco de prompts: exige el de la
+fila 5 sólo después de que exista una tesis escrita sin IA.
 
 | Nivel Bloom | Movimiento de la reseña | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -58,7 +68,7 @@ fundamentado).
 ## Competencias que desarrolla
 
 - **Cognitivas** — análisis interpretativo, juicio fundamentado, sostenimiento de un punto de vista frente a objeciones, distinción entre gusto personal y argumento crítico.
-- **Comunicación** — escritura analítica concisa, articulación de juicio con evidencias de la obra.
+- **Comunicación** — escritura analítica concisa, juicio sostenido con elementos de la propia obra (una escena, una página, un plano).
 
 ## Secuencia de la actividad (proceso → producto)
 
@@ -88,11 +98,12 @@ o resiste cada objeción argumentadamente.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega la estudiante además de la reseña
 
 Riesgo **alto**: las reseñas son fáciles de generar con un mínimo de
-contexto. Las evidencias clave son las notas crudas de la experiencia
-con la obra y las versiones del juicio propio.
+contexto. Las dos piezas que más te dicen son las notas crudas de la
+experiencia con la obra (lo que anotó la noche del visionado) y las
+versiones del juicio propio (la tesis v1 antes de la IA, la v2 después):
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -105,6 +116,11 @@ con la obra y las versiones del juicio propio.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas las notas, la tesis v1 y las respuestas a las
+objeciones, no sólo la reseña final; ajusta los pesos a tu curso (por
+ejemplo, más peso a «uso crítico de la respuesta» si tu grupo tiende a
+adoptar la primera objeción sin defenderse):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -121,7 +137,8 @@ con la obra y las versiones del juicio propio.
 - **Reseña generada de cero.** Salvaguarda: notas crudas y tesis v1
   previas obligatorias.
 - **Juicio sin argumento.** "Me gustó / no me gustó" sin razones.
-  Salvaguarda: rúbrica exige argumento con evidencia de la propia obra.
+  Salvaguarda: la rúbrica exige que cada argumento señale algo de la propia
+  obra (una escena, un capítulo, un plano).
 - **Aceptación pasiva de objeciones.** El estudiante cambia su juicio sin
   defenderlo. Salvaguarda: cada objeción debe contestarse o aceptarse con
   argumento explícito.
@@ -130,9 +147,10 @@ con la obra y las versiones del juicio propio.
   como contraste.
 
 {{< alert icon="shield-halved" type="warning" >}}
-**Transparencia obligatoria.** Declarar uso de IAG y entregar notas
-crudas + tesis v1. La IAG es par crítico; el juicio y su defensa son del
-estudiante.
+**Transparencia obligatoria.** La estudiante declara el modelo y para qué
+lo usó (por ejemplo, «pedí tres objeciones a mi tesis en la fase 4») y
+entrega las notas crudas y la tesis v1. La IA es par crítico; el juicio y su
+defensa son de la estudiante.
 {{< /alert >}}
 
 ## Asignatura de ejemplo
@@ -142,12 +160,12 @@ con análisis crítico de obras culturales o académicas.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentación más extensa con tesis debatible.
-- Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — relato en lugar de juicio.
-- Producto cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — descripción sin juicio.
+- Trabajo cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentación más extensa con tesis debatible.
+- Trabajo cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — relato en lugar de juicio.
+- Trabajo cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — descripción sin juicio.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

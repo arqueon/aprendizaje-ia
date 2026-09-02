@@ -41,6 +41,8 @@ ecosistema:
 lastmod: "2026-08-24"
 ---
 
+{{< contrato modo="lectura" quien="Estudiantes y docentes que ya revisan un borrador con una IA y reciben cambios que suenan bien pero no saben si aceptarlos; también quien diseña una actividad y quiere saber qué pedirle al grupo para ver si decidió o sólo copió." haras="Vas a entender, con el caso de Renata, por qué una sugerencia de la IA todavía no es una decisión y qué cuatro acciones siguen siendo tuyas: formular lo que buscas, contrastar la sugerencia con algo externo (una fuente, lo que pide la tarea), decidir qué conservas y responder por la versión final." tendras="Una pregunta para aplicar a cualquier cambio que te propongan («¿qué cambió, con qué regla lo decidí y qué fuente sostiene la versión final?») y una tabla de dos filas para registrar sólo los cambios importantes (por ejemplo: «Acortar la explicación · la IA propuso una versión más fluida · recuperé la condición que se perdía · guardo versión anterior, versión final y razón»)." tarda="Unos quince minutos de lectura; veinticinco si haces el ejercicio interactivo del final." ejemplo="Empieza por el caso de Renata, en los dos primeros párrafos: dos sugerencias que suenan bien y dos decisiones distintas." >}}
+
 Renata prepara una explicación sobre un problema de su asignatura. Ya escribió un primer
 borrador y puede señalar la idea central. Al revisarlo con un sistema de IA generativa recibe dos
 sugerencias plausibles. La primera vuelve el texto más fluido, pero elimina la condición que
@@ -48,8 +50,8 @@ hace válido el argumento. La segunda pregunta si una afirmación cambia cuando 
 otro contexto. Esa objeción revela un supuesto que Renata no había comprobado.
 
 Las dos respuestas parecen útiles. Ninguna decide por sí sola qué debe cambiar. Renata
-necesita volver al propósito, revisar la evidencia y explicar por qué acepta, transforma o
-descarta cada aporte. Ese trabajo permite hablar de co-creación sin convertir la colaboración
+necesita volver a lo que quería explicar, revisar la fuente que ya estaba usando y explicar por
+qué acepta, transforma o descarta cada aporte. Ese trabajo permite hablar de co-creación sin convertir la colaboración
 con una herramienta en obediencia.
 
 ## Una sugerencia todavía no es una decisión
@@ -66,8 +68,8 @@ la persona conserva cuatro acciones que no conviene esconder:
 4. **responde**: se hace cargo del resultado y puede reconstruir el recorrido —qué aportó la
    herramienta, qué se comprobó y qué decisiones fueron humanas—.
 
-Renata no acepta la primera sugerencia porque “suena mejor”. La contrasta con la consigna y
-observa que la condición eliminada era necesaria. Conserva una frase más breve, pero
+Renata no acepta la primera sugerencia porque “suena mejor”. La contrasta con lo que pedía la tarea
+(explicar bajo qué condición vale el argumento) y observa que la condición eliminada era necesaria. Conserva una frase más breve, pero
 restituye la condición con sus propias palabras. En la segunda sugerencia no copia la
 objeción: consulta la fuente que ya estaba usando, encuentra que el contexto sí cambia la
 interpretación y reescribe su explicación. Al final puede responder por ambas decisiones sin
@@ -75,14 +77,15 @@ volver a la conversación.
 
 Este recorrido supone que Renata ya puede reconocer la idea central y una condición de
 validez. Cuando una persona todavía no puede hacerlo, pedirle que “verifique” por su cuenta no
-resuelve el problema: la actividad necesita ejemplos comentados, criterios visibles y
-acompañamiento antes de incorporar una respuesta generada.
+resuelve el problema: la actividad necesita ejemplos comentados, reglas visibles de qué cuenta como buena
+respuesta (por ejemplo: «conserva la condición que hace válido el argumento») y acompañamiento
+antes de incorporar una respuesta generada.
 
 ![Dos sugerencias se convierten en decisiones distintas: una se transforma para conservar una condición de validez y la otra se comprueba antes de revisar el argumento.](comparador-cocreacion.svg)
 
 La figura no muestra una ruta correcta por color ni una calificación. Muestra que un mismo
-aporte puede recibir tratamientos distintos. La pregunta útil no es “¿la IA ayudó?”, sino
-“¿qué cambió, con qué criterio y qué evidencia sostiene la versión final?”. Este mismo
+aporte puede recibir tratamientos distintos. La pregunta útil es «¿qué cambió, con qué regla lo decidí
+y qué fuente sostiene la versión final?», y no «¿la IA ayudó?». Este mismo
 contraste puede recorrerse de forma interactiva: la actividad
 [Compara dos sugerencias](../../../actividades/comparar-sugerencias/) pone delante un borrador
 y dos ayudas, y pide decidir qué hacer con cada una antes de mostrar qué cambia en el texto.
@@ -95,8 +98,8 @@ que ambos participantes comprendan o respondan de la misma manera. La herramient
 la persona mantiene la responsabilidad por lo que entrega.
 
 El término **agenciamiento persona–IA** amplía la mirada. Además de la persona y el sistema,
-incluye la actividad, las fuentes, los criterios, el tiempo disponible, las reglas del curso
-y las condiciones de acceso. Todos esos elementos pueden orientar lo que sucede, pero no
+incluye la actividad, las fuentes, lo que la tarea exige (por ejemplo, conservar la condición
+de validez), el tiempo disponible, las reglas del curso y las condiciones de acceso. Todos esos elementos pueden orientar lo que sucede, pero no
 tienen la misma capacidad de comprender, decidir o responder por una consecuencia.
 
 Este uso retoma de manera acotada el concepto de *agencement* de Deleuze y Guattari: una
@@ -107,20 +110,20 @@ agenciamiento persona–IA]({{< relref "blog/agenciamiento-humano-ia" >}}) desar
 filosófico; aquí se traduce en decisiones observables para aprender y enseñar.
 
 En el caso de Renata, el resultado no depende solo de “una buena conversación”. También
-depende del primer borrador, la consigna que exige conservar la condición, la fuente que permite
+depende del primer borrador, la instrucción de la tarea que exige conservar la condición, la fuente que permite
 comprobar el supuesto y la decisión de no confundir fluidez con exactitud. Nombrar esa
 configuración ayuda a mirar el proceso completo sin presentar al sistema como autor moral ni
 a la estudiante como simple operadora.
 
 La **dirección epistémica** es la capacidad de decidir qué cuenta como una respuesta
-pertinente y fundada: qué pregunta se intenta resolver, qué evidencia se acepta y qué versión
+pertinente y fundada: qué pregunta se intenta resolver, qué fuentes se aceptan como respaldo y qué versión
 puede sostenerse. La conserva Renata cuando usa la respuesta como material para pensar y no
 como sustituto de su juicio. La figura siguiente representa el ciclo —formular, contrastar,
 decidir y responder— y dos desenlaces posibles, no dos efectos automáticos de la tecnología.
 
 {{< udgia-figure id="udgia-f05-cocreacion" src="cocreacion-dos-desenlaces.svg" >}}
 La persona y la IA aportan cosas distintas al trabajo conjunto: la IA propone variantes y
-señales; la persona conserva el juicio y el propósito. El recorrido —formular, contrastar,
+señales; la persona conserva el juicio y lo que quería decir. El recorrido —formular, contrastar,
 decidir y responder— gira alrededor de una pregunta: ¿quién comprueba y decide?
 
 | Decisión de la persona | Qué ocurre con la respuesta | Desenlace |
@@ -150,20 +153,21 @@ Una IA propone una explicación clara sobre un problema de tu disciplina, pero d
 no están respaldadas por las fuentes citadas. ¿Qué ruta permite conservar la dirección
 epistémica y convertir el hallazgo en una mejor iteración?
 
-- **Explicitar el criterio → verificar las afirmaciones en las fuentes → decidir qué conservar
+- **Explicitar qué cuenta como buena respuesta (por ejemplo: «cada afirmación tiene una fuente
+  que la respalda») → verificar las afirmaciones en las fuentes → decidir qué conservar
   o rechazar y por qué → reformular la pregunta y el texto.** Esta es la ruta que conserva la
-  dirección epistémica: el criterio orienta el contraste, el contraste informa una decisión y
+  dirección epistémica: esa regla orienta el contraste, el contraste informa una decisión y
   la decisión transforma la siguiente iteración.
 - **Corregir el estilo de la respuesta → conservar sus ideas centrales → añadir las referencias
   sugeridas al final.** No resuelve el problema de fondo: las afirmaciones siguen sin
   contrastarse y las referencias no se validan; una respuesta más pulida no es necesariamente
   una respuesta mejor fundada.
 - **Consultar a tres sistemas → elegir la respuesta que más se repita → reformularla con
-  palabras propias.** La coincidencia entre sistemas no sustituye una fuente ni un criterio
-  disciplinar: una mayoría de respuestas puede repetir el mismo error.
+  palabras propias.** La coincidencia entre sistemas no sustituye una fuente ni el juicio de la
+  disciplina: una mayoría de respuestas puede repetir el mismo error.
 - **Pedir a la IA que evalúe su propia respuesta → aceptar sus correcciones → entregar el
   resultado con una nota de uso.** La revisión automática puede aportar pistas, pero delegarle
-  también el juicio final mantiene el criterio fuera de la persona; documentar el uso no basta
+  también el juicio final deja la decisión fuera de la persona; documentar el uso no basta
   si la decisión sigue delegada.
 - **Guardar la conversación completa → seleccionar el fragmento más convincente → explicar que
   la IA ayudó a producirlo.** El registro muestra qué ocurrió, pero no demuestra contraste ni
@@ -171,7 +175,7 @@ epistémica y convertir el hallazgo en una mejor iteración?
   epistémica se relacionan, pero no son equivalentes.
 {{< /h5p >}}
 
-## Qué permite afirmar la evidencia
+## Qué permiten afirmar los dos estudios
 
 Dos estudios recientes respaldan esta cautela, aunque no establecen una regla universal. En
 un estudio exploratorio que comparó a 36 estudiantes durante ocho semanas, el grupo que trabajó
@@ -181,15 +185,15 @@ Otro estudio analizó 40 encuestas, seis conversaciones y dos entrevistas. Las c
 distinguieron un uso pasivo, dirigido por la respuesta de la IA, de una colaboración con mayor
 actividad de la persona; las dos entrevistas mostraron que una guía estructurada ayudó a llegar
 a la resolución: formular y aplicar una conclusión (Nasr et al., 2025). Por el tamaño y el
-contexto de ambas investigaciones, conviene leerlas como evidencia situada: apoyan el diseño
-con criterios y acompañamiento, no la promesa de que toda co-creación produzca aprendizaje.
+contexto de ambas investigaciones, conviene leerlas como resultados de su contexto: apoyan el diseño
+con reglas visibles y acompañamiento, no la promesa de que toda co-creación produzca aprendizaje.
 
 ## El rastro útil es pequeño y significativo
 
 Documentar co-creación no exige entregar una transcripción completa. Un registro breve puede
 mostrar mejor el aprendizaje:
 
-| Cambio considerado | Qué aportó el sistema | Qué hizo la persona | Evidencia conservada |
+| Cambio considerado | Qué aportó el sistema | Qué hizo la persona | Qué se guarda |
 |---|---|---|---|
 | Acortar la explicación | Una versión más fluida | Renata recuperó la condición que se había perdido | Versión anterior, versión final y razón |
 | Revisar un supuesto | Una objeción contextual | Consultó una fuente y cambió el argumento | Fuente, decisión y fragmento revisado |
@@ -201,7 +205,7 @@ Conviene conservar solo aquello que permite reconstruir una decisión relevante.
 ## La alternativa sin IA conserva el mismo aprendizaje
 
 Renata también podría recibir dos cambios preparados por el profesorado o intercambiar su
-borrador con otra persona. La ruta cambia, pero la evidencia se mantiene: una comparación,
+borrador con otra persona. La ruta cambia, pero lo que se entrega se mantiene: una comparación,
 una comprobación, una versión revisada y una razón. Al comparar las rutas, conviene comprobar
 que la alternativa exige el mismo pensamiento y no se convierte en sanción para quien no
 puede o no desea usar IA.
@@ -209,20 +213,20 @@ puede o no desea usar IA.
 Puede ser razonable no usar la herramienta cuando el material contiene datos sensibles,
 cuando no ofrece condiciones de uso aceptables o cuando la ayuda realizaría justamente el
 trabajo que se intenta aprender. La decisión de no usarla también expresa agencia si responde
-al propósito y a las condiciones reales.
+a lo que la tarea busca y a las condiciones reales.
 
 ## Cuatro preguntas para conservar la dirección
 
 Estas preguntas recorren las mismas cuatro acciones de la guía y de la figura:
 
 1. **Formular:** ¿qué intentaba comprender o producir antes de pedir ayuda, y con qué límites?
-2. **Contrastar:** ¿qué fuente, criterio o ejemplo —externo a la respuesta— permite comprobarla?
+2. **Contrastar:** ¿qué fuente, regla o ejemplo —externo a la respuesta— permite comprobarla?
 3. **Decidir:** ¿qué aporte no se sostiene y cuál conviene conservar o transformar, por qué razón?
 4. **Responder:** ¿puedo reconstruir el recorrido y hacerme cargo de la versión final?
 
-## De dónde viene este criterio
+## De dónde viene esta secuencia
 
-[La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia del que proviene este criterio;
+[La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia del que proviene esta secuencia;
 todavía no es una norma institucional vigente. En esta página se vuelve una secuencia de
 cuatro acciones —formular, contrastar, decidir y responder— que distingue qué aportó la
 herramienta, comprueba cómo influyó y conserva la responsabilidad por la decisión. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lo traduce en una comparación

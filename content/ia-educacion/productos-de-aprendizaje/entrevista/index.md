@@ -27,29 +27,40 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La calidad de una entrevista se decide antes de hablar: en las preguntas que se diseñan y en el contexto que se prepara. La IAG puede afinar el cuestionario y leer una transcripción con ojo nuevo; el encuentro en sí no se delega.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de trabajo social, periodismo, educación, salud o investigación cualitativa que piden una entrevista (a una comerciante del mercado, a una enfermera jubilada, a una madre de familia de la escuela) y reciben cuestionarios llenos de preguntas de sí o no, o transcripciones que nadie puede comprobar." haras="Una estudiante de trabajo social debe entrevistar a una locataria del mercado municipal sobre cómo cambió su negocio con el supermercado nuevo. Escribe sola su cuestionario, pide a la IA que le marque cuáles preguntas son cerradas o llevan la respuesta («¿verdad que vendió menos?»), hace la entrevista grabada y con consentimiento firmado, y después pide a la IA que lea la transcripción y le señale temas que ella no había preguntado y respuestas evasivas. Entrega las dos versiones del cuestionario, la grabación y su análisis. La IA entra antes y después; el encuentro es de ella con la locataria." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «sin consentimiento firmado y grabación no hay entrevista que revisar; el cuestionario v1 (sin IA) y el v2 (con IA) se entregan con los cambios marcados»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a tu asignatura." ejemplo="Empieza con el caso de la locataria del mercado, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Una profesora de trabajo social pide a su grupo una entrevista a una persona que viva
+del comercio de barrio. Una estudiante elige a la locataria de la pollería del mercado
+municipal, que lleva veinte años ahí y acaba de ver abrir un supermercado enfrente. La
+calidad de esa entrevista se decide antes de hablar: en las preguntas que la estudiante
+diseña (si empieza con «¿verdad que ha vendido menos?» ya sabe lo que va a oír) y en el
+contexto que prepara. La IA puede afinarle el cuestionario y leer después la transcripción
+con ojo nuevo; la hora en la pollería, con la grabadora y el consentimiento firmado, es de
+la estudiante.
 
 ## Qué es y para qué sirve
 
-Una **entrevista** como producto de aprendizaje es un encuentro
+Una **entrevista** como trabajo de aprendizaje es un encuentro
 intencional para recoger información cualitativa de una persona: su
-experiencia, opinión, conocimiento o testimonio. El valor formativo
-está en el **diseño de preguntas pertinentes**, en la **conducción
-respetuosa** y en el **análisis honesto** de lo que se dijo.
+experiencia, opinión, conocimiento o testimonio. Lo que el estudiante
+practica es el **diseño de preguntas pertinentes**, la **conducción
+respetuosa** y el **análisis honesto** de lo que se dijo.
 
-**Uso formativo de la IAG en este producto:** dar contexto previo,
-refinar las preguntas para evitar respuestas inducidas, y leer la
-transcripción posterior para identificar temas emergentes o respuestas
-evasivas. La IAG nunca participa en el encuentro con la persona
-entrevistada.
+**Dónde entra la IA en este tipo de trabajo:** da contexto previo (qué
+pasó con los mercados municipales cuando llegaron los supermercados),
+afina las preguntas para evitar respuestas inducidas (convierte «¿verdad
+que vendió menos?» en «¿cómo cambió su venta desde que abrió el
+supermercado?») y lee la transcripción posterior para señalar temas que
+la estudiante no preguntó o respuestas evasivas. La IA nunca participa en
+el encuentro con la persona entrevistada.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **2 a 4** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **2 a 4** de la taxonomía de Bloom, con
 nivel dominante **3 — Aplicar** (el diseño y la conducción de
-preguntas abiertas).
+preguntas abiertas). Para ti, la tabla es un banco de prompts: el de la
+fase 2 (revisar el cuestionario) es el que más cambia lo que entrega tu
+grupo; cópialo y sustituye los corchetes por el tema de tu asignatura.
 
 | Nivel Bloom | Movimiento de la entrevista | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -90,11 +101,12 @@ final.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del análisis
 
-Riesgo **bajo**: el encuentro presencial deja huella verificable. Las
-evidencias clave son el cuestionario v1 y v2 y la grabación o
-transcripción crudas.
+Riesgo **bajo**: el encuentro presencial deja rastro comprobable (la
+grabación, el consentimiento firmado). Las dos piezas que más te dicen son
+el cuestionario en sus dos versiones (v1 sin IA, v2 con IA y cambios
+marcados) y la grabación o transcripción crudas:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -108,6 +120,10 @@ transcripción crudas.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas los dos cuestionarios, la grabación y el análisis,
+no sólo el reporte final; ajusta los pesos a tu curso (por ejemplo, más peso
+a «uso ético» si tu grupo entrevista a personas vulnerables):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -145,11 +161,11 @@ Ciencias sociales, periodismo, trabajo social, educación, salud
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — la entrevista como técnica dentro de un diseño.
-- Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — la entrevista como insumo narrativo.
+- Trabajo cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — la entrevista como técnica dentro de un diseño.
+- Trabajo cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — la entrevista como material para narrar (lo que dijo la locataria se vuelve escena).
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

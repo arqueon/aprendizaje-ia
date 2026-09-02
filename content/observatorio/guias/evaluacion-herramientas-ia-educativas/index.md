@@ -1,8 +1,8 @@
 ---
-title: "Evaluación de herramientas IA educativas: criterios y matriz"
+title: "Revisa una herramienta de IA antes de autorizarla: seis dimensiones y una decisión"
 date: 2026-04-26
 draft: false
-description: "Matriz revisable en seis dimensiones para comparar beneficios, riesgos y condiciones antes de autorizar una herramienta educativa con IA."
+description: "Responde con fuentes a la vista las preguntas de una matriz en seis dimensiones y cierra con una decisión preliminar de una página para la instancia que autoriza."
 summary: "Una adaptación de ASCCC y McMaster/eCampusOntario para hacer preguntas, documentar respuestas y separar una revisión preliminar de una autorización institucional."
 tags: ["evaluación de herramientas", "rúbrica institucional", "adopción", "comité académico"]
 categories: ["guia"]
@@ -17,9 +17,15 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. Sirve para documentar preguntas y respuestas; no sustituye una decisión institucional.
-{{< /lead >}}
+{{< contrato quien="Personas de un comité académico, una coordinación o un área de TI a quienes les piden opinión sobre una herramienta de IA (un tutor automático, un corrector de ensayos, una plataforma de cuestionarios) antes de comprarla o recomendarla." haras="Vas a responder, con la documentación del proveedor a la vista, las treinta preguntas de la matriz en seis dimensiones (privacidad, aporte al aprendizaje, equidad, funcionamiento, ética y sostenibilidad), marcando cada respuesta como confirmada, parcial, desconocida o no aplicable, y vas a cerrar con una de cuatro decisiones." tendras="Una matriz llena y una decisión preliminar de una página para la instancia que autoriza (por ejemplo: «Revisar después: el proveedor no responde si usa las conversaciones para entrenar; la versión gratuita limita a diez consultas diarias y no hay alternativa equivalente para el grupo»)." tarda="Diez minutos con el caso de abajo; entre dos y cuatro horas llenando la matriz de una herramienta real, repartidas entre dos o tres personas." ejemplo="Abajo está el caso de un comité de un centro universitario que revisó un corrector automático de ensayos, ya resuelto, con lo que pudo confirmar, lo que quedó desconocido y la decisión que emitió." >}}
+
+## El caso del corrector de ensayos, ya resuelto
+
+A un comité de tres personas (una profesora de lengua, un responsable de TI y una coordinadora) le pidieron opinión sobre un corrector automático de ensayos que un proveedor ofrecía «gratis para universidades». Repartieron las seis dimensiones y, en dos sesiones, respondieron la matriz con la política de privacidad, los términos de uso y una prueba con tres ensayos ficticios.
+
+Lo que quedó **confirmado**: corrige ortografía y estructura en español con calidad aceptable; funciona con teclado y lector de pantalla; exporta los comentarios en PDF. Lo que quedó **parcial**: la calidad bajó mucho con un ensayo de derecho, así que la dimensión de aporte al aprendizaje depende de la disciplina. Lo que quedó **desconocido**: el proveedor no contestó si usa los ensayos para entrenar sus modelos ni dónde aloja los datos; la «gratuidad» se vence en doce meses y no hay precio publicado.
+
+Decisión que emitió el comité, en una página: «Revisar después. Riesgo de privacidad sin resolver (uso para entrenamiento desconocido); continuidad incierta (precio a doce meses). Si el proveedor responde por escrito las dos preguntas pendientes, proponemos una prueba controlada con ensayos anonimizados en dos asignaturas». Esa página fue a la instancia que autoriza; el comité no autorizó nada por sí mismo. Lo que sigue te permite hacer lo mismo con la herramienta que te pidieron revisar.
 
 ## De dónde sale esta matriz
 
@@ -27,15 +33,15 @@ La Academic Senate for California Community Colleges (ASCCC) propone preguntas s
 
 Esta guía **adapta y simplifica** ambos recursos para una universidad pública mexicana. Las seis dimensiones y la secuencia de trabajo que siguen son una síntesis editorial del sitio, no una reproducción literal ni un procedimiento obligatorio atribuido a esas organizaciones.
 
-eCampusOntario presenta su rúbrica como una ayuda informal para conversar y decidir. También recomienda **consultar al centro o unidad local de enseñanza y aprendizaje y al área de tecnología o TI**. Por eso una respuesta favorable en esta matriz no equivale a autorización para contratar, integrar o exigir una herramienta.
+eCampusOntario presenta su rúbrica como una ayuda informal para conversar y decidir. También recomienda **consultar al centro o unidad local de enseñanza y aprendizaje y al área de tecnología o TI**. Por eso una respuesta favorable en esta matriz no equivale a autorización para contratar, integrar o exigir una herramienta: tu matriz llena y tu decisión preliminar van a la instancia que autoriza, como en el caso del corrector.
 
-## Seis dimensiones de evaluación
+## Responde la matriz: seis dimensiones
 
-Las dimensiones se revisan en conjunto. Una herramienta puede resolver bien una tarea y fallar en privacidad; otra puede proteger datos, pero excluir a personas que usan tecnologías de asistencia. Cada respuesta debe indicar la fuente consultada y lo que aún no se conoce.
+Reparte las dimensiones entre quienes revisan y respóndanlas en conjunto. Una herramienta puede resolver bien una tarea y fallar en privacidad; otra puede proteger datos, pero excluir a personas que usan tecnologías de asistencia. Cada respuesta debe indicar la fuente consultada y lo que aún no se conoce.
 
 ### 1. Privacidad y tratamiento de datos
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Política de retención | ¿Qué datos conserva, durante cuánto tiempo y cómo se solicita su eliminación? |
 | Uso para entrenamiento | ¿Usa conversaciones, archivos o respuestas para entrenar modelos? ¿Se puede impedir? |
@@ -47,7 +53,7 @@ No deben usarse datos personales, trabajos identificables ni información estudi
 
 ### 2. Aporte al aprendizaje y supervisión humana
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Resultado de aprendizaje | ¿Qué conocimiento, decisión o habilidad ayuda a practicar y cómo se comprobará? |
 | Acción de la persona | ¿La herramienta permite comparar, corregir, explicar o decidir, o solo produce una respuesta terminada? |
@@ -59,7 +65,7 @@ Una demostración del proveedor no prueba que una herramienta mejore resultados 
 
 ### 3. Equidad y accesibilidad
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Costo | ¿La versión disponible para todas las personas permite realizar la misma actividad? |
 | Acceso técnico | ¿Funciona en dispositivos de gama media-baja y conexiones modestas? |
@@ -69,7 +75,7 @@ Una demostración del proveedor no prueba que una herramienta mejore resultados 
 
 ### 4. Funcionalidad y calidad
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Capacidad para la tarea | ¿Resuelve la tarea concreta con calidad suficiente y bajo qué condiciones? |
 | Fiabilidad | ¿Qué errores aparecen de forma repetida? ¿Cómo se registraron y compararon? |
@@ -79,7 +85,7 @@ Una demostración del proveedor no prueba que una herramienta mejore resultados 
 
 ### 5. Ética y transparencia
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Sesgos documentados | ¿El proveedor publica evaluaciones de sesgo pertinentes para las personas afectadas? |
 | Límites explicados | ¿Docentes y estudiantes pueden saber qué hace la herramienta, qué no hace y cuándo puede fallar? |
@@ -89,7 +95,7 @@ Una demostración del proveedor no prueba que una herramienta mejore resultados 
 
 ### 6. Sostenibilidad operativa e institucional
 
-| Criterio | Pregunta concreta |
+| Qué se revisa | Pregunta concreta |
 |---|---|
 | Soporte | ¿Hay un canal de soporte, en qué idioma y con qué tiempos de respuesta? |
 | Continuidad | ¿Qué ocurrirá si el proveedor cambia funciones, licencia, precio o disponibilidad? |
@@ -97,7 +103,7 @@ Una demostración del proveedor no prueba que una herramienta mejore resultados 
 | Revisión periódica | ¿Quién revisará privacidad, accesibilidad, utilidad y contrato, y con qué frecuencia? |
 | Sostenibilidad ambiental | ¿El proveedor informa consumo o medidas ambientales que permitan comparar opciones? |
 
-## Cómo usar la matriz
+## Cierra con una decisión, paso a paso
 
 La siguiente secuencia es una **propuesta local revisable**. No se atribuye como procedimiento completo a ASCCC o eCampusOntario.
 
@@ -119,7 +125,9 @@ La autorización institucional corresponde a las áreas con responsabilidad acad
   {{< /paso >}}
 {{< /proceso >}}
 
-## Decisiones posibles
+## Elige una de cuatro decisiones
+
+Tu página final lleva una de estas cuatro, con las razones al lado, como hizo el comité del corrector:
 
 - **No continuar:** hay un riesgo inaceptable o información indispensable que el proveedor no entrega.
 - **Revisar después:** faltan respuestas concretas o una alternativa accesible.

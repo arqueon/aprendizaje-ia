@@ -21,9 +21,7 @@ showAuthor: false
 asignatura: "Filosofía / Ética"
 ---
 
-{{< lead >}}
-¿Puede la IA ayudar a un estudiante a pensar con más rigor? En esta actividad, la IA no responde preguntas — las hace. Actúa como el adversario filosófico que todo argumento necesita.
-{{< /lead >}}
+{{< contrato quien="Docentes de filosofía o ética cuyo grupo llega al debate sin haber anticipado una sola objeción a su propia postura." haras="Vas a fijar una tesis discutible (o usar la de ejemplo), pedir a cada estudiante que la defienda en 300 palabras, que la someta a Gemini o Claude como ‘abogado del diablo’ y que traiga al debate dos objeciones con su respuesta y una nota de qué cambió." tendras="Una secuencia de tres semanas con sus entregables y una rúbrica de cuatro filas con descriptores (por ejemplo, el entregable de la semana 2: «Objeción 1: ‘¿y si la mentira salva una vida?’ · Mi respuesta: … · Qué cambié: acoté la tesis a las mentiras por conveniencia»). Es lo que pegas en tu curso." tarda="Diez minutos para leer el caso y la secuencia; treinta para adaptar la tesis y la rúbrica a tu materia. Con el grupo ocupa tres semanas." ejemplo="Abajo está el caso de Diego, ya resuelto: su tesis sobre la mentira, las dos objeciones que eligió, lo que respondió y lo que cambió. Léelo antes de fijar tu tesis." >}}
 
 {{< alert icon="flask" type="warning" >}}
 **Estado: actividad propuesta.** Esta página describe un diseño para adaptar, no una
@@ -31,6 +29,17 @@ aplicación observada. No existe un expediente —curso, grupo, fecha, instrumen
 resultados— que la respalde como caso implementado. Quien la aplique deberá documentar
 contexto y resultados antes de presentarla como práctica documentada.
 {{< /alert >}}
+
+## El caso de Diego, ya resuelto
+
+Diego cursa Ética y eligió defender esta tesis: «Mentir es moralmente inaceptable incluso para evitar un daño». La escribió en 300 palabras con dos fuentes (Kant y un artículo sobre confianza social) y le pidió a Claude que la refutara desde tres perspectivas. De las objeciones que recibió eligió dos y entregó esto:
+
+| Objeción que eligió | Su respuesta | Qué cambió en su tesis |
+|---|---|---|
+| «¿Y si la mentira salva una vida? Un asesino pregunta dónde está tu amigo.» | «Puedo callar o negarme a responder sin mentir; el deber es no engañar, no confesar todo.» | Añadió una premisa: «hay alternativas a mentir que también evitan el daño». |
+| «Las mentiras piadosas sostienen relaciones; prohibirlas todas es inhumano.» | «Decir ‘me gusta tu regalo’ no busca manipular una decisión; distingo mentira de cortesía.» | Acotó la tesis a «mentiras que buscan que otra persona decida con información falsa». |
+
+Al debate llegó con la tesis acotada, las dos objeciones y sus respuestas. En la autoevaluación escribió que la IA le sirvió para encontrar el caso del asesino, y que le limitó porque repetía objeciones parecidas hasta que él le pidió «una objeción desde el contractualismo». Esa tabla de dos filas y esa nota son lo que la actividad pide a cada estudiante.
 
 ## Contexto de aplicación previsto
 
@@ -46,13 +55,13 @@ Desarrollar la capacidad de argumentar con solidez al exponer ideas a contra-arg
 
 ## Cómo se integra la IA
 
-El estudiante usa Gemini o Claude en modo "abogado del diablo": le presenta su argumento y pide que la IA lo refute desde distintas perspectivas filosóficas. Como evidencia no se entrega la conversación completa: el estudiante selecciona dos objeciones que la IA le planteó, transcribe su respuesta a cada una y añade una nota sobre qué cambió en su argumento a raíz del intercambio.
+El estudiante usa Gemini o Claude en modo "abogado del diablo": le presenta su argumento y pide que la IA lo refute desde distintas perspectivas filosóficas. Lo que entrega es corto, como la tabla de Diego: dos objeciones que la IA le planteó, su respuesta a cada una y una nota sobre qué cambió en su argumento a raíz del intercambio. La conversación completa se queda con él.
 
-La IA no toma postura propia: su rol es presionar, cuestionar y ofrecer objeciones. El estudiante decide cómo responde.
+La IA no toma postura propia: hace preguntas, presiona y ofrece objeciones. El estudiante decide cómo responde.
 
-## Tesis inicial de ejemplo
+## Elige la tesis para tu grupo
 
-Para probar la secuencia sin inventar el material desde cero, sirve una tesis discutible con literatura accesible:
+Para probar la secuencia sin inventar el material desde cero, sirve la tesis de Diego, discutible y con literatura accesible:
 
 > **«Mentir es moralmente inaceptable incluso para evitar un daño».** El estudiante que la
 > defienda deberá anticipar objeciones consecuencialistas (¿y si la mentira salva una vida?),
@@ -73,7 +82,7 @@ El estudiante le presenta su argumento a la IA y le pide que lo refute desde dis
 {{< /timelineItem >}}
 
 {{< timelineItem icon="users" header="Semana 3 — Debate presencial" subheader="En equipos de 4" >}}
-Cada estudiante defiende su tesis refinada en un debate grupal. El docente evalúa la calidad argumentativa con la rúbrica analítica, usando como evidencia las dos objeciones seleccionadas y las respuestas del estudiante.
+Cada estudiante defiende su tesis refinada en un debate grupal. El docente evalúa la calidad argumentativa con la rúbrica analítica, usando las dos objeciones seleccionadas y las respuestas del estudiante.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="list-check" header="Cierre — Autoevaluación reflexiva" subheader="Entrega escrita" >}}
@@ -84,20 +93,20 @@ El estudiante reflexiona por escrito sobre qué aportó y qué limitó el diálo
 
 ## Forma de evaluación
 
-Se usa una **rúbrica analítica** con cuatro criterios:
+Se usa una **rúbrica analítica** con cuatro filas:
 
-| Criterio | Peso |
+| Qué se valora | Peso |
 |----------|------|
 | Solidez del argumento central | 30% |
 | Manejo de objeciones en debate | 30% |
-| Calidad de la evidencia del diálogo con IA (objeciones y respuestas) | 20% |
+| Calidad de las objeciones y respuestas del diálogo con IA | 20% |
 | Autoevaluación reflexiva | 20% |
 
-Descriptores propuestos para cada criterio:
+Descriptores propuestos para cada fila:
 
 - **Solidez del argumento central.** Nivel alto: tesis precisa, premisas explícitas y fuentes pertinentes. Nivel medio: tesis clara pero con premisas implícitas o fuentes débiles. Nivel bajo: opinión sin estructura argumentativa.
 - **Manejo de objeciones en debate.** Nivel alto: responde al contenido de la objeción y reformula si es necesario. Nivel medio: responde parcialmente o desvía. Nivel bajo: ignora o repite su postura sin responder.
-- **Calidad de la evidencia del diálogo con IA.** Nivel alto: las dos objeciones seleccionadas son sustantivas y las respuestas muestran elaboración propia. Nivel medio: objeciones superficiales o respuestas mínimas. Nivel bajo: evidencia ausente o sin relación con el argumento defendido.
+- **Calidad de las objeciones y respuestas del diálogo con IA.** Nivel alto: las dos objeciones seleccionadas son sustantivas y las respuestas muestran elaboración propia (como la segunda fila de Diego). Nivel medio: objeciones superficiales o respuestas mínimas. Nivel bajo: objeciones ausentes o sin relación con el argumento defendido.
 - **Autoevaluación reflexiva.** Nivel alto: identifica con ejemplos qué aportó y qué limitó la IA. Nivel medio: valoración general sin ejemplos. Nivel bajo: reflexión formularia.
 
 {{< alert icon="shield-halved" type="warning" >}}

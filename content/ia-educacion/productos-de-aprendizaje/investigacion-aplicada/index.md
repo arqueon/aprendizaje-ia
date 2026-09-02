@@ -27,27 +27,39 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una investigación aplicada se evalúa por su capacidad de cruzar de la teoría al contexto de aplicación sin perder rigor en el camino. La IAG puede mapear brechas y riesgos de transferencia; los supuestos sobre el contexto y la verificación empírica son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes y directores de tesis de posgrado en ingeniería, I+D o vinculación con empresas que reciben protocolos de investigación aplicada con un estado del arte impecable y una aplicación que da por hecho un contexto que nadie ha visitado (la planta, la cooperativa, la clínica)." haras="Una estudiante de maestría en ingeniería de procesos propone un secador solar para una cooperativa de deshidratado de mango en Nayarit. Con la IA decide qué modalidad de investigación le conviene (I+D con validación en planta), le pasa los doce artículos que ya leyó para que le señale brechas, le pide qué supuestos sobre el contexto podrían fallar (descubre que asumió humedad relativa de laboratorio y en Nayarit en agosto es del 80 %) y arma un plan de validación con riesgos de transferencia. Entrega literatura verificada, lista de supuestos con su prueba, plan y mapa de riesgos. La IA entra en las cuatro fases sobre lo que la estudiante leyó y midió; los supuestos y su comprobación en la cooperativa son suyos." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «cada supuesto sobre el contexto lleva su prueba (por ejemplo, ‘humedad relativa media en agosto: medir en la cooperativa dos semanas, no tomar la tabla del laboratorio’)»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a un protocolo de tu seminario." ejemplo="Empieza con el caso del secador de mango, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Un director de tesis de maestría en ingeniería de procesos recibe un protocolo bien
+escrito: una estudiante propone un secador solar para una cooperativa de deshidratado de
+mango en Nayarit, con estado del arte de doce artículos y curvas de secado calculadas.
+Le pregunta con qué humedad relativa calculó; ella responde que con la del laboratorio.
+En Nayarit, en agosto, el aire está al 80 %. Una investigación aplicada se revisa por su
+capacidad de cruzar de la teoría al lugar de aplicación sin perder rigor en el camino.
+La IA puede mapearle brechas y riesgos de transferencia; los supuestos sobre el contexto
+y su comprobación en la cooperativa son de la estudiante.
 
 ## Qué es y para qué sirve
 
 La **investigación aplicada** orienta el conocimiento hacia la
 resolución de problemas concretos en un contexto técnico, productivo o
-social. Valor formativo: articulación entre teoría y aplicación,
-honestidad sobre supuestos contextuales y anticipación de riesgos de
-transferencia.
+social. Al hacerla, el estudiante practica la articulación entre teoría y
+aplicación, la honestidad sobre lo que da por hecho del contexto (la
+humedad, el precio de la energía, quién va a operar el equipo) y la
+anticipación de riesgos de transferencia.
 
-**Uso formativo de la IAG:** mapear modalidades de investigación
-aplicada, identificar brechas en el estado del arte revisado por el
-estudiante, poner a prueba supuestos del contexto de aplicación y
-anticipar riesgos de transferencia.
+**Dónde entra la IA en este tipo de trabajo:** mapea las modalidades de
+investigación aplicada (I+D, transferencia, investigación-acción),
+identifica brechas en el estado del arte que el estudiante ya revisó,
+pone a prueba los supuestos del contexto («¿con qué humedad calculaste?»)
+y anticipa riesgos de transferencia (la norma sanitaria para alimentos
+deshidratados, el costo de mantenimiento).
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **5 — Evaluar** (la prueba de los supuestos del
-contexto de aplicación).
+contexto de aplicación). Para ti, la tabla es un banco de prompts: el de
+la fase 3 (supuestos del contexto) es el que descubre la humedad del
+laboratorio; cópialo y pide al estudiante que pegue su objetivo real.
 
 | Nivel Bloom | Movimiento de la investigación | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -86,11 +98,13 @@ Plan de validación con anticipación de riesgos de transferencia.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del protocolo
 
-Riesgo **medio**: la investigación aplicada puede generarse plausiblemente
-pero los datos del contexto y el estado del arte verificado son la
-evidencia crítica.
+Riesgo **medio**: un protocolo de investigación aplicada puede generarse
+con apariencia plausible. Lo que te dice si es real son dos piezas: los
+datos del contexto (la humedad medida en la cooperativa) y el estado del
+arte verificado (referencias con DOI que el estudiante leyó). Junto con el
+protocolo, entrega estas piezas, cada una con su grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -104,6 +118,11 @@ evidencia crítica.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito; explícita declaración de no generación de referencias |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la literatura verificada, la lista de supuestos y
+la bitácora, no sólo el protocolo final; ajusta los pesos a tu seminario
+(por ejemplo, más peso a «uso ético» si has encontrado referencias
+inventadas en cohortes anteriores):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -139,12 +158,12 @@ tesis aplicadas.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — formato de publicación con misma vigilancia sobre citas.
-- Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — versión empírica social.
-- Producto cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — encuadre analítico cercano.
+- Trabajo cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — formato de publicación con misma vigilancia sobre citas.
+- Trabajo cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — versión empírica social.
+- Trabajo cercano: [Análisis de casos con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}) — encuadre analítico cercano.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

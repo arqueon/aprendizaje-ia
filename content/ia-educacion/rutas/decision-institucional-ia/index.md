@@ -1,9 +1,9 @@
 ---
-title: "Decidir institucionalmente sobre IA en la docencia"
+title: "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones"
 date: 2026-07-28
 lastmod: 2026-08-31
 draft: false
-description: "Marco ejecutivo para que la alta dirección universitaria alinee propósito, gobernanza, capacidades, tecnología, recursos y evidencia al decidir sobre IA en la docencia."
+description: "Marco ejecutivo para que la alta dirección universitaria decida junto para qué se actúa, quién decide qué, qué capacidades y tecnología hacen falta, qué iniciativas sostener y qué revisar, antes de escalar la IA en la docencia."
 summary: "Seis decisiones para convertir iniciativas dispersas en un mandato institucional acotado, revisable y con responsabilidades claras."
 tags: ["gobernanza institucional", "estrategia universitaria", "inteligencia artificial", "soberanía tecnológica", "formación docente", "evaluación"]
 categories: ["marco-ejecutivo"]
@@ -46,12 +46,15 @@ ecosistema:
     proxima_revision: 2026-10-28
 ---
 
-{{< lead >}}
+{{< contrato modo="lectura" quien="Rectorías, secretarías académicas, direcciones de centro y equipos que asesoran a la alta dirección cuando ya hay iniciativas de IA dispersas (una licencia en evaluación, un piloto de retroalimentación automática, un asistente para trámites) y nadie las ha puesto en la misma mesa." haras="Vas a entender las seis decisiones que tienen que avanzar juntas (para qué y con qué alcance, quién decide qué, capacidades y equidad, datos y tecnología, qué iniciativas sostener, qué revisar y cuándo) y vas a aplicar cuatro preguntas a una iniciativa real de tu universidad para saber si se prueba, se prepara, se reformula o se espera." tendras="Un mandato de una página con ocho puntos (por ejemplo, el primero: «reducir a menos de una semana la retroalimentación escrita en cursos numerosos de primer ingreso, en dos centros, con revisión en junio»), la orientación provisional de una iniciativa tuya («probar en pequeño», «preparar condiciones», «reformular» o «esperar por ahora») y el guion de la primera sesión ejecutiva." tarda="Veinticinco minutos de lectura; unos quince más para recorrer las cuatro preguntas con una iniciativa tuya." ejemplo="Cada una de las seis decisiones cierra con lo que sale de ella y con su versión escrita para un caso: un centro que quiere ampliar a toda la red un piloto de retroalimentación automática en primer ingreso. Las cuatro preguntas del paso 5 traen respuestas típicas ya clasificadas como sólidas o débiles." >}}
+
 La IA ya aparece en asignaturas, evaluaciones, servicios y decisiones de compra. Si cada
-iniciativa avanza por separado, la universidad acumula costos, riesgos y criterios
-contradictorios. La alta dirección puede dar coherencia sin decidir por cada disciplina ni
-convertir una tecnología cambiante en una regla permanente.
-{{< /lead >}}
+iniciativa avanza por separado, la universidad acumula costos, riesgos y reglas
+contradictorias (un centro exige declarar el uso, otro lo prohíbe, un tercero compró una
+licencia). La alta dirección puede dar coherencia sin decidir por cada disciplina ni
+convertir una tecnología cambiante en una regla permanente. El caso que acompaña a esta ruta
+es un centro universitario que quiere ampliar a toda la red un piloto de retroalimentación
+automática en cursos numerosos de primer ingreso; en cada decisión verás qué escribió.
 
 {{< alert icon="landmark" type="info" >}}
 Este es un **marco de trabajo adaptable**, no una política institucional vigente, un
@@ -59,36 +62,37 @@ dictamen jurídico ni una recomendación de compra. Ayuda a preparar decisiones 
 instancias que tengan atribuciones y a documentar qué debe confirmarse antes de actuar.
 {{< /alert >}}
 
-## La decisión no es «adoptar o prohibir»
+## La decisión empieza por el problema que merece atención
 
-Una decisión institucional útil no empieza por elegir una herramienta para toda la
-universidad. Empieza por aclarar qué problema educativo o institucional merece atención,
-qué capacidades deben protegerse y qué condiciones permitirían actuar sin trasladar todo el
-riesgo a docentes y estudiantes.
+Una decisión institucional útil empieza por aclarar qué problema educativo o institucional
+merece atención (en el caso del centro: la retroalimentación escrita tarda tres semanas en
+los cursos numerosos de primer ingreso), qué capacidades deben protegerse y qué condiciones
+permitirían actuar sin trasladar todo el riesgo a docentes y estudiantes. Elegir una
+herramienta para toda la universidad viene después, si es que viene.
 
-El resultado buscado tampoco es uniformar las asignaturas. Es construir un marco común para
-que centros, programas y docentes puedan decidir de forma distinta cuando los resultados de
-aprendizaje lo requieran, pero con responsabilidades, salvaguardas y rutas de consulta
-reconocibles.
+El resultado buscado es un marco común para que centros, programas y docentes puedan decidir
+de forma distinta cuando los resultados de aprendizaje lo requieran, con responsabilidades,
+salvaguardas y rutas de consulta reconocibles. Las asignaturas siguen siendo distintas entre
+sí.
 
 ## Seis decisiones que deben avanzar juntas
 
-![Mapa ejecutivo de seis decisiones conectadas: propósito y alcance; gobernanza y
+![Mapa ejecutivo de seis decisiones conectadas: para qué y con qué alcance; gobernanza y
 responsabilidades; personas y equidad; datos, tecnología e infraestructura; portafolio y
-recursos; evidencia y revisión.](mapa-decisiones-institucionales.svg
+recursos; qué revisar y cuándo.](mapa-decisiones-institucionales.svg
 "Seis decisiones institucionales conectadas")
 
 **El mapa en texto:** definir para qué se actuará y qué queda fuera; asignar cada decisión al
 nivel que puede tomarla; construir capacidades y acceso antes de exigir nuevas prácticas;
 fijar salvaguardas para datos, tecnologías e infraestructura; priorizar pocas iniciativas que
-la universidad pueda sostener; y revisar evidencia para continuar, modificar, ampliar o
+la universidad pueda sostener; y revisar lo observado para continuar, modificar, ampliar o
 detener. Una decisión débil en cualquiera de estos ámbitos compromete a los demás.
 
 ## 1. Propósito y alcance
 
 La primera decisión es nombrar el problema que la IA ayudará a atender. «Modernizar la
-universidad» o «incorporar IA» no delimitan una acción evaluable. Un propósito ejecutivo
-debe vincularse con la misión educativa y expresar:
+universidad» o «incorporar IA» no delimitan una acción evaluable. La declaración de para qué
+se actúa debe vincularse con la misión educativa y expresar:
 
 - qué proceso docente, formativo o institucional se quiere mejorar;
 - para qué población y en qué parte de la red universitaria;
@@ -96,12 +100,17 @@ debe vincularse con la misión educativa y expresar:
 - qué no se intentará resolver en este ciclo;
 - cuándo se revisará si la intervención merece continuar.
 
-**Pregunta de control:** si una herramienta concreta desapareciera mañana, ¿el propósito
-seguiría siendo válido? Si la respuesta es no, la decisión está atada al proveedor y no al
-problema institucional.
+**Pregunta de control:** si una herramienta concreta desapareciera mañana, ¿el problema
+seguiría en pie y valdría la pena atenderlo? Si la respuesta es no, la decisión está atada al
+proveedor y no al problema institucional.
 
-**Producto ejecutivo:** una declaración de propósito y alcance de una página, fechada y
-revisable.
+**Lo que sale de esta decisión:** una declaración de una página que dice para qué se actúa y
+hasta dónde, fechada y revisable.
+
+**En el caso del centro:** «Reducir a menos de una semana la retroalimentación escrita en los
+cursos numerosos de primer ingreso de dos centros. Se conserva la revisión final por la
+docente. Queda fuera la calificación automática. Revisión: junio». La pregunta de control se
+sostiene: sin la herramienta, la retroalimentación seguiría tardando tres semanas.
 
 ## 2. Gobernanza y responsabilidades
 
@@ -123,11 +132,11 @@ No todas las decisiones pertenecen al mismo nivel. El marco común debe distingu
       </tr>
       <tr>
         <th scope="row">Centro o programa</th>
-        <td>Traduce los criterios institucionales al contexto disciplinar, organiza la formación y el acompañamiento, y selecciona los pilotos.</td>
+        <td>Traduce los acuerdos institucionales al contexto disciplinar, organiza la formación y el acompañamiento, y selecciona los pilotos.</td>
       </tr>
       <tr>
         <th scope="row">Asignatura</th>
-        <td>Comunica las expectativas de uso, diseña las actividades y la evaluación, y define las evidencias que conocerá el estudiantado.</td>
+        <td>Comunica las expectativas de uso, diseña las actividades y la evaluación, y define qué entregará el estudiantado y qué sabrá de antemano.</td>
       </tr>
     </tbody>
   </table>
@@ -136,14 +145,20 @@ No todas las decisiones pertenecen al mismo nivel. El marco común debe distingu
 La responsabilidad distribuida evita dos extremos: que cada docente resuelva en soledad
 problemas institucionales o que una regla central sustituya el juicio disciplinar. Para cada
 decisión debe quedar claro quién propone, quién resuelve, quién implementa, quién debe ser
-consultado y quién revisa la evidencia.
+consultado y quién revisa lo observado.
 
-**Producto ejecutivo:** una matriz breve de decisiones y responsabilidades, vinculada con las
-atribuciones que corresponda confirmar.
+**Lo que sale de esta decisión:** una matriz breve de decisiones y responsabilidades,
+vinculada con las atribuciones que corresponda confirmar.
+
+**En el caso del centro:** tres filas. Licenciar la herramienta para la red: propone la
+coordinación de tecnologías, resuelve la rectoría, revisa el consejo. Elegir los cursos y
+organizar el taller: resuelve la dirección del centro, consulta a las academias. Decidir qué
+comentarios de la herramienta llegan al estudiantado: resuelve cada docente y lo anuncia en su
+programa.
 
 ## 3. Personas, capacidades y equidad
 
-La formación no es una actividad posterior a la compra. Es una condición de implementación.
+La formación es una condición de implementación y se presupuesta junto con la compra.
 Antes de exigir transparencia, verificación, rediseño evaluativo o uso responsable, la
 institución necesita hacer posible que su comunidad aprenda esas prácticas.
 
@@ -159,17 +174,22 @@ La decisión ejecutiva debe prever:
 La [ruta de coordinación académica](/ia-educacion/rutas/coordinacion-academica/) muestra cómo
 estas condiciones se convierten en acuerdos y pilotos dentro de programas y academias.
 
-**Producto ejecutivo:** un plan de capacidades y acceso ligado al alcance elegido, no un
-catálogo genérico de cursos.
+**Lo que sale de esta decisión:** un plan de capacidades y acceso ligado al alcance elegido,
+no un catálogo genérico de cursos.
+
+**En el caso del centro:** un taller de dos sesiones para las cuarenta docentes de primer
+ingreso, horas reconocidas para rediseñar una evaluación, y una vía sin IA (retroalimentación
+entre pares con guía) para los grupos que no la usen.
 
 ## 4. Datos, tecnología e infraestructura
 
-La selección tecnológica necesita criterios previos a cualquier proveedor. Como mínimo, la
-institución debe poder responder:
+La selección tecnológica necesita requisitos fijados antes de hablar con cualquier proveedor
+(por ejemplo: «los textos del estudiantado se pueden exportar en un formato abierto»). Como
+mínimo, la institución debe poder responder:
 
 - qué datos pueden procesarse y cuáles no;
 - qué funciones requieren supervisión humana y posibilidad de reversión;
-- cómo se exportarán datos, contenidos y evidencias;
+- cómo se exportarán datos, contenidos y trabajos entregados;
 - qué ocurrirá si cambian precios, términos o disponibilidad;
 - qué soporte, seguridad e infraestructura exige la solución;
 - cuál es el costo total de permanencia y de salida;
@@ -179,8 +199,12 @@ Portabilidad, interoperabilidad, transparencia y reversibilidad conservan margen
 institucional. Lo abierto puede aumentarlo cuando existen capacidades para sostenerlo, pero
 no sustituye la evaluación pedagógica, técnica, jurídica y presupuestal.
 
-**Producto ejecutivo:** requisitos institucionales mínimos y una ruta de dictámenes antes de
-licenciar o escalar.
+**Lo que sale de esta decisión:** requisitos institucionales mínimos y una ruta de dictámenes
+(por ejemplo, el de protección de datos antes de firmar) previa a licenciar o escalar.
+
+**En el caso del centro:** los textos del estudiantado no se usan para entrenar el modelo, los
+comentarios se exportan en un archivo abierto, la docente puede desactivar la herramienta en
+cualquier grupo, y el contrato es anual con salida sin penalización.
 
 ## 5. Portafolio y recursos
 
@@ -203,7 +227,7 @@ Antes de ampliar una iniciativa de IA, la figura propone considerar juntas cuatr
 Las cuatro respuestas, consideradas juntas, abren cuatro orientaciones:
 
 - **Probar en pequeño**, cuando necesidad, cuidados, recursos y revisión están definidos.
-- **Preparar condiciones**, cuando el propósito es sólido pero faltan recursos o cuidados.
+- **Preparar condiciones**, cuando la necesidad está clara pero faltan recursos o cuidados.
 - **Reformular**, cuando el problema, la población o el aprendizaje aún no son claros.
 - **Esperar por ahora**, cuando el aporte es pequeño o los posibles daños son demasiado altos.
 
@@ -212,13 +236,13 @@ no toman la decisión ni sustituyen las revisiones necesarias.
 {{< /udgia-figure >}}
 
 En el fondo, las cuatro preguntas combinan dos ejes que algunas metodologías de priorización
-usan de manera explícita: cuánto aporta la iniciativa al propósito educativo y cuánta
+usan de manera explícita: cuánto aporta la iniciativa al problema educativo elegido y cuánta
 capacidad real existe para sostenerla. La tabla siguiente resume las decisiones provisionales
 que produce ese cruce.
 
-<div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Criterios para priorizar iniciativas del portafolio" tabindex="0">
+<div class="udgia-executive-table udgia-executive-table--portfolio" role="region" aria-label="Cómo priorizar iniciativas del portafolio" tabindex="0">
   <table>
-    <caption>Criterios para priorizar iniciativas del portafolio</caption>
+    <caption>Cómo priorizar iniciativas del portafolio</caption>
     <thead>
       <tr>
         <th scope="col">Aporte</th>
@@ -230,7 +254,7 @@ que produce ese cruce.
       <tr>
         <th scope="row">Alto</th>
         <td>Suficiente</td>
-        <td>Pilotar o ampliar con evidencia y salvaguardas.</td>
+        <td>Pilotar o ampliar con fecha de revisión y salvaguardas.</td>
       </tr>
       <tr>
         <th scope="row">Alto</th>
@@ -270,9 +294,9 @@ concreto se quiere mejorar y para qué población; mientras esa línea no pueda 
 marca la pregunta como débil.
 
 **«Tenemos una herramienta disponible y buscamos dónde aplicarla.»** La decisión está atada
-al proveedor. Aplica la pregunta de control del propósito: si la herramienta desapareciera
-mañana, ¿qué problema seguiría en pie? Prepara una declaración de propósito y alcance —la
-primera de las seis decisiones— antes de continuar, y marca la pregunta como débil mientras
+al proveedor. Aplica la pregunta de control del paso 1: si la herramienta desapareciera
+mañana, ¿qué problema seguiría en pie? Prepara la declaración de para qué y con qué alcance (la
+primera de las seis decisiones) antes de continuar, y marca la pregunta como débil mientras
 no exista.
 
 **«Queremos atender un problema identificado, por ejemplo la retroalimentación tardía en
@@ -288,8 +312,8 @@ alternativa equivalente tendrá quien no quiera o no pueda usarlo y quién respo
 falla. Marca la pregunta como débil mientras falte alguna.
 
 **«Identificamos los posibles daños, hay una persona responsable con nombre y existe una
-alternativa sin IA.»** La pregunta queda sólida. Conserva ese registro: será parte de la
-evidencia cuando llegue la fecha de revisión.
+alternativa sin IA.»** La pregunta queda sólida. Conserva ese registro: será parte de lo que
+se revise cuando llegue la fecha.
 
 **«Los cuidados dependen de condiciones que no controlamos, como los términos del proveedor
 o dictámenes pendientes.»** La pregunta no puede responderse en el nivel de la iniciativa.
@@ -334,7 +358,7 @@ La regla de decisión es conjunta: ninguna pregunta decide por sí sola, y la re
 débil marca el paso previo. Si las cuatro quedaron sólidas, la iniciativa puede probarse en
 pequeño, con su fecha de revisión ya acordada. Si la débil fue la necesidad, lo que procede
 es reformular antes de invertir en cuidados o capacidad: preparar condiciones para una
-iniciativa sin propósito solo la vuelve más cara. Si la necesidad es sólida pero fallaron
+iniciativa sin una necesidad nombrada solo la vuelve más cara. Si la necesidad es sólida pero fallaron
 los cuidados o la capacidad, la orientación es preparar condiciones y volver a recorrer las
 preguntas cuando estén listas. Y si varias respuestas quedaron débiles a la vez, o los
 posibles daños superan el aporte esperado, conviene esperar por ahora, dejando escrito qué
@@ -343,11 +367,18 @@ provisional para preparar la decisión, no la decisión misma: los dictámenes y
 las demás secciones siguen siendo necesarios.
 
 Cada iniciativa del portafolio debe tener responsable, población, costo, dependencia,
-salvaguarda, resultado observable, evidencia y fecha de revisión. El número de herramientas
-adquiridas o de personas registradas no demuestra por sí mismo una mejora educativa.
+salvaguarda, resultado observable, qué se revisará y fecha de revisión. El número de
+herramientas adquiridas o de personas registradas no demuestra por sí mismo una mejora
+educativa.
 
-**Producto ejecutivo:** un portafolio pequeño y comparable, con recursos y criterios de
-salida explícitos.
+**Lo que sale de esta decisión:** un portafolio pequeño y comparable, con recursos y
+condiciones de salida explícitas (por ejemplo: «si en junio la retroalimentación sigue
+tardando más de una semana, el piloto se detiene»).
+
+**En el caso del centro:** necesidad sólida, cuidados sólidos, capacidad débil (el soporte
+depende de una sola persona) y revisión sólida. Orientación: preparar condiciones; se amplía
+cuando haya relevo en el soporte. Condición de salida: si en junio la retroalimentación sigue
+tardando más de una semana, se detiene.
 
 ## 6. Evidencia, revisión y continuidad
 
@@ -361,7 +392,7 @@ combinar:
 - incidentes, consultas y riesgos detectados, con datos minimizados;
 - costos, dependencias y capacidad de soporte;
 - resultados de aprendizaje y experiencia de docentes y estudiantes;
-- decisiones tomadas después de revisar la evidencia.
+- decisiones tomadas después de cada revisión.
 
 Conviene excluir rankings individuales, conversaciones completas con IA y porcentajes de
 detectores de texto. Esos datos aumentan la vigilancia sin responder si el aprendizaje o la
@@ -370,21 +401,26 @@ capacidad institucional mejoraron.
 La revisión termina con una decisión explícita: **continuar, modificar, ampliar o detener**.
 También fija qué se aprendió, qué se comunicará y cuándo volverá a revisarse el marco.
 
-**Producto ejecutivo:** un tablero mínimo de preguntas e indicadores, acompañado por una
-minuta de decisión.
+**Lo que sale de esta decisión:** un tablero mínimo de preguntas e indicadores (por ejemplo:
+«¿cuántas docentes de primer ingreso rediseñaron una evaluación?»), acompañado por una minuta
+de decisión.
+
+**En el caso del centro:** tres indicadores (días que tarda la retroalimentación, docentes que
+rediseñaron su evaluación, consultas y quejas recibidas) y una minuta en junio con una de las
+cuatro decisiones y la fecha de la siguiente revisión.
 
 ## El mandato institucional revisable
 
 Las seis decisiones pueden resumirse en una pieza breve que dé dirección sin cerrar el
 debate. Debe contener:
 
-1. propósito, población y alcance;
+1. para qué se actúa, población y alcance;
 2. principios y salvaguardas no negociables;
 3. decisiones por nivel y ruta de consulta;
 4. capacidades y condiciones de acceso que deben financiarse;
 5. requisitos para datos, tecnologías e infraestructura;
 6. portafolio inicial, responsables y recursos;
-7. evidencia mínima y fecha de revisión;
+7. qué se revisará como mínimo y fecha de revisión;
 8. asuntos que requieren dictamen o acuerdo de la instancia competente.
 
 Ese mandato permite empezar con límites claros. Las políticas, guías disciplinares y
@@ -393,18 +429,19 @@ confundir una prueba con una regla definitiva.
 
 ## Una primera conversación ejecutiva
 
-Una sesión inicial puede trabajar sobre evidencia concreta y terminar con decisiones
-preparatorias:
+Una sesión inicial puede trabajar sobre información concreta (las iniciativas existentes, sus
+costos, quién las sostiene) y terminar con decisiones preparatorias:
 
 1. reunir las iniciativas existentes, sus responsables, costos, poblaciones y dependencias;
 2. elegir un problema institucional que justifique coordinación transversal;
 3. identificar qué decisiones pertenecen a institución, programa y asignatura;
 4. reconocer capacidades, dictámenes y salvaguardas faltantes;
 5. seleccionar una o dos iniciativas para un portafolio inicial;
-6. nombrar el producto siguiente, la instancia que lo revisará y la fecha de regreso.
+6. nombrar el siguiente documento (por ejemplo, la declaración de para qué y alcance), la
+   instancia que lo revisará y la fecha de regreso.
 
-La sesión no termina con una política improvisada. Termina con un alcance, una lista de
-información faltante y responsables para preparar una decisión competente.
+La sesión termina con un alcance, una lista de información faltante y responsables para
+preparar una decisión competente; la política, si hace falta, se escribe después.
 
 ## Continúa según la decisión que necesitas preparar
 

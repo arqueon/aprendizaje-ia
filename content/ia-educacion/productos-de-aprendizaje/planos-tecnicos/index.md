@@ -26,26 +26,35 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un plano se evalúa por su capacidad de ser fabricado por alguien que no estuvo en el diseño. La IAG puede revisar consistencia entre vistas y normalización; el trazado, las decisiones de tolerancia y la lectura espacial son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de dibujo técnico, ingeniería mecánica, civil o arquitectura que piden los planos de una pieza o de un elemento constructivo y reciben vistas bonitas cuyas cotas no cierran entre sí, o con símbolos de soldadura que no existen en ninguna norma." haras="Un estudiante de ingeniería mecánica debe entregar los planos de fabricación de un soporte de motor: tres vistas, un corte y las tolerancias. Antes de trazar le pregunta a la IA qué vistas y cortes son estándar para una pieza así (le señala que falta un corte por el barreno roscado); traza él en CAD; después describe sus vistas y cotas a la IA para que detecte inconsistencias (un diámetro de 12 mm en la planta y 12,5 en el corte), y al final le pregunta qué zonas leería mal un tallerista que no lo conoce. Entrega el archivo CAD, el PDF y una justificación escrita de cada tolerancia." tendras="Tres prompts copiables y una regla de revisión: «cada tolerancia lleva una línea que dice por qué (por ejemplo, «H7 en el barreno porque aloja un rodamiento»); una tolerancia sin razón se devuelve, aunque el plano esté bien trazado»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a tu pieza y tu norma." ejemplo="Empieza con el soporte de motor, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Una profesora de dibujo mecánico entrega a cada estudiante una pieza real del taller, un
+soporte de motor de aluminio, y pide sus planos de fabricación según ISO: tres vistas, un
+corte por el barreno roscado, cotas y tolerancias. La prueba final la hace el tallerista de
+la escuela: si puede fabricar la pieza sin preguntar nada, el plano está bien. La IA puede
+revisar la consistencia entre vistas y la simbología normalizada; el trazado, las
+decisiones de tolerancia («H7 porque aloja un rodamiento») y la lectura espacial son del
+estudiante.
 
 ## Qué es y para qué sirve
 
 Los **planos técnicos** representan gráficamente un objeto, sistema o
 construcción con la información suficiente para que sea fabricado o
-ejecutado por otro. Valor formativo: precisión dimensional, coherencia
-entre vistas, uso correcto de normas (ASME, ISO, AWS, etc.) y claridad
-para el lector que no participó en el diseño.
+ejecutado por otro. Lo que el estudiante aprende: precisión dimensional,
+coherencia entre vistas, uso correcto de normas (ASME, ISO, AWS, etc.) y
+claridad para el lector que no participó en el diseño.
 
-**Uso formativo de la IAG:** verificar inconsistencias entre vistas,
-sugerir cortes o secciones omitidas y evaluar la claridad de la
-notación. La IAG no traza ni genera el plano.
+**Dónde entra la IA en este tipo de trabajo:** señala inconsistencias entre
+vistas (un diámetro que mide 12 mm en la planta y 12,5 en el corte), sugiere
+cortes o secciones omitidas y revisa la claridad de la notación para quien
+va a fabricar. La IA no traza ni genera el plano.
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **4 — Analizar** (la detección de inconsistencias entre
-vistas y la coherencia del conjunto).
+vistas y la coherencia del conjunto). Para ti, la tabla es un banco de
+prompts: copia el del nivel 4 (la revisión cruzada, que el grupo suele
+saltarse) y sustituye los corchetes por tu pieza y tu norma.
 
 | Nivel Bloom | Movimiento del plano | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -82,11 +91,12 @@ notación.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de los planos
 
 Riesgo **bajo**: los planos formales son difíciles de generar
-plausiblemente sin oficio. Las evidencias acompañan la decisión de
-diseño.
+plausiblemente sin oficio. Las piezas que acompañan al plano (archivo CAD,
+justificación de tolerancias, anotaciones de lo que se corrigió) muestran
+la decisión de diseño:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -98,6 +108,10 @@ diseño.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la justificación de tolerancias y la bitácora, no
+sólo el plano; ajusta los pesos a tu curso (por ejemplo, más peso a
+«metacognición» si pides defensa oral del plano):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -135,11 +149,11 @@ mecánica.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica del mismo tipo de trabajo representativo.
-- Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del plano.
+- Trabajo cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica del mismo tipo de trabajo representativo.
+- Trabajo cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del plano.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

@@ -1,12 +1,16 @@
 {{- /* Contrato de instrucción · partial compartido por el shortcode `contrato` y por las
        actividades (los templates de shortcode no pueden invocar {{< >}}). */ -}}
 {{- $quien := .quien -}}{{- $haras := .haras -}}{{- $tendras := .tendras -}}{{- $tarda := .tarda -}}{{- $ejemplo := .ejemplo -}}
-<aside class="alm-contrato alm-componente" data-udgia-component="contrato" aria-label="Qué vas a hacer en esta página">
+{{- $modo := .modo | default "hacer" -}}
+{{- $lblHaras := "Qué vas a hacer" -}}{{- $lblTendras := "Qué tendrás al terminar" -}}{{- $lblEjemplo := "Antes de pedirte nada" -}}
+{{- if eq $modo "lectura" -}}{{- $lblHaras = "Qué vas a entender" -}}{{- $lblTendras = "Qué te llevas" -}}{{- $lblEjemplo = "Por dónde empieza" -}}{{- end -}}
+{{- if eq $modo "ejemplo" -}}{{- $lblHaras = "Qué muestra este ejemplo" -}}{{- $lblTendras = "Qué te llevas" -}}{{- $lblEjemplo = "Por dónde empieza" -}}{{- end -}}
+<aside class="alm-contrato alm-componente alm-contrato--{{ $modo }}" data-udgia-component="contrato" aria-label="Qué vas a hacer en esta página">
   <dl class="alm-contrato__lista">
     <div><dt>Para quién</dt><dd>{{ $quien | markdownify }}</dd></div>
-    <div><dt>Qué vas a hacer</dt><dd>{{ $haras | markdownify }}</dd></div>
-    <div><dt>Qué tendrás al terminar</dt><dd>{{ $tendras | markdownify }}</dd></div>
+    <div><dt>{{ $lblHaras }}</dt><dd>{{ $haras | markdownify }}</dd></div>
+    <div><dt>{{ $lblTendras }}</dt><dd>{{ $tendras | markdownify }}</dd></div>
     <div><dt>Cuánto tarda</dt><dd>{{ $tarda | markdownify }}</dd></div>
-    {{- with $ejemplo }}<div><dt>Antes de pedirte nada</dt><dd>{{ . | markdownify }}</dd></div>{{ end }}
+    {{- with $ejemplo }}<div><dt>{{ $lblEjemplo }}</dt><dd>{{ . | markdownify }}</dd></div>{{ end }}
   </dl>
 </aside>

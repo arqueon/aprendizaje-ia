@@ -27,27 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un análisis económico no se evalúa por la elegancia de las planillas sino por la honestidad de los supuestos. La IAG puede correr escenarios y señalar variables sensibles; lo que no puede es asumir riesgos por el estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de evaluación de proyectos, economía o ingeniería industrial que piden un análisis de viabilidad (comprar o rentar una máquina, abrir una sucursal) y reciben planillas impecables con supuestos que nadie nombró." haras="Un equipo de administración debe decidir si una panadería de barrio compra un horno nuevo de 180 000 pesos o sigue rentando uno por 6 000 al mes. Pregunta a la IA qué métricas aplican al caso (VPN, payback), arma la planilla con cotizaciones reales y calcula el escenario base; después le pide a la IA que señale qué variables cambian la decisión si se mueven un 10 % (el precio de la harina, las ventas de temporada) y, al final, qué supuestos sostienen su conclusión y qué cambio la invertiría. Entrega la planilla nativa, la lista de supuestos y la bitácora." tendras="Tres prompts copiables y una regla de revisión que puedes usar mañana: «cada dato de entrada lleva su fuente (una cotización, una tarifa publicada) y cada supuesto está escrito en una línea; si la planilla no tiene sensibilidad, la conclusión no cuenta»." tarda="Ocho minutos de lectura; doce si copias los prompts para tu caso." ejemplo="Empieza con el caso del horno de la panadería, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Un profesor de evaluación de proyectos plantea a su grupo el caso de una panadería de
+barrio: el horno rentado cuesta 6 000 pesos al mes y uno nuevo, 180 000. ¿Conviene
+comprar? Cada equipo entrega una recomendación con su planilla. Lo que el profesor revisa
+es la honestidad de los supuestos (cuántas piezas venden al día, qué pasa en diciembre,
+cuánto durará el horno), más que la elegancia de las planillas. La IA puede correr
+escenarios y señalar qué variable pesa más; asumir el riesgo de la recomendación es
+trabajo del equipo.
 
 ## Qué es y para qué sirve
 
 Un **análisis económico** estructura una decisión cuantificando flujos,
 costos y beneficios bajo criterios estándar (VPN, TIR, payback,
-costo-beneficio). El valor formativo está en la **selección razonada
-de la métrica**, en el **análisis de sensibilidad** y en el
-**reconocimiento explícito de los supuestos** que sostienen la
-conclusión.
+costo-beneficio). Lo que el estudiante aprende: a **elegir la métrica con
+razones** (payback si al dueño le importa recuperar pronto; VPN si compara
+opciones a cinco años), a hacer un **análisis de sensibilidad** y a
+**escribir los supuestos** que sostienen su conclusión.
 
-**Uso formativo de la IAG:** verificar métricas apropiadas, identificar
-variables críticas en análisis de sensibilidad y poner a prueba los
-supuestos que sostienen la conclusión.
+**Dónde entra la IA en este tipo de trabajo:** verifica que las métricas
+sean las adecuadas, identifica variables críticas en el análisis de
+sensibilidad (por ejemplo, que el precio de la harina pese más que la tasa
+de descuento) y pone a prueba los supuestos que sostienen la conclusión.
+Los cálculos y la recomendación los hace el estudiante.
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **5 — Evaluar** (la prueba de los supuestos y la
-decisión justificada).
+decisión justificada). Para ti, la tabla es un banco de prompts: copia el
+de la fase en la que tu grupo se atasca (casi siempre la de supuestos,
+cuando presentan una sola corrida como conclusión) y sustituye los
+corchetes por tu caso.
 
 | Nivel Bloom | Movimiento del análisis | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -85,10 +96,11 @@ supuesto invertiría la decisión.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de la recomendación
 
 Riesgo **medio**: las planillas pueden generarse, pero los datos de
-entrada y los supuestos son la evidencia clave.
+entrada (una cotización real del horno) y la lista de supuestos son lo
+que más te dice de su trabajo:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -102,6 +114,11 @@ entrada y los supuestos son la evidencia clave.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora, la planilla y la lista de supuestos,
+no sólo la recomendación; ajusta los pesos a tu curso (por ejemplo, más
+peso a «metacognición» si quieres que expliquen qué supuesto les costó más
+nombrar):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -139,12 +156,12 @@ proyectos, finanzas aplicadas.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — el análisis económico como soporte de viabilidad.
-- Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa con análisis de sensibilidad análogo.
-- Producto cercano: [Gestión industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/gestion-industrial" >}}) — decisiones operativas.
+- Trabajo cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — el análisis económico como soporte de viabilidad.
+- Trabajo cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa con análisis de sensibilidad análogo.
+- Trabajo cercano: [Gestión industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/gestion-industrial" >}}) — decisiones operativas.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

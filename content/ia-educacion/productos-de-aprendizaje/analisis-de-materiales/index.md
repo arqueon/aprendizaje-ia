@@ -27,25 +27,39 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un análisis de materiales no se evalúa por lo que arroja el instrumento sino por cómo se lee. La IAG puede ofrecer hipótesis sobre patrones; la interpretación responsable contra teoría y la decisión de qué reportar son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de ingeniería de materiales, química o metalurgia que mandan al grupo al laboratorio a caracterizar una probeta (un difractograma, un ensayo de tracción, una micrografía) y reciben reportes donde la conclusión llega antes que la lectura de los datos." haras="Una estudiante de quinto semestre recibe una probeta de acero al carbono y debe decir, con un ensayo de tracción y una micrografía, si el tratamiento térmico que le hicieron fue el correcto. Antes del ensayo pregunta a la IA qué parámetros condicionan el resultado (velocidad de carga, geometría de la probeta); hace el ensayo sin IA; después le describe la curva y la micrografía y le pide hipótesis sobre un patrón que no esperaba (una zona de estricción más corta de lo normal) y, al final, contrasta su interpretación con la teoría del temple y revenido. Entrega el reporte con los archivos nativos de la máquina y la bitácora." tendras="Tres prompts copiables, uno por fase, y una regla de revisión que puedes aplicar mañana: «la IA sólo propone hipótesis a verificar; cada hipótesis aceptada en el reporte debe señalar en qué dato propio se confirmó y cada una descartada, por qué»." tarda="Ocho minutos de lectura; doce si copias los prompts para tu práctica." ejemplo="Empieza con el caso de la probeta de acero, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Una profesora de caracterización de materiales entrega a cada equipo una probeta de acero
+al carbono que pasó por un tratamiento térmico que ellos desconocen. La tarea: con un
+ensayo de tracción y una micrografía, decir qué tratamiento recibió y si fue el adecuado
+para la pieza que va a fabricar el taller. Lo que ella revisa es cómo leyeron la curva y
+la imagen, no el número que arrojó la máquina: la IA puede proponer hipótesis sobre un
+patrón (por ejemplo, «la estricción corta sugiere un revenido incompleto»); comprobarlas
+contra los datos propios y contra la teoría, y decidir qué se reporta, es trabajo de la
+estudiante.
 
 ## Qué es y para qué sirve
 
 El **análisis de materiales** caracteriza propiedades físicas,
 químicas o estructurales mediante técnicas estándar (SEM, DRX, ensayos
-mecánicos, espectroscopias). Valor formativo: dominio de la técnica,
-lectura crítica de resultados y consistencia con marcos teóricos.
+mecánicos, espectroscopias). Lo que el estudiante aprende: a dominar la
+técnica (saber qué velocidad de carga usar y por qué), a leer los
+resultados con crítica y a explicar lo que ve con la teoría que ya conoce.
 
-**Uso formativo de la IAG:** verificar parámetros operativos
-adecuados, sugerir hipótesis a verificar a partir de los datos y
-contrastar la interpretación con la teoría establecida.
+**Dónde entra la IA en este tipo de trabajo:** verifica que los parámetros
+del ensayo sean los adecuados (por ejemplo, que la velocidad de carga
+cumpla la norma para acero), sugiere hipótesis a verificar a partir de los
+datos («la zona de estricción corta podría indicar un revenido incompleto»)
+y contrasta la interpretación con la teoría establecida. La adquisición y
+la conclusión son del estudiante.
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **4 — Analizar** (la lectura de patrones y anomalías en
-los resultados).
+los resultados). Para ti, la tabla es un banco de prompts: copia el de la
+fase en la que tu grupo se atasca (casi siempre la lectura de resultados,
+cuando aceptan la primera explicación que les dan) y sustituye los
+corchetes por tu material y tu técnica.
 
 | Nivel Bloom | Movimiento del análisis | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -56,7 +70,7 @@ los resultados).
 ## Competencias que desarrolla
 
 - **Ingeniería** — operación informada de técnicas de caracterización, interpretación cuantitativa.
-- **Investigación** — formulación de hipótesis a partir de evidencia, contraste con teoría establecida.
+- **Investigación** — formulación de hipótesis a partir de lo que muestran los datos (una curva, una micrografía) y contraste con la teoría establecida.
 
 ## Secuencia de la actividad (proceso → producto)
 
@@ -84,10 +98,11 @@ discusión de tensiones si las hay.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del reporte
 
 Riesgo **bajo**: los datos crudos del instrumento son difíciles de
-fabricar. La trazabilidad de la interpretación es lo crítico.
+fabricar. Lo que más te dice es si cada frase de la interpretación se
+puede rastrear a un dato propio (la curva, la imagen) o a una referencia:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -100,6 +115,11 @@ fabricar. La trazabilidad de la interpretación es lo crítico.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora y las anotaciones de validación, no
+sólo el reporte; ajusta los pesos a tu curso (por ejemplo, más peso a «uso
+crítico de la respuesta» si tu grupo tiende a reportar la hipótesis de la
+IA como conclusión):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -135,12 +155,12 @@ materiales, ciencia de materiales.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del análisis.
-- Producto cercano: [Metrología con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/metrologia" >}}) — manejo de incertidumbre análogo.
-- Producto cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — marco mayor.
+- Trabajo cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del análisis.
+- Trabajo cercano: [Metrología con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/metrologia" >}}) — manejo de incertidumbre análogo.
+- Trabajo cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — marco mayor.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

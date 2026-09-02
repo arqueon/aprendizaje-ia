@@ -27,26 +27,37 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La IA genera código en segundos. Lo difícil es aprender a leerlo, depurarlo y decidir qué mejora vale la pena. Aquí evaluamos esas tres capacidades —no la cantidad de líneas entregadas.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de introducción a la programación, estructuras de datos o laboratorios con código que reciben programas que funcionan y ven que el estudiante no sabe explicar ni una línea de lo que entregó." haras="Un estudiante de primer semestre recibe una función en Python que debe ordenar las calificaciones de un grupo y falla con la lista vacía. Antes de tocarla, explica con sus palabras qué hace; formula una hipótesis del error antes de preguntarle a la IA; diseña tres entradas que rompen el código (lista vacía, un solo elemento, dos alumnos con la misma calificación) y, al final, justifica por escrito cada mejora que hace. La IA explica, confirma o corrige su hipótesis y sugiere casos límite; la decisión de qué cambiar es suya. Entrega el código, las explicaciones por bloque, los tres casos de prueba y la línea de razón de cada cambio." tendras="Cinco prompts copiables ordenados de leer a diseñar, y una regla de revisión: «sin hipótesis escrita del error, el estudiante no le entrega el código a la IA»." tarda="Ocho minutos de lectura; quince si adaptas los prompts a tu lenguaje y a tus ejercicios." ejemplo="Empieza con la función que ordena calificaciones, en el primer párrafo, y vuelve a ella en las fases y en las salvaguardas." >}}
+
+Una profesora de introducción a la programación entrega a su grupo una función en
+Python que ordena las calificaciones de un grupo de mayor a menor y les avisa que falla
+con la lista vacía. Un estudiante la pega en un chat, recibe la versión corregida en
+diez segundos y la entrega. Cuando la profesora le pregunta por qué fallaba, no sabe.
+La IA genera código en segundos; lo difícil es aprender a leerlo, depurarlo y decidir
+qué mejora vale la pena. Aquí se revisan esas tres capacidades, y la cantidad de líneas
+entregadas pesa poco.
 
 ## Qué es y para qué sirve
 
-**Programación** como producto de aprendizaje cubre el ciclo completo de
-escribir, leer, depurar y mejorar código. La IAG cambia radicalmente el
+**Programación** como trabajo de aprendizaje cubre el ciclo completo de
+escribir, leer, depurar y mejorar código. La IA cambia radicalmente el
 costo de generar código pero no el de **entenderlo**, y entender es lo
 que la asignatura forma.
 
-**Uso formativo de la IAG en este producto:** explicar código, identificar
-errores, sugerir mejoras justificadas. La IAG no reemplaza al estudiante en
-la decisión sobre qué cambiar y por qué.
+**Dónde entra la IA en este tipo de trabajo:** explica código (qué hace la
+línea que compara dos calificaciones), confirma o corrige la hipótesis del
+estudiante sobre un error («falla porque intenta leer el primer elemento de
+una lista vacía»), sugiere casos límite y propone mejoras que el estudiante
+justifica o descarta. La decisión sobre qué cambiar y por qué es del
+estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto cubre todo el rango Bloom (**2 a 6**), con nivel dominante
+Este tipo de trabajo cubre todo el rango Bloom (**2 a 6**), con nivel dominante
 **3 — Aplicar** (escribir y depurar código que funcione). El nivel 6
-aparece cuando el estudiante diseña una solución completa.
+aparece cuando el estudiante diseña una solución completa. Para ti, la tabla
+es un banco de prompts: el de la fila 2 es el que conviene exigir con
+hipótesis previa, y el de la fila 4 corta el «hazme el código».
 
 | Nivel Bloom | Movimiento de programación | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -90,11 +101,14 @@ aceptan.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del código
 
-Riesgo **medio**: el riesgo no es la calidad del código sino la **dependencia**
-del estudiante respecto a la IAG. Las evidencias clave son las explicaciones
-en lenguaje natural del propio código.
+Riesgo **medio**: lo que se pierde con la IA es la capacidad de trabajar sin
+ella, y eso pesa más que la calidad del código. La pieza que más te dice es la
+explicación en lenguaje natural de cada bloque (por ejemplo, «esta línea
+devuelve la lista vacía antes de intentar ordenar»); si el estudiante puede
+escribirla sin abrir el chat, entendió. Junto con el código entrega estas
+piezas, cada una con su grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -107,6 +121,11 @@ en lenguaje natural del propio código.
 | Declaración de uso de IAG | obligatoria | Qué partes del código tuvieron asistencia y de qué tipo |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora, las explicaciones por bloque y los
+casos de prueba, no sólo si el programa corre; ajusta los pesos a tu curso
+(por ejemplo, más peso a «integración en el trabajo» si te preocupa el
+copia-pega):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -129,8 +148,9 @@ en lenguaje natural del propio código.
 - **Refactor sin justificación.** Cambios cosméticos sin razón.
   Salvaguarda: cada commit/cambio necesita una línea de justificación
   evaluable.
-- **Tests ausentes o triviales.** Salvaguarda: requisito de ≥3 casos
-  límite documentados con entradas/salidas.
+- **Tests ausentes o triviales.** Prueba sólo con la lista del enunciado.
+  Salvaguarda: requisito de tres o más casos límite documentados con
+  entradas y salidas (lista vacía, un elemento, empates).
 
 {{< alert icon="shield-halved" type="warning" >}}
 **Transparencia obligatoria.** Declarar qué partes del código tuvieron
@@ -146,11 +166,11 @@ software, laboratorios de cualquier ingeniería con código.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — análisis cuantitativo análogo.
-- Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica.
+- Trabajo cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — análisis cuantitativo análogo.
+- Trabajo cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

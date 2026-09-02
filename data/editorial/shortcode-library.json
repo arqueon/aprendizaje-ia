@@ -598,7 +598,8 @@
           "haras": "obligatorio",
           "tendras": "obligatorio (nombra la cosa y da un ejemplo)",
           "tarda": "obligatorio",
-          "ejemplo": "opcional; dónde está el ejemplo resuelto"
+          "ejemplo": "opcional; dónde está el ejemplo resuelto",
+          "modo": "opcional: hacer (defecto), lectura o ejemplo; cambia las etiquetas"
         },
         "inner": "no admite"
       },

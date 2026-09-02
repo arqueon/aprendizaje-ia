@@ -27,27 +27,37 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un modelo matemático no se evalúa por su elegancia formal sino por la honestidad de sus supuestos. La IAG puede verificar cálculos y proponer reformulaciones; lo que no puede es decidir qué simplificación es aceptable para este problema.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de matemáticas aplicadas, física o ingeniería que piden modelar un fenómeno real (el enfriamiento de una taza de café, el llenado de un tanque, la propagación de un rumor en la escuela) y reciben ecuaciones correctas cuyos supuestos nadie escribió." haras="Un estudiante de tercer semestre modela cuánto tarda en enfriarse el café de la cafetería. Propone él las variables (temperatura inicial, temperatura del aire, tamaño del vaso), le pide a la IA que revise si olvidó alguna estándar (la tapa, el material del vaso), plantea la ecuación con ayuda de la IA para la notación, varía cada parámetro para ver cuál manda y termina con una lista de supuestos («el aire del local no cambia de temperatura») que la IA le ayuda a cuestionar. Entrega el modelo, la tabla de sensibilidad y la lista de supuestos." tendras="Tres prompts copiables y una regla de revisión: «cada variable del modelo lleva una línea que dice qué representa físicamente (por ejemplo, «h: cuánto calor cede el vaso al aire por segundo»); una variable sin esa línea no cuenta»." tarda="Nueve minutos de lectura; quince si adaptas los prompts a tu fenómeno." ejemplo="Empieza con el café de la cafetería, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Una profesora de ecuaciones diferenciales pide a su grupo un modelo de algo que puedan
+medir en la escuela. Un estudiante elige el café de la cafetería: toma la temperatura
+cada dos minutos con un termómetro de cocina y quiere un modelo que prediga cuándo estará
+bebible. Lo que ella revisa es la honestidad de los supuestos («el vaso no cambia de
+forma», «el aire del local se queda a 22 °C») y si el estudiante sabe qué variable manda.
+La IA puede verificar cálculos y proponer reformulaciones; decidir qué simplificación es
+aceptable para este café le toca al estudiante.
 
 ## Qué es y para qué sirve
 
 Un **modelo matemático** es una representación simplificada de un
-fenómeno mediante variables, relaciones y supuestos. La calidad formativa
-se mide por la **trazabilidad** entre fenómeno → variables relevantes →
-relaciones → predicciones → contraste con la realidad.
+fenómeno mediante variables, relaciones y supuestos. Lo que se revisa es la
+**trazabilidad** entre fenómeno → variables relevantes → relaciones →
+predicciones → contraste con la realidad (en el caso del café: del termómetro
+a la ecuación y de la ecuación a «estará a 60 °C en ocho minutos»).
 
-**Uso formativo de la IAG en este producto:** identificar variables
-candidatas, verificar el comportamiento del modelo, analizar sensibilidad
-y cuestionar supuestos. La IAG es asesor de modelado; la decisión sobre
+**Dónde entra la IA en este tipo de trabajo:** revisa que no falten variables
+estándar (por ejemplo, la tapa del vaso), ayuda con el álgebra y la notación,
+acompaña el análisis de sensibilidad («¿qué pasa si el aire está a 30 °C?»)
+y cuestiona los supuestos. La IA es asesora de modelado; la decisión sobre
 qué simplificar es del estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
 nivel dominante **4 — Analizar** (la articulación de variables y sus
-interacciones).
+interacciones). Para ti, la tabla es un banco de prompts: copia el de la
+fase que tu grupo suele saltarse (casi siempre la crítica de supuestos) y
+sustituye «este modelo» por el fenómeno de tu curso.
 
 | Nivel Bloom | Movimiento del modelo | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -88,11 +98,12 @@ mejoras. La IAG actúa como crítica metodológica.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del modelo
 
 Riesgo **bajo**: los modelos formales son difíciles de "generar
-plausiblemente" sin comprenderlos. Las evidencias clave son la
-justificación de variables y el análisis de sensibilidad.
+plausiblemente" sin comprenderlos. Las dos piezas que más te dicen son la
+justificación de cada variable (una línea por variable) y la tabla de
+sensibilidad:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -106,6 +117,10 @@ justificación de variables y el análisis de sensibilidad.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la lista de supuestos y la tabla de sensibilidad,
+no sólo la ecuación final; ajusta los pesos a tu curso (por ejemplo, más peso
+a «metacognición» si te importa que nombren sus límites):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -145,12 +160,12 @@ cuantitativo, investigación de operaciones, economía aplicada.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación del modelo en código.
-- Producto cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — modelado aplicado a decisiones.
-- Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — modelo como soporte de diseño.
+- Trabajo cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación del modelo en código.
+- Trabajo cercano: [Análisis económico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-economico" >}}) — modelado aplicado a decisiones.
+- Trabajo cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — modelo como soporte de diseño.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

@@ -27,26 +27,40 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La investigación de campo no se evalúa por la cantidad de datos recolectados sino por la coherencia entre el objetivo, el método elegido y los límites reconocidos del diseño. La IAG puede mapear métodos y cuestionar el plan; el trabajo de campo es del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de educación, ciencias sociales o salud que dirigen trabajos con recolección directa de datos (tesis, residencias, prácticas) y reciben informes con 200 encuestas y conclusiones que no se sostienen, o con un método elegido porque fue el primero que apareció." haras="Un estudiante de licenciatura en educación quiere saber por qué las familias de una primaria pública asisten poco a las juntas. Pregunta a la IA qué métodos hay para ese fenómeno, arma una matriz métodos × objetivo y elige entrevistas a madres y padres más una hoja de observación de dos juntas, con argumento de por qué descarta la encuesta. Hace el campo sin IA (consentimientos, grabaciones, notas fechadas) y después le pide a la IA interpretaciones alternativas y las limitaciones de su diseño (ocho entrevistas en una sola escuela). Entrega datos crudos, matriz, informe y sus límites. La IA entra antes y después del campo; el campo es del estudiante." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «sin datos crudos con fecha, lugar y consentimiento (por ejemplo, ‘ocho audios, escuela X, 12–16 de mayo, ocho consentimientos firmados’) el informe no se revisa»." tarda="Diez minutos de lectura; quince si adaptas los prompts a los trabajos de tu grupo." ejemplo="Empieza con el caso de las juntas de la primaria, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Una profesora de metodología en la licenciatura en educación dirige el trabajo de un
+estudiante que quiere entender por qué a las juntas de una primaria pública llegan
+cinco familias de treinta. Su primer plan es una encuesta de veinte preguntas a todas las
+familias; ella le pregunta cómo la va a aplicar a las que justamente no vienen. Una
+investigación de campo se revisa por la coherencia entre el objetivo, el método elegido
+y los límites que el propio informe reconoce; la cantidad de datos pesa menos. La IA
+puede mapearle métodos y cuestionarle el plan; las tardes en la escuela, con grabadora y
+consentimientos, son del estudiante.
 
 ## Qué es y para qué sirve
 
 Una **investigación de campo** es un trabajo empírico que recolecta datos
 directamente del fenómeno estudiado (observación, entrevista, encuesta,
-medición). El producto final no es sólo el informe: es la trazabilidad
-entre objetivo, método, datos y conclusiones.
+medición). Lo que se entrega es el informe y, con él, el hilo comprobable
+entre objetivo, método, datos y conclusiones (la matriz de métodos, los
+audios, las hojas de observación fechadas).
 
-**Uso formativo de la IAG en este producto:** apoyar el diseño
-metodológico, contrastar opciones de recolección de datos, identificar
-limitaciones del diseño propio e interpretar resultados. La IAG nunca
-recolecta datos del campo: sólo asiste antes y después.
+**Dónde entra la IA en este tipo de trabajo:** apoya el diseño
+metodológico (qué métodos existen para estudiar la asistencia de las
+familias), contrasta opciones de recolección de datos (entrevista frente
+a encuesta cuando la población de interés es la que no viene), señala
+limitaciones del diseño propio y ofrece interpretaciones alternativas de
+los resultados. La IA nunca recolecta datos del campo: sólo asiste antes
+y después.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **3 a 5** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **3 a 5** de la taxonomía de Bloom, con
 nivel dominante **4 — Analizar** (la justificación metodológica del diseño).
+Para ti, la tabla es un banco de prompts: el de la fase 2 (por qué este
+método y no aquel) es el que evita la encuesta a quien no viene; pídele al
+estudiante que lo use con su objetivo real.
 
 | Nivel Bloom | Movimiento metodológico | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -89,11 +103,13 @@ limitaciones del diseño.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del informe
 
 Riesgo **medio**: el campo es difícil de falsificar pero el informe puede
-generarse con IAG. Las evidencias críticas son los **datos crudos** y el
-**registro del proceso de selección metodológica**.
+generarse con IA. Las dos piezas que más te dicen son los **datos crudos**
+(audios, hojas de observación fechadas, consentimientos) y el **registro
+de cómo eligió el método** (la matriz métodos × objetivo con los
+descartes argumentados):
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -107,6 +123,11 @@ generarse con IAG. Las evidencias críticas son los **datos crudos** y el
 | Consideraciones éticas del campo | obligatoria | Consentimientos, anonimización, manejo de datos sensibles |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la matriz, los datos crudos y la bitácora, no sólo
+el informe; ajusta los pesos a tu curso (por ejemplo, más peso a
+«metacognición» si quieres que el estudiante nombre los límites de ocho
+entrevistas en una sola escuela):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -149,12 +170,12 @@ requieran recolección directa de datos.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — versión orientada a problemas técnicos.
-- Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método específico que puede formar parte del diseño.
-- Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — etapa de comunicación del informe.
+- Trabajo cercano: [Investigación aplicada con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada" >}}) — versión orientada a problemas técnicos.
+- Trabajo cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método específico que puede formar parte del diseño.
+- Trabajo cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — etapa de comunicación del informe.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

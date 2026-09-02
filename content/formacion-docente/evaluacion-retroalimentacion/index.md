@@ -20,16 +20,16 @@ showAuthor: false
 weight: 5
 ---
 
-{{< lead >}}
-Una persona entrega un borrador, recibe comentarios y revisa su trabajo antes de la versión final. La primera devolución cumple una función formativa si permite modificar el aprendizaje mientras ocurre; la valoración final cumple una función sumativa cuando reconoce el desempeño alcanzado. Una encuesta sobre el curso responde otra pregunta: ayuda a revisar la docencia, no sustituye la retroalimentación que recibe la persona sobre su aprendizaje.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que devuelven trabajos con comentarios y ven que el grupo mira la calificación y no cambia nada, o que aplican encuestas de fin de curso y no saben qué hacer con ellas." haras="Vas a entender que evaluar, retroalimentar y evaluar el curso responden a tres preguntas distintas (qué puede hacer ahora la persona, qué le conviene revisar, qué debo cambiar yo), y que un comentario sirve sólo cuando llega a tiempo para que alguien actúe." tendras="Una pregunta para tu próxima entrega («¿la persona todavía puede hacer algo con lo que le voy a decir?») y un comentario reescrito como modelo (de «falta profundidad» a «la conclusión afirma una causa que tus dos fuentes no sostienen; separa lo observado de tu interpretación»)." tarda="Diez a doce minutos de lectura." ejemplo="Empieza con una estudiante que entrega un borrador, recibe comentarios y revisa antes de la versión final; ese recorrido abre la página y separa las tres preguntas." >}}
+
+Una estudiante entrega el borrador de un informe, recibe comentarios el jueves y revisa su trabajo antes de la versión final del lunes. Esa primera devolución cumple una función formativa: llega cuando todavía puede cambiar algo. La calificación del lunes cumple una función sumativa: reconoce lo que alcanzó. Y la encuesta que responde al final del semestre contesta otra pregunta: ayuda a la docente a revisar su curso, y no le dice a la estudiante nada sobre su aprendizaje. Esta página separa esas tres cosas para que decidas, en cada actividad tuya, cuál estás haciendo y si el comentario llega a tiempo.
 
 ## Tres preguntas distintas
 
 Evaluación y retroalimentación se relacionan, pero no son sinónimos. Conviene separarlas mediante la pregunta que cada proceso intenta responder:
 
-1. **¿Qué comprende o puede hacer la persona en este momento?** La evaluación recoge una evidencia: una explicación, una decisión, una actuación, un borrador o una respuesta.
-2. **¿Qué necesita revisar y cuál puede ser el siguiente movimiento?** La retroalimentación interpreta esa evidencia contra criterios y orienta una acción posible.
+1. **¿Qué comprende o puede hacer la persona en este momento?** La evaluación recoge una muestra de lo que sabe hacer (una explicación, una decisión, una actuación, un borrador o una respuesta).
+2. **¿Qué necesita revisar y cuál puede ser el siguiente movimiento?** La retroalimentación lee esa muestra contra lo que se pidió (por ejemplo, «una conclusión sostenida por las dos fuentes») y orienta una acción posible.
 3. **¿Qué conviene modificar en el diseño del curso o en la práctica docente?** La evaluación del curso reúne información sobre la experiencia de aprendizaje y debe analizarse con fuentes adicionales.
 
 La distinción evita llamar “retroalimentación” a cualquier comentario o encuesta. También impide presentar una calificación como si, por sí sola, explicara cómo mejorar.
@@ -39,7 +39,7 @@ La distinción evita llamar “retroalimentación” a cualquier comentario o en
 Black y Wiliam describen la evaluación formativa por el uso de información como retroalimentación para modificar la enseñanza y el aprendizaje mientras están en marcha.
 
 {{< idea titulo="Qué vuelve formativa una evaluación" >}}
-El carácter formativo no depende únicamente de que la evaluación tenga o no calificación: depende de que todavía exista una oportunidad real de actuar sobre la evidencia. Si el resultado llega cuando ya no se puede revisar nada, la función es sumativa aunque el instrumento se llame formativo.
+El carácter formativo no depende únicamente de que la evaluación tenga o no calificación: depende de que todavía exista una oportunidad real de actuar sobre lo entregado. Si el resultado llega cuando ya no se puede revisar nada, la función es sumativa aunque el instrumento se llame formativo.
 {{< /idea >}}
 
 ### Evaluación formativa
@@ -50,15 +50,15 @@ Ejemplo: antes de comparar dos soluciones, cada persona explica cuál supuesto c
 
 ### Evaluación sumativa
 
-Reconoce o certifica el desempeño alcanzado en un momento definido. Puede contribuir a la calificación final, pero necesita criterios comunicados y un instrumento adecuado a la evidencia. Una rúbrica puede ser útil para un proyecto complejo; una lista de cotejo, una escala, una defensa o una clave de respuestas pueden ser más adecuadas para otros productos.
+Reconoce o certifica el desempeño alcanzado en un momento definido. Puede contribuir a la calificación final, pero necesita que el grupo sepa de antemano qué se va a mirar (por ejemplo, «cita las dos fuentes y justifica la decisión») y un instrumento adecuado a lo que se entrega. Una rúbrica puede ser útil para un proyecto complejo; una lista de cotejo, una escala, una defensa o una clave de respuestas pueden ser más adecuadas para otras entregas.
 
-Ejemplo: al terminar la unidad, cada persona analiza un caso nuevo, justifica una decisión con fuentes y responde preguntas sobre sus criterios. La valoración integra la calidad del producto y la capacidad de sostener el razonamiento.
+Ejemplo: al terminar la unidad, cada persona analiza un caso nuevo, justifica una decisión con fuentes y responde preguntas sobre las razones de su decisión. La valoración integra la calidad del trabajo entregado y la capacidad de sostener el razonamiento.
 
-Las dos funciones pueden aparecer en una misma secuencia. Lo importante es declarar cuándo la evidencia todavía puede transformarse y cuándo se utilizará para reconocer un resultado final.
+Las dos funciones pueden aparecer en una misma secuencia. Lo importante es declarar cuándo lo entregado todavía puede transformarse y cuándo se utilizará para reconocer un resultado final.
 
 ## Técnicas de evaluación en el aula (CAT)
 
-Las *Classroom Assessment Techniques* son actividades breves para recoger respuestas, productos o decisiones como indicios de comprensión y usar esa información en la siguiente acción docente. No son pruebas de eficacia por sí mismas. Su valor depende de la pregunta que formulan, la evidencia que recogen y la respuesta que provocan.
+Las *Classroom Assessment Techniques* son actividades breves para recoger respuestas, trabajos cortos o decisiones como indicios de comprensión y usar esa información en la siguiente acción docente. No son pruebas de eficacia por sí mismas. Su valor depende de la pregunta que formulan, de lo que recogen y de la respuesta que provocan.
 
 Holbeck, Bergquist y Lees estudiaron una sola técnica —*Misconception/Preconception Check*— en cuatro cursos en línea de ingreso universitario. Participaron de forma opcional 39 de 96 estudiantes. Ese estudio ilustra una aplicación situada; no demuestra que cualquier CAT produzca el mismo resultado ni sostiene por sí solo todo el repertorio siguiente.
 
@@ -84,7 +84,7 @@ Holbeck, Bergquist y Lees estudiaron una sola técnica —*Misconception/Preconc
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Matriz de características" icono="border-all" color="#68762f" >}}
-  Una tabla compara conceptos mediante criterios definidos y deja ver relaciones o confusiones.
+  Una tabla compara conceptos con columnas fijadas de antemano (por ejemplo, «causa», «efecto», «ejemplo») y deja ver relaciones o confusiones.
   * **Momento de uso:** Durante el desarrollo de un tema.
   {{< /infografia-seccion >}}
 
@@ -103,7 +103,7 @@ Una CAT queda incompleta si solo acumula respuestas. Antes de aplicarla, convien
 Qué aspecto del aprendizaje se necesita observar.
 {{< /paso >}}
 {{< paso titulo="Evidencia" >}}
-Qué respuesta o producto permitiría reconocerlo.
+Qué respuesta o trabajo permitiría reconocerlo (por ejemplo, una explicación de tres líneas).
 {{< /paso >}}
 {{< paso titulo="Interpretación" >}}
 Qué patrones, diferencias o errores se buscarán, sin reducir a las personas a una etiqueta.
@@ -114,33 +114,33 @@ avance a otra tarea.
 {{< /paso >}}
 {{< /proceso >}}
 
-Si no habrá tiempo para leer la evidencia ni actuar sobre ella, es preferible una actividad más pequeña o una pregunta que pueda revisarse con el grupo.
+Si no habrá tiempo para leer las respuestas ni actuar sobre ellas, es preferible una actividad más pequeña o una pregunta que pueda revisarse con el grupo.
 
 ## Retroalimentación para revisar el aprendizaje
 
-La retroalimentación puede provenir del profesorado, de pares, de una autoevaluación guiada o de un sistema automático. La fuente no garantiza la calidad. Un comentario ayuda cuando se conecta con criterios comprensibles, señala algo observable y deja una acción que la persona todavía puede realizar.
+La retroalimentación puede provenir del profesorado, de pares, de una autoevaluación guiada o de un sistema automático. La fuente no garantiza la calidad. Un comentario ayuda cuando se conecta con lo que se pidió, dicho en palabras comprensibles, señala algo observable y deja una acción que la persona todavía puede realizar (el ejemplo siguiente lo muestra).
 
 ### Del profesorado
 
-En lugar de “falta profundidad”, puede indicar: “La conclusión introduce una relación causal que las dos fuentes no sostienen. Separa lo observado de tu interpretación y explica qué evidencia faltaría para afirmar causalidad”.
+En lugar de “falta profundidad”, puede indicar: “La conclusión introduce una relación causal que las dos fuentes no sostienen. Separa lo observado de tu interpretación y explica qué dato faltaría para afirmar causalidad”.
 
 ### Entre pares
 
-La revisión necesita una tarea delimitada. Por ejemplo: localizar dónde aparece el criterio principal, formular una objeción y señalar qué evidencia permitiría responderla. Pedir “comenta el trabajo de otra persona” suele producir elogios o correcciones superficiales.
+La revisión necesita una tarea delimitada. Por ejemplo: localizar dónde aparece la afirmación principal, formular una objeción y señalar qué dato permitiría responderla. Pedir “comenta el trabajo de otra persona” suele producir elogios o correcciones superficiales.
 
 ### Autoevaluación
 
-Una lista de criterios o dos versiones del propio trabajo permiten explicar qué cambió, por qué cambió y qué duda persiste. La autoevaluación no exige acertar en todo; exige hacer visible el juicio para poder revisarlo.
+Una lista de lo que debía tener el trabajo (por ejemplo, «una tesis, dos fuentes, una objeción respondida») o dos versiones del propio trabajo permiten explicar qué cambió, por qué cambió y qué duda persiste. La autoevaluación no exige acertar en todo; exige hacer visible el juicio para poder revisarlo.
 
 ### Respuesta automática o generada con IA
 
-Puede ofrecer una pregunta, detectar un patrón o comparar el texto con criterios declarados. No debe decidir por sí sola una calificación de alto impacto ni reemplazar la responsabilidad docente. La persona necesita contrastar el comentario con la evidencia, identificar errores y decidir qué acepta, modifica o descarta.
+Puede ofrecer una pregunta, detectar un patrón o comparar el texto con lo que se pidió por escrito. No debe decidir por sí sola una calificación de alto impacto ni reemplazar la responsabilidad docente. La persona necesita contrastar el comentario con su propio texto y sus fuentes, identificar errores y decidir qué acepta, modifica o descarta.
 
 ## Evaluación del curso y de la docencia
 
 Las opiniones del estudiantado al final de una unidad o del curso pueden ayudar a revisar tiempos, instrucciones, accesibilidad, recursos y acompañamiento. Esa información se refiere a la experiencia y a la práctica docente; no es “retroalimentación sumativa” sobre el aprendizaje de quien responde.
 
-Una encuesta final tampoco basta para evaluar la docencia. Conviene contrastarla con productos del curso, participación, dificultades observadas, decisiones de diseño y condiciones que afectaron la experiencia. El propósito es comprender qué ajustar en otra iteración, no convertir una percepción aislada en veredicto.
+Una encuesta final tampoco basta para evaluar la docencia. Conviene contrastarla con los trabajos del curso, participación, dificultades observadas, decisiones de diseño y condiciones que afectaron la experiencia. Sirve para comprender qué ajustar en otra iteración, no para convertir una percepción aislada en veredicto.
 
 ## Antes, durante y después de una actividad
 
@@ -148,29 +148,29 @@ En una secuencia de [aula invertida]({{< ref "laboratorio/practicas/aula-inverti
 
 1. **Antes de clase:** una explicación inicial o sondeo de supuestos permite decidir qué necesita el encuentro presencial.
 2. **Durante la clase:** una CAT breve recoge indicios; el grupo compara respuestas y revisa una idea.
-3. **Después de clase:** una entrega recibe comentarios, se modifica y, cuando corresponde, se valora contra criterios comunicados.
+3. **Después de clase:** una entrega recibe comentarios, se modifica y, cuando corresponde, se valora contra lo que se anunció desde el inicio.
 
 Los formularios, sistemas de respuesta o plataformas pueden acelerar la recolección. Su utilidad aparece solo cuando la pregunta y la decisión posterior están claras.
 
 ## Relación con el diseño inverso
 
-La evaluación se define antes de elegir actividades porque indica qué aprendizaje debe hacerse visible. La página sobre [taxonomía de Bloom y diseño inverso]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) propone la cadena propósito → evidencia → experiencia → ayuda. Esta página desarrolla el segundo eslabón y muestra cómo la evidencia modifica también la enseñanza.
+La evaluación se define antes de elegir actividades porque indica qué aprendizaje debe hacerse visible. La página sobre [taxonomía de Bloom y diseño inverso]({{< ref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}) propone la cadena qué se quiere aprender → qué lo mostraría → qué experiencia lo prepara → qué ayuda cabe. Esta página desarrolla el segundo eslabón y muestra cómo lo que entrega el grupo modifica también la enseñanza.
 
-Un [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) debe comunicar propósitos, productos, criterios, momentos de revisión y condiciones de uso de ayudas. No necesita imponer una rúbrica semanal; necesita que cada instrumento corresponda con lo que se desea observar.
+Un [syllabus]({{< ref "formacion-docente/syllabus-portafolio" >}}) debe comunicar qué se aprenderá, qué se entregará, con qué se juzgará (por ejemplo, una rúbrica de cuatro renglones que el grupo conoce desde la primera semana), cuándo se revisará y qué ayudas se permiten. No necesita imponer una rúbrica semanal; necesita que cada instrumento corresponda con lo que se desea observar.
 
 ## Cinco preguntas para revisar una evaluación
 
 {{< practica >}}
-1. ¿Qué aprendizaje se quiere observar y mediante qué evidencia?
+1. ¿Qué aprendizaje se quiere observar y mediante qué entrega (un texto, una decisión, una explicación oral)?
 2. ¿La persona tendrá oportunidad de actuar sobre la información recibida?
-3. ¿Los criterios permiten comprender qué cuenta como un desempeño suficiente?
+3. ¿Lo que anunciaste como «suficiente» se entiende (por ejemplo, «cita dos fuentes y responde una objeción»)?
 4. ¿La técnica produce una decisión posterior o solo acumula respuestas?
 5. ¿Se distingue el aprendizaje de la evaluación del curso y de la docencia?
 {{< /practica >}}
 
 ## Cómo continuar
 
-Ya definiste qué evidencia recoger y cómo usarla para orientar una revisión. Continúa con el
+Ya definiste qué recoger y cómo usarlo para orientar una revisión. Continúa con el
 [taller de diseño de actividades con IA]({{< relref "formacion-docente/taller-diseno-actividades-ia-backward" >}}), donde estas decisiones se integran en una actividad completa.
 
 {{< referencias >}}

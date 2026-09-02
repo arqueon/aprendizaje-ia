@@ -27,27 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un análisis de circuitos se aprende cuando se reconoce el comportamiento antes de resolverlo. La IAG puede explicar el comportamiento esperado y comparar cálculo con simulación; la decisión sobre qué simplificación es aceptable es del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de circuitos eléctricos en ingeniería eléctrica, electrónica o mecatrónica que reciben ejercicios bien resueltos por estudiantes que no saben decir qué va a hacer el circuito antes de calcularlo." haras="Un estudiante de tercer semestre recibe un filtro RC pasabajas con un divisor de tensión y debe entregar su análisis y una simulación. Antes de calcular, le pide a la IA que le explique, sin resolver, cómo debería comportarse el circuito al subir la frecuencia; después aplica el método nodal y simula en SPICE; cuando la simulación le da 0,4 V menos que su cálculo, pregunta qué discrepancias son típicas y encuentra que olvidó la resistencia interna de la fuente; al final pide casos límite (corto en la salida, sobretensión). Entrega el razonamiento previo, el cálculo, el archivo de simulación y la tabla que compara ambos." tendras="Cuatro prompts copiables y una regla de revisión que puedes usar mañana: «el razonamiento físico se entrega escrito y fechado antes del cálculo, y la tabla cálculo–simulación atribuye cada diferencia a una causa («resistencia interna de la fuente»), no la deja en una cifra»." tarda="Ocho minutos de lectura; doce si copias los prompts para tu laboratorio." ejemplo="Empieza con el caso del filtro RC, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Una profesora de circuitos entrega a su grupo un filtro RC pasabajas con un divisor de
+tensión a la entrada y pide el análisis completo con simulación. Antes de que nadie
+tome la calculadora, exige una hoja: qué va a pasar con la salida cuando suba la
+frecuencia y por qué. Un análisis de circuitos se aprende cuando se reconoce el
+comportamiento antes de resolverlo. La IA puede explicar ese comportamiento esperado y
+ayudar a comparar cálculo con simulación; decidir qué simplificación es aceptable
+(ignorar o no la resistencia interna de la fuente) es trabajo del estudiante.
 
 ## Qué es y para qué sirve
 
 El análisis y diseño de **circuitos eléctricos** combina comprensión del
 comportamiento esperado, aplicación de métodos de análisis (nodal,
 mallas, Thevenin, Norton, análisis en frecuencia) y verificación con
-cálculo y simulación. Valor formativo: lectura física del circuito,
-aplicación rigurosa del método y conciencia de casos límite.
+cálculo y simulación. Lo que el estudiante aprende: a leer físicamente el
+circuito (ver que el capacitor «se abre» a baja frecuencia), a aplicar el
+método con rigor y a pensar en los casos límite.
 
-**Uso formativo de la IAG:** explicar comportamiento esperado en
-términos de leyes fundamentales, orientar la elección del método,
-identificar fuentes típicas de discrepancia entre cálculo y simulación
-y anticipar casos límite que comprometan el diseño.
+**Dónde entra la IA en este tipo de trabajo:** explica el comportamiento
+esperado en términos de leyes fundamentales (Kirchhoff, respuesta en
+frecuencia), orienta la elección del método, identifica fuentes típicas de
+discrepancia entre cálculo y simulación (el modelo del componente, las
+condiciones iniciales) y anticipa casos límite que comprometan el diseño.
+El cálculo y la simulación los hace el estudiante.
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **3 — Aplicar** (la aplicación rigurosa del método de
-análisis).
+análisis). Para ti, la tabla es un banco de prompts: copia el de la fase en
+la que tu grupo se atasca (casi siempre la primera, cuando quieren calcular
+sin haber entendido qué esperar) y sustituye los corchetes por tu circuito.
 
 | Nivel Bloom | Movimiento del análisis | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -84,7 +95,11 @@ comportamiento del diseño.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del análisis
+
+Junto con el análisis, el estudiante entrega estas piezas (el razonamiento
+previo, el archivo de simulación, la tabla comparativa), cada una con su
+grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -98,6 +113,10 @@ comportamiento del diseño.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora y el razonamiento previo, no sólo el
+resultado; ajusta los pesos a tu curso (por ejemplo, más peso a «nivel
+cognitivo del prompt» si tu grupo tiende a pedir «hazme el ejercicio»):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -132,12 +151,12 @@ circuitos.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — extiende el análisis a sistemas dinámicos.
-- Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base formal del análisis.
-- Producto cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación digital.
+- Trabajo cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — extiende el análisis a sistemas dinámicos.
+- Trabajo cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base formal del análisis.
+- Trabajo cercano: [Programación con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/programacion" >}}) — implementación digital.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

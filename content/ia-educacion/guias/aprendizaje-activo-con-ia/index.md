@@ -1,10 +1,10 @@
 ---
-title: "Aprendizaje activo con IA — diseño y ejecución de actividades"
+title: "Diseña una actividad de aprendizaje activo donde la IA pregunte, no resuelva"
 date: 2026-04-14
 lastmod: 2026-08-24
 draft: false
 aliases: ["/laboratorio/practicas/aprendizaje-activo-ia/"]
-description: "Guía para diseñar y ejecutar actividades de aprendizaje activo donde la IA interviene como co-diseñador para el docente y como interlocutor para el estudiante."
+description: "Toma una actividad tuya, decide qué papel juega la IA para ti al diseñarla y cuál para el estudiante al resolverla, y escribe la instrucción de uso que recibirá el grupo."
 summary: "La IA interviene en dos niveles del aprendizaje activo: ayuda al docente a diseñar actividades y al estudiante a ejecutarlas con retroalimentación inmediata."
 tags: ["aprendizaje activo", "diseño didáctico", "IA generativa", "actividades de aula", "retroalimentación"]
 categories: ["guia"]
@@ -17,28 +17,40 @@ showBreadcrumbs: true
 showSummary: true
 ---
 
-{{< lead >}}
-El aprendizaje activo requiere que el estudiante haga algo más que escuchar. La IA transforma esta premisa al operar en dos niveles simultáneos: como asistente de diseño para el docente y como interlocutor cognitivo para el estudiante durante la actividad.
-{{< /lead >}}
+{{< contrato quien="Profesorado que quiere que el grupo haga algo en clase además de escuchar (resolver un caso, defender una postura, criticar una solución) y no sabe si meter la IA ayuda o hace el trabajo por el estudiante." haras="Vas a tomar una actividad tuya, vas a decidir qué papel juega la IA para ti al diseñarla (por ejemplo, generar un caso con datos ficticios) y cuál para el estudiante al resolverla (tutora que pregunta, generadora de contraejemplos, evaluadora de borradores u oponente de debate), y vas a escribir la instrucción de uso de IA que recibirá el grupo." tendras="Una actividad con el papel de la IA fijado por escrito para el grupo (por ejemplo: «Resuelvan el caso en equipo; usen la IA sólo para preguntarle qué variable no consideraron, y anoten qué respondió y qué descartaron»), más el caso o material que generaste y revisaste." tarda="Diez minutos con el caso de Marcos; treinta con una actividad tuya." ejemplo="Abajo está el caso de Marcos, profesor de administración, ya resuelto: cómo pidió el caso, qué corrigió antes de usarlo y qué instrucción dio al grupo. Después vienen tres actividades tipo más y los pasos para la tuya." >}}
 
-## Dos niveles de intervención
+## El caso de Marcos, ya resuelto
 
-La distinción central de esta guía es que la IA participa tanto en el **diseño** como en la **ejecución** de las actividades de aprendizaje activo.
+Marcos da administración en segundo semestre. Su actividad de siempre era leer un caso del libro y responder cinco preguntas; el grupo las respondía copiando párrafos. Decidió que la IA le ayudara a él a fabricar un caso nuevo y que, para el grupo, sirviera sólo para preguntar, no para resolver.
 
-### Nivel 1 — Diseño (docente)
+**Lo que pidió (con DeepSeek):**
 
-El docente usa IA para:
+> *Prompt:* Genera un caso de estudio para estudiantes de administración de segundo semestre. El caso debe involucrar una PyME mexicana que enfrenta tres problemas simultáneos: rotación de personal, caída en ventas y una demanda por incumplimiento de contrato. Incluye datos financieros ficticios pero plausibles. No incluyas la solución.
+
+**Lo que revisó antes de entregarlo:** los datos financieros no cuadraban (las ventas caían 30 % pero la utilidad subía); los corrigió a mano. También quitó una frase que adelantaba la solución.
+
+**La instrucción que recibió el grupo:** «Resuelvan el caso en equipos de tres. Pueden usar la IA como consultora: pregúntenle qué variable no están considerando o qué pasaría si eligen una opción, pero no le pidan la solución. Entreguen su propuesta y una lista de dos preguntas que le hicieron, con qué respondió y qué descartaron y por qué».
+
+Con eso Marcos consiguió dos cosas: el grupo tuvo que decidir (la IA no podía decidir por ellos con esa instrucción) y él pudo ver, en la lista de preguntas, cómo pensaron. Lo que sigue te ayuda a hacer lo mismo con una actividad tuya.
+
+## Dos decisiones que tomar: la IA para ti y la IA para el grupo
+
+La IA puede entrar en dos momentos distintos de tu actividad, y conviene decidir cada uno por separado: qué te ayuda a **diseñar** y qué le permites hacer al estudiante mientras **resuelve**.
+
+### Para ti, al diseñar
+
+Como hizo Marcos con el caso, puedes usar IA para:
 
 - Crear actividades, rúbricas y escenarios adaptados a su grupo
 - Generar variantes de un mismo ejercicio para diferentes niveles
 - Diseñar secuencias de preguntas con complejidad progresiva
 - Construir casos de estudio basados en contextos reales
 
-El [diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/) se potencia: el docente parte de las competencias que busca desarrollar y la IA genera materiales alineados.
+Parte de lo que quieres que el grupo sepa hacer al final ([diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/)) y pídele a la IA materiales para eso; revisa siempre lo que devuelve antes de usarlo, como hizo Marcos con los datos que no cuadraban.
 
-### Nivel 2 — Ejecución (estudiante)
+### Para el grupo, al resolver
 
-Durante la actividad, el estudiante interactúa con la IA como:
+Elige uno de estos papeles para la IA y escríbelo en la instrucción; Marcos eligió «consultora que responde preguntas»:
 
 - **Tutor socrático** — formula preguntas en lugar de dar respuestas
 - **Generador de contraejemplos** — la IA desestabiliza la primera intuición
@@ -50,12 +62,12 @@ Una actividad dialógica se organiza en seis movimientos:
 
 | Movimiento | Acción de la persona | Función pedagógica |
 |---|---|---|
-| Consigna docente. | La persona recibe un propósito, criterios y límites de uso explícitos. | La interacción se vincula con un resultado de aprendizaje. |
+| Instrucción docente. | La persona recibe qué se busca, con qué se revisará y qué límites de uso tiene (por ejemplo: «usa la IA para objeciones, no para redactar»). | La interacción se vincula con un resultado de aprendizaje. |
 | Interacción con IA. | La persona formula preguntas, solicita variantes y pide contrapuntos. | La IA funciona como interlocutora y no como sustituta de la tarea. |
 | Respuesta del sistema. | La persona recibe la salida como plausible, no como conocimiento ya validado. | Se distingue la plausibilidad del conocimiento sustentado. |
-| Contraste. | La persona compara la respuesta con fuentes, criterios y contexto disciplinar. | La revisión activa el juicio disciplinar. |
-| Justificación. | La persona acepta, descarta o transforma lo recibido y explica sus razones. | Las decisiones se convierten en evidencia del proceso. |
-| Revisión. | La persona revisa el trabajo, documenta los cambios y abre una nueva iteración con mejores criterios. | El ciclo vuelve a comenzar con criterios enriquecidos. |
+| Contraste. | La persona compara la respuesta con fuentes, con la rúbrica y con lo que sabe de su disciplina. | La revisión activa el juicio disciplinar. |
+| Justificación. | La persona acepta, descarta o transforma lo recibido y explica sus razones. | Las decisiones quedan escritas y muestran el recorrido. |
+| Revisión. | La persona revisa el trabajo, documenta los cambios y abre una nueva vuelta con preguntas más precisas. | El ciclo vuelve a comenzar con más precisión. |
 
 La IA no produce por sí sola aprendizaje activo: el diseño debe exigir que la persona
 contraste, decida y sostenga sus razones. La figura es una síntesis pedagógica de enfoques
@@ -63,17 +75,11 @@ de aprendizaje activo y educación dialógica, no la representación de un efect
 probado para toda interacción con IA.
 {{< /udgia-figure >}}
 
-## Actividades tipo con IA
+## Cuatro actividades tipo para adaptar
 
 ### 1. Estudio de caso asistido
 
-El docente genera un caso de estudio con IA, adaptado al contexto disciplinar. Los estudiantes lo analizan en equipos y usan la IA para explorar variables que no consideraron inicialmente.
-
-**Ejemplo con DeepSeek:**
-
-> *Prompt:* Genera un caso de estudio para estudiantes de administración de segundo semestre. El caso debe involucrar una PyME mexicana que enfrenta tres problemas simultáneos: rotación de personal, caída en ventas y una demanda por incumplimiento de contrato. Incluye datos financieros ficticios pero plausibles. No incluyas la solución.
-
-El docente revisa el caso antes de entregarlo al grupo. Los estudiantes lo resuelven usando la IA como consultor que responde preguntas pero no da la solución directa.
+Es la de Marcos: tú generas el caso con IA y lo revisas; el grupo lo analiza en equipos y usa la IA para explorar variables que no consideró. La instrucción al grupo fija que la IA responde preguntas y no da la solución.
 
 ### 2. Preguntas de complejidad progresiva
 
@@ -87,7 +93,7 @@ La IA genera una secuencia de preguntas que va de la comprensión literal a la e
 | Comprender | Explica con tus palabras qué mide el PIB y qué excluye |
 | Aplicar | Calcula el PIB de un país ficticio con estos datos: [...] |
 | Analizar | ¿Por qué el PIB de Noruega es alto pero su población es pequeña? |
-| Evaluar | ¿Es el PIB un buen indicador de bienestar? Argumenta con evidencia |
+| Evaluar | ¿Es el PIB un buen indicador de bienestar? Argumenta con datos |
 | Crear | Propón un indicador alternativo al PIB que capture lo que este omite |
 
 ### 3. Simulación de roles con IA
@@ -96,7 +102,7 @@ El estudiante y la IA asumen roles en un escenario profesional simulado. La IA n
 
 **Ejemplo con Gemini:**
 
-> *Prompt:* Eres el director de recursos humanos de una empresa de manufactura en Guadalajara. Yo soy un consultor externo. Voy a proponerte un plan de retención de talento. Tu papel es cuestionarlo con objeciones realistas: presupuesto limitado, resistencia del sindicato y rotación estacional. No aceptes propuestas sin evidencia.
+> *Prompt:* Eres el director de recursos humanos de una empresa de manufactura en Guadalajara. Yo soy un consultor externo. Voy a proponerte un plan de retención de talento. Tu papel es cuestionarlo con objeciones realistas: presupuesto limitado, resistencia del sindicato y rotación estacional. No aceptes propuestas sin datos que las respalden.
 
 ### 4. Think-pair-share con validación IA
 
@@ -107,7 +113,15 @@ Adaptación del clásico *think-pair-share* donde se añade un paso de validaci�
 3. **IA-check** — formulan lo consensuado como prompt y la IA lo cuestiona o enriquece
 4. **Share** — presentan al grupo incorporando lo que la IA aportó y lo que descartaron
 
-## Diseño de actividades: protocolo para el docente
+## Haz lo mismo con una actividad tuya, paso a paso
+
+1. **Escribe qué debe saber hacer el grupo al terminar** (Marcos: «decidir entre tres problemas cuál atender primero y justificarlo»).
+2. **Pide a la IA el material que te falte** (un caso, una secuencia de preguntas, un escenario) y revísalo: datos que no cuadran, soluciones adelantadas, contexto ajeno.
+3. **Elige el papel de la IA para el grupo** entre los cuatro de arriba y escríbelo en una frase de la instrucción.
+4. **Escribe con qué revisarás el trabajo** (por ejemplo: «la propuesta nombra el problema prioritario y da una razón con datos del caso»).
+5. **Pide una nota de lo que preguntaron y descartaron**: dos preguntas hechas a la IA, qué respondió y qué hicieron con ello. Esa nota es lo que te deja ver cómo pensaron.
+
+El diagrama resume los pasos:
 
 {{< mermaid >}}
 flowchart TD
@@ -115,15 +129,17 @@ flowchart TD
     B --> C{Revisar y adaptar}
     C -->|Actividad adecuada| D[Definir rol de la IA para el estudiante]
     C -->|Necesita ajuste| B
-    D --> E[Establecer criterios de evaluación]
+    D --> E[Escribir con qué se revisará el trabajo]
     E --> F[Crear instrucciones explícitas de uso de IA]
     F --> G[Implementar en el aula]
-    G --> H[Recoger evidencia del proceso]
+    G --> H[Recoger las notas de preguntas y descartes]
 {{< /mermaid >}}
 
-## Qué no es aprendizaje activo con IA
+## Cómo saber si la IA hace el trabajo o lo cuestiona
 
-| Esto **no** es aprendizaje activo con IA | Esto **sí** lo es |
+Revisa tu instrucción contra esta tabla; si queda en la columna izquierda, cambia el papel de la IA.
+
+| La IA hace el trabajo | La IA lo cuestiona |
 |---|---|
 | El estudiante le pide a la IA que resuelva el ejercicio | El estudiante resuelve y la IA cuestiona su solución |
 | El docente copia la actividad generada por IA sin revisarla | El docente adapta y contextualiza lo que la IA propone |
@@ -137,7 +153,7 @@ flowchart TD
 {{< /alert >}}
 
 {{< alert icon="lightbulb" type="info" >}}
-**El aprendizaje activo con IA no elimina al docente.** Lo libera de la producción de contenido para que se concentre en facilitar la discusión, observar procesos y dar retroalimentación personalizada.
+**La IA te quita producción de material, no el aula.** Con el caso ya generado y revisado, tu tiempo en clase va a facilitar la discusión, observar cómo deciden los equipos y comentar sus notas de preguntas y descartes.
 {{< /alert >}}
 
 ## Lecturas relacionadas

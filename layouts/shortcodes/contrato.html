@@ -4,4 +4,4 @@
 {{- range $k := slice "quien" "haras" "tendras" "tarda" -}}
   {{- if not ($.Get $k) -}}{{- errorf "Shortcode contrato: falta el parámetro %q en %s" $k $.Position -}}{{- end -}}
 {{- end -}}
-{{ partial "udgia/contrato.html" (dict "quien" (.Get "quien") "haras" (.Get "haras") "tendras" (.Get "tendras") "tarda" (.Get "tarda") "ejemplo" (.Get "ejemplo")) }}
+{{ partial "udgia/contrato.html" (dict "quien" (.Get "quien") "haras" (.Get "haras") "tendras" (.Get "tendras") "tarda" (.Get "tarda") "ejemplo" (.Get "ejemplo") "modo" (.Get "modo")) }}

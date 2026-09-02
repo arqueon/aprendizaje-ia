@@ -1,8 +1,8 @@
 ---
-title: "Aprendizaje basado en proyectos (ABP) con IA"
+title: "Rediseña tu proyecto de semestre (ABP) fase por fase: dónde entra la IA y qué entrega el estudiante"
 date: 2026-04-20
 draft: false
-description: "Guía metodológica para integrar la inteligencia artificial generativa en cada una de las fases del aprendizaje basado en proyectos."
+description: "Toma un proyecto que ya diriges y decide, en cada una de sus cuatro fases, qué le pide el estudiante a la IA, qué comprueba por su cuenta y qué te entrega. Terminas con el calendario del proyecto anotado."
 summary: "Descubre cómo transformar el ABP tradicional utilizando la IA como un co-productor activo. Esta guía explora el diseño de escenarios complejos, la investigación asistida, la iteración socrática y la evaluación del proceso cognitivo."
 tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento (ensamblaje)", "trabajo colaborativo"]
 categories: ["guia"]
@@ -15,9 +15,20 @@ showBreadcrumbs: true
 showSummary: true
 ---
 
-{{< lead >}}
-El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, documentando decisiones y manteniendo el control epistémico del proceso.
-{{< /lead >}}
+{{< contrato quien="Profesorado que ya dirige un proyecto de semestre (un diagnóstico, un plan, un prototipo) y ve que el grupo llega con entregas pulidas que pudo generar una IA la noche anterior." haras="Vas a tomar tu proyecto y a decidir, fase por fase (definir el problema, investigar, poner a prueba la hipótesis, presentar), qué le puede pedir el estudiante a la IA, qué debe comprobar por su cuenta y qué te entrega en cada fase, con la lista de verificación del final." tendras="Un calendario de tu proyecto con cuatro fases y, en cada una, el papel de la IA y la entrega que le pides al grupo (por ejemplo: «Fase 2: la IA resume literatura; el estudiante entrega la tabla de fuentes verificadas y descartadas, con la razón de cada descarte»)." tarda="Diez minutos si sólo recorres el caso de Marcela; entre cuarenta y sesenta si rediseñas un proyecto tuyo." ejemplo="Abajo está el caso de Marcela, docente de Arquitectura, con su proyecto de sostenibilidad urbana ya repartido en cuatro fases." >}}
+
+## El caso de Marcela, ya resuelto
+
+Marcela imparte tercer semestre de Arquitectura y Urbanismo. Cada semestre pide un proyecto de cuatro semanas sobre sostenibilidad urbana y el último grupo entregó láminas impecables que nadie supo defender en la exposición. Repartió el proyecto así:
+
+| Fase | Qué pide el estudiante a la IA | Qué comprueba por su cuenta | Qué entrega a Marcela |
+|---|---|---|---|
+| 1. Problema | Un escenario de barrio con datos plausibles (población, uso de suelo, transporte). | Qué variables del escenario son creíbles para un barrio real de Guadalajara. | El escenario reescrito, con dos variables cambiadas y la razón. |
+| 2. Investigación | Un resumen de literatura sobre islas de calor urbanas. | Que cada referencia exista en Scholar o Scopus. | Una tabla de fuentes: verificadas, descartadas y por qué. |
+| 3. Hipótesis | Objeciones a su propuesta («techos verdes reducen 3 °C la temperatura de la manzana»). | Cuáles objeciones se sostienen con las fuentes verificadas. | Dos versiones de la propuesta y una nota de qué cambió entre ellas. |
+| 4. Presentación | Ayuda con el guion y la infografía. | Que puede explicar cada elemento sin mirar la conversación. | La exposición y una defensa de tres minutos con preguntas del grupo. |
+
+Cambió una sola regla de calificación: la versión final pesa la mitad; la otra mitad son las tablas y notas de las fases 1 a 3. Con eso ve el recorrido, y el grupo sabe desde el día uno qué se le va a preguntar.
 
 ## 1. Qué cambia cuando la IA entra al ABP
 
@@ -27,7 +38,7 @@ La diferencia operativa es que la IA permite:
 
 - Generar escenarios de problema más complejos y situados
 - Contrastar hipótesis con un interlocutor que no se cansa ni se ofende
-- Iterar sobre productos intermedios con retroalimentación inmediata
+- Iterar sobre versiones intermedias (un esquema, un borrador, un plano) con retroalimentación inmediata
 - Documentar cada decisión en un registro trazable (logs de prompts, versiones)
 
 Lo que la IA **no** puede hacer es decidir qué importa, qué se descarta y por qué. Eso sigue siendo responsabilidad del estudiante.
@@ -52,7 +63,7 @@ El estudiante no usa el escenario tal cual: lo evalúa, lo modifica y decide qu�
 **Idea para el Aula:** Pide a tus estudiantes que soliciten a la IA (ej. Gemini o Claude) que actúe como un "cliente conflictivo" o un "stakeholder afectado" por el problema que intentan resolver. La entrevista con este agente de IA les ayudará a definir mejor su objetivo.
 {{< /alert >}}
 
-### Fase 2: Investigación y búsqueda de evidencia
+### Fase 2: Investigación y búsqueda de fuentes
 
 La IA asiste en la búsqueda y síntesis de literatura, pero el estudiante opera como curador crítico.
 
@@ -94,13 +105,13 @@ graph LR
     D --> E["Versión final"]
 {{< /mermaid >}}
 
-En cada ciclo, el estudiante registra los cambios realizados y la justificación. Este registro se convierte en evidencia del proceso de aprendizaje, no solo del producto.
+En cada ciclo, el estudiante registra los cambios realizados y la justificación. Ese registro (qué cambió en cada versión y por qué) es lo que te permite ver el proceso, no sólo la versión final.
 
 ### Fase 4: Presentación y comunicación
 
-La IA puede asistir en la co-creación de artefactos comunicativos (presentaciones, infografías, reportes), pero el estudiante debe poder explicar y defender cada decisión ante el grupo y el docente.
+La IA puede asistir en la preparación de piezas comunicativas (presentaciones, infografías, reportes), pero el estudiante debe poder explicar y defender cada decisión ante el grupo y el docente.
 
-**Criterio clave:** si el estudiante no puede explicar por qué incluyó algo en su producto, ese elemento no debería estar ahí.
+**Regla clave:** si el estudiante no puede explicar por qué incluyó algo en su presentación o reporte, ese elemento no debería estar ahí.
 
 ---
 
@@ -109,7 +120,7 @@ La IA puede asistir en la co-creación de artefactos comunicativos (presentacion
 El mayor riesgo del ABP actual es evaluar solo el "entregable", el cual pudo haber sido generado 100% por una IA en el último minuto. Para evitar esto, la evaluación debe ser formativa y trazable.
 
 {{< alert icon="triangle-exclamation" type="danger" >}}
-**Punto Clave:** Lo que evaluamos no es "la respuesta correcta", sino las **decisiones epistémicas del estudiante**. ¿Qué le preguntó a la IA? ¿Por qué modificó su prompt? ¿Cómo validó el resultado?
+**Punto clave:** evaluamos las **decisiones del estudiante** (qué le preguntó a la IA, por qué modificó su prompt, cómo validó el resultado), más que la respuesta correcta.
 {{< /alert >}}
 
 **Herramientas de Evaluación Sugeridas:**
@@ -119,12 +130,14 @@ El mayor riesgo del ABP actual es evaluar solo el "entregable", el cual pudo hab
 
 ## 4. Diseño del proyecto: lista de verificación para el docente
 
+Recorre tu proyecto con estas seis preguntas; donde la respuesta sea «no» o «no sé», ahí está la fase que conviene ajustar primero (Marcela empezó por la trazabilidad).
+
 | Elemento | Pregunta orientadora |
 |----------|---------------------|
 | Problema auténtico | ¿El problema tiene relevancia fuera del aula? |
 | Rol de la IA | ¿En qué fases interviene la IA y con qué función? |
 | Trazabilidad | ¿Cómo documentará el estudiante su interacción con la IA? |
-| Criterios de evaluación | ¿Se evalúa el proceso o solo el producto final? |
+| Qué se evalúa | ¿Se evalúa el proceso (versiones, decisiones) o solo la entrega final? |
 | Transparencia | ¿Se requiere que el estudiante explicite cómo usó la IA? |
 | Iteración | ¿Hay al menos dos ciclos de retroalimentación antes de la entrega final? |
 

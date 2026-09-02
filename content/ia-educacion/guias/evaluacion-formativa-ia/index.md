@@ -1,8 +1,8 @@
 ---
-title: "Evaluación formativa con IA — ciclos de retroalimentación iterativa"
+title: "Añade a una tarea tuya un ciclo de retroalimentación con IA que puedas revisar"
 date: 2026-04-14
 draft: false
-description: "Guía para diseñar ciclos donde la evidencia y la retroalimentación se usan para ajustar enseñanza y aprendizaje con supervisión humana."
+description: "Toma una tarea que ya pides, añade una vuelta de retroalimentación con IA entre el borrador y la entrega, y decide qué te entrega el estudiante para ver qué hizo con los comentarios."
 summary: "Cómo integrar retroalimentación con IA en ciclos proporcionales que incluyen criterios, revisión, comprobación y cuidado de datos."
 tags: ["evaluación formativa", "retroalimentación", "IA generativa", "portafolios", "rúbricas"]
 categories: ["guia"]
@@ -58,29 +58,46 @@ ecosistema:
     proxima_revision: 2026-10-27
 ---
 
-{{< lead >}}
-Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía propone ciclos donde la IA ofrece una primera retroalimentación, el estudiante la contrasta y actúa, y el docente supervisa y comprueba qué aprendizaje ocurrió.
-{{< /lead >}}
+{{< contrato quien="Profesorado que ya pide un borrador y una versión final (un ensayo, un informe, un problema resuelto) y quiere que el estudiante reciba comentarios antes de entregar sin comentar cada borrador a mano, y sin que la IA califique." haras="Vas a tomar una tarea tuya, vas a añadir una vuelta de retroalimentación con IA entre el borrador y la entrega, vas a fijar con qué se revisará (una rúbrica corta que el estudiante conoce desde el inicio) y vas a decidir qué te entrega el estudiante además de la versión final: un punto de comparación y una nota de decisiones." tendras="La instrucción de la tarea con el ciclo añadido y la lista de lo que se entrega (por ejemplo: «Entrega tu esquema inicial, la versión final y una nota de tres líneas: qué sugerencia de la IA aceptaste, cuál descartaste y por qué»), además de la rúbrica que la IA y tú usarán." tarda="Diez minutos con el caso de Paula; treinta con una tarea tuya." ejemplo="Abajo está el caso de Paula, profesora de derecho, ya resuelto: su tarea antes, el ciclo que añadió, la petición que dio al grupo y qué le entregaron." >}}
 
-## La premisa: evaluar procesos, no solo productos
+## El caso de Paula, ya resuelto
+
+Paula da derecho penal en tercer semestre y pide un ensayo argumentativo sobre la proporcionalidad de las penas en delitos menores. Su tarea tenía dos entregas: borrador y versión final. Ella comentaba los cuarenta borradores a mano, tardaba dos semanas, y la versión final cambiaba poco: el grupo corregía las comas que ella marcaba y dejaba igual el argumento.
+
+Añadió una vuelta de retroalimentación con IA entre las dos entregas. Compartió desde el inicio una rúbrica de tres líneas (claridad del argumento, uso de fuentes, contraargumentos considerados) y dio al grupo esta petición para usar con Claude:
+
+> *Prompt:* Soy estudiante de derecho y este es mi borrador de ensayo argumentativo sobre la proporcionalidad de las penas en delitos menores. Actúa como evaluador formativo. No me des la respuesta correcta. Señala: (1) los puntos donde mi argumento es débil o circular, (2) las afirmaciones que necesitan una fuente que las respalde, (3) los contraargumentos que no estoy considerando. Usa un tono directo y constructivo.
+
+Cambió también lo que se entrega: el esquema inicial, la versión final y una nota de tres líneas con una sugerencia aceptada, una descartada y por qué. Una de las notas que recibió: «Acepté añadir el contraargumento de que el juez ya pondera caso por caso. Descarté quitar el caso de 2019: la IA dijo que era irrelevante y es mi mejor ejemplo de pena desproporcionada». Con esa nota y el esquema, Paula ve en dos minutos qué decidió cada estudiante y dedica sus comentarios a la decisión, no a las comas. La IA no puso ninguna calificación: la rúbrica la aplica ella sobre la versión final.
+
+## Haz lo mismo con una tarea tuya, paso a paso
+
+1. **Elige una tarea que ya tenga borrador y entrega.** Si sólo tiene entrega, añade un borrador una semana antes.
+2. **Escribe una rúbrica de tres a cinco líneas** con lo que se valora (Paula: «claridad del argumento, uso de fuentes, contraargumentos») y compártela desde el inicio.
+3. **Escribe la petición que usará el grupo** con la IA, con dos límites fijos: que no dé la respuesta y que señale qué necesita respaldo. Puedes partir de la de Paula.
+4. **Decide qué se entrega además de la versión final:** un punto de comparación (esquema, versión previa o tabla de fuentes verificadas) y una nota breve de decisiones. Elige lo mínimo que te deje ver el recorrido; la sección de abajo te ayuda a calibrarlo.
+5. **Revisa antes de usar un servicio externo** qué textos y datos pueden compartirse ([protege datos y trabajos al usar IA](../privacidad-datos-ia/)).
+
+Lo que sigue explica por qué funciona el ciclo y qué otras formas de entrega puedes usar.
+
+## Por qué importa lo que pasa después del comentario
 
 {{< alert icon="scale-balanced" type="info" >}}
 **Dos decisiones distintas:** la evaluación formativa describe la función de la
 retroalimentación —ayudar a mejorar mientras se aprende—; la evaluación basada en procesos
-describe **qué evidencias** se valoran —versiones, verificaciones y decisiones, además del
-producto final—. Pueden combinarse, pero no son sinónimos.
+describe **qué se valora** (versiones, verificaciones y decisiones, además de la versión final). Pueden combinarse, pero no son sinónimos.
 {{< /alert >}}
 
-La diferencia entre evaluación sumativa y formativa es de **uso**, no de instrumento. Una evidencia se usa formativamente cuando permite decidir qué debe revisarse, qué apoyo necesita una persona o qué conviene cambiar en la enseñanza. Se usa sumativamente cuando contribuye a certificar o comunicar un nivel alcanzado. Un borrador calificado puede generar una acción posterior y cumplir una función formativa; una observación sin calificación puede dejar de serlo si nadie la usa (Black & Wiliam, 1998).
+Una actividad es formativa cuando lo que produce (un borrador, un comentario, una nota de decisión) se usa para ajustar la enseñanza y el aprendizaje; puede además contar para la calificación, y ambas funciones caben en la misma actividad. La diferencia entre evaluación sumativa y formativa es de **uso**, no de instrumento. Un borrador o un comentario se usa formativamente cuando permite decidir qué debe revisarse, qué apoyo necesita una persona o qué conviene cambiar en la enseñanza. Se usa sumativamente cuando contribuye a certificar o comunicar un nivel alcanzado. Un borrador calificado puede generar una acción posterior y cumplir una función formativa; una observación sin calificación puede dejar de serlo si nadie la usa (Black & Wiliam, 1998).
 
 Una herramienta generativa puede apoyar el ciclo porque puede:
 
 - producir comentarios rápidos y detallados sobre un borrador;
-- contrastar el texto con criterios explícitos;
+- contrastar el texto con una rúbrica;
 - proponer preguntas o contraejemplos para una revisión;
 - ayudar a organizar diferencias entre versiones.
 
-Estas posibilidades no garantizan precisión, personalización ni comprensión del contexto. La evidencia disponible es heterogénea: una revisión de ocho estudios y 461 estudiantes encontró rapidez y detalle en comentarios de ChatGPT, pero mayor personalización y apoyo emocional en la retroalimentación humana. La supervisión humana sigue siendo necesaria para interpretar el contexto, detectar errores y decidir qué acción pedagógica corresponde (Guardia-Paniura et al., 2026).
+Estas posibilidades no garantizan precisión, personalización ni comprensión del contexto. Lo que se sabe hasta ahora es desigual: una revisión de ocho estudios y 461 estudiantes encontró rapidez y detalle en comentarios de ChatGPT, pero mayor personalización y apoyo emocional en la retroalimentación humana. La supervisión humana sigue siendo necesaria para interpretar el contexto, detectar errores y decidir qué acción pedagógica corresponde (Guardia-Paniura et al., 2026).
 
 ## Arquitectura de un ciclo formativo con IA
 
@@ -95,18 +112,18 @@ flowchart TD
     E --> H[Nuevo borrador]
     F --> H
     G --> H
-    H --> I{¿Cumple criterios mínimos?}
+    H --> I{¿Cumple lo mínimo de la rúbrica?}
     I -->|No| B
     I -->|Sí| J[Docente revisa el proceso completo]
 {{< /mermaid >}}
 
-El elemento crítico no es el comentario de la IA, sino lo que ocurre después. Cada ciclo debe declarar un **criterio**, producir una **acción posterior** —revisar, verificar, pedir ayuda o explicar una aceptación, modificación o descarte— y añadir una **comprobación** que permita reconocer si cambió la comprensión o el trabajo. La decisión documentada del estudiante puede aportar evidencia, pero debe leerse junto con el producto y el propósito de la actividad.
+Lo que importa es lo que ocurre después del comentario de la IA. Cada ciclo que añadas necesita tres cosas: con qué se revisa (una rúbrica corta, como la de tres líneas de Paula), una **acción posterior** del estudiante —revisar, verificar, pedir ayuda o explicar por qué aceptó, cambió o descartó— y una **comprobación** que te deje ver si cambió el trabajo o la comprensión. La nota de decisión del estudiante te dice algo, pero la lees junto con la versión final y con lo que la tarea buscaba.
 
 ## Cuatro maneras de conocer cómo se llegó al resultado
 
 Cada actividad puede elegir una muestra distinta del recorrido; no hace falta usar las cuatro
-a la vez ni convertirlas en un expediente. Lo que comparten es el propósito: conocer una
-decisión y cómo se comprobó, en lugar de intentar adivinar si intervino una herramienta.
+a la vez ni convertirlas en un expediente. Las cuatro sirven para lo mismo: conocer una
+decisión y cómo se comprobó (Paula usó dos: el esquema inicial y la nota de decisión), en lugar de intentar adivinar si intervino una herramienta.
 
 {{< udgia-figure id="udgia-f09-instrumentos" src="instrumentos-evaluacion-proceso.svg" >}}
 Las cuatro maneras convergen en comprender el recorrido: qué se preguntó, qué se descartó,
@@ -123,13 +140,11 @@ Cada actividad puede elegir la muestra más pequeña que todavía ayude a interp
 aprendizaje. Comprender una decisión aporta más que intentar detectar una herramienta.
 {{< /udgia-figure >}}
 
-## Elige un paquete de evidencias proporcional
+## Elige lo mínimo que te deja ver el recorrido
 
-La suficiencia depende de la tarea: no se pide lo mismo para una práctica breve que para un
-proyecto de alto impacto. Este ejercicio plantea una actividad de riesgo académico bajo y
-obliga a seleccionar, no a acumular. En este ejercicio de práctica, la selección no se califica,
-no registra el intento y no se entrega como evidencia; su función es preparar una decisión que
-pueda reutilizarse en una tarea real.
+Cuánto pedir depende de la tarea: no se pide lo mismo para una práctica breve que para un
+proyecto de alto impacto. El ejercicio siguiente plantea una actividad de riesgo académico bajo y
+te obliga a seleccionar, no a acumular. La selección no se califica ni registra el intento; sirve para ensayar la decisión que después tomarás en tu tarea real (paso 4 de arriba).
 
 {{< h5p id="evidencias-proceso-proporcion" load="manual" title="Elegir evidencia suficiente y proporcional" >}}
 ### Versión textual del caso
@@ -143,53 +158,51 @@ incluye:
 - dos decisiones de revisión explicadas, para hacer visible el juicio;
 - la versión final, para apreciar el resultado de esas decisiones.
 
-Entregar solo el producto final resulta insuficiente. Exigir conversaciones completas,
+Entregar sólo la versión final resulta insuficiente. Exigir conversaciones completas,
 capturas, historial de navegación o todos los mensajes resulta desproporcionado. El número de
 consultas y los detectores tampoco muestran por sí mismos qué aprendió la persona.
 {{< /h5p >}}
 
 ### 1. Portafolio iterativo
 
-El estudiante conserva algunos momentos del trabajo para comparar el punto de partida, una revisión y el resultado. El número de versiones depende del propósito y la duración de la tarea; la IA puede intervenir en uno o varios momentos si las reglas lo permiten.
+El estudiante conserva algunos momentos del trabajo para comparar el punto de partida, una revisión y el resultado. El número de versiones depende de lo que busca la tarea y de su duración; la IA puede intervenir en uno o varios momentos si las reglas lo permiten.
 
 **Ejemplo de estructura proporcional:**
 
-| Versión | Contenido | Evidencia requerida |
+| Versión | Contenido | Qué se entrega |
 |---------|-----------|-------------------|
-| Punto de partida | Esquema, tesis o fragmento inicial | Fecha y criterio que se quiere trabajar |
+| Punto de partida | Esquema, tesis o fragmento inicial | Fecha y qué aspecto quiere mejorar (por ejemplo, «la tesis») |
 | Revisión | Versión posterior a una fuente de retroalimentación | Una o dos decisiones explicadas, sin exigir la conversación completa |
 | Contraste opcional | Revisión por pares, docente o herramienta | Comentario elegido y respuesta de quien escribe |
 | Cierre | Versión que se valorará | Comprobación breve de qué cambió y qué queda pendiente |
 
-**Ejemplo de prompt para retroalimentación con Claude:**
-
-> *Prompt:* Soy estudiante de derecho y este es mi borrador de ensayo argumentativo sobre la proporcionalidad de las penas en delitos menores. Actúa como evaluador formativo. No me des la respuesta correcta. Señala: (1) los puntos donde mi argumento es débil o circular, (2) las afirmaciones que necesitan evidencia, (3) los contraargumentos que no estoy considerando. Usa un tono directo y constructivo.
+El prompt que Paula dio a su grupo (arriba) sirve como plantilla para la fila «Revisión»: cambia la materia y el tipo de texto.
 
 ### 2. Rúbricas asistidas por IA
 
-El docente diseña la rúbrica y puede usar una herramienta generativa para producir un borrador de retroalimentación. La herramienta también interpreta los criterios y puede aplicarlos de forma inconsistente; su salida debe contrastarse antes de llegar al estudiante o influir en una decisión de evaluación.
+El docente diseña la rúbrica y puede usar una herramienta generativa para producir un borrador de retroalimentación. La herramienta también interpreta la rúbrica y puede aplicarla de forma inconsistente; su salida debe contrastarse antes de llegar al estudiante o influir en una decisión de evaluación.
 
 **Protocolo:**
 
-1. El docente crea la rúbrica con criterios, niveles y ejemplos de interpretación.
+1. El docente crea la rúbrica con lo que se valora (por ejemplo: «claridad del argumento»), niveles y ejemplos de interpretación.
 2. Antes de compartir textos, verifica la política institucional, la privacidad y la protección de datos del servicio.
 3. La herramienta contrasta un texto autorizado con la rúbrica y formula observaciones provisionales.
-4. Una persona revisa cada observación que se utilizará: comprueba evidencia, tono, sesgos y correspondencia con el criterio.
+4. Una persona revisa cada observación que se utilizará: comprueba que señale algo que sí está en el texto, el tono, los sesgos y que corresponda a la rúbrica.
 5. El estudiante recibe los comentarios revisados, decide una acción posterior y explica qué cambió.
-6. El docente comprueba el aprendizaje con el producto, las decisiones y otra evidencia pertinente; no usa la salida automática como fundamento único de una calificación.
+6. El docente comprueba el aprendizaje con la versión final, las decisiones y lo demás que se entregó; no usa la salida automática como fundamento único de una calificación.
 
 **Ejemplo con Gemini:**
 
-> *Prompt:* Aquí tienes una rúbrica analítica con 4 criterios: claridad argumentativa, uso de evidencia, estructura lógica y originalidad del planteamiento. Cada criterio tiene 4 niveles (insuficiente, en desarrollo, competente, destacado). Evalúa el siguiente texto usando exclusivamente esta rúbrica. Para cada criterio indica el nivel, la justificación y una sugerencia concreta de mejora. [Pegar rúbrica y texto]
+> *Prompt:* Aquí tienes una rúbrica analítica con 4 aspectos (claridad argumentativa, uso de fuentes, estructura lógica y originalidad del planteamiento). Cada aspecto tiene 4 niveles (insuficiente, en desarrollo, competente, destacado). Evalúa el siguiente texto usando exclusivamente esta rúbrica. Para cada aspecto indica el nivel, la justificación y una sugerencia concreta de mejora. [Pegar rúbrica y texto]
 
 {{< alert icon="triangle-exclamation" type="warning" >}}
-**La rúbrica no elimina la interpretación.** Una herramienta puede omitir evidencia, inventar justificaciones o reproducir sesgos aun cuando reciba criterios explícitos. Solo deben entregarse comentarios revisados, y ninguna salida automática debe decidir por sí sola una calificación o una consecuencia académica.
+**La rúbrica no elimina la interpretación.** Una herramienta puede pasar por alto lo que sí está en el texto, inventar justificaciones o reproducir sesgos aun cuando reciba una rúbrica clara. Solo deben entregarse comentarios revisados, y ninguna salida automática debe decidir por sí sola una calificación o una consecuencia académica.
 {{< /alert >}}
 
 ### 3. Bitácora de decisiones
 
-El estudiante mantiene una bitácora breve donde registra criterios, verificaciones,
-aceptaciones y descartes durante su trabajo con IA. La escritura reflexiva ayuda a distinguir
+El estudiante mantiene una bitácora breve donde registra qué buscaba, qué verificó,
+qué aceptó y qué descartó durante su trabajo con IA. La escritura reflexiva ayuda a distinguir
 una decisión razonada de la adopción automática de una sugerencia.
 
 **Entradas sugeridas:**
@@ -201,31 +214,31 @@ una decisión razonada de la adopción automática de una sugerencia.
 
 ### 4. Defensa oral
 
-El estudiante explica el propósito, las fuentes, los cambios y las decisiones centrales de
-su trabajo sin depender de la IA. No se trata de repetir el producto final, sino de sostener
+El estudiante explica qué quería lograr, las fuentes, los cambios y las decisiones centrales de
+su trabajo sin depender de la IA. En lugar de repetir lo que escribió, sostiene
 por qué tomó determinadas decisiones y cómo verificó lo que incorporó.
 
 Una defensa breve puede combinar tres preguntas: qué cambió entre versiones, qué decisión
-tomó ante una sugerencia relevante y qué evidencia respalda la decisión más importante.
+tomó ante una sugerencia relevante y qué fuente o dato respalda la decisión más importante.
 
 ## Qué entrega el estudiante y qué evalúa el docente
 
-Según el propósito y el riesgo de la tarea, el estudiante puede entregar un **paquete breve de evidencias**. No todas las actividades necesitan los mismos componentes; el docente selecciona solo los que permitan interpretar el aprendizaje:
+Según lo que busca la tarea y su peso en la calificación, el estudiante entrega un **paquete breve** (el de Paula: esquema, versión final y nota de decisiones). No todas las actividades necesitan los mismos componentes; el docente selecciona solo los que permitan interpretar el aprendizaje:
 
-1. **El producto que se valorará:** la versión o actuación sobre la que se aplicarán los criterios.
+1. **La versión que se valorará:** el texto o la actuación sobre la que se aplicará la rúbrica.
 2. **Un punto de comparación:** un esquema, una versión previa o una verificación de fuentes, cuando resulte pertinente.
 3. **Una explicación de decisiones:** una nota breve sobre una aceptación, modificación o descarte relevante. No hace falta documentar cada interacción.
 
-Al momento de revisar este entregable, los criterios del docente deben cambiar de enfoque:
+Al revisar este paquete, lo que miras cambia de enfoque:
 
 | Lo que aporta al juicio | Lo que no basta por sí solo |
 |---|---|
 | Las decisiones del estudiante ante la retroalimentación | La cantidad de interacciones con la IA |
 | La evolución entre versiones | La calidad del prompt en sí mismo |
-| La reflexión sobre el proceso | El producto final aislado |
+| La reflexión sobre el proceso | La versión final aislada |
 | La capacidad de aceptar, modificar o descartar sugerencias con fundamento | La obediencia a la IA |
 
-## Decide qué evidencia permite valorar aprendizaje
+## Decide qué te deja ver el aprendizaje
 
 La pregunta siguiente aplica la distinción que acabas de revisar. No busca acumular rastros:
 busca un conjunto pequeño que permita comparar el punto de partida, la verificación y las
@@ -234,11 +247,11 @@ decisiones de revisión.
 {{< h5p id="evaluacion-proceso-decision" load="manual" title="Qué evidencia muestra aprendizaje" >}}
 ### Revisa las opciones con la explicación visible
 
-Una estudiante presenta un ensayo sólido después de usar IA. Estas evidencias sí ayudan a
+Una estudiante presenta un ensayo sólido después de usar IA. Estas entregas sí ayudan a
 valorar el aprendizaje:
 
 - una tesis o un esquema previo, porque muestra el punto de partida;
-- una tabla breve de fuentes propuestas, verificadas y descartadas, porque muestra criterio;
+- una tabla breve de fuentes propuestas, verificadas y descartadas, porque muestra cómo decidió;
 - dos o tres decisiones de revisión explicadas, porque permiten observar juicio y
   transformación.
 
@@ -248,30 +261,30 @@ detector tampoco reconstruye qué aprendió la estudiante.
 
 ## Errores frecuentes
 
-1. **Delegar una decisión de calificación.** Un comentario automático puede orientar una revisión, pero no sustituye la interpretación del criterio, la evidencia del trabajo ni la responsabilidad docente.
+1. **Delegar una decisión de calificación.** Un comentario automático puede orientar una revisión, pero no sustituye tu lectura de la rúbrica sobre el trabajo ni tu responsabilidad docente.
 
-2. **No dar al estudiante criterios claros.** Si el estudiante no sabe qué se espera, la retroalimentación de la IA es ruido. La rúbrica o los criterios deben ser explícitos desde el inicio.
+2. **No decirle al estudiante con qué se revisará.** Si no sabe qué se espera, la retroalimentación de la IA es ruido. La rúbrica se comparte desde el inicio, como hizo Paula.
 
-3. **Evaluar solo el producto.** Si el portafolio se califica por la versión final sin considerar las iteraciones, el sistema desincentiva el proceso que se supone estamos desarrollando.
+3. **Calificar sólo la versión final.** Si el portafolio se califica por la versión final sin considerar las iteraciones, el sistema desincentiva el proceso que se supone estamos desarrollando.
 
-4. **Asumir que la retroalimentación de la IA es siempre correcta.** La IA puede dar sugerencias equivocadas. Que el estudiante identifique errores en la retroalimentación de la IA es, en sí mismo, evidencia de aprendizaje.
+4. **Asumir que la retroalimentación de la IA es siempre correcta.** La IA puede dar sugerencias equivocadas. Que el estudiante identifique errores en la retroalimentación de la IA es, en sí mismo, una muestra de aprendizaje (la nota que descartó quitar el caso de 2019 lo muestra).
 
 ## Salvaguardas antes de usar un servicio externo
 
 - **Privacidad y protección de datos:** no pegar trabajos estudiantiles, nombres o información sensible sin base institucional y consentimiento aplicable. Usar fragmentos anonimizados o alternativas locales cuando corresponda.
 - **Sesgo y contexto:** comprobar si los comentarios penalizan variedades lingüísticas, enfoques disciplinares o formas de expresión que la herramienta interpreta de manera estrecha.
-- **Dependencia:** alternar fuentes de retroalimentación y pedir que el estudiante contraste la salida con criterios, pares, documentos o revisión docente.
-- **Carga de trabajo:** empezar con un ciclo y una evidencia breve. Automatizar comentarios que después requieren corregirse uno por uno puede aumentar, no reducir, la carga.
+- **Dependencia:** alternar fuentes de retroalimentación y pedir que el estudiante contraste la salida con la rúbrica, pares, documentos o revisión docente.
+- **Carga de trabajo:** empezar con un ciclo y una entrega breve. Automatizar comentarios que después requieren corregirse uno por uno puede aumentar, no reducir, la carga.
 - **Accesibilidad:** ofrecer una vía equivalente cuando la interfaz, el formato conversacional o la exposición oral introduce una barrera.
 
 ## Consejos pedagógicos
 
 {{< alert icon="lightbulb" type="info" >}}
-**Empieza con un solo ciclo.** Añade una oportunidad de retroalimentación a una tarea existente y comprueba si la revisión produce evidencia útil antes de ampliar el número de versiones o muestras.
+**Empieza con un solo ciclo.** Añade una oportunidad de retroalimentación a una tarea existente y comprueba si la revisión te muestra algo útil (una decisión explicada, un cambio entre versiones) antes de ampliar el número de versiones o muestras.
 {{< /alert >}}
 
 {{< alert icon="lightbulb" type="info" >}}
-**Haz visibles decisiones relevantes.** Si el estudiante acepta, modifica o descarta una sugerencia importante, una nota breve puede mostrar el criterio usado. No debe inventar un rechazo ni conservar toda la conversación para cumplir el formato.
+**Haz visibles decisiones relevantes.** Si el estudiante acepta, modifica o descarta una sugerencia importante, una nota breve puede mostrar la razón que usó. No debe inventar un rechazo ni conservar toda la conversación para cumplir el formato.
 {{< /alert >}}
 
 ## Relación con otras secciones del sitio

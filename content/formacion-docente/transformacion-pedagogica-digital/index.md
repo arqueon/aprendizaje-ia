@@ -19,9 +19,9 @@ showAuthor: false
 weight: 8
 ---
 
-{{< lead >}}
-Un estudiante de la UdeG asiste dos días al aula y el resto de la semana trabaja desde donde esté: revisa materiales en línea, discute en foros y entrega evidencias sin pisar el campus. Esa combinación no es improvisada ni un arreglo particular de su profesor: es el modelo de aprendizaje híbrido y activo centrado en el estudiante que impulsa la Universidad de Guadalajara. Este documento presenta el marco general de esa estrategia: las lecciones de la pandemia, la justificación del cambio y los elementos comunes que guían la transformación en toda la Red Universitaria.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes de la UdeG que oyen hablar del «modelo híbrido y activo» de la universidad y quieren saber de dónde viene, qué les pide y qué partes ya hacen; también quienes coordinan programas." haras="Vas a entender por qué la universidad apuesta por cambiar la forma de enseñar antes que por comprar tecnología (es lo que dejó la pandemia), y cuáles son los seis elementos que comparte cualquier curso híbrido y activo, del syllabus a la retroalimentación." tendras="Una lista de seis elementos para ubicar tu curso («¿cuáles ya tiene y cuál conviene trabajar primero?», por ejemplo: «tengo plataforma y foros, pero mi syllabus no dice qué se hace antes de cada clase») y el enlace a la página de cada uno." tarda="Ocho minutos de lectura." ejemplo="Empieza con un estudiante de la UdeG que va dos días al aula y el resto de la semana trabaja desde donde esté; su semana abre la página y muestra el modelo en uso." >}}
+
+Un estudiante de la UdeG asiste dos días al aula y el resto de la semana trabaja desde donde esté: revisa materiales en línea, discute en foros y entrega trabajos sin pisar el campus. Esa combinación responde al modelo de aprendizaje híbrido y activo centrado en el estudiante que impulsa la Universidad de Guadalajara, y va más allá del arreglo particular de un profesor. Este documento presenta el marco general de esa estrategia: las lecciones de la pandemia, la justificación del cambio y los elementos comunes que guían la transformación en toda la Red Universitaria. Léelo para ubicar tu curso: qué elementos ya tiene y cuál conviene trabajar primero.
 
 ## Lecciones de la pandemia
 
@@ -33,7 +33,7 @@ La pandemia de COVID-19 forzó la adaptación de todos los cursos a modalidad en
 
 3. **Aulas globales.** Internet entrelaza lo global y lo local; el aula se convierte en un espacio genuinamente global donde convergen perspectivas, recursos y colaboraciones internacionales.
 
-La pandemia no fue una "revolución tecnológica" pero sí hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. La consigna es *high-tech* con *high-touch*: tanta tecnología como sea útil, pero sin perder el contacto humano (Universidad de Guadalajara, 2022).
+La pandemia no fue una "revolución tecnológica" pero sí hizo evidente la necesidad de impulsar una transformación **pedagógica y organizacional**. Las TIC permiten liberar tiempo en el aula para fortalecer una educación más individualizada, grupal, activa e interactiva. El lema es *high-tech* con *high-touch*: tanta tecnología como sea útil, pero sin perder el contacto humano (Universidad de Guadalajara, 2022).
 
 ### Opiniones en la red universitaria
 
@@ -56,7 +56,7 @@ Para ganar la atención de los estudiantes e involucrarlos activamente se requie
 
 ## Elementos comunes de la estrategia
 
-No existe un esquema único para la transformación pedagógica y digital. Cada centro universitario, departamento o programa de estudios debe diseñar la estrategia que mejor se adapte a sus necesidades. Sin embargo, existen elementos comunes que orientan el proceso (Universidad de Guadalajara, 2022):
+No existe un esquema único para la transformación pedagógica y digital. Cada centro universitario, departamento o programa de estudios debe diseñar la estrategia que mejor se adapte a sus necesidades. Sin embargo, existen elementos comunes que orientan el proceso (Universidad de Guadalajara, 2022). Léelos como una lista para ubicar tu curso: cuáles ya tiene y cuál conviene trabajar primero:
 
 ![Diagrama de los elementos comunes de la estrategia de transformación pedagógica](img/elementos-comunes.png "Elementos comunes de la transformación pedagógica y digital")
 

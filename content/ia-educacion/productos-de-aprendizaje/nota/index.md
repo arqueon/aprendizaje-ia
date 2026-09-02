@@ -27,27 +27,37 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una nota breve parece trivial, pero es donde se aprende lo más difícil: no añadir lo que sobra. La IAG puede revisar si la cobertura es completa; la decisión sobre qué dato es esencial y qué tono usar para qué público es del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de periodismo, comunicación organizacional, divulgación o derecho que piden una nota informativa de 150 palabras (un cambio de horario, un fallo, un resultado de laboratorio) y reciben textos correctos, largos y con adjetivos que nadie pidió." haras="Una estudiante de comunicación debe redactar para el boletín interno la nota sobre el nuevo horario de la biblioteca. Primero lista los datos comprobables (desde cuándo, qué horas, qué días, quién lo decidió) y le pide a la IA que le diga si falta algún campo estándar; redacta la nota sola; después le pasa el texto a la IA para que señale omisiones, ambigüedades e interpretaciones coladas («lamentable recorte»), sin reescribir; y al final le pregunta qué cambiaría para la versión de redes sociales. Entrega la nota, el inventario de datos y el borrador previo." tendras="Tres prompts copiables y una regla de revisión: «cada dato de la nota debe poder rastrearse a una fuente real (el oficio de la dirección, la entrevista con la bibliotecaria); los adjetivos de valoración se cuentan como error, igual que un dato que falta»." tarda="Siete minutos de lectura; diez si adaptas los prompts a tu tipo de nota." ejemplo="Empieza con la nota sobre el horario de la biblioteca, en el primer párrafo, y vuelve a ella en las fases y en las salvaguardas." >}}
+
+Un profesor de comunicación organizacional pide a su grupo una nota de 150 palabras para
+el boletín interno de la universidad: la biblioteca central cambia de horario a partir del
+lunes. Una estudiante tiene el oficio de la dirección y una llamada con la bibliotecaria.
+Una nota breve parece trivial, pero es donde se aprende lo más difícil: dejar fuera lo que
+sobra («esta lamentable decisión»). La IA puede revisar si la cobertura es completa (qué,
+quién, cuándo, dónde, por qué); decidir qué dato es esencial y qué tono va para qué público
+le toca a la estudiante.
 
 ## Qué es y para qué sirve
 
 Una **nota** es un texto breve y descriptivo que comunica información
-verificada (un hecho, una decisión, un dato, un comunicado). Su valor
-formativo está en la **precisión de los datos**, la **cobertura
+verificada (un hecho, una decisión, un dato, un comunicado). Lo que se
+aprende con ella: la **precisión de los datos**, la **cobertura
 suficiente** (qué, quién, cuándo, dónde, por qué) y la **economía**: lo
 que sobra perjudica.
 
-**Uso formativo de la IAG en este producto:** verificar la claridad de
-una redacción propia, señalar omisiones de información clave y proponer
-ajustes para distintas audiencias —sin redactar la nota.
+**Dónde entra la IA en este tipo de trabajo:** revisa la claridad de una
+redacción propia, señala omisiones de información clave (por ejemplo, que
+la nota dice el nuevo horario pero no desde qué día aplica) y propone
+ajustes para distintas audiencias (boletín, red social, comunicado). La
+nota la redacta la estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **1 a 3** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **1 a 3** de la taxonomía de Bloom, con
 nivel dominante **2 — Comprender** (la formulación clara y completa, sin
-adornos ni interpretaciones).
+adornos ni interpretaciones). Para ti, la tabla es un banco de prompts:
+copia el del nivel 2 (es el que detecta la interpretación colada) y
+sustituye los corchetes por el tema de tu nota.
 
 | Nivel Bloom | Movimiento de la nota | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -85,11 +95,11 @@ identifica qué cambia en cada versión y reformula tono/longitud.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de la nota
 
-Riesgo **medio**: la nota es corta y fácilmente generable, pero su valor
-formativo (distinguir dato de juicio) puede demostrarse con evidencias
-acotadas.
+Riesgo **medio**: la nota es corta y fácilmente generable, pero lo que se
+aprende con ella (distinguir dato de juicio) se puede mostrar con pocas
+piezas: el inventario de datos y el borrador previo a la IA, sobre todo.
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -102,6 +112,11 @@ acotadas.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas el inventario de datos, el borrador previo y la
+bitácora, no sólo la nota final; ajusta los pesos a tu curso (por ejemplo,
+más peso a «uso crítico de la respuesta» si el grupo acepta todo lo que la
+IA señala):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -138,11 +153,11 @@ Periodismo, comunicación organizacional, divulgación científica, derecho
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — versión más larga y especializada.
-- Producto cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — contraparte interpretativa de la nota.
+- Trabajo cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — versión más larga y especializada.
+- Trabajo cercano: [Crónica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/cronica" >}}) — contraparte interpretativa de la nota.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

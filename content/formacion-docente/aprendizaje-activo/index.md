@@ -20,6 +20,8 @@ weight: 2
 lastmod: "2026-08-03"
 ---
 
+{{< contrato modo="lectura" quien="Docentes que ya usan actividades «participativas» (foros, discusiones, ejercicios con IA) y no están seguros de que el grupo esté aprendiendo, sólo de que está ocupado." haras="Vas a entender que una actividad es activa por lo que la persona tiene que producir con el conocimiento (explicar, comparar, corregir con una razón), no por el movimiento, la tecnología o la conversación que haya en la clase." tendras="Una pregunta para revisar tu próxima actividad («¿qué idea propia, comparación o revisión tiene que producir cada estudiante, y dónde la voy a ver?») y una instrucción reescrita que puedes copiar («escribe primero cuál supuesto crees que cambia; después compara con una fuente y explica qué cambió»)." tarda="Siete a nueve minutos de lectura." ejemplo="Empieza con Diego y Sara, que reciben la misma explicación generada con IA y hacen cosas muy distintas con ella; su caso abre la página." >}}
+
 Dos estudiantes reciben la misma explicación producida con IA. Diego la lee, selecciona tres
 frases y las ordena en una diapositiva. Sara escribe primero qué entiende, compara la respuesta
 con una fuente del curso, identifica una contradicción y revisa su explicación. Los dos usaron
@@ -30,9 +32,9 @@ Una experiencia se vuelve activa por el trabajo que pide realizar: recuperar una
 explicarla, contrastarla, aplicarla, formular una relación o revisarla con razones. Participar,
 hacer clic o conversar puede acompañar ese trabajo, pero no lo demuestra por sí mismo.
 
-## Mira el producto que genera la persona
+## Mira lo que produce la persona
 
-Comparemos cuatro consignas sobre el mismo caso:
+Comparemos cuatro instrucciones sobre el mismo caso:
 
 - **Recibir:** lee una explicación y escucha el comentario final.
 - **Manipular lo dado:** subraya afirmaciones y ordénalas por tema.
@@ -69,19 +71,19 @@ objeción y revisar lo dicho puede sostener un diálogo interactivo. La conversa
 personas conserva un valor pedagógico propio, pero no funciona como frontera definitoria del
 marco.
 
-## Reformular una consigna cambia lo observable
+## Reformular una instrucción cambia lo observable
 
-Imaginemos una consigna inicial: “Lee la respuesta de la IA sobre las dos soluciones y entrega
-un resumen”. El producto puede mostrar comprensión, pero también puede limitarse a abreviar lo
-recibido. Una reformulación más clara sería:
+Imaginemos una instrucción inicial (de las que muchos cursos ya usan): “Lee la respuesta de la
+IA sobre las dos soluciones y entrega un resumen”. Ese resumen puede mostrar comprensión, pero
+también puede limitarse a abreviar lo recibido. Una reformulación más clara sería:
 
 > Antes de consultar otra explicación, escribe cuál supuesto crees que cambia. Después compara
-> tu respuesta con una fuente y con una objeción. Revisa tu posición y explica qué evidencia
+> tu respuesta con una fuente y con una objeción. Revisa tu posición y explica qué dato o fuente
 > influyó en el cambio.
 
-La nueva consigna no es mejor por ser más larga. Es mejor para este propósito porque hace
-visible un primer intento, una comparación y una revisión. Si el resultado buscado fuera
-reconocer vocabulario básico, esa complejidad podría ser innecesaria.
+La nueva instrucción es mejor para lo que se quiere observar (un primer intento, una comparación
+y una revisión), no por ser más larga. Si el resultado buscado fuera reconocer vocabulario
+básico, esa complejidad podría ser innecesaria.
 
 ## Con IA y sin IA, conserva la misma conducta
 
@@ -91,8 +93,8 @@ intentar el trabajo que se desea aprender.
 
 También importa el momento de la ayuda. Una pista temprana puede orientar sin sustituir. Una
 respuesta completa antes del intento puede retirar la dificultad productiva. La herramienta
-no define el modo de aprendizaje: lo definen la consigna, el momento y la evidencia que debe
-producir la persona.
+no define el modo de aprendizaje: lo definen la instrucción, el momento y lo que debe producir
+la persona (por ejemplo, una explicación revisada con su razón).
 
 ## Cinco preguntas para revisar una actividad
 
@@ -100,22 +102,22 @@ producir la persona.
 Toma una actividad que ya utilices y respóndelas por escrito antes de cambiar nada.
 
 1. ¿Qué necesita producir o transformar la persona?
-2. ¿La consigna pide una idea propia o solo manipular lo dado?
-3. ¿Qué evidencia mostrará la comparación, la explicación o la revisión?
+2. ¿La instrucción pide una idea propia o solo manipular lo dado?
+3. ¿Qué entrega mostrará la comparación, la explicación o la revisión (un texto, una tabla, una nota de cambio)?
 4. ¿La ayuda llega después de un intento suficiente?
 5. ¿La ruta sin IA conserva la misma exigencia y oportunidad?
 {{< /practica >}}
 
 El aprendizaje activo aparece en la propuesta de Orientaciones, el documento de referencia
 que todavía no constituye una norma institucional vigente. Esta página lo convierte en tres
-acciones observables: formular, contrastar y reelaborar. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lleva ese
-criterio a consignas y evidencias adaptables a distintas disciplinas. La presencia de una
+acciones observables: formular, contrastar y reelaborar. [La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) lleva esa
+mirada a instrucciones y entregas adaptables a distintas disciplinas. La presencia de una
 herramienta, por sí sola, no prueba participación cognitiva.
 
 {{< parallevar >}}
-Una experiencia activa no se reconoce por cuánto se mueve la clase ni por cuántos botones
-ofrece. Se reconoce por la idea, relación, decisión o revisión que la persona produce y puede
-explicar.
+Una experiencia activa se reconoce por la idea, relación, decisión o revisión que la persona
+produce y puede explicar; cuánto se mueve la clase o cuántos botones ofrece la plataforma no
+la definen.
 {{< /parallevar >}}
 
 {{< referencias titulo="Referencia" >}}
@@ -128,4 +130,4 @@ Ya puedes mirar qué hace la persona con el conocimiento. El paso siguiente es d
 esperas que haga y qué mostraría que lo consiguió. Continúa con [Partir de lo que quieres
 observar]({{< relref "formacion-docente/taxonomia-bloom-diseno-inverso" >}}).
 
-Si prefieres integrar este criterio en el diseño completo de una actividad, la [primera lección del curso de diseño inverso y cocreación con IA](/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/) lo conecta con la modalidad híbrida y con una ficha de trabajo.
+Si prefieres integrar esta mirada en el diseño completo de una actividad, la [primera lección del curso de diseño inverso y cocreación con IA](/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/) lo conecta con la modalidad híbrida y con una ficha de trabajo.

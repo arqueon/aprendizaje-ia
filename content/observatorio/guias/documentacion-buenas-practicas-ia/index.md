@@ -1,8 +1,8 @@
 ---
-title: "Documentación de buenas prácticas con IA"
+title: "Documenta una práctica docente con IA para que otra persona pueda repetirla"
 date: 2026-04-26
 draft: false
-description: "Guía metodológica para documentar prácticas docentes con IA de forma replicable, comparable y útil para colegas en otros contextos."
+description: "Llena la plantilla de nueve secciones con una práctica tuya (o revisa una que te enviaron) y comprueba con siete preguntas si alguien más podría repetirla en su aula."
 summary: "Plantilla, criterios de calidad y errores frecuentes al capturar una intervención docente con IA. Pensado para coordinaciones que reciben envíos de docentes."
 tags: ["documentación", "buenas prácticas", "metodología", "plantilla"]
 categories: ["guia"]
@@ -17,24 +17,28 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una práctica docente sin documentar se queda en el aula donde ocurrió. Una práctica documentada con descuido viaja, pero llega rota: sin contexto, sin condiciones de aplicabilidad, sin la honestidad sobre lo que falló. Esta guía propone un mínimo común para que las prácticas con IA puedan compararse, revisarse entre pares y reutilizarse en otros contextos.
-{{< /lead >}}
+{{< contrato quien="Docentes que aplicaron una actividad con IA y quieren enviarla a un repositorio de prácticas, y coordinaciones que reciben esos envíos y tienen que decidir si se publican o se devuelven." haras="Vas a llenar (o revisar) una plantilla de nueve secciones con la práctica: contexto, objetivo, cómo entra la IA y con qué modelo, secuencia, rúbrica, resultados, lo que falló, cuándo conviene repetirla y referencias; después la pasas por siete preguntas de revisión." tendras="Un documento de práctica listo para enviar, o para devolver con observaciones (por ejemplo, una sección «Lo que no funcionó» que diga: «Cuatro de diez equipos aceptaron la primera fuente que sugirió la IA sin verificarla; en la segunda vuelta añadimos una tabla de verificación»)." tarda="Diez minutos con el caso de Elena; entre cuarenta y sesenta llenando la plantilla con una práctica tuya; quince revisando un envío ajeno." ejemplo="Abajo está el caso de Elena, profesora de contabilidad, ya resuelto: qué envió, qué le faltaba y qué le devolvió la coordinación." >}}
 
-## Qué distingue una documentación útil de una descripción
+## El caso de Elena, ya resuelto
 
-La mayoría de los repositorios de "buenas prácticas" sufren del mismo problema: describen lo que se hizo sin permitir al lector decidir si puede hacer lo mismo. Una documentación útil cumple cuatro condiciones que una descripción simple no garantiza:
+Elena da contabilidad de costos en tercer semestre. Usó una IA para generar cinco estados financieros ficticios con errores escondidos; cada equipo tenía que encontrar los errores y explicar qué decisión tomaría un gerente con esos datos. Le fue bien y lo envió a la coordinación en dos párrafos entusiastas: «los estudiantes se engancharon muchísimo, la IA generó casos muy realistas».
+
+La coordinación no pudo publicarlo así, porque otra docente no sabría repetirlo. Le devolvió tres observaciones: falta decir qué modelo y versión usó (los errores «escondidos» los fabricó Gemini 2.5, y otro modelo los fabrica distinto); falta la rúbrica (¿cómo calificó a un equipo que encontró los errores pero no propuso decisión?); y falta lo que falló. Elena reescribió el envío con la plantilla de abajo. En «Lo que no funcionó» puso: «Dos de los cinco estados financieros tenían errores demasiado obvios; la IA no entiende de sutileza contable y los tuve que retocar a mano. Cuatro de diez equipos le pidieron a la IA que encontrara los errores; en la segunda vuelta la actividad pasó a ser sin IA en clase». Con esas tres secciones, el envío se publicó.
+
+## Qué hace que otra persona pueda repetir tu práctica
+
+Un envío como el primero de Elena describe lo que pasó sin permitir a quien lee decidir si puede hacer lo mismo. Para que sí pueda, tu documento cumple cuatro condiciones:
 
 - **Reproducibilidad** — otra persona puede aplicar la práctica con suficiente fidelidad para esperar resultados comparables.
 - **Trazabilidad** — el lector entiende qué decisiones tomó el docente y por qué; no solo el qué, también el cómo y el porqué.
 - **Honestidad** — la documentación incluye lo que no funcionó, las desviaciones del plan original y los límites observados.
 - **Comparabilidad** — la estructura es suficientemente parecida a otras prácticas del mismo repositorio para permitir lectura transversal.
 
-Sin estas cuatro condiciones, una práctica documentada termina siendo testimonio personal en lugar de conocimiento compartido.
+Sin estas cuatro condiciones, tu envío se queda en testimonio personal («se engancharon muchísimo») y nadie más lo puede usar.
 
-## Estructura mínima recomendada
+## Llena la plantilla de nueve secciones
 
-La plantilla siguiente integra la mayoría de lo que se necesita para cumplir las cuatro condiciones. Las actividades propuestas del Laboratorio —[ABP con IA](/laboratorio/practicas/abp-con-ia/), [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/), [evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/)— sirven como ejemplos de **estado declarado**: cada una se presenta como plantilla o actividad propuesta, no como caso implementado. Una práctica solo podrá citarse aquí como referente empírico cuando exista un expediente verificable de su aplicación.
+La plantilla siguiente cubre las cuatro condiciones; llena una sección a la vez, con la práctica ya aplicada delante. Las actividades propuestas del Laboratorio —[ABP con IA](/laboratorio/practicas/abp-con-ia/), [debate socrático con IA](/laboratorio/practicas/debate-socratico-con-ia/), [evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/)— sirven como ejemplos de **estado declarado**: cada una se presenta como plantilla o actividad propuesta, no como caso implementado. Una práctica solo podrá citarse aquí como referente empírico cuando exista un expediente verificable de su aplicación.
 
 ### Frontmatter (metadatos comparables)
 
@@ -59,15 +63,15 @@ asignatura: "Disciplina o materia"
 | **Objetivo pedagógico** | Qué competencia o aprendizaje se busca desarrollar. | 3–5 indicadores observables. |
 | **Cómo se integra la IA** | Qué modelo, qué rol cumple, qué se le pide y qué no. | Mencionar al menos un modelo (Gemini, Claude, DeepSeek, Kimi, Qwen) con versión específica. |
 | **Secuencia de la actividad** | Fases, tiempos y decisiones clave. | Línea de tiempo con 3+ fases (puede usar el shortcode `timeline`). |
-| **Forma de evaluación** | Rúbrica o criterios. | Indicadores que separan proceso de producto. |
+| **Forma de evaluación** | Rúbrica o lista de qué se valora (por ejemplo: «encuentra los errores» y «propone una decisión con esos datos»). | Indicadores que distinguen el recorrido (versiones, decisiones) del entregable final. |
 | **Resultados observados** | Qué se midió y qué se observó. | Datos cuantitativos cuando existan; siempre cualitativos. |
 | **Lo que no funcionó** | Desviaciones, fricciones, ajustes. | Al menos un párrafo honesto. |
 | **Condiciones de aplicabilidad** | Cuándo conviene replicar y cuándo no. | 3–5 condiciones. |
 | **Referencias** | Fuentes citadas en formato APA 7. | Al menos 2 referencias verificables. |
 
-## Criterios de calidad
+## Pasa el documento por siete preguntas
 
-Una práctica está lista para publicarse cuando un revisor externo puede responder "sí" a las siguientes preguntas:
+Tu práctica está lista para enviarse, y una coordinación puede publicarla, cuando alguien ajeno responde «sí» a las siete preguntas siguientes:
 
 - ¿Entiendo el contexto suficiente para juzgar si la práctica aplica al mío?
 - ¿Sé qué modelo de IA se usó y con qué configuración mínima?
@@ -77,20 +81,20 @@ Una práctica está lista para publicarse cuando un revisor externo puede respon
 - ¿Hay fuentes verificables citadas en APA 7?
 - ¿El texto evita jerga IA prescindible y mantiene tono analítico?
 
-Si una de las respuestas es "no", conviene devolverla al autor con observaciones antes de publicar.
+Si una de las respuestas es «no», la coordinación la devuelve con observaciones, como pasó con el primer envío de Elena (le faltaban el modelo, la rúbrica y lo que falló).
 
-## Errores frecuentes en documentación de prácticas con IA
+## Cuatro errores que verás en los envíos
 
-Después de revisar prácticas en varios repositorios institucionales, los patrones que más erosionan la utilidad documental se repiten:
+Después de revisar prácticas en varios repositorios institucionales, estos son los patrones que más se repiten; revisa tu documento contra ellos antes de enviarlo:
 
 - **Confundir entusiasmo con resultado** — describir lo que experimentó el docente en lugar de lo que aprendieron los estudiantes.
 - **Promover una herramienta** — la práctica termina siendo un caso de uso de un modelo específico, no una intervención pedagógica replicable con otros modelos.
 - **No declarar versión del modelo** — un prompt que funcionaba con Gemini 2.5 puede no funcionar con Gemini 4 ni con otro modelo. La versión es parte de las condiciones de aplicabilidad.
-- **Saltarse la rúbrica** — describir una actividad increíble en el aula sin incluir cómo se calificó. Cuando otro docente intenta replicarla, sabe *qué* hacer, pero no sabe *cómo evaluar* si hubo aprendizaje real. Especialmente al integrar IA —donde a menudo se debe evaluar el proceso de pensamiento y no solo el producto final—, omitir los criterios de evaluación le quita a la documentación la mitad de su valor práctico para otros docentes.
+- **Saltarse la rúbrica** — describir una actividad increíble en el aula sin incluir cómo se calificó. Cuando otro docente intenta replicarla, sabe *qué* hacer, pero no sabe *cómo evaluar* si hubo aprendizaje real. Con IA de por medio suele valorarse el recorrido (qué verificó, qué descartó) además del entregable final, así que omitir la rúbrica le quita a la documentación la mitad de su valor práctico para otros docentes.
 
 ## Lecturas relacionadas
 
-Para los criterios pedagógicos generales que respaldan la rúbrica, ver [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) y [taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/). Para casos ya documentados que ejemplifican el formato, [las prácticas pedagógicas](/laboratorio/practicas/) cubren varias modalidades.
+Para el fundamento pedagógico de la rúbrica, ver [evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) y [taxonomía de Bloom y diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/). Para casos ya documentados que ejemplifican el formato, [las prácticas pedagógicas](/laboratorio/practicas/) cubren varias modalidades.
 
 ## Referencias
 
