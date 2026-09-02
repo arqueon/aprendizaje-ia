@@ -1,12 +1,12 @@
 ---
-title: "Diseñar actividades y observar el aprendizaje"
+title: "Revisa una actividad tuya: lo que pides, lo que practican y lo que entregan"
 aliases:
   - "/ia-educacion/guias/para-profesorado/"
 date: 2026-08-03
 lastmod: 2026-08-23
 draft: false
-description: "Una práctica para comprobar si lo que quieres que el grupo aprenda coincide con lo que hará, entregará y revisará antes de decidir cómo usar IA."
-summary: "Revisa una actividad propia, encuentra la primera parte que no coincide y escribe un cambio concreto con alternativa sin IA."
+description: "Toma una actividad que ya usas, escríbela en tres frases y encuentra el punto donde se rompe: pides una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita."
+summary: "Tres frases sobre una actividad tuya, una ruptura marcada y una instrucción nueva con antes, después y razón."
 areas: ["ia", "formacion"]
 showHero: true
 heroStyle: "big"
@@ -38,17 +38,15 @@ connections:
     reason: "Mira cómo el mismo principio cambia en una tarea concreta."
 ---
 
-{{< lead >}}
-Una actividad puede anunciar un aprendizaje exigente y, sin embargo, permitir que el grupo la complete haciendo algo mucho más simple. Esta guía ayuda a encontrar la primera ruptura y a producir un ajuste concreto antes de elegir una herramienta de IA.
-{{< /lead >}}
+{{< contrato quien="Profesorado universitario que ya tiene una actividad en uso y sospecha que el grupo la resuelve haciendo algo más simple de lo que se pide." haras="Vas a escribir tu actividad en tres frases (qué pides, qué practican, qué entregan), vas a marcar cuál de las tres no encaja con las otras dos y vas a reescribir la instrucción para cerrar ese hueco." tendras="Una instrucción reescrita con su antes, su después y una razón de una línea (por ejemplo: «Antes: elige cuál fuente es mejor. Después: escribe cinco líneas que citen las dos fuentes y digan cuál sostiene mejor la afirmación. Razón: con una opción marcada no veo si compararon»). Es una frase que puedes pegar en tu actividad mañana." tarda="Doce minutos con una actividad tuya; cinco si sólo recorres el caso." ejemplo="Abajo está el caso de una docente ya resuelto, con la tabla de las tres frases y la instrucción reescrita." >}}
 
-## Un caso reconocible
+## El caso de una docente, ya resuelto
 
-Una docente quiere que su grupo **compare dos fuentes y justifique cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple.
+Una docente de primer semestre quiere que su grupo **compare dos fuentes y diga cuál sostiene mejor una conclusión**. Su actividad entrega dos resúmenes ya preparados y termina con una pregunta de opción múltiple: «¿Cuál fuente es mejor?».
 
-El problema no es el formato digital ni la ausencia de IA. La actividad anuncia una comparación, pero permite resolverla reconociendo una respuesta. Además, la entrega final no deja ver qué información utilizó cada estudiante para decidir.
+Fíjate en lo que pasa. Ella pide comparar, pero para entregar basta con marcar una opción: nadie tuvo que comparar. Y con una opción marcada, ella no puede ver qué información usó cada estudiante para decidir. Ese hueco entre lo que se pide y lo que se entrega es lo que esta guía te ayuda a encontrar en una actividad tuya. La tabla lo muestra parte por parte:
 
-| Parte de la actividad | Versión inicial | Qué no coincide |
+| Parte de la actividad | Cómo estaba | Dónde se rompe |
 |---|---|---|
 | **Lo que quieres que aprenda** | Comparar dos fuentes y justificar una conclusión. | Exige relacionar la información con el argumento. |
 | **Lo que hará para practicar** | Leer dos resúmenes y elegir una opción. | Solo permite reconocer información ya organizada. |
@@ -56,7 +54,7 @@ El problema no es el formato digital ni la ausencia de IA. La actividad anuncia 
 | **Cómo revisarás el trabajo** | Comprobar si marcó la respuesta correcta. | No permite revisar la calidad de las fuentes ni la justificación. |
 | **Ayuda** | Un resumen generado por IA. | Puede realizar justamente la comparación que se desea observar. |
 
-Para saber si el grupo aprendió a comparar, necesitas leer una comparación anotada, una explicación o una decisión justificada. También necesitas decidir qué debe incluir ese trabajo para considerarlo suficiente.
+Para saber si el grupo aprendió a comparar, la docente necesita leer una comparación: una explicación o una decisión con su razón, no una opción marcada. Su instrucción reescrita quedó así: «Escribe una comparación de cinco líneas que cite las dos fuentes y diga cuál sostiene mejor la afirmación y por qué. Si usas IA, pídele objeciones a tu comparación, no la comparación». Cambió sólo la entrega; lo que pide y lo que practican quedaron igual.
 
 {{< practica titulo="Haz una revisión de doce minutos" >}}
 
@@ -110,11 +108,11 @@ El cambio funciona cuando:
 - existe una ruta equivalente sin IA o para quien no pueda usarla;
 - la información compartida con una herramienta respeta privacidad y confidencialidad.
 
-No se trata de usar más tecnología ni de convertir cada actividad en un proyecto extenso. Se trata de que lo que el grupo hace, produce y revisa permita observar el aprendizaje que se anunció.
+Un cambio pequeño basta: la docente del caso cambió una frase, no la actividad entera. Lo que importa es que lo que el grupo hace, lo que entrega y lo que tú revisas muestren el mismo aprendizaje que anunciaste.
 
 ## Cómo continuar
 
-- Practica con una actividad tuya: [Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?](../../../actividades/revisar-actividad/) te lleva en doce minutos de tres frases a una instrucción reescrita.
+- Hazlo con una actividad tuya en la actividad guiada [Revisa una actividad tuya en tres frases](../../../actividades/revisar-actividad/): escribes las tres frases, marcas dónde se rompe y sales con la instrucción reescrita.
 - Antes: [sitúa la decisión mediante el caso de entrada](../../constelaciones/empezar-con-ia/).
 - Profundiza: [parte de lo que quieres observar](../../../formacion-docente/taxonomia-bloom-diseno-inverso/) para decidir qué hará el grupo, qué entregará y qué ayuda podrá recibir.
 - Revisa el trabajo durante el proceso: [evaluación formativa con IA](../evaluacion-formativa-ia/).

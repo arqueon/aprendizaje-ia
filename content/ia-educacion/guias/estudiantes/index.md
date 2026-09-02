@@ -1,11 +1,11 @@
 ---
-title: "Laboratorio guiado para decidir antes de entregar"
+title: "Antes de entregar: decide qué hacer con los cambios que te proponen"
 aliases:
   - "/ia-educacion/guias/para-estudiantes/"
 date: 2026-08-03
 draft: false
-description: "Una práctica para comparar dos sugerencias, comprobar el punto decisivo y explicar qué cambia en un borrador."
-summary: "Parte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender."
+description: "Alguien te propone dos cambios a tu texto (una IA, un compañero, tu profesora). Aquí aprendes a decidir cuál aceptas y a explicar por qué, en una hoja que puedes entregar."
+summary: "Dos cambios propuestos a tu párrafo, una pregunta para cada uno y una hoja con tu párrafo revisado y tus dos razones."
 areas: ["ia", "formacion"]
 showHero: false
 showBreadcrumbs: true
@@ -36,41 +36,42 @@ connections:
     reason: "Observa el recorrido completo aplicado a un ensayo universitario."
 ---
 
-{{< lead >}}
-Una sugerencia puede sonar bien y aun así alejar tu trabajo del propósito o afirmar más de lo que
-permite la evidencia. Este laboratorio te ayuda a decidir antes de entregar. Puedes recorrer el
-ejemplo en 5–10 minutos o trabajar con un texto propio en aproximadamente 25–35 minutos.
-{{< /lead >}}
+{{< contrato quien="Estudiantes que escriben un texto (informe, ensayo, reporte de práctica) y reciben cambios propuestos por una IA, por un compañero o por quien imparte la materia." haras="Vas a tomar un párrafo tuyo y dos cambios que te propusieron, y vas a decidir con cada cambio una de tres cosas: lo acepto, lo cambio o lo dejo pendiente. Para decidir usas una sola pregunta: si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir?" tendras="Una hoja con tres cosas: tu párrafo como estaba, tu párrafo revisado y dos líneas que dicen qué hiciste con cada cambio y por qué (por ejemplo: «Cambio 1: lo rechacé porque quitaba la fecha y el lugar»). Esa hoja es lo que entregas o le enseñas a quien te propuso los cambios. No es una calificación." tarda="Entre cinco y diez minutos con el ejemplo de Renata; entre quince y veinticinco con un texto tuyo." ejemplo="Abajo está el caso de Renata ya resuelto. Léelo primero; después haz lo mismo con tu texto en la actividad." >}}
 
-## La situación
+## El caso de Renata, ya resuelto
 
-Renata escribió una conclusión provisional sobre una muestra de agua. Pidió a una IA generativa
-una posible conclusión y un dato por comprobar. Recibió dos sugerencias: una amplía lo que afirma
-el texto; la otra señala que la lluvia reciente podría cambiar la interpretación.
+Renata escribe un informe sobre una muestra de agua tomada junto a un puente. Su párrafo dice:
 
-La actividad no decide por Renata. Con cada cambio se hace una sola pregunta: si lo acepto, ¿mi
-párrafo sigue diciendo lo que yo quería decir? Y responde con tres botones: lo acepto, lo cambio o
-lo dejo pendiente, con una razón en una línea.
+> La muestra tomada junto al puente no superó el límite permitido. Este resultado describe ese punto y ese día; no alcanza para afirmar que todo el arroyo sea seguro.
 
-## Qué obtendrás
+Pidió a una IA que le señalara una conclusión posible y un dato por comprobar. Recibió dos cambios:
 
-Al terminar tendrás un fragmento antes y después de la revisión y dos notas breves de decisión. El
-resultado no prueba por sí solo que el texto sea correcto: deja visible qué comprobaste y por qué
-elegiste cambiarlo o conservarlo.
+1. **«La muestra demuestra que el agua del arroyo es segura».** Renata se pregunta: si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir? No: el cambio quita el lugar y la fecha, y el informe diría más de lo que midieron. **Decisión: lo cambio.** Se queda con su frase y sólo la acorta.
+2. **«Aclara si llovió antes del muestreo, porque la lluvia pudo cambiar la concentración».** Ese cambio no toca lo que Renata quería decir, pero le pide un dato que no tiene a la mano. **Decisión: lo dejo pendiente** hasta ver el registro de campo.
 
-[Abrir la actividad “Dos cambios para tu texto: ¿cuál aceptas?”](../../../actividades/comparar-sugerencias/)
+Su hoja final tiene el párrafo original, el párrafo revisado (casi igual, más corto) y estas dos líneas: «Cambio 1: lo cambié porque quitaba el lugar y la fecha. Cambio 2: pendiente, tengo que ver si llovió». Eso es todo lo que la actividad te pide producir.
+
+## Qué vas a hacer con tu texto, paso a paso
+
+1. **Pega tu párrafo** tal como lo tienes ahora. Si quieres, anota quién te propuso los cambios (una IA, una compañera, tu profesor).
+2. **Copia cada cambio** y responde la pregunta: si lo acepto, ¿mi párrafo sigue diciendo lo que yo quería decir? Elige lo acepto, lo cambio o lo dejo pendiente, y escribe tu razón en una línea.
+3. **Escribe tu párrafo revisado** aplicando sólo lo que decidiste. La actividad arma debajo tu nota de decisión con las dos líneas.
+
+[Abrir la actividad «Decide qué hacer con dos cambios que te proponen a tu texto»](../../../actividades/comparar-sugerencias/)
 {.udgia-action-link}
 
-La actividad funciona con teclado, incluye una hoja completa sin JavaScript y puede imprimirse.
-No envía respuestas ni exige una cuenta de IA. Puedes realizar el mismo aprendizaje con
-sugerencias preparadas por una persona o tomadas de dos versiones anteriores. Con un texto propio
-completarás tres pasos; puedes guardar voluntariamente el borrador y continuar en otro momento.
+La actividad funciona con teclado y sin JavaScript, se puede imprimir y no envía nada: lo que escribes se queda en tu pantalla, y sólo se guarda en tu dispositivo si tú pulsas «Guardar». No necesitas cuenta de IA: los dos cambios pueden venir de una persona o de dos versiones anteriores de tu propio texto.
 
-## Antes y después
+## Cuándo te sirve
 
-- Antes: [comprende por qué producto y proceso necesitan mirarse juntos](../../constelaciones/empezar-con-ia/).
-- Después: lleva tu nota de decisión a una tarea real y comprueba si puedes explicarla sin volver
-  a la conversación o a la herramienta.
-- Marco: consulta el [estatus y alcance de la propuesta de Orientaciones](../../orientaciones/).
+- Cuando una IA te devuelve una versión «mejorada» y no sabes si aceptarla entera.
+- Cuando un compañero o tu profesora te marcan dos correcciones y quieres responder con razones, no sólo obedecer.
+- Cuando tienes que declarar en una entrega qué parte del texto cambiaste con ayuda y por qué.
+
+## Cómo seguir
+
+- Si quieres entender por qué conviene decidir así, lee primero [el caso de entrada: por qué mirar el resultado y el camino juntos](../../constelaciones/empezar-con-ia/).
+- Después de la actividad, prueba a explicar tu nota de decisión a alguien sin volver a abrir la conversación con la IA. Si puedes, la decisión es tuya.
+- Marco de referencia: [qué es y qué alcance tiene la propuesta de Orientaciones](../../orientaciones/).
 
 El programa acompañado de alfabetización crítica está en diseño; esta página no ofrece matrícula.

@@ -1,7 +1,7 @@
 ---
-title: "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?"
-description: "Describe una actividad tuya en tres frases y mira en qué punto se rompe: piden una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita."
-summary: "Actividad para profesorado: tres frases sobre una actividad propia, una ruptura marcada a mano y una instrucción reescrita con su razón."
+title: "Revisa una actividad tuya en tres frases: lo que pides, lo que practican, lo que entregan"
+description: "Escribe una actividad que ya usas en tres frases, marca cuál de las tres no encaja con las otras dos y reescribe la instrucción. Sales con el antes, el después y la razón del cambio."
+summary: "Actividad para profesorado: tres frases sobre una actividad propia, una ruptura marcada a mano y la instrucción reescrita con antes, después y razón."
 date: 2026-09-02
 lastmod: 2026-09-02
 draft: false

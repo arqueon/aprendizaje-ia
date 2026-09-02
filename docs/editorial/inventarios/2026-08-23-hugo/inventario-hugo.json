@@ -5,7 +5,7 @@
     "markdown": 203,
     "pages": 172,
     "sections": 31,
-    "words": 159877,
+    "words": 160127,
     "assets": 238,
     "content_assets": 232,
     "shared_figure_assets": 6,
@@ -95,7 +95,7 @@
     "ia-educacion": {
       "pages": 61,
       "sections": 8,
-      "words": 71322,
+      "words": 71572,
       "featured": 63,
       "svg": 23,
       "h5p": 4,
@@ -1298,11 +1298,11 @@
       "route": "/actividades/comparar-sugerencias/",
       "kind": "page",
       "section": "actividades",
-      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "title": "Decide qué hacer con dos cambios que te proponen a tu texto",
       "date": "2026-09-02",
       "draft": false,
-      "description": "Pega un párrafo tuyo y dos cambios que te propusieron (una IA, un compañero, tu profesora). Sales con el párrafo revisado y una razón por cada cambio.",
-      "summary": "Actividad para estudiantes: decide qué hacer con dos cambios propuestos a tu texto y termina con el párrafo revisado y una razón por cada decisión.",
+      "description": "Pega un párrafo tuyo y dos cambios que te propusieron. Con cada cambio decides una de tres cosas (lo acepto, lo cambio, lo dejo pendiente) y sales con una hoja: tu párrafo revisado y una razón por cada cambio.",
+      "summary": "Actividad para estudiantes: dos cambios propuestos a tu párrafo, una pregunta para cada uno y una hoja con el párrafo revisado y tus dos razones.",
       "tags": [
         "actividad",
         "estudiantes",
@@ -1344,11 +1344,11 @@
       "route": "/actividades/revisar-actividad/",
       "kind": "page",
       "section": "actividades",
-      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "title": "Revisa una actividad tuya en tres frases: lo que pides, lo que practican, lo que entregan",
       "date": "2026-09-02",
       "draft": false,
-      "description": "Describe una actividad tuya en tres frases y mira en qué punto se rompe: piden una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita.",
-      "summary": "Actividad para profesorado: tres frases sobre una actividad propia, una ruptura marcada a mano y una instrucción reescrita con su razón.",
+      "description": "Escribe una actividad que ya usas en tres frases, marca cuál de las tres no encaja con las otras dos y reescribe la instrucción. Sales con el antes, el después y la razón del cambio.",
+      "summary": "Actividad para profesorado: tres frases sobre una actividad propia, una ruptura marcada a mano y la instrucción reescrita con antes, después y razón.",
       "tags": [
         "actividad",
         "profesorado",
@@ -4770,20 +4770,20 @@
       "route": "/ia-educacion/guias/estudiantes/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Laboratorio guiado para decidir antes de entregar",
+      "title": "Antes de entregar: decide qué hacer con los cambios que te proponen",
       "date": "2026-08-03",
       "draft": false,
-      "description": "Una práctica para comparar dos sugerencias, comprobar el punto decisivo y explicar qué cambia en un borrador.",
-      "summary": "Parte de una idea propia, revisa dos ayudas y conserva una decisión que puedas defender.",
+      "description": "Alguien te propone dos cambios a tu texto (una IA, un compañero, tu profesora). Aquí aprendes a decidir cuál aceptas y a explicar por qué, en una hoja que puedes entregar.",
+      "summary": "Dos cambios propuestos a tu párrafo, una pregunta para cada uno y una hoja con tu párrafo revisado y tus dos razones.",
       "tags": [],
       "categories": [],
       "areas": [
         "ia",
         "formacion"
       ],
-      "words": 329,
-      "heading_count": 3,
-      "h2_count": 3,
+      "words": 528,
+      "heading_count": 4,
+      "h2_count": 4,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -4800,11 +4800,13 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "actualizar",
-      "needs": []
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
@@ -5077,18 +5079,18 @@
       "route": "/ia-educacion/guias/profesorado/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Diseñar actividades y observar el aprendizaje",
+      "title": "Revisa una actividad tuya: lo que pides, lo que practican y lo que entregan",
       "date": "2026-08-03",
       "draft": false,
-      "description": "Una práctica para comprobar si lo que quieres que el grupo aprenda coincide con lo que hará, entregará y revisará antes de decidir cómo usar IA.",
-      "summary": "Revisa una actividad propia, encuentra la primera parte que no coincide y escribe un cambio concreto con alternativa sin IA.",
+      "description": "Toma una actividad que ya usas, escríbela en tres frases y encuentra el punto donde se rompe: pides una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita.",
+      "summary": "Tres frases sobre una actividad tuya, una ruptura marcada y una instrucción nueva con antes, después y razón.",
       "tags": [],
       "categories": [],
       "areas": [
         "ia",
         "formacion"
       ],
-      "words": 865,
+      "words": 916,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 0,
@@ -5107,13 +5109,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "practica"
         ]
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {

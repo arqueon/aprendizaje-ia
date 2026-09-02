@@ -17,7 +17,7 @@
     "documents": 203,
     "pages": 172,
     "sections": 31,
-    "words": 159877,
+    "words": 160127,
     "assets": 238,
     "assetBytes": 25177105,
     "exactDuplicateAssetGroups": 1,
@@ -74,8 +74,8 @@
     },
     "byNarrativeStatus": {
       "debil": 74,
-      "parcial": 122,
-      "robusto-candidato": 7
+      "parcial": 121,
+      "robusto-candidato": 8
     },
     "byDidacticStatus": {
       "debil": 26,
@@ -3719,7 +3719,7 @@
     {
       "path": "actividades/comparar-sugerencias/index.md",
       "route": "/actividades/comparar-sugerencias/",
-      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "title": "Decide qué hacer con dos cambios que te proponen a tu texto",
       "kind": "page",
       "section": "actividades",
       "words": 2,
@@ -3753,9 +3753,9 @@
       },
       "didactic": {
         "status": "debil",
-        "signalCount": 2,
+        "signalCount": 1,
         "flags": {
-          "audiencia_explicita": true,
+          "audiencia_explicita": false,
           "proposito_o_resultado": false,
           "accion_o_practica": true,
           "ejemplo_trabajado": false,
@@ -3831,7 +3831,7 @@
     {
       "path": "actividades/revisar-actividad/index.md",
       "route": "/actividades/revisar-actividad/",
-      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "title": "Revisa una actividad tuya en tres frases: lo que pides, lo que practican, lo que entregan",
       "kind": "page",
       "section": "actividades",
       "words": 81,
@@ -10457,10 +10457,10 @@
     {
       "path": "ia-educacion/guias/estudiantes/index.md",
       "route": "/ia-educacion/guias/estudiantes/",
-      "title": "Laboratorio guiado para decidir antes de entregar",
+      "title": "Antes de entregar: decide qué hacer con los cambios que te proponen",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 329,
+      "words": 528,
       "metadata": {
         "description": true,
         "summary": true,
@@ -10478,13 +10478,13 @@
         "reason": "Laboratorio guiado para comparar ayudas, comprobar el punto decisivo y justificar una decisión antes de entregar."
       },
       "narrative": {
-        "status": "parcial",
-        "signalCount": 4,
+        "status": "robusto-candidato",
+        "signalCount": 5,
         "flags": {
           "entrada_reconocible": true,
           "pregunta_motriz": true,
           "ejemplo_desarrollado": true,
-          "contraste_o_limite": false,
+          "contraste_o_limite": true,
           "recapitulacion": false,
           "transicion_explicita": true
         }
@@ -10493,15 +10493,15 @@
         "status": "parcial",
         "signalCount": 5,
         "flags": {
-          "audiencia_explicita": false,
-          "proposito_o_resultado": true,
+          "audiencia_explicita": true,
+          "proposito_o_resultado": false,
           "accion_o_practica": true,
           "ejemplo_trabajado": true,
           "evidencia_o_producto": true,
           "criterio_de_avance": false,
           "apoyo_o_alternativa": false,
-          "retroalimentacion_o_reflexion": false,
-          "tiempo_estimado": true
+          "retroalimentacion_o_reflexion": true,
+          "tiempo_estimado": false
         }
       },
       "consistency": {
@@ -10533,16 +10533,6 @@
             "guides": [
               "Guía docente, segunda parte",
               "Estudiantes: Cuando dos cambios parecen mejorar tu trabajo"
-            ]
-          },
-          {
-            "id": "aprendizaje-y-evaluacion-del-proceso",
-            "orientations": [
-              "§2.2",
-              "§5.1–5.4"
-            ],
-            "guides": [
-              "Guía docente, primera y cuarta partes"
             ]
           },
           {
@@ -11227,10 +11217,10 @@
     {
       "path": "ia-educacion/guias/profesorado/index.md",
       "route": "/ia-educacion/guias/profesorado/",
-      "title": "Diseñar actividades y observar el aprendizaje",
+      "title": "Revisa una actividad tuya: lo que pides, lo que practican y lo que entregan",
       "kind": "page",
       "section": "ia-educacion",
-      "words": 865,
+      "words": 916,
       "metadata": {
         "description": true,
         "summary": true,
@@ -11261,10 +11251,10 @@
       },
       "didactic": {
         "status": "robusto-candidato",
-        "signalCount": 8,
+        "signalCount": 7,
         "flags": {
           "audiencia_explicita": true,
-          "proposito_o_resultado": true,
+          "proposito_o_resultado": false,
           "accion_o_practica": true,
           "ejemplo_trabajado": true,
           "evidencia_o_producto": true,
@@ -11335,15 +11325,6 @@
             ],
             "guides": [
               "Guía docente, primera, segunda y quinta partes"
-            ]
-          },
-          {
-            "id": "decision-institucional-y-tecnologia",
-            "orientations": [
-              "§7–§11"
-            ],
-            "guides": [
-              "Guía docente, alcance y procedencia"
             ]
           }
         ]

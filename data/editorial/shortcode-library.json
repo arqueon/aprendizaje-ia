@@ -585,6 +585,28 @@
         "children": "udgia-figure"
       },
       "note": "UDGIA-023: actividad M6 para profesorado; HTML nativo, hoja de trabajo sin JavaScript, sugerencia según la ruptura marcada a mano, guardado voluntario, sin envío de datos."
+    },
+    "contrato": {
+      "category": "global",
+      "status": "stable",
+      "family": "callout",
+      "contractProfile": "semantic-block",
+      "api": {
+        "kind": "self-closing",
+        "params": {
+          "quien": "obligatorio",
+          "haras": "obligatorio",
+          "tendras": "obligatorio (nombra la cosa y da un ejemplo)",
+          "tarda": "obligatorio",
+          "ejemplo": "opcional; dónde está el ejemplo resuelto"
+        },
+        "inner": "no admite"
+      },
+      "nesting": {
+        "parent": "inicio de guía, práctica o actividad",
+        "children": "ninguno"
+      },
+      "note": "Contrato de instrucción (2026-09-02): cinco líneas obligatorias que dicen para quién es la página, qué se hace, qué se obtiene, cuánto tarda y dónde está el ejemplo resuelto."
     }
   },
   "themeDependencies": {
