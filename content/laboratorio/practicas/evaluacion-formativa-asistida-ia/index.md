@@ -94,7 +94,7 @@ La IA **no** califica. El docente es quien evalúa el portafolio completo al fin
 
 **Prompt que se proporciona a los estudiantes para solicitar retroalimentación (adaptado a Claude):**
 
-> Aquí tienes una rúbrica con 4 criterios (tesis, argumentación, fuentes, claridad): *(pega aquí tu rúbrica; abajo hay una de ejemplo)*. Evalúa el siguiente texto usando sólo esa rúbrica. Para cada criterio: (1) indica el nivel que consideras, (2) justifica tu evaluación con ejemplos del texto, (3) ofrece una sugerencia concreta de mejora. No reescribas el texto. *(texto del estudiante)*
+> Aquí tienes una rúbrica con 4 criterios (tesis, argumentación, fuentes, claridad): *(pega aquí tu rúbrica; abajo hay una de ejemplo)*. Evalúa el siguiente texto usando sólo esa rúbrica. Para cada criterio (por ejemplo, «tesis»): (1) indica el nivel que consideras, (2) justifica tu evaluación con ejemplos del texto, (3) ofrece una sugerencia concreta de mejora. No reescribas el texto. *(texto del estudiante)*
 
 **Rúbrica breve de ejemplo** (para un ensayo argumentativo; el docente la sustituye por la suya):
 

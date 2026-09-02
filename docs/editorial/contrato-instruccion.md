@@ -52,6 +52,18 @@ sustantivos de marco no aparezcan sin ejemplo. La lista de páginas gobernadas v
 lotes: lote 0, las cuatro modelo (VoBo de Rubén, 2026-09-02); lote 1, guías, prácticas y rutas;
 lote 2, páginas de formación docente (modo lectura); lote 3, ejemplos disciplinares (modo ejemplo).
 
+## Páginas exentas
+
+Revisadas con Rubén el 2026-09-02, quedan fuera del contrato: las portadas de sección
+(`_index.md`, navegación); los términos del glosario (definiciones breves, con icono compartido
+por familia: aprendizaje, técnica e IA, la persona ante la IA, diseño y evaluación, ética e
+institución); las fichas de recursos (enlaces, videos, catálogos); las lecciones del curso, que
+tienen su propia estructura y se revisarán con el curso; y las páginas institucionales o técnicas
+(acerca de, licencia, runtime H5P, landing de Orientaciones). La lista vive en la clave `exentas`
+de `data/editorial/contrato-instruccion.json`. Todo lo demás lleva contrato: lotes 4 (blog y
+estudios del observatorio) y 5 (ética y transparencia, tendencias, documentación, reseñas de
+artículos), en modo lectura.
+
 ## Páginas modelo (lote 0, para VoBo)
 
 - `content/ia-educacion/guias/estudiantes/index.md` y `layouts/shortcodes/actividad-b2.html`

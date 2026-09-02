@@ -60,11 +60,7 @@ ecosistema:
     proxima_revision: 2026-10-27
 ---
 
-{{< lead >}}
-Una ayuda de inteligencia artificial puede mejorar un texto en segundos. Para que también
-apoye el aprendizaje, todavía hace falta recuperar el propósito, comprobar el punto decisivo
-y explicar qué se conserva, qué se modifica y por qué.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Estudiantes y docentes que ya usan una ayuda de IA para escribir o revisar y quieren saber qué parte del trabajo conviene conservar para que el resultado también sea aprendizaje." haras="Vas a entender que una respuesta bien escrita puede esconder un mal recorrido, y que lo que hace tuyo el trabajo son tres cosas que la herramienta no hace por ti: recuperar qué querías lograr, comprobar el punto decisivo y explicar qué conservaste, qué cambiaste y por qué." tendras="Una rutina de seis pasos para probar cualquier ayuda (por ejemplo, «escribe tu posición antes de consultar y comprueba la afirmación de la que depende tu conclusión») y dos rutas para continuar según estudies o enseñes." tarda="Diez minutos de lectura; veinte si haces la práctica enlazada." ejemplo="Empieza con Renata y su equipo, que recibieron dos sugerencias de IA para la conclusión de un muestreo de agua: una vuelve el texto más fluido pero afirma más de lo que los datos permiten; la otra pregunta si llovió antes del muestreo." >}}
 
 ## Dos sugerencias que parecen útiles
 
@@ -79,7 +75,7 @@ antes del muestreo y si eso podría cambiar la interpretación. Esa objeción s�
 que el borrador no explicaba.
 
 Las dos propuestas suenan convincentes. Sin embargo, producen consecuencias distintas: aceptar
-la primera ampliaría la conclusión más allá de la evidencia; atender la segunda obligaría a
+la primera ampliaría la conclusión más allá de lo que muestran los datos; atender la segunda obligaría a
 limitarla o a conseguir nuevos datos. Renata todavía necesita decidir qué puede afirmar y qué
 debe dejar pendiente.
 
@@ -91,7 +87,7 @@ aprendió una persona. Dos trabajos pueden verse igual de pulidos y provenir de 
 distintos.
 
 En uno, la persona acepta una versión que no puede explicar. En otro, parte de una idea propia,
-compara la propuesta, verifica el punto decisivo y revisa con razones. El producto final importa,
+compara la propuesta, verifica el punto decisivo y revisa con razones. El trabajo entregado importa,
 pero no muestra por sí solo dónde hubo comprensión ni quién conservó la decisión.
 
 Por eso conviene mirar dos cosas juntas:
@@ -176,26 +172,26 @@ afirmas? Registra en una frase qué decidiste y por qué.
 Al terminar, intenta explicar sin volver a la conversación:
 
 - qué sostenías al principio;
-- qué evidencia encontraste;
+- qué datos o fuentes encontraste;
 - qué cambiaste o conservaste;
 - por qué la versión final es más defendible.
 
 Si puedes reconstruir esas cuatro piezas, la ayuda dejó una oportunidad de aprendizaje y no solo
-un producto más fluido.
+un texto más fluido.
 
 [Practica con dos sugerencias para el mismo borrador](../../../actividades/comparar-sugerencias/)
 {.udgia-action-link}
 
 ## Si enseñas: protege el esfuerzo que forma la capacidad
 
-Antes de elegir una herramienta, identifica qué acción necesita practicar el grupo y qué evidencia
-permitiría verla. Después decide cuándo puede aparecer la ayuda. Una objeción puede ser útil
+Antes de elegir una herramienta, identifica qué acción necesita practicar el grupo y qué entrega
+permitiría verla (un párrafo, una tabla, una explicación oral). Después decide cuándo puede aparecer la ayuda. Una objeción puede ser útil
 después de un primer intento; una solución completa al comienzo puede retirar la dificultad que
 formaba la capacidad.
 
 Por ejemplo, si el grupo necesita comparar dos explicaciones y justificar cuál está mejor
-respaldada, la acción es comparar con criterios. La evidencia puede ser un párrafo que nombre el
-criterio decisivo, cite el dato usado y explique por qué una explicación resulta más sólida.
+respaldada, la acción es comparar con criterios explícitos (cuál cita datos, cuál explica el mecanismo). Esa entrega puede ser un párrafo que nombre el
+criterio decisivo (por ejemplo, «la fuente más reciente con datos del mismo río»), cite el dato usado y explique por qué una explicación resulta más sólida.
 
 El grupo necesita saber qué usos son pertinentes, qué información conviene mantener fuera de la
 herramienta y cómo puede realizarse el mismo aprendizaje sin IA. La expectativa resulta más clara
@@ -210,12 +206,12 @@ responsablemente”.
 A veces la ayuda solo corrige una forma. Otras veces una objeción modifica la pregunta y obliga a
 construir una explicación que no habría aparecido de la misma manera. Podemos hablar de
 **co-creación persona–IA** cuando ese aporte entra en un ciclo de trabajo intelectual y la persona
-conserva propósito, comprobación y decisión.
+conserva el propósito (qué quería lograr), la comprobación y la decisión.
 
 Si quieres convertir esta relación en una actividad completa, la guía
 [Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso](/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/)
 muestra cómo definir el desempeño, preparar un primer intento, introducir contraste humano o
-asistido por IA, proteger la reconstrucción y cerrar con evidencia individual.
+asistido por IA, proteger la reconstrucción y cerrar con una entrega individual.
 
 El nombre importa menos que la relación que permite ver: la herramienta puede influir, pero no
 comprende ni responde por el trabajo como una persona. Quien entrega conserva la responsabilidad
@@ -224,12 +220,12 @@ los apoyos que ofrece.
 
 En pocas palabras: empezar con IA no significa aprender primero una marca o una fórmula de
 instrucción. Significa reconocer qué quieres aprender, probar una ayuda delimitada y conservar la
-evidencia y la decisión que hacen tuyo el recorrido.
+comprobación y la decisión que hacen tuyo el recorrido.
 
 ## De dónde vienen estos criterios y cómo continuar
 
 La [propuesta de Orientaciones](../../orientaciones/) reúne el marco del que provienen estos
-criterios. No es una política institucional vigente. Aquí se traduce en acciones: expresar una
+criterios (posición inicial, comprobación, privacidad, responsabilidad). No es una política institucional vigente. Aquí se traduce en acciones: expresar una
 posición inicial protege el trabajo de aprendizaje, comprobar una afirmación central permite
 verificar, retirar información sensible cuida la privacidad y responder por el resultado deja
 una decisión revisable.
@@ -239,5 +235,5 @@ No necesitas recorrer todo el sitio en orden:
 - [Si estudias, continúa con el laboratorio breve](../../guias/estudiantes/).
 - [Si enseñas, continúa con la guía para revisar actividades](../../guias/profesorado/).
 - Si participarás en el programa acompañado de alfabetización crítica, encontrarás allí una
-  secuencia de tareas y evidencias. Ese programa está en diseño y todavía no tiene un destino
+  secuencia de tareas y entregas. Ese programa está en diseño y todavía no tiene un destino
   público autorizado.

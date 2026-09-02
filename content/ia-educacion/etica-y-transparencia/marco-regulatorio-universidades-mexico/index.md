@@ -18,9 +18,7 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-México no tiene aún una ley federal específica sobre IA en educación superior, pero sí cuenta con un marco institucional emergente articulado por ANUIES y un conjunto de documentos de referencia que las universidades públicas y privadas están utilizando como base para sus políticas internas. Esta guía sintetiza ese marco y señala lo que aún falta.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Personas de coordinación o jefatura, y docentes que participan en una academia, a quienes les piden «una política de IA» para su programa y no saben qué documento nacional citar ni qué falta todavía en México." haras="Vas a entender que en México no hay una ley federal específica sobre IA en educación superior, que lo que sí existe son dos documentos de ANUIES de 2024 y un observatorio en formación, y que ese hueco deja a cada universidad la tarea de escribir sus propias reglas." tendras="Una lista de qué puedes citar hoy al redactar un acuerdo de programa (por ejemplo, las nueve estrategias del informe ANUIES 2024 y la Ley General de Educación Superior) y una lista de lo que no existe todavía, para no darlo por hecho («no hay estándar nacional de competencias docentes en IA»)." tarda="Siete minutos de lectura." ejemplo="Empieza por los tres niveles donde se decide algo sobre IA en una universidad (federal, ANUIES, cada institución) y qué hay hoy en cada uno, con corte de agosto de 2026." >}}
 
 *Corte de la información: agosto de 2026. El panorama regulatorio descrito —incluida la ausencia de una ley federal específica— corresponde a esa fecha. Próxima revisión prevista: febrero de 2027.*
 
@@ -34,7 +32,7 @@ El marco regulatorio mexicano sobre IA en educación superior se construye en tr
 
 - **Federal.** No existe, al corte de agosto de 2026, una ley federal específica sobre IA en educación. Las disposiciones aplicables provienen de marcos generales: la Ley General de Educación, la Ley General de Educación Superior (2021), la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, y la Ley General de Protección de Datos Personales en Posesión de Sujetos Obligados.
 - **Asociativo nacional.** ANUIES (Asociación Nacional de Universidades e Instituciones de Educación Superior) opera como articulador del trabajo entre universidades a través del Comité ANUIES-TIC, el Grupo de IA en Educación Superior (GIAES) creado en 2024 y el Observatorio Interinstitucional de IA en Educación Superior.
-- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio.
+- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra por su cuenta (por ejemplo, con un acuerdo interno de programa o sin ningún documento).
 
 ## Documentos ANUIES de referencia
 
@@ -65,7 +63,7 @@ La diferencia entre tener estas estrategias enunciadas y tenerlas operacionaliza
 
 El Observatorio Interinstitucional de IA en Educación Superior, impulsado por ANUIES con apoyo de la SEP y operado por la Universidad Pedagógica Nacional, busca identificar fortalezas y promover colaboración entre instituciones. Funciona como mecanismo de monitoreo nacional, todavía en fase temprana de consolidación.
 
-Para una universidad pública como la UdeG, la utilidad del Observatorio es doble: permite ubicar la propia integración en un panorama comparativo nacional y aporta insumos para benchmarking interinstitucional sin tener que construir el instrumento desde cero.
+Para una universidad pública como la UdeG, la utilidad del Observatorio es doble: permite ubicar la propia integración en un panorama comparativo nacional y aporta datos para compararse con otras instituciones (por ejemplo, cuántas ya tienen un lineamiento propio) sin tener que construir el instrumento desde cero.
 
 ## Lo que aún falta en el marco mexicano
 
@@ -76,14 +74,14 @@ A diferencia del marco europeo (Ley de IA de la Unión Europea, vigente desde 20
 - **Estándar nacional de competencias docentes en IA** comparable al [marco UNESCO 2024](/recursos/links/unesco-marco-competencias-docentes-ia/), aunque ANUIES está trabajando hacia esa dirección.
 - **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional.
 
-Estos vacíos no son neutros: dejan a cada universidad la responsabilidad de construir lo que falta. Para la UdeG, esto se traduce en la oportunidad de avanzar con criterio propio, articulado con los marcos internacionales más sólidos.
+Estos vacíos no son neutros: dejan a cada universidad la responsabilidad de construir lo que falta. Para la UdeG, esto se traduce en la oportunidad de fijar reglas propias (por ejemplo, un acuerdo sobre declaración de uso de IA en cada programa), articuladas con los marcos internacionales más sólidos.
 
 ## Cómo se traduce esto al contexto UdeG
 
 Las [sugerencias para una política de IA en la UdeG](/recursos/politica-ia-udeg/) se construyen en este vacío y a partir de los documentos ANUIES. Tres orientaciones posibles:
 
 - **Mantener trazabilidad con ANUIES.** Cada decisión institucional gana en solidez si puede rastrearse a las nueve estrategias del informe nacional, aunque sea para diferenciarse explícitamente.
-- **Documentar el ejercicio para alimentar el Observatorio.** Las prácticas que la UdeG documente con criterio aportan al panorama nacional y le dan voz en la discusión pendiente sobre regulación.
+- **Documentar el ejercicio para alimentar el Observatorio.** Las prácticas que la UdeG documente con fecha, alcance y resultados (por ejemplo, un piloto de evaluación escrita en primer año) aportan al panorama nacional y le dan voz en la discusión pendiente sobre regulación.
 - **Sostener una mesa de diálogo con otras universidades públicas.** El marco federal tarda; la articulación interinstitucional es un acelerador disponible.
 
 ## Lecturas relacionadas

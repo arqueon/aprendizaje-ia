@@ -16,15 +16,15 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido —"la IA cambiará todo, los docentes se vuelven facilitadores"— y la del rechazo defensivo —"nada esencial cambia, el docente sigue siendo el centro". Este ensayo propone una tercera lectura: qué funciones del oficio docente la IA está asumiendo de hecho, qué funciones no puede asumir, y qué responsabilidades aparecen como nuevas.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes universitarios que sienten que parte de su trabajo (explicar, comentar borradores, armar ejercicios) ya lo hace un modelo, y quieren saber qué conservar y qué soltar." haras="Vas a entender qué tres funciones del oficio está asumiendo la IA de hecho, qué tres sigue sin poder asumir (leer al grupo, acompañar a cada estudiante, decidir en zonas grises) y qué tres responsabilidades aparecen como nuevas." tendras="Una lista de nueve funciones para revisar tu semestre (por ejemplo, «la retroalimentación de borradores la comparto con el modelo; la lectura del grupo y la decisión sobre una entrega tardía siguen siendo mías») y una definición operativa del oficio: diseñar aprendizaje en presencia de IA." tarda="Seis minutos de lectura." ejemplo="Empieza con las dos posiciones que dominan la conversación (el entusiasmo del «todo cambia» y el rechazo del «nada cambia») y con la provisión de contenido, la función que más visiblemente ha migrado al modelo." >}}
+
+La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido («la IA cambiará todo, los docentes se vuelven facilitadores») y la del rechazo defensivo («nada esencial cambia, el docente sigue siendo el centro»). Este ensayo propone una tercera lectura, para revisar semestre a semestre: qué funciones del oficio docente la IA está asumiendo de hecho, qué funciones no puede asumir y qué responsabilidades aparecen como nuevas.
 
 ## Lo que la IA está asumiendo
 
 Tres funciones que históricamente recayeron en el docente universitario están migrando, parcial o totalmente, a sistemas algorítmicos. Reconocerlas no es derrotismo; es claridad operativa.
 
-La **provisión de contenido** es la más evidente. Un modelo de lenguaje contemporáneo ofrece explicaciones de conceptos, ejemplos pertinentes, comparativas históricas y traducciones de jerga técnica con una calidad que cinco años atrás habría requerido un docente experto. Esto no significa que la enseñanza desaparezca, sino que la transmisión deja de ser su núcleo (Bearman et al., 2024).
+La **provisión de contenido** es la más evidente. Un modelo de lenguaje contemporáneo ofrece explicaciones de conceptos, ejemplos pertinentes, comparativas históricas y traducciones de jerga técnica con una calidad que cinco años atrás habría requerido un docente experto. La enseñanza sigue; lo que deja de ser su núcleo es la transmisión (Bearman et al., 2024).
 
 La **retroalimentación de borradores** sigue el mismo patrón. Un modelo bien instruido ofrece comentarios sobre estructura, claridad y consistencia argumentativa con velocidad y minuciosidad que un docente con cincuenta estudiantes no puede sostener. La diferencia, otra vez, no es de calidad: es de escala.
 
@@ -36,7 +36,7 @@ Hay tres funciones donde la IA, en su estado actual, no es sustituto y probablem
 
 La **lectura del grupo** es la primera. Un docente con experiencia detecta en una clase cuándo el grupo está perdido, cuándo está aburrido, cuándo está fingiendo entender y cuándo realmente está pensando. Esa lectura no se reduce a métricas; integra señales sutiles que ningún sistema de seguimiento captura sin convertir el aula en un espacio de vigilancia. La IA puede medir mucho, pero no puede leer un silencio en un grupo.
 
-El **acompañamiento del aprendiz** es la segunda. Acompañar a un estudiante implica reconocer su trayectoria personal, anticipar dificultades específicas, sostener la motivación cuando flaquea y celebrar avances que la rúbrica no captura. Un sistema puede producir expresiones que parecen interés, pero no tiene una trayectoria compartida con el grupo ni asume la responsabilidad del cuidado educativo. Esta diferencia importa porque traducir procesos educativos cualitativos a lo que una máquina puede modelar implica pérdidas (Selwyn, 2024).
+El **acompañamiento del aprendiz** es la segunda. Acompañar a un estudiante implica reconocer su trayectoria personal, anticipar dificultades específicas, sostener la motivación cuando flaquea y celebrar avances que la rúbrica no captura. Un sistema puede producir expresiones que parecen interés, pero carece de una trayectoria compartida con el grupo y de la responsabilidad del cuidado educativo. Esta diferencia importa porque traducir procesos educativos cualitativos a lo que una máquina puede modelar implica pérdidas (Selwyn, 2024).
 
 La **toma de decisiones éticas en zonas grises** es la tercera. Cuando un estudiante atraviesa una crisis personal y entrega tarde, cuando dos estudiantes presentan trabajos similares y hay que decidir si fue colaboración o copia, cuando un grupo plantea una objeción sustantiva al diseño del curso —en estas decisiones, el juicio humano no es opcional: es el único válido.
 
@@ -46,15 +46,15 @@ La IA no solo redistribuye funciones existentes; introduce responsabilidades que
 
 La **curaduría de modelos** es nueva. Un docente universitario hoy debe saber qué modelo recomendar para qué tarea, qué versión está disponible institucionalmente, qué política de retención de datos tiene cada plataforma comercial. Esta curaduría es competencia profesional emergente, no opcional.
 
-El **diseño de tareas resistentes a la IA** —no en el sentido de prohibir su uso, sino de asegurar que la tarea siga teniendo sentido pedagógico aunque la IA esté disponible— es la segunda responsabilidad nueva. Esto cambia el oficio: ya no basta con saber enseñar; hay que saber diseñar evaluación que sostenga su validez en presencia de modelos generativos.
+El **diseño de tareas resistentes a la IA** —tareas que siguen teniendo sentido pedagógico aunque la IA esté disponible, sin necesidad de prohibirla— es la segunda responsabilidad nueva. Esto cambia el oficio: ya no basta con saber enseñar; hay que saber diseñar evaluación que sostenga su validez en presencia de modelos generativos.
 
 La **modelación del uso responsable** es la tercera. El docente que pide transparencia a sus estudiantes pero no la practica genera disonancia. Hoy el docente es referente del uso responsable de IA por su propia práctica visible, no solo por sus instrucciones.
 
 ## Una redefinición operativa, no profética
 
-El docente universitario no se vuelve "facilitador" ni "tutor" en sentido genérico. Se convierte en **diseñador de aprendizaje en presencia de IA**: alguien que toma decisiones explícitas sobre qué tareas se asignan a la IA y cuáles permanecen como responsabilidad humana, sostiene la lectura del grupo y el acompañamiento individual, y modela el uso responsable que pide a sus estudiantes.
+El docente universitario se convierte en **diseñador de aprendizaje en presencia de IA**, algo más preciso que «facilitador» o «tutor» en sentido genérico: alguien que toma decisiones explícitas sobre qué tareas se asignan a la IA y cuáles permanecen como responsabilidad humana, sostiene la lectura del grupo y el acompañamiento individual, y modela el uso responsable que pide a sus estudiantes.
 
-Esa redefinición no es romántica ni triunfalista. Es lo que el oficio exige hoy.
+Esa redefinición es lo que el oficio exige hoy, lejos del romanticismo y del triunfalismo.
 
 ## Lecturas relacionadas
 

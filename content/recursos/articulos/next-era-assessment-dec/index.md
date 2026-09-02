@@ -30,6 +30,8 @@ tipoDocumento: "Reporte"
 
 {{< recurso-info >}}
 
+{{< contrato modo="lectura" quien="Equipos docentes y coordinaciones que buscan ejemplos de evaluaciones rediseñadas con IA y se encuentran con el informe del DEC y Pearson, con sus 101 casos y 14 metodologías." haras="Vas a entender que el informe es un mapa institucional, útil para comparar diseños y localizar ejemplos, y no una revisión académica: no compara resultados de aprendizaje ni prueba que las 14 metodologías funcionen igual en todos los contextos." tendras="Cinco pasos para probar una adaptación acotada en lugar de copiar una metodología (por ejemplo, «elegir dos o tres casos comparables del informe y explicar qué parte del proceso puede usar IA y qué parte exige juicio de la persona») y una lectura cuidadosa de la etiqueta «AI-resistant»." tarda="Cuatro minutos de lectura." ejemplo="Empieza por lo que contiene el informe (101 casos, 14 metodologías, dos prioridades) y por quién lo describe como «primer mapeo integral»: el propio editor." >}}
+
 ## Qué contiene el informe
 
 *The Next Era of Assessment: A Global Review of AI in Assessment Design* es un **informe institucional** elaborado por el Digital Education Council (DEC) y Pearson en 2025. Sus editores organizan **101 casos** de educación superior y los presentan mediante **14 metodologías prácticas** para pensar evaluaciones que restringen, acompañan o integran herramientas de IA.
@@ -49,7 +51,7 @@ La página pública del informe denomina **AI-resistant** a un principio de base
 
 Los casos ofrecen un repertorio para comparar diseños, hacer preguntas y localizar ejemplos. No prueban que las 14 metodologías tengan la misma calidad en todos los contextos. El informe no presenta una evaluación causal de eficacia, no compara sistemáticamente resultados de aprendizaje y **no es una revisión académica** con valoración independiente de la calidad de cada caso.
 
-Por eso conviene hablar de metodologías **documentadas, recopiladas o descritas** por el DEC, no de soluciones validadas mediante una comparación causal. Una institución todavía necesita revisar población, disciplina, acceso, privacidad, carga docente, criterios de evaluación y recursos disponibles.
+Por eso conviene hablar de metodologías **documentadas, recopiladas o descritas** por el DEC, no de soluciones validadas mediante una comparación causal. Una institución todavía necesita revisar población, disciplina, acceso, privacidad, carga docente, criterios de evaluación (qué se observará y con qué rúbrica) y recursos disponibles.
 
 ## Cómo usar el informe
 

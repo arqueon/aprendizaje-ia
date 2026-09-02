@@ -271,7 +271,7 @@ La mejora continua es una responsabilidad profesional, pero un cambio no mejora 
 El recorrido termina con una autoevaluación sin calificación. Úsala para localizar conceptos que todavía no puedes explicar o aplicar a tu propia actividad.
 
 {{< referencias >}}
-- Black, P., y Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education, 5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
+- Black, P., y Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education: Principles, Policy & Practice, 5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
 - Hattie, J., y Timperley, H. (2007). The power of feedback. *Review of Educational Research, 77*(1), 81–112. <https://doi.org/10.3102/003465430298487>
 - Xia, Q., Weng, X., Ouyang, F., Lin, T. J., y Chiu, T. K. F. (2024). A scoping review on how generative artificial intelligence transforms assessment in higher education. *International Journal of Educational Technology in Higher Education, 21*, 40. <https://doi.org/10.1186/s41239-024-00468-z>
 {{< /referencias >}}

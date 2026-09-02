@@ -17,9 +17,7 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una universidad pública no puede sostener investigación sobre IA en educación en aislamiento; tampoco puede delegar el rumbo a las grandes plataformas comerciales. La articulación con redes externas —académicas, institucionales, industriales— es estructuralmente necesaria, pero requiere criterio para no comprometer la autonomía. Esta pieza mapea diez redes activas y propone tres criterios para participar con sentido.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Coordinaciones académicas y de investigación que deciden en qué redes participar, o que ya participan en varias por inercia, y quieren saber cuáles rinden y con qué cuidados." haras="Vas a entender que hay tres tipos de red con lógicas distintas (académica, institucional y de vinculación con industria), qué diez redes están activas en 2026 y qué tres cuidados evitan que la participación se vuelva consumo de tiempo o pérdida de autonomía." tendras="Una tabla para repartir la participación (por ejemplo, «vinculación con industria: coordinación con apoyo jurídico, seguimiento continuo, reporte anual») y tres cuidados para revisar cada red: asimetría reconocida, reciprocidad medible y salida programada." tarda="Ocho minutos de lectura." ejemplo="Empieza por la diferencia entre los tres tipos de red, con un ejemplo de cada uno, porque confundirlos produce expectativas equivocadas." >}}
 
 ## Tres tipos de red, tres lógicas distintas
 
@@ -27,7 +25,7 @@ Antes del listado, conviene diferenciar las lógicas. Confundir tipos de red lle
 
 - **Redes académicas de investigación.** Producen conocimiento revisado por pares. Tiempos largos, productos discretos (artículos, capítulos), reciprocidad simétrica entre miembros. Ejemplo: ALAIPO, EARLI SIG.
 - **Redes institucionales de coordinación.** Articulan políticas y prácticas entre instituciones afines. Tiempos medios, productos colectivos (informes, lineamientos), liderazgo rotativo. Ejemplo: ANUIES, APRU.
-- **Redes de vinculación industria-academia.** Conectan investigación con desarrollo de productos. Tiempos cortos, productos específicos (proyectos, pruebas), asimetría de recursos entre miembros. Ejemplo: alianzas universidad-Google, universidad-Microsoft.
+- **Redes de vinculación industria-academia.** Conectan investigación con el desarrollo de herramientas comerciales. Tiempos cortos, productos específicos (proyectos, pruebas), asimetría de recursos entre miembros. Ejemplo: alianzas universidad-Google, universidad-Microsoft.
 
 La universidad pública conviene a las tres, pero en proporciones distintas. Las dos primeras son inversión troncal; la tercera exige más cuidado.
 
@@ -97,7 +95,7 @@ Iniciativas de financiamiento que articulan empresas con grupos de investigació
 
 ## Tres criterios para participar con sentido
 
-La participación en redes —de los tres tipos— rinde más cuando se sostiene en criterios explícitos:
+La participación en redes —de los tres tipos— rinde más cuando se sostiene en tres cuidados explícitos:
 
 - **Asimetría reconocida.** En redes industria-academia hay asimetría de recursos, no se puede negar. Reconocerla permite negociar; ocultarla lleva a aceptar condiciones desfavorables sin advertirlo.
 - **Reciprocidad medible.** Una red rinde si la institución recibe al menos tanto como aporta. Sin medición —contribuciones, beneficios, tiempo invertido—, las redes se convierten en consumo de tiempo institucional.

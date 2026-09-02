@@ -71,7 +71,7 @@ Tres reglas para que la matriz funcione:
 
 ## Paso 4 — Rediseñar evaluaciones antes que herramientas
 
-El error más frecuente en programas que integran IA es empezar por la herramienta: elegir un modelo institucional, dar capacitación, esperar que la práctica cambie. La evidencia internacional es que la práctica no cambia hasta que cambian las evaluaciones (Bearman et al., 2024; Karataş, 2025).
+El error más frecuente en programas que integran IA es empezar por la herramienta: elegir un modelo institucional, dar capacitación, esperar que la práctica cambie. Lo que se repite en los programas que empiezan así (por ejemplo, una licencia institucional comprada y, un año después, las mismas actividades de siempre) es que la práctica no cambia hasta que cambian las evaluaciones (Bearman et al., 2024; Karataş, 2025).
 
 El rediseño se concentra en cuatro tipos de cambios:
 

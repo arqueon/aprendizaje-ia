@@ -1208,7 +1208,7 @@
       "path": "content/blog/agenciamiento-humano-ia/index.md",
       "title": "El agenciamiento persona-IA: ni herramienta ni reemplazo",
       "role": "articulo",
-      "words": 882,
+      "words": 967,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1223,40 +1223,40 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 27,
-            "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
+            "line": 21,
+            "text": "Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 27,
-            "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
+            "line": 21,
+            "text": "Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 29,
-            "text": "Lo mismo ocurre con un estudiante que escribe con asistencia de IA. El texto final no es lo que él habría escrito sin el modelo, ni lo que el modelo escribió sin él. Es un objeto nuevo que requiere a ambos para existir."
+            "line": 21,
+            "text": "Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 27,
-            "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
+            "line": 21,
+            "text": "Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 27,
-            "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
+            "line": 21,
+            "text": "Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente"
           }
         },
         "comprobacion": {
@@ -1264,7 +1264,7 @@
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
             "line": 51,
-            "text": "**La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto pierde lo central. La rúbrica útil mide la calidad del agenciamie"
+            "text": "**La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto (el ensayo entregado) pierde lo central. La rúbrica útil mide la "
           }
         },
         "lenguaje_directo": {
@@ -1272,7 +1272,7 @@
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
             "line": 27,
-            "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
+            "text": "La metáfora funciona para algunos objetos (el martillo, la calculadora) y falla con la IA generativa. Cuando un docente usa Claude para planear una sesión, obtiene algo distinto de una versión más rápida de su propio plan original: un plan "
           }
         }
       },
@@ -1290,15 +1290,15 @@
       "path": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
       "title": "Aprender con IA vs aprender sobre IA",
       "role": "articulo",
-      "words": 791,
+      "words": 869,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 20,
-            "text": "Cuando una universidad declara que va a \"integrar IA en su currículo\", suele referirse a dos cosas distintas que conviene separar: enseñar con IA —usar modelos como herramienta para aprender otros contenidos— y enseñar sobre IA —desarrollar"
+            "line": 21,
+            "text": "Cuando una universidad declara que va a «integrar IA en su currículo», suele referirse a dos cosas distintas que conviene separar: enseñar con IA (usar modelos como apoyo para aprender otros contenidos) y enseñar sobre IA (desarrollar compr"
           }
         },
         "quien": {
@@ -1326,15 +1326,19 @@
           }
         },
         "acciones": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
+            "line": 21,
+            "text": "Cuando una universidad declara que va a «integrar IA en su currículo», suele referirse a dos cosas distintas que conviene separar: enseñar con IA (usar modelos como apoyo para aprender otros contenidos) y enseñar sobre IA (desarrollar compr"
+          }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 20,
-            "text": "Cuando una universidad declara que va a \"integrar IA en su currículo\", suele referirse a dos cosas distintas que conviene separar: enseñar con IA —usar modelos como herramienta para aprender otros contenidos— y enseñar sobre IA —desarrollar"
+            "line": 21,
+            "text": "Cuando una universidad declara que va a «integrar IA en su currículo», suele referirse a dos cosas distintas que conviene separar: enseñar con IA (usar modelos como apoyo para aprender otros contenidos) y enseñar sobre IA (desarrollar compr"
           }
         },
         "comprobacion": {
@@ -1342,21 +1346,19 @@
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
             "line": 29,
-            "text": "Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social; uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta."
+            "text": "Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social (saben usar el modelo y no ven a quién deja fuera); uno que solo desarrolla la segunda produce críticos sin capacidad oper"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 29,
-            "text": "Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social; uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta."
+            "line": 21,
+            "text": "Cuando una universidad declara que va a «integrar IA en su currículo», suele referirse a dos cosas distintas que conviene separar: enseñar con IA (usar modelos como apoyo para aprender otros contenidos) y enseñar sobre IA (desarrollar compr"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -1368,7 +1370,7 @@
       "path": "content/blog/asimetria-de-la-transparencia/index.md",
       "title": "La asimetría de la transparencia",
       "role": "articulo",
-      "words": 892,
+      "words": 934,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1376,7 +1378,7 @@
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
             "line": 23,
-            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. Afirmo algo más incómodo que un ocultamiento deliberado del profesorado o una conspiración de las instituciones: que nadie diseñó la asimetría y por eso nadie se siente responsable de el"
           }
         },
         "quien": {
@@ -1384,7 +1386,7 @@
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
             "line": 23,
-            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. Afirmo algo más incómodo que un ocultamiento deliberado del profesorado o una conspiración de las instituciones: que nadie diseñó la asimetría y por eso nadie se siente responsable de el"
           }
         },
         "momento_entorno": {
@@ -1392,7 +1394,7 @@
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
             "line": 23,
-            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. Afirmo algo más incómodo que un ocultamiento deliberado del profesorado o una conspiración de las instituciones: que nadie diseñó la asimetría y por eso nadie se siente responsable de el"
           }
         },
         "material_inicial": {
@@ -1400,7 +1402,7 @@
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
             "line": 23,
-            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. Afirmo algo más incómodo que un ocultamiento deliberado del profesorado o una conspiración de las instituciones: que nadie diseñó la asimetría y por eso nadie se siente responsable de el"
           }
         },
         "acciones": {
@@ -1424,7 +1426,7 @@
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
             "line": 23,
-            "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
+            "text": "Conviene precisar el diagnóstico antes de discutirlo. Afirmo algo más incómodo que un ocultamiento deliberado del profesorado o una conspiración de las instituciones: que nadie diseñó la asimetría y por eso nadie se siente responsable de el"
           }
         },
         "lenguaje_directo": {
@@ -1448,15 +1450,15 @@
       "path": "content/blog/ia-generativa-evaluacion-autentica/index.md",
       "title": "IA generativa y evaluación auténtica",
       "role": "articulo",
-      "words": 987,
+      "words": 1135,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 20,
-            "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
+            "line": 21,
+            "text": "La IA generativa obliga a preguntar qué evidencia (un borrador anterior, una fuente descartada, una respuesta a una pregunta imprevista) permite reconocer comprensión, juicio y capacidad de revisar un trabajo cuando producir una respuesta p"
           }
         },
         "quien": {
@@ -1479,40 +1481,40 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 25,
-            "text": "Durante años, la evaluación auténtica se asoció con tareas parecidas a las del trabajo profesional: resolver un caso, diseñar una intervención o justificar una decisión. Esa semejanza puede ser útil, pero no basta. Una tarea laboral también"
+            "line": 21,
+            "text": "La IA generativa obliga a preguntar qué evidencia (un borrador anterior, una fuente descartada, una respuesta a una pregunta imprevista) permite reconocer comprensión, juicio y capacidad de revisar un trabajo cuando producir una respuesta p"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 55,
-            "text": "Las tareas con varias respuestas posibles permiten observar cómo se usan criterios, fuentes y consecuencias para sostener una decisión. La IA puede proponer alternativas; el aprendizaje aparece cuando el estudiante las compara, detecta lími"
+            "line": 51,
+            "text": "Una conversación breve, una nota reflexiva o la revisión de un fragmento permiten comprobar qué entiende la persona y cómo responde a preguntas. La modalidad depende del tamaño del grupo, la accesibilidad y la importancia de la tarea. Una d"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 76,
-            "text": "La entrada de [evaluación auténtica](/recursos/glosario/evaluacion-autentica/) ofrece una definición breve. La [ficha de Ajjawi, Bearman y colegas](/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/) desarrolla las tres perspectiva"
+            "line": 33,
+            "text": "Una respuesta generada en segundos puede revelar que una tarea recoge poca evidencia del razonamiento del estudiante (por ejemplo, un resumen de lectura que el modelo produce sin conocer el curso). Sin embargo, ese diagnóstico depende del p"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 20,
-            "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
+            "line": 21,
+            "text": "La IA generativa obliga a preguntar qué evidencia (un borrador anterior, una fuente descartada, una respuesta a una pregunta imprevista) permite reconocer comprensión, juicio y capacidad de revisar un trabajo cuando producir una respuesta p"
           }
         },
         "lenguaje_directo": {
           "present": false,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 20,
-            "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
+            "line": 21,
+            "text": "La IA generativa obliga a preguntar qué evidencia (un borrador anterior, una fuente descartada, una respuesta a una pregunta imprevista) permite reconocer comprensión, juicio y capacidad de revisar un trabajo cuando producir una respuesta p"
           }
         }
       },
@@ -1537,7 +1539,7 @@
       "path": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
       "title": "El rizoma digital: aprender sin mapa",
       "role": "articulo",
-      "words": 944,
+      "words": 1010,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1552,15 +1554,15 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 35,
-            "text": "El segundo es que **el aprendiz necesita seguir un camino predefinido**. Esto era cierto cuando el acceso al conocimiento estaba mediado por bibliotecas, profesores y bibliografía cerrada. Hoy, un estudiante con un modelo de lenguaje y curi"
+            "line": 21,
+            "text": "Durante siglos, el conocimiento universitario se organizó como un árbol: tronco principal, ramas disciplinares, hojas de detalle. El plan de estudios reproducía esa estructura: bases primero, especialización después, integración al final. L"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 20,
+            "line": 21,
             "text": "Durante siglos, el conocimiento universitario se organizó como un árbol: tronco principal, ramas disciplinares, hojas de detalle. El plan de estudios reproducía esa estructura: bases primero, especialización después, integración al final. L"
           }
         },
@@ -1613,7 +1615,7 @@
       "path": "content/blog/rol-docente-era-ia/index.md",
       "title": "El rol del docente en la era de la IA",
       "role": "articulo",
-      "words": 852,
+      "words": 848,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -1628,24 +1630,24 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 20,
-            "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido —\"la IA cambiará todo, los docentes se vuelven facilitadores\"— y la del rechazo defensivo —\"nada ese"
+            "line": 21,
+            "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido («la IA cambiará todo, los docentes se vuelven facilitadores») y la del rechazo defensivo («nada ese"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 31,
-            "text": "La **generación de ejercicios** —preguntas de práctica, problemas, casos— también se ha vuelto trivial para sistemas algorítmicos. Lo que antes consumía horas de planeación docente hoy se resuelve en minutos. Para el docente, esto libera ti"
+            "line": 21,
+            "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido («la IA cambiará todo, los docentes se vuelven facilitadores») y la del rechazo defensivo («nada ese"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 20,
-            "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido —\"la IA cambiará todo, los docentes se vuelven facilitadores\"— y la del rechazo defensivo —\"nada ese"
+            "line": 21,
+            "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido («la IA cambiará todo, los docentes se vuelven facilitadores») y la del rechazo defensivo («nada ese"
           }
         },
         "acciones": {
@@ -1854,7 +1856,7 @@
       "path": "content/formacion-docente/alfabetizacion-co-creacion/index.md",
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "role": "pagina",
-      "words": 1309,
+      "words": 1320,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2513,7 +2515,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/index.md",
       "title": "Introducción al diseño inverso",
       "role": "pagina",
-      "words": 1266,
+      "words": 1279,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2595,7 +2597,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/index.md",
       "title": "Literacidades para el uso de IA",
       "role": "pagina",
-      "words": 1499,
+      "words": 1500,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2757,7 +2759,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/index.md",
       "title": "Delimitación del contexto y diagnóstico inicial",
       "role": "pagina",
-      "words": 1644,
+      "words": 1673,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -2919,7 +2921,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/index.md",
       "title": "Determinación de evidencias y criterios de calidad",
       "role": "pagina",
-      "words": 2178,
+      "words": 2184,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -3001,7 +3003,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/index.md",
       "title": "Diseño de secuencias activas e híbridas",
       "role": "pagina",
-      "words": 1439,
+      "words": 1484,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -3081,7 +3083,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/index.md",
       "title": "Análisis de casos",
       "role": "pagina",
-      "words": 1629,
+      "words": 1687,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -3237,7 +3239,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/index.md",
       "title": "Priorizar intervenciones con evidencia",
       "role": "pagina",
-      "words": 1360,
+      "words": 1390,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -3319,7 +3321,7 @@
       "path": "content/formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/index.md",
       "title": "Evaluación, retroalimentación y mejora continua",
       "role": "pagina",
-      "words": 1634,
+      "words": 1638,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -4352,14 +4354,14 @@
       "path": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
       "title": "Empezar con IA para aprender y enseñar",
       "role": "ruta",
-      "words": 1596,
+      "words": 1601,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 73,
+            "line": 69,
             "text": "conclusión. Antes de entregar, Renata pide a un sistema de IA generativa una posible"
           }
         },
@@ -4367,7 +4369,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 71,
+            "line": 67,
             "text": "Renata prepara con su equipo una explicación para una asignatura de ciencias ambientales."
           }
         },
@@ -4375,7 +4377,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 73,
+            "line": 69,
             "text": "conclusión. Antes de entregar, Renata pide a un sistema de IA generativa una posible"
           }
         },
@@ -4383,40 +4385,40 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 64,
-            "text": "Una ayuda de inteligencia artificial puede mejorar un texto en segundos. Para que también"
+            "line": 72,
+            "text": "La primera sugerencia vuelve el texto más fluido, pero afirma que el agua es segura en toda la"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 66,
-            "text": "y explicar qué se conserva, qué se modifica y por qué."
+            "line": 90,
+            "text": "compara la propuesta, verifica el punto decisivo y revisa con razones. El trabajo entregado importa,"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 66,
-            "text": "y explicar qué se conserva, qué se modifica y por qué."
+            "line": 68,
+            "text": "Tomaron una muestra de agua junto a un puente, organizaron el resultado y escribieron una primera"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 94,
-            "text": "compara la propuesta, verifica el punto decisivo y revisa con razones. El producto final importa,"
+            "line": 90,
+            "text": "compara la propuesta, verifica el punto decisivo y revisa con razones. El trabajo entregado importa,"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/constelaciones/cocreacion-evaluacion/index.md",
-            "line": 66,
-            "text": "y explicar qué se conserva, qué se modifica y por qué."
+            "line": 90,
+            "text": "compara la propuesta, verifica el punto decisivo y revisa con razones. El trabajo entregado importa,"
           }
         }
       },
@@ -4513,14 +4515,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
       "title": "Principios de la alfabetización crítica en inteligencia artificial",
       "role": "pagina",
-      "words": 643,
+      "words": 583,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 45,
+            "line": 43,
             "text": "- Entender la IA como un **modo de ordenamiento** que estructura decisiones y distribuye agencia antes de que el usuario la toque: la opacidad es parte del diseño, no un accidente (Vallès-Peris & Pareto, 2025)."
           }
         },
@@ -4528,7 +4530,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 23,
+            "line": 31,
             "text": "La alfabetización crítica en inteligencia artificial es el juicio para usar estas herramientas. Implica evaluar lo que devuelven y conservar la dirección humana del proceso. Sin ese juicio, el estudiante delega el trabajo mental a la máquin"
           }
         },
@@ -4536,7 +4538,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 45,
+            "line": 43,
             "text": "- Entender la IA como un **modo de ordenamiento** que estructura decisiones y distribuye agencia antes de que el usuario la toque: la opacidad es parte del diseño, no un accidente (Vallès-Peris & Pareto, 2025)."
           }
         },
@@ -4544,7 +4546,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 29,
+            "line": 27,
             "text": "fuente=\"**Referencias:** Gerlich (2025), *AI tools in society*; Lodge & Loble (2026), *Artificial intelligence, cognitive offloading and implications for education*; Lopez-Lopez et al. (2026), *Boosting metacognition in entangled human-AI i"
           }
         },
@@ -4552,7 +4554,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 76,
+            "line": 74,
             "text": "La [pieza marco sobre las tres literacidades](/formacion-docente/alfabetizacion/) presenta la progresión completa."
           }
         },
@@ -4560,7 +4562,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 26,
+            "line": 24,
             "text": "{{< infografia"
           }
         },
@@ -4572,8 +4574,8 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/index.md",
-            "line": 38,
-            "text": "- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia y alucinaciones."
+            "line": 36,
+            "text": "- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia (por ejemplo, una cifra sin fuente) y alucinaciones."
           }
         }
       },
@@ -4591,14 +4593,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
       "title": "Costos ecológicos de la IA y el criterio de proporcionalidad",
       "role": "pagina",
-      "words": 1333,
+      "words": 1323,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 22,
+            "line": 20,
             "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         },
@@ -4606,7 +4608,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 22,
+            "line": 20,
             "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         },
@@ -4614,7 +4616,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 22,
+            "line": 20,
             "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         },
@@ -4622,15 +4624,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 19,
-            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+            "line": 20,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 22,
+            "line": 20,
             "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         },
@@ -4638,30 +4640,28 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 28,
-            "text": "Dentro de esa huella, la dimensión hídrica es la más opaca. Un estudio dedicado específicamente al agua estimó que entrenar un modelo grande puede evaporar cientos de miles de litros de agua dulce, un costo que los proveedores rara vez repo"
+            "line": 26,
+            "text": "Dentro de esa huella, la dimensión hídrica (el agua que evaporan los centros de datos para enfriarse) es la más opaca. Un estudio dedicado específicamente al agua estimó que entrenar un modelo grande puede evaporar cientos de miles de litro"
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 19,
-            "text": "Una tarea breve puede pedirle al modelo más grande disponible que reformule cinco veces un párrafo que también podría revisarse con una herramienta ligera o con un intercambio entre pares. La pantalla no muestra ninguna diferencia entre esa"
+            "line": 32,
+            "text": "La honestidad exige delimitar el mapa. No existen cifras confiables y públicas del costo de una consulta individual en los servicios comerciales más usados: las estimaciones circulantes varían en órdenes de magnitud según supuestos que los "
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/costos-ecologicos-proporcionalidad/index.md",
-            "line": 26,
-            "text": "Lo mejor documentado es que la IA generativa tiene una base material considerable. Entrenar y utilizar estos sistemas consume energía y agua y genera emisiones asociadas a los centros de datos donde operan; la investigación sobre esa infrae"
+            "line": 20,
+            "text": "Cuando un docente decide si una actividad usará IA, suele sopesar el valor pedagógico, la integridad académica y el acceso. Hay una cuarta dimensión que casi nunca entra en la decisión porque la interfaz la oculta por completo: cada consult"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -4673,14 +4673,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
       "title": "Síntesis de los lineamientos UNESCO para IA en educación",
       "role": "pagina",
-      "words": 899,
+      "words": 850,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 46,
+            "line": 44,
             "text": "- **La rendición de cuentas no se delega al algoritmo.** Cuando un sistema de IA toma una decisión, alguien humano debe poder responder por ella."
           }
         },
@@ -4688,7 +4688,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 35,
+            "line": 33,
             "text": "| Marco de competencias de IA para docentes (2024) | Competencias profesionales | Programas de formación docente |"
           }
         },
@@ -4696,15 +4696,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 22,
-            "text": "La UNESCO mantiene tres documentos de referencia para IA en educación que conviene conocer en conjunto: la *Recomendación sobre la ética de la IA* (2021), la *Guía sobre IA generativa en educación e investigación* (2023, actualización vigen"
+            "line": 55,
+            "text": "3. **Validación pedagógica antes que técnica**, para evitar que la institución adopte herramientas por su rendimiento sin revisar su pertinencia educativa."
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 55,
+            "line": 53,
             "text": "1. **Regulación de proveedores de IA generativa**, con énfasis en privacidad de datos y validación pedagógica."
           }
         },
@@ -4712,7 +4712,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 47,
+            "line": 45,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         },
@@ -4720,7 +4720,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 61,
+            "line": 59,
             "text": "7. **Reflexión internacional sobre las implicaciones a largo plazo** del cambio en cómo se produce conocimiento."
           }
         },
@@ -4728,7 +4728,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 25,
+            "line": 23,
             "text": "*Corte de la información: agosto de 2026; la versión más reciente considerada de la Guía sobre IA generativa es la actualización de enero de 2026. Próxima revisión prevista: febrero de 2027.*"
           }
         },
@@ -4736,7 +4736,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 47,
+            "line": 45,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         }
@@ -4753,22 +4753,22 @@
       "path": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
       "title": "Cuatro criterios éticos para el uso de IA en educación superior",
       "role": "pagina",
-      "words": 2064,
+      "words": 2102,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 32,
-            "text": "La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estud"
+            "line": 25,
+            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios (por ejemplo, cómo decidir un caso de plagio con IA) para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera com"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 32,
+            "line": 30,
             "text": "La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estud"
           }
         },
@@ -4776,31 +4776,31 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 23,
-            "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
+            "line": 30,
+            "text": "La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estud"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 23,
-            "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
+            "line": 25,
+            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios (por ejemplo, cómo decidir un caso de plagio con IA) para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera com"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 27,
-            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera como una red rizomática de reflexión: cada lectora y lec"
+            "line": 25,
+            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios (por ejemplo, cómo decidir un caso de plagio con IA) para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera com"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 60,
+            "line": 58,
             "text": "- Diseñar actividades donde la IA retroalimenta borradores, pero el estudiante escribe la versión final sin asistencia."
           }
         },
@@ -4808,16 +4808,16 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 23,
-            "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
+            "line": 25,
+            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios (por ejemplo, cómo decidir un caso de plagio con IA) para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera com"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 27,
-            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera como una red rizomática de reflexión: cada lectora y lec"
+            "line": 25,
+            "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios (por ejemplo, cómo decidir un caso de plagio con IA) para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera com"
           }
         }
       },
@@ -4833,14 +4833,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
       "title": "Marco regulatorio de IA en universidades mexicanas",
       "role": "pagina",
-      "words": 1030,
+      "words": 1021,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 77,
+            "line": 75,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4848,7 +4848,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 28,
+            "line": 26,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4856,7 +4856,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 77,
+            "line": 75,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4864,7 +4864,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 28,
+            "line": 26,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4872,15 +4872,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 37,
-            "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
+            "line": 35,
+            "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra por su cuenta (por ejemplo, con un acuerdo in"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 43,
+            "line": 41,
             "text": "- ***Inteligencia Artificial en la Educación Superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*** (ANUIES, 2024). Informe nacional con once capítulos que abordan dimensiones fundamentales: brechas digitales, es"
           }
         },
@@ -4888,7 +4888,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 25,
+            "line": 23,
             "text": "*Corte de la información: agosto de 2026. El panorama regulatorio descrito —incluida la ausencia de una ley federal específica— corresponde a esa fecha. Próxima revisión prevista: febrero de 2027.*"
           }
         },
@@ -4896,8 +4896,8 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 37,
-            "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
+            "line": 83,
+            "text": "- **Mantener trazabilidad con ANUIES.** Cada decisión institucional gana en solidez si puede rastrearse a las nueve estrategias del informe nacional, aunque sea para diferenciarse explícitamente."
           }
         }
       },
@@ -4915,22 +4915,22 @@
       "path": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
       "title": "Plagio y autenticidad académica en la era de la IA",
       "role": "pagina",
-      "words": 1569,
+      "words": 1617,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 23,
-            "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
+            "line": 36,
+            "text": "Sarah Elaine Eaton (2023) propone **postplagiarism** como un marco para pensar ética e integridad cuando tecnologías avanzadas no pueden separarse con facilidad de la producción humana. Su planteamiento conserva la responsabilidad: quien en"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 34,
+            "line": 32,
             "text": "- ¿qué decisiones tomó la persona?;"
           }
         },
@@ -4938,15 +4938,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 23,
-            "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
+            "line": 67,
+            "text": "Los siguientes son **casos hipotéticos**. No anticipan una resolución disciplinaria: muestran qué preguntas faltan antes de decidir."
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 28,
+            "line": 26,
             "text": "El plagio sigue nombrando prácticas relevantes: presentar como propia una aportación ajena, ocultar una fuente o reutilizar material en contra de las reglas acordadas. La IA complica el análisis porque una salida generada no siempre reprodu"
           }
         },
@@ -4954,7 +4954,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 36,
+            "line": 34,
             "text": "- ¿qué procedimiento permite revisar una duda sin invertir la carga de la prueba?"
           }
         },
@@ -4962,7 +4962,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 38,
+            "line": 36,
             "text": "Sarah Elaine Eaton (2023) propone **postplagiarism** como un marco para pensar ética e integridad cuando tecnologías avanzadas no pueden separarse con facilidad de la producción humana. Su planteamiento conserva la responsabilidad: quien en"
           }
         },
@@ -4970,22 +4970,20 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 49,
+            "line": 47,
             "text": "| Dos versiones comparadas | Cambios relevantes y uso de retroalimentación | Explicar qué cambió, no premiar la cantidad de versiones |"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 23,
-            "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
+            "line": 34,
+            "text": "- ¿qué procedimiento permite revisar una duda sin invertir la carga de la prueba?"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "cambiar",
@@ -5005,14 +5003,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
       "title": "Sesgos algorítmicos y equidad educativa",
       "role": "pagina",
-      "words": 1882,
+      "words": 1883,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 30,
+            "line": 28,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5020,15 +5018,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 23,
-            "text": "Los modelos generativos reproducen los sesgos de sus datos de entrenamiento. La respuesta pedagógica no es prohibirlos ni denunciarlos en abstracto, sino convertir el sesgo en objeto de aprendizaje: diseñar actividades donde el estudiante a"
+            "line": 30,
+            "text": "Para un aula universitaria mexicana, esto tiene consecuencias directas. Si una estudiante pide a Claude Opus 4.6 que le liste los referentes contemporáneos de una disciplina, es probable que reciba una lista donde domina la bibliografía ang"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 32,
+            "line": 30,
             "text": "Para un aula universitaria mexicana, esto tiene consecuencias directas. Si una estudiante pide a Claude Opus 4.6 que le liste los referentes contemporáneos de una disciplina, es probable que reciba una lista donde domina la bibliografía ang"
           }
         },
@@ -5036,15 +5034,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 23,
-            "text": "Los modelos generativos reproducen los sesgos de sus datos de entrenamiento. La respuesta pedagógica no es prohibirlos ni denunciarlos en abstracto, sino convertir el sesgo en objeto de aprendizaje: diseñar actividades donde el estudiante a"
+            "line": 28,
+            "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 30,
+            "line": 28,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5052,7 +5050,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 30,
+            "line": 28,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5060,15 +5058,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 48,
-            "text": "El modelo asume criterios de calidad implícitos en sus datos. Al pedirle que evalúe un ensayo, un proyecto o una propuesta, aplica rúbricas no declaradas que favorecen el estilo argumentativo, las convenciones retóricas y las tradiciones in"
+            "line": 46,
+            "text": "El modelo asume criterios de calidad implícitos en sus datos (por ejemplo, que un buen ensayo abre con una tesis y cierra con una recapitulación). Al pedirle que evalúe un ensayo, un proyecto o una propuesta, aplica rúbricas no declaradas q"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 30,
+            "line": 28,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         }
@@ -5085,14 +5083,14 @@
       "path": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
       "title": "Transparencia algorítmica en el aula: prácticas concretas",
       "role": "pagina",
-      "words": 879,
+      "words": 842,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 26,
+            "line": 24,
             "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
@@ -5100,15 +5098,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 21,
-            "text": "La transparencia algorítmica es uno de los principios más citados en los marcos de IA en educación, y uno de los que con más frecuencia se queda en el plano discursivo. Esta guía propone cinco prácticas concretas que un docente puede incorp"
+            "line": 24,
+            "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 24,
+            "line": 22,
             "text": "## Qué se entiende por transparencia algorítmica en el aula"
           }
         },
@@ -5116,15 +5114,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 48,
-            "text": "Cuando la consigna permite el uso de IA, se exige un anexo del estudiante que documente: prompts utilizados, modelo y versión, salidas obtenidas, y decisiones tomadas (qué se conservó, qué se descartó y por qué). Este anexo se evalúa con su"
+            "line": 24,
+            "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 36,
+            "line": 34,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         },
@@ -5132,7 +5130,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 36,
+            "line": 34,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         },
@@ -5140,7 +5138,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 26,
+            "line": 24,
             "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
@@ -5148,7 +5146,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 36,
+            "line": 34,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         }
@@ -5936,7 +5934,7 @@
       "path": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
       "title": "Integra la IA en un programa que ya existe: cinco pasos sin reescribir el plan de estudios",
       "role": "guia",
-      "words": 1431,
+      "words": 1453,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -6333,14 +6331,14 @@
       "path": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
       "title": "IA en el aprendizaje híbrido y activo",
       "role": "pagina",
-      "words": 733,
+      "words": 706,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 32,
+            "line": 30,
             "text": "- **Contenidos adaptativos**: la IA ajusta la dificultad y el tipo de materiales según el progreso de cada estudiante."
           }
         },
@@ -6348,23 +6346,23 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 23,
-            "text": "La inteligencia artificial se integra al ecosistema del [aprendizaje híbrido]({{< ref \"formacion-docente/aprendizaje-hibrido\" >}}) no solo como una herramienta de optimización sino como un facilitador de experiencias educativas personalizad"
+            "line": 26,
+            "text": "Una de las contribuciones más significativas de la IA en el contexto educativo es su capacidad para la personalización y adaptabilidad del aprendizaje. Las herramientas de IA pueden analizar volúmenes de datos sobre el desempeño, las intera"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 23,
-            "text": "La inteligencia artificial se integra al ecosistema del [aprendizaje híbrido]({{< ref \"formacion-docente/aprendizaje-hibrido\" >}}) no solo como una herramienta de optimización sino como un facilitador de experiencias educativas personalizad"
+            "line": 28,
+            "text": "En el contexto del [aprendizaje híbrido]({{< ref \"formacion-docente/aprendizaje-hibrido\" >}}), la personalización se manifiesta en:"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 28,
+            "line": 26,
             "text": "Una de las contribuciones más significativas de la IA en el contexto educativo es su capacidad para la personalización y adaptabilidad del aprendizaje. Las herramientas de IA pueden analizar volúmenes de datos sobre el desempeño, las intera"
           }
         },
@@ -6376,7 +6374,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 74,
+            "line": 72,
             "text": "- Reflexionar sobre y mejorar su práctica docente a través del [portafolio de docencia]({{< ref \"formacion-docente/syllabus-portafolio\" >}})."
           }
         },
@@ -6384,7 +6382,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 40,
+            "line": 38,
             "text": "- Proporcionar **retroalimentación instantánea** a los estudiantes sobre sus tareas."
           }
         },
@@ -6392,8 +6390,8 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/ia-aprendizaje-hibrido/index.md",
-            "line": 64,
-            "text": "- **Formación de criterio** en los estudiantes para evaluar críticamente las respuestas generadas por IA."
+            "line": 62,
+            "text": "- **Formación de criterio** en los estudiantes para evaluar críticamente las respuestas generadas por IA (por ejemplo, comprobar una cita antes de usarla)."
           }
         }
       },
@@ -6411,22 +6409,22 @@
       "path": "content/ia-educacion/investigacion/index.md",
       "title": "Investigar con IA sin perder el rigor",
       "role": "pagina",
-      "words": 281,
+      "words": 269,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 44,
-            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
+            "line": 42,
+            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide s"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 68,
+            "line": 66,
             "text": "Al recorrer las páginas conectadas tendrás una ficha de decisión, una comprobación reproducible y una bitácora breve. No certifican la calidad de la investigación: hacen visible qué debe revisar una persona competente en el campo."
           }
         },
@@ -6434,48 +6432,48 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 44,
-            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
+            "line": 42,
+            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide s"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 39,
-            "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
+            "line": 42,
+            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide s"
           }
         },
         "acciones": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 39,
-            "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
+            "line": 42,
+            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide s"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 39,
-            "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
+            "line": 48,
+            "text": "Conserva una pregunta, un propósito (qué quieres saber y para qué) y una regla de aceptación propios."
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 44,
-            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **"
+            "line": 70,
+            "text": "No cargues datos de participantes, manuscritos recibidos para revisión, expedientes, información institucional reservada o material de terceros en un servicio que no haya sido aprobado para ese uso. Si no puedes establecer qué conserva el p"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/investigacion/index.md",
-            "line": 39,
-            "text": "Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decis"
+            "line": 42,
+            "text": "Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide s"
           }
         }
       },
@@ -9151,7 +9149,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 14,
+            "line": 16,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -9159,7 +9157,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 14,
+            "line": 16,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -9167,7 +9165,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 14,
+            "line": 16,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -9175,7 +9173,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 14,
+            "line": 16,
             "text": "Una profesora de la UdeG sube las lecturas al aula virtual, deja un cuestionario de repaso para antes de la clase y reserva la sesión presencial para discutir un caso. Un estudiante de posgrado, en otra ciudad, cursa el mismo programa sin p"
           }
         },
@@ -9183,7 +9181,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 72,
+            "line": 74,
             "text": "La disonancia semántica en la práctica académica suele derivar del uso de \"e-learning\" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corpo"
           }
         },
@@ -9191,7 +9189,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 49,
+            "line": 51,
             "text": "<p class=\"mt-2 mb-0\">La educación digital desplaza el foco del \"entregable final\" hacia las decisiones epistémicas y los procesos. Evaluamos cómo el estudiante llega a una respuesta, exigiendo un diseño donde la tecnología juega el papel de"
           }
         },
@@ -9199,7 +9197,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 80,
+            "line": 82,
             "text": "1. **Grado de presencialidad:** Evalúa la dependencia del proceso formativo respecto a la co-ubicación en el campus. No se mide en horas de asiento, sino en la centralidad del espacio físico para la validación del aprendizaje."
           }
         },
@@ -9207,7 +9205,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/que-es-la-educacion-digital/index.md",
-            "line": 72,
+            "line": 74,
             "text": "La disonancia semántica en la práctica académica suele derivar del uso de \"e-learning\" como un término paraguas, algo que Bates (2015) y Garrison y Vaughan (2008) consideran limitante. Mientras el e-learning surgió vinculado a modelos corpo"
           }
         }
@@ -9634,14 +9632,14 @@
       "path": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
       "title": "IA en tutorías y mentoría estudiantil",
       "role": "pagina",
-      "words": 1186,
+      "words": 1142,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 27,
+            "line": 25,
             "text": "Antes de revisar tendencias, vale separar dos prácticas que en español se confunden:"
           }
         },
@@ -9649,7 +9647,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 30,
+            "line": 28,
             "text": "- **Mentoría** — acompañamiento centrado en la persona. El mentor orienta decisiones académicas y profesionales, sostiene la motivación en momentos difíciles, modela una trayectoria, ofrece presencia humana. Esta función rara vez aparece en"
           }
         },
@@ -9657,7 +9655,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 27,
+            "line": 25,
             "text": "Antes de revisar tendencias, vale separar dos prácticas que en español se confunden:"
           }
         },
@@ -9665,7 +9663,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 29,
+            "line": 27,
             "text": "- **Tutoría** — acompañamiento centrado en contenido. El tutor responde dudas, ofrece explicaciones, plantea problemas, evalúa progresos en un dominio específico. La mayor parte de la literatura sobre IA en educación se ocupa de esta funció"
           }
         },
@@ -9673,7 +9671,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 41,
+            "line": 39,
             "text": "Estos beneficios potenciales son razones para tomarse la tendencia en serio. No son, todavía, prueba de que cualquier tutor de IA mejore el aprendizaje: la revisión de Burns (2026) para Brookings advierte que, hasta ahora, muchas afirmacion"
           }
         },
@@ -9681,30 +9679,28 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 32,
-            "text": "La distinción importa porque la evidencia disponible sobre IA se concentra en la primera y prácticamente no toca la segunda. Confundirlas produce análisis erróneos."
+            "line": 30,
+            "text": "La distinción importa porque los estudios disponibles sobre IA se concentran en la primera y prácticamente no tocan la segunda. Confundirlas produce análisis erróneos."
           }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 22,
-            "text": "La tutoría académica universitaria está incorporando IA generativa más rápido de lo que las instituciones han podido procesar. Hay resultados experimentales prometedores en contextos acotados, hay riesgos de diseño identificados por la inve"
+            "line": 27,
+            "text": "- **Tutoría** — acompañamiento centrado en contenido. El tutor responde dudas, ofrece explicaciones, plantea problemas, evalúa progresos en un dominio específico. La mayor parte de la literatura sobre IA en educación se ocupa de esta funció"
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 32,
-            "text": "La distinción importa porque la evidencia disponible sobre IA se concentra en la primera y prácticamente no toca la segunda. Confundirlas produce análisis erróneos."
+            "line": 39,
+            "text": "Estos beneficios potenciales son razones para tomarse la tendencia en serio. No son, todavía, prueba de que cualquier tutor de IA mejore el aprendizaje: la revisión de Burns (2026) para Brookings advierte que, hasta ahora, muchas afirmacion"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "cambiar",
@@ -9724,14 +9720,14 @@
       "path": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
       "title": "IA generativa y personalización del aprendizaje",
       "role": "pagina",
-      "words": 937,
+      "words": 877,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 26,
+            "line": 24,
             "text": "Las revisiones sistemáticas recientes muestran resultados cuantificables y consistentes en una dirección: los sistemas de tutoría inteligente con IA mejoran el rendimiento académico medido en pruebas estandarizadas (Batsaikhan & Correia, 20"
           }
         },
@@ -9739,25 +9735,21 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 21,
-            "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
+            "line": 26,
+            "text": "La personalización adaptativa también muestra efectos positivos en autoconocimiento del proceso, retroalimentación en tiempo real y autonomía operativa del estudiante. El acceso individualizado a explicaciones, ejemplos y ejercicios reduce "
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 44,
+            "line": 42,
             "text": "La narrativa del tutor personal asumía que un modelo de lenguaje podría replicar la intuición pedagógica de un docente humano que conoce a su estudiante. Eso no ha ocurrido. La razón, según el análisis disponible, es que la intuición pedagó"
           }
         },
         "material_inicial": {
-          "present": true,
-          "evidence": {
-            "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 21,
-            "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
-          }
+          "present": false,
+          "evidence": null
         },
         "acciones": {
           "present": false,
@@ -9767,7 +9759,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 50,
+            "line": 48,
             "text": "Para evitar la confusión que produce la palabra *personalización*, conviene distinguir tres formas que existen hoy y operan de modo distinto:"
           }
         },
@@ -9775,7 +9767,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 26,
+            "line": 24,
             "text": "Las revisiones sistemáticas recientes muestran resultados cuantificables y consistentes en una dirección: los sistemas de tutoría inteligente con IA mejoran el rendimiento académico medido en pruebas estandarizadas (Batsaikhan & Correia, 20"
           }
         },
@@ -9783,8 +9775,8 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 21,
-            "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
+            "line": 22,
+            "text": "## Lo que dice la evidencia"
           }
         }
       },
@@ -9802,22 +9794,22 @@
       "path": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
       "title": "Políticas institucionales de IA en universidades",
       "role": "pagina",
-      "words": 1150,
+      "words": 1109,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 21,
-            "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
+            "line": 34,
+            "text": "Adoptado por Harvard, MIT, Stanford, Princeton y Yale. La política institucional fija principios generales y delega la decisión específica al docente o al programa: cada syllabus declara su política de IA (permitida, restringida, prohibida)"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 36,
+            "line": 34,
             "text": "Adoptado por Harvard, MIT, Stanford, Princeton y Yale. La política institucional fija principios generales y delega la decisión específica al docente o al programa: cada syllabus declara su política de IA (permitida, restringida, prohibida)"
           }
         },
@@ -9825,15 +9817,15 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 21,
-            "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
+            "line": 45,
+            "text": "en decisiones de programa y de curso. Ese reparto puede representarse como ámbitos que"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 36,
+            "line": 34,
             "text": "Adoptado por Harvard, MIT, Stanford, Princeton y Yale. La política institucional fija principios generales y delega la decisión específica al docente o al programa: cada syllabus declara su política de IA (permitida, restringida, prohibida)"
           }
         },
@@ -9841,8 +9833,8 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 21,
-            "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
+            "line": 79,
+            "text": "- **Cómo citar el uso de IA.** Las normas de citación (APA, MLA, Chicago) tienen propuestas distintas y ninguna se ha consolidado como estándar. Cada universidad opta por la que prefiere o redacta la suya."
           }
         },
         "resultado": {
@@ -9853,17 +9845,13 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 28,
+            "line": 26,
             "text": "Hoy, las políticas que se mantienen son las que asumen que la IA es permanente y rediseñan en torno a ella. Universidades como Harvard, Stanford, Berkeley y Michigan han abandonado la prohibición en favor de un rediseño de la evaluación que"
           }
         },
         "lenguaje_directo": {
           "present": false,
-          "evidence": {
-            "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 94,
-            "text": "- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma con criterio APA 7 ahorra confusiones."
-          }
+          "evidence": null
         }
       },
       "missing_expected_signals": [
@@ -10538,7 +10526,7 @@
       "path": "content/laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
       "title": "Monta un portafolio de tres versiones donde la IA comenta y el estudiante decide",
       "role": "practica",
-      "words": 1485,
+      "words": 1488,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -10695,14 +10683,14 @@
       "path": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
       "title": "Monitoreo de herramientas IA emergentes en educación",
       "role": "articulo",
-      "words": 803,
+      "words": 761,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 24,
+            "line": 22,
             "text": "## El problema del ruido"
           }
         },
@@ -10710,23 +10698,23 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 26,
-            "text": "El monitoreo de herramientas emergentes tiene un problema específico que el monitoreo de publicaciones no tiene: la promoción comercial inunda el campo. Cada producto se anuncia con métricas excepcionales, casos de éxito seleccionados y voc"
+            "line": 24,
+            "text": "El monitoreo de herramientas emergentes tiene un problema específico que el monitoreo de publicaciones no tiene: la promoción comercial inunda el campo. Cada producto se anuncia con métricas excepcionales («mejora el aprendizaje 40 %»), cas"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 21,
-            "text": "Cada semana aparece una nueva herramienta de IA con promesa educativa. La mayoría no sobrevive seis meses; algunas sí cambian la práctica. Distinguir cuál es cuál exige una rutina de monitoreo distinta a la de publicaciones académicas: más "
+            "line": 29,
+            "text": "- **Tiempo corto por sesión.** Veinte minutos semanales producen mejor resultado que dos horas mensuales."
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 87,
+            "line": 85,
             "text": "| Herramienta | Fuente | Fecha | Filtro pasado | Decisión | Comentario |"
           }
         },
@@ -10734,7 +10722,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 42,
+            "line": 40,
             "text": "- **EDUCAUSE Horizon Report — Teaching and Learning Edition.** Publicación anual que identifica seis tendencias emergentes con potencial de impacto en educación superior. Conservador en sus pronósticos, lo que es virtud en un campo saturado"
           }
         },
@@ -10742,7 +10730,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 31,
+            "line": 29,
             "text": "- **Tiempo corto por sesión.** Veinte minutos semanales producen mejor resultado que dos horas mensuales."
           }
         },
@@ -10750,15 +10738,15 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 21,
-            "text": "Cada semana aparece una nueva herramienta de IA con promesa educativa. La mayoría no sobrevive seis meses; algunas sí cambian la práctica. Distinguir cuál es cuál exige una rutina de monitoreo distinta a la de publicaciones académicas: más "
+            "line": 30,
+            "text": "- **Protocolo de evaluación rápida.** Para distinguir entre lo que merece atención y lo que no."
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 42,
+            "line": 40,
             "text": "- **EDUCAUSE Horizon Report — Teaching and Learning Edition.** Publicación anual que identifica seis tendencias emergentes con potencial de impacto en educación superior. Conservador en sus pronósticos, lo que es virtud en un campo saturado"
           }
         }
@@ -10775,14 +10763,14 @@
       "path": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
       "title": "Monitoreo de publicaciones sobre IA educativa",
       "role": "articulo",
-      "words": 776,
+      "words": 747,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 31,
+            "line": 29,
             "text": "- **Distribuir el monitoreo en el equipo.** Si una sola persona monitorea todo, el sistema se rompe cuando esa persona se va o se enferma."
           }
         },
@@ -10790,23 +10778,23 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 21,
-            "text": "Mantenerse al día en investigación sobre IA en educación es una función institucional, no una hazaña individual. Esta curaduría reúne doce fuentes que permiten construir una rutina de monitoreo sostenible, sin saturar al equipo ni perder lo"
+            "line": 24,
+            "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 30,
-            "text": "- **Pocas fuentes, revisadas con frecuencia.** Mejor cinco fuentes revisadas semanalmente que veinte revisadas una vez por semestre."
+            "line": 24,
+            "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 65,
+            "line": 63,
             "text": "| Fuente | Tipo | Frecuencia |"
           }
         },
@@ -10814,7 +10802,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 91,
+            "line": 89,
             "text": "- **Incorporar al sitio.** Las publicaciones relevantes que el equipo decide priorizar se agregan como [fichas bibliográficas](/recursos/articulos/). El esfuerzo de leer se preserva como recurso compartido."
           }
         },
@@ -10822,7 +10810,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 26,
+            "line": 24,
             "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
           }
         },
@@ -10830,15 +10818,15 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 26,
-            "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
+            "line": 34,
+            "text": "Las cinco revistas más relevantes para el campo, todas con políticas de revisión por pares y factor de impacto consolidado:"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 91,
+            "line": 89,
             "text": "- **Incorporar al sitio.** Las publicaciones relevantes que el equipo decide priorizar se agregan como [fichas bibliográficas](/recursos/articulos/). El esfuerzo de leer se preserva como recurso compartido."
           }
         }
@@ -10855,30 +10843,30 @@
       "path": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
       "title": "Redes de investigación y vinculación academia-industria",
       "role": "articulo",
-      "words": 899,
+      "words": 846,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 100,
-            "text": "La participación en redes —de los tres tipos— rinde más cuando se sostiene en criterios explícitos:"
+            "line": 98,
+            "text": "La participación en redes —de los tres tipos— rinde más cuando se sostiene en tres cuidados explícitos:"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 30,
-            "text": "- **Redes de vinculación industria-academia.** Conectan investigación con desarrollo de productos. Tiempos cortos, productos específicos (proyectos, pruebas), asimetría de recursos entre miembros. Ejemplo: alianzas universidad-Google, unive"
+            "line": 28,
+            "text": "- **Redes de vinculación industria-academia.** Conectan investigación con el desarrollo de herramientas comerciales. Tiempos cortos, productos específicos (proyectos, pruebas), asimetría de recursos entre miembros. Ejemplo: alianzas univers"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 26,
+            "line": 24,
             "text": "Antes del listado, conviene diferenciar las lógicas. Confundir tipos de red lleva a expectativas equivocadas y participaciones frustrantes:"
           }
         },
@@ -10886,7 +10874,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 46,
+            "line": 44,
             "text": "División de la American Educational Research Association con foco en aprendizaje e instrucción, incluyendo IA en educación. La más grande del mundo en investigación educativa, con visibilidad alta para trabajo publicado allí."
           }
         },
@@ -10894,7 +10882,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 120,
+            "line": 118,
             "text": "La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica c"
           }
         },
@@ -10902,7 +10890,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 110,
+            "line": 108,
             "text": "| Tipo de red | Persona designada | Frecuencia mínima | Reporte interno |"
           }
         },
@@ -10910,15 +10898,15 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 21,
-            "text": "Una universidad pública no puede sostener investigación sobre IA en educación en aislamiento; tampoco puede delegar el rumbo a las grandes plataformas comerciales. La articulación con redes externas —académicas, institucionales, industriale"
+            "line": 96,
+            "text": "## Tres criterios para participar con sentido"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 120,
+            "line": 118,
             "text": "La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica c"
           }
         }
@@ -11022,14 +11010,14 @@
       "path": "content/observatorio/estudios/creatividad-humana-ia/index.md",
       "title": "Creatividad humana e inteligencia artificial: Más allá del antropocentrismo",
       "role": "articulo",
-      "words": 518,
+      "words": 608,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
-            "line": 20,
+            "line": 22,
             "text": "## La pérdida de la confianza y el problema de los \"deepfakes\""
           }
         },
@@ -11037,50 +11025,60 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
-            "line": 18,
+            "line": 20,
             "text": "Esto indica que la creatividad ahora debe entenderse de un modo diferente. Más que un talento aislado, pasa a ser un proceso distribuido en el que participan la infraestructura del programa informático, las inmensas bases de datos y la pers"
           }
         },
         "momento_entorno": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
+            "line": 26,
+            "text": "Esta pérdida de la fiabilidad visual y el aumento de la manipulación afecta los productos y recursos digitales que circulan en clase (una fotografía usada como fuente, un video de referencia). Como destaca Kamei (2026), estas herramientas, "
+          }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
-            "line": 16,
+            "line": 18,
             "text": "La aparición de la inteligencia artificial (IA) capaz de crear imágenes, textos o música desafía la idea clásica de que la creatividad pertenece de forma exclusiva a los seres humanos (Kamei, 2026). Tradicionalmente, se asume que el arte re"
           }
         },
         "acciones": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
+            "line": 24,
+            "text": "La proliferación de tecnologías de generación audiovisual realista, comúnmente llamadas *deepfakes*, cambia el modo en que juzgamos la veracidad de la información visual. Históricamente, las fotografías y los videos han servido como evidenc"
+          }
         },
         "resultado": {
-          "present": false,
-          "evidence": null
+          "present": true,
+          "evidence": {
+            "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
+            "line": 32,
+            "text": "Este método de producción genera conflictos serios frente al marco legal actual de derechos de autor. Las leyes estipulan que una obra derivará de un único autor identificable; sin embargo, los algoritmos operan combinando conocimientos del"
+          }
         },
         "comprobacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
-            "line": 24,
-            "text": "Esta pérdida de la fiabilidad visual y el aumento de la manipulación afecta los productos y recursos digitales. Como destaca Kamei (2026), el problema de fondo no es solamente que estas herramientas faciliten el engaño, sino que destruyen e"
+            "line": 26,
+            "text": "Esta pérdida de la fiabilidad visual y el aumento de la manipulación afecta los productos y recursos digitales que circulan en clase (una fotografía usada como fuente, un video de referencia). Como destaca Kamei (2026), estas herramientas, "
           }
         },
         "lenguaje_directo": {
-          "present": false,
+          "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/creatividad-humana-ia/index.md",
-            "line": 22,
+            "line": 24,
             "text": "La proliferación de tecnologías de generación audiovisual realista, comúnmente llamadas *deepfakes*, cambia el modo en que juzgamos la veracidad de la información visual. Históricamente, las fotografías y los videos han servido como evidenc"
           }
         }
       },
-      "missing_expected_signals": [
-        "lenguaje_directo"
-      ],
+      "missing_expected_signals": [],
       "risk_flags": [],
       "automatic_priority": "baja",
       "manual_decision": "pendiente",
@@ -11092,7 +11090,7 @@
       "path": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
       "title": "Más, no mejor: IA, incentivos y la crisis emergente de la revisión por pares",
       "role": "articulo",
-      "words": 1293,
+      "words": 1326,
       "dependencies": [],
       "signals": {
         "situacion": {
@@ -11107,7 +11105,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
-            "line": 14,
+            "line": 15,
             "text": "Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA "
           }
         },
@@ -11123,7 +11121,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
-            "line": 14,
+            "line": 15,
             "text": "Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA "
           }
         },
@@ -11131,7 +11129,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
-            "line": 14,
+            "line": 15,
             "text": "Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA "
           }
         },
@@ -11139,7 +11137,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
-            "line": 14,
+            "line": 15,
             "text": "Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA "
           }
         },
@@ -11155,7 +11153,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/crisis-revision-pares-ia/index.md",
-            "line": 14,
+            "line": 15,
             "text": "Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA "
           }
         }
@@ -11172,14 +11170,14 @@
       "path": "content/observatorio/estudios/encuesta-dec-2026/index.md",
       "title": "Encuesta DEC 2026 — IA en educación superior",
       "role": "articulo",
-      "words": 624,
+      "words": 650,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 24,
+            "line": 26,
             "text": "El uso convive con reservas. El **65 %** del estudiantado manifestó preocupación por que la IA favorezca un aprendizaje superficial. Un **56 %** expresó preocupación por la privacidad de sus datos y otro **56 %** por la equidad cuando la IA"
           }
         },
@@ -11191,7 +11189,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 26,
+            "line": 28,
             "text": "Las recomendaciones de gobernanza transparente, formación práctica y rediseño de la evaluación pertenecen al Digital Education Council. Una institución puede usarlas para formular preguntas, pero necesita contrastarlas con datos locales, no"
           }
         },
@@ -11199,7 +11197,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 12,
+            "line": 14,
             "text": "La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales "
           }
         },
@@ -11207,7 +11205,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 12,
+            "line": 14,
             "text": "La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales "
           }
         },
@@ -11215,7 +11213,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 10,
+            "line": 12,
             "text": "El Digital Education Council publicó el informe en español el **30 de enero de 2026**, en colaboración con el Tecnológico de Monterrey y el Institute for the Future of Education. La encuesta reúne **30,260 respuestas**: **22,941 de estudian"
           }
         },
@@ -11223,7 +11221,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 24,
+            "line": 26,
             "text": "El uso convive con reservas. El **65 %** del estudiantado manifestó preocupación por que la IA favorezca un aprendizaje superficial. Un **56 %** expresó preocupación por la privacidad de sus datos y otro **56 %** por la equidad cuando la IA"
           }
         },
@@ -11231,7 +11229,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-dec-2026/index.md",
-            "line": 12,
+            "line": 14,
             "text": "La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales "
           }
         }
@@ -11261,14 +11259,14 @@
       "path": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
       "title": "Censo nacional ENIAG — IA generativa en la educación superior mexicana",
       "role": "articulo",
-      "words": 1245,
+      "words": 1253,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 16,
+            "line": 18,
             "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
           }
         },
@@ -11276,15 +11274,15 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 42,
-            "text": "Para una academia o una coordinación, la recomendación razonable no es adoptar los porcentajes sino las preguntas que generan. Antes de acordar reglas, conviene averiguar si la propia comunidad conoce la normativa aplicable, qué usos declar"
+            "line": 44,
+            "text": "Para una academia o una coordinación, la recomendación razonable es adoptar las preguntas que generan los porcentajes, antes que los porcentajes mismos. Antes de acordar reglas, conviene averiguar si la propia comunidad conoce la normativa "
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 16,
+            "line": 18,
             "text": "Esta ficha se redactó en agosto de 2026 y cita las cifras tal como las consolida [la propuesta de Orientaciones](/ia-educacion/orientaciones/), que las sistematiza en su sección de contexto. Vale una advertencia de trazabilidad antes de emp"
           }
         },
@@ -11292,7 +11290,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 14,
+            "line": 16,
             "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
           }
         },
@@ -11300,7 +11298,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 28,
+            "line": 30,
             "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
           }
         },
@@ -11308,7 +11306,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 14,
+            "line": 16,
             "text": "La Secretaría de Educación Pública y la ANUIES levantaron la primera medición nacional sobre usos y percepciones de la inteligencia artificial generativa en la educación superior mexicana, cuyos resultados se publicaron en 2026 —la SEP la a"
           }
         },
@@ -11316,15 +11314,15 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 36,
-            "text": "Como interpretación, el resultado más incómodo no es el porcentaje de uso sino el cruce entre tres cifras: uso cotidiano arriba del 60%, tres cuartas partes que desconocen la normativa de su institución y menos de la mitad del profesorado r"
+            "line": 38,
+            "text": "Como interpretación, el resultado más incómodo es el cruce entre tres cifras, más que el porcentaje de uso: uso cotidiano arriba del 60%, tres cuartas partes que desconocen la normativa de su institución y menos de la mitad del profesorado "
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/encuesta-eniag-mexico/index.md",
-            "line": 28,
+            "line": 30,
             "text": "Las respuestas también revelan cautela, no entusiasmo indiscriminado. Aunque el 73% del profesorado percibe una mejora en el desempeño académico, solo una pequeña minoría confía plenamente en los resultados que la IA devuelve, y menos de la"
           }
         }
@@ -11341,15 +11339,15 @@
       "path": "content/observatorio/estudios/habitar-ia-simondon/index.md",
       "title": "Habitar la IA: técnica, cultura y aprendizaje con Simondon",
       "role": "articulo",
-      "words": 2198,
+      "words": 2232,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/habitar-ia-simondon/index.md",
-            "line": 21,
-            "text": "El problema es que esa pregunta ya no describe lo que ocurre. Los objetos digitales contemporáneos —y la IA generativa de forma particular— no son objetos que usamos de manera puntual y luego dejamos: son entornos en los que vivimos, estudi"
+            "line": 15,
+            "text": "El debate sobre la inteligencia artificial en la universidad suele oscilar entre dos preguntas pobres: ¿la permitimos o la prohibimos?, ¿es una amenaza o una revolución? Este estudio propone una tercera pregunta, más difícil y más fértil: ¿"
           }
         },
         "quien": {
@@ -11357,7 +11355,7 @@
           "evidence": {
             "source": "content/observatorio/estudios/habitar-ia-simondon/index.md",
             "line": 27,
-            "text": "La filósofa e investigadora argentina Flavia Costa propone una imagen útil para nombrar lo que ha cambiado: las tecnologías digitales, y en especial las IA generativas, funcionan como **mundoambiente**. No son un objeto discreto al que nos "
+            "text": "La filósofa e investigadora argentina Flavia Costa propone una imagen útil para nombrar lo que ha cambiado: las tecnologías digitales, y en especial las IA generativas, funcionan como **mundoambiente**. Son el entorno en el que tramitamos i"
           }
         },
         "momento_entorno": {
@@ -11365,14 +11363,14 @@
           "evidence": {
             "source": "content/observatorio/estudios/habitar-ia-simondon/index.md",
             "line": 19,
-            "text": "Durante una década, los discursos sobre tecnología educativa se plantearon casi siempre en clave instrumental. La pregunta era cómo usar el celular, el LMS, la plataforma o el asistente generativo: bien o mal, con criterio o sin él, para in"
+            "text": "Durante una década, los discursos sobre tecnología educativa se plantearon casi siempre en clave instrumental. La pregunta era cómo usar el celular, el LMS, la plataforma o el asistente generativo: bien o mal, con criterio o sin él (por eje"
           }
         },
         "material_inicial": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/habitar-ia-simondon/index.md",
-            "line": 14,
+            "line": 15,
             "text": "El debate sobre la inteligencia artificial en la universidad suele oscilar entre dos preguntas pobres: ¿la permitimos o la prohibimos?, ¿es una amenaza o una revolución? Este estudio propone una tercera pregunta, más difícil y más fértil: ¿"
           }
         },
@@ -11396,7 +11394,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/habitar-ia-simondon/index.md",
-            "line": 14,
+            "line": 15,
             "text": "El debate sobre la inteligencia artificial en la universidad suele oscilar entre dos preguntas pobres: ¿la permitimos o la prohibimos?, ¿es una amenaza o una revolución? Este estudio propone una tercera pregunta, más difícil y más fértil: ¿"
           }
         },
@@ -11421,30 +11419,30 @@
       "path": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
       "title": "La paradoja de la descarga cognitiva en el aprendizaje",
       "role": "articulo",
-      "words": 1453,
+      "words": 1483,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 30,
-            "text": "Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo"
+            "line": 32,
+            "text": "Sin embargo, evidencia reciente (los dos estudios que siguen) muestra que la descarga cognitiva daña o ayuda según cómo se use. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se re"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 30,
-            "text": "Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo"
+            "line": 32,
+            "text": "Sin embargo, evidencia reciente (los dos estudios que siguen) muestra que la descarga cognitiva daña o ayuda según cómo se use. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se re"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 35,
+            "line": 37,
             "text": "| Grupo | Durante la práctica con IA | Al evaluar sin IA |"
           }
         },
@@ -11456,7 +11454,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 33,
+            "line": 35,
             "text": "El esquema compara tres grupos:"
           }
         },
@@ -11464,7 +11462,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 37,
+            "line": 39,
             "text": "| Sin orientación pedagógica (la IA entrega la solución completa) | El desempeño sube por encima del grupo que practica sin IA. | El rendimiento cae por debajo de quienes nunca la usaron: es el efecto muleta, porque la herramienta sustituyó"
           }
         },
@@ -11472,7 +11470,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 55,
+            "line": 57,
             "text": "El estudio empírico de Wang y Zhang (2026) examinó cómo los estudiantes interactúan con la IA cuando la conceptualizan como un colaborador intelectual en lugar de una herramienta pasiva. Esta perspectiva, denominada \"orientación de asociaci"
           }
         },
@@ -11480,7 +11478,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/estudios/paradoja-descarga-cognitiva/index.md",
-            "line": 33,
+            "line": 35,
             "text": "El esquema compara tres grupos:"
           }
         }
@@ -11899,14 +11897,14 @@
       "path": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
       "title": "From authentic assessment to authenticity in assessment: Broadening perspectives — Ajjawi, Bearman et al.",
       "role": "recurso",
-      "words": 481,
+      "words": 494,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 41,
+            "line": 43,
             "text": "Durante más de treinta años, una parte de la literatura ha definido la evaluación auténtica por su semejanza con tareas del lugar de trabajo. Los autores preguntan qué se pierde cuando esa semejanza ocupa el centro: una actividad profesiona"
           }
         },
@@ -11914,7 +11912,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 45,
+            "line": 47,
             "text": "1. **Autenticidad psicológica:** la relación entre la actividad, el sentido que le atribuye la persona y su experiencia de agencia."
           }
         },
@@ -11922,7 +11920,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El artículo se publicó en línea el **19 de octubre de 2023** y quedó incorporado a la edición impresa el **18 de mayo de 2024**. El texto publicado es de acceso abierto bajo licencia **CC BY-NC-ND 4.0**. El [editor ofrece la versión princip"
           }
         },
@@ -11930,7 +11928,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El artículo se publicó en línea el **19 de octubre de 2023** y quedó incorporado a la edición impresa el **18 de mayo de 2024**. El texto publicado es de acceso abierto bajo licencia **CC BY-NC-ND 4.0**. El [editor ofrece la versión princip"
           }
         },
@@ -11938,7 +11936,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El artículo se publicó en línea el **19 de octubre de 2023** y quedó incorporado a la edición impresa el **18 de mayo de 2024**. El texto publicado es de acceso abierto bajo licencia **CC BY-NC-ND 4.0**. El [editor ofrece la versión princip"
           }
         },
@@ -11946,7 +11944,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El artículo se publicó en línea el **19 de octubre de 2023** y quedó incorporado a la edición impresa el **18 de mayo de 2024**. El texto publicado es de acceso abierto bajo licencia **CC BY-NC-ND 4.0**. El [editor ofrece la versión princip"
           }
         },
@@ -11954,7 +11952,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 41,
+            "line": 43,
             "text": "Durante más de treinta años, una parte de la literatura ha definido la evaluación auténtica por su semejanza con tareas del lugar de trabajo. Los autores preguntan qué se pierde cuando esa semejanza ocupa el centro: una actividad profesiona"
           }
         },
@@ -11962,8 +11960,8 @@
           "present": false,
           "evidence": {
             "source": "content/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/index.md",
-            "line": 49,
-            "text": "Estas perspectivas no forman una lista de requisitos ni una escala de calidad. Ayudan a preguntar qué propósito se privilegia, quién puede participar, qué compromisos introduce el diseño y qué evidencia se espera obtener."
+            "line": 51,
+            "text": "Estas perspectivas no forman una lista de requisitos ni una escala de calidad. Ayudan a preguntar qué propósito se privilegia (por ejemplo, ensayar un rol profesional o dar sentido personal a la tarea), quién puede participar, qué compromis"
           }
         }
       },
@@ -11995,7 +11993,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12003,7 +12001,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12011,7 +12009,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12019,7 +12017,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12027,7 +12025,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12035,7 +12033,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12043,7 +12041,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         },
@@ -12051,7 +12049,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/cormier-rhizomatic-education/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Cuando un curso deja de tener un programa lineal, ¿quién decide qué vale como saber? Cormier propone una pedagogía rizomática para entornos digitales abiertos. Toma el concepto de *rizoma* de Deleuze y Guattari (1987) —una red sin centro ni"
           }
         }
@@ -12068,14 +12066,14 @@
       "path": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
       "title": "Generative AI as an enabler of student feedback engagement",
       "role": "recurso",
-      "words": 572,
+      "words": 581,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         },
@@ -12083,7 +12081,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         },
@@ -12091,7 +12089,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 41,
+            "line": 43,
             "text": "3. las acciones que realiza antes, durante y después de trabajar con ellos."
           }
         },
@@ -12099,7 +12097,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         },
@@ -12107,7 +12105,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         },
@@ -12115,7 +12113,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 61,
+            "line": 63,
             "text": "Esta ficha sirve para formular preguntas de diseño, no para afirmar que la IA mejora por sí sola la retroalimentación:"
           }
         },
@@ -12123,7 +12121,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         },
@@ -12131,7 +12129,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/genai-feedback-engagement-2025/index.md",
-            "line": 35,
+            "line": 37,
             "text": "*Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phill"
           }
         }
@@ -12157,14 +12155,14 @@
       "path": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
       "title": "Tres guías UNAM sobre IA generativa en evaluación: bachillerato, licenciatura y posgrado",
       "role": "recurso",
-      "words": 926,
+      "words": 872,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 80,
+            "line": 78,
             "text": "En este documento, **GAIA-GEN** nombra al *Grupo Académico de Inteligencia Artificial Generativa en Educación* de la UNAM, autor de una recomendación citada por la guía; no es un segundo marco de evaluación equivalente a ARCHED ni se le atr"
           }
         },
@@ -12172,7 +12170,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 61,
+            "line": 59,
             "text": "description=\"31 páginas físicas — Red Colaborativa del Posgrado. Modalidades de uso de IA, sesgos, integridad investigadora y explicación técnica.\" >}}"
           }
         },
@@ -12180,7 +12178,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 107,
+            "line": 105,
             "text": "2. **Redactar un acuerdo local.** Elegir las recomendaciones pertinentes y convertirlas en reglas comprensibles para un curso o programa, sin copiar todo el documento."
           }
         },
@@ -12188,7 +12186,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 84,
+            "line": 82,
             "text": "La guía de **Licenciatura** atribuye a **UNESCO (2025)** diez principios: proporcionalidad, seguridad, intimidad, gobernanza, responsabilidad, transparencia, supervisión humana, sostenibilidad, sensibilización y equidad. Esa atribución debe"
           }
         },
@@ -12196,15 +12194,15 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 33,
-            "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
+            "line": 68,
+            "text": "Gaceta UNAM presenta los documentos como orientaciones elaboradas colectivamente por la Coordinación de Evaluación, Innovación y Desarrollo Educativos y especialistas de los tres niveles. **No sustituyen** reglamentos, acuerdos instituciona"
           }
         },
         "resultado": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 120,
+            "line": 118,
             "text": "La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece un marco internacional más amplio. El Digital Education Council y Pearson [describen 14 metodologías"
           }
         },
@@ -12212,16 +12210,16 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 33,
-            "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
+            "line": 51,
+            "text": "description=\"57 páginas físicas — Red Colaborativa de Licenciatura. Ciclo de evaluación, principios atribuidos a UNESCO, sostenibilidad y rúbricas.\" >}}"
           }
         },
         "lenguaje_directo": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 33,
-            "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
+            "line": 68,
+            "text": "Gaceta UNAM presenta los documentos como orientaciones elaboradas colectivamente por la Coordinación de Evaluación, Innovación y Desarrollo Educativos y especialistas de los tres niveles. **No sustituyen** reglamentos, acuerdos instituciona"
           }
         }
       },
@@ -12246,14 +12244,14 @@
       "path": "content/recursos/articulos/next-era-assessment-dec/index.md",
       "title": "The Next Era of Assessment: A Global Review of AI in Assessment Design — Digital Education Council",
       "role": "recurso",
-      "words": 490,
+      "words": 497,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 50,
+            "line": 52,
             "text": "Los casos ofrecen un repertorio para comparar diseños, hacer preguntas y localizar ejemplos. No prueban que las 14 metodologías tengan la misma calidad en todos los contextos. El informe no presenta una evaluación causal de eficacia, no com"
           }
         },
@@ -12261,7 +12259,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 46,
+            "line": 48,
             "text": "La página pública del informe denomina **AI-resistant** a un principio de base para mantener validez e integridad. El término no garantiza que una actividad sea invulnerable ni significa que toda evaluación deba prohibir IA. Sirve para preg"
           }
         },
@@ -12269,7 +12267,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 63,
+            "line": 65,
             "text": "5. revisar trabajos, dificultades de acceso y carga de acompañamiento antes de ampliarla."
           }
         },
@@ -12277,7 +12275,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 50,
+            "line": 52,
             "text": "Los casos ofrecen un repertorio para comparar diseños, hacer preguntas y localizar ejemplos. No prueban que las 14 metodologías tengan la misma calidad en todos los contextos. El informe no presenta una evaluación causal de eficacia, no com"
           }
         },
@@ -12285,7 +12283,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 50,
+            "line": 52,
             "text": "Los casos ofrecen un repertorio para comparar diseños, hacer preguntas y localizar ejemplos. No prueban que las 14 metodologías tengan la misma calidad en todos los contextos. El informe no presenta una evaluación causal de eficacia, no com"
           }
         },
@@ -12293,7 +12291,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 33,
+            "line": 35,
             "text": "## Qué contiene el informe"
           }
         },
@@ -12301,7 +12299,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 37,
+            "line": 39,
             "text": "El DEC y Pearson presentan el documento como el “primer mapeo integral” de prácticas de evaluación integrada con IA. Esa es la descripción del propio editor, no una comparación independiente de toda la literatura disponible."
           }
         },
@@ -12309,7 +12307,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/next-era-assessment-dec/index.md",
-            "line": 50,
+            "line": 52,
             "text": "Los casos ofrecen un repertorio para comparar diseños, hacer preguntas y localizar ejemplos. No prueban que las 14 metodologías tengan la misma calidad en todos los contextos. El informe no presenta una evaluación causal de eficacia, no com"
           }
         }
@@ -12335,30 +12333,30 @@
       "path": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
       "title": "Alianzas pedagógicas con IA generativa — Wang & Zhang (2026)",
       "role": "recurso",
-      "words": 1467,
+      "words": 1408,
       "dependencies": [],
       "signals": {
         "situacion": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 44,
-            "text": "¿Qué pasa con el aprendizaje cuando el estudiante deja de ver a la IA como una herramienta y comienza a tratarla como un compañero intelectual? Wang y Zhang ofrecen una respuesta empírica que desarma una de las preocupaciones más extendidas"
+            "line": 49,
+            "text": "La tesis central es que la relación entre el estudiante y la IA generativa **no funciona como un juego de suma cero** entre confianza y escrutinio, ni entre eficiencia y profundidad. Cuando la relación se encuadra como **alianza pedagógica*"
           }
         },
         "quien": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 44,
-            "text": "¿Qué pasa con el aprendizaje cuando el estudiante deja de ver a la IA como una herramienta y comienza a tratarla como un compañero intelectual? Wang y Zhang ofrecen una respuesta empírica que desarma una de las preocupaciones más extendidas"
+            "line": 47,
+            "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         },
         "momento_entorno": {
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 49,
+            "line": 47,
             "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         },
@@ -12366,7 +12364,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 49,
+            "line": 47,
             "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         },
@@ -12374,7 +12372,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 49,
+            "line": 47,
             "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         },
@@ -12382,7 +12380,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 49,
+            "line": 47,
             "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         },
@@ -12390,7 +12388,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 51,
+            "line": 49,
             "text": "La tesis central es que la relación entre el estudiante y la IA generativa **no funciona como un juego de suma cero** entre confianza y escrutinio, ni entre eficiencia y profundidad. Cuando la relación se encuadra como **alianza pedagógica*"
           }
         },
@@ -12398,7 +12396,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/partnerships-pedagogicos-ia-wang-zhang/index.md",
-            "line": 49,
+            "line": 47,
             "text": "En la conversación cotidiana sobre ChatGPT en el aula universitaria conviven dos miedos muy distintos. Uno es académico: que el estudiante pase a la IA un trabajo y se quede sin pensarlo. Otro es teórico: que la mera disponibilidad de un ag"
           }
         }
@@ -12422,7 +12420,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/selwyn-limites-ia-educacion/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Los titulares prometen que la IA transformará la educación de punta a punta; ¿qué queda de esa promesa cuando se mira de cerca? Selwyn aborda la hipérbole que rodea a la IA en educación y propone un giro: en lugar de discutir lo que la IA p"
           }
         },
@@ -12430,7 +12428,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/selwyn-limites-ia-educacion/index.md",
-            "line": 43,
+            "line": 45,
             "text": "El marco de Selwyn conecta con varias piezas del sitio. La discusión sobre [sesgos algorítmicos y equidad educativa](/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/) opera el segundo orden de límites; los [principios de alf"
           }
         },
@@ -12438,7 +12436,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/selwyn-limites-ia-educacion/index.md",
-            "line": 43,
+            "line": 45,
             "text": "El marco de Selwyn conecta con varias piezas del sitio. La discusión sobre [sesgos algorítmicos y equidad educativa](/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/) opera el segundo orden de límites; los [principios de alf"
           }
         },
@@ -12446,7 +12444,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/selwyn-limites-ia-educacion/index.md",
-            "line": 43,
+            "line": 45,
             "text": "El marco de Selwyn conecta con varias piezas del sitio. La discusión sobre [sesgos algorítmicos y equidad educativa](/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/) opera el segundo orden de límites; los [principios de alf"
           }
         },
@@ -12454,7 +12452,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/selwyn-limites-ia-educacion/index.md",
-            "line": 35,
+            "line": 37,
             "text": "Los titulares prometen que la IA transformará la educación de punta a punta; ¿qué queda de esa promesa cuando se mira de cerca? Selwyn aborda la hipérbole que rodea a la IA en educación y propone un giro: en lugar de discutir lo que la IA p"
           }
         },

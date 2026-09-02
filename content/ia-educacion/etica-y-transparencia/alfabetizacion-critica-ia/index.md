@@ -19,9 +19,7 @@ showAuthor: false
 weight: 1
 ---
 
-{{< lead >}}
-La alfabetización crítica en inteligencia artificial es el juicio para usar estas herramientas. Implica evaluar lo que devuelven y conservar la dirección humana del proceso. Sin ese juicio, el estudiante delega el trabajo mental a la máquina y deja de pensar por sí mismo. La investigación reciente nombra a estos fenómenos deriva metacognitiva y descarga cognitiva (*cognitive offloading*) (Gerlich, 2025; Lodge & Loble, 2026).
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que notan que el estudiantado acepta la primera respuesta de un chat sin revisarla y quieren saber qué habilidades hay que formar, además de saber operar la herramienta." haras="Vas a entender que la alfabetización crítica en IA es la capacidad de juzgar lo que devuelve una herramienta y de conservar la dirección del propio trabajo, y que se sostiene en cinco principios: evaluar antes que operar, ver el sistema detrás de la pantalla, cultivar hábitos de duda, saber cuándo no usar la IA y adaptar todo esto a cada disciplina." tendras="Tres preguntas que puedes poner en la rúbrica de una actividad («¿qué fuente independiente confirma esta respuesta?», «¿quién gana con esta herramienta?», «¿qué parte del trabajo decidí no delegar?») y el nombre de dos fenómenos que conviene vigilar: descarga cognitiva y deriva metacognitiva." tarda="Seis minutos de lectura de la infografía; diez si sigues los enlaces a las otras dos literacidades." ejemplo="Empieza por la situación que da nombre al problema: un estudiante delega el trabajo mental a la máquina y deja de pensar por sí mismo; la infografía la desarma en cinco principios." >}}
 
 {{< infografia
     titulo="Principios de la alfabetización crítica en inteligencia artificial"
@@ -35,7 +33,7 @@ La alfabetización crítica en inteligencia artificial es el juicio para usar es
 
 {{< infografia-seccion numero="1" titulo="Evaluación crítica y discernimiento sobre la maestría técnica" icono="magnifying-glass" color="#494f5b" >}}
 - Definir la competencia por la capacidad de **decidir y evaluar**, no por la fluidez para operar herramientas o redactar indicaciones.
-- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia y alucinaciones.
+- Identificar debilidades del sistema: lenguaje genérico, afirmaciones amplias, falta de evidencia (por ejemplo, una cifra sin fuente) y alucinaciones.
 - Aplicar la **lectura lateral** para cruzar información en múltiples fuentes independientes en lugar de confiar en una única respuesta.
 {{< /infografia-seccion >}}
 

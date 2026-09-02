@@ -19,9 +19,7 @@ showAuthor: false
 weight: 3
 ---
 
-{{< lead >}}
-La inteligencia artificial se integra al ecosistema del [aprendizaje híbrido]({{< ref "formacion-docente/aprendizaje-hibrido" >}}) no solo como una herramienta de optimización sino como un facilitador de experiencias educativas personalizadas y adaptativas. La mediación docente sigue siendo el factor determinante.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ya trabajan en modalidad híbrida y quieren saber en qué puede ayudar la IA dentro de ese modelo y qué parte del trabajo sigue siendo suya." haras="Vas a entender que la IA aporta al aprendizaje híbrido en tres frentes (personalización, tutoría inteligente y detección temprana de rezago) y que el resultado depende de la mediación docente: elegir la herramienta, diseñar la actividad, formar el juicio del estudiantado y vigilar la ética." tendras="Cuatro tareas de mediación que puedes revisar en tu propio curso (por ejemplo, «¿la actividad con IA pide construir una explicación o solo obtener una respuesta?») y tres marcos para evaluar cualquier integración: SAMR, ICAP y Bloom." tarda="Cinco minutos de lectura." ejemplo="Empieza por la personalización, la contribución más citada: qué puede hacer la IA con los datos de desempeño y en qué se nota dentro de un curso híbrido." >}}
 
 ## Personalización y adaptabilidad
 
@@ -61,7 +59,7 @@ La mediación docente implica:
 
 - **Selección y evaluación** de herramientas de IA adecuadas para los objetivos del curso.
 - **Diseño de actividades** que integren la IA de manera que promueva el [aprendizaje activo]({{< ref "formacion-docente/aprendizaje-activo" >}}) y no solo la obtención de respuestas.
-- **Formación de criterio** en los estudiantes para evaluar críticamente las respuestas generadas por IA.
+- **Formación de criterio** en los estudiantes para evaluar críticamente las respuestas generadas por IA (por ejemplo, comprobar una cita antes de usarla).
 - **Supervisión ética** del uso de IA, atendiendo a cuestiones de privacidad, sesgo y transparencia.
 
 ## Fortalecimiento de los aprendizajes

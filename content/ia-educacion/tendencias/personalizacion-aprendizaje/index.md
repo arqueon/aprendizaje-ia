@@ -17,9 +17,7 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La promesa de "un tutor personal para cada estudiante" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa promesa: la personalización con IA mejora algunos indicadores y empeora otros. La pregunta no es si funciona, sino para qué funciona y a qué costo.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes y coordinaciones a quienes les ofrecen una plataforma que promete «un tutor personal para cada estudiante» y quieren saber qué parte de esa promesa se sostiene antes de comprarla o rechazarla." haras="Vas a entender que la personalización con IA mejora el rendimiento en pruebas y a la vez reduce esfuerzo y autorregulación, y que hay tres formas distintas (de contenido, de ritmo y de trayectoria) con respaldo muy desigual." tendras="Una regla para decidir qué adoptar (por ejemplo, «contenido y ritmo sí; trayectoria solo con acompañamiento docente») y una compensación que el currículo debe añadir cuando se usa IA: actividades de planeación y reflexión." tarda="Siete minutos de lectura." ejemplo="Empieza por lo que las revisiones sí muestran (mejoras medidas en pruebas) y sigue con lo que también reportan y rara vez se cita: menos pensamiento crítico y más dependencia." >}}
 
 ## Lo que dice la evidencia
 
@@ -27,7 +25,7 @@ Las revisiones sistemáticas recientes muestran resultados cuantificables y cons
 
 La personalización adaptativa también muestra efectos positivos en autoconocimiento del proceso, retroalimentación en tiempo real y autonomía operativa del estudiante. El acceso individualizado a explicaciones, ejemplos y ejercicios reduce dependencia del docente para tareas rutinarias.
 
-Hasta ahí, la promesa se sostiene. El problema aparece cuando se mira lo que la evidencia también reporta y rara vez se cita.
+Hasta ahí, la promesa se sostiene. El problema aparece cuando se mira lo que las mismas revisiones también reportan y rara vez se cita.
 
 ## Lo que la evidencia también dice
 
@@ -59,15 +57,15 @@ El sistema permite al estudiante avanzar a su propio ritmo, sin esperar al grupo
 
 ### 3. Personalización de trayectoria
 
-El sistema sugiere al estudiante qué temas explorar, en qué orden y por cuánto tiempo. Es la forma más ambiciosa y la menos respaldada por evidencia. Cuando funciona, requiere supervisión humana significativa; cuando no, produce recorridos eficientes pero sin coherencia formativa.
+El sistema sugiere al estudiante qué temas explorar, en qué orden y por cuánto tiempo. Es la forma más ambiciosa y la menos respaldada por estudios. Cuando funciona, requiere supervisión humana significativa; cuando no, produce recorridos eficientes pero sin coherencia formativa.
 
 ## Cómo lee esto una universidad pública
 
 Para una universidad pública mexicana, tres orientaciones operativas frente a esta tendencia:
 
-- **Adoptar personalización de contenido y ritmo, con cautela en trayectoria.** Las dos primeras formas tienen evidencia favorable y bajo riesgo. La tercera exige acompañamiento docente y no se delega al sistema.
+- **Adoptar personalización de contenido y ritmo, con cautela en trayectoria.** Las dos primeras formas tienen resultados favorables y bajo riesgo. La tercera exige acompañamiento docente y no se delega al sistema.
 - **Combinar personalización con desarrollo de autorregulación.** Si la IA atrofia la autorregulación cuando se usa sola, el currículo debe compensarlo con actividades específicas de planeación y reflexión.
-- **No comprar la promesa entera ni descartarla.** La personalización con IA es una herramienta útil para algunas funciones específicas. Tratarla como solución general es lo que la evidencia desaconseja.
+- **No comprar la promesa entera ni descartarla.** La personalización con IA es una herramienta útil para algunas funciones específicas. Tratarla como solución general es lo que los estudios desaconsejan.
 
 ## Lecturas relacionadas
 

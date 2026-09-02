@@ -212,9 +212,9 @@ La siguiente lección lleva esa adaptación al diseño docente y muestra dónde 
 Con esas tres literacidades, la siguiente lección examina el ciclo concreto de cocreación durante el diseño docente.
 
 {{< referencias >}}
-- Miao, F., y Cukurova, M. (2024). *AI competency framework for teachers*. UNESCO. <https://discovery.ucl.ac.uk/id/eprint/10196729/>
-- Sperling, K., et al. (2024). In search of artificial intelligence literacy in teacher education: A scoping review. *Computers and Education Open, 6*, 100169. <https://doi.org/10.1016/j.caeo.2024.100169>
-- Veldhuis, A., Lo, P. Y., Kenny, S., y Antle, A. N. (2025). Critical artificial intelligence literacy: A scoping review and framework synthesis. *International Journal of Child-Computer Interaction, 43*, 100708. <https://www.sciencedirect.com/science/article/pii/S2212868924000771>
+- Miao, F., y Cukurova, M. (2024). *AI competency framework for teachers*. UNESCO. <https://doi.org/10.54675/ZJTE2084>
+- Sperling, K., et al. (2024). In search of artificial intelligence (AI) literacy in teacher education: A scoping review. *Computers and Education Open, 6*, 100169. <https://doi.org/10.1016/j.caeo.2024.100169>
+- Veldhuis, A., Lo, P. Y., Kenny, S., y Antle, A. N. (2025). Critical artificial intelligence literacy: A scoping review and framework synthesis. *International Journal of Child-Computer Interaction, 43*, 100708. <https://doi.org/10.1016/j.ijcci.2024.100708>
 {{< /referencias >}}
 
 {{< curso-navegacion anterior="02-introduccion-diseno-inverso" siguiente="04-cocreacion-persona-ia" >}}

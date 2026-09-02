@@ -29,9 +29,7 @@ idioma: "es"
 tipoDocumento: "Guía institucional"
 ---
 
-{{< lead >}}
-En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página reúne los tres PDF y explica qué aborda cada uno sin suponer que todos usan los mismos marcos.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes y coordinaciones de bachillerato, licenciatura o posgrado que buscan un documento orientador en español sobre IA generativa en evaluación y quieren saber qué guía UNAM leer y qué no deducir de ellas." haras="Vas a entender que las tres guías de abril de 2026 son orientaciones, no normas, que comparten preocupaciones (integridad, sesgos, privacidad, supervisión humana) pero no repiten un mismo marco, y qué aporta cada una: ejemplos y plantillas en bachillerato, un ciclo de evaluación en licenciatura, tres modalidades de uso en posgrado." tendras="Tres maneras de usarlas con tu propio material (por ejemplo, «leer la guía de tu nivel y marcar qué cambiarías en las instrucciones de una actividad existente») y una lista de cinco conclusiones que la colección no autoriza." tarda="Ocho minutos de lectura; los tres PDF suman 120 páginas." ejemplo="Empieza por las tres tarjetas con el tamaño y el enfoque de cada guía, y por cómo presenta Gaceta UNAM su alcance; después viene lo específico de cada nivel." >}}
 
 ## Las tres guías en un solo lugar
 

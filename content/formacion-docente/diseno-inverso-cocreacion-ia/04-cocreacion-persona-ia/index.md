@@ -196,9 +196,9 @@ Meshi (2024) propone la imagen del ensamblaje cognitivo humano–IA y Bearman, R
 El ciclo solo puede adaptarse bien cuando parte de un grupo y unas condiciones reales. Esa delimitación ocupa la siguiente lección.
 
 {{< referencias >}}
-- Bearman, M., Ryan, J., y Ajjawi, R. (2023). Discourses of artificial intelligence in higher education: A critical literature review. *Higher Education, 86*, 369–385. <https://doi.org/10.1007/s10734-022-00937-2>
+- Bearman, M., Ryan, J., y Ajjawi, R. (2023). Discourses of artificial intelligence in higher education: A critical literature review. *Higher Education, 86*(2), 369–385. <https://doi.org/10.1007/s10734-022-00937-2>
 - Bozkurt, A. (2024). GenAI et al.: Cocreation, authorship, ownership, academic ethics and integrity in a time of generative AI. *Open Praxis, 16*(1), 1–10. <https://doi.org/10.55982/openpraxis.16.1.654>
-- Meshi, A. (2024). GPT-ME: A human–AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques, 7*(4), 55:1–55:8. <https://doi.org/10.1145/3664214>
+- Meshi, A. (2024). GPT-ME: A human–AI cognitive assemblage. *Proceedings of the ACM on Computer Graphics and Interactive Techniques, 7*(4), 1–8. <https://doi.org/10.1145/3664214>
 {{< /referencias >}}
 
 {{< curso-navegacion anterior="03-literacidades-ia" siguiente="05-contexto-diagnostico" >}}

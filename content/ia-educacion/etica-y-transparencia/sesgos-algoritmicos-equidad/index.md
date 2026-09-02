@@ -19,9 +19,7 @@ showRelatedContent: true
 weight: 4
 ---
 
-{{< lead >}}
-Los modelos generativos reproducen los sesgos de sus datos de entrenamiento. La respuesta pedagógica no es prohibirlos ni denunciarlos en abstracto, sino convertir el sesgo en objeto de aprendizaje: diseñar actividades donde el estudiante audite respuestas, compare modelos y documente qué voces faltan.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ya dejan usar IA en sus cursos y han visto respuestas con listas de autores casi siempre anglosajones o comentarios que empujan los ensayos hacia un molde ajeno, y quieren hacer algo con eso en clase." haras="Vas a entender que el sesgo de un modelo generativo viene de qué textos abundan y cuáles faltan en su entrenamiento, que se presenta de cuatro formas reconocibles (representación, lingüístico, evaluativo y de confianza) y que la respuesta útil en el aula es convertirlo en una tarea de auditoría para el estudiantado." tendras="Tres actividades listas para pedir la próxima semana (por ejemplo, «pide la misma lista a dos modelos y complétala con tres nombres que ambos omitieron») y un protocolo de cuatro pasos para sostenerlas durante el semestre." tarda="Doce minutos de lectura." ejemplo="Empieza por el mecanismo: un modelo predice la palabra siguiente a partir de miles de millones de textos, y lo que falta en esos textos falta en sus respuestas; el primer caso es una estudiante que pide referentes de su disciplina." >}}
 
 ## El sesgo no es un defecto secundario
 
@@ -45,7 +43,7 @@ El inglés funciona como default. Los modelos rinden mejor en inglés que en otr
 
 ### Sesgo evaluativo
 
-El modelo asume criterios de calidad implícitos en sus datos. Al pedirle que evalúe un ensayo, un proyecto o una propuesta, aplica rúbricas no declaradas que favorecen el estilo argumentativo, las convenciones retóricas y las tradiciones intelectuales predominantes en su entrenamiento. Un docente que usa el modelo como retroalimentación de primera línea puede, sin advertirlo, empujar a sus estudiantes hacia un estilo homogeneizado que borra las particularidades de su formación local (Mohamed et al., 2020).
+El modelo asume criterios de calidad implícitos en sus datos (por ejemplo, que un buen ensayo abre con una tesis y cierra con una recapitulación). Al pedirle que evalúe un ensayo, un proyecto o una propuesta, aplica rúbricas no declaradas que favorecen el estilo argumentativo, las convenciones retóricas y las tradiciones intelectuales predominantes en su entrenamiento. Un docente que usa el modelo como retroalimentación de primera línea puede, sin advertirlo, empujar a sus estudiantes hacia un estilo homogeneizado que borra las particularidades de su formación local (Mohamed et al., 2020).
 
 ### Sesgo de confianza
 
@@ -68,7 +66,7 @@ flowchart TD
 
 ## Cómo se manifiesta en un aula mexicana
 
-Tres situaciones recurrentes ilustran el tránsito del sesgo abstracto al efecto concreto.
+Tres situaciones recurrentes (una lista de autoras, un ensayo comentado por el modelo, una cita inventada) ilustran el tránsito del sesgo abstracto al efecto concreto.
 
 Primera situación. En un curso de literatura latinoamericana, un grupo de estudiantes pide a Gemini 2.5 Pro una lista de diez autoras contemporáneas imprescindibles. El modelo devuelve una lista donde dominan autoras mexicanas y argentinas de perfil internacional, omite voces centroamericanas, caribeñas no hispanohablantes y andinas. La lista no es incorrecta; es sesgada. Si la estudiante la toma como punto de partida sin más, su horizonte de lectura queda recortado por la selección del modelo.
 
@@ -82,7 +80,7 @@ Las actividades que siguen convierten la exposición al sesgo en una competencia
 
 ### Actividad 1. Comparación entre modelos
 
-Pedir a los estudiantes la misma consulta en dos o tres modelos distintos (por ejemplo, Claude Opus 4.6, Gemini 2.5 Pro y DeepSeek-V3.1) y documentar diferencias. La actividad produce tres evidencias: la respuesta de cada modelo, una tabla comparativa con convergencias y divergencias, y una interpretación del estudiante sobre qué explica las diferencias. Esta operación hace visible que los modelos no son intercambiables y obliga al estudiante a tomar una posición evaluativa.
+Pedir a los estudiantes la misma consulta en dos o tres modelos distintos (por ejemplo, Claude Opus 4.6, Gemini 2.5 Pro y DeepSeek-V3.1) y documentar diferencias. La actividad produce tres entregas: la respuesta de cada modelo, una tabla comparativa con convergencias y divergencias, y una interpretación del estudiante sobre qué explica las diferencias. Esta operación hace visible que los modelos no son intercambiables y obliga al estudiante a tomar una posición evaluativa.
 
 ### Actividad 2. Auditoría de ausencias
 
@@ -106,12 +104,12 @@ Un protocolo operativo para integrar el tratamiento de sesgos en una asignatura 
 
 1. **Nombrar los cuatro sesgos** en la primera sesión donde la IA se integra al trabajo. El lenguaje compartido (representación, lingüístico, evaluativo, de confianza) se convierte en instrumento de diálogo durante el semestre.
 2. **Incorporar las tres actividades de auditoría** en al menos tres momentos del curso, de preferencia vinculadas al trabajo disciplinar central, no como anexos metodológicos.
-3. **Documentar hallazgos en el portafolio**. Cada estudiante registra al menos tres instancias de sesgo detectadas durante el semestre, con evidencia y reflexión. Este registro alimenta la evaluación formativa y se articula con la [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}).
+3. **Documentar hallazgos en el portafolio**. Cada estudiante registra al menos tres instancias de sesgo detectadas durante el semestre, con la captura o cita que lo muestra (por ejemplo, la lista que omitió autoras centroamericanas) y una reflexión breve. Este registro alimenta la evaluación formativa y se articula con la [guía de evaluación formativa con IA]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}).
 4. **Discutir colegiadamente**. Una sesión de cierre donde los estudiantes presentan sus hallazgos consolida el aprendizaje como experiencia colectiva y no solo individual.
 
 ## Cierre
 
-Los sesgos algorítmicos son un problema estructural que no se corrige desde el aula. Pero el aula sí puede decidir si los reproduce silenciosamente o los convierte en objeto de aprendizaje. Selwyn (2022) advierte que la adopción acrítica de IA en educación tiende a reforzar desigualdades existentes antes que a corregirlas; esa advertencia aplica aquí. La diferencia entre una universidad que integra IA con rigor y una que la adopta por moda se mide, entre otros criterios, por cómo trata esta distinción. Un egresado que sabe detectar, documentar y discutir el sesgo de un modelo está mejor equipado para la vida profesional que uno que usa la herramienta confiadamente.
+Los sesgos algorítmicos son un problema estructural que no se corrige desde el aula. Pero el aula sí puede decidir si los reproduce silenciosamente o los convierte en objeto de aprendizaje. Selwyn (2022) advierte que la adopción acrítica de IA en educación tiende a reforzar desigualdades existentes antes que a corregirlas; esa advertencia aplica aquí. La diferencia entre una universidad que integra IA con rigor y una que la adopta por moda se mide, entre otras cosas, por cómo trata esta distinción. Un egresado que sabe detectar, documentar y discutir el sesgo de un modelo está mejor equipado para la vida profesional que uno que usa la herramienta confiadamente.
 
 {{< referencias >}}
 

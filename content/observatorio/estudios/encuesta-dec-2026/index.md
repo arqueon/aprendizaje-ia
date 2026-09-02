@@ -7,6 +7,8 @@ areas: ["ia", "evaluacion", "digital"]
 showHero: true
 ---
 
+{{< contrato modo="lectura" quien="Docentes y coordinaciones de la UdeG (o de cualquier universidad latinoamericana) a quienes les llega la cifra «92 % del estudiantado usa IA» y deben decidir qué hacer con ella." haras="Vas a entender qué midió la encuesta del Digital Education Council (30,260 respuestas en 29 instituciones), qué reporta (92 % del estudiantado y 79 % del profesorado declaran usar IA; 65 % teme un aprendizaje superficial) y por qué ninguna de esas cifras describe a tu universidad." tendras="Una lista de lo que hace falta averiguar en tu propia comunidad antes de fijar reglas (acceso, usos declarados, formación, privacidad, equidad y prácticas de evaluación) y una regla de lectura: «adopción declarada» es distinto de «uso frecuente o pertinente»." tarda="Cuatro minutos de lectura." ejemplo="Empieza con la ficha del informe (publicado el 30 de enero de 2026 con el Tecnológico de Monterrey) y con la advertencia de que la UdeG participó pero no tiene resultados propios publicados." >}}
+
 El Digital Education Council publicó el informe en español el **30 de enero de 2026**, en colaboración con el Tecnológico de Monterrey y el Institute for the Future of Education. La encuesta reúne **30,260 respuestas**: **22,941 de estudiantes** y **7,319 de profesorado**, procedentes de **29 instituciones** de educación superior de América Latina.
 
 La Universidad de Guadalajara aparece en la relación de instituciones participantes. El informe público, sin embargo, no publica resultados desagregados por institución. Por ello, esta ficha no atribuye a la UdeG los porcentajes regionales ni conserva las gráficas institucionales de la versión anterior, cuyo archivo de datos no pudo localizarse.
@@ -29,7 +31,7 @@ Las recomendaciones de gobernanza transparente, formación práctica y rediseño
 
 La encuesta permite describir patrones agregados entre quienes respondieron en las 29 instituciones participantes. No permite calcular resultados propios de la Universidad de Guadalajara ni comparar instituciones. Tampoco establece relaciones causales entre usar IA y aprender mejor o peor.
 
-La pregunta útil para una lectura institucional no es si un porcentaje regional representa automáticamente a la comunidad local, sino qué datos locales faltan para examinar acceso, usos, alfabetización, privacidad, equidad y prácticas de evaluación.
+La pregunta útil para una lectura institucional es qué datos locales faltan para examinar acceso, usos, alfabetización, privacidad, equidad y prácticas de evaluación; un porcentaje regional sólo indica dónde mirar (si el 56 % de quienes respondieron en la región teme por la equidad cuando la IA interviene en la evaluación, vale preguntar cuántos en el propio centro comparten esa preocupación).
 
 Como contraste nacional, el [primer censo mexicano sobre IA generativa en educación superior](/observatorio/estudios/encuesta-eniag-mexico/) —levantado por la SEP y la ANUIES en 2,900 instituciones— documenta el mismo desfase entre adopción y formación con un universo mucho más amplio que el de esta encuesta. Leer ambas mediciones juntas ayuda a distinguir qué patrones se repiten entre universos distintos y cuáles podrían depender de quién respondió cada instrumento.
 

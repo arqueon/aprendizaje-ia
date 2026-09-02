@@ -35,19 +35,17 @@ connections:
     reason: "Examina cómo la producción acelerada afecta la revisión y la comunicación científica."
 ---
 
-{{< lead >}}
-Una IA puede ayudar a formular preguntas, explorar vocabulario, revisar código o comparar explicaciones. No sabe por sí sola qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada. Esta ruta conserva esas decisiones bajo responsabilidad humana.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Estudiantes de posgrado, personas que investigan y docentes que dirigen tesis, que ya usan IA para buscar, leer o redactar y quieren saber qué decisiones no deben soltar." haras="Vas a entender que la IA puede ayudar en cada etapa de una investigación (explorar, comprobar, analizar, redactar, revisar), pero que no sabe qué fuentes existen, qué datos pueden compartirse ni qué conclusión está justificada; eso sigue bajo tu responsabilidad." tendras="Cinco cuidados para aplicar en tu proyecto actual (por ejemplo, «localiza cada fuente fuera de la conversación y registra DOI, autor, título y versión») y un límite claro sobre qué datos nunca cargar en un servicio no aprobado." tarda="Cuatro minutos de lectura; las páginas conectadas añaden una ficha de decisión, una comprobación y una bitácora." ejemplo="Empieza por la etapa y no por la herramienta: antes de abrir un chat, escribe la pregunta de investigación, qué tipo de datos la responderían y con qué regla aceptarás o rechazarás una respuesta." >}}
 
 ## Empieza por la etapa, no por la herramienta
 
-Antes de usar IA, escribe la pregunta de investigación, el tipo de evidencia que necesitarías y el criterio con el que aceptarás o rechazarás una respuesta. Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **redactar** o **revisar**. Una misma herramienta puede ser apropiada en una etapa e inadecuada en otra.
+Antes de usar IA, escribe la pregunta de investigación, el tipo de datos o fuentes que necesitarías y la regla con la que aceptarás o rechazarás una respuesta (por ejemplo, «solo cuento referencias que pueda abrir y leer»). Después decide si la ayuda sirve para **explorar**, **comprobar**, **analizar**, **redactar** o **revisar**. Una misma herramienta puede ser apropiada en una etapa e inadecuada en otra.
 
 ## Cinco cuidados al investigar con IA
 
 {{< proceso >}}
 {{< paso titulo="Delimita" >}}
-Conserva una pregunta, propósito y criterio propios.
+Conserva una pregunta, un propósito (qué quieres saber y para qué) y una regla de aceptación propios.
 {{< /paso >}}
 {{< paso titulo="Protege" >}}
 Retira datos personales, manuscritos confidenciales e información que no tienes autorización para compartir.
@@ -59,7 +57,7 @@ Localiza cada fuente fuera de la conversación y registra DOI, autor, título y 
 Compara la salida con el artículo, conjunto de datos, protocolo o documentación original.
 {{< /paso >}}
 {{< paso titulo="Declara" >}}
-Explica herramienta, propósito, partes afectadas, comprobaciones y responsabilidad humana.
+Explica herramienta, para qué la usaste, partes afectadas, comprobaciones y responsabilidad humana.
 {{< /paso >}}
 {{< /proceso >}}
 
@@ -72,5 +70,5 @@ Al recorrer las páginas conectadas tendrás una ficha de decisión, una comprob
 No cargues datos de participantes, manuscritos recibidos para revisión, expedientes, información institucional reservada o material de terceros en un servicio que no haya sido aprobado para ese uso. Si no puedes establecer qué conserva el proveedor, trabaja con datos ficticios, anonimizados de forma segura o sin IA.
 
 {{< parallevar titulo="Para conservar el rigor" >}}
-Investigar con IA no consiste en pedir una respuesta final. Consiste en repartir tareas sin ceder la pregunta, la selección de evidencia, la interpretación ni la responsabilidad por lo publicado.
+Investigar con IA no consiste en pedir una respuesta final. Consiste en repartir tareas sin ceder la pregunta, la selección de fuentes y datos, la interpretación ni la responsabilidad por lo publicado.
 {{< /parallevar >}}

@@ -18,9 +18,7 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La UNESCO mantiene tres documentos de referencia para IA en educación que conviene conocer en conjunto: la *Recomendación sobre la ética de la IA* (2021), la *Guía sobre IA generativa en educación e investigación* (2023, actualización vigente de enero 2026) y el *Marco de competencias de IA para docentes* (2024). Esta síntesis condensa lo que cada uno aporta y cómo se traducen al aula universitaria.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes y coordinaciones a quienes les citan «la UNESCO» en una reunión sobre IA y quieren saber qué documento es cuál, qué dice cada uno y qué les toca hacer con ellos." haras="Vas a entender que la UNESCO tiene tres documentos que operan en niveles distintos (una Recomendación de valores de 2021, una Guía para el sector educativo de 2023 actualizada en 2026 y un Marco de competencias docentes de 2024), y que se leen como un sistema: valores, política sectorial y competencias que se pueden enseñar." tendras="Una tabla para ubicar cada documento y su público, tres ideas de la Recomendación que puedes citar en un acuerdo de programa (por ejemplo, «la rendición de cuentas no se delega al algoritmo») y las cinco áreas del Marco para repartir la formación docente." tarda="Ocho minutos de lectura." ejemplo="Empieza por la tabla de tres filas que separa los documentos por nivel y audiencia; después cada uno tiene su sección con lo esencial en lenguaje operativo." >}}
 
 *Corte de la información: agosto de 2026; la versión más reciente considerada de la Guía sobre IA generativa es la actualización de enero de 2026. Próxima revisión prevista: febrero de 2027.*
 
@@ -60,7 +58,7 @@ La Guía propone siete acciones estratégicas que conviene retener para la prác
 6. **Diseño curricular alineado** con competencias de IA, sin convertir la integración en un curso aislado.
 7. **Reflexión internacional sobre las implicaciones a largo plazo** del cambio en cómo se produce conocimiento.
 
-La Guía también identifica ocho desafíos —desde la equidad de acceso hasta la pérdida de criterio epistémico— que las instituciones deben enfrentar simultáneamente, no en secuencia.
+La Guía también identifica ocho desafíos (desde la equidad de acceso hasta la pérdida de criterio epistémico, es decir, de la capacidad de juzgar qué es cierto) que las instituciones deben enfrentar simultáneamente, no en secuencia.
 
 ## Lo esencial del Marco de competencias docentes (2024)
 
@@ -68,7 +66,7 @@ El *AI Competency Framework for Teachers* (UNESCO, 2024) es la primera referenci
 
 Las cinco áreas, en lenguaje operativo:
 
-- **Mentalidad humanista** — agencia, responsabilidad social, criterio sobre cuándo no usar IA.
+- **Mentalidad humanista** — agencia, responsabilidad social, criterio sobre cuándo no usar IA (por ejemplo, en un examen diagnóstico).
 - **Ética de la IA** — principios y compromisos cotidianos en la práctica docente.
 - **Fundamentos y aplicaciones** — conocimiento conceptual de cómo funcionan los modelos.
 - **Pedagogía de la IA** — métodos para integrar IA en el diseño de aprendizaje.

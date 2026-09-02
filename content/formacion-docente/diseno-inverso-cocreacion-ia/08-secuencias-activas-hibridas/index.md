@@ -205,6 +205,8 @@ La siguiente lección pone esa secuencia a trabajar en un caso que exige relacio
 
 {{< referencias >}}
 - Chi, M. T. H., y Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist, 49*(4), 219–243. <https://doi.org/10.1080/00461520.2014.965823>
+- Freeman, S., et al. (2014). Active learning increases student performance in science, engineering, and mathematics. *Proceedings of the National Academy of Sciences, 111*(23), 8410–8415. <https://doi.org/10.1073/pnas.1319030111>
+- Garrison, D. R., y Vaughan, N. D. (2008). *Blended learning in higher education: Framework, principles, and guidelines*. Jossey-Bass. <https://doi.org/10.1002/9781118269558>
 {{< /referencias >}}
 
 {{< curso-navegacion anterior="07-evidencias-criterios" siguiente="09-analisis-casos" >}}

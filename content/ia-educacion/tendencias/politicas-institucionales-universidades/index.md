@@ -17,9 +17,7 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y silencios se ha consolidado en marcos comparables. Esta pieza identifica los patrones y traduce los aprendizajes para una universidad pública mexicana.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Coordinaciones y comités que deben proponer o revisar la política de IA de su universidad y quieren saber qué han hecho otras instituciones tres años después de ChatGPT." haras="Vas a entender que las políticas pasaron de prohibir a diseñar, que conviven tres modelos (descentralizado, de principios comunes y prescriptivo) y que cinco elementos ya aparecen en casi todas las políticas maduras mientras tres siguen sin acuerdo." tendras="Tres recomendaciones para una universidad pública mexicana (por ejemplo, «adoptar principios comunes con traducción disciplinar» y «fijar ya una norma de citación con base en APA 7») y una figura por ámbitos para ubicar qué aclara cada nivel." tarda="Nueve minutos de lectura." ejemplo="Empieza por las tres fases que siguieron a enero de 2023 (prohibición, silencio, diseño) y por qué las prohibiciones envejecieron mal." >}}
 
 ## El paso de la prohibición al diseño
 
@@ -91,7 +89,7 @@ Las universidades latinoamericanas, con excepciones puntuales, llegan tarde a es
 Sobre la base del panorama internacional, tres orientaciones operativas:
 
 - **Adoptar el modelo de principios comunes con traducción disciplinar.** Es el que mejor funciona en universidades grandes con autonomía académica. La [política institucional de IA UdeG](/recursos/politica-ia-udeg/) ya transita en esta dirección.
-- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma con criterio APA 7 ahorra confusiones.
+- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma de citación con base en APA 7 (por ejemplo, cómo se cita una respuesta de un chat) ahorra confusiones.
 - **Auditar la política cada año.** No para reescribirla, sino para verificar qué está funcionando, qué no y qué nuevos casos exige el ritmo del cambio técnico.
 
 ## Lecturas relacionadas

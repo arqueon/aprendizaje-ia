@@ -15,9 +15,9 @@ showBreadcrumbs: true
 showSummary: true
 ---
 
-{{< lead >}}
-“Quizás estamos construyendo una cerca muy sólida alrededor del jardín, pero descuidando regar las plantas”. — Vincent Liardi, Pearson
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes y academias que discuten si prohibir o detectar la IA en sus evaluaciones y quieren una lectura crítica de una propuesta que circula mucho: la de Vincent Liardi y el Digital Education Council." haras="Vas a entender qué propone la fuente (pasar de vigilar el perímetro a diseñar evaluaciones que muestren decisiones y revisión), qué relación comercial hay detrás (DEC y Pearson) y qué añade este sitio: pedir rastros proporcionados del proceso, sin registrar cada clic." tendras="Cuatro muestras del recorrido que puedes pedir en una entrega (por ejemplo, «una nota sobre una decisión: qué se aceptó, corrigió o descartó, y por qué») y cinco pasos para revisar una evaluación antes de cambiarla." tarda="Ocho minutos de lectura." ejemplo="Empieza por la metáfora de la cerca y las plantas, con su procedencia y su alcance (una conversación institucional, sin muestra ni resultados de aprendizaje), antes de llegar a las decisiones." >}}
+
+> “Quizás estamos construyendo una cerca muy sólida alrededor del jardín, pero descuidando regar las plantas”. — Vincent Liardi, Pearson
 
 La metáfora procede del **DEC Executive Briefing #018: The Next Era of Assessment**, una conversación entre Vincent Liardi y Daniel A. Bielik publicada por el Digital Education Council en julio de 2025. La fuente propone desplazar parte de la atención desde la detección del uso de IA hacia el diseño de evaluaciones que permitan observar decisiones, revisión y aprendizaje.
 

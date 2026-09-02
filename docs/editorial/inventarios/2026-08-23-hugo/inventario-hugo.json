@@ -5,11 +5,11 @@
     "markdown": 203,
     "pages": 172,
     "sections": 31,
-    "words": 173325,
-    "assets": 238,
-    "content_assets": 232,
+    "words": 173536,
+    "assets": 251,
+    "content_assets": 245,
     "shared_figure_assets": 6,
-    "pages_with_featured": 184,
+    "pages_with_featured": 185,
     "pages_with_svg": 35,
     "pages_with_tables": 69,
     "pages_with_mermaid": 15,
@@ -73,7 +73,7 @@
     "blog": {
       "pages": 6,
       "sections": 1,
-      "words": 5639,
+      "words": 6042,
       "featured": 6,
       "svg": 1,
       "h5p": 0,
@@ -84,7 +84,7 @@
     "formacion-docente": {
       "pages": 31,
       "sections": 2,
-      "words": 42534,
+      "words": 42579,
       "featured": 33,
       "svg": 12,
       "h5p": 33,
@@ -95,7 +95,7 @@
     "ia-educacion": {
       "pages": 61,
       "sections": 8,
-      "words": 80972,
+      "words": 80710,
       "featured": 63,
       "svg": 23,
       "h5p": 4,
@@ -106,7 +106,7 @@
     "laboratorio": {
       "pages": 7,
       "sections": 3,
-      "words": 8368,
+      "words": 8371,
       "featured": 9,
       "svg": 0,
       "h5p": 2,
@@ -128,7 +128,7 @@
     "observatorio": {
       "pages": 11,
       "sections": 4,
-      "words": 13051,
+      "words": 13150,
       "featured": 15,
       "svg": 5,
       "h5p": 0,
@@ -139,8 +139,8 @@
     "recursos": {
       "pages": 52,
       "sections": 5,
-      "words": 21225,
-      "featured": 55,
+      "words": 21148,
+      "featured": 56,
       "svg": 13,
       "h5p": 0,
       "tables": 3,
@@ -1648,7 +1648,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 880,
+      "words": 963,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -1667,13 +1667,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
-        "tabla-sintesis"
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -1700,7 +1701,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 781,
+      "words": 857,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 2,
@@ -1719,7 +1720,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -1751,11 +1752,11 @@
         "ia",
         "etica"
       ],
-      "words": 884,
+      "words": 924,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 3,
-      "citation_signals": 0,
+      "citation_signals": 1,
       "reference_heading": true,
       "internal_link_count": 3,
       "broken_internal_links": [],
@@ -1770,12 +1771,13 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "tabla-sintesis"
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -1802,7 +1804,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 992,
+      "words": 1138,
       "heading_count": 11,
       "h2_count": 7,
       "external_url_count": 3,
@@ -1821,7 +1823,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -1856,7 +1858,7 @@
         "ia",
         "digital"
       ],
-      "words": 943,
+      "words": 1007,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -1875,7 +1877,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -1909,7 +1911,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 851,
+      "words": 845,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -1928,7 +1930,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -2116,7 +2118,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1346,
+      "words": 1357,
       "heading_count": 5,
       "h2_count": 3,
       "external_url_count": 3,
@@ -2467,7 +2469,7 @@
       "words": 1371,
       "heading_count": 5,
       "h2_count": 5,
-      "external_url_count": 0,
+      "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": false,
       "internal_link_count": 0,
@@ -2591,7 +2593,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1464,
+      "words": 1465,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -2654,7 +2656,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1792,
+      "words": 1819,
       "heading_count": 10,
       "h2_count": 10,
       "external_url_count": 0,
@@ -2780,7 +2782,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 2342,
+      "words": 2343,
       "heading_count": 14,
       "h2_count": 14,
       "external_url_count": 3,
@@ -2847,7 +2849,7 @@
       "words": 1543,
       "heading_count": 8,
       "h2_count": 8,
-      "external_url_count": 1,
+      "external_url_count": 3,
       "citation_signals": 0,
       "reference_heading": false,
       "internal_link_count": 0,
@@ -2878,7 +2880,7 @@
           "referencias"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
@@ -2907,10 +2909,10 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1754,
+      "words": 1755,
       "heading_count": 9,
       "h2_count": 9,
-      "external_url_count": 1,
+      "external_url_count": 3,
       "citation_signals": 1,
       "reference_heading": false,
       "internal_link_count": 0,
@@ -2941,7 +2943,7 @@
           "referencias"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
@@ -3038,7 +3040,7 @@
       "words": 1483,
       "heading_count": 9,
       "h2_count": 9,
-      "external_url_count": 1,
+      "external_url_count": 2,
       "citation_signals": 1,
       "reference_heading": false,
       "internal_link_count": 0,
@@ -3069,7 +3071,7 @@
           "referencias"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
@@ -3099,7 +3101,7 @@
         "pedagogia",
         "ia"
       ],
-      "words": 1710,
+      "words": 1714,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 3,
@@ -3924,7 +3926,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1620,
+      "words": 1623,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -3943,7 +3945,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "relref",
           "udgia-figure"
         ]
@@ -4023,11 +4025,11 @@
         "ia",
         "pedagogia"
       ],
-      "words": 675,
+      "words": 615,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 5,
-      "citation_signals": 7,
+      "citation_signals": 6,
       "reference_heading": false,
       "internal_link_count": 3,
       "broken_internal_links": [],
@@ -4042,14 +4044,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "infografia",
           "infografia-intro",
           "infografia-seccion",
-          "lead",
           "referencias"
         ]
       },
-      "decision": "conservar",
+      "decision": "actualizar",
       "needs": [
         "svg-diagrama",
         "procedencia"
@@ -4079,13 +4081,13 @@
         "ia",
         "etica"
       ],
-      "words": 1314,
+      "words": 1301,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 7,
       "citation_signals": 7,
       "reference_heading": false,
-      "internal_link_count": 5,
+      "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4098,7 +4100,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -4132,7 +4134,7 @@
         "etica",
         "formacion"
       ],
-      "words": 898,
+      "words": 847,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -4151,7 +4153,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -4186,7 +4188,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 2092,
+      "words": 2130,
       "heading_count": 14,
       "h2_count": 7,
       "external_url_count": 9,
@@ -4206,7 +4208,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "mermaid",
           "ref",
           "referencias"
@@ -4242,7 +4244,7 @@
         "ia",
         "etica"
       ],
-      "words": 1036,
+      "words": 1025,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 4,
@@ -4262,7 +4264,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -4299,7 +4301,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1617,
+      "words": 1663,
       "heading_count": 9,
       "h2_count": 6,
       "external_url_count": 6,
@@ -4318,7 +4320,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "mermaid",
           "parallevar",
           "ref",
@@ -4355,7 +4357,7 @@
         "pedagogia",
         "etica"
       ],
-      "words": 1915,
+      "words": 1914,
       "heading_count": 14,
       "h2_count": 7,
       "external_url_count": 10,
@@ -4374,7 +4376,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "mermaid",
           "ref",
           "referencias"
@@ -4412,7 +4414,7 @@
         "etica",
         "pedagogia"
       ],
-      "words": 877,
+      "words": 838,
       "heading_count": 9,
       "h2_count": 4,
       "external_url_count": 3,
@@ -4431,7 +4433,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -4934,7 +4936,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1431,
+      "words": 1453,
       "heading_count": 10,
       "h2_count": 10,
       "external_url_count": 5,
@@ -5176,7 +5178,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 773,
+      "words": 742,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 0,
@@ -5195,7 +5197,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "ref",
           "referencias"
         ]
@@ -5223,7 +5225,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 309,
+      "words": 295,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -5242,7 +5244,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "parallevar",
           "paso",
           "proceso"
@@ -7173,7 +7175,7 @@
         "digital",
         "pedagogia"
       ],
-      "words": 2162,
+      "words": 2164,
       "heading_count": 7,
       "h2_count": 2,
       "external_url_count": 0,
@@ -7192,6 +7194,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "mermaid",
           "referencias"
         ]
@@ -7427,7 +7430,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 946,
+      "words": 944,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 3,
@@ -7446,7 +7449,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "practica",
           "referencias",
           "udgia-figure"
@@ -7481,7 +7484,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1179,
+      "words": 1133,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 4,
@@ -7500,7 +7503,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -7534,7 +7537,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 917,
+      "words": 855,
       "heading_count": 9,
       "h2_count": 6,
       "external_url_count": 4,
@@ -7553,7 +7556,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -7561,7 +7564,6 @@
       "needs": [
         "svg-diagrama",
         "tabla-sintesis",
-        "interaccion-candidata",
         "procedencia"
       ]
     },
@@ -7589,7 +7591,7 @@
         "ia",
         "etica"
       ],
-      "words": 1166,
+      "words": 1123,
       "heading_count": 10,
       "h2_count": 7,
       "external_url_count": 4,
@@ -7608,7 +7610,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias",
           "udgia-figure"
         ]
@@ -8099,7 +8101,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1536,
+      "words": 1539,
       "heading_count": 11,
       "h2_count": 11,
       "external_url_count": 2,
@@ -8278,7 +8280,7 @@
         "digital",
         "evaluacion"
       ],
-      "words": 817,
+      "words": 773,
       "heading_count": 10,
       "h2_count": 7,
       "external_url_count": 1,
@@ -8297,7 +8299,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -8328,7 +8330,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 787,
+      "words": 756,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 2,
@@ -8347,7 +8349,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -8378,7 +8380,7 @@
         "ia",
         "formacion"
       ],
-      "words": 885,
+      "words": 830,
       "heading_count": 18,
       "h2_count": 8,
       "external_url_count": 8,
@@ -8397,7 +8399,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -8469,7 +8471,7 @@
         "ia",
         "evaluacion"
       ],
-      "words": 518,
+      "words": 612,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -8487,7 +8489,9 @@
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
-        "shortcode_names": []
+        "shortcode_names": [
+          "contrato"
+        ]
       },
       "decision": "actualizar",
       "needs": [
@@ -8518,11 +8522,11 @@
         "ia",
         "evaluacion"
       ],
-      "words": 1300,
+      "words": 1333,
       "heading_count": 13,
       "h2_count": 7,
       "external_url_count": 1,
-      "citation_signals": 2,
+      "citation_signals": 3,
       "reference_heading": true,
       "internal_link_count": 4,
       "broken_internal_links": [],
@@ -8538,7 +8542,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -8565,7 +8569,7 @@
         "evaluacion",
         "digital"
       ],
-      "words": 633,
+      "words": 661,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 1,
@@ -8585,7 +8589,8 @@
         "iframe_count": 0,
         "shortcode_names": [
           "card",
-          "cards"
+          "cards",
+          "contrato"
         ]
       },
       "decision": "actualizar",
@@ -8617,7 +8622,7 @@
         "ia",
         "formacion"
       ],
-      "words": 1246,
+      "words": 1256,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 2,
@@ -8635,7 +8640,9 @@
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
-        "shortcode_names": []
+        "shortcode_names": [
+          "contrato"
+        ]
       },
       "decision": "conservar",
       "needs": [
@@ -8667,7 +8674,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 2207,
+      "words": 2239,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -8687,8 +8694,8 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
+          "contrato",
           "figura",
-          "lead",
           "referencias"
         ]
       },
@@ -8721,7 +8728,7 @@
       "areas": [
         "ia"
       ],
-      "words": 1441,
+      "words": 1473,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 6,
@@ -8740,6 +8747,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "udgia-figure"
         ]
       },
@@ -8998,7 +9006,7 @@
         "ia",
         "evaluacion"
       ],
-      "words": 479,
+      "words": 494,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 3,
@@ -9017,6 +9025,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "recurso-info"
         ]
       },
@@ -9049,7 +9058,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 366,
+      "words": 368,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -9068,6 +9077,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "recurso-info"
         ]
       },
@@ -9099,7 +9109,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 565,
+      "words": 576,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 2,
@@ -9118,6 +9128,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "recurso-info"
         ]
       },
@@ -9155,7 +9166,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 955,
+      "words": 900,
       "heading_count": 14,
       "h2_count": 8,
       "external_url_count": 3,
@@ -9177,7 +9188,7 @@
           "alert",
           "card",
           "cards",
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
@@ -9209,7 +9220,7 @@
         "ia",
         "evaluacion"
       ],
-      "words": 503,
+      "words": 512,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 1,
@@ -9228,6 +9239,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "practica",
           "recurso-info",
           "referencias"
@@ -9256,7 +9268,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1087,
+      "words": 1026,
       "heading_count": 11,
       "h2_count": 7,
       "external_url_count": 1,
@@ -9276,7 +9288,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "recurso-info",
           "ref"
         ]
@@ -9313,7 +9325,7 @@
         "etica",
         "pedagogia"
       ],
-      "words": 398,
+      "words": 400,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -9332,6 +9344,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "recurso-info"
         ]
       },
@@ -9524,7 +9537,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -9923,7 +9936,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -9968,7 +9981,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10013,7 +10026,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10102,7 +10115,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10194,7 +10207,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10285,8 +10298,8 @@
       "internal_link_count": 4,
       "broken_internal_links": [],
       "visual": {
-        "featured": false,
-        "local_asset_count": 0,
+        "featured": true,
+        "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
         "table_count": 0,
@@ -10298,7 +10311,6 @@
       },
       "decision": "conservar",
       "needs": [
-        "featured",
         "svg-diagrama"
       ]
     },
@@ -10334,7 +10346,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10509,7 +10521,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10644,7 +10656,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10734,7 +10746,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10827,7 +10839,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,
@@ -10916,7 +10928,7 @@
       "broken_internal_links": [],
       "visual": {
         "featured": true,
-        "local_asset_count": 1,
+        "local_asset_count": 2,
         "inline_image_count": 0,
         "svg_count": 1,
         "table_count": 0,

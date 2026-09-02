@@ -385,8 +385,8 @@ Valida y ajusta toda propuesta antes de implementarla, documentando el proceso d
 Con resultados, evidencias y criterios conectados, la siguiente lección distribuye la práctica entre momentos activos e híbridos.
 
 {{< referencias >}}
-- Bearman, M., Dawson, P., Ajjawi, R., Tai, J., y Boud, D. (2020). Re-imagining university assessment in a digital world. Springer. <https://doi.org/10.1007/978-3-030-41956-1>
-- Black, P., y Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education, 5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
+- Bearman, M., Dawson, P., Ajjawi, R., Tai, J., y Boud, D. (Eds.). (2020). *Re-imagining university assessment in a digital world*. Springer. <https://doi.org/10.1007/978-3-030-41956-1>
+- Black, P., y Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education: Principles, Policy & Practice, 5*(1), 7–74. <https://doi.org/10.1080/0969595980050102>
 - Hattie, J., y Timperley, H. (2007). The power of feedback. *Review of Educational Research, 77*(1), 81–112. <https://doi.org/10.3102/003465430298487>
 {{< /referencias >}}
 

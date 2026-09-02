@@ -30,6 +30,8 @@ tipoDocumento: "Artículo"
 
 {{< recurso-info >}}
 
+{{< contrato modo="lectura" quien="Docentes que usan «evaluación auténtica» como sinónimo de tarea parecida al trabajo profesional, o como respuesta general al uso de IA, y quieren revisar ese supuesto." haras="Vas a entender que Ajjawi, Bearman y colegas proponen dejar la etiqueta binaria (auténtica o no) y mirar tres aspectos que pueden entrar en tensión: el sentido que la persona da a la tarea, la posibilidad de ensayar formas de actuar de una práctica, y las relaciones y condiciones que hacen posible la actividad." tendras="Cuatro preguntas para revisar una tarea que llamas auténtica (por ejemplo, «¿quién puede participar en las mismas condiciones?») y una advertencia del artículo: imitar una práctica profesional donde ya se usa IA no resuelve qué aprendizaje hay que observar." tarda="Cinco minutos de lectura; el artículo es de acceso abierto." ejemplo="Empieza por la pregunta del artículo: qué se pierde cuando la semejanza con el lugar de trabajo ocupa el centro de la evaluación durante treinta años." >}}
+
 ## Referencia y acceso
 
 Ajjawi, R., Tai, J., Dollinger, M., Dawson, P., Boud, D., & Bearman, M. (2024). From authentic assessment to authenticity in assessment: Broadening perspectives. *Assessment & Evaluation in Higher Education*, **49**(4), 499–510. https://doi.org/10.1080/02602938.2023.2271193
@@ -46,7 +48,7 @@ El artículo propone desplazar la atención desde una etiqueta binaria —autén
 2. **Fidelidad ontológica:** la manera en que una tarea permite ensayar formas de ser y actuar vinculadas con una práctica.
 3. **Perspectivas de teoría de la práctica:** las relaciones entre personas, normas, herramientas, saberes y condiciones materiales que hacen posible una actividad.
 
-Estas perspectivas no forman una lista de requisitos ni una escala de calidad. Ayudan a preguntar qué propósito se privilegia, quién puede participar, qué compromisos introduce el diseño y qué evidencia se espera obtener.
+Estas perspectivas no forman una lista de requisitos ni una escala de calidad. Ayudan a preguntar qué propósito se privilegia (por ejemplo, ensayar un rol profesional o dar sentido personal a la tarea), quién puede participar, qué compromisos introduce el diseño y qué evidencia se espera obtener.
 
 ## Cómo aparece la IA generativa
 

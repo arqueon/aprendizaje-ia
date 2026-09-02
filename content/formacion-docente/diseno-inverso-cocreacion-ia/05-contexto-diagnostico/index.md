@@ -288,6 +288,7 @@ Recuerda que toda propuesta generada por IA es un borrador hasta su validación 
 Una vez delimitado el punto de partida, la siguiente decisión es formular qué cambio observable se espera en el aprendizaje.
 
 {{< referencias >}}
+- Ambrose, S. A., Bridges, M. W., DiPietro, M., Lovett, M. C., y Norman, M. K. (2010). *How learning works: Seven research-based principles for smart teaching*. Jossey-Bass.
 - Wiggins, G., y McTighe, J. (2005). *Understanding by Design* (2.ª ed.). ASCD.
 {{< /referencias >}}
 
