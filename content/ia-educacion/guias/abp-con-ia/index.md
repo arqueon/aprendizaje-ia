@@ -8,7 +8,6 @@ tags: ["ABP", "metodología", "evaluación formativa", "agenciamiento (ensamblaj
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

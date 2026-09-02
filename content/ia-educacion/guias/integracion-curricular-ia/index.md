@@ -10,7 +10,6 @@ areas: ["ia", "pedagogia", "formacion"]
 
 weight: 10
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

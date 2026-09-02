@@ -4,7 +4,6 @@ description: "Estrategias y marcos para integrar la IA de forma intencional en e
 summary: "Cómo pasar del uso espontáneo de IA a una integración curricular alineada con objetivos de aprendizaje."
 weight: 3
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

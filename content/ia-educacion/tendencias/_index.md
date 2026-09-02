@@ -4,7 +4,6 @@ description: "Panorama de tendencias globales, políticas institucionales y docu
 summary: "Adónde mira el ecosistema: políticas universitarias, reportes internacionales, debates emergentes y posicionamientos institucionales."
 weight: 5
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

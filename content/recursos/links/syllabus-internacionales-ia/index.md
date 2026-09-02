@@ -11,7 +11,6 @@ categories: ["curaduria"]
 areas: ["ia", "pedagogia"]
 weight: 1
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

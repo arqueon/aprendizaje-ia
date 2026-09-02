@@ -11,7 +11,6 @@ categories: ["curaduria"]
 areas: ["formacion", "ia", "digital"]
 weight: 2
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

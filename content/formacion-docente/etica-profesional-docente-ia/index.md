@@ -10,7 +10,6 @@ areas: ["formacion", "etica"]
 
 weight: 15
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

@@ -10,7 +10,6 @@ tags: ["aprendizaje activo", "diseño didáctico", "IA generativa", "actividades
 categories: ["guia"]
 areas: ["ia", "pedagogia"]
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

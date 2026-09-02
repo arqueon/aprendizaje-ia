@@ -9,7 +9,6 @@ categories: ["opinion"]
 areas: ["ia", "etica"]
 
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: false

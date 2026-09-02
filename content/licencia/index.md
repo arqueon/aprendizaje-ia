@@ -3,7 +3,6 @@ title: "Licencia del sitio"
 description: "Este sitio se publica bajo Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0)."
 date: 2026-05-11
 showHero: true
-heroStyle: "background"
 showDate: false
 showAuthor: false
 showReadingTime: false

@@ -11,7 +11,6 @@ areas: ["ia", "etica", "formacion"]
 
 weight: 6
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

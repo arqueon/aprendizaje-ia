@@ -5,7 +5,6 @@ summary: "Fuentes para rastrear qué se publica, qué herramientas aparecen y qu
 date: 2026-04-26
 weight: 3
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 areas: ["ia", "pedagogia", "digital"]

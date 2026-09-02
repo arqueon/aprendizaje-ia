@@ -8,7 +8,6 @@ tags: ["evaluación", "integridad académica", "IA generativa", "políticas", "t
 categories: ["tendencia"]
 areas: ["ia", "evaluacion", "pedagogia"]
 showHero: true
-heroStyle: "background"
 layoutBackgroundBlur: true
 showTableOfContents: true
 showReadingTime: true

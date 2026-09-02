@@ -5,7 +5,6 @@ summary: "Quién mantiene este sitio, qué relación tiene con UDGPlus, qué con
 date: 2026-04-26
 lastmod: 2026-08-24
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

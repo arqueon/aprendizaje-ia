@@ -10,7 +10,6 @@ areas: ["ia", "evaluacion", "etica"]
 
 weight: 2
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

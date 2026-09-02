@@ -10,7 +10,6 @@ areas: ["ia", "formacion"]
 
 weight: 3
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

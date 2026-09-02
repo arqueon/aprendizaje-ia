@@ -10,7 +10,6 @@ areas: ["pedagogia", "ia", "evaluacion"]
 
 weight: 1
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true

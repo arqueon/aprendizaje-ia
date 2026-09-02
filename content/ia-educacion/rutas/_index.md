@@ -4,7 +4,6 @@ description: "Compara tres recorridos para estudiar o enseñar, coordinar proces
 summary: "Elige una ruta según la decisión que te corresponde tomar, el material con el que cuentas y lo que necesitas dejar listo."
 weight: 2
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

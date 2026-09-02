@@ -5,7 +5,6 @@ summary: "Informes, marcos, portales y comparaciones que explican quién publica
 aliases: ["/recursos/externas/"]
 weight: 1
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showCards: true

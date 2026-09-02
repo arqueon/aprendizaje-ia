@@ -11,7 +11,6 @@ areas: ["ia", "etica"]
 
 weight: 7
 showHero: true
-heroStyle: "background"
 showBreadcrumbs: true
 showSummary: true
 showTableOfContents: true
