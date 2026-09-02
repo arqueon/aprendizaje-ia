@@ -19,9 +19,9 @@
     "sections": 31,
     "words": 159877,
     "assets": 238,
-    "assetBytes": 26524885,
-    "exactDuplicateAssetGroups": 2,
-    "exactDuplicateAssetFiles": 15,
+    "assetBytes": 25177105,
+    "exactDuplicateAssetGroups": 1,
+    "exactDuplicateAssetFiles": 2,
     "h5pCatalogEntries": 39,
     "curricularH5PEntries": 38,
     "governedFigures": 12,
@@ -32,7 +32,7 @@
     "pagesWithNoCrossSectionLinks": 81,
     "pagesWithMultipleFeaturedCandidates": 0,
     "animatedAssets": 0,
-    "extensionFormatMismatches": 6
+    "extensionFormatMismatches": 3
   },
   "distribution": {
     "bySection": {
@@ -99,8 +99,7 @@
       "evaluar-si-necesita-portada": 16,
       "no-requiere-portada-adicional": 2,
       "rediseñar-como-identidad-de-seccion": 21,
-      "reencuadrar-o-sustituir-tras-lectura": 95,
-      "revisar-para-sustitucion-prioritaria": 2,
+      "reencuadrar-o-sustituir-tras-lectura": 97,
       "sustituir-por-sistema-de-iconos-o-retirar": 32
     },
     "byLot": {
@@ -122,19 +121,19 @@
   },
   "assets": {
     "byExtension": {
-      "png": 11,
+      "png": 8,
       "svg": 63,
-      "webp": 164
+      "webp": 167
     },
     "byDetectedFormat": {
-      "jpeg": 6,
+      "jpeg": 3,
       "png": 6,
       "svg": 63,
-      "webp": 163
+      "webp": 166
     },
     "byAspect": {
-      "cuadrada": 33,
-      "horizontal-16x9-o-social": 138,
+      "cuadrada": 24,
+      "horizontal-16x9-o-social": 147,
       "sin-dimensiones": 63,
       "vertical": 4
     },
@@ -146,22 +145,7 @@
         "detectedFormat": "jpeg"
       },
       {
-        "path": "laboratorio/integracion-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/featured.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
         "path": "observatorio/estudios/creatividad-humana-ia/creatividad-ia.png",
-        "extension": "png",
-        "detectedFormat": "jpeg"
-      },
-      {
-        "path": "recursos/institucionales/featured.png",
         "extension": "png",
         "detectedFormat": "jpeg"
       },
@@ -172,25 +156,6 @@
       }
     ],
     "exactDuplicateGroups": [
-      {
-        "sha256": "9a38a6912a0559a47509bc08b5685190d3783470cf48d1689c371d96beba8f20",
-        "bytes": 33126,
-        "paths": [
-          "formacion-docente/diseno-inverso-cocreacion-ia/02-introduccion-diseno-inverso/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/03-literacidades-ia/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/04-cocreacion-persona-ia/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/05-contexto-diagnostico/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/06-resultados-aprendizaje/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/07-evidencias-criterios/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/08-secuencias-activas-hibridas/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/09-analisis-casos/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/10-limitaciones-analisis/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/11-priorizar-intervenciones/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/12-evaluacion-mejora-continua/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/featured.webp",
-          "formacion-docente/diseno-inverso-cocreacion-ia/featured.webp"
-        ]
-      },
       {
         "sha256": "c0768eede3a069cd8d619cfe127f7cdf33b27f03949987506938398133ff5e95",
         "bytes": 3751,
@@ -6008,10 +5973,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -6019,9 +5984,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -18413,10 +18378,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
@@ -18424,9 +18389,9 @@
         "missingAlt": 0,
         "governedFigureIDs": [],
         "review": {
-          "decision": "revisar-para-sustitucion-prioritaria",
-          "family": "cgi-infografia-o-ilustracion-heredada",
-          "reason": "La revisión en mosaico muestra mayor presencia de CGI neón, texto incrustado o metáforas genéricas en este grupo."
+          "decision": "reencuadrar-o-sustituir-tras-lectura",
+          "family": "ilustracion-mixta",
+          "reason": "Debe comprobarse si representa la situación y el criterio de la página o si podría intercambiarse con cualquier texto sobre IA."
         }
       },
       "interactive": {
@@ -28855,10 +28820,10 @@
         "status": "solo-imagen-de-portada",
         "featured": true,
         "localAssets": [
-          "featured.png"
+          "featured.webp"
         ],
         "featuredCandidates": [
-          "featured.png"
+          "featured.webp"
         ],
         "svgAssets": 0,
         "accessibleSVG": 0,
