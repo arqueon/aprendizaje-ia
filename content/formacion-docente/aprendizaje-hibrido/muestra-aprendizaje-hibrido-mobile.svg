@@ -2,7 +2,7 @@
   <title id="title-movil">Cada momento usa y transforma lo anterior</title>
   <desc id="desc-movil">Secuencia vertical. Antes se produce un borrador y preguntas. Durante el encuentro se producen criterios y objeciones. Después se produce una versión con razones. Si las personas no coinciden en horario, un contraste diferido conserva la misma decisión y evidencia.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:1.5}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.line{fill:none;stroke:#536326;stroke-width:3;stroke-linecap:round}.t1{font:700 22px Lora,Georgia,serif}.t2{font:700 16px Lora,Georgia,serif}.body{font:400 14px Inter,Arial,sans-serif}.small{font:600 13px Inter,Arial,sans-serif}.micro{font:400 12px Inter,Arial,sans-serif}
+    .bg{fill:var(--udg-c-surface-alt,#ece9e1)}.ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}.paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5}.red{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.olive{fill:var(--udg-c-good,#536326)}.ochre{fill:var(--udg-c-warning,#914411)}.line{fill:none;stroke:var(--udg-c-good,#536326);stroke-width:3;stroke-linecap:round}.t1{font:700 22px Newsreader,Georgia,serif}.t2{font:700 16px Newsreader,Georgia,serif}.body{font:400 14px Inter,Arial,sans-serif}.small{font:600 13px Inter,Arial,sans-serif}.micro{font:400 12px Inter,Arial,sans-serif}
   </style>
   <rect class="bg" width="360" height="480"/>
   <text class="ink t1" x="180" y="27" text-anchor="middle">Cada momento transforma</text>
@@ -36,8 +36,8 @@
   </g>
 
   <g transform="translate(22 410)">
-    <rect width="316" height="62" rx="11" fill="#efe7d7" stroke="#a8202a" stroke-width="1.5"/>
-    <text class="red small" x="14" y="21">Si no coinciden en horario</text>
+    <rect width="316" height="62" rx="11" style="fill:var(--udg-c-warning-tint,#f4e6d8);stroke:var(--udg-c-warning,#914411)" stroke-width="1.5"/>
+    <text class="ochre small" x="14" y="21">Si no coinciden en horario</text>
     <text class="ink micro" x="14" y="41">El contraste diferido conserva la misma</text>
     <text class="ink micro" x="14" y="56">decisión y evidencia.</text>
   </g>

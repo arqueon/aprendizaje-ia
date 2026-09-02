@@ -2,7 +2,7 @@
   <title id="title">La alineación se revisa de propósito a asistencia</title>
   <desc id="desc">Cuatro tarjetas conectan propósito, evidencia, experiencia y asistencia. Un aviso de ruptura muestra que pedir analizar y evaluar solo reconocimiento no está alineado. La cadena puede revisarse en ambos sentidos.</desc>
   <style>
-    .bg{fill:#f7f2e8}.ink{fill:#1d2a42}.muted{fill:#526078}.paper{fill:#fffaf1;stroke:#b9ad98;stroke-width:2}.red{fill:#a8202a}.olive{fill:#536326}.ochre{fill:#914411}.pale{fill:#efe7d7}.line{fill:none;stroke:#536326;stroke-width:5;stroke-linecap:round}.return{fill:none;stroke:#a8202a;stroke-width:3;stroke-linecap:round;stroke-dasharray:8 8}.t1{font:700 40px Lora,Georgia,serif}.t2{font:700 29px Lora,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:#fffaf1}
+    .bg{fill:var(--udg-c-surface-alt,#ece9e1)}.ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}.paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:2}.red{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.olive{fill:var(--udg-c-good,#536326)}.ochre{fill:var(--udg-c-warning,#914411)}.pale{fill:var(--udg-c-primary-tint,#e7ecf7)}.line{fill:none;stroke:var(--udg-c-good,#536326);stroke-width:5;stroke-linecap:round}.return{fill:none;stroke:var(--udg-c-risk,#8b2635);stroke-width:3;stroke-linecap:round;stroke-dasharray:8 8}.t1{font:700 40px Newsreader,Georgia,serif}.t2{font:700 29px Newsreader,Georgia,serif}.body{font:400 25px Inter,Arial,sans-serif}.small{font:600 22px Inter,Arial,sans-serif}.white{fill:var(--udg-c-surface,#ffffff)}
   </style>
   <rect class="bg" width="640" height="800"/>
   <text class="ink t1" x="320" y="50" text-anchor="middle">Alinear antes de elegir</text>
@@ -45,9 +45,9 @@
   </g>
 
   <path class="return" d="M610 630V178q0-22-22-22h-12"/>
-  <path class="red" d="M570 156l16-10v20z"/>
+  <path class="risk" d="M570 156l16-10v20z"/>
 
-  <rect class="pale" x="44" y="716" width="552" height="62" rx="17" stroke="#a8202a" stroke-width="2"/>
-  <text class="red small" x="320" y="742" text-anchor="middle">Ruptura · analizar no es solo reconocer.</text>
+  <rect class="pale" x="44" y="716" width="552" height="62" rx="17" style="stroke:var(--udg-c-risk,#8b2635)" stroke-width="2"/>
+  <text class="risk small" x="320" y="742" text-anchor="middle">Ruptura · analizar no es solo reconocer.</text>
   <text class="ink small" x="320" y="766" text-anchor="middle">Revisa la cadena en ambos sentidos.</text>
 </svg>
