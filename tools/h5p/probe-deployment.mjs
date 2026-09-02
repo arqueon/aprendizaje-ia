@@ -674,7 +674,7 @@ async function functionalProbe(baseURL) {
     );
     assert(
       (await page.locator("h1").textContent())?.trim() ===
-        "Coordinar la IA en los procesos docentes",
+        "Organiza un piloto de IA en tu departamento o programa, en seis pasos",
       "La ruta de coordinación perdió su título"
     );
     const coordinationText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
@@ -726,7 +726,7 @@ async function functionalProbe(baseURL) {
     );
     assert(
       (await page.locator("h1").textContent())?.trim() ===
-        "Decidir institucionalmente sobre IA en la docencia",
+        "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones",
       "La ruta ejecutiva perdió su título"
     );
     const executiveText = (await page.locator("body").textContent()).replace(/\s+/g, " ");
@@ -773,6 +773,9 @@ async function functionalProbe(baseURL) {
     const executiveMap = page.locator(
       'img[src$="mapa-decisiones-institucionales.svg"]'
     );
+    // 2026-09-02: el contrato de instrucción empuja el mapa bajo el pliegue; como carga
+    // perezosa, no tiene caja hasta entrar en el viewport. Se lleva a la vista antes de esperar.
+    await executiveMap.evaluate((image) => image.scrollIntoView({ block: "center" }));
     await executiveMap.waitFor({ state: "visible" });
     assert(
       await executiveMap.evaluate((image) => image.complete && image.naturalWidth > 0),
@@ -832,14 +835,14 @@ async function functionalProbe(baseURL) {
       consoleErrors,
       coordinationRoute: {
         url: coordinationURL.href,
-        title: "Coordinar la IA en los procesos docentes",
+        title: "Organiza un piloto de IA en tu departamento o programa, en seis pasos",
         operationalPurpose: true,
         internalPlanningLanguageAbsent: true,
         hero: coordinationHeroGeometry
       },
       executiveRoute: {
         url: executiveURL.href,
-        title: "Decidir institucionalmente sobre IA en la docencia",
+        title: "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones",
         nonNormativeBoundary: true,
         sixDecisions: true,
         decisionMap: true,
