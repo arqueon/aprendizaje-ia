@@ -10,13 +10,26 @@
     "circulation": "Los SVG se catalogan para reutilización en guías, prácticas, cards, materiales descargables y otros contextos compatibles sin duplicar la fuente canónica."
   },
   "baseline": {
-    "totalActivities": 13,
-    "integrated": 1,
+    "totalActivities": 15,
+    "integrated": 2,
     "temporaryDebt": 11,
-    "exceptions": 1,
-    "note": "La deuda heredada solo puede disminuir. Una actividad nueva debe integrar una figura catalogada o registrar una excepción aprobada y justificada en el mismo cambio."
+    "exceptions": 2,
+    "note": "La deuda heredada solo puede disminuir. Una actividad nueva debe integrar una figura catalogada o registrar una excepción aprobada y justificada en el mismo cambio. 2026-09-02: dos altas de UDGIA-023 (M6 integra udgia-f20; B2 registra excepción aprobada con la ficha)."
   },
   "activities": [
+    {
+      "path": "actividades/comparar-sugerencias/index.md",
+      "status": "exception",
+      "justification": "Actividad B2 reescrita (UDGIA-023): es un formulario guiado que empieza con el caso de Renata resuelto en dos tarjetas HTML (cambio, decisión y razón). Una figura repetiría esas tarjetas sin añadir comprensión; la regla de escenas dice que cuando nada añade comprensión, no se usa figura. La ficha aprobada no prevé figura para B2.",
+      "approvedBy": "Rubén García (VoBo a la ficha UDGIA-023)",
+      "approvedOn": "2026-09-02"
+    },
+    {
+      "path": "actividades/revisar-actividad/index.md",
+      "status": "integrated",
+      "figureId": "udgia-f20-pide-practica-entrega",
+      "rationale": "Actividad M6 reescrita (UDGIA-023): integra la figura nueva pido·practican·entregan con el caso de las dos fuentes, la ruptura marcada y la instrucción reescrita, como prevé la ficha."
+    },
     {
       "path": "ia-educacion/guias/abp-con-ia/index.md",
       "status": "new-shared-planned",
@@ -54,17 +67,17 @@
       "rationale": "La bitácora documenta el ciclo de formular, contrastar, decidir y responder; la figura de co-creación ya expresa ese proceso y evita una copia redundante."
     },
     {
+      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
+      "status": "reuse-planned",
+      "figureId": "udgia-f18-rutina-seis-pasos",
+      "rationale": "La práctica desarrolla especialmente el paso de comprobación, pero gana claridad al conservar la rutina completa de seis pasos y señalar dónde ocurre la comprobación decisiva."
+    },
+    {
       "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
       "status": "exception",
       "justification": "La pieza es una plantilla copiable derivada del instrumento 02 de las Orientaciones: su contenido operativo es el bloque de declaración con ejemplo resuelto, y una figura duplicaría la tabla que la propia página ofrece (criterio P7 del proyecto).",
       "approvedBy": "Rubén García (responsable del proyecto), Ola 2",
       "approvedOn": "2026-08-30"
-    },
-    {
-      "path": "ia-educacion/practicas/comprobar-afirmacion/index.md",
-      "status": "reuse-planned",
-      "figureId": "udgia-f18-rutina-seis-pasos",
-      "rationale": "La práctica desarrolla especialmente el paso de comprobación, pero gana claridad al conservar la rutina completa de seis pasos y señalar dónde ocurre la comprobación decisiva."
     },
     {
       "path": "laboratorio/practicas/abp-con-ia/index.md",

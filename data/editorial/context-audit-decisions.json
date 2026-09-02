@@ -1441,6 +1441,24 @@
       "approved_at": "2026-08-24",
       "approval_scope": "lote 10 como borrador reversible y QA; sin autorización de publicación, push, merge, despliegue ni retirada definitiva",
       "application_link_map": "docs/editorial/lotes/2026-08-24-contexto-lote-10-applied-link-map.json"
+    },
+    "content/actividades/_index.md": {
+      "decision": "conservar",
+      "reason": "Portada breve de sección: explica qué son las actividades, que empiezan por un caso resuelto y que no envían datos.",
+      "issue_types": [],
+      "citations": []
+    },
+    "content/actividades/comparar-sugerencias/index.md": {
+      "decision": "conservar",
+      "reason": "La actividad empieza con el caso completo de Renata resuelto (párrafo, dos cambios, decisión y razón) antes de pedir nada; el marco (co-creación) se nombra al final con enlace.",
+      "issue_types": [],
+      "citations": []
+    },
+    "content/actividades/revisar-actividad/index.md": {
+      "decision": "conservar",
+      "reason": "La actividad empieza con el caso de la docente de primer semestre ya resuelto en tres frases y una ruptura marcada; el marco (alineación) se nombra al final con enlace.",
+      "issue_types": [],
+      "citations": []
     }
   }
 }

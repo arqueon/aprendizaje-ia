@@ -1,0 +1,171 @@
+{{- /* Actividad M6 · Lo que pides, lo que practican, lo que entregan. HTML nativo: sin JavaScript
+       funciona como hoja de trabajo (las tres sugerencias quedan visibles en pliegues); el guion
+       añade el ejemplo prellenado, las tarjetas propias, la sugerencia según la ruptura marcada y
+       el guardado voluntario. Ficha: docs/editorial/UDGIA-023-ficha-reescritura-b2-m6.md */ -}}
+<div class="alm-actividad alm-componente" data-udgia-component="actividad" data-actividad="m6" id="actividad-m6">
+
+<p class="alm-actividad__promesa">Describes una actividad tuya en tres frases y ves en qué punto se rompe: pides una cosa, practican otra o entregan otra. Terminas con la instrucción reescrita. Tarda unos doce minutos. No califica ni envía nada.</p>
+
+<section class="alm-actividad__paso" aria-labelledby="m6-p1">
+<span class="alm-kicker">Primero · Mira el ejemplo</span>
+<h2 id="m6-p1">Una docente prepara la clase de la semana próxima</h2>
+<p>Quiere que su grupo de primer semestre compare dos fuentes sobre un problema de agua. La instrucción que tenía escrita decía: <q>Lee dos resúmenes y elige cuál fuente es mejor. Puedes usar IA para ayudarte</q>. Puesta en tres frases, la actividad se ve así:</p>
+<div class="alm-actividad__tarjetas alm-actividad__tarjetas--tres">
+  <article class="alm-actividad__tarjeta">
+    <span class="alm-actividad__etiqueta">Pido</span>
+    <p>Que comparen dos fuentes y expliquen cuál sostiene mejor la afirmación.</p>
+  </article>
+  <article class="alm-actividad__tarjeta">
+    <span class="alm-actividad__etiqueta">Practican</span>
+    <p>Leen un resumen de cada fuente.</p>
+  </article>
+  <article class="alm-actividad__tarjeta alm-actividad__tarjeta--rota">
+    <span class="alm-actividad__etiqueta">Entregan</span>
+    <p>Eligen una opción de una lista.</p>
+    <p class="alm-actividad__marca">Aquí se rompe: para entregar no hizo falta comparar.</p>
+  </article>
+</div>
+<p><strong>El arreglo, en una línea:</strong> pedir una entrega en la que no se pueda acertar sin comparar. La instrucción reescrita quedó así: <q>Escribe una comparación de cinco líneas que cite las dos fuentes y diga cuál sostiene mejor la afirmación y por qué. Si usas IA, pídele objeciones a tu comparación, no la comparación</q>.</p>
+{{- with .Inner }}{{ . }}{{ end }}
+</section>
+
+<form class="alm-actividad__formulario" id="m6-form" autocomplete="off">
+<section class="alm-actividad__paso" aria-labelledby="m6-p2">
+<span class="alm-kicker">Segundo · Ahora la tuya</span>
+<h2 id="m6-p2">Tu actividad en tres frases</h2>
+<p class="alm-actividad__ayuda">¿Prefieres ver cómo se llena? <button type="button" class="alm-boton alm-boton--secundario" data-accion="ejemplo">Rellenar con el ejemplo de las dos fuentes</button></p>
+<div class="alm-campo">
+  <label for="m6-pido">Pido: ¿qué quieres que aprendan a hacer?</label>
+  <textarea id="m6-pido" name="pido" rows="2" placeholder="Escríbelo como algo que podrías ver en un trabajo. Por ejemplo: que comparen dos fuentes y expliquen cuál sostiene mejor la afirmación."></textarea>
+</div>
+<div class="alm-campo">
+  <label for="m6-practican">Practican: ¿qué hacen durante la actividad?</label>
+  <textarea id="m6-practican" name="practican" rows="2" placeholder="Lo que hacen de verdad en clase o en casa. Por ejemplo: leen un resumen de cada fuente."></textarea>
+</div>
+<div class="alm-campo">
+  <label for="m6-entregan">Entregan: ¿qué te dan al final?</label>
+  <textarea id="m6-entregan" name="entregan" rows="2" placeholder="No basta el formato: di qué tiene que hacer la persona para producirlo. Por ejemplo: eligen una opción de una lista."></textarea>
+</div>
+<div class="alm-campo">
+  <label for="m6-ayuda">¿Qué ayuda tienen (guía, compañeros, IA) y en qué momento? <span class="alm-campo__opcional">(opcional)</span></label>
+  <input id="m6-ayuda" name="ayuda" type="text" placeholder="Por ejemplo: pueden pedir a una IA que resuma las fuentes antes de leerlas.">
+</div>
+
+<div class="alm-actividad__propias" id="m6-propias" hidden>
+  <span class="alm-actividad__etiqueta">Así queda tu actividad</span>
+  <div class="alm-actividad__tarjetas alm-actividad__tarjetas--tres">
+    <article class="alm-actividad__tarjeta" data-tarjeta="pido"><span class="alm-actividad__etiqueta">Pido</span><p></p></article>
+    <article class="alm-actividad__tarjeta" data-tarjeta="practican"><span class="alm-actividad__etiqueta">Practican</span><p></p></article>
+    <article class="alm-actividad__tarjeta" data-tarjeta="entregan"><span class="alm-actividad__etiqueta">Entregan</span><p></p></article>
+  </div>
+</div>
+
+<p class="alm-actividad__pregunta">Lee las tres frases seguidas. ¿Cuál no encaja con las otras dos? Márcala tú: la herramienta no lee lo que escribes.</p>
+<div class="alm-opciones" role="radiogroup" aria-label="Dónde se rompe tu actividad">
+  <label class="alm-opcion"><input type="radio" name="ruptura" value="pido"> Pido</label>
+  <label class="alm-opcion"><input type="radio" name="ruptura" value="practican"> Practican</label>
+  <label class="alm-opcion"><input type="radio" name="ruptura" value="entregan"> Entregan</label>
+  <label class="alm-opcion"><input type="radio" name="ruptura" value="ninguna"> Las tres encajan</label>
+</div>
+</section>
+
+<section class="alm-actividad__paso" aria-labelledby="m6-p3">
+<span class="alm-kicker">Tercero · Un cambio para probar</span>
+<h2 id="m6-p3">Reescribe la instrucción</h2>
+<div class="alm-actividad__sugerencias" id="m6-sugerencias">
+  <details class="alm-actividad__sugerencia" data-sugerencia="pido"><summary>Si lo que no encaja es <strong>Pido</strong></summary><p>Escribe lo que pides como algo que podrías ver en la entrega. «Que entiendan» o «que reflexionen» no se ve; «que comparen y digan cuál sostiene mejor la afirmación» sí.</p></details>
+  <details class="alm-actividad__sugerencia" data-sugerencia="practican"><summary>Si lo que no encaja es <strong>Practican</strong></summary><p>Haz que practiquen exactamente lo que van a entregar, aunque sea en pequeño: si van a entregar una comparación, que comparen dos frases en clase antes.</p></details>
+  <details class="alm-actividad__sugerencia" data-sugerencia="entregan"><summary>Si lo que no encaja es <strong>Entregan</strong></summary><p>Pide una entrega en la que no se pueda acertar sin hacer lo que pediste. Una opción de una lista se acierta sin comparar; cinco líneas que citen las dos fuentes, no.</p></details>
+  <details class="alm-actividad__sugerencia" data-sugerencia="ninguna"><summary>Si <strong>las tres encajan</strong></summary><p>Revisa entonces la ayuda: si la IA o el resumen hacen justo la parte que pediste, la práctica y la entrega dejan de mostrarla. Pide a la ayuda objeciones, no el resultado.</p></details>
+</div>
+<div class="alm-actividad__antes-despues">
+  <div class="alm-campo">
+    <span class="alm-actividad__etiqueta">Antes</span>
+    <p class="alm-actividad__texto" id="m6-antes"><em>Lo que escribiste en «Pido» aparecerá aquí.</em></p>
+  </div>
+  <div class="alm-campo">
+    <label for="m6-despues">Después: tu instrucción reescrita</label>
+    <textarea id="m6-despues" name="despues" rows="3" placeholder="Escríbela como la leerá el grupo. Por ejemplo: escribe una comparación de cinco líneas que cite las dos fuentes y diga cuál sostiene mejor la afirmación y por qué."></textarea>
+  </div>
+  <div class="alm-campo">
+    <label for="m6-razon">Por qué la cambias, en una línea</label>
+    <input id="m6-razon" name="razon" type="text" placeholder="Por ejemplo: con una opción de lista no veo si compararon.">
+  </div>
+</div>
+<div class="alm-actividad__acciones">
+  <button type="button" class="alm-boton" data-accion="imprimir">Imprimir o guardar como PDF</button>
+  <button type="button" class="alm-boton alm-boton--secundario" data-accion="guardar">Guardar en este dispositivo</button>
+  <button type="button" class="alm-boton alm-boton--secundario" data-accion="borrar">Borrar lo guardado</button>
+  <span class="alm-actividad__estado" role="status" aria-live="polite"></span>
+</div>
+<p class="alm-actividad__ayuda">Nada sale de tu pantalla. Sólo se guarda en este dispositivo si pulsas «Guardar», y puedes borrarlo cuando quieras. Antes de usar la instrucción, pide a otra persona que la lea y te diga qué entiende que tiene que hacer.</p>
+</section>
+</form>
+
+<p class="alm-actividad__cierre">Lo que acabas de hacer tiene nombre: alinear lo que pides, lo que practican y lo que entregan. <a href="{{ "formacion-docente/taxonomia-bloom-diseno-inverso/" | relURL }}">Aquí se explica por qué importa y cómo seguir</a>. Para volver: <a href="{{ "ia-educacion/guias/profesorado/" | relURL }}">guía para profesorado</a>.</p>
+</div>
+
+<script>
+(function () {
+  var raiz = document.getElementById('actividad-m6');
+  if (!raiz) return;
+  var form = raiz.querySelector('#m6-form');
+  var CLAVE = 'udgia-actividad-m6';
+  var ejemplo = {
+    pido: 'Que comparen dos fuentes y expliquen cuál sostiene mejor la afirmación.',
+    practican: 'Leen un resumen de cada fuente.',
+    entregan: 'Eligen una opción de una lista.',
+    ayuda: 'Pueden pedir a una IA que resuma las fuentes antes de leerlas.',
+    ruptura: 'entregan',
+    despues: 'Escribe una comparación de cinco líneas que cite las dos fuentes y diga cuál sostiene mejor la afirmación y por qué. Si usas IA, pídele objeciones a tu comparación, no la comparación.',
+    razon: 'Con una opción de lista no veo si compararon.'
+  };
+  function campo(n) { return form.elements[n]; }
+  function valor(n) {
+    if (n === 'ruptura') { var m = form.querySelector('[name="ruptura"]:checked'); return m ? m.value : ''; }
+    return campo(n) ? (campo(n).value || '') : '';
+  }
+  function leer() { var d = {}; ['pido','practican','entregan','ayuda','ruptura','despues','razon'].forEach(function (n) { d[n] = valor(n); }); return d; }
+  function escribir(d) {
+    Object.keys(d).forEach(function (n) {
+      if (n === 'ruptura') { var r = form.querySelector('[name="ruptura"][value="' + d[n] + '"]'); if (r) r.checked = true; }
+      else if (campo(n)) campo(n).value = d[n] || '';
+    });
+    refrescar();
+  }
+  function refrescar() {
+    var propias = raiz.querySelector('#m6-propias');
+    var hay = false;
+    ['pido','practican','entregan'].forEach(function (n) {
+      var t = valor(n).trim(); if (t) hay = true;
+      var tarjeta = propias.querySelector('[data-tarjeta="' + n + '"]');
+      tarjeta.querySelector('p').textContent = t || '…';
+      tarjeta.classList.toggle('alm-actividad__tarjeta--rota', valor('ruptura') === n);
+    });
+    propias.hidden = !hay;
+    var antes = raiz.querySelector('#m6-antes');
+    if (valor('pido').trim()) antes.textContent = valor('pido').trim();
+    else antes.innerHTML = '<em>Lo que escribiste en «Pido» aparecerá aquí.</em>';
+    var rup = valor('ruptura');
+    raiz.querySelectorAll('[data-sugerencia]').forEach(function (d) {
+      var mia = d.getAttribute('data-sugerencia') === rup;
+      d.open = mia;
+      d.classList.toggle('alm-actividad__sugerencia--activa', mia);
+    });
+  }
+  function estado(msg) { var s = raiz.querySelector('.alm-actividad__estado'); s.textContent = msg; setTimeout(function () { if (s.textContent === msg) s.textContent = ''; }, 4000); }
+  form.addEventListener('input', refrescar);
+  form.addEventListener('change', refrescar);
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
+  raiz.addEventListener('click', function (e) {
+    var b = e.target.closest('[data-accion]'); if (!b) return;
+    var a = b.getAttribute('data-accion');
+    if (a === 'ejemplo') { escribir(ejemplo); estado('Ejemplo cargado. Cambia lo que quieras.'); campo('pido').focus(); }
+    if (a === 'imprimir') { window.print(); }
+    if (a === 'guardar') { try { localStorage.setItem(CLAVE, JSON.stringify(leer())); estado('Guardado en este dispositivo.'); } catch (err) { estado('Este navegador no permite guardar aquí.'); } }
+    if (a === 'borrar') { try { localStorage.removeItem(CLAVE); } catch (err) {} form.reset(); refrescar(); estado('Borrado.'); }
+  });
+  try { var previo = localStorage.getItem(CLAVE); if (previo) { escribir(JSON.parse(previo)); estado('Recuperé lo que guardaste en este dispositivo.'); } } catch (err) {}
+  refrescar();
+})();
+</script>

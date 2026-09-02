@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Lo que pide, lo que practican, lo que entregan: dónde se rompe una actividad</title>
+  <desc id="desc">Tres tarjetas en fila con el caso de una docente que quiere que su grupo compare dos fuentes: pide que comparen y expliquen cuál sostiene mejor la afirmación; practican leyendo un resumen de cada fuente; entregan una opción elegida de una lista. La tercera tarjeta está marcada como el punto de ruptura, porque para entregar no hizo falta comparar. Debajo, una segunda fila muestra el arreglo: pedir una comparación de cinco líneas que cite las dos fuentes, con lo que practicar y entregar vuelven a coincidir con lo que se pide.</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Material editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
+  <style>
+    .fig-canvas{fill:var(--udg-c-surface-alt,#ece9e1)}
+    .paper{fill:var(--udg-c-surface,#ffffff);stroke:var(--udg-c-line,#c9c5bb);stroke-width:1.5}
+    .paper-rota{fill:var(--udg-c-risk-tint,#f8e7ea);stroke:var(--udg-c-risk,#8b2635);stroke-width:2}
+    .paper-bien{fill:var(--udg-c-good-tint,#eceddc);stroke:var(--udg-c-good,#536326);stroke-width:1.5}
+    .ink{fill:var(--udg-c-ink,#18223c)}.muted{fill:var(--udg-c-muted,#525d70)}
+    .primary{fill:var(--udg-c-primary,#34508c)}.risk{fill:var(--udg-c-risk,#8b2635)}.good{fill:var(--udg-c-good,#536326)}
+    .st-primary{fill:none;stroke:var(--udg-c-primary,#34508c);stroke-width:2.5;stroke-linecap:round}
+    .st-good{fill:none;stroke:var(--udg-c-good,#536326);stroke-width:2.5;stroke-linecap:round}
+    .t1{font:600 26px Newsreader,Georgia,serif}.t2{font:700 15px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.2px}
+    .body{font:400 16px Inter,Arial,sans-serif}.small{font:600 14px Inter,Arial,sans-serif}.fila{font:700 13px "Archivo Narrow","Arial Narrow",sans-serif;letter-spacing:1.5px}
+  </style>
+  <rect class="fig-canvas" width="960" height="600"/>
+  <text class="ink t1" x="480" y="46" text-anchor="middle">Una actividad se rompe donde las tres frases dejan de coincidir</text>
+  <text class="muted body" x="480" y="72" text-anchor="middle">Caso: una docente quiere que su grupo compare dos fuentes sobre un problema de agua.</text>
+
+  <!-- Fila 1: versión inicial -->
+  <text class="risk fila" x="40" y="112">VERSIÓN INICIAL · «LEE DOS RESÚMENES Y ELIGE CUÁL FUENTE ES MEJOR. PUEDES USAR IA»</text>
+  <g transform="translate(40 126)">
+    <rect class="paper" width="270" height="150" rx="10"/>
+    <text class="primary t2" x="18" y="30">PIDO</text>
+    <text class="ink body" x="18" y="62">Que comparen dos fuentes</text>
+    <text class="ink body" x="18" y="84">y expliquen cuál sostiene</text>
+    <text class="ink body" x="18" y="106">mejor la afirmación.</text>
+  </g>
+  <path class="st-primary" d="M318 201h32"/><path class="primary" d="M356 201l-9-6v12z"/>
+  <g transform="translate(365 126)">
+    <rect class="paper" width="270" height="150" rx="10"/>
+    <text class="primary t2" x="18" y="30">PRACTICAN</text>
+    <text class="ink body" x="18" y="62">Leen un resumen</text>
+    <text class="ink body" x="18" y="84">de cada fuente.</text>
+  </g>
+  <path class="st-primary" d="M643 201h32"/><path class="primary" d="M681 201l-9-6v12z"/>
+  <g transform="translate(690 126)">
+    <rect class="paper-rota" width="230" height="150" rx="10"/>
+    <text class="risk t2" x="18" y="30">ENTREGAN</text>
+    <text class="ink body" x="18" y="62">Eligen una opción</text>
+    <text class="ink body" x="18" y="84">de una lista.</text>
+    <text class="risk small" x="18" y="118">Aquí se rompe: para</text>
+    <text class="risk small" x="18" y="137">entregar no hizo falta comparar.</text>
+  </g>
+
+  <!-- Flecha del arreglo -->
+  <path class="st-good" d="M805 290v34"/><path class="good" d="M805 330l-6-9h12z"/>
+  <text class="good small" x="790" y="316" text-anchor="end">cambia sólo la entrega</text>
+
+  <!-- Fila 2: versión reescrita -->
+  <text class="good fila" x="40" y="360">INSTRUCCIÓN REESCRITA · «ESCRIBE UNA COMPARACIÓN DE CINCO LÍNEAS QUE CITE LAS DOS FUENTES…»</text>
+  <g transform="translate(40 374)">
+    <rect class="paper" width="270" height="150" rx="10"/>
+    <text class="primary t2" x="18" y="30">PIDO</text>
+    <text class="ink body" x="18" y="62">Que comparen dos fuentes</text>
+    <text class="ink body" x="18" y="84">y expliquen cuál sostiene</text>
+    <text class="ink body" x="18" y="106">mejor la afirmación.</text>
+  </g>
+  <path class="st-primary" d="M318 449h32"/><path class="primary" d="M356 449l-9-6v12z"/>
+  <g transform="translate(365 374)">
+    <rect class="paper" width="270" height="150" rx="10"/>
+    <text class="primary t2" x="18" y="30">PRACTICAN</text>
+    <text class="ink body" x="18" y="62">Comparan dos frases</text>
+    <text class="ink body" x="18" y="84">de cada fuente en clase</text>
+    <text class="ink body" x="18" y="106">y piden objeciones a la IA.</text>
+  </g>
+  <path class="st-primary" d="M643 449h32"/><path class="primary" d="M681 449l-9-6v12z"/>
+  <g transform="translate(690 374)">
+    <rect class="paper-bien" width="230" height="150" rx="10"/>
+    <text class="good t2" x="18" y="30">ENTREGAN</text>
+    <text class="ink body" x="18" y="62">Cinco líneas que citan</text>
+    <text class="ink body" x="18" y="84">las dos fuentes y dicen</text>
+    <text class="ink body" x="18" y="106">cuál sostiene mejor y por qué.</text>
+    <text class="good small" x="18" y="137">Ahora se ve la comparación.</text>
+  </g>
+  <text class="muted body" x="480" y="562" text-anchor="middle">Lo que entregan es lo único que puedes mirar.</text>
+  <text class="muted body" x="480" y="584" text-anchor="middle">Si se puede acertar sin hacer lo que pediste, la actividad no muestra ese aprendizaje.</text>
+</svg>

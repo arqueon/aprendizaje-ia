@@ -237,5 +237,33 @@
     "authorization_scope": "project-editorial",
     "institutional_policy_status": "not-an-institutional-ruling",
     "publication_authorized": true
+  },
+  "udgia-f20-pide-practica-entrega": {
+    "title": "Lo que pide, lo que practican, lo que entregan: dónde se rompe una actividad",
+    "alt": "Dos filas de tres tarjetas con el caso de una docente que quiere que su grupo compare dos fuentes. Versión inicial: pide que comparen y expliquen cuál sostiene mejor la afirmación; practican leyendo un resumen de cada fuente; entregan una opción elegida de una lista, tarjeta marcada como ruptura porque para entregar no hizo falta comparar. Instrucción reescrita: practican comparando dos frases de cada fuente y pidiendo objeciones a la IA; entregan cinco líneas que citan las dos fuentes y dicen cuál sostiene mejor y por qué, con lo que la comparación vuelve a verse.",
+    "caption": "Lo que entregan es lo único que puedes mirar: si se puede acertar sin hacer lo que pediste, la actividad no muestra ese aprendizaje.",
+    "source_version": "sitio",
+    "source_revision": "26938b29f8e0f1abe2f6725b15fd879e3e2969cc",
+    "source_sha256": "1fdc121fb303b94a943c1429f261d719c8f6b24810ee78e59716f2a01dd8f56c",
+    "variant_sha256": "1fdc121fb303b94a943c1429f261d719c8f6b24810ee78e59716f2a01dd8f56c",
+    "storage": "shared",
+    "src": "figures/pide-practica-entrega.svg",
+    "src_mobile": "figures/pide-practica-entrega-mobile.svg",
+    "reuse_key": "pide-practica-entrega",
+    "reusable_contexts": [
+      "guía para profesorado",
+      "curso Diseño inverso y cocreación con IA",
+      "materiales de taller docente"
+    ],
+    "mobile_variant_sha256": "f14c13e2177eeb0890643086d2365d9d579187312bb2256251c852249289a187",
+    "adaptation": "hugo-identidad-c",
+    "provenance_kind": "original-synthesis",
+    "source_basis": "Caso de la docente de primer semestre del lote 2026-08-23 (rediseño de revisar-actividad) y ficha UDGIA-023; síntesis original del propio sitio",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+    "editorial_scope": "Material editorial del proyecto; no constituye un dictamen institucional.",
+    "authorization_scope": "project-editorial",
+    "institutional_policy_status": "not-an-institutional-ruling",
+    "publication_authorized": true
   }
 }

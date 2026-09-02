@@ -45,9 +45,10 @@ M6) quedan aprobadas **en su función y recorrido**. El VoBo no cubre lo que sig
    - SAMR e ICAP dan para **dos figuras** bien construidas, una por marco, en lugar de la
      figura única *Dos lentes*; la figura de M6 se rehace con la misma regla de escenas
      (campo, evidencia, consecuencia) que rige el resto de figuras;
-   - M6 debe volver al sitio: el commit `448c8a6` (2026-08-26) eliminó su runtime y su
-     enlace en la guía de profesorado sin justificación registrada; el prototipo vive en
-     `docs/editorial/evidence/udgia-021/prototipos/revisor-alineacion-m6/`.
+   - M6 vuelve al sitio en versión nueva. Su retirada del 2026-08-23 sí quedó registrada
+     (`docs/editorial/lotes/2026-08-23-rediseño-revisar-actividad.md`: «no se entiende y su
+     diseño se separa del sitio»; tres prototipos en `sketches/003-ejercicio-alineacion/`,
+     con *Elegir y reescribir* como candidata); la ficha nueva recoge esa recomendación.
    La producción sigue el flujo de ficha → prototipo → lectura humana → VoBo específico.
 
 4. **Bloom/diseño inverso no abrió** en la lectura. En el mismo momento la página
@@ -59,6 +60,6 @@ M6) quedan aprobadas **en su función y recorrido**. El VoBo no cubre lo que sig
 
 - [ ] PR de figuras y tema (observación 1) con QA de CI en verde.
 - [ ] Ficha de reescritura de B2 y M6 y de las dos figuras SAMR/ICAP (observación 3).
-- [ ] Restaurar M6 en `static/actividades/revisar-actividad/` y su enlace en la guía de
-      profesorado (puede ir junto con la reescritura).
+- [ ] Publicar la M6 nueva en `/actividades/revisar-actividad/` y devolver el enlace a la
+      guía de profesorado (retirada documentada el 2026-08-23).
 - [ ] Barrido general de portadas (observación 2), ya en el backlog del rediseño visual.

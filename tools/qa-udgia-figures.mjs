@@ -112,6 +112,21 @@ const localTargets = {
       noticeIncludes: null,
     },
   },
+  // Figura de la actividad M6 (UDGIA-023, 2026-09-02): pido · practican · entregan con
+  // el caso de las dos fuentes; síntesis original del sitio anclada a la revisión de main.
+  'udgia-f20-pide-practica-entrega': {
+    page: 'content/actividades/revisar-actividad/index.md',
+    svg: 'assets/figures/pide-practica-entrega.svg',
+    mobileSvg: 'assets/figures/pide-practica-entrega-mobile.svg',
+    fallbackSignal: '| Entregan |',
+    expects: {
+      reuseKey: 'pide-practica-entrega',
+      sourceVersion: 'sitio',
+      sourceRevision: '26938b29f8e0f1abe2f6725b15fd879e3e2969cc',
+      sourceSha256: '1fdc121fb303b94a943c1429f261d719c8f6b24810ee78e59716f2a01dd8f56c',
+      noticeIncludes: null,
+    },
+  },
 };
 const failures = [];
 

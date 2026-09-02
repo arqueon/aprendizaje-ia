@@ -3,9 +3,9 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "724ff7bdfa6181e0f95402a46bc525aac39aec27e8ad3383f7e756632ee97afa",
+  "sourceInventorySha256": "b859daf0f56ca2127d870e8f1156c2d15600906b88517e7a93c7f8e183f76fd6",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
-  "classificationSourceSha256": "c068db2f583917ebe5041dfcf5577de1ef3f20ba58d3ce2f2ce6db9827447f58",
+  "classificationSourceSha256": "f5e806e9a4df9f35b687678663fa21eafd6f7bea2180464b1158d74d371c9577",
   "regeneratedBy": "npm run content:learning-classifications",
   "provenance": {
     "method": "Cruce por ruta exacta entre el inventario Hugo y la fuente clasificatoria canónica local.",
@@ -31,27 +31,27 @@
       "formacion-docente/diseno-inverso-cocreacion-ia/13-autoevaluacion-final/index.md"
     ]
   },
-  "classifiedPageCount": 200,
+  "classifiedPageCount": 203,
   "classificationCounts": {
     "apoyo-candidato": 40,
-    "banco-de-practicas": 13,
+    "banco-de-practicas": 15,
     "banco-ejemplos-disciplinarios": 27,
     "fuera-del-recorrido-inicial": 5,
-    "navegacion": 30,
+    "navegacion": 31,
     "nucleo-candidato": 10,
     "referencia-en-cuarentena": 3,
     "referencia-opcional": 72
   },
   "actionCounts": {
     "conservar-como-entorno-o-demostracion": 2,
-    "conservar-como-navegacion": 29,
+    "conservar-como-navegacion": 30,
     "conservar-como-profundizacion": 8,
     "conservar-fuera-del-recorrido-obligatorio": 28,
     "fusionar-o-desduplicar": 5,
     "no-incorporar-al-curso": 3,
     "preservar-como-ejemplo-no-obligatorio": 27,
     "reescribir-antes-de-enlazar": 6,
-    "reutilizar-con-ajustes": 23,
+    "reutilizar-con-ajustes": 25,
     "revisar-contra-bloom-e-icap": 7,
     "revisar-en-fase-editorial": 54,
     "verificar-vigencia-antes-de-enlazar": 8
@@ -80,6 +80,46 @@
       "modulos_posibles": [],
       "rutas": [],
       "razon": "No se identifico una funcion directa en la secuencia de resultados y evidencias."
+    },
+    {
+      "path": "actividades/_index.md",
+      "route": "/actividades/",
+      "title": "Actividades",
+      "kind": "section",
+      "words": 43,
+      "rol_en_el_curso": "navegacion",
+      "accion_editorial": "conservar-como-navegacion",
+      "modulos_posibles": [],
+      "rutas": [],
+      "razon": "Portada de la sección de actividades; organiza el acceso y no constituye por sí sola una actividad ni una evidencia del curso."
+    },
+    {
+      "path": "actividades/comparar-sugerencias/index.md",
+      "route": "/actividades/comparar-sugerencias/",
+      "title": "Dos cambios para tu texto: ¿cuál aceptas?",
+      "kind": "page",
+      "words": 2,
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "estudiantado"
+      ],
+      "razon": "Actividad B2 reescrita (UDGIA-023): decidir qué hacer con dos cambios propuestos a un párrafo propio y terminar con el párrafo revisado y una razón por cambio; sin envío de datos ni cuenta."
+    },
+    {
+      "path": "actividades/revisar-actividad/index.md",
+      "route": "/actividades/revisar-actividad/",
+      "title": "Lo que pides, lo que practican, lo que entregan: ¿es lo mismo?",
+      "kind": "page",
+      "words": 81,
+      "rol_en_el_curso": "banco-de-practicas",
+      "accion_editorial": "reutilizar-con-ajustes",
+      "modulos_posibles": [],
+      "rutas": [
+        "profesorado"
+      ],
+      "razon": "Actividad M6 reescrita (UDGIA-023): describir una actividad propia en tres frases (pido, practican, entregan), marcar a mano dónde se rompe y reescribir la instrucción con su razón."
     },
     {
       "path": "areas/digital/_index.md",
@@ -1021,7 +1061,7 @@
       "route": "/ia-educacion/guias/estudiantes/",
       "title": "Laboratorio guiado para decidir antes de entregar",
       "kind": "page",
-      "words": 308,
+      "words": 329,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1120,7 +1160,7 @@
       "route": "/ia-educacion/guias/profesorado/",
       "title": "Diseñar actividades y observar el aprendizaje",
       "kind": "page",
-      "words": 832,
+      "words": 865,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
