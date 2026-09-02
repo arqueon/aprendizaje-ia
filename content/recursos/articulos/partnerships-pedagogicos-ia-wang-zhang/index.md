@@ -40,9 +40,7 @@ tipoDocumento: "Artículo de investigación (acceso abierto, CC BY 4.0)"
 
 {{< recurso-info >}}
 
-{{< lead >}}
-¿Qué pasa con el aprendizaje cuando el estudiante deja de ver a la IA como una herramienta y comienza a tratarla como un compañero intelectual? Wang y Zhang ofrecen una respuesta empírica que desarma una de las preocupaciones más extendidas en la docencia universitaria: la idea de que delegar tareas cognitivas a la IA erosiona necesariamente la profundidad del aprendizaje.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes preocupados por que el estudiantado «delegue» tareas a la IA y deje de pensar, y que quieren saber qué muestra un estudio grande sobre esa preocupación." haras="Vas a entender que, según Wang y Zhang (912 estudiantes en China, Europa y Estados Unidos), cuando el estudiante trata a la IA como socio intelectual y no como herramienta se activan a la vez la vigilancia crítica y la delegación, y que el beneficio aparece solo con un uso exigente y sostenido, no con encargos casuales." tendras="Cuatro cambios para tus actividades (por ejemplo, pasar de «usa ChatGPT para…» a «trabaja con la IA para…, contrasta con… y justifica por qué su salida no responde a…») y las condiciones bajo las que el hallazgo no aplica." tarda="Diez minutos de lectura." ejemplo="Empieza por la pregunta del estudio: qué pasa con el aprendizaje cuando el estudiante deja de ver a la IA como herramienta y la trata como compañero intelectual; el primer hallazgo trae los datos (β=0,360 y 0,371)." >}}
 
 ## Por qué importa este artículo
 
@@ -84,7 +82,7 @@ El estudio ofrece una agenda concreta para el rediseño didáctico que conecta d
 
 **Encuadrar la actividad como alianza, no como uso de herramienta.** La diferencia es lingüística pero también estructural: las consignas que dicen "usa ChatGPT para…" producen consumo pasivo; las que dicen "trabaja con la IA para…, contrasta con…, justifica por qué su salida no responde a…" producen partnership. Nuestra actividad propuesta de [debate socrático con IA como interlocutor]({{< ref "/laboratorio/practicas/debate-socratico-con-ia" >}}) está diseñada en ese registro y los hallazgos de Wang y Zhang explican por qué ese encuadre puede funcionar.
 
-**Diseñar evaluaciones que premien el proceso de la alianza, no solo el producto.** Esto refuerza los nuevos marcos expuestos en [la nueva era de la evaluación del DEC]({{< ref "/recursos/articulos/next-era-assessment-dec" >}}): si el aprendizaje transformador emerge de la calidad del partnership, la evaluación tiene que mirar precisamente eso — cómo se distribuyeron las tareas, qué decisiones de delegación se tomaron, qué se verificó y por qué.
+**Diseñar evaluaciones que premien el proceso de la alianza, no solo el trabajo entregado.** Esto refuerza los nuevos marcos expuestos en [la nueva era de la evaluación del DEC]({{< ref "/recursos/articulos/next-era-assessment-dec" >}}): si el aprendizaje transformador emerge de la calidad del partnership, la evaluación tiene que mirar precisamente eso — cómo se distribuyeron las tareas, qué decisiones de delegación se tomaron, qué se verificó y por qué.
 
 **Entrenar dos competencias en paralelo, no una sola.** No basta con enseñar a "ser críticos con la IA". Hay que enseñar también a delegar bien: qué entregar a la IA, cuándo, con qué nivel de instrucción, qué retener para el juicio humano. La [guía de ingeniería de prompts]({{< ref "/ia-educacion/guias/ingenieria-de-prompts-para-docentes" >}}) cubre la dimensión técnica; la dimensión metacognitiva —decidir qué delega uno y qué no— está aún subdesarrollada en nuestra formación docente.
 

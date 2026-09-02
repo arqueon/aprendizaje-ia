@@ -84,7 +84,7 @@ La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo q
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="2" titulo="Conservar la dirección epistémica" icono="compass" color="#34508c" >}}
-- Mantener el criterio propio como referencia estable, no negociable con la salida del modelo (Yang & Ma, 2025).
+- Mantener el criterio propio (por ejemplo, «la tesis debe responder a la pregunta del curso») como referencia estable, sin negociarlo con la salida del modelo (Yang & Ma, 2025).
 - Decidir qué preguntar, qué aceptar, qué descartar y qué transformar.
 - Resistir la **subyugación algorítmica**: la deriva en la que el humano deja de dirigir y solo recibe y valida lo que el sistema produce.
 {{< /infografia-seccion >}}

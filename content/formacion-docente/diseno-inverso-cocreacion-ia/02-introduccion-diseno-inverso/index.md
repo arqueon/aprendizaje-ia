@@ -193,6 +193,7 @@ El diseño inverso no es una receta, sino una brújula: cada decisión de planea
 La siguiente lección añade una condición para trabajar con IA dentro de ese orden: saber operarla, examinar lo que devuelve y cocrear sin ceder la decisión.
 
 {{< referencias >}}
+- Biggs, J. (1996). Enhancing teaching through constructive alignment. *Higher Education, 32*(3), 347–364. <https://doi.org/10.1007/BF00138871>
 - Wiggins, G., y McTighe, J. (2005). *Understanding by Design* (2.ª ed.). ASCD.
 {{< /referencias >}}
 

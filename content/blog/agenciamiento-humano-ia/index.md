@@ -16,17 +16,17 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La discusión cotidiana sobre IA en educación oscila entre dos metáforas igualmente pobres. Una sostiene que la IA es una herramienta neutra, como una calculadora más sofisticada. Otra advierte que la IA reemplazará al humano, en una imagen casi siempre apocalíptica. Ambas metáforas comparten un mismo defecto: tratan al humano y a la IA como entidades separadas que se relacionan desde fuera. Lo que está ocurriendo es otra cosa.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ya usan IA para preparar clases o ven a su estudiantado escribir con ella, y dudan entre llamarla herramienta o amenaza." haras="Vas a entender que el plan de clase o el ensayo hecho con IA sale de la pareja persona-modelo, con partes que ninguno de los dos habría producido solo, y que eso cambia qué se enseña, cómo se declara la autoría y qué mide una rúbrica." tendras="Tres preguntas para tu próxima actividad con IA («¿qué aportó cada parte?», «¿qué se aceptó y qué se descartó del modelo?», «¿quién mantuvo la dirección del trabajo?») y una forma de pedir la declaración de uso como descripción de cómo se hizo el texto (dos líneas al final del trabajo)." tarda="Cinco minutos de lectura." ejemplo="Empieza con un docente que pide a Claude un plan de sesión y recibe uno que él no habría escrito así; ese caso abre la página." >}}
+
+Un docente pide a Claude un plan de sesión y recibe una secuencia que él no habría escrito así: conserva dos partes, descarta una y reescribe el cierre. Para nombrar lo que pasó ahí, la conversación cotidiana ofrece dos metáforas igualmente pobres. Una sostiene que la IA es una herramienta neutra, como una calculadora más sofisticada; otra advierte que la IA reemplazará al humano, en una imagen casi siempre apocalíptica. Ambas tratan al docente y al modelo como entidades separadas que se relacionan desde fuera, y por eso ninguna describe ese plan de sesión. Este ensayo propone una tercera lectura y termina con lo que cambia en el aula.
 
 ## La metáfora instrumental no alcanza
 
 Cuando alguien dice "la IA es solo una herramienta", está usando una metáfora muy específica: la del instrumento que prolonga la voluntad humana sin alterarla. Un martillo no cambia al carpintero; lo extiende. Una calculadora no transforma al matemático; lo libera de operaciones tediosas.
 
-La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría escrito así. La IA propone estructuras, ejemplos y secuencias que él descarta o conserva, pero el resultado final no es ni completamente suyo ni completamente del modelo. Es producto de un acoplamiento.
+La metáfora funciona para algunos objetos (el martillo, la calculadora) y falla con la IA generativa. Cuando un docente usa Claude para planear una sesión, obtiene algo distinto de una versión más rápida de su propio plan original: un plan que él no habría escrito así. La IA propone estructuras, ejemplos y secuencias que él descarta o conserva, y el resultado final pertenece a los dos a la vez. Es producto de un acoplamiento (el docente decide, el modelo propone).
 
-Lo mismo ocurre con un estudiante que escribe con asistencia de IA. El texto final no es lo que él habría escrito sin el modelo, ni lo que el modelo escribió sin él. Es un objeto nuevo que requiere a ambos para existir.
+Lo mismo ocurre con un estudiante que escribe con asistencia de IA. El texto final difiere de lo que él habría escrito sin el modelo y de lo que el modelo escribió sin él: es un objeto nuevo que requiere a ambos para existir.
 
 ## Por qué la metáfora del reemplazo tampoco alcanza
 
@@ -38,21 +38,21 @@ La realidad observable contradice esta lectura. Un docente que usa IA en su prá
 
 Deleuze y Guattari (1987) propusieron, hace décadas, un concepto que sirve mejor para pensar lo que ocurre con la IA: el *agenciamiento* o *ensamblaje* (en francés, *agencement*). Un agenciamiento es una conexión entre elementos heterogéneos —humanos, no humanos, máquinas, signos, prácticas— que produce algo que ninguno de los elementos produciría por separado.
 
-La pareja persona-IA no es un humano usando una máquina, ni una máquina amenazando a un humano. Es un ensamblaje productivo que constituye, en su funcionamiento, una entidad nueva con capacidades distintas a las de sus partes. El plan de clase mejor que el docente solo escribiría, el ensayo más complejo que el estudiante solo redactaría, la investigación más profunda que el académico solo conduciría: estos no son productos del humano ni de la IA, sino del agenciamiento.
+La pareja persona-IA es un ensamblaje productivo que constituye, en su funcionamiento, una entidad nueva con capacidades distintas a las de sus partes. El plan de clase mejor que el docente solo escribiría, el ensayo más complejo que el estudiante solo redactaría, la investigación más profunda que el académico solo conduciría: los tres salen del agenciamiento, con partes de ambos que ya no se dejan separar.
 
 Pensar así tiene consecuencias prácticas que la metáfora instrumental no permite ver.
 
 ## Tres consecuencias para la docencia
 
-**El estudiante no "usa" IA: aprende a constituir agenciamientos.** Cuando esto se reconoce, las prácticas pedagógicas cambian. Lo que se enseña no es a operar herramientas, sino a sostener acoplamientos productivos: saber qué aporta cada parte, dónde están las tensiones, cómo se mantiene el control sobre el resultado. Es competencia profesional emergente, no opcional.
+**El estudiante no "usa" IA: aprende a constituir agenciamientos.** Cuando esto se reconoce, las prácticas pedagógicas cambian. Lo que se enseña es a sostener acoplamientos productivos: saber qué aporta cada parte, dónde están las tensiones, cómo se mantiene el control sobre el resultado (por ejemplo, pedir que cada estudiante marque en su borrador qué frases vienen del modelo y por qué las conservó). Operar herramientas es lo de menos; sostener el acoplamiento es competencia profesional emergente, no opcional.
 
-**La autoría se redistribuye, pero no se disuelve.** Un texto producido en agenciamiento persona-IA no carece de autor; tiene una autoría compleja que conviene explicitar en lugar de ocultar. La transparencia sobre el uso de IA, que en la metáfora instrumental aparece como honestidad ética, en la lectura del agenciamiento aparece como precisión descriptiva. Decir cómo se hizo el texto no es solo una norma; es una representación correcta de lo que el texto es.
+**La autoría se redistribuye, pero no se disuelve.** Un texto producido en agenciamiento persona-IA no carece de autor; tiene una autoría compleja que conviene explicitar en lugar de ocultar. La transparencia sobre el uso de IA, que en la metáfora instrumental aparece como honestidad ética, en la lectura del agenciamiento aparece como precisión descriptiva. Decir cómo se hizo el texto es, antes que una norma, una representación correcta de lo que el texto es; bastan dos líneas al final del trabajo («el modelo propuso la estructura; yo escribí los ejemplos y corregí la tesis»).
 
-**La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto pierde lo central. La rúbrica útil mide la calidad del agenciamiento: cómo se distribuyó el trabajo, cómo se sostuvo el control epistémico, qué se aceptó y qué se descartó del modelo, qué decisiones se tomaron en la zona donde el humano y la IA produjeron tensión.
+**La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto (el ensayo entregado) pierde lo central. La rúbrica útil mide la calidad del agenciamiento: cómo se distribuyó el trabajo, cómo se sostuvo el control epistémico, qué se aceptó y qué se descartó del modelo, qué decisiones se tomaron en la zona donde el humano y la IA produjeron tensión.
 
 ## Una posición sobre la docencia
 
-Educar en la era de la IA no es enseñar a usar herramientas ni preparar a los estudiantes para "no ser reemplazados". Es enseñar a constituir agenciamientos productivos: parejas persona-IA donde el humano mantiene la dirección epistémica y el modelo amplifica capacidades específicas. Esa enseñanza requiere un docente que practique lo mismo que pide. Y requiere una institución que reconozca que el cambio es estructural, no decorativo.
+Educar en la era de la IA es enseñar a constituir agenciamientos productivos: parejas persona-IA donde el humano mantiene la dirección epistémica y el modelo amplifica capacidades específicas. Eso va más allá de enseñar a usar herramientas y de preparar a los estudiantes para «no ser reemplazados». Esa enseñanza requiere un docente que practique lo mismo que pide. Y requiere una institución que reconozca que el cambio es estructural, no decorativo.
 
 ## Lecturas relacionadas
 

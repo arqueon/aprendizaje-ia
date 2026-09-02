@@ -10,9 +10,9 @@ showHero: true
 description: "Reseña del editorial de la Fuerza de Tarea de IA de Organization Science: 42% más manuscritos desde ChatGPT, calidad de escritura en descenso y un sistema de revisión por pares en tensión estructural."
 ---
 
-{{< lead >}}
+{{< contrato modo="lectura" quien="Docentes e investigadores que publican, revisan o dirigen tesis, y que ven crecer el volumen de textos hechos con IA en sus cursos y en sus revistas." haras="Vas a entender el hallazgo del editorial de Organization Science (Gartenberg et al., 2026): desde ChatGPT la revista recibe 42% más manuscritos, los textos con mucha IA se leen peor y se rechazan más, y el 30% de las revisiones también lleva IA; el sistema produce más, y peor." tendras="Cuatro cambios para tu evaluación tomados de las recomendaciones del editorial (rúbricas que premian decisiones, declaración de uso de IA en cada entrega, momentos de trabajo sin IA, menos entregables sueltos) y una pregunta para tu grupo: «¿dónde estás produciendo más sin producir mejor?»." tarda="Ocho minutos de lectura." ejemplo="Empieza con los datos del propio editorial: 6,957 manuscritos y 10,389 informes de revisión de la revista entre 2020 y 2026, analizados con la herramienta Pangram." >}}
+
 Una pregunta urgente atraviesa hoy a la universidad investigadora: si la IA generativa abarata el costo de escribir un manuscrito, ¿qué le ocurre al sistema construido sobre el supuesto de que escribir era costoso? La Fuerza de Tarea de IA de *Organization Science* (Gartenberg, Hasan, Murray & Pierce, 2026) documenta, con datos propios de la revista, una respuesta inquietante: el sistema produce **más** investigación, no **mejor**.
-{{< /lead >}}
 
 ## La pieza reseñada
 
@@ -28,7 +28,7 @@ El indicador que más se deteriora es legibilidad: los manuscritos con uso susta
 
 ### El espejo: revisores que también usan IA
 
-Más del **30% de los informes de revisión** presenta uso detectable de IA. Estos informes tienden a ser más estrechos en alcance, privilegian la teoría sobre los datos y la evidencia empírica, y —dato significativo— **influyen poco en la decisión editorial final**. Es decir: editores experimentados ya están aprendiendo, de manera tácita, a descontar las revisiones generadas por IA.
+Más del **30% de los informes de revisión** presenta uso detectable de IA. Estos informes tienden a ser más estrechos en alcance, privilegian la teoría sobre los datos y la evidencia empírica (las tablas y los resultados del manuscrito), y —dato significativo— **influyen poco en la decisión editorial final**. Es decir: editores experimentados ya están aprendiendo, de manera tácita, a descontar las revisiones generadas por IA.
 
 ### Incentivos institucionales como causa
 
@@ -44,27 +44,27 @@ Una de las defensas más recurrentes para integrar IA en la formación universit
 
 ### 2. La paradoja del incentivo: qué medimos, eso obtenemos
 
-El hallazgo de mayor adopción de IA en instituciones con métricas competitivas conecta con un problema que la universidad ya conocía antes de 2022: cuando un sistema premia el conteo, los actores optimizan el conteo. La IA generativa simplemente reduce el costo marginal de producir un objeto contable —un manuscrito, un informe, una asignación, una tesis—. En docencia, este patrón se repite en miniatura cada semestre: si la rúbrica premia la entrega del producto y no el proceso, la IA optimiza la entrega del producto. El estudio refuerza la línea argumental sostenida en la [paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) y en el debate de [la nueva era de la evaluación en IA](/recursos/articulos/next-era-assessment-dec/): rediseñar la evaluación es condición previa, no posterior, a la integración de IA.
+El hallazgo de mayor adopción de IA en instituciones con métricas competitivas conecta con un problema que la universidad ya conocía antes de 2022: cuando un sistema premia el conteo, los actores optimizan el conteo. La IA generativa simplemente reduce el costo marginal de producir un objeto contable —un manuscrito, un informe, una asignación, una tesis—. En docencia, este patrón se repite en miniatura cada semestre: si la rúbrica premia la entrega del producto (el archivo final) y no el proceso, la IA optimiza la entrega del producto. El estudio refuerza la línea argumental sostenida en la [paradoja de la descarga cognitiva](/observatorio/estudios/paradoja-descarga-cognitiva/) y en el debate de [la nueva era de la evaluación en IA](/recursos/articulos/next-era-assessment-dec/): rediseñar la evaluación es condición previa, no posterior, a la integración de IA.
 
 ### 3. La cultura técnica crítica como antídoto
 
-El trabajo de Gartenberg et al. (2026) muestra a editores que aprenden a leer las huellas de la IA y a descontarlas. Esa competencia —reconocer qué hizo la máquina, qué hizo la persona y qué hizo el sistema editorial— es exactamente lo que en este Observatorio hemos venido llamando, siguiendo a Simondon y a Costa, [cultura técnica crítica](/observatorio/estudios/habitar-ia-simondon/). La buena noticia es que los expertos sí distinguen; la mala es que esa competencia, hoy, sigue siendo tácita y costosa de transmitir.
+El trabajo de Gartenberg et al. (2026) muestra a editores que aprenden a leer las huellas de la IA (jerga, abstracción, nominalización) y a descontarlas. Esa competencia —reconocer qué hizo la máquina, qué hizo la persona y qué hizo el sistema editorial— es exactamente lo que en este Observatorio hemos venido llamando, siguiendo a Simondon y a Costa, [cultura técnica crítica](/observatorio/estudios/habitar-ia-simondon/). La buena noticia es que los expertos sí distinguen; la mala es que esa competencia, hoy, sigue siendo tácita y costosa de transmitir.
 
 ## Recomendaciones de los autores y su traducción al aula
 
 Las recomendaciones del editorial apuntan al rediseño institucional más que a la solución técnica:
 
-- **Incentivos de publicación transparentes**, con criterios que prioricen calidad sobre volumen.
-- **Revisión de los criterios de promoción y permanencia académica**, para destensar la presión de la métrica.
+- **Incentivos de publicación transparentes**, con criterios (qué cuenta y cuánto pesa) que prioricen calidad sobre volumen.
+- **Revisión de los criterios de promoción y permanencia académica** (cuántas publicaciones se exigen y en qué revistas), para destensar la presión de la métrica.
 - **Sostenibilidad operativa de las revistas**, eventualmente mediante cuotas de envío o mecanismos de filtrado temprano.
 - **Transparencia obligatoria** en el uso de IA, tanto por autores como por revisores.
 
 Traducidas al plano docente, estas recomendaciones tienen análogos directos:
 
-- **Rediseñar rúbricas** para que premien decisiones, no productos: qué se delegó a la IA, qué se conservó, qué se rediscutió.
+- **Rediseñar rúbricas** para que premien decisiones antes que productos (el archivo entregado): qué se delegó a la IA, qué se conservó, qué se rediscutió.
 - **Incluir transparencia sobre el uso de IA** como requisito de cada entregable, con el mismo estatus que una referencia bibliográfica.
 - **Crear instancias de evaluación sin IA** en momentos críticos del proceso formativo, no como castigo sino como verificación de la capacidad propia.
-- **Reducir la dependencia de productos contables**: menos entregables aislados, más procesos visibles.
+- **Reducir la dependencia de productos contables** (entregas que sólo se cuentan): menos entregables aislados, más procesos visibles.
 
 {{< alert icon="lightbulb" >}}
 **Implicación didáctica.** El editorial puede leerse en clase como caso: pedir a los estudiantes que identifiquen, en sus propias rutinas de estudio, dónde están **produciendo más sin producir mejor**. La pregunta funciona en cualquier disciplina y suele desactivar la oscilación entre miedo y fascinación que documenta el estudio sobre [Simondon](/observatorio/estudios/habitar-ia-simondon/).

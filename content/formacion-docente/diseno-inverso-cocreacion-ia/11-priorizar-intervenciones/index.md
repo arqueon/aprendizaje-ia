@@ -233,6 +233,7 @@ La última lección del ciclo observa qué ocurrió durante la implementación y
 
 {{< referencias >}}
 - Bearman, M., Nieminen, J. H., y Ajjawi, R. (2023). Designing assessment in a digital world: An organising framework. *Assessment & Evaluation in Higher Education, 48*(3), 291–304. <https://doi.org/10.1080/02602938.2022.2069674>
+- Tai, J., Ajjawi, R., Boud, D., Dawson, P., y Panadero, E. (2018). Developing evaluative judgement: Enabling students to make decisions about the quality of work. *Higher Education, 76*(3), 467–481. <https://doi.org/10.1007/s10734-017-0220-3>
 {{< /referencias >}}
 
 {{< curso-navegacion anterior="10-limitaciones-analisis" siguiente="12-evaluacion-mejora-continua" >}}

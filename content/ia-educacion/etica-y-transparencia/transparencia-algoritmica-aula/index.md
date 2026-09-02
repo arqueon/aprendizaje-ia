@@ -17,13 +17,11 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La transparencia algorítmica es uno de los principios más citados en los marcos de IA en educación, y uno de los que con más frecuencia se queda en el plano discursivo. Esta guía propone cinco prácticas concretas que un docente puede incorporar a su asignatura sin esperar a que la institución redacte una política exhaustiva.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que quieren hacer visible el uso de IA en su asignatura este semestre, sin esperar a que la institución publique una política, y no saben por dónde empezar." haras="Vas a entender que la transparencia algorítmica en el aula se reduce a tres compromisos cotidianos (declarar cuándo se usa IA, decir con qué se evalúa lo hecho con IA y anotar las decisiones de delegar) y que cinco prácticas, de la más sencilla a la más exigente, los convierten en hábito." tendras="Cinco prácticas ordenadas por esfuerzo, con la primera lista para hoy (una sección de media página en el syllabus que diga qué usos de IA están permitidos, restringidos y prohibidos) y tres tensiones que conviene anticipar antes de aplicarlas." tarda="Siete minutos de lectura." ejemplo="Empieza por la diferencia entre el principio y quien lo ejerce: una política puede exigir transparencia, pero solo la persona docente, en su asignatura, la vuelve hábito; la práctica 1 es el primer paso." >}}
 
 ## Qué se entiende por transparencia algorítmica en el aula
 
-El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente, esto se traduce en al menos tres compromisos: declarar cuándo y para qué se usa IA, explicitar los criterios con los que se evalúan los productos asistidos por IA, y documentar las decisiones que el docente o el estudiante toman al delegar parte del trabajo a un modelo.
+El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente, esto se traduce en al menos tres compromisos: declarar cuándo y para qué se usa IA, explicitar los criterios con los que se evalúan los trabajos asistidos por IA (por ejemplo, una rúbrica para el anexo de uso), y documentar las decisiones que el docente o el estudiante toman al delegar parte del trabajo a un modelo.
 
 La diferencia entre el principio y la práctica está en quién lo ejerce. Una política institucional puede prescribir la transparencia, pero solo el docente, en el día a día de su asignatura, puede convertirla en hábito.
 
@@ -59,7 +57,7 @@ Este movimiento invierte la asimetría habitual: en lugar de exigir transparenci
 
 En las últimas dos semanas del semestre, una sesión específica revisa colectivamente cómo se usó la IA en la asignatura: qué prácticas funcionaron, qué quedaron pendientes, qué cambiaría el grupo para el próximo ciclo. La sesión se documenta y la documentación se entrega a la coordinación académica.
 
-Esta práctica cierra el ciclo de transparencia: lo que comenzó declarándose al inicio del semestre se evalúa colectivamente al final. La auditoría también genera insumos directos para iterar las cuatro prácticas anteriores.
+Esta práctica cierra el ciclo de transparencia: lo que comenzó declarándose al inicio del semestre se evalúa colectivamente al final. La auditoría también deja material directo para ajustar las cuatro prácticas anteriores (por ejemplo, cambiar el peso del anexo de uso).
 
 ## Tensiones a anticipar
 

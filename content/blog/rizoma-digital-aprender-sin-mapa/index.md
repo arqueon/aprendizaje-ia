@@ -16,15 +16,15 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Durante siglos, el conocimiento universitario se organizó como un árbol: tronco principal, ramas disciplinares, hojas de detalle. El plan de estudios reproducía esa estructura: bases primero, especialización después, integración al final. La IA generativa está terminando de erosionar esa metáfora. Lo que aparece en su lugar tiene otro nombre.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ven a su estudiantado recorrer el temario en un orden que el plan de estudios no previó, y sienten que su mapa de la materia ya no es el único." haras="Vas a entender por qué el plan de estudios en forma de árbol (bases, especialización, integración) pierde su lugar de mapa único cuando la información se conecta más rápido de lo que un currículo puede catalogar, y qué tres competencias exige aprender en red." tendras="Tres movimientos para tu asignatura (ofrecer varios puntos de entrada en lugar de una secuencia, compartir tu propio mapa del campo como ejemplo, pedir a cada estudiante que construya y entregue el suyo) y una tarea evaluable concreta: «el mapa propio del campo hecho a lo largo del semestre»." tarda="Siete minutos de lectura." ejemplo="Empieza con la imagen del árbol que organizó el conocimiento universitario durante siglos y con la del rizoma que Deleuze y Guattari (1987) y Cormier (2008) le oponen." >}}
+
+Durante siglos, el conocimiento universitario se organizó como un árbol: tronco principal, ramas disciplinares, hojas de detalle. El plan de estudios reproducía esa estructura: bases primero, especialización después, integración al final. La IA generativa está terminando de erosionar esa metáfora, y lo que aparece en su lugar tiene otro nombre y pide otro trabajo docente.
 
 ## Del árbol al rizoma
 
 En *Mil mesetas*, Deleuze y Guattari (1987) contraponen dos imágenes del conocimiento: el árbol, con su raíz central y su crecimiento jerárquico, y el rizoma, esa red subterránea de conexiones donde cualquier punto puede conectarse con cualquier otro, sin tronco ni dirección preferida. El árbol pertenece a la lógica de la representación: hay un origen, un orden de derivación, una jerarquía estable. El rizoma pertenece a la lógica de la conexión: cualquier nodo es entrada, cualquier camino es válido, cualquier ruptura genera reconfiguraciones.
 
-Dave Cormier (2008) tomó la imagen del rizoma para pensar el aprendizaje en entornos digitales abiertos. Su tesis, después de quince años, sigue siendo válida y se vuelve más urgente con la IA: en un ecosistema donde la información se produce y se conecta más rápido de lo que cualquier currículo puede catalogar, el aprendizaje no puede seguir teniendo forma de árbol.
+Dave Cormier (2008) tomó la imagen del rizoma para pensar el aprendizaje en entornos digitales abiertos. Su tesis, después de quince años, sigue siendo válida y se vuelve más urgente con la IA: en un ecosistema donde la información se produce y se conecta más rápido de lo que cualquier currículo puede catalogar, el aprendizaje no puede seguir teniendo forma de árbol. Lo que sigue muestra por qué ese diagnóstico alcanza al plan de estudios de cualquier asignatura y qué pide al estudiantado y a quien enseña.
 
 ## Por qué el árbol curricular ya no soporta el peso
 
@@ -34,21 +34,21 @@ El primero es que **el conocimiento del campo es estable y catalogable**. La uni
 
 El segundo es que **el aprendiz necesita seguir un camino predefinido**. Esto era cierto cuando el acceso al conocimiento estaba mediado por bibliotecas, profesores y bibliografía cerrada. Hoy, un estudiante con un modelo de lenguaje y curiosidad puede atravesar el campo en órdenes que ningún plan de estudios previó. Las preguntas le abren caminos que el currículo no anticipó.
 
-La consecuencia no es que el plan de estudios desaparezca, sino que pierde su pretensión de ser el mapa único. Pasa a ser uno entre varios.
+La consecuencia: el plan de estudios sigue existiendo y pierde su pretensión de ser el mapa único; pasa a ser uno entre varios.
 
 ## Aprender sin mapa: tres competencias rizomáticas
 
 Si el aprendizaje en entornos digitales con IA tiene forma de rizoma, las competencias que el estudiante necesita son distintas. Tres son particularmente relevantes:
 
-**Tolerancia a la falta de mapa.** El estudiante formado bajo la lógica del árbol espera que alguien le diga qué leer primero, qué después y cómo se conectan las cosas. En el rizoma, esa orientación no existe: cada estudiante traza su propia ruta, descubre conexiones que el docente no anticipó y descarta caminos que el currículo recomendaba. Esta tolerancia se entrena: no aparece sola.
+**Tolerancia a la falta de mapa.** El estudiante formado bajo la lógica del árbol espera que alguien le diga qué leer primero, qué después y cómo se conectan las cosas. En el rizoma, esa orientación no existe: cada estudiante traza su propia ruta, descubre conexiones que el docente no anticipó y descarta caminos que el currículo recomendaba. Esta tolerancia se entrena, con una primera semana en la que cada quien elige por dónde entrar al tema y explica por qué; sola no aparece.
 
 **Capacidad de validación distribuida.** Sin tronco jerárquico, cada conexión que el estudiante hace exige validación: ¿esta fuente es confiable? ¿este argumento se sostiene? ¿esta interpretación es plausible? La IA generativa amplifica esta exigencia, porque produce conexiones plausibles que pueden ser incorrectas. Validar deja de ser un paso final del proceso y se vuelve un movimiento continuo.
 
-**Cartografía propia, no consumo de mapas.** El aprendiz rizomático no encuentra mapas ya hechos del campo; los construye. Un mapa propio del campo de IA en educación, hecho por un estudiante a lo largo de un semestre, vale más que el mejor diagrama jerárquico que un docente le entregue al inicio. La cartografía propia se vuelve un producto evaluativo importante.
+**Cartografía propia, no consumo de mapas.** El aprendiz rizomático no encuentra mapas ya hechos del campo; los construye. Un mapa propio del campo de IA en educación, hecho por un estudiante a lo largo de un semestre, vale más que el mejor diagrama jerárquico que un docente le entregue al inicio. La cartografía propia se vuelve un producto evaluativo importante (un mapa del campo entregado al final del semestre, con las conexiones que cada quien trazó y las que descartó).
 
 ## Lo que esto exige del docente
 
-Pensar el aprendizaje como rizoma no significa abandonar el rol docente; significa cambiar su forma. Tres movimientos:
+Pensar el aprendizaje como rizoma conserva el rol docente y cambia su forma. Tres movimientos:
 
 El docente **deja de ser guardián del orden** —el que sabe el camino correcto— para convertirse en cartógrafo invitado: comparte sus propios mapas, no como verdad sino como ejemplo de cómo se construye una orientación. Su autoridad ya no viene de la jerarquía del saber sino de la calidad de sus conexiones.
 
@@ -58,7 +58,7 @@ El docente **acompaña sin pretender adelantarse**. En el rizoma, el estudiante 
 
 ## Una nota sobre el riesgo
 
-Pensar el aprendizaje como rizoma no es proponer caos. El rizoma tiene estructura; no la tiene jerárquica. La diferencia importa porque sin estructura ninguna de las tres competencias rizomáticas se desarrolla: el estudiante sin orientación se pierde, el sin validación distribuida acepta cualquier cosa, el sin cartografía propia consume ruido.
+Pensar el aprendizaje como rizoma es distinto de proponer caos: el rizoma tiene estructura, sólo que sin jerarquía. La diferencia importa porque sin estructura ninguna de las tres competencias rizomáticas se desarrolla: el estudiante sin orientación se pierde, el sin validación distribuida acepta cualquier cosa, el sin cartografía propia consume ruido.
 
 La universidad que adopta esta lógica no se vuelve menos rigurosa; se vuelve más exigente, porque pide construir orden en lugar de recibirlo. Esa exigencia, bien sostenida, es lo que la educación universitaria puede ofrecer hoy y casi nadie más ofrece.
 

@@ -240,7 +240,9 @@ La IA puede multiplicar opciones. La validez y la relevancia disciplinar requier
 Toda recomendación sigue limitada por lo que el caso permite conocer. La siguiente lección enseña a reconocer esos límites.
 
 {{< referencias >}}
+- Bearman, M., y Ajjawi, R. (2023). Learning to work with the black box: Pedagogy for a world with artificial intelligence. *British Journal of Educational Technology, 54*(5), 1160–1173. <https://doi.org/10.1111/bjet.13337>
 - Bearman, M., Nieminen, J. H., y Ajjawi, R. (2023). Designing assessment in a digital world: An organising framework. *Assessment & Evaluation in Higher Education, 48*(3), 291–304. <https://doi.org/10.1080/02602938.2022.2069674>
+- Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., y Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. *Assessment & Evaluation in Higher Education, 43*(5), 840–854. <https://doi.org/10.1080/02602938.2017.1412396>
 {{< /referencias >}}
 
 {{< curso-navegacion anterior="08-secuencias-activas-hibridas" siguiente="10-limitaciones-analisis" >}}

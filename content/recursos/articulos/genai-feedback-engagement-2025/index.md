@@ -30,6 +30,8 @@ tipoDocumento: "Artículo conceptual"
 
 {{< recurso-info >}}
 
+{{< contrato modo="lectura" quien="Docentes que ya dejan que el estudiantado pida comentarios a una IA sobre sus borradores y quieren saber qué habilidades hacen que esos comentarios se conviertan en mejora del trabajo." haras="Vas a entender que Zhan, Boud, Dawson y Yan no prueban que la IA mejore la retroalimentación: proponen un marco provisional que relaciona lo que la herramienta permite, lo que la persona sabe hacer con los comentarios (pedirlos, juzgarlos, usarlos) y lo que hace antes, durante y después." tendras="Cinco preguntas de diseño para una actividad con retroalimentación de IA (por ejemplo, «¿cómo comprobará el estudiante si una respuesta es pertinente, sesgada o incorrecta?») y dos estructuras del artículo para nombrar las etapas: obtener, procesar y actuar." tarda="Cinco minutos de lectura." ejemplo="Empieza por la dificultad conocida de la que parte el artículo: entregar comentarios no garantiza que alguien los entienda ni que cambie su trabajo." >}}
+
 ## Qué propone el artículo
 
 *Generative artificial intelligence as an enabler of student feedback engagement: a framework* pregunta cómo puede intervenir la IA generativa cuando una persona solicita, interpreta y utiliza retroalimentación. Ying Zhan, David Boud, Phillip Dawson y Zi Yan no presentan una prueba de eficacia ni comparan intervenciones. Proponen un **marco conceptual tentativo** que debe seguir siendo provisional mientras cambian las herramientas y se acumula investigación empírica.
@@ -60,7 +62,7 @@ A la vez, adapta el ciclo de autorregulación de **Zimmerman** mediante **antici
 
 Esta ficha sirve para formular preguntas de diseño, no para afirmar que la IA mejora por sí sola la retroalimentación:
 
-- ¿qué comentarios necesita solicitar la persona y con qué criterios?;
+- ¿qué comentarios necesita solicitar la persona y con qué criterios (por ejemplo, los de la rúbrica de la tarea)?;
 - ¿cómo comprobará si una respuesta es pertinente, sesgada o incorrecta?;
 - ¿qué cambio hará y cómo revisará su efecto?;
 - ¿qué datos no deben compartirse con la herramienta?;

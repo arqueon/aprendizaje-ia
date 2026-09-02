@@ -25,9 +25,11 @@ summary: "Un análisis empírico sobre cómo la delegación estratégica de tare
 description: "Un análisis empírico sobre cómo la delegación estratégica de tareas a la inteligencia artificial fomenta el pensamiento crítico y el aprendizaje transformativo."
 ---
 
+{{< contrato modo="lectura" quien="Docentes que temen que el estudiantado delegue en la IA el trabajo mental de sus tareas, y quieren saber cuándo esa delegación daña el aprendizaje y cuándo lo libera." haras="Vas a entender el hallazgo de Wang y Zhang (2026) sobre 912 participantes: delegar en la IA favorece el aprendizaje profundo sólo cuando la delegación es amplia y estratégica y va acompañada de vigilancia sobre lo que el modelo devuelve; la delegación a retazos resta más de lo que suma. Y verás el efecto muleta documentado por Bastani et al. (2025): mejor con IA, peor al retirarla." tendras="Seis reglas para diseñar una actividad con IA (por ejemplo, «la persona escribe su esquema antes de abrir el modelo» y «la IA señala errores, la persona los corrige») y una regla para evaluar: la prueba de la competencia se hace sin IA." tarda="Nueve minutos de lectura." ejemplo="Empieza con la preocupación por la «descarga cognitiva» y con un esquema que compara tres grupos de estudiantes: con IA sin orientación, con IA con pistas dosificadas, y sin IA." >}}
+
 La integración de la inteligencia artificial (IA) en entornos educativos ha generado preocupación respecto al fenómeno de la "descarga cognitiva". Este término refiere a la transferencia de trabajo mental hacia sistemas automatizados. Investigaciones iniciales apuntaron a que el uso frecuente de herramientas de IA correlacionaba con una reducción en la capacidad de pensamiento crítico, afectando principalmente a usuarios jóvenes (Gerlich, 2025). Estudios neurométricos confirmaron una menor participación neuronal en individuos que delegaban tareas de redacción a sistemas de IA, observando una posterior incapacidad para recordar la información producida (Kosmyna et al., 2025). 
 
-Sin embargo, evidencia reciente sugiere que la descarga cognitiva no es intrínsecamente perjudicial. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo depende de cómo se introduce la asistencia y de qué hace la persona con la capacidad mental liberada. Un experimento reciente permite observar ese contraste y su mitigación.
+Sin embargo, evidencia reciente (los dos estudios que siguen) muestra que la descarga cognitiva daña o ayuda según cómo se use. Que produzca un efecto muleta —mejor desempeño mientras la ayuda está disponible y peor aprendizaje cuando se retira— o un efecto formativo depende de cómo se introduce la asistencia y de qué hace la persona con la capacidad mental liberada. Un experimento reciente permite observar ese contraste y su mitigación.
 
 {{< udgia-figure id="udgia-f04-disociacion" src="disociacion-desempeno-aprendizaje.svg" >}}
 El esquema compara tres grupos:
@@ -58,8 +60,8 @@ A diferencia del postulado clásico que vincula el esfuerzo manual directo con e
 
 ## El umbral de la descarga estratégica
 
-La relación entre delegar en la IA y la profundidad del aprendizaje no es lineal, pero
-tampoco es una simple gradación. Wang y Zhang (2026) describen un **efecto de umbral**: la
+La relación entre delegar en la IA y la profundidad del aprendizaje tiene forma de escalón,
+más que de línea recta o de gradación simple. Wang y Zhang (2026) describen un **efecto de umbral**: la
 descarga cognitiva favorece el aprendizaje transformativo sólo cuando es *estratégica* y
 supera cierto nivel, porque es entonces cuando libera recursos mentales suficientes para la
 reflexión de orden superior. Por debajo de ese punto, la delegación fragmentaria puede
@@ -69,15 +71,16 @@ coste de coordinar y evaluar respuestas sueltas.
 Conviene precisar el alcance del estudio antes de extraer consecuencias. Es un diseño mixto
 sobre 912 participantes en China, Europa y Estados Unidos, que combina modelado de
 ecuaciones estructurales, análisis de importancia–desempeño (IPMA), análisis cualitativo
-comparativo difuso (fsQCA) y entrevistas semiestructuradas. Sus autores no proponen una
-curva con tramos delimitados ni ofrecen valores que permitan situar a una persona concreta
+comparativo difuso (fsQCA) y entrevistas semiestructuradas. Sus autores se abstienen de proponer una
+curva con tramos delimitados o valores que permitan situar a una persona concreta
 en un punto de la escala: lo que sostienen es que existe un umbral y que la orientación a la
 eficiencia, lejos de ser una barrera, amplifica tanto la vigilancia como la delegación.
 
-La consecuencia pedagógica es más modesta de lo que sugeriría un gráfico: no hay una dosis
-óptima de delegación que pueda prescribirse, sino una diferencia cualitativa entre delegar
-categorías completas de trabajo operativo —conservando la dirección del proceso— y esparcir
-la delegación en retoques que no liberan capacidad para nada.
+La consecuencia pedagógica es más modesta de lo que sugeriría un gráfico: existe una
+diferencia cualitativa entre delegar categorías completas de trabajo operativo (por ejemplo,
+la primera búsqueda de bibliografía) —conservando la dirección del proceso— y esparcir la
+delegación en retoques que no liberan capacidad para nada; una dosis óptima que pueda
+prescribirse queda fuera de lo que el estudio permite.
 
 ## Principios para la integración productiva
 
@@ -94,7 +97,7 @@ De la investigación se desprenden principios rectores para el diseño de activi
 
 ## Precauciones para un uso crítico
 
-Para promover el uso crítico y aprovechar la ventaja cognitiva de la IA sin caer en la delegación fragmentaria descrita arriba, resulta esencial diseñar mecanismos de fricción intelectual. El riesgo principal surge cuando el usuario asume un rol de receptor pasivo y delega sin criterio, lo que atrofia la capacidad de análisis.
+Para promover el uso crítico y aprovechar la ventaja cognitiva de la IA sin caer en la delegación fragmentaria descrita arriba, resulta esencial diseñar mecanismos de fricción intelectual. El riesgo principal surge cuando el usuario asume un rol de receptor pasivo y delega sin criterio (acepta la primera respuesta sin comprobarla), lo que atrofia la capacidad de análisis.
 
 Para mitigar este efecto, los diseños instruccionales deben forzar a que el individuo estructure el esquema conceptual primario antes de interactuar con el sistema algorítmico. Adicionalmente, la identificación de sesgos y la verificación de afirmaciones deben integrarse como requisitos dentro del flujo de trabajo. Esta estructura garantiza que la reducción de carga operativa se traduzca efectivamente en un nivel superior de reflexión, evitando que el tiempo ahorrado se diluya en la mera gestión superficial de la herramienta.
 

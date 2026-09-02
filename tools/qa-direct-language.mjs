@@ -86,7 +86,10 @@ for (const relative of contractPages) {
   const abstract = findTerms(prose).filter((term) => {
     // Un término de marco pasa si en la misma oración hay un ejemplo (paréntesis, comillas o «por ejemplo»).
     const sentences = prose.split(/(?<=[.!?])\s+/).filter((sentence) => new RegExp(`\\b${term}\\b`, 'iu').test(sentence));
-    return sentences.some((sentence) => !/[(«"]|por ejemplo/u.test(sentence));
+    // Un paréntesis sólo cuenta como ejemplo si no es una cita bibliográfica «(Autor, 2024)».
+    const hasExample = (sentence) => /[«"]|por ejemplo/u.test(sentence)
+      || /\((?![^)]*\b(?:19|20)\d{2}[a-z]?\))[^)]{4,}\)/u.test(sentence);
+    return sentences.some((sentence) => !hasExample(sentence));
   });
   if (abstract.length) failures.push(`${relative}: término de marco sin ejemplo en su oración (${abstract.join(', ')})`);
 }

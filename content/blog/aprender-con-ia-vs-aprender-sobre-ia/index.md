@@ -16,9 +16,9 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Cuando una universidad declara que va a "integrar IA en su currículo", suele referirse a dos cosas distintas que conviene separar: enseñar con IA —usar modelos como herramienta para aprender otros contenidos— y enseñar sobre IA —desarrollar comprensión crítica de cómo funciona, qué supone y qué consecuencias tiene su uso. Mezclar ambas preguntas produce programas que avanzan en una a costa de la otra.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes y coordinaciones a quienes les piden «integrar IA en el currículo» y tienen que decidir qué enseñar primero en su asignatura o programa." haras="Vas a entender que «integrar IA» esconde dos preguntas distintas: enseñar con IA (usarla para escribir, investigar o resolver problemas) y enseñar sobre IA (entender cómo funciona, qué sesgos arrastra y qué efectos tiene), y por qué un programa que atiende solo una produce usuarios eficientes sin criterio o críticos sin manos." tendras="Tres reglas para ordenar tu programa o tu asignatura (la mentalidad crítica antes que la práctica eficiente, cada asignatura declara qué dimensión trabaja, la rúbrica mide las dos) y una pregunta para tu próximo curso: «¿mi asignatura enseña con IA, sobre IA, o ambas, y lo dice?»." tarda="Seis minutos de lectura." ejemplo="Empieza con una universidad que anuncia que va a integrar IA en su currículo y con lo que suele ocultar ese anuncio; el marco de UNESCO (2024) sirve de caso para articular las dos dimensiones." >}}
+
+Cuando una universidad declara que va a «integrar IA en su currículo», suele referirse a dos cosas distintas que conviene separar: enseñar con IA (usar modelos como apoyo para aprender otros contenidos) y enseñar sobre IA (desarrollar comprensión crítica de cómo funciona, qué supone y qué consecuencias tiene su uso). Mezclar ambas preguntas produce programas que avanzan en una a costa de la otra. Este ensayo las separa, explica por qué se confunden y propone tres reglas para articularlas en un programa.
 
 ## Dos preguntas, dos competencias distintas
 
@@ -26,11 +26,11 @@ Cuando una universidad declara que va a "integrar IA en su currículo", suele re
 
 **Aprender sobre IA** es una pregunta epistémica. Apunta a que el estudiante entienda qué es un modelo de lenguaje, cómo se entrena, qué sesgos arrastra, qué efectos sociales y económicos tiene su despliegue masivo. La competencia que desarrolla es crítica: poder leer el ecosistema digital donde la IA opera, distinguir afirmaciones de marketing de afirmaciones técnicas, anticipar consecuencias colectivas que el uso individual no permite ver.
 
-Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social; uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta.
+Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social (saben usar el modelo y no ven a quién deja fuera); uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta.
 
 ## Por qué se confunden
 
-Tres causas explican la confusión:
+Tres causas explican la confusión; reconocerlas ayuda a ver cuál está operando en el propio programa:
 
 La primera es **el optimismo tecnológico**, que asume que aprender a usar una herramienta es lo mismo que entenderla. La historia de la educación digital muestra lo contrario: dos décadas enseñando a usar Word, Excel y motores de búsqueda no produjeron, en general, ciudadanía algorítmica crítica.
 
@@ -45,8 +45,8 @@ Los marcos internacionales recientes proponen articulaciones que vale la pena ad
 Tres principios operativos para articular ambas dimensiones en un programa universitario:
 
 - **Primero la mentalidad crítica, después la práctica eficiente.** Las asignaturas iniciales del programa deberían trabajar la dimensión epistémica antes de que se consoliden hábitos de uso instrumental. Un estudiante que aprendió a usar IA antes de entender lo que es tiende a delegarle juicio sin advertirlo.
-- **Cada asignatura nombra qué dimensión trabaja.** No todas las asignaturas necesitan trabajar las dos. Pero todas deberían declarar cuál es la suya, para que el estudiante reconozca el espacio de aprendizaje que está ocupando.
-- **La evaluación captura ambas dimensiones.** Una rúbrica que solo mide eficiencia operativa pierde la dimensión crítica. Una que solo mide reflexión epistémica pierde la operativa. La rúbrica integrada exige criterios para ambas.
+- **Cada asignatura nombra qué dimensión trabaja.** No todas las asignaturas necesitan trabajar las dos. Pero todas deberían declarar cuál es la suya («esta materia usa IA para revisar borradores; los sesgos del modelo se discuten en la asignatura de ética»), para que el estudiante reconozca el espacio de aprendizaje que está ocupando.
+- **La evaluación captura ambas dimensiones.** Una rúbrica que solo mide eficiencia operativa pierde la dimensión crítica. Una que solo mide reflexión epistémica pierde la operativa. La rúbrica integrada exige criterios para ambas (por ejemplo, «formuló instrucciones precisas y revisó la salida» junto a «identificó un sesgo del modelo y explicó su efecto»).
 
 ## El riesgo de simplificar
 

@@ -17,13 +17,11 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Cada semana aparece una nueva herramienta de IA con promesa educativa. La mayoría no sobrevive seis meses; algunas sí cambian la práctica. Distinguir cuál es cuál exige una rutina de monitoreo distinta a la de publicaciones académicas: más rápida, más superficial, con criterios de filtrado explícitos.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Equipos de coordinación o de tecnología educativa a quienes cada semana les llega una herramienta nueva «imprescindible» y no tienen una rutina para separar lo que vale de lo que desaparecerá en seis meses." haras="Vas a entender que vigilar herramientas es distinto de vigilar publicaciones (más rápido, más superficial, con filtros duros) y que ocho fuentes y un filtro de cinco preguntas bastan para decidir qué merece una evaluación formal." tendras="Un filtro de cinco preguntas para aplicar en minutos (por ejemplo, «¿tiene política de privacidad legible?»; si tres respuestas son negativas, se descarta) y una bitácora de seis columnas para sostener el seguimiento por semestre." tarda="Seis minutos de lectura; veinte minutos semanales para aplicar la rutina." ejemplo="Empieza por el problema del ruido: cada producto llega con métricas excepcionales y casos de éxito seleccionados; de ahí salen las tres cosas que este monitoreo exige." >}}
 
 ## El problema del ruido
 
-El monitoreo de herramientas emergentes tiene un problema específico que el monitoreo de publicaciones no tiene: la promoción comercial inunda el campo. Cada producto se anuncia con métricas excepcionales, casos de éxito seleccionados y vocabulario celebratorio. Un equipo que sigue noticias de productos sin filtros termina abrumado y reactivo.
+El monitoreo de herramientas emergentes tiene un problema específico que el monitoreo de publicaciones no tiene: la promoción comercial inunda el campo. Cada producto se anuncia con métricas excepcionales («mejora el aprendizaje 40 %»), casos de éxito seleccionados y vocabulario celebratorio. Un equipo que sigue esas noticias sin filtros termina abrumado y reactivo.
 
 Por eso el monitoreo de herramientas exige tres cosas que el monitoreo académico no necesita en igual medida:
 

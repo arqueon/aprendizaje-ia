@@ -17,13 +17,11 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Mantenerse al día en investigación sobre IA en educación es una función institucional, no una hazaña individual. Esta curaduría reúne doce fuentes que permiten construir una rutina de monitoreo sostenible, sin saturar al equipo ni perder lo relevante.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Equipos de coordinación académica que quieren mantenerse al día en investigación sobre IA en educación sin que una sola persona cargue con todo ni el esfuerzo se abandone al segundo mes." haras="Vas a entender que vigilar publicaciones es una función del equipo, no una hazaña individual, y que doce fuentes (cinco revistas, cuatro repositorios de preprints y tres boletines) revisadas con una rutina fija bastan para no perder lo relevante." tendras="Una rutina por frecuencias lista para asignar (por ejemplo, «diaria, cinco minutos, rotativo: revisar arXiv cs.CL y marcar dos o tres títulos»), unas seis horas por persona al mes, y tres destinos para lo que se encuentre: el sitio, las guías y una nota mensual al claustro." tarda="Seis minutos de lectura." ejemplo="Empieza por el tamaño del problema (más de 50,000 resultados en Google Scholar desde 2023) y las tres reglas que hacen sostenible una rutina." >}}
 
 ## Por qué monitorear, y cómo no caer en el ruido
 
-El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *"generative AI" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee eso. La vigilancia tecnológica útil no consiste en leer todo, sino en monitorear pocas fuentes con criterio.
+El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *"generative AI" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee eso. La vigilancia tecnológica útil no consiste en leer todo, sino en monitorear pocas fuentes con una regla clara (por ejemplo, cinco fuentes revisadas cada semana).
 
 Tres reglas para sostener la rutina:
 
@@ -56,7 +54,7 @@ Para detectar tendencias antes de que pasen por revisión por pares (un proceso 
 | **SSRN — Education** | Repositorio multidisciplinar con sección educativa | Semanal |
 | **OSF Preprints** | Preprints abiertos con prácticas de transparencia | Semanal |
 
-La velocidad tiene un costo: muchos preprints no pasan revisión y otros cambian sustancialmente entre el preprint y la versión final publicada. La regla operativa es leer preprints como hipótesis, no como evidencia consolidada.
+La velocidad tiene un costo: muchos preprints no pasan revisión y otros cambian sustancialmente entre el preprint y la versión final publicada. La regla operativa es leer preprints como hipótesis, no como resultados consolidados.
 
 ## Boletines y seguimiento institucional
 
@@ -94,7 +92,7 @@ Tres formas concretas de capitalizar el monitoreo:
 
 ## Lecturas relacionadas
 
-La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el seguimiento de productos; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) explica cómo registrar lo encontrado dentro del sitio; la curaduría de [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) permite seguir conversaciones profesionales.
+La [guía de evaluación de herramientas IA educativas](/observatorio/guias/evaluacion-herramientas-ia-educativas/) cubre el seguimiento de herramientas; la [guía de documentación de buenas prácticas](/observatorio/guias/documentacion-buenas-practicas-ia/) explica cómo registrar lo encontrado dentro del sitio; la curaduría de [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) permite seguir conversaciones profesionales.
 
 ## Referencias
 
