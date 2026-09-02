@@ -144,7 +144,7 @@ aprendizaje. Comprender una decisión aporta más que intentar detectar una herr
 
 Cuánto pedir depende de la tarea: no se pide lo mismo para una práctica breve que para un
 proyecto de alto impacto. El ejercicio siguiente plantea una actividad de riesgo académico bajo y
-te obliga a seleccionar, no a acumular. La selección no se califica ni registra el intento; sirve para ensayar la decisión que después tomarás en tu tarea real (paso 4 de arriba).
+te obliga a seleccionar, no a acumular. La selección no se califica y no registra el intento; sirve para ensayar la decisión que después tomarás en tu tarea real (paso 4 de arriba).
 
 {{< h5p id="evidencias-proceso-proporcion" load="manual" title="Elegir evidencia suficiente y proporcional" >}}
 ### Versión textual del caso
