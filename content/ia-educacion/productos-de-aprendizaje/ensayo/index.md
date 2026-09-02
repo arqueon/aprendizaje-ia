@@ -69,15 +69,24 @@ ecosistema:
     proxima_revision: 2026-10-27
 ---
 
-{{< lead >}}
-Un ensayo no es solo el archivo que se entrega. Es una secuencia de decisiones: delimitar un problema, verificar fuentes, sostener una tesis, enfrentar objeciones y revisar con criterio. Esta guía hace visible ese recorrido para que la IA funcione como interlocutora, no como autora sustituta.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de cualquier licenciatura que piden un ensayo argumentativo y ya saben que el archivo entregado puede venir entero de una IA; y estudiantes que quieren usar IA en su ensayo sin regalar la autoría." haras="Sofía, estudiante de Relaciones Internacionales, recibe la instrucción «Evalúe la coherencia de la política exterior de México ante una crisis reciente». En siete etapas acota el tema a la ruptura con Ecuador de 2024, verifica fuentes, escribe su tesis en tres versiones, redacta un borrador de 1 200 palabras sin IA, le pide a la IA un esquema inverso y objeciones, decide en una tabla qué acepta y qué rechaza, y entrega el ensayo con su portafolio y una declaración de uso. La IA entra en las etapas 1, 3, 5 y 6; nunca en el borrador." tendras="Ocho prompts copiables por etapa, una tabla de decisiones de tres columnas (sugerencia · decisión · por qué) y una regla de revisión que puedes usar mañana: «sin borrador v1 fechado antes de la fase de IA, la entrega no se evalúa»." tarda="Veinte minutos de lectura completa; ocho si sólo sigues tu ruta (estudiante o docente)." ejemplo="El caso de Sofía aparece resumido en el primer párrafo y completo en la sección «Un ejemplo de principio a fin», antes de las rutas y de los prompts." >}}
+
+Sofía, estudiante de Relaciones Internacionales, recibe una instrucción de una línea:
+«Evalúe la coherencia de la política exterior de México ante una crisis reciente». Lo que
+entregará cuatro semanas después es un ensayo, y también el camino: la nota donde acotó
+el tema, la matriz de fuentes que verificó, tres versiones de su tesis, un borrador
+escrito sin IA y una tabla con lo que aceptó, adaptó y rechazó de lo que la IA le dijo.
+Un ensayo es una secuencia de decisiones: delimitar un problema, verificar fuentes,
+sostener una tesis, enfrentar objeciones y revisar con razones. Esta guía hace visible
+ese recorrido para que la IA funcione como interlocutora, no como autora sustituta.
 
 {{< alert icon="compass" type="info" >}}
-**Idea central:** la persona conserva la dirección epistémica. La IA puede preguntar, diagnosticar, objetar y sugerir; el estudiante investiga, escribe, verifica y decide.
+**Idea central:** la persona conserva la dirección epistémica (decide qué cuenta como válido y hacia dónde avanza el trabajo). La IA puede preguntar, diagnosticar, objetar y sugerir; el estudiante investiga, escribe, verifica y decide.
 {{< /alert >}}
 
 ## El cambio en una mirada
+
+La tabla compara los dos modelos (a la izquierda, lo que casi todo el mundo hace hoy; a la derecha, lo que propone esta guía):
 
 | Modelo centrado en el producto | Modelo centrado en proceso y producto |
 |---|---|
@@ -87,7 +96,7 @@ Un ensayo no es solo el archivo que se entrega. Es una secuencia de decisiones: 
 | La revisión ocurre al final | La retroalimentación modifica el trabajo mientras se construye |
 | Se intenta inferir quién escribió | El estudiante demuestra y defiende su autoría |
 
-Evaluar el proceso **no significa dejar de evaluar el ensayo final**. Significa valorar por separado la calidad del argumento y la calidad de las decisiones que permitieron construirlo.
+Evaluar el proceso añade una mirada y **el ensayo final se sigue evaluando**: se valora por separado la calidad del argumento y la calidad de las decisiones que permitieron construirlo.
 
 ## Elige tu ruta
 
@@ -141,31 +150,31 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 {{< timeline >}}
 
 {{< timelineItem icon="bullseye" header="1. Interpretar la consigna" subheader="Preparar · asíncrono" md="true" >}}
-🎯 **Propósito.** Entender qué pide la consigna y acotar un problema propio.
+🎯 **Para qué.** Entender qué pide la instrucción («evalúe la coherencia…») y acotar un problema propio.
 
-🎓 **Estudiante:** subraya el verbo de la consigna, delimita el problema y escribe una primera pregunta de trabajo.
+🎓 **Estudiante:** subraya el verbo de la instrucción, delimita el problema y escribe una primera pregunta de trabajo.
 
-🤖 **IA:** formula preguntas aclaratorias y compara posibles enfoques; no elige el tema ni responde la consigna.
+🤖 **IA:** formula preguntas aclaratorias y compara posibles enfoques; no elige el tema ni responde la tarea.
 
-👩‍🏫 **Docente:** entrega criterios y aclara qué usos de IA están permitidos.
+👩‍🏫 **Docente:** entrega la rúbrica (con qué revisará, por ejemplo «cada afirmación central tiene fuente comprobada») y aclara qué usos de IA están permitidos.
 
-📎 **Evidencia:** nota de enfoque con una elección y al menos un descarte justificado.
+📎 **Qué se entrega:** nota de enfoque con una elección y al menos un descarte justificado.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="book-open" header="2. Investigar y verificar" subheader="Preparar · asíncrono" md="true" >}}
-🎯 **Propósito.** Reunir evidencia fiable y distinguir afirmación de fuente.
+🎯 **Para qué.** Reunir fuentes fiables (un comunicado oficial, dos artículos académicos) y distinguir afirmación de fuente.
 
-🎓 **Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con evidencia verificable.
+🎓 **Estudiante:** localiza fuentes académicas, las lee y relaciona cada afirmación importante con una fuente verificable.
 
 🤖 **IA:** sugiere conceptos, autores o tipos de fuente que conviene buscar; una referencia propuesta por el modelo nunca cuenta como verificada.
 
-👩‍🏫 **Docente:** revisa una muestra de fuentes o la tabla de evidencia antes del borrador.
+👩‍🏫 **Docente:** revisa una muestra de fuentes o la matriz de fuentes antes del borrador.
 
-📎 **Evidencia:** matriz breve de afirmaciones, fuentes y comprobación.
+📎 **Qué se entrega:** matriz breve de afirmaciones, fuentes y comprobación.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="route" header="3. Formular tesis y esquema" subheader="Preparar · taller síncrono" md="true" >}}
-🎯 **Propósito.** Tomar una postura debatible y poder sostenerla.
+🎯 **Para qué.** Tomar una postura debatible y poder sostenerla.
 
 🎓 **Estudiante:** escribe una tesis provisional, la contrasta con las fuentes y conserva su evolución.
 
@@ -173,23 +182,23 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 👩‍🏫 **Docente y pares:** realizan una clínica breve de tesis y comprueban que sea debatible, específica y sustentable.
 
-📎 **Evidencia:** tesis v1, v2 y final, con justificación de la elección.
+📎 **Qué se entrega:** tesis v1, v2 y final, con justificación de la elección.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="file-pen" header="4. Escribir el primer borrador" subheader="Escribir · asíncrono" md="true" >}}
-🎯 **Propósito.** Construir el argumento con voz propia antes de cualquier ayuda.
+🎯 **Para qué.** Construir el argumento con voz propia antes de cualquier ayuda.
 
-🎓 **Estudiante:** redacta un borrador completo con su voz, argumentos, evidencia y contraargumentos.
+🎓 **Estudiante:** redacta un borrador completo con su voz, argumentos, fuentes y contraargumentos.
 
 🤖 **IA:** permanece fuera de la redacción sustantiva. Puede aclarar una duda de formato, pero no producir párrafos para pegar.
 
 👩‍🏫 **Docente:** no corrige todavía cada frase; comprueba que exista un punto de partida auténtico.
 
-📎 **Evidencia:** borrador v1 fechado y conservado antes de la retroalimentación algorítmica.
+📎 **Qué se entrega:** borrador v1 fechado y conservado antes de la retroalimentación algorítmica.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="comments" header="5. Interrogar el borrador" subheader="Interrogar · síncrono o asíncrono" md="true" >}}
-🎯 **Propósito.** Exponer el borrador a la crítica para hallar sus puntos débiles.
+🎯 **Para qué.** Exponer el borrador a la crítica para hallar sus puntos débiles.
 
 🎓 **Estudiante:** solicita un esquema inverso, objeciones fuertes y una lectura provisional con la rúbrica del docente.
 
@@ -197,11 +206,11 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 👩‍🏫 **Docente:** modela cómo distinguir una observación útil de una sugerencia genérica o equivocada.
 
-📎 **Evidencia:** interacciones significativas seleccionadas, objeciones y respuestas del estudiante.
+📎 **Qué se entrega:** interacciones significativas seleccionadas, objeciones y respuestas del estudiante.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="code-compare" header="6. Revisar y decidir" subheader="Cerrar · asíncrono" md="true" >}}
-🎯 **Propósito.** Juzgar cada sugerencia y decidir con fundamento.
+🎯 **Para qué.** Juzgar cada sugerencia y decidir con fundamento.
 
 🎓 **Estudiante:** acepta, adapta o rechaza cada sugerencia relevante y explica por qué. Después produce la versión final.
 
@@ -209,19 +218,19 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 
 👩‍🏫 **Docente:** observa la calidad del juicio, no la obediencia a la herramienta ni la cantidad de consultas.
 
-📎 **Evidencia:** tabla de decisiones y comparación entre v1 y versión final.
+📎 **Qué se entrega:** tabla de decisiones y comparación entre v1 y versión final.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="person-chalkboard" header="7. Entregar, declarar y defender" subheader="Cerrar · síncrono breve o memo" md="true" >}}
-🎯 **Propósito.** Dar cuenta del proceso y responder por la autoría.
+🎯 **Para qué.** Dar cuenta del proceso y responder por la autoría.
 
 🎓 **Estudiante:** entrega el ensayo y el portafolio mínimo, declara cómo usó IA y explica una decisión importante en una defensa breve o reflexión.
 
 🤖 **IA:** puede ayudar a anticipar preguntas, pero el estudiante responde con sus fuentes y su razonamiento.
 
-👩‍🏫 **Docente:** evalúa por separado el proceso y el producto final.
+👩‍🏫 **Docente:** evalúa por separado el proceso y el ensayo final.
 
-📎 **Evidencia:** ensayo, portafolio, declaración de uso y defensa o memo reflexivo.
+📎 **Qué se entrega:** ensayo, portafolio, declaración de uso y defensa o memo reflexivo.
 {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -229,7 +238,7 @@ La secuencia desarrolla tres literacidades de manera progresiva:
 ## Observa cómo cambia un mismo trabajo
 
 Ya conoces las siete etapas. Ahora sigue a una estudiante en tres momentos de un mismo
-ensayo. No busques tres productos terminados: compara qué hace ella, qué documentos tiene
+ensayo. No busques tres textos terminados: compara qué hace ella, qué documentos tiene
 sobre la mesa y qué nueva decisión aparece en cada escena.
 
 Antes de abrir la actividad, identifica la secuencia:
@@ -267,13 +276,13 @@ Así se ve el recorrido en un caso concreto. **Sofía**, estudiante de Relacione
 - **v2:** «La respuesta de México al asalto de su embajada fue coherente con la doctrina Estrada.» — *más específica, pero «coherente» sigue siendo ambiguo.*
 - **Final:** «Al romper relaciones con Ecuador, México subordinó su tradición de no intervención a la defensa del derecho de asilo: sus principios operan como jerarquía, no como lista.» — *debatible, específica y sustentable.*
 
-**Etapa 4 · Escribe sin IA.** Redacta un borrador de unas 1 200 palabras y lo guarda fechado. Ese archivo es la evidencia de su punto de partida y de su voz.
+**Etapa 4 · Escribe sin IA.** Redacta un borrador de unas 1 200 palabras y lo guarda fechado. Ese archivo es la prueba de su punto de partida y de su voz.
 
 **Etapa 5 · Interroga el borrador.** El esquema inverso revela que dos párrafos repiten la misma idea. El red team le devuelve una objeción fuerte: *«La ruptura puede leerse como reacción coyuntural del gobierno en turno, no como decisión doctrinal; tu tesis asume una continuidad que no demuestras.»* Sofía responde con el texto del comunicado —que funda la ruptura en el derecho de asilo, no en el agravio político— y añade un párrafo de contraargumento al ensayo.
 
 **Etapas 6–7 · Decide, entrega y declara.** Su tabla de decisiones registra, entre otras: fusionar los párrafos repetidos (aceptada), añadir un dato a la conclusión (adaptada: el dato entra, el cierre argumentativo se queda) y sustituir «jerarquía de principios» por «pragmatismo» (rechazada: borra la distinción que sostiene su tesis). Su declaración final:
 
-> Utilicé IA generativa en las etapas 1, 3, 5 y 6 para delimitar el tema, tensionar mi tesis, obtener un esquema inverso y objeciones, y recibir sugerencias de estilo. Verifiqué todas las fuentes fuera del sistema. La tesis, la evidencia y la redacción son mías; mi tabla de decisiones documenta qué acepté, adapté y rechacé.
+> Utilicé IA generativa en las etapas 1, 3, 5 y 6 para delimitar el tema, tensionar mi tesis, obtener un esquema inverso y objeciones, y recibir sugerencias de estilo. Verifiqué todas las fuentes fuera del sistema. La tesis, las fuentes y la redacción son mías; mi tabla de decisiones documenta qué acepté, adapté y rechacé.
 
 ## Ruta del estudiante {#ruta-estudiante}
 
@@ -282,7 +291,7 @@ Así se ve el recorrido en un caso concreto. **Sofía**, estudiante de Relacione
 - Qué herramienta puedes usar y si existe una alternativa equivalente sin IA.
 - Qué información no debes introducir en un servicio externo.
 - En qué etapas se permite IA y en cuáles debes trabajar sin ella.
-- Qué evidencias forman parte de la entrega y cómo se califican.
+- Qué piezas forman parte de la entrega (borrador v1, matriz de fuentes, tabla de decisiones) y cómo se califican.
 {{< /alert >}}
 
 Tu portafolio no necesita contener cada clic ni una conversación interminable. Debe permitir reconstruir las decisiones que cambiaron tu trabajo.
@@ -346,11 +355,11 @@ Cuatro semanas como referencia; en cursos intensivos puede comprimirse a dos, y 
 **La IA retroalimenta; el docente evalúa.** Una valoración producida por un modelo es una hipótesis que el estudiante puede impugnar, no una calificación automática.
 {{< /alert >}}
 
-## Cómo evaluar proceso y producto
+## Cómo evaluar el proceso y el ensayo final
 
-Esta distribución es un punto de partida adaptable, no una política institucional.
+Esta distribución es un punto de partida adaptable, no una política institucional (por ejemplo, un curso de primer semestre puede subir el peso de la verificación de fuentes):
 
-| Componente | Criterio | Peso de ejemplo |
+| Componente | Criterio (por ejemplo, «tesis sostenida») | Peso de ejemplo |
 |---|---|---:|
 | **Proceso** | Evolución del enfoque y de la tesis | 10% |
 | **Proceso** | Búsqueda, lectura y verificación de fuentes | 15% |
@@ -369,17 +378,17 @@ No se califica la cantidad de prompts ni la longitud de la conversación. Una in
 |---|---|---|---|---|
 | Evolución del enfoque y la tesis | La tesis no cambia o proviene de la IA | Cambia sin justificación | Evoluciona con justificación propia | La evolución responde a fuentes y objeciones documentadas |
 | Búsqueda y verificación de fuentes | Fuentes sin verificar o inexistentes | Verificadas pero desconectadas del argumento | Cada afirmación central tiene fuente comprobada | Triangula fuentes y evalúa su calidad |
-| Calidad de las decisiones de revisión | Acepta todo sin cuestionar | Acepta o rechaza sin explicar | Justifica cada decisión relevante | Detecta sugerencias equivocadas y decide con criterio disciplinar |
+| Calidad de las decisiones de revisión | Acepta todo sin cuestionar | Acepta o rechaza sin explicar | Justifica cada decisión relevante | Detecta sugerencias equivocadas y decide con criterio disciplinar (por ejemplo, rechaza una cita que no existe) |
 | Reflexión, transparencia y uso crítico | No declara, o la reflexión es genérica | Declaración incompleta | Declaración específica y reflexión honesta | Nombra decisiones tomadas en contra de la IA y lo aprendido |
 
 ## Prompts listos para usar
 
-Todos parten de trabajo previo del estudiante y contienen una restricción explícita contra la sustitución de autoría. Cada uno indica la **etapa** en la que se usa. ¿Notas que no hay prompt para la **etapa 4**? Es deliberado: el primer borrador se escribe sin IA, porque es la evidencia del punto de partida y de la voz propia.
+Todos parten de trabajo previo del estudiante y contienen una restricción explícita contra la sustitución de autoría. Cada uno indica la **etapa** en la que se usa. ¿Notas que no hay prompt para la **etapa 4**? Es deliberado: el primer borrador se escribe sin IA, porque es la prueba del punto de partida y de la voz propia.
 
 <details>
 <summary><strong>Etapa 1 · Delimitar sin recibir la respuesta</strong></summary>
 
-> Actúa como tutor socrático. La consigna es: «[consigna]». Mi interpretación inicial es: «[interpretación propia]». No respondas la consigna ni redactes una tesis. Hazme cinco preguntas que me ayuden a precisar alcance, conceptos y tensiones. Al final, señala qué decisión todavía debo tomar yo.
+> Actúa como tutor socrático. La consigna es: «[consigna]». Mi interpretación inicial es: «[interpretación propia]». No respondas la tarea ni redactes una tesis. Hazme cinco preguntas que me ayuden a precisar alcance, conceptos y tensiones. Al final, señala qué decisión todavía debo tomar yo.
 
 </details>
 
@@ -400,21 +409,21 @@ Todos parten de trabajo previo del estudiante y contienen una restricción expl�
 <details>
 <summary><strong>Etapa 5 · Reconstruir el esquema real</strong></summary>
 
-> Te comparto mi borrador. No lo reescribas. Resume la función de cada párrafo en una línea: contexto, tesis, razón, evidencia, objeción, respuesta o cierre. Señala repeticiones, saltos lógicos y párrafos que no contribuyen a la tesis. Cita fragmentos concretos para justificar el diagnóstico.
+> Te comparto mi borrador. No lo reescribas. Resume la función de cada párrafo en una línea: contexto, tesis, razón, dato o fuente que la sostiene, objeción, respuesta o cierre. Señala repeticiones, saltos lógicos y párrafos que no contribuyen a la tesis. Cita fragmentos concretos para justificar el diagnóstico.
 
 </details>
 
 <details>
 <summary><strong>Etapa 5 · Hacer un red team argumentativo</strong></summary>
 
-> Actúa como especialista escéptico. Mi tesis es «[tesis]» y mis fuentes principales sostienen [síntesis]. Formula las tres objeciones más fuertes que podrían debilitar mi argumento. No redactes respuestas. Indica qué tipo de evidencia necesitaría yo para responder a cada objeción.
+> Actúa como especialista escéptico. Mi tesis es «[tesis]» y mis fuentes principales sostienen [síntesis]. Formula las tres objeciones más fuertes que podrían debilitar mi argumento. No redactes respuestas. Indica qué tipo de fuente o dato necesitaría yo para responder a cada objeción.
 
 </details>
 
 <details>
 <summary><strong>Etapa 5 · Usar una rúbrica sin delegar la calificación</strong></summary>
 
-> Aplica únicamente esta rúbrica a mi borrador: [rúbrica]. Para cada criterio, propone un nivel provisional, justifícalo con una cita exacta del texto y formula una pregunta de revisión. No asignes una nota final ni reescribas el contenido. Yo contrastaré e impugnaré tu valoración.
+> Aplica únicamente esta rúbrica a mi borrador: [rúbrica]. Para cada criterio de la rúbrica (por ejemplo, «solidez del argumento»), propone un nivel provisional, justifícalo con una cita exacta del texto y formula una pregunta de revisión. No asignes una nota final ni reescribas el contenido. Yo contrastaré e impugnaré tu valoración.
 
 </details>
 
@@ -428,7 +437,7 @@ Todos parten de trabajo previo del estudiante y contienen una restricción expl�
 <details>
 <summary><strong>Etapa 7 · Preparar la declaración de uso</strong></summary>
 
-> Organiza esta lista de interacciones [lista] por propósito: delimitación, búsqueda, diagnóstico, objeciones o edición. No inventes usos ni decisiones. Devuélveme una plantilla factual para que yo complete qué acepté, adapté o rechacé y redacte mi declaración final.
+> Organiza esta lista de interacciones [lista] según lo que buscaba en cada una: delimitación, búsqueda, diagnóstico, objeciones o edición. No inventes usos ni decisiones. Devuélveme una plantilla factual para que yo complete qué acepté, adapté o rechacé y redacte mi declaración final.
 
 </details>
 
@@ -453,7 +462,7 @@ Menos del que parece: solo hay dos o tres puntos de control, el portafolio es m�
 <details>
 <summary><strong>¿Y si un estudiante no quiere o no puede usar IA?</strong></summary>
 
-La ruta equivalente produce las mismas evidencias: las preguntas de delimitación y las objeciones las aportan pares, tutores o el propio docente, y el esquema inverso puede hacerse a mano. Nada del proceso depende de una herramienta concreta, y el acceso a una de pago nunca determina la calificación.
+La ruta equivalente produce las mismas piezas (nota de enfoque, borrador v1, tabla de decisiones): las preguntas de delimitación y las objeciones las aportan pares, tutores o el propio docente, y el esquema inverso puede hacerse a mano. Nada del proceso depende de una herramienta concreta, y el acceso a una de pago nunca determina la calificación.
 
 </details>
 
@@ -467,20 +476,20 @@ No se persigue con vigilancia; se hace probable por diseño: el v1 se entrega fe
 <details>
 <summary><strong>¿Esto sustituye al detector de plagio o de IA?</strong></summary>
 
-Lo vuelve casi innecesario. Los detectores de texto generado son poco fiables y castigan de manera desproporcionada a hablantes no nativos (ver [plagio y autenticidad en la era de la IA]({{< ref "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia" >}})). Este diseño genera evidencia positiva de autoría —versiones, decisiones, defensa— en lugar de sospecha estadística.
+Lo vuelve casi innecesario. Los detectores de texto generado son poco fiables y castigan de manera desproporcionada a hablantes no nativos (ver [plagio y autenticidad en la era de la IA]({{< ref "/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia" >}})). Este diseño genera pruebas positivas de autoría (versiones, decisiones, defensa) en lugar de sospecha estadística.
 
 </details>
 
 <details>
 <summary><strong>¿Qué hago si aun así detecto delegación?</strong></summary>
 
-La conversación parte del portafolio: sin versiones tempranas ni decisiones documentadas, la entrega no se evalúa —regla anunciada desde el día uno—. La respuesta es pedagógica antes que punitiva: rehacer el tramo faltante del proceso, no solo sancionar el producto.
+La conversación parte del portafolio: sin versiones tempranas ni decisiones documentadas, la entrega no se evalúa —regla anunciada desde el día uno—. La respuesta es pedagógica antes que punitiva: rehacer el tramo faltante del proceso, no solo sancionar el texto.
 
 </details>
 
 ## Modelo de declaración
 
-> Utilicé un sistema de IA generativa en las etapas de [etapas] con los propósitos de [propósitos]. Verifiqué las fuentes y los datos fuera del sistema. Conservé, adapté o rechacé sus sugerencias según se documenta en mi tabla de decisiones. La tesis, la selección de evidencia, la redacción sustantiva y las conclusiones son responsabilidad propia.
+> Utilicé un sistema de IA generativa en las etapas de [etapas] para [delimitar el tema, obtener objeciones, recibir sugerencias de estilo]. Verifiqué las fuentes y los datos fuera del sistema. Conservé, adapté o rechacé sus sugerencias según se documenta en mi tabla de decisiones. La tesis, la selección de fuentes, la redacción sustantiva y las conclusiones son responsabilidad propia.
 
 ## Glosario breve
 

@@ -31,21 +31,19 @@ connections:
     reason: "Profundiza en autonomía, transparencia, justicia y responsabilidad compartida."
 ---
 
-{{< lead >}}
-Copiar un texto a una IA también es compartir información con un servicio externo. Antes de hacerlo, pregunta de quién son los datos, qué permiso tienes y qué daño produciría perder el control sobre ellos.
-{{< /lead >}}
+{{< contrato quien="Docentes, estudiantes o quien investiga y tiene un texto listo para pegar en una IA (el ensayo de una estudiante, tu tesis en curso, un acta de academia) y duda si puede hacerlo." haras="Vas a hacerle tres preguntas al texto antes de pegarlo (de quién son los datos, qué permiso tienes, qué daño produciría perder el control), vas a ubicarlo en el semáforo de cuatro niveles y vas a elegir una de cuatro salidas: pegar, anonimizar, reformular o hacer ese tramo sin IA." tendras="Una decisión anotada en una línea que puedes dejar en tu bitácora o en tu declaración de uso (por ejemplo: «Pedí retroalimentación sobre una versión anonimizada de las respuestas, sin nombres ni matrículas»)." tarda="Cinco minutos con los tres casos de abajo; diez con un texto tuyo." ejemplo="Abajo están tres casos ya decididos: el ensayo de una estudiante, un manuscrito propio en revisión y un acta de academia. Léelos primero; después pasa tu texto por las mismas tres preguntas." >}}
 
-## Pegar es publicar (un poco)
+## Tres casos ya decididos
 
 La ventana de un chatbot se parece a un procesador de texto, y ese parecido engaña. Lo que escribes en un documento local se queda en tu equipo; lo que pegas en un servicio generativo comercial viaja a servidores de una empresa externa, queda sujeto a sus condiciones de uso y puede conservarse durante un tiempo que tú no controlas. Algunas plataformas permiten excluir las conversaciones del entrenamiento de sus modelos y otras no; casi ninguna te permite verificar, después, que un dato fue borrado de verdad. Por eso la decisión relevante no ocurre cuando la herramienta responde, sino un momento antes: cuando eliges qué entra.
 
-La regla de fondo es sencilla de enunciar: puedes arriesgar lo que es tuyo; no puedes arriesgar lo que es de otras personas o lo que custodias por tu cargo. Tres casos frecuentes en la vida universitaria muestran dónde falla la intuición.
+La regla de fondo es sencilla de enunciar: puedes arriesgar lo que es tuyo; no puedes arriesgar lo que es de otras personas o lo que custodias por tu cargo. Tres casos frecuentes en la vida universitaria muestran dónde falla la intuición; cada uno termina con la decisión que se tomó.
 
-**El trabajo de una estudiante.** Un docente pega un ensayo en un chatbot para pedirle retroalimentación y ganar tiempo. El propósito es legítimo; el problema es que ese texto no le pertenece: contiene el trabajo intelectual no publicado de otra persona, a veces su nombre y, con frecuencia, experiencias personales que usó como ejemplo. Compartirlo sin su conocimiento es una cesión de datos que ella no autorizó, aunque nadie llegue a enterarse.
+**El trabajo de una estudiante.** Un docente pega un ensayo en un chatbot para pedirle retroalimentación y ganar tiempo. Quiere algo razonable (comentarios rápidos sobre el ensayo), pero ese texto no le pertenece: contiene el trabajo intelectual no publicado de otra persona, a veces su nombre y, con frecuencia, experiencias personales que usó como ejemplo. Compartirlo sin su conocimiento es una cesión de datos que ella no autorizó, aunque nadie llegue a enterarse. **Decisión:** el docente quita el nombre, la matrícula y las experiencias personales antes de pegar el texto, o le pide a la estudiante que sea ella quien solicite la retroalimentación; si el ensayo entero es un relato personal, lo comenta él sin IA.
 
-**El manuscrito propio que aún no se publica.** Una tesis en curso, un artículo en revisión por pares o una solicitud de patente pierden algo al circular antes de tiempo. Un manuscrito en evaluación a doble ciego que se pega completo en un servicio externo compromete el anonimato del proceso; una idea original divulgada a un tercero antes de registrarse puede debilitar su protección posterior. Aquí el dueño eres tú, pero el daño es difícil de revertir.
+**El manuscrito propio que aún no se publica.** Una tesis en curso, un artículo en revisión por pares o una solicitud de patente pierden algo al circular antes de tiempo. Un manuscrito en evaluación a doble ciego que se pega completo en un servicio externo compromete el anonimato del proceso; una idea original divulgada a un tercero antes de registrarse puede debilitar su protección posterior. Aquí el dueño eres tú, pero el daño es difícil de revertir. **Decisión:** la autora pega sólo un resumen sin resultados nuevos en una herramienta autorizada por su universidad, y deja el manuscrito completo fuera hasta que se publique.
 
-**La información institucional.** Actas de academia, calificaciones, datos de un convenio con una empresa, expedientes: quien los maneja no los posee, los custodia. Cargarlos en una herramienta no autorizada traslada a un proveedor externo información que la institución se comprometió a proteger, y la decisión de asumir ese riesgo no corresponde a una persona sola. Este es, además, el terreno donde la privacidad se conecta con la [soberanía tecnológica](/recursos/glosario/soberania-tecnologica/): cada dato institucional que migra a plataformas externas profundiza una dependencia que después cuesta revertir.
+**La información institucional.** Actas de academia, calificaciones, datos de un convenio con una empresa, expedientes: quien los maneja no los posee, los custodia. Cargarlos en una herramienta no autorizada traslada a un proveedor externo información que la institución se comprometió a proteger, y la decisión de asumir ese riesgo no corresponde a una persona sola. Este es, además, el terreno donde la privacidad se conecta con la [soberanía tecnológica](/recursos/glosario/soberania-tecnologica/): cada dato institucional que migra a plataformas externas profundiza una dependencia que después cuesta revertir. **Decisión:** el acta no se carga. Quien necesita ayuda para redactarla describe su estructura sin copiar nombres ni acuerdos («un acta con cinco acuerdos y dos pendientes; ayúdame a ordenarla») y lo anota en su declaración de uso.
 
 ## Un semáforo para decidir
 
@@ -56,7 +54,14 @@ La regla de fondo es sencilla de enunciar: puedes arriesgar lo que es tuyo; no p
 | Sensible | Calificaciones, entrevistas, datos personales, salud o localización. | No cargar. Busca una alternativa segura y consulta el protocolo aplicable. |
 | Confidencial | Manuscritos en revisión, expedientes, secretos, datos bajo convenio. | No cargar en servicios generativos públicos. |
 
-La tabla resume la explicación anterior; no la sustituye. Si un caso te parece intermedio, vuelve a las tres preguntas del inicio: de quién son los datos, qué permiso tienes y qué daño produciría perder el control.
+La tabla resume los tres casos anteriores; si el tuyo te parece intermedio, vuelve a las tres preguntas: de quién son los datos, qué permiso tienes y qué daño produciría perder el control.
+
+## Haz lo mismo con tu texto, paso a paso
+
+1. **Responde las tres preguntas** sobre el texto que vas a pegar: ¿de quién es?, ¿qué permiso tengo?, ¿qué daño produce perderle el control? Una línea por pregunta basta.
+2. **Ubícalo en el semáforo.** Si dudas entre dos niveles, elige el más alto: un ensayo con el nombre de la estudiante es sensible, aunque el tema sea público.
+3. **Elige una salida** de la sección siguiente: pegar tal cual (sólo nivel público), anonimizar, reformular sin copiar, o hacer ese tramo sin IA.
+4. **Anota la decisión en una línea** («trabajé con una versión anonimizada», «describí la estructura sin pegar el acta») y guárdala con tu bitácora o tu declaración de uso.
 
 ## Si la información no puede compartirse
 

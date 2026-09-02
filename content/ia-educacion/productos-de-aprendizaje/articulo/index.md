@@ -27,9 +27,14 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un artículo académico se evalúa por su contribución, no por su longitud. La IAG puede mapear el campo y plantear objeciones disciplinares; la decisión sobre qué es contribución nueva y cómo posicionarse frente a la literatura es del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de seminario de tesis o de escritura académica en posgrado cuyo estudiantado debe entregar un artículo para una revista con arbitraje y que ya han visto llegar manuscritos con bibliografía plausible que nadie leyó." haras="Una estudiante de maestría en educación escribe un artículo sobre el uso de foros en un curso en línea. Pregunta a la IA qué estructura espera su campo (IMRyD o revisión), lee doce trabajos y le pide a la IA que señale vacíos en esa lista concreta, redacta el cuerpo sola, y al final le pide objeciones que un revisor del campo podría hacerle a su hallazgo («la participación subió, pero cambió a la vez la ponderación del foro»). Entrega el artículo, los borradores fechados y la lista de literatura verificada con DOI." tendras="Cuatro prompts copiables y una regla de revisión que puedes usar mañana: «sin DOI o localización comprobable para cada referencia, el artículo no se revisa; la lista de lecturas anotadas se entrega antes que el estado del arte»." tarda="Diez minutos de lectura; quince si copias los prompts para tu seminario." ejemplo="Empieza con el caso de la estudiante de maestría, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+En un seminario de tesis de maestría, una estudiante prepara un artículo sobre lo que
+pasó en los foros de un curso en línea cuando cambió la forma de preguntar. La profesora
+del seminario revisa la contribución (qué se sabe ahora que antes no), más que la
+longitud del manuscrito. La IA puede mapear el campo a partir de lo que la estudiante ya
+leyó y hacer de revisora que objeta; decidir qué es aporte nuevo y cómo colocarse frente
+a la literatura es trabajo de la estudiante.
 
 ## Qué es y para qué sirve
 
@@ -38,17 +43,20 @@ revista o memoria con arbitraje. Combina problema delimitado, estado del
 arte explícito, método (o argumento) y contribución original. Es el
 formato más exigente de comunicación académica.
 
-**Uso formativo de la IAG en este producto:** verificar convenciones
-estructurales de la disciplina, mapear tendencias y vacíos del estado
-del arte, plantear objeciones disciplinares a la contribución propia y
-revisar la discusión. La IAG no escribe el cuerpo del artículo; en
-particular, **no inventa citas**.
+**Dónde entra la IA en este tipo de trabajo:** verifica las convenciones
+de estructura de la disciplina (IMRyD, revisión narrativa), señala
+tendencias y vacíos en la lista de trabajos que la estudiante ya leyó
+(«ninguno de tus doce textos mide participación más allá de un semestre»),
+plantea objeciones a la contribución propia y revisa la discusión. La IA
+no escribe el cuerpo del artículo; en particular, **no inventa citas**.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
 nivel dominante **5 — Evaluar** (el posicionamiento argumentado frente al
-campo).
+campo). Para ti, la tabla es un banco de prompts: copia el de la fase en la
+que tu grupo se atasca (casi siempre la prueba de la contribución, cuando
+presentan como hallazgo algo ya publicado) y sustituye los corchetes.
 
 | Nivel Bloom | Movimiento del artículo | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -90,11 +98,12 @@ crítico planteando objeciones; el estudiante responde por escrito.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del manuscrito
 
 Riesgo **alto**: los artículos pueden generarse con plausibilidad
-superficial. Las evidencias críticas son la lista de literatura **leída
-y verificada** y los borradores fechados.
+superficial. Las dos piezas que más te dicen son la lista de literatura
+**leída y verificada** (con las anotaciones propias de cada texto) y los
+borradores fechados:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -108,6 +117,11 @@ y verificada** y los borradores fechados.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito; con explícita declaración de no haber generado citas |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora, la lista de lecturas y los
+borradores, no sólo el manuscrito; ajusta los pesos a tu seminario (por
+ejemplo, más peso a «uso ético» si en tu campo ya has recibido citas
+inexistentes):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -150,12 +164,12 @@ memoria con arbitraje.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — escala argumentativa menor con literatura más acotada.
-- Producto cercano: [Monografía con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/monografia" >}}) — etapa formativa previa.
-- Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — insumo empírico de muchos artículos.
+- Trabajo cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — escala argumentativa menor con literatura más acotada.
+- Trabajo cercano: [Monografía con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/monografia" >}}) — etapa formativa previa.
+- Trabajo cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — de ahí salen los datos (encuestas, entrevistas) de muchos artículos.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

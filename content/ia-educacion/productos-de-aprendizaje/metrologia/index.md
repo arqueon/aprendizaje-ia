@@ -27,25 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una medición se evalúa por lo que se sabe sobre lo que no se sabe: la incertidumbre declarada con honestidad. La IAG puede revisar la trazabilidad y el cálculo según GUM; la medición y la responsabilidad del valor reportado son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de laboratorio de metrología, control de calidad o ingeniería mecánica que piden medir una pieza y reportar el valor con su incertidumbre, y reciben reportes con un número bonito y una incertidumbre que nadie sabe de dónde salió." haras="Una estudiante de ingeniería industrial mide diez veces el diámetro de un eje con un micrómetro de 0,01 mm, antes de medir le pide a la IA la lista de fuentes de incertidumbre típicas para ese instrumento (temperatura, fuerza de apriete, calibración del patrón), después le pasa sus diez lecturas para que le señale si los residuos muestran un error sistemático, y al final le pregunta si su valor «24,98 ± 0,03 mm» es coherente con la resolución del micrómetro y el certificado del patrón. La IA entra antes y después de medir; la medición y la hoja de cálculo según GUM son de la estudiante." tendras="Tres prompts copiables, uno por fase, y una regla de revisión: «una incertidumbre declarada menor que la resolución del instrumento (por ejemplo, ± 0,005 mm con un micrómetro de 0,01 mm) se devuelve sin calificar»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a tu instrumento." ejemplo="Empieza con el eje y el micrómetro, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Un profesor de laboratorio de metrología dimensional entrega a cada estudiante un eje
+torneado, un micrómetro de 0,01 mm y el certificado de calibración del bloque patrón.
+Pide diez mediciones del diámetro y un reporte de una página con el valor, su
+incertidumbre según la GUM (la guía internacional para expresar la incertidumbre) y la
+cadena de trazabilidad. Una medición se revisa por lo que se sabe sobre lo que no se
+sabe: la incertidumbre declarada con honestidad. La IA puede revisar la trazabilidad y
+el cálculo; la medición y la responsabilidad del valor reportado («24,98 ± 0,03 mm») son
+de quien midió.
 
 ## Qué es y para qué sirve
 
 La **metrología** se ocupa de medir con rigor: trazabilidad,
-incertidumbre, calibración y reporte coherente del resultado. Valor
-formativo: conciencia de fuentes de error, manejo de la incertidumbre
-según GUM y disciplina de reporte.
+incertidumbre, calibración y reporte coherente del resultado. Lo que el
+estudiante aprende aquí: reconocer las fuentes de error (la temperatura
+del taller, la fuerza con que cierra el micrómetro), calcular la
+incertidumbre según GUM y reportar con disciplina.
 
-**Uso formativo de la IAG:** mapear fuentes típicas de incertidumbre,
-identificar patrones de error sistemático/aleatorio en residuos y
-revisar la coherencia entre incertidumbre declarada, trazabilidad y
-resolución del instrumento.
+**Dónde entra la IA en este tipo de trabajo:** lista las fuentes típicas de
+incertidumbre para el instrumento (por ejemplo, la dilatación del eje si se
+mide recién torneado), señala si los residuos de las diez lecturas muestran
+un error sistemático o aleatorio, y revisa que la incertidumbre declarada
+sea coherente con la trazabilidad del patrón y la resolución del
+micrómetro.
 
 ## Bloom y progresión de prompts
 
-Nivel dominante **4 — Analizar** (la lectura de patrones de error).
+Nivel dominante **4 — Analizar** (la lectura de patrones de error). Para
+ti, la tabla es un banco de prompts: copia el de la fase que quieras
+reforzar (casi siempre la de residuos, donde el grupo corrige sin haber
+mirado el patrón) y sustituye los corchetes por tu magnitud e instrumento.
 
 | Nivel Bloom | Movimiento metrológico | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -82,7 +95,11 @@ resolución; verificación cruzada de coherencia.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del reporte
+
+Riesgo **bajo**: sin datos crudos y hoja de cálculo el reporte se cae solo.
+Junto con el valor reportado, el estudiante entrega estas piezas (las diez
+lecturas con fecha y temperatura, la hoja GUM, el certificado del patrón):
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -95,6 +112,10 @@ resolución; verificación cruzada de coherencia.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la hoja de cálculo y la bitácora, no sólo el número
+final; ajusta los pesos a tu curso (por ejemplo, más peso a «uso ético» si
+te preocupa la incertidumbre subdeclarada):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -131,11 +152,11 @@ medición, metrología dimensional o eléctrica.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — uso de mediciones para caracterización.
-- Producto cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del resultado.
+- Trabajo cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — uso de mediciones para caracterización.
+- Trabajo cercano: [Reporte técnico con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/reporte-tecnico" >}}) — comunicación del resultado.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

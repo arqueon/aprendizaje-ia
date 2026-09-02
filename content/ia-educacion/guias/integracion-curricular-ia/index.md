@@ -1,5 +1,5 @@
 ---
-title: "Integración curricular de IA en programas existentes"
+title: "Integra la IA en un programa que ya existe: cinco pasos sin reescribir el plan de estudios"
 date: 2026-04-26
 draft: false
 description: "Método de cinco pasos para insertar la IA en un programa académico ya constituido sin reescribir el plan de estudios: mapeo, diagnóstico, distribución, rediseño y articulación."
@@ -17,9 +17,11 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La mayoría de los programas universitarios no necesita rediseñarse para integrar IA. Necesita un método para identificar qué asignaturas requieren ajustes y cuáles no, qué competencias del perfil de egreso se ven afectadas y cómo distribuir entre las asignaturas la responsabilidad de desarrollar lo nuevo. Esta guía propone un método de cinco pasos para hacerlo sin partir de cero.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Coordinaciones y claustros de un programa con perfil de egreso ya aprobado, que reciben la petición de «meter IA» y no quieren reescribir el plan de estudios ni abrir una materia nueva de IA." haras="Vas a entender un método de cinco pasos (marcar qué competencias del perfil cambian con IA, detectar qué evaluaciones se resuelven con un modelo en cinco minutos, repartir lo nuevo entre materias, rediseñar evaluaciones antes que comprar herramientas y llevarlo al syllabus) y en qué orden conviene hacerlos." tendras="Una página con tres respuestas para compartir con el claustro antes de tocar cualquier materia (por ejemplo: «Escritura de informes: transformación profunda; atención clínica presencial: sin cambio inmediato») y una tabla de tres niveles para clasificar las evaluaciones que ya tienes." tarda="Quince minutos de lectura; el ejercicio de claustro del paso 1 lleva una sesión de dos horas." ejemplo="Empieza por el caso del programa de Nutrición, donde la coordinación recorrió los cinco pasos en un semestre." >}}
+
+## El caso de un programa de Nutrición, ya recorrido
+
+Laura coordina la licenciatura en Nutrición. En una sesión de claustro de dos horas marcaron el perfil de egreso: dos competencias cambian de fondo con IA (redactar informes dietéticos, analizar datos de encuestas alimentarias), tres necesitan ajuste y el resto, entre ellas la consulta presencial, queda igual por ahora. Después pasaron por treinta evaluaciones del programa y encontraron doce que un modelo gratuito resuelve en cinco minutos, casi todas ensayos de nutrición comunitaria. Repartieron lo nuevo: verificar lo que dice una IA se trabaja en Metodología y se consolida en Nutrición comunitaria; ninguna materia recibió más de dos cosas nuevas. Rediseñaron primero las doce evaluaciones (el informe dietético ahora lleva un anexo de uso de IA y una defensa oral de cinco minutos) y sólo entonces pidieron licencias. Al cierre, cinco syllabus tienen sección de IA y una fila nueva en su rúbrica. Todo lo anterior cabe en una página que el claustro revisa cada semestre; el método que sigue es ese recorrido, paso por paso.
 
 ## Tres preguntas que orientan la integración
 
@@ -73,9 +75,9 @@ El error más frecuente en programas que integran IA es empezar por la herramien
 
 El rediseño se concentra en cuatro tipos de cambios:
 
-- **De producto a proceso** — incorporar entregas intermedias y rúbricas que evalúen decisiones, no solo resultados.
+- **De la entrega final al proceso** — incorporar entregas intermedias (un esquema, un borrador) y rúbricas que evalúen decisiones, no solo resultados.
 - **De individual a documentado** — pedir un anexo de uso de IA que se evalúa con peso propio.
-- **De homogéneo a contextualizado** — sustituir consignas genéricas por consignas que requieran contexto local que la IA no conoce.
+- **De homogéneo a contextualizado** — sustituir tareas genéricas por tareas que requieran contexto local que la IA no conoce (por ejemplo, datos de la clínica escuela o entrevistas del barrio).
 - **De respuesta única a defensa oral** — añadir momentos de defensa donde el estudiante explique sus decisiones frente a un evaluador.
 
 La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-formativa-ia/) ofrece el método operativo y la [actividad propuesta de evaluación formativa asistida por IA](/laboratorio/practicas/evaluacion-formativa-asistida-ia/) una secuencia adaptable para aplicarlo.
@@ -85,8 +87,8 @@ La [guía sobre evaluación formativa con IA](/ia-educacion/guias/evaluacion-for
 El último paso es operativo: cada asignatura ajustada actualiza su syllabus para hacer visible la integración. Tres elementos mínimos:
 
 1. **Sección de IA en el syllabus** — qué usos están permitidos, restringidos y prohibidos en la asignatura.
-2. **Rúbricas con criterios sobre uso de IA** — al menos un criterio de la rúbrica evalúa el uso transparente o el proceso documentado.
-3. **Tutoría sobre IA en momentos clave del semestre** — al menos una tutoría grupal específica en las primeras semanas para resolver dudas y unificar criterios.
+2. **Rúbricas con una fila sobre uso de IA** — al menos una fila de la rúbrica evalúa el uso transparente o el proceso documentado (por ejemplo: «declara qué pidió a la IA y qué comprobó»).
+3. **Tutoría sobre IA en momentos clave del semestre** — al menos una tutoría grupal específica en las primeras semanas para resolver dudas y acordar las mismas reglas entre materias.
 
 La [guía sobre el syllabus y portafolio de docencia](/formacion-docente/syllabus-portafolio/) cubre el formato. Los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen las decisiones de cada asignatura.
 
@@ -107,7 +109,7 @@ Una integración curricular bien hecha se observa con cinco indicadores que conv
 - Porcentaje de asignaturas del programa que tienen sección de IA en el syllabus.
 - Porcentaje de evaluaciones rediseñadas según el diagnóstico de vulnerabilidad.
 - Cobertura de las cuatro dimensiones del marco UNESCO en la matriz competencia × asignatura.
-- Número de prácticas docentes con IA documentadas según [criterios de calidad](/observatorio/guias/documentacion-buenas-practicas-ia/).
+- Número de prácticas docentes con IA documentadas según [criterios de calidad](/observatorio/guias/documentacion-buenas-practicas-ia/) (contexto, diseño, resultados y rúbrica descritos).
 - Reportes de incidentes de integridad académica relacionados con IA: si suben de un semestre a otro, hay desalineación entre lineamientos y práctica.
 
 ## Lecturas relacionadas

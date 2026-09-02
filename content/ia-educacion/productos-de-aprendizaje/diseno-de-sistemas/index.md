@@ -27,31 +27,43 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un sistema se diseña con lo que se ve y se rompe con lo que no se vio. La IAG ayuda a mapear arquitecturas de referencia y a recordar subsistemas olvidados; las decisiones de trade-off y la responsabilidad operativa son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de ingeniería de software, sistemas, mecatrónica o industrial que piden diseñar un sistema completo (una app de préstamo de bicicletas para el campus, una celda de ensamble) y reciben diagramas vistosos con la arquitectura de moda, sin que nadie explique por qué esa y no otra." haras="Un equipo de sexto semestre debe diseñar el sistema de préstamo de bicicletas del campus: levanta requerimientos, pregunta a la IA qué arquitecturas de referencia existen, compara tres (monolítica, modular, con servicios separados) bajo escalabilidad, mantenibilidad y costo, dibuja su propia arquitectura y al final pide a la IA que le señale qué subsistema olvidó (el de recuperar bicicletas no devueltas). Entrega la matriz de comparación, el diagrama y la lista de interfaces. La IA entra en las fases 1, 2 y 4; el diseño detallado es del equipo." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «cada arquitectura descartada lleva su argumento en la matriz (por ejemplo, ‘servicios separados: descartada, tres personas no pueden operar cinco despliegues’)»." tarda="Ocho minutos de lectura; quince si adaptas los prompts a tu proyecto." ejemplo="Empieza con el caso del préstamo de bicicletas, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Un profesor de ingeniería de software pide a equipos de tres personas diseñar el sistema
+de préstamo de bicicletas del campus: registro de usuarios, candados electrónicos, cobro
+de retrasos. El primer diagrama que recibe un equipo tiene ocho microservicios y una cola
+de mensajes; cuando pregunta quién va a operar eso, nadie sabe. Un sistema se diseña con
+lo que se ve y se rompe con lo que no se vio. La IA le sirve al equipo para conocer las
+arquitecturas de referencia y para recordar el subsistema olvidado (qué pasa con una
+bicicleta que no vuelve); la decisión entre alternativas y la responsabilidad de que el
+sistema funcione son del equipo.
 
 ## Qué es y para qué sirve
 
 El **diseño de sistemas** define la arquitectura, los componentes, las
 interfaces y los flujos de un sistema técnico complejo (mecánico,
-electrónico, software, ciber-físico). Valor formativo: pensamiento
-arquitectónico, trade-offs explícitos y anticipación de fallos en
-operación real.
+electrónico, software, ciber-físico). Al hacerlo, el estudiante practica
+el pensamiento arquitectónico, pone por escrito los trade-offs (en el caso
+de las bicicletas: menos servicios, más fácil de operar, más difícil de
+crecer) y anticipa fallos en operación real.
 
-**Uso formativo de la IAG:** mapear arquitecturas de referencia,
-evaluar trade-offs entre alternativas e identificar subsistemas o
-interfaces que el estudiante no consideró.
+**Dónde entra la IA en este tipo de trabajo:** mapea arquitecturas de
+referencia (monolítica, modular, con servicios separados), ayuda a comparar
+trade-offs entre alternativas y señala subsistemas o interfaces que el
+estudiante no consideró (por ejemplo, la recuperación de bicicletas no
+devueltas o el pago fallido).
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **6 — Crear** (la construcción de una arquitectura
-propia).
+propia). Para ti, la tabla es un banco de prompts: copia el de la fase donde
+tu grupo se atasca (casi siempre la revisión por omisiones, cuando el diseño
+ya parece terminado) y sustituye los corchetes por tu proyecto.
 
 | Nivel Bloom | Movimiento del diseño | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
 | 4 — Analizar | Arquitecturas de referencia | Conoce el espacio de arquitecturas y sus trade-offs | _"Necesito diseñar un sistema para [requerimiento]. ¿Qué arquitecturas de referencia existen (monolítica, modular, distribuida, etc.) y qué trade-offs imponen?"_ |
-| 5 — Evaluar | Trade-offs aplicados | Compara alternativas bajo criterios técnicos | _"He preseleccionado estas arquitecturas: [lista]. Aplica los criterios [escalabilidad, mantenibilidad, costo, etc.] y muéstrame ventajas/desventajas. No decidas por mí."_ |
+| 5 — Evaluar | Trade-offs aplicados | Compara alternativas bajo criterios técnicos | _"He preseleccionado estas arquitecturas: [lista]. Aplica los criterios [por ejemplo: escalabilidad, mantenibilidad, costo] y muéstrame ventajas/desventajas. No decidas por mí."_ |
 | 6 — Crear **(dominante)** | Subsistemas críticos | Identifica omisiones en su diseño | _"Mi diseño propuesto es: [descripción]. ¿Qué subsistemas o interfaces no estoy considerando que podrían ser críticos en operación real?"_ |
 
 ## Competencias que desarrolla
@@ -69,7 +81,8 @@ referencia.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="scale-balanced" header="Fase 2 — Trade-offs" subheader="Decisión" md="true" >}}
-Comparación de alternativas con criterios explícitos y selección
+Comparación de alternativas con criterios explícitos (escalabilidad,
+mantenibilidad, costo, personas disponibles para operarlo) y selección
 justificada.
 {{< /timelineItem >}}
 
@@ -84,10 +97,12 @@ interfaces no consideradas que serían críticas en operación.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del diseño
 
 Riesgo **bajo**: los diagramas y especificaciones son difíciles de
-generar consistentemente sin oficio.
+generar consistentemente sin oficio. Junto con el diseño, el equipo entrega
+estas piezas (matriz de comparación, diagrama propio, lista de interfaces),
+cada una con su grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -100,6 +115,11 @@ generar consistentemente sin oficio.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la matriz, el diagrama y la bitácora, no sólo el
+diseño final; ajusta los pesos a tu curso (por ejemplo, más peso a «uso
+crítico de la respuesta» si tu grupo adopta la primera arquitectura que la IA
+menciona):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -117,8 +137,9 @@ generar consistentemente sin oficio.
   trade-offs obligatoria.
 - **Interfaces sin responsabilidades claras.** Salvaguarda: especificación
   obligatoria con qué hace cada componente y dónde termina.
-- **Sobre-ingeniería.** Salvaguarda: el criterio de viabilidad del
-  contexto se incorpora explícitamente.
+- **Sobre-ingeniería.** Salvaguarda: la matriz incluye como criterio la
+  viabilidad en el contexto real (por ejemplo, «¿tres estudiantes pueden
+  operar cinco despliegues?»).
 - **Ausencia de operación real.** El diseño olvida pruebas, despliegue o
   mantenimiento. Salvaguarda: el prompt avanzado obliga a pensar
   subsistemas críticos en operación.
@@ -135,12 +156,12 @@ estructural.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — etapa posterior.
-- Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre que precede al diseño.
-- Producto cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del diseño.
+- Trabajo cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — etapa posterior.
+- Trabajo cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre que precede al diseño.
+- Trabajo cercano: [Prototipo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/prototipo" >}}) — materialización del diseño.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

@@ -5,19 +5,19 @@
     "markdown": 203,
     "pages": 172,
     "sections": 31,
-    "words": 160127,
+    "words": 173324,
     "assets": 238,
     "content_assets": 232,
     "shared_figure_assets": 6,
     "pages_with_featured": 184,
     "pages_with_svg": 35,
-    "pages_with_tables": 68,
+    "pages_with_tables": 69,
     "pages_with_mermaid": 15,
     "pages_with_h5p": 19,
     "pages_with_any_interaction": 20,
     "body_lt90": 3,
-    "body_lt250": 39,
-    "body_gt2800": 1,
+    "body_lt250": 38,
+    "body_gt2800": 3,
     "missing_description": 0,
     "missing_summary": 7,
     "missing_date_pages": 0,
@@ -84,7 +84,7 @@
     "formacion-docente": {
       "pages": 31,
       "sections": 2,
-      "words": 40375,
+      "words": 42534,
       "featured": 33,
       "svg": 12,
       "h5p": 33,
@@ -95,22 +95,22 @@
     "ia-educacion": {
       "pages": 61,
       "sections": 8,
-      "words": 71572,
+      "words": 80971,
       "featured": 63,
       "svg": 23,
       "h5p": 4,
-      "tables": 115,
-      "weak_lt250": 2,
+      "tables": 116,
+      "weak_lt250": 1,
       "missing_refs_with_citations": 14
     },
     "laboratorio": {
       "pages": 7,
       "sections": 3,
-      "words": 7153,
+      "words": 8368,
       "featured": 9,
       "svg": 0,
       "h5p": 2,
-      "tables": 10,
+      "tables": 15,
       "weak_lt250": 1,
       "missing_refs_with_citations": 0
     },
@@ -128,7 +128,7 @@
     "observatorio": {
       "pages": 11,
       "sections": 4,
-      "words": 12627,
+      "words": 13051,
       "featured": 15,
       "svg": 5,
       "h5p": 0,
@@ -865,254 +865,234 @@
   ],
   "possible_overlaps": [
     {
-      "score": 0.477,
-      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
-    },
-    {
-      "score": 0.461,
-      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
-    },
-    {
-      "score": 0.447,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
-    },
-    {
-      "score": 0.441,
+      "score": 0.397,
       "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.43,
-      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.426,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
-    },
-    {
-      "score": 0.422,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md"
-    },
-    {
-      "score": 0.42,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.417,
-      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
-    },
-    {
-      "score": 0.415,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
-    },
-    {
-      "score": 0.409,
-      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
-    },
-    {
-      "score": 0.408,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
-    },
-    {
-      "score": 0.405,
-      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.403,
-      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
-    },
-    {
-      "score": 0.396,
-      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.395,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md"
-    },
-    {
-      "score": 0.394,
-      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
       "score": 0.393,
-      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
+      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
     },
     {
-      "score": 0.387,
-      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
+      "score": 0.388,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
     },
     {
       "score": 0.386,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.385,
-      "a": "ia-educacion/productos-de-aprendizaje/articulo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
-    },
-    {
-      "score": 0.382,
-      "a": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.382,
-      "a": "ia-educacion/productos-de-aprendizaje/monografia/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
-    },
-    {
-      "score": 0.375,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
     },
     {
-      "score": 0.373,
-      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
-    },
-    {
-      "score": 0.37,
-      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "score": 0.384,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md"
     },
     {
-      "score": 0.369,
-      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "score": 0.376,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.373,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
     },
     {
-      "score": 0.369,
-      "a": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
-    },
-    {
-      "score": 0.366,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
-    },
-    {
-      "score": 0.366,
-      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
-    },
-    {
-      "score": 0.366,
-      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
-    },
-    {
-      "score": 0.365,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md"
-    },
-    {
-      "score": 0.364,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md"
-    },
-    {
-      "score": 0.364,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
-    },
-    {
-      "score": 0.364,
+      "score": 0.368,
       "a": "ia-educacion/productos-de-aprendizaje/articulo/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/monografia/index.md"
     },
     {
-      "score": 0.363,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md"
-    },
-    {
-      "score": 0.363,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
-    },
-    {
-      "score": 0.362,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
-    },
-    {
-      "score": 0.362,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
-    },
-    {
-      "score": 0.362,
-      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+      "score": 0.365,
+      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
       "score": 0.36,
-      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md"
+    },
+    {
+      "score": 0.36,
+      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
     },
     {
-      "score": 0.359,
-      "a": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.359,
-      "a": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
-    },
-    {
-      "score": 0.358,
-      "a": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
       "score": 0.357,
-      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md"
     },
     {
-      "score": 0.357,
-      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
-    },
-    {
-      "score": 0.355,
-      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "score": 0.356,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
     },
     {
-      "score": 0.355,
-      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
-      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+      "score": 0.356,
+      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     },
     {
-      "score": 0.354,
+      "score": 0.356,
+      "a": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.35,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.35,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
+    },
+    {
+      "score": 0.345,
+      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
+    },
+    {
+      "score": 0.345,
+      "a": "ia-educacion/productos-de-aprendizaje/monografia/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
+    },
+    {
+      "score": 0.341,
+      "a": "ia-educacion/productos-de-aprendizaje/articulo/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
+    },
+    {
+      "score": 0.338,
+      "a": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.337,
+      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.336,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md"
+    },
+    {
+      "score": 0.336,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
+    },
+    {
+      "score": 0.332,
+      "a": "ia-educacion/productos-de-aprendizaje/circuitos-electricos/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
+    },
+    {
+      "score": 0.332,
+      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md"
+    },
+    {
+      "score": 0.332,
+      "a": "ia-educacion/productos-de-aprendizaje/nota/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.331,
       "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
     },
     {
-      "score": 0.354,
+      "score": 0.331,
+      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.33,
+      "a": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
+    },
+    {
+      "score": 0.329,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/analisis-economico/index.md"
+    },
+    {
+      "score": 0.329,
+      "a": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/investigacion-de-campo/index.md"
+    },
+    {
+      "score": 0.327,
+      "a": "ia-educacion/productos-de-aprendizaje/analisis-de-materiales/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md"
+    },
+    {
+      "score": 0.326,
+      "a": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/nota/index.md"
+    },
+    {
+      "score": 0.326,
+      "a": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/nota/index.md"
+    },
+    {
+      "score": 0.325,
+      "a": "ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+    },
+    {
+      "score": 0.325,
+      "a": "ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/investigacion-aplicada/index.md"
+    },
+    {
+      "score": 0.325,
+      "a": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
+    },
+    {
+      "score": 0.324,
+      "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/planos-tecnicos/index.md"
+    },
+    {
+      "score": 0.324,
+      "a": "ia-educacion/productos-de-aprendizaje/control-y-dinamica/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/gestion-industrial/index.md"
+    },
+    {
+      "score": 0.324,
+      "a": "ia-educacion/productos-de-aprendizaje/cronica/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/resena/index.md"
+    },
+    {
+      "score": 0.324,
+      "a": "ia-educacion/productos-de-aprendizaje/metrologia/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/modelado-matematico/index.md"
+    },
+    {
+      "score": 0.324,
+      "a": "ia-educacion/productos-de-aprendizaje/nota/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/reporte-tecnico/index.md"
+    },
+    {
+      "score": 0.323,
+      "a": "ia-educacion/productos-de-aprendizaje/cronica/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/nota/index.md"
+    },
+    {
+      "score": 0.322,
       "a": "ia-educacion/productos-de-aprendizaje/automatizacion-industrial/index.md",
       "b": "ia-educacion/productos-de-aprendizaje/prototipo/index.md"
+    },
+    {
+      "score": 0.321,
+      "a": "ia-educacion/productos-de-aprendizaje/entrevista/index.md",
+      "b": "ia-educacion/productos-de-aprendizaje/metrologia/index.md"
     }
   ],
   "declared_count_checks": [
@@ -2023,7 +2003,7 @@
         "digital",
         "ia"
       ],
-      "words": 1214,
+      "words": 1367,
       "heading_count": 5,
       "h2_count": 5,
       "external_url_count": 6,
@@ -2042,8 +2022,8 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "idea",
-          "lead",
           "mermaid",
           "referencias"
         ]
@@ -2079,7 +2059,7 @@
         "ia",
         "formacion"
       ],
-      "words": 2000,
+      "words": 2283,
       "heading_count": 10,
       "h2_count": 6,
       "external_url_count": 4,
@@ -2098,8 +2078,8 @@
         "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "h5p",
-          "lead",
           "mermaid",
           "referencias"
         ]
@@ -2136,7 +2116,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1107,
+      "words": 1346,
       "heading_count": 5,
       "h2_count": 3,
       "external_url_count": 3,
@@ -2155,11 +2135,11 @@
         "h5p_count": 2,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "h5p",
           "infografia",
           "infografia-intro",
           "infografia-seccion",
-          "lead",
           "referencias"
         ]
       },
@@ -2196,7 +2176,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 514,
+      "words": 669,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 3,
@@ -2215,14 +2195,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "infografia",
           "infografia-intro",
           "infografia-seccion",
-          "lead",
           "referencias"
         ]
       },
-      "decision": "actualizar",
+      "decision": "conservar",
       "needs": [
         "svg-diagrama"
       ]
@@ -2251,7 +2231,7 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 941,
+      "words": 964,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 1,
@@ -2270,6 +2250,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
           "parallevar",
           "practica",
@@ -2307,7 +2288,7 @@
         "pedagogia",
         "digital"
       ],
-      "words": 1178,
+      "words": 1198,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -2326,6 +2307,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
           "parallevar",
           "paso",
@@ -2365,7 +2347,7 @@
         "ia",
         "formacion"
       ],
-      "words": 974,
+      "words": 1119,
       "heading_count": 14,
       "h2_count": 6,
       "external_url_count": 3,
@@ -2384,8 +2366,8 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "idea",
-          "lead",
           "referencias"
         ]
       },
@@ -3290,7 +3272,7 @@
         "formacion",
         "etica"
       ],
-      "words": 1167,
+      "words": 1230,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 2,
@@ -3309,7 +3291,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -3344,7 +3326,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1515,
+      "words": 1692,
       "heading_count": 16,
       "h2_count": 9,
       "external_url_count": 2,
@@ -3363,10 +3345,10 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "idea",
           "infografia",
           "infografia-seccion",
-          "lead",
           "paso",
           "practica",
           "proceso",
@@ -3398,7 +3380,7 @@
         "formacion",
         "digital"
       ],
-      "words": 370,
+      "words": 466,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -3417,7 +3399,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "actualizar",
@@ -3448,7 +3430,7 @@
         "ia",
         "formacion"
       ],
-      "words": 842,
+      "words": 946,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 6,
@@ -3470,13 +3452,15 @@
           "alert",
           "card",
           "cards",
-          "lead",
+          "contrato",
           "mermaid",
           "referencias"
         ]
       },
       "decision": "conservar",
-      "needs": []
+      "needs": [
+        "interaccion-candidata"
+      ]
     },
     {
       "path": "formacion-docente/modelos-samr-icap/index.md",
@@ -3502,7 +3486,7 @@
         "digital",
         "pedagogia"
       ],
-      "words": 1050,
+      "words": 1098,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 3,
@@ -3521,6 +3505,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
           "parallevar",
           "practica",
@@ -3559,7 +3544,7 @@
         "ia",
         "formacion"
       ],
-      "words": 1001,
+      "words": 1092,
       "heading_count": 10,
       "h2_count": 6,
       "external_url_count": 5,
@@ -3578,8 +3563,8 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "idea",
-          "lead",
           "practica",
           "referencias"
         ]
@@ -3608,7 +3593,7 @@
         "formacion",
         "digital"
       ],
-      "words": 423,
+      "words": 514,
       "heading_count": 4,
       "h2_count": 4,
       "external_url_count": 0,
@@ -3627,13 +3612,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "practica",
           "referencias"
         ]
       },
       "decision": "actualizar",
       "needs": [
+        "svg-diagrama",
         "procedencia"
       ]
     },
@@ -3661,7 +3647,7 @@
         "formacion",
         "pedagogia"
       ],
-      "words": 935,
+      "words": 1052,
       "heading_count": 9,
       "h2_count": 4,
       "external_url_count": 0,
@@ -3680,10 +3666,10 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
           "infografia",
           "infografia-seccion",
-          "lead",
           "ref",
           "referencias"
         ]
@@ -3721,7 +3707,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1926,
+      "words": 2185,
       "heading_count": 21,
       "h2_count": 10,
       "external_url_count": 2,
@@ -3740,8 +3726,8 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "idea",
-          "lead",
           "practica",
           "referencias"
         ]
@@ -3777,7 +3763,7 @@
         "pedagogia",
         "evaluacion"
       ],
-      "words": 940,
+      "words": 1007,
       "heading_count": 6,
       "h2_count": 6,
       "external_url_count": 0,
@@ -3796,6 +3782,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
           "parallevar",
           "practica",
@@ -3834,7 +3821,7 @@
         "digital",
         "formacion"
       ],
-      "words": 1220,
+      "words": 1248,
       "heading_count": 8,
       "h2_count": 7,
       "external_url_count": 0,
@@ -3855,9 +3842,9 @@
         "shortcode_names": [
           "card",
           "cards",
+          "contrato",
           "infografia",
           "infografia-seccion",
-          "lead",
           "ref",
           "referencias"
         ]
@@ -4500,10 +4487,10 @@
       "route": "/ia-educacion/guias/abp-con-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Aprendizaje basado en proyectos (ABP) con IA",
+      "title": "Rediseña tu proyecto de semestre (ABP) fase por fase: dónde entra la IA y qué entrega el estudiante",
       "date": "2026-04-20",
       "draft": false,
-      "description": "Guía metodológica para integrar la inteligencia artificial generativa en cada una de las fases del aprendizaje basado en proyectos.",
+      "description": "Toma un proyecto que ya diriges y decide, en cada una de sus cuatro fases, qué le pide el estudiante a la IA, qué comprueba por su cuenta y qué te entrega. Terminas con el calendario del proyecto anotado.",
       "summary": "Descubre cómo transformar el ABP tradicional utilizando la IA como un co-productor activo. Esta guía explora el diseño de escenarios complejos, la investigación asistida, la iteración socrática y la evaluación del proceso cognitivo.",
       "tags": [
         "ABP",
@@ -4519,9 +4506,9 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1285,
-      "heading_count": 11,
-      "h2_count": 7,
+      "words": 1521,
+      "heading_count": 12,
+      "h2_count": 8,
       "external_url_count": 3,
       "citation_signals": 0,
       "reference_heading": false,
@@ -4532,14 +4519,14 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 1,
+        "table_count": 2,
         "mermaid_count": 2,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "mermaid",
           "referencias"
         ]
@@ -4573,7 +4560,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 2110,
+      "words": 2190,
       "heading_count": 10,
       "h2_count": 9,
       "external_url_count": 2,
@@ -4592,6 +4579,7 @@
         "h5p_count": 1,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "h5p",
           "referencias",
           "relref",
@@ -4609,10 +4597,10 @@
       "route": "/ia-educacion/guias/aprendizaje-activo-con-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Aprendizaje activo con IA — diseño y ejecución de actividades",
+      "title": "Diseña una actividad de aprendizaje activo donde la IA pregunte, no resuelva",
       "date": "2026-04-14",
       "draft": false,
-      "description": "Guía para diseñar y ejecutar actividades de aprendizaje activo donde la IA interviene como co-diseñador para el docente y como interlocutor para el estudiante.",
+      "description": "Toma una actividad tuya, decide qué papel juega la IA para ti al diseñarla y cuál para el estudiante al resolverla, y escribe la instrucción de uso que recibirá el grupo.",
       "summary": "La IA interviene en dos niveles del aprendizaje activo: ayuda al docente a diseñar actividades y al estudiante a ejecutarlas con retroalimentación inmediata.",
       "tags": [
         "aprendizaje activo",
@@ -4628,9 +4616,9 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1153,
-      "heading_count": 12,
-      "h2_count": 6,
+      "words": 1540,
+      "heading_count": 13,
+      "h2_count": 7,
       "external_url_count": 3,
       "citation_signals": 0,
       "reference_heading": false,
@@ -4648,7 +4636,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "mermaid",
           "referencias",
           "udgia-figure"
@@ -4686,7 +4674,7 @@
         "formacion",
         "digital"
       ],
-      "words": 2,
+      "words": 4,
       "heading_count": 0,
       "h2_count": 0,
       "external_url_count": 0,
@@ -4705,6 +4693,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "illustrated-guide"
         ]
       },
@@ -4716,10 +4705,10 @@
       "route": "/ia-educacion/guias/aprendizaje-rizomatico-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Aprendizaje rizomático con IA",
+      "title": "Cuándo dejar que cada estudiante trace su propia ruta: aprendizaje rizomático con IA",
       "date": "2026-04-26",
       "draft": false,
-      "description": "Guía operativa para diseñar experiencias de aprendizaje no lineales asistidas por IA, donde el estudiante traza su propio recorrido sin perder rigor.",
+      "description": "Entiende qué distingue un curso en red de un curso en árbol, qué seis decisiones de diseño lo sostienen con apoyo de IA y en qué tres situaciones conviene no intentarlo.",
       "summary": "El aprendizaje rizomático no es caos: es estructura sin jerarquía. Esta guía propone seis movimientos de diseño que sostienen la exploración no lineal con apoyo de IA.",
       "tags": [
         "aprendizaje rizomático",
@@ -4736,9 +4725,9 @@
         "ia",
         "digital"
       ],
-      "words": 1037,
-      "heading_count": 11,
-      "h2_count": 5,
+      "words": 1185,
+      "heading_count": 12,
+      "h2_count": 6,
       "external_url_count": 2,
       "citation_signals": 0,
       "reference_heading": false,
@@ -4755,7 +4744,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "referencias"
         ]
       },
@@ -4813,10 +4802,10 @@
       "route": "/ia-educacion/guias/evaluacion-formativa-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+      "title": "Añade a una tarea tuya un ciclo de retroalimentación con IA que puedas revisar",
       "date": "2026-04-14",
       "draft": false,
-      "description": "Guía para diseñar ciclos donde la evidencia y la retroalimentación se usan para ajustar enseñanza y aprendizaje con supervisión humana.",
+      "description": "Toma una tarea que ya pides, añade una vuelta de retroalimentación con IA entre el borrador y la entrega, y decide qué te entrega el estudiante para ver qué hizo con los comentarios.",
       "summary": "Cómo integrar retroalimentación con IA en ciclos proporcionales que incluyen criterios, revisión, comprobación y cuidado de datos.",
       "tags": [
         "evaluación formativa",
@@ -4833,13 +4822,13 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2341,
-      "heading_count": 17,
-      "h2_count": 11,
+      "words": 2830,
+      "heading_count": 19,
+      "h2_count": 13,
       "external_url_count": 6,
       "citation_signals": 2,
       "reference_heading": false,
-      "internal_link_count": 4,
+      "internal_link_count": 5,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4853,14 +4842,14 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
+          "contrato",
           "h5p",
-          "lead",
           "mermaid",
           "referencias",
           "udgia-figure"
         ]
       },
-      "decision": "conservar",
+      "decision": "dividir",
       "needs": [
         "fallback-verificar",
         "procedencia"
@@ -4871,10 +4860,10 @@
       "route": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Ingeniería de prompts para docentes",
+      "title": "Escribe una petición a la IA que puedas revisar: tarea, material y límites",
       "date": "2026-03-17",
       "draft": false,
-      "description": "Guía para dar a una IA una tarea docente, el material necesario y una forma concreta de revisar la respuesta.",
+      "description": "Toma una tarea docente real, escríbela como petición a una IA con el material y los límites que necesita, y revisa la respuesta con cinco comprobaciones antes de llevarla al aula.",
       "summary": "Parte de una tarea real, añade solo el contexto que haga falta y comprueba la respuesta antes de usarla en clase.",
       "tags": [
         "prompts",
@@ -4889,13 +4878,13 @@
         "ia",
         "pedagogia"
       ],
-      "words": 782,
-      "heading_count": 5,
-      "h2_count": 5,
+      "words": 938,
+      "heading_count": 4,
+      "h2_count": 4,
       "external_url_count": 3,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 0,
+      "internal_link_count": 1,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -4908,7 +4897,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "practica",
           "referencias"
         ]
@@ -4916,7 +4905,8 @@
       "decision": "conservar",
       "needs": [
         "svg-diagrama",
-        "tabla-sintesis"
+        "tabla-sintesis",
+        "interaccion-candidata"
       ]
     },
     {
@@ -4924,7 +4914,7 @@
       "route": "/ia-educacion/guias/integracion-curricular-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Integración curricular de IA en programas existentes",
+      "title": "Integra la IA en un programa que ya existe: cinco pasos sin reescribir el plan de estudios",
       "date": "2026-04-26",
       "draft": false,
       "description": "Método de cinco pasos para insertar la IA en un programa académico ya constituido sin reescribir el plan de estudios: mapeo, diagnóstico, distribución, rediseño y articulación.",
@@ -4944,9 +4934,9 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1278,
-      "heading_count": 9,
-      "h2_count": 9,
+      "words": 1431,
+      "heading_count": 10,
+      "h2_count": 10,
       "external_url_count": 5,
       "citation_signals": 2,
       "reference_heading": false,
@@ -4963,8 +4953,8 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
+          "contrato",
           "figura",
-          "lead",
           "referencias"
         ]
       },
@@ -4999,13 +4989,13 @@
         "etica",
         "pedagogia"
       ],
-      "words": 1887,
+      "words": 1969,
       "heading_count": 27,
       "h2_count": 7,
       "external_url_count": 4,
       "citation_signals": 1,
       "reference_heading": false,
-      "internal_link_count": 11,
+      "internal_link_count": 10,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -5019,7 +5009,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "referencias",
           "udgia-figure"
         ]
@@ -5046,9 +5036,9 @@
         "ia",
         "etica"
       ],
-      "words": 894,
-      "heading_count": 4,
-      "h2_count": 4,
+      "words": 1090,
+      "heading_count": 5,
+      "h2_count": 5,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
@@ -5065,13 +5055,14 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "parallevar"
         ]
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5352,10 +5343,10 @@
       "route": "/ia-educacion/practicas/bitacora-cocreacion/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Bitácora breve para registrar decisiones con IA",
+      "title": "Anota en una bitácora breve qué cambió con la IA y por qué",
       "date": "2026-08-11",
       "draft": false,
-      "description": "Plantilla con un ejemplo completo para registrar qué cambió, qué se descartó y qué se comprobó durante un trabajo con IA.",
+      "description": "Plantilla de nueve filas, con un ejemplo ya llenado, para anotar qué cambió, qué descartaste y qué comprobaste durante un trabajo con IA, sin entregar la conversación.",
       "summary": "Conserva las decisiones que cambiaron tu trabajo sin entregar la conversación completa ni datos privados.",
       "tags": [],
       "categories": [],
@@ -5363,7 +5354,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 488,
+      "words": 551,
       "heading_count": 3,
       "h2_count": 3,
       "external_url_count": 0,
@@ -5382,14 +5373,15 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "parallevar",
           "practica"
         ]
       },
       "decision": "actualizar",
       "needs": [
-        "featured"
+        "featured",
+        "svg-diagrama"
       ]
     },
     {
@@ -5400,7 +5392,7 @@
       "title": "Comprueba la afirmación que cambia tu decisión",
       "date": "2026-08-11",
       "draft": false,
-      "description": "Práctica para identificar la afirmación decisiva de una salida de IA, localizar evidencia y decidir qué conservar.",
+      "description": "Práctica para encontrar, en una respuesta de IA, la afirmación de la que depende tu decisión, buscarle una fuente fuera de la conversación y decidir qué haces con ella.",
       "summary": "No compruebes todo a la vez: localiza el punto que cambiaría tu conclusión y contrástalo con una fuente pertinente.",
       "tags": [],
       "categories": [],
@@ -5408,7 +5400,7 @@
         "ia",
         "pedagogia"
       ],
-      "words": 176,
+      "words": 421,
       "heading_count": 1,
       "h2_count": 1,
       "external_url_count": 0,
@@ -5427,11 +5419,11 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "practica"
         ]
       },
-      "decision": "fusionar-o-ampliar",
+      "decision": "actualizar",
       "needs": [
         "featured"
       ]
@@ -5441,7 +5433,7 @@
       "route": "/ia-educacion/practicas/declaracion-proporcional-uso/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Declaración proporcional de uso de IA",
+      "title": "Declara qué apoyo te dio la IA, con el detalle que la tarea merece",
       "date": "2026-08-30",
       "draft": false,
       "description": "Plantilla en dos versiones para declarar qué apoyo dio la IA y qué decidió la persona, con el detalle proporcional al peso de la tarea.",
@@ -5452,7 +5444,7 @@
         "ia",
         "etica"
       ],
-      "words": 888,
+      "words": 899,
       "heading_count": 7,
       "h2_count": 7,
       "external_url_count": 0,
@@ -5471,7 +5463,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "parallevar"
         ]
       },
@@ -5559,7 +5551,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1494,
+      "words": 1818,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5579,7 +5571,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5619,7 +5611,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 746,
+      "words": 1005,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5639,7 +5631,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5648,7 +5640,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5678,7 +5671,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 803,
+      "words": 1008,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5698,7 +5691,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5707,7 +5700,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5738,7 +5732,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1027,
+      "words": 1207,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5758,7 +5752,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5798,7 +5792,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 744,
+      "words": 966,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5818,7 +5812,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5827,7 +5821,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5856,7 +5851,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 734,
+      "words": 953,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5876,7 +5871,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5885,7 +5880,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5916,7 +5912,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 720,
+      "words": 1176,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5936,7 +5932,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -5945,7 +5941,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -5976,7 +5973,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 947,
+      "words": 1156,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -5996,7 +5993,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6036,7 +6033,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 709,
+      "words": 961,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6056,7 +6053,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6065,7 +6062,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6096,7 +6094,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 3374,
+      "words": 3593,
       "heading_count": 21,
       "h2_count": 15,
       "external_url_count": 8,
@@ -6118,8 +6116,8 @@
           "alert",
           "card",
           "cards",
+          "contrato",
           "h5p",
-          "lead",
           "mermaid",
           "ref",
           "referencias",
@@ -6159,7 +6157,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 873,
+      "words": 1095,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6179,7 +6177,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6188,7 +6186,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6218,7 +6217,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 733,
+      "words": 1003,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6238,7 +6237,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6247,7 +6246,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6277,7 +6277,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 709,
+      "words": 952,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6297,7 +6297,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6306,7 +6306,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6336,7 +6337,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 800,
+      "words": 1040,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6356,7 +6357,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6365,7 +6366,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6394,7 +6396,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 929,
+      "words": 1152,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6414,7 +6416,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6453,7 +6455,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2139,
+      "words": 2261,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -6473,7 +6475,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6513,7 +6515,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 704,
+      "words": 939,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6533,7 +6535,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6542,7 +6544,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6572,7 +6575,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 835,
+      "words": 1040,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6592,7 +6595,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6601,7 +6604,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6631,7 +6635,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 991,
+      "words": 1191,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6651,7 +6655,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6691,7 +6695,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 819,
+      "words": 1004,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6711,7 +6715,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6720,7 +6724,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6750,7 +6755,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 802,
+      "words": 973,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6770,7 +6775,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6779,7 +6784,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6808,7 +6814,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2151,
+      "words": 2225,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -6828,7 +6834,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6868,7 +6874,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 914,
+      "words": 1161,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6888,7 +6894,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6928,7 +6934,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 826,
+      "words": 1101,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -6948,7 +6954,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -6957,7 +6963,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -6987,7 +6994,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 2195,
+      "words": 2382,
       "heading_count": 8,
       "h2_count": 8,
       "external_url_count": 0,
@@ -7007,7 +7014,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -7046,7 +7053,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 861,
+      "words": 1111,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -7066,7 +7073,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -7075,7 +7082,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -7105,7 +7113,7 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 871,
+      "words": 1118,
       "heading_count": 9,
       "h2_count": 9,
       "external_url_count": 0,
@@ -7125,7 +7133,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "ref",
           "referencias",
           "timeline",
@@ -7134,7 +7142,8 @@
       },
       "decision": "actualizar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -7241,7 +7250,7 @@
       "route": "/ia-educacion/rutas/coordinacion-academica/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Coordinar la IA en los procesos docentes",
+      "title": "Organiza un piloto de IA en tu departamento o programa, en seis pasos",
       "date": "2026-07-27",
       "draft": false,
       "description": "Ruta operativa para que jefaturas de departamento, coordinaciones de licenciatura y posgrado, y equipos del SEMS acompañen la incorporación de IA en la docencia.",
@@ -7262,13 +7271,13 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 1686,
+      "words": 2210,
       "heading_count": 15,
       "h2_count": 12,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": false,
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "broken_internal_links": [],
       "visual": {
         "featured": true,
@@ -7284,7 +7293,7 @@
           "alert",
           "card",
           "cards",
-          "lead",
+          "contrato",
           "udgia-figure"
         ]
       },
@@ -7298,10 +7307,10 @@
       "route": "/ia-educacion/rutas/decision-institucional-ia/",
       "kind": "page",
       "section": "ia-educacion",
-      "title": "Decidir institucionalmente sobre IA en la docencia",
+      "title": "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones",
       "date": "2026-07-28",
       "draft": false,
-      "description": "Marco ejecutivo para que la alta dirección universitaria alinee propósito, gobernanza, capacidades, tecnología, recursos y evidencia al decidir sobre IA en la docencia.",
+      "description": "Marco ejecutivo para que la alta dirección universitaria decida junto para qué se actúa, quién decide qué, qué capacidades y tecnología hacen falta, qué iniciativas sostener y qué revisar, antes de escalar la IA en la docencia.",
       "summary": "Seis decisiones para convertir iniciativas dispersas en un mandato institucional acotado, revisable y con responsabilidades claras.",
       "tags": [
         "gobernanza institucional",
@@ -7320,7 +7329,7 @@
         "digital",
         "formacion"
       ],
-      "words": 2540,
+      "words": 3026,
       "heading_count": 12,
       "h2_count": 11,
       "external_url_count": 0,
@@ -7343,7 +7352,7 @@
           "alert",
           "card",
           "cards",
-          "lead",
+          "contrato",
           "pliegue",
           "udgia-figure"
         ]
@@ -7744,10 +7753,10 @@
       "route": "/laboratorio/integracion-ia/flujos-trabajo-docente-ia/",
       "kind": "page",
       "section": "laboratorio",
-      "title": "Flujos de trabajo docente con IA",
+      "title": "Sigue uno de tres flujos docentes con IA y marca dónde decides tú",
       "date": "2026-04-26",
       "draft": false,
-      "description": "Tres flujos representativos de trabajo docente —planeación, retroalimentación y diseño evaluativo— con diagramas de proceso que explicitan dónde la IA aporta y dónde no entra.",
+      "description": "Elige uno de tres flujos (planear una sesión, retroalimentar un trabajo, diseñar una evaluación), recórrelo con un caso tuyo y anota dónde te desvías del diagrama. Sales con el flujo adaptado a tu materia para compartir con tu academia.",
       "summary": "Diagramas Mermaid de tres procesos docentes recurrentes, con puntos de decisión humana visibles. Pensados para que coordinaciones académicas estandaricen criterios sin uniformar prácticas.",
       "tags": [
         "flujos de trabajo",
@@ -7764,9 +7773,9 @@
         "pedagogia",
         "digital"
       ],
-      "words": 1161,
-      "heading_count": 6,
-      "h2_count": 6,
+      "words": 1323,
+      "heading_count": 7,
+      "h2_count": 7,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": false,
@@ -7777,13 +7786,13 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 0,
+        "table_count": 1,
         "mermaid_count": 3,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "mermaid",
           "paso",
           "proceso",
@@ -7792,7 +7801,6 @@
       },
       "decision": "actualizar",
       "needs": [
-        "tabla-sintesis",
         "interaccion-candidata"
       ]
     },
@@ -7841,10 +7849,10 @@
       "route": "/laboratorio/practicas/abp-con-ia/",
       "kind": "page",
       "section": "laboratorio",
-      "title": "Plantilla de proyecto ABP con IA para 14 semanas",
+      "title": "Adapta a tu materia un proyecto de 14 semanas con IA como interlocutor",
       "date": "2026-04-14",
       "draft": false,
-      "description": "Plantilla propuesta de aprendizaje basado en proyectos donde equipos de estudiantes usan IA en cada fase: definición del problema, investigación, iteración y presentación.",
+      "description": "Toma un calendario de 14 semanas en cinco fases, fija las cinco condiciones de tu grupo y ajusta los entregables: sales con el proyecto integrador listo para pegar en tu programa, con la IA como interlocutor en cada fase.",
       "summary": "Una plantilla semestral para que equipos investiguen un problema real usando IA como interlocutor en cada fase, documentando sus decisiones y descartando lo que la IA propone sin fundamento. Es una propuesta para adaptar, no el reporte de una implementación.",
       "tags": [
         "ABP",
@@ -7863,9 +7871,9 @@
         "ia",
         "pedagogia"
       ],
-      "words": 1267,
-      "heading_count": 10,
-      "h2_count": 10,
+      "words": 1508,
+      "heading_count": 11,
+      "h2_count": 11,
       "external_url_count": 2,
       "citation_signals": 0,
       "reference_heading": true,
@@ -7876,14 +7884,14 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 2,
+        "table_count": 3,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "timeline",
           "timelineItem"
         ]
@@ -7899,10 +7907,10 @@
       "route": "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/",
       "kind": "page",
       "section": "laboratorio",
-      "title": "Análisis crítico de sesgos en la IA",
+      "title": "Haz que tu grupo audite los sesgos de tres modelos de IA con un mismo prompt",
       "date": "2026-03-15",
       "draft": false,
-      "description": "Los estudiantes analizan respuestas de diferentes modelos de IA para identificar sesgos culturales, de género o geográficos.",
+      "description": "Elige dos prompts culturalmente situados, haz que los equipos los corran en tres modelos y comparen quién aparece y quién falta: sales con la secuencia de cuatro fases y la tabla de ponderación listas para tu grupo.",
       "summary": "Una actividad de alfabetización algorítmica donde los estudiantes evalúan la neutralidad de la IA y proponen formas de mitigar sesgos en su uso académico.",
       "tags": [
         "pensamiento crítico",
@@ -7922,9 +7930,9 @@
         "ia",
         "pedagogia"
       ],
-      "words": 405,
-      "heading_count": 6,
-      "h2_count": 6,
+      "words": 594,
+      "heading_count": 7,
+      "h2_count": 7,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": true,
@@ -7935,30 +7943,32 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 1,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "timeline",
           "timelineItem"
         ]
       },
       "decision": "actualizar",
-      "needs": []
+      "needs": [
+        "svg-diagrama"
+      ]
     },
     {
       "path": "laboratorio/practicas/aula-invertida/index.md",
       "route": "/laboratorio/practicas/aula-invertida/",
       "kind": "page",
       "section": "laboratorio",
-      "title": "Aula invertida (flipped classroom)",
+      "title": "Arma una semana de tu materia con el ciclo del aula invertida",
       "date": "2026-04-06",
       "draft": false,
-      "description": "Metodología del aula invertida: cómo funciona el ciclo de aprendizaje desde la perspectiva del estudiante y del profesor, con ejercicios interactivos y ejemplos prácticos.",
+      "description": "Toma una semana de tu materia y repártela en las cuatro fases del aula invertida (flipped classroom): qué revisa el grupo antes, qué responde antes, qué resuelve en clase contigo y qué entrega después. Sales con la tabla de la semana lista para tu planeación.",
       "summary": "El aula invertida fortalece el papel del profesor como propiciador del conocimiento y centra el énfasis en el aprendizaje de los estudiantes, invirtiendo la dinámica tradicional de clase.",
       "tags": [
         "flipped-classroom",
@@ -7974,9 +7984,9 @@
         "pedagogia",
         "formacion"
       ],
-      "words": 967,
-      "heading_count": 7,
-      "h2_count": 7,
+      "words": 1247,
+      "heading_count": 9,
+      "h2_count": 9,
       "external_url_count": 0,
       "citation_signals": 2,
       "reference_heading": true,
@@ -7987,13 +7997,13 @@
         "local_asset_count": 1,
         "inline_image_count": 2,
         "svg_count": 0,
-        "table_count": 2,
+        "table_count": 3,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "ref"
         ]
       },
@@ -8030,9 +8040,9 @@
         "ia",
         "pedagogia"
       ],
-      "words": 969,
-      "heading_count": 10,
-      "h2_count": 10,
+      "words": 1169,
+      "heading_count": 11,
+      "h2_count": 11,
       "external_url_count": 0,
       "citation_signals": 0,
       "reference_heading": true,
@@ -8043,14 +8053,14 @@
         "local_asset_count": 1,
         "inline_image_count": 0,
         "svg_count": 0,
-        "table_count": 1,
+        "table_count": 2,
         "mermaid_count": 0,
         "chart_count": 0,
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "timeline",
           "timelineItem"
         ]
@@ -8066,10 +8076,10 @@
       "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
       "kind": "page",
       "section": "laboratorio",
-      "title": "Actividad propuesta: portafolio iterativo con retroalimentación de IA",
+      "title": "Monta un portafolio de tres versiones donde la IA comenta y el estudiante decide",
       "date": "2026-04-14",
       "draft": false,
-      "description": "Actividad propuesta donde los estudiantes construyen portafolios iterativos con retroalimentación de IA en cada versión, documentando sus decisiones de revisión.",
+      "description": "Pega tu rúbrica en el prompt que trae la página, haz que cada texto pase por tres versiones (sin IA, con comentarios de la IA, con comentarios de un par) y pide en cada paso una tabla de decisiones justificadas. Sales con el calendario de cuatro semanas y la ponderación listos.",
       "summary": "Un sistema de portafolios donde cada texto pasa por tres versiones con retroalimentación de IA. Lo que se evalúa no es el producto final sino las decisiones que el estudiante tomó en cada iteración. Es un prototipo de escenario para adaptar, no una implementación observada.",
       "tags": [
         "evaluación formativa",
@@ -8089,9 +8099,9 @@
         "evaluacion",
         "pedagogia"
       ],
-      "words": 1393,
-      "heading_count": 10,
-      "h2_count": 10,
+      "words": 1536,
+      "heading_count": 11,
+      "h2_count": 11,
       "external_url_count": 2,
       "citation_signals": 0,
       "reference_heading": true,
@@ -8109,7 +8119,7 @@
         "iframe_count": 0,
         "shortcode_names": [
           "alert",
-          "lead",
+          "contrato",
           "timeline",
           "timelineItem"
         ]
@@ -8785,10 +8795,10 @@
       "route": "/observatorio/guias/documentacion-buenas-practicas-ia/",
       "kind": "page",
       "section": "observatorio",
-      "title": "Documentación de buenas prácticas con IA",
+      "title": "Documenta una práctica docente con IA para que otra persona pueda repetirla",
       "date": "2026-04-26",
       "draft": false,
-      "description": "Guía metodológica para documentar prácticas docentes con IA de forma replicable, comparable y útil para colegas en otros contextos.",
+      "description": "Llena la plantilla de nueve secciones con una práctica tuya (o revisa una que te enviaron) y comprueba con siete preguntas si alguien más podría repetirla en su aula.",
       "summary": "Plantilla, criterios de calidad y errores frecuentes al capturar una intervención docente con IA. Pensado para coordinaciones que reciben envíos de docentes.",
       "tags": [
         "documentación",
@@ -8804,9 +8814,9 @@
         "ia",
         "evaluacion"
       ],
-      "words": 792,
-      "heading_count": 8,
-      "h2_count": 6,
+      "words": 977,
+      "heading_count": 9,
+      "h2_count": 7,
       "external_url_count": 1,
       "citation_signals": 0,
       "reference_heading": true,
@@ -8823,12 +8833,13 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead"
+          "contrato"
         ]
       },
       "decision": "conservar",
       "needs": [
-        "svg-diagrama"
+        "svg-diagrama",
+        "interaccion-candidata"
       ]
     },
     {
@@ -8836,10 +8847,10 @@
       "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
       "kind": "page",
       "section": "observatorio",
-      "title": "Evaluación de herramientas IA educativas: criterios y matriz",
+      "title": "Revisa una herramienta de IA antes de autorizarla: seis dimensiones y una decisión",
       "date": "2026-04-26",
       "draft": false,
-      "description": "Matriz revisable en seis dimensiones para comparar beneficios, riesgos y condiciones antes de autorizar una herramienta educativa con IA.",
+      "description": "Responde con fuentes a la vista las preguntas de una matriz en seis dimensiones y cierra con una decisión preliminar de una página para la instancia que autoriza.",
       "summary": "Una adaptación de ASCCC y McMaster/eCampusOntario para hacer preguntas, documentar respuestas y separar una revisión preliminar de una autorización institucional.",
       "tags": [
         "evaluación de herramientas",
@@ -8855,9 +8866,9 @@
         "evaluacion",
         "etica"
       ],
-      "words": 1147,
-      "heading_count": 12,
-      "h2_count": 6,
+      "words": 1386,
+      "heading_count": 13,
+      "h2_count": 7,
       "external_url_count": 2,
       "citation_signals": 0,
       "reference_heading": true,
@@ -8874,7 +8885,7 @@
         "h5p_count": 0,
         "iframe_count": 0,
         "shortcode_names": [
-          "lead",
+          "contrato",
           "paso",
           "proceso"
         ]

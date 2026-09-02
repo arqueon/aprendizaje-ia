@@ -27,9 +27,15 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un reporte técnico no se mide por su extensión sino por la claridad con la que comunica resultados a un lector que no estuvo en el trabajo. La IAG puede mejorar redacción y estructura; el contenido técnico, los datos y las conclusiones son responsabilidad del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de laboratorio (química, física, ingeniería) o de prácticas industriales que piden un reporte técnico y reciben documentos largos, con vocabulario que suena profesional, donde los datos no cuadran con la conclusión." haras="Un estudiante de tercer semestre mide la resistencia a la tracción de tres probetas de acero en el laboratorio y debe reportarlo. Arma con la IA el esquema de secciones de un reporte de laboratorio, redacta él mismo cada sección con sus mediciones (la tabla de cargas y elongaciones que anotó a mano), le pide a la IA que señale qué párrafos son confusos y, al final, que revise unidades, vocabulario y si la conclusión se sostiene con los datos. La IA ordena, señala y revisa; el cuerpo, los datos y las conclusiones son de él. Entrega el reporte, el anexo con los datos crudos firmados y el borrador anterior a la revisión con IA." tendras="Tres prompts copiables, uno por fase, y una regla de revisión: «sin el anexo de datos crudos con fecha y firma del responsable del laboratorio, el reporte no se revisa»." tarda="Siete minutos de lectura; doce si adaptas los prompts a tu tipo de reporte." ejemplo="Empieza con el ensayo de tracción, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Un profesor de laboratorio de materiales pide a su grupo el reporte de un ensayo de
+tracción con tres probetas de acero. Recibe un documento de doce páginas, con
+introducción sobre la historia del acero y una conclusión que habla de «excelente
+ductilidad» cuando las probetas se rompieron casi sin alargarse. Un reporte técnico se
+mide por la claridad con la que comunica resultados a quien no estuvo en el laboratorio,
+y la extensión pesa poco. La IA puede mejorar redacción y estructura; el contenido
+técnico, los datos y las conclusiones son responsabilidad del estudiante.
 
 ## Qué es y para qué sirve
 
@@ -38,16 +44,21 @@ laboratorio o aplicación profesional con rigor, brevedad y trazabilidad.
 A diferencia del ensayo, no defiende una tesis: **expone hechos,
 procedimientos y conclusiones** para un lector técnico.
 
-**Uso formativo de la IAG en este producto:** estructurar el documento,
-identificar partes que requieren mayor claridad y evaluar la precisión y
-el rigor del lenguaje técnico. La IAG es asistente de redacción
-especializada; los datos y las conclusiones son del estudiante.
+**Dónde entra la IA en este tipo de trabajo:** ayuda a estructurar el
+documento (qué secciones lleva un reporte de laboratorio y en qué orden),
+señala partes que requieren mayor claridad («este párrafo mezcla el
+procedimiento con el resultado») y revisa la precisión del lenguaje técnico
+(unidades, términos, si «ductilidad» describe lo que los datos muestran). La
+IA es asistente de redacción especializada; los datos y las conclusiones son
+del estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **2 a 4** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **2 a 4** de la taxonomía de Bloom, con
 nivel dominante **3 — Aplicar** (la composición sistemática del documento
-según convenciones).
+según convenciones). Para ti, la tabla es un banco de prompts: el de la fila
+4 es el que más rinde si le pides al grupo pegar la conclusión junto con la
+tabla de datos, para que la IA compare una con otra.
 
 | Nivel Bloom | Movimiento del reporte | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -66,8 +77,8 @@ según convenciones).
 
 {{< timelineItem icon="list-ol" header="Fase 1 — Estructura" subheader="Antes de redactar" md="true" >}}
 Esquema de secciones según el tipo de reporte (laboratorio, proyecto,
-diagnóstico, mantenimiento). La IAG confirma que no falten secciones
-estándar.
+diagnóstico, mantenimiento). La IA confirma que no falten secciones
+estándar (por ejemplo, el apartado de incertidumbre de las mediciones).
 {{< /timelineItem >}}
 
 {{< timelineItem icon="pen" header="Fase 2 — Redacción por sección" subheader="Voz técnica propia" md="true" >}}
@@ -88,11 +99,13 @@ qué incorporar.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además del reporte
 
 Riesgo **medio**: el documento puede generarse en bloque, pero los datos
-deben ser propios y verificables. Las evidencias clave son los datos
-crudos y los borradores fechados.
+deben ser propios y verificables. Las dos piezas que más te dicen son los
+datos crudos (la hoja de cargas y elongaciones anotada en el laboratorio) y
+los borradores fechados. Junto con el reporte, el estudiante entrega estas
+piezas, cada una con su grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -106,6 +119,11 @@ crudos y los borradores fechados.
 
 ## Cómo se evalúa (rúbrica de proceso)
 
+Con esta rúbrica revisas la bitácora, los datos crudos y el borrador previo,
+no sólo el documento final; ajusta los pesos a tu curso (por ejemplo, más
+peso a «uso crítico de la respuesta» si tu grupo acepta el vocabulario que la
+IA propone sin comprobarlo en la norma):
+
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
 | Pertinencia del prompt | Vago | Relación parcial | Claro y adecuado | Pertinente y estratégico, anclado a la fase | 10% |
@@ -118,8 +136,9 @@ crudos y los borradores fechados.
 
 ## Riesgos y salvaguardas
 
-- **Reporte generado en bloque.** Salvaguarda: datos crudos obligatorios y
-  borradores fechados anteriores al intercambio con IAG.
+- **Reporte generado en bloque.** Doce páginas en una tarde, sin una sola
+  medición propia. Salvaguarda: datos crudos obligatorios y borradores
+  fechados anteriores al intercambio con IA.
 - **Vocabulario técnico incorrecto.** La IAG "suena técnica" sin serlo en
   la disciplina específica. Salvaguarda: el estudiante valida el
   vocabulario contra fuentes de su área (normas, manuales, papers).
@@ -131,9 +150,10 @@ crudos y los borradores fechados.
   referencia para preservar la voz.
 
 {{< alert icon="shield-halved" type="warning" >}}
-**Transparencia obligatoria.** Declarar uso de IAG y entregar datos crudos
-del trabajo. La IAG mejora la redacción; los datos y conclusiones son del
-estudiante.
+**Transparencia obligatoria.** El estudiante declara el modelo y para qué
+lo usó (por ejemplo, «pedí revisión de unidades y vocabulario en la fase 4»)
+y entrega los datos crudos del trabajo. La IA mejora la redacción; los datos
+y conclusiones son del estudiante.
 {{< /alert >}}
 
 ## Asignatura de ejemplo
@@ -143,12 +163,12 @@ residencias profesionales, prácticas industriales.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — el reporte como cierre de una investigación empírica.
-- Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa del reporte.
-- Producto cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — tipo específico de reporte experimental.
+- Trabajo cercano: [Investigación de campo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo" >}}) — el reporte como cierre de una investigación empírica.
+- Trabajo cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — base cuantitativa del reporte.
+- Trabajo cercano: [Análisis de materiales con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales" >}}) — tipo específico de reporte experimental.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

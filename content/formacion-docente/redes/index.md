@@ -12,13 +12,13 @@ showReadingTime: true
 areas: ["formacion", "digital"]
 ---
 
-{{< lead >}}
-El aprendizaje docente más duradero rara vez ocurre en un curso. Ocurre en la conversación con colegas que enfrentaron el mismo problema, en la lectura compartida, en el intercambio de un syllabus que funcionó y otro que no. Las redes de práctica sostienen ese aprendizaje cuando los formatos formales no alcanzan.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que resuelven solos cada duda sobre IA en su materia y sospechan que alguien más ya pasó por lo mismo; también quienes ya están en varios grupos y no sacan nada de ellos." haras="Vas a entender qué hace que un grupo de colegas sirva para aprender (un tema común, contacto frecuente y cosas que se comparten y se mejoran con el uso) y qué tres cosas da que ningún curso da." tendras="Una regla para elegir y dejar comunidades («si en un mes no me dio un caso, una plantilla o una objeción que pueda usar, la dejo») y una rutina de tiempo (treinta minutos a la semana y una aportación al mes)." tarda="Cuatro minutos de lectura." ejemplo="Empieza con Elena, docente de enfermería, que diseñó sola una rúbrica para trabajos con IA y descubre que una colega de otro centro ya había probado una parecida; su caso abre la página." >}}
+
+Elena da enfermería comunitaria. Pasó tres tardes diseñando una rúbrica para trabajos hechos con IA, la aplicó y no supo si funcionó. En una reunión de academia, una colega de otro centro le cuenta que probó una parecida el semestre anterior, que dos renglones no sirvieron y por qué. En diez minutos Elena aprendió más que en las tres tardes. El aprendizaje docente más duradero rara vez ocurre en un curso: ocurre en la conversación con colegas que enfrentaron el mismo problema, en la lectura compartida, en el intercambio de un syllabus que funcionó y otro que no. Las redes de práctica sostienen ese aprendizaje cuando los formatos formales no alcanzan; esta página dice qué las hace funcionar y cómo participar sin que te coman el tiempo.
 
 ## Por qué importan las comunidades de práctica
 
-Una *comunidad de práctica* (Wenger, 1998) no es un grupo de WhatsApp ni un foro institucional. Es un colectivo de personas que comparten un dominio de interés, sostienen interacción frecuente y producen un repertorio común —vocabulario, plantillas, casos, criterios— que se va refinando con el uso. Para docentes universitarios que integran IA, el dominio compartido es claro y el repertorio se construye rápido cuando hay un espacio donde sostenerlo.
+Una *comunidad de práctica* (Wenger, 1998) es un colectivo de personas que comparten un dominio de interés, sostienen interacción frecuente y producen un repertorio común —vocabulario, plantillas, casos, maneras de revisar— que se va refinando con el uso; un grupo de WhatsApp o un foro institucional sólo lo son cuando eso ocurre. Para docentes universitarios que integran IA, el dominio compartido es claro y el repertorio se construye rápido cuando hay un espacio donde sostenerlo: la rúbrica de Elena, corregida por su colega, ya es repertorio.
 
 Las comunidades funcionan porque cubren tres necesidades que ningún curso formal cubre por sí solo:
 

@@ -19,9 +19,9 @@ showAuthor: false
 weight: 16
 ---
 
-{{< lead >}}
-Antes del primer día de clase, el syllabus ya tomó muchas de las decisiones: qué se aprende, con qué materiales, cómo se evalúa y dónde se interactúa. El syllabus es el programa detallado de aprendizaje: la base para determinar materiales, videos, ejercicios de evaluación y espacios de interacción en el curso. El portafolio de docencia permite a cada profesor reflexionar sobre y compartir sus prácticas.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que entregan cada semestre un programa de temas, bibliografía y porcentajes, y en la semana cuatro el grupo todavía no sabe qué tiene que hacer antes de cada clase; también quienes quieren ordenar y compartir lo que ya hacen bien." haras="Vas a entender que el syllabus es el plan detallado que decide, antes del primer día, qué se aprende cada semana, qué se hace antes, durante y después de clase y cómo se evalúa; y que el portafolio de docencia es donde guardas y explicas tus propias prácticas para revisarlas y compartirlas." tendras="Una lista de siete elementos para revisar tu programa actual (por ejemplo, «¿cada semana dice qué se hace antes de la sesión y qué en el aula?») y una lista de lo que puede ir en tu portafolio, empezando por una página con tu filosofía de enseñanza." tarda="Siete minutos de lectura." ejemplo="Empieza con Rocío, docente de mercadotecnia, cuyo programa de tres páginas deja al grupo sin saber qué hacer antes de clase; su caso abre la página." >}}
+
+Rocío da mercadotecnia. Cada semestre entrega el mismo programa de tres páginas: lista de temas, bibliografía y porcentajes de evaluación. En la semana cuatro, la mitad del grupo llega sin haber leído nada porque el programa no dice qué se hace antes de cada clase, y la otra mitad pregunta cómo se va a calificar el proyecto porque «40 % proyecto final» es todo lo que sabe. Antes del primer día de clase, el syllabus ya tomó muchas de las decisiones: qué se aprende, con qué materiales, cómo se evalúa y dónde se interactúa. Es el programa detallado de aprendizaje, la base para determinar materiales, videos, ejercicios de evaluación y espacios de interacción en el curso. El portafolio de docencia, por su parte, es donde Rocío puede guardar y explicar lo que sí le funciona, para revisarlo y compartirlo. Esta página describe los dos para que revises los tuyos.
 
 ## El syllabus en el aprendizaje híbrido
 
@@ -31,7 +31,7 @@ El syllabus debe mostrar con claridad lo que se va a aprender para las actividad
 
 ## Elementos del syllabus
 
-El syllabus o programa detallado de la asignatura debe contemplar los siguientes elementos:
+El syllabus o programa detallado de la asignatura debe contemplar los siguientes elementos. Compara tu programa actual con la lista y marca qué le falta:
 
 ### Información general
 
@@ -53,7 +53,7 @@ El syllabus o programa detallado de la asignatura debe contemplar los siguientes
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Método de evaluación" icono="tasks" color="#5c7ab4" >}}
-  Criterios generales, ponderaciones y rúbricas.
+  Qué se va a mirar en cada entrega (por ejemplo, «cita dos fuentes y responde una objeción»), ponderaciones y rúbricas.
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion titulo="Recursos y materiales" icono="book" color="#656f85" >}}
@@ -91,7 +91,7 @@ Cada semana del curso debe especificar:
   {{< /infografia-seccion >}}
 
   {{< infografia-seccion numero="6" titulo="Evaluaciones" icono="check-circle" color="#656f85" >}}
-  Criterios de [evaluación]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}}) claros para el estudiante y rúbricas aplicables.
+  Reglas de [evaluación]({{< ref "formacion-docente/evaluacion-retroalimentacion" >}}) claras para el estudiante (qué se entrega, qué se mira, cuánto pesa) y rúbricas aplicables.
   {{< /infografia-seccion >}}
 {{< /infografia >}}
 
@@ -135,7 +135,7 @@ Uno de los componentes centrales del portafolio es la filosofía de enseñanza. 
 
 ## El perfil del profesor moderno
 
-Los profesores del siglo XXI no son expertos en tecnología sino "expertos en hábitos de la mente" (Wilson, como se cita en Universidad de Guadalajara, 2022). En un entorno rápidamente cambiante, los profesores modernos:
+Los profesores del siglo XXI son, antes que expertos en tecnología, "expertos en hábitos de la mente" (Wilson, como se cita en Universidad de Guadalajara, 2022). En un entorno rápidamente cambiante, los profesores modernos:
 
 - Se ven como aprendices, no solo como profesores.
 - Se permiten equivocarse con frecuencia.

@@ -1,8 +1,8 @@
 ---
-title: "Flujos de trabajo docente con IA"
+title: "Sigue uno de tres flujos docentes con IA y marca dónde decides tú"
 date: 2026-04-26
 draft: false
-description: "Tres flujos representativos de trabajo docente —planeación, retroalimentación y diseño evaluativo— con diagramas de proceso que explicitan dónde la IA aporta y dónde no entra."
+description: "Elige uno de tres flujos (planear una sesión, retroalimentar un trabajo, diseñar una evaluación), recórrelo con un caso tuyo y anota dónde te desvías del diagrama. Sales con el flujo adaptado a tu materia para compartir con tu academia."
 summary: "Diagramas Mermaid de tres procesos docentes recurrentes, con puntos de decisión humana visibles. Pensados para que coordinaciones académicas estandaricen criterios sin uniformar prácticas."
 tags: ["flujos de trabajo", "Mermaid", "diagramas", "procesos docentes", "protocolos"]
 categories: ["guia"]
@@ -17,19 +17,29 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de decisión humana visibles, para que cada docente los adapte a su contexto sin perder los criterios comunes.
-{{< /lead >}}
+{{< contrato quien="Docentes que ya usan IA para preparar clases, comentar trabajos o armar exámenes, y no tienen claro en qué paso deciden ellos y en cuál delegan." haras="Vas a elegir uno de los tres flujos (planear una sesión, retroalimentar un trabajo, diseñar una evaluación), recorrerlo con un caso tuyo de esta semana y anotar en qué pasos te desvías del diagrama y por qué." tendras="Un flujo adaptado a tu materia con tus desviaciones anotadas (por ejemplo: «Flujo 1, paso C: en química la IA no maneja bien la notación, así que las tres estructuras las propongo yo y la IA sólo entra en G, con ejemplos cotidianos»). Es la hoja que compartes con tu academia." tarda="Quince minutos para leer el caso y los tres diagramas; treinta para recorrer un flujo con un caso tuyo." ejemplo="Abajo está el caso de Andrés, de Química general, ya resuelto sobre el flujo 1: qué pasos siguió tal cual y en cuáles se desvió. Léelo antes de elegir tu flujo." >}}
+
+## El caso de Andrés, ya resuelto
+
+Andrés da Química general y quería preparar la sesión de equilibrio químico con el flujo 1. Recorrió el diagrama con esa sesión y anotó tres cosas:
+
+| Paso del flujo 1 | Qué hizo Andrés |
+|---|---|
+| A y B (aprendizaje esperado y nivel de Bloom) | Los escribió él: «predecir hacia dónde se desplaza un equilibrio al cambiar la presión», nivel aplicar. |
+| C (la IA propone tres estructuras de sesión) | Se desvió: la IA proponía estructuras con ecuaciones mal escritas. Las tres estructuras las propuso él y saltó a G. |
+| G y H (la IA propone ejemplos; ¿son pertinentes?) | Aceptó dos ejemplos cotidianos (la olla de presión, el refresco al abrirse) y descartó uno con datos inventados. |
+
+Su hoja para la academia dice: «Flujo 1 sirve para química con una desviación: el paso C lo hago yo; la IA entra sólo en G». Esa hoja de un flujo con sus desviaciones anotadas es lo que esta página te pide producir.
 
 ## Por qué diagramar los flujos
 
-Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta contribución presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cualquier docente pueda usarlos como referencia, modificar para su asignatura y compartir con colegas para sostener criterios comunes.
+Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta página presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cualquier docente pueda usarlos como referencia, modificarlos para su asignatura y compartirlos con colegas para acordar qué pasos nadie delega (por ejemplo, la lectura inicial sin IA del flujo 2).
 
 Tres reglas que cruzan los tres flujos:
 
 - **Cada paso indica qué actor lo ejecuta.** Docente, IA o estudiante. La distinción importa: cuando un paso recae en la IA, el docente sigue siendo responsable del resultado, pero el flujo lo declara explícitamente.
 - **Los puntos de decisión humana son obligatorios.** Cada flujo incluye al menos dos rombos donde el docente decide; sin esa decisión, el proceso no avanza.
-- **El producto final del flujo es replicable.** Otro docente que siga el mismo flujo en una asignatura distinta debería producir un objeto comparable.
+- **Lo que sale del flujo es replicable.** Otro docente que siga el mismo flujo en una asignatura distinta debería producir un objeto comparable.
 
 ## Flujo 1 — Planeación de una sesión de clase
 
@@ -90,16 +100,16 @@ El docente prepara una evaluación de medio término o final. Aquí la IA tiene 
 
 {{< mermaid >}}
 flowchart TD
-    A["<b>A</b> · Docente: revisar aprendizajes esperados de la unidad"] --> B["<b>B</b> · Docente: definir evidencia esperada"]
-    B --> C{"<b>C</b> · Docente: ¿la evidencia se sostiene si el estudiante usa IA?"}
-    C -- No --> D["<b>D</b> · Docente: rediseñar evidencia con contexto local o defensa"]
-    C -- Sí --> E["<b>E</b> · Docente: borrador inicial de la consigna"]
+    A["<b>A</b> · Docente: revisar aprendizajes esperados de la unidad"] --> B["<b>B</b> · Docente: definir qué entregará el estudiante"]
+    B --> C{"<b>C</b> · Docente: ¿ese entregable se sostiene si el estudiante usa IA?"}
+    C -- No --> D["<b>D</b> · Docente: rediseñar el entregable con contexto local o defensa oral"]
+    C -- Sí --> E["<b>E</b> · Docente: borrador inicial de la instrucción"]
     D --> E
     E --> F["<b>F</b> · IA: proponer 2 variantes equivalentes"]
     F --> G{"<b>G</b> · Docente: ¿las variantes mantienen el mismo <a href='/recursos/glosario/taxonomia-de-bloom/'>nivel de Bloom</a>?"}
-    G -- No --> H["<b>H</b> · Docente: reformular consigna o prompts"]
+    G -- No --> H["<b>H</b> · Docente: reformular la instrucción o los prompts"]
     H --> F
-    G -- Sí --> I["<b>I</b> · Docente: redactar rúbrica con criterios de proceso"]
+    G -- Sí --> I["<b>I</b> · Docente: redactar rúbrica con filas de proceso"]
     I --> J["<b>J</b> · IA: revisar rúbrica para detectar ambigüedades"]
     J --> K["<b>K</b> · Docente: ajustar rúbrica final"]
     K --> L["<b>L</b> · Evaluación lista para aplicar"]
@@ -107,13 +117,13 @@ flowchart TD
 
 **Tres notas operativas sobre este flujo:**
 
-- El rombo C es decisivo. Si la evidencia no se sostiene en presencia de IA, el rediseño no es opcional. Esta lógica conecta con la [guía de integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/).
+- El rombo C es decisivo. Si lo que entregan (un ensayo, un informe) puede salir entero de una IA, hay que rediseñarlo. Esta lógica conecta con la [guía de integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/).
 - Las variantes en F sirven para ofrecer evaluaciones equivalentes a estudiantes con condiciones particulares (recursamiento, aplazamiento) sin perder validez.
-- El paso I —rúbrica con criterios de proceso— es lo que distingue una evaluación que sigue siendo válida con IA presente de una que no. Ver el [post sobre IA generativa y evaluación auténtica](/blog/ia-generativa-evaluacion-autentica/) para el marco.
+- El paso I —rúbrica con filas de proceso (versiones, decisiones registradas)— es lo que distingue una evaluación que sigue siendo válida con IA presente de una que no. Ver el [post sobre IA generativa y evaluación auténtica](/blog/ia-generativa-evaluacion-autentica/) para el marco.
 
 ## Cómo adaptar los flujos
 
-Los tres diagramas son referencia, no plantilla rígida. Tres orientaciones para adaptarlos:
+Los tres diagramas son referencia, no plantilla rígida. Haz lo que hizo Andrés: elige un flujo, recórrelo con un caso tuyo de esta semana y anota en una hoja cada paso donde te desvías y por qué. Tres orientaciones para esa hoja:
 
 {{< proceso >}}
   {{< paso titulo="Identifica dónde la IA aporta poco" >}}
@@ -129,7 +139,7 @@ Los tres diagramas son referencia, no plantilla rígida. Tres orientaciones para
 
 ## Lecturas relacionadas
 
-La [guía de integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/) extiende los flujos al nivel de programa académico; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen los criterios que cruzan los tres flujos; la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) detalla cómo hacer visibles las decisiones de cada paso.
+La [guía de integración curricular de IA](/ia-educacion/guias/integracion-curricular-ia/) extiende los flujos al nivel de programa académico; los [lineamientos éticos](/ia-educacion/guias/lineamientos-eticos-ia/) sostienen las reglas que cruzan los tres flujos; la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/) detalla cómo hacer visibles las decisiones de cada paso.
 
 {{< referencias >}}
 UNESCO. (2023). *Guidance for generative AI in education and research*. UNESCO. <https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research>

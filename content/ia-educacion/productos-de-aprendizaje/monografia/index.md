@@ -27,9 +27,15 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una monografía no se mide por su longitud sino por la claridad con la que el estudiante delimitó qué cubrir, organizó las fuentes y entendió cómo se relacionan los conceptos. Aquí evaluamos ese trabajo de cartografía, no el documento final.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de humanidades, ciencias sociales o posgrado que piden una monografía de quince páginas (sobre la migración interna en Jalisco, sobre la reforma educativa de 1993) y reciben documentos largos, bien redactados y con fuentes que no existen." haras="Una estudiante de segundo semestre de sociología escribe primero, sin IA, media página con su delimitación («la migración de Los Altos a Guadalajara entre 1990 y 2010») y un índice de cinco subtemas; después consulta a la IA para discutir el índice, le pide tipos de fuente por subtema y verifica cada autor sugerido en la biblioteca digital antes de citarlo; dibuja un esquema de cómo se relacionan sus subtemas y, al terminar de redactar, le pide a la IA que señale las partes débiles de su análisis. Entrega la monografía, el índice v1 y v2, el esquema y las fuentes con DOI." tendras="Cuatro prompts copiables y una regla de revisión: «toda fuente citada trae DOI o localización comprobada; una referencia que no se encuentra en una base real (por ejemplo, un artículo con autor y año verosímiles pero sin DOI) descuenta, no suma»." tarda="Diez minutos de lectura; quince si adaptas los prompts a tu tema." ejemplo="Empieza con la monografía sobre migración, en el primer párrafo, y vuelve a ella en las fases y en las salvaguardas." >}}
+
+Un profesor de sociología pide a su grupo de segundo semestre una monografía de quince
+páginas sobre un tema de su elección. Una estudiante elige la migración de Los Altos a
+Guadalajara entre 1990 y 2010. Lo que él revisa es la claridad con la que ella delimitó
+qué cubrir, cómo organizó las fuentes y si entendió cómo se relacionan sus subtemas (por
+ejemplo, que el cierre de los ingenios explica parte de la migración de los noventa). Ese
+trabajo de cartografía es lo que se califica; el documento final es la prueba de que se
+hizo.
 
 ## Qué es y para qué sirve
 
@@ -39,16 +45,21 @@ delimitado. A diferencia del ensayo, no exige una tesis debatible: exige
 conceptos**. Es el primer trabajo serio de investigación documental en la
 formación universitaria.
 
-**Uso formativo de la IAG en este producto:** delimitar el tema con preguntas
-guía, estructurar el plan de subtemas, contrastar la interpretación de
-datos y mejorar la redacción propia —sin que la IAG redacte el cuerpo del
-trabajo. La IAG es cartógrafa del territorio; el estudiante decide la ruta.
+**Dónde entra la IA en este tipo de trabajo:** ayuda a delimitar el tema con
+preguntas guía («¿migración de familias completas o de jóvenes solos?»), a
+discutir el plan de subtemas, a contrastar la interpretación de datos (una
+cifra del INEGI leída de dos maneras) y a mejorar la redacción propia. El
+cuerpo del trabajo lo redacta la estudiante. La IA es cartógrafa del
+territorio; la estudiante decide la ruta.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **2 a 5** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **2 a 5** de la taxonomía de Bloom, con
 nivel dominante **4 — Analizar** (la articulación de relaciones entre los
 subtemas). Los prompts vienen de la guía UdeG y se anclan a niveles Bloom.
+Para ti, la tabla es un banco de prompts: copia el de la fase que tu grupo
+suele saltarse (casi siempre las relaciones entre conceptos, cuando el índice
+es una lista y no un mapa) y sustituye los corchetes por el tema.
 
 | Nivel Bloom | Movimiento del trabajo | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -94,10 +105,11 @@ IAG para que lo reescriba.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de la monografía
 
 Riesgo **alto**: las monografías largas son fáciles de generar por
-secciones. Las evidencias son obligatorias en su totalidad:
+secciones. Por eso todas las piezas de esta tabla (índice v1 y v2, esquema
+de relaciones, fuentes verificadas, bitácora) son obligatorias:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -111,6 +123,10 @@ secciones. Las evidencias son obligatorias en su totalidad:
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito de cada uso |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas el índice v1, el esquema y la bitácora, no sólo el
+documento final; ajusta los pesos a tu curso (por ejemplo, más peso a «uso
+ético» si las fuentes inventadas son tu problema principal):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -136,7 +152,8 @@ secciones. Las evidencias son obligatorias en su totalidad:
   IAG, y registro de cambios entre v1 y v2.
 - **Análisis superficial enmascarado por buena redacción.** Salvaguarda: el
   prompt avanzado de auto-crítica obliga al estudiante a identificar las
-  partes débiles de su análisis; sin esa evidencia la monografía se queda
+  partes débiles de su análisis (por ejemplo, «el subtema 4 sólo describe,
+  no relaciona»); sin esa lista en la bitácora, la monografía se queda
   en N2.
 
 {{< alert icon="shield-halved" type="warning" >}}
@@ -151,12 +168,12 @@ trabajo de investigación documental de mediana extensión.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentativo en vez de expositivo, mismo riesgo alto.
-- Producto cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — escala investigativa mayor.
+- Trabajo cercano: [Ensayo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/ensayo" >}}) — argumentativo en vez de expositivo, mismo riesgo alto.
+- Trabajo cercano: [Artículo con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/articulo" >}}) — escala investigativa mayor.
 - Guía pedagógica: [Aprendizaje activo con IA]({{< ref "/ia-educacion/guias/aprendizaje-activo-con-ia" >}}).
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

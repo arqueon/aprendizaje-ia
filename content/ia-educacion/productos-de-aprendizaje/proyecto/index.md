@@ -28,18 +28,26 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un proyecto no es la propuesta entregada el último día: es la cadena de decisiones que la produjo. Qué problema atacar, qué alternativas considerar, con qué criterios elegir y contra qué realidad validar. La IAG puede ampliar el horizonte de opciones y presionar la justificación; lo que no puede hacer es decidir.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes que trabajan por proyectos (ABP) en ingeniería, administración, diseño, ciencias sociales o salud y reciben propuestas completas y verosímiles (objetivos, cronograma, presupuesto) que ningún equipo puede defender cuando se les pregunta por qué descartaron las otras opciones." haras="Un equipo de tres estudiantes de un taller de proyectos tiene ocho semanas y 10 000 pesos para reducir el desperdicio de alimentos en la cafetería del centro, sin autoridad sobre la concesionaria. Escribe y fecha el encuadre, pide a la IA alternativas de enfoque distinto y descarta cinco, arma una matriz de tres alternativas por cuatro criterios que le quita la razón a su idea favorita, y comprueba fuera del chat los dos supuestos que la IA puso en duda (una reunión de quince minutos con el administrador de la cafetería). La IA amplía, cuestiona y puebla la matriz; el equipo decide y firma." tendras="Cuatro prompts copiables, uno por momento, y una regla de revisión: «la matriz se fecha antes que la justificación; una matriz donde la favorita gana todas las celdas es tema para la siguiente revisión»." tarda="Quince minutos de lectura; veinticinco si adaptas los prompts y la rúbrica a tu curso." ejemplo="El primer párrafo anticipa al equipo; el caso completo, momento por momento, está en la sección «Ocho semanas contra el desperdicio»." >}}
+
+En un taller de proyectos, un equipo de tres estudiantes entrega una propuesta de ocho
+páginas para reducir el desperdicio de alimentos en la cafetería del centro. La docente
+ya la leyó; en la defensa pregunta otra cosa: por qué perdió la app de porciones que el
+equipo quería al principio. El equipo responde con una matriz fechada en la semana 4.
+Un proyecto es la cadena de decisiones que produjo la propuesta del último día: qué
+problema atacar, qué alternativas considerar, con qué criterios elegir (costo, plazo,
+permisos) y contra qué realidad validar. La IA puede ampliar el horizonte de opciones y presionar la
+justificación; decidir es lo que le queda al equipo.
 
 ## La propuesta es la punta; el proyecto es la cadena
 
 Cuando un curso trabaja por proyectos, el documento final —el plan, el prototipo
 conceptual, la propuesta de intervención— es solo la parte visible. Debajo hay una cadena:
-alguien delimitó un problema entre muchos posibles, generó alternativas, definió criterios,
-eligió una opción sabiendo lo que perdía con las otras y comprobó que la elegida podía
-sobrevivir fuera del papel. Esa cadena es el aprendizaje que el aprendizaje basado en
-proyectos quiere formar: gestionar restricciones, decidir con criterios explícitos y
+alguien delimitó un problema entre muchos posibles, generó alternativas, definió criterios
+(costo, plazo, permisos), eligió una opción sabiendo lo que perdía con las otras y comprobó
+que la elegida podía sobrevivir fuera del papel. Esa cadena es el aprendizaje que el
+aprendizaje basado en proyectos quiere formar: gestionar restricciones, decidir con
+criterios explícitos («cabe en ocho semanas», «no requiere a la concesionaria») y
 responder por la decisión. A diferencia del
 [análisis de casos]({{< ref "/ia-educacion/productos-de-aprendizaje/analisis-de-casos" >}}),
 que justifica una opción entre alternativas dadas, el proyecto **construye la solución**.
@@ -52,16 +60,18 @@ riesgo de sustitución es **medio** precisamente por eso: los entregables parece
 pero la justificación pudo generarse después de decidir, o sin decidir nada.
 
 El uso formativo invierte la relación. La IAG funciona como **sparring estratégico**: pone
-sobre la mesa alternativas que el equipo no había considerado, cuestiona criterios, busca
-huecos en la viabilidad. Cada aporte es material para una decisión que el equipo toma y
-documenta. En términos de Bloom, el producto recorre los niveles 3 a 6 —aplicar un encuadre,
-analizar alternativas, evaluar con criterios— con el nivel **6, crear**, como dominante: al
-final existe una propuesta que antes no existía y que el equipo puede defender.
+sobre la mesa alternativas que el equipo no había considerado, cuestiona criterios («¿con
+qué instrumento van a medir el impacto?»), busca huecos en la viabilidad. Cada aporte es
+material para una decisión que el equipo toma y documenta. En términos de Bloom, el
+proyecto recorre los niveles 3 a 6 —aplicar un encuadre, analizar alternativas, evaluar con
+criterios (la matriz de la semana 4)— con el nivel **6, crear**, como dominante: al final
+existe una propuesta que antes no existía y que el equipo puede defender.
 
 ## Encuadrar, divergir, decidir, validar
 
-La cadena se trabaja en cuatro momentos. No son trámites secuenciales: son cuatro tipos de
-decisión distintos, y cada uno deja una evidencia diferente.
+La cadena se trabaja en cuatro momentos. Son cuatro tipos de decisión distintos, más que
+trámites en fila, y cada uno deja una pieza diferente (un encuadre fechado, un registro de
+descartes, una matriz, una constancia de validación).
 
 {{< timeline >}}
 
@@ -75,19 +85,19 @@ modelo. El encuadre se escribe y se fecha: todo lo que sigue se juzga contra él
 {{< timelineItem icon="arrows-split-up-and-left" header="2. Divergir" subheader="Alternativas genuinamente distintas" md="true" >}}
 Generación de al menos tres alternativas de enfoque diferente —no tres variantes de la
 misma idea—. Aquí la IAG rinde más: amplía el rango con enfoques técnicos, organizativos o
-sociales que el equipo no tenía a la vista. El equipo descarta con criterio y registra por
-qué descarta.
+sociales que el equipo no tenía a la vista. El equipo descarta con razones («rebasa el
+presupuesto», «requiere a la concesionaria») y las registra.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="scale-balanced" header="3. Decidir" subheader="La matriz antes que la justificación" md="true" >}}
-El equipo define criterios pertinentes al encuadre, los aplica a las alternativas en una
-matriz y elige. La matriz se fecha **antes** de redactar la justificación: así la decisión
+El equipo define criterios pertinentes al encuadre (costo dentro del tope, implementable
+en ocho semanas), los aplica a las alternativas en una matriz y elige. La matriz se fecha **antes** de redactar la justificación: así la decisión
 produce el argumento y no al revés. La IAG puede poblar ventajas y desventajas; no vota.
 {{< /timelineItem >}}
 
 {{< timelineItem icon="check-double" header="4. Validar" subheader="Contra la realidad, no contra el modelo" md="true" >}}
-La propuesta elegida se confronta con criterios externos verificables: datos, normativa,
-actores reales. La IAG sirve como abogada del diablo —qué puede fallar, qué supuesto no está
+La propuesta elegida se confronta con criterios externos verificables (datos con fuente,
+normativa, actores reales). La IAG sirve como abogada del diablo —qué puede fallar, qué supuesto no está
 demostrado—, pero cada supuesto crítico se comprueba fuera del sistema: una llamada, un
 documento, una cifra con fuente.
 {{< /timelineItem >}}
@@ -97,7 +107,7 @@ documento, una cifra con fuente.
 ## Ocho semanas contra el desperdicio: un equipo de ejemplo
 
 Así se ve la cadena en un caso concreto. En un taller de proyectos, **Renata, Marco y
-Sofía** reciben esta consigna:
+Sofía** reciben esta consigna (el encargo escrito de la docente, tal cual):
 
 > Diseñen una propuesta viable para reducir el desperdicio de alimentos en la cafetería del
 > centro universitario. Tienen ocho semanas, un presupuesto de implementación máximo de
@@ -122,9 +132,10 @@ el excedente (organizativa) y una campaña de cambio de hábitos con medición s
 (social). En la bitácora queda constancia de que dos de las tres no eran suyas al empezar.
 
 **Momento 3 · La matriz decide antes que el corazón.** Definen cuatro criterios anclados al
-encuadre: costo dentro del tope, implementable en ocho semanas, no requiere autoridad sobre
-la concesionaria, impacto medible. Piden a la IAG ventajas y desventajas de cada alternativa
-frente a esos criterios —sin pedirle un ganador— y completan la matriz. El resultado los
+encuadre (costo dentro del tope, implementable en ocho semanas, no requiere autoridad sobre
+la concesionaria, impacto medible). Piden a la IAG ventajas y desventajas de cada
+alternativa frente a esos criterios, sin pedirle un ganador («no elijas ni ordenes»), y
+completan la matriz. El resultado los
 incomoda: su favorita, la app, falla en dos criterios (desarrollo y adopción no caben en
 ocho semanas). Fechan la matriz y eligen la campaña con medición, incorporando del convenio
 una versión mínima: contacto inicial con el banco de alimentos como línea futura. La
@@ -143,14 +154,15 @@ decisión fechada de la semana 4, bitácora con seis decisiones documentadas y d
 uso de IAG. En la defensa, la docente no pregunta por la propuesta —esa ya la leyó—:
 pregunta por qué perdió la app. El equipo responde con la matriz.
 
-## La matriz de decisión, la evidencia central
+## La matriz de decisión, la pieza central
 
 Como en todo el catálogo, la evaluación busca
 [conocer cómo se llegó al resultado]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}):
 versiones sucesivas, decisiones justificadas, una conversación sobre el trabajo y criterios
-compartidos desde el inicio. En un proyecto, la pieza que mejor condensa el recorrido es la
-matriz de alternativas por criterios, fechada antes de la justificación. Alrededor de ella
-se ordena el resto:
+compartidos desde el inicio (la rúbrica de abajo, entregada la semana 1). En un proyecto,
+la pieza que mejor condensa el recorrido es la matriz de alternativas por criterios (tres
+filas por cuatro columnas en el equipo del ejemplo), fechada antes de la justificación.
+Alrededor de ella se ordena el resto:
 
 | Evidencia | Estado | Qué permite comprender |
 |---|---|---|
@@ -167,7 +179,7 @@ cadena entre todos.
 
 ## Preguntas que amplían sin decidir
 
-Los prompts de este producto comparten una regla: la IAG diverge, cuestiona y puebla
+Los prompts de este tipo de trabajo comparten una regla: la IAG diverge, cuestiona y puebla
 matrices; el equipo converge y decide. No hay prompt que pida «la mejor opción».
 
 <details>
@@ -194,7 +206,7 @@ matrices; el equipo converge y decide. No hay prompt que pida «la mejor opción
 <summary><strong>Momento 3 · Poblar la matriz sin votar</strong></summary>
 
 > Estas son nuestras alternativas finalistas: [lista]. Estos son nuestros criterios,
-> derivados del encuadre: [criterios]. Para cada celda de la matriz, indica ventajas y
+> derivados del encuadre: [criterios, por ejemplo «cabe en el presupuesto»]. Para cada celda de la matriz, indica ventajas y
 > desventajas con el dato o supuesto que las sostiene. No elijas ni ordenes las
 > alternativas: la decisión y su justificación son nuestras.
 
@@ -213,11 +225,11 @@ matrices; el equipo converge y decide. No hay prompt que pida «la mejor opción
 ## Riesgos de proyecto, salvaguardas de diseño
 
 - **La propuesta instantánea.** El equipo pide el proyecto completo y lo edita. La cadena
-  de evidencias fechadas —encuadre, alternativas, matriz— hace ese atajo más costoso que el
+  de piezas fechadas (encuadre, alternativas, matriz) hace ese atajo más costoso que el
   trabajo: cada pieza tendría que falsificarse en orden y sobrevivir a la defensa.
 - **Alternativas cosméticas.** Tres versiones de la misma idea para cumplir el requisito.
-  La consigna exige enfoques de tipo distinto y el registro de descartes muestra si la
-  divergencia fue real.
+  La consigna exige enfoques de tipo distinto (técnico, organizativo, social) y el registro
+  de descartes muestra si la divergencia fue real.
 - **La matriz decorativa.** Se decide primero y la matriz se arma después para justificar.
   Por eso la matriz se fecha antes que la justificación; una matriz donde la favorita gana
   todas las celdas es una señal para conversar en la siguiente revisión.
@@ -230,7 +242,8 @@ matrices; el equipo converge y decide. No hay prompt que pida «la mejor opción
 
 {{< alert icon="shield-halved" type="warning" >}}
 **Transparencia obligatoria.** La declaración de uso de IAG acompaña la entrega, y la
-matriz y la bitácora forman parte del producto, no son anexos opcionales. La IAG amplía
+matriz y la bitácora forman parte de la propuesta (van dentro del documento, con fecha),
+no son anexos opcionales. La IAG amplía
 alternativas y presiona la viabilidad; la decisión y la propuesta son del equipo.
 {{< /alert >}}
 
@@ -238,7 +251,8 @@ alternativas y presiona la viabilidad; la decisión y la propuesta son del equip
 
 La valoración separa la calidad de la propuesta final de la calidad de la cadena que la
 produjo, y da a la cadena el mayor peso: es ahí donde vive el aprendizaje que el ABP quiere
-formar. Los pesos son un punto de partida adaptable, no una política institucional.
+formar. Los pesos son un punto de partida adaptable (por ejemplo, sube «validación de
+viabilidad» si tu curso tiene acceso a actores reales), no una política institucional:
 
 | Criterio | N1 · Inicial | N2 · En desarrollo | N3 · Competente | N4 · Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -263,6 +277,6 @@ formar. Los pesos son un punto de partida adaptable, no una política institucio
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el juicio frente a la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

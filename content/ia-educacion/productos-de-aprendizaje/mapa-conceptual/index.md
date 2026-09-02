@@ -28,14 +28,22 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un mapa conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone abajo y qué conecta con qué. Si el mapa lo arma la IAG, la radiografía muestra el conocimiento del modelo, no el del estudiante. Esta guía propone construirlo en dos versiones y evaluar las decisiones que las separan.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de cualquier asignatura con marco teórico o sistemas complejos (biología, sociología, redes de computadoras) que piden un mapa conceptual y reciben diagramas limpios, equilibrados e iguales entre sí, sin una sola decisión reconocible del estudiante." haras="Julia, de primer año de Biología, recibe la instrucción de relacionar fotosíntesis, respiración celular y flujo de energía en máximo veinte conceptos. Traza sola un primer mapa fechado (con un error: pone la respiración sólo en los animales), pega sus proposiciones a la IA y le pide conceptos ausentes, relaciones dudosas y cruces entre ramas; verifica en su libro, acepta «ATP», rechaza «quimiosíntesis» y entrega el mapa v1, el v2 con los cambios marcados y una nota de decisiones. La IA entra sólo después del primer trazado y devuelve preguntas, nunca el mapa." tendras="Una actividad en dos versiones con cuatro prompts copiables y una instrucción que puedes pegar mañana: «Máximo 20 conceptos; cada enlace lleva un verbo explícito; entregas el mapa en dos versiones fechadas y una nota con tus decisiones»." tarda="Doce minutos de lectura; veinte si adaptas la instrucción y los prompts a tu tema." ejemplo="El primer párrafo anuncia el caso de Julia; el caso completo, fase por fase, está en la sección «El mapa de Julia, de la lista al cruce»." >}}
+
+Una profesora de Biología de primer año pide a su grupo un mapa conceptual sobre el flujo
+de energía en un ecosistema. Recibe veintiocho mapas correctos, equilibrados y casi
+idénticos; sólo el de Julia tiene un error visible (pone la respiración celular únicamente
+bajo los animales) y, con el error, una nota que explica cómo lo corrigió. Un mapa
+conceptual es la radiografía de cómo alguien entiende un tema: qué pone arriba, qué pone
+abajo y qué conecta con qué. Si el mapa lo arma la IA, la radiografía muestra el
+conocimiento del modelo. Esta página propone construirlo en dos versiones y revisar las
+decisiones que las separan, con el caso de Julia como hilo.
 
 ## Tres decisiones hacen un mapa
 
-Dibujar cajas y flechas es lo de menos. Lo que convierte un mapa conceptual en evidencia
-de comprensión son tres decisiones que nadie puede tomar por el estudiante.
+Dibujar cajas y flechas es lo de menos. Lo que convierte un mapa conceptual en una muestra
+de comprensión (qué está arriba, qué cuelga de qué, qué verbo une cada par) son tres
+decisiones que nadie puede tomar por el estudiante.
 
 La primera es la **selección**: de todo lo que dice el tema, ¿qué veinte conceptos importan?
 Elegir implica descartar, y descartar exige entender qué es central y qué es anécdota. La
@@ -47,14 +55,14 @@ delata que la estructura del tema todavía no se ve. La tercera —la más revel
 glucosa» no afirma nada. El conector vago es el lugar exacto donde la comprensión se detiene,
 y por eso es tan valioso: muestra dónde hay que volver a estudiar.
 
-En términos de la taxonomía de Bloom, este producto recorre los niveles 2 a 5: comprender el
+En términos de la taxonomía de Bloom, este tipo de trabajo recorre los niveles 2 a 5: comprender el
 tema para seleccionar, aplicar esa selección en un primer trazado, **analizar** —el nivel
 dominante— al decidir jerarquías y relaciones cruzadas, y evaluar al criticar el propio mapa.
-El análisis es el corazón del producto: las otras fases lo preparan o lo revisan.
+El análisis es el corazón del trabajo: las otras fases lo preparan o lo revisan.
 
 ¿Y la IAG? Puede hacer las tres cosas en segundos, y ese es justamente el problema. Un mapa
 generado por el modelo suele ser correcto, equilibrado y ajeno: no contiene ninguna decisión
-del estudiante y, por tanto, no evidencia nada sobre su comprensión. El uso formativo va en
+del estudiante y, por tanto, no muestra nada de su comprensión. El uso formativo va en
 otra dirección: la IAG sirve para **contrastar** un mapa que ya existe —señalar conceptos
 olvidados, relaciones débiles, cruces posibles— y cada señalamiento se convierte en una
 decisión más que el estudiante debe tomar y justificar.
@@ -68,8 +76,8 @@ El **mapa v1** se construye sin IAG y se guarda fechado. No necesita estar bien:
 ser honesto. Sus errores y sus huecos son información, no falta. El **mapa v2** nace de
 contrastar el v1 con la IAG y con las fuentes del curso: cada cambio —un concepto añadido,
 una jerarquía movida, un cruce nuevo— queda marcado y justificado en una nota breve. La
-comparación entre ambos es la evidencia central: muestra qué entendía el estudiante al
-empezar y qué comprensión ganó en el camino.
+comparación entre ambos es la pieza central de la entrega: muestra qué entendía el
+estudiante al empezar y qué comprensión ganó en el camino.
 
 Aunque el riesgo de sustitución de autoría es **bajo** —copiar un mapa ajeno a mano ya exige
 cierto procesamiento—, el orden de las fases importa: si la consulta a la IAG ocurre antes
@@ -81,8 +89,8 @@ colorea el esquema del modelo.
 {{< timelineItem icon="list" header="1. Inventario de conceptos" subheader="Con consulta puntual a la IAG" md="true" >}}
 El estudiante lista los conceptos que considera centrales a partir de sus apuntes y
 lecturas. Puede preguntar a la IAG qué conceptos suelen asociarse al tema, pero filtra la
-lista con un criterio explícito: qué vio en el curso, qué exige la consigna, qué cabe en el
-límite de conceptos.
+lista con un criterio explícito (qué vio en el curso, qué pide la instrucción, qué cabe en
+el límite de veinte conceptos).
 {{< /timelineItem >}}
 
 {{< timelineItem icon="diagram-project" header="2. Mapa v1, con sus propias manos" subheader="Sin IAG" md="true" >}}
@@ -108,7 +116,7 @@ con las dos o tres decisiones que más modificaron su mapa.
 ## El mapa de Julia, de la lista al cruce
 
 Así se ve el recorrido en un caso concreto. **Julia**, estudiante de primer año de
-Biología, recibe esta consigna:
+Biología, recibe esta instrucción de su docente:
 
 > Construye un mapa conceptual que relacione fotosíntesis, respiración celular y flujo de
 > energía en un ecosistema. Máximo 20 conceptos; cada enlace debe llevar un verbo explícito.
@@ -122,7 +130,7 @@ tres conectores vagos del tipo «se relaciona con». Guarda el archivo con fecha
 fotografía de lo que entiende hoy.
 
 **Fase 3 · El contraste.** En lugar de pedir «hazme un mapa del flujo de energía» —lo que
-la consigna prohíbe—, Julia pega sus proposiciones y pregunta qué relaciones parecen dudosas
+la instrucción prohíbe—, Julia pega sus proposiciones y pregunta qué relaciones parecen dudosas
 y qué cruces entre ramas podría estar omitiendo. Entre las respuestas hay tres señalamientos
 útiles: la pregunta «¿las plantas no respiran?», la sugerencia de cruzar «respiración
 celular» con «ciclo del carbono», y la propuesta de añadir «ATP» como concepto puente.
@@ -134,7 +142,7 @@ también respiran —su v1 tenía un error conceptual real, no un olvido— y mu
 celular» a un nivel superior, del que ahora cuelgan plantas y animales. Acepta «ATP» porque
 le permite convertir dos conectores vagos en verbos precisos («la respiración celular
 *libera energía en forma de* ATP»). Rechaza «quimiosíntesis»: existe, pero su curso no la
-abordó y la consigna limita los conceptos; lo anota como rechazo justificado, no lo esconde.
+abordó y la instrucción limita los conceptos; lo anota como rechazo justificado, no lo esconde.
 Su nota de decisiones cierra con una frase que el docente valora especialmente: «El error de
 la respiración no me lo corrigió la IA: me hizo una pregunta y el libro me corrigió a mí.»
 
@@ -144,12 +152,13 @@ cierre, la docente le pide explicar en un minuto el cruce entre respiración y c
 carbono; Julia lo explica sin mirar el mapa. Eso —no la estética del diagrama— es lo que se
 evalúa.
 
-## Qué conservar como evidencia
+## Qué conservar de la entrega
 
-La evidencia de este producto no busca vigilar el uso de la herramienta, sino permitir
+Lo que se conserva de este trabajo (las dos versiones del mapa, la nota de decisiones)
+sirve para
 [conocer cómo se llegó al resultado]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}}):
-comparar versiones, leer una decisión justificada, conversar sobre el trabajo y compartir
-los criterios antes de empezar. Para un mapa conceptual, la muestra mínima es pequeña:
+comparar versiones, leer una decisión justificada, conversar sobre el trabajo y decir de
+antemano cómo se va a revisar. Para un mapa conceptual, la muestra mínima es pequeña:
 
 | Evidencia | Estado | Qué permite comprender |
 |---|---|---|
@@ -165,7 +174,7 @@ puede defenderlas; quien coloreó un mapa ajeno, no.
 
 ## Preguntas que no piden el mapa hecho
 
-Los prompts útiles para este producto comparten una regla: parten del mapa del estudiante y
+Los prompts útiles para este trabajo comparten una regla: parten del mapa del estudiante y
 devuelven preguntas o señalamientos, nunca el mapa terminado. Por eso no hay prompt para la
 fase 2: el primer trazado se hace sin IAG.
 
@@ -214,8 +223,8 @@ fase 2: el primer trazado se hace sin IAG.
 - **El mapa dictado.** El estudiante pide el mapa a la IAG y lo redibuja. La salvaguarda
   es estructural, no policial: el v1 fechado existe antes de cualquier consulta, y la
   conversación de cierre pide defender una decisión concreta.
-- **Conectores sin verbo.** «Se relaciona con» en cada flecha. La consigna exige verbo
-  explícito y la rúbrica lo valora por separado; un conector vago señala el punto exacto
+- **Conectores sin verbo.** «Se relaciona con» en cada flecha. La instrucción exige verbo
+  explícito («produce», «libera», «depende de») y la rúbrica lo valora por separado; un conector vago señala el punto exacto
   que hay que volver a estudiar.
 - **Jerarquía plana.** Todos los conceptos al mismo nivel, unidos en cadena. Pedir al menos
   tres niveles y un cruce entre ramas obliga a decidir estructura, no solo vecindad.
@@ -226,7 +235,7 @@ fase 2: el primer trazado se hace sin IAG.
 
 {{< alert icon="shield-halved" type="warning" >}}
 **Transparencia por defecto.** Declarar el contraste con IAG no penaliza: es parte de la
-entrega. Lo que invalida la evidencia es presentar como propio un mapa cuyo origen no se
+entrega. Lo que invalida la entrega es presentar como propio un mapa cuyo origen no se
 puede explicar.
 {{< /alert >}}
 
@@ -234,8 +243,10 @@ puede explicar.
 
 La valoración separa dos cosas que suelen confundirse: la calidad del mapa final y la
 calidad de las decisiones que lo produjeron. Un mapa impecable con decisiones invisibles
-vale menos, como evidencia de aprendizaje, que un mapa modesto cuyo recorrido se puede leer.
-Los pesos son un punto de partida adaptable a cada curso, no una política institucional.
+vale menos, como muestra de aprendizaje, que un mapa modesto cuyo recorrido se puede leer.
+Los pesos son un punto de partida adaptable a cada curso (por ejemplo, más peso a «juicio
+frente al contraste» si tu grupo tiende a aceptar todo lo que la IA sugiere), no una
+política institucional:
 
 | Criterio | N1 · Inicial | N2 · En desarrollo | N3 · Competente | N4 · Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -260,6 +271,6 @@ Los pesos son un punto de partida adaptable a cada curso, no una política insti
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

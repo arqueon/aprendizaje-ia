@@ -42,9 +42,9 @@ ecosistema:
     proxima_revision: 2026-10-27
 ---
 
-{{< lead >}}
-Un mapa visual del marco de tres literacidades que organiza la formación docente en IA en la UdeG. Cada literacidad —operativa, crítica y co-creación— tiene su propia infografía con cinco principios y se conecta con un programa formativo de 60 horas.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes o coordinadores que quieren ver de una vez el marco completo de formación en IA de este sitio, para ubicarse o para planear un programa, sin leer primero las tres páginas largas." haras="Vas a entender cómo se relacionan las tres literacidades (manejar la IA, entender qué hay detrás de lo que devuelve, trabajar con ella sin ceder las decisiones), qué cinco principios tiene cada una y cómo se convierten en un programa de seis módulos." tendras="Un mapa para señalar en qué nivel estás tú o tu grupo (por ejemplo: «escribimos buenos prompts pero nadie verifica lo que devuelve: nos falta la crítica») y el enlace a la infografía del nivel que te falta." tarda="Cinco minutos de lectura; más si sigues los enlaces." ejemplo="Empieza con la pregunta que se hace un jefe de departamento al planear la formación del semestre («¿qué les falta a mis docentes: saber pedir, saber desconfiar o saber decidir?»); el primer diagrama la responde." >}}
+
+Un jefe de departamento tiene que proponer la formación en IA del semestre y sólo sabe que «todos usan ChatGPT». Antes de pedir otro taller de prompts, le conviene ubicar qué les falta a sus docentes: saber pedir, saber desconfiar de lo que devuelve o saber decidir qué aceptan y por qué. Este mapa visual reúne el marco de tres literacidades que organiza la formación docente en IA en la UdeG para responder esa pregunta de un vistazo. Cada literacidad —operativa, crítica y co-creación— tiene su propia infografía con cinco principios y se conecta con un programa formativo de 60 horas.
 
 ## El marco en un vistazo
 
@@ -61,7 +61,7 @@ flowchart LR
     style C fill:#f7a11a,stroke:#123b4a,color:#123b4a,stroke-width:3px
 {{< /mermaid >}}
 
-Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa por sí sola produce uso fluido sin criterio; la crítica sin operativa es teoría sin práctica; la co-creación sin las dos anteriores deriva en delegación pasiva.
+Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa por sí sola produce uso fluido sin saber cuándo conviene usar la IA; la crítica sin operativa es teoría sin práctica; la co-creación sin las dos anteriores deriva en delegación pasiva. Señala en el diagrama dónde está tu grupo: ese es el nivel que ya tiene, y el siguiente es el que conviene formar.
 
 ## Las tres literacidades
 
@@ -117,7 +117,8 @@ La literacidad operativa suele movilizar **recordar, comprender y aplicar**; la 
 hace especialmente visibles **analizar y evaluar**; y la co-creación exige integrar el
 juicio para **crear**. Según la tarea, sin embargo, las tres literacidades pueden activar
 varios niveles de Bloom a la vez. Lo decisivo es la demanda cognitiva que permanece en la
-persona y la evidencia que permite observarla.
+persona y lo que se le pide entregar para observarla (por ejemplo, la comparación anotada
+en lugar del resumen).
 
 ## El programa formativo (60 horas)
 
@@ -150,7 +151,7 @@ flowchart LR
 - **Discernimiento** y **Ética sociotécnica** construyen la literacidad **operativa** y la **crítica**.
 - **Agencia y co-creación** y **Uso selectivo** desarrollan la literacidad de **co-creación**.
 - **Adaptabilidad disciplinar**, de carácter transversal, atraviesa los anteriores y traduce las tres literacidades a cada campo de estudio.
-- **Proyecto integrador** consolida todo y desplaza la evidencia de aprendizaje del producto al **proceso documentado**.
+- **Proyecto integrador** consolida todo y desplaza la muestra del aprendizaje del trabajo final al **proceso documentado** (bitácora de decisiones, versiones, fuentes).
 
 ## Para profundizar
 

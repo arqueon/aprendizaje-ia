@@ -1,8 +1,8 @@
 ---
-title: "Bitácora breve para registrar decisiones con IA"
+title: "Anota en una bitácora breve qué cambió con la IA y por qué"
 date: 2026-08-11
 draft: false
-description: "Plantilla con un ejemplo completo para registrar qué cambió, qué se descartó y qué se comprobó durante un trabajo con IA."
+description: "Plantilla de nueve filas, con un ejemplo ya llenado, para anotar qué cambió, qué descartaste y qué comprobaste durante un trabajo con IA, sin entregar la conversación."
 summary: "Conserva las decisiones que cambiaron tu trabajo sin entregar la conversación completa ni datos privados."
 areas: ["ia", "pedagogia"]
 showHero: false
@@ -31,24 +31,11 @@ connections:
     reason: "Mira una tarea completa organizada en versiones y decisiones."
 ---
 
-{{< lead >}}
-Usa esta plantilla cuando una ayuda de IA cambie un escrito, un análisis o una decisión que tendrás que explicar. Empieza con tu versión anterior, la respuesta recibida y la fuente o prueba que usarás para comprobar el punto decisivo.
-{{< /lead >}}
+{{< contrato quien="Estudiantes, docentes o personas que investigan y acaban de usar una IA en un escrito, un análisis o una decisión que después tendrán que explicar a alguien (una docente, un comité, quien lea el trabajo)." haras="Vas a llenar una tabla de nueve filas con lo que pasó: qué querías resolver, qué tenías antes, qué le pediste a la herramienta, qué te sirvió, qué descartaste, qué comprobaste fuera de ella, qué cambiaste, qué queda pendiente y una línea de declaración." tendras="Una nota de media página que acompaña a tu trabajo (por ejemplo, la fila de descarte: «No usé la cifra de cinco grados porque la respuesta no dijo de dónde salía»), sin copiar la conversación ni datos privados. Con esa nota, otra persona puede reconstruir qué decidiste tú y qué aportó la herramienta." tarda="Cinco minutos con el caso de Lucía; entre diez y quince con un trabajo tuyo si tienes a la mano la versión anterior y la respuesta de la IA." ejemplo="Abajo está la bitácora de Lucía ya llenada, fila por fila. Léela primero; después llena la plantilla vacía con tu caso." >}}
 
-Esta página no informa una aplicación ya realizada. Ofrece una plantilla de apoyo y un ejemplo ficticio para mostrar cuánto detalle basta.
+## La bitácora de Lucía, ya llenada
 
-{{< practica titulo="Cómo usar la plantilla" >}}
-
-1. Conserva la versión que tenías antes de consultar la herramienta.
-2. Registra solo la sugerencia que influyó en tu trabajo, no toda la conversación.
-3. Anota qué comprobaste fuera de la herramienta.
-4. Explica qué aceptaste, cambiaste o descartaste.
-5. Guarda la versión revisada junto con esta nota breve.
-{{< /practica >}}
-
-## Ejemplo completado
-
-Una estudiante prepara una introducción de 250 palabras sobre islas de calor urbanas. Pide a una herramienta que señale una comparación ausente. La tabla muestra cómo podría registrar esa decisión sin copiar la conversación:
+Lucía, estudiante de Geografía, prepara una introducción de 250 palabras sobre islas de calor urbanas. Pide a una herramienta de IA que le señale una comparación que falta en su borrador, sin reescribirlo. Así registró esa decisión, sin copiar la conversación:
 
 | Momento | Nota breve |
 |---|---|
@@ -61,6 +48,19 @@ Una estudiante prepara una introducción de 250 palabras sobre islas de calor ur
 | Cambio realizado | Añadí una comparación entre los dos lugares y limité la conclusión a los datos disponibles. |
 | Pendiente | Revisar si las mediciones corresponden a la misma hora del día. |
 | Declaración | Usé una herramienta de IA para detectar una comparación ausente. Comprobé la sugerencia con los materiales de la actividad y redacté la versión final. |
+
+El caso de Lucía es ficticio y sirve para mostrar cuánto detalle basta: nueve filas de una línea, ninguna transcripción. Nadie ha documentado todavía esta plantilla en un grupo real.
+
+{{< practica titulo="Llena la plantilla con tu caso" >}}
+
+Antes de empezar, ten a la mano tres cosas: la versión que tenías antes de consultar la herramienta, la respuesta que recibiste y la fuente con la que vas a comprobar el punto que cambió (la lectura asignada, el conjunto de datos, la persona a la que preguntaste).
+
+1. **Conserva la versión que tenías** antes de consultar la herramienta; es tu fila «Punto de partida».
+2. **Anota solo la sugerencia que influyó en tu trabajo**, en la fila «Aporte útil». La conversación completa se queda fuera.
+3. **Escribe qué comprobaste fuera de la herramienta** y con qué, en la fila «Comprobación».
+4. **Di qué aceptaste, cambiaste o descartaste**, en las filas «Cambio realizado» y «Descarte».
+5. **Guarda la versión revisada junto con esta nota**; la fila «Declaración» es la línea que puedes copiar en la entrega.
+{{< /practica >}}
 
 ## Plantilla vacía
 

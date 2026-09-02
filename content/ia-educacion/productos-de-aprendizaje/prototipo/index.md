@@ -27,26 +27,37 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Un prototipo no se evalúa por su acabado final sino por la trazabilidad de las decisiones de diseño: qué alternativas se exploraron, por qué se descartaron y qué mejora aportó cada iteración. La IAG amplía el horizonte; el estudiante construye.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de ingeniería, diseño industrial o mecatrónica que cierran el curso con un prototipo (un dispensador de alimento para mascotas, un soporte para celular impreso en 3D) y reciben aparatos bien acabados sin rastro de por qué se eligió ese diseño y no otro." haras="Un equipo de cuarto semestre debe construir un dispensador automático de alimento para perros con menos de 800 pesos. Primero lista con la IA cinco maneras de dosificar (tornillo sinfín, compuerta con servo, tambor giratorio…), después arma una tabla que compara tres de ellas con sus propias razones (costo, piezas que pueden imprimir, riesgo de atasco), construye en el taller la versión 1 sin IA, la prueba con croquetas reales y justifica por escrito cada cambio de la versión 2. La IA amplía alternativas y sugiere mejoras; el equipo filtra, construye y decide. Entrega el prototipo, la tabla fechada y los bocetos de cada versión." tendras="Tres prompts copiables y una regla de revisión: «la tabla comparativa con tres alternativas va fechada antes de la primera pieza construida; si aparece después, el equipo prototipó la primera idea que tuvo»." tarda="Ocho minutos de lectura; quince si adaptas los prompts a tu taller." ejemplo="Empieza con el dispensador de alimento, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Un profesor de diseño mecánico pide a los equipos de cuarto semestre un dispensador
+automático de alimento para perros con un tope de 800 pesos. Un equipo llega con un
+aparato de tambor giratorio muy bien acabado; cuando el profesor pregunta por qué tambor
+y no tornillo sinfín, nadie sabe: fue la primera idea que salió del chat. Un prototipo
+se revisa por el rastro de sus decisiones de diseño: qué alternativas se exploraron, por
+qué se descartaron y qué mejora aportó cada versión. La IA amplía el horizonte; el
+equipo construye.
 
 ## Qué es y para qué sirve
 
-Un **prototipo** es un artefacto —físico, digital o conceptual— que
-materializa una idea de solución para someterla a prueba. El valor
-formativo no está en el prototipo terminado sino en el proceso de
-**divergencia (alternativas) → convergencia (decisión) → iteración (mejora)**.
+Un **prototipo** es una pieza construida —física, digital o conceptual, como
+el dispensador de tambor, una app en pantallas de prueba o una maqueta de
+cartón— que materializa una idea de solución para someterla a prueba. Lo que
+forma está en el recorrido de
+**divergencia (alternativas) → convergencia (decisión) → iteración (mejora)**,
+más que en el prototipo terminado.
 
-**Uso formativo de la IAG en este producto:** explorar soluciones,
-contrastar alternativas, sugerir mejoras de eficiencia o innovación. La
-IAG es socio de pensamiento estratégico; la fabricación, el modelado o el
-boceto son del estudiante.
+**Dónde entra la IA en este tipo de trabajo:** explora soluciones (propone el
+tornillo sinfín cuando el equipo sólo pensaba en compuertas), contrasta
+alternativas y sugiere mejoras de eficiencia o innovación. La IA es socia de
+pensamiento; la fabricación, el modelado o el boceto son del equipo.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
-nivel dominante **6 — Crear** (la construcción iterada de algo nuevo).
+Este tipo de trabajo moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
+nivel dominante **6 — Crear** (la construcción iterada de algo nuevo). Para ti,
+la tabla es un banco de prompts: el de la fila 2 es el que más conviene
+exigir con la tabla comparativa delante, para que las ventajas y desventajas
+se midan contra las restricciones del curso.
 
 | Nivel Bloom | Movimiento del prototipo | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -64,13 +75,15 @@ nivel dominante **6 — Crear** (la construcción iterada de algo nuevo).
 {{< timeline >}}
 
 {{< timelineItem icon="lightbulb" header="Fase 1 — Divergencia" subheader="Abrir el espacio" md="true" >}}
-Generación de ≥3 alternativas distintas para el problema. La IAG amplía
+Generación de tres o más alternativas distintas para el problema. La IA amplía
 con enfoques no contemplados (tecnológicos, materiales, sociales). El
-estudiante filtra con criterio técnico.
+equipo filtra con razones técnicas (por ejemplo, descarta el tambor
+porque atasca croquetas grandes).
 {{< /timelineItem >}}
 
 {{< timelineItem icon="scale-balanced" header="Fase 2 — Comparación" subheader="Ventajas y desventajas" md="true" >}}
-Tabla comparativa con criterios pertinentes. Selección justificada de la
+Tabla comparativa con criterios pertinentes al curso (costo, piezas que se
+pueden imprimir, riesgo de atasco). Selección justificada de la
 alternativa a prototipar.
 {{< /timelineItem >}}
 
@@ -88,10 +101,12 @@ prototipo.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el equipo además del prototipo
 
-Riesgo **bajo**: el prototipo físico/funcional es difícil de generar por
-IAG. La trazabilidad de la iteración es lo que se evalúa.
+Riesgo **bajo**: un prototipo físico o funcional es difícil de generar con
+IA. Lo que se revisa es el rastro de la iteración (tabla fechada, bocetos
+v1, v2, v3, una línea por cada cambio). Junto con el prototipo, el equipo
+entrega estas piezas, cada una con su grado de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -106,6 +121,10 @@ IAG. La trazabilidad de la iteración es lo que se evalúa.
 
 ## Cómo se evalúa (rúbrica de proceso)
 
+Con esta rúbrica revisas la tabla, los bocetos y las justificaciones, no sólo
+el acabado; ajusta los pesos a tu curso (por ejemplo, más peso a «uso crítico
+de la respuesta» si tus equipos suelen construir la primera idea del chat):
+
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
 | Pertinencia del prompt | Vago | Relación parcial | Claro y adecuado | Pertinente y estratégico | 10% |
@@ -119,35 +138,38 @@ IAG. La trazabilidad de la iteración es lo que se evalúa.
 ## Riesgos y salvaguardas
 
 - **Una sola alternativa explorada.** Se prototipa la primera idea.
-  Salvaguarda: tabla comparativa obligatoria con ≥3 alternativas distintas.
+  Salvaguarda: tabla comparativa obligatoria con tres o más alternativas
+  distintas, fechada antes de la primera pieza.
 - **Iteración cosmética.** Las versiones cambian poco y sin justificación.
   Salvaguarda: cada versión exige justificación escrita del cambio.
 - **Sobre-ingeniería sugerida por IAG.** La IAG propone soluciones
   innecesariamente complejas. Salvaguarda: el criterio "viable con el
   tiempo/recursos del curso" se incorpora explícitamente.
 - **Documentación inflada vs. construcción magra.** Mucho informe, poco
-  prototipo real. Salvaguarda: evidencia obligatoria del prototipo
-  físico/funcional, no sólo descripciones.
+  prototipo real. Salvaguarda: el prototipo físico o funcional se muestra
+  (fotos fechadas, video de la prueba con croquetas, archivo de impresión),
+  y las descripciones solas no cuentan.
 
 {{< alert icon="shield-halved" type="warning" >}}
-**Transparencia obligatoria.** Declarar uso de IAG. El prototipo, sus
-bocetos e iteraciones son del estudiante; la IAG es socia de diseño.
+**Transparencia obligatoria.** El equipo declara el modelo y para qué lo
+usó (por ejemplo, «pedimos cinco formas de dosificar en la fase 1»). El
+prototipo, sus bocetos e iteraciones son del equipo; la IA es socia de diseño.
 {{< /alert >}}
 
 ## Asignatura de ejemplo
 
 Ingenierías, diseño industrial, mecatrónica, innovación tecnológica;
-cursos por proyectos que terminan en un artefacto funcional o
-demostrable.
+cursos por proyectos que terminan en una pieza que funciona o se puede
+demostrar (un dispositivo, una app, una maqueta).
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — fase planificadora previa al prototipo.
-- Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica.
-- Producto cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — soporte cuantitativo del prototipo.
+- Trabajo cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — fase planificadora previa al prototipo.
+- Trabajo cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — escala arquitectónica.
+- Trabajo cercano: [Modelado matemático con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/modelado-matematico" >}}) — soporte cuantitativo del prototipo.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

@@ -27,27 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una propuesta de automatización se evalúa por cómo se comporta cuando algo falla, no por cómo luce en el diagrama. La IAG puede mapear arquitecturas y recordar pruebas indispensables; la responsabilidad de seguridad operacional es del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de automatización, mecatrónica o ingeniería eléctrica que piden como proyecto integrador una propuesta de control para un proceso real (una línea de envasado, una caldera, una banda de clasificación) y reciben diagramas vistosos sin análisis de qué pasa cuando algo falla." haras="Un equipo de séptimo semestre debe automatizar la línea de envasado de una embotelladora pequeña: llenado, tapado y etiquetado. Pregunta a la IA qué arquitectura conviene (un PLC con HMI, no un DCS), selecciona sensores y actuadores con hojas de datos, y después le pide a la IA que señale riesgos que no consideró (un atasco en el tapado con la banda en marcha, el acceso remoto al PLC sin contraseña) y qué pruebas de aceptación son indispensables antes de arrancar. Entrega el diagrama P&ID, el HAZOP simplificado y el plan de pruebas." tendras="Cuatro prompts copiables y una regla de revisión que puedes usar mañana: «sin análisis de riesgo (HAZOP simplificado o equivalente) la propuesta no se revisa; cada sensor lleva una línea que dice por qué ése y no otro»." tarda="Ocho minutos de lectura; doce si copias los prompts para tu proyecto." ejemplo="Empieza con el caso de la línea de envasado, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Un profesor de automatización plantea a sus equipos una línea de envasado real: una
+embotelladora pequeña que llena, tapa y etiqueta 1 200 botellas por hora y quiere dejar
+de hacerlo a mano. Cada equipo entrega una propuesta de control. Lo que el profesor
+revisa es cómo se comporta esa propuesta cuando algo falla (una botella atorada en el
+tapado, un sensor de nivel que se ensucia), más que cómo luce el diagrama. La IA puede
+mapear arquitecturas y recordar qué pruebas son indispensables; responder por la
+seguridad de quien opera la línea es trabajo del equipo.
 
 ## Qué es y para qué sirve
 
 La **automatización industrial** propone una solución de control para
 un proceso productivo o de servicio: arquitectura, instrumentación,
-lógica y pruebas. Valor formativo: integración técnica, conciencia de
-seguridad operacional y trazabilidad desde el requerimiento hasta la
+lógica y pruebas. Lo que el estudiante aprende: a integrar piezas
+técnicas, a pensar en la seguridad de quien opera (qué pasa si el paro de
+emergencia falla) y a seguir el hilo desde el requerimiento hasta la
 puesta en marcha.
 
-**Uso formativo de la IAG:** mapear arquitecturas de control,
-identificar errores típicos de selección de instrumentación, señalar
-riesgos de seguridad operacional y orientar pruebas de aceptación
-(FAT/SAT).
+**Dónde entra la IA en este tipo de trabajo:** mapea arquitecturas de
+control, identifica errores típicos de selección de instrumentación (un
+sensor capacitivo donde hay espuma), señala riesgos de seguridad
+operacional y orienta las pruebas de aceptación (FAT/SAT). El diseño y el
+análisis de riesgo los hace el estudiante.
 
 ## Bloom y progresión de prompts
 
 Nivel dominante **6 — Crear** (la propuesta integrada lista para
-pruebas).
+pruebas). Para ti, la tabla es un banco de prompts: copia el de la fase en
+la que tu grupo se atasca (casi siempre la de seguridad operacional, cuando
+el diseño sólo contempla el funcionamiento normal) y sustituye los
+corchetes por tu proceso.
 
 | Nivel Bloom | Movimiento del diseño | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -87,7 +98,11 @@ marcha.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de la propuesta
+
+Junto con la propuesta de control, el equipo entrega estas piezas (el
+diagrama, el análisis de riesgo, el plan de pruebas), cada una con su grado
+de obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -101,6 +116,10 @@ marcha.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora y las anotaciones de validación, no
+sólo el diagrama; ajusta los pesos a tu curso (por ejemplo, más peso a «uso
+ético» si tu proyecto toca procesos con riesgo para personas):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -136,12 +155,12 @@ proyectos integradores con instrumentación de procesos.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — encuadre arquitectónico previo.
-- Producto cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — base teórica de la lógica de control.
-- Producto cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — integración con TI.
+- Trabajo cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — encuadre arquitectónico previo.
+- Trabajo cercano: [Control y dinámica con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/control-y-dinamica" >}}) — base teórica de la lógica de control.
+- Trabajo cercano: [Integración de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas" >}}) — integración con TI.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

@@ -3,7 +3,7 @@
   "id": "UDGIA-021-course-classifications",
   "snapshotDate": "2026-08-23",
   "sourceInventory": "docs/editorial/inventarios/2026-08-23-hugo/inventario-hugo.json",
-  "sourceInventorySha256": "d8b9f6119a6f8f5253b00676aa42fa7481ab15687bba1ebe4cbf91f21376de07",
+  "sourceInventorySha256": "6604ff9715f363ea5bfc9a89b9ee8d0c1fd3b05a3060081249aac4bed2de257c",
   "classificationSource": "data/editorial/learning-course-classification-source.json",
   "classificationSourceSha256": "f5e806e9a4df9f35b687678663fa21eafd6f7bea2180464b1158d74d371c9577",
   "regeneratedBy": "npm run content:learning-classifications",
@@ -312,7 +312,7 @@
       "route": "/formacion-docente/alfabetizacion/",
       "title": "Alfabetización digital",
       "kind": "page",
-      "words": 1214,
+      "words": 1367,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -328,7 +328,7 @@
       "route": "/formacion-docente/alfabetizacion-agenciamiento-ia/",
       "title": "Alfabetización en co-creación: aprender a co-producir con IA",
       "kind": "page",
-      "words": 2000,
+      "words": 2283,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "fusionar-o-desduplicar",
       "modulos_posibles": [
@@ -344,7 +344,7 @@
       "route": "/formacion-docente/alfabetizacion-co-creacion/",
       "title": "Principios de la alfabetización para la co-creación con inteligencia artificial",
       "kind": "page",
-      "words": 1107,
+      "words": 1346,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "fusionar-o-desduplicar",
       "modulos_posibles": [
@@ -360,7 +360,7 @@
       "route": "/formacion-docente/alfabetizacion-operativa/",
       "title": "Principios de la alfabetización operativa en inteligencia artificial",
       "kind": "page",
-      "words": 514,
+      "words": 669,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -376,7 +376,7 @@
       "route": "/formacion-docente/aprendizaje-activo/",
       "title": "Qué hace activa una experiencia de aprendizaje",
       "kind": "page",
-      "words": 941,
+      "words": 964,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -392,7 +392,7 @@
       "route": "/formacion-docente/aprendizaje-hibrido/",
       "title": "Conectar momentos para que el aprendizaje avance",
       "kind": "page",
-      "words": 1178,
+      "words": 1198,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -408,7 +408,7 @@
       "route": "/formacion-docente/competencias-digitales-ia-estudiantes/",
       "title": "Competencias digitales con IA para estudiantes",
       "kind": "page",
-      "words": 974,
+      "words": 1119,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -620,7 +620,7 @@
       "route": "/formacion-docente/etica-profesional-docente-ia/",
       "title": "La dimensión ética del trabajo docente con IA",
       "kind": "page",
-      "words": 1167,
+      "words": 1230,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "conservar-como-profundizacion",
       "modulos_posibles": [],
@@ -634,7 +634,7 @@
       "route": "/formacion-docente/evaluacion-retroalimentacion/",
       "title": "Evaluación y retroalimentación en el aprendizaje activo",
       "kind": "page",
-      "words": 1515,
+      "words": 1692,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -651,7 +651,7 @@
       "route": "/formacion-docente/formacion-continua/",
       "title": "Formación continua",
       "kind": "page",
-      "words": 370,
+      "words": 466,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -667,7 +667,7 @@
       "route": "/formacion-docente/mapa-literacidades-ia/",
       "title": "Las tres literacidades en IA — mapa visual",
       "kind": "page",
-      "words": 842,
+      "words": 946,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -683,7 +683,7 @@
       "route": "/formacion-docente/modelos-samr-icap/",
       "title": "Dos preguntas distintas sobre una misma actividad",
       "kind": "page",
-      "words": 1050,
+      "words": 1098,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -699,7 +699,7 @@
       "route": "/formacion-docente/pensamiento-critico-ia-generativa/",
       "title": "Pensamiento crítico ante la IA generativa",
       "kind": "page",
-      "words": 1001,
+      "words": 1092,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -715,7 +715,7 @@
       "route": "/formacion-docente/redes/",
       "title": "Redes y comunidades",
       "kind": "page",
-      "words": 423,
+      "words": 514,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -731,7 +731,7 @@
       "route": "/formacion-docente/syllabus-portafolio/",
       "title": "El syllabus y el portafolio de docencia",
       "kind": "page",
-      "words": 935,
+      "words": 1052,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -747,7 +747,7 @@
       "route": "/formacion-docente/taller-diseno-actividades-ia-backward/",
       "title": "Taller: Diseño de actividades con IA (backward design)",
       "kind": "page",
-      "words": 1926,
+      "words": 2185,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -763,7 +763,7 @@
       "route": "/formacion-docente/taxonomia-bloom-diseno-inverso/",
       "title": "Partir de lo que quieres observar",
       "kind": "page",
-      "words": 940,
+      "words": 1007,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -779,7 +779,7 @@
       "route": "/formacion-docente/transformacion-pedagogica-digital/",
       "title": "La transformación pedagógica y digital en la UdeG",
       "kind": "page",
-      "words": 1220,
+      "words": 1248,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -976,9 +976,9 @@
     {
       "path": "ia-educacion/guias/abp-con-ia/index.md",
       "route": "/ia-educacion/guias/abp-con-ia/",
-      "title": "Aprendizaje basado en proyectos (ABP) con IA",
+      "title": "Rediseña tu proyecto de semestre (ABP) fase por fase: dónde entra la IA y qué entrega el estudiante",
       "kind": "page",
-      "words": 1285,
+      "words": 1521,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -995,7 +995,7 @@
       "route": "/ia-educacion/guias/agenciamiento-humano-ia/",
       "title": "Conservar la dirección del trabajo con IA",
       "kind": "page",
-      "words": 2110,
+      "words": 2190,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reescribir-antes-de-enlazar",
       "modulos_posibles": [
@@ -1009,9 +1009,9 @@
     {
       "path": "ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
       "route": "/ia-educacion/guias/aprendizaje-activo-con-ia/",
-      "title": "Aprendizaje activo con IA — diseño y ejecución de actividades",
+      "title": "Diseña una actividad de aprendizaje activo donde la IA pregunte, no resuelva",
       "kind": "page",
-      "words": 1153,
+      "words": 1540,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -1027,7 +1027,7 @@
       "route": "/ia-educacion/guias/aprendizaje-hibrido-activo-disenar-actividad/",
       "title": "Aprendizaje híbrido y activo: Diseñar una actividad, paso a paso",
       "kind": "page",
-      "words": 2,
+      "words": 4,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1039,9 +1039,9 @@
     {
       "path": "ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
       "route": "/ia-educacion/guias/aprendizaje-rizomatico-ia/",
-      "title": "Aprendizaje rizomático con IA",
+      "title": "Cuándo dejar que cada estudiante trace su propia ruta: aprendizaje rizomático con IA",
       "kind": "page",
-      "words": 1037,
+      "words": 1185,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -1073,9 +1073,9 @@
     {
       "path": "ia-educacion/guias/evaluacion-formativa-ia/index.md",
       "route": "/ia-educacion/guias/evaluacion-formativa-ia/",
-      "title": "Evaluación formativa con IA — ciclos de retroalimentación iterativa",
+      "title": "Añade a una tarea tuya un ciclo de retroalimentación con IA que puedas revisar",
       "kind": "page",
-      "words": 2341,
+      "words": 2830,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -1091,9 +1091,9 @@
     {
       "path": "ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
       "route": "/ia-educacion/guias/ingenieria-de-prompts-para-docentes/",
-      "title": "Ingeniería de prompts para docentes",
+      "title": "Escribe una petición a la IA que puedas revisar: tarea, material y límites",
       "kind": "page",
-      "words": 782,
+      "words": 938,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "revisar-en-fase-editorial",
       "modulos_posibles": [
@@ -1111,9 +1111,9 @@
     {
       "path": "ia-educacion/guias/integracion-curricular-ia/index.md",
       "route": "/ia-educacion/guias/integracion-curricular-ia/",
-      "title": "Integración curricular de IA en programas existentes",
+      "title": "Integra la IA en un programa que ya existe: cinco pasos sin reescribir el plan de estudios",
       "kind": "page",
-      "words": 1278,
+      "words": 1431,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -1129,7 +1129,7 @@
       "route": "/ia-educacion/guias/lineamientos-eticos-ia/",
       "title": "Veinte sugerencias prácticas para el uso ético de IA en educación superior",
       "kind": "page",
-      "words": 1887,
+      "words": 1969,
       "rol_en_el_curso": "apoyo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [
@@ -1146,7 +1146,7 @@
       "route": "/ia-educacion/guias/privacidad-datos-ia/",
       "title": "Antes de compartir: protege datos y trabajos al usar IA",
       "kind": "page",
-      "words": 894,
+      "words": 1090,
       "rol_en_el_curso": "nucleo-candidato",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1240,9 +1240,9 @@
     {
       "path": "ia-educacion/practicas/bitacora-cocreacion/index.md",
       "route": "/ia-educacion/practicas/bitacora-cocreacion/",
-      "title": "Bitácora breve para registrar decisiones con IA",
+      "title": "Anota en una bitácora breve qué cambió con la IA y por qué",
       "kind": "page",
-      "words": 488,
+      "words": 551,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1256,7 +1256,7 @@
       "route": "/ia-educacion/practicas/comprobar-afirmacion/",
       "title": "Comprueba la afirmación que cambia tu decisión",
       "kind": "page",
-      "words": 176,
+      "words": 421,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1268,9 +1268,9 @@
     {
       "path": "ia-educacion/practicas/declaracion-proporcional-uso/index.md",
       "route": "/ia-educacion/practicas/declaracion-proporcional-uso/",
-      "title": "Declaración proporcional de uso de IA",
+      "title": "Declara qué apoyo te dio la IA, con el detalle que la tarea merece",
       "kind": "page",
-      "words": 888,
+      "words": 899,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "reutilizar-con-ajustes",
       "modulos_posibles": [],
@@ -1296,7 +1296,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/analisis-de-casos/",
       "title": "Análisis de casos con IAG",
       "kind": "page",
-      "words": 1494,
+      "words": 1818,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1314,7 +1314,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/analisis-de-materiales/",
       "title": "Análisis de materiales con IAG",
       "kind": "page",
-      "words": 746,
+      "words": 1005,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1332,7 +1332,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/analisis-economico/",
       "title": "Análisis económico con IAG",
       "kind": "page",
-      "words": 803,
+      "words": 1008,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1350,7 +1350,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/articulo/",
       "title": "Artículo con IAG",
       "kind": "page",
-      "words": 1027,
+      "words": 1207,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1368,7 +1368,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial/",
       "title": "Automatización industrial con IAG",
       "kind": "page",
-      "words": 744,
+      "words": 966,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1386,7 +1386,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/circuitos-electricos/",
       "title": "Circuitos eléctricos con IAG",
       "kind": "page",
-      "words": 734,
+      "words": 953,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1404,7 +1404,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/control-y-dinamica/",
       "title": "Control y dinámica con IAG",
       "kind": "page",
-      "words": 720,
+      "words": 1176,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1422,7 +1422,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/cronica/",
       "title": "Crónica con IAG",
       "kind": "page",
-      "words": 947,
+      "words": 1156,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1440,7 +1440,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas/",
       "title": "Diseño de sistemas con IAG",
       "kind": "page",
-      "words": 709,
+      "words": 961,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1458,7 +1458,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/ensayo/",
       "title": "Ensayo con IA: evaluar el proceso de escritura",
       "kind": "page",
-      "words": 3374,
+      "words": 3593,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1476,7 +1476,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/entrevista/",
       "title": "Entrevista con IAG",
       "kind": "page",
-      "words": 873,
+      "words": 1095,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1494,7 +1494,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/gestion-industrial/",
       "title": "Gestión industrial con IAG",
       "kind": "page",
-      "words": 733,
+      "words": 1003,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1512,7 +1512,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/integracion-de-sistemas/",
       "title": "Integración de sistemas con IAG",
       "kind": "page",
-      "words": 709,
+      "words": 952,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1530,7 +1530,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/investigacion-aplicada/",
       "title": "Investigación aplicada con IAG",
       "kind": "page",
-      "words": 800,
+      "words": 1040,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1548,7 +1548,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/investigacion-de-campo/",
       "title": "Investigación de campo con IAG",
       "kind": "page",
-      "words": 929,
+      "words": 1152,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1566,7 +1566,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/mapa-conceptual/",
       "title": "Mapa conceptual con IAG",
       "kind": "page",
-      "words": 2139,
+      "words": 2261,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1584,7 +1584,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/metrologia/",
       "title": "Metrología con IAG",
       "kind": "page",
-      "words": 704,
+      "words": 939,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1602,7 +1602,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/modelado-matematico/",
       "title": "Modelado matemático con IAG",
       "kind": "page",
-      "words": 835,
+      "words": 1040,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1620,7 +1620,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/monografia/",
       "title": "Monografía con IAG",
       "kind": "page",
-      "words": 991,
+      "words": 1191,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1638,7 +1638,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/nota/",
       "title": "Nota con IAG",
       "kind": "page",
-      "words": 819,
+      "words": 1004,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1656,7 +1656,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/planos-tecnicos/",
       "title": "Planos técnicos con IAG",
       "kind": "page",
-      "words": 802,
+      "words": 973,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1674,7 +1674,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/presentacion/",
       "title": "Presentación con IAG",
       "kind": "page",
-      "words": 2151,
+      "words": 2225,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1692,7 +1692,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/programacion/",
       "title": "Programación con IAG",
       "kind": "page",
-      "words": 914,
+      "words": 1161,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1710,7 +1710,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/prototipo/",
       "title": "Prototipo con IAG",
       "kind": "page",
-      "words": 826,
+      "words": 1101,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1728,7 +1728,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/proyecto/",
       "title": "Proyecto con IAG",
       "kind": "page",
-      "words": 2195,
+      "words": 2382,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1746,7 +1746,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/reporte-tecnico/",
       "title": "Reporte técnico con IAG",
       "kind": "page",
-      "words": 861,
+      "words": 1111,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1764,7 +1764,7 @@
       "route": "/ia-educacion/productos-de-aprendizaje/resena/",
       "title": "Reseña con IAG",
       "kind": "page",
-      "words": 871,
+      "words": 1118,
       "rol_en_el_curso": "banco-ejemplos-disciplinarios",
       "accion_editorial": "preservar-como-ejemplo-no-obligatorio",
       "modulos_posibles": [
@@ -1804,9 +1804,9 @@
     {
       "path": "ia-educacion/rutas/coordinacion-academica/index.md",
       "route": "/ia-educacion/rutas/coordinacion-academica/",
-      "title": "Coordinar la IA en los procesos docentes",
+      "title": "Organiza un piloto de IA en tu departamento o programa, en seis pasos",
       "kind": "page",
-      "words": 1686,
+      "words": 2210,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
@@ -1819,9 +1819,9 @@
     {
       "path": "ia-educacion/rutas/decision-institucional-ia/index.md",
       "route": "/ia-educacion/rutas/decision-institucional-ia/",
-      "title": "Decidir institucionalmente sobre IA en la docencia",
+      "title": "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones",
       "kind": "page",
-      "words": 2540,
+      "words": 3026,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
@@ -1942,9 +1942,9 @@
     {
       "path": "laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
       "route": "/laboratorio/integracion-ia/flujos-trabajo-docente-ia/",
-      "title": "Flujos de trabajo docente con IA",
+      "title": "Sigue uno de tres flujos docentes con IA y marca dónde decides tú",
       "kind": "page",
-      "words": 1161,
+      "words": 1323,
       "rol_en_el_curso": "fuera-del-recorrido-inicial",
       "accion_editorial": "conservar-como-entorno-o-demostracion",
       "modulos_posibles": [],
@@ -1966,9 +1966,9 @@
     {
       "path": "laboratorio/practicas/abp-con-ia/index.md",
       "route": "/laboratorio/practicas/abp-con-ia/",
-      "title": "Plantilla de proyecto ABP con IA para 14 semanas",
+      "title": "Adapta a tu materia un proyecto de 14 semanas con IA como interlocutor",
       "kind": "page",
-      "words": 1267,
+      "words": 1508,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -1983,9 +1983,9 @@
     {
       "path": "laboratorio/practicas/analisis-critico-de-sesgos-en-ia/index.md",
       "route": "/laboratorio/practicas/analisis-critico-de-sesgos-en-ia/",
-      "title": "Análisis crítico de sesgos en la IA",
+      "title": "Haz que tu grupo audite los sesgos de tres modelos de IA con un mismo prompt",
       "kind": "page",
-      "words": 405,
+      "words": 594,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -2000,9 +2000,9 @@
     {
       "path": "laboratorio/practicas/aula-invertida/index.md",
       "route": "/laboratorio/practicas/aula-invertida/",
-      "title": "Aula invertida (flipped classroom)",
+      "title": "Arma una semana de tu materia con el ciclo del aula invertida",
       "kind": "page",
-      "words": 967,
+      "words": 1247,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -2019,7 +2019,7 @@
       "route": "/laboratorio/practicas/debate-socratico-con-ia/",
       "title": "Actividad propuesta: preparar un debate socrático con IA",
       "kind": "page",
-      "words": 969,
+      "words": 1169,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -2034,9 +2034,9 @@
     {
       "path": "laboratorio/practicas/evaluacion-formativa-asistida-ia/index.md",
       "route": "/laboratorio/practicas/evaluacion-formativa-asistida-ia/",
-      "title": "Actividad propuesta: portafolio iterativo con retroalimentación de IA",
+      "title": "Monta un portafolio de tres versiones donde la IA comenta y el estudiante decide",
       "kind": "page",
-      "words": 1393,
+      "words": 1536,
       "rol_en_el_curso": "banco-de-practicas",
       "accion_editorial": "revisar-contra-bloom-e-icap",
       "modulos_posibles": [
@@ -2246,9 +2246,9 @@
     {
       "path": "observatorio/guias/documentacion-buenas-practicas-ia/index.md",
       "route": "/observatorio/guias/documentacion-buenas-practicas-ia/",
-      "title": "Documentación de buenas prácticas con IA",
+      "title": "Documenta una práctica docente con IA para que otra persona pueda repetirla",
       "kind": "page",
-      "words": 792,
+      "words": 977,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],
@@ -2261,9 +2261,9 @@
     {
       "path": "observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
       "route": "/observatorio/guias/evaluacion-herramientas-ia-educativas/",
-      "title": "Evaluación de herramientas IA educativas: criterios y matriz",
+      "title": "Revisa una herramienta de IA antes de autorizarla: seis dimensiones y una decisión",
       "kind": "page",
-      "words": 1147,
+      "words": 1386,
       "rol_en_el_curso": "referencia-opcional",
       "accion_editorial": "conservar-fuera-del-recorrido-obligatorio",
       "modulos_posibles": [],

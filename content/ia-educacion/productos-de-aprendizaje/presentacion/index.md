@@ -28,17 +28,21 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-Una presentación no se evalúa por las diapositivas sino por las decisiones que no se ven: qué se jerarquizó, qué se recortó, qué ejemplo se eligió y qué pregunta del público se anticipó. La IAG puede criticar la estructura y ensayar el interrogatorio; lo que no puede hacer es exponer.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de cualquier asignatura con exposición individual o en equipo que ven a estudiantes de pie leyendo doce láminas pulidas que no escribieron, incapaces de responder la primera pregunta fuera del guion." haras="Valeria, estudiante de sociología, tiene un semestre de trabajo de campo sobre gentrificación en dos barrios de Guadalajara y diez minutos exactos para presentarlo en un seminario. Escribe primero, sin IA, un guion de veinte minutos; después usa la IA para pedir analogías que valida contra sus entrevistas, para clasificar sus quince bloques en centrales, de apoyo y prescindibles (y discute el resultado), y para ensayar veinte preguntas hostiles e ingenuas. Entrega el guion fechado, una tabla de siete recortes con su porqué y la lista de preguntas con sus respuestas." tendras="Cuatro prompts copiables y una instrucción de entrega que puedes pegar en tu curso: «Presenta tus hallazgos en 10 minutos exactos, seguidos de 5 de preguntas. Entregarás además tu guion inicial fechado, tu tabla de recortes y tu lista de preguntas anticipadas con respuestas»." tarda="Catorce minutos de lectura; veinte si copias la instrucción y los prompts para tu curso." ejemplo="Empieza con la situación de Valeria en el primer párrafo; el caso completo, momento por momento, está en la sección «El caso de Valeria»." >}}
+
+Valeria tiene un semestre de trabajo de campo, doce entrevistas y diez minutos exactos para
+presentarlo en el seminario de su profesora. Lo que la profesora va a revisar son las
+decisiones que no se ven en las diapositivas: qué jerarquizó, qué recortó, qué ejemplo
+eligió y qué pregunta del público anticipó. La IA puede criticar la estructura y ensayar el
+interrogatorio; exponer le toca a Valeria.
 
 ## Diez minutos obligan a elegir
 
-De todos los productos de este catálogo, la presentación es probablemente el más frecuente:
+De todos los trabajos de este catálogo, la presentación es probablemente el más frecuente:
 casi cualquier curso universitario incluye una exposición individual o en equipo. Y tiene
-una restricción que ningún otro producto impone con tanta crudeza: el tiempo. En diez
+una restricción que ningún otro trabajo impone con tanta crudeza: el tiempo. En diez
 minutos no cabe todo lo que el estudiante sabe; cabe lo que decidió que importa. Por eso el
-corazón de este producto no es la elocuencia sino la **jerarquización**: distinguir el
+corazón de este trabajo es la **jerarquización**, antes que la elocuencia: distinguir el
 mensaje central de lo que lo apoya, y ambos de lo que —aunque costó semanas de trabajo— se
 queda fuera.
 
@@ -57,9 +61,10 @@ evaluar el propio discurso— con el nivel **6, crear**, como dominante: la comp
 discurso oral propio frente a una audiencia real.
 
 El riesgo de sustitución es **medio** por una asimetría: el momento de exponer es observable
-—ahí no hay atajo posible—, pero toda la preparación puede haberse generado. La respuesta no
-es vigilar la preparación sino diseñarla para que deje huellas: un guion fechado, recortes
-justificados y un manejo de preguntas que solo sostiene quien preparó las respuestas.
+—ahí no hay atajo posible—, pero toda la preparación puede haberse generado. La respuesta
+es diseñar la preparación para que deje rastro (un guion fechado, recortes justificados y
+un manejo de preguntas que solo sostiene quien preparó las respuestas), en lugar de
+vigilarla.
 
 ## Del guion propio al ensayo general
 
@@ -70,7 +75,7 @@ antes de que el modelo opine.
 
 {{< timelineItem icon="pen" header="1. El guion propio" subheader="Sin IAG" md="true" >}}
 El estudiante escribe un guion completo con su estructura, su tesis o mensaje central y sus
-ejemplos, aunque sea áspero. Se guarda fechado antes de cualquier consulta: es la evidencia
+ejemplos, aunque sea áspero. Se guarda fechado antes de cualquier consulta: es la prueba
 del punto de partida y de la voz. Las diapositivas todavía no existen.
 {{< /timelineItem >}}
 
@@ -98,7 +103,8 @@ en voz alta y cronometra. Lo que no cabe, vuelve al momento 3.
 ## El caso de Valeria: recortar sin perder la tesis
 
 Así se ve la preparación en un caso concreto. **Valeria**, estudiante de Sociología, debe
-presentar en un seminario los avances de su investigación. La consigna:
+presentar en un seminario los avances de su investigación. La instrucción de su
+profesora:
 
 > Presenta tus hallazgos en 10 minutos exactos, seguidos de 5 de preguntas del grupo.
 > Entregarás además tu guion inicial fechado, tu tabla de recortes y tu lista de preguntas
@@ -144,12 +150,13 @@ leer.
 
 ## La exposición se observa; el proceso se muestra
 
-A diferencia de los productos escritos, aquí la pieza central se evalúa en vivo: la
-claridad, el manejo del tiempo, la respuesta a preguntas. Las evidencias de preparación no
-duplican esa observación: permiten
+A diferencia de los trabajos escritos, aquí la pieza central se evalúa en vivo: la
+claridad, el manejo del tiempo, la respuesta a preguntas. Las piezas de preparación (guion
+fechado, tabla de recortes, preguntas anticipadas) no duplican esa observación: permiten
 [conocer cómo se llegó a ella]({{< ref "/ia-educacion/guias/evaluacion-formativa-ia" >}})
 —comparar versiones, leer decisiones justificadas y conversar sobre el trabajo con
-criterios compartidos desde el inicio—.
+criterios compartidos desde el inicio (por ejemplo, «algo tiene que salir, y hay que decir
+por qué»)—.
 
 | Evidencia | Estado | Qué permite comprender |
 |---|---|---|
@@ -165,9 +172,10 @@ es repartir comprensión.
 
 ## Preguntas para un público que aún no existe
 
-Los prompts de este producto convierten a la IAG en audiencia y crítica, nunca en
+Los prompts de este tipo de trabajo convierten a la IAG en audiencia y crítica, nunca en
 redactora. No hay prompt para el momento 1: el guion inicial se escribe sin ayuda porque es
-la evidencia de la voz propia.
+la prueba de la voz propia. Copia el prompt del momento en que tu grupo más se atasca y
+sustituye los corchetes.
 
 <details>
 <summary><strong>Momento 2 · Pedir analogías sin adoptarlas</strong></summary>
@@ -202,7 +210,7 @@ la evidencia de la voz propia.
 <summary><strong>Momento 4 · Ensayar el interrogatorio</strong></summary>
 
 > Voy a presentar esto: [síntesis de la presentación] ante [audiencia]. Formula diez
-> preguntas que podría recibir: cinco exigentes sobre método, evidencia o implicaciones, y
+> preguntas que podría recibir: cinco exigentes sobre método, datos o implicaciones, y
 > cinco básicas de comprensión. No respondas ninguna: las respuestas las preparo yo con
 > mis fuentes, y quiero descubrir cuáles no sé responder todavía.
 
@@ -235,8 +243,8 @@ invalidar esa parte de la calificación, según las reglas comunicadas por el do
 
 ## La rúbrica de la exposición, como referencia final
 
-La valoración combina lo observado en vivo con lo que muestran las evidencias de
-preparación. Igual que en el resto del catálogo, no se califica la cantidad de consultas al
+La valoración combina lo observado en vivo con lo que muestran las piezas de preparación
+(guion fechado, tabla de recortes, preguntas anticipadas). Igual que en el resto del catálogo, no se califica la cantidad de consultas al
 modelo: una sola pregunta que produjo un recorte bien justificado vale más que veinte
 sugerencias aceptadas sin examen. Los pesos son un punto de partida adaptable, no una
 política institucional.
@@ -263,6 +271,6 @@ política institucional.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

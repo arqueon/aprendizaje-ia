@@ -27,27 +27,38 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La crónica se aprende mirando dos veces: una vez al hecho y otra a uno mismo mirando el hecho. La IAG puede ayudar con convenciones del género y con ritmo, pero la voz —ese segundo mirar— sólo puede ponerla quien escribe.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de periodismo, letras o comunicación que piden una crónica (de un partido de barrio, de una fila en el registro civil, de una peregrinación) y ven que los textos que llegan suenan correctos y todos iguales, sin la mirada de quien los escribió." haras="Un estudiante de tercer semestre pasa una mañana en la fila de un módulo de pasaportes y toma notas en bruto; escribe un primer borrador sin IA; después consulta a la IA las convenciones de la crónica urbana, le pregunta cuáles de sus observaciones tienen más fuerza narrativa y compara un pasaje suyo con dos estilos distintos para reconocer su propia voz. Entrega la crónica, las notas fechadas y el borrador previo. La IA entra en las fases 2 y 4; nunca escribe el cuerpo." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «cada detalle escrito debe poder rastrearse a una nota cruda fechada; lo que no se observó se nombra como tal»." tarda="Diez minutos de lectura; quince si copias los prompts para tu grupo." ejemplo="Empieza con el caso del módulo de pasaportes, en el primer párrafo, y vuelve a él en la secuencia de fases y en las salvaguardas." >}}
+
+Un profesor de periodismo pide a su grupo una crónica de una mañana en un lugar público.
+Un estudiante elige la fila del módulo de pasaportes: llega a las siete, anota quién llega
+con carpeta y quién con bebé, qué dice la señora que vende café, cuánto tarda en abrir la
+puerta. Con esas notas escribe un primer borrador él solo. La crónica se aprende mirando
+dos veces: una vez al hecho y otra a uno mismo mirando el hecho. La IA puede ayudarle con
+las convenciones del género y con el ritmo; la voz —ese segundo mirar— sólo puede ponerla
+él.
 
 ## Qué es y para qué sirve
 
 Una **crónica** es un texto narrativo apoyado en la observación directa
 o documentada de un hecho real, donde la voz del cronista es parte del
 contenido. Combina rigor periodístico, mirada interpretativa y oficio
-literario. No es ficción y no es nota: vive en el medio.
+literario. Vive entre la nota informativa y el relato: cuenta lo que pasó
+y deja ver a quien lo miró.
 
-**Uso formativo de la IAG en este producto:** explorar convenciones del
-género, ayudar a discriminar qué observación tiene potencia narrativa,
-contrastar la voz propia con estilos cronistas distintos y proponer
-mejoras de imagen y ritmo —sin escribir el texto.
+**Dónde entra la IA en este tipo de trabajo:** explora las convenciones del
+género (qué estructura, qué ritmo, cuánta presencia del narrador se espera
+en una crónica urbana), ayuda a distinguir qué observación tiene potencia
+narrativa (la señora del café que conoce a todos por su nombre, más que la
+hora de apertura), contrasta la voz propia con estilos cronistas distintos y
+propone mejoras puntuales de imagen y ritmo. El texto lo escribe el estudiante.
 
 ## Bloom y progresión de prompts
 
-Este producto moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
+Este tipo de trabajo moviliza los niveles **3 a 6** de la taxonomía de Bloom, con
 nivel dominante **6 — Crear** (la construcción de un texto narrativo con
-voz reconocible).
+voz reconocible). Para ti, la tabla es un banco de prompts: copia el de la
+fase en la que tu grupo se atasca (casi siempre la selección de lo
+significativo, cuando quieren contarlo todo) y sustituye los corchetes.
 
 | Nivel Bloom | Movimiento de la crónica | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -90,11 +101,12 @@ estudiante decide qué incorpora y qué no.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el estudiante además de la crónica
 
 Riesgo **medio**: la voz cronista puede homogeneizarse fácilmente si la
-IAG edita el cuerpo. Las evidencias clave son las notas de observación
-crudas y el borrador autoral previo al contraste.
+IA edita el cuerpo. Las dos piezas que más te dicen son las notas de
+observación crudas (la libreta de la fila, fechada) y el borrador escrito
+antes del contraste con la IA:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -106,6 +118,10 @@ crudas y el borrador autoral previo al contraste.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas la bitácora, las notas y el borrador previo, no sólo
+la crónica final; ajusta los pesos a tu curso (por ejemplo, más peso a
+«integración en el trabajo» si te preocupa que la voz se pierda):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -144,12 +160,12 @@ creativa, testimonial o de no ficción narrativa.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — contraparte informativa, sin interpretación.
-- Producto cercano: [Reseña con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/resena" >}}) — emite juicio en lugar de narrar.
-- Producto cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método que puede alimentar la crónica.
+- Trabajo cercano: [Nota con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/nota" >}}) — contraparte informativa, sin interpretación.
+- Trabajo cercano: [Reseña con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/resena" >}}) — emite juicio en lugar de narrar.
+- Trabajo cercano: [Entrevista con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/entrevista" >}}) — método que puede alimentar la crónica.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

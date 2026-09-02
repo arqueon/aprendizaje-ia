@@ -27,25 +27,37 @@ showRelatedContent: true
 showAuthor: false
 ---
 
-{{< lead >}}
-La integración se rompe donde nadie miró: en la interfaz entre dos subsistemas que cada uno daba por entendida. La IAG puede señalar zonas de ambigüedad y pruebas indispensables; el orden de integración y la responsabilidad de fallos son del estudiante.
-{{< /lead >}}
+{{< contrato modo="ejemplo" quien="Docentes de mecatrónica, sistemas o proyectos integradores que ven a los equipos construir cada parte por separado (chasis, placa de motores, software) y encenderlo todo junto la noche anterior a la entrega, cuando nada se habla con nada." haras="Un equipo de mecatrónica integra un carrito autónomo para repartir piezas en un taller: chasis y motores de una persona, placa de control de otra, software de navegación de una tercera. Pregunta a la IA qué interfaces son críticas y qué fallos son típicos, escribe la especificación de cada interfaz, le pide a la IA que señale ambigüedades (encuentra que la velocidad viaja por el puerto serie sin decir si va en mm/s o en cm/s) y arma un plan de pruebas intermedias antes del encendido final. Entrega el mapa de interfaces, las especificaciones, la lista de ambigüedades resueltas y el plan de pruebas. La IA entra en las fases 1, 3 y 4; el orden de integración y la responsabilidad de que funcione son del equipo." tendras="Una secuencia de cuatro fases con sus prompts copiables y una regla de revisión: «cada interfaz lleva dueño, unidades y prueba (por ejemplo, ‘puerto serie placa–software: dueño Ana, velocidad en mm/s, prueba: el motor gira a la velocidad enviada ±5 %’)»." tarda="Ocho minutos de lectura; doce si adaptas los prompts a tu proyecto integrador." ejemplo="Empieza con el caso del carrito autónomo, en el primer párrafo, y vuelve a él en las fases y en las salvaguardas." >}}
+
+Un profesor de proyecto integrador de mecatrónica pide un carrito autónomo que lleve
+piezas de una estación a otra del taller. El equipo reparte el trabajo: una persona hace
+el chasis y los motores, otra la placa de control, otra el software de navegación. Tres
+semanas después cada parte funciona sola; juntas, el carrito arranca a diez veces la
+velocidad pedida, porque la placa esperaba milímetros por segundo y el software enviaba
+centímetros. La integración se rompe donde nadie miró: en la interfaz que cada uno daba
+por entendida. La IA puede señalar zonas de ambigüedad y qué pruebas hacer antes de
+encender todo; el orden de integración y la responsabilidad de los fallos son del equipo.
 
 ## Qué es y para qué sirve
 
 La **integración de sistemas** articula subsistemas heterogéneos
 (mecánico, eléctrico, software, datos) en un sistema operativo único.
-Valor formativo: pensamiento de interfaces, anticipación de fallos en
-integración y disciplina de pruebas intermedias.
+Al hacerlo, el estudiante practica el pensamiento de interfaces, la
+anticipación de fallos en integración (unidades distintas, tiempos de
+respuesta que nadie fijó) y la disciplina de pruebas intermedias.
 
-**Uso formativo de la IAG:** identificar interfaces críticas y tipos
-de fallo típicos, detectar ambigüedades en la especificación de
-interfaces y orientar pruebas de integración intermedia antes del
-encendido final.
+**Dónde entra la IA en este tipo de trabajo:** identifica interfaces
+críticas y tipos de fallo típicos (el puerto serie entre placa y
+software, la alimentación compartida entre motores y sensores), detecta
+ambigüedades en la especificación que el equipo escribió y orienta las
+pruebas de integración intermedia antes del encendido final.
 
 ## Bloom y progresión de prompts
 
-Nivel dominante **6 — Crear** (el plan de integración propio).
+Nivel dominante **6 — Crear** (el plan de integración propio). Para ti,
+la tabla es un banco de prompts: el de la fase 3 (ambigüedades) es el que
+evita la noche anterior a la entrega; cópialo y pídele al equipo que pegue
+su especificación real.
 
 | Nivel Bloom | Movimiento de la integración | Qué hace el estudiante | Prompt sugerido |
 |---|---|---|---|
@@ -82,7 +94,11 @@ Definición de pruebas y momentos antes del encendido final.
 
 {{< /timeline >}}
 
-## Evidencias de proceso requeridas
+## Qué entrega el equipo además del sistema integrado
+
+Junto con el sistema funcionando, el equipo entrega estas piezas (mapa de
+interfaces, especificaciones, plan de pruebas), cada una con su grado de
+obligación:
 
 | Evidencia | Estado | Forma concreta |
 |---|---|---|
@@ -96,6 +112,11 @@ Definición de pruebas y momentos antes del encendido final.
 | Declaración de uso de IAG | obligatoria | Modelo, contexto y propósito |
 
 ## Cómo se evalúa (rúbrica de proceso)
+
+Con esta rúbrica revisas las especificaciones, la lista de ambigüedades y el
+plan de pruebas, no sólo si el sistema encendió; ajusta los pesos a tu curso
+(por ejemplo, más peso a «metacognición» si quieres que el equipo explique
+qué orden de integración eligió y por qué):
 
 | Criterio | N1 Inicial | N2 En desarrollo | N3 Competente | N4 Avanzado | Peso |
 |---|---|---|---|---|---|
@@ -115,8 +136,9 @@ Definición de pruebas y momentos antes del encendido final.
   pruebas intermedias obligatorias.
 - **Responsabilidades difusas.** Quién es dueño de cada interfaz.
   Salvaguarda: tabla de responsabilidades obligatoria.
-- **Plan sin criterios de aceptación.** Salvaguarda: criterios
-  explícitos en cada prueba.
+- **Plan sin criterios de aceptación.** Salvaguarda: cada prueba dice
+  qué resultado la aprueba (por ejemplo, «el motor gira a la velocidad
+  enviada ±5 %»).
 
 {{< alert icon="shield-halved" type="warning" >}}
 **Transparencia obligatoria.** Declarar uso de IAG. La especificación
@@ -130,12 +152,12 @@ proyecto integrador con subsistemas heterogéneos.
 
 ## Ejemplos y enlaces
 
-- Producto cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — etapa arquitectónica previa.
-- Producto cercano: [Automatización industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial" >}}) — caso típico de integración OT/IT.
-- Producto cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre del entregable.
+- Trabajo cercano: [Diseño de sistemas con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/diseno-de-sistemas" >}}) — etapa arquitectónica previa.
+- Trabajo cercano: [Automatización industrial con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/automatizacion-industrial" >}}) — caso típico de integración OT/IT.
+- Trabajo cercano: [Proyecto con IAG]({{< ref "/ia-educacion/productos-de-aprendizaje/proyecto" >}}) — encuadre del entregable.
 
 {{< referencias titulo="Procedencia editorial" >}}
 
-Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso; no presenta una política institucional ni una rúbrica obligatoria.
+Elaboración editorial del sitio para este catálogo. La progresión usa Bloom como vocabulario descriptivo e integra criterios de revisión del proceso (por ejemplo, el uso crítico de la respuesta de la IA); no presenta una política institucional ni una rúbrica obligatoria.
 
 {{< /referencias >}}

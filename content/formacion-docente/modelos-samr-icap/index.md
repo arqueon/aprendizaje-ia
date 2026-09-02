@@ -20,6 +20,8 @@ weight: 4
 lastmod: "2026-08-23"
 ---
 
+{{< contrato modo="lectura" quien="Docentes que cambiaron una actividad por una versión digital o con IA y quieren saber si el cambio mejoró algo más que el formato." haras="Vas a entender que hay dos preguntas separadas: qué cambió en la tarea gracias a la tecnología (eso mira SAMR) y qué hizo la persona con las ideas (eso mira ICAP), y que subir de nivel en la primera no garantiza nada en la segunda." tendras="Dos preguntas para tu próxima actividad («¿qué función cambió por la herramienta?» y «¿qué explicación, comparación o revisión produjo cada estudiante?») y un caso resuelto para comparar (la hoja impresa contra el documento digital)." tarda="Ocho minutos de lectura." ejemplo="Empieza con una docente que prueba dos cambios en la misma actividad, uno de medio y otro de trabajo de pensamiento; su caso abre la página." >}}
+
 Una docente quiere mejorar una actividad en la que el grupo explica por qué dos soluciones
 aparentemente correctas conducen a resultados distintos. Prueba dos cambios. En el primero,
 sustituye la hoja impresa por un documento digital que corrige formato y reúne respuestas. En
@@ -48,7 +50,7 @@ lectura pasiva, una clasificación, una explicación constructiva o una colabora
 
 {{< figura src="icap-que-hizo-con-las-ideas.svg" movil="icap-que-hizo-con-las-ideas-mobile.svg" caption="ICAP con el mismo caso en sus cuatro modos (pasivo, activo, constructivo e interactivo), sin escalera: se reconocen por el producto visible. La misma herramienta sirve para las cuatro; si no hay producto, no se sabe qué hizo la persona con las ideas." >}}
 
-Las dos figuras usan el mismo caso a propósito y no se colocan como pisos de una escalera:
+Las dos figuras usan el mismo caso adrede y no se colocan como pisos de una escalera:
 no hay correspondencia automática entre los peldaños de SAMR y las conductas de ICAP. Sus
 categorías no se corresponden nivel por nivel. Cambiar mucho una tarea no garantiza una conducta cognitiva más
 elaborada, y una explicación profunda puede ocurrir con medios sencillos.
@@ -87,35 +89,38 @@ social valiosa, pero no es la única situación que el artículo original permit
 SAMR puede ayudar a preguntar si una tecnología permite hacer algo pertinente que antes era
 difícil. No obliga a rediseñar cada actividad para llegar a una categoría “superior”. Sustituir
 papel por un archivo accesible puede resolver una necesidad real. Modificar por completo una
-tarea puede ser inútil si se pierde el propósito, aumenta la desigualdad o se delega la
-evidencia que se quería observar.
+tarea puede ser inútil si se pierde lo que se quería enseñar, aumenta la desigualdad o se
+delega a la herramienta justo lo que se quería observar (por ejemplo, la comparación entre
+las dos soluciones).
 
 La revisión crítica de Hamilton, Rosenberg y Akcaoglu advierte tres límites: SAMR suele omitir
 el contexto pedagógico, su representación favorece una lectura jerárquica y puede concentrar la
-atención en el producto sobre proceso. Por eso sus categorías describen cambios en una tarea;
-no califican por sí solas su calidad ni sustituyen el juicio sobre propósito, acceso y evidencia.
+atención en el resultado final sobre el proceso. Por eso sus categorías describen cambios en una
+tarea; no califican por sí solas su calidad ni sustituyen el juicio sobre para qué sirve la
+tarea, quién puede hacerla y qué entrega muestra el aprendizaje.
 
 Por la misma razón, no conviene alinear SAMR con la taxonomía de Bloom como si cada nivel
 tecnológico correspondiera a una operación cognitiva. Una sustitución puede pedir evaluar;
-una tarea redefinida puede limitarse a reconocer. La demanda se juzga contra la evidencia
-completa, no contra el brillo del medio ni una palabra de la consigna.
+una tarea redefinida puede limitarse a reconocer. La demanda se juzga contra lo que la persona
+entrega completo (la comparación, la razón, la revisión), no contra el brillo del medio ni
+contra un verbo de la instrucción.
 
 ## Prueba las dos lentes por separado
 
-Ante una actividad concreta, escribe dos diagnósticos breves y sostenlos con evidencia
-distinta: uno sobre la tarea, otro sobre la conducta.
+Ante una actividad concreta, escribe dos diagnósticos breves y sostenlos con datos
+distintos: uno sobre la tarea, otro sobre la conducta.
 
 {{< practica >}}
 1. ¿Qué función, relación o posibilidad cambió en la tarea por la tecnología?
 2. ¿Qué genera, contrasta o transforma la persona con el conocimiento?
-3. ¿Qué evidencia permite sostener cada diagnóstico?
-4. ¿El cambio ayuda al propósito o solo añade novedad y carga?
+3. ¿Qué parte de lo entregado permite sostener cada diagnóstico?
+4. ¿El cambio ayuda a lo que se quiere aprender o solo añade novedad y carga?
 5. ¿La misma conducta puede conservarse con otra herramienta o sin IA?
 {{< /practica >}}
 
 ICAP aparece en la propuesta de Orientaciones, el documento de referencia que todavía no es
 una norma institucional vigente. Allí ayuda a describir la implicación cognitiva y mantiene
-las decisiones tecnológicas subordinadas al propósito. SAMR no forma parte de ese marco: se
+las decisiones tecnológicas subordinadas a lo que se quiere aprender. SAMR no forma parte de ese marco: se
 usa aquí como lente complementaria para describir qué cambió en la tarea. La guía para el
 profesorado lleva la pregunta sobre la conducta a la revisión de actividades; la lente
 tecnológica aporta cuando ayuda a justificar una decisión sin crear correspondencias rígidas.

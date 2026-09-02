@@ -1,8 +1,8 @@
 ---
-title: "Aprendizaje rizomático con IA"
+title: "Cuándo dejar que cada estudiante trace su propia ruta: aprendizaje rizomático con IA"
 date: 2026-04-26
 draft: false
-description: "Guía operativa para diseñar experiencias de aprendizaje no lineales asistidas por IA, donde el estudiante traza su propio recorrido sin perder rigor."
+description: "Entiende qué distingue un curso en red de un curso en árbol, qué seis decisiones de diseño lo sostienen con apoyo de IA y en qué tres situaciones conviene no intentarlo."
 summary: "El aprendizaje rizomático no es caos: es estructura sin jerarquía. Esta guía propone seis movimientos de diseño que sostienen la exploración no lineal con apoyo de IA."
 tags: ["aprendizaje rizomático", "Cormier", "Deleuze", "exploración", "currículo abierto"]
 categories: ["guia"]
@@ -17,11 +17,15 @@ showReadingTime: true
 showAuthor: false
 ---
 
-{{< lead >}}
-El aprendizaje rizomático abandona la lógica del árbol curricular —tronco, ramas, hojas— y propone una red sin centro donde cualquier nodo conecta con cualquier otro. Esa estructura, lejos de impedir el aprendizaje, lo hace posible en condiciones donde el conocimiento del campo cambia más rápido que cualquier plan de estudios. La IA generativa no inventó esta lógica, pero la hace particularmente fértil.
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Profesorado que imparte una asignatura donde el campo cambia más rápido que el programa (comunicación digital, diseño, estudios sociales de la tecnología) y quiere dejar que cada estudiante recorra el material en su propio orden sin perder rigor." haras="Vas a entender qué distingue un curso en red (cualquier tema conecta con cualquier otro y cada estudiante arma su propio mapa) de un curso en árbol (tronco, ramas, hojas), qué seis decisiones de diseño lo sostienen con apoyo de IA y en qué tres situaciones conviene no intentarlo." tendras="Una lista de seis decisiones para revisar tu asignatura (por ejemplo: «preparo de ocho a doce puntos de entrada en vez de un temario en orden» o «lo que califico es el mapa del recorrido que cada estudiante entrega») y tres señales de que este diseño no te conviene (por ejemplo, un temario donde álgebra va forzosamente antes que cálculo)." tarda="Unos doce minutos de lectura." ejemplo="Empieza por el curso de Tomás, en el primer apartado: una pregunta, diez puntos de entrada y un mapa por estudiante." >}}
+
+## El curso de Tomás, ya en marcha
+
+Tomás imparte Comunicación digital en cuarto semestre. Su temario envejecía cada año, así que lo cambió por una sola pregunta («¿quién decide qué es verdad en una red social?») y diez puntos de entrada: tres lecturas, dos casos judiciales, dos conjuntos de datos, una entrevista, un hilo viral y un modelo de IA con su documentación. Cada estudiante empieza por el que quiera, usa la IA para encontrar puentes entre puntos («¿qué tiene que ver este caso judicial con estos datos?») y anota qué conexiones aceptó y cuáles descartó. A mitad del semestre comparten mapas en clase; al final, cada quien defiende el suyo en diez minutos. Tomás califica el mapa y la defensa, no un examen. Lo que sigue explica por qué ese diseño funciona en su materia y por qué fallaría en otras.
 
 ## Qué cambia con la IA
+
+El aprendizaje rizomático abandona la lógica del árbol curricular —tronco, ramas, hojas— y propone una red sin centro donde cualquier nodo conecta con cualquier otro. Esa estructura hace posible aprender en condiciones donde el conocimiento del campo cambia más rápido que cualquier plan de estudios. La IA generativa no inventó esta lógica, pero la hace particularmente fértil.
 
 Cormier (2008) propuso el aprendizaje rizomático para entornos digitales abiertos antes de que existiera la IA generativa. Su tesis sostenía que en redes donde la información se produce más rápido de lo que cualquier currículo puede catalogar, *la comunidad es el currículo*: lo que se aprende no es un cuerpo cerrado de contenidos, sino una práctica de conexión sostenida en el tiempo.
 
@@ -35,12 +39,12 @@ Deleuze y Guattari (1987) formularon seis principios del rizoma que pueden tradu
 
 | Principio (en *Mil mesetas*) | Versión operativa para el aula |
 |---|---|
-| **Conexión** — cualquier punto del rizoma puede conectarse con cualquier otro | El curso permite atravesar contenidos en cualquier orden; las consignas no exigen secuencias fijas. |
+| **Conexión** — cualquier punto del rizoma puede conectarse con cualquier otro | El curso permite atravesar contenidos en cualquier orden; las instrucciones de las actividades no exigen secuencias fijas. |
 | **Heterogeneidad** — el rizoma conecta elementos de naturaleza distinta | Las actividades cruzan registros: texto, dato, imagen, código, conversación. |
-| **Multiplicidad** — el rizoma no se reduce a unidad ni a totalidad | El curso no se cierra en un examen único; tiene múltiples productos parciales. |
+| **Multiplicidad** — el rizoma no se reduce a unidad ni a totalidad | El curso no se cierra en un examen único; tiene varias entregas parciales (un mapa, una reseña, una defensa). |
 | **Ruptura asignificante** — el rizoma puede romperse en cualquier punto y recomponerse | El curso tolera abandonos parciales y reincorporación; no penaliza el camino zigzagueante. |
 | **Cartografía** — el rizoma se mapea, no se calca | El estudiante construye su propio mapa del campo; el docente comparte el suyo como ejemplo. |
-| **Calcomanía** — la cartografía no reproduce un original | El producto evaluativo es la propia ruta del estudiante, no la copia de la del docente. |
+| **Calcomanía** — la cartografía no reproduce un original | Lo que se califica es la propia ruta del estudiante (su mapa), no la copia de la del docente. |
 
 Esta tabla no es decorativa; sirve como lista de verificación para evaluar si un diseño didáctico es genuinamente rizomático o si solo lo declara.
 
@@ -50,7 +54,7 @@ Aplicar los seis principios al diseño de una asignatura concreta exige seis dec
 
 ### 1. Curaduría inicial mínima
 
-El docente prepara una curaduría de ocho a doce nodos del campo —textos, casos, conceptos, datos— que servirán como puntos de entrada. La curaduría no es una secuencia ni un canon: es una constelación. Los estudiantes pueden empezar por cualquiera y conectar con los demás según los recorridos que construyan.
+El docente prepara una curaduría de ocho a doce nodos del campo —textos, casos, conceptos, datos— que servirán como puntos de entrada. La curaduría es una constelación (en el curso de Tomás, diez entradas sin orden): los estudiantes pueden empezar por cualquiera y conectar con los demás según los recorridos que construyan.
 
 ### 2. Pregunta detonante abierta
 
@@ -58,9 +62,9 @@ La asignatura se organiza en torno a una pregunta amplia, no a un programa de co
 
 ### 3. IA como acelerador de exploración
 
-Los estudiantes usan IA para activar conexiones que el docente no anticipó: contrastar autores que cita un nodo con autores de otro nodo, encontrar puentes entre disciplinas, generar contraejemplos. La consigna explicita que el estudiante debe documentar las conexiones que la IA propuso, las que aceptó y las que descartó. Esto conecta con la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/).
+Los estudiantes usan IA para activar conexiones que el docente no anticipó: contrastar autores que cita un nodo con autores de otro nodo, encontrar puentes entre disciplinas, generar contraejemplos. La instrucción de la actividad explicita que el estudiante debe documentar las conexiones que la IA propuso, las que aceptó y las que descartó. Esto conecta con la [transparencia algorítmica en el aula](/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/).
 
-### 4. Cartografía como producto evaluativo central
+### 4. El mapa del recorrido como entrega central
 
 Cada estudiante produce, a lo largo del semestre, un mapa de su recorrido por el campo: nodos visitados, conexiones establecidas, decisiones tomadas, descartes justificados. El mapa es individual; cada uno se ve distinto. La rúbrica evalúa la calidad de las conexiones, la justificación de los descartes y la capacidad de defender el recorrido propio.
 
@@ -74,7 +78,7 @@ El semestre cierra con una defensa donde el estudiante sostiene su recorrido fre
 
 ## Cuándo no usar este diseño
 
-El aprendizaje rizomático no es para toda asignatura ni para todo grupo. Tres condiciones lo hacen poco aconsejable:
+Tres condiciones hacen poco aconsejable el aprendizaje rizomático:
 
 - **Cuando el contenido tiene secuencia inevitable.** Asignaturas donde un concepto requiere otro previo en orden estricto (cálculo después de álgebra, anatomía antes de fisiología) no admiten esta lógica sin romperse.
 - **Cuando el grupo no tiene experiencia con autonomía.** Estudiantes de primer semestre, sin entrenamiento en gestión del propio aprendizaje, suelen sentirse abandonados frente al rizoma. La introducción debe ser progresiva.

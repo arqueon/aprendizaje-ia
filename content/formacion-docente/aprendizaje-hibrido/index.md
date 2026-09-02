@@ -20,6 +20,8 @@ weight: 7
 lastmod: "2026-08-03"
 ---
 
+{{< contrato modo="lectura" quien="Docentes que tienen un curso con parte en línea y parte presencial (o que van a repartirlo así) y ven que lo que el grupo hace en casa no vuelve a aparecer en clase." haras="Vas a entender que un curso es híbrido cuando cada momento usa lo que dejó el anterior y prepara el siguiente (el borrador hecho en casa se compara en clase; la comparación se revisa después), y no sólo porque reparte materiales entre el aula y la plataforma." tendras="Una pregunta para revisar la próxima semana de tu curso («¿qué hace la sesión con lo que el grupo trajo, y qué se lleva el grupo para después?») y una secuencia de tres momentos que puedes copiar (primer intento en casa, contraste en clase, revisión con una nota de qué cambió)." tarda="Ocho a diez minutos de lectura." ejemplo="Empieza con una estudiante que prepara una explicación antes de clase y nadie la recupera; el caso abre la página y se resuelve paso a paso más abajo." >}}
+
 Una estudiante prepara antes de la clase una explicación breve sobre un problema de su
 asignatura. Cuando llega al encuentro, el grupo escucha otra explicación del mismo tema, pero
 nadie recupera lo que escribió. Después responde un cuestionario que tampoco utiliza la
@@ -27,7 +29,7 @@ discusión. Hubo plataforma, trabajo previo y sesión común. Sin embargo, las t
 llegaron a encontrarse.
 
 Repartir contenidos entre el aula y la red puede describir una combinación de modalidades, pero
-no garantiza una experiencia híbrida coherente. Un criterio para diseñarla es que cada momento
+no garantiza una experiencia híbrida coherente. Una regla para diseñarla es que cada momento
 **reciba algo del anterior, lo transforme y prepare lo que sigue**. Esa continuidad permite que
 una primera idea se convierta en contraste, decisión y revisión.
 
@@ -39,8 +41,8 @@ trabajo individual o compartido. Esas combinaciones describen dónde y cuándo o
 actividad. Todavía falta decidir para qué sirve cada parte.
 
 Imaginemos que, antes del encuentro, cada persona formula una explicación inicial y anota una
-pregunta. Durante la sesión, el grupo compara explicaciones, examina objeciones y acuerda un
-criterio. Después, cada persona vuelve a su texto, lo revisa y explica qué cambió. El borrador
+pregunta. Durante la sesión, el grupo compara explicaciones, examina objeciones y acuerda una
+respuesta común con su razón. Después, cada persona vuelve a su texto, lo revisa y explica qué cambió. El borrador
 prepara el contraste; el contraste prepara la revisión. La secuencia tiene continuidad porque
 el trabajo no se desecha al cambiar de espacio o de horario.
 
@@ -66,13 +68,14 @@ preparadas por el docente. En ambas rutas llega con una posición inicial que pu
 {{< /paso >}}
 {{< paso titulo="Durante el encuentro" >}}
 Compara su explicación con otra. El grupo no vota únicamente por la respuesta más convincente:
-identifica las diferencias, consulta la evidencia disponible y formula un criterio común. La
+identifica las diferencias, consulta los datos y las fuentes disponibles y formula una
+respuesta común con su razón. La
 presencia de otras personas se aprovecha para responderse y transformar ideas, no para repetir
 lo que ya estaba en una lectura.
 {{< /paso >}}
 {{< paso titulo="Después del encuentro" >}}
-La estudiante revisa su explicación y añade una nota breve: qué cambió, qué evidencia influyó y
-por qué la nueva versión responde mejor al problema. Esa nota no intenta registrar cada clic o
+La estudiante revisa su explicación y añade una nota breve: qué cambió, qué dato o fuente influyó
+y por qué la nueva versión responde mejor al problema. Esa nota no intenta registrar cada clic o
 conversación. Conserva el rastro mínimo que permite observar una decisión relevante.
 {{< /paso >}}
 {{< /proceso >}}
@@ -107,7 +110,7 @@ Puedes probar la secuencia con cinco preguntas:
 1. ¿Qué necesita poder hacer la persona al terminar?
 2. ¿Qué primer intento le permitirá llegar con una idea propia?
 3. ¿Cómo utilizará el siguiente momento ese intento?
-4. ¿Qué producto o decisión se transformará después?
+4. ¿Qué texto, tabla o decisión se transformará después?
 5. ¿De qué otra manera puede realizarse el mismo aprendizaje si cambia el acceso, el horario
    o el uso de IA?
 {{< /practica >}}
@@ -117,19 +120,19 @@ bien en uno, añadir pasos solo aumenta la carga. Las preguntas sirven para desc
 distribución aporta continuidad o si fragmenta una experiencia que era más clara de otra
 manera.
 
-## Una misma evidencia, con IA o sin ella
+## Una misma entrega, con IA o sin ella
 
-La herramienta no define la calidad de la ruta. En el ejemplo, la evidencia importante es la
+La herramienta no define la calidad de la ruta. En el ejemplo, lo que importa ver es la
 explicación revisada y la razón del cambio. Una ruta puede utilizar una objeción producida por
 IA; la otra, una objeción preparada por el docente o formulada por un par. Ambas deben ofrecer
 tiempo, apoyo y una oportunidad comparables para formular, contrastar y decidir.
 
 Si la actividad utiliza datos sensibles, una herramienta no ofrece garantías suficientes o
 no existe acceso equitativo, la decisión razonable puede ser aplazarla o no incorporarla. La
-alternativa sin IA no es un castigo ni una versión más pobre. Cambia el apoyo, no el
-aprendizaje que se busca observar.
+alternativa sin IA es una ruta completa: cambia el apoyo (una objeción preparada por el docente
+en lugar de una generada) y conserva el aprendizaje que se busca observar.
 
-## Qué criterio desarrolla esta página
+## Qué idea desarrolla esta página
 
 [La propuesta de Orientaciones]({{< relref "ia-educacion/orientaciones" >}}) es el documento de referencia que reúne estas decisiones;
 todavía no es una norma institucional vigente. Distingue dos cuestiones complementarias: el
@@ -138,19 +141,19 @@ asíncronos; el aprendizaje activo describe lo que hace la persona con el conoci
 cualquiera de ellos. También propone que cada ruta utilice el trabajo anterior y ofrezca una
 alternativa accesible cuando la modalidad o la herramienta puedan convertirse en una barrera.
 
-[La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) convierte ese criterio en una pregunta de diseño: ¿cómo utilizará
+[La guía para el profesorado]({{< relref "ia-educacion/guias/profesorado" >}}) convierte esa idea en una pregunta de diseño: ¿cómo utilizará
 cada momento el trabajo producido en el anterior? Esa pregunta ayuda a adaptar una actividad
 a una disciplina y a justificar dónde conviene usar, limitar o no usar IA. La página no
 sustituye esa tarea; ofrece el caso y las distinciones que permiten realizarla.
 
 {{< parallevar >}}
-Una experiencia híbrida no se reconoce por la cantidad de tecnología ni por cuánto trabajo
-ocurre fuera del aula. Se reconoce porque cada momento tiene una función, usa lo que recibió y
-deja algo que el siguiente puede transformar.
+Una experiencia híbrida se reconoce porque cada momento tiene una función, usa lo que recibió y
+deja algo que el siguiente puede transformar; la cantidad de tecnología o de trabajo fuera del
+aula no la define.
 {{< /parallevar >}}
 
 ## Cómo continuar
 
 El aprendizaje híbrido es una entrada paralela al recorrido: organiza la relación entre
 momentos, mientras el aprendizaje activo permite precisar qué hará la persona en cada uno.
-Continúa con [Qué hace activa una experiencia de aprendizaje]({{< relref "formacion-docente/aprendizaje-activo" >}}) o trabaja ambos criterios en la [primera lección del curso de diseño inverso y cocreación con IA](/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/).
+Continúa con [Qué hace activa una experiencia de aprendizaje]({{< relref "formacion-docente/aprendizaje-activo" >}}) o trabaja ambas ideas en la [primera lección del curso de diseño inverso y cocreación con IA](/formacion-docente/diseno-inverso-cocreacion-ia/01-panorama-activo-hibrido/).

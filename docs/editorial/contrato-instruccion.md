@@ -34,14 +34,23 @@ Y tres prohibiciones en todo el cuerpo:
 3. Ningún párrafo que no responda a «¿y yo qué hago con esto?». Si sólo explica el método, se
    corta o se convierte en un paso.
 
+## Tres modos del mismo contrato
+
+El shortcode admite `modo="hacer"` (por defecto, para guías, prácticas y actividades),
+`modo="lectura"` (páginas que explican un marco o un concepto: las etiquetas pasan a «Qué vas a
+entender», «Qué te llevas» y «Por dónde empieza») y `modo="ejemplo"` (ejemplos disciplinares:
+«Qué muestra este ejemplo»). Las cinco líneas y las tres prohibiciones son las mismas; lo que
+cambia es que en lectura y ejemplo «qué te llevas» nombra una idea aplicable con su ejemplo, no
+un archivo.
+
 ## Cómo se verifica
 
 `qa:direct-language` comprueba, en las páginas gobernadas: que el shortcode `contrato` esté
 presente y antes del primer encabezado de segundo nivel; que las cinco líneas existan y la tercera
 contenga un ejemplo (paréntesis o comillas); que no aparezcan las negaciones prohibidas; y que los
-sustantivos de marco no aparezcan sin ejemplo. La lista de páginas gobernadas crece por lotes:
-primero las cuatro modelo (guía y actividad de estudiantes, guía y actividad de profesorado),
-después el resto de guías, prácticas y actividades.
+sustantivos de marco no aparezcan sin ejemplo. La lista de páginas gobernadas vive en `data/editorial/contrato-instruccion.json` y crece por
+lotes: lote 0, las cuatro modelo (VoBo de Rubén, 2026-09-02); lote 1, guías, prácticas y rutas;
+lote 2, páginas de formación docente (modo lectura); lote 3, ejemplos disciplinares (modo ejemplo).
 
 ## Páginas modelo (lote 0, para VoBo)
 

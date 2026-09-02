@@ -61,9 +61,11 @@ ecosistema:
     proxima_revision: 2026-10-27
 ---
 
-{{< lead >}}
-La alfabetización para la co-creación es el tercer nivel del marco de tres literacidades en IA. Cubre lo que las dos anteriores no tocan: cómo sostener un acoplamiento persona-IA productivo durante la interacción, donde lo que se produce emerge del ensamblaje y el humano mantiene la dirección del proceso (Meshi, 2024).
-{{< /lead >}}
+{{< contrato modo="lectura" quien="Docentes que ya trabajan con IA y quieren saber qué diferencia usarla bien de dejar que haga el trabajo: quienes sospechan que su grupo, o ellos mismos, aceptan la primera respuesta tal cual." haras="Vas a entender cinco decisiones que mantienen el mando en la persona cuando trabaja con IA: nombrar lo que pasa, fijar qué se busca, ir y volver sobre la respuesta, dejar rastro de lo decidido y quedarte con algo que antes no sabías." tendras="Una pregunta para revisar tu próximo trabajo con IA o el de tus estudiantes («¿qué aprendí que pueda usar sin volver a abrir el chat?») y tres cosas que conservar en lugar de la conversación entera (un primer esquema, una tabla de fuentes y dos decisiones anotadas)." tarda="Diez minutos de lectura; quince si recorres los dos recursos interactivos." ejemplo="Empieza con Marcos, docente de derecho, que pide a la IA un caso para su clase de contratos y decide qué hacer con lo que le devuelve; después vienen los cinco principios." >}}
+
+Marcos da derecho de contratos. Pide a una IA un caso para discutir en clase; recibe uno bien escrito, con nombres, fechas y una cláusula ambigua. Antes de usarlo hace tres cosas: comprueba que la ley citada existe y dice lo que el caso afirma; cambia la cláusula porque la que propuso el modelo es demasiado obvia para su grupo; y anota en su guía «caso propuesto por IA, cláusula reescrita, artículo verificado». Al terminar sabe algo que antes no sabía: qué tipo de ambigüedad hace que un caso funcione en clase. Eso es co-creación: el caso salió de la relación entre Marcos y el modelo (Meshi, 2024), y Marcos conservó el mando. Esta página nombra las cinco decisiones que hizo, para que puedas reconocerlas en tu trabajo y pedirlas en el de tu grupo.
+
+La alfabetización para la co-creación es el tercer nivel del marco de tres literacidades en IA. Cubre lo que las dos anteriores no tocan: lo que pasa durante la conversación con la IA, donde lo que se produce sale de la relación entre ambos y la persona mantiene la dirección del proceso.
 
 {{< infografia
     titulo="Principios de la alfabetización para la co-creación con IA"
@@ -88,20 +90,20 @@ La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo q
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="3" titulo="Sostener el ciclo iterativo" icono="arrows-rotate" color="#5c7ab4" >}}
-- Formular, leer críticamente lo que devuelve, descartar lo que no cumple el criterio, reformular.
-- Tratar la primera respuesta como **borrador inicial**, no como producto.
+- Formular, leer críticamente lo que devuelve, descartar lo que no cumple lo pedido (por ejemplo, un caso de otro país cuando pediste uno local), reformular.
+- Tratar la primera respuesta como **borrador inicial**, no como texto terminado.
 - La calidad del resultado depende del juicio que conduce el ciclo, no del modelo que lo procesa.
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="4" titulo="Documentar el proceso, no solo el producto" icono="book-open" color="#5c7ab4" >}}
 - Mantener bitácora de decisiones: qué se delegó, qué se conservó, qué se transformó.
 - La transparencia sobre el proceso de co-creación es descripción precisa de cómo se produjo el conocimiento, no solo norma ética.
-- La evidencia del aprendizaje vive en el proceso, no únicamente en el artefacto final.
+- Lo que muestra el aprendizaje está en el proceso (el esquema inicial, las decisiones anotadas), no únicamente en el texto final.
 {{< /infografia-seccion >}}
 
 {{< infografia-seccion numero="5" titulo="Cultivar la ganancia cognitiva" icono="seedling" color="#34508c" >}}
 - La co-creación productiva ocurre cuando el sistema ofrece formulaciones, contraejemplos o conexiones **inesperadas** que obligan a revisar, precisar o abandonar supuestos previos (Wang & Zhang, 2026).
-- El criterio de éxito no es la velocidad ni la calidad del producto, sino lo que el proceso enseñó al humano.
+- El éxito se mide por lo que el proceso enseñó a la persona (por ejemplo, una manera nueva de revisar fuentes), antes que por la velocidad o la calidad del texto final.
 - Es el reverso simétrico de la descarga cognitiva: una **misma interacción** puede producir aprendizaje genuino o atrofia (Lodge & Loble, 2026).
 {{< /infografia-seccion >}}
 
@@ -109,17 +111,17 @@ La alfabetización para la co-creación es el tercer nivel del marco. Cubre lo q
 
 ## Reconoce cinco decisiones en el proceso
 
-Los principios anteriores pueden observarse en acciones concretas. Recorre la imagen cuando
-ya distingas el propósito de cada decisión; los puntos interactivos aportan ejemplos y
-evidencias, no sustituyen la explicación.
+Los principios anteriores pueden observarse en acciones concretas: las cinco que hizo Marcos
+con su caso. Recorre la imagen cuando ya distingas para qué sirve cada decisión; los puntos
+interactivos aportan ejemplos y citas, no sustituyen la explicación.
 
 {{< h5p id="direccion-epistemica-hotspots" load="manual" title="Cinco decisiones de dirección epistémica" >}}
 ### Los cinco puntos en forma de lista
 
-1. **Preguntar:** formula un propósito, una tesis o una duda antes de pedir ayuda.
+1. **Preguntar:** formula qué buscas (por ejemplo, «un caso con una cláusula ambigua»), una tesis o una duda antes de pedir ayuda.
 2. **Verificar:** contrasta datos, referencias y supuestos con fuentes pertinentes.
 3. **Aceptar o descartar:** decide qué aportes sirven y conserva una razón breve.
-4. **Transformar:** corrige, combina o reescribe desde criterios propios.
+4. **Transformar:** corrige, combina o reescribe desde lo que tú exiges (por ejemplo, «una ambigüedad que mi grupo no vea a la primera»).
 5. **Documentar:** reúne borradores, fuentes y decisiones de alto valor.
 
 Elige una decisión que ya realizas con soltura y otra que necesitas hacer visible en tu
@@ -131,15 +133,15 @@ próximo trabajo.
 Los principios anteriores se apoyan en cuatro conceptos que conviene poder explicar con
 palabras propias: co-creación, dirección epistémica, trazabilidad y ganancia cognitiva. Las
 tarjetas siguientes los repasan en forma de pregunta y respuesta; úsalas después de leer la
-explicación, no en su lugar. Lo que importa no es memorizar cada definición aislada, sino
-reconocer cómo se relacionan entre sí.
+explicación, no en su lugar. Lo que importa es reconocer cómo se relacionan entre sí, más
+que memorizar cada definición aislada.
 
 {{< h5p id="cocreacion-conceptos-cards" load="manual" title="Conceptos para co-crear con dirección" >}}
 ### Las cuatro tarjetas en forma de texto
 
 **¿Co-crear con IA equivale a delegar?** — **Co-creación** significa distribuir tareas sin
 distribuir por igual la responsabilidad. La IA puede proponer alternativas, detectar una
-inconsistencia o comentar un borrador; la persona define el propósito, comprueba los aportes y
+inconsistencia o comentar un borrador; la persona define qué se busca, comprueba los aportes y
 decide qué entra al trabajo. Si el sistema produce el texto y la persona solo lo entrega, hubo
 delegación; si la respuesta obliga a contrastar, revisar y justificar una elección, puede haber
 co-creación.
@@ -151,21 +153,23 @@ razones sostendrá una conclusión. No equivale a controlar cada operación de l
 significa conservar el rumbo intelectual del proceso.
 
 **¿Qué hace visible el proceso sin entregar todo el chat?** — **Trazabilidad** es conservar
-evidencias suficientes para reconstruir cómo cambió el trabajo. Un primer esquema, una tabla de
-fuentes y dos decisiones de revisión suelen decir más sobre el aprendizaje que una conversación
-completa con la herramienta. La evidencia debe ser proporcional a la tarea: permite comprender
-el proceso sin convertirlo en vigilancia.
+marcas suficientes (un primer esquema, una tabla de fuentes, dos decisiones de revisión) para
+reconstruir cómo cambió el trabajo; esas tres cosas suelen decir más sobre el aprendizaje que
+una conversación completa con la herramienta. Lo que se pide conservar debe ser proporcional a
+la tarea (para un ensayo de dos páginas, un esquema y dos decisiones bastan): permite
+comprender el proceso sin convertirlo en vigilancia.
 
 **¿Qué distingue aprendizaje de simple aceleración?** — **Ganancia cognitiva** es aquello que
 la persona ahora comprende o sabe hacer y puede usar fuera de la conversación con la IA. Puede
-ser una distinción conceptual, un criterio para verificar fuentes o una estrategia de revisión.
-La rapidez no demuestra aprendizaje: una señal más fuerte es que la persona pueda explicar su
-decisión y transferir el criterio a un caso nuevo.
+ser una distinción conceptual, una manera de verificar fuentes (por ejemplo, «buscar la cita en
+el original antes de usarla») o una estrategia de revisión. La rapidez no demuestra
+aprendizaje: una señal más fuerte es que la persona pueda explicar su decisión y aplicar la
+misma regla a un caso nuevo.
 {{< /h5p >}}
 
 ## Cómo se relaciona con las otras dos literacidades
 
-La alfabetización para la co-creación es el tercer nivel del marco; supone los anteriores y los integra. No se aprende por exposición ni con talleres puntuales: exige práctica supervisada, retroalimentación y reflexión sostenida. Las otras dos:
+La alfabetización para la co-creación es el tercer nivel del marco; supone los anteriores y los integra. Se aprende con práctica supervisada, retroalimentación y reflexión sostenida, a lo largo de un semestre y con alguien que revise; una charla o un taller de una tarde sólo la presentan. Las otras dos:
 
 - **[Alfabetización operativa](/formacion-docente/alfabetizacion-operativa/)** — usar la IA con soltura: formular instrucciones, comparar salidas, verificarlas, documentar e integrar.
 - **[Alfabetización crítica](/ia-educacion/etica-y-transparencia/alfabetizacion-critica-ia/)** — entender los sistemas, sus sesgos y efectos; discernir y verificar lo que devuelven.

@@ -242,7 +242,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
     };
   });
 
-  assert(snapshot.title === "Coordinar la IA en los procesos docentes", `${name}: título`);
+  assert(snapshot.title === "Organiza un piloto de IA en tu departamento o programa, en seis pasos", `${name}: título`);
   assert(snapshot.scrollWidth <= snapshot.width, `${name}: overflow horizontal`);
   assert(snapshot.cards >= 7, `${name}: faltan tarjetas de ruta`);
   assert(snapshot.tables >= 1, `${name}: falta la tabla operativa`);

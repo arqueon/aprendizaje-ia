@@ -48,14 +48,14 @@ for (const target of scopedTargets) {
 
 // Contrato de instrucción (2026-09-02): páginas gobernadas por docs/editorial/contrato-instruccion.md.
 // La lista crece por lotes; el lote 0 son las cuatro páginas modelo.
-const contractPages = [
-  'content/ia-educacion/guias/estudiantes/index.md',
-  'content/ia-educacion/guias/profesorado/index.md',
-  'layouts/shortcodes/actividad-b2.html',
-  'layouts/shortcodes/actividad-m6.html',
-];
+// `node tools/qa-direct-language.mjs --file ruta1 [ruta2 …]` comprueba sólo esas rutas contra el
+// contrato (útil mientras se reescribe un lote, antes de darlo de alta en el JSON).
+const cliFiles = process.argv.includes('--file') ? process.argv.slice(process.argv.indexOf('--file') + 1) : null;
+const contractPages = cliFiles || JSON.parse(fs.readFileSync(path.join(root, 'data', 'editorial', 'contrato-instruccion.json'), 'utf8')).paginas;
 const forbiddenNegations = /\b(el problema no es|no se trata de|no es (?:solo |sólo )?[^.]{3,40}? ni )/giu;
-const bodyWithoutContract = (source) => source.replace(/\{\{< contrato[\s\S]*?>\}\}/g, ' ').replace(/partial "udgia\/contrato\.html" \(dict[\s\S]*?\) \}\}/g, ' ');
+// El texto de respaldo de las figuras UDGIA ({{< udgia-figure >}}…{{< /udgia-figure >}}) es canónico
+// (procede de Orientaciones y lo vigila qa:udgia-figures), así que no se somete a esta regla.
+const bodyWithoutContract = (source) => source.replace(/\{\{< udgia-figure[\s\S]*?\{\{< \/udgia-figure >\}\}/g, ' ').replace(/\{\{< contrato[\s\S]*?>\}\}/g, ' ').replace(/partial "udgia\/contrato\.html" \(dict[\s\S]*?\) \}\}/g, ' ');
 
 for (const relative of contractPages) {
   const source = fs.readFileSync(path.join(root, relative), 'utf8');
@@ -79,9 +79,13 @@ for (const relative of contractPages) {
   const body = relative.endsWith('.md') ? visibleMarkdown(bodyWithoutContract(source)) : bodyWithoutContract(source).replace(/<[^>]+>/g, ' ');
   const negations = [...body.matchAll(forbiddenNegations)].map((m) => m[0]);
   if (negations.length) failures.push(`${relative}: negación prohibida (${negations.join(' | ')})`);
-  const abstract = findTerms(body).filter((term) => {
+  // Los encabezados son etiquetas, no prosa: no se les exige ejemplo (sí se les aplica la
+  // prohibición de negaciones). Los nombres de las seis decisiones ejecutivas (UDGIA-004D)
+  // son canónicos y los vigila qa:decision-institucional-route.
+  const prose = body.replace(/^#{1,6} .*$/gm, ' ');
+  const abstract = findTerms(prose).filter((term) => {
     // Un término de marco pasa si en la misma oración hay un ejemplo (paréntesis, comillas o «por ejemplo»).
-    const sentences = body.split(/(?<=[.!?])\s+/).filter((sentence) => new RegExp(`\\b${term}\\b`, 'iu').test(sentence));
+    const sentences = prose.split(/(?<=[.!?])\s+/).filter((sentence) => new RegExp(`\\b${term}\\b`, 'iu').test(sentence));
     return sentences.some((sentence) => !/[(«"]|por ejemplo/u.test(sentence));
   });
   if (abstract.length) failures.push(`${relative}: término de marco sin ejemplo en su oración (${abstract.join(', ')})`);

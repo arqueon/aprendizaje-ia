@@ -243,7 +243,7 @@ async function inspectViewport(browser, baseURL, name, viewport) {
   });
 
   assert(
-    snapshot.title === "Decidir institucionalmente sobre IA en la docencia",
+    snapshot.title === "Prepara la decisión institucional sobre IA en la docencia, en seis decisiones",
     `${name}: título`
   );
   assert(snapshot.scrollWidth <= snapshot.width, `${name}: overflow horizontal`);
