@@ -971,7 +971,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/_index.md",
-            "line": 21,
+            "line": 20,
             "text": "Quien busca bibliografía reciente puede comenzar por el monitoreo de publicaciones y comprobar después la fuente completa. Quien evalúa una herramienta puede revisar el registro de opciones emergentes antes de aplicar una matriz metodológic"
           }
         },
@@ -983,7 +983,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Las [guías metodológicas](/observatorio/guias/) responden a otra necesidad: ofrecen procedimientos para evaluar una herramienta o documentar una experiencia. El [Laboratorio](/laboratorio/) reúne prácticas y recorridos para probar una activ"
           }
         },
@@ -991,7 +991,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/_index.md",
-            "line": 21,
+            "line": 20,
             "text": "Quien busca bibliografía reciente puede comenzar por el monitoreo de publicaciones y comprobar después la fuente completa. Quien evalúa una herramienta puede revisar el registro de opciones emergentes antes de aplicar una matriz metodológic"
           }
         },
@@ -1007,7 +1007,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/_index.md",
-            "line": 14,
+            "line": 13,
             "text": "Esta sección reúne tres formas de seguimiento: publicaciones sobre IA educativa, herramientas emergentes y redes de investigación o vinculación. Su función es ayudar a docentes, coordinaciones y equipos de investigación a localizar fuentes "
           }
         },
@@ -1119,7 +1119,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Actividades propuestas y plantillas.** Diseños para adaptar en el aula (secuencias, rúbricas, calendarios). Cada una declara su estado: son propuestas o prototipos de escenario, **no** casos implementados, mientras no exista un expedien"
           }
         },
@@ -1127,7 +1127,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 48,
+            "line": 47,
             "text": "- [Laboratorio de innovación docente](/laboratorio/) — actividades propuestas para adaptar y flujos de integración de IA."
           }
         },
@@ -1135,7 +1135,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Actividades propuestas y plantillas.** Diseños para adaptar en el aula (secuencias, rúbricas, calendarios). Cada una declara su estado: son propuestas o prototipos de escenario, **no** casos implementados, mientras no exista un expedien"
           }
         },
@@ -1143,7 +1143,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 59,
+            "line": 58,
             "text": "- **Citas APA 7 verificables.** Las afirmaciones factuales se acompañan de fuentes que el lector puede consultar. Cuando se detecta una afirmación sin respaldo suficiente, se corrige o se retira; la revisión editorial de este criterio está "
           }
         },
@@ -1151,7 +1151,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 56,
+            "line": 55,
             "text": "El contenido se redacta bajo cuatro criterios visibles:"
           }
         },
@@ -1163,7 +1163,7 @@
           "present": true,
           "evidence": {
             "source": "content/about.md",
-            "line": 30,
+            "line": 29,
             "text": "- **Guías y marcos de referencia.** Explican métodos, criterios y decisiones con fuentes consultables. Son el núcleo del sitio."
           }
         },
@@ -1171,7 +1171,7 @@
           "present": false,
           "evidence": {
             "source": "content/about.md",
-            "line": 59,
+            "line": 58,
             "text": "- **Citas APA 7 verificables.** Las afirmaciones factuales se acompañan de fuentes que el lector puede consultar. Cuando se detecta una afirmación sin respaldo suficiente, se corrige o se retira; la revisión editorial de este criterio está "
           }
         }
@@ -1204,7 +1204,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
           }
         },
@@ -1212,7 +1212,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 17,
+            "line": 16,
             "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
           }
         },
@@ -1224,7 +1224,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
           }
         },
@@ -1232,7 +1232,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
           }
         },
@@ -1244,7 +1244,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 17,
+            "line": 16,
             "text": "Espacio de ensayos breves donde se discuten temas que no caben en una guía operativa ni en un estudio empírico: el rol del docente, la co-creación persona-IA, la evaluación auténtica, el rizoma digital. Tono reflexivo, sostenido por referen"
           }
         },
@@ -1252,7 +1252,7 @@
           "present": false,
           "evidence": {
             "source": "content/blog/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "Los ensayos no forman una serie: cada uno se sostiene solo, y el orden de lectura depende de la discusión que te interese. Si tu pregunta es qué cambia en el oficio de enseñar, empieza por [el rol del docente en la era de la IA](rol-docente"
           }
         }
@@ -1281,7 +1281,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "Cuando alguien dice \"la IA es solo una herramienta\", está usando una metáfora muy específica: la del instrumento que prolonga la voluntad humana sin alterarla. Un martillo no cambia al carpintero; lo extiende. Una calculadora no transforma "
           }
         },
@@ -1289,7 +1289,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
           }
         },
@@ -1297,7 +1297,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
           }
         },
@@ -1305,7 +1305,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Lo mismo ocurre con un estudiante que escribe con asistencia de IA. El texto final no es lo que él habría escrito sin el modelo, ni lo que el modelo escribió sin él. Es un objeto nuevo que requiere a ambos para existir."
           }
         },
@@ -1313,7 +1313,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
           }
         },
@@ -1321,7 +1321,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
           }
         },
@@ -1329,7 +1329,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 52,
+            "line": 51,
             "text": "**La evaluación tiene que medir el ensamblaje, no a las partes.** Si lo que produce conocimiento es el acoplamiento, la rúbrica que mide solo al estudiante o solo al producto pierde lo central. La rúbrica útil mide la calidad del agenciamie"
           }
         },
@@ -1337,7 +1337,7 @@
           "present": false,
           "evidence": {
             "source": "content/blog/agenciamiento-humano-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "La metáfora funciona para algunos artefactos. No funciona para la IA generativa. Cuando un docente usa Claude para planear una sesión, lo que obtiene no es una versión más rápida de su propio plan original. Obtiene un plan que él no habría "
           }
         }
@@ -1363,7 +1363,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 21,
+            "line": 20,
             "text": "Cuando una universidad declara que va a \"integrar IA en su currículo\", suele referirse a dos cosas distintas que conviene separar: enseñar con IA —usar modelos como herramienta para aprender otros contenidos— y enseñar sobre IA —desarrollar"
           }
         },
@@ -1371,7 +1371,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "**Aprender con IA** es una pregunta metodológica. Apunta a que el estudiante use IA como apoyo para procesos de pensamiento, escritura, investigación o resolución de problemas, y que adquiera la habilidad de hacerlo bien: formular instrucci"
           }
         },
@@ -1379,7 +1379,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 48,
+            "line": 47,
             "text": "- **Primero la mentalidad crítica, después la práctica eficiente.** Las asignaturas iniciales del programa deberían trabajar la dimensión epistémica antes de que se consoliden hábitos de uso instrumental. Un estudiante que aprendió a usar I"
           }
         },
@@ -1387,7 +1387,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "**Aprender con IA** es una pregunta metodológica. Apunta a que el estudiante use IA como apoyo para procesos de pensamiento, escritura, investigación o resolución de problemas, y que adquiera la habilidad de hacerlo bien: formular instrucci"
           }
         },
@@ -1399,7 +1399,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 21,
+            "line": 20,
             "text": "Cuando una universidad declara que va a \"integrar IA en su currículo\", suele referirse a dos cosas distintas que conviene separar: enseñar con IA —usar modelos como herramienta para aprender otros contenidos— y enseñar sobre IA —desarrollar"
           }
         },
@@ -1407,7 +1407,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social; uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta."
           }
         },
@@ -1415,7 +1415,7 @@
           "present": false,
           "evidence": {
             "source": "content/blog/aprender-con-ia-vs-aprender-sobre-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Ambas son necesarias. Pero un programa que solo desarrolla la primera produce usuarios eficientes sin criterio social; uno que solo desarrolla la segunda produce críticos sin capacidad operativa. La articulación es lo que cuesta."
           }
         }
@@ -1441,7 +1441,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
           }
         },
@@ -1449,7 +1449,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
           }
         },
@@ -1457,7 +1457,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
           }
         },
@@ -1465,7 +1465,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
           }
         },
@@ -1473,7 +1473,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
           }
         },
@@ -1481,7 +1481,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
           }
         },
@@ -1489,7 +1489,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Conviene precisar el diagnóstico antes de discutirlo. No afirmo que el profesorado oculte deliberadamente su uso de IA, ni que las instituciones conspiren. Afirmo algo más incómodo: que nadie diseñó la asimetría y por eso nadie se siente re"
           }
         },
@@ -1497,7 +1497,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/asimetria-de-la-transparencia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Hay dos objeciones serias, y ninguna se disuelve del todo. La primera: la asimetría es legítima porque las situaciones no son simétricas. El estudiante entrega trabajo para ser evaluado; su declaración es información que el juicio académico"
           }
         }
@@ -1521,7 +1521,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 21,
+            "line": 20,
             "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
           }
         },
@@ -1529,7 +1529,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Ajjawi y sus colegas proponen hablar de **autenticidad en la evaluación** y distinguir tres perspectivas: autenticidad psicológica, cuando la persona reconoce sentido y agencia en lo que hace; fidelidad ontológica, cuando la tarea la pone e"
           }
         },
@@ -1537,7 +1537,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 26,
+            "line": 25,
             "text": "Durante años, la evaluación auténtica se asoció con tareas parecidas a las del trabajo profesional: resolver un caso, diseñar una intervención o justificar una decisión. Esa semejanza puede ser útil, pero no basta. Una tarea laboral también"
           }
         },
@@ -1545,7 +1545,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 26,
+            "line": 25,
             "text": "Durante años, la evaluación auténtica se asoció con tareas parecidas a las del trabajo profesional: resolver un caso, diseñar una intervención o justificar una decisión. Esa semejanza puede ser útil, pero no basta. Una tarea laboral también"
           }
         },
@@ -1553,7 +1553,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 56,
+            "line": 55,
             "text": "Las tareas con varias respuestas posibles permiten observar cómo se usan criterios, fuentes y consecuencias para sostener una decisión. La IA puede proponer alternativas; el aprendizaje aparece cuando el estudiante las compara, detecta lími"
           }
         },
@@ -1561,7 +1561,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 77,
+            "line": 76,
             "text": "La entrada de [evaluación auténtica](/recursos/glosario/evaluacion-autentica/) ofrece una definición breve. La [ficha de Ajjawi, Bearman y colegas](/recursos/articulos/autenticidad-evaluacion-ajjawi-bearman/) desarrolla las tres perspectiva"
           }
         },
@@ -1569,7 +1569,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 21,
+            "line": 20,
             "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
           }
         },
@@ -1577,7 +1577,7 @@
           "present": false,
           "evidence": {
             "source": "content/blog/ia-generativa-evaluacion-autentica/index.md",
-            "line": 21,
+            "line": 20,
             "text": "La IA generativa no vuelve inútil toda evaluación universitaria ni convierte la evaluación auténtica en una solución automática. Sí obliga a preguntar qué evidencia permite reconocer comprensión, juicio y capacidad de revisar un trabajo cua"
           }
         }
@@ -1610,7 +1610,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Dave Cormier (2008) tomó la imagen del rizoma para pensar el aprendizaje en entornos digitales abiertos. Su tesis, después de quince años, sigue siendo válida y se vuelve más urgente con la IA: en un ecosistema donde la información se produ"
           }
         },
@@ -1618,7 +1618,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 36,
+            "line": 35,
             "text": "El segundo es que **el aprendiz necesita seguir un camino predefinido**. Esto era cierto cuando el acceso al conocimiento estaba mediado por bibliotecas, profesores y bibliografía cerrada. Hoy, un estudiante con un modelo de lenguaje y curi"
           }
         },
@@ -1626,7 +1626,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 21,
+            "line": 20,
             "text": "Durante siglos, el conocimiento universitario se organizó como un árbol: tronco principal, ramas disciplinares, hojas de detalle. El plan de estudios reproducía esa estructura: bases primero, especialización después, integración al final. L"
           }
         },
@@ -1634,7 +1634,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Dave Cormier (2008) tomó la imagen del rizoma para pensar el aprendizaje en entornos digitales abiertos. Su tesis, después de quince años, sigue siendo válida y se vuelve más urgente con la IA: en un ecosistema donde la información se produ"
           }
         },
@@ -1642,7 +1642,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 44,
+            "line": 43,
             "text": "**Tolerancia a la falta de mapa.** El estudiante formado bajo la lógica del árbol espera que alguien le diga qué leer primero, qué después y cómo se conectan las cosas. En el rizoma, esa orientación no existe: cada estudiante traza su propi"
           }
         },
@@ -1650,7 +1650,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Dave Cormier (2008) tomó la imagen del rizoma para pensar el aprendizaje en entornos digitales abiertos. Su tesis, después de quince años, sigue siendo válida y se vuelve más urgente con la IA: en un ecosistema donde la información se produ"
           }
         },
@@ -1662,7 +1662,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rizoma-digital-aprender-sin-mapa/index.md",
-            "line": 44,
+            "line": 43,
             "text": "**Tolerancia a la falta de mapa.** El estudiante formado bajo la lógica del árbol espera que alguien le diga qué leer primero, qué después y cómo se conectan las cosas. En el rizoma, esa orientación no existe: cada estudiante traza su propi"
           }
         }
@@ -1686,7 +1686,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 38,
+            "line": 37,
             "text": "La **lectura del grupo** es la primera. Un docente con experiencia detecta en una clase cuándo el grupo está perdido, cuándo está aburrido, cuándo está fingiendo entender y cuándo realmente está pensando. Esa lectura no se reduce a métricas"
           }
         },
@@ -1694,7 +1694,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 21,
+            "line": 20,
             "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido —\"la IA cambiará todo, los docentes se vuelven facilitadores\"— y la del rechazo defensivo —\"nada ese"
           }
         },
@@ -1702,7 +1702,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 32,
+            "line": 31,
             "text": "La **generación de ejercicios** —preguntas de práctica, problemas, casos— también se ha vuelto trivial para sistemas algorítmicos. Lo que antes consumía horas de planeación docente hoy se resuelve en minutos. Para el docente, esto libera ti"
           }
         },
@@ -1710,7 +1710,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 21,
+            "line": 20,
             "text": "La discusión sobre el futuro de la docencia universitaria oscila entre dos posiciones igualmente improductivas: la del entusiasmo desmedido —\"la IA cambiará todo, los docentes se vuelven facilitadores\"— y la del rechazo defensivo —\"nada ese"
           }
         },
@@ -1718,7 +1718,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 42,
+            "line": 41,
             "text": "La **toma de decisiones éticas en zonas grises** es la tercera. Cuando un estudiante atraviesa una crisis personal y entrega tarde, cuando dos estudiantes presentan trabajos similares y hay que decidir si fue colaboración o copia, cuando un"
           }
         },
@@ -1726,7 +1726,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 42,
+            "line": 41,
             "text": "La **toma de decisiones éticas en zonas grises** es la tercera. Cuando un estudiante atraviesa una crisis personal y entrega tarde, cuando dos estudiantes presentan trabajos similares y hay que decidir si fue colaboración o copia, cuando un"
           }
         },
@@ -1734,7 +1734,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "La **retroalimentación de borradores** sigue el mismo patrón. Un modelo bien instruido ofrece comentarios sobre estructura, claridad y consistencia argumentativa con velocidad y minuciosidad que un docente con cincuenta estudiantes no puede"
           }
         },
@@ -1742,7 +1742,7 @@
           "present": true,
           "evidence": {
             "source": "content/blog/rol-docente-era-ia/index.md",
-            "line": 42,
+            "line": 41,
             "text": "La **toma de decisiones éticas en zonas grises** es la tercera. Cuando un estudiante atraviesa una crisis personal y entrega tarde, cuando dos estudiantes presentan trabajos similares y hay que decidir si fue colaboración o copia, cuando un"
           }
         }
@@ -1847,7 +1847,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 49,
+            "line": 48,
             "text": "La alfabetización digital tradicional enseña a usar las herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa no cubierta por las dos anteriores: aprender "
           }
         },
@@ -1855,7 +1855,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 56,
+            "line": 55,
             "text": "La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acon"
           }
         },
@@ -1863,7 +1863,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 95,
+            "line": 94,
             "text": "Esta alfabetización no se obtiene leyendo. Requiere práctica guiada, retroalimentación y reflexión sostenida en el proceso. La progresión sugerida tiene tres niveles, con duración aproximada de un semestre cada uno para quien ya domine la a"
           }
         },
@@ -1871,7 +1871,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 49,
+            "line": 48,
             "text": "La alfabetización digital tradicional enseña a usar las herramientas. La alfabetización crítica en IA enseña a entender los sistemas que producen las salidas. Esta pieza propone una tercera capa no cubierta por las dos anteriores: aprender "
           }
         },
@@ -1879,7 +1879,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 56,
+            "line": 55,
             "text": "La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acon"
           }
         },
@@ -1887,7 +1887,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 72,
+            "line": 71,
             "text": "cognitivo conserva la persona."
           }
         },
@@ -1895,7 +1895,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 56,
+            "line": 55,
             "text": "La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acon"
           }
         },
@@ -1903,7 +1903,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/alfabetizacion-agenciamiento-ia/index.md",
-            "line": 56,
+            "line": 55,
             "text": "La operativa enseña a formular prompts, a comparar modelos, a enderezar las solicitudes; la crítica enseña a leer los sesgos, a comprender el modelo de negocio, a anticipar las consecuencias sociales. Ninguna de estas dos enseña lo que acon"
           }
         }
@@ -2338,7 +2338,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 60,
+            "line": 59,
             "text": "| **Comprender** | Reconocer qué hace una herramienta de IA, sus límites visibles, cuándo conviene usarla. |"
           }
         },
@@ -2346,7 +2346,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Hablar de \"competencias digitales\" sin mencionar IA dejó de ser una opción en 2024. Los marcos internacionales más usados —DigComp en la Unión Europea y el AI Competency Framework de UNESCO— ya integran la IA como parte transversal del perf"
           }
         },
@@ -2354,7 +2354,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 44,
+            "line": 43,
             "text": "Comprensión de los principios éticos y de los compromisos asociados al uso responsable de la IA: privacidad, equidad, transparencia, sostenibilidad. No es un módulo aparte; es una capa que atraviesa cualquier interacción con un modelo. La s"
           }
         },
@@ -2362,7 +2362,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Un programa académico que se proponga desarrollar competencias digitales con IA en sus estudiantes no parte de cero. Existen dos marcos consolidados con suficiente convergencia para usarse como guía operativa:"
           }
         },
@@ -2370,7 +2370,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 52,
+            "line": 51,
             "text": "Para estudiantes con perfil técnico, la capacidad de cuestionar la explicabilidad de los sistemas —que puedan dar cuenta de por qué producen sus salidas— y participar en su diseño, prueba y optimización. Para estudiantes con perfil no técni"
           }
         },
@@ -2378,7 +2378,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 84,
+            "line": 83,
             "text": "### Evaluar el proceso, no solo el resultado"
           }
         },
@@ -2386,7 +2386,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Capacidad para mantener la agencia humana —la capacidad de decidir y actuar por cuenta propia frente al sistema—, la responsabilidad social y la rendición de cuentas en interacciones con sistemas de IA. Es la dimensión menos técnica y la má"
           }
         },
@@ -2394,7 +2394,7 @@
           "present": false,
           "evidence": {
             "source": "content/formacion-docente/competencias-digitales-ia-estudiantes/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Capacidad para mantener la agencia humana —la capacidad de decidir y actuar por cuenta propia frente al sistema—, la responsabilidad social y la rendición de cuentas en interacciones con sistemas de IA. Es la dimensión menos técnica y la má"
           }
         }
@@ -3545,7 +3545,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         },
@@ -3553,7 +3553,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         },
@@ -3561,7 +3561,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         },
@@ -3569,7 +3569,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         },
@@ -3577,7 +3577,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         },
@@ -3585,7 +3585,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 47,
+            "line": 46,
             "text": "El debate público sobre IA y honestidad académica se ha concentrado en un solo escenario —el estudiante que entrega como propio un texto generado— y eso ha dejado sin nombre los dilemas de quien enseña. Conviene nombrarlos, porque ninguno s"
           }
         },
@@ -3593,7 +3593,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 43,
+            "line": 42,
             "text": "Los marcos ya existen y no hace falta repetirlos aquí: los [cuatro criterios éticos para educación superior](/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/) dan el vocabulario conceptual, y los [lineamientos UNESCO]("
           }
         },
@@ -3601,7 +3601,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/etica-profesional-docente-ia/index.md",
-            "line": 40,
+            "line": 39,
             "text": "Cuando una universidad discute la ética de la IA, la pregunta suele dirigirse al estudiantado: qué puede usar, qué debe declarar, qué constituye una falta. Esta guía invierte la dirección. Quien prepara clase con estas herramientas también "
           }
         }
@@ -3948,7 +3948,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La AAC&U (2009) define el pensamiento crítico como *\"un hábito mental caracterizado por la exploración exhaustiva de cuestiones, ideas, hechos y artefactos antes de aceptar o formular una opinión o conclusión\"*. La utilidad de esta definici"
           }
         },
@@ -3956,7 +3956,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 41,
+            "line": 40,
             "text": "- **Curiosidad** — preguntar más y mejor. Riesgo con IA: el estudiante deja de formular preguntas porque el modelo ya entrega respuestas. Antídoto pedagógico: tareas donde la calidad de los prompts es lo que se evalúa, no la respuesta final"
           }
         },
@@ -3964,7 +3964,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 22,
+            "line": 21,
             "text": "La IA generativa no destruye el pensamiento crítico ni lo potencia por sí sola. Lo estresa. Lo somete a un tipo de presión que antes no tenía: la de evaluar respuestas instantáneas, fluidas y plausibles, producidas por sistemas que no se ca"
           }
         },
@@ -3972,7 +3972,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 42,
+            "line": 41,
             "text": "- **Escepticismo metodológico** — sospechar de las afirmaciones, incluso de las propias. Riesgo: la fluidez del texto generado disuelve la sospecha. Antídoto: pedir que toda salida de la IA sea contrastada con al menos una fuente externa."
           }
         },
@@ -3980,7 +3980,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La AAC&U (2009) define el pensamiento crítico como *\"un hábito mental caracterizado por la exploración exhaustiva de cuestiones, ideas, hechos y artefactos antes de aceptar o formular una opinión o conclusión\"*. La utilidad de esta definici"
           }
         },
@@ -3988,7 +3988,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La AAC&U (2009) define el pensamiento crítico como *\"un hábito mental caracterizado por la exploración exhaustiva de cuestiones, ideas, hechos y artefactos antes de aceptar o formular una opinión o conclusión\"*. La utilidad de esta definici"
           }
         },
@@ -3996,7 +3996,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 41,
+            "line": 40,
             "text": "- **Curiosidad** — preguntar más y mejor. Riesgo con IA: el estudiante deja de formular preguntas porque el modelo ya entrega respuestas. Antídoto pedagógico: tareas donde la calidad de los prompts es lo que se evalúa, no la respuesta final"
           }
         },
@@ -4004,7 +4004,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/pensamiento-critico-ia-generativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La AAC&U (2009) define el pensamiento crítico como *\"un hábito mental caracterizado por la exploración exhaustiva de cuestiones, ideas, hechos y artefactos antes de aceptar o formular una opinión o conclusión\"*. La utilidad de esta definici"
           }
         }
@@ -4178,7 +4178,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 37,
+            "line": 36,
             "text": "El taller adopta el enfoque de **diseño inverso** (Wiggins & McTighe, 2005): se parte de los aprendizajes esperados al final de la asignatura y se trabaja hacia atrás hasta llegar a las actividades concretas. La IA aparece en el último paso"
           }
         },
@@ -4186,7 +4186,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 30,
+            "line": 29,
             "text": "- **Una asignatura propia identificada.** El taller no es teórico; cada docente trabaja sobre una asignatura concreta que enseña o va a enseñar."
           }
         },
@@ -4194,7 +4194,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Esta propuesta de taller organiza seis horas en tres sesiones. Está pensada para coordinaciones académicas que preparan formación en diseño de actividades con IA partiendo de los aprendizajes esperados —no de las herramientas disponibles—. "
           }
         },
@@ -4202,7 +4202,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 37,
+            "line": 36,
             "text": "El taller adopta el enfoque de **diseño inverso** (Wiggins & McTighe, 2005): se parte de los aprendizajes esperados al final de la asignatura y se trabaja hacia atrás hasta llegar a las actividades concretas. La IA aparece en el último paso"
           }
         },
@@ -4210,7 +4210,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Esta propuesta de taller organiza seis horas en tres sesiones. Está pensada para coordinaciones académicas que preparan formación en diseño de actividades con IA partiendo de los aprendizajes esperados —no de las herramientas disponibles—. "
           }
         },
@@ -4218,7 +4218,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 28,
+            "line": 27,
             "text": "El taller está diseñado para grupos de 12 a 24 docentes universitarios. La heterogeneidad disciplinar puede aportar contraste si la facilitación ayuda a traducir ejemplos entre campos; no se presenta aquí como resultado comprobado. Los part"
           }
         },
@@ -4226,7 +4226,7 @@
           "present": true,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Esta propuesta de taller organiza seis horas en tres sesiones. Está pensada para coordinaciones académicas que preparan formación en diseño de actividades con IA partiendo de los aprendizajes esperados —no de las herramientas disponibles—. "
           }
         },
@@ -4234,7 +4234,7 @@
           "present": false,
           "evidence": {
             "source": "content/formacion-docente/taller-diseno-actividades-ia-backward/index.md",
-            "line": 45,
+            "line": 44,
             "text": "Cada participante sale con tres a cinco aprendizajes esperados que explicitan qué operación realizará el estudiantado, sobre qué contenido, en qué condiciones y con qué criterio podrá reconocerse. Bloom sirve como vocabulario de revisión, n"
           }
         }
@@ -4519,7 +4519,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 17,
+            "line": 16,
             "text": "Conviene recorrer esta sección en tres niveles. El primero es conceptual: antes de decidir si un uso concreto de IA es aceptable, ayuda tener criterios con los que examinarlo. Los [cuatro criterios éticos para educación superior](marco-etic"
           }
         },
@@ -4531,7 +4531,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 14,
+            "line": 13,
             "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         },
@@ -4539,7 +4539,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 40,
+            "line": 39,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4547,7 +4547,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 40,
+            "line": 39,
             "text": "Si estudias y quieres saber cuándo usar IA en un trabajo, cómo declararlo y qué se considera uso inadecuado, el mejor punto de entrada no es un reglamento sino una práctica: el [laboratorio guiado para decidir antes de entregar](/ia-educaci"
           }
         },
@@ -4559,7 +4559,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 14,
+            "line": 13,
             "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         },
@@ -4567,7 +4567,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/_index.md",
-            "line": 14,
+            "line": 13,
             "text": "El uso de IA en educación plantea preguntas sobre autoría, transparencia, integridad académica y justicia que ningún manual de herramienta responde. Esta sección reúne marcos conceptuales, lineamientos institucionales y prácticas de aula pa"
           }
         }
@@ -4754,7 +4754,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 47,
+            "line": 46,
             "text": "- **La rendición de cuentas no se delega al algoritmo.** Cuando un sistema de IA toma una decisión, alguien humano debe poder responder por ella."
           }
         },
@@ -4762,7 +4762,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 36,
+            "line": 35,
             "text": "| Marco de competencias de IA para docentes (2024) | Competencias profesionales | Programas de formación docente |"
           }
         },
@@ -4770,7 +4770,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 23,
+            "line": 22,
             "text": "La UNESCO mantiene tres documentos de referencia para IA en educación que conviene conocer en conjunto: la *Recomendación sobre la ética de la IA* (2021), la *Guía sobre IA generativa en educación e investigación* (2023, actualización vigen"
           }
         },
@@ -4778,7 +4778,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 56,
+            "line": 55,
             "text": "1. **Regulación de proveedores de IA generativa**, con énfasis en privacidad de datos y validación pedagógica."
           }
         },
@@ -4786,7 +4786,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 48,
+            "line": 47,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         },
@@ -4794,7 +4794,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 62,
+            "line": 61,
             "text": "7. **Reflexión internacional sobre las implicaciones a largo plazo** del cambio en cómo se produce conocimiento."
           }
         },
@@ -4802,7 +4802,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 26,
+            "line": 25,
             "text": "*Corte de la información: agosto de 2026; la versión más reciente considerada de la Guía sobre IA generativa es la actualización de enero de 2026. Próxima revisión prevista: febrero de 2027.*"
           }
         },
@@ -4810,7 +4810,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/index.md",
-            "line": 48,
+            "line": 47,
             "text": "- **La equidad incluye al medio ambiente.** La Recomendación exige considerar el costo ambiental de los sistemas de IA, aspecto que rara vez se discute en universidades."
           }
         }
@@ -4834,7 +4834,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 33,
+            "line": 32,
             "text": "La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estud"
           }
         },
@@ -4842,7 +4842,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 33,
+            "line": 32,
             "text": "La primera tentación institucional frente a la IA generativa es redactar un reglamento que enumere usos permitidos y prohibidos. La práctica docente muestra que esa estrategia envejece en semanas: las herramientas mutan, las prácticas estud"
           }
         },
@@ -4850,7 +4850,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
           }
         },
@@ -4858,7 +4858,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
           }
         },
@@ -4866,7 +4866,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 28,
+            "line": 27,
             "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera como una red rizomática de reflexión: cada lectora y lec"
           }
         },
@@ -4874,7 +4874,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 61,
+            "line": 60,
             "text": "- Diseñar actividades donde la IA retroalimenta borradores, pero el estudiante escribe la versión final sin asistencia."
           }
         },
@@ -4882,7 +4882,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Los criterios internacionales sobre IA en educación son abundantes, pero su traducción a decisiones docentes sigue siendo escasa. Este texto comparte cuatro ejes operativos — autonomía, transparencia, justicia epistémica y responsabilidad c"
           }
         },
@@ -4890,7 +4890,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-etico-ia-educacion-superior/index.md",
-            "line": 28,
+            "line": 27,
             "text": "**Este sitio no es un documento oficial.** Lo que se ofrece aquí son sugerencias y criterios para alimentar la conversación entre docentes, no un marco normativo. Aprendizaje-IA opera como una red rizomática de reflexión: cada lectora y lec"
           }
         }
@@ -4914,7 +4914,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 78,
+            "line": 77,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4922,7 +4922,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 29,
+            "line": 28,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4930,7 +4930,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 78,
+            "line": 77,
             "text": "- **Mecanismo público de validación pedagógica** de plataformas comerciales antes de su adopción institucional."
           }
         },
@@ -4938,7 +4938,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 29,
+            "line": 28,
             "text": "**Esta página describe el marco regulatorio externo, no establece políticas.** Lo que se ofrece a continuación es una síntesis de documentos públicos (ANUIES, leyes generales, observatorios) acompañada de sugerencias de lectura. Aprendizaje"
           }
         },
@@ -4946,7 +4946,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 38,
+            "line": 37,
             "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
           }
         },
@@ -4954,7 +4954,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 44,
+            "line": 43,
             "text": "- ***Inteligencia Artificial en la Educación Superior: perspectivas e implicaciones prácticas en las instituciones mexicanas*** (ANUIES, 2024). Informe nacional con once capítulos que abordan dimensiones fundamentales: brechas digitales, es"
           }
         },
@@ -4962,7 +4962,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 26,
+            "line": 25,
             "text": "*Corte de la información: agosto de 2026. El panorama regulatorio descrito —incluida la ausencia de una ley federal específica— corresponde a esa fecha. Próxima revisión prevista: febrero de 2027.*"
           }
         },
@@ -4970,7 +4970,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/marco-regulatorio-universidades-mexico/index.md",
-            "line": 38,
+            "line": 37,
             "text": "- **Institucional.** Cada universidad redacta sus propias políticas, lineamientos y disposiciones. La ausencia de una ley federal específica deja un margen amplio que cada institución administra a su criterio."
           }
         }
@@ -4996,7 +4996,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
           }
         },
@@ -5004,7 +5004,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 35,
+            "line": 34,
             "text": "- ¿qué decisiones tomó la persona?;"
           }
         },
@@ -5012,7 +5012,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
           }
         },
@@ -5020,7 +5020,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 29,
+            "line": 28,
             "text": "El plagio sigue nombrando prácticas relevantes: presentar como propia una aportación ajena, ocultar una fuente o reutilizar material en contra de las reglas acordadas. La IA complica el análisis porque una salida generada no siempre reprodu"
           }
         },
@@ -5028,7 +5028,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 37,
+            "line": 36,
             "text": "- ¿qué procedimiento permite revisar una duda sin invertir la carga de la prueba?"
           }
         },
@@ -5036,7 +5036,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 39,
+            "line": 38,
             "text": "Sarah Elaine Eaton (2023) propone **postplagiarism** como un marco para pensar ética e integridad cuando tecnologías avanzadas no pueden separarse con facilidad de la producción humana. Su planteamiento conserva la responsabilidad: quien en"
           }
         },
@@ -5044,7 +5044,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 50,
+            "line": 49,
             "text": "| Dos versiones comparadas | Cambios relevantes y uso de retroalimentación | Explicar qué cambió, no premiar la cantidad de versiones |"
           }
         },
@@ -5052,7 +5052,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/plagio-autenticidad-era-ia/index.md",
-            "line": 24,
+            "line": 23,
             "text": "La presencia de IA generativa no elimina el plagio ni permite deducir autoría a partir de un único rastro. Para valorar un trabajo hacen falta reglas comprensibles, declaración y atribución cuando correspondan, responsabilidad por lo entreg"
           }
         }
@@ -5086,7 +5086,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 31,
+            "line": 30,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5094,7 +5094,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Los modelos generativos reproducen los sesgos de sus datos de entrenamiento. La respuesta pedagógica no es prohibirlos ni denunciarlos en abstracto, sino convertir el sesgo en objeto de aprendizaje: diseñar actividades donde el estudiante a"
           }
         },
@@ -5102,7 +5102,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 33,
+            "line": 32,
             "text": "Para un aula universitaria mexicana, esto tiene consecuencias directas. Si una estudiante pide a Claude Opus 4.6 que le liste los referentes contemporáneos de una disciplina, es probable que reciba una lista donde domina la bibliografía ang"
           }
         },
@@ -5110,7 +5110,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Los modelos generativos reproducen los sesgos de sus datos de entrenamiento. La respuesta pedagógica no es prohibirlos ni denunciarlos en abstracto, sino convertir el sesgo en objeto de aprendizaje: diseñar actividades donde el estudiante a"
           }
         },
@@ -5118,7 +5118,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 31,
+            "line": 30,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5126,7 +5126,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 31,
+            "line": 30,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         },
@@ -5134,7 +5134,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 49,
+            "line": 48,
             "text": "El modelo asume criterios de calidad implícitos en sus datos. Al pedirle que evalúe un ensayo, un proyecto o una propuesta, aplica rúbricas no declaradas que favorecen el estilo argumentativo, las convenciones retóricas y las tradiciones in"
           }
         },
@@ -5142,7 +5142,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/sesgos-algoritmicos-equidad/index.md",
-            "line": 31,
+            "line": 30,
             "text": "El problema no se resuelve entrenando con más datos. Los datos disponibles en la web están desigualmente distribuidos: el inglés domina, las culturas anglosajonas están sobrerepresentadas, las voces académicas establecidas aparecen más que "
           }
         }
@@ -5166,7 +5166,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 27,
+            "line": 26,
             "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
@@ -5174,7 +5174,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 22,
+            "line": 21,
             "text": "La transparencia algorítmica es uno de los principios más citados en los marcos de IA en educación, y uno de los que con más frecuencia se queda en el plano discursivo. Esta guía propone cinco prácticas concretas que un docente puede incorp"
           }
         },
@@ -5182,7 +5182,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 25,
+            "line": 24,
             "text": "## Qué se entiende por transparencia algorítmica en el aula"
           }
         },
@@ -5190,7 +5190,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 49,
+            "line": 48,
             "text": "Cuando la consigna permite el uso de IA, se exige un anexo del estudiante que documente: prompts utilizados, modelo y versión, salidas obtenidas, y decisiones tomadas (qué se conservó, qué se descartó y por qué). Este anexo se evalúa con su"
           }
         },
@@ -5198,7 +5198,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 37,
+            "line": 36,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         },
@@ -5206,7 +5206,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 37,
+            "line": 36,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         },
@@ -5214,7 +5214,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 27,
+            "line": 26,
             "text": "El principio de transparencia, en el contexto de IA en educación, exige hacer visible y comprensible el papel que juegan los sistemas algorítmicos en los procesos de enseñanza, aprendizaje y evaluación (UNESCO, 2021). En la práctica docente"
           }
         },
@@ -5222,7 +5222,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/etica-y-transparencia/transparencia-algoritmica-aula/index.md",
-            "line": 37,
+            "line": 36,
             "text": "El primer movimiento es declarativo: una sección del syllabus —no más de media página— que explicite tres cosas en lenguaje claro: qué usos de IA están permitidos, qué usos están restringidos y qué usos están prohibidos en la asignatura. La"
           }
         }
@@ -5333,7 +5333,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 20,
+            "line": 19,
             "text": "El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, docume"
           }
         },
@@ -5341,7 +5341,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 20,
+            "line": 19,
             "text": "El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, docume"
           }
         },
@@ -5349,7 +5349,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 53,
+            "line": 52,
             "text": "**Idea para el Aula:** Pide a tus estudiantes que soliciten a la IA (ej. Gemini o Claude) que actúe como un \"cliente conflictivo\" o un \"stakeholder afectado\" por el problema que intentan resolver. La entrevista con este agente de IA les ayu"
           }
         },
@@ -5357,7 +5357,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 44,
+            "line": 43,
             "text": "El docente puede usar IA para generar escenarios complejos adaptados al contexto disciplinar. El estudiante recibe el escenario y lo reformula con apoyo de la IA."
           }
         },
@@ -5365,7 +5365,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 20,
+            "line": 19,
             "text": "El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, docume"
           }
         },
@@ -5373,7 +5373,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 20,
+            "line": 19,
             "text": "El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, docume"
           }
         },
@@ -5381,7 +5381,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- Iterar sobre productos intermedios con retroalimentación inmediata"
           }
         },
@@ -5389,7 +5389,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/abp-con-ia/index.md",
-            "line": 20,
+            "line": 19,
             "text": "El aprendizaje basado en proyectos (ABP) gana una dimensión distinta cuando la IA interviene en cada fase del proceso. Esta guía presenta un marco para diseñar proyectos donde el estudiante co-produce conocimiento con sistemas de IA, docume"
           }
         }
@@ -5419,7 +5419,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 45,
+            "line": 44,
             "text": "Renata prepara una explicación sobre un problema de su asignatura. Ya escribió un primer"
           }
         },
@@ -5427,7 +5427,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 60,
+            "line": 59,
             "text": "la persona conserva cuatro acciones que no conviene esconder:"
           }
         },
@@ -5435,7 +5435,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "características tendría una aportación útil, antes de pedir una respuesta;"
           }
         },
@@ -5443,7 +5443,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 46,
+            "line": 45,
             "text": "borrador y puede señalar la idea central. Al revisarlo con un sistema de IA generativa recibe dos"
           }
         },
@@ -5451,7 +5451,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 51,
+            "line": 50,
             "text": "Las dos respuestas parecen útiles. Ninguna decide por sí sola qué debe cambiar. Renata"
           }
         },
@@ -5459,7 +5459,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 60,
+            "line": 59,
             "text": "la persona conserva cuatro acciones que no conviene esconder:"
           }
         },
@@ -5467,7 +5467,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 64,
+            "line": 63,
             "text": "2. **contrasta**: comprueba la propuesta con algo que no proviene de la propia respuesta —una"
           }
         },
@@ -5475,7 +5475,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/agenciamiento-humano-ia/index.md",
-            "line": 52,
+            "line": 51,
             "text": "necesita volver al propósito, revisar la evidencia y explicar por qué acepta, transforma o"
           }
         }
@@ -5501,7 +5501,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 69,
+            "line": 68,
             "text": "### 1. Estudio de caso asistido"
           }
         },
@@ -5509,7 +5509,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "El aprendizaje activo requiere que el estudiante haga algo más que escuchar. La IA transforma esta premisa al operar en dos niveles simultáneos: como asistente de diseño para el docente y como interlocutor cognitivo para el estudiante duran"
           }
         },
@@ -5517,7 +5517,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "El aprendizaje activo requiere que el estudiante haga algo más que escuchar. La IA transforma esta premisa al operar en dos niveles simultáneos: como asistente de diseño para el docente y como interlocutor cognitivo para el estudiante duran"
           }
         },
@@ -5525,7 +5525,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 38,
+            "line": 37,
             "text": "El [diseño inverso](/formacion-docente/taxonomia-bloom-diseno-inverso/) se potencia: el docente parte de las competencias que busca desarrollar y la IA genera materiales alineados."
           }
         },
@@ -5533,7 +5533,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 44,
+            "line": 43,
             "text": "- **Tutor socrático** — formula preguntas en lugar de dar respuestas"
           }
         },
@@ -5541,7 +5541,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 54,
+            "line": 53,
             "text": "| Consigna docente. | La persona recibe un propósito, criterios y límites de uso explícitos. | La interacción se vincula con un resultado de aprendizaje. |"
           }
         },
@@ -5549,7 +5549,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 46,
+            "line": 45,
             "text": "- **Evaluador formativo** — ofrece retroalimentación sobre borradores o soluciones parciales"
           }
         },
@@ -5557,7 +5557,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-activo-con-ia/index.md",
-            "line": 44,
+            "line": 43,
             "text": "- **Tutor socrático** — formula preguntas en lugar de dar respuestas"
           }
         }
@@ -5679,7 +5679,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Cormier (2008) propuso el aprendizaje rizomático para entornos digitales abiertos antes de que existiera la IA generativa. Su tesis sostenía que en redes donde la información se produce más rápido de lo que cualquier currículo puede catalog"
           }
         },
@@ -5687,7 +5687,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 29,
+            "line": 28,
             "text": "La IA generativa amplía la propuesta en una dirección específica: el estudiante ya no depende de la comunidad humana para activar conexiones. Puede explorar nodos lejanos al campo principal con ayuda de un modelo, contrastar interpretacione"
           }
         },
@@ -5695,7 +5695,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Cormier (2008) propuso el aprendizaje rizomático para entornos digitales abiertos antes de que existiera la IA generativa. Su tesis sostenía que en redes donde la información se produce más rápido de lo que cualquier currículo puede catalog"
           }
         },
@@ -5703,7 +5703,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Cormier (2008) propuso el aprendizaje rizomático para entornos digitales abiertos antes de que existiera la IA generativa. Su tesis sostenía que en redes donde la información se produce más rápido de lo que cualquier currículo puede catalog"
           }
         },
@@ -5715,7 +5715,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Cormier (2008) propuso el aprendizaje rizomático para entornos digitales abiertos antes de que existiera la IA generativa. Su tesis sostenía que en redes donde la información se produce más rápido de lo que cualquier currículo puede catalog"
           }
         },
@@ -5723,7 +5723,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 66,
+            "line": 65,
             "text": "Cada estudiante produce, a lo largo del semestre, un mapa de su recorrido por el campo: nodos visitados, conexiones establecidas, decisiones tomadas, descartes justificados. El mapa es individual; cada uno se ve distinto. La rúbrica evalúa "
           }
         },
@@ -5731,7 +5731,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/aprendizaje-rizomatico-ia/index.md",
-            "line": 44,
+            "line": 43,
             "text": "| **Calcomanía** — la cartografía no reproduce un original | El producto evaluativo es la propia ruta del estudiante, no la copia de la del docente. |"
           }
         }
@@ -5844,7 +5844,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         },
@@ -5852,7 +5852,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         },
@@ -5860,7 +5860,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 104,
+            "line": 103,
             "text": "El elemento crítico no es el comentario de la IA, sino lo que ocurre después. Cada ciclo debe declarar un **criterio**, producir una **acción posterior** —revisar, verificar, pedir ayuda o explicar una aceptación, modificación o descarte— y"
           }
         },
@@ -5868,7 +5868,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 75,
+            "line": 74,
             "text": "La diferencia entre evaluación sumativa y formativa es de **uso**, no de instrumento. Una evidencia se usa formativamente cuando permite decidir qué debe revisarse, qué apoyo necesita una persona o qué conviene cambiar en la enseñanza. Se u"
           }
         },
@@ -5876,7 +5876,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         },
@@ -5884,7 +5884,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         },
@@ -5892,7 +5892,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         },
@@ -5900,7 +5900,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/evaluacion-formativa-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una actividad es formativa cuando la evidencia que produce se usa para modificar o ajustar la enseñanza y el aprendizaje. Puede además contribuir a una decisión sumativa: ambas funciones pueden coincidir en la misma actividad. Esta guía pro"
           }
         }
@@ -5932,7 +5932,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 25,
+            "line": 24,
             "text": "Antes de escribir, reúne tres cosas:"
           }
         },
@@ -5940,7 +5940,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "3. una forma de revisar el resultado, como duración, correspondencia con el objetivo o lenguaje apropiado para el grupo."
           }
         },
@@ -5948,7 +5948,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 25,
+            "line": 24,
             "text": "Antes de escribir, reúne tres cosas:"
           }
         },
@@ -5956,7 +5956,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 20,
+            "line": 19,
             "text": "Tienes un objetivo de aprendizaje, un texto o una actividad que quieres revisar con IA. Esta guía te ayuda a explicar la tarea, entregar el material necesario y decidir si la respuesta sirve. No necesitas usar una fórmula completa cada vez."
           }
         },
@@ -5964,7 +5964,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 20,
+            "line": 19,
             "text": "Tienes un objetivo de aprendizaje, un texto o una actividad que quieres revisar con IA. Esta guía te ayuda a explicar la tarea, entregar el material necesario y decidir si la respuesta sirve. No necesitas usar una fórmula completa cada vez."
           }
         },
@@ -5972,7 +5972,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "3. una forma de revisar el resultado, como duración, correspondencia con el objetivo o lenguaje apropiado para el grupo."
           }
         },
@@ -5980,7 +5980,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 66,
+            "line": 65,
             "text": "1. Comprueba que cada propuesta use el objetivo entregado y no otro parecido."
           }
         },
@@ -5988,7 +5988,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/ingenieria-de-prompts-para-docentes/index.md",
-            "line": 20,
+            "line": 19,
             "text": "Tienes un objetivo de aprendizaje, un texto o una actividad que quieres revisar con IA. Esta guía te ayuda a explicar la tarea, entregar el material necesario y decidir si la respuesta sirve. No necesitas usar una fórmula completa cada vez."
           }
         }
@@ -6020,7 +6020,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Antes de modificar un syllabus, conviene responder tres preguntas a nivel de programa académico. Sin estas respuestas, los cambios en asignaturas individuales producen incoherencia y duplicación."
           }
         },
@@ -6028,7 +6028,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 39,
+            "line": 38,
             "text": "El primer paso es un ejercicio de claustro: revisar el perfil de egreso del programa con el equipo docente y marcar, competencia por competencia, su nivel de afectación por la IA generativa. Tres categorías son suficientes:"
           }
         },
@@ -6036,7 +6036,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Antes de modificar un syllabus, conviene responder tres preguntas a nivel de programa académico. Sin estas respuestas, los cambios en asignaturas individuales producen incoherencia y duplicación."
           }
         },
@@ -6044,7 +6044,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 29,
+            "line": 28,
             "text": "- **¿Qué competencias del perfil de egreso se ven afectadas por la IA?** Algunas competencias profesionales se transforman radicalmente (escritura técnica, análisis de datos), otras quedan intactas (habilidades clínicas presenciales, atenci"
           }
         },
@@ -6052,7 +6052,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         },
@@ -6060,7 +6060,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 55,
+            "line": 54,
             "text": "- **Alta vulnerabilidad** — la evaluación se resuelve en menos de cinco minutos con un modelo gratuito, sin que el resultado revele si el estudiante aprendió."
           }
         },
@@ -6068,7 +6068,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 43,
+            "line": 42,
             "text": "| **Transformación profunda** | La competencia cambia de naturaleza con IA. | Rediseño completo de cómo se desarrolla y evalúa. |"
           }
         },
@@ -6076,7 +6076,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/integracion-curricular-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "Una vez claras las competencias afectadas, el programa decide qué asignatura es responsable de desarrollar cada dimensión del [marco de competencias de IA para estudiantes de UNESCO](/recursos/links/unesco-marco-competencias-docentes-ia/). "
           }
         }
@@ -6100,7 +6100,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 33,
+            "line": 32,
             "text": "La separación es deliberada: los ejes cambian poco (soportan el ritmo de la tecnología); las sugerencias cambian con cada semestre, cuando aparecen modelos nuevos, casos de uso emergentes o tensiones que el semestre anterior no se observaro"
           }
         },
@@ -6108,7 +6108,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 63,
+            "line": 62,
             "text": "No todas las tareas de un curso necesitan la misma regla, porque la IA no juega el mismo papel en todas. En unas realizaría justamente la práctica que la tarea busca formar; en otras ofrece una ayuda útil después de un primer intento propio"
           }
         },
@@ -6116,7 +6116,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Los criterios éticos sobre IA en educación abundan; las decisiones operativas que los llevan al aula son escasas. Esta guía es el complemento práctico al [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educaci"
           }
         },
@@ -6124,7 +6124,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 41,
+            "line": 40,
             "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         },
@@ -6132,7 +6132,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para acompañar conversaciones docentes, no normativa institucional. Aprendizaje-IA opera como una red rizomática de reflexión; cada quien adapta lo que le s"
           }
         },
@@ -6144,7 +6144,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Los criterios éticos sobre IA en educación abundan; las decisiones operativas que los llevan al aula son escasas. Esta guía es el complemento práctico al [marco ético institucional](/ia-educacion/etica-y-transparencia/marco-etico-ia-educaci"
           }
         },
@@ -6152,7 +6152,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/guias/lineamientos-eticos-ia/index.md",
-            "line": 41,
+            "line": 40,
             "text": "| Criterio de decisión | Qué cuida | Una pregunta para aplicarlo |"
           }
         }
@@ -6345,7 +6345,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/_index.md",
-            "line": 24,
+            "line": 23,
             "text": "- **Diseño de asignatura** — cómo articular objetivos de aprendizaje, actividades, rúbricas y momentos de retroalimentación cuando la IA es parte del proceso."
           }
         },
@@ -6353,7 +6353,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "- **Coordinación entre materias** — cómo evitar que cada docente improvise reglas distintas y los estudiantes reciban señales contradictorias."
           }
         },
@@ -6361,7 +6361,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Integrar IA en el currículo no es lo mismo que permitir que los estudiantes la usen. Es decidir, asignatura por asignatura, qué se espera que la IA aporte, qué tipo de tarea queda fuera de su alcance y cómo se evalúa el aprendizaje en un au"
           }
         },
@@ -6377,7 +6377,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/_index.md",
-            "line": 23,
+            "line": 22,
             "text": "- **Mapa curricular** — qué competencias de la titulación se ven más afectadas por la presencia de IA y cuáles requieren rediseñar criterios de evaluación."
           }
         },
@@ -6385,7 +6385,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/integracion-curricular/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Integrar IA en el currículo no es lo mismo que permitir que los estudiantes la usen. Es decidir, asignatura por asignatura, qué se espera que la IA aporte, qué tipo de tarea queda fuera de su alcance y cómo se evalúa el aprendizaje en un au"
           }
         },
@@ -6652,7 +6652,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
           }
         },
@@ -6660,7 +6660,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 21,
+            "line": 20,
             "text": "Por ahora la sección contiene tres piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de s"
           }
         },
@@ -6668,7 +6668,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 21,
+            "line": 20,
             "text": "Por ahora la sección contiene tres piezas. [Comprueba la afirmación que cambia tu decisión](comprobar-afirmacion/) entrena la verificación selectiva: en lugar de intentar comprobarlo todo, localizar el punto de una respuesta de IA que, de s"
           }
         },
@@ -6676,7 +6676,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
           }
         },
@@ -6684,7 +6684,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
           }
         },
@@ -6692,7 +6692,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
           }
         },
@@ -6700,7 +6700,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 19,
+            "line": 18,
             "text": "La diferencia con una [guía](/ia-educacion/guias/) está en el alcance. Una guía acompaña una tarea completa —diseñar una actividad, revisar un borrador, dar retroalimentación— y por eso desarrolla criterios, alternativas y decisiones a lo l"
           }
         },
@@ -6708,7 +6708,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/practicas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "Una práctica no explica un tema: te pone a hacer algo delimitado, con un material propio y un resultado que conservas. Esta sección reúne los ejercicios y plantillas que las guías del sitio invocan cuando llega el momento de actuar."
           }
         }
@@ -9216,7 +9216,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         },
@@ -9224,7 +9224,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         },
@@ -9232,7 +9232,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         },
@@ -9240,7 +9240,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         },
@@ -9248,7 +9248,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         },
@@ -9256,7 +9256,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "| [Preparar una decisión institucional](/ia-educacion/rutas/decision-institucional-ia/) | Iniciativas dispersas, capacidades disponibles, riesgos, costos y responsabilidades por confirmar. | Definir alcance, distribuir decisiones, fijar con"
           }
         },
@@ -9264,7 +9264,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "| [Preparar una decisión institucional](/ia-educacion/rutas/decision-institucional-ia/) | Iniciativas dispersas, capacidades disponibles, riesgos, costos y responsabilidades por confirmar. | Definir alcance, distribuir decisiones, fijar con"
           }
         },
@@ -9272,7 +9272,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/rutas/_index.md",
-            "line": 16,
+            "line": 15,
             "text": "La misma pregunta sobre IA cambia según quién debe resolverla. Una estudiante puede necesitar comprobar una sugerencia antes de entregar; una coordinación, acordar un piloto entre varias asignaturas; la dirección, decidir qué iniciativas pu"
           }
         }
@@ -9470,7 +9470,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "- **Tendencias emergentes** — agentes pedagógicos, personalización, tutoría algorítmica, evaluación asistida y los debates abiertos en cada caso."
           }
         },
@@ -9478,7 +9478,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/_index.md",
-            "line": 30,
+            "line": 29,
             "text": "No publicamos lo último porque sea lo último. Cada pieza pasa por una pregunta básica: **¿esta tendencia obliga a un docente universitario a cambiar algo en su práctica, o solo está ocupando ciclos de atención?** Cuando la respuesta es la s"
           }
         },
@@ -9490,7 +9490,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "- **Tendencias emergentes** — agentes pedagógicos, personalización, tutoría algorítmica, evaluación asistida y los debates abiertos en cada caso."
           }
         },
@@ -9506,7 +9506,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "- **Tendencias emergentes** — agentes pedagógicos, personalización, tutoría algorítmica, evaluación asistida y los debates abiertos en cada caso."
           }
         },
@@ -9514,7 +9514,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/_index.md",
-            "line": 28,
+            "line": 27,
             "text": "## Criterio editorial"
           }
         }
@@ -9541,7 +9541,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 45,
+            "line": 44,
             "text": "La propuesta puede traducirse en una decisión más acotada: conservar la entrega final y acompañarla con rastros proporcionados de las decisiones que importan. No hace falta registrar cada interacción. Conviene pedir únicamente aquello que p"
           }
         },
@@ -9549,7 +9549,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 45,
+            "line": 44,
             "text": "La propuesta puede traducirse en una decisión más acotada: conservar la entrega final y acompañarla con rastros proporcionados de las decisiones que importan. No hace falta registrar cada interacción. Conviene pedir únicamente aquello que p"
           }
         },
@@ -9557,7 +9557,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 66,
+            "line": 65,
             "text": "La posibilidad de generar comentarios rápidos no convierte una herramienta en evaluador. Antes de usar IA para retroalimentar trabajos, el equipo docente debe definir qué datos pueden procesarse, evitar información personal o confidencial y"
           }
         },
@@ -9565,7 +9565,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "La metáfora procede del **DEC Executive Briefing #018: The Next Era of Assessment**, una conversación entre Vincent Liardi y Daniel A. Bielik publicada por el Digital Education Council en julio de 2025. La fuente propone desplazar parte de "
           }
         },
@@ -9573,7 +9573,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Esta es una **perspectiva institucional**, no es un estudio de eficacia. El artículo del DEC resume una conversación con un representante de Pearson; no presenta muestra, comparación de grupos ni resultados de aprendizaje. El DEC y Pearson "
           }
         },
@@ -9581,7 +9581,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 41,
+            "line": 40,
             "text": "Liardi advierte además que el acceso desigual puede agravar diferencias entre estudiantes. Permitir una herramienta sin garantizar condiciones comparables, o prohibirla sin considerar sus usos reales, produce problemas distintos que una pol"
           }
         },
@@ -9589,7 +9589,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "La metáfora procede del **DEC Executive Briefing #018: The Next Era of Assessment**, una conversación entre Vincent Liardi y Daniel A. Bielik publicada por el Digital Education Council en julio de 2025. La fuente propone desplazar parte de "
           }
         },
@@ -9597,7 +9597,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/evaluacion-en-la-era-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Esta es una **perspectiva institucional**, no es un estudio de eficacia. El artículo del DEC resume una conversación con un representante de Pearson; no presenta muestra, comparación de grupos ni resultados de aprendizaje. El DEC y Pearson "
           }
         }
@@ -9630,7 +9630,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Antes de revisar tendencias, vale separar dos prácticas que en español se confunden:"
           }
         },
@@ -9638,7 +9638,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Mentoría** — acompañamiento centrado en la persona. El mentor orienta decisiones académicas y profesionales, sostiene la motivación en momentos difíciles, modela una trayectoria, ofrece presencia humana. Esta función rara vez aparece en"
           }
         },
@@ -9646,7 +9646,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Antes de revisar tendencias, vale separar dos prácticas que en español se confunden:"
           }
         },
@@ -9654,7 +9654,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 30,
+            "line": 29,
             "text": "- **Tutoría** — acompañamiento centrado en contenido. El tutor responde dudas, ofrece explicaciones, plantea problemas, evalúa progresos en un dominio específico. La mayor parte de la literatura sobre IA en educación se ocupa de esta funció"
           }
         },
@@ -9662,7 +9662,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 42,
+            "line": 41,
             "text": "Estos beneficios potenciales son razones para tomarse la tendencia en serio. No son, todavía, prueba de que cualquier tutor de IA mejore el aprendizaje: la revisión de Burns (2026) para Brookings advierte que, hasta ahora, muchas afirmacion"
           }
         },
@@ -9670,7 +9670,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 33,
+            "line": 32,
             "text": "La distinción importa porque la evidencia disponible sobre IA se concentra en la primera y prácticamente no toca la segunda. Confundirlas produce análisis erróneos."
           }
         },
@@ -9678,7 +9678,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 23,
+            "line": 22,
             "text": "La tutoría académica universitaria está incorporando IA generativa más rápido de lo que las instituciones han podido procesar. Hay resultados experimentales prometedores en contextos acotados, hay riesgos de diseño identificados por la inve"
           }
         },
@@ -9686,7 +9686,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/ia-tutorias-mentoria/index.md",
-            "line": 33,
+            "line": 32,
             "text": "La distinción importa porque la evidencia disponible sobre IA se concentra en la primera y prácticamente no toca la segunda. Confundirlas produce análisis erróneos."
           }
         }
@@ -9720,7 +9720,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Las revisiones sistemáticas recientes muestran resultados cuantificables y consistentes en una dirección: los sistemas de tutoría inteligente con IA mejoran el rendimiento académico medido en pruebas estandarizadas (Batsaikhan & Correia, 20"
           }
         },
@@ -9728,7 +9728,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 22,
+            "line": 21,
             "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
           }
         },
@@ -9736,7 +9736,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 45,
+            "line": 44,
             "text": "La narrativa del tutor personal asumía que un modelo de lenguaje podría replicar la intuición pedagógica de un docente humano que conoce a su estudiante. Eso no ha ocurrido. La razón, según el análisis disponible, es que la intuición pedagó"
           }
         },
@@ -9744,7 +9744,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 22,
+            "line": 21,
             "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
           }
         },
@@ -9756,7 +9756,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 51,
+            "line": 50,
             "text": "Para evitar la confusión que produce la palabra *personalización*, conviene distinguir tres formas que existen hoy y operan de modo distinto:"
           }
         },
@@ -9764,7 +9764,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Las revisiones sistemáticas recientes muestran resultados cuantificables y consistentes en una dirección: los sistemas de tutoría inteligente con IA mejoran el rendimiento académico medido en pruebas estandarizadas (Batsaikhan & Correia, 20"
           }
         },
@@ -9772,7 +9772,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/personalizacion-aprendizaje/index.md",
-            "line": 22,
+            "line": 21,
             "text": "La promesa de \"un tutor personal para cada estudiante\" es la narrativa más vendida sobre IA en educación. Aparece en presentaciones de empresas, en informes de fundaciones y en campañas institucionales. La evidencia disponible matiza esa pr"
           }
         }
@@ -9798,7 +9798,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
           }
         },
@@ -9806,7 +9806,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 37,
+            "line": 36,
             "text": "Adoptado por Harvard, MIT, Stanford, Princeton y Yale. La política institucional fija principios generales y delega la decisión específica al docente o al programa: cada syllabus declara su política de IA (permitida, restringida, prohibida)"
           }
         },
@@ -9814,7 +9814,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
           }
         },
@@ -9822,7 +9822,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 37,
+            "line": 36,
             "text": "Adoptado por Harvard, MIT, Stanford, Princeton y Yale. La política institucional fija principios generales y delega la decisión específica al docente o al programa: cada syllabus declara su política de IA (permitida, restringida, prohibida)"
           }
         },
@@ -9830,7 +9830,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres años después de la aparición de ChatGPT, las políticas institucionales sobre IA generativa en universidades líderes empiezan a converger en patrones reconocibles. Lo que era un mosaico desordenado de prohibiciones, permisivismos y sile"
           }
         },
@@ -9842,7 +9842,7 @@
           "present": true,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Hoy, las políticas que se mantienen son las que asumen que la IA es permanente y rediseñan en torno a ella. Universidades como Harvard, Stanford, Berkeley y Michigan han abandonado la prohibición en favor de un rediseño de la evaluación que"
           }
         },
@@ -9850,7 +9850,7 @@
           "present": false,
           "evidence": {
             "source": "content/ia-educacion/tendencias/politicas-institucionales-universidades/index.md",
-            "line": 95,
+            "line": 94,
             "text": "- **Resolver pronto la cuestión de citación.** Mientras los marcos internacionales se consolidan, fijar internamente una norma con criterio APA 7 ahorra confusiones."
           }
         }
@@ -10026,7 +10026,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en cla"
           }
         },
@@ -10034,7 +10034,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en cla"
           }
         },
@@ -10042,7 +10042,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en cla"
           }
         },
@@ -10054,7 +10054,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en cla"
           }
         },
@@ -10066,7 +10066,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "- **Flujos docentes con IA** — cómo distribuir tareas entre humano y modelo en planeación, evaluación y retroalimentación."
           }
         },
@@ -10074,7 +10074,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Esta rama documenta el trabajo *aguas arriba* del aula: cómo el docente prepara, secuencia y supervisa el uso de IA antes de que los estudiantes la toquen. Donde las [prácticas pedagógicas](/laboratorio/practicas/) proponen qué hacer en cla"
           }
         }
@@ -10098,7 +10098,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Cada paso indica qué actor lo ejecuta.** Docente, IA o estudiante. La distinción importa: cuando un paso recae en la IA, el docente sigue siendo responsable del resultado, pero el flujo lo declara explícitamente."
           }
         },
@@ -10106,7 +10106,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de dec"
           }
         },
@@ -10114,7 +10114,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de dec"
           }
         },
@@ -10122,7 +10122,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 45,
+            "line": 44,
             "text": "D -- No --> F[\"<b>F</b> · Docente: reformular prompt\"]"
           }
         },
@@ -10130,7 +10130,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta contribución presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cu"
           }
         },
@@ -10138,7 +10138,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Cada paso indica qué actor lo ejecuta.** Docente, IA o estudiante. La distinción importa: cuando un paso recae en la IA, el docente sigue siendo responsable del resultado, pero el flujo lo declara explícitamente."
           }
         },
@@ -10146,7 +10146,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Tres procesos recurrentes del trabajo docente —planear una sesión, dar retroalimentación a un trabajo, diseñar una evaluación— se ven distintos en presencia de IA. Esta contribución ofrece los tres flujos en diagramas, con los puntos de dec"
           }
         },
@@ -10154,7 +10154,7 @@
           "present": true,
           "evidence": {
             "source": "content/laboratorio/integracion-ia/flujos-trabajo-docente-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Los principios sobre uso de IA en docencia abundan; los flujos operativos —*qué hago primero, qué después, dónde decido*— escasean. Esta contribución presenta tres flujos en diagramas, con los puntos de decisión humana visibles, para que cu"
           }
         }
@@ -10443,7 +10443,7 @@
           "present": true,
           "evidence": {
             "source": "content/licencia/index.md",
-            "line": 76,
+            "line": 75,
             "text": "mantienen la licencia original de su autor. Cuando reuses algo,"
           }
         },
@@ -10451,7 +10451,7 @@
           "present": true,
           "evidence": {
             "source": "content/licencia/index.md",
-            "line": 121,
+            "line": 120,
             "text": "formación docente son ejes prioritarios de UDGplus."
           }
         },
@@ -10463,7 +10463,7 @@
           "present": true,
           "evidence": {
             "source": "content/licencia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "este material —dentro y fuera de la universidad— para fortalecer el"
           }
         },
@@ -10471,7 +10471,7 @@
           "present": true,
           "evidence": {
             "source": "content/licencia/index.md",
-            "line": 77,
+            "line": 76,
             "text": "revisa la fuente original."
           }
         },
@@ -10487,7 +10487,7 @@
           "present": true,
           "evidence": {
             "source": "content/licencia/index.md",
-            "line": 77,
+            "line": 76,
             "text": "revisa la fuente original."
           }
         }
@@ -10511,7 +10511,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 25,
+            "line": 24,
             "text": "## El problema del ruido"
           }
         },
@@ -10519,7 +10519,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 27,
+            "line": 26,
             "text": "El monitoreo de herramientas emergentes tiene un problema específico que el monitoreo de publicaciones no tiene: la promoción comercial inunda el campo. Cada producto se anuncia con métricas excepcionales, casos de éxito seleccionados y voc"
           }
         },
@@ -10527,7 +10527,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Cada semana aparece una nueva herramienta de IA con promesa educativa. La mayoría no sobrevive seis meses; algunas sí cambian la práctica. Distinguir cuál es cuál exige una rutina de monitoreo distinta a la de publicaciones académicas: más "
           }
         },
@@ -10535,7 +10535,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 88,
+            "line": 87,
             "text": "| Herramienta | Fuente | Fecha | Filtro pasado | Decisión | Comentario |"
           }
         },
@@ -10543,7 +10543,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 43,
+            "line": 42,
             "text": "- **EDUCAUSE Horizon Report — Teaching and Learning Edition.** Publicación anual que identifica seis tendencias emergentes con potencial de impacto en educación superior. Conservador en sus pronósticos, lo que es virtud en un campo saturado"
           }
         },
@@ -10551,7 +10551,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 32,
+            "line": 31,
             "text": "- **Tiempo corto por sesión.** Veinte minutos semanales producen mejor resultado que dos horas mensuales."
           }
         },
@@ -10559,7 +10559,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Cada semana aparece una nueva herramienta de IA con promesa educativa. La mayoría no sobrevive seis meses; algunas sí cambian la práctica. Distinguir cuál es cuál exige una rutina de monitoreo distinta a la de publicaciones académicas: más "
           }
         },
@@ -10567,7 +10567,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-herramientas-emergentes/index.md",
-            "line": 43,
+            "line": 42,
             "text": "- **EDUCAUSE Horizon Report — Teaching and Learning Edition.** Publicación anual que identifica seis tendencias emergentes con potencial de impacto en educación superior. Conservador en sus pronósticos, lo que es virtud en un campo saturado"
           }
         }
@@ -10591,7 +10591,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 32,
+            "line": 31,
             "text": "- **Distribuir el monitoreo en el equipo.** Si una sola persona monitorea todo, el sistema se rompe cuando esa persona se va o se enferma."
           }
         },
@@ -10599,7 +10599,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Mantenerse al día en investigación sobre IA en educación es una función institucional, no una hazaña individual. Esta curaduría reúne doce fuentes que permiten construir una rutina de monitoreo sostenible, sin saturar al equipo ni perder lo"
           }
         },
@@ -10607,7 +10607,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Pocas fuentes, revisadas con frecuencia.** Mejor cinco fuentes revisadas semanalmente que veinte revisadas una vez por semestre."
           }
         },
@@ -10615,7 +10615,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 66,
+            "line": 65,
             "text": "| Fuente | Tipo | Frecuencia |"
           }
         },
@@ -10623,7 +10623,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 92,
+            "line": 91,
             "text": "- **Incorporar al sitio.** Las publicaciones relevantes que el equipo decide priorizar se agregan como [fichas bibliográficas](/recursos/articulos/). El esfuerzo de leer se preserva como recurso compartido."
           }
         },
@@ -10631,7 +10631,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
           }
         },
@@ -10639,7 +10639,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 27,
+            "line": 26,
             "text": "El ritmo de publicación sobre IA en educación rebasó hace tiempo lo que un docente individual puede leer. Una búsqueda en Google Scholar para *\"generative AI\" higher education* produce más de 50,000 resultados desde 2023; ningún equipo lee "
           }
         },
@@ -10647,7 +10647,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/monitoreo-publicaciones-ia-educativa/index.md",
-            "line": 92,
+            "line": 91,
             "text": "- **Incorporar al sitio.** Las publicaciones relevantes que el equipo decide priorizar se agregan como [fichas bibliográficas](/recursos/articulos/). El esfuerzo de leer se preserva como recurso compartido."
           }
         }
@@ -10671,7 +10671,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 101,
+            "line": 100,
             "text": "La participación en redes —de los tres tipos— rinde más cuando se sostiene en criterios explícitos:"
           }
         },
@@ -10679,7 +10679,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 31,
+            "line": 30,
             "text": "- **Redes de vinculación industria-academia.** Conectan investigación con desarrollo de productos. Tiempos cortos, productos específicos (proyectos, pruebas), asimetría de recursos entre miembros. Ejemplo: alianzas universidad-Google, unive"
           }
         },
@@ -10687,7 +10687,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 27,
+            "line": 26,
             "text": "Antes del listado, conviene diferenciar las lógicas. Confundir tipos de red lleva a expectativas equivocadas y participaciones frustrantes:"
           }
         },
@@ -10695,7 +10695,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 47,
+            "line": 46,
             "text": "División de la American Educational Research Association con foco en aprendizaje e instrucción, incluyendo IA en educación. La más grande del mundo en investigación educativa, con visibilidad alta para trabajo publicado allí."
           }
         },
@@ -10703,7 +10703,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 121,
+            "line": 120,
             "text": "La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica c"
           }
         },
@@ -10711,7 +10711,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 111,
+            "line": 110,
             "text": "| Tipo de red | Persona designada | Frecuencia mínima | Reporte interno |"
           }
         },
@@ -10719,7 +10719,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Una universidad pública no puede sostener investigación sobre IA en educación en aislamiento; tampoco puede delegar el rumbo a las grandes plataformas comerciales. La articulación con redes externas —académicas, institucionales, industriale"
           }
         },
@@ -10727,7 +10727,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/documentacion/redes-investigacion-vinculacion/index.md",
-            "line": 121,
+            "line": 120,
             "text": "La curaduría sobre [redes y espacios para compartir prácticas docentes con IA](/recursos/links/comunidades-practica-docente-ia/) ayuda a localizar puntos de entrada; la [página sobre redes y comunidades](/formacion-docente/redes/) explica c"
           }
         }
@@ -11313,7 +11313,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/_index.md",
-            "line": 29,
+            "line": 28,
             "text": "- **Revisión por pares** — protocolos para validar prácticas entre colegas antes de difundirlas."
           }
         },
@@ -11321,7 +11321,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/_index.md",
-            "line": 26,
+            "line": 25,
             "text": "- **Documentación de buenas prácticas** — cómo capturar una intervención docente con IA de forma replicable."
           }
         },
@@ -11329,7 +11329,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/_index.md",
-            "line": 29,
+            "line": 28,
             "text": "- **Revisión por pares** — protocolos para validar prácticas entre colegas antes de difundirlas."
           }
         },
@@ -11349,7 +11349,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/_index.md",
-            "line": 22,
+            "line": 21,
             "text": "Mientras los [estudios y encuestas](/observatorio/estudios/) reportan hallazgos empíricos, esta rama ofrece **el cómo metodológico**: protocolos, rúbricas de evaluación de herramientas, plantillas de documentación de buenas prácticas y crit"
           }
         },
@@ -11380,7 +11380,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La mayoría de los repositorios de \"buenas prácticas\" sufren del mismo problema: describen lo que se hizo sin permitir al lector decidir si puede hacer lo mismo. Una documentación útil cumple cuatro condiciones que una descripción simple no "
           }
         },
@@ -11388,7 +11388,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Una práctica docente sin documentar se queda en el aula donde ocurrió. Una práctica documentada con descuido viaja, pero llega rota: sin contexto, sin condiciones de aplicabilidad, sin la honestidad sobre lo que falló. Esta guía propone un "
           }
         },
@@ -11396,7 +11396,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Una práctica docente sin documentar se queda en el aula donde ocurrió. Una práctica documentada con descuido viaja, pero llega rota: sin contexto, sin condiciones de aplicabilidad, sin la honestidad sobre lo que falló. Esta guía propone un "
           }
         },
@@ -11404,7 +11404,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 32,
+            "line": 31,
             "text": "- **Comparabilidad** — la estructura es suficientemente parecida a otras prácticas del mismo repositorio para permitir lectura transversal."
           }
         },
@@ -11412,7 +11412,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 38,
+            "line": 37,
             "text": "La plantilla siguiente integra la mayoría de lo que se necesita para cumplir las cuatro condiciones. Las actividades propuestas del Laboratorio —[ABP con IA](/laboratorio/practicas/abp-con-ia/), [debate socrático con IA](/laboratorio/practi"
           }
         },
@@ -11420,7 +11420,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 77,
+            "line": 76,
             "text": "- ¿La rúbrica evalúa el proceso, no solo el entregable?"
           }
         },
@@ -11428,7 +11428,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 29,
+            "line": 28,
             "text": "- **Reproducibilidad** — otra persona puede aplicar la práctica con suficiente fidelidad para esperar resultados comparables."
           }
         },
@@ -11436,7 +11436,7 @@
           "present": false,
           "evidence": {
             "source": "content/observatorio/guias/documentacion-buenas-practicas-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "- **Trazabilidad** — el lector entiende qué decisiones tomó el docente y por qué; no solo el qué, también el cómo y el porqué."
           }
         }
@@ -11462,7 +11462,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. "
           }
         },
@@ -11470,7 +11470,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 54,
+            "line": 53,
             "text": "| Acción de la persona | ¿La herramienta permite comparar, corregir, explicar o decidir, o solo produce una respuesta terminada? |"
           }
         },
@@ -11478,7 +11478,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. "
           }
         },
@@ -11486,7 +11486,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. "
           }
         },
@@ -11494,7 +11494,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La Academic Senate for California Community Colleges (ASCCC) propone preguntas sobre uso ético, efecto pedagógico, usabilidad y sostenibilidad. La rúbrica de McMaster University publicada por eCampusOntario revisa función, accesibilidad, pr"
           }
         },
@@ -11502,7 +11502,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 41,
+            "line": 40,
             "text": "| Política de retención | ¿Qué datos conserva, durante cuánto tiempo y cómo se solicita su eliminación? |"
           }
         },
@@ -11510,7 +11510,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 22,
+            "line": 21,
             "text": "Antes de incorporar una herramienta educativa con IA, una institución necesita saber qué permite hacer, qué datos recibe, quién puede usarla, qué riesgos crea y quién puede autorizarla. Esta matriz organiza la revisión en seis dimensiones. "
           }
         },
@@ -11518,7 +11518,7 @@
           "present": true,
           "evidence": {
             "source": "content/observatorio/guias/evaluacion-herramientas-ia-educativas/index.md",
-            "line": 27,
+            "line": 26,
             "text": "La Academic Senate for California Community Colleges (ASCCC) propone preguntas sobre uso ético, efecto pedagógico, usabilidad y sostenibilidad. La rúbrica de McMaster University publicada por eCampusOntario revisa función, accesibilidad, pr"
           }
         }
@@ -11975,7 +11975,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 81,
+            "line": 80,
             "text": "En este documento, **GAIA-GEN** nombra al *Grupo Académico de Inteligencia Artificial Generativa en Educación* de la UNAM, autor de una recomendación citada por la guía; no es un segundo marco de evaluación equivalente a ARCHED ni se le atr"
           }
         },
@@ -11983,7 +11983,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 62,
+            "line": 61,
             "text": "description=\"31 páginas físicas — Red Colaborativa del Posgrado. Modalidades de uso de IA, sesgos, integridad investigadora y explicación técnica.\" >}}"
           }
         },
@@ -11991,7 +11991,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 108,
+            "line": 107,
             "text": "2. **Redactar un acuerdo local.** Elegir las recomendaciones pertinentes y convertirlas en reglas comprensibles para un curso o programa, sin copiar todo el documento."
           }
         },
@@ -11999,7 +11999,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 85,
+            "line": 84,
             "text": "La guía de **Licenciatura** atribuye a **UNESCO (2025)** diez principios: proporcionalidad, seguridad, intimidad, gobernanza, responsabilidad, transparencia, supervisión humana, sostenibilidad, sensibilización y equidad. Esa atribución debe"
           }
         },
@@ -12007,7 +12007,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 34,
+            "line": 33,
             "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
           }
         },
@@ -12015,7 +12015,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 121,
+            "line": 120,
             "text": "La [síntesis de los lineamientos UNESCO para IA en educación](/ia-educacion/etica-y-transparencia/lineamientos-unesco-ia-educacion/) ofrece un marco internacional más amplio. El Digital Education Council y Pearson [describen 14 metodologías"
           }
         },
@@ -12023,7 +12023,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 34,
+            "line": 33,
             "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
           }
         },
@@ -12031,7 +12031,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/articulos/guias-iagen-evaluacion-unam/index.md",
-            "line": 34,
+            "line": 33,
             "text": "En abril de 2026 la UNAM publicó tres **Guías de uso de Inteligencia Artificial Generativa en Evaluación Educativa**: una para bachillerato, otra para licenciatura y otra para posgrado. Son documentos orientadores, no normas. Esta página re"
           }
         }
@@ -12303,7 +12303,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 90,
+            "line": 89,
             "text": "El criterio pedagógico relevante no es cuál tiene más funciones, sino cuál permite que el estudiante vea y apruebe cada sugerencia antes de aplicarla. Las herramientas que reescriben párrafos enteros sin intervención diluyen la autoría."
           }
         },
@@ -12311,7 +12311,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 36,
+            "line": 35,
             "text": "La segunda es la **foto comparativa**: la aplicación de esos criterios a los modelos y herramientas disponibles en abril de 2026. Esa foto tiene fecha de caducidad. La revisión formal se hace cada seis meses; entre revisiones, el docente qu"
           }
         },
@@ -12319,7 +12319,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 25,
+            "line": 24,
             "text": "El mercado de herramientas de IA para educación cambia cada semestre. Este catálogo ofrece una matriz estable de criterios de evaluación y una foto comparativa, con el compromiso explícito de revisarse cada seis meses."
           }
         },
@@ -12327,7 +12327,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 44,
+            "line": 43,
             "text": "### Privacidad y tratamiento de datos"
           }
         },
@@ -12335,7 +12335,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 115,
+            "line": 114,
             "text": "Pregunta si hay datos personales de estudiantes o datos sensibles, como salud, identidad o procesos disciplinarios. Si la respuesta es sí en alguno, el criterio de privacidad descarta herramientas sin acuerdo institucional."
           }
         },
@@ -12343,7 +12343,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 56,
+            "line": 55,
             "text": "### Capacidad y calidad del resultado"
           }
         },
@@ -12351,7 +12351,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 25,
+            "line": 24,
             "text": "El mercado de herramientas de IA para educación cambia cada semestre. Este catálogo ofrece una matriz estable de criterios de evaluación y una foto comparativa, con el compromiso explícito de revisarse cada seis meses."
           }
         },
@@ -12359,7 +12359,7 @@
           "present": false,
           "evidence": {
             "source": "content/recursos/catalogo-herramientas-ia/index.md",
-            "line": 34,
+            "line": 33,
             "text": "La primera es la **matriz de criterios**: los cinco ejes con los que se evalúa cualquier herramienta de IA para uso académico. Esa matriz es estable, no depende de qué producto esté de moda."
           }
         }
@@ -12385,7 +12385,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 23,
+            "line": 22,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -12393,7 +12393,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 23,
+            "line": 22,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -12401,7 +12401,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 23,
+            "line": 22,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -12409,7 +12409,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 23,
+            "line": 22,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -12417,7 +12417,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 70,
+            "line": 69,
             "text": "Leer trabajo estudiantil y producir comentarios formativos requiere captar matices argumentativos. Claude muestra el mejor desempeño en literatura comparable (Tsai et al., 2025): identifica problemas estructurales sin perder el respeto al t"
           }
         },
@@ -12425,7 +12425,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 66,
+            "line": 65,
             "text": "Crear ejercicios o escenarios para clase es una tarea donde la diversidad y la pertinencia disciplinar pesan más que la profundidad. Gemini destaca por la integración con Google Workspace, que facilita generar variantes y exportar directame"
           }
         },
@@ -12433,7 +12433,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/comparativa-llm-pedagogica/index.md",
-            "line": 23,
+            "line": 22,
             "text": "\"¿Qué modelo uso para esta tarea?\" es la pregunta más frecuente después de un taller. El [catálogo de herramientas IA](/recursos/catalogo-herramientas-ia/) la responde con criterios institucionales —privacidad, acceso, costo, soporte—; esta"
           }
         },
@@ -14867,7 +14867,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         },
@@ -14875,7 +14875,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         },
@@ -14883,7 +14883,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         },
@@ -14891,7 +14891,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 25,
+            "line": 24,
             "text": "Las **curadurías temáticas** comparan varias fuentes que responden a una misma necesidad. Una reúne redes y espacios para compartir prácticas docentes; otra contrasta ejemplos internacionales para redactar políticas de IA en el syllabus. Es"
           }
         },
@@ -14899,7 +14899,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         },
@@ -14907,7 +14907,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         },
@@ -14919,7 +14919,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/_index.md",
-            "line": 18,
+            "line": 17,
             "text": "Esta sección reúne fuentes publicadas fuera del sitio. No basta con enlazarlas: cada página explica quién las produce, qué puede encontrar allí una persona y qué debe comprobar antes de adaptar sus propuestas a una asignatura o a una decisi"
           }
         }
@@ -15021,7 +15021,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "## Antes de elegir"
           }
         },
@@ -15029,7 +15029,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Esta curaduría ayuda a localizar personas, programas y conversaciones profesionales sobre IA en educación. Reúne seis puntos de entrada, pero no todos permiten incorporarse a una comunidad: algunos son redes, otros documentan un encuentro, "
           }
         },
@@ -15037,7 +15037,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 26,
+            "line": 25,
             "text": "## Antes de elegir"
           }
         },
@@ -15045,7 +15045,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Primero conviene precisar qué se busca. Una persona puede necesitar colegas con quienes intercambiar experiencias, una convocatoria para participar en actividades, casos latinoamericanos que pueda comparar o un documento colectivo para disc"
           }
         },
@@ -15053,7 +15053,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 62,
+            "line": 61,
             "text": "UNESCO celebró en diciembre de 2025 un seminario regional sobre competencias de IA para docentes y estudiantes de América Latina y el Caribe. La página conserva el programa y el marco de esa conversación. Documenta un encuentro fechado; no "
           }
         },
@@ -15061,7 +15061,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Esta curaduría ayuda a localizar personas, programas y conversaciones profesionales sobre IA en educación. Reúne seis puntos de entrada, pero no todos permiten incorporarse a una comunidad: algunos son redes, otros documentan un encuentro, "
           }
         },
@@ -15069,7 +15069,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 68,
+            "line": 67,
             "text": "Las universidades del Russell Group publicaron cinco principios comunes sobre IA generativa en educación. El documento sirve para comparar cómo una asociación universitaria formula compromisos sobre alfabetización, apoyo docente, evaluación"
           }
         },
@@ -15077,7 +15077,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/comunidades-practica-docente-ia/index.md",
-            "line": 62,
+            "line": 61,
             "text": "UNESCO celebró en diciembre de 2025 un seminario regional sobre competencias de IA para docentes y estudiantes de América Latina y el Caribe. La página conserva el programa y el marco de esa conversación. Documenta un encuentro fechado; no "
           }
         }
@@ -15183,7 +15183,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Una persona que lee el syllabus necesita saber qué usos de IA están permitidos en cada actividad, cuáles requieren declaración, cuáles no se aceptan y por qué. También debe saber qué hacer si no puede o no quiere usar una plataforma comerci"
           }
         },
@@ -15191,7 +15191,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Una persona que lee el syllabus necesita saber qué usos de IA están permitidos en cada actividad, cuáles requieren declaración, cuáles no se aceptan y por qué. También debe saber qué hacer si no puede o no quiere usar una plataforma comerci"
           }
         },
@@ -15199,7 +15199,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Una regla institucional sobre IA necesita traducirse en decisiones comprensibles dentro de cada asignatura. Las cinco fuentes de esta curaduría ayudan a comparar formulaciones, pero no son cinco syllabus completos: incluyen orientaciones do"
           }
         },
@@ -15207,7 +15207,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 28,
+            "line": 27,
             "text": "Una persona que lee el syllabus necesita saber qué usos de IA están permitidos en cada actividad, cuáles requieren declaración, cuáles no se aceptan y por qué. También debe saber qué hacer si no puede o no quiere usar una plataforma comerci"
           }
         },
@@ -15215,7 +15215,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 36,
+            "line": 35,
             "text": "Stanford presenta ejemplos de políticas restrictivas, mixtas y favorables al uso de IA. Son formulaciones que un docente puede comparar y adaptar. La página también plantea preguntas sobre objetivos de aprendizaje, equidad y comunicación co"
           }
         },
@@ -15223,7 +15223,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 23,
+            "line": 22,
             "text": "Una regla institucional sobre IA necesita traducirse en decisiones comprensibles dentro de cada asignatura. Las cinco fuentes de esta curaduría ayudan a comparar formulaciones, pero no son cinco syllabus completos: incluyen orientaciones do"
           }
         },
@@ -15231,7 +15231,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/links/syllabus-internacionales-ia/index.md",
-            "line": 30,
+            "line": 29,
             "text": "Estas decisiones no se reducen a elegir entre prohibir o permitir. Una misma asignatura puede aceptar IA para explorar alternativas, limitarla durante una evaluación individual y exigir que el estudiante explique qué parte del trabajo reali"
           }
         },
@@ -15324,7 +15324,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 43,
+            "line": 42,
             "text": "### 1. Enseñar antes de exigir"
           }
         },
@@ -15332,7 +15332,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 28,
+            "line": 27,
             "text": "**Este sitio no es un documento oficial.** Lo que sigue son sugerencias y criterios para alimentar conversaciones colegiadas, no normativa institucional. Aprendizaje-IA funciona como una red rizomática —sin centro ni jerarquía: cualquier do"
           }
         },
@@ -15340,7 +15340,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Las universidades mexicanas enfrentan la urgencia de pensar políticas sobre IA generativa, pero los reglamentos detallados envejecen en semanas. Este texto comparte siete sugerencias operativas — en lugar de un reglamento exhaustivo — junto"
           }
         },
@@ -15348,7 +15348,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Las universidades mexicanas enfrentan la urgencia de pensar políticas sobre IA generativa, pero los reglamentos detallados envejecen en semanas. Este texto comparte siete sugerencias operativas — en lugar de un reglamento exhaustivo — junto"
           }
         },
@@ -15356,7 +15356,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 45,
+            "line": 44,
             "text": "No resulta razonable pedir un uso responsable de algo que no se ha enseñado a comprender y juzgar. Una política que abre con obligaciones —declarar, abstenerse, citar de cierta forma— sin ofrecer formación traslada a docentes y estudiantes "
           }
         },
@@ -15364,7 +15364,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 111,
+            "line": 110,
             "text": "Esta tabla puede acompañar a cualquier conversación institucional como guía metodológica. Cada unidad académica que la retome puede responder las siete preguntas desde su contexto."
           }
         },
@@ -15372,7 +15372,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Las universidades mexicanas enfrentan la urgencia de pensar políticas sobre IA generativa, pero los reglamentos detallados envejecen en semanas. Este texto comparte siete sugerencias operativas — en lugar de un reglamento exhaustivo — junto"
           }
         },
@@ -15380,7 +15380,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/politica-ia-udeg/index.md",
-            "line": 45,
+            "line": 44,
             "text": "No resulta razonable pedir un uso responsable de algo que no se ha enseñado a comprender y juzgar. Una política que abre con obligaciones —declarar, abstenerse, citar de cierta forma— sin ofrecer formación traslada a docentes y estudiantes "
           }
         }
@@ -15404,7 +15404,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Los bancos de prompts que circulan en redes tienden a un mismo problema: acumulan ejemplos sin criterio. Un docente que los consulta encuentra cien prompts para \"hacer actividades con IA\" y ninguna forma de decidir cuál adaptar a su curso. "
           }
         },
@@ -15412,7 +15412,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Los bancos de prompts que circulan en redes tienden a un mismo problema: acumulan ejemplos sin criterio. Un docente que los consulta encuentra cien prompts para \"hacer actividades con IA\" y ninguna forma de decidir cuál adaptar a su curso. "
           }
         },
@@ -15420,7 +15420,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Un prompt bien escrito ahorra horas de iteración y mejora la calidad del resultado. Este repositorio reúne plantillas verificadas para las cuatro fases pedagógicas más frecuentes en docencia universitaria, con ejemplos funcionales en Claude"
           }
         },
@@ -15428,7 +15428,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Un prompt bien escrito ahorra horas de iteración y mejora la calidad del resultado. Este repositorio reúne plantillas verificadas para las cuatro fases pedagógicas más frecuentes en docencia universitaria, con ejemplos funcionales en Claude"
           }
         },
@@ -15436,7 +15436,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Los bancos de prompts que circulan en redes tienden a un mismo problema: acumulan ejemplos sin criterio. Un docente que los consulta encuentra cien prompts para \"hacer actividades con IA\" y ninguna forma de decidir cuál adaptar a su curso. "
           }
         },
@@ -15444,7 +15444,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 24,
+            "line": 23,
             "text": "Un prompt bien escrito ahorra horas de iteración y mejora la calidad del resultado. Este repositorio reúne plantillas verificadas para las cuatro fases pedagógicas más frecuentes en docencia universitaria, con ejemplos funcionales en Claude"
           }
         },
@@ -15452,7 +15452,7 @@
           "present": true,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Los bancos de prompts que circulan en redes tienden a un mismo problema: acumulan ejemplos sin criterio. Un docente que los consulta encuentra cien prompts para \"hacer actividades con IA\" y ninguna forma de decidir cuál adaptar a su curso. "
           }
         },
@@ -15460,7 +15460,7 @@
           "present": false,
           "evidence": {
             "source": "content/recursos/repositorio-prompts-docentes/index.md",
-            "line": 29,
+            "line": 28,
             "text": "Los bancos de prompts que circulan en redes tienden a un mismo problema: acumulan ejemplos sin criterio. Un docente que los consulta encuentra cien prompts para \"hacer actividades con IA\" y ninguna forma de decidir cuál adaptar a su curso. "
           }
         }
