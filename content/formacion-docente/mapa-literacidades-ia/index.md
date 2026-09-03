@@ -65,6 +65,24 @@ Los tres niveles son **acumulativos**: cada uno supone el anterior. La operativa
 
 ## Las tres literacidades
 
+La figura resume el marco completo antes de entrar a cada nivel: tres literacidades que se
+acumulan, con lo que desarrolla cada una, cómo se construye y su relación con Bloom y con los
+módulos del programa.
+
+{{< udgia-figure id="udgia-f13-literacidades" src="tres-literacidades.svg" >}}
+Tres literacidades acumulativas. Cada nivel conserva el anterior y añade una forma de juicio
+más exigente, de usar herramientas a dirigir el propio trabajo con IA:
+
+| Literacidad | Qué desarrolla | Cómo se construye | Nivel de Bloom | Módulos |
+|---|---|---|---|---|
+| Operativa (usar) | Formular instrucciones claras, iterar con la IA e integrarla al flujo de trabajo. | Práctica guiada y progresiva con ejemplos de la disciplina. | Recordar, comprender, aplicar | M1 |
+| Crítica (entender) | Reconocer sesgos, errores e invenciones en lo que la IA devuelve, y verificarlo. | Lectura lateral, contraste con fuentes y análisis del sesgo. | Analizar y evaluar | M1 y M2 |
+| Co-creación (dirigir) | Decidir qué preguntar, qué aceptar, qué descartar y cuándo no usar la IA. | Formular, evaluar, descartar, reformular y documentar. | Crear | M3, M4 y M6 |
+
+El módulo M5 adapta las tres literacidades a cada disciplina; la evaluación del proceso hace
+visible la progresión con portafolios, bitácoras y defensa oral.
+{{< /udgia-figure >}}
+
 {{< cards >}}
 
 {{< card title="Alfabetización operativa" icon="keyboard" color="#5c7ab4"

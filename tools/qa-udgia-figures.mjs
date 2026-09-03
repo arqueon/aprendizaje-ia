@@ -6,6 +6,8 @@ const root = process.cwd();
 const metadata = JSON.parse(fs.readFileSync(path.join(root, 'data', 'udgia_figures.json'), 'utf8'));
 const expectedAttribution = 'Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara';
 const expectedEditorialScope = 'Material editorial del proyecto; no constituye un dictamen institucional.';
+// Lote 3 (2026-09-03): F13 tres literacidades, VoBo del mismo día, paquete
+// dist/figuras/1.0.0-lote3 refrescado en la revisión 1fdb18e de la autoridad.
 // Resincronización 2026-08-30: la autoridad IAorientaciones publicó la generación
 // v0.12 (revisión abbcafc) que reescribió ocho de las figuras compartidas (F5 se sumó
 // por extensión del encargo el mismo día). El anclaje es por figura: las ocho
@@ -21,6 +23,7 @@ const canonicalSources = {
   'udgia-f08-producto-proceso': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: 'd47ecd06a76a42d52d8bd1a60b2d459d6791f408f5379ca1ab646fd2f47cdbaf', description: 'd068d1fc6309cf6884bcf237d2eba24f5607af16a99af1c06c50fae33ae15233' },
   'udgia-f11-politica-capas': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: 'c8ebc4b04c1e9212e0f8f34a817cd0420506e77aaaaf402672fcf7d33e85d234', description: 'ee13639ce63eea7710f1a61c0a652f7ee865785441128022936a90145c81d1c6' },
   'udgia-f17-priorizacion': { version: '0.12-consolidado-con-original', revision: 'abbcafc0b1f2832238153417b0bb917eb6b4a24e', svg: '20e738aa1e3085ccb76207f5b45a921fbaeb0ae91682f417b5406f8685ed518f', description: '9740094bac5bd1291f966a1a35967c8db60aaa5cb2c08663e52fa02892fff483' },
+  'udgia-f13-literacidades': { version: '1.0.0-lote3', revision: '1fdb18eacbe25498777fcd13287357dead3bfec0', svg: '15127692ec0925b63de916932476b8249eccbc3b3e11925471e2f99a547b0321', description: 'eb3cb4a201d796abb0f4e91c619e9464301e149a2d2aa8135667ef362d496545' },
 };
 const targets = {
   'udgia-f04-disociacion': {
@@ -76,6 +79,12 @@ const targets = {
     svg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion.svg',
     mobileSvg: 'content/ia-educacion/rutas/decision-institucional-ia/matriz-priorizacion-mobile.svg',
     fallbackSignal: '| Pregunta |',
+  },
+  'udgia-f13-literacidades': {
+    page: 'content/formacion-docente/mapa-literacidades-ia/index.md',
+    svg: 'content/formacion-docente/mapa-literacidades-ia/tres-literacidades.svg',
+    mobileSvg: 'content/formacion-docente/mapa-literacidades-ia/tres-literacidades-mobile.svg',
+    fallbackSignal: '| Literacidad |',
   },
 };
 const localTargets = {

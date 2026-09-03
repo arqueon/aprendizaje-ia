@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 540" role="img" aria-labelledby="titulo desc">
+  <title id="titulo">Las tres literacidades de la alfabetización en IA</title>
+  <desc id="desc">Mapa comparativo de tres literacidades acumulativas de la alfabetización en IA. La operativa
+    enseña a formular instrucciones claras, iterar con la IA e integrarla al flujo de trabajo; la crítica, a
+    reconocer sesgos, errores e invenciones en lo que la IA devuelve y a verificarlo con fuentes; la de
+    co-creación, a decidir qué preguntar, qué aceptar, qué descartar y cuándo no usar la IA. Cada columna
+    muestra qué desarrolla, cómo se construye, su nivel de Bloom y los módulos del programa (M1 a M6).</desc>
+  <metadata id="udgia-rights">Atribución: Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara. Licencia: CC BY-SA 4.0. Autorización editorial del proyecto; no constituye dictamen ni política institucional.</metadata>
+  <style>
+    .fig-canvas { fill:#f5f3ee; }
+    /* === TOKENS GRÁFICOS — ver figuras/TOKENS-GRAFICOS.md === */
+    .tk-font { font-family: 'Archivo Narrow', Helvetica, Arial, sans-serif; }
+    .f-ink { fill:#18223c; } .f-muted { fill:#525d70; }
+    .f-primary { fill:#34508c; } .f-good { fill:#536326; } .f-risk { fill:#8b2635; }
+    .bg-primary { fill:#e7ecf7; } .bg-good { fill:#ECEDDC; } .bg-risk { fill:#f8e7ea; }
+    .bg-neutral { fill:#ece9e1; } .bg-warn { fill:#f4e6d8; }
+    .st-primary { stroke:#34508c; } .st-good { stroke:#536326; } .st-risk { stroke:#8b2635; }
+    .st-warn { stroke:#914411; } .st-axis { stroke:#18223c; }
+
+    /* Apariencia oscura. Un SVG servido como imagen es un documento aislado: no ve la
+       clase html.dark del sitio, sólo la preferencia del sistema. Con autoSwitchAppearance
+       ambas coinciden salvo que la persona use el selector en contra de su SO; el lienzo
+       opaco garantiza legibilidad en cualquier caso. Ver CLAUDE.md convención 6.
+       Se cubren los dos juegos de nombres en uso: `.f-ink` (escritorio) y `.ink` (móvil). */
+    @media (prefers-color-scheme: dark) {
+      .fig-canvas { fill:#131c31; }
+      .f-ink, .ink { fill:#eceee9; }
+      .f-muted, .muted { fill:#a7b0c4; }
+      .f-primary, .primary { fill:#8ba3d6; }
+      .f-good, .good { fill:#b9c47a; }
+      .f-risk, .risk { fill:#d98b8f; }
+      .bg-primary { fill:#243352; } .bg-good { fill:#2b331f; } .bg-risk { fill:#40222a; }
+      .bg-neutral { fill:#212d4c; } .bg-warn { fill:#3a2c17; }
+      .st-primary { stroke:#8ba3d6; } .st-good { stroke:#b9c47a; } .st-risk { stroke:#d98b8f; }
+      .st-warn { stroke:#d49a55; } .st-axis { stroke:#eceee9; }
+    }
+  </style>
+
+  <defs>
+    <marker id="litArrow" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" class="f-ink"/>
+    </marker>
+  </defs>
+
+  <rect class="fig-canvas" x="0" y="0" width="940" height="540"/>
+  <g class="tk-font">
+    <!-- Encabezado de progresión -->
+    <text x="470" y="36" text-anchor="middle" font-size="20" font-weight="bold" class="f-ink">Tres literacidades acumulativas</text>
+    <text x="470" y="58" text-anchor="middle" font-size="13.5" class="f-muted">Cada nivel conserva el anterior y añade una forma de juicio más exigente.</text>
+
+    <line x1="95" y1="88" x2="845" y2="88" class="st-axis" stroke-width="1.8" marker-end="url(#litArrow)"/>
+    <text x="470" y="78" text-anchor="middle" font-size="12" class="f-muted">De usar herramientas a dirigir el propio trabajo con IA</text>
+
+    <!-- Columna 1 -->
+    <rect x="45" y="115" width="260" height="330" rx="2" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <rect x="45" y="115" width="260" height="54" rx="2" class="bg-neutral st-axis" stroke-width="1.4"/>
+    <text x="175" y="139" text-anchor="middle" font-size="18" font-weight="bold" class="f-ink">Operativa</text>
+    <text x="175" y="159" text-anchor="middle" font-size="13" class="f-muted">Usar</text>
+
+    <text x="70" y="197" font-size="11.5" font-weight="bold" class="f-primary">Qué desarrolla</text>
+    <text x="70" y="217" font-size="12.5" class="f-ink">Formular instrucciones claras,</text>
+    <text x="70" y="233" font-size="12.5" class="f-ink">iterar con la IA e integrarla</text>
+    <text x="70" y="249" font-size="12.5" class="f-ink">al flujo de trabajo.</text>
+
+    <text x="70" y="286" font-size="11.5" font-weight="bold" class="f-primary">Cómo se construye</text>
+    <text x="70" y="306" font-size="12.5" class="f-muted">Práctica guiada y progresiva</text>
+    <text x="70" y="322" font-size="12.5" class="f-muted">con ejemplos de la disciplina.</text>
+
+    <rect x="70" y="350" width="210" height="34" rx="2" class="bg-primary st-primary" stroke-width="1"/>
+    <text x="175" y="371" text-anchor="middle" font-size="12" class="f-primary">Bloom · recordar, comprender, aplicar</text>
+    <text x="175" y="413" text-anchor="middle" font-size="12" class="f-muted">Módulo M1</text>
+
+    <!-- Columna 2 -->
+    <rect x="340" y="115" width="260" height="330" rx="2" class="bg-warn st-warn" stroke-width="1.4"/>
+    <rect x="340" y="115" width="260" height="54" rx="2" class="bg-warn st-warn" stroke-width="1.4"/>
+    <text x="470" y="139" text-anchor="middle" font-size="18" font-weight="bold" class="f-ink">Crítica</text>
+    <text x="470" y="159" text-anchor="middle" font-size="13" class="f-muted">Entender</text>
+
+    <text x="365" y="197" font-size="11.5" font-weight="bold" class="f-primary">Qué desarrolla</text>
+    <text x="365" y="217" font-size="12.5" class="f-ink">Reconocer sesgos, errores e</text>
+    <text x="365" y="233" font-size="12.5" class="f-ink">invenciones en lo que la IA</text>
+    <text x="365" y="249" font-size="12.5" class="f-ink">devuelve, y verificarlo.</text>
+
+    <text x="365" y="286" font-size="11.5" font-weight="bold" class="f-primary">Cómo se construye</text>
+    <text x="365" y="306" font-size="12.5" class="f-muted">Lectura lateral, contraste con</text>
+    <text x="365" y="322" font-size="12.5" class="f-muted">fuentes y análisis del sesgo.</text>
+
+    <rect x="365" y="350" width="210" height="34" rx="2" class="bg-primary st-primary" stroke-width="1"/>
+    <text x="470" y="371" text-anchor="middle" font-size="12" class="f-primary">Bloom · analizar y evaluar</text>
+    <text x="470" y="413" text-anchor="middle" font-size="12" class="f-muted">Módulos M1 y M2</text>
+
+    <!-- Columna 3 -->
+    <rect x="635" y="115" width="260" height="330" rx="2" class="bg-good st-good" stroke-width="1.6"/>
+    <rect x="635" y="115" width="260" height="54" rx="2" class="bg-good st-good" stroke-width="1.6"/>
+    <text x="765" y="139" text-anchor="middle" font-size="18" font-weight="bold" class="f-good">Co-creación</text>
+    <text x="765" y="159" text-anchor="middle" font-size="13" class="f-muted">Dirigir</text>
+
+    <text x="660" y="197" font-size="11.5" font-weight="bold" class="f-primary">Qué desarrolla</text>
+    <text x="660" y="217" font-size="12.5" class="f-ink">Decidir qué preguntar, qué</text>
+    <text x="660" y="233" font-size="12.5" class="f-ink">aceptar, qué descartar y</text>
+    <text x="660" y="249" font-size="12.5" class="f-ink">cuándo no usar la IA.</text>
+
+    <text x="660" y="286" font-size="11.5" font-weight="bold" class="f-primary">Cómo se construye</text>
+    <text x="660" y="306" font-size="12.5" class="f-muted">Formular, evaluar, descartar,</text>
+    <text x="660" y="322" font-size="12.5" class="f-muted">reformular y documentar.</text>
+
+    <rect x="660" y="350" width="210" height="34" rx="2" class="bg-primary st-primary" stroke-width="1"/>
+    <text x="765" y="371" text-anchor="middle" font-size="12" font-weight="bold" class="f-primary">Bloom · crear</text>
+    <text x="765" y="413" text-anchor="middle" font-size="12" class="f-muted">Módulos M3, M4 y M6</text>
+
+    <!-- Dependencia acumulativa -->
+    <line x1="305" y1="279" x2="340" y2="279" class="st-axis" stroke-width="1.4" marker-end="url(#litArrow)"/>
+    <line x1="600" y1="279" x2="635" y2="279" class="st-axis" stroke-width="1.4" marker-end="url(#litArrow)"/>
+    <text x="322" y="267" text-anchor="middle" font-size="10.5" class="f-muted">supone</text>
+    <text x="617" y="267" text-anchor="middle" font-size="10.5" class="f-muted">supone</text>
+
+    <!-- Banda transversal -->
+    <rect x="75" y="472" width="790" height="42" rx="2" class="bg-primary st-primary" stroke-width="1.2"/>
+    <text x="470" y="490" text-anchor="middle" font-size="12" class="f-primary">El módulo M5 adapta las tres literacidades a cada disciplina</text>
+    <text x="470" y="506" text-anchor="middle" font-size="12" class="f-primary">La evaluación del proceso hace visible la progresión con portafolios, bitácoras y defensa oral</text>
+  </g>
+</svg>

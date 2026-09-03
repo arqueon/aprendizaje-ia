@@ -265,5 +265,25 @@
     "authorization_scope": "project-editorial",
     "institutional_policy_status": "not-an-institutional-ruling",
     "publication_authorized": true
+  },
+  "udgia-f13-literacidades": {
+    "title": "Las tres literacidades de la alfabetización en IA",
+    "alt": "Tres literacidades acumulativas de la alfabetización en IA, de usar herramientas a dirigir el propio trabajo: la operativa (formular instrucciones, iterar e integrar la IA al flujo de trabajo; Bloom recordar, comprender, aplicar; módulo M1), la crítica (reconocer sesgos, errores e invenciones y verificarlos con fuentes; Bloom analizar y evaluar; módulos M1 y M2) y la de co-creación (decidir qué preguntar, aceptar, descartar y cuándo no usar la IA; Bloom crear; módulos M3, M4 y M6). Cada nivel supone el anterior; el módulo M5 adapta las tres a cada disciplina.",
+    "caption": "Cada nivel conserva el anterior y añade una forma de juicio más exigente; el módulo M5 adapta las tres literacidades a cada disciplina.",
+    "source_version": "1.0.0-lote3",
+    "source_revision": "1fdb18eacbe25498777fcd13287357dead3bfec0",
+    "source_sha256": "15127692ec0925b63de916932476b8249eccbc3b3e11925471e2f99a547b0321",
+    "description_sha256": "eb3cb4a201d796abb0f4e91c619e9464301e149a2d2aa8135667ef362d496545",
+    "variant_sha256": "7e02748ab63899dd3797de4b2d89605ec9e348d28ba82490e4ee41dc73649995",
+    "src_mobile": "tres-literacidades-mobile.svg",
+    "mobile_variant_sha256": "deeb8896e457048d69977ab5499d6a22df8efaaf2a8d28a44b8f6ac86d0d3d32",
+    "adaptation": "hugo-lote3-vobo-contextual",
+    "provenance_kind": "original-synthesis",
+    "license": "CC BY-SA 4.0",
+    "attribution": "Aprendizaje Digital e IA (UDGPlus), Universidad de Guadalajara",
+    "editorial_scope": "Material editorial del proyecto; no constituye un dictamen institucional.",
+    "authorization_scope": "project-editorial",
+    "institutional_policy_status": "not-an-institutional-ruling",
+    "publication_authorized": true
   }
 }
